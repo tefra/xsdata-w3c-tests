@@ -3,16 +3,13 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                    "value": {
-                        "any_element": [
-                            "unions"
-                        ],
-                        "source": null,
-                        "lang": null,
-                        "other_attributes": {
-                            "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#declare-datatype"
-                        }
+                    "any_element": [
+                        "unions"
+                    ],
+                    "source": null,
+                    "lang": null,
+                    "other_attributes": {
+                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#declare-datatype"
                     }
                 }
             ],
@@ -25,15 +22,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "tests restriction facet in intervening union "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "tests restriction facet in intervening union "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -122,15 +116,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "Types derived by restriction from a union type "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "Types derived by restriction from a union type "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -219,15 +210,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "tests restriction facet in intervening union "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "tests restriction facet in intervening union "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -316,15 +304,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "Types derived by restriction from a union type "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "Types derived by restriction from a union type "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -413,15 +398,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "xsi:type used to name a member of a restricted union type "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "xsi:type used to name a member of a restricted union type "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -510,15 +492,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "Union of unions"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "Union of unions"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -607,15 +586,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "xsi:type used to name a member of a restricted union type "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "xsi:type used to name a member of a restricted union type "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -702,15 +678,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "tests restriction facet in intervening union "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "tests restriction facet in intervening union "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -799,15 +772,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "tests restriction facet in intervening union "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "tests restriction facet in intervening union "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -896,15 +866,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "tests restriction facet in intervening union "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "tests restriction facet in intervening union "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -993,15 +960,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "Types derived by restriction from a union type "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "Types derived by restriction from a union type "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1090,15 +1054,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "xsi:type used to name a member of a restricted union type  "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "xsi:type used to name a member of a restricted union type  "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1187,15 +1148,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "xsi:type used to name a member of a restricted union type"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "xsi:type used to name a member of a restricted union type"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1284,15 +1242,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "xsi:type used to name a member of a restricted union type "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "xsi:type used to name a member of a restricted union type "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1381,15 +1336,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "Union type a member of its own transitive membership  "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "Union type a member of its own transitive membership  "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1450,15 +1402,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "Cyclicity of union types  "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "Cyclicity of union types  "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1519,15 +1468,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "Cyclicity of union types"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "Cyclicity of union types"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1588,15 +1534,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "Cyclicity of union types  "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "Cyclicity of union types  "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1657,15 +1600,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "Cyclicity of union types "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "Cyclicity of union types "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}

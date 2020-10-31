@@ -3,42 +3,33 @@
         {
             "node_or_id_or_idrefs": [
                 {
-                    "qname": "node",
-                    "value": {
-                        "node_or_id_or_idrefs": [],
-                        "id": [],
-                        "idrefs": [
-                            "bbb",
-                            "ccc",
-                            "ggg"
-                        ]
-                    }
-                },
-                {
-                    "qname": "node",
-                    "value": {
-                        "node_or_id_or_idrefs": [
-                            {
-                                "qname": "idrefs",
-                                "value": [
-                                    "aaa",
-                                    "ddd"
-                                ]
-                            }
-                        ],
-                        "id": [
-                            "ggg"
-                        ],
-                        "idrefs": []
-                    }
-                },
-                {
-                    "qname": "id",
-                    "value": [
+                    "node_or_id_or_idrefs": [],
+                    "id": [],
+                    "idrefs": [
+                        "bbb",
                         "ccc",
-                        "ddd"
+                        "ggg"
                     ]
-                }
+                },
+                {
+                    "node_or_id_or_idrefs": [
+                        {
+                            "qname": "idrefs",
+                            "value": [
+                                "aaa",
+                                "ddd"
+                            ]
+                        }
+                    ],
+                    "id": [
+                        "ggg"
+                    ],
+                    "idrefs": []
+                },
+                [
+                    "ccc",
+                    "ddd"
+                ]
             ],
             "id": [
                 "aaa",

@@ -1,14 +1,8 @@
 {
     "id_or_elem": [
         {
-            "qname": "ID",
-            "value": {
-                "att": "ab"
-            }
+            "att": "ab"
         },
-        {
-            "qname": "elem",
-            "value": "ab"
-        }
+        "ab"
     ]
 }

@@ -6,15 +6,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Empty annotation in schema element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Empty annotation in schema element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -67,15 +64,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Basic annotation in schema, all, complexType, element element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Basic annotation in schema, all, complexType, element element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -128,15 +122,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Basic annotation in any, sequence Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Basic annotation in any, sequence Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -189,15 +180,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Basic annotation in anyAttribute, simpleContent, extension element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Basic annotation in anyAttribute, simpleContent, extension element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -250,15 +238,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Basic annotation in appinfo element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Basic annotation in appinfo element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -311,15 +296,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Basic annotation in attribute element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Basic annotation in attribute element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -372,15 +354,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Basic annotation in attributeGroup element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Basic annotation in attributeGroup element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -433,15 +412,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Basic annotation in choice element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Basic annotation in choice element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -494,15 +470,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Basic annotation in complexContent element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Basic annotation in complexContent element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -555,15 +528,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Basic annotation in documentation element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Basic annotation in documentation element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -616,15 +586,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Basic annotation in field element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Basic annotation in field element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -677,15 +644,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Basic annotation in group element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Basic annotation in group element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -738,15 +702,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Basic annotation in import element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Basic annotation in import element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -799,15 +760,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Basic annotation in include element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Basic annotation in include element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -860,15 +818,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Basic annotation in key element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Basic annotation in key element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -921,15 +876,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Basic annotation in keyref element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Basic annotation in keyref element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -982,15 +934,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Basic annotation in list element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Basic annotation in list element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1043,15 +992,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Basic annotation in notation element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Basic annotation in notation element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1104,15 +1050,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Basic annotation in redefine element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Basic annotation in redefine element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1165,15 +1108,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Basic annotation in restriction, simpleType element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Basic annotation in restriction, simpleType element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1226,15 +1166,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Basic annotation in selector element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Basic annotation in selector element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1287,15 +1224,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Basic annotation in union element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Basic annotation in union element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1348,15 +1282,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Basic annotation in unique element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Basic annotation in unique element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1409,15 +1340,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Annotation within Annotation"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Annotation within Annotation"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1470,15 +1398,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation with appinfo's source=\"\""
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation with appinfo's source=\"\""
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1531,15 +1456,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation with documentation's source=\"\""
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation with documentation's source=\"\""
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1592,15 +1514,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the all Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the all Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1653,15 +1572,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the annotation Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the annotation Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1714,15 +1630,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the any Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the any Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1775,15 +1688,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the anyAttribute Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the anyAttribute Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1836,15 +1746,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the appInfo Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the appInfo Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1897,15 +1804,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the attribute Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the attribute Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1958,15 +1862,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the attributeGroup Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the attributeGroup Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2019,15 +1920,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the choice Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the choice Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2080,15 +1978,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the complexContent Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the complexContent Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2141,15 +2036,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the complexType Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the complexType Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2202,15 +2094,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the documentation Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the documentation Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2263,15 +2152,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the element Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the element Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2324,15 +2210,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the extension Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the extension Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2385,15 +2268,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the field Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the field Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2446,15 +2326,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the group Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the group Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2507,15 +2384,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the import Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the import Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2568,15 +2442,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the include Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the include Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2629,15 +2500,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the key Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the key Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2690,15 +2558,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the keyRef Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the keyRef Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2751,15 +2616,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the list Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the list Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2812,15 +2674,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the Notation Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the Notation Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2873,26 +2732,20 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the redefine Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the redefine Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         },
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TSTF and author agree this is valid"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TSTF and author agree this is valid"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2960,15 +2813,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the restriction Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the restriction Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3021,15 +2871,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the schema Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the schema Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3082,15 +2929,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the selector Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the selector Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3143,15 +2987,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the sequence Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the sequence Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3204,15 +3045,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the simpleContent Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the simpleContent Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3265,15 +3103,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the simpleType Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the simpleType Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3326,15 +3161,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the union Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the union Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3387,15 +3219,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare annotation twice under the unique Element"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare annotation twice under the unique Element"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3448,15 +3277,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare Annotation with appinfo with well-formed XML Content <b/> tags"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare Annotation with appinfo with well-formed XML Content <b/> tags"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3509,15 +3335,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare Annotation with appinfo with well-formed XML content a:b tags"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare Annotation with appinfo with well-formed XML content a:b tags"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3570,15 +3393,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare Annotation with appinfo with source=http://www.w3.org/TR/Schema-0/"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare Annotation with appinfo with source=http://www.w3.org/TR/Schema-0/"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3631,15 +3451,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare Annotation with appinfo with source=http://www.w3.org/TR/Schema-0/ and text content"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare Annotation with appinfo with source=http://www.w3.org/TR/Schema-0/ and text content"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3692,15 +3509,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare Annotation with two appinfos with text"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare Annotation with two appinfos with text"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3753,15 +3567,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare Annotation with documentation with well-formed XML Content <b/> tags"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare Annotation with documentation with well-formed XML Content <b/> tags"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3814,15 +3625,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare Annotation with documentation with well-formed XML content a:b tags"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare Annotation with documentation with well-formed XML content a:b tags"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3875,15 +3683,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare Annotation with documentation with source=http://www.w3.org/TR/Schema-0/"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare Annotation with documentation with source=http://www.w3.org/TR/Schema-0/"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3936,15 +3741,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare Annotation with documentation with source=http://www.w3.org/TR/Schema-0/ and text content"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare Annotation with documentation with source=http://www.w3.org/TR/Schema-0/ and text content"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3997,15 +3799,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare Annotation with two documentations with text"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare Annotation with two documentations with text"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4058,15 +3857,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare Annotation with two appinfos and two documentations with text"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare Annotation with two appinfos and two documentations with text"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4119,15 +3915,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Declare Annotation with two appinfos and two documentations with well-formed XML"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Declare Annotation with two appinfos and two documentations with well-formed XML"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4180,15 +3973,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Annotation with documentation source=\"http://foo.com\" xml:lang=\"\""
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Annotation with documentation source=\"http://foo.com\" xml:lang=\"\""
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4241,15 +4031,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Annotation with documentation source=\"http://foo.com\" xml:lang=\"english\""
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Annotation with documentation source=\"http://foo.com\" xml:lang=\"english\""
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4302,15 +4089,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Annotation with documentation source=\"http://foo.com\" xml:lang=\" \""
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Annotation with documentation source=\"http://foo.com\" xml:lang=\" \""
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4363,15 +4147,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Annotation with documentation source=\"http://foo.com\" xml:lang=\"en\""
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Annotation with documentation source=\"http://foo.com\" xml:lang=\"en\""
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4424,15 +4205,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Annotation with documentation source=\"http://foo.com\" xml:lang=\"jp\""
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Annotation with documentation source=\"http://foo.com\" xml:lang=\"jp\""
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4485,15 +4263,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Annotation with documentation source=\"http://foo.com\" xml:lang=\"ar\""
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Annotation with documentation source=\"http://foo.com\" xml:lang=\"ar\""
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4546,15 +4321,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Annotation with documentation source=\"http://foo.com\" xml:lang=\"d\""
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Annotation with documentation source=\"http://foo.com\" xml:lang=\"d\""
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4607,15 +4379,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : If required test documentation element with xml:lang= list of codes listed under HKEY_CLASSES_ROOT\\MIME\\Database\\Rfc1766"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : If required test documentation element with xml:lang= list of codes listed under HKEY_CLASSES_ROOT\\MIME\\Database\\Rfc1766"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4668,15 +4437,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : Annotation with an arbit attribute foo=\"bar\""
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : Annotation with an arbit attribute foo=\"bar\""
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4729,15 +4495,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : ID attribute in annotation"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : ID attribute in annotation"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4790,15 +4553,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : large number of annotation elements"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : large number of annotation elements"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4851,15 +4611,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :Annotation Tests : test default namespace declared on xs:documentation should not overwrite the schema's default namespace"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :Annotation Tests : test default namespace declared on xs:documentation should not overwrite the schema's default namespace"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}

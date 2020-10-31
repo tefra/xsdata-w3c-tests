@@ -1,9 +1,6 @@
 {
     "element_or_element_ref_or_element_refs": [
-        {
-            "qname": "Element",
-            "value": "e001"
-        },
+        "e001",
         {
             "qname": "ElementRef",
             "value": "e001"
@@ -14,10 +11,7 @@
                 "e001"
             ]
         },
-        {
-            "qname": "Element",
-            "value": "e002"
-        },
+        "e002",
         {
             "qname": "ElementRef",
             "value": "e001"

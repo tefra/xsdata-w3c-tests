@@ -6,15 +6,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : Schema Collection: (A,a.xsd), SchemaLocation: (B,b.xsd), NoNSSchemaLocation: c.xsd"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : Schema Collection: (A,a.xsd), SchemaLocation: (B,b.xsd), NoNSSchemaLocation: c.xsd"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -95,26 +92,20 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation: (A,b.xsd), NoNSSchemaLocation:, expected: the xml instance must conform to (A,a.xsd), the inline schemaLocation (A,b.xsd) is ignored."
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation: (A,b.xsd), NoNSSchemaLocation:, expected: the xml instance must conform to (A,a.xsd), the inline schemaLocation (A,b.xsd) is ignored."
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         },
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "WG decided this might reasonably vary between implementations"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "WG decided this might reasonably vary between implementations"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -210,15 +201,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation:, NoNSSchemaLocation:,"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation:, NoNSSchemaLocation:,"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -299,15 +287,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : Schema Collection:, SchemaLocation:(A,a.xsd), NoNSSchemaLocation:,"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : Schema Collection:, SchemaLocation:(A,a.xsd), NoNSSchemaLocation:,"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -360,26 +345,20 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : Schema Collection:(A,a.xsd) (B, b.xsd), SchemaLocation:(B,a.xsd), NoNSSchemaLocation:, xmlinstance should conform to (A,a.xsd)(B,b.xsd), ignore the inline SchemaLocation (B,a.xsd)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : Schema Collection:(A,a.xsd) (B, b.xsd), SchemaLocation:(B,a.xsd), NoNSSchemaLocation:, xmlinstance should conform to (A,a.xsd)(B,b.xsd), ignore the inline SchemaLocation (B,a.xsd)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         },
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "WG decided this might reasonably vary between implementations"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "WG decided this might reasonably vary between implementations"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -481,26 +460,20 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation:(A,c.xsd)(B,b.xsd), NoNSSchemaLocation: The instance xml conform to (A,a.xsd)(B,b.xsd)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation:(A,c.xsd)(B,b.xsd), NoNSSchemaLocation: The instance xml conform to (A,a.xsd)(B,b.xsd)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         },
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "WG decided this might reasonably vary between implementations"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "WG decided this might reasonably vary between implementations"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -596,15 +569,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation:(A,c.xsd)(B,b.xsd where b.xsd's tns=foo), NoNSSchemaLocation: Since b.xsd exist, this should give error because the targetNS 'B' is not the same as what is in b.xsd 'foo'"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation:(A,c.xsd)(B,b.xsd where b.xsd's tns=foo), NoNSSchemaLocation: Since b.xsd exist, this should give error because the targetNS 'B' is not the same as what is in b.xsd 'foo'"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -657,15 +627,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : test the ID attribute on include, by setting duplicated id"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : test the ID attribute on include, by setting duplicated id"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -718,15 +685,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : test the ID attribute on include, by setting duplicated id"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : test the ID attribute on include, by setting duplicated id"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -779,15 +743,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : test the annotation child node of include"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : test the annotation child node of include"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -840,15 +801,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : single include"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : single include"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -901,15 +859,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : Schema Location resolved to not-wf XML, test the resolution of schemaLoction on include (SRC 1)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : Schema Location resolved to not-wf XML, test the resolution of schemaLoction on include (SRC 1)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -962,15 +917,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : Schema Location resolved to wf XML but not a schema, test the resolution of schemaLoction on include (SRC 1)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : Schema Location resolved to wf XML but not a schema, test the resolution of schemaLoction on include (SRC 1)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1023,15 +975,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : Schema Location resolved to invalid URL, test the resolution of schemaLoction on include (SRC 1)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : Schema Location resolved to invalid URL, test the resolution of schemaLoction on include (SRC 1)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1084,15 +1033,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : XSD A include XSD B, A's ns=\"\", B's ns=\"A\", test the namespace of include (4.2.1) (SRC 2)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : XSD A include XSD B, A's ns=\"\", B's ns=\"A\", test the namespace of include (4.2.1) (SRC 2)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1145,15 +1091,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : XSD A include XSD B, A's ns=\"\", B's ns=\"\", test the namespace of include (4.2.1) (SRC 2)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : XSD A include XSD B, A's ns=\"\", B's ns=\"\", test the namespace of include (4.2.1) (SRC 2)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1234,15 +1177,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : XSD A include XSD B, A's ns=\"A\", B's ns=\"A\", test the namespace of include (4.2.1) (SRC 2)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : XSD A include XSD B, A's ns=\"A\", B's ns=\"A\", test the namespace of include (4.2.1) (SRC 2)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1323,15 +1263,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : XSD A include XSD B, A's ns=\"A\", B's ns=\"B\", test the namespace of include (4.2.1) (SRC 2)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : XSD A include XSD B, A's ns=\"A\", B's ns=\"B\", test the namespace of include (4.2.1) (SRC 2)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1384,15 +1321,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : A include B and C, A's ns=\"A\", B's ns=\"A\", C's ns=\"A\", type ref from A to B and C, B to A and C, C to A and B"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : A include B and C, A's ns=\"A\", B's ns=\"A\", C's ns=\"A\", type ref from A to B and C, B to A and C, C to A and B"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1473,15 +1407,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : A includes B and C, B is bogus URL, C is valid XSD, test that there is no error and C is included."
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : A includes B and C, B is bogus URL, C is valid XSD, test that there is no error and C is included."
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1562,26 +1493,20 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : schemaLocation on include should not give error for unable to resolve the path file://."
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : schemaLocation on include should not give error for unable to resolve the path file://."
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         },
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "WG decided this was OK, but also changed the test to have a\nsyntactically valid by guaranteed-to-not-resolve URI"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "WG decided this was OK, but also changed the test to have a\nsyntactically valid by guaranteed-to-not-resolve URI"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1649,15 +1574,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : validate instance against 'chameleon' include schema (2)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : validate instance against 'chameleon' include schema (2)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1738,15 +1660,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : test union type in a chameleon schema"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : test union type in a chameleon schema"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1799,15 +1718,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : test ID attribute on import, by setting duplicated id"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : test ID attribute on import, by setting duplicated id"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1860,15 +1776,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : test ID attribute on import, by setting duplicated id"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : test ID attribute on import, by setting duplicated id"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1921,15 +1834,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : test the annotation child node of include"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : test the annotation child node of include"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1982,15 +1892,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : single 'import'"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : single 'import'"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2043,15 +1950,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : import namespace=\"foo\""
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : import namespace=\"foo\""
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2132,15 +2036,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : Schema location resolved to not-wf XML"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : Schema location resolved to not-wf XML"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2193,15 +2094,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : Schema location resolved to wf XML but not a schema"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : Schema location resolved to wf XML but not a schema"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2254,15 +2152,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : import's Schema location resolved to invalid URL."
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : import's Schema location resolved to invalid URL."
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2315,15 +2210,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : import's Schema location resolved to a valid URL to a bogus XSD."
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : import's Schema location resolved to a valid URL to a bogus XSD."
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2376,15 +2268,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : XSD X import XSD Y, X's ns=\"A\", Y's ns=\"\", test the namespace of import"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : XSD X import XSD Y, X's ns=\"A\", Y's ns=\"\", test the namespace of import"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2465,15 +2354,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : XSD X import XSD Y, X's ns=\"\", Y's ns=\"A\", test the namespace of import"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : XSD X import XSD Y, X's ns=\"\", Y's ns=\"A\", test the namespace of import"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2554,15 +2440,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : XSD X import XSD Y, X's ns=\"\", Y's ns=\"\", test the namespace of import"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : XSD X import XSD Y, X's ns=\"\", Y's ns=\"\", test the namespace of import"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2615,15 +2498,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : XSD X import XSD Y, X's ns=\"A\", Y's ns=\"A\", test the namespace of import"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : XSD X import XSD Y, X's ns=\"A\", Y's ns=\"A\", test the namespace of import"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2676,15 +2556,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : XSD X import XSD Y, X's ns=\"A\", Y's ns=\"B\", test the namespace of import"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : XSD X import XSD Y, X's ns=\"A\", Y's ns=\"B\", test the namespace of import"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2765,15 +2642,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : XSD: test namespace on the xs:import statement does not match the one in the imported schema."
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : XSD: test namespace on the xs:import statement does not match the one in the imported schema."
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2826,15 +2700,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : A import B, B import C, A's ns=\"A\", B's ns=\"B\", C's ns=\"C\""
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : A import B, B import C, A's ns=\"A\", B's ns=\"B\", C's ns=\"C\""
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2915,15 +2786,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : A import B, B import C, A's ns=\"A\", B's ns=\"\", C's ns=\"C\""
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : A import B, B import C, A's ns=\"A\", B's ns=\"\", C's ns=\"C\""
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3004,15 +2872,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : A import B, B import C, A's ns=\"A\", B's ns=\"B\", C's ns=\"A\", (A and C have no confilcting decl)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : A import B, B import C, A's ns=\"A\", B's ns=\"B\", C's ns=\"A\", (A and C have no confilcting decl)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3101,15 +2966,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : A import B and C, A's ns=\"A\", B's ns=\"B\", C's ns=\"C\""
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : A import B and C, A's ns=\"A\", B's ns=\"B\", C's ns=\"C\""
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3190,15 +3052,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : A import B and C, A's ns=\"A\", B's ns=\"B\", C's ns=\"B\", (B and C have no confilcting decl)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : A import B and C, A's ns=\"A\", B's ns=\"B\", C's ns=\"B\", (B and C have no confilcting decl)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3279,15 +3138,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : A import B and C, A's ns=\"A\", B's ns=\"B\", C's ns=\"B\", (B and C have confilcting decl)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : A import B and C, A's ns=\"A\", B's ns=\"B\", C's ns=\"B\", (B and C have confilcting decl)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3348,15 +3204,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : A imports B and B and C, B imports C and D, C imports D and A, multiple import of the same XSD is ok"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : A imports B and B and C, B imports C and D, C imports D and A, multiple import of the same XSD is ok"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3437,15 +3290,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : A import B and C, B is bogus URL, C is valid XSD, test that there is no error and C is imported."
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : A import B and C, B is bogus URL, C is valid XSD, test that there is no error and C is imported."
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3526,26 +3376,20 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : A import B and D, B import C, A's ns=\"A\", B's ns=\"B\", C's ns=\"A\", D's ns=D A has type ref to BCD, B has type ref to ACD, C has type ref to ABD"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : A import B and D, B import C, A's ns=\"A\", B's ns=\"B\", C's ns=\"A\", D's ns=D A has type ref to BCD, B has type ref to ACD, C has type ref to ABD"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         },
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TSTF agreed that an un-imported NS used in a QName is a schema error"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TSTF agreed that an un-imported NS used in a QName is a schema error"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3613,15 +3457,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : A import B, A's ns=\"A\", B's ns=\"\", import ns=\"B\" if namespace present it must be the same as targetNamespace of the imported xsd."
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : A import B, A's ns=\"A\", B's ns=\"\", import ns=\"B\" if namespace present it must be the same as targetNamespace of the imported xsd."
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3674,15 +3515,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : A import B, B import C, A's ns=\"A\", B's ns=\"B\", C's ns=\"A\", (A and C have confilcting decl)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : A import B, B import C, A's ns=\"A\", B's ns=\"B\", C's ns=\"A\", (A and C have confilcting decl)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3743,15 +3581,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : A import B, B import C, A's ns=\"A\", B's ns=\"B\", C's ns=\"B\", All declaration in B and C should be available to validation"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : A import B, B import C, A's ns=\"A\", B's ns=\"B\", C's ns=\"B\", All declaration in B and C should be available to validation"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3840,15 +3675,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : A import B, B ihas no target NS but 'import' has NS."
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : A import B, B ihas no target NS but 'import' has NS."
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3901,26 +3733,20 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : B added; A imports B but with bad schemaLocation, B should still be imported."
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : B added; A imports B but with bad schemaLocation, B should still be imported."
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         },
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "WG decided this might reasonably vary between implementations"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "WG decided this might reasonably vary between implementations"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3994,15 +3820,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : test importing schemas that make a circular reference"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : test importing schemas that make a circular reference"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4055,15 +3878,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : test ID in redefine"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : test ID in redefine"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4116,15 +3936,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : test annotation as child of redefine"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : test annotation as child of redefine"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4177,15 +3994,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : single 'redefine'"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : single 'redefine'"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4238,15 +4052,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine namespace=\"foo\""
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine namespace=\"foo\""
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4299,15 +4110,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : SchemaLocation resolved to not-wf XML"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : SchemaLocation resolved to not-wf XML"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4360,15 +4168,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : SchemaLocation resolved to wf XML but not a schema,(SRC 2)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : SchemaLocation resolved to wf XML but not a schema,(SRC 2)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4421,15 +4226,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : SchemaLocation resolved to invalid URL, redefine has only annotation"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : SchemaLocation resolved to invalid URL, redefine has only annotation"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4482,15 +4284,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : XSD X redefine XSD Y, X's ns=\"\", Y's ns=\"A\", test the namespace of redefine"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : XSD X redefine XSD Y, X's ns=\"\", Y's ns=\"A\", test the namespace of redefine"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4543,15 +4342,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : XSD X redefine XSD Y, X's ns=\"A\", Y's ns=\"B\", test the namespace of redefine"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : XSD X redefine XSD Y, X's ns=\"A\", Y's ns=\"B\", test the namespace of redefine"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4604,15 +4400,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : test simpleType as child of redefine, type definition that NOT uses themselves as base type definition"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : test simpleType as child of redefine, type definition that NOT uses themselves as base type definition"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4665,15 +4458,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : test simpleType as child of redefine, type definition that have no base type definition"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : test simpleType as child of redefine, type definition that have no base type definition"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4726,15 +4516,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : test complexType as child of redefine, type definition that NOT uses themselves as base type definition"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : test complexType as child of redefine, type definition that NOT uses themselves as base type definition"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4787,15 +4574,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : test complexType as child of redefine, type definition that have no base type definition"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : test complexType as child of redefine, type definition that have no base type definition"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4848,15 +4632,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : test group as child of redefine, group (all, sequence, choice) is a subset of their original def"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : test group as child of redefine, group (all, sequence, choice) is a subset of their original def"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4909,26 +4690,20 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : test group as child of redefine, group (all, sequence, choice), all, is a superset of their original def by self referencing This violate the content of 'all', because it does not allow 'group' as child."
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : test group as child of redefine, group (all, sequence, choice), all, is a superset of their original def by self referencing This violate the content of 'all', because it does not allow 'group' as child."
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         },
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "Legal in XSD 1.1: an all group content model can now contain a group reference to another all group."
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "Legal in XSD 1.1: an all group content model can now contain a group reference to another all group."
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4996,26 +4771,20 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : test group as child of redefine, group all is is the same set of their original def by redeclaring all items from the original, but in different order"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : test group as child of redefine, group all is is the same set of their original def by redeclaring all items from the original, but in different order"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         },
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "Invalid restriction which becomes valid in XSD 1.1 - MHK"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "Invalid restriction which becomes valid in XSD 1.1 - MHK"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -5083,15 +4852,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : test group as child of redefine, group sequence is the same set of their original def by redeclaring all items from the original, but in different order"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : test group as child of redefine, group sequence is the same set of their original def by redeclaring all items from the original, but in different order"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -5144,15 +4910,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : test group as child of redefine, group is a superset of the original def by redeclaring all items from the original and additional ones"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : test group as child of redefine, group is a superset of the original def by redeclaring all items from the original and additional ones"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -5205,15 +4968,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine of an invalid redefine itself, should throw an error"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine of an invalid redefine itself, should throw an error"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -5266,15 +5026,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : test attributeGroup as child of redefine, attribute group is a superset of the original def by redeclaring all items from the original and additional ones"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : test attributeGroup as child of redefine, attribute group is a superset of the original def by redeclaring all items from the original and additional ones"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -5327,15 +5084,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : test attributeGroup as child of redefine, attribute group is the same as the original def by redeclaring all items from the original, but in different order"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : test attributeGroup as child of redefine, attribute group is the same as the original def by redeclaring all items from the original, but in different order"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -5388,15 +5142,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine of an invalid redefine itself, should throw an error"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine of an invalid redefine itself, should throw an error"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -5449,15 +5200,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine of att group with self ref with duplicate attribute"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine of att group with self ref with duplicate attribute"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -5510,15 +5258,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : fixed and default constraints check in attributeGroup redefine"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : fixed and default constraints check in attributeGroup redefine"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -5571,15 +5316,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : fixed and default constraints check in attributeGroup redefine(invalid)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : fixed and default constraints check in attributeGroup redefine(invalid)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -5632,15 +5374,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : schema include xsdA (ns=same) and xsdB (ns=\"\"), both xsdA and xsdB has redefine of the same item from xsdC"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : schema include xsdA (ns=same) and xsdB (ns=\"\"), both xsdA and xsdB has redefine of the same item from xsdC"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -5693,15 +5432,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : schema include xsdA (ns=same) and xsdB (ns=\"\"), xsdA: redefine a group to be a subset of itself, xsdB: redefine the same group to be a superset of itself"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : schema include xsdA (ns=same) and xsdB (ns=\"\"), xsdA: redefine a group to be a subset of itself, xsdB: redefine the same group to be a superset of itself"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -5754,15 +5490,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : schema import xsdA (ns=A) and xsdB (ns=B), xsdA: redefine a group to be a subset of itself, xsdB: redefine the same group to be a superset of itself"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : schema import xsdA (ns=A) and xsdB (ns=B), xsdA: redefine a group to be a subset of itself, xsdB: redefine the same group to be a superset of itself"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -5815,15 +5548,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : schema import xsdA (ns=A) and xsdB (ns=A), xsdA: redefine a group to be a subset of itself, xsdB: redefine a group to be a superset of itself"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : schema import xsdA (ns=A) and xsdB (ns=A), xsdA: redefine a group to be a subset of itself, xsdB: redefine a group to be a superset of itself"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -5876,15 +5606,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : duplicate element in a redefine"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : duplicate element in a redefine"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -5937,15 +5664,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : chameleon redefine(valid)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : chameleon redefine(valid)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -5998,15 +5722,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : chameleon redefine(invalid)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : chameleon redefine(invalid)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -6059,15 +5780,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : XSD: components in a chameleon redefine should be ported into the namespace of the redefining schema(valid)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : XSD: components in a chameleon redefine should be ported into the namespace of the redefining schema(valid)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -6120,15 +5838,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : XSD: components in a chameleon redefine should be ported into the namespace of the redefining schema(invalid)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : XSD: components in a chameleon redefine should be ported into the namespace of the redefining schema(invalid)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -6181,15 +5896,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine, test that v2.xsd possess all global schema items (the one that are not in redefined) from v1.xsd, X's ns=\"A\", Y's ns=\"A\", from example from spec, (SRC 4.1)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine, test that v2.xsd possess all global schema items (the one that are not in redefined) from v1.xsd, X's ns=\"A\", Y's ns=\"A\", from example from spec, (SRC 4.1)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -6242,15 +5954,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine with a simpleType, which has an extension, (SRC 5)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine with a simpleType, which has an extension, (SRC 5)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -6303,15 +6012,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine with a complexType, which has a restriction, (SRC 5)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine with a complexType, which has a restriction, (SRC 5)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -6392,15 +6098,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine with a simpleType, which has a restriction, the base name is not the same as its own , (SRC 5)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine with a simpleType, which has a restriction, the base name is not the same as its own , (SRC 5)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -6453,15 +6156,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine with a complexType, which has an extension, (SRC 5)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine with a complexType, which has an extension, (SRC 5)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -6542,15 +6242,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine with a complexType, which has an extension, the base name is not the same as its own , (SRC 5)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine with a complexType, which has an extension, the base name is not the same as its own , (SRC 5)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -6603,15 +6300,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine with a complexType, which has a restriction, (SRC 5)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine with a complexType, which has a restriction, (SRC 5)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -6692,15 +6386,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine with a complexType, which has a restriction, the base name is not the same as its own , (SRC 5)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine with a complexType, which has a restriction, the base name is not the same as its own , (SRC 5)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -6753,15 +6444,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine with a group, which has a group ref to itself in the middle, group min,maxOccurs is absent, (SRC 6.1.2)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine with a group, which has a group ref to itself in the middle, group min,maxOccurs is absent, (SRC 6.1.2)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -6842,15 +6530,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine with a group, which has a group ref to itself in the middle, group minOccurs=0, (SRC 6.1.2)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine with a group, which has a group ref to itself in the middle, group minOccurs=0, (SRC 6.1.2)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -6903,15 +6588,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine with a group, which has a group ref to itself in the middle, group maxOccurs=2, (SRC 6.1.2)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine with a group, which has a group ref to itself in the middle, group maxOccurs=2, (SRC 6.1.2)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -6964,15 +6646,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine with a group, has a group ref to a different name than its own, (SRC 6.1.1)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine with a group, has a group ref to a different name than its own, (SRC 6.1.1)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -7025,15 +6704,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine with a group, group's name is not resolved to a model group in redefined xsd, (SRC 6.2.1)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine with a group, group's name is not resolved to a model group in redefined xsd, (SRC 6.2.1)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -7086,15 +6762,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine with an attributeGroup, attribute group's name is not resolved to a model group in redefined xsd, (SRC 7.2.1)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine with an attributeGroup, attribute group's name is not resolved to a model group in redefined xsd, (SRC 7.2.1)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -7147,15 +6820,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine with an attributeGroup, have 2 self reference in the redefining attributeGroup, (SRC 7.2.1)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine with an attributeGroup, have 2 self reference in the redefining attributeGroup, (SRC 7.2.1)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -7208,15 +6878,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine with a attributeGroup, attribute group's content items are a subset of the redefined group, (SRC 7.2.2)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine with a attributeGroup, attribute group's content items are a subset of the redefined group, (SRC 7.2.2)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -7297,15 +6964,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine with an attributeGroup, attribute group's content items are a subset of the redefined group, test that attribute uses are not inherited. Have a use=optional on redefined attriubte, but have use=required in redefining attribute, and instance xml has no attribute, (SRC 7.2.2)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine with an attributeGroup, attribute group's content items are a subset of the redefined group, test that attribute uses are not inherited. Have a use=optional on redefined attriubte, but have use=required in redefining attribute, and instance xml has no attribute, (SRC 7.2.2)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -7386,15 +7050,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine with a attributeGroup, attribute group's content items are a subset of the redefined group, test that attribute uses are not inherited. Have a default=\"foo\" in redefined attriubte, but redefining attribute has default=\"bar\", the actual value of the instance should have 'bar' as the default attribute value (SRC 7.2.2)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine with a attributeGroup, attribute group's content items are a subset of the redefined group, test that attribute uses are not inherited. Have a default=\"foo\" in redefined attriubte, but redefining attribute has default=\"bar\", the actual value of the instance should have 'bar' as the default attribute value (SRC 7.2.2)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -7475,15 +7136,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : redefine with an attributeGroup, attribute group's content items are a subset of the redefined group, test that attribute uses are not inherited. base attriburte with effective value absent, but redefining attribute has fixed=\"bar\" , (SRC 7.2.2)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : redefine with an attributeGroup, attribute group's content items are a subset of the redefined group, test that attribute uses are not inherited. base attriburte with effective value absent, but redefining attribute has fixed=\"bar\" , (SRC 7.2.2)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -7564,15 +7222,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : Circulcar redefines handeling (1)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : Circulcar redefines handeling (1)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -7633,15 +7288,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : Circulcar redefines handeling (2)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : Circulcar redefines handeling (2)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -7694,26 +7346,20 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : Circulcar redefines handeling (3)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : Circulcar redefines handeling (3)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         },
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "The WG decided the spec. is underspecified in this area, so\nimplementations may reasonably differ"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "The WG decided the spec. is underspecified in this area, so\nimplementations may reasonably differ"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -7809,26 +7455,20 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : Circulcar redefines handeling (4)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : Circulcar redefines handeling (4)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         },
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "The WG decided the spec. is underspecified in this area, so\nimplementations may reasonably differ"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "The WG decided the spec. is underspecified in this area, so\nimplementations may reasonably differ"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -7924,26 +7564,20 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : Circulcar redefines handeling (5)"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : Circulcar redefines handeling (5)"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         },
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "The WG decided the spec. is underspecified in this area, so\nimplementations may reasonably differ"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "The WG decided the spec. is underspecified in this area, so\nimplementations may reasonably differ"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -8039,15 +7673,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : invalid localElement attributes. Test for 'abstract'"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : invalid localElement attributes. Test for 'abstract'"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -8100,15 +7731,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : invalid localElement attributes. Test for 'final'"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : invalid localElement attributes. Test for 'final'"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -8161,15 +7789,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : invalid localElement attributes. Test for 'substitutionGroup'"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : invalid localElement attributes. Test for 'substitutionGroup'"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -8222,26 +7847,20 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : xsd: it is invalid to reference from a schema that is not directly imported."
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : xsd: it is invalid to reference from a schema that is not directly imported."
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         },
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TSTF agreed that an un-imported NS used in a QName is a schema error"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TSTF agreed that an un-imported NS used in a QName is a schema error"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -8309,26 +7928,20 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : xsd: it is invalid to reference from a schema that is not directly imported."
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : xsd: it is invalid to reference from a schema that is not directly imported."
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         },
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TSTF agreed that an un-imported NS used in a QName is a schema error"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TSTF agreed that an un-imported NS used in a QName is a schema error"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -8396,15 +8009,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : test redefine with schemaLocation pointing to itself"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : test redefine with schemaLocation pointing to itself"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -8457,15 +8067,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : multipe redefine elements in a schema."
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : multipe redefine elements in a schema."
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -8518,15 +8125,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : xsd: import of the namespace without schemaLocation should work when the schema is alread loaded in the cache."
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : xsd: import of the namespace without schemaLocation should work when the schema is alread loaded in the cache."
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -8579,15 +8183,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : XSD: Adding all the schemas in a diamond import scenario"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : XSD: Adding all the schemas in a diamond import scenario"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -8658,15 +8259,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : xsd:import allows import of the targetNamespace."
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : xsd:import allows import of the targetNamespace."
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -8719,15 +8317,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -8780,15 +8375,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -8841,15 +8433,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -8902,15 +8491,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -8963,26 +8549,20 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : comparison of file urls to be case insensitive while adding multiple schemas"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : comparison of file urls to be case insensitive while adding multiple schemas"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         },
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "The WG decided the spec. is underspecified in this area, so\nimplementations may reasonably differ"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "The WG decided the spec. is underspecified in this area, so\nimplementations may reasonably differ"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -9050,15 +8630,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : comparison of file urls to be case insensitive while adding multiple schemas"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : comparison of file urls to be case insensitive while adding multiple schemas"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -9111,15 +8688,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : comparison of file urls to be case insensitive while adding multiple schemas"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : comparison of file urls to be case insensitive while adding multiple schemas"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -9172,15 +8746,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : xsd import : main schema had a redefine statement"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : xsd import : main schema had a redefine statement"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -9239,15 +8810,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : xsd: empty string value of namespace is not allowed for namespace attribute"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : xsd: empty string value of namespace is not allowed for namespace attribute"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -9300,15 +8868,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : xsd: empty string value of namespace is not allowed for targetNamespace attribute"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : xsd: empty string value of namespace is not allowed for targetNamespace attribute"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -9361,15 +8926,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "TEST :schema collection and schema location : XSD: test schemaLocation=\"\""
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "TEST :schema collection and schema location : XSD: test schemaLocation=\"\""
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}

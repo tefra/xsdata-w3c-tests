@@ -3,16 +3,13 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                    "value": {
-                        "any_element": [
-                            "\n        tighter rule for EDC as regards the type of an element that matches a wildcard\n        "
-                        ],
-                        "source": null,
-                        "lang": null,
-                        "other_attributes": {
-                            "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-element-consistent"
-                        }
+                    "any_element": [
+                        "\n        tighter rule for EDC as regards the type of an element that matches a wildcard\n        "
+                    ],
+                    "source": null,
+                    "lang": null,
+                    "other_attributes": {
+                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-element-consistent"
                     }
                 }
             ],
@@ -25,15 +22,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "tighter rule for EDC as regards the type of an element that matches a wildcard "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "tighter rule for EDC as regards the type of an element that matches a wildcard "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -103,15 +97,12 @@
                             {
                                 "appinfo_or_documentation": [
                                     {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                        "value": {
-                                            "any_element": [
-                                                "\n                        Changed the status to \"invalid\" in response to bug #12130\n                    "
-                                            ],
-                                            "source": null,
-                                            "lang": null,
-                                            "other_attributes": {}
-                                        }
+                                        "any_element": [
+                                            "\n                        Changed the status to \"invalid\" in response to bug #12130\n                    "
+                                        ],
+                                        "source": null,
+                                        "lang": null,
+                                        "other_attributes": {}
                                     }
                                 ],
                                 "other_attributes": {}
@@ -147,15 +138,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "tighter rule for EDC as regards the type of an element that matches a wildcard "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "tighter rule for EDC as regards the type of an element that matches a wildcard "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}

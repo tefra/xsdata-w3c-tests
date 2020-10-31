@@ -20,15 +20,9 @@
             "qname": "{http://xsdtesting}E1",
             "value": "y"
         },
+        1,
         {
-            "qname": "{http://xsdtesting}E2",
-            "value": 1
-        },
-        {
-            "qname": "{http://xsdtesting}E3",
-            "value": {
-                "att1": 123
-            }
+            "att1": 123
         }
     ]
 }

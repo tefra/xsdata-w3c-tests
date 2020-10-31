@@ -1,26 +1,11 @@
 {
     "nonstringsection": {
         "choice": [
-            {
-                "qname": "bigint",
-                "value": -92232036854775808
-            },
-            {
-                "qname": "bigint",
-                "value": -1
-            },
-            {
-                "qname": "bigint",
-                "value": 0
-            },
-            {
-                "qname": "bigint",
-                "value": 1
-            },
-            {
-                "qname": "bigint",
-                "value": 92232036854775807
-            },
+            -92232036854775808,
+            -1,
+            0,
+            1,
+            92232036854775807,
             {
                 "qname": "int",
                 "value": -2147483648
@@ -81,46 +66,16 @@
                 "qname": "tinyint",
                 "value": 255
             },
-            {
-                "qname": "decimal",
-                "value": "-9954645.9999"
-            },
-            {
-                "qname": "decimal",
-                "value": "-99232423454645.999900"
-            },
-            {
-                "qname": "decimal",
-                "value": "0.9999"
-            },
-            {
-                "qname": "decimal",
-                "value": "995464234235.999900"
-            },
-            {
-                "qname": "decimal",
-                "value": "9954645.9999"
-            },
-            {
-                "qname": "decimal",
-                "value": "-9954645.9999"
-            },
-            {
-                "qname": "decimal",
-                "value": "-99232423454645.999900"
-            },
-            {
-                "qname": "decimal",
-                "value": "0.9999"
-            },
-            {
-                "qname": "decimal",
-                "value": "995464234235.999900"
-            },
-            {
-                "qname": "decimal",
-                "value": "9954645.9999"
-            },
+            "-9954645.9999",
+            "-99232423454645.999900",
+            "0.9999",
+            "995464234235.999900",
+            "9954645.9999",
+            "-9954645.9999",
+            "-99232423454645.999900",
+            "0.9999",
+            "995464234235.999900",
+            "9954645.9999",
             {
                 "qname": "money",
                 "value": "-18888888888.5808"
@@ -181,41 +136,20 @@
                 "qname": "float",
                 "value": "1.79E+308"
             },
+            -3.4e+38,
+            2.79e+38,
+            0.0,
+            2.79e+38,
+            3.4e+38,
             {
-                "qname": "real",
-                "value": -3.4e+38
+                "date": "2000-10-10",
+                "time": "12:54:00.000",
+                "localized_dt": "12-May-2000 12:54:00.345 AM"
             },
             {
-                "qname": "real",
-                "value": 2.79e+38
-            },
-            {
-                "qname": "real",
-                "value": 0.0
-            },
-            {
-                "qname": "real",
-                "value": 2.79e+38
-            },
-            {
-                "qname": "real",
-                "value": 3.4e+38
-            },
-            {
-                "qname": "datetime",
-                "value": {
-                    "date": "2000-10-10",
-                    "time": "12:54:00.000",
-                    "localized_dt": "12-May-2000 12:54:00.345 AM"
-                }
-            },
-            {
-                "qname": "smalldatetime",
-                "value": {
-                    "date": "2000-10-10",
-                    "time": "12:54:00",
-                    "localized_sdt": "10-15-2001 12:03:00 PM"
-                }
+                "date": "2000-10-10",
+                "time": "12:54:00",
+                "localized_sdt": "10-15-2001 12:03:00 PM"
             }
         ]
     },

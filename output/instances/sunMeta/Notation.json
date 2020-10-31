@@ -6,38 +6,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "human-targeted  annotation for a notation declaration (valid schema)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "human-targeted  annotation for a notation declaration (valid schema)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a notation declaration.",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a notation declaration.",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -118,38 +115,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "human-targeted double annotation for a notation declaration (invalid schema)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "human-targeted double annotation for a notation declaration (invalid schema)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a notation declaration.\n                             The annotation is specified twice.",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a notation declaration.\n                             The annotation is specified twice.",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -202,38 +196,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "machine-targeted  annotation for a notation declaration (valid schema)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "machine-targeted  annotation for a notation declaration (valid schema)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a notation declaration.",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a notation declaration.",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -314,38 +305,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "machine-targeted double annotation for a notation declaration (invalid schema)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "machine-targeted double annotation for a notation declaration (invalid schema)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a notation declaration.\n                             The annotation is specified twice.",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a notation declaration.\n                             The annotation is specified twice.",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -398,38 +386,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Use the declared notation with the name 'png' (valid schema)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Use the declared notation with the name 'png' (valid schema)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Notation declarations are referenced in the course of *validating* strings as\n                              members of the NOTATION simple type. A schema is invalid if it is contain a\n                              referebce to undeclared notation.",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Notation declarations are referenced in the course of *validating* strings as\n                              members of the NOTATION simple type. A schema is invalid if it is contain a\n                              referebce to undeclared notation.",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -510,38 +495,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Use the undeclared notation with the name 'jpeg' (invalid schema)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Use the undeclared notation with the name 'jpeg' (invalid schema)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Notation declarations are referenced in the course of *validating* strings as\n                              members of the NOTATION simple type. A schema is invalid if it is contain a\n                              referebce to undeclared notation.",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Notation declarations are referenced in the course of *validating* strings as\n                              members of the NOTATION simple type. A schema is invalid if it is contain a\n                              referebce to undeclared notation.",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -594,38 +576,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Declare a notation without name (invalid schema)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Declare a notation without name (invalid schema)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "A name [attribute] is a required attribute",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "A name [attribute] is a required attribute",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -678,38 +657,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Declare a notation with the {public identifier} 'image/png' (valid schema)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Declare a notation with the {public identifier} 'image/png' (valid schema)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "The property {public identifier} is represented as the actual value of\n                              the public [attribute].",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "The property {public identifier} is represented as the actual value of\n                              the public [attribute].",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -790,38 +766,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Declare a notation without the {public identifier} (invalid schema)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Declare a notation without the {public identifier} (invalid schema)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "The public [attribute] is a required attribute.",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "The public [attribute] is a required attribute.",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -874,38 +847,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Declare a notation with the {system identifier} 'sdtimage' (valid schema)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Declare a notation with the {system identifier} 'sdtimage' (valid schema)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "The property {system identifier} is represented as the actual value of\n                              the system [attribute].",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "The property {system identifier} is represented as the actual value of\n                              the system [attribute].",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -986,38 +956,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Declare a notation without the {system identifier} (valid schema)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Declare a notation without the {system identifier} (valid schema)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "The property {system identifier} is optional.",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "The property {system identifier} is optional.",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1098,38 +1065,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Declaration of the notation with the name 'png' and the namespace 'tck_test' (valid schema)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Declaration of the notation with the name 'png' and the namespace 'tck_test' (valid schema)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "The property {name} is represented as the value of the name [attribute].",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "The property {name} is represented as the value of the name [attribute].",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1210,38 +1174,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Use of the notation declared in the namespace 'tck_test' (valid schema)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Use of the notation declared in the namespace 'tck_test' (valid schema)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Notation declarations are referenced in the course of *validating* strings as\n                              members of the NOTATION simple type.",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Notation declarations are referenced in the course of *validating* strings as\n                              members of the NOTATION simple type.",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}

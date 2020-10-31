@@ -3,27 +3,24 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                    "value": {
-                        "any_element": [
-                            {
-                                "qname": "Description",
-                                "text": "Test set for All Group Limited",
-                                "tail": null,
-                                "ns_map": {
-                                    "ts": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                    "xlink": "http://www.w3.org/1999/xlink"
-                                },
-                                "children": [],
-                                "attributes": {}
-                            }
-                        ],
-                        "source": null,
-                        "lang": null,
-                        "other_attributes": {
-                            "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-all-limited"
+                    "any_element": [
+                        {
+                            "qname": "Description",
+                            "text": "Test set for All Group Limited",
+                            "tail": null,
+                            "ns_map": {
+                                "ts": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                "xlink": "http://www.w3.org/1999/xlink"
+                            },
+                            "children": [],
+                            "attributes": {}
                         }
+                    ],
+                    "source": null,
+                    "lang": null,
+                    "other_attributes": {
+                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-all-limited"
                     }
                 }
             ],
@@ -36,15 +33,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "Wildcards are now allowed in xs:all"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "Wildcards are now allowed in xs:all"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -133,15 +127,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "Tests restriction of all group"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "Tests restriction of all group"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -230,15 +221,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "Tests maxOccurs > 1 for elements within all group"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "Tests maxOccurs > 1 for elements within all group"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -327,15 +315,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "maxOccurs may now be >1 in all group"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "maxOccurs may now be >1 in all group"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -424,15 +409,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "Tests notNamespace in all group"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "Tests notNamespace in all group"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -521,15 +503,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "Tests notQName in allgroup"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "Tests notQName in allgroup"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -618,15 +597,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "Tests occurence validity"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "Tests occurence validity"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -687,15 +663,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "Tests restriction of all modelgroup"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "Tests restriction of all modelgroup"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -756,15 +729,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "Tests restriction of all modelgroup"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "Tests restriction of all modelgroup"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}

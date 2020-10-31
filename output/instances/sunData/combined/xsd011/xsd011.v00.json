@@ -1,42 +1,33 @@
 {
     "non_nillable_or_nillable1_or_nillable2": [
         {
-            "qname": "{foo}non-nillable",
-            "value": {
-                "x": {
-                    "qname": "{foo}x",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "null": "foo",
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                    },
-                    "children": [],
-                    "attributes": {}
-                }
+            "x": {
+                "qname": "{foo}x",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "null": "foo",
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
             }
         },
         {
-            "qname": "{foo}nillable1",
-            "value": {
-                "x": {
-                    "qname": "{foo}x",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "null": "foo",
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                    },
-                    "children": [],
-                    "attributes": {}
-                }
+            "x": {
+                "qname": "{foo}x",
+                "text": null,
+                "tail": null,
+                "ns_map": {
+                    "null": "foo",
+                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                "children": [],
+                "attributes": {}
             }
         },
         {
-            "qname": "{foo}nillable1",
-            "value": {
-                "x": null
-            }
+            "x": null
         },
         {
             "qname": "{foo}nillable2",

@@ -18,13 +18,10 @@
         },
         {
             "node_or_mixed_a_or_mixed_b": [
-                {
-                    "qname": "mixedA",
-                    "value": [
-                        "A002",
-                        "B002"
-                    ]
-                }
+                [
+                    "A002",
+                    "B002"
+                ]
             ],
             "mixed_a": [],
             "mixed_b": []

@@ -6,38 +6,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "complexType/@mixed must not conflict with complexContent/@mixed",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "complexType/@mixed must not conflict with complexContent/@mixed",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "The two attributes if both present must be the same",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "The two attributes if both present must be the same",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -98,38 +95,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "complexType/@mixed must not conflict with complexContent/@mixed",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "complexType/@mixed must not conflict with complexContent/@mixed",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "The two attributes if both present must be the same",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "The two attributes if both present must be the same",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -190,38 +184,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "xsi:type default",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "xsi:type default",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Default value for xsi:type is allowed but ignored",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Default value for xsi:type is allowed but ignored",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -252,15 +243,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                "value": {
-                                    "any_element": [
-                                        "\n                    Supply default value for xsi:type that would be invalid if it were validated\n                    Note: no import of xsi namespace required, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
-                                }
+                                "any_element": [
+                                    "\n                    Supply default value for xsi:type that would be invalid if it were validated\n                    Note: no import of xsi namespace required, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
                             }
                         ],
                         "other_attributes": {}
@@ -299,15 +287,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance that ignores the xsi:type\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance that ignores the xsi:type\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -343,15 +328,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, satisfies the xsi:type but this should be ignored\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, satisfies the xsi:type but this should be ignored\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -394,38 +376,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "xsi:type default",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "xsi:type default",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Default value for xsi:type is allowed but ignored",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Default value for xsi:type is allowed but ignored",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -456,15 +435,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                "value": {
-                                    "any_element": [
-                                        "\n                    Supply default value for xsi:type that would be invalid if it were validated\n                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
-                                }
+                                "any_element": [
+                                    "\n                    Supply default value for xsi:type that would be invalid if it were validated\n                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
                             }
                         ],
                         "other_attributes": {}
@@ -503,15 +479,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance that ignores the xsi:type\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance that ignores the xsi:type\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -547,15 +520,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, satisfies the xsi:type but this should be ignored\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, satisfies the xsi:type but this should be ignored\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -591,15 +561,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance, the default value of xsi:type is not valid in the context where it is used\n                    (undeclared namespace prefix \"xs\"), but this does not matter because the default value\n                    has no effect. See bug 13457.\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance, the default value of xsi:type is not valid in the context where it is used\n                    (undeclared namespace prefix \"xs\"), but this does not matter because the default value\n                    has no effect. See bug 13457.\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -650,38 +617,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "xsi:type fixed",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "xsi:type fixed",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Fixed value for xsi:type is allowed but ignored,\n                except that the instance must match",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Fixed value for xsi:type is allowed but ignored,\n                except that the instance must match",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -712,15 +676,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                "value": {
-                                    "any_element": [
-                                        "\n                    Supply fixed value for xsi:type \n                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
-                                }
+                                "any_element": [
+                                    "\n                    Supply fixed value for xsi:type \n                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
                             }
                         ],
                         "other_attributes": {}
@@ -759,15 +720,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance; xsi:type fixed in schema, absent in instance, has no effect \n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance; xsi:type fixed in schema, absent in instance, has no effect \n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -803,15 +761,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, xsi:type must conform to the fixed value if present\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, xsi:type must conform to the fixed value if present\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -847,15 +802,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, xsi:type does conform to the fixed value but supplied value is invalid\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, xsi:type does conform to the fixed value but supplied value is invalid\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -891,15 +843,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance; xsi:type matches the fixed value and instance value satisfies the type, but xsi:type is not validly derived\n                    from the declared type (the declared type is complex, but the xsi:type is a simple type)\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance; xsi:type matches the fixed value and instance value satisfies the type, but xsi:type is not validly derived\n                    from the declared type (the declared type is complex, but the xsi:type is a simple type)\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -942,38 +891,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "xsi:nil default",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "xsi:nil default",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Default value for xsi:nil is allowed but ignored",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Default value for xsi:nil is allowed but ignored",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1004,15 +950,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                "value": {
-                                    "any_element": [
-                                        "\n                    Supply default value for xsi:nil \n                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
-                                }
+                                "any_element": [
+                                    "\n                    Supply default value for xsi:nil \n                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
                             }
                         ],
                         "other_attributes": {}
@@ -1051,15 +994,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance; xsi:nil is ignored\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance; xsi:nil is ignored\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1095,15 +1035,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance; xsi:nil is ignored\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance; xsi:nil is ignored\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1139,15 +1076,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, xsi:nil in the instance is effective\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, xsi:nil in the instance is effective\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1183,15 +1117,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, xsi:nil in the instance is effective\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, xsi:nil in the instance is effective\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1227,15 +1158,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, xsi:nil in the instance does not default to the value in the schema\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, xsi:nil in the instance does not default to the value in the schema\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1278,38 +1206,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "xsi:nil fixed",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "xsi:nil fixed",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Fixed value for xsi:nil is allowed but ignored,\n                except if present in the instance it must match and be obeyed",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Fixed value for xsi:nil is allowed but ignored,\n                except if present in the instance it must match and be obeyed",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1340,15 +1265,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                "value": {
-                                    "any_element": [
-                                        "\n                    Supply fixed value for xsi:nil \n                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
-                                }
+                                "any_element": [
+                                    "\n                    Supply fixed value for xsi:nil \n                    Note: import of xsi namespace is permitted, see 3.17.6.2 QName resolution (Schema Document) clause 4.2.4\n                "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
                             }
                         ],
                         "other_attributes": {}
@@ -1387,15 +1309,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance; xsi:nil is ignored\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance; xsi:nil is ignored\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1431,15 +1350,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance; xsi:nil is ignored\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance; xsi:nil is ignored\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1475,15 +1391,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, xsi:nil in the instance is effective\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, xsi:nil in the instance is effective\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1519,15 +1432,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, xsi:nil in the instance is effective\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, xsi:nil in the instance is effective\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1563,15 +1473,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, xsi:nil in the instance does not default to the value in the schema\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, xsi:nil in the instance does not default to the value in the schema\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1614,38 +1521,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "xsi:type doesn't resolve",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "xsi:type doesn't resolve",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "xsi:type must resolve to a known type",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "xsi:type must resolve to a known type",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1670,15 +1574,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                "value": {
-                                    "any_element": [
-                                        "\n                    Valid schema, no particular features\n                "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
-                                }
+                                "any_element": [
+                                    "\n                    Valid schema, no particular features\n                "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
                             }
                         ],
                         "other_attributes": {}
@@ -1717,15 +1618,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, unknown type in XSD namespace\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, unknown type in XSD namespace\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1761,15 +1659,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, invalid QName (undeclared prefix)\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, invalid QName (undeclared prefix)\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1805,15 +1700,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, xsi:type is an unknown QName\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, xsi:type is an unknown QName\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1849,15 +1741,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, xsi:type is not lexically a QName\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, xsi:type is not lexically a QName\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1900,38 +1789,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "xsi:type use=\"required",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "xsi:type use=\"required",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Specifying use=\"required\" for xsi:type is allowed and effective",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Specifying use=\"required\" for xsi:type is allowed and effective",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1962,15 +1848,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                "value": {
-                                    "any_element": [
-                                        "\n                    Make xsi:type mandatory\n                "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
-                                }
+                                "any_element": [
+                                    "\n                    Make xsi:type mandatory\n                "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
                             }
                         ],
                         "other_attributes": {}
@@ -2009,15 +1892,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance; xsi:type is present\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance; xsi:type is present\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2053,15 +1933,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance; xsi:type is present\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance; xsi:type is present\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2097,15 +1974,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, xsi:type is omitted\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, xsi:type is omitted\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2141,15 +2015,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, xsi:type is present but instance doesn't conform to it\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, xsi:type is present but instance doesn't conform to it\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2192,38 +2063,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "xsi:noNamespaceSchemaLocation use=\"required",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "xsi:noNamespaceSchemaLocation use=\"required",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Specifying use=\"required\" for xsi:noNamespaceSchemaLocation is allowed and effective",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Specifying use=\"required\" for xsi:noNamespaceSchemaLocation is allowed and effective",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2254,15 +2122,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                "value": {
-                                    "any_element": [
-                                        "\n                    Make xsi:noNamespaceSchemaLocation mandatory\n                "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
-                                }
+                                "any_element": [
+                                    "\n                    Make xsi:noNamespaceSchemaLocation mandatory\n                "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
                             }
                         ],
                         "other_attributes": {}
@@ -2301,15 +2166,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance; xsi:noNamespaceSchemaLocation is present\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance; xsi:noNamespaceSchemaLocation is present\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2345,15 +2207,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, xsi:noNamespaceSchemaLocation is omitted\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, xsi:noNamespaceSchemaLocation is omitted\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2396,38 +2255,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "xsi:nil on complex type with simple content (not specific to 1.1)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "xsi:nil on complex type with simple content (not specific to 1.1)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "All combinations of xsi:nil with value present or absent",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "All combinations of xsi:nil with value present or absent",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2446,15 +2302,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                "value": {
-                                    "any_element": [
-                                        "\n                   Specifies element as nillable\n                "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
-                                }
+                                "any_element": [
+                                    "\n                   Specifies element as nillable\n                "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
                             }
                         ],
                         "other_attributes": {}
@@ -2493,15 +2346,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance; not nil\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance; not nil\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2537,15 +2387,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance; nil\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance; nil\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2581,15 +2428,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, value missing but not nil\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, value missing but not nil\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2625,15 +2469,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance,value present but nil\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance,value present but nil\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2669,15 +2510,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, child present but nil\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, child present but nil\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2718,38 +2556,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "xsi:nil on complex type with mixede content (not specific to 1.1)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "xsi:nil on complex type with mixede content (not specific to 1.1)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "All combinations of xsi:nil with value present or absent",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "All combinations of xsi:nil with value present or absent",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2768,15 +2603,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                "value": {
-                                    "any_element": [
-                                        "\n                   Specifies element as nillable with mixed content\n                "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
-                                }
+                                "any_element": [
+                                    "\n                   Specifies element as nillable with mixed content\n                "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
                             }
                         ],
                         "other_attributes": {}
@@ -2815,15 +2647,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance; not nil\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance; not nil\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2859,15 +2688,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance; nil\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance; nil\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2903,15 +2729,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance; nil\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance; nil\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2947,15 +2770,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance; nil\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance; nil\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2991,15 +2811,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance; nil element can contain a comment\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance; nil element can contain a comment\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3035,15 +2852,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance; nil element can contain a PI\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance; nil element can contain a PI\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3079,15 +2893,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, value missing but not nil\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, value missing but not nil\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3123,15 +2934,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance,value present but nil\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance,value present but nil\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3167,15 +2975,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, child present but nil\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, child present but nil\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3216,38 +3021,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "xsi:nil on complex type with element-only content (not specific to 1.1)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "xsi:nil on complex type with element-only content (not specific to 1.1)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "All combinations of xsi:nil with value present or absent",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "All combinations of xsi:nil with value present or absent",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3266,15 +3068,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                "value": {
-                                    "any_element": [
-                                        "\n                   Specifies element as nillable, element-only content, not emptiable\n                "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
-                                }
+                                "any_element": [
+                                    "\n                   Specifies element as nillable, element-only content, not emptiable\n                "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
                             }
                         ],
                         "other_attributes": {}
@@ -3313,15 +3112,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance; not nil\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance; not nil\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3357,15 +3153,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance; nil\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance; nil\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3401,15 +3194,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, value missing but not nil\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, value missing but not nil\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3445,15 +3235,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance,value present but nil\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance,value present but nil\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3494,38 +3281,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "xsi:nil on complex type with element-only content, xs:all compositor (not specific to 1.1)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "xsi:nil on complex type with element-only content, xs:all compositor (not specific to 1.1)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "All combinations of xsi:nil with value present or absent",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "All combinations of xsi:nil with value present or absent",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3544,15 +3328,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                "value": {
-                                    "any_element": [
-                                        "\n                   Specifies element as nillable, element-only content, not emptiable\n                "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
-                                }
+                                "any_element": [
+                                    "\n                   Specifies element as nillable, element-only content, not emptiable\n                "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
                             }
                         ],
                         "other_attributes": {}
@@ -3591,15 +3372,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance; not nil\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance; not nil\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3635,15 +3413,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Valid instance; nil\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Valid instance; nil\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3679,15 +3454,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, value missing but not nil\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, value missing but not nil\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3723,15 +3495,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance,value present but nil\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance,value present but nil\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3772,38 +3541,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "xsi:type on complex type must resolve",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "xsi:type on complex type must resolve",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Instance is invalid if xsi:type not present in schema",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Instance is invalid if xsi:type not present in schema",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3828,15 +3594,12 @@
                     {
                         "appinfo_or_documentation": [
                             {
-                                "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                "value": {
-                                    "any_element": [
-                                        "\n                   Unremarkable schema\n                "
-                                    ],
-                                    "source": null,
-                                    "lang": null,
-                                    "other_attributes": {}
-                                }
+                                "any_element": [
+                                    "\n                   Unremarkable schema\n                "
+                                ],
+                                "source": null,
+                                "lang": null,
+                                "other_attributes": {}
                             }
                         ],
                         "other_attributes": {}
@@ -3875,15 +3638,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, xsi:type doesn't resolve\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, xsi:type doesn't resolve\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3924,38 +3684,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Redefine an attribute group",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Redefine an attribute group",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Redefine an attribute group to make one of the attributes required",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Redefine an attribute group to make one of the attributes required",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4008,38 +3765,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Complex type derived by extension violating Element Declarations Consistent",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Complex type derived by extension violating Element Declarations Consistent",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Two children with the same name but different types. Test contributed\n                by Priscilla Walmsley.",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Two children with the same name but different types. Test contributed\n                by Priscilla Walmsley.",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4098,38 +3852,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "See spec bug 16786 from Priscilla Walmsley",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "See spec bug 16786 from Priscilla Walmsley",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "The XML representation summary appears to allow this but the S4S does not",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "The XML representation summary appears to allow this but the S4S does not",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4188,38 +3939,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Disallow minOccurs on child of named xs:group",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Disallow minOccurs on child of named xs:group",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "This is disallowed by the schema for schema documents, as mentioned in a Note in 3.7.2",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "This is disallowed by the schema for schema documents, as mentioned in a Note in 3.7.2",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4265,38 +4013,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Disallow maxOccurs on child of named xs:group",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Disallow maxOccurs on child of named xs:group",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "This is disallowed by the schema for schema documents, as mentioned in a Note in 3.7.2",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "This is disallowed by the schema for schema documents, as mentioned in a Note in 3.7.2",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4342,38 +4087,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Element declared with an abstract type",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Element declared with an abstract type",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Instance is invalid because the type is abstract",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Instance is invalid because the type is abstract",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4415,15 +4157,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, validation against an abstract type\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, validation against an abstract type\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -4464,38 +4203,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Empty choice should accept no instances",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Empty choice should accept no instances",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "A content model defined as an empty choice should reject all instances,\n                because the instance needs to satisfy at least on branch of the choice, which is not\n                possible if there are no branches.",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "A content model defined as an empty choice should reject all instances,\n                because the instance needs to satisfy at least on branch of the choice, which is not\n                possible if there are no branches.",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4537,15 +4273,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, empty content does not satisfy empty choice\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, empty content does not satisfy empty choice\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -4581,15 +4314,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n                    Invalid instance, element content does not satisfy empty choice\n                "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n                    Invalid instance, element content does not satisfy empty choice\n                "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -4630,38 +4360,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Test uniqueness constraint on a field having a complex type with simple content",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Test uniqueness constraint on a field having a complex type with simple content",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "See comment in the schema document, and bug 10236. In the XSD 1.0 spec, see clause 3\n                of \"Identity Constraint Satisfied\" in 3.11.4 Identity-constraint Definition Validation Rules.",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "See comment in the schema document, and bug 10236. In the XSD 1.0 spec, see clause 3\n                of \"Identity Constraint Satisfied\" in 3.11.4 Identity-constraint Definition Validation Rules.",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4710,15 +4437,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                Valid (despite the 1.0 spec): the field has a complex type with simple content.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                Valid (despite the 1.0 spec): the field has a complex type with simple content.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -4754,15 +4478,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                Invalid: two fields with the same value.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                Invalid: two fields with the same value.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -4803,38 +4524,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Test uniqueness constraint on a field having a complex type with mixed content",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Test uniqueness constraint on a field having a complex type with mixed content",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "In both XSD 1.0 and 1.1 the schema is valid, but all instances are invalid.",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "In both XSD 1.0 and 1.1 the schema is valid, but all instances are invalid.",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4883,15 +4601,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                Invalid: the field has a complex type with mixed content.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                Invalid: the field has a complex type with mixed content.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -4932,38 +4647,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "For the purposes of uniqueness constraints, NaN is effectively equal to NaN",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "For the purposes of uniqueness constraints, NaN is effectively equal to NaN",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "For the purposes of uniqueness constraints, NaN is effectively equal to NaN. \n                (Uniqueness is violated if the values are \"identical or equal\"). See bug 9196.",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "For the purposes of uniqueness constraints, NaN is effectively equal to NaN. \n                (Uniqueness is violated if the values are \"identical or equal\"). See bug 9196.",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -5005,15 +4717,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                Value: values are distinct.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                Value: values are distinct.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -5049,15 +4758,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                Value: values are distinct.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                Value: values are distinct.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -5093,15 +4799,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                Invalid: values are duplicates.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                Invalid: values are duplicates.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -5137,15 +4840,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                Invalid: values NaN and NaN are considered duplicates.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                Invalid: values NaN and NaN are considered duplicates.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}

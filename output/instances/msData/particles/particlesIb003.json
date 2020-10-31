@@ -1,22 +1,13 @@
 {
     "foo_or_bar": [
         {
-            "qname": "foo",
-            "value": {
-                "any_element": null
-            }
+            "any_element": null
         },
         {
-            "qname": "foo",
-            "value": {
-                "any_element": null
-            }
+            "any_element": null
         },
         {
-            "qname": "foo",
-            "value": {
-                "any_element": null
-            }
+            "any_element": null
         }
     ]
 }

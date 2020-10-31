@@ -6,15 +6,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t     Assertions demonstrating co-occurence constraints, along with an assertion constraining\n\t\t\t element's simpleContent value.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t     Assertions demonstrating co-occurence constraints, along with an assertion constraining\n\t\t\t element's simpleContent value.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -103,15 +100,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t     Assertions demonstrating co-occurence constraints (constraints between an attribute value and elements). \n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t     Assertions demonstrating co-occurence constraints (constraints between an attribute value and elements). \n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -227,15 +221,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t     Assertions on a complex type, with relatively bigger content model.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t     Assertions on a complex type, with relatively bigger content model.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -324,15 +315,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t     Multiple assertions on a complex type, with a fictitious problem description.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t     Multiple assertions on a complex type, with a fictitious problem description.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -421,15 +409,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    Multiple assertions on a sample 'simple type'.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    Multiple assertions on a sample 'simple type'.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -518,15 +503,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t     Assertions on complexType -> complexContent, with inheritance relationship between schema types.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t     Assertions on complexType -> complexContent, with inheritance relationship between schema types.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -615,15 +597,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    Assertions on schema \"simple type\" definitions, with inheritance relationship.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    Assertions on schema \"simple type\" definitions, with inheritance relationship.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -712,15 +691,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t     Assertions on schema \"complex type\" definitions, having attribute with simple content.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t     Assertions on schema \"complex type\" definitions, having attribute with simple content.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -809,15 +785,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t     Assertions on simple type, using assertions XPath 2.0 context variable $value.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t     Assertions on simple type, using assertions XPath 2.0 context variable $value.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -906,15 +879,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t     Assertions on complex type derivations.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t     Assertions on complex type derivations.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1003,15 +973,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t     Assertions on complex type, using xpathDefaultNamespace attribute on xs:assert.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t     Assertions on complex type, using xpathDefaultNamespace attribute on xs:assert.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1100,15 +1067,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t     Multiple assertions on a complexType, with a fictitious problem description.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t     Multiple assertions on a complexType, with a fictitious problem description.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1197,15 +1161,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t     Assertions on a fictitious numerical example.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t     Assertions on a fictitious numerical example.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1294,15 +1255,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    Assertion defined on attribute's schema type. Uses assertions XPath 2.0 context variable $value.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    Assertion defined on attribute's schema type. Uses assertions XPath 2.0 context variable $value.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1391,15 +1349,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    Describing relatively involved assertions. Assertions are described in the data file\n\t\t\titself at xs:assert/xs:annotation. \n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    Describing relatively involved assertions. Assertions are described in the data file\n\t\t\titself at xs:assert/xs:annotation. \n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1488,15 +1443,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    Describing both xs:assert & xs:assertion on complexType -> simpleContent -> restriction. \n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    Describing both xs:assert & xs:assertion on complexType -> simpleContent -> restriction. \n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1585,15 +1537,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    An assertions example, where an XML schema xs:group definition is reused in different schema types,\n\t\t\tand cardinality of element particles in different types is controlled via schema assertions.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    An assertions example, where an XML schema xs:group definition is reused in different schema types,\n\t\t\tand cardinality of element particles in different types is controlled via schema assertions.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1682,15 +1631,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    This is similar to test 'assert_017', but element a's schema type in xs:group definition here has an\n\t\t\tadditional assertion.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    This is similar to test 'assert_017', but element a's schema type in xs:group definition here has an\n\t\t\tadditional assertion.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1806,15 +1752,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    A sample \"purchase order\" instance validation with an XML schema, using XSD 1.1 assertions.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    A sample \"purchase order\" instance validation with an XML schema, using XSD 1.1 assertions.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1903,15 +1846,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    An example demonstrating assertions evaluation, with a numeric schema type when white-space normalization\n\t\t\tmust happen on the data.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    An example demonstrating assertions evaluation, with a numeric schema type when white-space normalization\n\t\t\tmust happen on the data.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2000,15 +1940,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    An example demonstrating assertions evaluation, with a xs:string schema type when white-space normalization\n\t\t\tmust not happen on the data.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    An example demonstrating assertions evaluation, with a xs:string schema type when white-space normalization\n\t\t\tmust not happen on the data.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2097,15 +2034,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    An example demonstrating assertions evaluation, with a numeric schema type when white-space normalization\n\t\t\tmust happen on the data. The example demonstrates ignoring of comments within XML elements (which have simple schema values),\n\t\t\tfor findings value of assertions XPath 2.0 context variable $value.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    An example demonstrating assertions evaluation, with a numeric schema type when white-space normalization\n\t\t\tmust happen on the data. The example demonstrates ignoring of comments within XML elements (which have simple schema values),\n\t\t\tfor findings value of assertions XPath 2.0 context variable $value.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2194,15 +2128,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    An example demonstrating assertions evaluation, with xs:string schema type when white-space normalization must not happen\n\t\t\ton the data. The example demonstrates ignoring of comments within XML elements (which have simple XML schema values), for \n\t\t\tfindings value of assertions XPath 2.0 context variable $value. This test is similar to test \"assert_022\" but the validation\n\t\t\tfails in this case, since the schema type of XML element is xs:string.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    An example demonstrating assertions evaluation, with xs:string schema type when white-space normalization must not happen\n\t\t\ton the data. The example demonstrates ignoring of comments within XML elements (which have simple XML schema values), for \n\t\t\tfindings value of assertions XPath 2.0 context variable $value. This test is similar to test \"assert_022\" but the validation\n\t\t\tfails in this case, since the schema type of XML element is xs:string.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2291,15 +2222,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    An example demonstrating assertions evaluation, with xs:string schema type when white-space normalization must not happen\n\t\t\ton the data. The validation in this example would succeed, since an assertion normalizes the data value with \"normalize-space\"\n\t\t\tXPath function before equality comparison.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    An example demonstrating assertions evaluation, with xs:string schema type when white-space normalization must not happen\n\t\t\ton the data. The validation in this example would succeed, since an assertion normalizes the data value with \"normalize-space\"\n\t\t\tXPath function before equality comparison.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2388,15 +2316,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    An example demonstrating XSD 1.1 assertions evaluation using xs:assert instruction, when xs:assert has attribute\n\t\t\t\"xpathDefaultNamespace\". \n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    An example demonstrating XSD 1.1 assertions evaluation using xs:assert instruction, when xs:assert has attribute\n\t\t\t\"xpathDefaultNamespace\". \n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2485,15 +2410,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    An example demonstrating XSD 1.1 assertions evaluation when outermost element in an XML document is in an namespace, while\n\t\t\tinner ones are not, and there are few assertions defined on the schema type involved.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    An example demonstrating XSD 1.1 assertions evaluation when outermost element in an XML document is in an namespace, while\n\t\t\tinner ones are not, and there are few assertions defined on the schema type involved.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2582,15 +2504,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    An example demonstrating XSD 1.1 assertions evaluation when XML document is an namespace, and assertions perform\n\t\t\tnamespace URI comparisons on element nodes. \n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    An example demonstrating XSD 1.1 assertions evaluation when XML document is an namespace, and assertions perform\n\t\t\tnamespace URI comparisons on element nodes. \n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2679,15 +2598,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    An example demonstrating XSD 1.1 assertions evaluation, where an assertion checks for in-scope namespace prefixes\n\t\t\ton XML element.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    An example demonstrating XSD 1.1 assertions evaluation, where an assertion checks for in-scope namespace prefixes\n\t\t\ton XML element.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2776,15 +2692,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    An example demonstrating XSD 1.1 assertions evaluation, where XML schema document declares an XML attribute in a\n\t\t\tnamespace, using \"targetNamespace\" attribute on xs:attribute declaration, and an assertion XPath expression makes use\n\t\t\tof namespace qualified attribute node reference.\n\t\t\tThere are two XML instance tests in this example (one passes and the other fails wrt XSD 1.1 assertions, due to varying\n\t\t\tdata in XML instance documents).\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    An example demonstrating XSD 1.1 assertions evaluation, where XML schema document declares an XML attribute in a\n\t\t\tnamespace, using \"targetNamespace\" attribute on xs:attribute declaration, and an assertion XPath expression makes use\n\t\t\tof namespace qualified attribute node reference.\n\t\t\tThere are two XML instance tests in this example (one passes and the other fails wrt XSD 1.1 assertions, due to varying\n\t\t\tdata in XML instance documents).\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2900,15 +2813,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    An example demonstrating XSD 1.1 assertions defined on itemType definition of xs:list schema component.\n\t\t\tIn this scenario assertions must evaluate on all-of list items, and every list item must pass the assertions\n\t\t\ttest for assertion to contribute to XML instance validation. \n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    An example demonstrating XSD 1.1 assertions defined on itemType definition of xs:list schema component.\n\t\t\tIn this scenario assertions must evaluate on all-of list items, and every list item must pass the assertions\n\t\t\ttest for assertion to contribute to XML instance validation. \n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3024,15 +2934,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    An example demonstrating XSD 1.1 assertions evaluation on a simple type value, when the simpleType is a \n\t\t\tunion type, and one of memberTypes of union specifies assertions.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    An example demonstrating XSD 1.1 assertions evaluation on a simple type value, when the simpleType is a \n\t\t\tunion type, and one of memberTypes of union specifies assertions.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3202,15 +3109,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    This is similar to example \"assert_031\", but here both of memberTypes of union have assertions specified on them.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    This is similar to example \"assert_031\", but here both of memberTypes of union have assertions specified on them.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3326,15 +3230,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    Demonstrating assertions on memberTypes of xs:union.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    Demonstrating assertions on memberTypes of xs:union.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3423,15 +3324,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    An example demonstrating assertion defined in simple schema type, which is itemType of xs:list schema component.\n\t\t\tThis example defines an schema simpleType for an XML attribute.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    An example demonstrating assertion defined in simple schema type, which is itemType of xs:list schema component.\n\t\t\tThis example defines an schema simpleType for an XML attribute.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3520,15 +3418,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    An example demonstrating constraining the cardinality of schema xs:list, and defining assertion on items\n\t\t\tof the schema xs:list.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    An example demonstrating constraining the cardinality of schema xs:list, and defining assertion on items\n\t\t\tof the schema xs:list.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}

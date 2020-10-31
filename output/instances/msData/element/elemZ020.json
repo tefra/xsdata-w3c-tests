@@ -1,20 +1,8 @@
 {
     "foo_or_e1_or_foo": [
-        {
-            "qname": "{foo}foo",
-            "value": true
-        },
-        {
-            "qname": "foo",
-            "value": 123
-        },
-        {
-            "qname": "{foo}foo",
-            "value": true
-        },
-        {
-            "qname": "foo",
-            "value": 123
-        }
+        true,
+        123,
+        true,
+        123
     ]
 }

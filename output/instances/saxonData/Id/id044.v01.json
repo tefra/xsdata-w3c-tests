@@ -1,31 +1,28 @@
 {
     "chap_or_appx": [
         {
-            "qname": "{http://id044.ly/}chap",
-            "value": {
-                "section": [
-                    {
-                        "value": null,
-                        "nr": "1",
-                        "ref": "4"
-                    },
-                    {
-                        "value": null,
-                        "nr": "2",
-                        "ref": "3"
-                    },
-                    {
-                        "value": null,
-                        "nr": "3",
-                        "ref": "2"
-                    },
-                    {
-                        "value": null,
-                        "nr": "4",
-                        "ref": "1"
-                    }
-                ]
-            }
+            "section": [
+                {
+                    "value": null,
+                    "nr": "1",
+                    "ref": "4"
+                },
+                {
+                    "value": null,
+                    "nr": "2",
+                    "ref": "3"
+                },
+                {
+                    "value": null,
+                    "nr": "3",
+                    "ref": "2"
+                },
+                {
+                    "value": null,
+                    "nr": "4",
+                    "ref": "1"
+                }
+            ]
         },
         {
             "qname": "{http://id044.ly/}appx",

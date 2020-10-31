@@ -6,38 +6,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "human-targeted  annotation for the schema itself (valid schema)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "human-targeted  annotation for the schema itself (valid schema)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for the schema itself.",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for the schema itself.",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -118,38 +115,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "human-targeted double annotation for the schema itself (valid schema)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "human-targeted double annotation for the schema itself (valid schema)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for the schema itself.\n                             The annotation is specified twice.",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for the schema itself.\n                             The annotation is specified twice.",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -230,38 +224,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "human-targeted placed at the end annotation for the schema itself (valid schema)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "human-targeted placed at the end annotation for the schema itself (valid schema)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for the schema itself.\n                             The annotation is placed at the end.",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for the schema itself.\n                             The annotation is placed at the end.",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -342,38 +333,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "machine-targeted  annotation for the schema itself (valid schema)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "machine-targeted  annotation for the schema itself (valid schema)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for the schema itself.",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for the schema itself.",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -454,38 +442,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "machine-targeted double annotation for the schema itself (valid schema)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "machine-targeted double annotation for the schema itself (valid schema)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for the schema itself.\n                             The annotation is specified twice.",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for the schema itself.\n                             The annotation is specified twice.",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -566,38 +551,35 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "machine-targeted placed at the end annotation for the schema itself (valid schema)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "machine-targeted placed at the end annotation for the schema itself (valid schema)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for the schema itself.\n                             The annotation is placed at the end.",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for the schema itself.\n                             The annotation is placed at the end.",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}

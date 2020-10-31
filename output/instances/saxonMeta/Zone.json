@@ -6,40 +6,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Test timezone facet with value=\"required\"",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Test timezone facet with value=\"required\"",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Allows an xs:time value provided it has a timezone",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Allows an xs:time value provided it has a timezone",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -94,15 +91,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                Valid, timezone present.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                Valid, timezone present.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -138,15 +132,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                Valid, timezone present.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                Valid, timezone present.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -182,15 +173,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                Invalid, no timezone present.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                Invalid, no timezone present.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -233,40 +221,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Test timezone facet with value=\"prohibited\"",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Test timezone facet with value=\"prohibited\"",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Allows an xs:time value provided it has a timezone",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Allows an xs:time value provided it has a timezone",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -321,15 +306,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                Invalid, timezone present.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                Invalid, timezone present.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -365,15 +347,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                Invalid, timezone present.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                Invalid, timezone present.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -409,15 +388,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                Valid, no timezone present.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                Valid, no timezone present.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -460,40 +436,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Test timezone facet with value=\"optional\"",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Test timezone facet with value=\"optional\"",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Allows an xs:time value provided it has a timezone",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Allows an xs:time value provided it has a timezone",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -548,15 +521,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, timezone present.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, timezone present.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -592,15 +562,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, timezone present.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, timezone present.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -636,15 +603,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                Valid, no timezone present.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                Valid, no timezone present.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -687,40 +651,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Test timezone facet with value=\"optional\" derived from value=\"required\"",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Test timezone facet with value=\"optional\" derived from value=\"required\"",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Invalid restriction",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Invalid restriction",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -781,40 +742,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Test timezone facet with value=\"optional\" derived from value=\"prohibited\"",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Test timezone facet with value=\"optional\" derived from value=\"prohibited\"",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Invalid restriction",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Invalid restriction",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -875,40 +833,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Test timezone facet",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Test timezone facet",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Invalid facet value",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Invalid facet value",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -969,40 +924,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Test timezone facet",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Test timezone facet",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Used on inapplicable data type",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Used on inapplicable data type",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1063,40 +1015,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Test timezone facet",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Test timezone facet",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Used on inapplicable data type (union type)",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Used on inapplicable data type (union type)",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1157,40 +1106,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Test built-in type xs:dateTimeStamp",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Test built-in type xs:dateTimeStamp",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "A dateTime value with a required timezone",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "A dateTime value with a required timezone",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1245,15 +1191,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, timezone present.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, timezone present.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1289,15 +1232,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, timezone present.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, timezone present.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1333,15 +1273,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                invalid, no timezone present.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                invalid, no timezone present.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1384,40 +1321,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Test built-in type xs:dateTimeStamp",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Test built-in type xs:dateTimeStamp",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "restriction from xs:dateTimeStamp",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "restriction from xs:dateTimeStamp",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1472,15 +1406,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, timezone present.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, timezone present.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1516,15 +1447,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, timezone present.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, timezone present.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1560,15 +1488,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                invalid, no timezone present.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                invalid, no timezone present.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1604,15 +1529,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                invalid, value out of range.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                invalid, value out of range.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1655,40 +1577,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Test year zero allowed in type xs:dateTimeStamp",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Test year zero allowed in type xs:dateTimeStamp",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "use year zero in minInclusive facet",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "use year zero in minInclusive facet",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1743,15 +1662,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, year zero date after minInclusive.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, year zero date after minInclusive.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1787,15 +1703,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, year zero in proleptic Gregorian calendar was a leap year.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, year zero in proleptic Gregorian calendar was a leap year.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1831,15 +1744,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                invalid, year zero date before minInclusive.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                invalid, year zero date before minInclusive.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -1882,40 +1792,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Test year zero allowed in type xs:gYearMonth",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Test year zero allowed in type xs:gYearMonth",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "use year zero in enumeration facet",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "use year zero in enumeration facet",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -1976,15 +1883,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, year zero gYearmonth.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, year zero gYearmonth.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2020,15 +1924,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, year zero gYearmonth.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, year zero gYearmonth.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2064,15 +1965,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, year zero gYearmonth.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, year zero gYearmonth.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2108,15 +2006,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                invalid, year zero date before minInclusive.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                invalid, year zero date before minInclusive.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2152,15 +2047,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                invalid, year zero date before minInclusive.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                invalid, year zero date before minInclusive.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2196,15 +2088,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                invalid, year zero date before minInclusive.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                invalid, year zero date before minInclusive.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2247,40 +2136,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Test leap years in proleptic Gregorian calendar",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Test leap years in proleptic Gregorian calendar",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "0, -4, ... are a leap years; but not -100",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "0, -4, ... are a leap years; but not -100",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2341,15 +2227,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, leap year.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, leap year.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2385,15 +2268,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, leap year.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, leap year.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2429,15 +2309,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, leap year.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, leap year.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2473,15 +2350,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                invalid, not a leap year.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                invalid, not a leap year.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2517,15 +2391,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                invalid, not a leap year.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                invalid, not a leap year.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2568,40 +2439,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Leap seconds are not permitted",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Leap seconds are not permitted",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "31 Dec 2008 included a leap second, but xs:dateTime ignores it",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "31 Dec 2008 included a leap second, but xs:dateTime ignores it",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2662,15 +2530,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                invalid, leap seconds not allowed.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                invalid, leap seconds not allowed.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2713,40 +2578,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Test equality of xs:dateTime values appearing in an enumeration",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Test equality of xs:dateTime values appearing in an enumeration",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "For example, 00:00:00 is equal to 24:00:00 on the previous day",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "For example, 00:00:00 is equal to 24:00:00 on the previous day",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -2807,15 +2669,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, 00:00 = 24:00.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, 00:00 = 24:00.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2851,15 +2710,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, fraction digits equivalent.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, fraction digits equivalent.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2895,15 +2751,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, same instant in different timezones.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, same instant in different timezones.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2939,15 +2792,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                invalid, different timezone.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                invalid, different timezone.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -2983,15 +2833,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                invalid, 24:00:00 is the highest time value allowed.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                invalid, 24:00:00 is the highest time value allowed.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3034,40 +2881,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Test equality of xs:time values appearing in integrity constraints",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Test equality of xs:time values appearing in integrity constraints",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "For example, 00:00:00 is equal to 24:00:00",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "For example, 00:00:00 is equal to 24:00:00",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3122,15 +2966,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, all values equivalent.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, all values equivalent.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3166,15 +3007,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t               valid, all values equivalent.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t               valid, all values equivalent.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3210,15 +3048,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                invalid, values not equivalent.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                invalid, values not equivalent.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3254,15 +3089,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                invalid, values not equivalent.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                invalid, values not equivalent.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3305,40 +3137,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Test xs:dayTimeDuration including equality rules",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Test xs:dayTimeDuration including equality rules",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "For example, P1D is equal to P24H",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "For example, P1D is equal to P24H",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3399,15 +3228,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, all values equivalent.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, all values equivalent.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3443,15 +3269,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                invalid, values not equivalent.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                invalid, values not equivalent.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3494,40 +3317,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Test xs:yearMonthDuration including equality rules",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Test xs:yearMonthDuration including equality rules",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "For example, P1Y is equal to P12M",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "For example, P1Y is equal to P12M",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3588,15 +3408,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, all values equivalent.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, all values equivalent.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3632,15 +3449,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                invalid, values not equivalent.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                invalid, values not equivalent.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3683,40 +3497,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Test xs:dayTimeDuration min/max rules",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Test xs:dayTimeDuration min/max rules",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "For example, P1Y is equal to P12M",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "For example, P1Y is equal to P12M",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -3777,15 +3588,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, all values valid.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, all values valid.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3821,15 +3629,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, all values valid.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, all values valid.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3865,15 +3670,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, all values valid.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, all values valid.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3909,15 +3711,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                invalid, values out of range.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                invalid, values out of range.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -3953,15 +3752,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                invalid, values out of range.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                invalid, values out of range.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -4004,40 +3800,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Test xs:yearMonthDuration min/max rules",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Test xs:yearMonthDuration min/max rules",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "For example, P1Y is equal to P12M",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "For example, P1Y is equal to P12M",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -4098,15 +3891,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, all values valid.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, all values valid.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -4142,15 +3932,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, all values valid.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, all values valid.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -4186,15 +3973,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                valid, all values valid.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                valid, all values valid.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -4230,15 +4014,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                invalid, values out of range.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                invalid, values out of range.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -4274,15 +4055,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                invalid, values out of range.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                invalid, values out of range.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}

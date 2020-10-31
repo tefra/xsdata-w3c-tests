@@ -6,40 +6,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Tests to show an element declaration can be in multiple substitution groups",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Tests to show an element declaration can be in multiple substitution groups",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Tests to show an element declaration can be in multiple substitution groups",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Tests to show an element declaration can be in multiple substitution groups",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -94,15 +91,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                Valid, element subsitutes for both abstract elements.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                Valid, element subsitutes for both abstract elements.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -138,15 +132,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                Invalid, abstract element present in instance.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                Invalid, abstract element present in instance.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -189,40 +180,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Tests to show an element declaration can be in multiple substitution groups",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Tests to show an element declaration can be in multiple substitution groups",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Element substitutable for another in more than one way, both valid",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Element substitutable for another in more than one way, both valid",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -277,15 +265,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                Valid, element subsitutes for both abstract elements.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                Valid, element subsitutes for both abstract elements.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -321,15 +306,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                Invalid, abstract element present in instance.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                Invalid, abstract element present in instance.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -372,40 +354,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Tests to show an a substitution group with declarations in different namespaces",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Tests to show an a substitution group with declarations in different namespaces",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Substitution group has an abstract owner in one namespace, two concrete\n                members in different namespaces. Should work with XSD 1.0 or 1.1. Posted as a problem\n                on StackOverflow ref 9495098 on 29 Feb 2012.",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Substitution group has an abstract owner in one namespace, two concrete\n                members in different namespaces. Should work with XSD 1.0 or 1.1. Posted as a problem\n                on StackOverflow ref 9495098 on 29 Feb 2012.",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -472,15 +451,12 @@
                         {
                             "appinfo_or_documentation": [
                                 {
-                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                                    "value": {
-                                        "any_element": [
-                                            "\n\t\t                Valid, both elements in the content are in the substitution group.\n\t\t            "
-                                        ],
-                                        "source": null,
-                                        "lang": null,
-                                        "other_attributes": {}
-                                    }
+                                    "any_element": [
+                                        "\n\t\t                Valid, both elements in the content are in the substitution group.\n\t\t            "
+                                    ],
+                                    "source": null,
+                                    "lang": null,
+                                    "other_attributes": {}
                                 }
                             ],
                             "other_attributes": {}
@@ -521,40 +497,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Substitution group causes failure of Element Declarations Consistent",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Substitution group causes failure of Element Declarations Consistent",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "Element in substitution group, fails \"element declarations consistent\" because of a conflict\n     between a locally declared element and the substitution group of a globally declared element.\n     This is actually a 1.0 test, but it's a condition that appears to be untested in the 1.0\n     test suite",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "Element in substitution group, fails \"element declarations consistent\" because of a conflict\n     between a locally declared element and the substitution group of a globally declared element.\n     This is actually a 1.0 test, but it's a condition that appears to be untested in the 1.0\n     test suite",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -613,40 +586,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Element in more than one substitution group causes UPA violation in xs:sequence group",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Element in more than one substitution group causes UPA violation in xs:sequence group",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "The UPA violation occurs because the para element could be ascribed to either particle\n                in the content model of the 'back' element",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "The UPA violation occurs because the para element could be ascribed to either particle\n                in the content model of the 'back' element",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -707,40 +677,37 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                        "text": "Element in more than one substitution group causes UPA violation in xs:all group",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
+                            "any_element": [
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    "text": "Element in more than one substitution group causes UPA violation in xs:all group",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
                                     },
-                                    {
-                                        "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                        "text": "The UPA violation occurs because the para element could be ascribed to either particle\n                in the content model of the 'back' element",
-                                        "tail": null,
-                                        "ns_map": {
-                                            "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                            "xlink": "http://www.w3.org/1999/xlink",
-                                            "saxon": "http://saxon.sf.net/"
-                                        },
-                                        "children": [],
-                                        "attributes": {}
-                                    }
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                                    "children": [],
+                                    "attributes": {}
+                                },
+                                {
+                                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    "text": "The UPA violation occurs because the para element could be ascribed to either particle\n                in the content model of the 'back' element",
+                                    "tail": null,
+                                    "ns_map": {
+                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
+                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                        "xlink": "http://www.w3.org/1999/xlink",
+                                        "saxon": "http://saxon.sf.net/"
+                                    },
+                                    "children": [],
+                                    "attributes": {}
+                                }
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}

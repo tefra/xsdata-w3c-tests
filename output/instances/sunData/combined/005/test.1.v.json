@@ -1,52 +1,28 @@
 {
     "item1_or_item2": [
         {
-            "qname": "{foo}item1",
-            "value": {
-                "foo": ""
-            }
+            "foo": ""
         },
         {
-            "qname": "{foo}item1",
-            "value": {
-                "foo": ""
-            }
+            "foo": ""
         },
         {
-            "qname": "{foo}item1",
-            "value": {
-                "foo": ""
-            }
+            "foo": ""
         },
         {
-            "qname": "{foo}item1",
-            "value": {
-                "foo": ""
-            }
+            "foo": ""
         },
         {
-            "qname": "{foo}item1",
-            "value": {
-                "foo": ""
-            }
+            "foo": ""
         },
         {
-            "qname": "{foo}item1",
-            "value": {
-                "foo": ""
-            }
+            "foo": ""
         },
         {
-            "qname": "{foo}item1",
-            "value": {
-                "foo": ""
-            }
+            "foo": ""
         },
         {
-            "qname": "{foo}item1",
-            "value": {
-                "foo": ""
-            }
+            "foo": ""
         },
         {
             "qname": "{foo}item2",

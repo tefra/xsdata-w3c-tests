@@ -3,16 +3,13 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                    "value": {
-                        "any_element": [
-                            "time "
-                        ],
-                        "source": null,
-                        "lang": null,
-                        "other_attributes": {
-                            "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#time"
-                        }
+                    "any_element": [
+                        "time "
+                    ],
+                    "source": null,
+                    "lang": null,
+                    "other_attributes": {
+                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#time"
                     }
                 }
             ],
@@ -25,15 +22,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t\t\t1a: chameleon include on unqualified names in XPath expressions\n\t\t        1b: A calendar day with a very early timezone may be completely disjoint from a calendar day with a very late timezone.\n\t\t        1c: A time in a timezone may convert to a UTC time on a different day. \n\t\t        "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t\t\t1a: chameleon include on unqualified names in XPath expressions\n\t\t        1b: A calendar day with a very early timezone may be completely disjoint from a calendar day with a very late timezone.\n\t\t        1c: A time in a timezone may convert to a UTC time on a different day. \n\t\t        "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}

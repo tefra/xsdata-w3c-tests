@@ -1,115 +1,73 @@
 {
     "choice": [
         {
-            "qname": "{foo}skipAny",
-            "value": {
-                "any_attributes": {
-                    "{foo}a": "bra",
-                    "{foo}b": "bra",
-                    "{undeclared}something": "also allowed"
-                }
+            "any_attributes": {
+                "{foo}a": "bra",
+                "{foo}b": "bra",
+                "{undeclared}something": "also allowed"
             }
         },
         {
-            "qname": "{foo}skipAny",
-            "value": {
-                "any_attributes": {}
+            "any_attributes": {}
+        },
+        {
+            "any_attributes": {
+                "{foo}a": "5",
+                "{foo}undeclared": "OK",
+                "{bar}b": "2",
+                "{undeclared}something": "also allowed"
             }
         },
         {
-            "qname": "{foo}laxAny",
-            "value": {
-                "any_attributes": {
-                    "{foo}a": "5",
-                    "{foo}undeclared": "OK",
-                    "{bar}b": "2",
-                    "{undeclared}something": "also allowed"
-                }
+            "any_attributes": {}
+        },
+        {
+            "any_attributes": {
+                "{foo}b": "5",
+                "{bar}c": "2",
+                "{zot}a": "52"
             }
         },
         {
-            "qname": "{foo}laxAny",
-            "value": {
-                "any_attributes": {}
+            "any_attributes": {}
+        },
+        {
+            "other_attributes": {
+                "{bar}a": "brabra",
+                "{bar}undeclared": "OK",
+                "{undeclared}something": "OK",
+                "{undeclared}local": "OK"
             }
         },
         {
-            "qname": "{foo}strictAny",
-            "value": {
-                "any_attributes": {
-                    "{foo}b": "5",
-                    "{bar}c": "2",
-                    "{zot}a": "52"
-                }
+            "other_attributes": {}
+        },
+        {
+            "local_attributes": {
+                "att": "whatever"
             }
         },
         {
-            "qname": "{foo}strictAny",
-            "value": {
-                "any_attributes": {}
+            "local_attributes": {}
+        },
+        {
+            "target_namespace_attributes": {
+                "{foo}a": "1",
+                "{foo}b": "2",
+                "{foo}c": "3"
             }
         },
         {
-            "qname": "{foo}skipOther",
-            "value": {
-                "other_attributes": {
-                    "{bar}a": "brabra",
-                    "{bar}undeclared": "OK",
-                    "{undeclared}something": "OK",
-                    "{undeclared}local": "OK"
-                }
+            "target_namespace_attributes": {}
+        },
+        {
+            "bar_attributes": {
+                "{bar}b": "invali",
+                "{bar}undeclared": "ok"
             }
         },
         {
-            "qname": "{foo}skipOther",
-            "value": {
-                "other_attributes": {}
-            }
-        },
-        {
-            "qname": "{foo}laxLocal",
-            "value": {
-                "local_attributes": {
-                    "att": "whatever"
-                }
-            }
-        },
-        {
-            "qname": "{foo}laxLocal",
-            "value": {
-                "local_attributes": {}
-            }
-        },
-        {
-            "qname": "{foo}strictTarget",
-            "value": {
-                "target_namespace_attributes": {
-                    "{foo}a": "1",
-                    "{foo}b": "2",
-                    "{foo}c": "3"
-                }
-            }
-        },
-        {
-            "qname": "{foo}strictTarget",
-            "value": {
-                "target_namespace_attributes": {}
-            }
-        },
-        {
-            "qname": "{foo}skipBar",
-            "value": {
-                "bar_attributes": {
-                    "{bar}b": "invali",
-                    "{bar}undeclared": "ok"
-                }
-            }
-        },
-        {
-            "qname": "{foo}skipBar",
-            "value": {
-                "bar_attributes": {}
-            }
+            "bar_attributes": {}
         }
     ]
 }

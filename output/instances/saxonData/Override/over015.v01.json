@@ -1,64 +1,58 @@
 {
     "para_or_bezzle": [
         {
-            "qname": "para",
-            "value": {
-                "year": {
-                    "qname": "year",
-                    "text": "2010",
-                    "tail": null,
-                    "ns_map": {},
-                    "children": [],
-                    "attributes": {}
-                },
-                "month": {
-                    "qname": "month",
-                    "text": "05",
-                    "tail": null,
-                    "ns_map": {},
-                    "children": [],
-                    "attributes": {}
-                },
-                "day": {
-                    "qname": "day",
-                    "text": "11",
-                    "tail": null,
-                    "ns_map": {},
-                    "children": [],
-                    "attributes": {}
-                },
-                "nota": "foo"
-            }
+            "year": {
+                "qname": "year",
+                "text": "2010",
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            },
+            "month": {
+                "qname": "month",
+                "text": "05",
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            },
+            "day": {
+                "qname": "day",
+                "text": "11",
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            },
+            "nota": "foo"
         },
         {
-            "qname": "para",
-            "value": {
-                "year": {
-                    "qname": "year",
-                    "text": "2011",
-                    "tail": null,
-                    "ns_map": {},
-                    "children": [],
-                    "attributes": {}
-                },
-                "month": {
-                    "qname": "month",
-                    "text": "05",
-                    "tail": null,
-                    "ns_map": {},
-                    "children": [],
-                    "attributes": {}
-                },
-                "day": {
-                    "qname": "day",
-                    "text": "11",
-                    "tail": null,
-                    "ns_map": {},
-                    "children": [],
-                    "attributes": {}
-                },
-                "nota": "bez"
-            }
+            "year": {
+                "qname": "year",
+                "text": "2011",
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            },
+            "month": {
+                "qname": "month",
+                "text": "05",
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            },
+            "day": {
+                "qname": "day",
+                "text": "11",
+                "tail": null,
+                "ns_map": {},
+                "children": [],
+                "attributes": {}
+            },
+            "nota": "bez"
         }
     ]
 }

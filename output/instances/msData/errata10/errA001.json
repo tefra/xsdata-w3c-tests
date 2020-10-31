@@ -1,9 +1,6 @@
 {
     "choice": [
-        {
-            "qname": "testByte",
-            "value": -100
-        },
+        -100,
         {
             "qname": "testUnsignedByte",
             "value": 100
@@ -52,9 +49,6 @@
             "qname": "testUnsignedShort",
             "value": 12345
         },
-        {
-            "qname": "testDecimal",
-            "value": "123456789.12345"
-        }
+        "123456789.12345"
     ]
 }

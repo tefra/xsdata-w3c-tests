@@ -11,29 +11,26 @@
     "xsdextra": null,
     "p_or_blockquote": [
         {
-            "qname": "{http://example.org/ns/document}p",
-            "value": {
-                "content": [
-                    "This is some ",
-                    {
-                        "qname": "{http://example.org/ns/document}emphasis",
-                        "value": {
-                            "content": [
-                                "text",
-                                "."
-                            ],
-                            "choice": [],
-                            "role": null,
-                            "id": null,
-                            "base": null
-                        }
+            "content": [
+                "This is some ",
+                {
+                    "qname": "{http://example.org/ns/document}emphasis",
+                    "value": {
+                        "content": [
+                            "text",
+                            "."
+                        ],
+                        "choice": [],
+                        "role": null,
+                        "id": null,
+                        "base": null
                     }
-                ],
-                "choice": [],
-                "role": null,
-                "id": null,
-                "base": null
-            }
+                }
+            ],
+            "choice": [],
+            "role": null,
+            "id": null,
+            "base": null
         }
     ],
     "role": null,

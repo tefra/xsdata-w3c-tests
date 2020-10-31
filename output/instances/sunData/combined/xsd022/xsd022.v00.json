@@ -1,13 +1,10 @@
 {
     "child1_or_child2": [
-        {
-            "qname": "{http://foo.com}child1",
-            "value": [
-                "123456",
-                "abcdef",
-                "xxxxxxxx"
-            ]
-        },
+        [
+            "123456",
+            "abcdef",
+            "xxxxxxxx"
+        ],
         {
             "qname": "{http://foo.com}child2",
             "value": true

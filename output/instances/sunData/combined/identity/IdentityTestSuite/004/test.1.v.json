@@ -2,18 +2,12 @@
     "scope": [
         {
             "key_or_ref": [
-                {
-                    "qname": "{foo}key",
-                    "value": "abc"
-                }
+                "abc"
             ]
         },
         {
             "key_or_ref": [
-                {
-                    "qname": "{foo}key",
-                    "value": "abc"
-                }
+                "abc"
             ]
         }
     ]

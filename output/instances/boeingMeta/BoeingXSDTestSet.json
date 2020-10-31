@@ -3,15 +3,12 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                    "value": {
-                        "any_element": [
-                            "\n\t\t\tAll the following test cases are derived from examples given in the W3C XML Schema\n\t\t\tPart 0: Primer located at http://www.w3.org/TR/xmlschema-0/ with minor variation in the\n\t\t\tspecific features intended for each test. \n\t\t"
-                        ],
-                        "source": null,
-                        "lang": null,
-                        "other_attributes": {}
-                    }
+                    "any_element": [
+                        "\n\t\t\tAll the following test cases are derived from examples given in the W3C XML Schema\n\t\t\tPart 0: Primer located at http://www.w3.org/TR/xmlschema-0/ with minor variation in the\n\t\t\tspecific features intended for each test. \n\t\t"
+                    ],
+                    "source": null,
+                    "lang": null,
+                    "other_attributes": {}
                 }
             ],
             "other_attributes": {}
@@ -23,15 +20,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t\t\tInternational Purchase Order 1\n\t\t\t"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t\t\tInternational Purchase Order 1\n\t\t\t"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -169,15 +163,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t\t\tInternational Purchase Order 2\n\t\t\t"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t\t\tInternational Purchase Order 2\n\t\t\t"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -321,15 +312,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t\t\tInternational Purchase Order 3\n\t\t\t"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t\t\tInternational Purchase Order 3\n\t\t\t"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -479,15 +467,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t\t\tInternational Purchase Order 4\n\t\t\t"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t\t\tInternational Purchase Order 4\n\t\t\t"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -637,15 +622,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t\t\tInternational Purchase Order 5\n\t\t\t"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t\t\tInternational Purchase Order 5\n\t\t\t"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -795,15 +777,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t\t\tInternational Purchase Order 6\n\t\t\t"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t\t\tInternational Purchase Order 6\n\t\t\t"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}

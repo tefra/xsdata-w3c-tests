@@ -3,16 +3,13 @@
         {
             "appinfo_or_documentation": [
                 {
-                    "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                    "value": {
-                        "any_element": [
-                            "Default/fixed values for xsi:type and xsi:nil"
-                        ],
-                        "source": null,
-                        "lang": null,
-                        "other_attributes": {
-                            "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#xsi_nil"
-                        }
+                    "any_element": [
+                        "Default/fixed values for xsi:type and xsi:nil"
+                    ],
+                    "source": null,
+                    "lang": null,
+                    "other_attributes": {
+                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#xsi_nil"
                     }
                 }
             ],
@@ -25,15 +22,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "xsi:type must resolve to a type definition"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "xsi:type must resolve to a type definition"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -122,15 +116,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "xsi:type must resolve to a type definition "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "xsi:type must resolve to a type definition "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -219,15 +210,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "When an xsi:type attribute appears on an element, and has a QName as its value,\n but the QName does not resolve to a known type definition, processors are now \n required to \"fall back\" to lax validation, using the declared {type definition}  \n of the governing element declaration as the governing type definition. "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "When an xsi:type attribute appears on an element, and has a QName as its value,\n but the QName does not resolve to a known type definition, processors are now \n required to \"fall back\" to lax validation, using the declared {type definition}  \n of the governing element declaration as the governing type definition. "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -316,15 +304,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "Structures introduces a mechanism for signaling that an element \n\t\tmust be accepted as 'valid'  when it has no content despite a content type which \n\t\tdoes not require or even necessarily allow empty content. An element can be 'valid'  \n\t\twithout content if it has the attribute xsi:nil  with the value true. An element \n\t\tso labeled must  be empty, but can carry attributes if permitted by the corresponding \n\t\tcomplex type. "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "Structures introduces a mechanism for signaling that an element \n\t\tmust be accepted as 'valid'  when it has no content despite a content type which \n\t\tdoes not require or even necessarily allow empty content. An element can be 'valid'  \n\t\twithout content if it has the attribute xsi:nil  with the value true. An element \n\t\tso labeled must  be empty, but can carry attributes if permitted by the corresponding \n\t\tcomplex type. "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -411,15 +396,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "default values for xsi:nil"
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "default values for xsi:nil"
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}

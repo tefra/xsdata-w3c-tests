@@ -6,15 +6,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    Demonstrates XML Schema 1.1 type-alternatives.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    Demonstrates XML Schema 1.1 type-alternatives.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -103,15 +100,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    Demonstrates XML Schema 1.1 type-alternatives.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    Demonstrates XML Schema 1.1 type-alternatives.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -200,15 +194,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    Demonstrates XML Schema 1.1 type-alternatives. In this example, schema type definition's are provided\n\t\t\tas children of xs:alternative instructions.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    Demonstrates XML Schema 1.1 type-alternatives. In this example, schema type definition's are provided\n\t\t\tas children of xs:alternative instructions.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -297,15 +288,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    Demonstrates XML Schema 1.1 type-alternatives. Using inheritable attributes and assertions along\n\t\t\twith type-alternatives.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    Demonstrates XML Schema 1.1 type-alternatives. Using inheritable attributes and assertions along\n\t\t\twith type-alternatives.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -421,15 +409,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    Demonstrates XML Schema 1.1 type-alternatives. Using inheritable attributes in this example.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    Demonstrates XML Schema 1.1 type-alternatives. Using inheritable attributes in this example.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}
@@ -545,15 +530,12 @@
                 {
                     "appinfo_or_documentation": [
                         {
-                            "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentation",
-                            "value": {
-                                "any_element": [
-                                    "\n\t\t    Demonstrates XML Schema 1.1 type-alternatives.\n\t\t "
-                                ],
-                                "source": null,
-                                "lang": null,
-                                "other_attributes": {}
-                            }
+                            "any_element": [
+                                "\n\t\t    Demonstrates XML Schema 1.1 type-alternatives.\n\t\t "
+                            ],
+                            "source": null,
+                            "lang": null,
+                            "other_attributes": {}
                         }
                     ],
                     "other_attributes": {}

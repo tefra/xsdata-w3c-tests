@@ -1,91 +1,73 @@
 {
     "mixed_or_element_only": [
         {
-            "qname": "{foo}mixed",
-            "value": {
-                "content": [
-                    "\n\t\tabcdef\n\t"
-                ],
-                "a_or_b_or_c": []
-            }
+            "content": [
+                "\n\t\tabcdef\n\t"
+            ],
+            "a_or_b_or_c": []
         },
         {
-            "qname": "{foo}mixed",
-            "value": {
-                "content": [
-                    {
-                        "qname": "{foo}a",
-                        "value": {
-                            "any_element": {
-                                "qname": null,
-                                "text": null,
-                                "tail": " mi ",
-                                "ns_map": {
-                                    "null": "foo"
-                                },
-                                "children": [],
-                                "attributes": {}
-                            }
-                        }
-                    },
-                    {
-                        "qname": "{foo}b",
-                        "value": {
-                            "any_element": {
-                                "qname": null,
-                                "text": null,
-                                "tail": " xed ",
-                                "ns_map": {
-                                    "null": "foo"
-                                },
-                                "children": [],
-                                "attributes": {}
-                            }
-                        }
-                    },
-                    {
-                        "qname": "{foo}c",
-                        "value": {
-                            "any_element": {
-                                "qname": null,
-                                "text": null,
-                                "tail": " content\n\t",
-                                "ns_map": {
-                                    "null": "foo"
-                                },
-                                "children": [],
-                                "attributes": {}
-                            }
+            "content": [
+                {
+                    "qname": "{foo}a",
+                    "value": {
+                        "any_element": {
+                            "qname": null,
+                            "text": null,
+                            "tail": " mi ",
+                            "ns_map": {
+                                "null": "foo"
+                            },
+                            "children": [],
+                            "attributes": {}
                         }
                     }
-                ],
-                "a_or_b_or_c": []
-            }
+                },
+                {
+                    "qname": "{foo}b",
+                    "value": {
+                        "any_element": {
+                            "qname": null,
+                            "text": null,
+                            "tail": " xed ",
+                            "ns_map": {
+                                "null": "foo"
+                            },
+                            "children": [],
+                            "attributes": {}
+                        }
+                    }
+                },
+                {
+                    "qname": "{foo}c",
+                    "value": {
+                        "any_element": {
+                            "qname": null,
+                            "text": null,
+                            "tail": " content\n\t",
+                            "ns_map": {
+                                "null": "foo"
+                            },
+                            "children": [],
+                            "attributes": {}
+                        }
+                    }
+                }
+            ],
+            "a_or_b_or_c": []
         },
         {
-            "qname": "{foo}elementOnly",
-            "value": {
-                "a_or_b_or_c": [
-                    {
-                        "qname": "{foo}a",
-                        "value": {
-                            "any_element": null
-                        }
-                    },
-                    {
-                        "qname": "{foo}b",
-                        "value": {
-                            "any_element": null
-                        }
-                    },
-                    {
-                        "qname": "{foo}a",
-                        "value": {
-                            "any_element": null
-                        }
-                    }
-                ]
-            }
+            "a_or_b_or_c": [
+                {
+                    "any_element": null
+                },
+                {
+                    "any_element": null
+                },
+                {
+                    "any_element": null
+                }
+            ]
         }
     ]
 }

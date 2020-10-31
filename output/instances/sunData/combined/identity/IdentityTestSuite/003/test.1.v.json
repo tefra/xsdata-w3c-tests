@@ -1,14 +1,8 @@
 {
     "key_or_ref": [
         {
-            "qname": "{foo}key",
-            "value": {
-                "id": "12"
-            }
+            "id": "12"
         },
-        {
-            "qname": "{foo}ref",
-            "value": "12"
-        }
+        "12"
     ]
 }

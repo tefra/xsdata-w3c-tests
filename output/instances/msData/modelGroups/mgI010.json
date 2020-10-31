@@ -1,9 +1,6 @@
 {
     "choice": [
-        {
-            "qname": "b",
-            "value": "I am a stringy string"
-        }
+        "I am a stringy string"
     ],
     "c": null
 }

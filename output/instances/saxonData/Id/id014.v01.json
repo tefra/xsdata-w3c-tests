@@ -2,18 +2,12 @@
     "node": [
         {
             "node_or_id": [
-                {
-                    "qname": "id",
-                    "value": null
-                }
+                ""
             ]
         },
         {
             "node_or_id": [
-                {
-                    "qname": "id",
-                    "value": "p2"
-                }
+                "p2"
             ]
         }
     ]

@@ -1,21 +1,7 @@
 {
     "a": [
-        {
-            "qname": "a",
-            "text": "123456",
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "a",
-            "text": "abcdefgh",
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        }
+        "123456",
+        "abcdefgh"
     ],
     "item": [
         {

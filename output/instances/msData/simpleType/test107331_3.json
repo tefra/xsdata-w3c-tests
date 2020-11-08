@@ -29,14 +29,7 @@
         "-5.444"
     ],
     "a": [
-        {
-            "qname": "a",
-            "text": "12",
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        }
+        "12"
     ],
     "item": []
 }

@@ -38,14 +38,7 @@
         ],
         "attributes": {}
     },
-    "a": {
-        "qname": "a",
-        "text": null,
-        "tail": null,
-        "ns_map": {},
-        "children": [],
-        "attributes": {}
-    },
+    "a": "",
     "b": null,
     "c": null
 }

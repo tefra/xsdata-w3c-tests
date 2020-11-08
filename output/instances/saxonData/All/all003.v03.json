@@ -2,36 +2,40 @@
     "content": [
         {
             "qname": "a",
-            "text": null,
-            "tail": "banana",
+            "text": "",
+            "tail": null,
             "ns_map": {},
             "children": [],
             "attributes": {}
         },
+        "banana",
         {
             "qname": "b",
-            "text": null,
-            "tail": "custard",
+            "text": "",
+            "tail": null,
             "ns_map": {},
             "children": [],
             "attributes": {}
         },
+        "custard",
         {
             "qname": "c",
-            "text": null,
-            "tail": "mango",
+            "text": "",
+            "tail": null,
             "ns_map": {},
             "children": [],
             "attributes": {}
         },
+        "mango",
         {
             "qname": "d",
-            "text": null,
-            "tail": "pineapples and cream",
+            "text": "",
+            "tail": null,
             "ns_map": {},
             "children": [],
             "attributes": {}
-        }
+        },
+        "pineapples and cream"
     ],
     "a": [],
     "b": [],

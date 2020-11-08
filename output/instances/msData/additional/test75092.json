@@ -1,15 +1,5 @@
 {
-    "a": {
-        "qname": "a",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsd": "http://www.w3.org/2001/XMLSchema",
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
-        "children": [],
-        "attributes": {}
-    },
+    "a": "",
     "any_element": [
         {
             "qname": "b",

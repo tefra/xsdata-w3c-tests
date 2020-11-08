@@ -9,17 +9,7 @@
             "any_element": null
         }
     ],
-    "separator": {
-        "qname": "{ElemDecl/substGroupAffilation}Separator",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "null": "ElemDecl/substGroupAffilation",
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
-        "children": [],
-        "attributes": {}
-    },
+    "separator": "",
     "element": [
         {
             "any_element": null

@@ -2,11 +2,9 @@
     "content": [
         {
             "qname": "e",
-            "text": null,
+            "text": "",
             "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-            },
+            "ns_map": {},
             "children": [],
             "attributes": {}
         }

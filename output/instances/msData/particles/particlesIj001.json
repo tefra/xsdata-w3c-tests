@@ -1,19 +1,6 @@
 {
     "elem": {
-        "c1": {
-            "qname": "{http://xsdtesting}c1",
-            "text": "1",
-            "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "a": "http://xsdtesting",
-                "xsd": "http://www.w3.org/2001/XMLSchema"
-            },
-            "children": [],
-            "attributes": {
-                "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}int"
-            }
-        },
+        "c1": 1,
         "c2": null
     }
 }

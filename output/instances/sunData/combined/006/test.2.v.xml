@@ -66,10 +66,10 @@
   <eB>
     <foo/>
   </eB>
-  <eB>
+  <eB xsi:type="Der">
     <foo/>
   </eB>
-  <eB>
+  <eB xsi:type="Dee">
     <foo/>
   </eB>
 </root>

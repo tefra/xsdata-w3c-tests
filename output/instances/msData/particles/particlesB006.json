@@ -1,28 +1,10 @@
 {
     "elem": {
         "e1": [
-            {
-                "qname": "e1",
-                "text": " text ",
-                "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            }
+            " text "
         ],
         "e2": [
-            {
-                "qname": "e2",
-                "text": " text ",
-                "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            }
+            " text "
         ]
     }
 }

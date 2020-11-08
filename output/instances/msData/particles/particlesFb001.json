@@ -1,26 +1,6 @@
 {
-    "c1": {
-        "qname": "{http://xsdtesting}c1",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-            "x": "http://xsdtesting"
-        },
-        "children": [],
-        "attributes": {}
-    },
+    "c1": "",
     "c2": null,
     "g1": null,
-    "g2": {
-        "qname": "{http://xsdtesting}g2",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-            "x": "http://xsdtesting"
-        },
-        "children": [],
-        "attributes": {}
-    }
+    "g2": ""
 }

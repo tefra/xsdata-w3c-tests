@@ -3,63 +3,27 @@
         "r1_or_r2": [
             {
                 "qname": "r2",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
+                "value": null
             },
             {
                 "qname": "r2",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
+                "value": null
             },
             {
                 "qname": "r2",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
+                "value": null
             },
             {
                 "qname": "r2",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
+                "value": null
             },
             {
                 "qname": "r2",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
+                "value": null
             },
             {
                 "qname": "r2",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
+                "value": null
             }
         ]
     }

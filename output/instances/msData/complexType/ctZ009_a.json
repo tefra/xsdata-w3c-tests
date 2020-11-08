@@ -2,67 +2,35 @@
     "foo_or_sg": [
         {
             "qname": "foo",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
+            "value": null
         },
         {
             "qname": "foo",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
+            "value": null
         },
         {
             "qname": "foo",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
+            "value": null
         },
         {
             "qname": "foo",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
+            "value": null
         },
         {
             "qname": "foo",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
+            "value": null
         },
         {
             "qname": "foo",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
+            "value": null
         },
         {
             "qname": "foo",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
+            "value": null
         },
         {
             "qname": "foo",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
+            "value": null
         }
     ]
 }

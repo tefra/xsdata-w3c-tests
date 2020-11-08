@@ -4,42 +4,14 @@
             "a": [
                 {
                     "b": [
-                        {
-                            "qname": "b",
-                            "text": null,
-                            "tail": null,
-                            "ns_map": {},
-                            "children": [],
-                            "attributes": {}
-                        },
-                        {
-                            "qname": "b",
-                            "text": null,
-                            "tail": null,
-                            "ns_map": {},
-                            "children": [],
-                            "attributes": {}
-                        }
+                        "",
+                        ""
                     ]
                 },
                 {
                     "b": [
-                        {
-                            "qname": "b",
-                            "text": null,
-                            "tail": null,
-                            "ns_map": {},
-                            "children": [],
-                            "attributes": {}
-                        },
-                        {
-                            "qname": "b",
-                            "text": null,
-                            "tail": null,
-                            "ns_map": {},
-                            "children": [],
-                            "attributes": {}
-                        }
+                        "",
+                        ""
                     ]
                 }
             ],
@@ -50,42 +22,14 @@
             "a": [
                 {
                     "b": [
-                        {
-                            "qname": "b",
-                            "text": null,
-                            "tail": null,
-                            "ns_map": {},
-                            "children": [],
-                            "attributes": {}
-                        },
-                        {
-                            "qname": "b",
-                            "text": null,
-                            "tail": null,
-                            "ns_map": {},
-                            "children": [],
-                            "attributes": {}
-                        }
+                        "",
+                        ""
                     ]
                 },
                 {
                     "b": [
-                        {
-                            "qname": "b",
-                            "text": null,
-                            "tail": null,
-                            "ns_map": {},
-                            "children": [],
-                            "attributes": {}
-                        },
-                        {
-                            "qname": "b",
-                            "text": null,
-                            "tail": null,
-                            "ns_map": {},
-                            "children": [],
-                            "attributes": {}
-                        }
+                        "",
+                        ""
                     ]
                 }
             ],

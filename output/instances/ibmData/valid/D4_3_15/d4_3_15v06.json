@@ -1,15 +1,6 @@
 {
     "base_ely": [
-        {
-            "qname": "baseEly",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-            },
-            "children": [],
-            "attributes": {}
-        }
+        ""
     ],
     "base_attr": "present",
     "derived_attr": "present"

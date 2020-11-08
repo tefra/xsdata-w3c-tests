@@ -10,24 +10,10 @@
         "attributes": {}
     },
     "a": [
-        {
-            "qname": "a",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        }
+        ""
     ],
     "b": 23,
     "c": null,
-    "d": {
-        "qname": "d",
-        "text": null,
-        "tail": null,
-        "ns_map": {},
-        "children": [],
-        "attributes": {}
-    },
+    "d": "",
     "any_element": null
 }

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <test:root xmlns:test="IdConstrDefs/fields" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <number xsi:type="xsd:string">3.0</number>
+  <number>3.0</number>
   <number xsi:type="xsd:decimal">3</number>
 </test:root>

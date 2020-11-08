@@ -1,220 +1,38 @@
 {
     "item": [
         {
-            "a": {
-                "qname": "{foo}a",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "null": "foo",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            },
-            "b": {
-                "qname": "{foo}b",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "null": "foo",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            },
-            "c": {
-                "qname": "{foo}c",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "null": "foo",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            }
+            "a": "",
+            "b": "",
+            "c": ""
         },
         {
-            "a": {
-                "qname": "{foo}a",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "null": "foo",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            },
+            "a": "",
             "b": null,
-            "c": {
-                "qname": "{foo}c",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "null": "foo",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            }
+            "c": ""
         },
         {
-            "a": {
-                "qname": "{foo}a",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "null": "foo",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            },
+            "a": "",
             "b": null,
-            "c": {
-                "qname": "{foo}c",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "null": "foo",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            }
+            "c": ""
         },
         {
-            "a": {
-                "qname": "{foo}a",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "prefix": "foo",
-                    "null": "foo",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            },
+            "a": "",
             "b": null,
-            "c": {
-                "qname": "{foo}c",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "prefix": "foo",
-                    "null": "foo",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            }
+            "c": ""
         },
         {
-            "a": {
-                "qname": "{foo}a",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "null": "foo",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            },
-            "b": {
-                "qname": "{foo}b",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "null": "foo",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            },
-            "c": {
-                "qname": "{foo}c",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "null": "foo",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            },
-            "d": {
-                "qname": "{foo}d",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "null": "foo",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            },
-            "e": {
-                "qname": "{foo}e",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "null": "foo",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            }
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": "",
+            "e": ""
         },
         {
-            "a": {
-                "qname": "{foo}a",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "null": "foo",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            },
+            "a": "",
             "b": null,
-            "c": {
-                "qname": "{foo}c",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "null": "foo",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            },
-            "d": {
-                "qname": "{foo}d",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "null": "foo",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            },
-            "e": {
-                "qname": "{foo}e",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "null": "foo",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            }
+            "c": "",
+            "d": "",
+            "e": ""
         }
     ]
 }

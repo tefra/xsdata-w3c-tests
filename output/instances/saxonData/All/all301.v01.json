@@ -1,148 +1,29 @@
 {
     "a": [
-        {
-            "qname": "a",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "a",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "a",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "a",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        }
+        "",
+        "",
+        "",
+        ""
     ],
     "b": [
-        {
-            "qname": "b",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "b",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        }
+        "",
+        ""
     ],
     "c": [
-        {
-            "qname": "c",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "c",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "c",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        }
+        "",
+        "",
+        ""
     ],
-    "d": {
-        "qname": "d",
-        "text": null,
-        "tail": null,
-        "ns_map": {},
-        "children": [],
-        "attributes": {}
-    },
-    "e": {
-        "qname": "e",
-        "text": null,
-        "tail": null,
-        "ns_map": {},
-        "children": [],
-        "attributes": {}
-    },
+    "d": "",
+    "e": "",
     "f": [
-        {
-            "qname": "f",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "f",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "f",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        }
+        "",
+        "",
+        ""
     ],
     "g": [
-        {
-            "qname": "g",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "g",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "g",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        }
+        "",
+        "",
+        ""
     ]
 }

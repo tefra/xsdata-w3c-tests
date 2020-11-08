@@ -1,20 +1,6 @@
 {
     "element1": [
-        {
-            "qname": "element1",
-            "text": "element1",
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "element1",
-            "text": "element1",
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        }
+        "element1",
+        "element1"
     ]
 }

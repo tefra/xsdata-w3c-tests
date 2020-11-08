@@ -9,15 +9,6 @@
     "g42": null,
     "c1": null,
     "c2": null,
-    "c3": {
-        "qname": "c3",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
-        "children": [],
-        "attributes": {}
-    },
+    "c3": "",
     "c4": null
 }

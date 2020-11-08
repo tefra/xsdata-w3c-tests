@@ -2,32 +2,8 @@
     "elem": {
         "c1_or_c2_or_d1": [],
         "d2": [
-            {
-                "qname": "d2",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "a": "http://xsdtesting",
-                    "xsd": "http://www.w3.org/2001/XMLSchema",
-                    "imp": "http://importedXSD"
-                },
-                "children": [],
-                "attributes": {}
-            },
-            {
-                "qname": "d2",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "a": "http://xsdtesting",
-                    "xsd": "http://www.w3.org/2001/XMLSchema",
-                    "imp": "http://importedXSD"
-                },
-                "children": [],
-                "attributes": {}
-            }
+            "",
+            ""
         ]
     }
 }

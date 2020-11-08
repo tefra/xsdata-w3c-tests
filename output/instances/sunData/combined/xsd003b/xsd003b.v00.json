@@ -1,35 +1,8 @@
 {
-    "in_value": {
-        "qname": "{foo}in",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "null": "foo"
-        },
-        "children": [],
-        "attributes": {}
-    },
+    "in_value": "",
     "root": [],
-    "out": {
-        "qname": "{foo}out",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "null": "foo"
-        },
-        "children": [],
-        "attributes": {}
-    },
+    "out": "",
     "g_att": null,
     "add": "5.2",
-    "tail": {
-        "qname": "{foo}tail",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "null": "foo"
-        },
-        "children": [],
-        "attributes": {}
-    }
+    "tail": ""
 }

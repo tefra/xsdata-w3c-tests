@@ -10,38 +10,10 @@
         "attributes": {}
     },
     "a": [
-        {
-            "qname": "a",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        }
+        ""
     ],
-    "b": {
-        "qname": "b",
-        "text": null,
-        "tail": null,
-        "ns_map": {},
-        "children": [],
-        "attributes": {}
-    },
-    "c": {
-        "qname": "c",
-        "text": null,
-        "tail": null,
-        "ns_map": {},
-        "children": [],
-        "attributes": {}
-    },
-    "d": {
-        "qname": "d",
-        "text": null,
-        "tail": null,
-        "ns_map": {},
-        "children": [],
-        "attributes": {}
-    },
+    "b": "",
+    "c": "",
+    "d": "",
     "nonempty_com_element": null
 }

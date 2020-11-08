@@ -1,60 +1,8 @@
 {
-    "s1": {
-        "qname": "s1",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-            "n1": "http://n1",
-            "n2": "http://n2",
-            "n3": "http://n3",
-            "n4": "http://n4"
-        },
-        "children": [],
-        "attributes": {}
-    },
-    "s2": {
-        "qname": "s2",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-            "n1": "http://n1",
-            "n2": "http://n2",
-            "n3": "http://n3",
-            "n4": "http://n4"
-        },
-        "children": [],
-        "attributes": {}
-    },
-    "s3": {
-        "qname": "s3",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-            "n1": "http://n1",
-            "n2": "http://n2",
-            "n3": "http://n3",
-            "n4": "http://n4"
-        },
-        "children": [],
-        "attributes": {}
-    },
-    "s4": {
-        "qname": "s4",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-            "n1": "http://n1",
-            "n2": "http://n2",
-            "n3": "http://n3",
-            "n4": "http://n4"
-        },
-        "children": [],
-        "attributes": {}
-    },
+    "s1": "",
+    "s2": "",
+    "s3": "",
+    "s4": "",
     "any_element": [
         {
             "qname": "{http://n1}foo",

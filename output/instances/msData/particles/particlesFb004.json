@@ -1,36 +1,6 @@
 {
-    "g1": {
-        "qname": "{http://xsdtesting}g1",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-            "x": "http://xsdtesting"
-        },
-        "children": [],
-        "attributes": {}
-    },
+    "g1": "",
     "g2": null,
-    "s1": {
-        "qname": "{http://xsdtesting}s1",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-            "x": "http://xsdtesting"
-        },
-        "children": [],
-        "attributes": {}
-    },
-    "s2": {
-        "qname": "{http://xsdtesting}s2",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-            "x": "http://xsdtesting"
-        },
-        "children": [],
-        "attributes": {}
-    }
+    "s1": "",
+    "s2": ""
 }

@@ -1,44 +1,8 @@
 {
     "elem": {
-        "a1": {
-            "qname": "a1",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-            },
-            "children": [],
-            "attributes": {}
-        },
-        "a2": {
-            "qname": "a2",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-            },
-            "children": [],
-            "attributes": {}
-        },
-        "a3": {
-            "qname": "a3",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-            },
-            "children": [],
-            "attributes": {}
-        },
-        "a4": {
-            "qname": "a4",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-            },
-            "children": [],
-            "attributes": {}
-        }
+        "a1": "",
+        "a2": "",
+        "a3": "",
+        "a4": ""
     }
 }

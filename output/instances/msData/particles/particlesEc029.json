@@ -2,25 +2,11 @@
     "a_or_b": [
         {
             "qname": "{http://xsdtesting}a",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "x": "http://xsdtesting"
-            },
-            "children": [],
-            "attributes": {}
+            "value": null
         },
         {
             "qname": "{http://xsdtesting}a",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "x": "http://xsdtesting"
-            },
-            "children": [],
-            "attributes": {}
+            "value": null
         }
     ]
 }

@@ -1,27 +1,7 @@
 {
     "elem": {
-        "foo": {
-            "qname": "foo",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "a": "http://xsdtesting"
-            },
-            "children": [],
-            "attributes": {}
-        },
+        "foo": "",
         "any_element": [],
-        "e1": {
-            "qname": "e1",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "a": "http://xsdtesting"
-            },
-            "children": [],
-            "attributes": {}
-        }
+        "e1": ""
     }
 }

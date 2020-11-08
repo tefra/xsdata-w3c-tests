@@ -3,17 +3,7 @@
     "b": "I am a stringy string",
     "b2": null,
     "c": true,
-    "d": {
-        "qname": "d",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-            "h": "http://www.w3.org/1999/xhtml"
-        },
-        "children": [],
-        "attributes": {}
-    },
+    "d": "",
     "w3_org_1999_xhtml_element": [
         {
             "qname": "{http://www.w3.org/1999/xhtml}html",

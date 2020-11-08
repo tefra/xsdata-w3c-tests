@@ -1,26 +1,12 @@
 {
     "chap": [
         {
-            "de": {
-                "qname": "de",
-                "text": null,
-                "tail": null,
-                "ns_map": {},
-                "children": [],
-                "attributes": {}
-            },
+            "de": "",
             "lang": "de",
             "fr": null
         },
         {
-            "de": {
-                "qname": "de",
-                "text": null,
-                "tail": null,
-                "ns_map": {},
-                "children": [],
-                "attributes": {}
-            },
+            "de": "",
             "lang": null,
             "fr": null
         }

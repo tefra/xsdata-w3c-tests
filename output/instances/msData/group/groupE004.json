@@ -1,25 +1,7 @@
 {
     "elem": {
-        "x": {
-            "qname": "x",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-            },
-            "children": [],
-            "attributes": {}
-        },
+        "x": "",
         "a1": null,
-        "a2": {
-            "qname": "A2",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-            },
-            "children": [],
-            "attributes": {}
-        }
+        "a2": ""
     }
 }

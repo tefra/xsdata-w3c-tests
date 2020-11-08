@@ -1,13 +1,6 @@
 {
     "body": [
-        {
-            "qname": "body",
-            "text": "test message..",
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        }
+        "test message.."
     ],
     "must_understand": "YES",
     "attr1": "test value.."

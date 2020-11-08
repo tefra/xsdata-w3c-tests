@@ -68,28 +68,7 @@
         ],
         "attributes": {}
     },
-    "a": {
-        "qname": "a",
-        "text": null,
-        "tail": null,
-        "ns_map": {},
-        "children": [],
-        "attributes": {}
-    },
-    "b": {
-        "qname": "b",
-        "text": null,
-        "tail": null,
-        "ns_map": {},
-        "children": [],
-        "attributes": {}
-    },
-    "c": {
-        "qname": "c",
-        "text": null,
-        "tail": null,
-        "ns_map": {},
-        "children": [],
-        "attributes": {}
-    }
+    "a": "",
+    "b": "",
+    "c": ""
 }

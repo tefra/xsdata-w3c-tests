@@ -1,13 +1,3 @@
 {
-    "ele11": {
-        "qname": "{a}ele11",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-            "null": "a"
-        },
-        "children": [],
-        "attributes": {}
-    }
+    "ele11": ""
 }

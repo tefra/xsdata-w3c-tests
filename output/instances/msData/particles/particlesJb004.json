@@ -1,17 +1,6 @@
 {
     "elem": {
         "any_element": [],
-        "e1": {
-            "qname": "{http://xsdtesting}e1",
-            "text": "abc",
-            "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "a": "http://xsdtesting",
-                "xsd": "http://www.w3.org/2001/XMLSchema"
-            },
-            "children": [],
-            "attributes": {}
-        }
+        "e1": "abc"
     }
 }

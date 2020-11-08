@@ -18,10 +18,10 @@
   <item1>
     <foo/>
   </item1>
-  <item1>
+  <item1 xsi:type="Der">
     <foo/>
   </item1>
-  <item1>
+  <item1 xsi:type="Dee">
     <foo/>
   </item1>
   <item2>

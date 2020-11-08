@@ -1,13 +1,6 @@
 {
     "body": [
-        {
-            "qname": "body",
-            "text": "hello..",
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        }
+        "hello.."
     ],
     "must_understand": "YES"
 }

@@ -3,14 +3,13 @@
         "***",
         {
             "qname": "e",
-            "text": null,
-            "tail": "***",
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-            },
+            "text": "",
+            "tail": null,
+            "ns_map": {},
             "children": [],
             "attributes": {}
-        }
+        },
+        "***"
     ],
     "e": null
 }

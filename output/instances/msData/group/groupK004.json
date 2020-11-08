@@ -1,15 +1,6 @@
 {
     "elem": {
-        "b1": {
-            "qname": "b1",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-            },
-            "children": [],
-            "attributes": {}
-        },
+        "b1": "",
         "b2": null
     }
 }

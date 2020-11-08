@@ -1,39 +1,9 @@
 {
     "elem": {
-        "e1": {
-            "qname": "e1",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "a": "http://xsdtesting"
-            },
-            "children": [],
-            "attributes": {}
-        },
+        "e1": "",
         "e2": {
-            "street": {
-                "qname": "street",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "a": "http://xsdtesting"
-                },
-                "children": [],
-                "attributes": {}
-            },
-            "zip": {
-                "qname": "zip",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "a": "http://xsdtesting"
-                },
-                "children": [],
-                "attributes": {}
-            }
+            "street": "",
+            "zip": ""
         },
         "e3": {
             "any_element": null

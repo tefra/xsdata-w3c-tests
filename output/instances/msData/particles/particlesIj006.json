@@ -4,51 +4,19 @@
             "f1_or_f2": [
                 {
                     "qname": "{http://xsdtesting}f1",
-                    "text": "\n\t\ttest\n\t",
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting",
-                        "xsd": "http://www.w3.org/2001/XMLSchema"
-                    },
-                    "children": [],
-                    "attributes": {}
+                    "value": "\n\t\ttest\n\t"
                 },
                 {
                     "qname": "{http://xsdtesting}f1",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting",
-                        "xsd": "http://www.w3.org/2001/XMLSchema"
-                    },
-                    "children": [],
-                    "attributes": {}
+                    "value": null
                 },
                 {
                     "qname": "{http://xsdtesting}f1",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting",
-                        "xsd": "http://www.w3.org/2001/XMLSchema"
-                    },
-                    "children": [],
-                    "attributes": {}
+                    "value": null
                 },
                 {
                     "qname": "{http://xsdtesting}f1",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "http://xsdtesting",
-                        "xsd": "http://www.w3.org/2001/XMLSchema"
-                    },
-                    "children": [],
-                    "attributes": {}
+                    "value": null
                 }
             ]
         },

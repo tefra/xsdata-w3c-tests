@@ -1,82 +1,10 @@
 {
-    "c1": {
-        "qname": "c1",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
-        "children": [],
-        "attributes": {}
-    },
-    "c2": {
-        "qname": "c2",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
-        "children": [],
-        "attributes": {}
-    },
-    "c3": {
-        "qname": "c3",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
-        "children": [],
-        "attributes": {}
-    },
-    "c4": {
-        "qname": "c4",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
-        "children": [],
-        "attributes": {}
-    },
-    "s1": {
-        "qname": "s1",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
-        "children": [],
-        "attributes": {}
-    },
-    "s2": {
-        "qname": "s2",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
-        "children": [],
-        "attributes": {}
-    },
-    "s3": {
-        "qname": "s3",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
-        "children": [],
-        "attributes": {}
-    },
-    "s4": {
-        "qname": "s4",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
-        "children": [],
-        "attributes": {}
-    }
+    "c1": "",
+    "c2": "",
+    "c3": "",
+    "c4": "",
+    "s1": "",
+    "s2": "",
+    "s3": "",
+    "s4": ""
 }

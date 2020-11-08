@@ -3,49 +3,18 @@
         "c1_or_c2": [
             {
                 "qname": "c2",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "a": "http://xsdtesting"
-                },
-                "children": [],
-                "attributes": {}
+                "value": null
             },
             {
                 "qname": "c2",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "a": "http://xsdtesting"
-                },
-                "children": [],
-                "attributes": {}
+                "value": null
             },
             {
                 "qname": "c2",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "a": "http://xsdtesting"
-                },
-                "children": [],
-                "attributes": {}
+                "value": null
             }
         ],
         "c3": null,
-        "foo": {
-            "qname": "foo",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "a": "http://xsdtesting"
-            },
-            "children": [],
-            "attributes": {}
-        }
+        "foo": ""
     }
 }

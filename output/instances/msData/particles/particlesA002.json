@@ -1,34 +1,7 @@
 {
     "elem": {
-        "elem": {
-            "qname": "elem",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-            },
-            "children": [],
-            "attributes": {}
-        },
-        "elem1": {
-            "qname": "elem1",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-            },
-            "children": [],
-            "attributes": {}
-        }
+        "elem": "",
+        "elem1": ""
     },
-    "elem1": {
-        "qname": "elem1",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
-        "children": [],
-        "attributes": {}
-    }
+    "elem1": ""
 }

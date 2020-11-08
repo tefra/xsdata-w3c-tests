@@ -2,28 +2,10 @@
     "elem": {
         "r1": [],
         "r2": [
-            {
-                "qname": "r2",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            }
+            ""
         ],
         "r3": [
-            {
-                "qname": "r3",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            }
+            ""
         ]
     }
 }

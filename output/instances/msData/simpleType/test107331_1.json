@@ -59,13 +59,6 @@
         "this is a string"
     ],
     "item": [
-        {
-            "qname": "item",
-            "text": "abc",
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        }
+        "abc"
     ]
 }

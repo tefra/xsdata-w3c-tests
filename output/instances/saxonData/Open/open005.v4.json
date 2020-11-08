@@ -1,20 +1,6 @@
 {
     "open_com_element": null,
-    "a": {
-        "qname": "a",
-        "text": null,
-        "tail": null,
-        "ns_map": {},
-        "children": [],
-        "attributes": {}
-    },
-    "b": {
-        "qname": "b",
-        "text": null,
-        "tail": null,
-        "ns_map": {},
-        "children": [],
-        "attributes": {}
-    },
+    "a": "",
+    "b": "",
     "c": null
 }

@@ -2,31 +2,34 @@
     "content": [
         {
             "qname": "b",
-            "text": null,
-            "tail": "text",
+            "text": "",
+            "tail": null,
             "ns_map": {},
             "children": [],
             "attributes": {}
         },
+        "text",
         {
             "qname": "a",
-            "text": null,
-            "tail": "text",
+            "text": "",
+            "tail": null,
             "ns_map": {},
             "children": [],
             "attributes": {}
         },
+        "text",
         {
             "qname": "d",
-            "text": null,
-            "tail": "text",
+            "text": "",
+            "tail": null,
             "ns_map": {},
             "children": [],
             "attributes": {}
         },
+        "text",
         {
             "qname": "a",
-            "text": null,
+            "text": "",
             "tail": null,
             "ns_map": {},
             "children": [],

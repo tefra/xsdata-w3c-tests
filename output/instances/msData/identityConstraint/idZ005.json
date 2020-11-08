@@ -7,16 +7,7 @@
                 }
             },
             "c": [
-                {
-                    "qname": "c",
-                    "text": null,
-                    "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                    },
-                    "children": [],
-                    "attributes": {}
-                }
+                ""
             ],
             "att_a": "a"
         }

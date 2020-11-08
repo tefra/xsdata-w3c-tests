@@ -3,36 +3,9 @@
     "test": null,
     "test2": {
         "x": [
-            {
-                "qname": "x",
-                "text": null,
-                "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
-                "children": [],
-                "attributes": {}
-            }
+            ""
         ],
-        "y": {
-            "qname": "y",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-            },
-            "children": [],
-            "attributes": {}
-        },
-        "z": {
-            "qname": "z",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-            },
-            "children": [],
-            "attributes": {}
-        }
+        "y": "",
+        "z": ""
     }
 }

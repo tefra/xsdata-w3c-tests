@@ -1,13 +1,6 @@
 {
     "a": {
-        "b": {
-            "qname": "b",
-            "text": null,
-            "tail": null,
-            "ns_map": {},
-            "children": [],
-            "attributes": {}
-        }
+        "b": ""
     },
     "x": "205",
     "y": null

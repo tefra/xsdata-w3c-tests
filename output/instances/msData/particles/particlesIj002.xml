@@ -2,7 +2,8 @@
 <a:doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:a="http://xsdtesting" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <a:elem>
     <a:c1>
-      <a:f1/>
+      <a:f1>
+			</a:f1>
       <a:f1/>
     </a:c1>
   </a:elem>

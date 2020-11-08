@@ -2,16 +2,7 @@
     "one": null,
     "two": null,
     "three": null,
-    "four": {
-        "qname": "four",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
-        "children": [],
-        "attributes": {}
-    },
+    "four": "",
     "five": null,
     "five2": null,
     "six": null,

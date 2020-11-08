@@ -1,13 +1,3 @@
 {
-    "y": {
-        "qname": "{http://xsdtesting}y",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-            "null": "http://xsdtesting"
-        },
-        "children": [],
-        "attributes": {}
-    }
+    "y": ""
 }

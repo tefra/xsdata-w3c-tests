@@ -1,16 +1,5 @@
 {
-    "elt2": {
-        "qname": "{urn:foo}elt2",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "foo": "urn:foo",
-            "bar": "urn:bar",
-            "Z": "urn:foreign-unknown-schema"
-        },
-        "children": [],
-        "attributes": {}
-    },
+    "elt2": "",
     "elem": {
         "any_element": null
     },

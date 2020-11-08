@@ -3,26 +3,12 @@
         {
             "de": null,
             "lang": "fr",
-            "fr": {
-                "qname": "fr",
-                "text": null,
-                "tail": null,
-                "ns_map": {},
-                "children": [],
-                "attributes": {}
-            }
+            "fr": ""
         },
         {
             "de": null,
             "lang": "fr",
-            "fr": {
-                "qname": "fr",
-                "text": null,
-                "tail": null,
-                "ns_map": {},
-                "children": [],
-                "attributes": {}
-            }
+            "fr": ""
         }
     ],
     "lang": "en"

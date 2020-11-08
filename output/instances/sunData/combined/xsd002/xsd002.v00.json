@@ -2,64 +2,27 @@
     "foo_or_bar_or_zot": [
         {
             "qname": "foo",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "f": "http://foo.com"
-            },
-            "children": [],
-            "attributes": {}
+            "value": null
         },
         {
             "qname": "{http://foo.com}bar",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "f": "http://foo.com"
-            },
-            "children": [],
-            "attributes": {}
+            "value": null
         },
         {
             "qname": "zot",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "f": "http://foo.com"
-            },
-            "children": [],
-            "attributes": {}
+            "value": null
         },
         {
             "qname": "foo",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "f": "http://foo.com"
-            },
-            "children": [],
-            "attributes": {}
+            "value": null
         },
         {
             "qname": "{http://foo.com}bar",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "x": "http://foo.com",
-                "f": "http://foo.com"
-            },
-            "children": [],
-            "attributes": {}
+            "value": null
         },
         {
             "qname": "zot",
-            "text": null,
-            "tail": null,
-            "ns_map": {
-                "f": "http://foo.com"
-            },
-            "children": [],
-            "attributes": {}
+            "value": null
         }
     ]
 }

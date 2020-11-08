@@ -1,23 +1,5 @@
 {
-    "a": {
-        "qname": "a",
-        "text": "test1",
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
-        "children": [],
-        "attributes": {}
-    },
+    "a": "test1",
     "b": null,
-    "c": {
-        "qname": "c",
-        "text": "test3",
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
-        "children": [],
-        "attributes": {}
-    }
+    "c": "test3"
 }

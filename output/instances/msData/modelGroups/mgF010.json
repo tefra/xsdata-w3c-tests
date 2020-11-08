@@ -25,17 +25,7 @@
             "attributes": {}
         }
     ],
-    "d": {
-        "qname": "d",
-        "text": null,
-        "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-            "h": "http://www.w3.org/1999/xhtml"
-        },
-        "children": [],
-        "attributes": {}
-    },
+    "d": "",
     "c": true,
     "b": "I am a stringy string",
     "b2": null

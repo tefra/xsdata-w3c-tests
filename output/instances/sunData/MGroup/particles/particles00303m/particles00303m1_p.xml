@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <test:a xmlns:test="particles" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <id_str>12345678900987654321J.ABC</id_str>
   <type>#QQQQ</type>

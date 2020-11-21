@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <f:root xmlns:f="foo" xmlns:b="bar">
   <e>123</e>
 </f:root>

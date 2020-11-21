@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <my:datafile xmlns:my="urn:myxsdschema">
   <nonstringsection>
     <bigint>-92232036854775808</bigint>

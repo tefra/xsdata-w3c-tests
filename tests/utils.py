@@ -11,6 +11,7 @@ from xsdata.cli import cli
 from xsdata.formats.dataclass.parsers import XmlParser
 from xsdata.formats.dataclass.serializers import JsonSerializer
 from xsdata.formats.dataclass.serializers import XmlSerializer
+from xsdata.formats.dataclass.serializers.config import SerializerConfig
 from xsdata.utils import text
 from xsdata.utils.testing import load_class
 
@@ -19,6 +20,7 @@ log = logging.getLogger()
 w3c = Path(__file__).absolute().parent.parent.joinpath("w3c")
 output = Path(__file__).absolute().parent.parent.joinpath("output/instances")
 os.chdir(w3c.parent)
+config = SerializerConfig(pretty_print=True)
 
 
 def assert_bindings(
@@ -53,7 +55,7 @@ def assert_bindings(
         pytest.skip("Schema validator failed on parsing definition")
 
     try:
-        xsdata_xml = XmlSerializer(pretty_print=True).render(obj, parser.ns_map)
+        xsdata_xml = XmlSerializer(config=config).render(obj, parser.ns_map)
         if save_xml:
             xsdata_instance = output.joinpath(instance)
             xsdata_instance.parent.mkdir(parents=True, exist_ok=True)

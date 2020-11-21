@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <test:root xmlns:test="ElemDecl/scope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <LocalElement1>1</LocalElement1>
   <LocalElement2>2</LocalElement2>

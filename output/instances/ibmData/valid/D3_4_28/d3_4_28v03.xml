@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <dv:root xmlns:dv="http://xstest-tns/schema11_D3_4_28_v03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <eldTimeStampPattern>2000-01-01T12:00:00.123-09:00</eldTimeStampPattern>
   <eldTimeStampListA>2001-01-01T12:00:00.123-09:00 2002-01-01T12:00:00Z</eldTimeStampListA>

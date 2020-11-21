@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <x2:MapInfo xmlns:x2="http://schemas.microsoft.com/office/excel/2003/xml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.mydefaultnamespace.com/SAP" x2:HideInactiveListBorder="false" x2:SelectionNamespaces="http://foo" x2:HideSingleMappedCellBorder="true">
   <x2:Schema x2:ID="Schema3" x2:Namespace="http://www.mydefaultnamespace.com/SAP">
     <xsd:schema targetNamespace="http://www.mydefaultnamespace.com/SAP" elementFormDefault="qualified">

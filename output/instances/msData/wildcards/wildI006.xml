@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <tns:foo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="http://xsdtesting" xmlns:a="a">
   <a:b>test</a:b>
   <ns3:b xmlns:ns3="b">test</ns3:b>

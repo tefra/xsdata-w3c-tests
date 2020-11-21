@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <tns:root xmlns:tns="http://xstest-tns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title type="text">My News</title>
   <title type="number">122323</title>

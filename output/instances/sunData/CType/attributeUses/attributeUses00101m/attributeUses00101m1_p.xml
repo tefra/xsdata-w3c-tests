@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <test:a xmlns:test="attributeUses" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attr1="abc" attr2="2002-04-09">123</test:a>

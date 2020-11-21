@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Example x_count="3">
   <x a="val1">2</x>
   <x a="val2">4</x>

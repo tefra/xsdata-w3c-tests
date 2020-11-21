@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <test:number xmlns:test="ElemDecl/targetNS" xmlns:testa="ElemDecl/targetNSa" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">XII</test:number>

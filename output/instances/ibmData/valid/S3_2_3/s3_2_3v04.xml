@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <dv:root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dv="http://www.schemaTest.org/schema11_S3_2_3">
   <dv:element1>123</dv:element1>
   <element2>123</element2>

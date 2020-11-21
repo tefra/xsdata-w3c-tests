@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <purchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.example.com/IPO" xmlns:add="http://www.example.com/add" orderDate="2002-10-20">
   <shipTo xsi:type="USAddress">
     <add:name>Alice Smith</add:name>

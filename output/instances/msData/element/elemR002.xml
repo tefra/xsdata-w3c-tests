@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <po:purchaseOrder xmlns:po="testNS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <po:shipTo country="US">
     <name>Alice Smith</name>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <doc xmlns="http://example.org/ns/document">
   <title>Document Title</title>
   <p>This is some <emphasis>text</emphasis>.</p>

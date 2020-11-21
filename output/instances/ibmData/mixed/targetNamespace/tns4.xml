@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <x xmlns="http://test1">
   <ns1:y xmlns:ns1="http://test2">
     <ns1:a>1</ns1:a>

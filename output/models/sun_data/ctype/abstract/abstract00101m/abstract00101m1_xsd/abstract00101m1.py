@@ -6,9 +6,6 @@ __NAMESPACE__ = "abstract"
 
 @dataclass
 class A:
-    """
-    :ivar c:
-    """
     c: Optional[int] = field(
         default=None,
         metadata={
@@ -21,9 +18,6 @@ class A:
 
 @dataclass
 class B1(A):
-    """
-    :ivar d:
-    """
     class Meta:
         name = "B"
 

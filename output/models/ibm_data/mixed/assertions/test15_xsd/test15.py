@@ -4,10 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class XType:
-    """
-    :ivar value:
-    :ivar a:
-    """
     class Meta:
         name = "x_Type"
 
@@ -27,10 +23,6 @@ class XType:
 
 @dataclass
 class Example:
-    """
-    :ivar x:
-    :ivar x_count:
-    """
     x: List[XType] = field(
         default_factory=list,
         metadata={

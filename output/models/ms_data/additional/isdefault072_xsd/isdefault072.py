@@ -7,12 +7,6 @@ __NAMESPACE__ = "http://schemas.microsoft.com/2003/10/Serialization/"
 
 @dataclass
 class Array:
-    """
-    :ivar item:
-    :ivar item_type:
-    :ivar dimensions:
-    :ivar lower_bounds:
-    """
     class Meta:
         namespace = "http://schemas.microsoft.com/2003/10/Serialization/"
 

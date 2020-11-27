@@ -4,10 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class E2:
-    """
-    :ivar content:
-    :ivar e3:
-    """
     class Meta:
         name = "e2"
         nillable = True
@@ -32,11 +28,6 @@ class E2:
 
 @dataclass
 class Root:
-    """
-    :ivar e1:
-    :ivar any_element:
-    :ivar e2:
-    """
     class Meta:
         name = "root"
 

@@ -7,9 +7,6 @@ __NAMESPACE__ = "ElemDecl/targetNS"
 
 @dataclass
 class Number:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "number"
         namespace = "ElemDecl/targetNS"

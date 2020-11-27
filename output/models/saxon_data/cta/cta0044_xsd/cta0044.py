@@ -6,12 +6,6 @@ __NAMESPACE__ = "abc"
 
 @dataclass
 class AType:
-    """
-    :ivar t:
-    :ivar f:
-    :ivar switch:
-    :ivar r:
-    """
     class Meta:
         name = "aType"
 
@@ -45,12 +39,6 @@ class AType:
 
 @dataclass
 class ATypeF:
-    """
-    :ivar t:
-    :ivar f:
-    :ivar switch:
-    :ivar r:
-    """
     class Meta:
         name = "aType_f"
 
@@ -85,12 +73,6 @@ class ATypeF:
 
 @dataclass
 class ATypeT:
-    """
-    :ivar t:
-    :ivar f:
-    :ivar switch:
-    :ivar r:
-    """
     class Meta:
         name = "aType_t"
 
@@ -132,9 +114,6 @@ class A(AType):
 
 @dataclass
 class Top:
-    """
-    :ivar a:
-    """
     class Meta:
         name = "top"
         namespace = "abc"

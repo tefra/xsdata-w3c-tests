@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-dateTime-maxLength-5-NS"
 
 @dataclass
 class NistschemaSvIvListDateTimeMaxLength5:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-dateTime-maxLength-5"
         namespace = "NISTSchema-SV-IV-list-dateTime-maxLength-5-NS"

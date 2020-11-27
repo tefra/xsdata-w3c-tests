@@ -6,9 +6,6 @@ __NAMESPACE__ = "pSubstitutions"
 
 @dataclass
 class A:
-    """
-    :ivar c:
-    """
     c: List[int] = field(
         default_factory=list,
         metadata={
@@ -22,9 +19,6 @@ class A:
 
 @dataclass
 class C:
-    """
-    :ivar c:
-    """
     c: List[int] = field(
         default_factory=list,
         metadata={
@@ -38,9 +32,6 @@ class C:
 
 @dataclass
 class B(A):
-    """
-    :ivar d:
-    """
     d: Optional[str] = field(
         default=None,
         metadata={

@@ -4,9 +4,6 @@ from typing import Optional
 
 @dataclass
 class Root:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         nillable = True

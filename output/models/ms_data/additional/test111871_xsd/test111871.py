@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://www.w3.org/2001/XMLSchema"
 
 @dataclass
 class Title:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "title"
         namespace = "http://www.w3.org/2001/XMLSchema"

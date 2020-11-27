@@ -6,11 +6,6 @@ __NAMESPACE__ = "urn:test"
 
 @dataclass
 class Root:
-    """
-    :ivar content:
-    :ivar a:
-    :ivar choice:
-    """
     class Meta:
         namespace = "urn:test"
 

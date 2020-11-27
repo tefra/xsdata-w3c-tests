@@ -6,9 +6,6 @@ __NAMESPACE__ = "AD_annotation"
 
 @dataclass
 class Root:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         namespace = "AD_annotation"

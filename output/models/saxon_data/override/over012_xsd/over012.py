@@ -4,11 +4,6 @@ from typing import Optional
 
 @dataclass
 class StructuredDate:
-    """
-    :ivar year:
-    :ivar month:
-    :ivar day:
-    """
     class Meta:
         name = "structuredDate"
 

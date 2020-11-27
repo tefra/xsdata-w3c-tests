@@ -6,9 +6,6 @@ __NAMESPACE__ = "AttrUse/valConstr"
 
 @dataclass
 class ElementWithAttr:
-    """
-    :ivar number:
-    """
     class Meta:
         name = "elementWithAttr"
         namespace = "AttrUse/valConstr"
@@ -25,9 +22,6 @@ class ElementWithAttr:
 
 @dataclass
 class Root:
-    """
-    :ivar element_with_attr:
-    """
     class Meta:
         name = "root"
         namespace = "AttrUse/valConstr"

@@ -4,57 +4,6 @@ from typing import List, Optional
 
 
 class St(Enum):
-    """
-    :cvar A:
-    :cvar B:
-    :cvar C:
-    :cvar D:
-    :cvar E:
-    :cvar F:
-    :cvar G:
-    :cvar H:
-    :cvar I:
-    :cvar J:
-    :cvar K:
-    :cvar L:
-    :cvar M:
-    :cvar N:
-    :cvar O:
-    :cvar P:
-    :cvar Q:
-    :cvar R:
-    :cvar S:
-    :cvar T:
-    :cvar U:
-    :cvar V:
-    :cvar W:
-    :cvar X:
-    :cvar Y:
-    :cvar Z:
-    :cvar VALUE_1:
-    :cvar VALUE_2:
-    :cvar VALUE_3:
-    :cvar VALUE_4:
-    :cvar VALUE_5:
-    :cvar VALUE_6:
-    :cvar VALUE_7:
-    :cvar VALUE_8:
-    :cvar VALUE_9:
-    :cvar VALUE:
-    :cvar VALUE_10:
-    :cvar VALUE_11:
-    :cvar VALUE_12:
-    :cvar VALUE_13:
-    :cvar VALUE_14:
-    :cvar VALUE_15:
-    :cvar VALUE_16:
-    :cvar VALUE_17:
-    :cvar VALUE_18:
-    :cvar VALUE_19:
-    :cvar VALUE_20:
-    :cvar VALUE_21:
-    :cvar VALUE_22:
-    """
     A = "a"
     B = "b"
     C = "c"
@@ -108,9 +57,6 @@ class St(Enum):
 
 @dataclass
 class Bar:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "bar"
 
@@ -124,9 +70,6 @@ class Bar:
 
 @dataclass
 class Root:
-    """
-    :ivar bar:
-    """
     class Meta:
         name = "root"
 

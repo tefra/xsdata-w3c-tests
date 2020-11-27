@@ -4,9 +4,6 @@ from typing import Optional
 
 @dataclass
 class Beta:
-    """
-    :ivar open_com_element:
-    """
     class Meta:
         name = "beta"
 

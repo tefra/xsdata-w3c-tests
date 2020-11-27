@@ -6,17 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-string-enumeration-1-NS"
 
 
 class NistschemaSvIvAtomicStringEnumeration1Type(Enum):
-    """
-    :cvar EC:
-    :cvar OBVIOUS:
-    :cvar TO:
-    :cvar DESIGN:
-    :cvar ENTERPRISES:
-    :cvar ASSOCIATED:
-    :cvar AND_OR:
-    :cvar STANDARDS:
-    :cvar DEVELOPMENT:
-    """
     EC = "EC"
     OBVIOUS = "obvious"
     TO = "to"
@@ -30,9 +19,6 @@ class NistschemaSvIvAtomicStringEnumeration1Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicStringEnumeration1:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-string-enumeration-1"
         namespace = "NISTSchema-SV-IV-atomic-string-enumeration-1-NS"

@@ -6,9 +6,6 @@ __NAMESPACE__ = "foo"
 
 @dataclass
 class Scope:
-    """
-    :ivar key_or_ref:
-    """
     class Meta:
         name = "scope"
         namespace = "foo"
@@ -33,9 +30,6 @@ class Scope:
 
 @dataclass
 class Root:
-    """
-    :ivar scope:
-    """
     class Meta:
         name = "root"
         namespace = "foo"

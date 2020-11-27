@@ -4,9 +4,6 @@ from typing import Optional
 
 @dataclass
 class Example:
-    """
-    :ivar even_number:
-    """
     even_number: Optional[int] = field(
         default=None,
         metadata={

@@ -6,10 +6,6 @@ __NAMESPACE__ = "urn:foo"
 
 @dataclass
 class Emptywc:
-    """
-    :ivar a_attributes:
-    :ivar b_attributes:
-    """
     class Meta:
         name = "emptywc"
         namespace = "urn:foo"
@@ -32,10 +28,6 @@ class Emptywc:
 
 @dataclass
 class JustA:
-    """
-    :ivar a_attributes:
-    :ivar a_b_c_attributes:
-    """
     class Meta:
         name = "justA"
         namespace = "urn:foo"

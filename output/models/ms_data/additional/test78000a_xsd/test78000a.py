@@ -6,9 +6,6 @@ __NAMESPACE__ = "a"
 
 @dataclass
 class LaxContainerType:
-    """
-    :ivar other_element:
-    """
     other_element: Optional[object] = field(
         default=None,
         metadata={
@@ -21,9 +18,6 @@ class LaxContainerType:
 
 @dataclass
 class SkipContainerType:
-    """
-    :ivar other_element:
-    """
     other_element: Optional[object] = field(
         default=None,
         metadata={
@@ -36,9 +30,6 @@ class SkipContainerType:
 
 @dataclass
 class StrictContainerType:
-    """
-    :ivar other_element:
-    """
     other_element: Optional[object] = field(
         default=None,
         metadata={
@@ -69,11 +60,6 @@ class StrictContainer(StrictContainerType):
 
 @dataclass
 class RootContainerType:
-    """
-    :ivar strict_container:
-    :ivar lax_container:
-    :ivar skip_container:
-    """
     strict_container: Optional[StrictContainer] = field(
         default=None,
         metadata={
@@ -108,9 +94,6 @@ class RootContainer(RootContainerType):
 
 @dataclass
 class Doc:
-    """
-    :ivar root_container:
-    """
     class Meta:
         name = "doc"
         namespace = "a"

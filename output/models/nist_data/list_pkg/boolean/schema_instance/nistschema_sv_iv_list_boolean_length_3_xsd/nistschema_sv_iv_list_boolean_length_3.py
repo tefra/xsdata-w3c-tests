@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-boolean-length-3-NS"
 
 @dataclass
 class NistschemaSvIvListBooleanLength3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-boolean-length-3"
         namespace = "NISTSchema-SV-IV-list-boolean-length-3-NS"

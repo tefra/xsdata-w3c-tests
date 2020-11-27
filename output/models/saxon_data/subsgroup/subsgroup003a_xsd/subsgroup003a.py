@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://www.myexample.com/command"
 
 @dataclass
 class ActionType:
-    """
-    :ivar result:
-    """
     result: Optional[str] = field(
         default=None,
         metadata={
@@ -25,9 +22,6 @@ class Action(ActionType):
 
 @dataclass
 class Command:
-    """
-    :ivar action:
-    """
     class Meta:
         namespace = "http://www.myexample.com/command"
 

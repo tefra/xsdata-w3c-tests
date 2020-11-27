@@ -4,10 +4,6 @@ from typing import Optional, Union
 
 @dataclass
 class Zz:
-    """
-    :ivar value:
-    :ivar type:
-    """
     class Meta:
         name = "zz"
 
@@ -42,10 +38,6 @@ class ZzInteger(Zz):
 
 @dataclass
 class Zing:
-    """
-    :ivar a:
-    :ivar local_element:
-    """
     class Meta:
         name = "zing"
 

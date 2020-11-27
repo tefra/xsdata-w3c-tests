@@ -4,9 +4,6 @@ from typing import Optional
 
 @dataclass
 class Bad:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "bad"
 
@@ -22,9 +19,6 @@ class Bad:
 
 @dataclass
 class Good:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "good"
 
@@ -38,9 +32,6 @@ class Good:
 
 @dataclass
 class Perfect:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "perfect"
 

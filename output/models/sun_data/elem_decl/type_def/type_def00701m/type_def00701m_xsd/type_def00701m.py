@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/typeDef"
 
 @dataclass
 class Boolean:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "boolean"
 
@@ -22,9 +19,6 @@ class Boolean:
 
 @dataclass
 class Root:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/typeDef"

@@ -6,11 +6,6 @@ __NAMESPACE__ = "foo"
 
 @dataclass
 class Base:
-    """
-    :ivar a:
-    :ivar b:
-    :ivar c:
-    """
     class Meta:
         name = "base"
 
@@ -41,11 +36,6 @@ class Base:
 
 @dataclass
 class Rst:
-    """
-    :ivar a:
-    :ivar b:
-    :ivar c:
-    """
     class Meta:
         name = "rst"
 
@@ -76,10 +66,6 @@ class Rst:
 
 @dataclass
 class Ext(Base):
-    """
-    :ivar d:
-    :ivar e:
-    """
     class Meta:
         name = "ext"
 
@@ -103,9 +89,6 @@ class Ext(Base):
 
 @dataclass
 class Root:
-    """
-    :ivar item:
-    """
     class Meta:
         name = "root"
         namespace = "foo"

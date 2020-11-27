@@ -5,9 +5,6 @@ from typing import Optional
 
 @dataclass
 class E:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "e"
 
@@ -21,9 +18,6 @@ class E:
 
 @dataclass
 class G:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "g"
 
@@ -37,12 +31,6 @@ class G:
 
 @dataclass
 class Zing:
-    """
-    :ivar g:
-    :ivar e:
-    :ivar f:
-    :ivar local_element:
-    """
     class Meta:
         name = "zing"
 

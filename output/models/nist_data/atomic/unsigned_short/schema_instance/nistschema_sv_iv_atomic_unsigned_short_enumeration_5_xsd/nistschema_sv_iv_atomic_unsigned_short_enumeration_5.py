@@ -6,16 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-unsignedShort-enumeration-5-NS"
 
 
 class NistschemaSvIvAtomicUnsignedShortEnumeration5Type(Enum):
-    """
-    :cvar VALUE_3386:
-    :cvar VALUE_700:
-    :cvar VALUE_1:
-    :cvar VALUE_2341:
-    :cvar VALUE_65535:
-    :cvar VALUE_88:
-    :cvar VALUE_3784:
-    :cvar VALUE_870:
-    """
     VALUE_3386 = 3386
     VALUE_700 = 700
     VALUE_1 = 1
@@ -28,9 +18,6 @@ class NistschemaSvIvAtomicUnsignedShortEnumeration5Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicUnsignedShortEnumeration5:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-unsignedShort-enumeration-5"
         namespace = "NISTSchema-SV-IV-atomic-unsignedShort-enumeration-5-NS"

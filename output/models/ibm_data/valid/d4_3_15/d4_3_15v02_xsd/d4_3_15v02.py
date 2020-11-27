@@ -4,10 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class ArrayType:
-    """
-    :ivar ele:
-    :ivar length:
-    """
     class Meta:
         name = "arrayType"
 

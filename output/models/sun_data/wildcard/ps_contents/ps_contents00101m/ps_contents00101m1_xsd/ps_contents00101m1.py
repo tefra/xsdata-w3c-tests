@@ -6,9 +6,6 @@ __NAMESPACE__ = "psContents"
 
 @dataclass
 class A:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "a"
         namespace = "psContents"
@@ -25,9 +22,6 @@ class A:
 
 @dataclass
 class Date:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "date"
         namespace = "psContents"

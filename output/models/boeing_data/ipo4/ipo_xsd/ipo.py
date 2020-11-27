@@ -8,12 +8,6 @@ __NAMESPACE__ = "http://www.example.com/IPO"
 
 @dataclass
 class AddressType:
-    """
-    :ivar name:
-    :ivar street:
-    :ivar city:
-    :ivar country:
-    """
     name: Optional[str] = field(
         default=None,
         metadata={
@@ -50,9 +44,6 @@ class AddressType:
 
 @dataclass
 class ItemsType:
-    """
-    :ivar item:
-    """
     item: List["ItemsType.Item"] = field(
         default_factory=list,
         metadata={
@@ -63,18 +54,6 @@ class ItemsType:
 
     @dataclass
     class Item:
-        """
-        :ivar product_name:
-        :ivar quantity:
-        :ivar usprice:
-        :ivar customer_comment:
-        :ivar ship_comment:
-        :ivar comment:
-        :ivar ship_date:
-        :ivar part_num:
-        :ivar weight_kg:
-        :ivar ship_by:
-        """
         product_name: Optional[str] = field(
             default=None,
             metadata={
@@ -164,11 +143,6 @@ class ItemsType:
         )
 
         class ShipBy(Enum):
-            """
-            :cvar AIR:
-            :cvar LAND:
-            :cvar ANY:
-            """
             AIR = "air"
             LAND = "land"
             ANY = "any"
@@ -176,9 +150,6 @@ class ItemsType:
 
 @dataclass
 class Comment:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "comment"
         namespace = "http://www.example.com/IPO"
@@ -193,9 +164,6 @@ class Comment:
 
 @dataclass
 class CustomerComment:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "customerComment"
         namespace = "http://www.example.com/IPO"
@@ -210,9 +178,6 @@ class CustomerComment:
 
 @dataclass
 class ShipComment:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "shipComment"
         namespace = "http://www.example.com/IPO"
@@ -227,16 +192,6 @@ class ShipComment:
 
 @dataclass
 class PurchaseOrderType:
-    """
-    :ivar ship_to:
-    :ivar bill_to:
-    :ivar single_address:
-    :ivar customer_comment:
-    :ivar ship_comment:
-    :ivar comment:
-    :ivar items:
-    :ivar order_date:
-    """
     ship_to: Optional[AddressType] = field(
         default=None,
         metadata={

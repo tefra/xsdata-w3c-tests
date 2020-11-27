@@ -28,9 +28,6 @@ class AttgRef:
 
 @dataclass
 class Doc:
-    """
-    :ivar elem:
-    """
     class Meta:
         name = "doc"
 

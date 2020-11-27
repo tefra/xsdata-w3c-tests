@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/typeDef"
 
 @dataclass
 class Answer:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "answer"
         namespace = "ElemDecl/typeDef"

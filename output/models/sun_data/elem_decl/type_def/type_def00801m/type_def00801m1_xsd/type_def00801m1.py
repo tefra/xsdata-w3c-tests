@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/typeDef"
 
 @dataclass
 class Type:
-    """
-    :ivar value:
-    """
     value: Optional[bool] = field(
         default=None,
         metadata={
@@ -19,9 +16,6 @@ class Type:
 
 @dataclass
 class DerivedType(Type):
-    """
-    :ivar value1:
-    """
     class Meta:
         name = "derivedType"
 
@@ -35,9 +29,6 @@ class DerivedType(Type):
 
 @dataclass
 class Root:
-    """
-    :ivar element:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/typeDef"

@@ -4,9 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Date:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "date"
 
@@ -17,9 +14,6 @@ class Date:
 
 @dataclass
 class Outer:
-    """
-    :ivar date:
-    """
     class Meta:
         name = "outer"
 

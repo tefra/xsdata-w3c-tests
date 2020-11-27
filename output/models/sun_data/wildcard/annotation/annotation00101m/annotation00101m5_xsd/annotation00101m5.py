@@ -6,9 +6,6 @@ __NAMESPACE__ = "Wildcard/annotation"
 
 @dataclass
 class Root:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         namespace = "Wildcard/annotation"

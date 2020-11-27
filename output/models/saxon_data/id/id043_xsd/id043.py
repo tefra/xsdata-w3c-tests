@@ -7,9 +7,6 @@ __NAMESPACE__ = "http://id043.ly/"
 
 @dataclass
 class Chap:
-    """
-    :ivar section:
-    """
     class Meta:
         name = "chap"
 
@@ -24,10 +21,6 @@ class Chap:
 
     @dataclass
     class Section:
-        """
-        :ivar value:
-        :ivar nr:
-        """
         value: Optional[str] = field(
             default=None,
         )
@@ -42,9 +35,6 @@ class Chap:
 
 @dataclass
 class Doc:
-    """
-    :ivar chap_or_appx:
-    """
     class Meta:
         name = "doc"
         namespace = "http://id043.ly/"

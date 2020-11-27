@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-double-pattern-2-NS"
 
 @dataclass
 class NistschemaSvIvListDoublePattern2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-double-pattern-2"
         namespace = "NISTSchema-SV-IV-list-double-pattern-2-NS"

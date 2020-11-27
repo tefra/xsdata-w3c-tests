@@ -7,11 +7,6 @@ __NAMESPACE__ = "tns"
 
 @dataclass
 class DimType:
-    """
-    :ivar value:
-    :ivar length:
-    :ivar width:
-    """
     class Meta:
         name = "dimType"
 
@@ -33,24 +28,15 @@ class DimType:
 
 
 class RectType(Enum):
-    """
-    :cvar LRECTANGLE:
-    """
     LRECTANGLE = "lrectangle"
 
 
 class SquareType(Enum):
-    """
-    :cvar SQUARE:
-    """
     SQUARE = "square"
 
 
 @dataclass
 class Shape:
-    """
-    :ivar dimension:
-    """
     class Meta:
         name = "shape"
         namespace = "tns"

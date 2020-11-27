@@ -5,10 +5,6 @@ from typing import Optional
 
 @dataclass
 class Root:
-    """
-    :ivar value:
-    :ivar no_namespace_schema_location:
-    """
     class Meta:
         name = "root"
 

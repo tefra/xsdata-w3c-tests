@@ -10,9 +10,6 @@ class Bad:
 
 @dataclass
 class Good:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "good"
 

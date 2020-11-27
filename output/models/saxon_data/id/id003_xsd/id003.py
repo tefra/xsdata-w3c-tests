@@ -4,11 +4,6 @@ from typing import Dict, List, Optional, Type
 
 @dataclass
 class Node:
-    """
-    :ivar node_or_id:
-    :ivar id_one:
-    :ivar any_attributes:
-    """
     class Meta:
         name = "node"
 
@@ -46,9 +41,6 @@ class Node:
 
 @dataclass
 class Doc:
-    """
-    :ivar node:
-    """
     class Meta:
         name = "doc"
 

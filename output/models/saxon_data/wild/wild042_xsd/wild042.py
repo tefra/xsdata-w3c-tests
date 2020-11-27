@@ -4,9 +4,6 @@ from typing import Dict
 
 @dataclass
 class Computer:
-    """
-    :ivar w3_org_2001_xmlschema_instance_attributes:
-    """
     class Meta:
         name = "computer"
 

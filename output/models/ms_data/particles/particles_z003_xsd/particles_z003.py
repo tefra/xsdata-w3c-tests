@@ -7,9 +7,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class B:
-    """
-    :ivar foo:
-    """
     foo: Optional[Foo] = field(
         default=None,
         metadata={

@@ -4,9 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class AppendixContent:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "appendixContent"
 
@@ -22,9 +19,6 @@ class AppendixContent:
 
 @dataclass
 class ChapContent:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "chapContent"
 
@@ -40,9 +34,6 @@ class ChapContent:
 
 @dataclass
 class Para:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "para"
 
@@ -56,10 +47,6 @@ class Para:
 
 @dataclass
 class Back:
-    """
-    :ivar para:
-    :ivar appendix_content:
-    """
     class Meta:
         name = "back"
 
@@ -80,10 +67,6 @@ class Back:
 
 @dataclass
 class Body:
-    """
-    :ivar para:
-    :ivar chap_content:
-    """
     class Meta:
         name = "body"
 
@@ -104,10 +87,6 @@ class Body:
 
 @dataclass
 class Doc:
-    """
-    :ivar body:
-    :ivar back:
-    """
     class Meta:
         name = "doc"
 

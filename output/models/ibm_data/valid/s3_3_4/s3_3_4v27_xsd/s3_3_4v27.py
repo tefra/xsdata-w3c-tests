@@ -3,10 +3,6 @@ from dataclasses import dataclass, field
 
 @dataclass
 class Ids:
-    """
-    :ivar id_attr:
-    :ivar idref_attr:
-    """
     class Meta:
         name = "ids"
 

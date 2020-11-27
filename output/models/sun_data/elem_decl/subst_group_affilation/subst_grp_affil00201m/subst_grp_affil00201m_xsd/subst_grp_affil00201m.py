@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/substGroupAffilation"
 
 @dataclass
 class Element:
-    """
-    :ivar any_element:
-    """
     class Meta:
         namespace = "ElemDecl/substGroupAffilation"
 
@@ -24,9 +21,6 @@ class Element:
 
 @dataclass
 class SuperElement:
-    """
-    :ivar any_element:
-    """
     class Meta:
         namespace = "ElemDecl/substGroupAffilation"
 
@@ -42,9 +36,6 @@ class SuperElement:
 
 @dataclass
 class SuperSuperElement:
-    """
-    :ivar any_element:
-    """
     class Meta:
         namespace = "ElemDecl/substGroupAffilation"
 
@@ -60,12 +51,6 @@ class SuperSuperElement:
 
 @dataclass
 class Root:
-    """
-    :ivar super_element:
-    :ivar super_super_element:
-    :ivar separator:
-    :ivar element:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/substGroupAffilation"

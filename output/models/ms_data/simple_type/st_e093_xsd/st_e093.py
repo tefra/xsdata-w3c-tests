@@ -5,9 +5,6 @@ from xml.etree.ElementTree import QName
 
 @dataclass
 class Root:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "root"
 

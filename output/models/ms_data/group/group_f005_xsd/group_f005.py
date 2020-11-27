@@ -4,9 +4,6 @@ from typing import Optional
 
 @dataclass
 class B:
-    """
-    :ivar x:
-    """
     x: Optional[object] = field(
         default=None,
         metadata={
@@ -19,10 +16,6 @@ class B:
 
 @dataclass
 class Elem(B):
-    """
-    :ivar a1:
-    :ivar a2:
-    """
     class Meta:
         name = "elem"
 
@@ -46,9 +39,6 @@ class Elem(B):
 
 @dataclass
 class Doc:
-    """
-    :ivar elem:
-    """
     class Meta:
         name = "doc"
 

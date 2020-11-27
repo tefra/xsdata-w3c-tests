@@ -6,9 +6,6 @@ __NAMESPACE__ = "foo"
 
 @dataclass
 class Root:
-    """
-    :ivar choice:
-    """
     class Meta:
         name = "root"
         namespace = "foo"
@@ -56,9 +53,6 @@ class Root:
 
     @dataclass
     class SkipAny:
-        """
-        :ivar any_attributes:
-        """
         any_attributes: Dict = field(
             default_factory=dict,
             metadata={
@@ -69,9 +63,6 @@ class Root:
 
     @dataclass
     class LaxAny:
-        """
-        :ivar any_attributes:
-        """
         any_attributes: Dict = field(
             default_factory=dict,
             metadata={
@@ -82,9 +73,6 @@ class Root:
 
     @dataclass
     class StrictAny:
-        """
-        :ivar any_attributes:
-        """
         any_attributes: Dict = field(
             default_factory=dict,
             metadata={
@@ -95,9 +83,6 @@ class Root:
 
     @dataclass
     class SkipOther:
-        """
-        :ivar other_attributes:
-        """
         other_attributes: Dict = field(
             default_factory=dict,
             metadata={
@@ -108,9 +93,6 @@ class Root:
 
     @dataclass
     class LaxLocal:
-        """
-        :ivar local_attributes:
-        """
         local_attributes: Dict = field(
             default_factory=dict,
             metadata={
@@ -121,9 +103,6 @@ class Root:
 
     @dataclass
     class StrictLocal:
-        """
-        :ivar local_attributes:
-        """
         local_attributes: Dict = field(
             default_factory=dict,
             metadata={
@@ -134,9 +113,6 @@ class Root:
 
     @dataclass
     class StrictTarget:
-        """
-        :ivar target_namespace_attributes:
-        """
         target_namespace_attributes: Dict = field(
             default_factory=dict,
             metadata={
@@ -147,9 +123,6 @@ class Root:
 
     @dataclass
     class SkipBar:
-        """
-        :ivar bar_attributes:
-        """
         bar_attributes: Dict = field(
             default_factory=dict,
             metadata={

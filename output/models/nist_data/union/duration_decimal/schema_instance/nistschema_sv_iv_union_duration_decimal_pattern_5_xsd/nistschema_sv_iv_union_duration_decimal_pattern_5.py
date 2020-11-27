@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-union-duration-decimal-pattern-5-NS"
 
 @dataclass
 class NistschemaSvIvUnionDurationDecimalPattern5:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-union-duration-decimal-pattern-5"
         namespace = "NISTSchema-SV-IV-union-duration-decimal-pattern-5-NS"

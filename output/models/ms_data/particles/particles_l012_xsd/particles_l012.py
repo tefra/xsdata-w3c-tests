@@ -6,10 +6,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class Mixed:
-    """
-    :ivar content:
-    :ivar foo:
-    """
     class Meta:
         name = "mixed"
 
@@ -32,10 +28,6 @@ class Mixed:
 
 @dataclass
 class NotMixed:
-    """
-    :ivar content:
-    :ivar foo:
-    """
     class Meta:
         name = "not_mixed"
 
@@ -58,12 +50,6 @@ class NotMixed:
 
 @dataclass
 class B:
-    """
-    :ivar c1:
-    :ivar c2:
-    :ivar d1:
-    :ivar d2:
-    """
     c1: Optional[Mixed] = field(
         default=None,
         metadata={
@@ -96,12 +82,6 @@ class B:
 
 @dataclass
 class R:
-    """
-    :ivar c1:
-    :ivar c2:
-    :ivar d1:
-    :ivar d2:
-    """
     c1: Optional[NotMixed] = field(
         default=None,
         metadata={
@@ -136,9 +116,6 @@ class R:
 
 @dataclass
 class Doc:
-    """
-    :ivar elem:
-    """
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"

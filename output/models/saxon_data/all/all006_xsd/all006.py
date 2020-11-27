@@ -4,9 +4,6 @@ from typing import Optional
 
 @dataclass
 class C2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "C"
 
@@ -20,9 +17,6 @@ class C2:
 
 @dataclass
 class A:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "a"
 
@@ -36,9 +30,6 @@ class A:
 
 @dataclass
 class B:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "b"
 
@@ -52,9 +43,6 @@ class B:
 
 @dataclass
 class C1:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "c"
 
@@ -68,12 +56,6 @@ class C1:
 
 @dataclass
 class Doc:
-    """
-    :ivar a:
-    :ivar b:
-    :ivar target_namespace_element:
-    :ivar other_ns_element:
-    """
     class Meta:
         name = "doc"
 

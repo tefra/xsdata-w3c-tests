@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-normalizedString-whiteSpace-2-NS"
 
 @dataclass
 class NistschemaSvIvAtomicNormalizedStringWhiteSpace2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-normalizedString-whiteSpace-2"
         namespace = "NISTSchema-SV-IV-atomic-normalizedString-whiteSpace-2-NS"

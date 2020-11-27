@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-anyURI-minLength-4-NS"
 
 @dataclass
 class NistschemaSvIvAtomicAnyUriMinLength4:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-anyURI-minLength-4"
         namespace = "NISTSchema-SV-IV-atomic-anyURI-minLength-4-NS"

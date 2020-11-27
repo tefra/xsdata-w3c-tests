@@ -5,9 +5,6 @@ from xml.etree.ElementTree import QName
 
 @dataclass
 class Test:
-    """
-    :ivar rule:
-    """
     rule: List["Test.Rule"] = field(
         default_factory=list,
         metadata={
@@ -20,9 +17,6 @@ class Test:
 
     @dataclass
     class Rule:
-        """
-        :ivar name:
-        """
         name: Optional[QName] = field(
             default=None,
             metadata={

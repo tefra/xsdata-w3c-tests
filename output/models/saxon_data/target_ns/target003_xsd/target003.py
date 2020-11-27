@@ -4,9 +4,6 @@ from typing import Dict, Optional
 
 @dataclass
 class B:
-    """
-    :ivar target003_com_attributes:
-    """
     target003_com_attributes: Dict = field(
         default_factory=dict,
         metadata={
@@ -18,9 +15,6 @@ class B:
 
 @dataclass
 class R(B):
-    """
-    :ivar att:
-    """
     att: Optional[int] = field(
         default=None,
         metadata={

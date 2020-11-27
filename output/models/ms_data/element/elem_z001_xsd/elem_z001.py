@@ -4,9 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Uid:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "uid"
         nillable = True
@@ -23,9 +20,6 @@ class Uid:
 
 @dataclass
 class Root:
-    """
-    :ivar uid:
-    """
     class Meta:
         name = "root"
 

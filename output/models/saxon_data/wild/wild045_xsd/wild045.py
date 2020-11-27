@@ -4,9 +4,6 @@ from typing import Dict
 
 @dataclass
 class ExtendedComputer:
-    """
-    :ivar local_attributes:
-    """
     class Meta:
         name = "extendedComputer"
 

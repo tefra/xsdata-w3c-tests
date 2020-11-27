@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-dateTime-pattern-5-NS"
 
 @dataclass
 class NistschemaSvIvAtomicDateTimePattern5:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-dateTime-pattern-5"
         namespace = "NISTSchema-SV-IV-atomic-dateTime-pattern-5-NS"

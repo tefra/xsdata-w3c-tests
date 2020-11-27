@@ -6,9 +6,6 @@ __NAMESPACE__ = "foo"
 
 @dataclass
 class B:
-    """
-    :ivar foo:
-    """
     foo: Optional[str] = field(
         default=None,
         metadata={
@@ -21,9 +18,6 @@ class B:
 
 @dataclass
 class Dr:
-    """
-    :ivar foo:
-    """
     foo: Optional[str] = field(
         default=None,
         metadata={
@@ -36,9 +30,6 @@ class Dr:
 
 @dataclass
 class Drr:
-    """
-    :ivar foo:
-    """
     foo: Optional[str] = field(
         default=None,
         metadata={
@@ -67,9 +58,6 @@ class Dre(Dr):
 
 @dataclass
 class Root:
-    """
-    :ivar item1_or_item2:
-    """
     class Meta:
         name = "root"
         namespace = "foo"
@@ -99,9 +87,6 @@ class Dee(De):
 
 @dataclass
 class Der(De):
-    """
-    :ivar foo:
-    """
     foo: Optional[str] = field(
         default=None,
         metadata={

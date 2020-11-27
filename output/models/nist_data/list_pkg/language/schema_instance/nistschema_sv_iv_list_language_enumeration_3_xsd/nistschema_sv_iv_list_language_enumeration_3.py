@@ -6,18 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-language-enumeration-3-NS"
 
 
 class NistschemaSvIvListLanguageEnumeration3Type(Enum):
-    """
-    :cvar SK_SL_SM_SN_SO_SQ_SR_SS_ST:
-    :cvar KK_KL_KM_KN_KO_KS:
-    :cvar MN_MO_MR_MS_MT_MY:
-    :cvar ET_EU_FA_FI_FJ:
-    :cvar OR_PA_PL_PS_PT_QU_RM_RN:
-    :cvar SI_SK_SL_SM_SN_SO_SQ_SR_SS:
-    :cvar BI_BN_BO_BR_CA_CO:
-    :cvar HA_HI_HR_HU_HY:
-    :cvar MR_MS_MT_MY_NA:
-    :cvar TW_UK_UR_UZ_VI_VO_WO_XH:
-    """
     SK_SL_SM_SN_SO_SQ_SR_SS_ST = "SK SL SM SN SO SQ SR SS ST"
     KK_KL_KM_KN_KO_KS = "KK KL KM KN KO KS"
     MN_MO_MR_MS_MT_MY = "MN MO MR MS MT MY"
@@ -32,9 +20,6 @@ class NistschemaSvIvListLanguageEnumeration3Type(Enum):
 
 @dataclass
 class NistschemaSvIvListLanguageEnumeration3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-language-enumeration-3"
         namespace = "NISTSchema-SV-IV-list-language-enumeration-3-NS"

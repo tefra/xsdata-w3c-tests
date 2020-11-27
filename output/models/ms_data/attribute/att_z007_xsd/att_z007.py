@@ -4,12 +4,6 @@ from typing import Optional
 
 @dataclass
 class One:
-    """
-    :ivar elem1:
-    :ivar elem2:
-    :ivar att1:
-    :ivar att2:
-    """
     elem1: Optional[object] = field(
         default=None,
         metadata={
@@ -43,9 +37,6 @@ class Two(One):
 
 @dataclass
 class Three(Two):
-    """
-    :ivar att1:
-    """
     att1: Optional[str] = field(
         default=None,
         metadata={
@@ -57,11 +48,6 @@ class Three(Two):
 
 @dataclass
 class Doc:
-    """
-    :ivar e1:
-    :ivar e2:
-    :ivar e3:
-    """
     class Meta:
         name = "doc"
 

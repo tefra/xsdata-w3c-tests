@@ -6,23 +6,6 @@ __NAMESPACE__ = "SType/ST_facets"
 
 
 class S(Enum):
-    """
-    :cvar A00:
-    :cvar A0:
-    :cvar A0_A:
-    :cvar A10:
-    :cvar A1:
-    :cvar A1_A:
-    :cvar A20:
-    :cvar A2:
-    :cvar A2_A:
-    :cvar A30:
-    :cvar A3:
-    :cvar A3_A:
-    :cvar A40:
-    :cvar A4:
-    :cvar A4_A:
-    """
     A00 = "a00೦"
     A0 = "a0-೪"
     A0_A = "a0A೯"
@@ -42,9 +25,6 @@ class S(Enum):
 
 @dataclass
 class Root:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "root"
         namespace = "SType/ST_facets"

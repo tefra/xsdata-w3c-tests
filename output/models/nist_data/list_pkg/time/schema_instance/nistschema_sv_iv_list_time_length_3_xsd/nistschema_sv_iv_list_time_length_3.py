@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-time-length-3-NS"
 
 @dataclass
 class NistschemaSvIvListTimeLength3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-time-length-3"
         namespace = "NISTSchema-SV-IV-list-time-length-3-NS"

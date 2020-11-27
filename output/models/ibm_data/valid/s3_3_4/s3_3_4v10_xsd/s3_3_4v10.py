@@ -4,10 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Root:
-    """
-    :ivar list_of_ids:
-    :ivar idref:
-    """
     class Meta:
         name = "root"
 

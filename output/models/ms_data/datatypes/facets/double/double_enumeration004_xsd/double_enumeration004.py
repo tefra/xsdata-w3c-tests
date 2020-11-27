@@ -6,9 +6,6 @@ from typing import Optional
 
 @dataclass
 class FooType:
-    """
-    :ivar foo:
-    """
     class Meta:
         name = "fooType"
 
@@ -22,11 +19,6 @@ class FooType:
     )
 
     class Foo(Enum):
-        """
-        :cvar VALUE_1_1:
-        :cvar VALUE_3_14:
-        :cvar VALUE_2_718:
-        """
         VALUE_1_1 = Decimal('1.1')
         VALUE_3_14 = Decimal('3.14')
         VALUE_2_718 = Decimal('2.718')

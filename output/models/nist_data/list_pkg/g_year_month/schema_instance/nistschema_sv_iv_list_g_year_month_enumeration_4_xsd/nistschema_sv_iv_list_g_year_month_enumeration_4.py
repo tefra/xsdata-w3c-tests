@@ -6,15 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-gYearMonth-enumeration-4-NS"
 
 
 class NistschemaSvIvListGYearMonthEnumeration4Type(Enum):
-    """
-    :cvar VALUE_1995_11_1972_02_2014_02_1980_07_1972_03_2000_03:
-    :cvar VALUE_2026_09_1980_01_1999_12_1976_04_1997_10:
-    :cvar VALUE_1985_03_2025_03_2007_11_1980_04_2021_02_2029_03_2002_03_1971_11_1988_09:
-    :cvar VALUE_1994_06_2026_10_2015_04_1972_10_2030_11_2000_02_1980_10_1983_11:
-    :cvar VALUE_1979_10_2021_04_1980_04_1979_06_1973_11_2029_06_1983_10_1996_12_2023_05:
-    :cvar VALUE_2006_03_2019_08_1974_02_2025_03_1990_06_2004_05_1974_10_2030_04_1982_07:
-    :cvar VALUE_2015_11_1987_06_2005_02_1997_10_2016_01_2015_02_2019_09_1992_07:
-    """
     VALUE_1995_11_1972_02_2014_02_1980_07_1972_03_2000_03 = "1995-11 1972-02 2014-02 1980-07 1972-03 2000-03"
     VALUE_2026_09_1980_01_1999_12_1976_04_1997_10 = "2026-09 1980-01 1999-12 1976-04 1997-10"
     VALUE_1985_03_2025_03_2007_11_1980_04_2021_02_2029_03_2002_03_1971_11_1988_09 = "1985-03 2025-03 2007-11 1980-04 2021-02 2029-03 2002-03 1971-11 1988-09"
@@ -26,9 +17,6 @@ class NistschemaSvIvListGYearMonthEnumeration4Type(Enum):
 
 @dataclass
 class NistschemaSvIvListGYearMonthEnumeration4:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-gYearMonth-enumeration-4"
         namespace = "NISTSchema-SV-IV-list-gYearMonth-enumeration-4-NS"

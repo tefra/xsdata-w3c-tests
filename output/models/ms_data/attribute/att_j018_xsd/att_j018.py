@@ -4,20 +4,6 @@ from typing import Optional
 
 @dataclass
 class Test:
-    """
-    :ivar complex_att1:
-    :ivar complex_att2:
-    :ivar global_att1:
-    :ivar item1:
-    :ivar item2:
-    :ivar global_att2:
-    :ivar foo1:
-    :ivar foo2:
-    :ivar global_att3:
-    :ivar foo3:
-    :ivar item3:
-    :ivar complex_att3:
-    """
     class Meta:
         name = "test"
 
@@ -103,9 +89,6 @@ class Test:
 
 @dataclass
 class Doc:
-    """
-    :ivar test:
-    """
     class Meta:
         name = "doc"
 

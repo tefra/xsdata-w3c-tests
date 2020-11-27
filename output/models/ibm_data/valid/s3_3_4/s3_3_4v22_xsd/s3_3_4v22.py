@@ -4,10 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Ids:
-    """
-    :ivar id1:
-    :ivar id2:
-    """
     class Meta:
         name = "ids"
 
@@ -27,9 +23,6 @@ class Ids:
 
 @dataclass
 class Root:
-    """
-    :ivar multiple_ids:
-    """
     class Meta:
         name = "root"
 
@@ -44,9 +37,6 @@ class Root:
 
     @dataclass
     class MultipleIds(Ids):
-        """
-        :ivar idref_element:
-        """
         idref_element: List[str] = field(
             default_factory=list,
             metadata={

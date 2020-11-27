@@ -6,14 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-token-enumeration-3-NS"
 
 
 class NistschemaSvIvAtomicTokenEnumeration3Type(Enum):
-    """
-    :cvar COMPUTING:
-    :cvar COMPATIBILITY:
-    :cvar STANDARDIZATION:
-    :cvar ENGINEERING:
-    :cvar CONTAINS:
-    :cvar AREAS:
-    """
     COMPUTING = "Computing"
     COMPATIBILITY = "compatibility"
     STANDARDIZATION = "standardization"
@@ -24,9 +16,6 @@ class NistschemaSvIvAtomicTokenEnumeration3Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicTokenEnumeration3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-token-enumeration-3"
         namespace = "NISTSchema-SV-IV-atomic-token-enumeration-3-NS"

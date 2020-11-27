@@ -6,14 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-NCName-enumeration-3-NS"
 
 
 class NistschemaSvIvAtomicNcnameEnumeration3Type(Enum):
-    """
-    :cvar UPROFILES_PA:
-    :cvar CUSED_DE:
-    :cvar YBOTH_IN_EACH_THE_DISCUSS_ELECTRONIC_CAN_I:
-    :cvar COF_ISSUES_INCLUDES_USED_20_THE_E_WE_TO_MANUAL_TO:
-    :cvar GTOOLS_THE_THE_ARE_KEY_MECHANISM_THE_I:
-    :cvar REPOSITORY_HAVING_BASED_ENTERPRISES_CONTRIBUTE_FILTE:
-    """
     UPROFILES_PA = "uprofiles.pa"
     CUSED_DE = "cused.de"
     YBOTH_IN_EACH_THE_DISCUSS_ELECTRONIC_CAN_I = "yboth-in-each-the_discuss_electronic_can_i"
@@ -24,9 +16,6 @@ class NistschemaSvIvAtomicNcnameEnumeration3Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicNcnameEnumeration3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-NCName-enumeration-3"
         namespace = "NISTSchema-SV-IV-atomic-NCName-enumeration-3-NS"

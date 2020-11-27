@@ -6,16 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-union-short-gYear-enumeration-1-NS"
 
 
 class NistschemaSvIvUnionShortGYearEnumeration1Type(Enum):
-    """
-    :cvar VALUE_1990:
-    :cvar VALUE_1993:
-    :cvar VALUE_39:
-    :cvar VALUE_MINUS_962:
-    :cvar VALUE_384:
-    :cvar VALUE_1995:
-    :cvar VALUE_1974:
-    :cvar VALUE_2010:
-    """
     VALUE_1990 = "1990"
     VALUE_1993 = "1993"
     VALUE_39 = "39"
@@ -28,9 +18,6 @@ class NistschemaSvIvUnionShortGYearEnumeration1Type(Enum):
 
 @dataclass
 class NistschemaSvIvUnionShortGYearEnumeration1:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-union-short-gYear-enumeration-1"
         namespace = "NISTSchema-SV-IV-union-short-gYear-enumeration-1-NS"

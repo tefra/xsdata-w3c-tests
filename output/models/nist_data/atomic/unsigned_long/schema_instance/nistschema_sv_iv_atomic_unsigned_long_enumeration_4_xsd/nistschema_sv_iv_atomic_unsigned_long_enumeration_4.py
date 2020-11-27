@@ -6,14 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-unsignedLong-enumeration-4-NS"
 
 
 class NistschemaSvIvAtomicUnsignedLongEnumeration4Type(Enum):
-    """
-    :cvar VALUE_10:
-    :cvar VALUE_1737393204819:
-    :cvar VALUE_8333904222:
-    :cvar VALUE_5093784:
-    :cvar VALUE_50511429:
-    :cvar VALUE_602699130:
-    """
     VALUE_10 = 10
     VALUE_1737393204819 = 1737393204819
     VALUE_8333904222 = 8333904222
@@ -24,9 +16,6 @@ class NistschemaSvIvAtomicUnsignedLongEnumeration4Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicUnsignedLongEnumeration4:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-unsignedLong-enumeration-4"
         namespace = "NISTSchema-SV-IV-atomic-unsignedLong-enumeration-4-NS"

@@ -6,9 +6,6 @@ __NAMESPACE__ = "urn:foo"
 
 @dataclass
 class Base:
-    """
-    :ivar a_b_attributes:
-    """
     class Meta:
         name = "base"
 
@@ -30,9 +27,6 @@ class Alias(Base):
 
 @dataclass
 class Extension(Base):
-    """
-    :ivar c_attributes:
-    """
     class Meta:
         name = "extension"
         namespace = "urn:foo"
@@ -48,9 +42,6 @@ class Extension(Base):
 
 @dataclass
 class Restriction(Base):
-    """
-    :ivar a_attributes:
-    """
     class Meta:
         name = "restriction"
         namespace = "urn:foo"

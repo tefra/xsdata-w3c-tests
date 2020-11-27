@@ -6,10 +6,6 @@ __NAMESPACE__ = "foo"
 
 @dataclass
 class Facet:
-    """
-    :ivar annotation:
-    :ivar value:
-    """
     class Meta:
         name = "facet"
         namespace = "foo"
@@ -31,10 +27,6 @@ class Facet:
 
 @dataclass
 class IntType:
-    """
-    :ivar annotation:
-    :ivar value:
-    """
     class Meta:
         name = "int"
         namespace = "foo"
@@ -56,10 +48,6 @@ class IntType:
 
 @dataclass
 class LongType:
-    """
-    :ivar annotation:
-    :ivar value:
-    """
     class Meta:
         name = "longType"
 
@@ -81,10 +69,6 @@ class LongType:
 
 @dataclass
 class YesNo:
-    """
-    :ivar annotation:
-    :ivar value:
-    """
     class Meta:
         name = "yesNo"
         namespace = "foo"
@@ -113,12 +97,6 @@ class Long(LongType):
 
 @dataclass
 class Generic:
-    """
-    :ivar int_value:
-    :ivar long:
-    :ivar yes_no:
-    :ivar facet:
-    """
     class Meta:
         name = "generic"
         namespace = "foo"
@@ -157,10 +135,6 @@ class Generic:
 
 @dataclass
 class Root:
-    """
-    :ivar generic:
-    :ivar restricted:
-    """
     class Meta:
         name = "root"
         namespace = "foo"
@@ -180,10 +154,6 @@ class Root:
 
     @dataclass
     class Restricted:
-        """
-        :ivar int_value:
-        :ivar long:
-        """
         int_value: List[IntType] = field(
             default_factory=list,
             metadata={

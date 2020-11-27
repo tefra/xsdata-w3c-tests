@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://www.w3.org/1999/xhtml"
 
 @dataclass
 class B:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "b"
         namespace = "http://www.w3.org/1999/xhtml"

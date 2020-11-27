@@ -6,12 +6,6 @@ __NAMESPACE__ = "http://xstest-tns/schema11_D3_4_28_v01"
 
 
 class DTimeStampEnumeration(Enum):
-    """
-    :cvar VALUE_1999_01_01_T12_00_00_Z:
-    :cvar VALUE_2000_01_01_T12_00_00_Z:
-    :cvar VALUE_2001_01_01_T12_00_00_123_09_00:
-    :cvar VALUE_2002_01_01_T12_00_00_123_09_00:
-    """
     VALUE_1999_01_01_T12_00_00_Z = "1999-01-01T12:00:00Z"
     VALUE_2000_01_01_T12_00_00_Z = "2000-01-01T12:00:00Z"
     VALUE_2001_01_01_T12_00_00_123_09_00 = "2001-01-01T12:00:00.123-09:00"
@@ -20,13 +14,6 @@ class DTimeStampEnumeration(Enum):
 
 @dataclass
 class Root:
-    """
-    :ivar eld_time_stamp_type:
-    :ivar eld_time_stamp_enumeration:
-    :ivar eld_time_stamp_pattern:
-    :ivar eld_time_stamp_min_max_inclusive:
-    :ivar eld_time_stamp_min_max_exclusive:
-    """
     class Meta:
         name = "root"
         namespace = "http://xstest-tns/schema11_D3_4_28_v01"

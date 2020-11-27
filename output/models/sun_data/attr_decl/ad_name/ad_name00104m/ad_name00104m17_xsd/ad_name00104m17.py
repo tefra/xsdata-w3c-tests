@@ -6,24 +6,6 @@ __NAMESPACE__ = "AttrDecl/name"
 
 @dataclass
 class Root:
-    """
-    :ivar value_00:
-    :ivar value_01:
-    :ivar value_02:
-    :ivar value_10:
-    :ivar value_20:
-    :ivar value_30:
-    :ivar value_40:
-    :ivar value_50:
-    :ivar value_51:
-    :ivar value_52:
-    :ivar value_60:
-    :ivar value_61:
-    :ivar value_62:
-    :ivar value_70:
-    :ivar value_80:
-    :ivar value_90:
-    """
     class Meta:
         name = "root"
         namespace = "AttrDecl/name"

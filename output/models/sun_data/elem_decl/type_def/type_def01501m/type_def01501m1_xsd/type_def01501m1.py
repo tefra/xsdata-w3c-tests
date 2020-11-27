@@ -6,11 +6,6 @@ __NAMESPACE__ = "ElemDecl/typeDef"
 
 @dataclass
 class Text:
-    """
-    :ivar content:
-    :ivar dot:
-    :ivar id:
-    """
     class Meta:
         name = "text"
 

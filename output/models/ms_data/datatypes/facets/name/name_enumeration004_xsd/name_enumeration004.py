@@ -5,9 +5,6 @@ from typing import Optional
 
 @dataclass
 class FooType:
-    """
-    :ivar foo:
-    """
     class Meta:
         name = "fooType"
 
@@ -21,11 +18,6 @@ class FooType:
     )
 
     class Foo(Enum):
-        """
-        :cvar FOO:
-        :cvar FOO123:
-        :cvar FU1:
-        """
         FOO = "foo"
         FOO123 = "foo123"
         FU1 = "fu1"

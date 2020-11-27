@@ -6,9 +6,6 @@ __NAMESPACE__ = "IdConstrDefs/annotation"
 
 @dataclass
 class People:
-    """
-    :ivar person:
-    """
     class Meta:
         name = "people"
         namespace = "IdConstrDefs/annotation"
@@ -25,9 +22,6 @@ class People:
 
 @dataclass
 class Root:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         namespace = "IdConstrDefs/annotation"

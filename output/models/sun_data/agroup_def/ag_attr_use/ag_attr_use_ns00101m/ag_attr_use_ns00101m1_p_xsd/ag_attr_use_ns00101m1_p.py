@@ -7,11 +7,6 @@ __NAMESPACE__ = "AttrGroup/attrUse"
 
 @dataclass
 class ElementWithAttr:
-    """
-    :ivar good:
-    :ivar number:
-    :ivar height:
-    """
     class Meta:
         name = "elementWithAttr"
         namespace = "AttrGroup/attrUse"
@@ -39,9 +34,6 @@ class ElementWithAttr:
 
 @dataclass
 class Root:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         namespace = "AttrGroup/attrUse"

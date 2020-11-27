@@ -4,9 +4,6 @@ from typing import Optional
 
 @dataclass
 class A:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "a"
 
@@ -22,9 +19,6 @@ class A:
 
 @dataclass
 class B:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "b"
 

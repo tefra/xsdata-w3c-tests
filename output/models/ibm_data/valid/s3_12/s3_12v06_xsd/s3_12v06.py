@@ -6,10 +6,6 @@ __NAMESPACE__ = "http://xstest-tns"
 
 @dataclass
 class ChildTypeBase:
-    """
-    :ivar name:
-    :ivar dob:
-    """
     class Meta:
         name = "childTypeBase"
 
@@ -30,10 +26,6 @@ class ChildTypeBase:
 
 @dataclass
 class ChildTypeDerived:
-    """
-    :ivar name:
-    :ivar dob:
-    """
     class Meta:
         name = "childTypeDerived"
 
@@ -54,10 +46,6 @@ class ChildTypeDerived:
 
 @dataclass
 class CtAlt1:
-    """
-    :ivar child:
-    :ivar number_of_children:
-    """
     class Meta:
         name = "ctAlt1"
 
@@ -80,10 +68,6 @@ class CtAlt1:
 
 @dataclass
 class CtAlt2:
-    """
-    :ivar child:
-    :ivar number_of_children:
-    """
     class Meta:
         name = "ctAlt2"
 
@@ -105,10 +89,6 @@ class CtAlt2:
 
 @dataclass
 class CtBase:
-    """
-    :ivar child:
-    :ivar number_of_children:
-    """
     class Meta:
         name = "ctBase"
 
@@ -130,9 +110,6 @@ class CtBase:
 
 @dataclass
 class Root:
-    """
-    :ivar person:
-    """
     class Meta:
         name = "root"
         namespace = "http://xstest-tns"

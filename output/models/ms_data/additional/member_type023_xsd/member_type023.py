@@ -6,10 +6,6 @@ __NAMESPACE__ = "foo"
 
 @dataclass
 class Ct:
-    """
-    :ivar value:
-    :ivar att:
-    """
     class Meta:
         name = "ct"
 
@@ -26,9 +22,6 @@ class Ct:
 
 @dataclass
 class Root:
-    """
-    :ivar e:
-    """
     class Meta:
         name = "root"
         namespace = "foo"

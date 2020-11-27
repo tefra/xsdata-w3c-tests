@@ -6,9 +6,6 @@ __NAMESPACE__ = "bar"
 
 @dataclass
 class ImpElem1:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "impElem1"
         namespace = "bar"
@@ -25,9 +22,6 @@ class ImpElem1:
 
 @dataclass
 class ImpElem2:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "impElem2"
         namespace = "bar"

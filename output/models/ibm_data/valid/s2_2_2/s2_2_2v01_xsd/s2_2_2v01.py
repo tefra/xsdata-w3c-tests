@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://xstest-tns/ibms3_3_6_v04"
 
 @dataclass
 class Elem0:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "elem0"
         namespace = "http://xstest-tns/ibms3_3_6_v04"
@@ -23,9 +20,6 @@ class Elem0:
 
 @dataclass
 class Elem1:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "elem1"
         namespace = "http://xstest-tns/ibms3_3_6_v04"
@@ -40,9 +34,6 @@ class Elem1:
 
 @dataclass
 class Elem2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "elem2"
         namespace = "http://xstest-tns/ibms3_3_6_v04"
@@ -57,9 +48,6 @@ class Elem2:
 
 @dataclass
 class Elem3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "elem3"
         namespace = "http://xstest-tns/ibms3_3_6_v04"
@@ -74,12 +62,6 @@ class Elem3:
 
 @dataclass
 class RootType:
-    """
-    :ivar elem3:
-    :ivar elem2:
-    :ivar elem0:
-    :ivar elem1:
-    """
     class Meta:
         name = "rootType"
 

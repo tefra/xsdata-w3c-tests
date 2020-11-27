@@ -4,10 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Example:
-    """
-    :ivar x:
-    :ivar kind:
-    """
     x: List[int] = field(
         default_factory=list,
         metadata={

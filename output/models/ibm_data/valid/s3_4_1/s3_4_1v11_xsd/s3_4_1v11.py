@@ -7,11 +7,6 @@ __NAMESPACE__ = "a"
 
 @dataclass
 class Root:
-    """
-    :ivar content:
-    :ivar element:
-    :ivar version:
-    """
     class Meta:
         name = "root"
         namespace = "a"

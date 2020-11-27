@@ -4,10 +4,6 @@ from typing import List
 
 @dataclass
 class T:
-    """
-    :ivar col:
-    :ivar row:
-    """
     class Meta:
         name = "t"
 
@@ -31,9 +27,6 @@ class T:
 
 @dataclass
 class Root:
-    """
-    :ivar t:
-    """
     class Meta:
         name = "root"
 

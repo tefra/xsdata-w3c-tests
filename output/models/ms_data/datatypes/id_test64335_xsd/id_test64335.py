@@ -7,11 +7,6 @@ __NAMESPACE__ = "urn:products"
 
 @dataclass
 class Product:
-    """
-    :ivar price:
-    :ivar description:
-    :ivar id:
-    """
     price: Optional[Decimal] = field(
         default=None,
         metadata={
@@ -38,10 +33,6 @@ class Product:
 
 @dataclass
 class Apparel(Product):
-    """
-    :ivar size:
-    :ivar style:
-    """
     size: Optional[str] = field(
         default=None,
         metadata={
@@ -62,10 +53,6 @@ class Apparel(Product):
 
 @dataclass
 class MediaItem(Product):
-    """
-    :ivar title:
-    :ivar category:
-    """
     title: Optional[str] = field(
         default=None,
         metadata={
@@ -86,10 +73,6 @@ class MediaItem(Product):
 
 @dataclass
 class Book(MediaItem):
-    """
-    :ivar author:
-    :ivar publish_date:
-    """
     author: Optional[str] = field(
         default=None,
         metadata={
@@ -110,10 +93,6 @@ class Book(MediaItem):
 
 @dataclass
 class Cd(MediaItem):
-    """
-    :ivar artist:
-    :ivar release_date:
-    """
     class Meta:
         name = "CD"
 
@@ -137,10 +116,6 @@ class Cd(MediaItem):
 
 @dataclass
 class Dvd(MediaItem):
-    """
-    :ivar director:
-    :ivar release_date:
-    """
     class Meta:
         name = "DVD"
 
@@ -164,9 +139,6 @@ class Dvd(MediaItem):
 
 @dataclass
 class ProductList:
-    """
-    :ivar choice:
-    """
     choice: List[object] = field(
         default_factory=list,
         metadata={

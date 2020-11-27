@@ -5,9 +5,6 @@ from typing import Optional
 
 @dataclass
 class Root:
-    """
-    :ivar space:
-    """
     class Meta:
         name = "root"
 
@@ -20,9 +17,5 @@ class Root:
     )
 
     class Value(Enum):
-        """
-        :cvar DEFAULT:
-        :cvar PRESERVE:
-        """
         DEFAULT = "default"
         PRESERVE = "preserve"

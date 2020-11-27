@@ -5,10 +5,6 @@ from typing import List, Optional, Union
 
 @dataclass
 class Item:
-    """
-    :ivar quantity:
-    :ivar price:
-    """
     class Meta:
         name = "ITEM"
 
@@ -29,9 +25,6 @@ class Item:
 
 @dataclass
 class LongItemDefn(Item):
-    """
-    :ivar description:
-    """
     class Meta:
         name = "LONG_ITEM_DEFN"
 
@@ -47,9 +40,6 @@ class LongItemDefn(Item):
 
 @dataclass
 class ShortItemDefn(Item):
-    """
-    :ivar id:
-    """
     class Meta:
         name = "SHORT_ITEM_DEFN"
 
@@ -63,9 +53,6 @@ class ShortItemDefn(Item):
 
 @dataclass
 class Poitems:
-    """
-    :ivar item:
-    """
     class Meta:
         name = "POITEMS"
 

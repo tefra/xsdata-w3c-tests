@@ -6,9 +6,6 @@ __NAMESPACE__ = "a"
 
 @dataclass
 class B:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "b"
         nillable = True
@@ -24,9 +21,6 @@ class B:
 
 @dataclass
 class T:
-    """
-    :ivar b:
-    """
     class Meta:
         name = "t"
 

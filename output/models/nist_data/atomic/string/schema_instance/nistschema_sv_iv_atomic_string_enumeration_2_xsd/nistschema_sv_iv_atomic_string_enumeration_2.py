@@ -6,16 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-string-enumeration-2-NS"
 
 
 class NistschemaSvIvAtomicStringEnumeration2Type(Enum):
-    """
-    :cvar VOICE_ENABLED:
-    :cvar LAUNCHING:
-    :cvar TREMENDOUS:
-    :cvar ROBUST:
-    :cvar IS_VALUE:
-    :cvar NIST_ITL:
-    :cvar AS_VALUE:
-    :cvar BUSINESS:
-    """
     VOICE_ENABLED = "voice-enabled"
     LAUNCHING = "launching"
     TREMENDOUS = "tremendous"
@@ -28,9 +18,6 @@ class NistschemaSvIvAtomicStringEnumeration2Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicStringEnumeration2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-string-enumeration-2"
         namespace = "NISTSchema-SV-IV-atomic-string-enumeration-2-NS"

@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://xstest-tns"
 
 @dataclass
 class Root:
-    """
-    :ivar title:
-    """
     class Meta:
         name = "root"
         namespace = "http://xstest-tns"
@@ -25,10 +22,6 @@ class Root:
 
     @dataclass
     class TypeText:
-        """
-        :ivar content:
-        :ivar type:
-        """
         content: List[object] = field(
             default_factory=list,
             metadata={
@@ -46,10 +39,6 @@ class Root:
 
     @dataclass
     class TypeNumber:
-        """
-        :ivar content:
-        :ivar type:
-        """
         content: List[object] = field(
             default_factory=list,
             metadata={
@@ -67,10 +56,6 @@ class Root:
 
     @dataclass
     class Id4:
-        """
-        :ivar content:
-        :ivar type:
-        """
         content: List[object] = field(
             default_factory=list,
             metadata={
@@ -89,10 +74,6 @@ class Root:
 
 @dataclass
 class TitleType:
-    """
-    :ivar content:
-    :ivar type:
-    """
     class Meta:
         name = "titleType"
 

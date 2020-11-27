@@ -6,14 +6,6 @@ from output.models.ibm_data.mixed.assertions.po_sample.po_xsd.product import Poi
 
 @dataclass
 class Address:
-    """
-    :ivar street1:
-    :ivar street2:
-    :ivar city:
-    :ivar zipcode:
-    :ivar state:
-    :ivar country:
-    """
     class Meta:
         name = "ADDRESS"
 
@@ -71,12 +63,6 @@ class Address:
 
 @dataclass
 class Buyer:
-    """
-    :ivar f_name:
-    :ivar middl_name:
-    :ivar l_name:
-    :ivar establishment:
-    """
     class Meta:
         name = "BUYER"
 
@@ -122,17 +108,6 @@ class PoBusinessRules:
 
 @dataclass
 class Order1(PoBusinessRules):
-    """
-    :ivar buyer:
-    :ivar billing_address:
-    :ivar shipping_address:
-    :ivar email:
-    :ivar items:
-    :ivar tax:
-    :ivar bill_amount:
-    :ivar currency:
-    :ivar id:
-    """
     class Meta:
         name = "ORDER"
 

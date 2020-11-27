@@ -5,10 +5,6 @@ from typing import List, Optional, Union
 
 @dataclass
 class XDecimal:
-    """
-    :ivar value:
-    :ivar kind:
-    """
     class Meta:
         name = "X_Decimal"
 
@@ -26,10 +22,6 @@ class XDecimal:
 
 @dataclass
 class XInt:
-    """
-    :ivar value:
-    :ivar kind:
-    """
     class Meta:
         name = "X_Int"
 
@@ -47,10 +39,6 @@ class XInt:
 
 @dataclass
 class XString:
-    """
-    :ivar value:
-    :ivar kind:
-    """
     class Meta:
         name = "X_String"
 
@@ -68,9 +56,6 @@ class XString:
 
 @dataclass
 class Example:
-    """
-    :ivar x:
-    """
     x: List[Union[XDecimal, XInt, XString]] = field(
         default_factory=list,
         metadata={

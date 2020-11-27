@@ -4,10 +4,6 @@ from typing import Optional
 
 @dataclass
 class ShoeType:
-    """
-    :ivar value:
-    :ivar country:
-    """
     class Meta:
         name = "shoeType"
 

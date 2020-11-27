@@ -6,11 +6,6 @@ __NAMESPACE__ = "ElemDecl/valueConstraint"
 
 @dataclass
 class Root:
-    """
-    :ivar content:
-    :ivar separator:
-    :ivar attr:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/valueConstraint"

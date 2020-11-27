@@ -6,10 +6,6 @@ __NAMESPACE__ = "http://xstest-tns/schema11_S3_4_2_4"
 
 @dataclass
 class AttrGoupType:
-    """
-    :ivar default_attr1:
-    :ivar default_attr2:
-    """
     class Meta:
         name = "attrGoupType"
 

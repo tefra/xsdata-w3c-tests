@@ -10,10 +10,6 @@ class A:
 
 @dataclass
 class Zing:
-    """
-    :ivar a:
-    :ivar local_element:
-    """
     class Meta:
         name = "zing"
 

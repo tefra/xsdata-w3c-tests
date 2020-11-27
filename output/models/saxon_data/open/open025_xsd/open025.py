@@ -4,11 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class T:
-    """
-    :ivar local_element:
-    :ivar i:
-    :ivar d:
-    """
     local_element: Optional[object] = field(
         default=None,
         metadata={

@@ -6,19 +6,12 @@ __NAMESPACE__ = "SType/ST_facets"
 
 
 class S(Enum):
-    """
-    :cvar A_1_2_3_4_5_6:
-    :cvar A1_2_3_4_5_6:
-    """
     A_1_2_3_4_5_6 = "a-1.2_3·4·5۝6۞"
     A1_2_3_4_5_6 = "a1_2_3_4_5_6"
 
 
 @dataclass
 class Root:
-    """
-    :ivar val:
-    """
     class Meta:
         name = "root"
         namespace = "SType/ST_facets"

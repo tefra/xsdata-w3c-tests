@@ -6,9 +6,6 @@ __NAMESPACE__ = "ST_targetNS"
 
 @dataclass
 class Test:
-    """
-    :ivar value:
-    """
     value: Optional[str] = field(
         default=None,
         metadata={

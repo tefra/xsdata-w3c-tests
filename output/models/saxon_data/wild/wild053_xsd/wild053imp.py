@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://wild053.org/"
 
 @dataclass
 class Zang:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "zang"
         namespace = "http://wild053.org/"
@@ -25,9 +22,6 @@ class Zang:
 
 @dataclass
 class Zeng:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "zeng"
         namespace = "http://wild053.org/"
@@ -44,10 +38,6 @@ class Zeng:
 
 @dataclass
 class Zing:
-    """
-    :ivar name:
-    :ivar local_target_namespace_element:
-    """
     class Meta:
         name = "zing"
 
@@ -71,9 +61,6 @@ class Zing:
 
 @dataclass
 class Zong:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "zong"
         namespace = "http://wild053.org/"

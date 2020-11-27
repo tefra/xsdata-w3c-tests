@@ -4,11 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class RestrictedComputer:
-    """
-    :ivar name:
-    :ivar local_element:
-    :ivar extra_com_element:
-    """
     class Meta:
         name = "restrictedComputer"
 

@@ -6,10 +6,6 @@ __NAMESPACE__ = "http://www.tempuri.org"
 
 @dataclass
 class Root:
-    """
-    :ivar local_element1:
-    :ivar local_element2:
-    """
     class Meta:
         name = "root"
         namespace = "http://www.tempuri.org"
@@ -36,9 +32,6 @@ class Root:
 
 @dataclass
 class TestContent:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "testContent"
         namespace = "http://www.tempuri.org"

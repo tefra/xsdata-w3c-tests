@@ -10,9 +10,6 @@ class Bar:
 
 @dataclass
 class Foo(Bar):
-    """
-    :ivar e1:
-    """
     class Meta:
         name = "foo"
 

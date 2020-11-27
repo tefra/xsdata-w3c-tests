@@ -4,9 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Kid:
-    """
-    :ivar val:
-    """
     class Meta:
         name = "kid"
 
@@ -20,10 +17,6 @@ class Kid:
 
 @dataclass
 class Uidtype:
-    """
-    :ivar hid:
-    :ivar iid:
-    """
     class Meta:
         name = "uidtype"
 
@@ -45,9 +38,6 @@ class Uidtype:
 
     @dataclass
     class Iid:
-        """
-        :ivar val:
-        """
         val: Optional[str] = field(
             default=None,
             metadata={
@@ -58,10 +48,6 @@ class Uidtype:
 
 @dataclass
 class Root:
-    """
-    :ivar uid:
-    :ivar kid:
-    """
     class Meta:
         name = "root"
 

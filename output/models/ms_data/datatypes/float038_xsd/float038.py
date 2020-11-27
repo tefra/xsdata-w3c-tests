@@ -4,9 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class ComplexfooType:
-    """
-    :ivar comp_foo:
-    """
     class Meta:
         name = "complexfooType"
 
@@ -23,9 +20,6 @@ class ComplexfooType:
 
 @dataclass
 class SimpleTest:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "simpleTest"
 
@@ -46,10 +40,6 @@ class ComplexTest(ComplexfooType):
 
 @dataclass
 class Root:
-    """
-    :ivar complex_test:
-    :ivar simple_test:
-    """
     class Meta:
         name = "root"
 

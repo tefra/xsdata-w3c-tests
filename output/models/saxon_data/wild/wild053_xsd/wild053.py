@@ -5,9 +5,6 @@ from output.models.saxon_data.wild.wild053_xsd.wild053imp import Zing
 
 @dataclass
 class Zang:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "zang"
 

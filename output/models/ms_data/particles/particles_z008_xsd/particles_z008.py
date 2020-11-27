@@ -6,10 +6,6 @@ __NAMESPACE__ = "urn:my-namespace"
 
 @dataclass
 class ContainHead2Type:
-    """
-    :ivar member2:
-    :ivar head2:
-    """
     member2: Optional[str] = field(
         default=None,
         metadata={
@@ -32,10 +28,6 @@ class ContainHead2Type:
 
 @dataclass
 class ContainMember2Type:
-    """
-    :ivar member2:
-    :ivar head2:
-    """
     member2: Optional[str] = field(
         default=None,
         metadata={
@@ -58,9 +50,6 @@ class ContainMember2Type:
 
 @dataclass
 class Head2:
-    """
-    :ivar value:
-    """
     class Meta:
         namespace = "urn:my-namespace"
 
@@ -74,9 +63,6 @@ class Head2:
 
 @dataclass
 class Member2:
-    """
-    :ivar value:
-    """
     class Meta:
         namespace = "urn:my-namespace"
 

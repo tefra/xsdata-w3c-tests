@@ -4,9 +4,6 @@ from typing import List
 
 @dataclass
 class Doc:
-    """
-    :ivar open_com_element:
-    """
     class Meta:
         name = "doc"
 

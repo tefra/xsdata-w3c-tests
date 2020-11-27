@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-hexBinary-maxLength-3-NS"
 
 @dataclass
 class NistschemaSvIvListHexBinaryMaxLength3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-hexBinary-maxLength-3"
         namespace = "NISTSchema-SV-IV-list-hexBinary-maxLength-3-NS"

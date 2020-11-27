@@ -6,16 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-token-enumeration-4-NS"
 
 
 class NistschemaSvIvAtomicTokenEnumeration4Type(Enum):
-    """
-    :cvar PICO_CELLULAR:
-    :cvar TO:
-    :cvar TECHNIQUES:
-    :cvar IS_VALUE:
-    :cvar VISIBLY:
-    :cvar AS_VALUE:
-    :cvar SYNTAX:
-    :cvar WAS:
-    """
     PICO_CELLULAR = "pico-cellular"
     TO = "to"
     TECHNIQUES = "techniques"
@@ -28,9 +18,6 @@ class NistschemaSvIvAtomicTokenEnumeration4Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicTokenEnumeration4:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-token-enumeration-4"
         namespace = "NISTSchema-SV-IV-atomic-token-enumeration-4-NS"

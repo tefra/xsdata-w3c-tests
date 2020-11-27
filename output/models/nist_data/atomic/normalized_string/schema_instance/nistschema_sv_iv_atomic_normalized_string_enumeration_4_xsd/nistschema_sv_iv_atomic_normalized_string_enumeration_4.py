@@ -6,13 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-4-NS"
 
 
 class NistschemaSvIvAtomicNormalizedStringEnumeration4Type(Enum):
-    """
-    :cvar WITHOUT:
-    :cvar MEASUREMENT:
-    :cvar AND_VALUE:
-    :cvar ENGINEERING:
-    :cvar OF:
-    """
     WITHOUT = "without"
     MEASUREMENT = "measurement"
     AND_VALUE = "and"
@@ -22,9 +15,6 @@ class NistschemaSvIvAtomicNormalizedStringEnumeration4Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicNormalizedStringEnumeration4:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-4"
         namespace = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-4-NS"

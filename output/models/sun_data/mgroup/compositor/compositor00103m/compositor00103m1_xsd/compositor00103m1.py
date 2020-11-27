@@ -6,10 +6,6 @@ __NAMESPACE__ = "compositor"
 
 @dataclass
 class A:
-    """
-    :ivar date:
-    :ivar time:
-    """
     class Meta:
         name = "a"
         namespace = "compositor"

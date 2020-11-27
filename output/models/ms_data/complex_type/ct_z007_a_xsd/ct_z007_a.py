@@ -7,9 +7,6 @@ __NAMESPACE__ = "urn:xmlns:25hoursaday-com:address"
 
 @dataclass
 class Address:
-    """
-    :ivar value:
-    """
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:address"
 
@@ -23,9 +20,6 @@ class Address:
 
 @dataclass
 class City:
-    """
-    :ivar value:
-    """
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:address"
 
@@ -39,9 +33,6 @@ class City:
 
 @dataclass
 class State:
-    """
-    :ivar value:
-    """
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:address"
 
@@ -55,9 +46,6 @@ class State:
 
 @dataclass
 class Zip:
-    """
-    :ivar value:
-    """
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:address"
 
@@ -71,13 +59,6 @@ class Zip:
 
 @dataclass
 class MyCustomerType(CustomerType):
-    """
-    :ivar phone_number:
-    :ivar address:
-    :ivar city:
-    :ivar state:
-    :ivar zip:
-    """
     phone_number: Optional[str] = field(
         default=None,
         metadata={

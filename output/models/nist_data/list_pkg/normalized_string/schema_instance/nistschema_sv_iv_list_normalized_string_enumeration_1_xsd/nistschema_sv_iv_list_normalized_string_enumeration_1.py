@@ -6,18 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-normalizedString-enumeration-1-NS"
 
 
 class NistschemaSvIvListNormalizedStringEnumeration1Type(Enum):
-    """
-    :cvar SPECIFICATIONS_DEVELOPMENT_SHIFT_WAYS_COMPUTING:
-    :cvar WIDESPREAD_OASIS_AND_IN_HOUSE_AUTOMATING_OF:
-    :cvar BECOME_WITH_COST_INCLUDING_CONTRIBUTE_MEASURE_SOFTWARE_DEBUG:
-    :cvar XSL_NIST_ITL_WORLD_SOFTWARE_DEFINE_AROMA_TESTABLE_RELATED:
-    :cvar TECHNOLOGY_BUSINESS_INDUSTRY_VERSIONS_NIST_ITL_BY_ALL_DEVELOPERS:
-    :cvar FOR_TWO_IN_HOUSE_THE_PARTNERSHIPS_DATA_INVESTIGATION_COMPUTING_EMERGING:
-    :cvar TOOLS_DESKTOP_KNOWN_FOR_CAN_CORRECTNESS_AS_THE_MARKET:
-    :cvar DOCUMENTS_OUR_IN_LANGUAGE_AND_LED:
-    :cvar THE_CPU_NOT_TO_WITH_TOOLS_XML_AND_THE:
-    :cvar TESTING_THE_DEPENDS_BE_BUSINESS_AND_SIGNATURES:
-    """
     SPECIFICATIONS_DEVELOPMENT_SHIFT_WAYS_COMPUTING = "specifications development shift ways computing"
     WIDESPREAD_OASIS_AND_IN_HOUSE_AUTOMATING_OF = "widespread OASIS and in-house automating of"
     BECOME_WITH_COST_INCLUDING_CONTRIBUTE_MEASURE_SOFTWARE_DEBUG = "become with cost including contribute measure software debug"
@@ -32,9 +20,6 @@ class NistschemaSvIvListNormalizedStringEnumeration1Type(Enum):
 
 @dataclass
 class NistschemaSvIvListNormalizedStringEnumeration1:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-normalizedString-enumeration-1"
         namespace = "NISTSchema-SV-IV-list-normalizedString-enumeration-1-NS"

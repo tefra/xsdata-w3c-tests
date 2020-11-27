@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-nonNegativeInteger-maxExclusive-3-NS"
 
 @dataclass
 class NistschemaSvIvAtomicNonNegativeIntegerMaxExclusive3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-nonNegativeInteger-maxExclusive-3"
         namespace = "NISTSchema-SV-IV-atomic-nonNegativeInteger-maxExclusive-3-NS"

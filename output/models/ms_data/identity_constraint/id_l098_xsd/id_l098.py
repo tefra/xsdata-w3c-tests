@@ -6,10 +6,6 @@ __NAMESPACE__ = "myNS.tempuri.org"
 
 @dataclass
 class Ttype:
-    """
-    :ivar value:
-    :ivar row:
-    """
     class Meta:
         name = "ttype"
 
@@ -27,10 +23,6 @@ class Ttype:
 
 @dataclass
 class Utype:
-    """
-    :ivar value:
-    :ivar row:
-    """
     class Meta:
         name = "utype"
 
@@ -64,9 +56,6 @@ class U(Utype):
 
 @dataclass
 class Root:
-    """
-    :ivar t_or_u:
-    """
     class Meta:
         name = "root"
         namespace = "myNS.tempuri.org"

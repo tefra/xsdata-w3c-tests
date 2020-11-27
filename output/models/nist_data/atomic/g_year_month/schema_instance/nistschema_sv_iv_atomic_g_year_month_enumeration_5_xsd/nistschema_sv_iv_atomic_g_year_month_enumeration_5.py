@@ -6,16 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-gYearMonth-enumeration-5-NS"
 
 
 class NistschemaSvIvAtomicGYearMonthEnumeration5Type(Enum):
-    """
-    :cvar VALUE_2020_08:
-    :cvar VALUE_2027_03:
-    :cvar VALUE_1991_12:
-    :cvar VALUE_1978_06:
-    :cvar VALUE_1992_07:
-    :cvar VALUE_1998_08:
-    :cvar VALUE_2027_02:
-    :cvar VALUE_2013_02:
-    """
     VALUE_2020_08 = "2020-08"
     VALUE_2027_03 = "2027-03"
     VALUE_1991_12 = "1991-12"
@@ -28,9 +18,6 @@ class NistschemaSvIvAtomicGYearMonthEnumeration5Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicGYearMonthEnumeration5:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-gYearMonth-enumeration-5"
         namespace = "NISTSchema-SV-IV-atomic-gYearMonth-enumeration-5-NS"

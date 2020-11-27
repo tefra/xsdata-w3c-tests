@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-gMonthDay-maxLength-2-NS"
 
 @dataclass
 class NistschemaSvIvListGMonthDayMaxLength2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-gMonthDay-maxLength-2"
         namespace = "NISTSchema-SV-IV-list-gMonthDay-maxLength-2-NS"

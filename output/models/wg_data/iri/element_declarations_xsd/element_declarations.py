@@ -4,9 +4,6 @@ from typing import Optional
 
 @dataclass
 class Iri3987:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "IRI-3987"
 
@@ -21,9 +18,6 @@ class Iri3987:
 
 @dataclass
 class IriReference3987:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "IRI-reference-3987"
 
@@ -38,9 +32,6 @@ class IriReference3987:
 
 @dataclass
 class Uri3986:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "URI-3986"
 
@@ -55,9 +46,6 @@ class Uri3986:
 
 @dataclass
 class UriReference3986:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "URI-reference-3986"
 
@@ -72,9 +60,6 @@ class UriReference3986:
 
 @dataclass
 class AbsoluteIri3987:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "absolute-IRI-3987"
 
@@ -89,9 +74,6 @@ class AbsoluteIri3987:
 
 @dataclass
 class AbsoluteUri3986:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "absolute-URI-3986"
 
@@ -106,9 +88,6 @@ class AbsoluteUri3986:
 
 @dataclass
 class RelativeReference3986:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "relative-reference-3986"
 
@@ -123,9 +102,6 @@ class RelativeReference3986:
 
 @dataclass
 class RelativeReference3987:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "relative-reference-3987"
 

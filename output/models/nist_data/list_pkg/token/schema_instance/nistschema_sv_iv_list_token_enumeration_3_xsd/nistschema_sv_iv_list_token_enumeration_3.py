@@ -6,15 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-token-enumeration-3-NS"
 
 
 class NistschemaSvIvListTokenEnumeration3Type(Enum):
-    """
-    :cvar USES_TEMPLATES_TO_IS_THE:
-    :cvar AND_SERVICE_WILL_OPPORTUNITY_THE:
-    :cvar AND_HAS_EMBEDDED_FILES_WOULD_INCORPORATED_INTEROPERABILITY_OBJECTIVE_HETEROGENEOUS:
-    :cvar TO_TEST_MANIPULATION_MODELS_PROMINENT_OF_AND:
-    :cvar IT_TO_OF_CHALLENGES_FOR_AND_CAN_CONSTITUENT_DEVICES:
-    :cvar FOR_G_NEW_PARTNERSHIP_TOOLS:
-    :cvar BE_BUILD_XML_DATA_S_THE_DOCUMENTS_INDUSTRY:
-    """
     USES_TEMPLATES_TO_IS_THE = "uses templates to is The"
     AND_SERVICE_WILL_OPPORTUNITY_THE = "and service will opportunity the"
     AND_HAS_EMBEDDED_FILES_WOULD_INCORPORATED_INTEROPERABILITY_OBJECTIVE_HETEROGENEOUS = "and has embedded files would incorporated interoperability objective heterogeneous"
@@ -26,9 +17,6 @@ class NistschemaSvIvListTokenEnumeration3Type(Enum):
 
 @dataclass
 class NistschemaSvIvListTokenEnumeration3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-token-enumeration-3"
         namespace = "NISTSchema-SV-IV-list-token-enumeration-3-NS"

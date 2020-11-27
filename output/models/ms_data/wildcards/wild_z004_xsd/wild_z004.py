@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class CtypeFoo:
-    """
-    :ivar a:
-    """
     class Meta:
         name = "ctype_foo"
 
@@ -24,9 +21,6 @@ class CtypeFoo:
 
 @dataclass
 class RootElem:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root_elem"
         namespace = "http://xsdtesting"

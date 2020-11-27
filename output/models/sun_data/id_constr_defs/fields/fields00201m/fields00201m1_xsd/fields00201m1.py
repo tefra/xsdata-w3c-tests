@@ -7,9 +7,6 @@ __NAMESPACE__ = "IdConstrDefs/fields"
 
 @dataclass
 class Root:
-    """
-    :ivar number:
-    """
     class Meta:
         name = "root"
         namespace = "IdConstrDefs/fields"

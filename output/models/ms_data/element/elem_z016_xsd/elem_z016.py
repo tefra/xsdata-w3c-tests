@@ -4,11 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class DataTypes:
-    """
-    :ivar id:
-    :ivar idref:
-    :ivar idrefs:
-    """
     id: List[str] = field(
         default_factory=list,
         metadata={
@@ -44,9 +39,6 @@ class DataTypes:
 
 @dataclass
 class Id:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "ID"
 
@@ -60,9 +52,6 @@ class Id:
 
 @dataclass
 class Idref:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "IDREF"
 
@@ -76,9 +65,6 @@ class Idref:
 
 @dataclass
 class Idrefs:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "IDREFS"
 
@@ -93,9 +79,6 @@ class Idrefs:
 
 @dataclass
 class Root:
-    """
-    :ivar data_types:
-    """
     data_types: List[DataTypes] = field(
         default_factory=list,
         metadata={

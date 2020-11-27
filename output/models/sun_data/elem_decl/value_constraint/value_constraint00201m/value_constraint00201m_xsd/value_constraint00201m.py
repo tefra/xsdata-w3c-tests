@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/valueConstraint"
 
 @dataclass
 class Root:
-    """
-    :ivar twelve:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/valueConstraint"

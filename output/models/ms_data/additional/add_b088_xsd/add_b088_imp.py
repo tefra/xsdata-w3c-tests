@@ -6,11 +6,6 @@ __NAMESPACE__ = "http://importedXSD"
 
 @dataclass
 class Any1:
-    """
-    :ivar local_element:
-    :ivar bbb:
-    :ivar ccc:
-    """
     class Meta:
         name = "any1"
 
@@ -39,10 +34,6 @@ class Any1:
 
 @dataclass
 class Imp:
-    """
-    :ivar att1:
-    :ivar att2:
-    """
     class Meta:
         name = "imp"
         namespace = "http://importedXSD"
@@ -63,10 +54,6 @@ class Imp:
 
 @dataclass
 class Doc1:
-    """
-    :ivar elem1:
-    :ivar elem2:
-    """
     class Meta:
         name = "doc1"
         namespace = "http://importedXSD"

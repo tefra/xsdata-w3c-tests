@@ -7,20 +7,12 @@ __NAMESPACE__ = "a"
 
 
 class Num1(Enum):
-    """
-    :cvar INF:
-    :cvar VALUE_1_1:
-    """
     INF = Decimal('Infinity')
     VALUE_1_1 = Decimal('1.1')
 
 
 @dataclass
 class Root:
-    """
-    :ivar number1:
-    :ivar number2:
-    """
     class Meta:
         name = "root"
         namespace = "a"

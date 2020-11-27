@@ -4,11 +4,6 @@ from typing import Optional
 
 @dataclass
 class Xtype:
-    """
-    :ivar message:
-    :ivar min:
-    :ivar max:
-    """
     class Meta:
         name = "XType"
 

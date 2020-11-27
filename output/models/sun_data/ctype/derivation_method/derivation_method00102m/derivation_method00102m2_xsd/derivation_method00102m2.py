@@ -6,10 +6,6 @@ __NAMESPACE__ = "derivationMethod"
 
 @dataclass
 class A1:
-    """
-    :ivar value:
-    :ivar t:
-    """
     class Meta:
         name = "A"
 

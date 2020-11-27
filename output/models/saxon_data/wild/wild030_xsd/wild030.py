@@ -4,13 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Computer:
-    """
-    :ivar cpu:
-    :ivar memory:
-    :ivar monitor:
-    :ivar speaker:
-    :ivar any_element:
-    """
     class Meta:
         name = "computer"
 
@@ -57,13 +50,6 @@ class Computer:
 
 @dataclass
 class QuietComputer:
-    """
-    :ivar cpu:
-    :ivar memory:
-    :ivar monitor:
-    :ivar speaker:
-    :ivar any_element:
-    """
     class Meta:
         name = "quietComputer"
 

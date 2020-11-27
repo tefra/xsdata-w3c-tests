@@ -4,12 +4,6 @@ from typing import Optional
 
 @dataclass
 class Ids:
-    """
-    :ivar idref_element1:
-    :ivar idref_element2:
-    :ivar id1:
-    :ivar id2:
-    """
     class Meta:
         name = "ids"
 
@@ -45,9 +39,6 @@ class Ids:
 
 @dataclass
 class Root:
-    """
-    :ivar multiple_ids:
-    """
     class Meta:
         name = "root"
 

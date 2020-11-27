@@ -6,9 +6,6 @@ __NAMESPACE__ = "foo"
 
 @dataclass
 class B:
-    """
-    :ivar foo_or_e1_or_foo:
-    """
     foo_or_e1_or_foo: List[object] = field(
         default_factory=list,
         metadata={
@@ -37,9 +34,6 @@ class B:
 
 @dataclass
 class E1:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "e1"
         namespace = "foo"
@@ -54,9 +48,6 @@ class E1:
 
 @dataclass
 class Foo:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "foo"
         namespace = "foo"

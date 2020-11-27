@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/valueConstraint"
 
 @dataclass
 class Id:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "ID"
         namespace = "ElemDecl/valueConstraint"
@@ -23,9 +20,6 @@ class Id:
 
 @dataclass
 class Root:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/valueConstraint"

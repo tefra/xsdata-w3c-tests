@@ -6,18 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-gMonth-enumeration-3-NS"
 
 
 class NistschemaSvIvListGMonthEnumeration3Type(Enum):
-    """
-    :cvar VALUE_10_06_07_10_02_04_07:
-    :cvar VALUE_12_04_08_08_08_08_04:
-    :cvar VALUE_09_04_02_12_08_03_02_01:
-    :cvar VALUE_02_11_06_07_02_08_01_06_07:
-    :cvar VALUE_02_05_10_03_09_02_04_09:
-    :cvar VALUE_12_10_12_09_09_04_04:
-    :cvar VALUE_11_02_02_05_10_05:
-    :cvar VALUE_02_05_09_09_02_04:
-    :cvar VALUE_04_03_02_06_06_06_08:
-    :cvar VALUE_04_08_03_06_10:
-    """
     VALUE_10_06_07_10_02_04_07 = "--10 --06 --07 --10 --02 --04 --07"
     VALUE_12_04_08_08_08_08_04 = "--12 --04 --08 --08 --08 --08 --04"
     VALUE_09_04_02_12_08_03_02_01 = "--09 --04 --02 --12 --08 --03 --02 --01"
@@ -32,9 +20,6 @@ class NistschemaSvIvListGMonthEnumeration3Type(Enum):
 
 @dataclass
 class NistschemaSvIvListGMonthEnumeration3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-gMonth-enumeration-3"
         namespace = "NISTSchema-SV-IV-list-gMonth-enumeration-3-NS"

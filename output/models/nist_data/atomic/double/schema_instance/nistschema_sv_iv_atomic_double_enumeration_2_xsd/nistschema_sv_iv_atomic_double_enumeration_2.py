@@ -7,16 +7,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-double-enumeration-2-NS"
 
 
 class NistschemaSvIvAtomicDoubleEnumeration2Type(Enum):
-    """
-    :cvar VALUE_4_9_E_324:
-    :cvar VALUE_4_8523411539849754_E_234:
-    :cvar VALUE_2_8869019830516350_E_144:
-    :cvar VALUE_3_3925700348046903_E_54:
-    :cvar VALUE_2_7311892445441031_E36:
-    :cvar VALUE_2_9181385291440688_E126:
-    :cvar VALUE_2_4983147023924484_E216:
-    :cvar VALUE_1_7976931348623157_E308:
-    """
     VALUE_4_9_E_324 = Decimal('4.9E-324')
     VALUE_4_8523411539849754_E_234 = Decimal('4.8523411539849754E-234')
     VALUE_2_8869019830516350_E_144 = Decimal('2.8869019830516350E-144')
@@ -29,9 +19,6 @@ class NistschemaSvIvAtomicDoubleEnumeration2Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicDoubleEnumeration2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-double-enumeration-2"
         namespace = "NISTSchema-SV-IV-atomic-double-enumeration-2-NS"

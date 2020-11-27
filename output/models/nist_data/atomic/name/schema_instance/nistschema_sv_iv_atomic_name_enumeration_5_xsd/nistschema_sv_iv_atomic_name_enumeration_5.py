@@ -6,14 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-Name-enumeration-5-NS"
 
 
 class NistschemaSvIvAtomicNameEnumeration5Type(Enum):
-    """
-    :cvar TO_ENVIRONMENTS_DEFINE_IT_ISSUES_T:
-    :cvar FI:
-    :cvar RAND_TO_AND_THE_C:
-    :cvar THESE_KNOWN_QUALITY_APPLICATION_AVAILABLE_THE:
-    :cvar PAPPLICATION_THE_OBJECT_OBJECT_COMPUTING_CAN:
-    :cvar DAND_APPLICA:
-    """
     TO_ENVIRONMENTS_DEFINE_IT_ISSUES_T = ":to.environments-define.it.issues.t"
     FI = ":fi"
     RAND_TO_AND_THE_C = "rand_to.and-the.c"
@@ -24,9 +16,6 @@ class NistschemaSvIvAtomicNameEnumeration5Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicNameEnumeration5:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-Name-enumeration-5"
         namespace = "NISTSchema-SV-IV-atomic-Name-enumeration-5-NS"

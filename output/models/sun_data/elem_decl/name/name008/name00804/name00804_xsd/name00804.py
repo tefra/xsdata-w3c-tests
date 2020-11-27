@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/name"
 
 @dataclass
 class H:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "H---"
         namespace = "ElemDecl/name"
@@ -23,9 +20,6 @@ class H:
 
 @dataclass
 class H111:
-    """
-    :ivar value:
-    """
     class Meta:
         namespace = "ElemDecl/name"
 
@@ -39,9 +33,6 @@ class H111:
 
 @dataclass
 class Hhhh:
-    """
-    :ivar value:
-    """
     class Meta:
         namespace = "ElemDecl/name"
 
@@ -55,9 +46,6 @@ class Hhhh:
 
 @dataclass
 class II:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "I--I"
         namespace = "ElemDecl/name"
@@ -72,9 +60,6 @@ class II:
 
 @dataclass
 class I11I:
-    """
-    :ivar value:
-    """
     class Meta:
         namespace = "ElemDecl/name"
 
@@ -88,9 +73,6 @@ class I11I:
 
 @dataclass
 class IiiI:
-    """
-    :ivar value:
-    """
     class Meta:
         namespace = "ElemDecl/name"
 
@@ -104,9 +86,6 @@ class IiiI:
 
 @dataclass
 class JJ:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "J-J-"
         namespace = "ElemDecl/name"
@@ -121,9 +100,6 @@ class JJ:
 
 @dataclass
 class J1J1:
-    """
-    :ivar value:
-    """
     class Meta:
         namespace = "ElemDecl/name"
 
@@ -137,9 +113,6 @@ class J1J1:
 
 @dataclass
 class JjJj:
-    """
-    :ivar value:
-    """
     class Meta:
         namespace = "ElemDecl/name"
 
@@ -153,9 +126,6 @@ class JjJj:
 
 @dataclass
 class KKk:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "K-KK"
         namespace = "ElemDecl/name"
@@ -170,9 +140,6 @@ class KKk:
 
 @dataclass
 class K1Kk:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "K1KK"
         namespace = "ElemDecl/name"
@@ -187,9 +154,6 @@ class K1Kk:
 
 @dataclass
 class KkKk:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "KkKK"
         namespace = "ElemDecl/name"
@@ -204,9 +168,6 @@ class KkKk:
 
 @dataclass
 class Ll:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "LL--"
         namespace = "ElemDecl/name"
@@ -221,9 +182,6 @@ class Ll:
 
 @dataclass
 class Ll11:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "LL11"
         namespace = "ElemDecl/name"
@@ -238,9 +196,6 @@ class Ll11:
 
 @dataclass
 class Llll:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "LLll"
         namespace = "ElemDecl/name"
@@ -255,9 +210,6 @@ class Llll:
 
 @dataclass
 class MmM:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "MM-M"
         namespace = "ElemDecl/name"
@@ -272,9 +224,6 @@ class MmM:
 
 @dataclass
 class Mm1M:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "MM1M"
         namespace = "ElemDecl/name"
@@ -289,9 +238,6 @@ class Mm1M:
 
 @dataclass
 class MmmM:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "MMmM"
         namespace = "ElemDecl/name"
@@ -306,9 +252,6 @@ class MmmM:
 
 @dataclass
 class Nnn:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NNN-"
         namespace = "ElemDecl/name"
@@ -323,9 +266,6 @@ class Nnn:
 
 @dataclass
 class Nnn1:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NNN1"
         namespace = "ElemDecl/name"
@@ -340,9 +280,6 @@ class Nnn1:
 
 @dataclass
 class Nnnn:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NNNn"
         namespace = "ElemDecl/name"
@@ -357,9 +294,6 @@ class Nnnn:
 
 @dataclass
 class Oooo:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "OOOO"
         namespace = "ElemDecl/name"
@@ -374,9 +308,6 @@ class Oooo:
 
 @dataclass
 class Aaaa:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "aaaa"
         namespace = "ElemDecl/name"
@@ -391,9 +322,6 @@ class Aaaa:
 
 @dataclass
 class Bbb0:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "bbb0"
         namespace = "ElemDecl/name"
@@ -408,9 +336,6 @@ class Bbb0:
 
 @dataclass
 class BbbB:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "bbbB"
         namespace = "ElemDecl/name"
@@ -425,9 +350,6 @@ class BbbB:
 
 @dataclass
 class Bbb:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "bbb_"
         namespace = "ElemDecl/name"
@@ -442,9 +364,6 @@ class Bbb:
 
 @dataclass
 class Cc0C:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "cc0c"
         namespace = "ElemDecl/name"
@@ -459,9 +378,6 @@ class Cc0C:
 
 @dataclass
 class CcCc:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "ccCc"
         namespace = "ElemDecl/name"
@@ -476,9 +392,6 @@ class CcCc:
 
 @dataclass
 class CcC:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "cc_c"
         namespace = "ElemDecl/name"
@@ -493,9 +406,6 @@ class CcC:
 
 @dataclass
 class Dd00:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "dd00"
         namespace = "ElemDecl/name"
@@ -510,9 +420,6 @@ class Dd00:
 
 @dataclass
 class DdDd:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "ddDD"
         namespace = "ElemDecl/name"
@@ -527,9 +434,6 @@ class DdDd:
 
 @dataclass
 class Dd:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "dd__"
         namespace = "ElemDecl/name"
@@ -544,9 +448,6 @@ class Dd:
 
 @dataclass
 class E0Ee:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "e0ee"
         namespace = "ElemDecl/name"
@@ -561,9 +462,6 @@ class E0Ee:
 
 @dataclass
 class EEee:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "eEee"
         namespace = "ElemDecl/name"
@@ -578,9 +476,6 @@ class EEee:
 
 @dataclass
 class EEe:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "e_ee"
         namespace = "ElemDecl/name"
@@ -595,9 +490,6 @@ class EEe:
 
 @dataclass
 class F0F0:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "f0f0"
         namespace = "ElemDecl/name"
@@ -612,9 +504,6 @@ class F0F0:
 
 @dataclass
 class FFfF:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "fFfF"
         namespace = "ElemDecl/name"
@@ -629,9 +518,6 @@ class FFfF:
 
 @dataclass
 class FF:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "f_f_"
         namespace = "ElemDecl/name"
@@ -646,9 +532,6 @@ class FF:
 
 @dataclass
 class G000:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "g000"
         namespace = "ElemDecl/name"
@@ -663,9 +546,6 @@ class G000:
 
 @dataclass
 class GGgg:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "gGGG"
         namespace = "ElemDecl/name"
@@ -680,9 +560,6 @@ class GGgg:
 
 @dataclass
 class G:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "g___"
         namespace = "ElemDecl/name"
@@ -697,9 +574,6 @@ class G:
 
 @dataclass
 class P00P:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "p00p"
         namespace = "ElemDecl/name"
@@ -714,9 +588,6 @@ class P00P:
 
 @dataclass
 class PPpp:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "pPPp"
         namespace = "ElemDecl/name"
@@ -731,9 +602,6 @@ class PPpp:
 
 @dataclass
 class PP:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "p__p"
         namespace = "ElemDecl/name"
@@ -748,52 +616,6 @@ class PP:
 
 @dataclass
 class Root:
-    """
-    :ivar aaaa:
-    :ivar bbb_b:
-    :ivar cc_cc:
-    :ivar dd_dd:
-    :ivar e_eee:
-    :ivar f_ff_f:
-    :ivar p_ppp:
-    :ivar g_ggg:
-    :ivar hhhh:
-    :ivar iii_i:
-    :ivar jj_jj:
-    :ivar kk_kk:
-    :ivar llll:
-    :ivar mmm_m:
-    :ivar nnnn:
-    :ivar oooo:
-    :ivar bbb0:
-    :ivar cc0c:
-    :ivar dd00:
-    :ivar e0ee:
-    :ivar f0f0:
-    :ivar p00p:
-    :ivar g000:
-    :ivar bbb:
-    :ivar cc_c:
-    :ivar dd:
-    :ivar e_ee:
-    :ivar f_f:
-    :ivar p_p:
-    :ivar g:
-    :ivar h111:
-    :ivar i11_i:
-    :ivar j1_j1:
-    :ivar k1_kk:
-    :ivar ll11:
-    :ivar mm1_m:
-    :ivar nnn1:
-    :ivar h:
-    :ivar i_i:
-    :ivar j_j:
-    :ivar k_kk:
-    :ivar ll:
-    :ivar mm_m:
-    :ivar nnn:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/name"

@@ -6,9 +6,6 @@ __NAMESPACE__ = "foo"
 
 @dataclass
 class Nillable1:
-    """
-    :ivar x:
-    """
     class Meta:
         name = "nillable1"
         nillable = True
@@ -25,9 +22,6 @@ class Nillable1:
 
 @dataclass
 class Nillable2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "nillable2"
         nillable = True
@@ -44,9 +38,6 @@ class Nillable2:
 
 @dataclass
 class NonNillable:
-    """
-    :ivar x:
-    """
     class Meta:
         name = "non-nillable"
         namespace = "foo"
@@ -62,9 +53,6 @@ class NonNillable:
 
 @dataclass
 class Root:
-    """
-    :ivar non_nillable_or_nillable1_or_nillable2:
-    """
     class Meta:
         name = "root"
         namespace = "foo"

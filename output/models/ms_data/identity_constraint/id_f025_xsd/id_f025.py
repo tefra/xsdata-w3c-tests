@@ -4,10 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Tabletype:
-    """
-    :ivar r:
-    :ivar c:
-    """
     class Meta:
         name = "tabletype"
 
@@ -30,10 +26,6 @@ class Tabletype:
 
     @dataclass
     class C:
-        """
-        :ivar content:
-        :ivar val:
-        """
         content: List[object] = field(
             default_factory=list,
             metadata={
@@ -58,9 +50,6 @@ class T(Tabletype):
 
 @dataclass
 class Root:
-    """
-    :ivar t:
-    """
     class Meta:
         name = "root"
 

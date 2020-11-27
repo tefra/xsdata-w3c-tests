@@ -6,9 +6,6 @@ __NAMESPACE__ = "zot"
 
 @dataclass
 class A:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "a"
         namespace = "zot"
@@ -23,9 +20,6 @@ class A:
 
 @dataclass
 class B:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "b"
         namespace = "zot"
@@ -40,9 +34,6 @@ class B:
 
 @dataclass
 class C:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "c"
         namespace = "zot"

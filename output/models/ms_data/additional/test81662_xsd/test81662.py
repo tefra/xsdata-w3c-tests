@@ -4,10 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Ct1:
-    """
-    :ivar any_element:
-    :ivar element1:
-    """
     class Meta:
         name = "ct1"
 
@@ -30,10 +26,6 @@ class Ct1:
 
 @dataclass
 class Ct2:
-    """
-    :ivar element1:
-    :ivar any_element:
-    """
     class Meta:
         name = "ct2"
 
@@ -56,10 +48,6 @@ class Ct2:
 
 @dataclass
 class Ct3:
-    """
-    :ivar element1:
-    :ivar any_element:
-    """
     class Meta:
         name = "ct3"
 
@@ -83,10 +71,6 @@ class Ct3:
 
 @dataclass
 class Ct4:
-    """
-    :ivar any_element:
-    :ivar element1:
-    """
     class Meta:
         name = "ct4"
 
@@ -110,10 +94,6 @@ class Ct4:
 
 @dataclass
 class Ct5:
-    """
-    :ivar element1:
-    :ivar any_element:
-    """
     class Meta:
         name = "ct5"
 
@@ -137,10 +117,6 @@ class Ct5:
 
 @dataclass
 class Ct6:
-    """
-    :ivar element1:
-    :ivar any_element:
-    """
     class Meta:
         name = "ct6"
 
@@ -164,9 +140,6 @@ class Ct6:
 
 @dataclass
 class Element1:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "element1"
 
@@ -182,9 +155,6 @@ class Element1:
 
 @dataclass
 class Element2:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "element2"
 
@@ -200,9 +170,6 @@ class Element2:
 
 @dataclass
 class Element3:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "element3"
 
@@ -218,14 +185,6 @@ class Element3:
 
 @dataclass
 class Test:
-    """
-    :ivar e1:
-    :ivar e2:
-    :ivar e3:
-    :ivar e4:
-    :ivar e5:
-    :ivar e6:
-    """
     class Meta:
         name = "test"
 

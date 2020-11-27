@@ -6,14 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-anyURI-enumeration-2-NS"
 
 
 class NistschemaSvIvAtomicAnyUriEnumeration2Type(Enum):
-    """
-    :cvar FTP_FTP_RELATEDTOOL_AANDOFINVE_TICALOFEFF_RTHAVE_EC_EDU:
-    :cvar NEWS_TH_GOV:
-    :cvar HTTP_WWW_WITHOUTTHE_R_COMMENDATI_NSMEASUREME_GOV:
-    :cvar MAILTO_METHODS_ITTECH_LIBRARIESWITHBET_NET:
-    :cvar FTP_FOR_INVESTIG_ORG:
-    :cvar HTTP_WWW_SIGNATURESR_ACHT_ORG:
-    """
     FTP_FTP_RELATEDTOOL_AANDOFINVE_TICALOFEFF_RTHAVE_EC_EDU = "ftp://ftp.relatedtool.aandofinve.ticalofeff.rthaveEC.edu"
     NEWS_TH_GOV = "news://th.gov"
     HTTP_WWW_WITHOUTTHE_R_COMMENDATI_NSMEASUREME_GOV = "http://www.withouttheR.commendati.nsmeasureme.gov"
@@ -24,9 +16,6 @@ class NistschemaSvIvAtomicAnyUriEnumeration2Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicAnyUriEnumeration2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-anyURI-enumeration-2"
         namespace = "NISTSchema-SV-IV-atomic-anyURI-enumeration-2-NS"

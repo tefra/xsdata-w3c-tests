@@ -5,10 +5,6 @@ from typing import Optional
 
 @dataclass
 class AttRef:
-    """
-    :ivar att1:
-    :ivar att2:
-    """
     class Meta:
         name = "attRef"
 
@@ -26,11 +22,6 @@ class AttRef:
     )
 
     class Att1(Enum):
-        """
-        :cvar AK:
-        :cvar AL:
-        :cvar AR:
-        """
         AK = "AK"
         AL = "AL"
         AR = "AR"
@@ -38,9 +29,6 @@ class AttRef:
 
 @dataclass
 class Doc:
-    """
-    :ivar elem:
-    """
     class Meta:
         name = "doc"
 

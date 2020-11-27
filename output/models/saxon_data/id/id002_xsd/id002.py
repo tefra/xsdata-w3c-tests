@@ -4,11 +4,6 @@ from typing import Dict, List, Optional
 
 @dataclass
 class Para:
-    """
-    :ivar value:
-    :ivar id_one:
-    :ivar any_attributes:
-    """
     class Meta:
         name = "para"
 
@@ -33,9 +28,6 @@ class Para:
 
 @dataclass
 class Doc:
-    """
-    :ivar para:
-    """
     class Meta:
         name = "doc"
 

@@ -4,10 +4,6 @@ from typing import Optional
 
 @dataclass
 class Root:
-    """
-    :ivar e:
-    :ivar f:
-    """
     class Meta:
         name = "root"
         nillable = True

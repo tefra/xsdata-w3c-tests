@@ -6,10 +6,6 @@ __NAMESPACE__ = "http://www.publishing.org"
 
 @dataclass
 class B:
-    """
-    :ivar b:
-    :ivar id:
-    """
     class Meta:
         name = "b"
         namespace = "http://www.publishing.org"
@@ -30,10 +26,6 @@ class B:
 
 @dataclass
 class Root:
-    """
-    :ivar keys:
-    :ivar keyref:
-    """
     class Meta:
         name = "root"
         namespace = "http://www.publishing.org"
@@ -54,9 +46,6 @@ class Root:
 
     @dataclass
     class Keys:
-        """
-        :ivar any_element:
-        """
         any_element: List[object] = field(
             default_factory=list,
             metadata={

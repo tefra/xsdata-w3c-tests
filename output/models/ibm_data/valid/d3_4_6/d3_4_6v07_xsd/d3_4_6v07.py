@@ -6,16 +6,6 @@ __NAMESPACE__ = "a"
 
 @dataclass
 class Nametest:
-    """
-    :ivar ele:
-    :ivar value:
-    :ivar value_1:
-    :ivar value_9:
-    :ivar value_2:
-    :ivar a_a:
-    :ivar a_a_a:
-    :ivar a_ele:
-    """
     ele: List[str] = field(
         default_factory=list,
         metadata={

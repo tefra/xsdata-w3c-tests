@@ -6,17 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-string-enumeration-2-NS"
 
 
 class NistschemaSvIvListStringEnumeration2Type(Enum):
-    """
-    :cvar PROFILE_RELATED_PROJECTOR_THE_INFORMATION_COMPATIBILITY_SOFTWARE_PROJECT:
-    :cvar THIS_APPROPRIATE_DUE_NIST_ITL_COMMUNICATION_DEFINE:
-    :cvar UTILIZE_EC_TO_AS_XSL_FO_XML_ENSURE:
-    :cvar PORTABLE_FIRST_GENERATION_NEED_MARKET_THE_PROVIDES:
-    :cvar AN_THE_BE_TOOLS_FILES_THAT:
-    :cvar ON_THAT_NETWORKS_LACK_TO_THE:
-    :cvar ADVANCEMENT_DEFINING_MANY_STRUCTURED_S_AROUND_EMBEDDED:
-    :cvar TESTS_THE_DOCUMENTS_COMPLEX_THE_THESE:
-    :cvar INCLUDING_A_AND_PROCESS_XML_RELATED_PROJECT_SPECIFICATIONS_PICO_CELLULAR_THEREFORE_AS:
-    """
     PROFILE_RELATED_PROJECTOR_THE_INFORMATION_COMPATIBILITY_SOFTWARE_PROJECT = "profile related projector the Information compatibility software Project"
     THIS_APPROPRIATE_DUE_NIST_ITL_COMMUNICATION_DEFINE = "this appropriate due NIST/ITL communication define"
     UTILIZE_EC_TO_AS_XSL_FO_XML_ENSURE = "utilize EC to as XSL-FO XML ensure"
@@ -30,9 +19,6 @@ class NistschemaSvIvListStringEnumeration2Type(Enum):
 
 @dataclass
 class NistschemaSvIvListStringEnumeration2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-string-enumeration-2"
         namespace = "NISTSchema-SV-IV-list-string-enumeration-2-NS"

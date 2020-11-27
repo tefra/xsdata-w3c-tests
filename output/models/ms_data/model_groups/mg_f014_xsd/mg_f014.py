@@ -4,14 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Foo:
-    """
-    :ivar w3_org_1999_xhtml_element:
-    :ivar d:
-    :ivar b:
-    :ivar b2:
-    :ivar a:
-    :ivar c:
-    """
     class Meta:
         name = "foo"
 

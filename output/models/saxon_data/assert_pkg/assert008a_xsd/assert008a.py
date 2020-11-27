@@ -6,10 +6,6 @@ __NAMESPACE__ = "http://chess/ns/"
 
 @dataclass
 class T1:
-    """
-    :ivar white:
-    :ivar black:
-    """
     class Meta:
         name = "t1"
 
@@ -34,10 +30,6 @@ class T1:
 
 @dataclass
 class T2:
-    """
-    :ivar white:
-    :ivar black:
-    """
     class Meta:
         name = "t2"
 
@@ -62,9 +54,6 @@ class T2:
 
 @dataclass
 class T3(T2):
-    """
-    :ivar result:
-    """
     class Meta:
         name = "t3"
 

@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-base64Binary-minLength-2-NS"
 
 @dataclass
 class NistschemaSvIvListBase64BinaryMinLength2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-base64Binary-minLength-2"
         namespace = "NISTSchema-SV-IV-list-base64Binary-minLength-2-NS"

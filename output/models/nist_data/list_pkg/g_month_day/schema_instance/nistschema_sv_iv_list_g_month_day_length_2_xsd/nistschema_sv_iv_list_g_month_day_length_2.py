@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-gMonthDay-length-2-NS"
 
 @dataclass
 class NistschemaSvIvListGMonthDayLength2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-gMonthDay-length-2"
         namespace = "NISTSchema-SV-IV-list-gMonthDay-length-2-NS"

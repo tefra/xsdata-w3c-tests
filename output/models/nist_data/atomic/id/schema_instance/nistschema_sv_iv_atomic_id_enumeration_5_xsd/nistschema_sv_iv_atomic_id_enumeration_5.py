@@ -6,13 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-ID-enumeration-5-NS"
 
 
 class NistschemaSvIvAtomicIdEnumeration5Type(Enum):
-    """
-    :cvar BA:
-    :cvar CA:
-    :cvar EFOR:
-    :cvar HREGISTRY_AS_ON_WORK_U:
-    :cvar ITS_INCLUD:
-    """
     BA = "ba"
     CA = "ca"
     EFOR = "efor"
@@ -22,9 +15,6 @@ class NistschemaSvIvAtomicIdEnumeration5Type(Enum):
 
 @dataclass
 class Out:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "out"
         namespace = "NISTSchema-SV-IV-atomic-ID-enumeration-5-NS"
@@ -41,9 +31,6 @@ class Out:
 
 @dataclass
 class NistschemaSvIvAtomicIdEnumeration5:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-ID-enumeration-5"
         namespace = "NISTSchema-SV-IV-atomic-ID-enumeration-5-NS"

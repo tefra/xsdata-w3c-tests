@@ -6,11 +6,6 @@ __NAMESPACE__ = "attributeUses"
 
 @dataclass
 class A1:
-    """
-    :ivar value:
-    :ivar attr1:
-    :ivar attr2:
-    """
     class Meta:
         name = "A"
 

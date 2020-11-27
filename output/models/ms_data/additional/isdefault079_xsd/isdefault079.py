@@ -4,9 +4,6 @@ from typing import List
 
 @dataclass
 class RegistryValueModOpSetType:
-    """
-    :ivar regvalueop:
-    """
     regvalueop: List[str] = field(
         default_factory=list,
         metadata={

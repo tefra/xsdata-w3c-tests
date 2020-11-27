@@ -4,17 +4,6 @@ from typing import List
 
 @dataclass
 class Root:
-    """
-    :ivar token:
-    :ivar language:
-    :ivar name:
-    :ivar ncname:
-    :ivar id:
-    :ivar idref:
-    :ivar idrefs:
-    :ivar nmtoken:
-    :ivar nmtokens:
-    """
     class Meta:
         name = "root"
 

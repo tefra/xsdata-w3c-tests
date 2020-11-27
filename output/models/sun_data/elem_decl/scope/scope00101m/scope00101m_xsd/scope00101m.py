@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/scope"
 
 @dataclass
 class GlobalType:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "Global"
         namespace = "ElemDecl/scope"
@@ -25,10 +22,6 @@ class GlobalType:
 
 @dataclass
 class Root:
-    """
-    :ivar global_value:
-    :ivar local:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/scope"

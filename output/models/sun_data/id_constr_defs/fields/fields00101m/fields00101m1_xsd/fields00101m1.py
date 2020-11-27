@@ -6,9 +6,6 @@ __NAMESPACE__ = "IdConstrDefs/fields"
 
 @dataclass
 class People:
-    """
-    :ivar person:
-    """
     class Meta:
         name = "people"
         namespace = "IdConstrDefs/fields"
@@ -24,11 +21,6 @@ class People:
 
     @dataclass
     class Person:
-        """
-        :ivar value:
-        :ivar parent:
-        :ivar birthday:
-        """
         value: Optional[str] = field(
             default=None,
         )

@@ -6,9 +6,6 @@ __NAMESPACE__ = "tck_test"
 
 @dataclass
 class A:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "a"
         namespace = "tck_test"

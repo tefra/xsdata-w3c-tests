@@ -6,9 +6,6 @@ from xml.etree.ElementTree import QName
 
 @dataclass
 class FooType:
-    """
-    :ivar foo:
-    """
     class Meta:
         name = "fooType"
 
@@ -22,9 +19,6 @@ class FooType:
     )
 
     class Foo(Enum):
-        """
-        :cvar FOO_FO:
-        """
         FOO_FO = QName("{myNamespace}fo")
 
 

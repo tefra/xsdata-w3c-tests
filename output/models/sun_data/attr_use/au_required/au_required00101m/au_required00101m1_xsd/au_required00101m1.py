@@ -6,9 +6,6 @@ __NAMESPACE__ = "AttrUse/required"
 
 @dataclass
 class ElementWithAttr:
-    """
-    :ivar number:
-    """
     class Meta:
         name = "elementWithAttr"
         namespace = "AttrUse/required"
@@ -25,9 +22,6 @@ class ElementWithAttr:
 
 @dataclass
 class Root:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         namespace = "AttrUse/required"

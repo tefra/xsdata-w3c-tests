@@ -6,11 +6,6 @@ __NAMESPACE__ = "http://www.example.com/add"
 
 @dataclass
 class AddressType:
-    """
-    :ivar name:
-    :ivar street:
-    :ivar city:
-    """
     name: Optional[str] = field(
         default=None,
         metadata={

@@ -4,10 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Tabletype:
-    """
-    :ivar r:
-    :ivar c:
-    """
     class Meta:
         name = "tabletype"
 
@@ -37,9 +33,6 @@ class T(Tabletype):
 
 @dataclass
 class Root:
-    """
-    :ivar t:
-    """
     class Meta:
         name = "root"
 

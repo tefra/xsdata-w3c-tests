@@ -4,10 +4,6 @@ from typing import List, Optional, Type
 
 @dataclass
 class PseudoId:
-    """
-    :ivar value:
-    :ivar a:
-    """
     class Meta:
         name = "pseudoID"
 
@@ -24,10 +20,6 @@ class PseudoId:
 
 @dataclass
 class PseudoIdref:
-    """
-    :ivar value:
-    :ivar a:
-    """
     class Meta:
         name = "pseudoIDREF"
 
@@ -44,9 +36,6 @@ class PseudoIdref:
 
 @dataclass
 class Node:
-    """
-    :ivar node_or_id_or_idref:
-    """
     class Meta:
         name = "node"
 
@@ -74,9 +63,6 @@ class Node:
 
 @dataclass
 class Doc:
-    """
-    :ivar node:
-    """
     class Meta:
         name = "doc"
 

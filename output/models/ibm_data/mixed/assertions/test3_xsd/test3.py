@@ -4,10 +4,6 @@ from typing import Optional
 
 @dataclass
 class ParentType:
-    """
-    :ivar child:
-    :ivar grandchild:
-    """
     child: Optional["ParentType.Child"] = field(
         default=None,
         metadata={
@@ -25,10 +21,6 @@ class ParentType:
 
     @dataclass
     class Child:
-        """
-        :ivar name:
-        :ivar dob:
-        """
         name: Optional[str] = field(
             default=None,
             metadata={
@@ -44,10 +36,6 @@ class ParentType:
 
     @dataclass
     class Grandchild:
-        """
-        :ivar name:
-        :ivar dob:
-        """
         name: Optional[str] = field(
             default=None,
             metadata={
@@ -64,10 +52,6 @@ class ParentType:
 
 @dataclass
 class TimerType:
-    """
-    :ivar time:
-    :ivar iterations:
-    """
     time: Optional[int] = field(
         default=None,
         metadata={
@@ -84,10 +68,6 @@ class TimerType:
 
 @dataclass
 class Data:
-    """
-    :ivar timer:
-    :ivar parent:
-    """
     class Meta:
         name = "data"
 

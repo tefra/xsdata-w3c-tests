@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://foo.com"
 
 @dataclass
 class Root:
-    """
-    :ivar child1_or_child2:
-    """
     class Meta:
         name = "root"
         namespace = "http://foo.com"

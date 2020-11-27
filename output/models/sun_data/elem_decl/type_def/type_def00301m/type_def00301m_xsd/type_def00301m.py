@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/typeDef"
 
 @dataclass
 class Local:
-    """
-    :ivar value:
-    """
     class Meta:
         namespace = "ElemDecl/typeDef"
 
@@ -22,9 +19,6 @@ class Local:
 
 @dataclass
 class Root:
-    """
-    :ivar local:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/typeDef"

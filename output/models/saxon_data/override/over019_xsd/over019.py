@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://example.com/over019"
 
 @dataclass
 class Doc:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "doc"
         namespace = "http://example.com/over019"

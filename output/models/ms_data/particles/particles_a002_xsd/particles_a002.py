@@ -4,10 +4,6 @@ from typing import Optional
 
 @dataclass
 class Elem:
-    """
-    :ivar elem:
-    :ivar elem1:
-    """
     class Meta:
         name = "elem"
 
@@ -31,10 +27,6 @@ class Elem:
 
 @dataclass
 class Doc:
-    """
-    :ivar elem:
-    :ivar elem1:
-    """
     class Meta:
         name = "doc"
 

@@ -4,12 +4,6 @@ from typing import List, Optional, Union
 
 @dataclass
 class Triangular:
-    """
-    :ivar a:
-    :ivar b:
-    :ivar c:
-    :ivar kind:
-    """
     a: Optional[int] = field(
         default=None,
         metadata={
@@ -45,9 +39,6 @@ class Triangular:
 
 @dataclass
 class Quadrilateral(Triangular):
-    """
-    :ivar d:
-    """
     d: Optional[int] = field(
         default=None,
         metadata={
@@ -60,9 +51,6 @@ class Quadrilateral(Triangular):
 
 @dataclass
 class Shapes:
-    """
-    :ivar polygon:
-    """
     class Meta:
         name = "shapes"
 

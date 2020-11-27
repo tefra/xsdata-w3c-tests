@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-integer-fractionDigits-1-NS"
 
 @dataclass
 class NistschemaSvIvAtomicIntegerFractionDigits1:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-integer-fractionDigits-1"
         namespace = "NISTSchema-SV-IV-atomic-integer-fractionDigits-1-NS"

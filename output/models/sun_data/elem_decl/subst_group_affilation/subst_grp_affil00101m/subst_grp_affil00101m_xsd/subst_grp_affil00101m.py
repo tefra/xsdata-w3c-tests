@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/substGroupAffilation"
 
 @dataclass
 class PublicationType:
-    """
-    :ivar title:
-    """
     title: Optional[str] = field(
         default=None,
         metadata={
@@ -28,9 +25,6 @@ class Article(PublicationType):
 
 @dataclass
 class BookType(PublicationType):
-    """
-    :ivar author:
-    """
     author: List[str] = field(
         default_factory=list,
         metadata={
@@ -43,9 +37,6 @@ class BookType(PublicationType):
 
 @dataclass
 class MagazineType(PublicationType):
-    """
-    :ivar date:
-    """
     date: Optional[str] = field(
         default=None,
         metadata={
@@ -77,11 +68,6 @@ class Magazine(MagazineType):
 
 @dataclass
 class BookStore:
-    """
-    :ivar magazine:
-    :ivar book:
-    :ivar publication:
-    """
     class Meta:
         namespace = "ElemDecl/substGroupAffilation"
 

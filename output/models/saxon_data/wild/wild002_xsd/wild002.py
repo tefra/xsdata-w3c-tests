@@ -4,9 +4,6 @@ from typing import List
 
 @dataclass
 class Eden:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "eden"
 

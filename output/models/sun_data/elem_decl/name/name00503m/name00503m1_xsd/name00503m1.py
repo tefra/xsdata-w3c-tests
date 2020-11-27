@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/name"
 
 @dataclass
 class Global1:
-    """
-    :ivar value:
-    """
     class Meta:
         namespace = "ElemDecl/name"
 
@@ -22,9 +19,6 @@ class Global1:
 
 @dataclass
 class Global2:
-    """
-    :ivar value:
-    """
     class Meta:
         namespace = "ElemDecl/name"
 
@@ -38,9 +32,6 @@ class Global2:
 
 @dataclass
 class Root:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/name"

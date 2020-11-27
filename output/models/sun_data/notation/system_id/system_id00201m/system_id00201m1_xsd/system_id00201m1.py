@@ -6,9 +6,6 @@ __NAMESPACE__ = "systemId"
 
 @dataclass
 class A:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "a"
         namespace = "systemId"

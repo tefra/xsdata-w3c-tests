@@ -4,12 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class X:
-    """
-    :ivar a:
-    :ivar b:
-    :ivar c:
-    :ivar d:
-    """
     a: Optional["X.A"] = field(
         default=None,
         metadata={
@@ -41,10 +35,6 @@ class X:
 
     @dataclass
     class A:
-        """
-        :ivar a1:
-        :ivar a_count:
-        """
         a1: List[str] = field(
             default_factory=list,
             metadata={
@@ -64,12 +54,6 @@ class X:
 
 @dataclass
 class Y:
-    """
-    :ivar a:
-    :ivar b:
-    :ivar c:
-    :ivar d:
-    """
     a: Optional["Y.A"] = field(
         default=None,
         metadata={
@@ -101,10 +85,6 @@ class Y:
 
     @dataclass
     class A:
-        """
-        :ivar a1:
-        :ivar a_count:
-        """
         a1: List[str] = field(
             default_factory=list,
             metadata={
@@ -124,10 +104,6 @@ class Y:
 
 @dataclass
 class Test:
-    """
-    :ivar x:
-    :ivar y:
-    """
     class Meta:
         name = "test"
 

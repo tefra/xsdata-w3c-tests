@@ -6,18 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-unsignedByte-enumeration-1-NS"
 
 
 class NistschemaSvIvAtomicUnsignedByteEnumeration1Type(Enum):
-    """
-    :cvar VALUE_21:
-    :cvar VALUE_255:
-    :cvar VALUE_57:
-    :cvar VALUE_70:
-    :cvar VALUE_6:
-    :cvar VALUE_45:
-    :cvar VALUE_8:
-    :cvar VALUE_90:
-    :cvar VALUE_85:
-    :cvar VALUE_14:
-    """
     VALUE_21 = 21
     VALUE_255 = 255
     VALUE_57 = 57
@@ -32,9 +20,6 @@ class NistschemaSvIvAtomicUnsignedByteEnumeration1Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicUnsignedByteEnumeration1:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-unsignedByte-enumeration-1"
         namespace = "NISTSchema-SV-IV-atomic-unsignedByte-enumeration-1-NS"

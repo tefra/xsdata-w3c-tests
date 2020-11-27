@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/name"
 
 @dataclass
 class Aa111A2Aa:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "aa111a2Aa"
         namespace = "ElemDecl/name"
@@ -23,9 +20,6 @@ class Aa111A2Aa:
 
 @dataclass
 class Aa22B3C:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "aa22B3c"
         namespace = "ElemDecl/name"
@@ -40,9 +34,6 @@ class Aa22B3C:
 
 @dataclass
 class Aa34:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "aa3-4_"
         namespace = "ElemDecl/name"
@@ -57,11 +48,6 @@ class Aa34:
 
 @dataclass
 class Root:
-    """
-    :ivar aa111a2_aa:
-    :ivar aa22_b3c:
-    :ivar aa3_4:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/name"

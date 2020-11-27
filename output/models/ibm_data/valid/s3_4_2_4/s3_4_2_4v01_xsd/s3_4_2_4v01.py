@@ -6,11 +6,6 @@ __NAMESPACE__ = "http://xstest-tns/schema11_S3_4_2_4"
 
 @dataclass
 class Root:
-    """
-    :ivar default_attr:
-    :ivar e1:
-    :ivar e2:
-    """
     class Meta:
         name = "root"
         namespace = "http://xstest-tns/schema11_S3_4_2_4"
@@ -41,9 +36,6 @@ class Root:
 
     @dataclass
     class E1:
-        """
-        :ivar default_attr:
-        """
         default_attr: Optional[bool] = field(
             default=None,
             metadata={
@@ -56,9 +48,6 @@ class Root:
 
     @dataclass
     class E2:
-        """
-        :ivar default_attr:
-        """
         default_attr: Optional[bool] = field(
             default=None,
             metadata={

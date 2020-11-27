@@ -6,20 +6,12 @@ __NAMESPACE__ = "http://foo.com"
 
 
 class SimpleType(Enum):
-    """
-    :cvar YES:
-    :cvar NO:
-    """
     YES = "yes"
     NO = "no"
 
 
 @dataclass
 class ComplexType:
-    """
-    :ivar root:
-    :ivar att:
-    """
     class Meta:
         name = "complexType"
 

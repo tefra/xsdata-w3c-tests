@@ -6,10 +6,6 @@ __NAMESPACE__ = "http://importedXSD"
 
 @dataclass
 class B:
-    """
-    :ivar any_element:
-    :ivar e2:
-    """
     any_element: Optional[object] = field(
         default=None,
         metadata={

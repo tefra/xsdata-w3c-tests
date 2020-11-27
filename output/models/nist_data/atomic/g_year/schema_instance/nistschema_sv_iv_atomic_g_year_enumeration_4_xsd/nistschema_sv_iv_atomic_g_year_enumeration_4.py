@@ -6,18 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-gYear-enumeration-4-NS"
 
 
 class NistschemaSvIvAtomicGYearEnumeration4Type(Enum):
-    """
-    :cvar VALUE_1978:
-    :cvar VALUE_2027:
-    :cvar VALUE_2007:
-    :cvar VALUE_1970:
-    :cvar VALUE_2021:
-    :cvar VALUE_2016:
-    :cvar VALUE_2014:
-    :cvar VALUE_2015:
-    :cvar VALUE_2023:
-    :cvar VALUE_2002:
-    """
     VALUE_1978 = "1978"
     VALUE_2027 = "2027"
     VALUE_2007 = "2007"
@@ -32,9 +20,6 @@ class NistschemaSvIvAtomicGYearEnumeration4Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicGYearEnumeration4:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-gYear-enumeration-4"
         namespace = "NISTSchema-SV-IV-atomic-gYear-enumeration-4-NS"

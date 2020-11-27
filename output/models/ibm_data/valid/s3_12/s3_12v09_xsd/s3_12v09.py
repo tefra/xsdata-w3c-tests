@@ -6,21 +6,12 @@ __NAMESPACE__ = "tns"
 
 
 class CountryType(Enum):
-    """
-    :cvar US:
-    :cvar CAN:
-    """
     US = "us"
     CAN = "can"
 
 
 @dataclass
 class AddressType:
-    """
-    :ivar any_element:
-    :ivar type:
-    :ivar country:
-    """
     class Meta:
         name = "addressType"
 
@@ -46,22 +37,12 @@ class AddressType:
     )
 
     class Type(Enum):
-        """
-        :cvar BILLING:
-        :cvar SHIPPING:
-        """
         BILLING = "billing"
         SHIPPING = "shipping"
 
 
 @dataclass
 class CanaddressType(AddressType):
-    """
-    :ivar content:
-    :ivar province:
-    :ivar currency:
-    :ivar postal:
-    """
     class Meta:
         name = "canaddressType"
 
@@ -102,12 +83,6 @@ class CanaddressType(AddressType):
 
 @dataclass
 class UsaddressType(AddressType):
-    """
-    :ivar content:
-    :ivar state:
-    :ivar currency:
-    :ivar zip:
-    """
     class Meta:
         name = "usaddressType"
 
@@ -147,9 +122,6 @@ class UsaddressType(AddressType):
 
 @dataclass
 class ItemType:
-    """
-    :ivar address:
-    """
     class Meta:
         name = "itemType"
 
@@ -165,9 +137,6 @@ class ItemType:
 
 @dataclass
 class Invoice:
-    """
-    :ivar item:
-    """
     class Meta:
         name = "invoice"
         namespace = "tns"

@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-hexBinary-pattern-4-NS"
 
 @dataclass
 class NistschemaSvIvListHexBinaryPattern4:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-hexBinary-pattern-4"
         namespace = "NISTSchema-SV-IV-list-hexBinary-pattern-4-NS"

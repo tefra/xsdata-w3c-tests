@@ -11,9 +11,6 @@ class A:
 
 @dataclass
 class B1(A):
-    """
-    :ivar q:
-    """
     class Meta:
         name = "B"
 

@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/abstract"
 
 @dataclass
 class Root:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/abstract"

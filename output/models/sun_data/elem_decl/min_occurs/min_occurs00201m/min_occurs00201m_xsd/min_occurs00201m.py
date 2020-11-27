@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/minOccurs"
 
 @dataclass
 class Local:
-    """
-    :ivar any_element:
-    """
     class Meta:
         namespace = "ElemDecl/minOccurs"
 
@@ -24,9 +21,6 @@ class Local:
 
 @dataclass
 class Root:
-    """
-    :ivar local:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/minOccurs"

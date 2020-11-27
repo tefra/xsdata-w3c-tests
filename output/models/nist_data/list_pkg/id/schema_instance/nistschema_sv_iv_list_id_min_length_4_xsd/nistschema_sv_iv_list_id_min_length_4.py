@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-ID-minLength-4-NS"
 
 @dataclass
 class NistschemaSvIvListIdMinLength4:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-ID-minLength-4"
         namespace = "NISTSchema-SV-IV-list-ID-minLength-4-NS"
@@ -25,9 +22,6 @@ class NistschemaSvIvListIdMinLength4:
 
 @dataclass
 class Out:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "out"
         namespace = "NISTSchema-SV-IV-list-ID-minLength-4-NS"

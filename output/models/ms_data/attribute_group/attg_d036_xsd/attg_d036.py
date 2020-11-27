@@ -6,11 +6,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class AttRef:
-    """
-    :ivar att:
-    :ivar att1:
-    :ivar att2:
-    """
     class Meta:
         name = "attRef"
 
@@ -37,9 +32,6 @@ class AttRef:
 
 @dataclass
 class Doc:
-    """
-    :ivar elem:
-    """
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"

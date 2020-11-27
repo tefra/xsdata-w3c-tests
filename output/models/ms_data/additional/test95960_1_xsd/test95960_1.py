@@ -3,10 +3,6 @@ from dataclasses import dataclass, field
 
 @dataclass
 class Employees:
-    """
-    :ivar employee:
-    :ivar dept:
-    """
     employee: int = field(
         default=1,
         metadata={

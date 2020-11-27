@@ -4,12 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class B:
-    """
-    :ivar a:
-    :ivar b:
-    :ivar c:
-    :ivar d:
-    """
     class Meta:
         name = "b"
 
@@ -46,11 +40,6 @@ class B:
 
 @dataclass
 class E(B):
-    """
-    :ivar e:
-    :ivar f:
-    :ivar g:
-    """
     class Meta:
         name = "e"
 

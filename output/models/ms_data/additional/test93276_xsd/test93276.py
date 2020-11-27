@@ -7,9 +7,6 @@ __NAMESPACE__ = "foo"
 
 @dataclass
 class T0020V1Type:
-    """
-    :ivar e:
-    """
     e: Optional[GlobalAddressTypeValues] = field(
         default=None,
         metadata={

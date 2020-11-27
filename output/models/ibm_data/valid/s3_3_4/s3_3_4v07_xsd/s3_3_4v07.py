@@ -4,9 +4,6 @@ from typing import Optional
 
 @dataclass
 class Ids:
-    """
-    :ivar id1:
-    """
     class Meta:
         name = "ids"
 
@@ -21,9 +18,6 @@ class Ids:
 
 @dataclass
 class Root:
-    """
-    :ivar a:
-    """
     class Meta:
         name = "root"
 

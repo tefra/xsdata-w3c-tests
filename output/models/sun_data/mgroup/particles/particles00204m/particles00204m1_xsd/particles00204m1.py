@@ -6,11 +6,6 @@ __NAMESPACE__ = "particles"
 
 @dataclass
 class A:
-    """
-    :ivar date:
-    :ivar marked:
-    :ivar num:
-    """
     class Meta:
         name = "a"
         namespace = "particles"

@@ -4,18 +4,11 @@ from typing import Optional
 
 
 class Restrict(Enum):
-    """
-    :cvar ADS:
-    """
     ADS = "ads"
 
 
 @dataclass
 class Root:
-    """
-    :ivar a:
-    :ivar b:
-    """
     class Meta:
         name = "root"
 

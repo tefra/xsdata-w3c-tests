@@ -4,10 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Ctype:
-    """
-    :ivar content:
-    :ivar val:
-    """
     class Meta:
         name = "ctype"
 
@@ -29,10 +25,6 @@ class Ctype:
 
 @dataclass
 class Ctype2(Ctype):
-    """
-    :ivar content:
-    :ivar val2:
-    """
     class Meta:
         name = "ctype2"
 
@@ -54,10 +46,6 @@ class Ctype2(Ctype):
 
 @dataclass
 class Tabletype:
-    """
-    :ivar c:
-    :ivar r:
-    """
     class Meta:
         name = "tabletype"
 
@@ -87,9 +75,6 @@ class T(Tabletype):
 
 @dataclass
 class Root:
-    """
-    :ivar t:
-    """
     class Meta:
         name = "root"
 

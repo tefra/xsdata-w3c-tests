@@ -6,11 +6,6 @@ __NAMESPACE__ = "a"
 
 @dataclass
 class DeptType:
-    """
-    :ivar deptno:
-    :ivar dname:
-    :ivar loc:
-    """
     deptno: Optional[int] = field(
         default=None,
         metadata={
@@ -42,12 +37,6 @@ class DeptType:
 
 @dataclass
 class EmployeeType:
-    """
-    :ivar empno:
-    :ivar ename:
-    :ivar sal:
-    :ivar deptno:
-    """
     empno: Optional[int] = field(
         default=None,
         metadata={
@@ -88,10 +77,6 @@ class EmployeeType:
 
 @dataclass
 class Root:
-    """
-    :ivar dept:
-    :ivar employee:
-    """
     class Meta:
         name = "root"
         namespace = "a"

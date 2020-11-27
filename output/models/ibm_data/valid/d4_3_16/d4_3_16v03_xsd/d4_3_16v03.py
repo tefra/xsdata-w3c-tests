@@ -6,12 +6,6 @@ __NAMESPACE__ = "http://xstest-tns/schema11_F4_3_16_v03"
 
 @dataclass
 class DTimeRoot:
-    """
-    :ivar el_dtime_et:
-    :ivar el_dtime_list_required:
-    :ivar el_dtime_list_prohibited:
-    :ivar el_dtime_list_optional:
-    """
     class Meta:
         name = "dTimeRoot"
 
@@ -62,9 +56,6 @@ class DTimeRoot:
 
 @dataclass
 class ElDtimeListOptional:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "elDTimeListOptional"
         namespace = "http://xstest-tns/schema11_F4_3_16_v03"
@@ -80,9 +71,6 @@ class ElDtimeListOptional:
 
 @dataclass
 class ElDtimeListProhibited:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "elDTimeListProhibited"
         namespace = "http://xstest-tns/schema11_F4_3_16_v03"
@@ -98,9 +86,6 @@ class ElDtimeListProhibited:
 
 @dataclass
 class ElDtimeListRequired:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "elDTimeListRequired"
         namespace = "http://xstest-tns/schema11_F4_3_16_v03"

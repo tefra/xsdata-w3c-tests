@@ -7,16 +7,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
 
 
 class NistschemaSvIvAtomicQnameEnumeration3Type(Enum):
-    """
-    :cvar KDOMAINS_AS_AUTOMATIC_ACADEMIA_WORK_ENSURE_TES:
-    :cvar LFINE_D_VCOMPUTING_OF_AS:
-    :cvar LANGUAGES_AND_TRANSFORMING_TECHNOLOGIES_IS_IMPA:
-    :cvar XSTANDARD_FILE_USE_EA:
-    :cvar LAN_IAND_MUST_EFFECTI:
-    :cvar TON_AND_ITS_T:
-    :cvar YINVOLVED_E_EFFOR:
-    :cvar Q_TTHE_WITH:
-    """
     KDOMAINS_AS_AUTOMATIC_ACADEMIA_WORK_ENSURE_TES = QName("{NISTSchema-SV-IV-atomic-QName-enumeration-3-NS}kdomains-as.automatic-academia_work-ensure_tes")
     LFINE_D_VCOMPUTING_OF_AS = QName("{http://www.nist.gov/xsdNS}vcomputing.of-as_")
     LANGUAGES_AND_TRANSFORMING_TECHNOLOGIES_IS_IMPA = QName("{NISTSchema-SV-IV-atomic-QName-enumeration-3-NS}_languages-and-transforming.technologies.is_impa")
@@ -29,9 +19,6 @@ class NistschemaSvIvAtomicQnameEnumeration3Type(Enum):
 
 @dataclass
 class TypeLanguagesAndTransformingTechnologiesIsImpa:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "_languages-and-transforming.technologies.is_impa"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
@@ -46,9 +33,6 @@ class TypeLanguagesAndTransformingTechnologiesIsImpa:
 
 @dataclass
 class KdomainsAsAutomaticAcademiaWorkEnsureTes:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "kdomains-as.automatic-academia_work-ensure_tes"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
@@ -63,9 +47,6 @@ class KdomainsAsAutomaticAcademiaWorkEnsureTes:
 
 @dataclass
 class TonAndItsT:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "ton.and_its.t"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
@@ -80,9 +61,6 @@ class TonAndItsT:
 
 @dataclass
 class XstandardFileUseEa:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "xstandard-file_use-ea"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
@@ -97,9 +75,6 @@ class XstandardFileUseEa:
 
 @dataclass
 class YinvolvedEEffor:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "yinvolved.e-effor"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"
@@ -114,9 +89,6 @@ class YinvolvedEEffor:
 
 @dataclass
 class NistschemaSvIvAtomicQnameEnumeration3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-QName-enumeration-3"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"

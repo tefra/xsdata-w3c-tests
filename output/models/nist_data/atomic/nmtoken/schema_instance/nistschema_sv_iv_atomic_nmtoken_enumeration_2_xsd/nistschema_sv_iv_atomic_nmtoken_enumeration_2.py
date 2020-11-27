@@ -6,15 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-NMTOKEN-enumeration-2-NS"
 
 
 class NistschemaSvIvAtomicNmtokenEnumeration2Type(Enum):
-    """
-    :cvar LED_BACK_MUST_ITL_APPLICATIONS_EXCHA:
-    :cvar AND_SOFTWARE_HELP_BE_SHIFT_OFFER_DOM_WORKING_AUTOMATE_CO:
-    :cvar COST_ON_AND_AVAILABLE_WILL_TO_MUST_TUNE_CREATI:
-    :cvar AS_TEST_MARKUP_SUPPLY_TRANSACTIONS_FOR_STANDARDS_FOR_WITH_SIG:
-    :cvar OUTFITTING_DONAT:
-    :cvar AND_TO_SIMULATION_PRO:
-    :cvar WORKING_SOLVE:
-    """
     LED_BACK_MUST_ITL_APPLICATIONS_EXCHA = "led:back:must.ITL_applications:excha"
     AND_SOFTWARE_HELP_BE_SHIFT_OFFER_DOM_WORKING_AUTOMATE_CO = "and-software.help.be:shift:offer.DOM.working.automate:Co"
     COST_ON_AND_AVAILABLE_WILL_TO_MUST_TUNE_CREATI = "cost:on:and_available-will.to:must.tune:creati"
@@ -26,9 +17,6 @@ class NistschemaSvIvAtomicNmtokenEnumeration2Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicNmtokenEnumeration2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-NMTOKEN-enumeration-2"
         namespace = "NISTSchema-SV-IV-atomic-NMTOKEN-enumeration-2-NS"

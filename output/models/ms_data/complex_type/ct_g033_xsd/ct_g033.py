@@ -4,13 +4,6 @@ from typing import Dict, Optional
 
 @dataclass
 class FooType:
-    """
-    :ivar my_element1:
-    :ivar my_element2:
-    :ivar my_element3:
-    :ivar any_attributes:
-    :ivar my_attr:
-    """
     class Meta:
         name = "fooType"
 
@@ -56,12 +49,6 @@ class FooType:
 
 @dataclass
 class MyType:
-    """
-    :ivar my_element1:
-    :ivar my_element2:
-    :ivar my_element3:
-    :ivar any_attributes:
-    """
     class Meta:
         name = "myType"
 

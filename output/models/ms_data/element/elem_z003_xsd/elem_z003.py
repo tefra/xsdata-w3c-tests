@@ -97,15 +97,6 @@ class G(FType):
 
 @dataclass
 class Container1:
-    """
-    :ivar g:
-    :ivar f:
-    :ivar e:
-    :ivar d:
-    :ivar c:
-    :ivar b:
-    :ivar a:
-    """
     class Meta:
         name = "CONTAINER"
 

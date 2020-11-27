@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-gYear-pattern-3-NS"
 
 @dataclass
 class NistschemaSvIvListGYearPattern3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-gYear-pattern-3"
         namespace = "NISTSchema-SV-IV-list-gYear-pattern-3-NS"

@@ -6,10 +6,6 @@ __NAMESPACE__ = "attrWildcard"
 
 @dataclass
 class A1:
-    """
-    :ivar b:
-    :ivar any_attributes:
-    """
     class Meta:
         name = "A"
 

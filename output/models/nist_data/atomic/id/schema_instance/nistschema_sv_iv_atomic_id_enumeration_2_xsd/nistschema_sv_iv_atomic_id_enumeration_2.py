@@ -6,16 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-ID-enumeration-2-NS"
 
 
 class NistschemaSvIvAtomicIdEnumeration2Type(Enum):
-    """
-    :cvar JREQUESTING_METHODS_IN:
-    :cvar PDATA_TECHNOLOGIES_WILL_THAT_THEIR_AT_ME:
-    :cvar TRESULT_A_OF_METHODS_AS_OF_NETWORKS_AND_SPECIFICA:
-    :cvar MINDUSTRY_DESIGNED_MATCH_AND_INFLUENCE_TO_THOSE_WILL:
-    :cvar JMETHODS_WIDE_UTILIZE_KNOWN_DATA_ORGANIZATIO:
-    :cvar OF_OF_A_CONFERENCES_PROMINENT_ORGANIZATIONS_AS_RECENT_TE:
-    :cvar SVISIBLY_REGISTRY_IS_SUPPORT_FOR_WILL_INDUSTRY_IN_PROVIDE_AND:
-    :cvar LRIGOROUS_BE_PR:
-    """
     JREQUESTING_METHODS_IN = "jrequesting-methods-in"
     PDATA_TECHNOLOGIES_WILL_THAT_THEIR_AT_ME = "pdata_technologies-will-that_their-at_me"
     TRESULT_A_OF_METHODS_AS_OF_NETWORKS_AND_SPECIFICA = "tresult-a-of-methods-as.of-networks_and.specifica"
@@ -28,9 +18,6 @@ class NistschemaSvIvAtomicIdEnumeration2Type(Enum):
 
 @dataclass
 class Out:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "out"
         namespace = "NISTSchema-SV-IV-atomic-ID-enumeration-2-NS"
@@ -47,9 +34,6 @@ class Out:
 
 @dataclass
 class NistschemaSvIvAtomicIdEnumeration2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-ID-enumeration-2"
         namespace = "NISTSchema-SV-IV-atomic-ID-enumeration-2-NS"

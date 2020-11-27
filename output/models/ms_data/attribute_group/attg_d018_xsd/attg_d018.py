@@ -4,10 +4,6 @@ from typing import Dict, Optional
 
 @dataclass
 class AttgRef:
-    """
-    :ivar att1:
-    :ivar any_attributes:
-    """
     class Meta:
         name = "attgRef"
 
@@ -28,9 +24,6 @@ class AttgRef:
 
 @dataclass
 class Doc:
-    """
-    :ivar elem:
-    """
     class Meta:
         name = "doc"
 

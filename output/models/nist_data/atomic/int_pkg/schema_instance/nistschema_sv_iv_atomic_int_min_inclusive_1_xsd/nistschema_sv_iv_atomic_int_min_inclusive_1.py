@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-int-minInclusive-1-NS"
 
 @dataclass
 class NistschemaSvIvAtomicIntMinInclusive1:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-int-minInclusive-1"
         namespace = "NISTSchema-SV-IV-atomic-int-minInclusive-1-NS"

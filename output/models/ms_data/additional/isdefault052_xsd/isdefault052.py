@@ -4,9 +4,6 @@ from typing import Optional
 
 @dataclass
 class Root:
-    """
-    :ivar elem:
-    """
     class Meta:
         name = "root"
 
@@ -21,11 +18,6 @@ class Root:
 
     @dataclass
     class Elem:
-        """
-        :ivar attr1:
-        :ivar attr2:
-        :ivar attr3:
-        """
         attr1: int = field(
             init=False,
             default=123,

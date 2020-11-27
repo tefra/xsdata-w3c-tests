@@ -4,9 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Bad:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "bad"
 
@@ -21,9 +18,6 @@ class Bad:
 
 @dataclass
 class Good:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "good"
 

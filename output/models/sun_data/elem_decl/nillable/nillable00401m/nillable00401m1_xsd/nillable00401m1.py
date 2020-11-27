@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/nillable"
 
 @dataclass
 class GlobalType:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "Global"
         nillable = True
@@ -26,9 +23,6 @@ class GlobalType:
 
 @dataclass
 class Root:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/nillable"

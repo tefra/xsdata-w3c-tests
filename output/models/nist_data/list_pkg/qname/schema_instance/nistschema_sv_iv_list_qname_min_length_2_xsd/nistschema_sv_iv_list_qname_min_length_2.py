@@ -7,9 +7,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-QName-minLength-2-NS"
 
 @dataclass
 class NistschemaSvIvListQnameMinLength2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-QName-minLength-2"
         namespace = "NISTSchema-SV-IV-list-QName-minLength-2-NS"

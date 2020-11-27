@@ -4,13 +4,6 @@ from typing import List, Optional
 
 
 class ListType(Enum):
-    """
-    :cvar VALUE_1:
-    :cvar VALUE_2:
-    :cvar VALUE_3:
-    :cvar VALUE_4:
-    :cvar VALUE_5:
-    """
     VALUE_1 = "1"
     VALUE_2 = "2"
     VALUE_3 = "3"
@@ -20,9 +13,6 @@ class ListType(Enum):
 
 @dataclass
 class AttRef:
-    """
-    :ivar att1:
-    """
     class Meta:
         name = "attRef"
 
@@ -37,9 +27,6 @@ class AttRef:
 
 @dataclass
 class Doc:
-    """
-    :ivar elem:
-    """
     class Meta:
         name = "doc"
 

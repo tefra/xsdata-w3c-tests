@@ -5,9 +5,6 @@ from typing import Optional
 
 @dataclass
 class FooType:
-    """
-    :ivar foo:
-    """
     class Meta:
         name = "fooType"
 
@@ -21,11 +18,6 @@ class FooType:
     )
 
     class Foo(Enum):
-        """
-        :cvar FOO:
-        :cvar HTTP_WWW_MICROSOFT_COM:
-        :cvar MAILTO_DAVEBROW_MICROSOFT_COM:
-        """
         FOO = "foo"
         HTTP_WWW_MICROSOFT_COM = "http://www.microsoft.com"
         MAILTO_DAVEBROW_MICROSOFT_COM = "mailto:davebrow@microsoft.com"

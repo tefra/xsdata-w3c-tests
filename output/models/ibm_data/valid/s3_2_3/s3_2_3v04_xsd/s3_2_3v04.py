@@ -6,10 +6,6 @@ __NAMESPACE__ = "http://www.schemaTest.org/schema11_S3_2_3"
 
 @dataclass
 class Type1:
-    """
-    :ivar element1:
-    :ivar element2:
-    """
     class Meta:
         name = "type1"
 

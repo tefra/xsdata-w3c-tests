@@ -6,52 +6,6 @@ __NAMESPACE__ = "SType/ST_facets"
 
 
 class S(Enum):
-    """
-    :cvar AAAA:
-    :cvar BBB_B:
-    :cvar CC_CC:
-    :cvar DD_DD:
-    :cvar E_EEE:
-    :cvar F_FF_F:
-    :cvar P_PPP:
-    :cvar G_GGG:
-    :cvar HHHH:
-    :cvar III_I:
-    :cvar JJ_JJ:
-    :cvar KK_KK:
-    :cvar LLLL:
-    :cvar MMM_M:
-    :cvar NNNN:
-    :cvar OOOO:
-    :cvar BBB0:
-    :cvar CC0C:
-    :cvar DD00:
-    :cvar E0EE:
-    :cvar F0F0:
-    :cvar P00P:
-    :cvar G000:
-    :cvar BBB:
-    :cvar CC_C:
-    :cvar DD:
-    :cvar E_EE:
-    :cvar F_F:
-    :cvar P_P:
-    :cvar G:
-    :cvar H111:
-    :cvar I11_I:
-    :cvar J1_J1:
-    :cvar K1_KK:
-    :cvar LL11:
-    :cvar MM1_M:
-    :cvar NNN1:
-    :cvar H:
-    :cvar I_I:
-    :cvar J_J:
-    :cvar K_KK:
-    :cvar LL:
-    :cvar MM_M:
-    :cvar NNN:
-    """
     AAAA = "aaaa"
     BBB_B = "bbbB"
     CC_CC = "ccCc"
@@ -100,9 +54,6 @@ class S(Enum):
 
 @dataclass
 class Root:
-    """
-    :ivar val:
-    """
     class Meta:
         name = "root"
         namespace = "SType/ST_facets"

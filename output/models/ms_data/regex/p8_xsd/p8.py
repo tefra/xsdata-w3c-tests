@@ -4,9 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Regex:
-    """
-    :ivar att:
-    """
     att: Optional[int] = field(
         default=None,
         metadata={
@@ -20,9 +17,6 @@ class Regex:
 
 @dataclass
 class Doc:
-    """
-    :ivar elem:
-    """
     class Meta:
         name = "doc"
 

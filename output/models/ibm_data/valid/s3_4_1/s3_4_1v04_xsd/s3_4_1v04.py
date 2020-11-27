@@ -6,11 +6,6 @@ __NAMESPACE__ = "a"
 
 @dataclass
 class C:
-    """
-    :ivar x:
-    :ivar y:
-    :ivar any_element:
-    """
     class Meta:
         name = "c"
 
@@ -42,10 +37,6 @@ class C:
 
 @dataclass
 class Root:
-    """
-    :ivar p:
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         namespace = "a"

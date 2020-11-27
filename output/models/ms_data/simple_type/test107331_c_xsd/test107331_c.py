@@ -4,12 +4,6 @@ from typing import List, Optional
 
 
 class A1(Enum):
-    """
-    :cvar VALUE_1:
-    :cvar VALUE_2:
-    :cvar VALUE_3:
-    :cvar VALUE_4:
-    """
     VALUE_1 = "1"
     VALUE_2 = "2"
     VALUE_3 = "3"
@@ -18,9 +12,6 @@ class A1(Enum):
 
 @dataclass
 class A2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "A"
 
@@ -35,11 +26,6 @@ class A2:
 
 
 class B1(Enum):
-    """
-    :cvar A:
-    :cvar B:
-    :cvar C123456789:
-    """
     A = "a"
     B = "b"
     C123456789 = "c123456789"
@@ -47,9 +33,6 @@ class B1(Enum):
 
 @dataclass
 class B2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "B"
 
@@ -64,12 +47,6 @@ class B2:
 
 
 class RA(Enum):
-    """
-    :cvar VALUE_1:
-    :cvar VALUE_2:
-    :cvar VALUE_3:
-    :cvar VALUE_4:
-    """
     VALUE_1 = "1"
     VALUE_2 = "2"
     VALUE_3 = "3"
@@ -77,12 +54,6 @@ class RA(Enum):
 
 
 class UnionA(Enum):
-    """
-    :cvar VALUE_1:
-    :cvar VALUE_2:
-    :cvar VALUE_3:
-    :cvar VALUE_4:
-    """
     VALUE_1 = "1"
     VALUE_2 = "2"
     VALUE_3 = "3"
@@ -90,15 +61,6 @@ class UnionA(Enum):
 
 
 class UnionAb(Enum):
-    """
-    :cvar VALUE_1:
-    :cvar VALUE_2:
-    :cvar VALUE_3:
-    :cvar VALUE_4:
-    :cvar A:
-    :cvar B:
-    :cvar C123456789:
-    """
     VALUE_1 = "1"
     VALUE_2 = "2"
     VALUE_3 = "3"
@@ -110,9 +72,6 @@ class UnionAb(Enum):
 
 @dataclass
 class Item:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "item"
 
@@ -126,9 +85,6 @@ class Item:
 
 @dataclass
 class A3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "a"
 
@@ -142,9 +98,6 @@ class A3:
 
 @dataclass
 class B3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "b"
 
@@ -158,9 +111,6 @@ class B3:
 
 @dataclass
 class La:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "la"
 
@@ -175,9 +125,6 @@ class La:
 
 @dataclass
 class Lab:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "lab"
 
@@ -192,9 +139,6 @@ class Lab:
 
 @dataclass
 class Ra:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "ra"
 
@@ -208,18 +152,6 @@ class Ra:
 
 @dataclass
 class Root:
-    """
-    :ivar ra:
-    :ivar lab:
-    :ivar la:
-    :ivar uab:
-    :ivar ua:
-    :ivar b_element:
-    :ivar a_element:
-    :ivar b:
-    :ivar a:
-    :ivar item:
-    """
     class Meta:
         name = "root"
 
@@ -303,9 +235,6 @@ class Root:
 
 @dataclass
 class Ua:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "ua"
 
@@ -319,9 +248,6 @@ class Ua:
 
 @dataclass
 class Uab:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "uab"
 

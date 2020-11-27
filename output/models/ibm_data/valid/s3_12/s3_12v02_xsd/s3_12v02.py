@@ -6,10 +6,6 @@ __NAMESPACE__ = "http://xstest-tns"
 
 @dataclass
 class TitleType:
-    """
-    :ivar content:
-    :ivar type:
-    """
     class Meta:
         name = "titleType"
 
@@ -31,9 +27,6 @@ class TitleType:
 
 @dataclass
 class Root:
-    """
-    :ivar title:
-    """
     class Meta:
         name = "root"
         namespace = "http://xstest-tns"

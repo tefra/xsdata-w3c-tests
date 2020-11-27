@@ -6,9 +6,6 @@ __NAMESPACE__ = "importNS"
 
 @dataclass
 class R:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "r"
         namespace = "importNS"

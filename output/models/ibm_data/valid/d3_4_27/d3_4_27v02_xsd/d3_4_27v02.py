@@ -6,12 +6,6 @@ __NAMESPACE__ = "http://xstest-tns/schema11_D3_4_27_v02"
 
 
 class YMdenumeration(Enum):
-    """
-    :cvar P1_D:
-    :cvar P3_DT44_H2_M:
-    :cvar P3_DT44_H2_M5783_33_S:
-    :cvar P5_DT0_H0_3_S:
-    """
     P1_D = "P1D"
     P3_DT44_H2_M = "P3DT44H2M"
     P3_DT44_H2_M5783_33_S = "-P3DT44H2M5783.33S"
@@ -20,13 +14,6 @@ class YMdenumeration(Enum):
 
 @dataclass
 class Root:
-    """
-    :ivar value:
-    :ivar ay_mdtype:
-    :ivar ay_mdenumeration:
-    :ivar ay_mdmin_max_inclusive:
-    :ivar ay_mdmin_max_exclusive:
-    """
     class Meta:
         name = "root"
         namespace = "http://xstest-tns/schema11_D3_4_27_v02"

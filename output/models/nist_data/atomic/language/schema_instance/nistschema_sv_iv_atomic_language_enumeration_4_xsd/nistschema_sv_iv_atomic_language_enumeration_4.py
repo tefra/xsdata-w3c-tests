@@ -6,13 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-language-enumeration-4-NS"
 
 
 class NistschemaSvIvAtomicLanguageEnumeration4Type(Enum):
-    """
-    :cvar BR:
-    :cvar CA:
-    :cvar CO:
-    :cvar CS:
-    :cvar CY:
-    """
     BR = "BR"
     CA = "CA"
     CO = "CO"
@@ -22,9 +15,6 @@ class NistschemaSvIvAtomicLanguageEnumeration4Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicLanguageEnumeration4:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-language-enumeration-4"
         namespace = "NISTSchema-SV-IV-atomic-language-enumeration-4-NS"

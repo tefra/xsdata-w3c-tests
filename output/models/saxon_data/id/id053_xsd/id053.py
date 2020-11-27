@@ -6,11 +6,6 @@ __NAMESPACE__ = "http://id050.ly/"
 
 @dataclass
 class EmpType:
-    """
-    :ivar name:
-    :ivar nr:
-    :ivar manager:
-    """
     class Meta:
         name = "empType"
 
@@ -41,9 +36,6 @@ class EmpType:
 
 @dataclass
 class Doc:
-    """
-    :ivar emp:
-    """
     class Meta:
         name = "doc"
         namespace = "http://id050.ly/"

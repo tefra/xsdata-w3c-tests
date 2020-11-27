@@ -7,9 +7,6 @@ __NAMESPACE__ = "main"
 
 @dataclass
 class Ct:
-    """
-    :ivar a:
-    """
     class Meta:
         name = "ct"
 

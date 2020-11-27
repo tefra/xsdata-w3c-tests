@@ -6,16 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-2-NS"
 
 
 class NistschemaSvIvAtomicNormalizedStringEnumeration2Type(Enum):
-    """
-    :cvar BE:
-    :cvar AS_VALUE:
-    :cvar TOOLS:
-    :cvar XML:
-    :cvar SUCH:
-    :cvar CREATES:
-    :cvar RELATED:
-    :cvar SOFTWARE:
-    """
     BE = "be"
     AS_VALUE = "as"
     TOOLS = "tools"
@@ -28,9 +18,6 @@ class NistschemaSvIvAtomicNormalizedStringEnumeration2Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicNormalizedStringEnumeration2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-2"
         namespace = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-2-NS"

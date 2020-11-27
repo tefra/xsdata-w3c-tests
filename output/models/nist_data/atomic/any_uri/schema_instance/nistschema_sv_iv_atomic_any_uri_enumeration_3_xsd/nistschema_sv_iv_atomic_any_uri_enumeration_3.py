@@ -6,15 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-anyURI-enumeration-3-NS"
 
 
 class NistschemaSvIvAtomicAnyUriEnumeration3Type(Enum):
-    """
-    :cvar HTTP_WWW_APISIN_COMPU_INGTE_COM:
-    :cvar TELNET_ACADEMI_ORG:
-    :cvar GOPHER_THATOVER_JAV_THROUGHT_COM:
-    :cvar HTTP_WWW_ENSUREADDRE_SASSPECIFI_ATIONSIMAG_SANDST_ORG:
-    :cvar FTP_FTP_PROT_EDU:
-    :cvar FTP_FTP_COMPUTING_HT_LHETEROGEN_OUSRETRIEV_VENDORSBE_EDU:
-    :cvar FTP_NEWDEVELOPM_NTCOMPLEXA_ONGADVANCE_CONSEQUENT_YALLOW_ORG:
-    """
     HTTP_WWW_APISIN_COMPU_INGTE_COM = "http://www.APIsinCompu.ingte.com"
     TELNET_ACADEMI_ORG = "telnet://academi.org"
     GOPHER_THATOVER_JAV_THROUGHT_COM = "gopher://thatoverJav.throught.com"
@@ -26,9 +17,6 @@ class NistschemaSvIvAtomicAnyUriEnumeration3Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicAnyUriEnumeration3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-anyURI-enumeration-3"
         namespace = "NISTSchema-SV-IV-atomic-anyURI-enumeration-3-NS"

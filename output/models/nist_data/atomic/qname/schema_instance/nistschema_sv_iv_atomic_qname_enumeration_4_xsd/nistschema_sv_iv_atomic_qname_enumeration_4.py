@@ -7,17 +7,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
 
 
 class NistschemaSvIvAtomicQnameEnumeration4Type(Enum):
-    """
-    :cvar Q_TTHE_WITH:
-    :cvar ETRANSFORMING_SPECIFIC_EMERGING_IS_DEVELOPED_ACT_RELA:
-    :cvar YOF_AUTOMATIC_PARTNERSHIPS_AND_SET_SERIES_IS_KEY_E:
-    :cvar FAND_IS_INCLUDE_VOCA_JWORK_TOOLS_AND_WIDELY_ELECTRONIC_MANIPUL:
-    :cvar TMANY_RETRIEVAL_WITH_LANGUAGE_BOTH_BE_RESULTS_IS_OF_B:
-    :cvar ITO_D_LCOMPUTING_OBJECT_FOR_A_MUST_BE_FROM_DESIGN_RO:
-    :cvar INTEROPERABILITY_S_LED_ALSO_SPECIFICATIONS_PROVIDE_WITH_IS_THU:
-    :cvar THE_LWHICH:
-    :cvar UTHE_BASE_THE_ABILITY_INTO_TARGET_THE_TESTABILITY_DISCOVE:
-    """
     Q_TTHE_WITH = QName("{http://www.nist.gov/xsdNS}tthe.with-")
     ETRANSFORMING_SPECIFIC_EMERGING_IS_DEVELOPED_ACT_RELA = QName("{NISTSchema-SV-IV-atomic-QName-enumeration-4-NS}etransforming-specific.emerging_is-developed.act_rela")
     YOF_AUTOMATIC_PARTNERSHIPS_AND_SET_SERIES_IS_KEY_E = QName("{NISTSchema-SV-IV-atomic-QName-enumeration-4-NS}yof_automatic-partnerships.and.set-series_is.key.e")
@@ -31,9 +20,6 @@ class NistschemaSvIvAtomicQnameEnumeration4Type(Enum):
 
 @dataclass
 class TypeInteroperabilitySLedAlsoSpecificationsProvideWithIsThu:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "_interoperability.s.led_also-specifications_provide_with.is.thu"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
@@ -48,9 +34,6 @@ class TypeInteroperabilitySLedAlsoSpecificationsProvideWithIsThu:
 
 @dataclass
 class EtransformingSpecificEmergingIsDevelopedActRela:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "etransforming-specific.emerging_is-developed.act_rela"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
@@ -65,9 +48,6 @@ class EtransformingSpecificEmergingIsDevelopedActRela:
 
 @dataclass
 class TmanyRetrievalWithLanguageBothBeResultsIsOfB:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "tmany-retrieval-with_language.both-be.results-is-of-b"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
@@ -82,9 +62,6 @@ class TmanyRetrievalWithLanguageBothBeResultsIsOfB:
 
 @dataclass
 class UtheBaseTheAbilityIntoTargetTheTestabilityDiscove:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "uthe.base_the_ability-into-target_the_testability-discove"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
@@ -99,9 +76,6 @@ class UtheBaseTheAbilityIntoTargetTheTestabilityDiscove:
 
 @dataclass
 class YofAutomaticPartnershipsAndSetSeriesIsKeyE:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "yof_automatic-partnerships.and.set-series_is.key.e"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"
@@ -116,9 +90,6 @@ class YofAutomaticPartnershipsAndSetSeriesIsKeyE:
 
 @dataclass
 class NistschemaSvIvAtomicQnameEnumeration4:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-QName-enumeration-4"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"

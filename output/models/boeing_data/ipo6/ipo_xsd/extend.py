@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://www.example.com/IPO"
 
 @dataclass
 class ExternFirstElement:
-    """
-    :ivar value:
-    """
     class Meta:
         namespace = "http://www.example.com/IPO"
 

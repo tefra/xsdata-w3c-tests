@@ -4,10 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Foo:
-    """
-    :ivar idrefs_attr:
-    :ivar id1_attr:
-    """
     class Meta:
         name = "foo"
 
@@ -30,10 +26,6 @@ class Foo:
 
 @dataclass
 class FooType:
-    """
-    :ivar foo:
-    :ivar id2_attr:
-    """
     class Meta:
         name = "fooType"
 

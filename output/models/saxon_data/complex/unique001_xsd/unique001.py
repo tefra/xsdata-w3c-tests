@@ -4,9 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Root:
-    """
-    :ivar sub:
-    """
     class Meta:
         name = "root"
 
@@ -20,9 +17,6 @@ class Root:
 
     @dataclass
     class Sub:
-        """
-        :ivar idelt:
-        """
         idelt: Optional["Root.Sub.Idelt"] = field(
             default=None,
             metadata={
@@ -34,10 +28,6 @@ class Root:
 
         @dataclass
         class Idelt:
-            """
-            :ivar value:
-            :ivar attr:
-            """
             value: Optional[int] = field(
                 default=None,
             )

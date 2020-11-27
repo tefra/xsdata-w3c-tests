@@ -6,12 +6,6 @@ __NAMESPACE__ = "http://xstest-tns/schema11_D3_4_28_v06"
 
 @dataclass
 class Root:
-    """
-    :ivar el_min_inclusive_min_inclusive:
-    :ivar el_min_inclusive_min_exclusive:
-    :ivar el_min_inclusive_max_inclusive:
-    :ivar el_min_inclusive_max_exclusive:
-    """
     class Meta:
         name = "root"
         namespace = "http://xstest-tns/schema11_D3_4_28_v06"

@@ -6,10 +6,6 @@ __NAMESPACE__ = "modelGroup"
 
 @dataclass
 class A1:
-    """
-    :ivar c:
-    :ivar date:
-    """
     class Meta:
         name = "A"
 

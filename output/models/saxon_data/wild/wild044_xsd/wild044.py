@@ -4,10 +4,6 @@ from typing import Dict
 
 @dataclass
 class Computer:
-    """
-    :ivar local_apple_com_attributes:
-    :ivar local_orange_com_attributes:
-    """
     class Meta:
         name = "computer"
 

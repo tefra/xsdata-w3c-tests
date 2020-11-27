@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/disallowedSubst"
 
 @dataclass
 class Head:
-    """
-    :ivar any_element:
-    """
     class Meta:
         namespace = "ElemDecl/disallowedSubst"
 
@@ -24,9 +21,6 @@ class Head:
 
 @dataclass
 class Member1:
-    """
-    :ivar any_element:
-    """
     class Meta:
         namespace = "ElemDecl/disallowedSubst"
 
@@ -42,9 +36,6 @@ class Member1:
 
 @dataclass
 class Member2:
-    """
-    :ivar any_element:
-    """
     class Meta:
         namespace = "ElemDecl/disallowedSubst"
 
@@ -60,11 +51,6 @@ class Member2:
 
 @dataclass
 class Root:
-    """
-    :ivar member2:
-    :ivar member1:
-    :ivar head:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/disallowedSubst"

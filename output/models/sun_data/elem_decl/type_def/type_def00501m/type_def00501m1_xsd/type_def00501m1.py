@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/typeDef"
 
 @dataclass
 class Type:
-    """
-    :ivar local:
-    """
     local: Optional[object] = field(
         default=None,
         metadata={
@@ -21,9 +18,6 @@ class Type:
 
 @dataclass
 class Root:
-    """
-    :ivar local:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/typeDef"

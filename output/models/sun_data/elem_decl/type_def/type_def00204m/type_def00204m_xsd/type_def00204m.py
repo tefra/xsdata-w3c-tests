@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/typeDef"
 
 @dataclass
 class Head:
-    """
-    :ivar value:
-    """
     class Meta:
         namespace = "ElemDecl/typeDef"
 
@@ -22,9 +19,6 @@ class Head:
 
 @dataclass
 class Root:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/typeDef"

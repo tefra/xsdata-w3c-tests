@@ -6,15 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-gYear-enumeration-2-NS"
 
 
 class NistschemaSvIvListGYearEnumeration2Type(Enum):
-    """
-    :cvar VALUE_2020_2006_1971_1986_1975_1984:
-    :cvar VALUE_2029_1983_1986_2015_2017_2004_2010_2021_1978_2008:
-    :cvar VALUE_1999_1993_1995_1996_1983_1983_1975_2019_1989:
-    :cvar VALUE_1972_1988_2021_2014_2007_2012_2005:
-    :cvar VALUE_1970_2023_1975_2019_2024_2019_2021_2001:
-    :cvar VALUE_1994_2005_1998_2005_2029_1970_2017:
-    :cvar VALUE_1989_2009_1989_2014_1989_1991_1985_1984:
-    """
     VALUE_2020_2006_1971_1986_1975_1984 = "2020 2006 1971 1986 1975 1984"
     VALUE_2029_1983_1986_2015_2017_2004_2010_2021_1978_2008 = "2029 1983 1986 2015 2017 2004 2010 2021 1978 2008"
     VALUE_1999_1993_1995_1996_1983_1983_1975_2019_1989 = "1999 1993 1995 1996 1983 1983 1975 2019 1989"
@@ -26,9 +17,6 @@ class NistschemaSvIvListGYearEnumeration2Type(Enum):
 
 @dataclass
 class NistschemaSvIvListGYearEnumeration2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-gYear-enumeration-2"
         namespace = "NISTSchema-SV-IV-list-gYear-enumeration-2-NS"

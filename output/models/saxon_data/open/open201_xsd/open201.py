@@ -5,10 +5,6 @@ from typing import Optional
 
 @dataclass
 class AType:
-    """
-    :ivar extra_number:
-    :ivar extra_date:
-    """
     class Meta:
         name = "aType"
 
@@ -30,13 +26,6 @@ class AType:
 
 @dataclass
 class Doc:
-    """
-    :ivar extra_number:
-    :ivar extra_date:
-    :ivar a:
-    :ivar b:
-    :ivar c:
-    """
     class Meta:
         name = "doc"
 

@@ -4,9 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Complex11:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "COMPLEX1"
 
@@ -27,10 +24,7 @@ class Complex21:
 
 @dataclass
 class SubstHead:
-    """This is defined to be of type 'xsd:anyType'.
-
-    :ivar any_element:
-    """
+    """This is defined to be of type 'xsd:anyType'."""
     class Meta:
         name = "substHead"
 
@@ -58,11 +52,6 @@ class Complex2(Complex21):
 
 @dataclass
 class BagOfHeads:
-    """
-    :ivar complex2:
-    :ivar complex1:
-    :ivar subst_head:
-    """
     class Meta:
         name = "bagOfHeads"
 

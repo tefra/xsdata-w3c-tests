@@ -4,9 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class A:
-    """
-    :ivar choice:
-    """
     choice: List[object] = field(
         default_factory=list,
         metadata={
@@ -39,9 +36,6 @@ class A:
 
 @dataclass
 class Elem:
-    """
-    :ivar choice:
-    """
     class Meta:
         name = "elem"
 
@@ -78,9 +72,6 @@ class Elem:
 
 @dataclass
 class Doc:
-    """
-    :ivar elem:
-    """
     class Meta:
         name = "doc"
 

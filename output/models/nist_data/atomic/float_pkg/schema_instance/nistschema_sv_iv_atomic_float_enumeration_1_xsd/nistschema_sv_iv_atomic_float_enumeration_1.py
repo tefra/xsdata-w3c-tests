@@ -6,15 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-float-enumeration-1-NS"
 
 
 class NistschemaSvIvAtomicFloatEnumeration1Type(Enum):
-    """
-    :cvar VALUE_1_4_E_45:
-    :cvar VALUE_1_9703874_E_32:
-    :cvar VALUE_2_6927628_E_19:
-    :cvar VALUE_2_7455975_E_6:
-    :cvar VALUE_2_5357204_E7:
-    :cvar VALUE_2_8222192_E20:
-    :cvar VALUE_3_4028235_E38:
-    """
     VALUE_1_4_E_45 = 1.4e-45
     VALUE_1_9703874_E_32 = 1.9703874e-32
     VALUE_2_6927628_E_19 = 2.6927628e-19
@@ -26,9 +17,6 @@ class NistschemaSvIvAtomicFloatEnumeration1Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicFloatEnumeration1:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-float-enumeration-1"
         namespace = "NISTSchema-SV-IV-atomic-float-enumeration-1-NS"

@@ -5,9 +5,6 @@ from typing import List, Optional
 
 @dataclass
 class A:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "a"
 
@@ -21,9 +18,6 @@ class A:
 
 @dataclass
 class B:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "b"
 
@@ -37,9 +31,6 @@ class B:
 
 @dataclass
 class Ct3:
-    """
-    :ivar elem:
-    """
     class Meta:
         name = "ct3"
 
@@ -54,12 +45,6 @@ class Ct3:
 
 @dataclass
 class Ct4:
-    """
-    :ivar value:
-    :ivar name:
-    :ivar type:
-    :ivar state:
-    """
     class Meta:
         name = "ct4"
 
@@ -89,11 +74,6 @@ class Ct4:
     )
 
     class State(Enum):
-        """
-        :cvar VALUE_0:
-        :cvar VALUE_1:
-        :cvar VALUE_2:
-        """
         VALUE_0 = 0
         VALUE_1 = 1
         VALUE_2 = 2
@@ -101,9 +81,6 @@ class Ct4:
 
 @dataclass
 class Item:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "item"
 
@@ -123,12 +100,6 @@ class C(Ct4):
 
 @dataclass
 class Root:
-    """
-    :ivar c:
-    :ivar b:
-    :ivar a:
-    :ivar item:
-    """
     class Meta:
         name = "root"
 

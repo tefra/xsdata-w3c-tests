@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://www.books.org"
 
 @dataclass
 class BookStore:
-    """
-    :ivar book:
-    """
     class Meta:
         namespace = "http://www.books.org"
 
@@ -23,14 +20,6 @@ class BookStore:
 
     @dataclass
     class Book:
-        """
-        :ivar id:
-        :ivar title:
-        :ivar author:
-        :ivar date:
-        :ivar isbn:
-        :ivar publisher:
-        """
         id: Optional[str] = field(
             default=None,
             metadata={

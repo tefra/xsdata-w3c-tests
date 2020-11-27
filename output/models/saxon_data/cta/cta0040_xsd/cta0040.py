@@ -4,10 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Appendix:
-    """
-    :ivar value:
-    :ivar type:
-    """
     class Meta:
         name = "appendix"
 
@@ -24,10 +20,6 @@ class Appendix:
 
 @dataclass
 class Chap:
-    """
-    :ivar value:
-    :ivar type:
-    """
     class Meta:
         name = "chap"
 
@@ -44,10 +36,6 @@ class Chap:
 
 @dataclass
 class Doc:
-    """
-    :ivar appendix:
-    :ivar chap:
-    """
     class Meta:
         name = "doc"
 

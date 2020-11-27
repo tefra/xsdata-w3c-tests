@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-gMonthDay-maxInclusive-4-NS"
 
 @dataclass
 class NistschemaSvIvAtomicGMonthDayMaxInclusive4:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-gMonthDay-maxInclusive-4"
         namespace = "NISTSchema-SV-IV-atomic-gMonthDay-maxInclusive-4-NS"

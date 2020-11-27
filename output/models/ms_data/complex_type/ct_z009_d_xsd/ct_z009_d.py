@@ -4,9 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Root:
-    """
-    :ivar element1:
-    """
     class Meta:
         name = "root"
 
@@ -22,9 +19,6 @@ class Root:
 
     @dataclass
     class Element1:
-        """
-        :ivar group2_element1_or_group2_element2:
-        """
         group2_element1_or_group2_element2: List[object] = field(
             default_factory=list,
             metadata={

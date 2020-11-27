@@ -6,16 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
 
 
 class NistschemaSvIvListQnameEnumeration2Type(Enum):
-    """
-    :cvar JRESPE_PMANUFACTURERS_EMBEDDED_PROTOTYPES_LBOTH_INDUSTRY_G_POPULAR_BY_A_AND_THE_AND_CONTAINING_MATCH_IPARTNERS_TO_IN_WFILE_SI_OAND_COMPUTING_OF_INFORMATION_COMPUTI_BDE_AS_ORGANIZATIONS_TO_WIRELESS_WELL_TO_ACADEMIA_TO_CALLED_D_QIS_IS_A_O_QCAN_AND_KNOW_REFERENCE_DAT_DHAS_REGISTRIES_PA_INFORMATION_PA_KAND_PERVASIVE_AND_HAS_RELATED_TO_A_T:
-    :cvar KAND_PERVASIVE_AND_HAS_RELATED_TO_A_T_UINTERC_MADE_COMPUTER_BY_SUPPLY_THE_PICO_MINCLUDING_GAIN_THE_A_OR_NETWO_EIN_AND_RECOMMENDATION_THAT_REGIST_ECOLLA_FDOCUMENTS_SERVICE_USE_COMPATIBILITY_STO_OF_KNOWN_A_ENTERPR_Y_T_EWAS_THE_TO_NECESSARY_T:
-    :cvar EWAS_THE_TO_NECESSARY_T_STECHNOLOGIES_TEST_PRO_VPROVIDE_BACK_MULTIDISCIPLINARY_CARE_DMANAGEMENT_SU_XTHAT_HIGHLY_AND_MUST_RAPID_CHOS_FOUR_AN_U_SYSTEM_WIRELESS_DEFINE_AND_COMMUNICATIONS_RPROVIDES_FILE_THROUGH_BY_AND_FOR_SS_AND_AND_BROWSERS_FROM_IND_DIN_OB_QCOMPUTING_ACCESSIB:
-    :cvar DIN_OB_QCOMPUTING_ACCESSIB_XPARTICULARLY_IS_LANGUAGE_PROFILES_BE_OFFE_GTO_IN_HOUSE_AND_I_VHETEROGENEOUS_DOCUMENTS_PROFILES_L_R_PFROM_COLLABORAT_PTHAT_D_INTO_AND_OF_JAPPLICATION_A_GCERTAIN_THE_RE_NSPECIFIC_LESS_SOFT_FAND_BECOME_OF_THE_NT_HE_VTHES_GADOPTION_SERIES_INTERCONNECTING_THE_W:
-    :cvar VTHES_GADOPTION_SERIES_INTERCONNECTING_THE_W_YTO_IN_I_SFOLLOWING_KNOWN_S_WITH_TO_INFORMATION_THE_VSPECIFICATIONS_REQUESTING_DESKTOP_QTHE_MAINTAINED_THESE_FOR_DEVELOPMENT_TO_OF_VOCABU_RELE_DFILE_OF_FURTH_VCORRECTNESS_PROVIDE_PAN_AID_INTERACTING_INDU_BEXCHANGE_MUST_COR_K_DLANGUAGE_P:
-    :cvar K_DLANGUAGE_P_OF_SPROVIDED_MANUFACTURE_UBETTER_DESIGNED_INFORMATION_HETEROGENEOUS_FOR_ALLOW_BAC_POPUL_WILL_WORK_SOFTW_FELIMINATE_GENERATION_AND_TH_VTECH_HWILL_REVIEWED_CREAT:
-    :cvar VTECH_HWILL_REVIEWED_CREAT_BCREATION_PERVASIVE_COMPLEX_AND_WIR_LTO_AND_AMBIGUITIES_SHIFT_INTERNATIONAL_TEST_ITS_FIRST_RELIMINATED_POSSIBL_XAND_ANY_TOOLS_AND_THE_PROMISES_REGISTRY_A_USING_THE_THE_REPOSITORY_AD_CAN_THE_COMPUTING_OF_AUTOMATED_MAK_QOF_HELP_AS_AS_FOCUSING_EXER_SADDRESSING_CREATING_THE_ORGANIZATIONS_COMPUTING_STANDARDS_FO_QTHE_OF_CONFORMANCE_A_OF_A_BUSINESS_DEPENDABILITY_ADOPTIO_UPON_OF_CALLED_ENABLE_OF:
-    :cvar UPON_OF_CALLED_ENABLE_OF_WS_IS_THE_NETWORKS_COMPUTING_5_THE_HETE_BPERVASIVE_BECOME_ST_WTO_INTEROPERABILITY_INDUSTRY_CREA_KGENERATION_RETRIEVES_SIMULATION_USED_AND_OF_APPROACH_OF_MADE_WITH_FED_WI_XDEFINE_TOOLS_CAN_MUST_INDUSTRIES_CREATE_B_GPARTICIPATING_RETRIEVES_TO_COMPUTER_CAND_AMONG_DISCOVER_L_SPROCESS_OBTAINED_A_VAS_THESE_MADE_AND_WTO_SYSTEMS_REGISTRY_TO_THAT_INDUST:
-    """
     JRESPE_PMANUFACTURERS_EMBEDDED_PROTOTYPES_LBOTH_INDUSTRY_G_POPULAR_BY_A_AND_THE_AND_CONTAINING_MATCH_IPARTNERS_TO_IN_WFILE_SI_OAND_COMPUTING_OF_INFORMATION_COMPUTI_BDE_AS_ORGANIZATIONS_TO_WIRELESS_WELL_TO_ACADEMIA_TO_CALLED_D_QIS_IS_A_O_QCAN_AND_KNOW_REFERENCE_DAT_DHAS_REGISTRIES_PA_INFORMATION_PA_KAND_PERVASIVE_AND_HAS_RELATED_TO_A_T = "jrespe:pmanufacturers-embedded_prototypes lboth-industry.g.popular_by_a_and.the_and.containing_match- ipartners.to_in wfile-si oand.computing_of-information-computi bde:_as.organizations.to.wireless.well-to-academia-to-called_d qis.is.a.o:qcan.and.know_reference.dat dhas-registries:pa.information_pa kand-pervasive.and.has-related.to-a-t"
     KAND_PERVASIVE_AND_HAS_RELATED_TO_A_T_UINTERC_MADE_COMPUTER_BY_SUPPLY_THE_PICO_MINCLUDING_GAIN_THE_A_OR_NETWO_EIN_AND_RECOMMENDATION_THAT_REGIST_ECOLLA_FDOCUMENTS_SERVICE_USE_COMPATIBILITY_STO_OF_KNOWN_A_ENTERPR_Y_T_EWAS_THE_TO_NECESSARY_T = "kand-pervasive.and.has-related.to-a-t uinterc:_made-computer_by.supply_the_pico- mincluding_gain_the.a-or _netwo:ein.and_recommendation _that.regist ecolla:fdocuments.service_use.compatibility sto-of_known.a-enterpr y:t ewas-the-to-necessary_t"
     EWAS_THE_TO_NECESSARY_T_STECHNOLOGIES_TEST_PRO_VPROVIDE_BACK_MULTIDISCIPLINARY_CARE_DMANAGEMENT_SU_XTHAT_HIGHLY_AND_MUST_RAPID_CHOS_FOUR_AN_U_SYSTEM_WIRELESS_DEFINE_AND_COMMUNICATIONS_RPROVIDES_FILE_THROUGH_BY_AND_FOR_SS_AND_AND_BROWSERS_FROM_IND_DIN_OB_QCOMPUTING_ACCESSIB = "ewas-the-to-necessary_t stechnologies-test.pro:vprovide-back.multidisciplinary_care- dmanagement-su:xthat-highly.and-must-rapid.chos _four_an u:_system.wireless-define_and-communications rprovides.file-through_by-and_for ss.and-and.browsers_from_ind din_ob:qcomputing_accessib"
@@ -28,9 +18,6 @@ class NistschemaSvIvListQnameEnumeration2Type(Enum):
 
 @dataclass
 class TypeFourAn:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "_four_an"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -45,9 +32,6 @@ class TypeFourAn:
 
 @dataclass
 class TypeThatRegist:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "_that.regist"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -62,9 +46,6 @@ class TypeThatRegist:
 
 @dataclass
 class TypeUponOfCalledEnableOf:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "_upon.of-called-enable-of"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -79,9 +60,6 @@ class TypeUponOfCalledEnableOf:
 
 @dataclass
 class TypeUsingTheTheRepositoryAdCanTheComputingOfAutomatedMak:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "_using.the.the-repository.ad_can.the_computing-of_automated.mak"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -96,9 +74,6 @@ class TypeUsingTheTheRepositoryAdCanTheComputingOfAutomatedMak:
 
 @dataclass
 class TypeWithFedWi:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "_with.fed_wi"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -113,9 +88,6 @@ class TypeWithFedWi:
 
 @dataclass
 class BcreationPervasiveComplexAndWir:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "bcreation.pervasive_complex-and-wir"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -130,9 +102,6 @@ class BcreationPervasiveComplexAndWir:
 
 @dataclass
 class BexchangeMustCor:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "bexchange.must_cor"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -147,9 +116,6 @@ class BexchangeMustCor:
 
 @dataclass
 class CandAmongDiscoverL:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "cand-among.discover.l"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -164,9 +130,6 @@ class CandAmongDiscoverL:
 
 @dataclass
 class EwasTheToNecessaryT:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "ewas-the-to-necessary_t"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -181,9 +144,6 @@ class EwasTheToNecessaryT:
 
 @dataclass
 class FeliminateGenerationAndTh:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "feliminate.generation-and_th"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -198,9 +158,6 @@ class FeliminateGenerationAndTh:
 
 @dataclass
 class GcertainTheRe:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "gcertain.the_re"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -215,9 +172,6 @@ class GcertainTheRe:
 
 @dataclass
 class GparticipatingRetrievesToComputer:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "gparticipating_retrieves_to-computer"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -232,9 +186,6 @@ class GparticipatingRetrievesToComputer:
 
 @dataclass
 class IpartnersToIn:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "ipartners.to_in"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -249,9 +200,6 @@ class IpartnersToIn:
 
 @dataclass
 class JapplicationA:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "japplication.a"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -266,9 +214,6 @@ class JapplicationA:
 
 @dataclass
 class KandPervasiveAndHasRelatedToAT:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "kand-pervasive.and.has-related.to-a-t"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -283,9 +228,6 @@ class KandPervasiveAndHasRelatedToAT:
 
 @dataclass
 class KgenerationRetrievesSimulationUsedAndOfApproachOfMade:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "kgeneration.retrieves.simulation.used.and.of.approach-of_made"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -300,9 +242,6 @@ class KgenerationRetrievesSimulationUsedAndOfApproachOfMade:
 
 @dataclass
 class LbothIndustryGPopularByAAndTheAndContainingMatch:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "lboth-industry.g.popular_by_a_and.the_and.containing_match-"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -317,9 +256,6 @@ class LbothIndustryGPopularByAAndTheAndContainingMatch:
 
 @dataclass
 class LtoAndAmbiguitiesShiftInternationalTestItsFirst:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "lto-and_ambiguities.shift_international-test_its-first-"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -334,9 +270,6 @@ class LtoAndAmbiguitiesShiftInternationalTestItsFirst:
 
 @dataclass
 class MincludingGainTheAOr:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "mincluding_gain_the.a-or"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -351,9 +284,6 @@ class MincludingGainTheAOr:
 
 @dataclass
 class OandComputingOfInformationComputi:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "oand.computing_of-information-computi"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -368,9 +298,6 @@ class OandComputingOfInformationComputi:
 
 @dataclass
 class QofHelpAsAsFocusingExer:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "qof.help_as.as_focusing-exer"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -385,9 +312,6 @@ class QofHelpAsAsFocusingExer:
 
 @dataclass
 class QtheMaintainedTheseForDevelopmentToOfVocabu:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "qthe.maintained-these.for-development.to.of-vocabu"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -402,9 +326,6 @@ class QtheMaintainedTheseForDevelopmentToOfVocabu:
 
 @dataclass
 class QtheOfConformanceAOfABusinessDependabilityAdoptio:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "qthe_of-conformance.a_of-a.business.dependability.adoptio"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -419,9 +340,6 @@ class QtheOfConformanceAOfABusinessDependabilityAdoptio:
 
 @dataclass
 class Rele:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "rele"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -436,9 +354,6 @@ class Rele:
 
 @dataclass
 class RprovidesFileThroughByAndFor:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "rprovides.file-through_by-and_for"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -453,9 +368,6 @@ class RprovidesFileThroughByAndFor:
 
 @dataclass
 class SaddressingCreatingTheOrganizationsComputingStandardsFo:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "saddressing-creating.the-organizations.computing_standards_fo"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -470,9 +382,6 @@ class SaddressingCreatingTheOrganizationsComputingStandardsFo:
 
 @dataclass
 class SprocessObtainedA:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "sprocess_obtained-a"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -487,9 +396,6 @@ class SprocessObtainedA:
 
 @dataclass
 class SsAndAndBrowsersFromInd:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "ss.and-and.browsers_from_ind"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -504,9 +410,6 @@ class SsAndAndBrowsersFromInd:
 
 @dataclass
 class StoOfKnownAEnterpr:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "sto-of_known.a-enterpr"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -521,9 +424,6 @@ class StoOfKnownAEnterpr:
 
 @dataclass
 class UbetterDesignedInformationHeterogeneousForAllowBac:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "ubetter_designed-information-heterogeneous_for-allow-bac"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -538,9 +438,6 @@ class UbetterDesignedInformationHeterogeneousForAllowBac:
 
 @dataclass
 class VspecificationsRequestingDesktop:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "vspecifications.requesting.desktop-"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -555,9 +452,6 @@ class VspecificationsRequestingDesktop:
 
 @dataclass
 class WfileSi:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "wfile-si"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -572,9 +466,6 @@ class WfileSi:
 
 @dataclass
 class WsIsTheNetworksComputing5TheHete:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "ws_is_the-networks.computing.5.the_hete"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -589,9 +480,6 @@ class WsIsTheNetworksComputing5TheHete:
 
 @dataclass
 class XdefineToolsCanMustIndustriesCreateB:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "xdefine-tools_can-must-industries_create_b"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -606,9 +494,6 @@ class XdefineToolsCanMustIndustriesCreateB:
 
 @dataclass
 class XparticularlyIsLanguageProfilesBeOffe:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "xparticularly.is_language.profiles-be-offe"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -623,9 +508,6 @@ class XparticularlyIsLanguageProfilesBeOffe:
 
 @dataclass
 class NistschemaSvIvListQnameEnumeration2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-QName-enumeration-2"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"

@@ -6,14 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-gDay-enumeration-4-NS"
 
 
 class NistschemaSvIvAtomicGDayEnumeration4Type(Enum):
-    """
-    :cvar VALUE_15:
-    :cvar VALUE_05:
-    :cvar VALUE_17:
-    :cvar VALUE_12:
-    :cvar VALUE_21:
-    :cvar VALUE_18:
-    """
     VALUE_15 = "---15"
     VALUE_05 = "---05"
     VALUE_17 = "---17"
@@ -24,9 +16,6 @@ class NistschemaSvIvAtomicGDayEnumeration4Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicGDayEnumeration4:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-gDay-enumeration-4"
         namespace = "NISTSchema-SV-IV-atomic-gDay-enumeration-4-NS"

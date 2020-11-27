@@ -5,10 +5,6 @@ from typing import Optional
 
 @dataclass
 class Root:
-    """
-    :ivar value:
-    :ivar nil:
-    """
     class Meta:
         name = "root"
         nillable = True

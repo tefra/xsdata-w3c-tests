@@ -4,9 +4,6 @@ from typing import Optional
 
 @dataclass
 class Ct:
-    """
-    :ivar a:
-    """
     class Meta:
         name = "ct"
 
@@ -21,10 +18,6 @@ class Ct:
 
     @dataclass
     class A:
-        """
-        :ivar att1:
-        :ivar att2:
-        """
         att1: str = field(
             default="default",
             metadata={

@@ -6,15 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-1-NS"
 
 
 class NistschemaSvIvAtomicNormalizedStringEnumeration1Type(Enum):
-    """
-    :cvar TESTS:
-    :cvar THEREFORE:
-    :cvar BY:
-    :cvar SUCH:
-    :cvar PARTICIPATING:
-    :cvar INTO:
-    :cvar AND_VALUE:
-    """
     TESTS = "tests"
     THEREFORE = "Therefore"
     BY = "by"
@@ -26,9 +17,6 @@ class NistschemaSvIvAtomicNormalizedStringEnumeration1Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicNormalizedStringEnumeration1:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-1"
         namespace = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-1-NS"

@@ -4,10 +4,6 @@ from typing import Dict, Optional
 
 @dataclass
 class TestType:
-    """
-    :ivar value:
-    :ivar any_attributes:
-    """
     class Meta:
         name = "TEST_TYPE"
 
@@ -25,9 +21,6 @@ class TestType:
 
 @dataclass
 class X(TestType):
-    """
-    :ivar a:
-    """
     class Meta:
         name = "x"
 

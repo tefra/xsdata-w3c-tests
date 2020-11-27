@@ -6,11 +6,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class ExtRefType:
-    """
-    :ivar imp_e1:
-    :ivar imp_e2:
-    :ivar imp_a1:
-    """
     class Meta:
         name = "extRefType"
 
@@ -43,9 +38,6 @@ class ExtRefType:
 
 @dataclass
 class ImpElem1:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "impElem1"
         namespace = "http://xsdtesting"

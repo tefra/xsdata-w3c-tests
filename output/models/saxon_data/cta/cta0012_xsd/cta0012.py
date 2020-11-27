@@ -4,11 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Chap:
-    """
-    :ivar de:
-    :ivar fr:
-    :ivar en:
-    """
     class Meta:
         name = "chap"
 
@@ -37,10 +32,6 @@ class Chap:
 
 @dataclass
 class Doc:
-    """
-    :ivar chap:
-    :ivar lang:
-    """
     class Meta:
         name = "doc"
 

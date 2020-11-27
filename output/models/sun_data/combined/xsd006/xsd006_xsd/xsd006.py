@@ -6,9 +6,6 @@ __NAMESPACE__ = "foo"
 
 @dataclass
 class Item0To1:
-    """
-    :ivar x:
-    """
     class Meta:
         name = "item0to1"
         namespace = "foo"
@@ -23,9 +20,6 @@ class Item0To1:
 
 @dataclass
 class Item0To2:
-    """
-    :ivar x:
-    """
     class Meta:
         name = "item0to2"
         namespace = "foo"
@@ -41,9 +35,6 @@ class Item0To2:
 
 @dataclass
 class Item0ToX:
-    """
-    :ivar x:
-    """
     class Meta:
         name = "item0toX"
         namespace = "foo"
@@ -58,9 +49,6 @@ class Item0ToX:
 
 @dataclass
 class Item1To2:
-    """
-    :ivar x:
-    """
     class Meta:
         name = "item1to2"
         namespace = "foo"
@@ -77,9 +65,6 @@ class Item1To2:
 
 @dataclass
 class Item1ToX:
-    """
-    :ivar x:
-    """
     class Meta:
         name = "item1toX"
         namespace = "foo"
@@ -95,9 +80,6 @@ class Item1ToX:
 
 @dataclass
 class Item2To2:
-    """
-    :ivar x:
-    """
     class Meta:
         name = "item2to2"
         namespace = "foo"
@@ -114,9 +96,6 @@ class Item2To2:
 
 @dataclass
 class Item2ToX:
-    """
-    :ivar x:
-    """
     class Meta:
         name = "item2toX"
         namespace = "foo"
@@ -132,9 +111,6 @@ class Item2ToX:
 
 @dataclass
 class Item3To7:
-    """
-    :ivar x:
-    """
     class Meta:
         name = "item3to7"
         namespace = "foo"
@@ -151,9 +127,6 @@ class Item3To7:
 
 @dataclass
 class Root:
-    """
-    :ivar choice:
-    """
     class Meta:
         name = "root"
         namespace = "foo"

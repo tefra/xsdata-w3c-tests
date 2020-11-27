@@ -4,10 +4,6 @@ from typing import Optional
 
 @dataclass
 class MyType:
-    """
-    :ivar my_ele1:
-    :ivar my_ele2:
-    """
     class Meta:
         name = "myType"
 
@@ -33,9 +29,6 @@ class MyType:
 
 @dataclass
 class FooType(MyType):
-    """
-    :ivar my_element:
-    """
     class Meta:
         name = "fooType"
 

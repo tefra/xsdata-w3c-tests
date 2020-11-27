@@ -6,10 +6,6 @@ from xml.etree.ElementTree import QName
 
 @dataclass
 class DateMessageType:
-    """
-    :ivar kind:
-    :ivar value:
-    """
     class Meta:
         name = "dateMessageType"
 
@@ -29,10 +25,6 @@ class DateMessageType:
 
 @dataclass
 class DecimalMessageType:
-    """
-    :ivar kind:
-    :ivar value:
-    """
     class Meta:
         name = "decimalMessageType"
 
@@ -52,10 +44,6 @@ class DecimalMessageType:
 
 @dataclass
 class IntMessageType:
-    """
-    :ivar kind:
-    :ivar value:
-    """
     class Meta:
         name = "intMessageType"
 
@@ -75,10 +63,6 @@ class IntMessageType:
 
 @dataclass
 class MessageType:
-    """
-    :ivar kind:
-    :ivar value:
-    """
     class Meta:
         name = "messageType"
 
@@ -98,10 +82,6 @@ class MessageType:
 
 @dataclass
 class QNameMessageType:
-    """
-    :ivar kind:
-    :ivar value:
-    """
     class Meta:
         name = "qNameMessageType"
 
@@ -121,10 +101,6 @@ class QNameMessageType:
 
 @dataclass
 class StringMessageType:
-    """
-    :ivar kind:
-    :ivar value:
-    """
     class Meta:
         name = "stringMessageType"
 
@@ -144,10 +120,6 @@ class StringMessageType:
 
 @dataclass
 class TimeMessageType:
-    """
-    :ivar kind:
-    :ivar value:
-    """
     class Meta:
         name = "timeMessageType"
 
@@ -173,9 +145,6 @@ class Message(MessageType):
 
 @dataclass
 class Messages:
-    """
-    :ivar message:
-    """
     class Meta:
         name = "messages"
 

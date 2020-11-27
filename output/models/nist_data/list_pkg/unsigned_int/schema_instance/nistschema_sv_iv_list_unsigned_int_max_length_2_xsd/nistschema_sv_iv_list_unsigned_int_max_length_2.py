@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-unsignedInt-maxLength-2-NS"
 
 @dataclass
 class NistschemaSvIvListUnsignedIntMaxLength2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-unsignedInt-maxLength-2"
         namespace = "NISTSchema-SV-IV-list-unsignedInt-maxLength-2-NS"

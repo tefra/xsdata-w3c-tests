@@ -4,10 +4,6 @@ from typing import Optional
 
 @dataclass
 class RootType:
-    """
-    :ivar value:
-    :ivar attr:
-    """
     class Meta:
         name = "rootType"
 

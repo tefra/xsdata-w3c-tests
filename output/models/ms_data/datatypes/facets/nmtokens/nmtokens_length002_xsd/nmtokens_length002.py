@@ -4,9 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class FooType:
-    """
-    :ivar foo:
-    """
     class Meta:
         name = "fooType"
 
@@ -21,10 +18,6 @@ class FooType:
 
     @dataclass
     class Foo:
-        """
-        :ivar value:
-        :ivar attr_test:
-        """
         value: Optional[str] = field(
             default=None,
         )

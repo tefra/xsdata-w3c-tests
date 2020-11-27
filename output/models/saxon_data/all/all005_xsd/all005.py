@@ -4,10 +4,6 @@ from typing import List
 
 @dataclass
 class Doc:
-    """
-    :ivar a_ns_element:
-    :ivar b_ns_element:
-    """
     class Meta:
         name = "doc"
         nillable = True

@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-ID-pattern-2-NS"
 
 @dataclass
 class NistschemaSvIvAtomicIdPattern2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-ID-pattern-2"
         namespace = "NISTSchema-SV-IV-atomic-ID-pattern-2-NS"
@@ -24,9 +21,6 @@ class NistschemaSvIvAtomicIdPattern2:
 
 @dataclass
 class Out:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "out"
         namespace = "NISTSchema-SV-IV-atomic-ID-pattern-2-NS"

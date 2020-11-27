@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-union-anyURI-float-pattern-3-NS"
 
 @dataclass
 class NistschemaSvIvUnionAnyUriFloatPattern3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-union-anyURI-float-pattern-3"
         namespace = "NISTSchema-SV-IV-union-anyURI-float-pattern-3-NS"

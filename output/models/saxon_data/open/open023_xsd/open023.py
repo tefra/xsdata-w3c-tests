@@ -4,12 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class B:
-    """
-    :ivar a:
-    :ivar b:
-    :ivar c:
-    :ivar open_com_other_com_element:
-    """
     a: List[object] = field(
         default_factory=list,
         metadata={
@@ -44,13 +38,6 @@ class B:
 
 @dataclass
 class R:
-    """
-    :ivar a:
-    :ivar b:
-    :ivar c:
-    :ivar open_com_element:
-    :ivar open_com_other_com_element:
-    """
     a: Optional[object] = field(
         default=None,
         metadata={

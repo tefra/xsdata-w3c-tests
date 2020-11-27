@@ -4,11 +4,6 @@ from typing import Optional
 
 
 class BuildNotation(Enum):
-    """
-    :cvar JPEG:
-    :cvar MPEG:
-    :cvar G:
-    """
     JPEG = "jpeg"
     MPEG = "mpeg"
     G = "g"
@@ -16,9 +11,6 @@ class BuildNotation(Enum):
 
 @dataclass
 class FooType:
-    """
-    :ivar foo:
-    """
     class Meta:
         name = "fooType"
 
@@ -33,10 +25,6 @@ class FooType:
 
     @dataclass
     class Foo:
-        """
-        :ivar value:
-        :ivar attr_test:
-        """
         value: Optional[str] = field(
             default=None,
         )

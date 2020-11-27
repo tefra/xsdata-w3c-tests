@@ -6,9 +6,6 @@ __NAMESPACE__ = "urn:bar"
 
 @dataclass
 class Ct:
-    """
-    :ivar a:
-    """
     class Meta:
         name = "ct"
 
@@ -24,9 +21,6 @@ class Ct:
 
 @dataclass
 class Elem:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "elem"
         namespace = "urn:bar"

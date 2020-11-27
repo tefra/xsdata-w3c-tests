@@ -7,14 +7,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-QName-enumeration-5-NS"
 
 
 class NistschemaSvIvAtomicQnameEnumeration5Type(Enum):
-    """
-    :cvar UTHE_BASE_THE_ABILITY_INTO_TARGET_THE_TESTABILITY_DISCOVE:
-    :cvar FOR_FILES_SUPPLY_FOR_TO_MUST_MEASUR:
-    :cvar D_I:
-    :cvar PS_PERVASIVE_IN_HOUSE_ON_PERFORMANCE_ALS:
-    :cvar BUILD_RETRIEVES_COR_AMONG_TO_MUST_AND_INDUSTRY_FROM_THAT:
-    :cvar HMANIPULATE_US:
-    """
     UTHE_BASE_THE_ABILITY_INTO_TARGET_THE_TESTABILITY_DISCOVE = QName("{NISTSchema-SV-IV-atomic-QName-enumeration-5-NS}uthe.base_the_ability-into-target_the_testability-discove")
     FOR_FILES_SUPPLY_FOR_TO_MUST_MEASUR = QName("{NISTSchema-SV-IV-atomic-QName-enumeration-5-NS}_for-files.supply.for.to-must_measur")
     D_I = QName("{http://www.nist.gov/xsdNS}i")
@@ -25,9 +17,6 @@ class NistschemaSvIvAtomicQnameEnumeration5Type(Enum):
 
 @dataclass
 class TypeForFilesSupplyForToMustMeasur:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "_for-files.supply.for.to-must_measur"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-5-NS"
@@ -42,9 +31,6 @@ class TypeForFilesSupplyForToMustMeasur:
 
 @dataclass
 class HmanipulateUs:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "hmanipulate-us"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-5-NS"
@@ -59,9 +45,6 @@ class HmanipulateUs:
 
 @dataclass
 class PsPervasiveInHouseOnPerformanceAls:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "ps.pervasive.in-house_on.performance-als"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-5-NS"
@@ -76,9 +59,6 @@ class PsPervasiveInHouseOnPerformanceAls:
 
 @dataclass
 class UtheBaseTheAbilityIntoTargetTheTestabilityDiscove:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "uthe.base_the_ability-into-target_the_testability-discove"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-5-NS"
@@ -93,9 +73,6 @@ class UtheBaseTheAbilityIntoTargetTheTestabilityDiscove:
 
 @dataclass
 class NistschemaSvIvAtomicQnameEnumeration5:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-QName-enumeration-5"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-5-NS"

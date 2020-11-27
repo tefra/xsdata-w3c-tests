@@ -10,11 +10,6 @@ class Beta:
 
 @dataclass
 class Doc:
-    """
-    :ivar a:
-    :ivar b:
-    :ivar open_com_element:
-    """
     class Meta:
         name = "doc"
 

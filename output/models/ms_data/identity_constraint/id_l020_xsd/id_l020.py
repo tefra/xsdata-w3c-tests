@@ -6,9 +6,6 @@ __NAMESPACE__ = "myNS.tempuri.org"
 
 @dataclass
 class Ttype:
-    """
-    :ivar row:
-    """
     class Meta:
         name = "ttype"
 
@@ -23,10 +20,6 @@ class Ttype:
 
     @dataclass
     class Row:
-        """
-        :ivar value:
-        :ivar col:
-        """
         value: Optional[str] = field(
             default=None,
         )
@@ -47,9 +40,6 @@ class T(Ttype):
 
 @dataclass
 class Root:
-    """
-    :ivar t:
-    """
     class Meta:
         name = "root"
         namespace = "myNS.tempuri.org"

@@ -4,10 +4,6 @@ from typing import Dict
 
 @dataclass
 class T:
-    """
-    :ivar adam_com_eve_com_attributes:
-    :ivar any_attributes:
-    """
     adam_com_eve_com_attributes: Dict = field(
         default_factory=dict,
         metadata={

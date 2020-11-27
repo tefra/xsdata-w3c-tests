@@ -4,9 +4,6 @@ from typing import Optional
 
 @dataclass
 class T:
-    """
-    :ivar blah:
-    """
     class Meta:
         name = "t"
 

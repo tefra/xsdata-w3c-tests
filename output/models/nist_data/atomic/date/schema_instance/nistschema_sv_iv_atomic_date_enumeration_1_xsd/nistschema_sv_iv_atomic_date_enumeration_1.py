@@ -6,16 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-date-enumeration-1-NS"
 
 
 class NistschemaSvIvAtomicDateEnumeration1Type(Enum):
-    """
-    :cvar VALUE_1975_06_11:
-    :cvar VALUE_1997_12_26:
-    :cvar VALUE_1998_11_16:
-    :cvar VALUE_2023_08_17:
-    :cvar VALUE_2010_04_24:
-    :cvar VALUE_2028_06_23:
-    :cvar VALUE_2015_03_13:
-    :cvar VALUE_2026_01_04:
-    """
     VALUE_1975_06_11 = "1975-06-11"
     VALUE_1997_12_26 = "1997-12-26"
     VALUE_1998_11_16 = "1998-11-16"
@@ -28,9 +18,6 @@ class NistschemaSvIvAtomicDateEnumeration1Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicDateEnumeration1:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-date-enumeration-1"
         namespace = "NISTSchema-SV-IV-atomic-date-enumeration-1-NS"

@@ -6,16 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-byte-enumeration-3-NS"
 
 
 class NistschemaSvIvAtomicByteEnumeration3Type(Enum):
-    """
-    :cvar VALUE_60:
-    :cvar VALUE_62:
-    :cvar VALUE_5:
-    :cvar VALUE_MINUS_128:
-    :cvar VALUE_4:
-    :cvar VALUE_57:
-    :cvar VALUE_127:
-    :cvar VALUE_30:
-    """
     VALUE_60 = 60
     VALUE_62 = 62
     VALUE_5 = 5
@@ -28,9 +18,6 @@ class NistschemaSvIvAtomicByteEnumeration3Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicByteEnumeration3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-byte-enumeration-3"
         namespace = "NISTSchema-SV-IV-atomic-byte-enumeration-3-NS"

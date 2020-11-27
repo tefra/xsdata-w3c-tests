@@ -6,13 +6,6 @@ __NAMESPACE__ = "http://datypic.com/ord"
 
 @dataclass
 class ProductType:
-    """
-    :ivar number:
-    :ivar name:
-    :ivar size:
-    :ivar gift_wrap:
-    :ivar points:
-    """
     number: Optional[int] = field(
         default=None,
         metadata={
@@ -55,9 +48,6 @@ class ProductType:
 
 @dataclass
 class OrderType:
-    """
-    :ivar product:
-    """
     product: Optional[ProductType] = field(
         default=None,
         metadata={

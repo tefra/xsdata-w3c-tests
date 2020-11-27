@@ -6,10 +6,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class Testing:
-    """
-    :ivar e1:
-    :ivar e2:
-    """
     class Meta:
         name = "testing"
 

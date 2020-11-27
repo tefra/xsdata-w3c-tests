@@ -6,12 +6,6 @@ __NAMESPACE__ = "http://xstest-tns/schema11_D3_4_28_v03"
 
 @dataclass
 class DTimeStampRoot:
-    """
-    :ivar eld_time_stamp_pattern:
-    :ivar eld_time_stamp_list_a:
-    :ivar eld_time_stamp_list_b:
-    :ivar eld_time_stamp_list_c:
-    """
     class Meta:
         name = "dTimeStampRoot"
 
@@ -60,9 +54,6 @@ class DTimeStampRoot:
 
 @dataclass
 class EldTimeStampListC:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "eldTimeStampListC"
         namespace = "http://xstest-tns/schema11_D3_4_28_v03"

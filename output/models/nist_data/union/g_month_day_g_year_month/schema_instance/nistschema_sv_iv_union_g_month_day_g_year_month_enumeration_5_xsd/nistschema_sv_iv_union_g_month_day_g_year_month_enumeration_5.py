@@ -6,16 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-union-gMonthDay-gYearMonth-enumeration-5-NS"
 
 
 class NistschemaSvIvUnionGMonthDayGYearMonthEnumeration5Type(Enum):
-    """
-    :cvar VALUE_05_07:
-    :cvar VALUE_07_18:
-    :cvar VALUE_2011_09:
-    :cvar VALUE_2019_10:
-    :cvar VALUE_03_13:
-    :cvar VALUE_02_15:
-    :cvar VALUE_11_30:
-    :cvar VALUE_1997_02:
-    """
     VALUE_05_07 = "--05-07"
     VALUE_07_18 = "--07-18"
     VALUE_2011_09 = "2011-09"
@@ -28,9 +18,6 @@ class NistschemaSvIvUnionGMonthDayGYearMonthEnumeration5Type(Enum):
 
 @dataclass
 class NistschemaSvIvUnionGMonthDayGYearMonthEnumeration5:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-union-gMonthDay-gYearMonth-enumeration-5"
         namespace = "NISTSchema-SV-IV-union-gMonthDay-gYearMonth-enumeration-5-NS"

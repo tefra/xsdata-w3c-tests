@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://simple012.ly/"
 
 @dataclass
 class DocType:
-    """
-    :ivar chap:
-    """
     class Meta:
         name = "doc-type"
 
@@ -24,9 +21,6 @@ class DocType:
 
 @dataclass
 class SubDocType:
-    """
-    :ivar chap:
-    """
     class Meta:
         name = "sub-doc-type"
 
@@ -56,10 +50,6 @@ class Subdoc(SubDocType):
 
 @dataclass
 class Book:
-    """
-    :ivar subdoc:
-    :ivar doc:
-    """
     class Meta:
         name = "book"
         namespace = "http://simple012.ly/"

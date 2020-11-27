@@ -7,24 +7,12 @@ __NAMESPACE__ = "foo"
 
 
 class SimpleType(Enum):
-    """
-    :cvar YES:
-    :cvar NO:
-    """
     YES = "yes"
     NO = "no"
 
 
 @dataclass
 class ComplexType:
-    """
-    :ivar in_value:
-    :ivar root:
-    :ivar out:
-    :ivar g_att:
-    :ivar add:
-    :ivar tail:
-    """
     class Meta:
         name = "complexType"
 

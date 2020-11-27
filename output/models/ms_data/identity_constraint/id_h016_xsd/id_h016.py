@@ -4,9 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Kid:
-    """
-    :ivar val:
-    """
     class Meta:
         name = "kid"
 
@@ -20,9 +17,6 @@ class Kid:
 
 @dataclass
 class Uid:
-    """
-    :ivar val:
-    """
     class Meta:
         name = "uid"
 
@@ -37,10 +31,6 @@ class Uid:
 
 @dataclass
 class Root:
-    """
-    :ivar uid:
-    :ivar kid:
-    """
     class Meta:
         name = "root"
 

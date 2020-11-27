@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class Bar:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "bar"
         namespace = "http://xsdtesting"
@@ -25,10 +22,6 @@ class Bar:
 
 @dataclass
 class Foo:
-    """
-    :ivar other_element:
-    :ivar a_element:
-    """
     class Meta:
         name = "foo"
         namespace = "http://xsdtesting"

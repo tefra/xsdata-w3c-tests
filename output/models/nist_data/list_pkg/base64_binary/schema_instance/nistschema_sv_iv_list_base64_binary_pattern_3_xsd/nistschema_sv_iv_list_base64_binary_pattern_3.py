@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-base64Binary-pattern-3-NS"
 
 @dataclass
 class NistschemaSvIvListBase64BinaryPattern3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-base64Binary-pattern-3"
         namespace = "NISTSchema-SV-IV-list-base64Binary-pattern-3-NS"

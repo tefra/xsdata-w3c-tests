@@ -6,15 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-positiveInteger-enumeration-5-NS"
 
 
 class NistschemaSvIvAtomicPositiveIntegerEnumeration5Type(Enum):
-    """
-    :cvar VALUE_85265:
-    :cvar VALUE_2633:
-    :cvar VALUE_20007586335496:
-    :cvar VALUE_24394:
-    :cvar VALUE_15836086414917927:
-    :cvar VALUE_84017762294:
-    :cvar VALUE_378362663062:
-    """
     VALUE_85265 = 85265
     VALUE_2633 = 2633
     VALUE_20007586335496 = 20007586335496
@@ -26,9 +17,6 @@ class NistschemaSvIvAtomicPositiveIntegerEnumeration5Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicPositiveIntegerEnumeration5:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-positiveInteger-enumeration-5"
         namespace = "NISTSchema-SV-IV-atomic-positiveInteger-enumeration-5-NS"

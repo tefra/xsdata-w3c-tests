@@ -4,11 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Para:
-    """
-    :ivar value:
-    :ivar id:
-    :ivar idref:
-    """
     class Meta:
         name = "para"
 
@@ -31,9 +26,6 @@ class Para:
 
 @dataclass
 class Doc:
-    """
-    :ivar para:
-    """
     class Meta:
         name = "doc"
 

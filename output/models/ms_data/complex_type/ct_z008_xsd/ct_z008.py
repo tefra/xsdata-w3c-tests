@@ -4,10 +4,6 @@ from typing import List
 
 @dataclass
 class Root:
-    """
-    :ivar a:
-    :ivar b:
-    """
     a: List[object] = field(
         default_factory=list,
         metadata={

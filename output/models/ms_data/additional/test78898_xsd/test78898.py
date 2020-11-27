@@ -4,9 +4,6 @@ from typing import List, Optional, Type
 
 @dataclass
 class Att1:
-    """
-    :ivar att:
-    """
     class Meta:
         name = "att1"
 
@@ -20,10 +17,6 @@ class Att1:
 
 @dataclass
 class Att2:
-    """
-    :ivar att1:
-    :ivar att2:
-    """
     class Meta:
         name = "att2"
 
@@ -43,9 +36,6 @@ class Att2:
 
 @dataclass
 class E1:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "e1"
 
@@ -60,10 +50,6 @@ class E1:
 
 @dataclass
 class M3:
-    """
-    :ivar e31:
-    :ivar att:
-    """
     class Meta:
         name = "m3"
 
@@ -86,10 +72,6 @@ class M3:
 
 @dataclass
 class M6:
-    """
-    :ivar any_element:
-    :ivar att:
-    """
     class Meta:
         name = "m6"
 
@@ -140,11 +122,6 @@ class E8(Att1):
 
 @dataclass
 class M4:
-    """
-    :ivar e41:
-    :ivar e3:
-    :ivar att:
-    """
     class Meta:
         name = "m4"
 
@@ -182,10 +159,6 @@ class E4(M4):
 
 @dataclass
 class M5:
-    """
-    :ivar e3_or_e4_or_e5:
-    :ivar att:
-    """
     class Meta:
         name = "m5"
 
@@ -225,16 +198,6 @@ class E5(M5):
 
 @dataclass
 class Ct1:
-    """
-    :ivar e1:
-    :ivar e2:
-    :ivar e3:
-    :ivar e4:
-    :ivar e5:
-    :ivar e6:
-    :ivar e7:
-    :ivar e8:
-    """
     class Meta:
         name = "ct1"
 

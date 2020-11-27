@@ -6,13 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-NMTOKEN-enumeration-1-NS"
 
 
 class NistschemaSvIvAtomicNmtokenEnumeration1Type(Enum):
-    """
-    :cvar INTERNET_WILL_THAT_TO_MAD:
-    :cvar COMPUTING_NSRL_CAN_A_TO_OF_MUST_PERV:
-    :cvar LAUNCHING_CORRECTNESS_REVISIONS_AND_SP:
-    :cvar THAT_COST_BUSINESS_FOR_ARE_INDUSTRIES_PROCESSES_PICO:
-    :cvar COLLABORATE_TOOLS_WE_WITH_EACH_THE_RELATIONSHIPS_NETWOR:
-    """
     INTERNET_WILL_THAT_TO_MAD = "Internet_will:_that:to_mad"
     COMPUTING_NSRL_CAN_A_TO_OF_MUST_PERV = "computing-NSRL.can:a.to-of:must-perv"
     LAUNCHING_CORRECTNESS_REVISIONS_AND_SP = "launching.correctness_revisions_and.sp"
@@ -22,9 +15,6 @@ class NistschemaSvIvAtomicNmtokenEnumeration1Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicNmtokenEnumeration1:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-NMTOKEN-enumeration-1"
         namespace = "NISTSchema-SV-IV-atomic-NMTOKEN-enumeration-1-NS"

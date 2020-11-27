@@ -6,11 +6,6 @@ __NAMESPACE__ = "tns"
 
 @dataclass
 class ChildType:
-    """
-    :ivar content:
-    :ivar type1:
-    :ivar type2:
-    """
     class Meta:
         name = "childType"
 
@@ -38,9 +33,6 @@ class ChildType:
 
 @dataclass
 class Root:
-    """
-    :ivar child:
-    """
     class Meta:
         name = "root"
         namespace = "tns"

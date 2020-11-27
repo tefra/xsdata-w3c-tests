@@ -6,10 +6,6 @@ __NAMESPACE__ = "a"
 
 @dataclass
 class T:
-    """
-    :ivar e1:
-    :ivar e2:
-    """
     class Meta:
         name = "t"
 
@@ -32,9 +28,6 @@ class T:
 
     @dataclass
     class E1:
-        """
-        :ivar any_attributes:
-        """
         any_attributes: Dict = field(
             default_factory=dict,
             metadata={
@@ -45,9 +38,6 @@ class T:
 
     @dataclass
     class E2:
-        """
-        :ivar any_attributes:
-        """
         any_attributes: Dict = field(
             default_factory=dict,
             metadata={

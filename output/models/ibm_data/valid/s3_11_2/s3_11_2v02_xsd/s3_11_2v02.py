@@ -6,11 +6,6 @@ __NAMESPACE__ = "a"
 
 @dataclass
 class Numtype:
-    """
-    :ivar value:
-    :ivar id_1:
-    :ivar id_2:
-    """
     class Meta:
         name = "numtype"
 
@@ -33,9 +28,6 @@ class Numtype:
 
 @dataclass
 class Root:
-    """
-    :ivar number:
-    """
     class Meta:
         name = "root"
         namespace = "a"

@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/identityConstraintDefs"
 
 @dataclass
 class Root:
-    """
-    :ivar element:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/identityConstraintDefs"
@@ -24,11 +21,6 @@ class Root:
 
     @dataclass
     class Element:
-        """
-        :ivar id:
-        :ivar idref:
-        :ivar idrefs:
-        """
         id: Optional[str] = field(
             default=None,
             metadata={

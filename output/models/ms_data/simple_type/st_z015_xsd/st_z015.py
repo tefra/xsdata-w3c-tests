@@ -4,10 +4,6 @@ from typing import Optional
 
 @dataclass
 class Root:
-    """
-    :ivar total1:
-    :ivar total2:
-    """
     total1: Optional[int] = field(
         default=None,
         metadata={

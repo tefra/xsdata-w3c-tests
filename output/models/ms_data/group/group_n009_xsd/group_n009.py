@@ -4,13 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Elem:
-    """
-    :ivar a1:
-    :ivar a2:
-    :ivar a3:
-    :ivar a4:
-    :ivar a5:
-    """
     class Meta:
         name = "elem"
 
@@ -63,9 +56,6 @@ class Elem:
 
 @dataclass
 class Doc:
-    """
-    :ivar elem:
-    """
     class Meta:
         name = "doc"
 

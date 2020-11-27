@@ -4,17 +4,11 @@ from typing import Optional
 
 
 class FooType(Enum):
-    """
-    :cvar CA:
-    """
     CA = "CA"
 
 
 @dataclass
 class Root:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "root"
 

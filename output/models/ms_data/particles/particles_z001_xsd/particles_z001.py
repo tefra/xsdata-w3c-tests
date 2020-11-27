@@ -6,10 +6,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class Base:
-    """
-    :ivar annotation:
-    :ivar element_or_any:
-    """
     annotation: Optional[object] = field(
         default=None,
         metadata={
@@ -39,11 +35,6 @@ class Base:
 
 @dataclass
 class Derived:
-    """
-    :ivar annotation:
-    :ivar element:
-    :ivar any:
-    """
     annotation: Optional[object] = field(
         default=None,
         metadata={
@@ -69,9 +60,6 @@ class Derived:
 
 @dataclass
 class Doc:
-    """
-    :ivar elem:
-    """
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"

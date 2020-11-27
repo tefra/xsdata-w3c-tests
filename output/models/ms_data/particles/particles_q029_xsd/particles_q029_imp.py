@@ -6,9 +6,6 @@ __NAMESPACE__ = "foo"
 
 @dataclass
 class E2:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "e2"
         namespace = "foo"
@@ -25,9 +22,6 @@ class E2:
 
 @dataclass
 class ImpElem1:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "impElem1"
         namespace = "foo"

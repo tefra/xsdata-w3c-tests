@@ -8,9 +8,6 @@ __NAMESPACE__ = "urn:test"
 
 @dataclass
 class Info2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "info2"
         namespace = "urn:test"
@@ -23,9 +20,5 @@ class Info2:
     )
 
     class Value(Enum):
-        """
-        :cvar A:
-        :cvar B:
-        """
         A = "a"
         B = "b"

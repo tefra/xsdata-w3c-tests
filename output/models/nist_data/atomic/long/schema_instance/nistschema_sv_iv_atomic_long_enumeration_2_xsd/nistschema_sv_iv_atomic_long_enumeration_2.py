@@ -6,16 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-long-enumeration-2-NS"
 
 
 class NistschemaSvIvAtomicLongEnumeration2Type(Enum):
-    """
-    :cvar VALUE_MINUS_60196439767:
-    :cvar VALUE_29044724:
-    :cvar VALUE_528615:
-    :cvar VALUE_MINUS_36983185:
-    :cvar VALUE_649699813723:
-    :cvar VALUE_MINUS_53330603926218023:
-    :cvar VALUE_MINUS_4958442914:
-    :cvar VALUE_MINUS_530271545:
-    """
     VALUE_MINUS_60196439767 = -60196439767
     VALUE_29044724 = 29044724
     VALUE_528615 = 528615
@@ -28,9 +18,6 @@ class NistschemaSvIvAtomicLongEnumeration2Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicLongEnumeration2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-long-enumeration-2"
         namespace = "NISTSchema-SV-IV-atomic-long-enumeration-2-NS"

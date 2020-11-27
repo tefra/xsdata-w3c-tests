@@ -11,11 +11,6 @@ class Alpha:
 
 @dataclass
 class Doc:
-    """
-    :ivar content:
-    :ivar a:
-    :ivar b:
-    """
     class Meta:
         name = "doc"
 

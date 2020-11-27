@@ -4,11 +4,6 @@ from typing import Optional
 
 @dataclass
 class E1:
-    """
-    :ivar e3:
-    :ivar e4:
-    :ivar e5:
-    """
     class Meta:
         name = "e1"
         nillable = True
@@ -39,9 +34,6 @@ class E1:
 
 @dataclass
 class Root:
-    """
-    :ivar e1:
-    """
     class Meta:
         name = "root"
 

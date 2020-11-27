@@ -6,9 +6,6 @@ __NAMESPACE__ = "baseTD"
 
 @dataclass
 class Root:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "root"
         namespace = "baseTD"

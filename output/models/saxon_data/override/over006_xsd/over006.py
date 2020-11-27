@@ -5,11 +5,6 @@ from typing import List, Optional
 
 @dataclass
 class Section:
-    """
-    :ivar head:
-    :ivar section:
-    :ivar nr:
-    """
     class Meta:
         name = "section"
 

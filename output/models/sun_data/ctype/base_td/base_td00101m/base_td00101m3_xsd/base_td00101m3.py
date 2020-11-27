@@ -6,9 +6,6 @@ __NAMESPACE__ = "baseTD"
 
 @dataclass
 class Test1:
-    """
-    :ivar abc:
-    """
     abc: List[str] = field(
         default_factory=list,
         metadata={

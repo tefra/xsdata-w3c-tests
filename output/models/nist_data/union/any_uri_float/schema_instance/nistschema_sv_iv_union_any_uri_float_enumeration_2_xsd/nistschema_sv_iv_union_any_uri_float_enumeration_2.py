@@ -6,13 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-union-anyURI-float-enumeration-2-NS"
 
 
 class NistschemaSvIvUnionAnyUriFloatEnumeration2Type(Enum):
-    """
-    :cvar NEWS_THEANDINDUS_RYESTABLIS_PERMITTING_SOFIN_ORG:
-    :cvar VALUE_1_5462377_E_25:
-    :cvar NEWS_AR_ORG:
-    :cvar FTP_MATCHDISPLA_NISTOURTHE_SFILEAK_ORG:
-    :cvar VALUE_1_7554835_E_36:
-    """
     NEWS_THEANDINDUS_RYESTABLIS_PERMITTING_SOFIN_ORG = "news://theandindus.ryestablis.permitting.sofin.org"
     VALUE_1_5462377_E_25 = "1.5462377E-25"
     NEWS_AR_ORG = "news://ar.org"
@@ -22,9 +15,6 @@ class NistschemaSvIvUnionAnyUriFloatEnumeration2Type(Enum):
 
 @dataclass
 class NistschemaSvIvUnionAnyUriFloatEnumeration2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-union-anyURI-float-enumeration-2"
         namespace = "NISTSchema-SV-IV-union-anyURI-float-enumeration-2-NS"

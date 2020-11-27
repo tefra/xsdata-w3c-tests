@@ -6,10 +6,6 @@ __NAMESPACE__ = "foo"
 
 @dataclass
 class Foo:
-    """
-    :ivar foo:
-    :ivar bar:
-    """
     class Meta:
         name = "foo"
 
@@ -31,10 +27,6 @@ class Foo:
 
     @dataclass
     class Bar:
-        """
-        :ivar foo:
-        :ivar bar:
-        """
         foo: Optional[object] = field(
             default=None,
             metadata={

@@ -6,17 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-base64Binary-enumeration-2-NS"
 
 
 class NistschemaSvIvAtomicBase64BinaryEnumeration2Type(Enum):
-    """
-    :cvar DMXPB_XRPBN_J3A_WLWAMP3_ZXHI_ZXJ0C_XBX:
-    :cvar D2XNBM_NK_ZWN4_ZWZLE_HNQ_YXZKC2XLC_XRIDN_Z1A_XV0A_GHZDM_Z0_ZWXWBNDI_ZMLN:
-    :cvar ZGDQB_G5HC2TZE_WN2B_W5QC_HDHCNHUCN_FND_XZIC_XF5CM_RJ:
-    :cvar ZHFZB_WXNB_WVW:
-    :cvar D_GVMD3_BSB_WRM_Y3HTC_G1KD2_JOA_WZTCNHOB_XZL_YWVN_YXRL_YWXWBM1ME_W14D_XU:
-    :cvar C_WFO_YND1D_GZLE_WV3D3_RRA3_NPBN_FI_ZGNQAMDRC_WF4_YXZ5_Y3_RI:
-    :cvar C2DMC2_ZH_ZXBU_ZGZN_Y214_Z2_RSD2_N4AM1HB_XL3_ZGRU_Y3HPC_HZSC_HLZE_WPK_ZHNWC_GDWB_GLP_ZXJZA_HRQAW:
-    :cvar D_XZI_Z3_RKC_GXW_Z3HKC3_FQE_GZTCM_VSB_HNQA_W5QE_HLMA2_Z5B_XZI_YM_VR_ZM_Z2_Z2XXD_HB4B_W5YC_HZ0AN_Z2AMTVD2_N1A_WH2D_WDI_ZGLTDW:
-    :cvar D3_N5C_HJO_Z250A_WTM_YML2_ZGN2B_GZ4CN_ZK:
-    """
     DMXPB_XRPBN_J3A_WLWAMP3_ZXHI_ZXJ0C_XBX = "dmxpbXRpbnJ3aWlwamp3ZXhiZXJ0cXBx"
     D2XNBM_NK_ZWN4_ZWZLE_HNQ_YXZKC2XLC_XRIDN_Z1A_XV0A_GHZDM_Z0_ZWXWBNDI_ZMLN = "d2xnbmNkZWN4ZWZleHNqYXZkc2xlcXRidnZ1aXV0aGhzdmZ0ZWxwbndiZmln"
     ZGDQB_G5HC2TZE_WN2B_W5QC_HDHCNHUCN_FND_XZIC_XF5CM_RJ = "ZGdqbG5hc2tzeWN2bW5qcHdhcnhucnFndXZicXF5cmRj"
@@ -30,9 +19,6 @@ class NistschemaSvIvAtomicBase64BinaryEnumeration2Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicBase64BinaryEnumeration2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-base64Binary-enumeration-2"
         namespace = "NISTSchema-SV-IV-atomic-base64Binary-enumeration-2-NS"

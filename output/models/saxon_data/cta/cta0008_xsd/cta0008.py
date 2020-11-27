@@ -4,12 +4,6 @@ from typing import List, Optional, Union
 
 @dataclass
 class PublicationType:
-    """
-    :ivar title:
-    :ivar author:
-    :ivar date:
-    :ivar kind:
-    """
     title: Optional[str] = field(
         default=None,
         metadata={
@@ -43,9 +37,6 @@ class PublicationType:
 
 @dataclass
 class Example:
-    """
-    :ivar publication:
-    """
     publication: List[Union[PublicationType, "Example.KindBook"]] = field(
         default_factory=list,
         metadata={
@@ -57,10 +48,6 @@ class Example:
 
     @dataclass
     class KindBook(PublicationType):
-        """
-        :ivar isbn:
-        :ivar publisher:
-        """
         isbn: Optional[str] = field(
             default=None,
             metadata={

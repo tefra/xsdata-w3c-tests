@@ -6,15 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-anyURI-enumeration-4-NS"
 
 
 class NistschemaSvIvAtomicAnyUriEnumeration4Type(Enum):
-    """
-    :cvar GOPHER_THESEDEFINE_ESCRIBESOF_HOSEINDUSTR_EDU:
-    :cvar NEWS_ABLERESULTP_OVIDEDFO_ORG:
-    :cvar TELNET_CORRECTIONO_FORINFORMA_IONBUILDCA_ABILITIES_COM:
-    :cvar FTP_BYSYNTAXINF_RMATIONRET_IEVA_ORG:
-    :cvar GOPHER_GROUPSRELA_GOV:
-    :cvar FTP_FTP_ISSUESQUALI_YENSUREAND_HISTESTSCR_ATIONFORC_COM:
-    :cvar NEWS_XMLAOF_MARKU_ONINOFSTAN_ARDSLACKRE_RIEVE_DE_GOV:
-    """
     GOPHER_THESEDEFINE_ESCRIBESOF_HOSEINDUSTR_EDU = "gopher://thesedefine.escribesof.hoseindustr.edu"
     NEWS_ABLERESULTP_OVIDEDFO_ORG = "news://ableresultp.ovidedfo.org"
     TELNET_CORRECTIONO_FORINFORMA_IONBUILDCA_ABILITIES_COM = "telnet://correctiono.forinforma.ionbuildca.abilities.com"
@@ -26,9 +17,6 @@ class NistschemaSvIvAtomicAnyUriEnumeration4Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicAnyUriEnumeration4:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-anyURI-enumeration-4"
         namespace = "NISTSchema-SV-IV-atomic-anyURI-enumeration-4-NS"

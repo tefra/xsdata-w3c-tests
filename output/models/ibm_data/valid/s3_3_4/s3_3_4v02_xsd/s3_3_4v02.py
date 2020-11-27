@@ -4,10 +4,6 @@ from typing import Dict, Optional
 
 @dataclass
 class AnyAttr:
-    """
-    :ivar id1:
-    :ivar any_attributes:
-    """
     class Meta:
         name = "anyAttr"
 
@@ -28,9 +24,6 @@ class AnyAttr:
 
 @dataclass
 class Root:
-    """
-    :ivar a:
-    """
     class Meta:
         name = "root"
 

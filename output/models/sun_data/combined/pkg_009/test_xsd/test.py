@@ -7,12 +7,6 @@ __NAMESPACE__ = "urn:foo"
 
 @dataclass
 class Add:
-    """
-    :ivar a:
-    :ivar b:
-    :ivar c:
-    :ivar d:
-    """
     class Meta:
         name = "add"
         namespace = "urn:foo"
@@ -45,11 +39,6 @@ class Add:
 
 @dataclass
 class Base:
-    """
-    :ivar a:
-    :ivar b:
-    :ivar c:
-    """
     class Meta:
         name = "base"
         namespace = "urn:foo"
@@ -79,11 +68,6 @@ class Base:
 
 @dataclass
 class Default:
-    """
-    :ivar a:
-    :ivar b:
-    :ivar c:
-    """
     class Meta:
         name = "default"
         namespace = "urn:foo"
@@ -110,11 +94,6 @@ class Default:
 
 @dataclass
 class Override:
-    """
-    :ivar a:
-    :ivar b:
-    :ivar c:
-    """
     class Meta:
         name = "override"
         namespace = "urn:foo"
@@ -139,19 +118,11 @@ class Override:
     )
 
     class A(Enum):
-        """
-        :cvar FIXED:
-        """
         FIXED = "fixed"
 
 
 @dataclass
 class Prohibit:
-    """
-    :ivar a:
-    :ivar b:
-    :ivar c:
-    """
     class Meta:
         name = "prohibit"
         namespace = "urn:foo"

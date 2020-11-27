@@ -7,10 +7,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class InternationalPrice:
-    """
-    :ivar value:
-    :ivar currency:
-    """
     class Meta:
         name = "internationalPrice"
         namespace = "http://xsdtesting"
@@ -29,9 +25,6 @@ class InternationalPrice:
 
 @dataclass
 class Doc:
-    """
-    :ivar international_price:
-    """
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"

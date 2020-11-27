@@ -6,9 +6,6 @@ __NAMESPACE__ = "q"
 
 @dataclass
 class Bar:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "bar"
         namespace = "q"

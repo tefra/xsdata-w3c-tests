@@ -4,9 +4,6 @@ from typing import Dict, Optional
 
 @dataclass
 class Base1:
-    """
-    :ivar foo:
-    """
     foo: Optional[str] = field(
         default=None,
         metadata={
@@ -17,10 +14,6 @@ class Base1:
 
 @dataclass
 class Base2:
-    """
-    :ivar foo:
-    :ivar local_attributes:
-    """
     foo: Optional[str] = field(
         default=None,
         metadata={
@@ -38,10 +31,6 @@ class Base2:
 
 @dataclass
 class Base3:
-    """
-    :ivar foo:
-    :ivar local_attributes:
-    """
     foo: Optional[str] = field(
         default=None,
         metadata={
@@ -64,9 +53,6 @@ class Derived1(Base1):
 
 @dataclass
 class Derived2(Base2):
-    """
-    :ivar bar:
-    """
     bar: Optional[str] = field(
         default=None,
         metadata={
@@ -82,11 +68,6 @@ class Derived3(Base3):
 
 @dataclass
 class Doc:
-    """
-    :ivar elem1:
-    :ivar elem2:
-    :ivar elem3:
-    """
     class Meta:
         name = "doc"
 

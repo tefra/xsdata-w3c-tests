@@ -6,15 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-string-enumeration-4-NS"
 
 
 class NistschemaSvIvListStringEnumeration4Type(Enum):
-    """
-    :cvar MANIPULATE_IS_THIS_OF_WOULD_BUILT_FOR_USE:
-    :cvar AND_DEVELOPING_OBJECT_NSRL_MAINTAINED_MEETS_THE_IMPLEMENTATIONS_MANIPULATE:
-    :cvar A_THE_SUPPLY_THE_AND_POPULAR_UNBIASED:
-    :cvar INVESTIGATION_TO_THE_CAPABILITIES_THEM:
-    :cvar ORGANIZATIONS_SCREEN_SUBCOMMITTEE_STANDARDS_SIMULATION_METHODS:
-    :cvar CREATION_ORGANIZATION_AND_SET_WELL_3_D_INTEROPERABILITY_PARTNERSHIPS_OTHER:
-    :cvar OF_AUTOMATICALLY_XSLT_XPATH_WIDESPREAD_APIS_IF_COMMUNICATION_THOSE_W3_C:
-    """
     MANIPULATE_IS_THIS_OF_WOULD_BUILT_FOR_USE = "manipulate is this of would built for use"
     AND_DEVELOPING_OBJECT_NSRL_MAINTAINED_MEETS_THE_IMPLEMENTATIONS_MANIPULATE = "and developing object NSRL maintained meets the implementations manipulate"
     A_THE_SUPPLY_THE_AND_POPULAR_UNBIASED = "a The supply the and popular unbiased"
@@ -26,9 +17,6 @@ class NistschemaSvIvListStringEnumeration4Type(Enum):
 
 @dataclass
 class NistschemaSvIvListStringEnumeration4:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-string-enumeration-4"
         namespace = "NISTSchema-SV-IV-list-string-enumeration-4-NS"

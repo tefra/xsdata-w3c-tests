@@ -5,11 +5,6 @@ from typing import Dict, List, Optional
 
 @dataclass
 class MessageType:
-    """
-    :ivar any_element:
-    :ivar kind:
-    :ivar any_attributes:
-    """
     class Meta:
         name = "messageType"
 
@@ -36,15 +31,6 @@ class MessageType:
     )
 
     class Value(Enum):
-        """
-        :cvar STRING:
-        :cvar BASE64:
-        :cvar BINARY:
-        :cvar DATE:
-        :cvar TIME:
-        :cvar XML:
-        :cvar XML_1:
-        """
         STRING = "string"
         BASE64 = "base64"
         BINARY = "binary"
@@ -56,11 +42,6 @@ class MessageType:
 
 @dataclass
 class MessageTypeXml:
-    """
-    :ivar any_element:
-    :ivar kind:
-    :ivar any_attributes:
-    """
     class Meta:
         name = "messageTypeXML"
 
@@ -87,15 +68,6 @@ class MessageTypeXml:
     )
 
     class Value(Enum):
-        """
-        :cvar STRING:
-        :cvar BASE64:
-        :cvar BINARY:
-        :cvar DATE:
-        :cvar TIME:
-        :cvar XML:
-        :cvar XML_1:
-        """
         STRING = "string"
         BASE64 = "base64"
         BINARY = "binary"
@@ -113,9 +85,6 @@ class Message(MessageType):
 
 @dataclass
 class Messages:
-    """
-    :ivar message:
-    """
     class Meta:
         name = "messages"
 

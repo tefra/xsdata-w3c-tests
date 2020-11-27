@@ -8,10 +8,6 @@ __NAMESPACE__ = "http://cta0002/"
 
 @dataclass
 class T:
-    """
-    :ivar e:
-    :ivar min:
-    """
     class Meta:
         name = "t"
 
@@ -31,20 +27,12 @@ class T:
     )
 
     class Min(Enum):
-        """
-        :cvar VALUE_0:
-        :cvar VALUE_1:
-        """
         VALUE_0 = 0
         VALUE_1 = 1
 
 
 @dataclass
 class Treq:
-    """
-    :ivar e:
-    :ivar min:
-    """
     class Meta:
         name = "treq"
 
@@ -65,10 +53,6 @@ class Treq:
     )
 
     class Min(Enum):
-        """
-        :cvar VALUE_0:
-        :cvar VALUE_1:
-        """
         VALUE_0 = 0
         VALUE_1 = 1
 
@@ -82,9 +66,6 @@ class Message(T):
 
 @dataclass
 class Messages:
-    """
-    :ivar message:
-    """
     class Meta:
         name = "messages"
         namespace = "http://cta0002/"

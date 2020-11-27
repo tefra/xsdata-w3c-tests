@@ -6,9 +6,6 @@ __NAMESPACE__ = "ns"
 
 @dataclass
 class Doc:
-    """
-    :ivar elem:
-    """
     class Meta:
         name = "doc"
         namespace = "ns"
@@ -22,9 +19,6 @@ class Doc:
 
     @dataclass
     class Elem:
-        """
-        :ivar att:
-        """
         att: int = field(
             init=False,
             default=123,

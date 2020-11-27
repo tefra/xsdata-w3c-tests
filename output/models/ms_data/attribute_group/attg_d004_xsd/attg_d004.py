@@ -4,9 +4,6 @@ from typing import Optional
 
 @dataclass
 class AttgRef:
-    """
-    :ivar att1:
-    """
     class Meta:
         name = "attgRef"
 
@@ -20,9 +17,6 @@ class AttgRef:
 
 @dataclass
 class Doc:
-    """
-    :ivar elem:
-    """
     class Meta:
         name = "doc"
 

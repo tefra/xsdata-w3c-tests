@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-hexBinary-length-3-NS"
 
 @dataclass
 class NistschemaSvIvAtomicHexBinaryLength3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-hexBinary-length-3"
         namespace = "NISTSchema-SV-IV-atomic-hexBinary-length-3-NS"

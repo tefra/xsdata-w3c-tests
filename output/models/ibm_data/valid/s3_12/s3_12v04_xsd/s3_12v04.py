@@ -7,10 +7,6 @@ __NAMESPACE__ = "http://xstest-tns"
 
 @dataclass
 class AnySimpleType:
-    """
-    :ivar value:
-    :ivar type:
-    """
     class Meta:
         name = "anySimpleType"
 
@@ -27,10 +23,6 @@ class AnySimpleType:
 
 @dataclass
 class DoubleType:
-    """
-    :ivar value:
-    :ivar type:
-    """
     class Meta:
         name = "doubleType"
 
@@ -47,10 +39,6 @@ class DoubleType:
 
 @dataclass
 class FloatType:
-    """
-    :ivar value:
-    :ivar type:
-    """
     class Meta:
         name = "floatType"
 
@@ -67,9 +55,6 @@ class FloatType:
 
 @dataclass
 class Root:
-    """
-    :ivar elem1:
-    """
     class Meta:
         name = "root"
         namespace = "http://xstest-tns"

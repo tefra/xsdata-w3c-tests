@@ -6,18 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-anyURI-enumeration-1-NS"
 
 
 class NistschemaSvIvAtomicAnyUriEnumeration1Type(Enum):
-    """
-    :cvar HTTP_THEISTE_COM:
-    :cvar MAILTO_PROV_ORG:
-    :cvar FTP_H_COM:
-    :cvar MAILTO_DEVIC_MANIPULATIONANDABILITYSPECIFICA_GOV:
-    :cvar HTTP_WWW_SYSTEMSWEBI_TEROPERABI_ITYBEANDOF_HIC_EDU:
-    :cvar GOPHER_CONFORMANCE_UP_COM:
-    :cvar TELNET_F_ORG:
-    :cvar HTTP_WWW_ASSERIES_GOV:
-    :cvar TELNET_WIT_EDU:
-    :cvar FTP_FTP_ATHECONSTIT_ENT_OASISRE_RIE_NET:
-    """
     HTTP_THEISTE_COM = "http://Theiste.com"
     MAILTO_PROV_ORG = "mailto:@prov.org"
     FTP_H_COM = "ftp://h.com"
@@ -32,9 +20,6 @@ class NistschemaSvIvAtomicAnyUriEnumeration1Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicAnyUriEnumeration1:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-anyURI-enumeration-1"
         namespace = "NISTSchema-SV-IV-atomic-anyURI-enumeration-1-NS"

@@ -6,16 +6,6 @@ __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
 @dataclass
 class T:
-    """
-    :ivar s1:
-    :ivar s:
-    :ivar n1:
-    :ivar n:
-    :ivar any_element:
-    :ivar a:
-    :ivar b:
-    :ivar c:
-    """
     s1: List[str] = field(
         default_factory=list,
         metadata={
@@ -84,9 +74,6 @@ class T:
 
 @dataclass
 class A:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "a"
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
@@ -101,9 +88,6 @@ class A:
 
 @dataclass
 class B:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "b"
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
@@ -118,9 +102,6 @@ class B:
 
 @dataclass
 class C:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "c"
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
@@ -135,9 +116,6 @@ class C:
 
 @dataclass
 class E:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "e"
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
@@ -152,9 +130,6 @@ class E:
 
 @dataclass
 class N:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "n"
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
@@ -169,9 +144,6 @@ class N:
 
 @dataclass
 class N1:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "n1"
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
@@ -186,9 +158,6 @@ class N1:
 
 @dataclass
 class S:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "s"
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
@@ -203,9 +172,6 @@ class S:
 
 @dataclass
 class S1:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "s1"
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"

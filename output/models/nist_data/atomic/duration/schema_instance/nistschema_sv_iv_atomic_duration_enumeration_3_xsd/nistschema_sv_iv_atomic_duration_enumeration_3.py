@@ -6,18 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-duration-enumeration-3-NS"
 
 
 class NistschemaSvIvAtomicDurationEnumeration3Type(Enum):
-    """
-    :cvar P2014_Y02_M13_DT07_H57_M16_S:
-    :cvar P1971_Y01_M25_DT00_H00_M13_S:
-    :cvar P1992_Y03_M13_DT23_H32_M32_S:
-    :cvar P1999_Y01_M17_DT20_H04_M34_S:
-    :cvar P1974_Y07_M30_DT07_H58_M46_S:
-    :cvar P1979_Y12_M12_DT13_H36_M50_S:
-    :cvar P2018_Y05_M02_DT20_H30_M41_S:
-    :cvar P2005_Y11_M15_DT09_H43_M12_S:
-    :cvar P1995_Y06_M08_DT02_H47_M24_S:
-    :cvar P1973_Y07_M23_DT17_H25_M15_S:
-    """
     P2014_Y02_M13_DT07_H57_M16_S = "P2014Y02M13DT07H57M16S"
     P1971_Y01_M25_DT00_H00_M13_S = "P1971Y01M25DT00H00M13S"
     P1992_Y03_M13_DT23_H32_M32_S = "P1992Y03M13DT23H32M32S"
@@ -32,9 +20,6 @@ class NistschemaSvIvAtomicDurationEnumeration3Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicDurationEnumeration3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-duration-enumeration-3"
         namespace = "NISTSchema-SV-IV-atomic-duration-enumeration-3-NS"

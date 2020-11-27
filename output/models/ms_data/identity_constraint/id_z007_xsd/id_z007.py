@@ -4,9 +4,6 @@ from typing import List, Optional, Type
 
 @dataclass
 class NewDataSet:
-    """
-    :ivar t1_or_t2:
-    """
     t1_or_t2: List[object] = field(
         default_factory=list,
         metadata={
@@ -28,9 +25,6 @@ class NewDataSet:
 
     @dataclass
     class T1:
-        """
-        :ivar id:
-        """
         id: Optional[str] = field(
             default=None,
             metadata={
@@ -43,9 +37,6 @@ class NewDataSet:
 
     @dataclass
     class T2:
-        """
-        :ivar id:
-        """
         id: Optional[str] = field(
             default=None,
             metadata={

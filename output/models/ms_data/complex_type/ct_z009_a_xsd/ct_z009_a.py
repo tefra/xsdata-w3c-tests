@@ -4,9 +4,6 @@ from typing import List
 
 @dataclass
 class Root:
-    """
-    :ivar foo_or_sg:
-    """
     class Meta:
         name = "root"
 

@@ -6,10 +6,6 @@ __NAMESPACE__ = "http://xstest-tns/schema11_S3_4_6"
 
 @dataclass
 class C:
-    """
-    :ivar a:
-    :ivar any_element:
-    """
     class Meta:
         name = "c"
 
@@ -33,10 +29,6 @@ class C:
 
 @dataclass
 class D:
-    """
-    :ivar a:
-    :ivar any_element:
-    """
     class Meta:
         name = "d"
 
@@ -60,9 +52,6 @@ class D:
 
 @dataclass
 class Root:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "root"
         namespace = "http://xstest-tns/schema11_S3_4_6"

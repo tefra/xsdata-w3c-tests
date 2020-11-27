@@ -4,9 +4,6 @@ from typing import Optional, Union
 
 @dataclass
 class Root:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "root"
 

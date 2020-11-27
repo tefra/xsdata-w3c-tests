@@ -7,9 +7,6 @@ __NAMESPACE__ = "foo"
 
 @dataclass
 class Root:
-    """
-    :ivar key_or_ref:
-    """
     class Meta:
         name = "root"
         namespace = "foo"

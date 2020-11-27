@@ -4,10 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Doc:
-    """
-    :ivar para:
-    :ivar code:
-    """
     class Meta:
         name = "doc"
 

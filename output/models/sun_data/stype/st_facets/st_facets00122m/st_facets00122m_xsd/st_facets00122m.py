@@ -6,9 +6,6 @@ __NAMESPACE__ = "ST_facets"
 
 @dataclass
 class Test:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "test"
         namespace = "ST_facets"

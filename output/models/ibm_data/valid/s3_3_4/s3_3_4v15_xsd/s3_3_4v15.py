@@ -4,10 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Root:
-    """
-    :ivar value:
-    :ivar idref_attr:
-    """
     class Meta:
         name = "root"
 
@@ -27,9 +23,6 @@ class Root:
 
 @dataclass
 class Wrapper:
-    """
-    :ivar root:
-    """
     class Meta:
         name = "wrapper"
 

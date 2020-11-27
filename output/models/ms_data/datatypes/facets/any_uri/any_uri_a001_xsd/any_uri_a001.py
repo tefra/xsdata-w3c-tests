@@ -7,9 +7,6 @@ __NAMESPACE__ = "1"
 
 @dataclass
 class Foo:
-    """
-    :ivar value_2_attributes:
-    """
     class Meta:
         name = "foo"
         namespace = "1"
@@ -24,11 +21,6 @@ class Foo:
 
 
 class St(Enum):
-    """
-    :cvar VALUE_2:
-    :cvar VALUE_4:
-    :cvar VALUE_5:
-    """
     VALUE_2 = "2"
     VALUE_4 = "4"
     VALUE_5 = "5"
@@ -36,9 +28,6 @@ class St(Enum):
 
 @dataclass
 class Bar:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "bar"
         namespace = "1"

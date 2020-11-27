@@ -7,10 +7,6 @@ __NAMESPACE__ = "ElemDecl/typeDef"
 
 @dataclass
 class ComplexType:
-    """
-    :ivar global_value:
-    :ivar local:
-    """
     global_value: Optional[bool] = field(
         default=None,
         metadata={
@@ -33,9 +29,6 @@ class ComplexType:
 
 @dataclass
 class GlobalType:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "Global"
         namespace = "ElemDecl/typeDef"

@@ -4,11 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Ids:
-    """
-    :ivar idref:
-    :ivar id1:
-    :ivar id2:
-    """
     class Meta:
         name = "ids"
 

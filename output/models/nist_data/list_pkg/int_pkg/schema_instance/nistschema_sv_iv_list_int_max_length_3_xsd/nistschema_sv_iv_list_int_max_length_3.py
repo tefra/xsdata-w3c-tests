@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-int-maxLength-3-NS"
 
 @dataclass
 class NistschemaSvIvListIntMaxLength3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-int-maxLength-3"
         namespace = "NISTSchema-SV-IV-list-int-maxLength-3-NS"

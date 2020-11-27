@@ -7,9 +7,6 @@ __NAMESPACE__ = "foo"
 
 @dataclass
 class Root:
-    """
-    :ivar key_or_ref:
-    """
     class Meta:
         name = "root"
         namespace = "foo"
@@ -33,9 +30,6 @@ class Root:
 
     @dataclass
     class Key:
-        """
-        :ivar id:
-        """
         id: Optional[Decimal] = field(
             default=None,
             metadata={

@@ -5,9 +5,6 @@ from typing import List, Union
 
 @dataclass
 class FooTest:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "fooTest"
 
@@ -20,11 +17,6 @@ class FooTest:
     )
 
     class Value(Enum):
-        """
-        :cvar WA:
-        :cvar OR_VALUE:
-        :cvar CA:
-        """
         WA = "WA"
         OR_VALUE = "OR"
         CA = "CA"
@@ -32,9 +24,6 @@ class FooTest:
 
 @dataclass
 class Root:
-    """
-    :ivar foo_test:
-    """
     class Meta:
         name = "root"
 
@@ -49,11 +38,6 @@ class Root:
     )
 
     class Value(Enum):
-        """
-        :cvar WA:
-        :cvar OR_VALUE:
-        :cvar CA:
-        """
         WA = "WA"
         OR_VALUE = "OR"
         CA = "CA"

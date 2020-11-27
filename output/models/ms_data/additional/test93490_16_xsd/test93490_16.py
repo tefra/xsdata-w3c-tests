@@ -6,22 +6,12 @@ __NAMESPACE__ = "http://schemas.microsoft.com/office/excel/2003/xml"
 
 
 class MapInfoTypeHideInactiveListBorder(Enum):
-    """
-    :cvar TRUE_VALUE:
-    :cvar FALSE_VALUE:
-    """
     TRUE_VALUE = "true"
     FALSE_VALUE = "false"
 
 
 @dataclass
 class SchemaType:
-    """
-    :ivar any_element:
-    :ivar id:
-    :ivar namespace:
-    :ivar schema_ref:
-    """
     any_element: List[object] = field(
         default_factory=list,
         metadata={
@@ -58,22 +48,12 @@ class SchemaType:
 
 
 class TruefalseType(Enum):
-    """
-    :cvar TRUE_VALUE:
-    :cvar FALSE_VALUE:
-    """
     TRUE_VALUE = "true"
     FALSE_VALUE = "false"
 
 
 @dataclass
 class MapInfoType:
-    """
-    :ivar schema:
-    :ivar hide_inactive_list_border:
-    :ivar selection_namespaces:
-    :ivar hide_single_mapped_cell_border:
-    """
     schema: List[SchemaType] = field(
         default_factory=list,
         metadata={

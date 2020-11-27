@@ -6,10 +6,6 @@ __NAMESPACE__ = "ElemDecl/substGroupExclusions"
 
 @dataclass
 class HeadType:
-    """
-    :ivar ear:
-    :ivar eye:
-    """
     ear: Optional[object] = field(
         default=None,
         metadata={
@@ -44,10 +40,6 @@ class Member1(HeadType):
 
 @dataclass
 class Root:
-    """
-    :ivar member1:
-    :ivar head:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/substGroupExclusions"

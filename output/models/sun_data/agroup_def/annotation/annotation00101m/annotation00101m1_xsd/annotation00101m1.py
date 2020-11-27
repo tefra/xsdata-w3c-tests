@@ -6,10 +6,6 @@ __NAMESPACE__ = "AGroupDef/annotation"
 
 @dataclass
 class A:
-    """
-    :ivar c:
-    :ivar date:
-    """
     c: Optional[int] = field(
         default=None,
         metadata={
@@ -26,9 +22,6 @@ class A:
 
 @dataclass
 class Root:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         namespace = "AGroupDef/annotation"

@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-language-maxLength-5-NS"
 
 @dataclass
 class NistschemaSvIvAtomicLanguageMaxLength5:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-language-maxLength-5"
         namespace = "NISTSchema-SV-IV-atomic-language-maxLength-5-NS"

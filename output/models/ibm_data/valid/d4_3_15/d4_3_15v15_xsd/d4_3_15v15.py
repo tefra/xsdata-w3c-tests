@@ -4,10 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class ElementType1:
-    """
-    :ivar sub_element1:
-    :ivar attr1:
-    """
     class Meta:
         name = "elementType1"
 
@@ -29,10 +25,6 @@ class ElementType1:
 
 @dataclass
 class ElementType2:
-    """
-    :ivar sub_element2:
-    :ivar attr2:
-    """
     class Meta:
         name = "elementType2"
 
@@ -54,10 +46,6 @@ class ElementType2:
 
 @dataclass
 class RootType:
-    """
-    :ivar ele1:
-    :ivar ele2:
-    """
     class Meta:
         name = "rootType"
 

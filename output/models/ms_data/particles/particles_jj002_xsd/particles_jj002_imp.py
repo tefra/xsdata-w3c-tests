@@ -6,10 +6,6 @@ __NAMESPACE__ = "http://importedXSD"
 
 @dataclass
 class B:
-    """
-    :ivar any_element:
-    :ivar e2:
-    """
     any_element: Optional[object] = field(
         default=None,
         metadata={
@@ -31,11 +27,6 @@ class B:
 
 @dataclass
 class ExtRefType:
-    """
-    :ivar imp_e1:
-    :ivar imp_e2:
-    :ivar imp_a1:
-    """
     class Meta:
         name = "extRefType"
 
@@ -68,9 +59,6 @@ class ExtRefType:
 
 @dataclass
 class ImpElem1:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "impElem1"
         namespace = "http://importedXSD"

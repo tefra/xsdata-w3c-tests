@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/identityConstraintDefs"
 
 @dataclass
 class Root:
-    """
-    :ivar sernum:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/identityConstraintDefs"

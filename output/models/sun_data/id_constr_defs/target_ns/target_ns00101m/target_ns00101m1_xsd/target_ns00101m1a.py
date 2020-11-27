@@ -6,9 +6,6 @@ __NAMESPACE__ = "IdConstrDefs/targetNSa"
 
 @dataclass
 class Roota:
-    """
-    :ivar person:
-    """
     class Meta:
         name = "roota"
         namespace = "IdConstrDefs/targetNSa"
@@ -24,10 +21,6 @@ class Roota:
 
     @dataclass
     class Person:
-        """
-        :ivar value:
-        :ivar parent:
-        """
         value: Optional[str] = field(
             default=None,
         )

@@ -6,14 +6,6 @@ __NAMESPACE__ = "http://www.tempuri.org"
 
 @dataclass
 class Root:
-    """
-    :ivar test_date:
-    :ivar test_gyear_month:
-    :ivar test_gmonth_day:
-    :ivar test_gday:
-    :ivar test_gmonth:
-    :ivar test_gyear:
-    """
     class Meta:
         name = "root"
         namespace = "http://www.tempuri.org"
@@ -76,9 +68,6 @@ class Root:
 
 @dataclass
 class TestDate:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "testDate"
         namespace = "http://www.tempuri.org"
@@ -93,9 +82,6 @@ class TestDate:
 
 @dataclass
 class TestGday:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "testGDay"
         namespace = "http://www.tempuri.org"
@@ -110,9 +96,6 @@ class TestGday:
 
 @dataclass
 class TestGmonth:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "testGMonth"
         namespace = "http://www.tempuri.org"
@@ -127,9 +110,6 @@ class TestGmonth:
 
 @dataclass
 class TestGmonthDay:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "testGMonthDay"
         namespace = "http://www.tempuri.org"
@@ -144,9 +124,6 @@ class TestGmonthDay:
 
 @dataclass
 class TestGyear:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "testGYear"
         namespace = "http://www.tempuri.org"
@@ -161,9 +138,6 @@ class TestGyear:
 
 @dataclass
 class TestGyearMonth:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "testGYearMonth"
         namespace = "http://www.tempuri.org"

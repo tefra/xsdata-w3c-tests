@@ -4,11 +4,6 @@ from typing import Optional
 
 @dataclass
 class FooType:
-    """
-    :ivar my_ele3:
-    :ivar my_ele4:
-    :ivar foo_type:
-    """
     class Meta:
         name = "fooType"
 

@@ -6,17 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-gDay-enumeration-3-NS"
 
 
 class NistschemaSvIvListGDayEnumeration3Type(Enum):
-    """
-    :cvar VALUE_21_08_18_30_15_29_09_10_30_30:
-    :cvar VALUE_13_14_22_29_18_12:
-    :cvar VALUE_24_11_17_19_06_02:
-    :cvar VALUE_12_16_08_19_26_28_08_14_02_04:
-    :cvar VALUE_25_05_05_14_23_17_30:
-    :cvar VALUE_16_28_16_29_02_14:
-    :cvar VALUE_30_02_22_14_18_12_16_27:
-    :cvar VALUE_09_09_08_01_23_25_16_27_29:
-    :cvar VALUE_18_29_16_28_13_15_06_23_21:
-    """
     VALUE_21_08_18_30_15_29_09_10_30_30 = "---21 ---08 ---18 ---30 ---15 ---29 ---09 ---10 ---30 ---30"
     VALUE_13_14_22_29_18_12 = "---13 ---14 ---22 ---29 ---18 ---12"
     VALUE_24_11_17_19_06_02 = "---24 ---11 ---17 ---19 ---06 ---02"
@@ -30,9 +19,6 @@ class NistschemaSvIvListGDayEnumeration3Type(Enum):
 
 @dataclass
 class NistschemaSvIvListGDayEnumeration3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-gDay-enumeration-3"
         namespace = "NISTSchema-SV-IV-list-gDay-enumeration-3-NS"

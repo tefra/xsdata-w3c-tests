@@ -5,9 +5,6 @@ from typing import List, Optional
 
 @dataclass
 class Root:
-    """
-    :ivar sub:
-    """
     class Meta:
         name = "root"
 
@@ -21,9 +18,6 @@ class Root:
 
     @dataclass
     class Sub:
-        """
-        :ivar idelt:
-        """
         idelt: Optional[Decimal] = field(
             default=None,
             metadata={

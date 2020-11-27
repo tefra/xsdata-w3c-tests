@@ -7,9 +7,6 @@ __NAMESPACE__ = "targetNS"
 
 @dataclass
 class Picture:
-    """
-    :ivar type:
-    """
     type: Optional["Picture.Type"] = field(
         default=None,
         metadata={
@@ -18,17 +15,11 @@ class Picture:
     )
 
     class Type(Enum):
-        """
-        :cvar TEST_PNG:
-        """
         TEST_PNG = "test:png"
 
 
 @dataclass
 class A:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "a"
         namespace = "targetNS"

@@ -4,12 +4,6 @@ from typing import Dict, List, Optional
 
 @dataclass
 class Doc:
-    """
-    :ivar content:
-    :ivar att1:
-    :ivar foo:
-    :ivar other_attributes:
-    """
     class Meta:
         name = "doc"
 

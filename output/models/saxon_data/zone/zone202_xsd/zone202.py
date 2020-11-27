@@ -5,9 +5,6 @@ from typing import Optional
 
 @dataclass
 class Doc:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "doc"
 
@@ -19,20 +16,6 @@ class Doc:
     )
 
     class Value(Enum):
-        """
-        :cvar VALUE_0000_01:
-        :cvar VALUE_0000_02:
-        :cvar VALUE_0000_03:
-        :cvar VALUE_0000_04:
-        :cvar VALUE_0000_05:
-        :cvar VALUE_0000_06_Z:
-        :cvar VALUE_0000_07:
-        :cvar VALUE_0000_08:
-        :cvar VALUE_0000_09:
-        :cvar VALUE_0000_10:
-        :cvar VALUE_0000_11:
-        :cvar VALUE_0000_12:
-        """
         VALUE_0000_01 = "0000-01"
         VALUE_0000_02 = "0000-02"
         VALUE_0000_03 = "0000-03"

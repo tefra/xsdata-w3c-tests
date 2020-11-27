@@ -4,11 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Inner:
-    """
-    :ivar a:
-    :ivar x:
-    :ivar y:
-    """
     class Meta:
         name = "inner"
 
@@ -35,9 +30,6 @@ class Inner:
 
     @dataclass
     class A:
-        """
-        :ivar b:
-        """
         b: List[object] = field(
             default_factory=list,
             metadata={
@@ -49,9 +41,6 @@ class Inner:
 
 @dataclass
 class Outer:
-    """
-    :ivar inner:
-    """
     class Meta:
         name = "outer"
 

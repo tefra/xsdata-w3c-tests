@@ -6,9 +6,6 @@ __NAMESPACE__ = "MGroup/annotation"
 
 @dataclass
 class Root:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         namespace = "MGroup/annotation"
@@ -25,10 +22,6 @@ class Root:
 
 @dataclass
 class TheType:
-    """
-    :ivar c:
-    :ivar date:
-    """
     class Meta:
         name = "theType"
 

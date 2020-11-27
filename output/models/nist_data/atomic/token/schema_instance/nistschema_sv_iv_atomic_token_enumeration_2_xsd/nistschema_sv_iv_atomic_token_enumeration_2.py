@@ -6,13 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-token-enumeration-2-NS"
 
 
 class NistschemaSvIvAtomicTokenEnumeration2Type(Enum):
-    """
-    :cvar MAINTAINED:
-    :cvar DEVELOP:
-    :cvar NETWORKS:
-    :cvar FILE:
-    :cvar THE:
-    """
     MAINTAINED = "maintained"
     DEVELOP = "Develop"
     NETWORKS = "networks"
@@ -22,9 +15,6 @@ class NistschemaSvIvAtomicTokenEnumeration2Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicTokenEnumeration2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-token-enumeration-2"
         namespace = "NISTSchema-SV-IV-atomic-token-enumeration-2-NS"

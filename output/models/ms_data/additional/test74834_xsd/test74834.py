@@ -7,11 +7,6 @@ __NAMESPACE__ = "urn:myxsdschema"
 
 @dataclass
 class MyDateTime:
-    """
-    :ivar date:
-    :ivar time:
-    :ivar localized_dt:
-    """
     class Meta:
         name = "myDateTime"
 
@@ -44,11 +39,6 @@ class MyDateTime:
 
 @dataclass
 class MySmallDateTime:
-    """
-    :ivar date:
-    :ivar time:
-    :ivar localized_sdt:
-    """
     class Meta:
         name = "mySmallDateTime"
 
@@ -81,10 +71,6 @@ class MySmallDateTime:
 
 @dataclass
 class Datafile:
-    """
-    :ivar nonstringsection:
-    :ivar stringsection:
-    """
     class Meta:
         name = "datafile"
         namespace = "urn:myxsdschema"
@@ -108,9 +94,6 @@ class Datafile:
 
     @dataclass
     class Nonstringsection:
-        """
-        :ivar choice:
-        """
         choice: List[object] = field(
             default_factory=list,
             metadata={
@@ -198,9 +181,6 @@ class Datafile:
 
     @dataclass
     class Stringsection:
-        """
-        :ivar string:
-        """
         string: List[str] = field(
             default_factory=list,
             metadata={

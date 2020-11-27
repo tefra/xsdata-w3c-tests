@@ -5,13 +5,6 @@ from typing import Dict, List, Optional
 
 @dataclass
 class Section:
-    """
-    :ivar head:
-    :ivar section:
-    :ivar id:
-    :ivar other_attributes:
-    :ivar nr:
-    """
     class Meta:
         name = "section"
 

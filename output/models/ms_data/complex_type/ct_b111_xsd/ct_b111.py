@@ -4,11 +4,6 @@ from typing import Dict, Optional
 
 @dataclass
 class FooType:
-    """
-    :ivar attr_test1:
-    :ivar attr_test2:
-    :ivar any_attributes:
-    """
     class Meta:
         name = "fooType"
 

@@ -7,10 +7,6 @@ __NAMESPACE__ = "AttrDecl/type"
 
 @dataclass
 class ElementWithAttr:
-    """
-    :ivar number:
-    :ivar price:
-    """
     class Meta:
         name = "elementWithAttr"
         namespace = "AttrDecl/type"
@@ -36,9 +32,6 @@ class ElementWithAttr:
 
 @dataclass
 class Root:
-    """
-    :ivar element_with_attr:
-    """
     class Meta:
         name = "root"
         namespace = "AttrDecl/type"

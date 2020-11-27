@@ -6,10 +6,6 @@ __NAMESPACE__ = "ElemDecl/disallowedSubst"
 
 @dataclass
 class HeadType:
-    """
-    :ivar ear:
-    :ivar eye:
-    """
     ear: Optional[object] = field(
         default=None,
         metadata={
@@ -104,9 +100,6 @@ class Head(HeadType):
 
 @dataclass
 class Root:
-    """
-    :ivar head:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/disallowedSubst"

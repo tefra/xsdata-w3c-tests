@@ -4,11 +4,6 @@ from typing import Optional
 
 @dataclass
 class Phonebill:
-    """
-    :ivar plan:
-    :ivar rent:
-    :ivar cust_id:
-    """
     class Meta:
         name = "phonebill"
 

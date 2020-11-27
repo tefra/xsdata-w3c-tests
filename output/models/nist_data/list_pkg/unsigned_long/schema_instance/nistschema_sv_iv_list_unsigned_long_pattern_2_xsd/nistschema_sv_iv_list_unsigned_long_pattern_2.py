@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-unsignedLong-pattern-2-NS"
 
 @dataclass
 class NistschemaSvIvListUnsignedLongPattern2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-unsignedLong-pattern-2"
         namespace = "NISTSchema-SV-IV-list-unsignedLong-pattern-2-NS"

@@ -4,9 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class CType:
-    """
-    :ivar att_c:
-    """
     class Meta:
         name = "cType"
 
@@ -21,9 +18,6 @@ class CType:
 
 @dataclass
 class CsType:
-    """
-    :ivar c:
-    """
     class Meta:
         name = "csType"
 
@@ -37,10 +31,6 @@ class CsType:
 
 @dataclass
 class BType:
-    """
-    :ivar cs:
-    :ivar att_b:
-    """
     class Meta:
         name = "bType"
 
@@ -62,9 +52,6 @@ class BType:
 
 @dataclass
 class BsType:
-    """
-    :ivar b:
-    """
     class Meta:
         name = "bsType"
 
@@ -79,11 +66,6 @@ class BsType:
 
 @dataclass
 class AType:
-    """
-    :ivar bs:
-    :ivar cs:
-    :ivar att_a:
-    """
     class Meta:
         name = "aType"
 
@@ -111,9 +93,6 @@ class AType:
 
 @dataclass
 class RType:
-    """
-    :ivar a:
-    """
     class Meta:
         name = "rType"
 

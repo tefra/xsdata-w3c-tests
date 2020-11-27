@@ -4,9 +4,6 @@ from typing import Optional
 
 @dataclass
 class ProductType:
-    """
-    :ivar child1:
-    """
     child1: Optional[object] = field(
         default=None,
         metadata={
@@ -18,9 +15,6 @@ class ProductType:
 
 @dataclass
 class ExtendedProductType(ProductType):
-    """
-    :ivar child2:
-    """
     child2: Optional[object] = field(
         default=None,
         metadata={

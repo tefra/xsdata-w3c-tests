@@ -7,11 +7,6 @@ __NAMESPACE__ = "urn:xmlns:25hoursaday-com:customer"
 
 @dataclass
 class CustomerType:
-    """
-    :ivar first_name:
-    :ivar last_name:
-    :ivar customer_id:
-    """
     first_name: Optional[str] = field(
         default=None,
         metadata={
@@ -41,9 +36,6 @@ class CustomerType:
 
 @dataclass
 class FirstName:
-    """
-    :ivar value:
-    """
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:customer"
 
@@ -57,9 +49,6 @@ class FirstName:
 
 @dataclass
 class LastName:
-    """
-    :ivar value:
-    """
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:customer"
 
@@ -73,9 +62,6 @@ class LastName:
 
 @dataclass
 class PhoneNumber:
-    """
-    :ivar value:
-    """
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:customer"
 
@@ -95,10 +81,6 @@ class Customer(CustomerType):
 
 @dataclass
 class Customers:
-    """
-    :ivar my_customer:
-    :ivar customer:
-    """
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:customer"
 

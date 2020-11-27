@@ -5,9 +5,6 @@ from typing import List, Optional, Union
 
 @dataclass
 class A:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "a"
 
@@ -21,9 +18,6 @@ class A:
 
 @dataclass
 class B:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "b"
 
@@ -37,9 +31,6 @@ class B:
 
 @dataclass
 class C:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "c"
 
@@ -54,9 +45,6 @@ class C:
 
 @dataclass
 class D:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "d"
 
@@ -71,9 +59,6 @@ class D:
 
 @dataclass
 class Item:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "item"
 
@@ -87,13 +72,6 @@ class Item:
 
 @dataclass
 class Root:
-    """
-    :ivar d:
-    :ivar c:
-    :ivar b:
-    :ivar a:
-    :ivar item:
-    """
     class Meta:
         name = "root"
 

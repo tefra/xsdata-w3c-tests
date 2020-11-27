@@ -4,10 +4,6 @@ from typing import Dict
 
 @dataclass
 class ExtendedZing:
-    """
-    :ivar any_attributes:
-    :ivar local_attributes:
-    """
     class Meta:
         name = "extendedZing"
 

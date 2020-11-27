@@ -4,10 +4,6 @@ from typing import Optional, Union
 
 @dataclass
 class Root:
-    """
-    :ivar union_of_ids:
-    :ivar idref:
-    """
     class Meta:
         name = "root"
 

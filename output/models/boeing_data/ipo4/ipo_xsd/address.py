@@ -7,13 +7,6 @@ __NAMESPACE__ = "http://www.example.com/IPO"
 
 
 class Usstate(Enum):
-    """
-    :cvar AK:
-    :cvar AL:
-    :cvar AR:
-    :cvar CA:
-    :cvar PA:
-    """
     AK = "AK"
     AL = "AL"
     AR = "AR"
@@ -23,10 +16,6 @@ class Usstate(Enum):
 
 @dataclass
 class Ukaddress(AddressType):
-    """
-    :ivar postcode:
-    :ivar export_code:
-    """
     class Meta:
         name = "UKAddress"
 
@@ -51,10 +40,6 @@ class Ukaddress(AddressType):
 
 @dataclass
 class Usaddress(AddressType):
-    """
-    :ivar state:
-    :ivar zip:
-    """
     class Meta:
         name = "USAddress"
 

@@ -6,10 +6,6 @@ __NAMESPACE__ = "a"
 
 @dataclass
 class T1:
-    """
-    :ivar a1:
-    :ivar a2:
-    """
     class Meta:
         name = "t1"
 
@@ -29,11 +25,6 @@ class T1:
 
 @dataclass
 class T0:
-    """
-    :ivar e1:
-    :ivar e2:
-    :ivar e3:
-    """
     class Meta:
         name = "t0"
 
@@ -65,10 +56,6 @@ class T0:
 
 @dataclass
 class RootType:
-    """
-    :ivar hi1:
-    :ivar hi2:
-    """
     class Meta:
         name = "rootType"
 

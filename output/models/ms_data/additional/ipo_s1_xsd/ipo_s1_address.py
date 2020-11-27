@@ -7,11 +7,6 @@ __NAMESPACE__ = "http://www.example.com/IPO"
 
 @dataclass
 class Address:
-    """
-    :ivar name:
-    :ivar street:
-    :ivar city:
-    """
     name: Optional[str] = field(
         default=None,
         metadata={
@@ -39,11 +34,6 @@ class Address:
 
 
 class Usstate(Enum):
-    """
-    :cvar AK:
-    :cvar AL:
-    :cvar AR:
-    """
     AK = "AK"
     AL = "AL"
     AR = "AR"
@@ -51,10 +41,6 @@ class Usstate(Enum):
 
 @dataclass
 class Ukaddress(Address):
-    """
-    :ivar postcode:
-    :ivar export_code:
-    """
     class Meta:
         name = "UKAddress"
 
@@ -81,10 +67,6 @@ class Ukaddress(Address):
 
 @dataclass
 class Usaddress(Address):
-    """
-    :ivar state:
-    :ivar zip:
-    """
     class Meta:
         name = "USAddress"
 

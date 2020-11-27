@@ -6,9 +6,6 @@ __NAMESPACE__ = "importedXSD"
 
 @dataclass
 class Foo:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "foo"
         namespace = "importedXSD"

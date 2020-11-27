@@ -6,10 +6,6 @@ __NAMESPACE__ = "ns-a"
 
 @dataclass
 class CtB:
-    """
-    :ivar b1:
-    :ivar b2:
-    """
     class Meta:
         name = "ct-B"
 

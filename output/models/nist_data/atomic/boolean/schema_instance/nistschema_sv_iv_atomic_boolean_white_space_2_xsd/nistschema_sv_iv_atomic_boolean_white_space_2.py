@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-boolean-whiteSpace-2-NS"
 
 @dataclass
 class NistschemaSvIvAtomicBooleanWhiteSpace2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-boolean-whiteSpace-2"
         namespace = "NISTSchema-SV-IV-atomic-boolean-whiteSpace-2-NS"

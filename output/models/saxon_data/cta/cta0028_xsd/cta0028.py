@@ -6,10 +6,6 @@ __NAMESPACE__ = "http://cta023.com/ns"
 
 @dataclass
 class Event:
-    """
-    :ivar when:
-    :ivar type:
-    """
     class Meta:
         name = "event"
         namespace = "http://cta023.com/ns"
@@ -31,9 +27,6 @@ class Event:
 
 @dataclass
 class When:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "when"
         namespace = "http://cta023.com/ns"
@@ -48,10 +41,6 @@ class When:
 
 @dataclass
 class Doc:
-    """
-    :ivar event:
-    :ivar type:
-    """
     class Meta:
         name = "doc"
         namespace = "http://cta023.com/ns"

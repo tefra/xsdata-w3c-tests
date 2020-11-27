@@ -6,9 +6,6 @@ __NAMESPACE__ = "ns-b"
 
 @dataclass
 class FooC:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "foo_c"
         namespace = "ns-b"

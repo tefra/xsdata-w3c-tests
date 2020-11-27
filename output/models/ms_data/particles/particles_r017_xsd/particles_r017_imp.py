@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://importedXSD"
 
 @dataclass
 class ImpElem1:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "impElem1"
         namespace = "http://importedXSD"
@@ -25,9 +22,6 @@ class ImpElem1:
 
 @dataclass
 class ImpElem2:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "impElem2"
         namespace = "http://importedXSD"

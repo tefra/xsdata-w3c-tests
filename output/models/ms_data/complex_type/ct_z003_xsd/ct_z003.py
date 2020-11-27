@@ -4,9 +4,6 @@ from typing import List
 
 @dataclass
 class C1:
-    """
-    :ivar e1:
-    """
     e1: List["C1"] = field(
         default_factory=list,
         metadata={

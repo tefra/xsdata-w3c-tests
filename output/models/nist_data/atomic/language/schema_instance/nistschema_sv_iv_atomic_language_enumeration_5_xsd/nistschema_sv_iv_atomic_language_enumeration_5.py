@@ -6,17 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-language-enumeration-5-NS"
 
 
 class NistschemaSvIvAtomicLanguageEnumeration5Type(Enum):
-    """
-    :cvar BH:
-    :cvar BI:
-    :cvar BN:
-    :cvar BO:
-    :cvar BR:
-    :cvar CA:
-    :cvar CO:
-    :cvar CS:
-    :cvar CY:
-    """
     BH = "BH"
     BI = "BI"
     BN = "BN"
@@ -30,9 +19,6 @@ class NistschemaSvIvAtomicLanguageEnumeration5Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicLanguageEnumeration5:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-language-enumeration-5"
         namespace = "NISTSchema-SV-IV-atomic-language-enumeration-5-NS"

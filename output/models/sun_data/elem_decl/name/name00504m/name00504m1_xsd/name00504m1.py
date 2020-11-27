@@ -18,9 +18,6 @@ class Global2:
 
 @dataclass
 class Root:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/name"

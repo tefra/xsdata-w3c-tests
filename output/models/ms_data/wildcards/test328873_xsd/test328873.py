@@ -6,9 +6,6 @@ __NAMESPACE__ = "a"
 
 @dataclass
 class Base2:
-    """
-    :ivar other_attributes:
-    """
     class Meta:
         name = "base2"
 
@@ -23,9 +20,6 @@ class Base2:
 
 @dataclass
 class Base3:
-    """
-    :ivar other_attributes:
-    """
     class Meta:
         name = "base3"
 
@@ -40,9 +34,6 @@ class Base3:
 
 @dataclass
 class Base4:
-    """
-    :ivar other_attributes:
-    """
     class Meta:
         name = "base4"
 
@@ -57,10 +48,6 @@ class Base4:
 
 @dataclass
 class Intersection1:
-    """
-    :ivar other_attributes:
-    :ivar local_b_c_attributes:
-    """
     class Meta:
         name = "intersection1"
 
@@ -82,9 +69,6 @@ class Intersection1:
 
 @dataclass
 class Intersection2:
-    """
-    :ivar other_attributes:
-    """
     class Meta:
         name = "intersection2"
 
@@ -99,9 +83,6 @@ class Intersection2:
 
 @dataclass
 class Derived2(Base2):
-    """
-    :ivar b_c_attributes:
-    """
     class Meta:
         name = "derived2"
 
@@ -116,9 +97,6 @@ class Derived2(Base2):
 
 @dataclass
 class Derived3(Base3):
-    """
-    :ivar target_namespace_local_b_c_attributes:
-    """
     class Meta:
         name = "derived3"
 
@@ -133,9 +111,6 @@ class Derived3(Base3):
 
 @dataclass
 class Derived4(Base4):
-    """
-    :ivar local_b_c_attributes:
-    """
     class Meta:
         name = "derived4"
 
@@ -150,9 +125,6 @@ class Derived4(Base4):
 
 @dataclass
 class Derived5(Base4):
-    """
-    :ivar b_c_attributes:
-    """
     class Meta:
         name = "derived5"
 
@@ -181,15 +153,6 @@ class Sub6(Intersection2):
 
 @dataclass
 class Base:
-    """
-    :ivar sub:
-    :ivar sub2:
-    :ivar sub3:
-    :ivar sub4:
-    :ivar sub5:
-    :ivar sub6:
-    :ivar other_attributes:
-    """
     class Meta:
         name = "base"
 
@@ -274,9 +237,6 @@ class Sub4(Derived5):
 
 @dataclass
 class Derived(Base):
-    """
-    :ivar target_namespace_b_c_attributes:
-    """
     class Meta:
         name = "derived"
 

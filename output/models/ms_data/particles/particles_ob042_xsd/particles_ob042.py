@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class B:
-    """
-    :ivar foo_bar_element:
-    """
     foo_bar_element: List[object] = field(
         default_factory=list,
         metadata={
@@ -20,9 +17,6 @@ class B:
 
 @dataclass
 class R:
-    """
-    :ivar foo_bar_element:
-    """
     foo_bar_element: List[object] = field(
         default_factory=list,
         metadata={
@@ -34,9 +28,6 @@ class R:
 
 @dataclass
 class Doc:
-    """
-    :ivar elem:
-    """
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"

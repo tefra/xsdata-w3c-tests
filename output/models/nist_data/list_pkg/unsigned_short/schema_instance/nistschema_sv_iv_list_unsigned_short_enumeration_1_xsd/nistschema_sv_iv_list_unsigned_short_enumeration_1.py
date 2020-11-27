@@ -6,15 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-unsignedShort-enumeration-1-NS"
 
 
 class NistschemaSvIvListUnsignedShortEnumeration1Type(Enum):
-    """
-    :cvar VALUE_6_425_3292_540_23_58748_1053:
-    :cvar VALUE_65535_626_1696_8_76_3716_88_921:
-    :cvar VALUE_42_33691_48979_99_406_3072_9318_428_22:
-    :cvar VALUE_57_65535_7460_419_83:
-    :cvar VALUE_6131_43_926_88_49_727_71_4072_1805_18291:
-    :cvar VALUE_3137_19_2_9139_129_15:
-    :cvar VALUE_52_92_464_45351_276_731:
-    """
     VALUE_6_425_3292_540_23_58748_1053 = "6 425 3292 540 23 58748 1053"
     VALUE_65535_626_1696_8_76_3716_88_921 = "65535 626 1696 8 76 3716 88 921"
     VALUE_42_33691_48979_99_406_3072_9318_428_22 = "42 33691 48979 99 406 3072 9318 428 22"
@@ -26,9 +17,6 @@ class NistschemaSvIvListUnsignedShortEnumeration1Type(Enum):
 
 @dataclass
 class NistschemaSvIvListUnsignedShortEnumeration1:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-list-unsignedShort-enumeration-1"
         namespace = "NISTSchema-SV-IV-list-unsignedShort-enumeration-1-NS"

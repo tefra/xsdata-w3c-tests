@@ -6,14 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-anyURI-enumeration-5-NS"
 
 
 class NistschemaSvIvAtomicAnyUriEnumeration5Type(Enum):
-    """
-    :cvar MAILTO_OFDISCOVERYST_GROUPS_ATOOFOFWHICHISCREA_GOV:
-    :cvar GOPHER_PROGRAMACCE_SBYNEWTHE_I_TERNETINFO_MATIONINTE_ORG:
-    :cvar MAILTO_COMPUTINGEXECUTIONTOAC_INDUSTRYPROVIDESANDINAND_PER_GOV:
-    :cvar MAILTO_MATCHCREAT_ELECTRONICBEENYEARSDOCUMENTS_INVE_GOV:
-    :cvar FTP_FTP_AREANDA_COMM_TTEETRANSA_TTHEMBUSIN_SSISFILT_EDU:
-    :cvar HTTP_WORLDONENAB_INGTHROUGH_UTCANPRINT_EFI_NET:
-    """
     MAILTO_OFDISCOVERYST_GROUPS_ATOOFOFWHICHISCREA_GOV = "mailto:ofdiscoveryst@GroupsAtoofofwhichiscrea.gov"
     GOPHER_PROGRAMACCE_SBYNEWTHE_I_TERNETINFO_MATIONINTE_ORG = "gopher://programacce.sbynewtheI.ternetinfo.mationinte.org"
     MAILTO_COMPUTINGEXECUTIONTOAC_INDUSTRYPROVIDESANDINAND_PER_GOV = "mailto:computingexecutiontoac@industryprovidesandinandPer.gov"
@@ -24,9 +16,6 @@ class NistschemaSvIvAtomicAnyUriEnumeration5Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicAnyUriEnumeration5:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-anyURI-enumeration-5"
         namespace = "NISTSchema-SV-IV-atomic-anyURI-enumeration-5-NS"

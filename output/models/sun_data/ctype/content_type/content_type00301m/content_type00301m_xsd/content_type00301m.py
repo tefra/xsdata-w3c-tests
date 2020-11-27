@@ -6,9 +6,6 @@ __NAMESPACE__ = "contentType"
 
 @dataclass
 class A1:
-    """
-    :ivar b:
-    """
     class Meta:
         name = "A"
 

@@ -4,10 +4,6 @@ from typing import List
 
 @dataclass
 class Root:
-    """
-    :ivar e1:
-    :ivar e2:
-    """
     class Meta:
         name = "root"
 

@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
 @dataclass
 class E:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "e"
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
@@ -23,9 +20,6 @@ class E:
 
 @dataclass
 class E1:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "e1"
         namespace = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
@@ -42,11 +36,6 @@ class E1:
 
 @dataclass
 class T:
-    """
-    :ivar e1:
-    :ivar e:
-    :ivar w3_org_xml_2008_xsdl_exx_ns1_e1:
-    """
     e1: Optional[E1] = field(
         default=None,
         metadata={

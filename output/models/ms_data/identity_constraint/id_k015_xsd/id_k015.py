@@ -5,11 +5,6 @@ from typing import List, Optional
 
 @dataclass
 class Uid:
-    """
-    :ivar pid:
-    :ivar val:
-    :ivar val2:
-    """
     class Meta:
         name = "uid"
 
@@ -35,11 +30,6 @@ class Uid:
     )
 
     class Value(Enum):
-        """
-        :cvar SMALL:
-        :cvar MEDIUM:
-        :cvar LARGE:
-        """
         SMALL = "small"
         MEDIUM = "medium"
         LARGE = "large"
@@ -47,9 +37,6 @@ class Uid:
 
 @dataclass
 class Root:
-    """
-    :ivar uid:
-    """
     class Meta:
         name = "root"
 

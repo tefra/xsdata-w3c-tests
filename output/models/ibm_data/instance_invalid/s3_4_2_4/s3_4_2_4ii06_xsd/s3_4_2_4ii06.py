@@ -6,12 +6,6 @@ __NAMESPACE__ = "http://xstest-tns/schema11_S3_4_2_4"
 
 @dataclass
 class C1:
-    """
-    :ivar default_attr:
-    :ivar element1:
-    :ivar element2:
-    :ivar element_added:
-    """
     class Meta:
         name = "c1"
 

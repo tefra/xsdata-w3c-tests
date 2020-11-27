@@ -4,9 +4,6 @@ from typing import Dict, List, Optional
 
 @dataclass
 class Signatures:
-    """
-    :ivar w3_org_2000_09_xmldsig_element:
-    """
     class Meta:
         name = "signatures"
 
@@ -21,9 +18,6 @@ class Signatures:
 
 @dataclass
 class Zzz:
-    """
-    :ivar signatures:
-    """
     class Meta:
         name = "zzz"
 
@@ -38,9 +32,6 @@ class Zzz:
 
 @dataclass
 class Yyy:
-    """
-    :ivar zzz:
-    """
     class Meta:
         name = "yyy"
 
@@ -55,9 +46,6 @@ class Yyy:
 
 @dataclass
 class Xxx:
-    """
-    :ivar yyy:
-    """
     class Meta:
         name = "xxx"
 
@@ -72,9 +60,6 @@ class Xxx:
 
 @dataclass
 class Www:
-    """
-    :ivar xxx:
-    """
     class Meta:
         name = "www"
 
@@ -89,9 +74,6 @@ class Www:
 
 @dataclass
 class Uuu:
-    """
-    :ivar www:
-    """
     class Meta:
         name = "uuu"
 
@@ -106,9 +88,6 @@ class Uuu:
 
 @dataclass
 class Ttt:
-    """
-    :ivar uuu:
-    """
     class Meta:
         name = "ttt"
 
@@ -123,9 +102,6 @@ class Ttt:
 
 @dataclass
 class Sss:
-    """
-    :ivar ttt:
-    """
     class Meta:
         name = "sss"
 
@@ -140,9 +116,6 @@ class Sss:
 
 @dataclass
 class Rrr:
-    """
-    :ivar sss:
-    """
     class Meta:
         name = "rrr"
 
@@ -157,9 +130,6 @@ class Rrr:
 
 @dataclass
 class Qqq:
-    """
-    :ivar rrr:
-    """
     class Meta:
         name = "qqq"
 
@@ -174,9 +144,6 @@ class Qqq:
 
 @dataclass
 class Ppp:
-    """
-    :ivar qqq:
-    """
     class Meta:
         name = "ppp"
 
@@ -191,9 +158,6 @@ class Ppp:
 
 @dataclass
 class Ooo:
-    """
-    :ivar ppp:
-    """
     class Meta:
         name = "ooo"
 
@@ -208,9 +172,6 @@ class Ooo:
 
 @dataclass
 class Nnn:
-    """
-    :ivar ooo:
-    """
     class Meta:
         name = "nnn"
 
@@ -225,9 +186,6 @@ class Nnn:
 
 @dataclass
 class Mmm:
-    """
-    :ivar nnn:
-    """
     class Meta:
         name = "mmm"
 
@@ -242,9 +200,6 @@ class Mmm:
 
 @dataclass
 class Lll:
-    """
-    :ivar mmm:
-    """
     class Meta:
         name = "lll"
 
@@ -259,9 +214,6 @@ class Lll:
 
 @dataclass
 class Kkk:
-    """
-    :ivar lll:
-    """
     class Meta:
         name = "kkk"
 
@@ -276,9 +228,6 @@ class Kkk:
 
 @dataclass
 class Jjj:
-    """
-    :ivar kkk:
-    """
     class Meta:
         name = "jjj"
 
@@ -293,9 +242,6 @@ class Jjj:
 
 @dataclass
 class Iii:
-    """
-    :ivar jjj:
-    """
     class Meta:
         name = "iii"
 
@@ -310,9 +256,6 @@ class Iii:
 
 @dataclass
 class Hhh:
-    """
-    :ivar iii:
-    """
     class Meta:
         name = "hhh"
 
@@ -327,9 +270,6 @@ class Hhh:
 
 @dataclass
 class Ggg:
-    """
-    :ivar hhh:
-    """
     class Meta:
         name = "ggg"
 
@@ -344,9 +284,6 @@ class Ggg:
 
 @dataclass
 class Fff:
-    """
-    :ivar ggg:
-    """
     class Meta:
         name = "fff"
 
@@ -361,9 +298,6 @@ class Fff:
 
 @dataclass
 class Eee:
-    """
-    :ivar fff:
-    """
     class Meta:
         name = "eee"
 
@@ -378,9 +312,6 @@ class Eee:
 
 @dataclass
 class Ddd:
-    """
-    :ivar eee:
-    """
     class Meta:
         name = "ddd"
 
@@ -395,9 +326,6 @@ class Ddd:
 
 @dataclass
 class Ccc:
-    """
-    :ivar ddd:
-    """
     class Meta:
         name = "ccc"
 
@@ -412,9 +340,6 @@ class Ccc:
 
 @dataclass
 class Bbb:
-    """
-    :ivar ccc:
-    """
     class Meta:
         name = "bbb"
 
@@ -429,9 +354,6 @@ class Bbb:
 
 @dataclass
 class Aaa:
-    """
-    :ivar bbb:
-    """
     class Meta:
         name = "aaa"
 
@@ -446,10 +368,6 @@ class Aaa:
 
 @dataclass
 class Root:
-    """
-    :ivar aaa:
-    :ivar w3_org_xml_1998_namespace_attributes:
-    """
     class Meta:
         name = "root"
 

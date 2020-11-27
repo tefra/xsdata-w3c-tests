@@ -6,11 +6,6 @@ __NAMESPACE__ = "a"
 
 @dataclass
 class FooType:
-    """
-    :ivar value:
-    :ivar attr_test1:
-    :ivar attr_test2:
-    """
     class Meta:
         name = "fooType"
 
@@ -37,11 +32,6 @@ class FooType:
 
 @dataclass
 class Mytype1:
-    """
-    :ivar value:
-    :ivar attr_test1:
-    :ivar attr_test2:
-    """
     class Meta:
         name = "mytype1"
 

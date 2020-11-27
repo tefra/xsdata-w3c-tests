@@ -7,9 +7,6 @@ __NAMESPACE__ = "name"
 
 @dataclass
 class Picture:
-    """
-    :ivar type:
-    """
     type: Optional["Picture.Type"] = field(
         default=None,
         metadata={
@@ -18,17 +15,11 @@ class Picture:
     )
 
     class Type(Enum):
-        """
-        :cvar PNG:
-        """
         PNG = "png"
 
 
 @dataclass
 class A:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "a"
         namespace = "name"

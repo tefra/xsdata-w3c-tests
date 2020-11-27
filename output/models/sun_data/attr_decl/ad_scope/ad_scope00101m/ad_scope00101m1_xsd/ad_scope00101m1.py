@@ -7,10 +7,6 @@ __NAMESPACE__ = "AttrDecl/scope"
 
 @dataclass
 class ElementWithAttr:
-    """
-    :ivar number:
-    :ivar price:
-    """
     class Meta:
         name = "elementWithAttr"
         namespace = "AttrDecl/scope"
@@ -33,9 +29,6 @@ class ElementWithAttr:
 
 @dataclass
 class Root:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         namespace = "AttrDecl/scope"

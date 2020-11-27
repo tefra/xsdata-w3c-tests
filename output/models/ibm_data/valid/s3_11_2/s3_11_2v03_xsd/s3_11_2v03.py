@@ -6,10 +6,6 @@ __NAMESPACE__ = "a"
 
 @dataclass
 class Keyname:
-    """
-    :ivar numid:
-    :ivar numname:
-    """
     class Meta:
         name = "keyname"
 
@@ -35,9 +31,6 @@ class Keyname:
 
 @dataclass
 class Root:
-    """
-    :ivar number:
-    """
     class Meta:
         name = "root"
         namespace = "a"

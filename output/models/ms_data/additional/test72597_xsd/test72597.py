@@ -6,9 +6,6 @@ __NAMESPACE__ = "foo"
 
 @dataclass
 class A:
-    """
-    :ivar part:
-    """
     part: List["A.Part"] = field(
         default_factory=list,
         metadata={
@@ -20,11 +17,6 @@ class A:
 
     @dataclass
     class Part:
-        """
-        :ivar value:
-        :ivar number:
-        :ivar number2:
-        """
         value: Optional[str] = field(
             default=None,
         )
@@ -44,9 +36,6 @@ class A:
 
 @dataclass
 class Root:
-    """
-    :ivar a:
-    """
     class Meta:
         name = "root"
         namespace = "foo"

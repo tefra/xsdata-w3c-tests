@@ -6,14 +6,6 @@ __NAMESPACE__ = "http://xstest-tns/schema11_F4_3_16_v06"
 
 @dataclass
 class Root:
-    """
-    :ivar eld_time_pattern:
-    :ivar eld_time_etrequired:
-    :ivar eld_time_etoptional:
-    :ivar eld_time_etprohibited:
-    :ivar d_time_etoptional_der_req:
-    :ivar d_time_etoptional_der_pro:
-    """
     class Meta:
         name = "root"
         namespace = "http://xstest-tns/schema11_F4_3_16_v06"

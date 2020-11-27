@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/name"
 
 @dataclass
 class AA:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "a--a"
         namespace = "ElemDecl/name"
@@ -23,9 +20,6 @@ class AA:
 
 @dataclass
 class BB:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "b..b"
         namespace = "ElemDecl/name"
@@ -40,9 +34,6 @@ class BB:
 
 @dataclass
 class CC:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "c__c"
         namespace = "ElemDecl/name"
@@ -57,9 +48,6 @@ class CC:
 
 @dataclass
 class DD:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "d··d"
         namespace = "ElemDecl/name"
@@ -74,9 +62,6 @@ class DD:
 
 @dataclass
 class EE:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "e··e"
         namespace = "ElemDecl/name"
@@ -91,9 +76,6 @@ class EE:
 
 @dataclass
 class FF:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "f۝۝f"
         namespace = "ElemDecl/name"
@@ -108,9 +90,6 @@ class FF:
 
 @dataclass
 class GG:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "g۞۞g"
         namespace = "ElemDecl/name"
@@ -125,15 +104,6 @@ class GG:
 
 @dataclass
 class Root:
-    """
-    :ivar a_a:
-    :ivar b_b:
-    :ivar c_c:
-    :ivar d_d:
-    :ivar e_e:
-    :ivar f_f:
-    :ivar g_g:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/name"

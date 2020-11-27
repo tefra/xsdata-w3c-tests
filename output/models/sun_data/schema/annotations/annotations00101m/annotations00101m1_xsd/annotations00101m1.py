@@ -6,9 +6,6 @@ __NAMESPACE__ = "Schema/annotations"
 
 @dataclass
 class Root:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         namespace = "Schema/annotations"

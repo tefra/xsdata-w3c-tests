@@ -4,9 +4,6 @@ from typing import Optional
 
 @dataclass
 class NewSize:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "newSize"
 

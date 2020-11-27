@@ -5,10 +5,6 @@ from output.models.ms_data.identity_constraint.id_g018_xsd.id_g018a import R
 
 @dataclass
 class T:
-    """
-    :ivar r:
-    :ivar val:
-    """
     class Meta:
         name = "t"
 
@@ -29,9 +25,6 @@ class T:
 
 @dataclass
 class Root:
-    """
-    :ivar t:
-    """
     class Meta:
         name = "root"
 

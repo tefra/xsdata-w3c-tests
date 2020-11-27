@@ -4,9 +4,6 @@ from typing import Optional
 
 @dataclass
 class Doc:
-    """
-    :ivar test:
-    """
     class Meta:
         name = "doc"
 
@@ -21,10 +18,6 @@ class Doc:
 
     @dataclass
     class Test:
-        """
-        :ivar att_fix:
-        :ivar foo:
-        """
         att_fix: int = field(
             init=False,
             default=37,

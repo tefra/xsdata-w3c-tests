@@ -5,9 +5,6 @@ from typing import Optional
 
 @dataclass
 class FooTest:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "fooTest"
 
@@ -22,12 +19,6 @@ class FooTest:
 
 
 class MyUnion(Enum):
-    """
-    :cvar VALUE_1:
-    :cvar VALUE_2:
-    :cvar VALUE_7:
-    :cvar VALUE_8:
-    """
     VALUE_1 = "1"
     VALUE_2 = "2"
     VALUE_7 = "7"
@@ -36,9 +27,6 @@ class MyUnion(Enum):
 
 @dataclass
 class Root:
-    """
-    :ivar foo_test:
-    """
     class Meta:
         name = "root"
 

@@ -5,10 +5,6 @@ from typing import List, Optional
 
 @dataclass
 class Foo:
-    """
-    :ivar idrefs_attr:
-    :ivar id_attr:
-    """
     class Meta:
         name = "foo"
 
@@ -27,17 +23,11 @@ class Foo:
     )
 
     class IdrefsAttr(Enum):
-        """
-        :cvar FOO:
-        """
         FOO = "foo"
 
 
 @dataclass
 class FooType:
-    """
-    :ivar foo:
-    """
     class Meta:
         name = "fooType"
 

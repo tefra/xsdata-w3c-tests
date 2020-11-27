@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/targetNS"
 
 @dataclass
 class GlobalType:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "Global"
         namespace = "ElemDecl/targetNS"

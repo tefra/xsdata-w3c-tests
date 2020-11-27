@@ -6,10 +6,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class B:
-    """
-    :ivar e2:
-    :ivar any_element:
-    """
     e2: Optional[object] = field(
         default=None,
         metadata={
@@ -30,11 +26,6 @@ class B:
 
 @dataclass
 class R:
-    """
-    :ivar e2:
-    :ivar any_element:
-    :ivar e1:
-    """
     e2: Optional[object] = field(
         default=None,
         metadata={
@@ -63,9 +54,6 @@ class R:
 
 @dataclass
 class Doc:
-    """
-    :ivar elem:
-    """
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"

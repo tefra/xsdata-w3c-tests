@@ -6,9 +6,6 @@ __NAMESPACE__ = "myNS.tempuri.org"
 
 @dataclass
 class Kid:
-    """
-    :ivar val:
-    """
     class Meta:
         name = "kid"
         namespace = "myNS.tempuri.org"
@@ -23,9 +20,6 @@ class Kid:
 
 @dataclass
 class Uidtype:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "uidtype"
 
@@ -41,10 +35,6 @@ class Uidtype:
 
 @dataclass
 class Root:
-    """
-    :ivar uid:
-    :ivar kid:
-    """
     class Meta:
         name = "root"
         namespace = "myNS.tempuri.org"

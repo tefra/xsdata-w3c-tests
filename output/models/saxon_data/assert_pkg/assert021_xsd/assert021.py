@@ -7,9 +7,6 @@ __NAMESPACE__ = "http://assert021.ns/"
 
 @dataclass
 class Doc:
-    """
-    :ivar temp:
-    """
     class Meta:
         name = "doc"
         namespace = "http://assert021.ns/"

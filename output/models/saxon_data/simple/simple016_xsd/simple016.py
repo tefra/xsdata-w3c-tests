@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://simple016.ly/"
 
 @dataclass
 class DocType:
-    """
-    :ivar chap:
-    """
     class Meta:
         name = "doc-type"
 
@@ -31,9 +28,6 @@ class Doc(DocType):
 
 @dataclass
 class Book:
-    """
-    :ivar doc:
-    """
     class Meta:
         name = "book"
         namespace = "http://simple016.ly/"

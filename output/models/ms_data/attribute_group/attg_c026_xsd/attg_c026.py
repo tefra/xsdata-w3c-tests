@@ -4,9 +4,6 @@ from typing import Optional
 
 @dataclass
 class Foo:
-    """
-    :ivar currency:
-    """
     class Meta:
         name = "foo"
 
@@ -20,11 +17,6 @@ class Foo:
 
 @dataclass
 class TestElem(Foo):
-    """
-    :ivar model:
-    :ivar age:
-    :ivar att_fix:
-    """
     class Meta:
         name = "testElem"
 
@@ -52,9 +44,6 @@ class TestElem(Foo):
 
 @dataclass
 class DocElem:
-    """
-    :ivar test:
-    """
     class Meta:
         name = "docElem"
 

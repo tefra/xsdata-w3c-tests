@@ -6,10 +6,6 @@ __NAMESPACE__ = "ns-a"
 
 @dataclass
 class NsAAft:
-    """
-    :ivar x:
-    :ivar y:
-    """
     class Meta:
         name = "ns-a-aft"
 
@@ -33,9 +29,6 @@ class NsAAft:
 
 @dataclass
 class Root:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         namespace = "ns-a"
@@ -59,10 +52,6 @@ class Aft(NsAAft):
 
 @dataclass
 class Foo:
-    """
-    :ivar a:
-    :ivar aft:
-    """
     class Meta:
         name = "foo"
 

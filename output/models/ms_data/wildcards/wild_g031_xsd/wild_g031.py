@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://foobar"
 
 @dataclass
 class Bar:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "bar"
         namespace = "http://foobar"
@@ -23,9 +20,6 @@ class Bar:
 
 @dataclass
 class Foo:
-    """
-    :ivar a_b_c_d_e_target_namespace_local_element:
-    """
     class Meta:
         name = "foo"
         namespace = "http://foobar"

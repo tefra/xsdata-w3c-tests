@@ -5,9 +5,6 @@ from typing import Optional
 
 @dataclass
 class ComplexfooType:
-    """
-    :ivar comp_foo:
-    """
     class Meta:
         name = "complexfooType"
 
@@ -21,19 +18,11 @@ class ComplexfooType:
     )
 
     class CompFoo(Enum):
-        """
-        :cvar VALUE_0:
-        :cvar VALUE_1:
-        """
         VALUE_0 = "0"
         VALUE_1 = "1"
 
 
 class SimplefooType(Enum):
-    """
-    :cvar TRUE_VALUE:
-    :cvar FALSE_VALUE:
-    """
     TRUE_VALUE = "true"
     FALSE_VALUE = "false"
 
@@ -46,9 +35,6 @@ class ComplexTest(ComplexfooType):
 
 @dataclass
 class SimpleTest:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "simpleTest"
 
@@ -62,10 +48,6 @@ class SimpleTest:
 
 @dataclass
 class Root:
-    """
-    :ivar complex_test:
-    :ivar simple_test:
-    """
     class Meta:
         name = "root"
 

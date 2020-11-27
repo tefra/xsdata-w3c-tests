@@ -4,11 +4,6 @@ from typing import List
 
 
 class U3(Enum):
-    """
-    :cvar X:
-    :cvar Y:
-    :cvar VALUE_1:
-    """
     X = "x"
     Y = "y"
     VALUE_1 = "1"
@@ -16,9 +11,6 @@ class U3(Enum):
 
 @dataclass
 class Root:
-    """
-    :ivar c:
-    """
     class Meta:
         name = "root"
 

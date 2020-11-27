@@ -6,9 +6,6 @@ __NAMESPACE__ = "IdConstrDefs/name"
 
 @dataclass
 class Name:
-    """
-    :ivar name:
-    """
     class Meta:
         name = "name"
         namespace = "IdConstrDefs/name"
@@ -24,10 +21,6 @@ class Name:
 
     @dataclass
     class Name:
-        """
-        :ivar value:
-        :ivar name:
-        """
         value: Optional[str] = field(
             default=None,
         )

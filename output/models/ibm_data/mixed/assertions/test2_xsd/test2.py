@@ -4,10 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class ArrayType:
-    """
-    :ivar entry:
-    :ivar length:
-    """
     entry: List[str] = field(
         default_factory=list,
         metadata={

@@ -6,13 +6,6 @@ __NAMESPACE__ = "http://example.org/ns/document"
 
 @dataclass
 class InlineType:
-    """
-    :ivar content:
-    :ivar choice:
-    :ivar role:
-    :ivar id:
-    :ivar base:
-    """
     class Meta:
         name = "inline.type"
 
@@ -86,9 +79,6 @@ class InlineType:
 
 @dataclass
 class Xsdextra:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "xsdextra"
         namespace = "http://example.org/ns/document"
@@ -153,13 +143,6 @@ class Title(InlineType):
 
 @dataclass
 class Blockquote:
-    """
-    :ivar title:
-    :ivar p:
-    :ivar role:
-    :ivar id:
-    :ivar base:
-    """
     class Meta:
         name = "blockquote"
         namespace = "http://example.org/ns/document"
@@ -201,13 +184,6 @@ class Blockquote:
 
 @dataclass
 class ParaType:
-    """
-    :ivar content:
-    :ivar choice:
-    :ivar role:
-    :ivar id:
-    :ivar base:
-    """
     class Meta:
         name = "para.type"
 
@@ -293,14 +269,6 @@ class P(ParaType):
 
 @dataclass
 class Doc:
-    """
-    :ivar title:
-    :ivar xsdextra:
-    :ivar p_or_blockquote:
-    :ivar role:
-    :ivar id:
-    :ivar base:
-    """
     class Meta:
         name = "doc"
         namespace = "http://example.org/ns/document"

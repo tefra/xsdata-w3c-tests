@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/typeDef"
 
 @dataclass
 class GlobalType:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "Global"
         namespace = "ElemDecl/typeDef"
@@ -24,9 +21,6 @@ class GlobalType:
 
 @dataclass
 class Root:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/typeDef"

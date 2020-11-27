@@ -6,9 +6,6 @@ __NAMESPACE__ = "IdConstrDefs/targetNS"
 
 @dataclass
 class Root:
-    """
-    :ivar person:
-    """
     class Meta:
         name = "root"
         namespace = "IdConstrDefs/targetNS"
@@ -24,10 +21,6 @@ class Root:
 
     @dataclass
     class Person:
-        """
-        :ivar value:
-        :ivar parent:
-        """
         value: Optional[str] = field(
             default=None,
         )

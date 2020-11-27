@@ -4,11 +4,6 @@ from typing import List, Optional
 
 
 class NotaFooBar(Enum):
-    """
-    :cvar FOO:
-    :cvar BAR:
-    :cvar BEZ:
-    """
     FOO = "foo"
     BAR = "bar"
     BEZ = "bez"
@@ -16,12 +11,6 @@ class NotaFooBar(Enum):
 
 @dataclass
 class StructuredDate:
-    """
-    :ivar year:
-    :ivar month:
-    :ivar day:
-    :ivar nota:
-    """
     class Meta:
         name = "structuredDate"
 
@@ -56,9 +45,6 @@ class StructuredDate:
 
 @dataclass
 class Doc:
-    """
-    :ivar para_or_bezzle:
-    """
     class Meta:
         name = "doc"
 

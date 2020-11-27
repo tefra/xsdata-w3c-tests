@@ -4,9 +4,6 @@ from typing import Optional
 
 @dataclass
 class B:
-    """
-    :ivar target001_com_element:
-    """
     target001_com_element: Optional[object] = field(
         default=None,
         metadata={
@@ -19,9 +16,6 @@ class B:
 
 @dataclass
 class R(B):
-    """
-    :ivar child:
-    """
     child: Optional[int] = field(
         default=None,
         metadata={

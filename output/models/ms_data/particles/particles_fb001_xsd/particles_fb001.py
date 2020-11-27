@@ -6,10 +6,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class Base:
-    """
-    :ivar c1:
-    :ivar c2:
-    """
     class Meta:
         name = "base"
 
@@ -31,10 +27,6 @@ class Base:
 
 @dataclass
 class Doc(Base):
-    """
-    :ivar g1:
-    :ivar g2:
-    """
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"

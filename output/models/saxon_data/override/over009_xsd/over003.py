@@ -4,9 +4,6 @@ from typing import Optional
 
 @dataclass
 class Para:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "para"
 
@@ -21,9 +18,6 @@ class Para:
 
 @dataclass
 class Para2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "para2"
 

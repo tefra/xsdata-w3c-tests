@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/nillable"
 
 @dataclass
 class Root:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         nillable = True

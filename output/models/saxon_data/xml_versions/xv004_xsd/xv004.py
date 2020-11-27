@@ -4,17 +4,11 @@ from typing import Optional
 
 
 class A(Enum):
-    """
-    :cvar B:
-    """
     B = "B𠀀"
 
 
 @dataclass
 class DKstra:
-    """
-    :ivar a:
-    """
     class Meta:
         name = "Dĳkstra"
 

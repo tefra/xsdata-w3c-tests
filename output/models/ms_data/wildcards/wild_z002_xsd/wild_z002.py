@@ -6,9 +6,6 @@ __NAMESPACE__ = "main"
 
 @dataclass
 class A:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "a"
         namespace = "main"
@@ -24,9 +21,6 @@ class A:
 
 @dataclass
 class B:
-    """
-    :ivar target_namespace_element:
-    """
     class Meta:
         name = "b"
         namespace = "main"
@@ -42,9 +36,6 @@ class B:
 
 @dataclass
 class C:
-    """
-    :ivar foo_bar_element:
-    """
     class Meta:
         name = "c"
         namespace = "main"
@@ -60,9 +51,6 @@ class C:
 
 @dataclass
 class D:
-    """
-    :ivar target_namespace_foo_element:
-    """
     class Meta:
         name = "d"
         namespace = "main"
@@ -78,12 +66,6 @@ class D:
 
 @dataclass
 class Root:
-    """
-    :ivar a:
-    :ivar b:
-    :ivar c:
-    :ivar d:
-    """
     class Meta:
         name = "root"
         namespace = "main"

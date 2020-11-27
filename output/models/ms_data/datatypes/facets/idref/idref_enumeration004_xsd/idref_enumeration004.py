@@ -5,9 +5,6 @@ from typing import Optional
 
 @dataclass
 class FooType:
-    """
-    :ivar foo:
-    """
     class Meta:
         name = "fooType"
 
@@ -22,11 +19,6 @@ class FooType:
 
     @dataclass
     class Foo:
-        """
-        :ivar value:
-        :ivar attr_test:
-        :ivar id_attr:
-        """
         value: Optional[str] = field(
             default=None,
         )
@@ -45,11 +37,6 @@ class FooType:
         )
 
         class AttrTest(Enum):
-            """
-            :cvar FOO:
-            :cvar FOO123:
-            :cvar FU1:
-            """
             FOO = "foo"
             FOO123 = "foo123"
             FU1 = "fu1"

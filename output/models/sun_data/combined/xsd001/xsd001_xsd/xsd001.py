@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://foo.com"
 
 @dataclass
 class Root:
-    """
-    :ivar child:
-    """
     class Meta:
         name = "root"
         namespace = "http://foo.com"
@@ -25,10 +22,6 @@ class Root:
 
     @dataclass
     class Child:
-        """
-        :ivar value:
-        :ivar attr:
-        """
         value: Optional[str] = field(
             default=None,
             metadata={

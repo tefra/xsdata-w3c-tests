@@ -6,17 +6,11 @@ __NAMESPACE__ = "foo"
 
 
 class St(Enum):
-    """
-    :cvar A:
-    """
     A = "a"
 
 
 @dataclass
 class A:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "a"
         namespace = "foo"
@@ -31,9 +25,6 @@ class A:
 
 @dataclass
 class Doc:
-    """
-    :ivar a:
-    """
     class Meta:
         name = "doc"
         namespace = "foo"

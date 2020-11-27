@@ -4,12 +4,6 @@ from typing import List, Optional
 
 
 class A(Enum):
-    """
-    :cvar VALUE_1:
-    :cvar VALUE_2:
-    :cvar VALUE_3:
-    :cvar VALUE_4:
-    """
     VALUE_1 = "1"
     VALUE_2 = "2"
     VALUE_3 = "3"
@@ -17,11 +11,6 @@ class A(Enum):
 
 
 class B(Enum):
-    """
-    :cvar A:
-    :cvar B:
-    :cvar C123456789:
-    """
     A = "a"
     B = "b"
     C123456789 = "c123456789"
@@ -29,10 +18,6 @@ class B(Enum):
 
 @dataclass
 class Ca:
-    """
-    :ivar x:
-    :ivar y:
-    """
     class Meta:
         name = "CA"
 
@@ -54,12 +39,6 @@ class Ca:
 
 
 class RA(Enum):
-    """
-    :cvar VALUE_1:
-    :cvar VALUE_2:
-    :cvar VALUE_3:
-    :cvar VALUE_4:
-    """
     VALUE_1 = "1"
     VALUE_2 = "2"
     VALUE_3 = "3"
@@ -68,10 +47,6 @@ class RA(Enum):
 
 @dataclass
 class RCa:
-    """
-    :ivar x:
-    :ivar y:
-    """
     class Meta:
         name = "R-CA"
 
@@ -93,12 +68,6 @@ class RCa:
 
 
 class UnionA(Enum):
-    """
-    :cvar VALUE_1:
-    :cvar VALUE_2:
-    :cvar VALUE_3:
-    :cvar VALUE_4:
-    """
     VALUE_1 = "1"
     VALUE_2 = "2"
     VALUE_3 = "3"
@@ -106,15 +75,6 @@ class UnionA(Enum):
 
 
 class UnionAb(Enum):
-    """
-    :cvar VALUE_1:
-    :cvar VALUE_2:
-    :cvar VALUE_3:
-    :cvar VALUE_4:
-    :cvar A:
-    :cvar B:
-    :cvar C123456789:
-    """
     VALUE_1 = "1"
     VALUE_2 = "2"
     VALUE_3 = "3"
@@ -126,9 +86,6 @@ class UnionAb(Enum):
 
 @dataclass
 class SA:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "s-a"
 
@@ -144,9 +101,6 @@ class SA:
 
 @dataclass
 class Test2:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "test2"
 
@@ -162,9 +116,6 @@ class Test2:
 
 @dataclass
 class ECa(Ca):
-    """
-    :ivar z:
-    """
     class Meta:
         name = "E-CA"
 
@@ -180,9 +131,6 @@ class ECa(Ca):
 
 @dataclass
 class Test:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "test"
 
@@ -202,12 +150,6 @@ class Test3(Ca):
 
 @dataclass
 class Root:
-    """
-    :ivar s_a:
-    :ivar test:
-    :ivar test2:
-    :ivar test3:
-    """
     class Meta:
         name = "root"
 

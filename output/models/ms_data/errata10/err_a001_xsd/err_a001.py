@@ -7,9 +7,6 @@ __NAMESPACE__ = "http://www.tempuri.org"
 
 @dataclass
 class Root:
-    """
-    :ivar choice:
-    """
     class Meta:
         name = "root"
         namespace = "http://www.tempuri.org"

@@ -6,10 +6,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class Doc:
-    """
-    :ivar elem:
-    :ivar ga1:
-    """
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
@@ -30,10 +26,6 @@ class Doc:
 
     @dataclass
     class Elem:
-        """
-        :ivar ga1:
-        :ivar ga2:
-        """
         ga1: Optional[int] = field(
             default=None,
             metadata={

@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-token-length-4-NS"
 
 @dataclass
 class NistschemaSvIvAtomicTokenLength4:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-token-length-4"
         namespace = "NISTSchema-SV-IV-atomic-token-length-4-NS"

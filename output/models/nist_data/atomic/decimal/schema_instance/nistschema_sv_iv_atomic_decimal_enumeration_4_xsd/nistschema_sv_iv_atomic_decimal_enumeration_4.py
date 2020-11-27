@@ -7,13 +7,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-decimal-enumeration-4-NS"
 
 
 class NistschemaSvIvAtomicDecimalEnumeration4Type(Enum):
-    """
-    :cvar VALUE_613_87:
-    :cvar VALUE_1906433845_89:
-    :cvar VALUE_MINUS_2_39446916113:
-    :cvar VALUE_MINUS_5286034_1:
-    :cvar VALUE_8838363181_0150:
-    """
     VALUE_613_87 = Decimal('613.87')
     VALUE_1906433845_89 = Decimal('1906433845.89')
     VALUE_MINUS_2_39446916113 = Decimal('-2.39446916113')
@@ -23,9 +16,6 @@ class NistschemaSvIvAtomicDecimalEnumeration4Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicDecimalEnumeration4:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-decimal-enumeration-4"
         namespace = "NISTSchema-SV-IV-atomic-decimal-enumeration-4-NS"

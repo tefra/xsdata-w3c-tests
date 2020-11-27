@@ -4,12 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Zing:
-    """
-    :ivar a:
-    :ivar b:
-    :ivar c:
-    :ivar any_element:
-    """
     class Meta:
         name = "zing"
 

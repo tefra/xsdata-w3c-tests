@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/valueConstraint"
 
 @dataclass
 class Text:
-    """
-    :ivar content:
-    """
     content: List[object] = field(
         default_factory=list,
         metadata={
@@ -21,9 +18,6 @@ class Text:
 
 @dataclass
 class Root:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/valueConstraint"

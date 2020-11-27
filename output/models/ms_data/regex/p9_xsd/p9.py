@@ -4,11 +4,6 @@ from typing import List, Optional
 
 
 class MyEnum(Enum):
-    """
-    :cvar VALUE_1:
-    :cvar VALUE_2:
-    :cvar VALUE_3:
-    """
     VALUE_1 = "1"
     VALUE_2 = "2"
     VALUE_3 = "3"
@@ -16,9 +11,6 @@ class MyEnum(Enum):
 
 @dataclass
 class Regex:
-    """
-    :ivar att:
-    """
     att: Optional[MyEnum] = field(
         default=None,
         metadata={
@@ -30,9 +22,6 @@ class Regex:
 
 @dataclass
 class Doc:
-    """
-    :ivar elem:
-    """
     class Meta:
         name = "doc"
 

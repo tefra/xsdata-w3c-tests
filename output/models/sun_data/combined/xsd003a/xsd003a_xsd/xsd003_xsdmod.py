@@ -6,10 +6,6 @@ __NAMESPACE__ = "foo"
 
 @dataclass
 class ComplexType:
-    """
-    :ivar root:
-    :ivar g_att:
-    """
     class Meta:
         name = "complexType"
 

@@ -4,9 +4,6 @@ from typing import Optional, Union
 
 @dataclass
 class MinimalA:
-    """
-    :ivar b:
-    """
     class Meta:
         name = "MINIMAL_A"
 
@@ -23,10 +20,6 @@ class MinimalA:
 
 @dataclass
 class X:
-    """
-    :ivar a:
-    :ivar a_attribute:
-    """
     a: Optional[Union[MinimalA, "X.ACastAsXsBoolean"]] = field(
         default=None,
         metadata={

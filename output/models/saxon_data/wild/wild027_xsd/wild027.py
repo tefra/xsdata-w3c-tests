@@ -4,9 +4,6 @@ from typing import Dict
 
 @dataclass
 class Eden:
-    """
-    :ivar any_attributes:
-    """
     class Meta:
         name = "eden"
 

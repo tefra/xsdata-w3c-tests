@@ -4,9 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Alpha:
-    """
-    :ivar open_com_element:
-    """
     class Meta:
         name = "alpha"
 
@@ -22,11 +19,6 @@ class Alpha:
 
 @dataclass
 class Doc:
-    """
-    :ivar a:
-    :ivar b:
-    :ivar open_com_element:
-    """
     class Meta:
         name = "doc"
 

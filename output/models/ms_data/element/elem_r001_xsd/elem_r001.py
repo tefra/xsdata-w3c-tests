@@ -6,11 +6,6 @@ __NAMESPACE__ = "testNS"
 
 @dataclass
 class Usaddress:
-    """
-    :ivar name:
-    :ivar street:
-    :ivar country:
-    """
     class Meta:
         name = "USAddress"
 
@@ -40,9 +35,6 @@ class Usaddress:
 
 @dataclass
 class Comment:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "comment"
         namespace = "testNS"
@@ -57,11 +49,6 @@ class Comment:
 
 @dataclass
 class PurchaseOrderType:
-    """
-    :ivar ship_to:
-    :ivar bill_to:
-    :ivar comment:
-    """
     ship_to: Optional[Usaddress] = field(
         default=None,
         metadata={

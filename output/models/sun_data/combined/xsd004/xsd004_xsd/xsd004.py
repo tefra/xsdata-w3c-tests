@@ -6,9 +6,6 @@ __NAMESPACE__ = "foo"
 
 @dataclass
 class Root:
-    """
-    :ivar choice:
-    """
     class Meta:
         name = "root"
         namespace = "foo"
@@ -52,9 +49,6 @@ class Root:
 
     @dataclass
     class SkipAny:
-        """
-        :ivar any_element:
-        """
         any_element: List[object] = field(
             default_factory=list,
             metadata={
@@ -66,9 +60,6 @@ class Root:
 
     @dataclass
     class LaxAny:
-        """
-        :ivar any_element:
-        """
         any_element: List[object] = field(
             default_factory=list,
             metadata={
@@ -80,9 +71,6 @@ class Root:
 
     @dataclass
     class StrictAny:
-        """
-        :ivar any_element:
-        """
         any_element: List[object] = field(
             default_factory=list,
             metadata={
@@ -94,9 +82,6 @@ class Root:
 
     @dataclass
     class SkipOther:
-        """
-        :ivar other_element:
-        """
         other_element: List[object] = field(
             default_factory=list,
             metadata={
@@ -108,9 +93,6 @@ class Root:
 
     @dataclass
     class LaxLocal:
-        """
-        :ivar local_element:
-        """
         local_element: List[object] = field(
             default_factory=list,
             metadata={
@@ -122,9 +104,6 @@ class Root:
 
     @dataclass
     class StrictTarget:
-        """
-        :ivar target_namespace_element:
-        """
         target_namespace_element: List[object] = field(
             default_factory=list,
             metadata={
@@ -136,9 +115,6 @@ class Root:
 
     @dataclass
     class SkipBar:
-        """
-        :ivar bar_element:
-        """
         bar_element: List[object] = field(
             default_factory=list,
             metadata={

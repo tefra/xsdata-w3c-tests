@@ -4,9 +4,6 @@ from typing import List, Optional, Type
 
 @dataclass
 class Doc:
-    """
-    :ivar id_or_elem:
-    """
     class Meta:
         name = "doc"
 
@@ -33,9 +30,6 @@ class Doc:
 
     @dataclass
     class Id:
-        """
-        :ivar att:
-        """
         att: Optional[str] = field(
             default=None,
             metadata={

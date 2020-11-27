@@ -6,9 +6,6 @@ __NAMESPACE__ = "ElemDecl/maxOccurs"
 
 @dataclass
 class Root:
-    """
-    :ivar local:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/maxOccurs"

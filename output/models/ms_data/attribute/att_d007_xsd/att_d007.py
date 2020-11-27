@@ -6,13 +6,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 
 class Char(Enum):
-    """
-    :cvar A:
-    :cvar B:
-    :cvar C:
-    :cvar D:
-    :cvar E:
-    """
     A = "a"
     B = "b"
     C = "c"
@@ -21,13 +14,6 @@ class Char(Enum):
 
 
 class No(Enum):
-    """
-    :cvar VALUE_1:
-    :cvar VALUE_2:
-    :cvar VALUE_3:
-    :cvar VALUE_4:
-    :cvar VALUE_5:
-    """
     VALUE_1 = 1
     VALUE_2 = 2
     VALUE_3 = 3
@@ -37,9 +23,6 @@ class No(Enum):
 
 @dataclass
 class AttRef:
-    """
-    :ivar att1:
-    """
     class Meta:
         name = "attRef"
 
@@ -55,9 +38,6 @@ class AttRef:
 
 @dataclass
 class Doc:
-    """
-    :ivar elem:
-    """
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"

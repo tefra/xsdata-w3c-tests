@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://xstest-tns/IBMd3_16v02"
 
 @dataclass
 class Root:
-    """
-    :ivar elflt_union_c:
-    """
     class Meta:
         name = "root"
         namespace = "http://xstest-tns/IBMd3_16v02"

@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://www.w3.org/1999/XSL/Transform"
 
 @dataclass
 class Stylesheet:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "stylesheet"
         namespace = "http://www.w3.org/1999/XSL/Transform"

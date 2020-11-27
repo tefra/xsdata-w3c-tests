@@ -5,9 +5,6 @@ from typing import List, Optional, Union
 
 @dataclass
 class Example:
-    """
-    :ivar x:
-    """
     x: List[Union["Example.KindQuantity", "Example.KindPrice", "Example.KindMesg"]] = field(
         default_factory=list,
         metadata={
@@ -19,10 +16,6 @@ class Example:
 
     @dataclass
     class KindQuantity:
-        """
-        :ivar value:
-        :ivar kind:
-        """
         value: Optional[int] = field(
             default=None,
         )
@@ -36,10 +29,6 @@ class Example:
 
     @dataclass
     class KindPrice:
-        """
-        :ivar value:
-        :ivar kind:
-        """
         value: Optional[Decimal] = field(
             default=None,
         )
@@ -53,10 +42,6 @@ class Example:
 
     @dataclass
     class KindMesg:
-        """
-        :ivar value:
-        :ivar kind:
-        """
         value: Optional[str] = field(
             default=None,
         )

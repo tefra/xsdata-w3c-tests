@@ -4,10 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Event:
-    """
-    :ivar when:
-    :ivar type:
-    """
     class Meta:
         name = "event"
 
@@ -28,9 +24,6 @@ class Event:
 
 @dataclass
 class When:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "when"
 
@@ -44,10 +37,6 @@ class When:
 
 @dataclass
 class Doc:
-    """
-    :ivar event:
-    :ivar type:
-    """
     class Meta:
         name = "doc"
 

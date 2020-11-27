@@ -6,9 +6,6 @@ __NAMESPACE__ = "nsConstraint"
 
 @dataclass
 class A:
-    """
-    :ivar other_element:
-    """
     class Meta:
         name = "a"
         namespace = "nsConstraint"
@@ -25,9 +22,6 @@ class A:
 
 @dataclass
 class Date:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "date"
         namespace = "nsConstraint"

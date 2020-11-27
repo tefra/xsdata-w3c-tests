@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class A:
-    """
-    :ivar a:
-    """
     a: Optional[object] = field(
         default=None,
         metadata={
@@ -20,9 +17,6 @@ class A:
 
 @dataclass
 class B:
-    """
-    :ivar b:
-    """
     b: Optional[object] = field(
         default=None,
         metadata={
@@ -34,11 +28,7 @@ class B:
 
 @dataclass
 class Base:
-    """documentation documentation bar.
-
-    :ivar e1:
-    :ivar e2:
-    """
+    """documentation documentation bar."""
     class Meta:
         name = "base"
 

@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class Doc:
-    """
-    :ivar elem:
-    """
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
@@ -22,9 +19,6 @@ class Doc:
 
     @dataclass
     class Elem:
-        """
-        :ivar att:
-        """
         att: str = field(
             init=False,
             default="   1       2          3",

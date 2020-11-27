@@ -29,10 +29,6 @@ class Member1(DerivedFromType):
 
 @dataclass
 class Root:
-    """
-    :ivar member1:
-    :ivar head:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/disallowedSubst"

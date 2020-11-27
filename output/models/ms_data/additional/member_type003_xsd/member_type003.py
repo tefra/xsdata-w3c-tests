@@ -4,9 +4,6 @@ from typing import List, Union
 
 @dataclass
 class Root:
-    """
-    :ivar e:
-    """
     class Meta:
         name = "root"
 

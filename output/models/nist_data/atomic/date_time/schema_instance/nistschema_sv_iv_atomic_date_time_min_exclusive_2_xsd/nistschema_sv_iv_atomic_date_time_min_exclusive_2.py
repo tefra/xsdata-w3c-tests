@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-dateTime-minExclusive-2-NS"
 
 @dataclass
 class NistschemaSvIvAtomicDateTimeMinExclusive2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-dateTime-minExclusive-2"
         namespace = "NISTSchema-SV-IV-atomic-dateTime-minExclusive-2-NS"

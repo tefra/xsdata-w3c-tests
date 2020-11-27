@@ -16,9 +16,6 @@ class Elt1(TypeAbstract):
 
 @dataclass
 class TypeA(TypeAbstract):
-    """
-    :ivar elt2:
-    """
     class Meta:
         name = "typeA"
 

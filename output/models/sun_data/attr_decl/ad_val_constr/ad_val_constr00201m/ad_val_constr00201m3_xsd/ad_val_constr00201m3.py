@@ -7,10 +7,6 @@ __NAMESPACE__ = "AttrDecl/valConstr"
 
 @dataclass
 class ElementWithAttr:
-    """
-    :ivar number:
-    :ivar price:
-    """
     class Meta:
         name = "elementWithAttr"
         namespace = "AttrDecl/valConstr"
@@ -32,9 +28,6 @@ class ElementWithAttr:
 
 @dataclass
 class Root:
-    """
-    :ivar element_with_attr:
-    """
     class Meta:
         name = "root"
         namespace = "AttrDecl/valConstr"

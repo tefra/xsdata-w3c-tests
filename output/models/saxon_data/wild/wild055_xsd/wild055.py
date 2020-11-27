@@ -4,9 +4,6 @@ from typing import Dict
 
 @dataclass
 class Zing:
-    """
-    :ivar any_attributes:
-    """
     class Meta:
         name = "zing"
 
@@ -21,9 +18,6 @@ class Zing:
 
 @dataclass
 class RestrictedZing(Zing):
-    """
-    :ivar local_attributes:
-    """
     class Meta:
         name = "restrictedZing"
 

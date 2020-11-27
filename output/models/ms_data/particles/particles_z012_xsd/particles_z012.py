@@ -7,9 +7,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class Ct1:
-    """
-    :ivar att1:
-    """
     class Meta:
         name = "CT1"
 
@@ -22,19 +19,12 @@ class Ct1:
     )
 
     class Value(Enum):
-        """
-        :cvar X:
-        :cvar Y:
-        """
         X = "x"
         Y = "y"
 
 
 @dataclass
 class Ct2:
-    """
-    :ivar att1:
-    """
     class Meta:
         name = "CT2"
 
@@ -49,9 +39,6 @@ class Ct2:
 
 @dataclass
 class E1:
-    """
-    :ivar value:
-    """
     class Meta:
         namespace = "http://xsdtesting"
 
@@ -63,19 +50,12 @@ class E1:
     )
 
     class Value(Enum):
-        """
-        :cvar X:
-        :cvar Y:
-        """
         X = "x"
         Y = "y"
 
 
 @dataclass
 class E2:
-    """
-    :ivar value:
-    """
     class Meta:
         namespace = "http://xsdtesting"
 
@@ -95,9 +75,6 @@ class E3(Ct2):
 
 @dataclass
 class Root:
-    """
-    :ivar e2_or_e1_or_e3:
-    """
     class Meta:
         name = "root"
         namespace = "http://xsdtesting"
@@ -124,9 +101,5 @@ class Root:
     )
 
     class Value(Enum):
-        """
-        :cvar X:
-        :cvar Y:
-        """
         X = "x"
         Y = "y"

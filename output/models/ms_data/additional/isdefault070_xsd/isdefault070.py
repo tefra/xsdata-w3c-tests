@@ -3,9 +3,6 @@ from dataclasses import dataclass, field
 
 @dataclass
 class Ct:
-    """
-    :ivar a:
-    """
     class Meta:
         name = "ct"
 

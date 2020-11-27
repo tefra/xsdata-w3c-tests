@@ -4,9 +4,6 @@ from typing import Optional, Union
 
 @dataclass
 class Doc:
-    """
-    :ivar root:
-    """
     class Meta:
         name = "doc"
 
@@ -21,9 +18,6 @@ class Doc:
 
 @dataclass
 class Root:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "root"
 

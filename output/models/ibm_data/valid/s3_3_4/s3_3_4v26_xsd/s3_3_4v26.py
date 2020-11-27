@@ -4,10 +4,6 @@ from typing import Optional
 
 @dataclass
 class Ids:
-    """
-    :ivar idref_element:
-    :ivar id_attr:
-    """
     class Meta:
         name = "ids"
 

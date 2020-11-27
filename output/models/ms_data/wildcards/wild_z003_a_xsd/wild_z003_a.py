@@ -7,11 +7,6 @@ __NAMESPACE__ = "urn:foo"
 
 @dataclass
 class Elt1:
-    """
-    :ivar elt2:
-    :ivar elem:
-    :ivar other_element:
-    """
     class Meta:
         name = "elt1"
         namespace = "urn:foo"

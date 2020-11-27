@@ -4,11 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Idrefs:
-    """
-    :ivar idref_subelement:
-    :ivar idref1:
-    :ivar idref2:
-    """
     class Meta:
         name = "idrefs"
 
@@ -36,11 +31,6 @@ class Idrefs:
 
 @dataclass
 class Ids:
-    """
-    :ivar idref_element:
-    :ivar id1:
-    :ivar id2:
-    """
     class Meta:
         name = "ids"
 

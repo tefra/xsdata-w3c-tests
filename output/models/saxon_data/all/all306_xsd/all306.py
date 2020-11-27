@@ -4,12 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class B:
-    """
-    :ivar content:
-    :ivar a:
-    :ivar b:
-    :ivar c:
-    """
     class Meta:
         name = "b"
 
@@ -45,11 +39,6 @@ class B:
 
 @dataclass
 class Ext(B):
-    """
-    :ivar content:
-    :ivar d:
-    :ivar e:
-    """
     class Meta:
         name = "ext"
 

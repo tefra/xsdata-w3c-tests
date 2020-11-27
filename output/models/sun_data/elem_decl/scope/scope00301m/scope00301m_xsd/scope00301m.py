@@ -6,10 +6,6 @@ __NAMESPACE__ = "ElemDecl/scope"
 
 @dataclass
 class Root:
-    """
-    :ivar local_element1:
-    :ivar local_element2:
-    """
     class Meta:
         name = "root"
         namespace = "ElemDecl/scope"

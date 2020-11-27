@@ -5,9 +5,6 @@ from typing import List, Optional
 
 @dataclass
 class Anyuri:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "anyuri"
 
@@ -21,9 +18,6 @@ class Anyuri:
 
 @dataclass
 class BoolType:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "bool"
 
@@ -37,9 +31,6 @@ class BoolType:
 
 @dataclass
 class Date:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "date"
 
@@ -53,9 +44,6 @@ class Date:
 
 @dataclass
 class Datetime:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "datetime"
 
@@ -69,9 +57,6 @@ class Datetime:
 
 @dataclass
 class Day:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "day"
 
@@ -85,9 +70,6 @@ class Day:
 
 @dataclass
 class Decimal:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "decimal"
 
@@ -101,9 +83,6 @@ class Decimal:
 
 @dataclass
 class Double:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "double"
 
@@ -117,9 +96,6 @@ class Double:
 
 @dataclass
 class Duration:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "duration"
 
@@ -133,9 +109,6 @@ class Duration:
 
 @dataclass
 class Entity:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "entity"
 
@@ -149,9 +122,6 @@ class Entity:
 
 @dataclass
 class FloatType:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "float"
 
@@ -165,9 +135,6 @@ class FloatType:
 
 @dataclass
 class Hexbinary:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "hexbinary"
 
@@ -181,9 +148,6 @@ class Hexbinary:
 
 @dataclass
 class IntType:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "int"
 
@@ -197,9 +161,6 @@ class IntType:
 
 @dataclass
 class Item:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "item"
 
@@ -215,9 +176,6 @@ class Item:
 
 @dataclass
 class Month:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "month"
 
@@ -231,9 +189,6 @@ class Month:
 
 @dataclass
 class Monthday:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "monthday"
 
@@ -247,9 +202,6 @@ class Monthday:
 
 @dataclass
 class String:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "string"
 
@@ -263,9 +215,6 @@ class String:
 
 @dataclass
 class Time:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "time"
 
@@ -279,9 +228,6 @@ class Time:
 
 @dataclass
 class Year:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "year"
 
@@ -295,26 +241,6 @@ class Year:
 
 @dataclass
 class Root:
-    """
-    :ivar entity:
-    :ivar anyuri:
-    :ivar hexbinary:
-    :ivar month:
-    :ivar day:
-    :ivar monthday:
-    :ivar year:
-    :ivar date:
-    :ivar time:
-    :ivar datetime:
-    :ivar duration:
-    :ivar decimal:
-    :ivar double:
-    :ivar float_value:
-    :ivar bool_value:
-    :ivar int_value:
-    :ivar string:
-    :ivar item:
-    """
     class Meta:
         name = "root"
 

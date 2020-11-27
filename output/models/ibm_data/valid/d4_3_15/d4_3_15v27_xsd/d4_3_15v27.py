@@ -4,9 +4,6 @@ from typing import Optional
 
 @dataclass
 class Root:
-    """
-    :ivar e1:
-    """
     class Meta:
         name = "root"
 

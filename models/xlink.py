@@ -6,12 +6,6 @@ __NAMESPACE__ = "http://www.w3.org/1999/xlink"
 
 
 class ActuateType(Enum):
-    """
-    :cvar ON_LOAD:
-    :cvar ON_REQUEST:
-    :cvar OTHER:
-    :cvar NONE_VALUE:
-    """
     ON_LOAD = "onLoad"
     ON_REQUEST = "onRequest"
     OTHER = "other"
@@ -19,13 +13,6 @@ class ActuateType(Enum):
 
 
 class ShowType(Enum):
-    """
-    :cvar NEW:
-    :cvar REPLACE:
-    :cvar EMBED:
-    :cvar OTHER:
-    :cvar NONE_VALUE:
-    """
     NEW = "new"
     REPLACE = "replace"
     EMBED = "embed"
@@ -34,14 +21,6 @@ class ShowType(Enum):
 
 
 class TypeType(Enum):
-    """
-    :cvar SIMPLE:
-    :cvar EXTENDED:
-    :cvar TITLE:
-    :cvar RESOURCE:
-    :cvar LOCATOR:
-    :cvar ARC:
-    """
     SIMPLE = "simple"
     EXTENDED = "extended"
     TITLE = "title"
@@ -193,13 +172,6 @@ class LocatorType:
 
 @dataclass
 class ResourceType:
-    """
-    :ivar any_element:
-    :ivar type:
-    :ivar role:
-    :ivar title:
-    :ivar label:
-    """
     class Meta:
         name = "resourceType"
 
@@ -247,17 +219,7 @@ class ResourceType:
 @dataclass
 class Simple:
     """Intended for use as the type of user-declared elements to make them simple
-    links.
-
-    :ivar any_element:
-    :ivar type:
-    :ivar href:
-    :ivar role:
-    :ivar arcrole:
-    :ivar title:
-    :ivar show:
-    :ivar actuate:
-    """
+    links."""
     class Meta:
         name = "simple"
 
@@ -392,17 +354,11 @@ class Title(TitleEltType):
 @dataclass
 class Extended:
     """Intended for use as the type of user-declared elements to make them extended
-    links. Note that the elements referenced in the content model are all abstract.
+    links.
+
+    Note that the elements referenced in the content model are all abstract.
     The intention is that by simply declaring elements with these as their
     substitutionGroup, all the right things will happen.
-
-    :ivar title:
-    :ivar resource:
-    :ivar locator:
-    :ivar arc:
-    :ivar type:
-    :ivar role:
-    :ivar title_attribute:
     """
     class Meta:
         name = "extended"

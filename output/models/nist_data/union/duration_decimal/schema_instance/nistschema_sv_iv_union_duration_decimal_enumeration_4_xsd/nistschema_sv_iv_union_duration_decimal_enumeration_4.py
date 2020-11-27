@@ -6,15 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-union-duration-decimal-enumeration-4-NS"
 
 
 class NistschemaSvIvUnionDurationDecimalEnumeration4Type(Enum):
-    """
-    :cvar P2024_Y02_M08_DT18_H57_M25_S:
-    :cvar VALUE_MINUS_8662801_7:
-    :cvar VALUE_MINUS_6_6957506428:
-    :cvar P2025_Y10_M04_DT21_H48_M39_S:
-    :cvar VALUE_MINUS_9_833664239753505:
-    :cvar VALUE_35_153218:
-    :cvar VALUE_30_9431:
-    """
     P2024_Y02_M08_DT18_H57_M25_S = "P2024Y02M08DT18H57M25S"
     VALUE_MINUS_8662801_7 = "-8662801.7"
     VALUE_MINUS_6_6957506428 = "-6.6957506428"
@@ -26,9 +17,6 @@ class NistschemaSvIvUnionDurationDecimalEnumeration4Type(Enum):
 
 @dataclass
 class NistschemaSvIvUnionDurationDecimalEnumeration4:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-union-duration-decimal-enumeration-4"
         namespace = "NISTSchema-SV-IV-union-duration-decimal-enumeration-4-NS"

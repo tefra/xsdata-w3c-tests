@@ -4,9 +4,6 @@ from typing import Dict, Optional
 
 @dataclass
 class Data:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "data"
 
@@ -22,9 +19,6 @@ class Data:
 
 @dataclass
 class Item:
-    """
-    :ivar any_attributes:
-    """
     class Meta:
         name = "item"
 

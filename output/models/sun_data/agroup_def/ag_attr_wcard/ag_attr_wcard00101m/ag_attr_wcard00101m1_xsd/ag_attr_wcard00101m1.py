@@ -7,12 +7,6 @@ __NAMESPACE__ = "AttrGroup/attrWCard"
 
 @dataclass
 class ElementWithAttr:
-    """
-    :ivar good:
-    :ivar number:
-    :ivar height:
-    :ivar any_attributes:
-    """
     class Meta:
         name = "elementWithAttr"
         namespace = "AttrGroup/attrWCard"
@@ -46,9 +40,6 @@ class ElementWithAttr:
 
 @dataclass
 class Root:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         namespace = "AttrGroup/attrWCard"

@@ -4,10 +4,6 @@ from typing import Dict, List, Optional
 
 @dataclass
 class Beta:
-    """
-    :ivar other_attributes:
-    :ivar w3_org_xml_1998_namespace_attributes:
-    """
     class Meta:
         name = "beta"
 
@@ -29,12 +25,6 @@ class Beta:
 
 @dataclass
 class Doc:
-    """
-    :ivar content:
-    :ivar w3_org_xml_1998_namespace_attributes:
-    :ivar a:
-    :ivar b:
-    """
     class Meta:
         name = "doc"
 

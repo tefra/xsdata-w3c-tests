@@ -6,9 +6,6 @@ __NAMESPACE__ = "foo"
 
 @dataclass
 class A:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "a"
         namespace = "foo"
@@ -25,9 +22,6 @@ class A:
 
 @dataclass
 class B:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "b"
         namespace = "foo"
@@ -44,9 +38,6 @@ class B:
 
 @dataclass
 class C:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "c"
         namespace = "foo"
@@ -63,9 +54,6 @@ class C:
 
 @dataclass
 class Root:
-    """
-    :ivar mixed_or_element_only:
-    """
     class Meta:
         name = "root"
         namespace = "foo"
@@ -89,10 +77,6 @@ class Root:
 
     @dataclass
     class Mixed:
-        """
-        :ivar content:
-        :ivar a_or_b_or_c:
-        """
         content: List[object] = field(
             default_factory=list,
             metadata={
@@ -124,9 +108,6 @@ class Root:
 
     @dataclass
     class ElementOnly:
-        """
-        :ivar a_or_b_or_c:
-        """
         a_or_b_or_c: List[object] = field(
             default_factory=list,
             metadata={

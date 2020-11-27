@@ -5,9 +5,6 @@ from typing import Optional
 
 @dataclass
 class Ids:
-    """
-    :ivar id:
-    """
     class Meta:
         name = "ids"
 
@@ -20,17 +17,11 @@ class Ids:
 
 
 class ValueConstraint(Enum):
-    """
-    :cvar ASD:
-    """
     ASD = "asd"
 
 
 @dataclass
 class Idrefs:
-    """
-    :ivar idref:
-    """
     class Meta:
         name = "idrefs"
 
@@ -45,10 +36,6 @@ class Idrefs:
 
 @dataclass
 class Root:
-    """
-    :ivar a:
-    :ivar b:
-    """
     class Meta:
         name = "root"
 

@@ -6,17 +6,11 @@ __NAMESPACE__ = "http://xstest-tns/schema11"
 
 
 class DurWhiteSpace(Enum):
-    """
-    :cvar VALUE:
-    """
     VALUE = ""
 
 
 @dataclass
 class Root:
-    """
-    :ivar el_white_space:
-    """
     class Meta:
         name = "root"
         namespace = "http://xstest-tns/schema11"

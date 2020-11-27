@@ -4,13 +4,6 @@ from typing import Optional
 
 @dataclass
 class Shape1:
-    """
-    :ivar a:
-    :ivar b:
-    :ivar c:
-    :ivar d:
-    :ivar type:
-    """
     class Meta:
         name = "Shape"
 

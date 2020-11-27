@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://datypic.com/spc"
 
 @dataclass
 class GiftWrap:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "giftWrap"
         namespace = "http://datypic.com/spc"

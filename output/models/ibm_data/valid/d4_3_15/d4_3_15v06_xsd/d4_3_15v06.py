@@ -4,10 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class BaseType:
-    """
-    :ivar base_ely:
-    :ivar base_attr:
-    """
     class Meta:
         name = "baseType"
 
@@ -30,9 +26,6 @@ class BaseType:
 
 @dataclass
 class DerivedType(BaseType):
-    """
-    :ivar derived_attr:
-    """
     class Meta:
         name = "derivedType"
 

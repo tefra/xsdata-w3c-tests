@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-negativeInteger-totalDigits-4-NS"
 
 @dataclass
 class NistschemaSvIvAtomicNegativeIntegerTotalDigits4:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-negativeInteger-totalDigits-4"
         namespace = "NISTSchema-SV-IV-atomic-negativeInteger-totalDigits-4-NS"

@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class CInvalid:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "c_invalid"
 
@@ -24,10 +21,6 @@ class CInvalid:
 
 @dataclass
 class Cs:
-    """
-    :ivar value:
-    :ivar a:
-    """
     class Meta:
         name = "cs"
 
@@ -48,9 +41,6 @@ class Cs:
 
 @dataclass
 class Cc(Cs):
-    """
-    :ivar b:
-    """
     class Meta:
         name = "cc"
 
@@ -78,10 +68,6 @@ class Fr1Valid(Cc):
 
 @dataclass
 class Root:
-    """
-    :ivar fr1_valid:
-    :ivar fr_valid:
-    """
     class Meta:
         name = "root"
         namespace = "http://xsdtesting"

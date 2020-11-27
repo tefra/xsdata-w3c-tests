@@ -6,9 +6,6 @@ __NAMESPACE__ = "a"
 
 @dataclass
 class T:
-    """
-    :ivar a_element:
-    """
     class Meta:
         name = "t"
 
@@ -24,9 +21,6 @@ class T:
 
 @dataclass
 class X:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "x"
         namespace = "a"

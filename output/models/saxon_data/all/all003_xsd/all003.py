@@ -4,13 +4,6 @@ from typing import List, Optional
 
 @dataclass
 class Doc:
-    """
-    :ivar content:
-    :ivar a:
-    :ivar b:
-    :ivar c:
-    :ivar d:
-    """
     class Meta:
         name = "doc"
 

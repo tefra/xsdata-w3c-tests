@@ -5,9 +5,6 @@ from output.models.ms_data.identity_constraint.id_h022_xsd.id_h022_imp import Ii
 
 @dataclass
 class Kid:
-    """
-    :ivar val:
-    """
     class Meta:
         name = "kid"
 
@@ -21,9 +18,6 @@ class Kid:
 
 @dataclass
 class Uid:
-    """
-    :ivar val:
-    """
     class Meta:
         name = "uid"
 
@@ -37,11 +31,6 @@ class Uid:
 
 @dataclass
 class Root:
-    """
-    :ivar uid:
-    :ivar iid:
-    :ivar kid:
-    """
     class Meta:
         name = "root"
 

@@ -4,18 +4,11 @@ from typing import Optional
 
 
 class EnumType(Enum):
-    """
-    :cvar VALUE:
-    """
     VALUE = "Ѐvalue"
 
 
 @dataclass
 class Doc:
-    """
-    :ivar foo:
-    :ivar att:
-    """
     class Meta:
         name = "doc"
 

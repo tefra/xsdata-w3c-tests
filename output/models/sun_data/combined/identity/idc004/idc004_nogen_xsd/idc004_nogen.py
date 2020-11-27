@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://www.vehicle.org"
 
 @dataclass
 class Person:
-    """
-    :ivar car:
-    """
     class Meta:
         name = "person"
         namespace = "http://www.vehicle.org"
@@ -23,10 +20,6 @@ class Person:
 
     @dataclass
     class Car:
-        """
-        :ivar reg_state:
-        :ivar reg_plate:
-        """
         reg_state: Optional[str] = field(
             default=None,
             metadata={
@@ -45,10 +38,6 @@ class Person:
 
 @dataclass
 class Vehicle:
-    """
-    :ivar plate_number:
-    :ivar state:
-    """
     class Meta:
         name = "vehicle"
         namespace = "http://www.vehicle.org"
@@ -70,11 +59,6 @@ class Vehicle:
 
 @dataclass
 class State:
-    """
-    :ivar code:
-    :ivar vehicle:
-    :ivar person:
-    """
     class Meta:
         name = "state"
         namespace = "http://www.vehicle.org"
@@ -102,9 +86,6 @@ class State:
 
 @dataclass
 class Root:
-    """
-    :ivar state:
-    """
     class Meta:
         name = "root"
         namespace = "http://www.vehicle.org"

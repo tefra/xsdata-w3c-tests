@@ -6,16 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-int-enumeration-3-NS"
 
 
 class NistschemaSvIvAtomicIntEnumeration3Type(Enum):
-    """
-    :cvar VALUE_2147483647:
-    :cvar VALUE_70977758:
-    :cvar VALUE_323669986:
-    :cvar VALUE_MINUS_314:
-    :cvar VALUE_MINUS_53685045:
-    :cvar VALUE_9391921:
-    :cvar VALUE_43292492:
-    :cvar VALUE_MINUS_2142090:
-    """
     VALUE_2147483647 = 2147483647
     VALUE_70977758 = 70977758
     VALUE_323669986 = 323669986
@@ -28,9 +18,6 @@ class NistschemaSvIvAtomicIntEnumeration3Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicIntEnumeration3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-int-enumeration-3"
         namespace = "NISTSchema-SV-IV-atomic-int-enumeration-3-NS"

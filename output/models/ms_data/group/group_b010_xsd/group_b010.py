@@ -4,9 +4,6 @@ from typing import Optional
 
 @dataclass
 class ComplexType:
-    """
-    :ivar r1:
-    """
     class Meta:
         name = "complexType"
 
@@ -22,9 +19,6 @@ class ComplexType:
 
 @dataclass
 class Elem(ComplexType):
-    """
-    :ivar a:
-    """
     class Meta:
         name = "elem"
 
@@ -40,9 +34,6 @@ class Elem(ComplexType):
 
 @dataclass
 class Doc:
-    """
-    :ivar elem:
-    """
     class Meta:
         name = "doc"
 

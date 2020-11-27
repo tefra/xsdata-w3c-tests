@@ -6,9 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-byte-totalDigits-3-NS"
 
 @dataclass
 class NistschemaSvIvAtomicByteTotalDigits3:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-byte-totalDigits-3"
         namespace = "NISTSchema-SV-IV-atomic-byte-totalDigits-3-NS"

@@ -12,10 +12,6 @@ class ParentType:
 
 @dataclass
 class Ttype:
-    """
-    :ivar value:
-    :ivar col:
-    """
     class Meta:
         name = "ttype"
 
@@ -40,9 +36,6 @@ class T(Ttype):
 
 @dataclass
 class Root:
-    """
-    :ivar t:
-    """
     class Meta:
         name = "root"
         namespace = "myNS.tempuri.org"

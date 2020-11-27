@@ -4,9 +4,6 @@ from typing import Optional
 
 @dataclass
 class DKstra:
-    """
-    :ivar vr_tag:
-    """
     class Meta:
         name = "Dĳkstra"
 

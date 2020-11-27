@@ -6,10 +6,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class Ct1:
-    """
-    :ivar foo:
-    :ivar bar:
-    """
     class Meta:
         name = "ct1"
 
@@ -34,10 +30,6 @@ class Ct1:
 
 @dataclass
 class Ct2:
-    """
-    :ivar foo:
-    :ivar bar:
-    """
     class Meta:
         name = "ct2"
 
@@ -61,10 +53,6 @@ class Ct2:
 
 @dataclass
 class Ct3:
-    """
-    :ivar foo:
-    :ivar bar:
-    """
     class Meta:
         name = "ct3"
 
@@ -89,11 +77,6 @@ class Ct3:
 
 @dataclass
 class B:
-    """
-    :ivar e1:
-    :ivar e2:
-    :ivar e3:
-    """
     e1: List[Ct1] = field(
         default_factory=list,
         metadata={
@@ -128,11 +111,6 @@ class B:
 
 @dataclass
 class R:
-    """
-    :ivar e1:
-    :ivar e2:
-    :ivar e3:
-    """
     e1: Optional[Ct3] = field(
         default=None,
         metadata={
@@ -161,9 +139,6 @@ class R:
 
 @dataclass
 class Doc:
-    """
-    :ivar elem:
-    """
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"

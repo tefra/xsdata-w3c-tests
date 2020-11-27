@@ -6,12 +6,6 @@ __NAMESPACE__ = "http://xstest-tns/schema11_D3_4_28_v02"
 
 
 class BdTimeStampEnumeration(Enum):
-    """
-    :cvar VALUE_1998_01_01_T12_00_00_Z:
-    :cvar VALUE_2000_01_01_T12_00_00_123_Z:
-    :cvar VALUE_2001_01_01_T12_00_00_08_00:
-    :cvar VALUE_2002_01_01_T12_00_00_990_08_00:
-    """
     VALUE_1998_01_01_T12_00_00_Z = "1998-01-01T12:00:00Z"
     VALUE_2000_01_01_T12_00_00_123_Z = "2000-01-01T12:00:00.123Z"
     VALUE_2001_01_01_T12_00_00_08_00 = "2001-01-01T12:00:00+08:00"
@@ -19,12 +13,6 @@ class BdTimeStampEnumeration(Enum):
 
 
 class DTimeStampEnumeration(Enum):
-    """
-    :cvar VALUE_1998_01_01_T12_00_00_Z:
-    :cvar VALUE_2000_01_01_T12_00_00_123_Z:
-    :cvar VALUE_2001_01_01_T12_00_00_08_00:
-    :cvar VALUE_2002_01_01_T12_00_00_990_08_00:
-    """
     VALUE_1998_01_01_T12_00_00_Z = "1998-01-01T12:00:00Z"
     VALUE_2000_01_01_T12_00_00_123_Z = "2000-01-01T12:00:00.123Z"
     VALUE_2001_01_01_T12_00_00_08_00 = "2001-01-01T12:00:00+08:00"
@@ -33,14 +21,6 @@ class DTimeStampEnumeration(Enum):
 
 @dataclass
 class Root:
-    """
-    :ivar value:
-    :ivar attrd_time_stamp_type:
-    :ivar attrd_time_stamp_enumeration:
-    :ivar attrd_time_stamp_pattern:
-    :ivar attrd_time_stamp_min_max_inclusive:
-    :ivar attrd_time_stamp_min_max_exclusive:
-    """
     class Meta:
         name = "root"
         namespace = "http://xstest-tns/schema11_D3_4_28_v02"

@@ -6,12 +6,6 @@ __NAMESPACE__ = "http://xstest-tns/schema11_S3_4_6"
 
 @dataclass
 class CmplxBase:
-    """
-    :ivar element1:
-    :ivar element2:
-    :ivar element3:
-    :ivar element4:
-    """
     class Meta:
         name = "cmplxBase"
 
@@ -50,12 +44,6 @@ class CmplxBase:
 
 @dataclass
 class Derived:
-    """
-    :ivar element4:
-    :ivar element3:
-    :ivar element2:
-    :ivar element1:
-    """
     class Meta:
         name = "derived"
 

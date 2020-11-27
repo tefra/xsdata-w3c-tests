@@ -6,9 +6,6 @@ __NAMESPACE__ = "http://www.example.org"
 
 @dataclass
 class Mod2Sequence:
-    """
-    :ivar y:
-    """
     class Meta:
         name = "MOD2_SEQUENCE"
 

@@ -6,16 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-language-enumeration-1-NS"
 
 
 class NistschemaSvIvAtomicLanguageEnumeration1Type(Enum):
-    """
-    :cvar AF:
-    :cvar AM:
-    :cvar AR:
-    :cvar AS_VALUE:
-    :cvar AY:
-    :cvar AZ:
-    :cvar BA:
-    :cvar BE:
-    """
     AF = "AF"
     AM = "AM"
     AR = "AR"
@@ -28,9 +18,6 @@ class NistschemaSvIvAtomicLanguageEnumeration1Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicLanguageEnumeration1:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-language-enumeration-1"
         namespace = "NISTSchema-SV-IV-atomic-language-enumeration-1-NS"

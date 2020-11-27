@@ -6,17 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-gMonthDay-enumeration-5-NS"
 
 
 class NistschemaSvIvAtomicGMonthDayEnumeration5Type(Enum):
-    """
-    :cvar VALUE_05_21:
-    :cvar VALUE_09_18:
-    :cvar VALUE_03_28:
-    :cvar VALUE_04_03:
-    :cvar VALUE_09_13:
-    :cvar VALUE_08_07:
-    :cvar VALUE_07_11:
-    :cvar VALUE_09_03:
-    :cvar VALUE_02_23:
-    """
     VALUE_05_21 = "--05-21"
     VALUE_09_18 = "--09-18"
     VALUE_03_28 = "--03-28"
@@ -30,9 +19,6 @@ class NistschemaSvIvAtomicGMonthDayEnumeration5Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicGMonthDayEnumeration5:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-gMonthDay-enumeration-5"
         namespace = "NISTSchema-SV-IV-atomic-gMonthDay-enumeration-5-NS"

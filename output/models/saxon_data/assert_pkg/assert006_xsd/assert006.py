@@ -4,9 +4,6 @@ from typing import List
 
 @dataclass
 class Outer:
-    """
-    :ivar inner:
-    """
     class Meta:
         name = "outer"
 

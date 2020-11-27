@@ -6,10 +6,6 @@ __NAMESPACE__ = "http://www.schemaTest.org/schema11_S3_2_3"
 
 @dataclass
 class Type1:
-    """
-    :ivar attr1:
-    :ivar attr2:
-    """
     class Meta:
         name = "type1"
 
@@ -30,9 +26,6 @@ class Type1:
 
 @dataclass
 class Root:
-    """
-    :ivar element1:
-    """
     class Meta:
         name = "root"
         namespace = "http://www.schemaTest.org/schema11_S3_2_3"

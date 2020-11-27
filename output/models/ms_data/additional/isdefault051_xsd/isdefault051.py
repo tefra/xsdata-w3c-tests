@@ -3,11 +3,6 @@ from dataclasses import dataclass, field
 
 @dataclass
 class Root:
-    """
-    :ivar attr1:
-    :ivar attr2:
-    :ivar attr3:
-    """
     class Meta:
         name = "root"
 

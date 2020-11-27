@@ -6,13 +6,6 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-gMonth-enumeration-2-NS"
 
 
 class NistschemaSvIvAtomicGMonthEnumeration2Type(Enum):
-    """
-    :cvar VALUE_02:
-    :cvar VALUE_12:
-    :cvar VALUE_06:
-    :cvar VALUE_04:
-    :cvar VALUE_11:
-    """
     VALUE_02 = "--02"
     VALUE_12 = "--12"
     VALUE_06 = "--06"
@@ -22,9 +15,6 @@ class NistschemaSvIvAtomicGMonthEnumeration2Type(Enum):
 
 @dataclass
 class NistschemaSvIvAtomicGMonthEnumeration2:
-    """
-    :ivar value:
-    """
     class Meta:
         name = "NISTSchema-SV-IV-atomic-gMonth-enumeration-2"
         namespace = "NISTSchema-SV-IV-atomic-gMonth-enumeration-2-NS"

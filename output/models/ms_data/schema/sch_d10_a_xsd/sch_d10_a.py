@@ -6,9 +6,6 @@ __NAMESPACE__ = "ns-a"
 
 @dataclass
 class ACt:
-    """
-    :ivar c21_or_c22:
-    """
     class Meta:
         name = "a-ct"
 
@@ -35,9 +32,6 @@ class ACt:
 
 @dataclass
 class Root:
-    """
-    :ivar any_element:
-    """
     class Meta:
         name = "root"
         namespace = "ns-a"

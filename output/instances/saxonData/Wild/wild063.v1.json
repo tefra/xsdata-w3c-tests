@@ -3,7 +3,7 @@
     "f": 42,
     "local_element": {
         "qname": "e",
-        "text": 12,
+        "text": "12",
         "tail": null,
         "children": [],
         "attributes": {}

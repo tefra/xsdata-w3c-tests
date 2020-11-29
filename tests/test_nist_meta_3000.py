@@ -4,7 +4,7 @@ from tests.utils import assert_bindings
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_9_nistxml_sv_ii_list_date_max_length_5_1(save_xml):
+def test_list_date_max_length_9_nistxml_sv_ii_list_date_max_length_5_1(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 10.
     """
@@ -13,12 +13,13 @@ def test_list_date_max_length_9_nistxml_sv_ii_list_date_max_length_5_1(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-5-1.xml",
         class_name="NistschemaSvIiListDateMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_9_nistxml_sv_ii_list_date_max_length_5_2(save_xml):
+def test_list_date_max_length_9_nistxml_sv_ii_list_date_max_length_5_2(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 10.
     """
@@ -27,12 +28,13 @@ def test_list_date_max_length_9_nistxml_sv_ii_list_date_max_length_5_2(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-5-2.xml",
         class_name="NistschemaSvIiListDateMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_9_nistxml_sv_ii_list_date_max_length_5_3(save_xml):
+def test_list_date_max_length_9_nistxml_sv_ii_list_date_max_length_5_3(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 10.
     """
@@ -41,12 +43,13 @@ def test_list_date_max_length_9_nistxml_sv_ii_list_date_max_length_5_3(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-5-3.xml",
         class_name="NistschemaSvIiListDateMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_9_nistxml_sv_ii_list_date_max_length_5_4(save_xml):
+def test_list_date_max_length_9_nistxml_sv_ii_list_date_max_length_5_4(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 10.
     """
@@ -55,12 +58,13 @@ def test_list_date_max_length_9_nistxml_sv_ii_list_date_max_length_5_4(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-5-4.xml",
         class_name="NistschemaSvIiListDateMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_9_nistxml_sv_ii_list_date_max_length_5_5(save_xml):
+def test_list_date_max_length_9_nistxml_sv_ii_list_date_max_length_5_5(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 10.
     """
@@ -69,12 +73,13 @@ def test_list_date_max_length_9_nistxml_sv_ii_list_date_max_length_5_5(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-5-5.xml",
         class_name="NistschemaSvIiListDateMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_8_nistxml_sv_ii_list_date_max_length_4_1(save_xml):
+def test_list_date_max_length_8_nistxml_sv_ii_list_date_max_length_4_1(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 8.
     """
@@ -83,12 +88,13 @@ def test_list_date_max_length_8_nistxml_sv_ii_list_date_max_length_4_1(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-4-1.xml",
         class_name="NistschemaSvIiListDateMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_8_nistxml_sv_ii_list_date_max_length_4_2(save_xml):
+def test_list_date_max_length_8_nistxml_sv_ii_list_date_max_length_4_2(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 8.
     """
@@ -97,12 +103,13 @@ def test_list_date_max_length_8_nistxml_sv_ii_list_date_max_length_4_2(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-4-2.xml",
         class_name="NistschemaSvIiListDateMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_8_nistxml_sv_ii_list_date_max_length_4_3(save_xml):
+def test_list_date_max_length_8_nistxml_sv_ii_list_date_max_length_4_3(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 8.
     """
@@ -111,12 +118,13 @@ def test_list_date_max_length_8_nistxml_sv_ii_list_date_max_length_4_3(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-4-3.xml",
         class_name="NistschemaSvIiListDateMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_8_nistxml_sv_ii_list_date_max_length_4_4(save_xml):
+def test_list_date_max_length_8_nistxml_sv_ii_list_date_max_length_4_4(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 8.
     """
@@ -125,12 +133,13 @@ def test_list_date_max_length_8_nistxml_sv_ii_list_date_max_length_4_4(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-4-4.xml",
         class_name="NistschemaSvIiListDateMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_8_nistxml_sv_ii_list_date_max_length_4_5(save_xml):
+def test_list_date_max_length_8_nistxml_sv_ii_list_date_max_length_4_5(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 8.
     """
@@ -139,12 +148,13 @@ def test_list_date_max_length_8_nistxml_sv_ii_list_date_max_length_4_5(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-4-5.xml",
         class_name="NistschemaSvIiListDateMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_7_nistxml_sv_ii_list_date_max_length_3_1(save_xml):
+def test_list_date_max_length_7_nistxml_sv_ii_list_date_max_length_3_1(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 7.
     """
@@ -153,12 +163,13 @@ def test_list_date_max_length_7_nistxml_sv_ii_list_date_max_length_3_1(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-3-1.xml",
         class_name="NistschemaSvIiListDateMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_7_nistxml_sv_ii_list_date_max_length_3_2(save_xml):
+def test_list_date_max_length_7_nistxml_sv_ii_list_date_max_length_3_2(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 7.
     """
@@ -167,12 +178,13 @@ def test_list_date_max_length_7_nistxml_sv_ii_list_date_max_length_3_2(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-3-2.xml",
         class_name="NistschemaSvIiListDateMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_7_nistxml_sv_ii_list_date_max_length_3_3(save_xml):
+def test_list_date_max_length_7_nistxml_sv_ii_list_date_max_length_3_3(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 7.
     """
@@ -181,12 +193,13 @@ def test_list_date_max_length_7_nistxml_sv_ii_list_date_max_length_3_3(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-3-3.xml",
         class_name="NistschemaSvIiListDateMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_7_nistxml_sv_ii_list_date_max_length_3_4(save_xml):
+def test_list_date_max_length_7_nistxml_sv_ii_list_date_max_length_3_4(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 7.
     """
@@ -195,12 +208,13 @@ def test_list_date_max_length_7_nistxml_sv_ii_list_date_max_length_3_4(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-3-4.xml",
         class_name="NistschemaSvIiListDateMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_7_nistxml_sv_ii_list_date_max_length_3_5(save_xml):
+def test_list_date_max_length_7_nistxml_sv_ii_list_date_max_length_3_5(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 7.
     """
@@ -209,12 +223,13 @@ def test_list_date_max_length_7_nistxml_sv_ii_list_date_max_length_3_5(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-3-5.xml",
         class_name="NistschemaSvIiListDateMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_6_nistxml_sv_ii_list_date_max_length_2_1(save_xml):
+def test_list_date_max_length_6_nistxml_sv_ii_list_date_max_length_2_1(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 6.
     """
@@ -223,12 +238,13 @@ def test_list_date_max_length_6_nistxml_sv_ii_list_date_max_length_2_1(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-2-1.xml",
         class_name="NistschemaSvIiListDateMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_6_nistxml_sv_ii_list_date_max_length_2_2(save_xml):
+def test_list_date_max_length_6_nistxml_sv_ii_list_date_max_length_2_2(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 6.
     """
@@ -237,12 +253,13 @@ def test_list_date_max_length_6_nistxml_sv_ii_list_date_max_length_2_2(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-2-2.xml",
         class_name="NistschemaSvIiListDateMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_6_nistxml_sv_ii_list_date_max_length_2_3(save_xml):
+def test_list_date_max_length_6_nistxml_sv_ii_list_date_max_length_2_3(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 6.
     """
@@ -251,12 +268,13 @@ def test_list_date_max_length_6_nistxml_sv_ii_list_date_max_length_2_3(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-2-3.xml",
         class_name="NistschemaSvIiListDateMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_6_nistxml_sv_ii_list_date_max_length_2_4(save_xml):
+def test_list_date_max_length_6_nistxml_sv_ii_list_date_max_length_2_4(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 6.
     """
@@ -265,12 +283,13 @@ def test_list_date_max_length_6_nistxml_sv_ii_list_date_max_length_2_4(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-2-4.xml",
         class_name="NistschemaSvIiListDateMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_6_nistxml_sv_ii_list_date_max_length_2_5(save_xml):
+def test_list_date_max_length_6_nistxml_sv_ii_list_date_max_length_2_5(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 6.
     """
@@ -279,12 +298,13 @@ def test_list_date_max_length_6_nistxml_sv_ii_list_date_max_length_2_5(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-2-5.xml",
         class_name="NistschemaSvIiListDateMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_5_nistxml_sv_ii_list_date_max_length_1_1(save_xml):
+def test_list_date_max_length_5_nistxml_sv_ii_list_date_max_length_1_1(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 5.
     """
@@ -293,12 +313,13 @@ def test_list_date_max_length_5_nistxml_sv_ii_list_date_max_length_1_1(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-1-1.xml",
         class_name="NistschemaSvIiListDateMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_5_nistxml_sv_ii_list_date_max_length_1_2(save_xml):
+def test_list_date_max_length_5_nistxml_sv_ii_list_date_max_length_1_2(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 5.
     """
@@ -307,12 +328,13 @@ def test_list_date_max_length_5_nistxml_sv_ii_list_date_max_length_1_2(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-1-2.xml",
         class_name="NistschemaSvIiListDateMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_5_nistxml_sv_ii_list_date_max_length_1_3(save_xml):
+def test_list_date_max_length_5_nistxml_sv_ii_list_date_max_length_1_3(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 5.
     """
@@ -321,12 +343,13 @@ def test_list_date_max_length_5_nistxml_sv_ii_list_date_max_length_1_3(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-1-3.xml",
         class_name="NistschemaSvIiListDateMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_5_nistxml_sv_ii_list_date_max_length_1_4(save_xml):
+def test_list_date_max_length_5_nistxml_sv_ii_list_date_max_length_1_4(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 5.
     """
@@ -335,12 +358,13 @@ def test_list_date_max_length_5_nistxml_sv_ii_list_date_max_length_1_4(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-1-4.xml",
         class_name="NistschemaSvIiListDateMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_max_length_5_nistxml_sv_ii_list_date_max_length_1_5(save_xml):
+def test_list_date_max_length_5_nistxml_sv_ii_list_date_max_length_1_5(json_360, save_output):
     """
     Type list/date is restricted by facet maxLength with value 5.
     """
@@ -349,12 +373,13 @@ def test_list_date_max_length_5_nistxml_sv_ii_list_date_max_length_1_5(save_xml)
         instance="nistData/list/date/Schema+Instance/NISTXML-SV-II-list-date-maxLength-1-5.xml",
         class_name="NistschemaSvIiListDateMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_9_nistxml_sv_ii_list_time_enumeration_5_1(save_xml):
+def test_list_time_enumeration_9_nistxml_sv_ii_list_time_enumeration_5_1(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -363,12 +388,13 @@ def test_list_time_enumeration_9_nistxml_sv_ii_list_time_enumeration_5_1(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-5-1.xml",
         class_name="NistschemaSvIiListTimeEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_9_nistxml_sv_ii_list_time_enumeration_5_2(save_xml):
+def test_list_time_enumeration_9_nistxml_sv_ii_list_time_enumeration_5_2(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -377,12 +403,13 @@ def test_list_time_enumeration_9_nistxml_sv_ii_list_time_enumeration_5_2(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-5-2.xml",
         class_name="NistschemaSvIiListTimeEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_9_nistxml_sv_ii_list_time_enumeration_5_3(save_xml):
+def test_list_time_enumeration_9_nistxml_sv_ii_list_time_enumeration_5_3(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -391,12 +418,13 @@ def test_list_time_enumeration_9_nistxml_sv_ii_list_time_enumeration_5_3(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-5-3.xml",
         class_name="NistschemaSvIiListTimeEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_9_nistxml_sv_ii_list_time_enumeration_5_4(save_xml):
+def test_list_time_enumeration_9_nistxml_sv_ii_list_time_enumeration_5_4(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -405,12 +433,13 @@ def test_list_time_enumeration_9_nistxml_sv_ii_list_time_enumeration_5_4(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-5-4.xml",
         class_name="NistschemaSvIiListTimeEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_9_nistxml_sv_ii_list_time_enumeration_5_5(save_xml):
+def test_list_time_enumeration_9_nistxml_sv_ii_list_time_enumeration_5_5(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -419,12 +448,13 @@ def test_list_time_enumeration_9_nistxml_sv_ii_list_time_enumeration_5_5(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-5-5.xml",
         class_name="NistschemaSvIiListTimeEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_8_nistxml_sv_ii_list_time_enumeration_4_1(save_xml):
+def test_list_time_enumeration_8_nistxml_sv_ii_list_time_enumeration_4_1(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -433,12 +463,13 @@ def test_list_time_enumeration_8_nistxml_sv_ii_list_time_enumeration_4_1(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-4-1.xml",
         class_name="NistschemaSvIiListTimeEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_8_nistxml_sv_ii_list_time_enumeration_4_2(save_xml):
+def test_list_time_enumeration_8_nistxml_sv_ii_list_time_enumeration_4_2(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -447,12 +478,13 @@ def test_list_time_enumeration_8_nistxml_sv_ii_list_time_enumeration_4_2(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-4-2.xml",
         class_name="NistschemaSvIiListTimeEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_8_nistxml_sv_ii_list_time_enumeration_4_3(save_xml):
+def test_list_time_enumeration_8_nistxml_sv_ii_list_time_enumeration_4_3(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -461,12 +493,13 @@ def test_list_time_enumeration_8_nistxml_sv_ii_list_time_enumeration_4_3(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-4-3.xml",
         class_name="NistschemaSvIiListTimeEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_8_nistxml_sv_ii_list_time_enumeration_4_4(save_xml):
+def test_list_time_enumeration_8_nistxml_sv_ii_list_time_enumeration_4_4(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -475,12 +508,13 @@ def test_list_time_enumeration_8_nistxml_sv_ii_list_time_enumeration_4_4(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-4-4.xml",
         class_name="NistschemaSvIiListTimeEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_8_nistxml_sv_ii_list_time_enumeration_4_5(save_xml):
+def test_list_time_enumeration_8_nistxml_sv_ii_list_time_enumeration_4_5(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -489,12 +523,13 @@ def test_list_time_enumeration_8_nistxml_sv_ii_list_time_enumeration_4_5(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-4-5.xml",
         class_name="NistschemaSvIiListTimeEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_7_nistxml_sv_ii_list_time_enumeration_3_1(save_xml):
+def test_list_time_enumeration_7_nistxml_sv_ii_list_time_enumeration_3_1(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -503,12 +538,13 @@ def test_list_time_enumeration_7_nistxml_sv_ii_list_time_enumeration_3_1(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-3-1.xml",
         class_name="NistschemaSvIiListTimeEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_7_nistxml_sv_ii_list_time_enumeration_3_2(save_xml):
+def test_list_time_enumeration_7_nistxml_sv_ii_list_time_enumeration_3_2(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -517,12 +553,13 @@ def test_list_time_enumeration_7_nistxml_sv_ii_list_time_enumeration_3_2(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-3-2.xml",
         class_name="NistschemaSvIiListTimeEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_7_nistxml_sv_ii_list_time_enumeration_3_3(save_xml):
+def test_list_time_enumeration_7_nistxml_sv_ii_list_time_enumeration_3_3(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -531,12 +568,13 @@ def test_list_time_enumeration_7_nistxml_sv_ii_list_time_enumeration_3_3(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-3-3.xml",
         class_name="NistschemaSvIiListTimeEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_7_nistxml_sv_ii_list_time_enumeration_3_4(save_xml):
+def test_list_time_enumeration_7_nistxml_sv_ii_list_time_enumeration_3_4(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -545,12 +583,13 @@ def test_list_time_enumeration_7_nistxml_sv_ii_list_time_enumeration_3_4(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-3-4.xml",
         class_name="NistschemaSvIiListTimeEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_7_nistxml_sv_ii_list_time_enumeration_3_5(save_xml):
+def test_list_time_enumeration_7_nistxml_sv_ii_list_time_enumeration_3_5(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -559,12 +598,13 @@ def test_list_time_enumeration_7_nistxml_sv_ii_list_time_enumeration_3_5(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-3-5.xml",
         class_name="NistschemaSvIiListTimeEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_6_nistxml_sv_ii_list_time_enumeration_2_1(save_xml):
+def test_list_time_enumeration_6_nistxml_sv_ii_list_time_enumeration_2_1(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -573,12 +613,13 @@ def test_list_time_enumeration_6_nistxml_sv_ii_list_time_enumeration_2_1(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-2-1.xml",
         class_name="NistschemaSvIiListTimeEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_6_nistxml_sv_ii_list_time_enumeration_2_2(save_xml):
+def test_list_time_enumeration_6_nistxml_sv_ii_list_time_enumeration_2_2(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -587,12 +628,13 @@ def test_list_time_enumeration_6_nistxml_sv_ii_list_time_enumeration_2_2(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-2-2.xml",
         class_name="NistschemaSvIiListTimeEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_6_nistxml_sv_ii_list_time_enumeration_2_3(save_xml):
+def test_list_time_enumeration_6_nistxml_sv_ii_list_time_enumeration_2_3(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -601,12 +643,13 @@ def test_list_time_enumeration_6_nistxml_sv_ii_list_time_enumeration_2_3(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-2-3.xml",
         class_name="NistschemaSvIiListTimeEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_6_nistxml_sv_ii_list_time_enumeration_2_4(save_xml):
+def test_list_time_enumeration_6_nistxml_sv_ii_list_time_enumeration_2_4(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -615,12 +658,13 @@ def test_list_time_enumeration_6_nistxml_sv_ii_list_time_enumeration_2_4(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-2-4.xml",
         class_name="NistschemaSvIiListTimeEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_6_nistxml_sv_ii_list_time_enumeration_2_5(save_xml):
+def test_list_time_enumeration_6_nistxml_sv_ii_list_time_enumeration_2_5(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -629,12 +673,13 @@ def test_list_time_enumeration_6_nistxml_sv_ii_list_time_enumeration_2_5(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-2-5.xml",
         class_name="NistschemaSvIiListTimeEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_5_nistxml_sv_ii_list_time_enumeration_1_1(save_xml):
+def test_list_time_enumeration_5_nistxml_sv_ii_list_time_enumeration_1_1(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -643,12 +688,13 @@ def test_list_time_enumeration_5_nistxml_sv_ii_list_time_enumeration_1_1(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-1-1.xml",
         class_name="NistschemaSvIiListTimeEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_5_nistxml_sv_ii_list_time_enumeration_1_2(save_xml):
+def test_list_time_enumeration_5_nistxml_sv_ii_list_time_enumeration_1_2(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -657,12 +703,13 @@ def test_list_time_enumeration_5_nistxml_sv_ii_list_time_enumeration_1_2(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-1-2.xml",
         class_name="NistschemaSvIiListTimeEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_5_nistxml_sv_ii_list_time_enumeration_1_3(save_xml):
+def test_list_time_enumeration_5_nistxml_sv_ii_list_time_enumeration_1_3(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -671,12 +718,13 @@ def test_list_time_enumeration_5_nistxml_sv_ii_list_time_enumeration_1_3(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-1-3.xml",
         class_name="NistschemaSvIiListTimeEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_5_nistxml_sv_ii_list_time_enumeration_1_4(save_xml):
+def test_list_time_enumeration_5_nistxml_sv_ii_list_time_enumeration_1_4(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -685,12 +733,13 @@ def test_list_time_enumeration_5_nistxml_sv_ii_list_time_enumeration_1_4(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-1-4.xml",
         class_name="NistschemaSvIiListTimeEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_enumeration_5_nistxml_sv_ii_list_time_enumeration_1_5(save_xml):
+def test_list_time_enumeration_5_nistxml_sv_ii_list_time_enumeration_1_5(json_360, save_output):
     """
     Type list/time is restricted by facet enumeration.
     """
@@ -699,12 +748,13 @@ def test_list_time_enumeration_5_nistxml_sv_ii_list_time_enumeration_1_5(save_xm
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-enumeration-1-5.xml",
         class_name="NistschemaSvIiListTimeEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_9_nistxml_sv_ii_list_time_pattern_5_1(save_xml):
+def test_list_time_pattern_9_nistxml_sv_ii_list_time_pattern_5_1(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value 1\d:\d5:\d5
     \d1:5\d:5\d \d3:4\d:2\d \d2:\d3:\d4 1\d:\d0:3\d 0\d:5\d:1\d
@@ -715,12 +765,13 @@ def test_list_time_pattern_9_nistxml_sv_ii_list_time_pattern_5_1(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-5-1.xml",
         class_name="NistschemaSvIiListTimePattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_9_nistxml_sv_ii_list_time_pattern_5_2(save_xml):
+def test_list_time_pattern_9_nistxml_sv_ii_list_time_pattern_5_2(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value 1\d:\d5:\d5
     \d1:5\d:5\d \d3:4\d:2\d \d2:\d3:\d4 1\d:\d0:3\d 0\d:5\d:1\d
@@ -731,12 +782,13 @@ def test_list_time_pattern_9_nistxml_sv_ii_list_time_pattern_5_2(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-5-2.xml",
         class_name="NistschemaSvIiListTimePattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_9_nistxml_sv_ii_list_time_pattern_5_3(save_xml):
+def test_list_time_pattern_9_nistxml_sv_ii_list_time_pattern_5_3(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value 1\d:\d5:\d5
     \d1:5\d:5\d \d3:4\d:2\d \d2:\d3:\d4 1\d:\d0:3\d 0\d:5\d:1\d
@@ -747,12 +799,13 @@ def test_list_time_pattern_9_nistxml_sv_ii_list_time_pattern_5_3(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-5-3.xml",
         class_name="NistschemaSvIiListTimePattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_9_nistxml_sv_ii_list_time_pattern_5_4(save_xml):
+def test_list_time_pattern_9_nistxml_sv_ii_list_time_pattern_5_4(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value 1\d:\d5:\d5
     \d1:5\d:5\d \d3:4\d:2\d \d2:\d3:\d4 1\d:\d0:3\d 0\d:5\d:1\d
@@ -763,12 +816,13 @@ def test_list_time_pattern_9_nistxml_sv_ii_list_time_pattern_5_4(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-5-4.xml",
         class_name="NistschemaSvIiListTimePattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_9_nistxml_sv_ii_list_time_pattern_5_5(save_xml):
+def test_list_time_pattern_9_nistxml_sv_ii_list_time_pattern_5_5(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value 1\d:\d5:\d5
     \d1:5\d:5\d \d3:4\d:2\d \d2:\d3:\d4 1\d:\d0:3\d 0\d:5\d:1\d
@@ -779,12 +833,13 @@ def test_list_time_pattern_9_nistxml_sv_ii_list_time_pattern_5_5(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-5-5.xml",
         class_name="NistschemaSvIiListTimePattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_8_nistxml_sv_ii_list_time_pattern_4_1(save_xml):
+def test_list_time_pattern_8_nistxml_sv_ii_list_time_pattern_4_1(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value 0\d:\d1:\d9
     \d2:\d0:3\d 0\d:\d8:0\d \d0:4\d:4\d \d7:\d6:\d3 0\d:\d1:2\d.
@@ -794,12 +849,13 @@ def test_list_time_pattern_8_nistxml_sv_ii_list_time_pattern_4_1(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-4-1.xml",
         class_name="NistschemaSvIiListTimePattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_8_nistxml_sv_ii_list_time_pattern_4_2(save_xml):
+def test_list_time_pattern_8_nistxml_sv_ii_list_time_pattern_4_2(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value 0\d:\d1:\d9
     \d2:\d0:3\d 0\d:\d8:0\d \d0:4\d:4\d \d7:\d6:\d3 0\d:\d1:2\d.
@@ -809,12 +865,13 @@ def test_list_time_pattern_8_nistxml_sv_ii_list_time_pattern_4_2(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-4-2.xml",
         class_name="NistschemaSvIiListTimePattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_8_nistxml_sv_ii_list_time_pattern_4_3(save_xml):
+def test_list_time_pattern_8_nistxml_sv_ii_list_time_pattern_4_3(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value 0\d:\d1:\d9
     \d2:\d0:3\d 0\d:\d8:0\d \d0:4\d:4\d \d7:\d6:\d3 0\d:\d1:2\d.
@@ -824,12 +881,13 @@ def test_list_time_pattern_8_nistxml_sv_ii_list_time_pattern_4_3(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-4-3.xml",
         class_name="NistschemaSvIiListTimePattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_8_nistxml_sv_ii_list_time_pattern_4_4(save_xml):
+def test_list_time_pattern_8_nistxml_sv_ii_list_time_pattern_4_4(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value 0\d:\d1:\d9
     \d2:\d0:3\d 0\d:\d8:0\d \d0:4\d:4\d \d7:\d6:\d3 0\d:\d1:2\d.
@@ -839,12 +897,13 @@ def test_list_time_pattern_8_nistxml_sv_ii_list_time_pattern_4_4(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-4-4.xml",
         class_name="NistschemaSvIiListTimePattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_8_nistxml_sv_ii_list_time_pattern_4_5(save_xml):
+def test_list_time_pattern_8_nistxml_sv_ii_list_time_pattern_4_5(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value 0\d:\d1:\d9
     \d2:\d0:3\d 0\d:\d8:0\d \d0:4\d:4\d \d7:\d6:\d3 0\d:\d1:2\d.
@@ -854,12 +913,13 @@ def test_list_time_pattern_8_nistxml_sv_ii_list_time_pattern_4_5(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-4-5.xml",
         class_name="NistschemaSvIiListTimePattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_7_nistxml_sv_ii_list_time_pattern_3_1(save_xml):
+def test_list_time_pattern_7_nistxml_sv_ii_list_time_pattern_3_1(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value 0\d:3\d:\d1
     \d0:4\d:4\d \d5:3\d:\d0 \d6:\d2:\d7 \d7:\d8:\d2 1\d:5\d:0\d
@@ -870,12 +930,13 @@ def test_list_time_pattern_7_nistxml_sv_ii_list_time_pattern_3_1(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-3-1.xml",
         class_name="NistschemaSvIiListTimePattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_7_nistxml_sv_ii_list_time_pattern_3_2(save_xml):
+def test_list_time_pattern_7_nistxml_sv_ii_list_time_pattern_3_2(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value 0\d:3\d:\d1
     \d0:4\d:4\d \d5:3\d:\d0 \d6:\d2:\d7 \d7:\d8:\d2 1\d:5\d:0\d
@@ -886,12 +947,13 @@ def test_list_time_pattern_7_nistxml_sv_ii_list_time_pattern_3_2(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-3-2.xml",
         class_name="NistschemaSvIiListTimePattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_7_nistxml_sv_ii_list_time_pattern_3_3(save_xml):
+def test_list_time_pattern_7_nistxml_sv_ii_list_time_pattern_3_3(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value 0\d:3\d:\d1
     \d0:4\d:4\d \d5:3\d:\d0 \d6:\d2:\d7 \d7:\d8:\d2 1\d:5\d:0\d
@@ -902,12 +964,13 @@ def test_list_time_pattern_7_nistxml_sv_ii_list_time_pattern_3_3(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-3-3.xml",
         class_name="NistschemaSvIiListTimePattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_7_nistxml_sv_ii_list_time_pattern_3_4(save_xml):
+def test_list_time_pattern_7_nistxml_sv_ii_list_time_pattern_3_4(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value 0\d:3\d:\d1
     \d0:4\d:4\d \d5:3\d:\d0 \d6:\d2:\d7 \d7:\d8:\d2 1\d:5\d:0\d
@@ -918,12 +981,13 @@ def test_list_time_pattern_7_nistxml_sv_ii_list_time_pattern_3_4(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-3-4.xml",
         class_name="NistschemaSvIiListTimePattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_7_nistxml_sv_ii_list_time_pattern_3_5(save_xml):
+def test_list_time_pattern_7_nistxml_sv_ii_list_time_pattern_3_5(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value 0\d:3\d:\d1
     \d0:4\d:4\d \d5:3\d:\d0 \d6:\d2:\d7 \d7:\d8:\d2 1\d:5\d:0\d
@@ -934,12 +998,13 @@ def test_list_time_pattern_7_nistxml_sv_ii_list_time_pattern_3_5(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-3-5.xml",
         class_name="NistschemaSvIiListTimePattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_6_nistxml_sv_ii_list_time_pattern_2_1(save_xml):
+def test_list_time_pattern_6_nistxml_sv_ii_list_time_pattern_2_1(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value 0\d:\d9:\d7
     1\d:\d6:0\d 0\d:\d4:0\d 0\d:4\d:2\d 0\d:\d2:\d1 \d0:\d8:1\d
@@ -950,12 +1015,13 @@ def test_list_time_pattern_6_nistxml_sv_ii_list_time_pattern_2_1(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-2-1.xml",
         class_name="NistschemaSvIiListTimePattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_6_nistxml_sv_ii_list_time_pattern_2_2(save_xml):
+def test_list_time_pattern_6_nistxml_sv_ii_list_time_pattern_2_2(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value 0\d:\d9:\d7
     1\d:\d6:0\d 0\d:\d4:0\d 0\d:4\d:2\d 0\d:\d2:\d1 \d0:\d8:1\d
@@ -966,12 +1032,13 @@ def test_list_time_pattern_6_nistxml_sv_ii_list_time_pattern_2_2(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-2-2.xml",
         class_name="NistschemaSvIiListTimePattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_6_nistxml_sv_ii_list_time_pattern_2_3(save_xml):
+def test_list_time_pattern_6_nistxml_sv_ii_list_time_pattern_2_3(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value 0\d:\d9:\d7
     1\d:\d6:0\d 0\d:\d4:0\d 0\d:4\d:2\d 0\d:\d2:\d1 \d0:\d8:1\d
@@ -982,12 +1049,13 @@ def test_list_time_pattern_6_nistxml_sv_ii_list_time_pattern_2_3(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-2-3.xml",
         class_name="NistschemaSvIiListTimePattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_6_nistxml_sv_ii_list_time_pattern_2_4(save_xml):
+def test_list_time_pattern_6_nistxml_sv_ii_list_time_pattern_2_4(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value 0\d:\d9:\d7
     1\d:\d6:0\d 0\d:\d4:0\d 0\d:4\d:2\d 0\d:\d2:\d1 \d0:\d8:1\d
@@ -998,12 +1066,13 @@ def test_list_time_pattern_6_nistxml_sv_ii_list_time_pattern_2_4(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-2-4.xml",
         class_name="NistschemaSvIiListTimePattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_6_nistxml_sv_ii_list_time_pattern_2_5(save_xml):
+def test_list_time_pattern_6_nistxml_sv_ii_list_time_pattern_2_5(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value 0\d:\d9:\d7
     1\d:\d6:0\d 0\d:\d4:0\d 0\d:4\d:2\d 0\d:\d2:\d1 \d0:\d8:1\d
@@ -1014,12 +1083,13 @@ def test_list_time_pattern_6_nistxml_sv_ii_list_time_pattern_2_5(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-2-5.xml",
         class_name="NistschemaSvIiListTimePattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_5_nistxml_sv_ii_list_time_pattern_1_1(save_xml):
+def test_list_time_pattern_5_nistxml_sv_ii_list_time_pattern_1_1(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value \d1:\d5:2\d
     \d5:\d7:\d6 \d4:\d4:\d1 \d1:\d7:\d3 0\d:0\d:1\d 0\d:\d7:\d6.
@@ -1029,12 +1099,13 @@ def test_list_time_pattern_5_nistxml_sv_ii_list_time_pattern_1_1(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-1-1.xml",
         class_name="NistschemaSvIiListTimePattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_5_nistxml_sv_ii_list_time_pattern_1_2(save_xml):
+def test_list_time_pattern_5_nistxml_sv_ii_list_time_pattern_1_2(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value \d1:\d5:2\d
     \d5:\d7:\d6 \d4:\d4:\d1 \d1:\d7:\d3 0\d:0\d:1\d 0\d:\d7:\d6.
@@ -1044,12 +1115,13 @@ def test_list_time_pattern_5_nistxml_sv_ii_list_time_pattern_1_2(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-1-2.xml",
         class_name="NistschemaSvIiListTimePattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_5_nistxml_sv_ii_list_time_pattern_1_3(save_xml):
+def test_list_time_pattern_5_nistxml_sv_ii_list_time_pattern_1_3(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value \d1:\d5:2\d
     \d5:\d7:\d6 \d4:\d4:\d1 \d1:\d7:\d3 0\d:0\d:1\d 0\d:\d7:\d6.
@@ -1059,12 +1131,13 @@ def test_list_time_pattern_5_nistxml_sv_ii_list_time_pattern_1_3(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-1-3.xml",
         class_name="NistschemaSvIiListTimePattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_5_nistxml_sv_ii_list_time_pattern_1_4(save_xml):
+def test_list_time_pattern_5_nistxml_sv_ii_list_time_pattern_1_4(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value \d1:\d5:2\d
     \d5:\d7:\d6 \d4:\d4:\d1 \d1:\d7:\d3 0\d:0\d:1\d 0\d:\d7:\d6.
@@ -1074,12 +1147,13 @@ def test_list_time_pattern_5_nistxml_sv_ii_list_time_pattern_1_4(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-1-4.xml",
         class_name="NistschemaSvIiListTimePattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_pattern_5_nistxml_sv_ii_list_time_pattern_1_5(save_xml):
+def test_list_time_pattern_5_nistxml_sv_ii_list_time_pattern_1_5(json_360, save_output):
     r"""
     Type list/time is restricted by facet pattern with value \d1:\d5:2\d
     \d5:\d7:\d6 \d4:\d4:\d1 \d1:\d7:\d3 0\d:0\d:1\d 0\d:\d7:\d6.
@@ -1089,12 +1163,13 @@ def test_list_time_pattern_5_nistxml_sv_ii_list_time_pattern_1_5(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-pattern-1-5.xml",
         class_name="NistschemaSvIiListTimePattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_9_nistxml_sv_ii_list_time_length_5_1(save_xml):
+def test_list_time_length_9_nistxml_sv_ii_list_time_length_5_1(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 10.
     """
@@ -1103,12 +1178,13 @@ def test_list_time_length_9_nistxml_sv_ii_list_time_length_5_1(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-5-1.xml",
         class_name="NistschemaSvIiListTimeLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_9_nistxml_sv_ii_list_time_length_5_2(save_xml):
+def test_list_time_length_9_nistxml_sv_ii_list_time_length_5_2(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 10.
     """
@@ -1117,12 +1193,13 @@ def test_list_time_length_9_nistxml_sv_ii_list_time_length_5_2(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-5-2.xml",
         class_name="NistschemaSvIiListTimeLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_9_nistxml_sv_ii_list_time_length_5_3(save_xml):
+def test_list_time_length_9_nistxml_sv_ii_list_time_length_5_3(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 10.
     """
@@ -1131,12 +1208,13 @@ def test_list_time_length_9_nistxml_sv_ii_list_time_length_5_3(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-5-3.xml",
         class_name="NistschemaSvIiListTimeLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_9_nistxml_sv_ii_list_time_length_5_4(save_xml):
+def test_list_time_length_9_nistxml_sv_ii_list_time_length_5_4(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 10.
     """
@@ -1145,12 +1223,13 @@ def test_list_time_length_9_nistxml_sv_ii_list_time_length_5_4(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-5-4.xml",
         class_name="NistschemaSvIiListTimeLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_9_nistxml_sv_ii_list_time_length_5_5(save_xml):
+def test_list_time_length_9_nistxml_sv_ii_list_time_length_5_5(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 10.
     """
@@ -1159,12 +1238,13 @@ def test_list_time_length_9_nistxml_sv_ii_list_time_length_5_5(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-5-5.xml",
         class_name="NistschemaSvIiListTimeLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_8_nistxml_sv_ii_list_time_length_4_1(save_xml):
+def test_list_time_length_8_nistxml_sv_ii_list_time_length_4_1(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 8.
     """
@@ -1173,12 +1253,13 @@ def test_list_time_length_8_nistxml_sv_ii_list_time_length_4_1(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-4-1.xml",
         class_name="NistschemaSvIiListTimeLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_8_nistxml_sv_ii_list_time_length_4_2(save_xml):
+def test_list_time_length_8_nistxml_sv_ii_list_time_length_4_2(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 8.
     """
@@ -1187,12 +1268,13 @@ def test_list_time_length_8_nistxml_sv_ii_list_time_length_4_2(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-4-2.xml",
         class_name="NistschemaSvIiListTimeLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_8_nistxml_sv_ii_list_time_length_4_3(save_xml):
+def test_list_time_length_8_nistxml_sv_ii_list_time_length_4_3(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 8.
     """
@@ -1201,12 +1283,13 @@ def test_list_time_length_8_nistxml_sv_ii_list_time_length_4_3(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-4-3.xml",
         class_name="NistschemaSvIiListTimeLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_8_nistxml_sv_ii_list_time_length_4_4(save_xml):
+def test_list_time_length_8_nistxml_sv_ii_list_time_length_4_4(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 8.
     """
@@ -1215,12 +1298,13 @@ def test_list_time_length_8_nistxml_sv_ii_list_time_length_4_4(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-4-4.xml",
         class_name="NistschemaSvIiListTimeLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_8_nistxml_sv_ii_list_time_length_4_5(save_xml):
+def test_list_time_length_8_nistxml_sv_ii_list_time_length_4_5(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 8.
     """
@@ -1229,12 +1313,13 @@ def test_list_time_length_8_nistxml_sv_ii_list_time_length_4_5(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-4-5.xml",
         class_name="NistschemaSvIiListTimeLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_7_nistxml_sv_ii_list_time_length_3_1(save_xml):
+def test_list_time_length_7_nistxml_sv_ii_list_time_length_3_1(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 7.
     """
@@ -1243,12 +1328,13 @@ def test_list_time_length_7_nistxml_sv_ii_list_time_length_3_1(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-3-1.xml",
         class_name="NistschemaSvIiListTimeLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_7_nistxml_sv_ii_list_time_length_3_2(save_xml):
+def test_list_time_length_7_nistxml_sv_ii_list_time_length_3_2(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 7.
     """
@@ -1257,12 +1343,13 @@ def test_list_time_length_7_nistxml_sv_ii_list_time_length_3_2(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-3-2.xml",
         class_name="NistschemaSvIiListTimeLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_7_nistxml_sv_ii_list_time_length_3_3(save_xml):
+def test_list_time_length_7_nistxml_sv_ii_list_time_length_3_3(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 7.
     """
@@ -1271,12 +1358,13 @@ def test_list_time_length_7_nistxml_sv_ii_list_time_length_3_3(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-3-3.xml",
         class_name="NistschemaSvIiListTimeLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_7_nistxml_sv_ii_list_time_length_3_4(save_xml):
+def test_list_time_length_7_nistxml_sv_ii_list_time_length_3_4(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 7.
     """
@@ -1285,12 +1373,13 @@ def test_list_time_length_7_nistxml_sv_ii_list_time_length_3_4(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-3-4.xml",
         class_name="NistschemaSvIiListTimeLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_7_nistxml_sv_ii_list_time_length_3_5(save_xml):
+def test_list_time_length_7_nistxml_sv_ii_list_time_length_3_5(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 7.
     """
@@ -1299,12 +1388,13 @@ def test_list_time_length_7_nistxml_sv_ii_list_time_length_3_5(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-3-5.xml",
         class_name="NistschemaSvIiListTimeLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_6_nistxml_sv_ii_list_time_length_2_1(save_xml):
+def test_list_time_length_6_nistxml_sv_ii_list_time_length_2_1(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 6.
     """
@@ -1313,12 +1403,13 @@ def test_list_time_length_6_nistxml_sv_ii_list_time_length_2_1(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-2-1.xml",
         class_name="NistschemaSvIiListTimeLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_6_nistxml_sv_ii_list_time_length_2_2(save_xml):
+def test_list_time_length_6_nistxml_sv_ii_list_time_length_2_2(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 6.
     """
@@ -1327,12 +1418,13 @@ def test_list_time_length_6_nistxml_sv_ii_list_time_length_2_2(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-2-2.xml",
         class_name="NistschemaSvIiListTimeLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_6_nistxml_sv_ii_list_time_length_2_3(save_xml):
+def test_list_time_length_6_nistxml_sv_ii_list_time_length_2_3(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 6.
     """
@@ -1341,12 +1433,13 @@ def test_list_time_length_6_nistxml_sv_ii_list_time_length_2_3(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-2-3.xml",
         class_name="NistschemaSvIiListTimeLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_6_nistxml_sv_ii_list_time_length_2_4(save_xml):
+def test_list_time_length_6_nistxml_sv_ii_list_time_length_2_4(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 6.
     """
@@ -1355,12 +1448,13 @@ def test_list_time_length_6_nistxml_sv_ii_list_time_length_2_4(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-2-4.xml",
         class_name="NistschemaSvIiListTimeLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_6_nistxml_sv_ii_list_time_length_2_5(save_xml):
+def test_list_time_length_6_nistxml_sv_ii_list_time_length_2_5(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 6.
     """
@@ -1369,12 +1463,13 @@ def test_list_time_length_6_nistxml_sv_ii_list_time_length_2_5(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-2-5.xml",
         class_name="NistschemaSvIiListTimeLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_5_nistxml_sv_ii_list_time_length_1_1(save_xml):
+def test_list_time_length_5_nistxml_sv_ii_list_time_length_1_1(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 5.
     """
@@ -1383,12 +1478,13 @@ def test_list_time_length_5_nistxml_sv_ii_list_time_length_1_1(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-1-1.xml",
         class_name="NistschemaSvIiListTimeLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_5_nistxml_sv_ii_list_time_length_1_2(save_xml):
+def test_list_time_length_5_nistxml_sv_ii_list_time_length_1_2(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 5.
     """
@@ -1397,12 +1493,13 @@ def test_list_time_length_5_nistxml_sv_ii_list_time_length_1_2(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-1-2.xml",
         class_name="NistschemaSvIiListTimeLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_5_nistxml_sv_ii_list_time_length_1_3(save_xml):
+def test_list_time_length_5_nistxml_sv_ii_list_time_length_1_3(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 5.
     """
@@ -1411,12 +1508,13 @@ def test_list_time_length_5_nistxml_sv_ii_list_time_length_1_3(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-1-3.xml",
         class_name="NistschemaSvIiListTimeLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_5_nistxml_sv_ii_list_time_length_1_4(save_xml):
+def test_list_time_length_5_nistxml_sv_ii_list_time_length_1_4(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 5.
     """
@@ -1425,12 +1523,13 @@ def test_list_time_length_5_nistxml_sv_ii_list_time_length_1_4(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-1-4.xml",
         class_name="NistschemaSvIiListTimeLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_length_5_nistxml_sv_ii_list_time_length_1_5(save_xml):
+def test_list_time_length_5_nistxml_sv_ii_list_time_length_1_5(json_360, save_output):
     """
     Type list/time is restricted by facet length with value 5.
     """
@@ -1439,12 +1538,13 @@ def test_list_time_length_5_nistxml_sv_ii_list_time_length_1_5(save_xml):
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-length-1-5.xml",
         class_name="NistschemaSvIiListTimeLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_9_nistxml_sv_ii_list_time_min_length_5_1(save_xml):
+def test_list_time_min_length_9_nistxml_sv_ii_list_time_min_length_5_1(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 10.
     """
@@ -1453,12 +1553,13 @@ def test_list_time_min_length_9_nistxml_sv_ii_list_time_min_length_5_1(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-5-1.xml",
         class_name="NistschemaSvIiListTimeMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_9_nistxml_sv_ii_list_time_min_length_5_2(save_xml):
+def test_list_time_min_length_9_nistxml_sv_ii_list_time_min_length_5_2(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 10.
     """
@@ -1467,12 +1568,13 @@ def test_list_time_min_length_9_nistxml_sv_ii_list_time_min_length_5_2(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-5-2.xml",
         class_name="NistschemaSvIiListTimeMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_9_nistxml_sv_ii_list_time_min_length_5_3(save_xml):
+def test_list_time_min_length_9_nistxml_sv_ii_list_time_min_length_5_3(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 10.
     """
@@ -1481,12 +1583,13 @@ def test_list_time_min_length_9_nistxml_sv_ii_list_time_min_length_5_3(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-5-3.xml",
         class_name="NistschemaSvIiListTimeMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_9_nistxml_sv_ii_list_time_min_length_5_4(save_xml):
+def test_list_time_min_length_9_nistxml_sv_ii_list_time_min_length_5_4(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 10.
     """
@@ -1495,12 +1598,13 @@ def test_list_time_min_length_9_nistxml_sv_ii_list_time_min_length_5_4(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-5-4.xml",
         class_name="NistschemaSvIiListTimeMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_9_nistxml_sv_ii_list_time_min_length_5_5(save_xml):
+def test_list_time_min_length_9_nistxml_sv_ii_list_time_min_length_5_5(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 10.
     """
@@ -1509,12 +1613,13 @@ def test_list_time_min_length_9_nistxml_sv_ii_list_time_min_length_5_5(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-5-5.xml",
         class_name="NistschemaSvIiListTimeMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_8_nistxml_sv_ii_list_time_min_length_4_1(save_xml):
+def test_list_time_min_length_8_nistxml_sv_ii_list_time_min_length_4_1(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 8.
     """
@@ -1523,12 +1628,13 @@ def test_list_time_min_length_8_nistxml_sv_ii_list_time_min_length_4_1(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-4-1.xml",
         class_name="NistschemaSvIiListTimeMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_8_nistxml_sv_ii_list_time_min_length_4_2(save_xml):
+def test_list_time_min_length_8_nistxml_sv_ii_list_time_min_length_4_2(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 8.
     """
@@ -1537,12 +1643,13 @@ def test_list_time_min_length_8_nistxml_sv_ii_list_time_min_length_4_2(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-4-2.xml",
         class_name="NistschemaSvIiListTimeMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_8_nistxml_sv_ii_list_time_min_length_4_3(save_xml):
+def test_list_time_min_length_8_nistxml_sv_ii_list_time_min_length_4_3(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 8.
     """
@@ -1551,12 +1658,13 @@ def test_list_time_min_length_8_nistxml_sv_ii_list_time_min_length_4_3(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-4-3.xml",
         class_name="NistschemaSvIiListTimeMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_8_nistxml_sv_ii_list_time_min_length_4_4(save_xml):
+def test_list_time_min_length_8_nistxml_sv_ii_list_time_min_length_4_4(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 8.
     """
@@ -1565,12 +1673,13 @@ def test_list_time_min_length_8_nistxml_sv_ii_list_time_min_length_4_4(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-4-4.xml",
         class_name="NistschemaSvIiListTimeMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_8_nistxml_sv_ii_list_time_min_length_4_5(save_xml):
+def test_list_time_min_length_8_nistxml_sv_ii_list_time_min_length_4_5(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 8.
     """
@@ -1579,12 +1688,13 @@ def test_list_time_min_length_8_nistxml_sv_ii_list_time_min_length_4_5(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-4-5.xml",
         class_name="NistschemaSvIiListTimeMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_7_nistxml_sv_ii_list_time_min_length_3_1(save_xml):
+def test_list_time_min_length_7_nistxml_sv_ii_list_time_min_length_3_1(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 7.
     """
@@ -1593,12 +1703,13 @@ def test_list_time_min_length_7_nistxml_sv_ii_list_time_min_length_3_1(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-3-1.xml",
         class_name="NistschemaSvIiListTimeMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_7_nistxml_sv_ii_list_time_min_length_3_2(save_xml):
+def test_list_time_min_length_7_nistxml_sv_ii_list_time_min_length_3_2(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 7.
     """
@@ -1607,12 +1718,13 @@ def test_list_time_min_length_7_nistxml_sv_ii_list_time_min_length_3_2(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-3-2.xml",
         class_name="NistschemaSvIiListTimeMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_7_nistxml_sv_ii_list_time_min_length_3_3(save_xml):
+def test_list_time_min_length_7_nistxml_sv_ii_list_time_min_length_3_3(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 7.
     """
@@ -1621,12 +1733,13 @@ def test_list_time_min_length_7_nistxml_sv_ii_list_time_min_length_3_3(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-3-3.xml",
         class_name="NistschemaSvIiListTimeMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_7_nistxml_sv_ii_list_time_min_length_3_4(save_xml):
+def test_list_time_min_length_7_nistxml_sv_ii_list_time_min_length_3_4(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 7.
     """
@@ -1635,12 +1748,13 @@ def test_list_time_min_length_7_nistxml_sv_ii_list_time_min_length_3_4(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-3-4.xml",
         class_name="NistschemaSvIiListTimeMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_7_nistxml_sv_ii_list_time_min_length_3_5(save_xml):
+def test_list_time_min_length_7_nistxml_sv_ii_list_time_min_length_3_5(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 7.
     """
@@ -1649,12 +1763,13 @@ def test_list_time_min_length_7_nistxml_sv_ii_list_time_min_length_3_5(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-3-5.xml",
         class_name="NistschemaSvIiListTimeMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_6_nistxml_sv_ii_list_time_min_length_2_1(save_xml):
+def test_list_time_min_length_6_nistxml_sv_ii_list_time_min_length_2_1(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 6.
     """
@@ -1663,12 +1778,13 @@ def test_list_time_min_length_6_nistxml_sv_ii_list_time_min_length_2_1(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-2-1.xml",
         class_name="NistschemaSvIiListTimeMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_6_nistxml_sv_ii_list_time_min_length_2_2(save_xml):
+def test_list_time_min_length_6_nistxml_sv_ii_list_time_min_length_2_2(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 6.
     """
@@ -1677,12 +1793,13 @@ def test_list_time_min_length_6_nistxml_sv_ii_list_time_min_length_2_2(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-2-2.xml",
         class_name="NistschemaSvIiListTimeMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_6_nistxml_sv_ii_list_time_min_length_2_3(save_xml):
+def test_list_time_min_length_6_nistxml_sv_ii_list_time_min_length_2_3(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 6.
     """
@@ -1691,12 +1808,13 @@ def test_list_time_min_length_6_nistxml_sv_ii_list_time_min_length_2_3(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-2-3.xml",
         class_name="NistschemaSvIiListTimeMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_6_nistxml_sv_ii_list_time_min_length_2_4(save_xml):
+def test_list_time_min_length_6_nistxml_sv_ii_list_time_min_length_2_4(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 6.
     """
@@ -1705,12 +1823,13 @@ def test_list_time_min_length_6_nistxml_sv_ii_list_time_min_length_2_4(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-2-4.xml",
         class_name="NistschemaSvIiListTimeMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_6_nistxml_sv_ii_list_time_min_length_2_5(save_xml):
+def test_list_time_min_length_6_nistxml_sv_ii_list_time_min_length_2_5(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 6.
     """
@@ -1719,12 +1838,13 @@ def test_list_time_min_length_6_nistxml_sv_ii_list_time_min_length_2_5(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-2-5.xml",
         class_name="NistschemaSvIiListTimeMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_5_nistxml_sv_ii_list_time_min_length_1_1(save_xml):
+def test_list_time_min_length_5_nistxml_sv_ii_list_time_min_length_1_1(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 5.
     """
@@ -1733,12 +1853,13 @@ def test_list_time_min_length_5_nistxml_sv_ii_list_time_min_length_1_1(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-1-1.xml",
         class_name="NistschemaSvIiListTimeMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_5_nistxml_sv_ii_list_time_min_length_1_2(save_xml):
+def test_list_time_min_length_5_nistxml_sv_ii_list_time_min_length_1_2(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 5.
     """
@@ -1747,12 +1868,13 @@ def test_list_time_min_length_5_nistxml_sv_ii_list_time_min_length_1_2(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-1-2.xml",
         class_name="NistschemaSvIiListTimeMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_5_nistxml_sv_ii_list_time_min_length_1_3(save_xml):
+def test_list_time_min_length_5_nistxml_sv_ii_list_time_min_length_1_3(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 5.
     """
@@ -1761,12 +1883,13 @@ def test_list_time_min_length_5_nistxml_sv_ii_list_time_min_length_1_3(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-1-3.xml",
         class_name="NistschemaSvIiListTimeMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_5_nistxml_sv_ii_list_time_min_length_1_4(save_xml):
+def test_list_time_min_length_5_nistxml_sv_ii_list_time_min_length_1_4(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 5.
     """
@@ -1775,12 +1898,13 @@ def test_list_time_min_length_5_nistxml_sv_ii_list_time_min_length_1_4(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-1-4.xml",
         class_name="NistschemaSvIiListTimeMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_min_length_5_nistxml_sv_ii_list_time_min_length_1_5(save_xml):
+def test_list_time_min_length_5_nistxml_sv_ii_list_time_min_length_1_5(json_360, save_output):
     """
     Type list/time is restricted by facet minLength with value 5.
     """
@@ -1789,12 +1913,13 @@ def test_list_time_min_length_5_nistxml_sv_ii_list_time_min_length_1_5(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-minLength-1-5.xml",
         class_name="NistschemaSvIiListTimeMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_9_nistxml_sv_ii_list_time_max_length_5_1(save_xml):
+def test_list_time_max_length_9_nistxml_sv_ii_list_time_max_length_5_1(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 10.
     """
@@ -1803,12 +1928,13 @@ def test_list_time_max_length_9_nistxml_sv_ii_list_time_max_length_5_1(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-5-1.xml",
         class_name="NistschemaSvIiListTimeMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_9_nistxml_sv_ii_list_time_max_length_5_2(save_xml):
+def test_list_time_max_length_9_nistxml_sv_ii_list_time_max_length_5_2(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 10.
     """
@@ -1817,12 +1943,13 @@ def test_list_time_max_length_9_nistxml_sv_ii_list_time_max_length_5_2(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-5-2.xml",
         class_name="NistschemaSvIiListTimeMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_9_nistxml_sv_ii_list_time_max_length_5_3(save_xml):
+def test_list_time_max_length_9_nistxml_sv_ii_list_time_max_length_5_3(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 10.
     """
@@ -1831,12 +1958,13 @@ def test_list_time_max_length_9_nistxml_sv_ii_list_time_max_length_5_3(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-5-3.xml",
         class_name="NistschemaSvIiListTimeMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_9_nistxml_sv_ii_list_time_max_length_5_4(save_xml):
+def test_list_time_max_length_9_nistxml_sv_ii_list_time_max_length_5_4(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 10.
     """
@@ -1845,12 +1973,13 @@ def test_list_time_max_length_9_nistxml_sv_ii_list_time_max_length_5_4(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-5-4.xml",
         class_name="NistschemaSvIiListTimeMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_9_nistxml_sv_ii_list_time_max_length_5_5(save_xml):
+def test_list_time_max_length_9_nistxml_sv_ii_list_time_max_length_5_5(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 10.
     """
@@ -1859,12 +1988,13 @@ def test_list_time_max_length_9_nistxml_sv_ii_list_time_max_length_5_5(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-5-5.xml",
         class_name="NistschemaSvIiListTimeMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_8_nistxml_sv_ii_list_time_max_length_4_1(save_xml):
+def test_list_time_max_length_8_nistxml_sv_ii_list_time_max_length_4_1(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 8.
     """
@@ -1873,12 +2003,13 @@ def test_list_time_max_length_8_nistxml_sv_ii_list_time_max_length_4_1(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-4-1.xml",
         class_name="NistschemaSvIiListTimeMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_8_nistxml_sv_ii_list_time_max_length_4_2(save_xml):
+def test_list_time_max_length_8_nistxml_sv_ii_list_time_max_length_4_2(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 8.
     """
@@ -1887,12 +2018,13 @@ def test_list_time_max_length_8_nistxml_sv_ii_list_time_max_length_4_2(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-4-2.xml",
         class_name="NistschemaSvIiListTimeMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_8_nistxml_sv_ii_list_time_max_length_4_3(save_xml):
+def test_list_time_max_length_8_nistxml_sv_ii_list_time_max_length_4_3(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 8.
     """
@@ -1901,12 +2033,13 @@ def test_list_time_max_length_8_nistxml_sv_ii_list_time_max_length_4_3(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-4-3.xml",
         class_name="NistschemaSvIiListTimeMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_8_nistxml_sv_ii_list_time_max_length_4_4(save_xml):
+def test_list_time_max_length_8_nistxml_sv_ii_list_time_max_length_4_4(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 8.
     """
@@ -1915,12 +2048,13 @@ def test_list_time_max_length_8_nistxml_sv_ii_list_time_max_length_4_4(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-4-4.xml",
         class_name="NistschemaSvIiListTimeMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_8_nistxml_sv_ii_list_time_max_length_4_5(save_xml):
+def test_list_time_max_length_8_nistxml_sv_ii_list_time_max_length_4_5(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 8.
     """
@@ -1929,12 +2063,13 @@ def test_list_time_max_length_8_nistxml_sv_ii_list_time_max_length_4_5(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-4-5.xml",
         class_name="NistschemaSvIiListTimeMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_7_nistxml_sv_ii_list_time_max_length_3_1(save_xml):
+def test_list_time_max_length_7_nistxml_sv_ii_list_time_max_length_3_1(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 7.
     """
@@ -1943,12 +2078,13 @@ def test_list_time_max_length_7_nistxml_sv_ii_list_time_max_length_3_1(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-3-1.xml",
         class_name="NistschemaSvIiListTimeMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_7_nistxml_sv_ii_list_time_max_length_3_2(save_xml):
+def test_list_time_max_length_7_nistxml_sv_ii_list_time_max_length_3_2(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 7.
     """
@@ -1957,12 +2093,13 @@ def test_list_time_max_length_7_nistxml_sv_ii_list_time_max_length_3_2(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-3-2.xml",
         class_name="NistschemaSvIiListTimeMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_7_nistxml_sv_ii_list_time_max_length_3_3(save_xml):
+def test_list_time_max_length_7_nistxml_sv_ii_list_time_max_length_3_3(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 7.
     """
@@ -1971,12 +2108,13 @@ def test_list_time_max_length_7_nistxml_sv_ii_list_time_max_length_3_3(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-3-3.xml",
         class_name="NistschemaSvIiListTimeMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_7_nistxml_sv_ii_list_time_max_length_3_4(save_xml):
+def test_list_time_max_length_7_nistxml_sv_ii_list_time_max_length_3_4(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 7.
     """
@@ -1985,12 +2123,13 @@ def test_list_time_max_length_7_nistxml_sv_ii_list_time_max_length_3_4(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-3-4.xml",
         class_name="NistschemaSvIiListTimeMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_7_nistxml_sv_ii_list_time_max_length_3_5(save_xml):
+def test_list_time_max_length_7_nistxml_sv_ii_list_time_max_length_3_5(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 7.
     """
@@ -1999,12 +2138,13 @@ def test_list_time_max_length_7_nistxml_sv_ii_list_time_max_length_3_5(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-3-5.xml",
         class_name="NistschemaSvIiListTimeMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_6_nistxml_sv_ii_list_time_max_length_2_1(save_xml):
+def test_list_time_max_length_6_nistxml_sv_ii_list_time_max_length_2_1(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 6.
     """
@@ -2013,12 +2153,13 @@ def test_list_time_max_length_6_nistxml_sv_ii_list_time_max_length_2_1(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-2-1.xml",
         class_name="NistschemaSvIiListTimeMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_6_nistxml_sv_ii_list_time_max_length_2_2(save_xml):
+def test_list_time_max_length_6_nistxml_sv_ii_list_time_max_length_2_2(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 6.
     """
@@ -2027,12 +2168,13 @@ def test_list_time_max_length_6_nistxml_sv_ii_list_time_max_length_2_2(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-2-2.xml",
         class_name="NistschemaSvIiListTimeMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_6_nistxml_sv_ii_list_time_max_length_2_3(save_xml):
+def test_list_time_max_length_6_nistxml_sv_ii_list_time_max_length_2_3(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 6.
     """
@@ -2041,12 +2183,13 @@ def test_list_time_max_length_6_nistxml_sv_ii_list_time_max_length_2_3(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-2-3.xml",
         class_name="NistschemaSvIiListTimeMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_6_nistxml_sv_ii_list_time_max_length_2_4(save_xml):
+def test_list_time_max_length_6_nistxml_sv_ii_list_time_max_length_2_4(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 6.
     """
@@ -2055,12 +2198,13 @@ def test_list_time_max_length_6_nistxml_sv_ii_list_time_max_length_2_4(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-2-4.xml",
         class_name="NistschemaSvIiListTimeMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_6_nistxml_sv_ii_list_time_max_length_2_5(save_xml):
+def test_list_time_max_length_6_nistxml_sv_ii_list_time_max_length_2_5(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 6.
     """
@@ -2069,12 +2213,13 @@ def test_list_time_max_length_6_nistxml_sv_ii_list_time_max_length_2_5(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-2-5.xml",
         class_name="NistschemaSvIiListTimeMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_5_nistxml_sv_ii_list_time_max_length_1_1(save_xml):
+def test_list_time_max_length_5_nistxml_sv_ii_list_time_max_length_1_1(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 5.
     """
@@ -2083,12 +2228,13 @@ def test_list_time_max_length_5_nistxml_sv_ii_list_time_max_length_1_1(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-1-1.xml",
         class_name="NistschemaSvIiListTimeMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_5_nistxml_sv_ii_list_time_max_length_1_2(save_xml):
+def test_list_time_max_length_5_nistxml_sv_ii_list_time_max_length_1_2(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 5.
     """
@@ -2097,12 +2243,13 @@ def test_list_time_max_length_5_nistxml_sv_ii_list_time_max_length_1_2(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-1-2.xml",
         class_name="NistschemaSvIiListTimeMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_5_nistxml_sv_ii_list_time_max_length_1_3(save_xml):
+def test_list_time_max_length_5_nistxml_sv_ii_list_time_max_length_1_3(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 5.
     """
@@ -2111,12 +2258,13 @@ def test_list_time_max_length_5_nistxml_sv_ii_list_time_max_length_1_3(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-1-3.xml",
         class_name="NistschemaSvIiListTimeMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_5_nistxml_sv_ii_list_time_max_length_1_4(save_xml):
+def test_list_time_max_length_5_nistxml_sv_ii_list_time_max_length_1_4(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 5.
     """
@@ -2125,12 +2273,13 @@ def test_list_time_max_length_5_nistxml_sv_ii_list_time_max_length_1_4(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-1-4.xml",
         class_name="NistschemaSvIiListTimeMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_time_max_length_5_nistxml_sv_ii_list_time_max_length_1_5(save_xml):
+def test_list_time_max_length_5_nistxml_sv_ii_list_time_max_length_1_5(json_360, save_output):
     """
     Type list/time is restricted by facet maxLength with value 5.
     """
@@ -2139,12 +2288,13 @@ def test_list_time_max_length_5_nistxml_sv_ii_list_time_max_length_1_5(save_xml)
         instance="nistData/list/time/Schema+Instance/NISTXML-SV-II-list-time-maxLength-1-5.xml",
         class_name="NistschemaSvIiListTimeMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_9_nistxml_sv_ii_list_date_time_enumeration_5_1(save_xml):
+def test_list_date_time_enumeration_9_nistxml_sv_ii_list_date_time_enumeration_5_1(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2153,12 +2303,13 @@ def test_list_date_time_enumeration_9_nistxml_sv_ii_list_date_time_enumeration_5
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-5-1.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_9_nistxml_sv_ii_list_date_time_enumeration_5_2(save_xml):
+def test_list_date_time_enumeration_9_nistxml_sv_ii_list_date_time_enumeration_5_2(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2167,12 +2318,13 @@ def test_list_date_time_enumeration_9_nistxml_sv_ii_list_date_time_enumeration_5
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-5-2.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_9_nistxml_sv_ii_list_date_time_enumeration_5_3(save_xml):
+def test_list_date_time_enumeration_9_nistxml_sv_ii_list_date_time_enumeration_5_3(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2181,12 +2333,13 @@ def test_list_date_time_enumeration_9_nistxml_sv_ii_list_date_time_enumeration_5
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-5-3.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_9_nistxml_sv_ii_list_date_time_enumeration_5_4(save_xml):
+def test_list_date_time_enumeration_9_nistxml_sv_ii_list_date_time_enumeration_5_4(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2195,12 +2348,13 @@ def test_list_date_time_enumeration_9_nistxml_sv_ii_list_date_time_enumeration_5
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-5-4.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_9_nistxml_sv_ii_list_date_time_enumeration_5_5(save_xml):
+def test_list_date_time_enumeration_9_nistxml_sv_ii_list_date_time_enumeration_5_5(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2209,12 +2363,13 @@ def test_list_date_time_enumeration_9_nistxml_sv_ii_list_date_time_enumeration_5
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-5-5.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_8_nistxml_sv_ii_list_date_time_enumeration_4_1(save_xml):
+def test_list_date_time_enumeration_8_nistxml_sv_ii_list_date_time_enumeration_4_1(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2223,12 +2378,13 @@ def test_list_date_time_enumeration_8_nistxml_sv_ii_list_date_time_enumeration_4
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-4-1.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_8_nistxml_sv_ii_list_date_time_enumeration_4_2(save_xml):
+def test_list_date_time_enumeration_8_nistxml_sv_ii_list_date_time_enumeration_4_2(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2237,12 +2393,13 @@ def test_list_date_time_enumeration_8_nistxml_sv_ii_list_date_time_enumeration_4
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-4-2.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_8_nistxml_sv_ii_list_date_time_enumeration_4_3(save_xml):
+def test_list_date_time_enumeration_8_nistxml_sv_ii_list_date_time_enumeration_4_3(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2251,12 +2408,13 @@ def test_list_date_time_enumeration_8_nistxml_sv_ii_list_date_time_enumeration_4
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-4-3.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_8_nistxml_sv_ii_list_date_time_enumeration_4_4(save_xml):
+def test_list_date_time_enumeration_8_nistxml_sv_ii_list_date_time_enumeration_4_4(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2265,12 +2423,13 @@ def test_list_date_time_enumeration_8_nistxml_sv_ii_list_date_time_enumeration_4
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-4-4.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_8_nistxml_sv_ii_list_date_time_enumeration_4_5(save_xml):
+def test_list_date_time_enumeration_8_nistxml_sv_ii_list_date_time_enumeration_4_5(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2279,12 +2438,13 @@ def test_list_date_time_enumeration_8_nistxml_sv_ii_list_date_time_enumeration_4
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-4-5.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_7_nistxml_sv_ii_list_date_time_enumeration_3_1(save_xml):
+def test_list_date_time_enumeration_7_nistxml_sv_ii_list_date_time_enumeration_3_1(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2293,12 +2453,13 @@ def test_list_date_time_enumeration_7_nistxml_sv_ii_list_date_time_enumeration_3
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-3-1.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_7_nistxml_sv_ii_list_date_time_enumeration_3_2(save_xml):
+def test_list_date_time_enumeration_7_nistxml_sv_ii_list_date_time_enumeration_3_2(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2307,12 +2468,13 @@ def test_list_date_time_enumeration_7_nistxml_sv_ii_list_date_time_enumeration_3
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-3-2.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_7_nistxml_sv_ii_list_date_time_enumeration_3_3(save_xml):
+def test_list_date_time_enumeration_7_nistxml_sv_ii_list_date_time_enumeration_3_3(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2321,12 +2483,13 @@ def test_list_date_time_enumeration_7_nistxml_sv_ii_list_date_time_enumeration_3
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-3-3.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_7_nistxml_sv_ii_list_date_time_enumeration_3_4(save_xml):
+def test_list_date_time_enumeration_7_nistxml_sv_ii_list_date_time_enumeration_3_4(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2335,12 +2498,13 @@ def test_list_date_time_enumeration_7_nistxml_sv_ii_list_date_time_enumeration_3
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-3-4.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_7_nistxml_sv_ii_list_date_time_enumeration_3_5(save_xml):
+def test_list_date_time_enumeration_7_nistxml_sv_ii_list_date_time_enumeration_3_5(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2349,12 +2513,13 @@ def test_list_date_time_enumeration_7_nistxml_sv_ii_list_date_time_enumeration_3
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-3-5.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_6_nistxml_sv_ii_list_date_time_enumeration_2_1(save_xml):
+def test_list_date_time_enumeration_6_nistxml_sv_ii_list_date_time_enumeration_2_1(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2363,12 +2528,13 @@ def test_list_date_time_enumeration_6_nistxml_sv_ii_list_date_time_enumeration_2
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-2-1.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_6_nistxml_sv_ii_list_date_time_enumeration_2_2(save_xml):
+def test_list_date_time_enumeration_6_nistxml_sv_ii_list_date_time_enumeration_2_2(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2377,12 +2543,13 @@ def test_list_date_time_enumeration_6_nistxml_sv_ii_list_date_time_enumeration_2
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-2-2.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_6_nistxml_sv_ii_list_date_time_enumeration_2_3(save_xml):
+def test_list_date_time_enumeration_6_nistxml_sv_ii_list_date_time_enumeration_2_3(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2391,12 +2558,13 @@ def test_list_date_time_enumeration_6_nistxml_sv_ii_list_date_time_enumeration_2
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-2-3.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_6_nistxml_sv_ii_list_date_time_enumeration_2_4(save_xml):
+def test_list_date_time_enumeration_6_nistxml_sv_ii_list_date_time_enumeration_2_4(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2405,12 +2573,13 @@ def test_list_date_time_enumeration_6_nistxml_sv_ii_list_date_time_enumeration_2
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-2-4.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_6_nistxml_sv_ii_list_date_time_enumeration_2_5(save_xml):
+def test_list_date_time_enumeration_6_nistxml_sv_ii_list_date_time_enumeration_2_5(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2419,12 +2588,13 @@ def test_list_date_time_enumeration_6_nistxml_sv_ii_list_date_time_enumeration_2
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-2-5.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_5_nistxml_sv_ii_list_date_time_enumeration_1_1(save_xml):
+def test_list_date_time_enumeration_5_nistxml_sv_ii_list_date_time_enumeration_1_1(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2433,12 +2603,13 @@ def test_list_date_time_enumeration_5_nistxml_sv_ii_list_date_time_enumeration_1
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-1-1.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_5_nistxml_sv_ii_list_date_time_enumeration_1_2(save_xml):
+def test_list_date_time_enumeration_5_nistxml_sv_ii_list_date_time_enumeration_1_2(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2447,12 +2618,13 @@ def test_list_date_time_enumeration_5_nistxml_sv_ii_list_date_time_enumeration_1
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-1-2.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_5_nistxml_sv_ii_list_date_time_enumeration_1_3(save_xml):
+def test_list_date_time_enumeration_5_nistxml_sv_ii_list_date_time_enumeration_1_3(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2461,12 +2633,13 @@ def test_list_date_time_enumeration_5_nistxml_sv_ii_list_date_time_enumeration_1
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-1-3.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_5_nistxml_sv_ii_list_date_time_enumeration_1_4(save_xml):
+def test_list_date_time_enumeration_5_nistxml_sv_ii_list_date_time_enumeration_1_4(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2475,12 +2648,13 @@ def test_list_date_time_enumeration_5_nistxml_sv_ii_list_date_time_enumeration_1
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-1-4.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_enumeration_5_nistxml_sv_ii_list_date_time_enumeration_1_5(save_xml):
+def test_list_date_time_enumeration_5_nistxml_sv_ii_list_date_time_enumeration_1_5(json_360, save_output):
     """
     Type list/dateTime is restricted by facet enumeration.
     """
@@ -2489,12 +2663,13 @@ def test_list_date_time_enumeration_5_nistxml_sv_ii_list_date_time_enumeration_1
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-enumeration-1-5.xml",
         class_name="NistschemaSvIiListDateTimeEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_9_nistxml_sv_ii_list_date_time_pattern_5_1(save_xml):
+def test_list_date_time_pattern_9_nistxml_sv_ii_list_date_time_pattern_5_1(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     19\d\d-\d4-2\dT\d7:\d0:\d8 \d\d28-\d5-1\dT1\d:2\d:\d1
@@ -2508,12 +2683,13 @@ def test_list_date_time_pattern_9_nistxml_sv_ii_list_date_time_pattern_5_1(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-5-1.xml",
         class_name="NistschemaSvIiListDateTimePattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_9_nistxml_sv_ii_list_date_time_pattern_5_2(save_xml):
+def test_list_date_time_pattern_9_nistxml_sv_ii_list_date_time_pattern_5_2(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     19\d\d-\d4-2\dT\d7:\d0:\d8 \d\d28-\d5-1\dT1\d:2\d:\d1
@@ -2527,12 +2703,13 @@ def test_list_date_time_pattern_9_nistxml_sv_ii_list_date_time_pattern_5_2(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-5-2.xml",
         class_name="NistschemaSvIiListDateTimePattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_9_nistxml_sv_ii_list_date_time_pattern_5_3(save_xml):
+def test_list_date_time_pattern_9_nistxml_sv_ii_list_date_time_pattern_5_3(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     19\d\d-\d4-2\dT\d7:\d0:\d8 \d\d28-\d5-1\dT1\d:2\d:\d1
@@ -2546,12 +2723,13 @@ def test_list_date_time_pattern_9_nistxml_sv_ii_list_date_time_pattern_5_3(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-5-3.xml",
         class_name="NistschemaSvIiListDateTimePattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_9_nistxml_sv_ii_list_date_time_pattern_5_4(save_xml):
+def test_list_date_time_pattern_9_nistxml_sv_ii_list_date_time_pattern_5_4(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     19\d\d-\d4-2\dT\d7:\d0:\d8 \d\d28-\d5-1\dT1\d:2\d:\d1
@@ -2565,12 +2743,13 @@ def test_list_date_time_pattern_9_nistxml_sv_ii_list_date_time_pattern_5_4(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-5-4.xml",
         class_name="NistschemaSvIiListDateTimePattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_9_nistxml_sv_ii_list_date_time_pattern_5_5(save_xml):
+def test_list_date_time_pattern_9_nistxml_sv_ii_list_date_time_pattern_5_5(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     19\d\d-\d4-2\dT\d7:\d0:\d8 \d\d28-\d5-1\dT1\d:2\d:\d1
@@ -2584,12 +2763,13 @@ def test_list_date_time_pattern_9_nistxml_sv_ii_list_date_time_pattern_5_5(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-5-5.xml",
         class_name="NistschemaSvIiListDateTimePattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_8_nistxml_sv_ii_list_date_time_pattern_4_1(save_xml):
+def test_list_date_time_pattern_8_nistxml_sv_ii_list_date_time_pattern_4_1(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     19\d\d-1\d-1\dT1\d:\d8:4\d 17\d\d-\d0-0\dT\d7:\d7:2\d
@@ -2601,12 +2781,13 @@ def test_list_date_time_pattern_8_nistxml_sv_ii_list_date_time_pattern_4_1(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-4-1.xml",
         class_name="NistschemaSvIiListDateTimePattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_8_nistxml_sv_ii_list_date_time_pattern_4_2(save_xml):
+def test_list_date_time_pattern_8_nistxml_sv_ii_list_date_time_pattern_4_2(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     19\d\d-1\d-1\dT1\d:\d8:4\d 17\d\d-\d0-0\dT\d7:\d7:2\d
@@ -2618,12 +2799,13 @@ def test_list_date_time_pattern_8_nistxml_sv_ii_list_date_time_pattern_4_2(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-4-2.xml",
         class_name="NistschemaSvIiListDateTimePattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_8_nistxml_sv_ii_list_date_time_pattern_4_3(save_xml):
+def test_list_date_time_pattern_8_nistxml_sv_ii_list_date_time_pattern_4_3(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     19\d\d-1\d-1\dT1\d:\d8:4\d 17\d\d-\d0-0\dT\d7:\d7:2\d
@@ -2635,12 +2817,13 @@ def test_list_date_time_pattern_8_nistxml_sv_ii_list_date_time_pattern_4_3(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-4-3.xml",
         class_name="NistschemaSvIiListDateTimePattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_8_nistxml_sv_ii_list_date_time_pattern_4_4(save_xml):
+def test_list_date_time_pattern_8_nistxml_sv_ii_list_date_time_pattern_4_4(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     19\d\d-1\d-1\dT1\d:\d8:4\d 17\d\d-\d0-0\dT\d7:\d7:2\d
@@ -2652,12 +2835,13 @@ def test_list_date_time_pattern_8_nistxml_sv_ii_list_date_time_pattern_4_4(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-4-4.xml",
         class_name="NistschemaSvIiListDateTimePattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_8_nistxml_sv_ii_list_date_time_pattern_4_5(save_xml):
+def test_list_date_time_pattern_8_nistxml_sv_ii_list_date_time_pattern_4_5(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     19\d\d-1\d-1\dT1\d:\d8:4\d 17\d\d-\d0-0\dT\d7:\d7:2\d
@@ -2669,12 +2853,13 @@ def test_list_date_time_pattern_8_nistxml_sv_ii_list_date_time_pattern_4_5(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-4-5.xml",
         class_name="NistschemaSvIiListDateTimePattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_7_nistxml_sv_ii_list_date_time_pattern_3_1(save_xml):
+def test_list_date_time_pattern_7_nistxml_sv_ii_list_date_time_pattern_3_1(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     20\d\d-\d0-2\dT\d9:5\d:\d9 \d\d34-\d4-2\dT0\d:2\d:1\d
@@ -2686,12 +2871,13 @@ def test_list_date_time_pattern_7_nistxml_sv_ii_list_date_time_pattern_3_1(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-3-1.xml",
         class_name="NistschemaSvIiListDateTimePattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_7_nistxml_sv_ii_list_date_time_pattern_3_2(save_xml):
+def test_list_date_time_pattern_7_nistxml_sv_ii_list_date_time_pattern_3_2(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     20\d\d-\d0-2\dT\d9:5\d:\d9 \d\d34-\d4-2\dT0\d:2\d:1\d
@@ -2703,12 +2889,13 @@ def test_list_date_time_pattern_7_nistxml_sv_ii_list_date_time_pattern_3_2(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-3-2.xml",
         class_name="NistschemaSvIiListDateTimePattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_7_nistxml_sv_ii_list_date_time_pattern_3_3(save_xml):
+def test_list_date_time_pattern_7_nistxml_sv_ii_list_date_time_pattern_3_3(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     20\d\d-\d0-2\dT\d9:5\d:\d9 \d\d34-\d4-2\dT0\d:2\d:1\d
@@ -2720,12 +2907,13 @@ def test_list_date_time_pattern_7_nistxml_sv_ii_list_date_time_pattern_3_3(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-3-3.xml",
         class_name="NistschemaSvIiListDateTimePattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_7_nistxml_sv_ii_list_date_time_pattern_3_4(save_xml):
+def test_list_date_time_pattern_7_nistxml_sv_ii_list_date_time_pattern_3_4(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     20\d\d-\d0-2\dT\d9:5\d:\d9 \d\d34-\d4-2\dT0\d:2\d:1\d
@@ -2737,12 +2925,13 @@ def test_list_date_time_pattern_7_nistxml_sv_ii_list_date_time_pattern_3_4(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-3-4.xml",
         class_name="NistschemaSvIiListDateTimePattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_7_nistxml_sv_ii_list_date_time_pattern_3_5(save_xml):
+def test_list_date_time_pattern_7_nistxml_sv_ii_list_date_time_pattern_3_5(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     20\d\d-\d0-2\dT\d9:5\d:\d9 \d\d34-\d4-2\dT0\d:2\d:1\d
@@ -2754,12 +2943,13 @@ def test_list_date_time_pattern_7_nistxml_sv_ii_list_date_time_pattern_3_5(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-3-5.xml",
         class_name="NistschemaSvIiListDateTimePattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_6_nistxml_sv_ii_list_date_time_pattern_2_1(save_xml):
+def test_list_date_time_pattern_6_nistxml_sv_ii_list_date_time_pattern_2_1(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     \d\d52-\d1-0\dT\d5:\d4:\d3 \d\d95-\d3-1\dT\d3:1\d:\d3
@@ -2772,12 +2962,13 @@ def test_list_date_time_pattern_6_nistxml_sv_ii_list_date_time_pattern_2_1(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-2-1.xml",
         class_name="NistschemaSvIiListDateTimePattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_6_nistxml_sv_ii_list_date_time_pattern_2_2(save_xml):
+def test_list_date_time_pattern_6_nistxml_sv_ii_list_date_time_pattern_2_2(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     \d\d52-\d1-0\dT\d5:\d4:\d3 \d\d95-\d3-1\dT\d3:1\d:\d3
@@ -2790,12 +2981,13 @@ def test_list_date_time_pattern_6_nistxml_sv_ii_list_date_time_pattern_2_2(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-2-2.xml",
         class_name="NistschemaSvIiListDateTimePattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_6_nistxml_sv_ii_list_date_time_pattern_2_3(save_xml):
+def test_list_date_time_pattern_6_nistxml_sv_ii_list_date_time_pattern_2_3(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     \d\d52-\d1-0\dT\d5:\d4:\d3 \d\d95-\d3-1\dT\d3:1\d:\d3
@@ -2808,12 +3000,13 @@ def test_list_date_time_pattern_6_nistxml_sv_ii_list_date_time_pattern_2_3(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-2-3.xml",
         class_name="NistschemaSvIiListDateTimePattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_6_nistxml_sv_ii_list_date_time_pattern_2_4(save_xml):
+def test_list_date_time_pattern_6_nistxml_sv_ii_list_date_time_pattern_2_4(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     \d\d52-\d1-0\dT\d5:\d4:\d3 \d\d95-\d3-1\dT\d3:1\d:\d3
@@ -2826,12 +3019,13 @@ def test_list_date_time_pattern_6_nistxml_sv_ii_list_date_time_pattern_2_4(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-2-4.xml",
         class_name="NistschemaSvIiListDateTimePattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_6_nistxml_sv_ii_list_date_time_pattern_2_5(save_xml):
+def test_list_date_time_pattern_6_nistxml_sv_ii_list_date_time_pattern_2_5(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     \d\d52-\d1-0\dT\d5:\d4:\d3 \d\d95-\d3-1\dT\d3:1\d:\d3
@@ -2844,12 +3038,13 @@ def test_list_date_time_pattern_6_nistxml_sv_ii_list_date_time_pattern_2_5(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-2-5.xml",
         class_name="NistschemaSvIiListDateTimePattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_5_nistxml_sv_ii_list_date_time_pattern_1_1(save_xml):
+def test_list_date_time_pattern_5_nistxml_sv_ii_list_date_time_pattern_1_1(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     19\d\d-\d0-1\dT\d9:2\d:4\d 20\d\d-\d0-\d5T\d8:1\d:\d7
@@ -2861,12 +3056,13 @@ def test_list_date_time_pattern_5_nistxml_sv_ii_list_date_time_pattern_1_1(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-1-1.xml",
         class_name="NistschemaSvIiListDateTimePattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_5_nistxml_sv_ii_list_date_time_pattern_1_2(save_xml):
+def test_list_date_time_pattern_5_nistxml_sv_ii_list_date_time_pattern_1_2(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     19\d\d-\d0-1\dT\d9:2\d:4\d 20\d\d-\d0-\d5T\d8:1\d:\d7
@@ -2878,12 +3074,13 @@ def test_list_date_time_pattern_5_nistxml_sv_ii_list_date_time_pattern_1_2(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-1-2.xml",
         class_name="NistschemaSvIiListDateTimePattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_5_nistxml_sv_ii_list_date_time_pattern_1_3(save_xml):
+def test_list_date_time_pattern_5_nistxml_sv_ii_list_date_time_pattern_1_3(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     19\d\d-\d0-1\dT\d9:2\d:4\d 20\d\d-\d0-\d5T\d8:1\d:\d7
@@ -2895,12 +3092,13 @@ def test_list_date_time_pattern_5_nistxml_sv_ii_list_date_time_pattern_1_3(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-1-3.xml",
         class_name="NistschemaSvIiListDateTimePattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_5_nistxml_sv_ii_list_date_time_pattern_1_4(save_xml):
+def test_list_date_time_pattern_5_nistxml_sv_ii_list_date_time_pattern_1_4(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     19\d\d-\d0-1\dT\d9:2\d:4\d 20\d\d-\d0-\d5T\d8:1\d:\d7
@@ -2912,12 +3110,13 @@ def test_list_date_time_pattern_5_nistxml_sv_ii_list_date_time_pattern_1_4(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-1-4.xml",
         class_name="NistschemaSvIiListDateTimePattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_pattern_5_nistxml_sv_ii_list_date_time_pattern_1_5(save_xml):
+def test_list_date_time_pattern_5_nistxml_sv_ii_list_date_time_pattern_1_5(json_360, save_output):
     r"""
     Type list/dateTime is restricted by facet pattern with value
     19\d\d-\d0-1\dT\d9:2\d:4\d 20\d\d-\d0-\d5T\d8:1\d:\d7
@@ -2929,12 +3128,13 @@ def test_list_date_time_pattern_5_nistxml_sv_ii_list_date_time_pattern_1_5(save_
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-pattern-1-5.xml",
         class_name="NistschemaSvIiListDateTimePattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_9_nistxml_sv_ii_list_date_time_length_5_1(save_xml):
+def test_list_date_time_length_9_nistxml_sv_ii_list_date_time_length_5_1(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 10.
     """
@@ -2943,12 +3143,13 @@ def test_list_date_time_length_9_nistxml_sv_ii_list_date_time_length_5_1(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-5-1.xml",
         class_name="NistschemaSvIiListDateTimeLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_9_nistxml_sv_ii_list_date_time_length_5_2(save_xml):
+def test_list_date_time_length_9_nistxml_sv_ii_list_date_time_length_5_2(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 10.
     """
@@ -2957,12 +3158,13 @@ def test_list_date_time_length_9_nistxml_sv_ii_list_date_time_length_5_2(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-5-2.xml",
         class_name="NistschemaSvIiListDateTimeLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_9_nistxml_sv_ii_list_date_time_length_5_3(save_xml):
+def test_list_date_time_length_9_nistxml_sv_ii_list_date_time_length_5_3(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 10.
     """
@@ -2971,12 +3173,13 @@ def test_list_date_time_length_9_nistxml_sv_ii_list_date_time_length_5_3(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-5-3.xml",
         class_name="NistschemaSvIiListDateTimeLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_9_nistxml_sv_ii_list_date_time_length_5_4(save_xml):
+def test_list_date_time_length_9_nistxml_sv_ii_list_date_time_length_5_4(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 10.
     """
@@ -2985,12 +3188,13 @@ def test_list_date_time_length_9_nistxml_sv_ii_list_date_time_length_5_4(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-5-4.xml",
         class_name="NistschemaSvIiListDateTimeLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_9_nistxml_sv_ii_list_date_time_length_5_5(save_xml):
+def test_list_date_time_length_9_nistxml_sv_ii_list_date_time_length_5_5(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 10.
     """
@@ -2999,12 +3203,13 @@ def test_list_date_time_length_9_nistxml_sv_ii_list_date_time_length_5_5(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-5-5.xml",
         class_name="NistschemaSvIiListDateTimeLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_8_nistxml_sv_ii_list_date_time_length_4_1(save_xml):
+def test_list_date_time_length_8_nistxml_sv_ii_list_date_time_length_4_1(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 8.
     """
@@ -3013,12 +3218,13 @@ def test_list_date_time_length_8_nistxml_sv_ii_list_date_time_length_4_1(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-4-1.xml",
         class_name="NistschemaSvIiListDateTimeLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_8_nistxml_sv_ii_list_date_time_length_4_2(save_xml):
+def test_list_date_time_length_8_nistxml_sv_ii_list_date_time_length_4_2(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 8.
     """
@@ -3027,12 +3233,13 @@ def test_list_date_time_length_8_nistxml_sv_ii_list_date_time_length_4_2(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-4-2.xml",
         class_name="NistschemaSvIiListDateTimeLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_8_nistxml_sv_ii_list_date_time_length_4_3(save_xml):
+def test_list_date_time_length_8_nistxml_sv_ii_list_date_time_length_4_3(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 8.
     """
@@ -3041,12 +3248,13 @@ def test_list_date_time_length_8_nistxml_sv_ii_list_date_time_length_4_3(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-4-3.xml",
         class_name="NistschemaSvIiListDateTimeLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_8_nistxml_sv_ii_list_date_time_length_4_4(save_xml):
+def test_list_date_time_length_8_nistxml_sv_ii_list_date_time_length_4_4(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 8.
     """
@@ -3055,12 +3263,13 @@ def test_list_date_time_length_8_nistxml_sv_ii_list_date_time_length_4_4(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-4-4.xml",
         class_name="NistschemaSvIiListDateTimeLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_8_nistxml_sv_ii_list_date_time_length_4_5(save_xml):
+def test_list_date_time_length_8_nistxml_sv_ii_list_date_time_length_4_5(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 8.
     """
@@ -3069,12 +3278,13 @@ def test_list_date_time_length_8_nistxml_sv_ii_list_date_time_length_4_5(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-4-5.xml",
         class_name="NistschemaSvIiListDateTimeLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_7_nistxml_sv_ii_list_date_time_length_3_1(save_xml):
+def test_list_date_time_length_7_nistxml_sv_ii_list_date_time_length_3_1(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 7.
     """
@@ -3083,12 +3293,13 @@ def test_list_date_time_length_7_nistxml_sv_ii_list_date_time_length_3_1(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-3-1.xml",
         class_name="NistschemaSvIiListDateTimeLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_7_nistxml_sv_ii_list_date_time_length_3_2(save_xml):
+def test_list_date_time_length_7_nistxml_sv_ii_list_date_time_length_3_2(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 7.
     """
@@ -3097,12 +3308,13 @@ def test_list_date_time_length_7_nistxml_sv_ii_list_date_time_length_3_2(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-3-2.xml",
         class_name="NistschemaSvIiListDateTimeLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_7_nistxml_sv_ii_list_date_time_length_3_3(save_xml):
+def test_list_date_time_length_7_nistxml_sv_ii_list_date_time_length_3_3(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 7.
     """
@@ -3111,12 +3323,13 @@ def test_list_date_time_length_7_nistxml_sv_ii_list_date_time_length_3_3(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-3-3.xml",
         class_name="NistschemaSvIiListDateTimeLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_7_nistxml_sv_ii_list_date_time_length_3_4(save_xml):
+def test_list_date_time_length_7_nistxml_sv_ii_list_date_time_length_3_4(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 7.
     """
@@ -3125,12 +3338,13 @@ def test_list_date_time_length_7_nistxml_sv_ii_list_date_time_length_3_4(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-3-4.xml",
         class_name="NistschemaSvIiListDateTimeLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_7_nistxml_sv_ii_list_date_time_length_3_5(save_xml):
+def test_list_date_time_length_7_nistxml_sv_ii_list_date_time_length_3_5(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 7.
     """
@@ -3139,12 +3353,13 @@ def test_list_date_time_length_7_nistxml_sv_ii_list_date_time_length_3_5(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-3-5.xml",
         class_name="NistschemaSvIiListDateTimeLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_6_nistxml_sv_ii_list_date_time_length_2_1(save_xml):
+def test_list_date_time_length_6_nistxml_sv_ii_list_date_time_length_2_1(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 6.
     """
@@ -3153,12 +3368,13 @@ def test_list_date_time_length_6_nistxml_sv_ii_list_date_time_length_2_1(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-2-1.xml",
         class_name="NistschemaSvIiListDateTimeLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_6_nistxml_sv_ii_list_date_time_length_2_2(save_xml):
+def test_list_date_time_length_6_nistxml_sv_ii_list_date_time_length_2_2(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 6.
     """
@@ -3167,12 +3383,13 @@ def test_list_date_time_length_6_nistxml_sv_ii_list_date_time_length_2_2(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-2-2.xml",
         class_name="NistschemaSvIiListDateTimeLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_6_nistxml_sv_ii_list_date_time_length_2_3(save_xml):
+def test_list_date_time_length_6_nistxml_sv_ii_list_date_time_length_2_3(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 6.
     """
@@ -3181,12 +3398,13 @@ def test_list_date_time_length_6_nistxml_sv_ii_list_date_time_length_2_3(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-2-3.xml",
         class_name="NistschemaSvIiListDateTimeLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_6_nistxml_sv_ii_list_date_time_length_2_4(save_xml):
+def test_list_date_time_length_6_nistxml_sv_ii_list_date_time_length_2_4(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 6.
     """
@@ -3195,12 +3413,13 @@ def test_list_date_time_length_6_nistxml_sv_ii_list_date_time_length_2_4(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-2-4.xml",
         class_name="NistschemaSvIiListDateTimeLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_6_nistxml_sv_ii_list_date_time_length_2_5(save_xml):
+def test_list_date_time_length_6_nistxml_sv_ii_list_date_time_length_2_5(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 6.
     """
@@ -3209,12 +3428,13 @@ def test_list_date_time_length_6_nistxml_sv_ii_list_date_time_length_2_5(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-2-5.xml",
         class_name="NistschemaSvIiListDateTimeLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_5_nistxml_sv_ii_list_date_time_length_1_1(save_xml):
+def test_list_date_time_length_5_nistxml_sv_ii_list_date_time_length_1_1(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 5.
     """
@@ -3223,12 +3443,13 @@ def test_list_date_time_length_5_nistxml_sv_ii_list_date_time_length_1_1(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-1-1.xml",
         class_name="NistschemaSvIiListDateTimeLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_5_nistxml_sv_ii_list_date_time_length_1_2(save_xml):
+def test_list_date_time_length_5_nistxml_sv_ii_list_date_time_length_1_2(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 5.
     """
@@ -3237,12 +3458,13 @@ def test_list_date_time_length_5_nistxml_sv_ii_list_date_time_length_1_2(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-1-2.xml",
         class_name="NistschemaSvIiListDateTimeLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_5_nistxml_sv_ii_list_date_time_length_1_3(save_xml):
+def test_list_date_time_length_5_nistxml_sv_ii_list_date_time_length_1_3(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 5.
     """
@@ -3251,12 +3473,13 @@ def test_list_date_time_length_5_nistxml_sv_ii_list_date_time_length_1_3(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-1-3.xml",
         class_name="NistschemaSvIiListDateTimeLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_5_nistxml_sv_ii_list_date_time_length_1_4(save_xml):
+def test_list_date_time_length_5_nistxml_sv_ii_list_date_time_length_1_4(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 5.
     """
@@ -3265,12 +3488,13 @@ def test_list_date_time_length_5_nistxml_sv_ii_list_date_time_length_1_4(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-1-4.xml",
         class_name="NistschemaSvIiListDateTimeLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_length_5_nistxml_sv_ii_list_date_time_length_1_5(save_xml):
+def test_list_date_time_length_5_nistxml_sv_ii_list_date_time_length_1_5(json_360, save_output):
     """
     Type list/dateTime is restricted by facet length with value 5.
     """
@@ -3279,12 +3503,13 @@ def test_list_date_time_length_5_nistxml_sv_ii_list_date_time_length_1_5(save_xm
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-length-1-5.xml",
         class_name="NistschemaSvIiListDateTimeLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_9_nistxml_sv_ii_list_date_time_min_length_5_1(save_xml):
+def test_list_date_time_min_length_9_nistxml_sv_ii_list_date_time_min_length_5_1(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 10.
     """
@@ -3293,12 +3518,13 @@ def test_list_date_time_min_length_9_nistxml_sv_ii_list_date_time_min_length_5_1
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-5-1.xml",
         class_name="NistschemaSvIiListDateTimeMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_9_nistxml_sv_ii_list_date_time_min_length_5_2(save_xml):
+def test_list_date_time_min_length_9_nistxml_sv_ii_list_date_time_min_length_5_2(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 10.
     """
@@ -3307,12 +3533,13 @@ def test_list_date_time_min_length_9_nistxml_sv_ii_list_date_time_min_length_5_2
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-5-2.xml",
         class_name="NistschemaSvIiListDateTimeMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_9_nistxml_sv_ii_list_date_time_min_length_5_3(save_xml):
+def test_list_date_time_min_length_9_nistxml_sv_ii_list_date_time_min_length_5_3(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 10.
     """
@@ -3321,12 +3548,13 @@ def test_list_date_time_min_length_9_nistxml_sv_ii_list_date_time_min_length_5_3
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-5-3.xml",
         class_name="NistschemaSvIiListDateTimeMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_9_nistxml_sv_ii_list_date_time_min_length_5_4(save_xml):
+def test_list_date_time_min_length_9_nistxml_sv_ii_list_date_time_min_length_5_4(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 10.
     """
@@ -3335,12 +3563,13 @@ def test_list_date_time_min_length_9_nistxml_sv_ii_list_date_time_min_length_5_4
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-5-4.xml",
         class_name="NistschemaSvIiListDateTimeMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_9_nistxml_sv_ii_list_date_time_min_length_5_5(save_xml):
+def test_list_date_time_min_length_9_nistxml_sv_ii_list_date_time_min_length_5_5(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 10.
     """
@@ -3349,12 +3578,13 @@ def test_list_date_time_min_length_9_nistxml_sv_ii_list_date_time_min_length_5_5
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-5-5.xml",
         class_name="NistschemaSvIiListDateTimeMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_8_nistxml_sv_ii_list_date_time_min_length_4_1(save_xml):
+def test_list_date_time_min_length_8_nistxml_sv_ii_list_date_time_min_length_4_1(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 8.
     """
@@ -3363,12 +3593,13 @@ def test_list_date_time_min_length_8_nistxml_sv_ii_list_date_time_min_length_4_1
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-4-1.xml",
         class_name="NistschemaSvIiListDateTimeMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_8_nistxml_sv_ii_list_date_time_min_length_4_2(save_xml):
+def test_list_date_time_min_length_8_nistxml_sv_ii_list_date_time_min_length_4_2(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 8.
     """
@@ -3377,12 +3608,13 @@ def test_list_date_time_min_length_8_nistxml_sv_ii_list_date_time_min_length_4_2
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-4-2.xml",
         class_name="NistschemaSvIiListDateTimeMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_8_nistxml_sv_ii_list_date_time_min_length_4_3(save_xml):
+def test_list_date_time_min_length_8_nistxml_sv_ii_list_date_time_min_length_4_3(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 8.
     """
@@ -3391,12 +3623,13 @@ def test_list_date_time_min_length_8_nistxml_sv_ii_list_date_time_min_length_4_3
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-4-3.xml",
         class_name="NistschemaSvIiListDateTimeMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_8_nistxml_sv_ii_list_date_time_min_length_4_4(save_xml):
+def test_list_date_time_min_length_8_nistxml_sv_ii_list_date_time_min_length_4_4(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 8.
     """
@@ -3405,12 +3638,13 @@ def test_list_date_time_min_length_8_nistxml_sv_ii_list_date_time_min_length_4_4
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-4-4.xml",
         class_name="NistschemaSvIiListDateTimeMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_8_nistxml_sv_ii_list_date_time_min_length_4_5(save_xml):
+def test_list_date_time_min_length_8_nistxml_sv_ii_list_date_time_min_length_4_5(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 8.
     """
@@ -3419,12 +3653,13 @@ def test_list_date_time_min_length_8_nistxml_sv_ii_list_date_time_min_length_4_5
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-4-5.xml",
         class_name="NistschemaSvIiListDateTimeMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_7_nistxml_sv_ii_list_date_time_min_length_3_1(save_xml):
+def test_list_date_time_min_length_7_nistxml_sv_ii_list_date_time_min_length_3_1(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 7.
     """
@@ -3433,12 +3668,13 @@ def test_list_date_time_min_length_7_nistxml_sv_ii_list_date_time_min_length_3_1
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-3-1.xml",
         class_name="NistschemaSvIiListDateTimeMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_7_nistxml_sv_ii_list_date_time_min_length_3_2(save_xml):
+def test_list_date_time_min_length_7_nistxml_sv_ii_list_date_time_min_length_3_2(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 7.
     """
@@ -3447,12 +3683,13 @@ def test_list_date_time_min_length_7_nistxml_sv_ii_list_date_time_min_length_3_2
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-3-2.xml",
         class_name="NistschemaSvIiListDateTimeMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_7_nistxml_sv_ii_list_date_time_min_length_3_3(save_xml):
+def test_list_date_time_min_length_7_nistxml_sv_ii_list_date_time_min_length_3_3(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 7.
     """
@@ -3461,12 +3698,13 @@ def test_list_date_time_min_length_7_nistxml_sv_ii_list_date_time_min_length_3_3
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-3-3.xml",
         class_name="NistschemaSvIiListDateTimeMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_7_nistxml_sv_ii_list_date_time_min_length_3_4(save_xml):
+def test_list_date_time_min_length_7_nistxml_sv_ii_list_date_time_min_length_3_4(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 7.
     """
@@ -3475,12 +3713,13 @@ def test_list_date_time_min_length_7_nistxml_sv_ii_list_date_time_min_length_3_4
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-3-4.xml",
         class_name="NistschemaSvIiListDateTimeMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_7_nistxml_sv_ii_list_date_time_min_length_3_5(save_xml):
+def test_list_date_time_min_length_7_nistxml_sv_ii_list_date_time_min_length_3_5(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 7.
     """
@@ -3489,12 +3728,13 @@ def test_list_date_time_min_length_7_nistxml_sv_ii_list_date_time_min_length_3_5
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-3-5.xml",
         class_name="NistschemaSvIiListDateTimeMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_6_nistxml_sv_ii_list_date_time_min_length_2_1(save_xml):
+def test_list_date_time_min_length_6_nistxml_sv_ii_list_date_time_min_length_2_1(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 6.
     """
@@ -3503,12 +3743,13 @@ def test_list_date_time_min_length_6_nistxml_sv_ii_list_date_time_min_length_2_1
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-2-1.xml",
         class_name="NistschemaSvIiListDateTimeMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_6_nistxml_sv_ii_list_date_time_min_length_2_2(save_xml):
+def test_list_date_time_min_length_6_nistxml_sv_ii_list_date_time_min_length_2_2(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 6.
     """
@@ -3517,12 +3758,13 @@ def test_list_date_time_min_length_6_nistxml_sv_ii_list_date_time_min_length_2_2
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-2-2.xml",
         class_name="NistschemaSvIiListDateTimeMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_6_nistxml_sv_ii_list_date_time_min_length_2_3(save_xml):
+def test_list_date_time_min_length_6_nistxml_sv_ii_list_date_time_min_length_2_3(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 6.
     """
@@ -3531,12 +3773,13 @@ def test_list_date_time_min_length_6_nistxml_sv_ii_list_date_time_min_length_2_3
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-2-3.xml",
         class_name="NistschemaSvIiListDateTimeMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_6_nistxml_sv_ii_list_date_time_min_length_2_4(save_xml):
+def test_list_date_time_min_length_6_nistxml_sv_ii_list_date_time_min_length_2_4(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 6.
     """
@@ -3545,12 +3788,13 @@ def test_list_date_time_min_length_6_nistxml_sv_ii_list_date_time_min_length_2_4
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-2-4.xml",
         class_name="NistschemaSvIiListDateTimeMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_6_nistxml_sv_ii_list_date_time_min_length_2_5(save_xml):
+def test_list_date_time_min_length_6_nistxml_sv_ii_list_date_time_min_length_2_5(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 6.
     """
@@ -3559,12 +3803,13 @@ def test_list_date_time_min_length_6_nistxml_sv_ii_list_date_time_min_length_2_5
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-2-5.xml",
         class_name="NistschemaSvIiListDateTimeMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_5_nistxml_sv_ii_list_date_time_min_length_1_1(save_xml):
+def test_list_date_time_min_length_5_nistxml_sv_ii_list_date_time_min_length_1_1(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 5.
     """
@@ -3573,12 +3818,13 @@ def test_list_date_time_min_length_5_nistxml_sv_ii_list_date_time_min_length_1_1
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-1-1.xml",
         class_name="NistschemaSvIiListDateTimeMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_5_nistxml_sv_ii_list_date_time_min_length_1_2(save_xml):
+def test_list_date_time_min_length_5_nistxml_sv_ii_list_date_time_min_length_1_2(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 5.
     """
@@ -3587,12 +3833,13 @@ def test_list_date_time_min_length_5_nistxml_sv_ii_list_date_time_min_length_1_2
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-1-2.xml",
         class_name="NistschemaSvIiListDateTimeMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_5_nistxml_sv_ii_list_date_time_min_length_1_3(save_xml):
+def test_list_date_time_min_length_5_nistxml_sv_ii_list_date_time_min_length_1_3(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 5.
     """
@@ -3601,12 +3848,13 @@ def test_list_date_time_min_length_5_nistxml_sv_ii_list_date_time_min_length_1_3
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-1-3.xml",
         class_name="NistschemaSvIiListDateTimeMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_5_nistxml_sv_ii_list_date_time_min_length_1_4(save_xml):
+def test_list_date_time_min_length_5_nistxml_sv_ii_list_date_time_min_length_1_4(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 5.
     """
@@ -3615,12 +3863,13 @@ def test_list_date_time_min_length_5_nistxml_sv_ii_list_date_time_min_length_1_4
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-1-4.xml",
         class_name="NistschemaSvIiListDateTimeMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_min_length_5_nistxml_sv_ii_list_date_time_min_length_1_5(save_xml):
+def test_list_date_time_min_length_5_nistxml_sv_ii_list_date_time_min_length_1_5(json_360, save_output):
     """
     Type list/dateTime is restricted by facet minLength with value 5.
     """
@@ -3629,12 +3878,13 @@ def test_list_date_time_min_length_5_nistxml_sv_ii_list_date_time_min_length_1_5
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-minLength-1-5.xml",
         class_name="NistschemaSvIiListDateTimeMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_9_nistxml_sv_ii_list_date_time_max_length_5_1(save_xml):
+def test_list_date_time_max_length_9_nistxml_sv_ii_list_date_time_max_length_5_1(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 10.
     """
@@ -3643,12 +3893,13 @@ def test_list_date_time_max_length_9_nistxml_sv_ii_list_date_time_max_length_5_1
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-5-1.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_9_nistxml_sv_ii_list_date_time_max_length_5_2(save_xml):
+def test_list_date_time_max_length_9_nistxml_sv_ii_list_date_time_max_length_5_2(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 10.
     """
@@ -3657,12 +3908,13 @@ def test_list_date_time_max_length_9_nistxml_sv_ii_list_date_time_max_length_5_2
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-5-2.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_9_nistxml_sv_ii_list_date_time_max_length_5_3(save_xml):
+def test_list_date_time_max_length_9_nistxml_sv_ii_list_date_time_max_length_5_3(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 10.
     """
@@ -3671,12 +3923,13 @@ def test_list_date_time_max_length_9_nistxml_sv_ii_list_date_time_max_length_5_3
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-5-3.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_9_nistxml_sv_ii_list_date_time_max_length_5_4(save_xml):
+def test_list_date_time_max_length_9_nistxml_sv_ii_list_date_time_max_length_5_4(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 10.
     """
@@ -3685,12 +3938,13 @@ def test_list_date_time_max_length_9_nistxml_sv_ii_list_date_time_max_length_5_4
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-5-4.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_9_nistxml_sv_ii_list_date_time_max_length_5_5(save_xml):
+def test_list_date_time_max_length_9_nistxml_sv_ii_list_date_time_max_length_5_5(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 10.
     """
@@ -3699,12 +3953,13 @@ def test_list_date_time_max_length_9_nistxml_sv_ii_list_date_time_max_length_5_5
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-5-5.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_8_nistxml_sv_ii_list_date_time_max_length_4_1(save_xml):
+def test_list_date_time_max_length_8_nistxml_sv_ii_list_date_time_max_length_4_1(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 8.
     """
@@ -3713,12 +3968,13 @@ def test_list_date_time_max_length_8_nistxml_sv_ii_list_date_time_max_length_4_1
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-4-1.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_8_nistxml_sv_ii_list_date_time_max_length_4_2(save_xml):
+def test_list_date_time_max_length_8_nistxml_sv_ii_list_date_time_max_length_4_2(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 8.
     """
@@ -3727,12 +3983,13 @@ def test_list_date_time_max_length_8_nistxml_sv_ii_list_date_time_max_length_4_2
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-4-2.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_8_nistxml_sv_ii_list_date_time_max_length_4_3(save_xml):
+def test_list_date_time_max_length_8_nistxml_sv_ii_list_date_time_max_length_4_3(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 8.
     """
@@ -3741,12 +3998,13 @@ def test_list_date_time_max_length_8_nistxml_sv_ii_list_date_time_max_length_4_3
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-4-3.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_8_nistxml_sv_ii_list_date_time_max_length_4_4(save_xml):
+def test_list_date_time_max_length_8_nistxml_sv_ii_list_date_time_max_length_4_4(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 8.
     """
@@ -3755,12 +4013,13 @@ def test_list_date_time_max_length_8_nistxml_sv_ii_list_date_time_max_length_4_4
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-4-4.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_8_nistxml_sv_ii_list_date_time_max_length_4_5(save_xml):
+def test_list_date_time_max_length_8_nistxml_sv_ii_list_date_time_max_length_4_5(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 8.
     """
@@ -3769,12 +4028,13 @@ def test_list_date_time_max_length_8_nistxml_sv_ii_list_date_time_max_length_4_5
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-4-5.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_7_nistxml_sv_ii_list_date_time_max_length_3_1(save_xml):
+def test_list_date_time_max_length_7_nistxml_sv_ii_list_date_time_max_length_3_1(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 7.
     """
@@ -3783,12 +4043,13 @@ def test_list_date_time_max_length_7_nistxml_sv_ii_list_date_time_max_length_3_1
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-3-1.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_7_nistxml_sv_ii_list_date_time_max_length_3_2(save_xml):
+def test_list_date_time_max_length_7_nistxml_sv_ii_list_date_time_max_length_3_2(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 7.
     """
@@ -3797,12 +4058,13 @@ def test_list_date_time_max_length_7_nistxml_sv_ii_list_date_time_max_length_3_2
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-3-2.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_7_nistxml_sv_ii_list_date_time_max_length_3_3(save_xml):
+def test_list_date_time_max_length_7_nistxml_sv_ii_list_date_time_max_length_3_3(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 7.
     """
@@ -3811,12 +4073,13 @@ def test_list_date_time_max_length_7_nistxml_sv_ii_list_date_time_max_length_3_3
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-3-3.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_7_nistxml_sv_ii_list_date_time_max_length_3_4(save_xml):
+def test_list_date_time_max_length_7_nistxml_sv_ii_list_date_time_max_length_3_4(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 7.
     """
@@ -3825,12 +4088,13 @@ def test_list_date_time_max_length_7_nistxml_sv_ii_list_date_time_max_length_3_4
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-3-4.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_7_nistxml_sv_ii_list_date_time_max_length_3_5(save_xml):
+def test_list_date_time_max_length_7_nistxml_sv_ii_list_date_time_max_length_3_5(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 7.
     """
@@ -3839,12 +4103,13 @@ def test_list_date_time_max_length_7_nistxml_sv_ii_list_date_time_max_length_3_5
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-3-5.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_6_nistxml_sv_ii_list_date_time_max_length_2_1(save_xml):
+def test_list_date_time_max_length_6_nistxml_sv_ii_list_date_time_max_length_2_1(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 6.
     """
@@ -3853,12 +4118,13 @@ def test_list_date_time_max_length_6_nistxml_sv_ii_list_date_time_max_length_2_1
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-2-1.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_6_nistxml_sv_ii_list_date_time_max_length_2_2(save_xml):
+def test_list_date_time_max_length_6_nistxml_sv_ii_list_date_time_max_length_2_2(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 6.
     """
@@ -3867,12 +4133,13 @@ def test_list_date_time_max_length_6_nistxml_sv_ii_list_date_time_max_length_2_2
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-2-2.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_6_nistxml_sv_ii_list_date_time_max_length_2_3(save_xml):
+def test_list_date_time_max_length_6_nistxml_sv_ii_list_date_time_max_length_2_3(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 6.
     """
@@ -3881,12 +4148,13 @@ def test_list_date_time_max_length_6_nistxml_sv_ii_list_date_time_max_length_2_3
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-2-3.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_6_nistxml_sv_ii_list_date_time_max_length_2_4(save_xml):
+def test_list_date_time_max_length_6_nistxml_sv_ii_list_date_time_max_length_2_4(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 6.
     """
@@ -3895,12 +4163,13 @@ def test_list_date_time_max_length_6_nistxml_sv_ii_list_date_time_max_length_2_4
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-2-4.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_6_nistxml_sv_ii_list_date_time_max_length_2_5(save_xml):
+def test_list_date_time_max_length_6_nistxml_sv_ii_list_date_time_max_length_2_5(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 6.
     """
@@ -3909,12 +4178,13 @@ def test_list_date_time_max_length_6_nistxml_sv_ii_list_date_time_max_length_2_5
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-2-5.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_5_nistxml_sv_ii_list_date_time_max_length_1_1(save_xml):
+def test_list_date_time_max_length_5_nistxml_sv_ii_list_date_time_max_length_1_1(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 5.
     """
@@ -3923,12 +4193,13 @@ def test_list_date_time_max_length_5_nistxml_sv_ii_list_date_time_max_length_1_1
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-1-1.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_5_nistxml_sv_ii_list_date_time_max_length_1_2(save_xml):
+def test_list_date_time_max_length_5_nistxml_sv_ii_list_date_time_max_length_1_2(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 5.
     """
@@ -3937,12 +4208,13 @@ def test_list_date_time_max_length_5_nistxml_sv_ii_list_date_time_max_length_1_2
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-1-2.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_5_nistxml_sv_ii_list_date_time_max_length_1_3(save_xml):
+def test_list_date_time_max_length_5_nistxml_sv_ii_list_date_time_max_length_1_3(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 5.
     """
@@ -3951,12 +4223,13 @@ def test_list_date_time_max_length_5_nistxml_sv_ii_list_date_time_max_length_1_3
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-1-3.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_5_nistxml_sv_ii_list_date_time_max_length_1_4(save_xml):
+def test_list_date_time_max_length_5_nistxml_sv_ii_list_date_time_max_length_1_4(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 5.
     """
@@ -3965,12 +4238,13 @@ def test_list_date_time_max_length_5_nistxml_sv_ii_list_date_time_max_length_1_4
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-1-4.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_date_time_max_length_5_nistxml_sv_ii_list_date_time_max_length_1_5(save_xml):
+def test_list_date_time_max_length_5_nistxml_sv_ii_list_date_time_max_length_1_5(json_360, save_output):
     """
     Type list/dateTime is restricted by facet maxLength with value 5.
     """
@@ -3979,12 +4253,13 @@ def test_list_date_time_max_length_5_nistxml_sv_ii_list_date_time_max_length_1_5
         instance="nistData/list/dateTime/Schema+Instance/NISTXML-SV-II-list-dateTime-maxLength-1-5.xml",
         class_name="NistschemaSvIiListDateTimeMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_9_nistxml_sv_ii_list_duration_enumeration_5_1(save_xml):
+def test_list_duration_enumeration_9_nistxml_sv_ii_list_duration_enumeration_5_1(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -3993,12 +4268,13 @@ def test_list_duration_enumeration_9_nistxml_sv_ii_list_duration_enumeration_5_1
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-5-1.xml",
         class_name="NistschemaSvIiListDurationEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_9_nistxml_sv_ii_list_duration_enumeration_5_2(save_xml):
+def test_list_duration_enumeration_9_nistxml_sv_ii_list_duration_enumeration_5_2(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4007,12 +4283,13 @@ def test_list_duration_enumeration_9_nistxml_sv_ii_list_duration_enumeration_5_2
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-5-2.xml",
         class_name="NistschemaSvIiListDurationEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_9_nistxml_sv_ii_list_duration_enumeration_5_3(save_xml):
+def test_list_duration_enumeration_9_nistxml_sv_ii_list_duration_enumeration_5_3(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4021,12 +4298,13 @@ def test_list_duration_enumeration_9_nistxml_sv_ii_list_duration_enumeration_5_3
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-5-3.xml",
         class_name="NistschemaSvIiListDurationEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_9_nistxml_sv_ii_list_duration_enumeration_5_4(save_xml):
+def test_list_duration_enumeration_9_nistxml_sv_ii_list_duration_enumeration_5_4(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4035,12 +4313,13 @@ def test_list_duration_enumeration_9_nistxml_sv_ii_list_duration_enumeration_5_4
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-5-4.xml",
         class_name="NistschemaSvIiListDurationEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_9_nistxml_sv_ii_list_duration_enumeration_5_5(save_xml):
+def test_list_duration_enumeration_9_nistxml_sv_ii_list_duration_enumeration_5_5(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4049,12 +4328,13 @@ def test_list_duration_enumeration_9_nistxml_sv_ii_list_duration_enumeration_5_5
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-5-5.xml",
         class_name="NistschemaSvIiListDurationEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_8_nistxml_sv_ii_list_duration_enumeration_4_1(save_xml):
+def test_list_duration_enumeration_8_nistxml_sv_ii_list_duration_enumeration_4_1(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4063,12 +4343,13 @@ def test_list_duration_enumeration_8_nistxml_sv_ii_list_duration_enumeration_4_1
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-4-1.xml",
         class_name="NistschemaSvIiListDurationEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_8_nistxml_sv_ii_list_duration_enumeration_4_2(save_xml):
+def test_list_duration_enumeration_8_nistxml_sv_ii_list_duration_enumeration_4_2(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4077,12 +4358,13 @@ def test_list_duration_enumeration_8_nistxml_sv_ii_list_duration_enumeration_4_2
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-4-2.xml",
         class_name="NistschemaSvIiListDurationEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_8_nistxml_sv_ii_list_duration_enumeration_4_3(save_xml):
+def test_list_duration_enumeration_8_nistxml_sv_ii_list_duration_enumeration_4_3(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4091,12 +4373,13 @@ def test_list_duration_enumeration_8_nistxml_sv_ii_list_duration_enumeration_4_3
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-4-3.xml",
         class_name="NistschemaSvIiListDurationEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_8_nistxml_sv_ii_list_duration_enumeration_4_4(save_xml):
+def test_list_duration_enumeration_8_nistxml_sv_ii_list_duration_enumeration_4_4(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4105,12 +4388,13 @@ def test_list_duration_enumeration_8_nistxml_sv_ii_list_duration_enumeration_4_4
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-4-4.xml",
         class_name="NistschemaSvIiListDurationEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_8_nistxml_sv_ii_list_duration_enumeration_4_5(save_xml):
+def test_list_duration_enumeration_8_nistxml_sv_ii_list_duration_enumeration_4_5(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4119,12 +4403,13 @@ def test_list_duration_enumeration_8_nistxml_sv_ii_list_duration_enumeration_4_5
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-4-5.xml",
         class_name="NistschemaSvIiListDurationEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_7_nistxml_sv_ii_list_duration_enumeration_3_1(save_xml):
+def test_list_duration_enumeration_7_nistxml_sv_ii_list_duration_enumeration_3_1(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4133,12 +4418,13 @@ def test_list_duration_enumeration_7_nistxml_sv_ii_list_duration_enumeration_3_1
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-3-1.xml",
         class_name="NistschemaSvIiListDurationEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_7_nistxml_sv_ii_list_duration_enumeration_3_2(save_xml):
+def test_list_duration_enumeration_7_nistxml_sv_ii_list_duration_enumeration_3_2(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4147,12 +4433,13 @@ def test_list_duration_enumeration_7_nistxml_sv_ii_list_duration_enumeration_3_2
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-3-2.xml",
         class_name="NistschemaSvIiListDurationEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_7_nistxml_sv_ii_list_duration_enumeration_3_3(save_xml):
+def test_list_duration_enumeration_7_nistxml_sv_ii_list_duration_enumeration_3_3(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4161,12 +4448,13 @@ def test_list_duration_enumeration_7_nistxml_sv_ii_list_duration_enumeration_3_3
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-3-3.xml",
         class_name="NistschemaSvIiListDurationEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_7_nistxml_sv_ii_list_duration_enumeration_3_4(save_xml):
+def test_list_duration_enumeration_7_nistxml_sv_ii_list_duration_enumeration_3_4(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4175,12 +4463,13 @@ def test_list_duration_enumeration_7_nistxml_sv_ii_list_duration_enumeration_3_4
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-3-4.xml",
         class_name="NistschemaSvIiListDurationEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_7_nistxml_sv_ii_list_duration_enumeration_3_5(save_xml):
+def test_list_duration_enumeration_7_nistxml_sv_ii_list_duration_enumeration_3_5(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4189,12 +4478,13 @@ def test_list_duration_enumeration_7_nistxml_sv_ii_list_duration_enumeration_3_5
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-3-5.xml",
         class_name="NistschemaSvIiListDurationEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_6_nistxml_sv_ii_list_duration_enumeration_2_1(save_xml):
+def test_list_duration_enumeration_6_nistxml_sv_ii_list_duration_enumeration_2_1(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4203,12 +4493,13 @@ def test_list_duration_enumeration_6_nistxml_sv_ii_list_duration_enumeration_2_1
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-2-1.xml",
         class_name="NistschemaSvIiListDurationEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_6_nistxml_sv_ii_list_duration_enumeration_2_2(save_xml):
+def test_list_duration_enumeration_6_nistxml_sv_ii_list_duration_enumeration_2_2(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4217,12 +4508,13 @@ def test_list_duration_enumeration_6_nistxml_sv_ii_list_duration_enumeration_2_2
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-2-2.xml",
         class_name="NistschemaSvIiListDurationEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_6_nistxml_sv_ii_list_duration_enumeration_2_3(save_xml):
+def test_list_duration_enumeration_6_nistxml_sv_ii_list_duration_enumeration_2_3(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4231,12 +4523,13 @@ def test_list_duration_enumeration_6_nistxml_sv_ii_list_duration_enumeration_2_3
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-2-3.xml",
         class_name="NistschemaSvIiListDurationEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_6_nistxml_sv_ii_list_duration_enumeration_2_4(save_xml):
+def test_list_duration_enumeration_6_nistxml_sv_ii_list_duration_enumeration_2_4(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4245,12 +4538,13 @@ def test_list_duration_enumeration_6_nistxml_sv_ii_list_duration_enumeration_2_4
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-2-4.xml",
         class_name="NistschemaSvIiListDurationEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_6_nistxml_sv_ii_list_duration_enumeration_2_5(save_xml):
+def test_list_duration_enumeration_6_nistxml_sv_ii_list_duration_enumeration_2_5(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4259,12 +4553,13 @@ def test_list_duration_enumeration_6_nistxml_sv_ii_list_duration_enumeration_2_5
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-2-5.xml",
         class_name="NistschemaSvIiListDurationEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_5_nistxml_sv_ii_list_duration_enumeration_1_1(save_xml):
+def test_list_duration_enumeration_5_nistxml_sv_ii_list_duration_enumeration_1_1(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4273,12 +4568,13 @@ def test_list_duration_enumeration_5_nistxml_sv_ii_list_duration_enumeration_1_1
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-1-1.xml",
         class_name="NistschemaSvIiListDurationEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_5_nistxml_sv_ii_list_duration_enumeration_1_2(save_xml):
+def test_list_duration_enumeration_5_nistxml_sv_ii_list_duration_enumeration_1_2(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4287,12 +4583,13 @@ def test_list_duration_enumeration_5_nistxml_sv_ii_list_duration_enumeration_1_2
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-1-2.xml",
         class_name="NistschemaSvIiListDurationEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_5_nistxml_sv_ii_list_duration_enumeration_1_3(save_xml):
+def test_list_duration_enumeration_5_nistxml_sv_ii_list_duration_enumeration_1_3(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4301,12 +4598,13 @@ def test_list_duration_enumeration_5_nistxml_sv_ii_list_duration_enumeration_1_3
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-1-3.xml",
         class_name="NistschemaSvIiListDurationEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_5_nistxml_sv_ii_list_duration_enumeration_1_4(save_xml):
+def test_list_duration_enumeration_5_nistxml_sv_ii_list_duration_enumeration_1_4(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4315,12 +4613,13 @@ def test_list_duration_enumeration_5_nistxml_sv_ii_list_duration_enumeration_1_4
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-1-4.xml",
         class_name="NistschemaSvIiListDurationEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_enumeration_5_nistxml_sv_ii_list_duration_enumeration_1_5(save_xml):
+def test_list_duration_enumeration_5_nistxml_sv_ii_list_duration_enumeration_1_5(json_360, save_output):
     """
     Type list/duration is restricted by facet enumeration.
     """
@@ -4329,12 +4628,13 @@ def test_list_duration_enumeration_5_nistxml_sv_ii_list_duration_enumeration_1_5
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-enumeration-1-5.xml",
         class_name="NistschemaSvIiListDurationEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_9_nistxml_sv_ii_list_duration_pattern_5_1(save_xml):
+def test_list_duration_pattern_9_nistxml_sv_ii_list_duration_pattern_5_1(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P\d\d03Y0\dM\d9DT\d6H\d9M\d3S P\d\d33Y\d3M\d9DT\d2H\d8M\d8S
@@ -4346,12 +4646,13 @@ def test_list_duration_pattern_9_nistxml_sv_ii_list_duration_pattern_5_1(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-5-1.xml",
         class_name="NistschemaSvIiListDurationPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_9_nistxml_sv_ii_list_duration_pattern_5_2(save_xml):
+def test_list_duration_pattern_9_nistxml_sv_ii_list_duration_pattern_5_2(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P\d\d03Y0\dM\d9DT\d6H\d9M\d3S P\d\d33Y\d3M\d9DT\d2H\d8M\d8S
@@ -4363,12 +4664,13 @@ def test_list_duration_pattern_9_nistxml_sv_ii_list_duration_pattern_5_2(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-5-2.xml",
         class_name="NistschemaSvIiListDurationPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_9_nistxml_sv_ii_list_duration_pattern_5_3(save_xml):
+def test_list_duration_pattern_9_nistxml_sv_ii_list_duration_pattern_5_3(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P\d\d03Y0\dM\d9DT\d6H\d9M\d3S P\d\d33Y\d3M\d9DT\d2H\d8M\d8S
@@ -4380,12 +4682,13 @@ def test_list_duration_pattern_9_nistxml_sv_ii_list_duration_pattern_5_3(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-5-3.xml",
         class_name="NistschemaSvIiListDurationPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_9_nistxml_sv_ii_list_duration_pattern_5_4(save_xml):
+def test_list_duration_pattern_9_nistxml_sv_ii_list_duration_pattern_5_4(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P\d\d03Y0\dM\d9DT\d6H\d9M\d3S P\d\d33Y\d3M\d9DT\d2H\d8M\d8S
@@ -4397,12 +4700,13 @@ def test_list_duration_pattern_9_nistxml_sv_ii_list_duration_pattern_5_4(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-5-4.xml",
         class_name="NistschemaSvIiListDurationPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_9_nistxml_sv_ii_list_duration_pattern_5_5(save_xml):
+def test_list_duration_pattern_9_nistxml_sv_ii_list_duration_pattern_5_5(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P\d\d03Y0\dM\d9DT\d6H\d9M\d3S P\d\d33Y\d3M\d9DT\d2H\d8M\d8S
@@ -4414,12 +4718,13 @@ def test_list_duration_pattern_9_nistxml_sv_ii_list_duration_pattern_5_5(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-5-5.xml",
         class_name="NistschemaSvIiListDurationPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_8_nistxml_sv_ii_list_duration_pattern_4_1(save_xml):
+def test_list_duration_pattern_8_nistxml_sv_ii_list_duration_pattern_4_1(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P\d\d84Y\d5M2\dDT\d4H\d5M3\dS P19\d\dY\d4M1\dDT\d9H\d3M4\dS
@@ -4433,12 +4738,13 @@ def test_list_duration_pattern_8_nistxml_sv_ii_list_duration_pattern_4_1(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-4-1.xml",
         class_name="NistschemaSvIiListDurationPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_8_nistxml_sv_ii_list_duration_pattern_4_2(save_xml):
+def test_list_duration_pattern_8_nistxml_sv_ii_list_duration_pattern_4_2(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P\d\d84Y\d5M2\dDT\d4H\d5M3\dS P19\d\dY\d4M1\dDT\d9H\d3M4\dS
@@ -4452,12 +4758,13 @@ def test_list_duration_pattern_8_nistxml_sv_ii_list_duration_pattern_4_2(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-4-2.xml",
         class_name="NistschemaSvIiListDurationPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_8_nistxml_sv_ii_list_duration_pattern_4_3(save_xml):
+def test_list_duration_pattern_8_nistxml_sv_ii_list_duration_pattern_4_3(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P\d\d84Y\d5M2\dDT\d4H\d5M3\dS P19\d\dY\d4M1\dDT\d9H\d3M4\dS
@@ -4471,12 +4778,13 @@ def test_list_duration_pattern_8_nistxml_sv_ii_list_duration_pattern_4_3(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-4-3.xml",
         class_name="NistschemaSvIiListDurationPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_8_nistxml_sv_ii_list_duration_pattern_4_4(save_xml):
+def test_list_duration_pattern_8_nistxml_sv_ii_list_duration_pattern_4_4(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P\d\d84Y\d5M2\dDT\d4H\d5M3\dS P19\d\dY\d4M1\dDT\d9H\d3M4\dS
@@ -4490,12 +4798,13 @@ def test_list_duration_pattern_8_nistxml_sv_ii_list_duration_pattern_4_4(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-4-4.xml",
         class_name="NistschemaSvIiListDurationPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_8_nistxml_sv_ii_list_duration_pattern_4_5(save_xml):
+def test_list_duration_pattern_8_nistxml_sv_ii_list_duration_pattern_4_5(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P\d\d84Y\d5M2\dDT\d4H\d5M3\dS P19\d\dY\d4M1\dDT\d9H\d3M4\dS
@@ -4509,12 +4818,13 @@ def test_list_duration_pattern_8_nistxml_sv_ii_list_duration_pattern_4_5(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-4-5.xml",
         class_name="NistschemaSvIiListDurationPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_7_nistxml_sv_ii_list_duration_pattern_3_1(save_xml):
+def test_list_duration_pattern_7_nistxml_sv_ii_list_duration_pattern_3_1(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P20\d\dY0\dM0\dDT\d3H5\dM5\dS P\d\d42Y0\dM2\dDT\d9H\d7M\d1S
@@ -4527,12 +4837,13 @@ def test_list_duration_pattern_7_nistxml_sv_ii_list_duration_pattern_3_1(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-3-1.xml",
         class_name="NistschemaSvIiListDurationPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_7_nistxml_sv_ii_list_duration_pattern_3_2(save_xml):
+def test_list_duration_pattern_7_nistxml_sv_ii_list_duration_pattern_3_2(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P20\d\dY0\dM0\dDT\d3H5\dM5\dS P\d\d42Y0\dM2\dDT\d9H\d7M\d1S
@@ -4545,12 +4856,13 @@ def test_list_duration_pattern_7_nistxml_sv_ii_list_duration_pattern_3_2(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-3-2.xml",
         class_name="NistschemaSvIiListDurationPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_7_nistxml_sv_ii_list_duration_pattern_3_3(save_xml):
+def test_list_duration_pattern_7_nistxml_sv_ii_list_duration_pattern_3_3(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P20\d\dY0\dM0\dDT\d3H5\dM5\dS P\d\d42Y0\dM2\dDT\d9H\d7M\d1S
@@ -4563,12 +4875,13 @@ def test_list_duration_pattern_7_nistxml_sv_ii_list_duration_pattern_3_3(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-3-3.xml",
         class_name="NistschemaSvIiListDurationPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_7_nistxml_sv_ii_list_duration_pattern_3_4(save_xml):
+def test_list_duration_pattern_7_nistxml_sv_ii_list_duration_pattern_3_4(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P20\d\dY0\dM0\dDT\d3H5\dM5\dS P\d\d42Y0\dM2\dDT\d9H\d7M\d1S
@@ -4581,12 +4894,13 @@ def test_list_duration_pattern_7_nistxml_sv_ii_list_duration_pattern_3_4(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-3-4.xml",
         class_name="NistschemaSvIiListDurationPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_7_nistxml_sv_ii_list_duration_pattern_3_5(save_xml):
+def test_list_duration_pattern_7_nistxml_sv_ii_list_duration_pattern_3_5(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P20\d\dY0\dM0\dDT\d3H5\dM5\dS P\d\d42Y0\dM2\dDT\d9H\d7M\d1S
@@ -4599,12 +4913,13 @@ def test_list_duration_pattern_7_nistxml_sv_ii_list_duration_pattern_3_5(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-3-5.xml",
         class_name="NistschemaSvIiListDurationPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_6_nistxml_sv_ii_list_duration_pattern_2_1(save_xml):
+def test_list_duration_pattern_6_nistxml_sv_ii_list_duration_pattern_2_1(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P\d\d52Y\d2M\d7DT\d2H5\dM5\dS P19\d\dY\d9M0\dDT1\dH\d3M0\dS
@@ -4617,12 +4932,13 @@ def test_list_duration_pattern_6_nistxml_sv_ii_list_duration_pattern_2_1(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-2-1.xml",
         class_name="NistschemaSvIiListDurationPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_6_nistxml_sv_ii_list_duration_pattern_2_2(save_xml):
+def test_list_duration_pattern_6_nistxml_sv_ii_list_duration_pattern_2_2(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P\d\d52Y\d2M\d7DT\d2H5\dM5\dS P19\d\dY\d9M0\dDT1\dH\d3M0\dS
@@ -4635,12 +4951,13 @@ def test_list_duration_pattern_6_nistxml_sv_ii_list_duration_pattern_2_2(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-2-2.xml",
         class_name="NistschemaSvIiListDurationPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_6_nistxml_sv_ii_list_duration_pattern_2_3(save_xml):
+def test_list_duration_pattern_6_nistxml_sv_ii_list_duration_pattern_2_3(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P\d\d52Y\d2M\d7DT\d2H5\dM5\dS P19\d\dY\d9M0\dDT1\dH\d3M0\dS
@@ -4653,12 +4970,13 @@ def test_list_duration_pattern_6_nistxml_sv_ii_list_duration_pattern_2_3(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-2-3.xml",
         class_name="NistschemaSvIiListDurationPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_6_nistxml_sv_ii_list_duration_pattern_2_4(save_xml):
+def test_list_duration_pattern_6_nistxml_sv_ii_list_duration_pattern_2_4(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P\d\d52Y\d2M\d7DT\d2H5\dM5\dS P19\d\dY\d9M0\dDT1\dH\d3M0\dS
@@ -4671,12 +4989,13 @@ def test_list_duration_pattern_6_nistxml_sv_ii_list_duration_pattern_2_4(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-2-4.xml",
         class_name="NistschemaSvIiListDurationPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_6_nistxml_sv_ii_list_duration_pattern_2_5(save_xml):
+def test_list_duration_pattern_6_nistxml_sv_ii_list_duration_pattern_2_5(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P\d\d52Y\d2M\d7DT\d2H5\dM5\dS P19\d\dY\d9M0\dDT1\dH\d3M0\dS
@@ -4689,12 +5008,13 @@ def test_list_duration_pattern_6_nistxml_sv_ii_list_duration_pattern_2_5(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-2-5.xml",
         class_name="NistschemaSvIiListDurationPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_5_nistxml_sv_ii_list_duration_pattern_1_1(save_xml):
+def test_list_duration_pattern_5_nistxml_sv_ii_list_duration_pattern_1_1(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P\d\d49Y\d0M\d3DT\d1H1\dM\d0S P\d\d88Y\d9M\d4DT1\dH\d1M\d5S
@@ -4708,12 +5028,13 @@ def test_list_duration_pattern_5_nistxml_sv_ii_list_duration_pattern_1_1(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-1-1.xml",
         class_name="NistschemaSvIiListDurationPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_5_nistxml_sv_ii_list_duration_pattern_1_2(save_xml):
+def test_list_duration_pattern_5_nistxml_sv_ii_list_duration_pattern_1_2(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P\d\d49Y\d0M\d3DT\d1H1\dM\d0S P\d\d88Y\d9M\d4DT1\dH\d1M\d5S
@@ -4727,12 +5048,13 @@ def test_list_duration_pattern_5_nistxml_sv_ii_list_duration_pattern_1_2(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-1-2.xml",
         class_name="NistschemaSvIiListDurationPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_5_nistxml_sv_ii_list_duration_pattern_1_3(save_xml):
+def test_list_duration_pattern_5_nistxml_sv_ii_list_duration_pattern_1_3(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P\d\d49Y\d0M\d3DT\d1H1\dM\d0S P\d\d88Y\d9M\d4DT1\dH\d1M\d5S
@@ -4746,12 +5068,13 @@ def test_list_duration_pattern_5_nistxml_sv_ii_list_duration_pattern_1_3(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-1-3.xml",
         class_name="NistschemaSvIiListDurationPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_5_nistxml_sv_ii_list_duration_pattern_1_4(save_xml):
+def test_list_duration_pattern_5_nistxml_sv_ii_list_duration_pattern_1_4(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P\d\d49Y\d0M\d3DT\d1H1\dM\d0S P\d\d88Y\d9M\d4DT1\dH\d1M\d5S
@@ -4765,12 +5088,13 @@ def test_list_duration_pattern_5_nistxml_sv_ii_list_duration_pattern_1_4(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-1-4.xml",
         class_name="NistschemaSvIiListDurationPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_pattern_5_nistxml_sv_ii_list_duration_pattern_1_5(save_xml):
+def test_list_duration_pattern_5_nistxml_sv_ii_list_duration_pattern_1_5(json_360, save_output):
     r"""
     Type list/duration is restricted by facet pattern with value
     P\d\d49Y\d0M\d3DT\d1H1\dM\d0S P\d\d88Y\d9M\d4DT1\dH\d1M\d5S
@@ -4784,12 +5108,13 @@ def test_list_duration_pattern_5_nistxml_sv_ii_list_duration_pattern_1_5(save_xm
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-pattern-1-5.xml",
         class_name="NistschemaSvIiListDurationPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_9_nistxml_sv_ii_list_duration_length_5_1(save_xml):
+def test_list_duration_length_9_nistxml_sv_ii_list_duration_length_5_1(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 10.
     """
@@ -4798,12 +5123,13 @@ def test_list_duration_length_9_nistxml_sv_ii_list_duration_length_5_1(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-5-1.xml",
         class_name="NistschemaSvIiListDurationLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_9_nistxml_sv_ii_list_duration_length_5_2(save_xml):
+def test_list_duration_length_9_nistxml_sv_ii_list_duration_length_5_2(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 10.
     """
@@ -4812,12 +5138,13 @@ def test_list_duration_length_9_nistxml_sv_ii_list_duration_length_5_2(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-5-2.xml",
         class_name="NistschemaSvIiListDurationLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_9_nistxml_sv_ii_list_duration_length_5_3(save_xml):
+def test_list_duration_length_9_nistxml_sv_ii_list_duration_length_5_3(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 10.
     """
@@ -4826,12 +5153,13 @@ def test_list_duration_length_9_nistxml_sv_ii_list_duration_length_5_3(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-5-3.xml",
         class_name="NistschemaSvIiListDurationLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_9_nistxml_sv_ii_list_duration_length_5_4(save_xml):
+def test_list_duration_length_9_nistxml_sv_ii_list_duration_length_5_4(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 10.
     """
@@ -4840,12 +5168,13 @@ def test_list_duration_length_9_nistxml_sv_ii_list_duration_length_5_4(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-5-4.xml",
         class_name="NistschemaSvIiListDurationLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_9_nistxml_sv_ii_list_duration_length_5_5(save_xml):
+def test_list_duration_length_9_nistxml_sv_ii_list_duration_length_5_5(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 10.
     """
@@ -4854,12 +5183,13 @@ def test_list_duration_length_9_nistxml_sv_ii_list_duration_length_5_5(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-5-5.xml",
         class_name="NistschemaSvIiListDurationLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_8_nistxml_sv_ii_list_duration_length_4_1(save_xml):
+def test_list_duration_length_8_nistxml_sv_ii_list_duration_length_4_1(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 8.
     """
@@ -4868,12 +5198,13 @@ def test_list_duration_length_8_nistxml_sv_ii_list_duration_length_4_1(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-4-1.xml",
         class_name="NistschemaSvIiListDurationLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_8_nistxml_sv_ii_list_duration_length_4_2(save_xml):
+def test_list_duration_length_8_nistxml_sv_ii_list_duration_length_4_2(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 8.
     """
@@ -4882,12 +5213,13 @@ def test_list_duration_length_8_nistxml_sv_ii_list_duration_length_4_2(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-4-2.xml",
         class_name="NistschemaSvIiListDurationLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_8_nistxml_sv_ii_list_duration_length_4_3(save_xml):
+def test_list_duration_length_8_nistxml_sv_ii_list_duration_length_4_3(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 8.
     """
@@ -4896,12 +5228,13 @@ def test_list_duration_length_8_nistxml_sv_ii_list_duration_length_4_3(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-4-3.xml",
         class_name="NistschemaSvIiListDurationLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_8_nistxml_sv_ii_list_duration_length_4_4(save_xml):
+def test_list_duration_length_8_nistxml_sv_ii_list_duration_length_4_4(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 8.
     """
@@ -4910,12 +5243,13 @@ def test_list_duration_length_8_nistxml_sv_ii_list_duration_length_4_4(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-4-4.xml",
         class_name="NistschemaSvIiListDurationLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_8_nistxml_sv_ii_list_duration_length_4_5(save_xml):
+def test_list_duration_length_8_nistxml_sv_ii_list_duration_length_4_5(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 8.
     """
@@ -4924,12 +5258,13 @@ def test_list_duration_length_8_nistxml_sv_ii_list_duration_length_4_5(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-4-5.xml",
         class_name="NistschemaSvIiListDurationLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_7_nistxml_sv_ii_list_duration_length_3_1(save_xml):
+def test_list_duration_length_7_nistxml_sv_ii_list_duration_length_3_1(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 7.
     """
@@ -4938,12 +5273,13 @@ def test_list_duration_length_7_nistxml_sv_ii_list_duration_length_3_1(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-3-1.xml",
         class_name="NistschemaSvIiListDurationLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_7_nistxml_sv_ii_list_duration_length_3_2(save_xml):
+def test_list_duration_length_7_nistxml_sv_ii_list_duration_length_3_2(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 7.
     """
@@ -4952,12 +5288,13 @@ def test_list_duration_length_7_nistxml_sv_ii_list_duration_length_3_2(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-3-2.xml",
         class_name="NistschemaSvIiListDurationLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_7_nistxml_sv_ii_list_duration_length_3_3(save_xml):
+def test_list_duration_length_7_nistxml_sv_ii_list_duration_length_3_3(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 7.
     """
@@ -4966,12 +5303,13 @@ def test_list_duration_length_7_nistxml_sv_ii_list_duration_length_3_3(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-3-3.xml",
         class_name="NistschemaSvIiListDurationLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_7_nistxml_sv_ii_list_duration_length_3_4(save_xml):
+def test_list_duration_length_7_nistxml_sv_ii_list_duration_length_3_4(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 7.
     """
@@ -4980,12 +5318,13 @@ def test_list_duration_length_7_nistxml_sv_ii_list_duration_length_3_4(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-3-4.xml",
         class_name="NistschemaSvIiListDurationLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_7_nistxml_sv_ii_list_duration_length_3_5(save_xml):
+def test_list_duration_length_7_nistxml_sv_ii_list_duration_length_3_5(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 7.
     """
@@ -4994,12 +5333,13 @@ def test_list_duration_length_7_nistxml_sv_ii_list_duration_length_3_5(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-3-5.xml",
         class_name="NistschemaSvIiListDurationLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_6_nistxml_sv_ii_list_duration_length_2_1(save_xml):
+def test_list_duration_length_6_nistxml_sv_ii_list_duration_length_2_1(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 6.
     """
@@ -5008,12 +5348,13 @@ def test_list_duration_length_6_nistxml_sv_ii_list_duration_length_2_1(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-2-1.xml",
         class_name="NistschemaSvIiListDurationLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_6_nistxml_sv_ii_list_duration_length_2_2(save_xml):
+def test_list_duration_length_6_nistxml_sv_ii_list_duration_length_2_2(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 6.
     """
@@ -5022,12 +5363,13 @@ def test_list_duration_length_6_nistxml_sv_ii_list_duration_length_2_2(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-2-2.xml",
         class_name="NistschemaSvIiListDurationLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_6_nistxml_sv_ii_list_duration_length_2_3(save_xml):
+def test_list_duration_length_6_nistxml_sv_ii_list_duration_length_2_3(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 6.
     """
@@ -5036,12 +5378,13 @@ def test_list_duration_length_6_nistxml_sv_ii_list_duration_length_2_3(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-2-3.xml",
         class_name="NistschemaSvIiListDurationLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_6_nistxml_sv_ii_list_duration_length_2_4(save_xml):
+def test_list_duration_length_6_nistxml_sv_ii_list_duration_length_2_4(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 6.
     """
@@ -5050,12 +5393,13 @@ def test_list_duration_length_6_nistxml_sv_ii_list_duration_length_2_4(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-2-4.xml",
         class_name="NistschemaSvIiListDurationLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_6_nistxml_sv_ii_list_duration_length_2_5(save_xml):
+def test_list_duration_length_6_nistxml_sv_ii_list_duration_length_2_5(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 6.
     """
@@ -5064,12 +5408,13 @@ def test_list_duration_length_6_nistxml_sv_ii_list_duration_length_2_5(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-2-5.xml",
         class_name="NistschemaSvIiListDurationLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_5_nistxml_sv_ii_list_duration_length_1_1(save_xml):
+def test_list_duration_length_5_nistxml_sv_ii_list_duration_length_1_1(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 5.
     """
@@ -5078,12 +5423,13 @@ def test_list_duration_length_5_nistxml_sv_ii_list_duration_length_1_1(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-1-1.xml",
         class_name="NistschemaSvIiListDurationLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_5_nistxml_sv_ii_list_duration_length_1_2(save_xml):
+def test_list_duration_length_5_nistxml_sv_ii_list_duration_length_1_2(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 5.
     """
@@ -5092,12 +5438,13 @@ def test_list_duration_length_5_nistxml_sv_ii_list_duration_length_1_2(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-1-2.xml",
         class_name="NistschemaSvIiListDurationLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_5_nistxml_sv_ii_list_duration_length_1_3(save_xml):
+def test_list_duration_length_5_nistxml_sv_ii_list_duration_length_1_3(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 5.
     """
@@ -5106,12 +5453,13 @@ def test_list_duration_length_5_nistxml_sv_ii_list_duration_length_1_3(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-1-3.xml",
         class_name="NistschemaSvIiListDurationLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_5_nistxml_sv_ii_list_duration_length_1_4(save_xml):
+def test_list_duration_length_5_nistxml_sv_ii_list_duration_length_1_4(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 5.
     """
@@ -5120,12 +5468,13 @@ def test_list_duration_length_5_nistxml_sv_ii_list_duration_length_1_4(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-1-4.xml",
         class_name="NistschemaSvIiListDurationLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_length_5_nistxml_sv_ii_list_duration_length_1_5(save_xml):
+def test_list_duration_length_5_nistxml_sv_ii_list_duration_length_1_5(json_360, save_output):
     """
     Type list/duration is restricted by facet length with value 5.
     """
@@ -5134,12 +5483,13 @@ def test_list_duration_length_5_nistxml_sv_ii_list_duration_length_1_5(save_xml)
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-length-1-5.xml",
         class_name="NistschemaSvIiListDurationLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_9_nistxml_sv_ii_list_duration_min_length_5_1(save_xml):
+def test_list_duration_min_length_9_nistxml_sv_ii_list_duration_min_length_5_1(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 10.
     """
@@ -5148,12 +5498,13 @@ def test_list_duration_min_length_9_nistxml_sv_ii_list_duration_min_length_5_1(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-5-1.xml",
         class_name="NistschemaSvIiListDurationMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_9_nistxml_sv_ii_list_duration_min_length_5_2(save_xml):
+def test_list_duration_min_length_9_nistxml_sv_ii_list_duration_min_length_5_2(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 10.
     """
@@ -5162,12 +5513,13 @@ def test_list_duration_min_length_9_nistxml_sv_ii_list_duration_min_length_5_2(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-5-2.xml",
         class_name="NistschemaSvIiListDurationMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_9_nistxml_sv_ii_list_duration_min_length_5_3(save_xml):
+def test_list_duration_min_length_9_nistxml_sv_ii_list_duration_min_length_5_3(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 10.
     """
@@ -5176,12 +5528,13 @@ def test_list_duration_min_length_9_nistxml_sv_ii_list_duration_min_length_5_3(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-5-3.xml",
         class_name="NistschemaSvIiListDurationMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_9_nistxml_sv_ii_list_duration_min_length_5_4(save_xml):
+def test_list_duration_min_length_9_nistxml_sv_ii_list_duration_min_length_5_4(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 10.
     """
@@ -5190,12 +5543,13 @@ def test_list_duration_min_length_9_nistxml_sv_ii_list_duration_min_length_5_4(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-5-4.xml",
         class_name="NistschemaSvIiListDurationMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_9_nistxml_sv_ii_list_duration_min_length_5_5(save_xml):
+def test_list_duration_min_length_9_nistxml_sv_ii_list_duration_min_length_5_5(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 10.
     """
@@ -5204,12 +5558,13 @@ def test_list_duration_min_length_9_nistxml_sv_ii_list_duration_min_length_5_5(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-5-5.xml",
         class_name="NistschemaSvIiListDurationMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_8_nistxml_sv_ii_list_duration_min_length_4_1(save_xml):
+def test_list_duration_min_length_8_nistxml_sv_ii_list_duration_min_length_4_1(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 8.
     """
@@ -5218,12 +5573,13 @@ def test_list_duration_min_length_8_nistxml_sv_ii_list_duration_min_length_4_1(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-4-1.xml",
         class_name="NistschemaSvIiListDurationMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_8_nistxml_sv_ii_list_duration_min_length_4_2(save_xml):
+def test_list_duration_min_length_8_nistxml_sv_ii_list_duration_min_length_4_2(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 8.
     """
@@ -5232,12 +5588,13 @@ def test_list_duration_min_length_8_nistxml_sv_ii_list_duration_min_length_4_2(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-4-2.xml",
         class_name="NistschemaSvIiListDurationMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_8_nistxml_sv_ii_list_duration_min_length_4_3(save_xml):
+def test_list_duration_min_length_8_nistxml_sv_ii_list_duration_min_length_4_3(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 8.
     """
@@ -5246,12 +5603,13 @@ def test_list_duration_min_length_8_nistxml_sv_ii_list_duration_min_length_4_3(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-4-3.xml",
         class_name="NistschemaSvIiListDurationMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_8_nistxml_sv_ii_list_duration_min_length_4_4(save_xml):
+def test_list_duration_min_length_8_nistxml_sv_ii_list_duration_min_length_4_4(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 8.
     """
@@ -5260,12 +5618,13 @@ def test_list_duration_min_length_8_nistxml_sv_ii_list_duration_min_length_4_4(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-4-4.xml",
         class_name="NistschemaSvIiListDurationMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_8_nistxml_sv_ii_list_duration_min_length_4_5(save_xml):
+def test_list_duration_min_length_8_nistxml_sv_ii_list_duration_min_length_4_5(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 8.
     """
@@ -5274,12 +5633,13 @@ def test_list_duration_min_length_8_nistxml_sv_ii_list_duration_min_length_4_5(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-4-5.xml",
         class_name="NistschemaSvIiListDurationMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_7_nistxml_sv_ii_list_duration_min_length_3_1(save_xml):
+def test_list_duration_min_length_7_nistxml_sv_ii_list_duration_min_length_3_1(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 7.
     """
@@ -5288,12 +5648,13 @@ def test_list_duration_min_length_7_nistxml_sv_ii_list_duration_min_length_3_1(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-3-1.xml",
         class_name="NistschemaSvIiListDurationMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_7_nistxml_sv_ii_list_duration_min_length_3_2(save_xml):
+def test_list_duration_min_length_7_nistxml_sv_ii_list_duration_min_length_3_2(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 7.
     """
@@ -5302,12 +5663,13 @@ def test_list_duration_min_length_7_nistxml_sv_ii_list_duration_min_length_3_2(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-3-2.xml",
         class_name="NistschemaSvIiListDurationMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_7_nistxml_sv_ii_list_duration_min_length_3_3(save_xml):
+def test_list_duration_min_length_7_nistxml_sv_ii_list_duration_min_length_3_3(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 7.
     """
@@ -5316,12 +5678,13 @@ def test_list_duration_min_length_7_nistxml_sv_ii_list_duration_min_length_3_3(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-3-3.xml",
         class_name="NistschemaSvIiListDurationMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_7_nistxml_sv_ii_list_duration_min_length_3_4(save_xml):
+def test_list_duration_min_length_7_nistxml_sv_ii_list_duration_min_length_3_4(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 7.
     """
@@ -5330,12 +5693,13 @@ def test_list_duration_min_length_7_nistxml_sv_ii_list_duration_min_length_3_4(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-3-4.xml",
         class_name="NistschemaSvIiListDurationMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_7_nistxml_sv_ii_list_duration_min_length_3_5(save_xml):
+def test_list_duration_min_length_7_nistxml_sv_ii_list_duration_min_length_3_5(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 7.
     """
@@ -5344,12 +5708,13 @@ def test_list_duration_min_length_7_nistxml_sv_ii_list_duration_min_length_3_5(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-3-5.xml",
         class_name="NistschemaSvIiListDurationMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_6_nistxml_sv_ii_list_duration_min_length_2_1(save_xml):
+def test_list_duration_min_length_6_nistxml_sv_ii_list_duration_min_length_2_1(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 6.
     """
@@ -5358,12 +5723,13 @@ def test_list_duration_min_length_6_nistxml_sv_ii_list_duration_min_length_2_1(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-2-1.xml",
         class_name="NistschemaSvIiListDurationMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_6_nistxml_sv_ii_list_duration_min_length_2_2(save_xml):
+def test_list_duration_min_length_6_nistxml_sv_ii_list_duration_min_length_2_2(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 6.
     """
@@ -5372,12 +5738,13 @@ def test_list_duration_min_length_6_nistxml_sv_ii_list_duration_min_length_2_2(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-2-2.xml",
         class_name="NistschemaSvIiListDurationMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_6_nistxml_sv_ii_list_duration_min_length_2_3(save_xml):
+def test_list_duration_min_length_6_nistxml_sv_ii_list_duration_min_length_2_3(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 6.
     """
@@ -5386,12 +5753,13 @@ def test_list_duration_min_length_6_nistxml_sv_ii_list_duration_min_length_2_3(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-2-3.xml",
         class_name="NistschemaSvIiListDurationMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_6_nistxml_sv_ii_list_duration_min_length_2_4(save_xml):
+def test_list_duration_min_length_6_nistxml_sv_ii_list_duration_min_length_2_4(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 6.
     """
@@ -5400,12 +5768,13 @@ def test_list_duration_min_length_6_nistxml_sv_ii_list_duration_min_length_2_4(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-2-4.xml",
         class_name="NistschemaSvIiListDurationMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_6_nistxml_sv_ii_list_duration_min_length_2_5(save_xml):
+def test_list_duration_min_length_6_nistxml_sv_ii_list_duration_min_length_2_5(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 6.
     """
@@ -5414,12 +5783,13 @@ def test_list_duration_min_length_6_nistxml_sv_ii_list_duration_min_length_2_5(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-2-5.xml",
         class_name="NistschemaSvIiListDurationMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_5_nistxml_sv_ii_list_duration_min_length_1_1(save_xml):
+def test_list_duration_min_length_5_nistxml_sv_ii_list_duration_min_length_1_1(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 5.
     """
@@ -5428,12 +5798,13 @@ def test_list_duration_min_length_5_nistxml_sv_ii_list_duration_min_length_1_1(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-1-1.xml",
         class_name="NistschemaSvIiListDurationMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_5_nistxml_sv_ii_list_duration_min_length_1_2(save_xml):
+def test_list_duration_min_length_5_nistxml_sv_ii_list_duration_min_length_1_2(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 5.
     """
@@ -5442,12 +5813,13 @@ def test_list_duration_min_length_5_nistxml_sv_ii_list_duration_min_length_1_2(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-1-2.xml",
         class_name="NistschemaSvIiListDurationMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_5_nistxml_sv_ii_list_duration_min_length_1_3(save_xml):
+def test_list_duration_min_length_5_nistxml_sv_ii_list_duration_min_length_1_3(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 5.
     """
@@ -5456,12 +5828,13 @@ def test_list_duration_min_length_5_nistxml_sv_ii_list_duration_min_length_1_3(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-1-3.xml",
         class_name="NistschemaSvIiListDurationMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_5_nistxml_sv_ii_list_duration_min_length_1_4(save_xml):
+def test_list_duration_min_length_5_nistxml_sv_ii_list_duration_min_length_1_4(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 5.
     """
@@ -5470,12 +5843,13 @@ def test_list_duration_min_length_5_nistxml_sv_ii_list_duration_min_length_1_4(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-1-4.xml",
         class_name="NistschemaSvIiListDurationMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_min_length_5_nistxml_sv_ii_list_duration_min_length_1_5(save_xml):
+def test_list_duration_min_length_5_nistxml_sv_ii_list_duration_min_length_1_5(json_360, save_output):
     """
     Type list/duration is restricted by facet minLength with value 5.
     """
@@ -5484,12 +5858,13 @@ def test_list_duration_min_length_5_nistxml_sv_ii_list_duration_min_length_1_5(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-minLength-1-5.xml",
         class_name="NistschemaSvIiListDurationMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_9_nistxml_sv_ii_list_duration_max_length_5_1(save_xml):
+def test_list_duration_max_length_9_nistxml_sv_ii_list_duration_max_length_5_1(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 10.
     """
@@ -5498,12 +5873,13 @@ def test_list_duration_max_length_9_nistxml_sv_ii_list_duration_max_length_5_1(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-5-1.xml",
         class_name="NistschemaSvIiListDurationMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_9_nistxml_sv_ii_list_duration_max_length_5_2(save_xml):
+def test_list_duration_max_length_9_nistxml_sv_ii_list_duration_max_length_5_2(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 10.
     """
@@ -5512,12 +5888,13 @@ def test_list_duration_max_length_9_nistxml_sv_ii_list_duration_max_length_5_2(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-5-2.xml",
         class_name="NistschemaSvIiListDurationMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_9_nistxml_sv_ii_list_duration_max_length_5_3(save_xml):
+def test_list_duration_max_length_9_nistxml_sv_ii_list_duration_max_length_5_3(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 10.
     """
@@ -5526,12 +5903,13 @@ def test_list_duration_max_length_9_nistxml_sv_ii_list_duration_max_length_5_3(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-5-3.xml",
         class_name="NistschemaSvIiListDurationMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_9_nistxml_sv_ii_list_duration_max_length_5_4(save_xml):
+def test_list_duration_max_length_9_nistxml_sv_ii_list_duration_max_length_5_4(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 10.
     """
@@ -5540,12 +5918,13 @@ def test_list_duration_max_length_9_nistxml_sv_ii_list_duration_max_length_5_4(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-5-4.xml",
         class_name="NistschemaSvIiListDurationMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_9_nistxml_sv_ii_list_duration_max_length_5_5(save_xml):
+def test_list_duration_max_length_9_nistxml_sv_ii_list_duration_max_length_5_5(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 10.
     """
@@ -5554,12 +5933,13 @@ def test_list_duration_max_length_9_nistxml_sv_ii_list_duration_max_length_5_5(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-5-5.xml",
         class_name="NistschemaSvIiListDurationMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_8_nistxml_sv_ii_list_duration_max_length_4_1(save_xml):
+def test_list_duration_max_length_8_nistxml_sv_ii_list_duration_max_length_4_1(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 8.
     """
@@ -5568,12 +5948,13 @@ def test_list_duration_max_length_8_nistxml_sv_ii_list_duration_max_length_4_1(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-4-1.xml",
         class_name="NistschemaSvIiListDurationMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_8_nistxml_sv_ii_list_duration_max_length_4_2(save_xml):
+def test_list_duration_max_length_8_nistxml_sv_ii_list_duration_max_length_4_2(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 8.
     """
@@ -5582,12 +5963,13 @@ def test_list_duration_max_length_8_nistxml_sv_ii_list_duration_max_length_4_2(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-4-2.xml",
         class_name="NistschemaSvIiListDurationMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_8_nistxml_sv_ii_list_duration_max_length_4_3(save_xml):
+def test_list_duration_max_length_8_nistxml_sv_ii_list_duration_max_length_4_3(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 8.
     """
@@ -5596,12 +5978,13 @@ def test_list_duration_max_length_8_nistxml_sv_ii_list_duration_max_length_4_3(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-4-3.xml",
         class_name="NistschemaSvIiListDurationMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_8_nistxml_sv_ii_list_duration_max_length_4_4(save_xml):
+def test_list_duration_max_length_8_nistxml_sv_ii_list_duration_max_length_4_4(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 8.
     """
@@ -5610,12 +5993,13 @@ def test_list_duration_max_length_8_nistxml_sv_ii_list_duration_max_length_4_4(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-4-4.xml",
         class_name="NistschemaSvIiListDurationMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_8_nistxml_sv_ii_list_duration_max_length_4_5(save_xml):
+def test_list_duration_max_length_8_nistxml_sv_ii_list_duration_max_length_4_5(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 8.
     """
@@ -5624,12 +6008,13 @@ def test_list_duration_max_length_8_nistxml_sv_ii_list_duration_max_length_4_5(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-4-5.xml",
         class_name="NistschemaSvIiListDurationMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_7_nistxml_sv_ii_list_duration_max_length_3_1(save_xml):
+def test_list_duration_max_length_7_nistxml_sv_ii_list_duration_max_length_3_1(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 7.
     """
@@ -5638,12 +6023,13 @@ def test_list_duration_max_length_7_nistxml_sv_ii_list_duration_max_length_3_1(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-3-1.xml",
         class_name="NistschemaSvIiListDurationMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_7_nistxml_sv_ii_list_duration_max_length_3_2(save_xml):
+def test_list_duration_max_length_7_nistxml_sv_ii_list_duration_max_length_3_2(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 7.
     """
@@ -5652,12 +6038,13 @@ def test_list_duration_max_length_7_nistxml_sv_ii_list_duration_max_length_3_2(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-3-2.xml",
         class_name="NistschemaSvIiListDurationMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_7_nistxml_sv_ii_list_duration_max_length_3_3(save_xml):
+def test_list_duration_max_length_7_nistxml_sv_ii_list_duration_max_length_3_3(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 7.
     """
@@ -5666,12 +6053,13 @@ def test_list_duration_max_length_7_nistxml_sv_ii_list_duration_max_length_3_3(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-3-3.xml",
         class_name="NistschemaSvIiListDurationMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_7_nistxml_sv_ii_list_duration_max_length_3_4(save_xml):
+def test_list_duration_max_length_7_nistxml_sv_ii_list_duration_max_length_3_4(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 7.
     """
@@ -5680,12 +6068,13 @@ def test_list_duration_max_length_7_nistxml_sv_ii_list_duration_max_length_3_4(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-3-4.xml",
         class_name="NistschemaSvIiListDurationMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_7_nistxml_sv_ii_list_duration_max_length_3_5(save_xml):
+def test_list_duration_max_length_7_nistxml_sv_ii_list_duration_max_length_3_5(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 7.
     """
@@ -5694,12 +6083,13 @@ def test_list_duration_max_length_7_nistxml_sv_ii_list_duration_max_length_3_5(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-3-5.xml",
         class_name="NistschemaSvIiListDurationMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_6_nistxml_sv_ii_list_duration_max_length_2_1(save_xml):
+def test_list_duration_max_length_6_nistxml_sv_ii_list_duration_max_length_2_1(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 6.
     """
@@ -5708,12 +6098,13 @@ def test_list_duration_max_length_6_nistxml_sv_ii_list_duration_max_length_2_1(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-2-1.xml",
         class_name="NistschemaSvIiListDurationMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_6_nistxml_sv_ii_list_duration_max_length_2_2(save_xml):
+def test_list_duration_max_length_6_nistxml_sv_ii_list_duration_max_length_2_2(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 6.
     """
@@ -5722,12 +6113,13 @@ def test_list_duration_max_length_6_nistxml_sv_ii_list_duration_max_length_2_2(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-2-2.xml",
         class_name="NistschemaSvIiListDurationMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_6_nistxml_sv_ii_list_duration_max_length_2_3(save_xml):
+def test_list_duration_max_length_6_nistxml_sv_ii_list_duration_max_length_2_3(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 6.
     """
@@ -5736,12 +6128,13 @@ def test_list_duration_max_length_6_nistxml_sv_ii_list_duration_max_length_2_3(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-2-3.xml",
         class_name="NistschemaSvIiListDurationMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_6_nistxml_sv_ii_list_duration_max_length_2_4(save_xml):
+def test_list_duration_max_length_6_nistxml_sv_ii_list_duration_max_length_2_4(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 6.
     """
@@ -5750,12 +6143,13 @@ def test_list_duration_max_length_6_nistxml_sv_ii_list_duration_max_length_2_4(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-2-4.xml",
         class_name="NistschemaSvIiListDurationMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_6_nistxml_sv_ii_list_duration_max_length_2_5(save_xml):
+def test_list_duration_max_length_6_nistxml_sv_ii_list_duration_max_length_2_5(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 6.
     """
@@ -5764,12 +6158,13 @@ def test_list_duration_max_length_6_nistxml_sv_ii_list_duration_max_length_2_5(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-2-5.xml",
         class_name="NistschemaSvIiListDurationMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_5_nistxml_sv_ii_list_duration_max_length_1_1(save_xml):
+def test_list_duration_max_length_5_nistxml_sv_ii_list_duration_max_length_1_1(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 5.
     """
@@ -5778,12 +6173,13 @@ def test_list_duration_max_length_5_nistxml_sv_ii_list_duration_max_length_1_1(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-1-1.xml",
         class_name="NistschemaSvIiListDurationMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_5_nistxml_sv_ii_list_duration_max_length_1_2(save_xml):
+def test_list_duration_max_length_5_nistxml_sv_ii_list_duration_max_length_1_2(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 5.
     """
@@ -5792,12 +6188,13 @@ def test_list_duration_max_length_5_nistxml_sv_ii_list_duration_max_length_1_2(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-1-2.xml",
         class_name="NistschemaSvIiListDurationMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_5_nistxml_sv_ii_list_duration_max_length_1_3(save_xml):
+def test_list_duration_max_length_5_nistxml_sv_ii_list_duration_max_length_1_3(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 5.
     """
@@ -5806,12 +6203,13 @@ def test_list_duration_max_length_5_nistxml_sv_ii_list_duration_max_length_1_3(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-1-3.xml",
         class_name="NistschemaSvIiListDurationMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_5_nistxml_sv_ii_list_duration_max_length_1_4(save_xml):
+def test_list_duration_max_length_5_nistxml_sv_ii_list_duration_max_length_1_4(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 5.
     """
@@ -5820,12 +6218,13 @@ def test_list_duration_max_length_5_nistxml_sv_ii_list_duration_max_length_1_4(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-1-4.xml",
         class_name="NistschemaSvIiListDurationMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_duration_max_length_5_nistxml_sv_ii_list_duration_max_length_1_5(save_xml):
+def test_list_duration_max_length_5_nistxml_sv_ii_list_duration_max_length_1_5(json_360, save_output):
     """
     Type list/duration is restricted by facet maxLength with value 5.
     """
@@ -5834,12 +6233,13 @@ def test_list_duration_max_length_5_nistxml_sv_ii_list_duration_max_length_1_5(s
         instance="nistData/list/duration/Schema+Instance/NISTXML-SV-II-list-duration-maxLength-1-5.xml",
         class_name="NistschemaSvIiListDurationMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_9_nistxml_sv_ii_list_float_enumeration_5_1(save_xml):
+def test_list_float_enumeration_9_nistxml_sv_ii_list_float_enumeration_5_1(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -5848,12 +6248,13 @@ def test_list_float_enumeration_9_nistxml_sv_ii_list_float_enumeration_5_1(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-5-1.xml",
         class_name="NistschemaSvIiListFloatEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_9_nistxml_sv_ii_list_float_enumeration_5_2(save_xml):
+def test_list_float_enumeration_9_nistxml_sv_ii_list_float_enumeration_5_2(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -5862,12 +6263,13 @@ def test_list_float_enumeration_9_nistxml_sv_ii_list_float_enumeration_5_2(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-5-2.xml",
         class_name="NistschemaSvIiListFloatEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_9_nistxml_sv_ii_list_float_enumeration_5_3(save_xml):
+def test_list_float_enumeration_9_nistxml_sv_ii_list_float_enumeration_5_3(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -5876,12 +6278,13 @@ def test_list_float_enumeration_9_nistxml_sv_ii_list_float_enumeration_5_3(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-5-3.xml",
         class_name="NistschemaSvIiListFloatEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_9_nistxml_sv_ii_list_float_enumeration_5_4(save_xml):
+def test_list_float_enumeration_9_nistxml_sv_ii_list_float_enumeration_5_4(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -5890,12 +6293,13 @@ def test_list_float_enumeration_9_nistxml_sv_ii_list_float_enumeration_5_4(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-5-4.xml",
         class_name="NistschemaSvIiListFloatEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_9_nistxml_sv_ii_list_float_enumeration_5_5(save_xml):
+def test_list_float_enumeration_9_nistxml_sv_ii_list_float_enumeration_5_5(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -5904,12 +6308,13 @@ def test_list_float_enumeration_9_nistxml_sv_ii_list_float_enumeration_5_5(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-5-5.xml",
         class_name="NistschemaSvIiListFloatEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_8_nistxml_sv_ii_list_float_enumeration_4_1(save_xml):
+def test_list_float_enumeration_8_nistxml_sv_ii_list_float_enumeration_4_1(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -5918,12 +6323,13 @@ def test_list_float_enumeration_8_nistxml_sv_ii_list_float_enumeration_4_1(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-4-1.xml",
         class_name="NistschemaSvIiListFloatEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_8_nistxml_sv_ii_list_float_enumeration_4_2(save_xml):
+def test_list_float_enumeration_8_nistxml_sv_ii_list_float_enumeration_4_2(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -5932,12 +6338,13 @@ def test_list_float_enumeration_8_nistxml_sv_ii_list_float_enumeration_4_2(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-4-2.xml",
         class_name="NistschemaSvIiListFloatEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_8_nistxml_sv_ii_list_float_enumeration_4_3(save_xml):
+def test_list_float_enumeration_8_nistxml_sv_ii_list_float_enumeration_4_3(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -5946,12 +6353,13 @@ def test_list_float_enumeration_8_nistxml_sv_ii_list_float_enumeration_4_3(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-4-3.xml",
         class_name="NistschemaSvIiListFloatEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_8_nistxml_sv_ii_list_float_enumeration_4_4(save_xml):
+def test_list_float_enumeration_8_nistxml_sv_ii_list_float_enumeration_4_4(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -5960,12 +6368,13 @@ def test_list_float_enumeration_8_nistxml_sv_ii_list_float_enumeration_4_4(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-4-4.xml",
         class_name="NistschemaSvIiListFloatEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_8_nistxml_sv_ii_list_float_enumeration_4_5(save_xml):
+def test_list_float_enumeration_8_nistxml_sv_ii_list_float_enumeration_4_5(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -5974,12 +6383,13 @@ def test_list_float_enumeration_8_nistxml_sv_ii_list_float_enumeration_4_5(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-4-5.xml",
         class_name="NistschemaSvIiListFloatEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_7_nistxml_sv_ii_list_float_enumeration_3_1(save_xml):
+def test_list_float_enumeration_7_nistxml_sv_ii_list_float_enumeration_3_1(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -5988,12 +6398,13 @@ def test_list_float_enumeration_7_nistxml_sv_ii_list_float_enumeration_3_1(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-3-1.xml",
         class_name="NistschemaSvIiListFloatEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_7_nistxml_sv_ii_list_float_enumeration_3_2(save_xml):
+def test_list_float_enumeration_7_nistxml_sv_ii_list_float_enumeration_3_2(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -6002,12 +6413,13 @@ def test_list_float_enumeration_7_nistxml_sv_ii_list_float_enumeration_3_2(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-3-2.xml",
         class_name="NistschemaSvIiListFloatEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_7_nistxml_sv_ii_list_float_enumeration_3_3(save_xml):
+def test_list_float_enumeration_7_nistxml_sv_ii_list_float_enumeration_3_3(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -6016,12 +6428,13 @@ def test_list_float_enumeration_7_nistxml_sv_ii_list_float_enumeration_3_3(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-3-3.xml",
         class_name="NistschemaSvIiListFloatEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_7_nistxml_sv_ii_list_float_enumeration_3_4(save_xml):
+def test_list_float_enumeration_7_nistxml_sv_ii_list_float_enumeration_3_4(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -6030,12 +6443,13 @@ def test_list_float_enumeration_7_nistxml_sv_ii_list_float_enumeration_3_4(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-3-4.xml",
         class_name="NistschemaSvIiListFloatEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_7_nistxml_sv_ii_list_float_enumeration_3_5(save_xml):
+def test_list_float_enumeration_7_nistxml_sv_ii_list_float_enumeration_3_5(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -6044,12 +6458,13 @@ def test_list_float_enumeration_7_nistxml_sv_ii_list_float_enumeration_3_5(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-3-5.xml",
         class_name="NistschemaSvIiListFloatEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_6_nistxml_sv_ii_list_float_enumeration_2_1(save_xml):
+def test_list_float_enumeration_6_nistxml_sv_ii_list_float_enumeration_2_1(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -6058,12 +6473,13 @@ def test_list_float_enumeration_6_nistxml_sv_ii_list_float_enumeration_2_1(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-2-1.xml",
         class_name="NistschemaSvIiListFloatEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_6_nistxml_sv_ii_list_float_enumeration_2_2(save_xml):
+def test_list_float_enumeration_6_nistxml_sv_ii_list_float_enumeration_2_2(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -6072,12 +6488,13 @@ def test_list_float_enumeration_6_nistxml_sv_ii_list_float_enumeration_2_2(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-2-2.xml",
         class_name="NistschemaSvIiListFloatEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_6_nistxml_sv_ii_list_float_enumeration_2_3(save_xml):
+def test_list_float_enumeration_6_nistxml_sv_ii_list_float_enumeration_2_3(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -6086,12 +6503,13 @@ def test_list_float_enumeration_6_nistxml_sv_ii_list_float_enumeration_2_3(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-2-3.xml",
         class_name="NistschemaSvIiListFloatEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_6_nistxml_sv_ii_list_float_enumeration_2_4(save_xml):
+def test_list_float_enumeration_6_nistxml_sv_ii_list_float_enumeration_2_4(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -6100,12 +6518,13 @@ def test_list_float_enumeration_6_nistxml_sv_ii_list_float_enumeration_2_4(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-2-4.xml",
         class_name="NistschemaSvIiListFloatEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_6_nistxml_sv_ii_list_float_enumeration_2_5(save_xml):
+def test_list_float_enumeration_6_nistxml_sv_ii_list_float_enumeration_2_5(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -6114,12 +6533,13 @@ def test_list_float_enumeration_6_nistxml_sv_ii_list_float_enumeration_2_5(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-2-5.xml",
         class_name="NistschemaSvIiListFloatEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_5_nistxml_sv_ii_list_float_enumeration_1_1(save_xml):
+def test_list_float_enumeration_5_nistxml_sv_ii_list_float_enumeration_1_1(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -6128,12 +6548,13 @@ def test_list_float_enumeration_5_nistxml_sv_ii_list_float_enumeration_1_1(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-1-1.xml",
         class_name="NistschemaSvIiListFloatEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_5_nistxml_sv_ii_list_float_enumeration_1_2(save_xml):
+def test_list_float_enumeration_5_nistxml_sv_ii_list_float_enumeration_1_2(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -6142,12 +6563,13 @@ def test_list_float_enumeration_5_nistxml_sv_ii_list_float_enumeration_1_2(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-1-2.xml",
         class_name="NistschemaSvIiListFloatEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_5_nistxml_sv_ii_list_float_enumeration_1_3(save_xml):
+def test_list_float_enumeration_5_nistxml_sv_ii_list_float_enumeration_1_3(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -6156,12 +6578,13 @@ def test_list_float_enumeration_5_nistxml_sv_ii_list_float_enumeration_1_3(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-1-3.xml",
         class_name="NistschemaSvIiListFloatEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_5_nistxml_sv_ii_list_float_enumeration_1_4(save_xml):
+def test_list_float_enumeration_5_nistxml_sv_ii_list_float_enumeration_1_4(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -6170,12 +6593,13 @@ def test_list_float_enumeration_5_nistxml_sv_ii_list_float_enumeration_1_4(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-1-4.xml",
         class_name="NistschemaSvIiListFloatEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_enumeration_5_nistxml_sv_ii_list_float_enumeration_1_5(save_xml):
+def test_list_float_enumeration_5_nistxml_sv_ii_list_float_enumeration_1_5(json_360, save_output):
     """
     Type list/float is restricted by facet enumeration.
     """
@@ -6184,12 +6608,13 @@ def test_list_float_enumeration_5_nistxml_sv_ii_list_float_enumeration_1_5(save_
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-enumeration-1-5.xml",
         class_name="NistschemaSvIiListFloatEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_9_nistxml_sv_ii_list_float_pattern_5_1(save_xml):
+def test_list_float_pattern_9_nistxml_sv_ii_list_float_pattern_5_1(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{1}\.\d{1}E\-\d{1} \d{1}\.\d{2}E\d{1} \d{4}E\d{2}
@@ -6200,12 +6625,13 @@ def test_list_float_pattern_9_nistxml_sv_ii_list_float_pattern_5_1(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-5-1.xml",
         class_name="NistschemaSvIiListFloatPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_9_nistxml_sv_ii_list_float_pattern_5_2(save_xml):
+def test_list_float_pattern_9_nistxml_sv_ii_list_float_pattern_5_2(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{1}\.\d{1}E\-\d{1} \d{1}\.\d{2}E\d{1} \d{4}E\d{2}
@@ -6216,12 +6642,13 @@ def test_list_float_pattern_9_nistxml_sv_ii_list_float_pattern_5_2(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-5-2.xml",
         class_name="NistschemaSvIiListFloatPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_9_nistxml_sv_ii_list_float_pattern_5_3(save_xml):
+def test_list_float_pattern_9_nistxml_sv_ii_list_float_pattern_5_3(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{1}\.\d{1}E\-\d{1} \d{1}\.\d{2}E\d{1} \d{4}E\d{2}
@@ -6232,12 +6659,13 @@ def test_list_float_pattern_9_nistxml_sv_ii_list_float_pattern_5_3(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-5-3.xml",
         class_name="NistschemaSvIiListFloatPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_9_nistxml_sv_ii_list_float_pattern_5_4(save_xml):
+def test_list_float_pattern_9_nistxml_sv_ii_list_float_pattern_5_4(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{1}\.\d{1}E\-\d{1} \d{1}\.\d{2}E\d{1} \d{4}E\d{2}
@@ -6248,12 +6676,13 @@ def test_list_float_pattern_9_nistxml_sv_ii_list_float_pattern_5_4(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-5-4.xml",
         class_name="NistschemaSvIiListFloatPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_9_nistxml_sv_ii_list_float_pattern_5_5(save_xml):
+def test_list_float_pattern_9_nistxml_sv_ii_list_float_pattern_5_5(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{1}\.\d{1}E\-\d{1} \d{1}\.\d{2}E\d{1} \d{4}E\d{2}
@@ -6264,12 +6693,13 @@ def test_list_float_pattern_9_nistxml_sv_ii_list_float_pattern_5_5(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-5-5.xml",
         class_name="NistschemaSvIiListFloatPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_8_nistxml_sv_ii_list_float_pattern_4_1(save_xml):
+def test_list_float_pattern_8_nistxml_sv_ii_list_float_pattern_4_1(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{2}E\-\d{1} \d{1}\.\d{2}E\d{1} \d{4}E\d{2}
@@ -6281,12 +6711,13 @@ def test_list_float_pattern_8_nistxml_sv_ii_list_float_pattern_4_1(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-4-1.xml",
         class_name="NistschemaSvIiListFloatPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_8_nistxml_sv_ii_list_float_pattern_4_2(save_xml):
+def test_list_float_pattern_8_nistxml_sv_ii_list_float_pattern_4_2(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{2}E\-\d{1} \d{1}\.\d{2}E\d{1} \d{4}E\d{2}
@@ -6298,12 +6729,13 @@ def test_list_float_pattern_8_nistxml_sv_ii_list_float_pattern_4_2(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-4-2.xml",
         class_name="NistschemaSvIiListFloatPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_8_nistxml_sv_ii_list_float_pattern_4_3(save_xml):
+def test_list_float_pattern_8_nistxml_sv_ii_list_float_pattern_4_3(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{2}E\-\d{1} \d{1}\.\d{2}E\d{1} \d{4}E\d{2}
@@ -6315,12 +6747,13 @@ def test_list_float_pattern_8_nistxml_sv_ii_list_float_pattern_4_3(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-4-3.xml",
         class_name="NistschemaSvIiListFloatPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_8_nistxml_sv_ii_list_float_pattern_4_4(save_xml):
+def test_list_float_pattern_8_nistxml_sv_ii_list_float_pattern_4_4(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{2}E\-\d{1} \d{1}\.\d{2}E\d{1} \d{4}E\d{2}
@@ -6332,12 +6765,13 @@ def test_list_float_pattern_8_nistxml_sv_ii_list_float_pattern_4_4(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-4-4.xml",
         class_name="NistschemaSvIiListFloatPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_8_nistxml_sv_ii_list_float_pattern_4_5(save_xml):
+def test_list_float_pattern_8_nistxml_sv_ii_list_float_pattern_4_5(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{2}E\-\d{1} \d{1}\.\d{2}E\d{1} \d{4}E\d{2}
@@ -6349,12 +6783,13 @@ def test_list_float_pattern_8_nistxml_sv_ii_list_float_pattern_4_5(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-4-5.xml",
         class_name="NistschemaSvIiListFloatPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_7_nistxml_sv_ii_list_float_pattern_3_1(save_xml):
+def test_list_float_pattern_7_nistxml_sv_ii_list_float_pattern_3_1(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{1}\.\d{1}E\-\d{1} \d{1}\.\d{2}E\d{1}
@@ -6366,12 +6801,13 @@ def test_list_float_pattern_7_nistxml_sv_ii_list_float_pattern_3_1(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-3-1.xml",
         class_name="NistschemaSvIiListFloatPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_7_nistxml_sv_ii_list_float_pattern_3_2(save_xml):
+def test_list_float_pattern_7_nistxml_sv_ii_list_float_pattern_3_2(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{1}\.\d{1}E\-\d{1} \d{1}\.\d{2}E\d{1}
@@ -6383,12 +6819,13 @@ def test_list_float_pattern_7_nistxml_sv_ii_list_float_pattern_3_2(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-3-2.xml",
         class_name="NistschemaSvIiListFloatPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_7_nistxml_sv_ii_list_float_pattern_3_3(save_xml):
+def test_list_float_pattern_7_nistxml_sv_ii_list_float_pattern_3_3(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{1}\.\d{1}E\-\d{1} \d{1}\.\d{2}E\d{1}
@@ -6400,12 +6837,13 @@ def test_list_float_pattern_7_nistxml_sv_ii_list_float_pattern_3_3(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-3-3.xml",
         class_name="NistschemaSvIiListFloatPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_7_nistxml_sv_ii_list_float_pattern_3_4(save_xml):
+def test_list_float_pattern_7_nistxml_sv_ii_list_float_pattern_3_4(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{1}\.\d{1}E\-\d{1} \d{1}\.\d{2}E\d{1}
@@ -6417,12 +6855,13 @@ def test_list_float_pattern_7_nistxml_sv_ii_list_float_pattern_3_4(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-3-4.xml",
         class_name="NistschemaSvIiListFloatPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_7_nistxml_sv_ii_list_float_pattern_3_5(save_xml):
+def test_list_float_pattern_7_nistxml_sv_ii_list_float_pattern_3_5(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{1}\.\d{1}E\-\d{1} \d{1}\.\d{2}E\d{1}
@@ -6434,12 +6873,13 @@ def test_list_float_pattern_7_nistxml_sv_ii_list_float_pattern_3_5(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-3-5.xml",
         class_name="NistschemaSvIiListFloatPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_6_nistxml_sv_ii_list_float_pattern_2_1(save_xml):
+def test_list_float_pattern_6_nistxml_sv_ii_list_float_pattern_2_1(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{2}E\-\d{1} \d{3}E\d{1} \d{1}\.\d{3}E\d{2}
@@ -6450,12 +6890,13 @@ def test_list_float_pattern_6_nistxml_sv_ii_list_float_pattern_2_1(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-2-1.xml",
         class_name="NistschemaSvIiListFloatPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_6_nistxml_sv_ii_list_float_pattern_2_2(save_xml):
+def test_list_float_pattern_6_nistxml_sv_ii_list_float_pattern_2_2(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{2}E\-\d{1} \d{3}E\d{1} \d{1}\.\d{3}E\d{2}
@@ -6466,12 +6907,13 @@ def test_list_float_pattern_6_nistxml_sv_ii_list_float_pattern_2_2(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-2-2.xml",
         class_name="NistschemaSvIiListFloatPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_6_nistxml_sv_ii_list_float_pattern_2_3(save_xml):
+def test_list_float_pattern_6_nistxml_sv_ii_list_float_pattern_2_3(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{2}E\-\d{1} \d{3}E\d{1} \d{1}\.\d{3}E\d{2}
@@ -6482,12 +6924,13 @@ def test_list_float_pattern_6_nistxml_sv_ii_list_float_pattern_2_3(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-2-3.xml",
         class_name="NistschemaSvIiListFloatPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_6_nistxml_sv_ii_list_float_pattern_2_4(save_xml):
+def test_list_float_pattern_6_nistxml_sv_ii_list_float_pattern_2_4(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{2}E\-\d{1} \d{3}E\d{1} \d{1}\.\d{3}E\d{2}
@@ -6498,12 +6941,13 @@ def test_list_float_pattern_6_nistxml_sv_ii_list_float_pattern_2_4(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-2-4.xml",
         class_name="NistschemaSvIiListFloatPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_6_nistxml_sv_ii_list_float_pattern_2_5(save_xml):
+def test_list_float_pattern_6_nistxml_sv_ii_list_float_pattern_2_5(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{2}E\-\d{1} \d{3}E\d{1} \d{1}\.\d{3}E\d{2}
@@ -6514,12 +6958,13 @@ def test_list_float_pattern_6_nistxml_sv_ii_list_float_pattern_2_5(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-2-5.xml",
         class_name="NistschemaSvIiListFloatPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_5_nistxml_sv_ii_list_float_pattern_1_1(save_xml):
+def test_list_float_pattern_5_nistxml_sv_ii_list_float_pattern_1_1(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{1}\.\d{1}E\-\d{1} \d{3}E\d{1} \d{1}\.\d{3}E\d{2}
@@ -6531,12 +6976,13 @@ def test_list_float_pattern_5_nistxml_sv_ii_list_float_pattern_1_1(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-1-1.xml",
         class_name="NistschemaSvIiListFloatPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_5_nistxml_sv_ii_list_float_pattern_1_2(save_xml):
+def test_list_float_pattern_5_nistxml_sv_ii_list_float_pattern_1_2(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{1}\.\d{1}E\-\d{1} \d{3}E\d{1} \d{1}\.\d{3}E\d{2}
@@ -6548,12 +6994,13 @@ def test_list_float_pattern_5_nistxml_sv_ii_list_float_pattern_1_2(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-1-2.xml",
         class_name="NistschemaSvIiListFloatPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_5_nistxml_sv_ii_list_float_pattern_1_3(save_xml):
+def test_list_float_pattern_5_nistxml_sv_ii_list_float_pattern_1_3(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{1}\.\d{1}E\-\d{1} \d{3}E\d{1} \d{1}\.\d{3}E\d{2}
@@ -6565,12 +7012,13 @@ def test_list_float_pattern_5_nistxml_sv_ii_list_float_pattern_1_3(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-1-3.xml",
         class_name="NistschemaSvIiListFloatPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_5_nistxml_sv_ii_list_float_pattern_1_4(save_xml):
+def test_list_float_pattern_5_nistxml_sv_ii_list_float_pattern_1_4(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{1}\.\d{1}E\-\d{1} \d{3}E\d{1} \d{1}\.\d{3}E\d{2}
@@ -6582,12 +7030,13 @@ def test_list_float_pattern_5_nistxml_sv_ii_list_float_pattern_1_4(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-1-4.xml",
         class_name="NistschemaSvIiListFloatPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_pattern_5_nistxml_sv_ii_list_float_pattern_1_5(save_xml):
+def test_list_float_pattern_5_nistxml_sv_ii_list_float_pattern_1_5(json_360, save_output):
     r"""
     Type list/float is restricted by facet pattern with value
     \d{1}E\-\d{2} \d{1}\.\d{1}E\-\d{1} \d{3}E\d{1} \d{1}\.\d{3}E\d{2}
@@ -6599,12 +7048,13 @@ def test_list_float_pattern_5_nistxml_sv_ii_list_float_pattern_1_5(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-pattern-1-5.xml",
         class_name="NistschemaSvIiListFloatPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_9_nistxml_sv_ii_list_float_length_5_1(save_xml):
+def test_list_float_length_9_nistxml_sv_ii_list_float_length_5_1(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 10.
     """
@@ -6613,12 +7063,13 @@ def test_list_float_length_9_nistxml_sv_ii_list_float_length_5_1(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-5-1.xml",
         class_name="NistschemaSvIiListFloatLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_9_nistxml_sv_ii_list_float_length_5_2(save_xml):
+def test_list_float_length_9_nistxml_sv_ii_list_float_length_5_2(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 10.
     """
@@ -6627,12 +7078,13 @@ def test_list_float_length_9_nistxml_sv_ii_list_float_length_5_2(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-5-2.xml",
         class_name="NistschemaSvIiListFloatLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_9_nistxml_sv_ii_list_float_length_5_3(save_xml):
+def test_list_float_length_9_nistxml_sv_ii_list_float_length_5_3(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 10.
     """
@@ -6641,12 +7093,13 @@ def test_list_float_length_9_nistxml_sv_ii_list_float_length_5_3(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-5-3.xml",
         class_name="NistschemaSvIiListFloatLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_9_nistxml_sv_ii_list_float_length_5_4(save_xml):
+def test_list_float_length_9_nistxml_sv_ii_list_float_length_5_4(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 10.
     """
@@ -6655,12 +7108,13 @@ def test_list_float_length_9_nistxml_sv_ii_list_float_length_5_4(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-5-4.xml",
         class_name="NistschemaSvIiListFloatLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_9_nistxml_sv_ii_list_float_length_5_5(save_xml):
+def test_list_float_length_9_nistxml_sv_ii_list_float_length_5_5(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 10.
     """
@@ -6669,12 +7123,13 @@ def test_list_float_length_9_nistxml_sv_ii_list_float_length_5_5(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-5-5.xml",
         class_name="NistschemaSvIiListFloatLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_8_nistxml_sv_ii_list_float_length_4_1(save_xml):
+def test_list_float_length_8_nistxml_sv_ii_list_float_length_4_1(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 8.
     """
@@ -6683,12 +7138,13 @@ def test_list_float_length_8_nistxml_sv_ii_list_float_length_4_1(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-4-1.xml",
         class_name="NistschemaSvIiListFloatLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_8_nistxml_sv_ii_list_float_length_4_2(save_xml):
+def test_list_float_length_8_nistxml_sv_ii_list_float_length_4_2(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 8.
     """
@@ -6697,12 +7153,13 @@ def test_list_float_length_8_nistxml_sv_ii_list_float_length_4_2(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-4-2.xml",
         class_name="NistschemaSvIiListFloatLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_8_nistxml_sv_ii_list_float_length_4_3(save_xml):
+def test_list_float_length_8_nistxml_sv_ii_list_float_length_4_3(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 8.
     """
@@ -6711,12 +7168,13 @@ def test_list_float_length_8_nistxml_sv_ii_list_float_length_4_3(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-4-3.xml",
         class_name="NistschemaSvIiListFloatLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_8_nistxml_sv_ii_list_float_length_4_4(save_xml):
+def test_list_float_length_8_nistxml_sv_ii_list_float_length_4_4(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 8.
     """
@@ -6725,12 +7183,13 @@ def test_list_float_length_8_nistxml_sv_ii_list_float_length_4_4(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-4-4.xml",
         class_name="NistschemaSvIiListFloatLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_8_nistxml_sv_ii_list_float_length_4_5(save_xml):
+def test_list_float_length_8_nistxml_sv_ii_list_float_length_4_5(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 8.
     """
@@ -6739,12 +7198,13 @@ def test_list_float_length_8_nistxml_sv_ii_list_float_length_4_5(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-4-5.xml",
         class_name="NistschemaSvIiListFloatLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_7_nistxml_sv_ii_list_float_length_3_1(save_xml):
+def test_list_float_length_7_nistxml_sv_ii_list_float_length_3_1(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 7.
     """
@@ -6753,12 +7213,13 @@ def test_list_float_length_7_nistxml_sv_ii_list_float_length_3_1(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-3-1.xml",
         class_name="NistschemaSvIiListFloatLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_7_nistxml_sv_ii_list_float_length_3_2(save_xml):
+def test_list_float_length_7_nistxml_sv_ii_list_float_length_3_2(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 7.
     """
@@ -6767,12 +7228,13 @@ def test_list_float_length_7_nistxml_sv_ii_list_float_length_3_2(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-3-2.xml",
         class_name="NistschemaSvIiListFloatLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_7_nistxml_sv_ii_list_float_length_3_3(save_xml):
+def test_list_float_length_7_nistxml_sv_ii_list_float_length_3_3(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 7.
     """
@@ -6781,12 +7243,13 @@ def test_list_float_length_7_nistxml_sv_ii_list_float_length_3_3(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-3-3.xml",
         class_name="NistschemaSvIiListFloatLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_7_nistxml_sv_ii_list_float_length_3_4(save_xml):
+def test_list_float_length_7_nistxml_sv_ii_list_float_length_3_4(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 7.
     """
@@ -6795,12 +7258,13 @@ def test_list_float_length_7_nistxml_sv_ii_list_float_length_3_4(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-3-4.xml",
         class_name="NistschemaSvIiListFloatLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_7_nistxml_sv_ii_list_float_length_3_5(save_xml):
+def test_list_float_length_7_nistxml_sv_ii_list_float_length_3_5(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 7.
     """
@@ -6809,12 +7273,13 @@ def test_list_float_length_7_nistxml_sv_ii_list_float_length_3_5(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-3-5.xml",
         class_name="NistschemaSvIiListFloatLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_6_nistxml_sv_ii_list_float_length_2_1(save_xml):
+def test_list_float_length_6_nistxml_sv_ii_list_float_length_2_1(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 6.
     """
@@ -6823,12 +7288,13 @@ def test_list_float_length_6_nistxml_sv_ii_list_float_length_2_1(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-2-1.xml",
         class_name="NistschemaSvIiListFloatLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_6_nistxml_sv_ii_list_float_length_2_2(save_xml):
+def test_list_float_length_6_nistxml_sv_ii_list_float_length_2_2(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 6.
     """
@@ -6837,12 +7303,13 @@ def test_list_float_length_6_nistxml_sv_ii_list_float_length_2_2(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-2-2.xml",
         class_name="NistschemaSvIiListFloatLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_6_nistxml_sv_ii_list_float_length_2_3(save_xml):
+def test_list_float_length_6_nistxml_sv_ii_list_float_length_2_3(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 6.
     """
@@ -6851,12 +7318,13 @@ def test_list_float_length_6_nistxml_sv_ii_list_float_length_2_3(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-2-3.xml",
         class_name="NistschemaSvIiListFloatLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_6_nistxml_sv_ii_list_float_length_2_4(save_xml):
+def test_list_float_length_6_nistxml_sv_ii_list_float_length_2_4(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 6.
     """
@@ -6865,12 +7333,13 @@ def test_list_float_length_6_nistxml_sv_ii_list_float_length_2_4(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-2-4.xml",
         class_name="NistschemaSvIiListFloatLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_6_nistxml_sv_ii_list_float_length_2_5(save_xml):
+def test_list_float_length_6_nistxml_sv_ii_list_float_length_2_5(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 6.
     """
@@ -6879,12 +7348,13 @@ def test_list_float_length_6_nistxml_sv_ii_list_float_length_2_5(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-2-5.xml",
         class_name="NistschemaSvIiListFloatLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_5_nistxml_sv_ii_list_float_length_1_1(save_xml):
+def test_list_float_length_5_nistxml_sv_ii_list_float_length_1_1(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 5.
     """
@@ -6893,12 +7363,13 @@ def test_list_float_length_5_nistxml_sv_ii_list_float_length_1_1(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-1-1.xml",
         class_name="NistschemaSvIiListFloatLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_5_nistxml_sv_ii_list_float_length_1_2(save_xml):
+def test_list_float_length_5_nistxml_sv_ii_list_float_length_1_2(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 5.
     """
@@ -6907,12 +7378,13 @@ def test_list_float_length_5_nistxml_sv_ii_list_float_length_1_2(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-1-2.xml",
         class_name="NistschemaSvIiListFloatLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_5_nistxml_sv_ii_list_float_length_1_3(save_xml):
+def test_list_float_length_5_nistxml_sv_ii_list_float_length_1_3(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 5.
     """
@@ -6921,12 +7393,13 @@ def test_list_float_length_5_nistxml_sv_ii_list_float_length_1_3(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-1-3.xml",
         class_name="NistschemaSvIiListFloatLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_5_nistxml_sv_ii_list_float_length_1_4(save_xml):
+def test_list_float_length_5_nistxml_sv_ii_list_float_length_1_4(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 5.
     """
@@ -6935,12 +7408,13 @@ def test_list_float_length_5_nistxml_sv_ii_list_float_length_1_4(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-1-4.xml",
         class_name="NistschemaSvIiListFloatLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_length_5_nistxml_sv_ii_list_float_length_1_5(save_xml):
+def test_list_float_length_5_nistxml_sv_ii_list_float_length_1_5(json_360, save_output):
     """
     Type list/float is restricted by facet length with value 5.
     """
@@ -6949,12 +7423,13 @@ def test_list_float_length_5_nistxml_sv_ii_list_float_length_1_5(save_xml):
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-length-1-5.xml",
         class_name="NistschemaSvIiListFloatLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_9_nistxml_sv_ii_list_float_min_length_5_1(save_xml):
+def test_list_float_min_length_9_nistxml_sv_ii_list_float_min_length_5_1(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 10.
     """
@@ -6963,12 +7438,13 @@ def test_list_float_min_length_9_nistxml_sv_ii_list_float_min_length_5_1(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-5-1.xml",
         class_name="NistschemaSvIiListFloatMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_9_nistxml_sv_ii_list_float_min_length_5_2(save_xml):
+def test_list_float_min_length_9_nistxml_sv_ii_list_float_min_length_5_2(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 10.
     """
@@ -6977,12 +7453,13 @@ def test_list_float_min_length_9_nistxml_sv_ii_list_float_min_length_5_2(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-5-2.xml",
         class_name="NistschemaSvIiListFloatMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_9_nistxml_sv_ii_list_float_min_length_5_3(save_xml):
+def test_list_float_min_length_9_nistxml_sv_ii_list_float_min_length_5_3(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 10.
     """
@@ -6991,12 +7468,13 @@ def test_list_float_min_length_9_nistxml_sv_ii_list_float_min_length_5_3(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-5-3.xml",
         class_name="NistschemaSvIiListFloatMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_9_nistxml_sv_ii_list_float_min_length_5_4(save_xml):
+def test_list_float_min_length_9_nistxml_sv_ii_list_float_min_length_5_4(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 10.
     """
@@ -7005,12 +7483,13 @@ def test_list_float_min_length_9_nistxml_sv_ii_list_float_min_length_5_4(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-5-4.xml",
         class_name="NistschemaSvIiListFloatMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_9_nistxml_sv_ii_list_float_min_length_5_5(save_xml):
+def test_list_float_min_length_9_nistxml_sv_ii_list_float_min_length_5_5(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 10.
     """
@@ -7019,12 +7498,13 @@ def test_list_float_min_length_9_nistxml_sv_ii_list_float_min_length_5_5(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-5-5.xml",
         class_name="NistschemaSvIiListFloatMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_8_nistxml_sv_ii_list_float_min_length_4_1(save_xml):
+def test_list_float_min_length_8_nistxml_sv_ii_list_float_min_length_4_1(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 8.
     """
@@ -7033,12 +7513,13 @@ def test_list_float_min_length_8_nistxml_sv_ii_list_float_min_length_4_1(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-4-1.xml",
         class_name="NistschemaSvIiListFloatMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_8_nistxml_sv_ii_list_float_min_length_4_2(save_xml):
+def test_list_float_min_length_8_nistxml_sv_ii_list_float_min_length_4_2(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 8.
     """
@@ -7047,12 +7528,13 @@ def test_list_float_min_length_8_nistxml_sv_ii_list_float_min_length_4_2(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-4-2.xml",
         class_name="NistschemaSvIiListFloatMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_8_nistxml_sv_ii_list_float_min_length_4_3(save_xml):
+def test_list_float_min_length_8_nistxml_sv_ii_list_float_min_length_4_3(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 8.
     """
@@ -7061,12 +7543,13 @@ def test_list_float_min_length_8_nistxml_sv_ii_list_float_min_length_4_3(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-4-3.xml",
         class_name="NistschemaSvIiListFloatMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_8_nistxml_sv_ii_list_float_min_length_4_4(save_xml):
+def test_list_float_min_length_8_nistxml_sv_ii_list_float_min_length_4_4(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 8.
     """
@@ -7075,12 +7558,13 @@ def test_list_float_min_length_8_nistxml_sv_ii_list_float_min_length_4_4(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-4-4.xml",
         class_name="NistschemaSvIiListFloatMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_8_nistxml_sv_ii_list_float_min_length_4_5(save_xml):
+def test_list_float_min_length_8_nistxml_sv_ii_list_float_min_length_4_5(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 8.
     """
@@ -7089,12 +7573,13 @@ def test_list_float_min_length_8_nistxml_sv_ii_list_float_min_length_4_5(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-4-5.xml",
         class_name="NistschemaSvIiListFloatMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_7_nistxml_sv_ii_list_float_min_length_3_1(save_xml):
+def test_list_float_min_length_7_nistxml_sv_ii_list_float_min_length_3_1(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 7.
     """
@@ -7103,12 +7588,13 @@ def test_list_float_min_length_7_nistxml_sv_ii_list_float_min_length_3_1(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-3-1.xml",
         class_name="NistschemaSvIiListFloatMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_7_nistxml_sv_ii_list_float_min_length_3_2(save_xml):
+def test_list_float_min_length_7_nistxml_sv_ii_list_float_min_length_3_2(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 7.
     """
@@ -7117,12 +7603,13 @@ def test_list_float_min_length_7_nistxml_sv_ii_list_float_min_length_3_2(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-3-2.xml",
         class_name="NistschemaSvIiListFloatMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_7_nistxml_sv_ii_list_float_min_length_3_3(save_xml):
+def test_list_float_min_length_7_nistxml_sv_ii_list_float_min_length_3_3(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 7.
     """
@@ -7131,12 +7618,13 @@ def test_list_float_min_length_7_nistxml_sv_ii_list_float_min_length_3_3(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-3-3.xml",
         class_name="NistschemaSvIiListFloatMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_7_nistxml_sv_ii_list_float_min_length_3_4(save_xml):
+def test_list_float_min_length_7_nistxml_sv_ii_list_float_min_length_3_4(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 7.
     """
@@ -7145,12 +7633,13 @@ def test_list_float_min_length_7_nistxml_sv_ii_list_float_min_length_3_4(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-3-4.xml",
         class_name="NistschemaSvIiListFloatMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_7_nistxml_sv_ii_list_float_min_length_3_5(save_xml):
+def test_list_float_min_length_7_nistxml_sv_ii_list_float_min_length_3_5(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 7.
     """
@@ -7159,12 +7648,13 @@ def test_list_float_min_length_7_nistxml_sv_ii_list_float_min_length_3_5(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-3-5.xml",
         class_name="NistschemaSvIiListFloatMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_6_nistxml_sv_ii_list_float_min_length_2_1(save_xml):
+def test_list_float_min_length_6_nistxml_sv_ii_list_float_min_length_2_1(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 6.
     """
@@ -7173,12 +7663,13 @@ def test_list_float_min_length_6_nistxml_sv_ii_list_float_min_length_2_1(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-2-1.xml",
         class_name="NistschemaSvIiListFloatMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_6_nistxml_sv_ii_list_float_min_length_2_2(save_xml):
+def test_list_float_min_length_6_nistxml_sv_ii_list_float_min_length_2_2(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 6.
     """
@@ -7187,12 +7678,13 @@ def test_list_float_min_length_6_nistxml_sv_ii_list_float_min_length_2_2(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-2-2.xml",
         class_name="NistschemaSvIiListFloatMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_6_nistxml_sv_ii_list_float_min_length_2_3(save_xml):
+def test_list_float_min_length_6_nistxml_sv_ii_list_float_min_length_2_3(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 6.
     """
@@ -7201,12 +7693,13 @@ def test_list_float_min_length_6_nistxml_sv_ii_list_float_min_length_2_3(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-2-3.xml",
         class_name="NistschemaSvIiListFloatMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_6_nistxml_sv_ii_list_float_min_length_2_4(save_xml):
+def test_list_float_min_length_6_nistxml_sv_ii_list_float_min_length_2_4(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 6.
     """
@@ -7215,12 +7708,13 @@ def test_list_float_min_length_6_nistxml_sv_ii_list_float_min_length_2_4(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-2-4.xml",
         class_name="NistschemaSvIiListFloatMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_6_nistxml_sv_ii_list_float_min_length_2_5(save_xml):
+def test_list_float_min_length_6_nistxml_sv_ii_list_float_min_length_2_5(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 6.
     """
@@ -7229,12 +7723,13 @@ def test_list_float_min_length_6_nistxml_sv_ii_list_float_min_length_2_5(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-2-5.xml",
         class_name="NistschemaSvIiListFloatMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_5_nistxml_sv_ii_list_float_min_length_1_1(save_xml):
+def test_list_float_min_length_5_nistxml_sv_ii_list_float_min_length_1_1(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 5.
     """
@@ -7243,12 +7738,13 @@ def test_list_float_min_length_5_nistxml_sv_ii_list_float_min_length_1_1(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-1-1.xml",
         class_name="NistschemaSvIiListFloatMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_5_nistxml_sv_ii_list_float_min_length_1_2(save_xml):
+def test_list_float_min_length_5_nistxml_sv_ii_list_float_min_length_1_2(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 5.
     """
@@ -7257,12 +7753,13 @@ def test_list_float_min_length_5_nistxml_sv_ii_list_float_min_length_1_2(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-1-2.xml",
         class_name="NistschemaSvIiListFloatMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_5_nistxml_sv_ii_list_float_min_length_1_3(save_xml):
+def test_list_float_min_length_5_nistxml_sv_ii_list_float_min_length_1_3(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 5.
     """
@@ -7271,12 +7768,13 @@ def test_list_float_min_length_5_nistxml_sv_ii_list_float_min_length_1_3(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-1-3.xml",
         class_name="NistschemaSvIiListFloatMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_5_nistxml_sv_ii_list_float_min_length_1_4(save_xml):
+def test_list_float_min_length_5_nistxml_sv_ii_list_float_min_length_1_4(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 5.
     """
@@ -7285,12 +7783,13 @@ def test_list_float_min_length_5_nistxml_sv_ii_list_float_min_length_1_4(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-1-4.xml",
         class_name="NistschemaSvIiListFloatMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_min_length_5_nistxml_sv_ii_list_float_min_length_1_5(save_xml):
+def test_list_float_min_length_5_nistxml_sv_ii_list_float_min_length_1_5(json_360, save_output):
     """
     Type list/float is restricted by facet minLength with value 5.
     """
@@ -7299,12 +7798,13 @@ def test_list_float_min_length_5_nistxml_sv_ii_list_float_min_length_1_5(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-minLength-1-5.xml",
         class_name="NistschemaSvIiListFloatMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_9_nistxml_sv_ii_list_float_max_length_5_1(save_xml):
+def test_list_float_max_length_9_nistxml_sv_ii_list_float_max_length_5_1(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 10.
     """
@@ -7313,12 +7813,13 @@ def test_list_float_max_length_9_nistxml_sv_ii_list_float_max_length_5_1(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-5-1.xml",
         class_name="NistschemaSvIiListFloatMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_9_nistxml_sv_ii_list_float_max_length_5_2(save_xml):
+def test_list_float_max_length_9_nistxml_sv_ii_list_float_max_length_5_2(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 10.
     """
@@ -7327,12 +7828,13 @@ def test_list_float_max_length_9_nistxml_sv_ii_list_float_max_length_5_2(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-5-2.xml",
         class_name="NistschemaSvIiListFloatMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_9_nistxml_sv_ii_list_float_max_length_5_3(save_xml):
+def test_list_float_max_length_9_nistxml_sv_ii_list_float_max_length_5_3(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 10.
     """
@@ -7341,12 +7843,13 @@ def test_list_float_max_length_9_nistxml_sv_ii_list_float_max_length_5_3(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-5-3.xml",
         class_name="NistschemaSvIiListFloatMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_9_nistxml_sv_ii_list_float_max_length_5_4(save_xml):
+def test_list_float_max_length_9_nistxml_sv_ii_list_float_max_length_5_4(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 10.
     """
@@ -7355,12 +7858,13 @@ def test_list_float_max_length_9_nistxml_sv_ii_list_float_max_length_5_4(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-5-4.xml",
         class_name="NistschemaSvIiListFloatMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_9_nistxml_sv_ii_list_float_max_length_5_5(save_xml):
+def test_list_float_max_length_9_nistxml_sv_ii_list_float_max_length_5_5(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 10.
     """
@@ -7369,12 +7873,13 @@ def test_list_float_max_length_9_nistxml_sv_ii_list_float_max_length_5_5(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-5-5.xml",
         class_name="NistschemaSvIiListFloatMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_8_nistxml_sv_ii_list_float_max_length_4_1(save_xml):
+def test_list_float_max_length_8_nistxml_sv_ii_list_float_max_length_4_1(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 8.
     """
@@ -7383,12 +7888,13 @@ def test_list_float_max_length_8_nistxml_sv_ii_list_float_max_length_4_1(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-4-1.xml",
         class_name="NistschemaSvIiListFloatMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_8_nistxml_sv_ii_list_float_max_length_4_2(save_xml):
+def test_list_float_max_length_8_nistxml_sv_ii_list_float_max_length_4_2(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 8.
     """
@@ -7397,12 +7903,13 @@ def test_list_float_max_length_8_nistxml_sv_ii_list_float_max_length_4_2(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-4-2.xml",
         class_name="NistschemaSvIiListFloatMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_8_nistxml_sv_ii_list_float_max_length_4_3(save_xml):
+def test_list_float_max_length_8_nistxml_sv_ii_list_float_max_length_4_3(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 8.
     """
@@ -7411,12 +7918,13 @@ def test_list_float_max_length_8_nistxml_sv_ii_list_float_max_length_4_3(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-4-3.xml",
         class_name="NistschemaSvIiListFloatMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_8_nistxml_sv_ii_list_float_max_length_4_4(save_xml):
+def test_list_float_max_length_8_nistxml_sv_ii_list_float_max_length_4_4(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 8.
     """
@@ -7425,12 +7933,13 @@ def test_list_float_max_length_8_nistxml_sv_ii_list_float_max_length_4_4(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-4-4.xml",
         class_name="NistschemaSvIiListFloatMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_8_nistxml_sv_ii_list_float_max_length_4_5(save_xml):
+def test_list_float_max_length_8_nistxml_sv_ii_list_float_max_length_4_5(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 8.
     """
@@ -7439,12 +7948,13 @@ def test_list_float_max_length_8_nistxml_sv_ii_list_float_max_length_4_5(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-4-5.xml",
         class_name="NistschemaSvIiListFloatMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_7_nistxml_sv_ii_list_float_max_length_3_1(save_xml):
+def test_list_float_max_length_7_nistxml_sv_ii_list_float_max_length_3_1(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 7.
     """
@@ -7453,12 +7963,13 @@ def test_list_float_max_length_7_nistxml_sv_ii_list_float_max_length_3_1(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-3-1.xml",
         class_name="NistschemaSvIiListFloatMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_7_nistxml_sv_ii_list_float_max_length_3_2(save_xml):
+def test_list_float_max_length_7_nistxml_sv_ii_list_float_max_length_3_2(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 7.
     """
@@ -7467,12 +7978,13 @@ def test_list_float_max_length_7_nistxml_sv_ii_list_float_max_length_3_2(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-3-2.xml",
         class_name="NistschemaSvIiListFloatMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_7_nistxml_sv_ii_list_float_max_length_3_3(save_xml):
+def test_list_float_max_length_7_nistxml_sv_ii_list_float_max_length_3_3(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 7.
     """
@@ -7481,12 +7993,13 @@ def test_list_float_max_length_7_nistxml_sv_ii_list_float_max_length_3_3(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-3-3.xml",
         class_name="NistschemaSvIiListFloatMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_7_nistxml_sv_ii_list_float_max_length_3_4(save_xml):
+def test_list_float_max_length_7_nistxml_sv_ii_list_float_max_length_3_4(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 7.
     """
@@ -7495,12 +8008,13 @@ def test_list_float_max_length_7_nistxml_sv_ii_list_float_max_length_3_4(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-3-4.xml",
         class_name="NistschemaSvIiListFloatMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_7_nistxml_sv_ii_list_float_max_length_3_5(save_xml):
+def test_list_float_max_length_7_nistxml_sv_ii_list_float_max_length_3_5(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 7.
     """
@@ -7509,12 +8023,13 @@ def test_list_float_max_length_7_nistxml_sv_ii_list_float_max_length_3_5(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-3-5.xml",
         class_name="NistschemaSvIiListFloatMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_6_nistxml_sv_ii_list_float_max_length_2_1(save_xml):
+def test_list_float_max_length_6_nistxml_sv_ii_list_float_max_length_2_1(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 6.
     """
@@ -7523,12 +8038,13 @@ def test_list_float_max_length_6_nistxml_sv_ii_list_float_max_length_2_1(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-2-1.xml",
         class_name="NistschemaSvIiListFloatMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_6_nistxml_sv_ii_list_float_max_length_2_2(save_xml):
+def test_list_float_max_length_6_nistxml_sv_ii_list_float_max_length_2_2(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 6.
     """
@@ -7537,12 +8053,13 @@ def test_list_float_max_length_6_nistxml_sv_ii_list_float_max_length_2_2(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-2-2.xml",
         class_name="NistschemaSvIiListFloatMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_6_nistxml_sv_ii_list_float_max_length_2_3(save_xml):
+def test_list_float_max_length_6_nistxml_sv_ii_list_float_max_length_2_3(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 6.
     """
@@ -7551,12 +8068,13 @@ def test_list_float_max_length_6_nistxml_sv_ii_list_float_max_length_2_3(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-2-3.xml",
         class_name="NistschemaSvIiListFloatMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_6_nistxml_sv_ii_list_float_max_length_2_4(save_xml):
+def test_list_float_max_length_6_nistxml_sv_ii_list_float_max_length_2_4(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 6.
     """
@@ -7565,12 +8083,13 @@ def test_list_float_max_length_6_nistxml_sv_ii_list_float_max_length_2_4(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-2-4.xml",
         class_name="NistschemaSvIiListFloatMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_6_nistxml_sv_ii_list_float_max_length_2_5(save_xml):
+def test_list_float_max_length_6_nistxml_sv_ii_list_float_max_length_2_5(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 6.
     """
@@ -7579,12 +8098,13 @@ def test_list_float_max_length_6_nistxml_sv_ii_list_float_max_length_2_5(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-2-5.xml",
         class_name="NistschemaSvIiListFloatMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_5_nistxml_sv_ii_list_float_max_length_1_1(save_xml):
+def test_list_float_max_length_5_nistxml_sv_ii_list_float_max_length_1_1(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 5.
     """
@@ -7593,12 +8113,13 @@ def test_list_float_max_length_5_nistxml_sv_ii_list_float_max_length_1_1(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-1-1.xml",
         class_name="NistschemaSvIiListFloatMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_5_nistxml_sv_ii_list_float_max_length_1_2(save_xml):
+def test_list_float_max_length_5_nistxml_sv_ii_list_float_max_length_1_2(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 5.
     """
@@ -7607,12 +8128,13 @@ def test_list_float_max_length_5_nistxml_sv_ii_list_float_max_length_1_2(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-1-2.xml",
         class_name="NistschemaSvIiListFloatMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_5_nistxml_sv_ii_list_float_max_length_1_3(save_xml):
+def test_list_float_max_length_5_nistxml_sv_ii_list_float_max_length_1_3(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 5.
     """
@@ -7621,12 +8143,13 @@ def test_list_float_max_length_5_nistxml_sv_ii_list_float_max_length_1_3(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-1-3.xml",
         class_name="NistschemaSvIiListFloatMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_5_nistxml_sv_ii_list_float_max_length_1_4(save_xml):
+def test_list_float_max_length_5_nistxml_sv_ii_list_float_max_length_1_4(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 5.
     """
@@ -7635,12 +8158,13 @@ def test_list_float_max_length_5_nistxml_sv_ii_list_float_max_length_1_4(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-1-4.xml",
         class_name="NistschemaSvIiListFloatMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_float_max_length_5_nistxml_sv_ii_list_float_max_length_1_5(save_xml):
+def test_list_float_max_length_5_nistxml_sv_ii_list_float_max_length_1_5(json_360, save_output):
     """
     Type list/float is restricted by facet maxLength with value 5.
     """
@@ -7649,12 +8173,13 @@ def test_list_float_max_length_5_nistxml_sv_ii_list_float_max_length_1_5(save_xm
         instance="nistData/list/float/Schema+Instance/NISTXML-SV-II-list-float-maxLength-1-5.xml",
         class_name="NistschemaSvIiListFloatMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_9_nistxml_sv_ii_list_double_enumeration_5_1(save_xml):
+def test_list_double_enumeration_9_nistxml_sv_ii_list_double_enumeration_5_1(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7663,12 +8188,13 @@ def test_list_double_enumeration_9_nistxml_sv_ii_list_double_enumeration_5_1(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-5-1.xml",
         class_name="NistschemaSvIiListDoubleEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_9_nistxml_sv_ii_list_double_enumeration_5_2(save_xml):
+def test_list_double_enumeration_9_nistxml_sv_ii_list_double_enumeration_5_2(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7677,12 +8203,13 @@ def test_list_double_enumeration_9_nistxml_sv_ii_list_double_enumeration_5_2(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-5-2.xml",
         class_name="NistschemaSvIiListDoubleEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_9_nistxml_sv_ii_list_double_enumeration_5_3(save_xml):
+def test_list_double_enumeration_9_nistxml_sv_ii_list_double_enumeration_5_3(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7691,12 +8218,13 @@ def test_list_double_enumeration_9_nistxml_sv_ii_list_double_enumeration_5_3(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-5-3.xml",
         class_name="NistschemaSvIiListDoubleEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_9_nistxml_sv_ii_list_double_enumeration_5_4(save_xml):
+def test_list_double_enumeration_9_nistxml_sv_ii_list_double_enumeration_5_4(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7705,12 +8233,13 @@ def test_list_double_enumeration_9_nistxml_sv_ii_list_double_enumeration_5_4(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-5-4.xml",
         class_name="NistschemaSvIiListDoubleEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_9_nistxml_sv_ii_list_double_enumeration_5_5(save_xml):
+def test_list_double_enumeration_9_nistxml_sv_ii_list_double_enumeration_5_5(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7719,12 +8248,13 @@ def test_list_double_enumeration_9_nistxml_sv_ii_list_double_enumeration_5_5(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-5-5.xml",
         class_name="NistschemaSvIiListDoubleEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_8_nistxml_sv_ii_list_double_enumeration_4_1(save_xml):
+def test_list_double_enumeration_8_nistxml_sv_ii_list_double_enumeration_4_1(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7733,12 +8263,13 @@ def test_list_double_enumeration_8_nistxml_sv_ii_list_double_enumeration_4_1(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-4-1.xml",
         class_name="NistschemaSvIiListDoubleEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_8_nistxml_sv_ii_list_double_enumeration_4_2(save_xml):
+def test_list_double_enumeration_8_nistxml_sv_ii_list_double_enumeration_4_2(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7747,12 +8278,13 @@ def test_list_double_enumeration_8_nistxml_sv_ii_list_double_enumeration_4_2(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-4-2.xml",
         class_name="NistschemaSvIiListDoubleEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_8_nistxml_sv_ii_list_double_enumeration_4_3(save_xml):
+def test_list_double_enumeration_8_nistxml_sv_ii_list_double_enumeration_4_3(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7761,12 +8293,13 @@ def test_list_double_enumeration_8_nistxml_sv_ii_list_double_enumeration_4_3(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-4-3.xml",
         class_name="NistschemaSvIiListDoubleEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_8_nistxml_sv_ii_list_double_enumeration_4_4(save_xml):
+def test_list_double_enumeration_8_nistxml_sv_ii_list_double_enumeration_4_4(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7775,12 +8308,13 @@ def test_list_double_enumeration_8_nistxml_sv_ii_list_double_enumeration_4_4(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-4-4.xml",
         class_name="NistschemaSvIiListDoubleEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_8_nistxml_sv_ii_list_double_enumeration_4_5(save_xml):
+def test_list_double_enumeration_8_nistxml_sv_ii_list_double_enumeration_4_5(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7789,12 +8323,13 @@ def test_list_double_enumeration_8_nistxml_sv_ii_list_double_enumeration_4_5(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-4-5.xml",
         class_name="NistschemaSvIiListDoubleEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_7_nistxml_sv_ii_list_double_enumeration_3_1(save_xml):
+def test_list_double_enumeration_7_nistxml_sv_ii_list_double_enumeration_3_1(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7803,12 +8338,13 @@ def test_list_double_enumeration_7_nistxml_sv_ii_list_double_enumeration_3_1(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-3-1.xml",
         class_name="NistschemaSvIiListDoubleEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_7_nistxml_sv_ii_list_double_enumeration_3_2(save_xml):
+def test_list_double_enumeration_7_nistxml_sv_ii_list_double_enumeration_3_2(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7817,12 +8353,13 @@ def test_list_double_enumeration_7_nistxml_sv_ii_list_double_enumeration_3_2(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-3-2.xml",
         class_name="NistschemaSvIiListDoubleEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_7_nistxml_sv_ii_list_double_enumeration_3_3(save_xml):
+def test_list_double_enumeration_7_nistxml_sv_ii_list_double_enumeration_3_3(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7831,12 +8368,13 @@ def test_list_double_enumeration_7_nistxml_sv_ii_list_double_enumeration_3_3(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-3-3.xml",
         class_name="NistschemaSvIiListDoubleEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_7_nistxml_sv_ii_list_double_enumeration_3_4(save_xml):
+def test_list_double_enumeration_7_nistxml_sv_ii_list_double_enumeration_3_4(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7845,12 +8383,13 @@ def test_list_double_enumeration_7_nistxml_sv_ii_list_double_enumeration_3_4(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-3-4.xml",
         class_name="NistschemaSvIiListDoubleEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_7_nistxml_sv_ii_list_double_enumeration_3_5(save_xml):
+def test_list_double_enumeration_7_nistxml_sv_ii_list_double_enumeration_3_5(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7859,12 +8398,13 @@ def test_list_double_enumeration_7_nistxml_sv_ii_list_double_enumeration_3_5(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-3-5.xml",
         class_name="NistschemaSvIiListDoubleEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_6_nistxml_sv_ii_list_double_enumeration_2_1(save_xml):
+def test_list_double_enumeration_6_nistxml_sv_ii_list_double_enumeration_2_1(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7873,12 +8413,13 @@ def test_list_double_enumeration_6_nistxml_sv_ii_list_double_enumeration_2_1(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-2-1.xml",
         class_name="NistschemaSvIiListDoubleEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_6_nistxml_sv_ii_list_double_enumeration_2_2(save_xml):
+def test_list_double_enumeration_6_nistxml_sv_ii_list_double_enumeration_2_2(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7887,12 +8428,13 @@ def test_list_double_enumeration_6_nistxml_sv_ii_list_double_enumeration_2_2(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-2-2.xml",
         class_name="NistschemaSvIiListDoubleEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_6_nistxml_sv_ii_list_double_enumeration_2_3(save_xml):
+def test_list_double_enumeration_6_nistxml_sv_ii_list_double_enumeration_2_3(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7901,12 +8443,13 @@ def test_list_double_enumeration_6_nistxml_sv_ii_list_double_enumeration_2_3(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-2-3.xml",
         class_name="NistschemaSvIiListDoubleEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_6_nistxml_sv_ii_list_double_enumeration_2_4(save_xml):
+def test_list_double_enumeration_6_nistxml_sv_ii_list_double_enumeration_2_4(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7915,12 +8458,13 @@ def test_list_double_enumeration_6_nistxml_sv_ii_list_double_enumeration_2_4(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-2-4.xml",
         class_name="NistschemaSvIiListDoubleEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_6_nistxml_sv_ii_list_double_enumeration_2_5(save_xml):
+def test_list_double_enumeration_6_nistxml_sv_ii_list_double_enumeration_2_5(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7929,12 +8473,13 @@ def test_list_double_enumeration_6_nistxml_sv_ii_list_double_enumeration_2_5(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-2-5.xml",
         class_name="NistschemaSvIiListDoubleEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_5_nistxml_sv_ii_list_double_enumeration_1_1(save_xml):
+def test_list_double_enumeration_5_nistxml_sv_ii_list_double_enumeration_1_1(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7943,12 +8488,13 @@ def test_list_double_enumeration_5_nistxml_sv_ii_list_double_enumeration_1_1(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-1-1.xml",
         class_name="NistschemaSvIiListDoubleEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_5_nistxml_sv_ii_list_double_enumeration_1_2(save_xml):
+def test_list_double_enumeration_5_nistxml_sv_ii_list_double_enumeration_1_2(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7957,12 +8503,13 @@ def test_list_double_enumeration_5_nistxml_sv_ii_list_double_enumeration_1_2(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-1-2.xml",
         class_name="NistschemaSvIiListDoubleEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_5_nistxml_sv_ii_list_double_enumeration_1_3(save_xml):
+def test_list_double_enumeration_5_nistxml_sv_ii_list_double_enumeration_1_3(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7971,12 +8518,13 @@ def test_list_double_enumeration_5_nistxml_sv_ii_list_double_enumeration_1_3(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-1-3.xml",
         class_name="NistschemaSvIiListDoubleEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_5_nistxml_sv_ii_list_double_enumeration_1_4(save_xml):
+def test_list_double_enumeration_5_nistxml_sv_ii_list_double_enumeration_1_4(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7985,12 +8533,13 @@ def test_list_double_enumeration_5_nistxml_sv_ii_list_double_enumeration_1_4(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-1-4.xml",
         class_name="NistschemaSvIiListDoubleEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_enumeration_5_nistxml_sv_ii_list_double_enumeration_1_5(save_xml):
+def test_list_double_enumeration_5_nistxml_sv_ii_list_double_enumeration_1_5(json_360, save_output):
     """
     Type list/double is restricted by facet enumeration.
     """
@@ -7999,12 +8548,13 @@ def test_list_double_enumeration_5_nistxml_sv_ii_list_double_enumeration_1_5(sav
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-enumeration-1-5.xml",
         class_name="NistschemaSvIiListDoubleEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_9_nistxml_sv_ii_list_double_pattern_5_1(save_xml):
+def test_list_double_pattern_9_nistxml_sv_ii_list_double_pattern_5_1(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{1}\.\d{2}E\-\d{2} \d{1}\.\d{4}E\-\d{1}
@@ -8016,12 +8566,13 @@ def test_list_double_pattern_9_nistxml_sv_ii_list_double_pattern_5_1(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-5-1.xml",
         class_name="NistschemaSvIiListDoublePattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_9_nistxml_sv_ii_list_double_pattern_5_2(save_xml):
+def test_list_double_pattern_9_nistxml_sv_ii_list_double_pattern_5_2(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{1}\.\d{2}E\-\d{2} \d{1}\.\d{4}E\-\d{1}
@@ -8033,12 +8584,13 @@ def test_list_double_pattern_9_nistxml_sv_ii_list_double_pattern_5_2(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-5-2.xml",
         class_name="NistschemaSvIiListDoublePattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_9_nistxml_sv_ii_list_double_pattern_5_3(save_xml):
+def test_list_double_pattern_9_nistxml_sv_ii_list_double_pattern_5_3(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{1}\.\d{2}E\-\d{2} \d{1}\.\d{4}E\-\d{1}
@@ -8050,12 +8602,13 @@ def test_list_double_pattern_9_nistxml_sv_ii_list_double_pattern_5_3(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-5-3.xml",
         class_name="NistschemaSvIiListDoublePattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_9_nistxml_sv_ii_list_double_pattern_5_4(save_xml):
+def test_list_double_pattern_9_nistxml_sv_ii_list_double_pattern_5_4(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{1}\.\d{2}E\-\d{2} \d{1}\.\d{4}E\-\d{1}
@@ -8067,12 +8620,13 @@ def test_list_double_pattern_9_nistxml_sv_ii_list_double_pattern_5_4(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-5-4.xml",
         class_name="NistschemaSvIiListDoublePattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_9_nistxml_sv_ii_list_double_pattern_5_5(save_xml):
+def test_list_double_pattern_9_nistxml_sv_ii_list_double_pattern_5_5(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{1}\.\d{2}E\-\d{2} \d{1}\.\d{4}E\-\d{1}
@@ -8084,12 +8638,13 @@ def test_list_double_pattern_9_nistxml_sv_ii_list_double_pattern_5_5(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-5-5.xml",
         class_name="NistschemaSvIiListDoublePattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_8_nistxml_sv_ii_list_double_pattern_4_1(save_xml):
+def test_list_double_pattern_8_nistxml_sv_ii_list_double_pattern_4_1(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{1}\.\d{2}E\-\d{2} \d{1}\.\d{4}E\-\d{1}
@@ -8101,12 +8656,13 @@ def test_list_double_pattern_8_nistxml_sv_ii_list_double_pattern_4_1(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-4-1.xml",
         class_name="NistschemaSvIiListDoublePattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_8_nistxml_sv_ii_list_double_pattern_4_2(save_xml):
+def test_list_double_pattern_8_nistxml_sv_ii_list_double_pattern_4_2(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{1}\.\d{2}E\-\d{2} \d{1}\.\d{4}E\-\d{1}
@@ -8118,12 +8674,13 @@ def test_list_double_pattern_8_nistxml_sv_ii_list_double_pattern_4_2(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-4-2.xml",
         class_name="NistschemaSvIiListDoublePattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_8_nistxml_sv_ii_list_double_pattern_4_3(save_xml):
+def test_list_double_pattern_8_nistxml_sv_ii_list_double_pattern_4_3(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{1}\.\d{2}E\-\d{2} \d{1}\.\d{4}E\-\d{1}
@@ -8135,12 +8692,13 @@ def test_list_double_pattern_8_nistxml_sv_ii_list_double_pattern_4_3(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-4-3.xml",
         class_name="NistschemaSvIiListDoublePattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_8_nistxml_sv_ii_list_double_pattern_4_4(save_xml):
+def test_list_double_pattern_8_nistxml_sv_ii_list_double_pattern_4_4(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{1}\.\d{2}E\-\d{2} \d{1}\.\d{4}E\-\d{1}
@@ -8152,12 +8710,13 @@ def test_list_double_pattern_8_nistxml_sv_ii_list_double_pattern_4_4(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-4-4.xml",
         class_name="NistschemaSvIiListDoublePattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_8_nistxml_sv_ii_list_double_pattern_4_5(save_xml):
+def test_list_double_pattern_8_nistxml_sv_ii_list_double_pattern_4_5(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{1}\.\d{2}E\-\d{2} \d{1}\.\d{4}E\-\d{1}
@@ -8169,12 +8728,13 @@ def test_list_double_pattern_8_nistxml_sv_ii_list_double_pattern_4_5(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-4-5.xml",
         class_name="NistschemaSvIiListDoublePattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_7_nistxml_sv_ii_list_double_pattern_3_1(save_xml):
+def test_list_double_pattern_7_nistxml_sv_ii_list_double_pattern_3_1(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{4}E\-\d{2} \d{1}\.\d{6}E\-\d{1} \d{1}\.\d{9}E\d{1}
@@ -8185,12 +8745,13 @@ def test_list_double_pattern_7_nistxml_sv_ii_list_double_pattern_3_1(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-3-1.xml",
         class_name="NistschemaSvIiListDoublePattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_7_nistxml_sv_ii_list_double_pattern_3_2(save_xml):
+def test_list_double_pattern_7_nistxml_sv_ii_list_double_pattern_3_2(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{4}E\-\d{2} \d{1}\.\d{6}E\-\d{1} \d{1}\.\d{9}E\d{1}
@@ -8201,12 +8762,13 @@ def test_list_double_pattern_7_nistxml_sv_ii_list_double_pattern_3_2(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-3-2.xml",
         class_name="NistschemaSvIiListDoublePattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_7_nistxml_sv_ii_list_double_pattern_3_3(save_xml):
+def test_list_double_pattern_7_nistxml_sv_ii_list_double_pattern_3_3(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{4}E\-\d{2} \d{1}\.\d{6}E\-\d{1} \d{1}\.\d{9}E\d{1}
@@ -8217,12 +8779,13 @@ def test_list_double_pattern_7_nistxml_sv_ii_list_double_pattern_3_3(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-3-3.xml",
         class_name="NistschemaSvIiListDoublePattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_7_nistxml_sv_ii_list_double_pattern_3_4(save_xml):
+def test_list_double_pattern_7_nistxml_sv_ii_list_double_pattern_3_4(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{4}E\-\d{2} \d{1}\.\d{6}E\-\d{1} \d{1}\.\d{9}E\d{1}
@@ -8233,12 +8796,13 @@ def test_list_double_pattern_7_nistxml_sv_ii_list_double_pattern_3_4(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-3-4.xml",
         class_name="NistschemaSvIiListDoublePattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_7_nistxml_sv_ii_list_double_pattern_3_5(save_xml):
+def test_list_double_pattern_7_nistxml_sv_ii_list_double_pattern_3_5(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{4}E\-\d{2} \d{1}\.\d{6}E\-\d{1} \d{1}\.\d{9}E\d{1}
@@ -8249,12 +8813,13 @@ def test_list_double_pattern_7_nistxml_sv_ii_list_double_pattern_3_5(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-3-5.xml",
         class_name="NistschemaSvIiListDoublePattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_6_nistxml_sv_ii_list_double_pattern_2_1(save_xml):
+def test_list_double_pattern_6_nistxml_sv_ii_list_double_pattern_2_1(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{1}\.\d{2}E\-\d{2} \d{1}\.\d{4}E\-\d{1}
@@ -8266,12 +8831,13 @@ def test_list_double_pattern_6_nistxml_sv_ii_list_double_pattern_2_1(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-2-1.xml",
         class_name="NistschemaSvIiListDoublePattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_6_nistxml_sv_ii_list_double_pattern_2_2(save_xml):
+def test_list_double_pattern_6_nistxml_sv_ii_list_double_pattern_2_2(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{1}\.\d{2}E\-\d{2} \d{1}\.\d{4}E\-\d{1}
@@ -8283,12 +8849,13 @@ def test_list_double_pattern_6_nistxml_sv_ii_list_double_pattern_2_2(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-2-2.xml",
         class_name="NistschemaSvIiListDoublePattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_6_nistxml_sv_ii_list_double_pattern_2_3(save_xml):
+def test_list_double_pattern_6_nistxml_sv_ii_list_double_pattern_2_3(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{1}\.\d{2}E\-\d{2} \d{1}\.\d{4}E\-\d{1}
@@ -8300,12 +8867,13 @@ def test_list_double_pattern_6_nistxml_sv_ii_list_double_pattern_2_3(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-2-3.xml",
         class_name="NistschemaSvIiListDoublePattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_6_nistxml_sv_ii_list_double_pattern_2_4(save_xml):
+def test_list_double_pattern_6_nistxml_sv_ii_list_double_pattern_2_4(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{1}\.\d{2}E\-\d{2} \d{1}\.\d{4}E\-\d{1}
@@ -8317,12 +8885,13 @@ def test_list_double_pattern_6_nistxml_sv_ii_list_double_pattern_2_4(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-2-4.xml",
         class_name="NistschemaSvIiListDoublePattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_6_nistxml_sv_ii_list_double_pattern_2_5(save_xml):
+def test_list_double_pattern_6_nistxml_sv_ii_list_double_pattern_2_5(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{1}\.\d{2}E\-\d{2} \d{1}\.\d{4}E\-\d{1}
@@ -8334,12 +8903,13 @@ def test_list_double_pattern_6_nistxml_sv_ii_list_double_pattern_2_5(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-2-5.xml",
         class_name="NistschemaSvIiListDoublePattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_5_nistxml_sv_ii_list_double_pattern_1_1(save_xml):
+def test_list_double_pattern_5_nistxml_sv_ii_list_double_pattern_1_1(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{3}E\-\d{2} \d{5}E\-\d{1} \d{1}\.\d{6}E\d{1}
@@ -8350,12 +8920,13 @@ def test_list_double_pattern_5_nistxml_sv_ii_list_double_pattern_1_1(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-1-1.xml",
         class_name="NistschemaSvIiListDoublePattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_5_nistxml_sv_ii_list_double_pattern_1_2(save_xml):
+def test_list_double_pattern_5_nistxml_sv_ii_list_double_pattern_1_2(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{3}E\-\d{2} \d{5}E\-\d{1} \d{1}\.\d{6}E\d{1}
@@ -8366,12 +8937,13 @@ def test_list_double_pattern_5_nistxml_sv_ii_list_double_pattern_1_2(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-1-2.xml",
         class_name="NistschemaSvIiListDoublePattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_5_nistxml_sv_ii_list_double_pattern_1_3(save_xml):
+def test_list_double_pattern_5_nistxml_sv_ii_list_double_pattern_1_3(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{3}E\-\d{2} \d{5}E\-\d{1} \d{1}\.\d{6}E\d{1}
@@ -8382,12 +8954,13 @@ def test_list_double_pattern_5_nistxml_sv_ii_list_double_pattern_1_3(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-1-3.xml",
         class_name="NistschemaSvIiListDoublePattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_5_nistxml_sv_ii_list_double_pattern_1_4(save_xml):
+def test_list_double_pattern_5_nistxml_sv_ii_list_double_pattern_1_4(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{3}E\-\d{2} \d{5}E\-\d{1} \d{1}\.\d{6}E\d{1}
@@ -8398,12 +8971,13 @@ def test_list_double_pattern_5_nistxml_sv_ii_list_double_pattern_1_4(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-1-4.xml",
         class_name="NistschemaSvIiListDoublePattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_pattern_5_nistxml_sv_ii_list_double_pattern_1_5(save_xml):
+def test_list_double_pattern_5_nistxml_sv_ii_list_double_pattern_1_5(json_360, save_output):
     r"""
     Type list/double is restricted by facet pattern with value
     \d{1}E\-\d{3} \d{3}E\-\d{2} \d{5}E\-\d{1} \d{1}\.\d{6}E\d{1}
@@ -8414,12 +8988,13 @@ def test_list_double_pattern_5_nistxml_sv_ii_list_double_pattern_1_5(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-pattern-1-5.xml",
         class_name="NistschemaSvIiListDoublePattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_9_nistxml_sv_ii_list_double_length_5_1(save_xml):
+def test_list_double_length_9_nistxml_sv_ii_list_double_length_5_1(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 10.
     """
@@ -8428,12 +9003,13 @@ def test_list_double_length_9_nistxml_sv_ii_list_double_length_5_1(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-5-1.xml",
         class_name="NistschemaSvIiListDoubleLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_9_nistxml_sv_ii_list_double_length_5_2(save_xml):
+def test_list_double_length_9_nistxml_sv_ii_list_double_length_5_2(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 10.
     """
@@ -8442,12 +9018,13 @@ def test_list_double_length_9_nistxml_sv_ii_list_double_length_5_2(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-5-2.xml",
         class_name="NistschemaSvIiListDoubleLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_9_nistxml_sv_ii_list_double_length_5_3(save_xml):
+def test_list_double_length_9_nistxml_sv_ii_list_double_length_5_3(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 10.
     """
@@ -8456,12 +9033,13 @@ def test_list_double_length_9_nistxml_sv_ii_list_double_length_5_3(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-5-3.xml",
         class_name="NistschemaSvIiListDoubleLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_9_nistxml_sv_ii_list_double_length_5_4(save_xml):
+def test_list_double_length_9_nistxml_sv_ii_list_double_length_5_4(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 10.
     """
@@ -8470,12 +9048,13 @@ def test_list_double_length_9_nistxml_sv_ii_list_double_length_5_4(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-5-4.xml",
         class_name="NistschemaSvIiListDoubleLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_9_nistxml_sv_ii_list_double_length_5_5(save_xml):
+def test_list_double_length_9_nistxml_sv_ii_list_double_length_5_5(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 10.
     """
@@ -8484,12 +9063,13 @@ def test_list_double_length_9_nistxml_sv_ii_list_double_length_5_5(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-5-5.xml",
         class_name="NistschemaSvIiListDoubleLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_8_nistxml_sv_ii_list_double_length_4_1(save_xml):
+def test_list_double_length_8_nistxml_sv_ii_list_double_length_4_1(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 8.
     """
@@ -8498,12 +9078,13 @@ def test_list_double_length_8_nistxml_sv_ii_list_double_length_4_1(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-4-1.xml",
         class_name="NistschemaSvIiListDoubleLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_8_nistxml_sv_ii_list_double_length_4_2(save_xml):
+def test_list_double_length_8_nistxml_sv_ii_list_double_length_4_2(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 8.
     """
@@ -8512,12 +9093,13 @@ def test_list_double_length_8_nistxml_sv_ii_list_double_length_4_2(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-4-2.xml",
         class_name="NistschemaSvIiListDoubleLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_8_nistxml_sv_ii_list_double_length_4_3(save_xml):
+def test_list_double_length_8_nistxml_sv_ii_list_double_length_4_3(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 8.
     """
@@ -8526,12 +9108,13 @@ def test_list_double_length_8_nistxml_sv_ii_list_double_length_4_3(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-4-3.xml",
         class_name="NistschemaSvIiListDoubleLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_8_nistxml_sv_ii_list_double_length_4_4(save_xml):
+def test_list_double_length_8_nistxml_sv_ii_list_double_length_4_4(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 8.
     """
@@ -8540,12 +9123,13 @@ def test_list_double_length_8_nistxml_sv_ii_list_double_length_4_4(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-4-4.xml",
         class_name="NistschemaSvIiListDoubleLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_8_nistxml_sv_ii_list_double_length_4_5(save_xml):
+def test_list_double_length_8_nistxml_sv_ii_list_double_length_4_5(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 8.
     """
@@ -8554,12 +9138,13 @@ def test_list_double_length_8_nistxml_sv_ii_list_double_length_4_5(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-4-5.xml",
         class_name="NistschemaSvIiListDoubleLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_7_nistxml_sv_ii_list_double_length_3_1(save_xml):
+def test_list_double_length_7_nistxml_sv_ii_list_double_length_3_1(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 7.
     """
@@ -8568,12 +9153,13 @@ def test_list_double_length_7_nistxml_sv_ii_list_double_length_3_1(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-3-1.xml",
         class_name="NistschemaSvIiListDoubleLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_7_nistxml_sv_ii_list_double_length_3_2(save_xml):
+def test_list_double_length_7_nistxml_sv_ii_list_double_length_3_2(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 7.
     """
@@ -8582,12 +9168,13 @@ def test_list_double_length_7_nistxml_sv_ii_list_double_length_3_2(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-3-2.xml",
         class_name="NistschemaSvIiListDoubleLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_7_nistxml_sv_ii_list_double_length_3_3(save_xml):
+def test_list_double_length_7_nistxml_sv_ii_list_double_length_3_3(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 7.
     """
@@ -8596,12 +9183,13 @@ def test_list_double_length_7_nistxml_sv_ii_list_double_length_3_3(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-3-3.xml",
         class_name="NistschemaSvIiListDoubleLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_7_nistxml_sv_ii_list_double_length_3_4(save_xml):
+def test_list_double_length_7_nistxml_sv_ii_list_double_length_3_4(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 7.
     """
@@ -8610,12 +9198,13 @@ def test_list_double_length_7_nistxml_sv_ii_list_double_length_3_4(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-3-4.xml",
         class_name="NistschemaSvIiListDoubleLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_7_nistxml_sv_ii_list_double_length_3_5(save_xml):
+def test_list_double_length_7_nistxml_sv_ii_list_double_length_3_5(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 7.
     """
@@ -8624,12 +9213,13 @@ def test_list_double_length_7_nistxml_sv_ii_list_double_length_3_5(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-3-5.xml",
         class_name="NistschemaSvIiListDoubleLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_6_nistxml_sv_ii_list_double_length_2_1(save_xml):
+def test_list_double_length_6_nistxml_sv_ii_list_double_length_2_1(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 6.
     """
@@ -8638,12 +9228,13 @@ def test_list_double_length_6_nistxml_sv_ii_list_double_length_2_1(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-2-1.xml",
         class_name="NistschemaSvIiListDoubleLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_6_nistxml_sv_ii_list_double_length_2_2(save_xml):
+def test_list_double_length_6_nistxml_sv_ii_list_double_length_2_2(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 6.
     """
@@ -8652,12 +9243,13 @@ def test_list_double_length_6_nistxml_sv_ii_list_double_length_2_2(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-2-2.xml",
         class_name="NistschemaSvIiListDoubleLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_6_nistxml_sv_ii_list_double_length_2_3(save_xml):
+def test_list_double_length_6_nistxml_sv_ii_list_double_length_2_3(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 6.
     """
@@ -8666,12 +9258,13 @@ def test_list_double_length_6_nistxml_sv_ii_list_double_length_2_3(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-2-3.xml",
         class_name="NistschemaSvIiListDoubleLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_6_nistxml_sv_ii_list_double_length_2_4(save_xml):
+def test_list_double_length_6_nistxml_sv_ii_list_double_length_2_4(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 6.
     """
@@ -8680,12 +9273,13 @@ def test_list_double_length_6_nistxml_sv_ii_list_double_length_2_4(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-2-4.xml",
         class_name="NistschemaSvIiListDoubleLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_6_nistxml_sv_ii_list_double_length_2_5(save_xml):
+def test_list_double_length_6_nistxml_sv_ii_list_double_length_2_5(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 6.
     """
@@ -8694,12 +9288,13 @@ def test_list_double_length_6_nistxml_sv_ii_list_double_length_2_5(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-2-5.xml",
         class_name="NistschemaSvIiListDoubleLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_5_nistxml_sv_ii_list_double_length_1_1(save_xml):
+def test_list_double_length_5_nistxml_sv_ii_list_double_length_1_1(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 5.
     """
@@ -8708,12 +9303,13 @@ def test_list_double_length_5_nistxml_sv_ii_list_double_length_1_1(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-1-1.xml",
         class_name="NistschemaSvIiListDoubleLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_5_nistxml_sv_ii_list_double_length_1_2(save_xml):
+def test_list_double_length_5_nistxml_sv_ii_list_double_length_1_2(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 5.
     """
@@ -8722,12 +9318,13 @@ def test_list_double_length_5_nistxml_sv_ii_list_double_length_1_2(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-1-2.xml",
         class_name="NistschemaSvIiListDoubleLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_5_nistxml_sv_ii_list_double_length_1_3(save_xml):
+def test_list_double_length_5_nistxml_sv_ii_list_double_length_1_3(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 5.
     """
@@ -8736,12 +9333,13 @@ def test_list_double_length_5_nistxml_sv_ii_list_double_length_1_3(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-1-3.xml",
         class_name="NistschemaSvIiListDoubleLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_5_nistxml_sv_ii_list_double_length_1_4(save_xml):
+def test_list_double_length_5_nistxml_sv_ii_list_double_length_1_4(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 5.
     """
@@ -8750,12 +9348,13 @@ def test_list_double_length_5_nistxml_sv_ii_list_double_length_1_4(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-1-4.xml",
         class_name="NistschemaSvIiListDoubleLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_length_5_nistxml_sv_ii_list_double_length_1_5(save_xml):
+def test_list_double_length_5_nistxml_sv_ii_list_double_length_1_5(json_360, save_output):
     """
     Type list/double is restricted by facet length with value 5.
     """
@@ -8764,12 +9363,13 @@ def test_list_double_length_5_nistxml_sv_ii_list_double_length_1_5(save_xml):
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-length-1-5.xml",
         class_name="NistschemaSvIiListDoubleLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_9_nistxml_sv_ii_list_double_min_length_5_1(save_xml):
+def test_list_double_min_length_9_nistxml_sv_ii_list_double_min_length_5_1(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 10.
     """
@@ -8778,12 +9378,13 @@ def test_list_double_min_length_9_nistxml_sv_ii_list_double_min_length_5_1(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-5-1.xml",
         class_name="NistschemaSvIiListDoubleMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_9_nistxml_sv_ii_list_double_min_length_5_2(save_xml):
+def test_list_double_min_length_9_nistxml_sv_ii_list_double_min_length_5_2(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 10.
     """
@@ -8792,12 +9393,13 @@ def test_list_double_min_length_9_nistxml_sv_ii_list_double_min_length_5_2(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-5-2.xml",
         class_name="NistschemaSvIiListDoubleMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_9_nistxml_sv_ii_list_double_min_length_5_3(save_xml):
+def test_list_double_min_length_9_nistxml_sv_ii_list_double_min_length_5_3(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 10.
     """
@@ -8806,12 +9408,13 @@ def test_list_double_min_length_9_nistxml_sv_ii_list_double_min_length_5_3(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-5-3.xml",
         class_name="NistschemaSvIiListDoubleMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_9_nistxml_sv_ii_list_double_min_length_5_4(save_xml):
+def test_list_double_min_length_9_nistxml_sv_ii_list_double_min_length_5_4(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 10.
     """
@@ -8820,12 +9423,13 @@ def test_list_double_min_length_9_nistxml_sv_ii_list_double_min_length_5_4(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-5-4.xml",
         class_name="NistschemaSvIiListDoubleMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_9_nistxml_sv_ii_list_double_min_length_5_5(save_xml):
+def test_list_double_min_length_9_nistxml_sv_ii_list_double_min_length_5_5(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 10.
     """
@@ -8834,12 +9438,13 @@ def test_list_double_min_length_9_nistxml_sv_ii_list_double_min_length_5_5(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-5-5.xml",
         class_name="NistschemaSvIiListDoubleMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_8_nistxml_sv_ii_list_double_min_length_4_1(save_xml):
+def test_list_double_min_length_8_nistxml_sv_ii_list_double_min_length_4_1(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 8.
     """
@@ -8848,12 +9453,13 @@ def test_list_double_min_length_8_nistxml_sv_ii_list_double_min_length_4_1(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-4-1.xml",
         class_name="NistschemaSvIiListDoubleMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_8_nistxml_sv_ii_list_double_min_length_4_2(save_xml):
+def test_list_double_min_length_8_nistxml_sv_ii_list_double_min_length_4_2(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 8.
     """
@@ -8862,12 +9468,13 @@ def test_list_double_min_length_8_nistxml_sv_ii_list_double_min_length_4_2(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-4-2.xml",
         class_name="NistschemaSvIiListDoubleMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_8_nistxml_sv_ii_list_double_min_length_4_3(save_xml):
+def test_list_double_min_length_8_nistxml_sv_ii_list_double_min_length_4_3(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 8.
     """
@@ -8876,12 +9483,13 @@ def test_list_double_min_length_8_nistxml_sv_ii_list_double_min_length_4_3(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-4-3.xml",
         class_name="NistschemaSvIiListDoubleMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_8_nistxml_sv_ii_list_double_min_length_4_4(save_xml):
+def test_list_double_min_length_8_nistxml_sv_ii_list_double_min_length_4_4(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 8.
     """
@@ -8890,12 +9498,13 @@ def test_list_double_min_length_8_nistxml_sv_ii_list_double_min_length_4_4(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-4-4.xml",
         class_name="NistschemaSvIiListDoubleMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_8_nistxml_sv_ii_list_double_min_length_4_5(save_xml):
+def test_list_double_min_length_8_nistxml_sv_ii_list_double_min_length_4_5(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 8.
     """
@@ -8904,12 +9513,13 @@ def test_list_double_min_length_8_nistxml_sv_ii_list_double_min_length_4_5(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-4-5.xml",
         class_name="NistschemaSvIiListDoubleMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_7_nistxml_sv_ii_list_double_min_length_3_1(save_xml):
+def test_list_double_min_length_7_nistxml_sv_ii_list_double_min_length_3_1(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 7.
     """
@@ -8918,12 +9528,13 @@ def test_list_double_min_length_7_nistxml_sv_ii_list_double_min_length_3_1(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-3-1.xml",
         class_name="NistschemaSvIiListDoubleMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_7_nistxml_sv_ii_list_double_min_length_3_2(save_xml):
+def test_list_double_min_length_7_nistxml_sv_ii_list_double_min_length_3_2(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 7.
     """
@@ -8932,12 +9543,13 @@ def test_list_double_min_length_7_nistxml_sv_ii_list_double_min_length_3_2(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-3-2.xml",
         class_name="NistschemaSvIiListDoubleMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_7_nistxml_sv_ii_list_double_min_length_3_3(save_xml):
+def test_list_double_min_length_7_nistxml_sv_ii_list_double_min_length_3_3(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 7.
     """
@@ -8946,12 +9558,13 @@ def test_list_double_min_length_7_nistxml_sv_ii_list_double_min_length_3_3(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-3-3.xml",
         class_name="NistschemaSvIiListDoubleMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_7_nistxml_sv_ii_list_double_min_length_3_4(save_xml):
+def test_list_double_min_length_7_nistxml_sv_ii_list_double_min_length_3_4(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 7.
     """
@@ -8960,12 +9573,13 @@ def test_list_double_min_length_7_nistxml_sv_ii_list_double_min_length_3_4(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-3-4.xml",
         class_name="NistschemaSvIiListDoubleMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_7_nistxml_sv_ii_list_double_min_length_3_5(save_xml):
+def test_list_double_min_length_7_nistxml_sv_ii_list_double_min_length_3_5(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 7.
     """
@@ -8974,12 +9588,13 @@ def test_list_double_min_length_7_nistxml_sv_ii_list_double_min_length_3_5(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-3-5.xml",
         class_name="NistschemaSvIiListDoubleMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_6_nistxml_sv_ii_list_double_min_length_2_1(save_xml):
+def test_list_double_min_length_6_nistxml_sv_ii_list_double_min_length_2_1(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 6.
     """
@@ -8988,12 +9603,13 @@ def test_list_double_min_length_6_nistxml_sv_ii_list_double_min_length_2_1(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-2-1.xml",
         class_name="NistschemaSvIiListDoubleMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_6_nistxml_sv_ii_list_double_min_length_2_2(save_xml):
+def test_list_double_min_length_6_nistxml_sv_ii_list_double_min_length_2_2(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 6.
     """
@@ -9002,12 +9618,13 @@ def test_list_double_min_length_6_nistxml_sv_ii_list_double_min_length_2_2(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-2-2.xml",
         class_name="NistschemaSvIiListDoubleMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_6_nistxml_sv_ii_list_double_min_length_2_3(save_xml):
+def test_list_double_min_length_6_nistxml_sv_ii_list_double_min_length_2_3(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 6.
     """
@@ -9016,12 +9633,13 @@ def test_list_double_min_length_6_nistxml_sv_ii_list_double_min_length_2_3(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-2-3.xml",
         class_name="NistschemaSvIiListDoubleMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_6_nistxml_sv_ii_list_double_min_length_2_4(save_xml):
+def test_list_double_min_length_6_nistxml_sv_ii_list_double_min_length_2_4(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 6.
     """
@@ -9030,12 +9648,13 @@ def test_list_double_min_length_6_nistxml_sv_ii_list_double_min_length_2_4(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-2-4.xml",
         class_name="NistschemaSvIiListDoubleMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_6_nistxml_sv_ii_list_double_min_length_2_5(save_xml):
+def test_list_double_min_length_6_nistxml_sv_ii_list_double_min_length_2_5(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 6.
     """
@@ -9044,12 +9663,13 @@ def test_list_double_min_length_6_nistxml_sv_ii_list_double_min_length_2_5(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-2-5.xml",
         class_name="NistschemaSvIiListDoubleMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_5_nistxml_sv_ii_list_double_min_length_1_1(save_xml):
+def test_list_double_min_length_5_nistxml_sv_ii_list_double_min_length_1_1(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 5.
     """
@@ -9058,12 +9678,13 @@ def test_list_double_min_length_5_nistxml_sv_ii_list_double_min_length_1_1(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-1-1.xml",
         class_name="NistschemaSvIiListDoubleMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_5_nistxml_sv_ii_list_double_min_length_1_2(save_xml):
+def test_list_double_min_length_5_nistxml_sv_ii_list_double_min_length_1_2(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 5.
     """
@@ -9072,12 +9693,13 @@ def test_list_double_min_length_5_nistxml_sv_ii_list_double_min_length_1_2(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-1-2.xml",
         class_name="NistschemaSvIiListDoubleMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_5_nistxml_sv_ii_list_double_min_length_1_3(save_xml):
+def test_list_double_min_length_5_nistxml_sv_ii_list_double_min_length_1_3(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 5.
     """
@@ -9086,12 +9708,13 @@ def test_list_double_min_length_5_nistxml_sv_ii_list_double_min_length_1_3(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-1-3.xml",
         class_name="NistschemaSvIiListDoubleMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_5_nistxml_sv_ii_list_double_min_length_1_4(save_xml):
+def test_list_double_min_length_5_nistxml_sv_ii_list_double_min_length_1_4(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 5.
     """
@@ -9100,12 +9723,13 @@ def test_list_double_min_length_5_nistxml_sv_ii_list_double_min_length_1_4(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-1-4.xml",
         class_name="NistschemaSvIiListDoubleMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_min_length_5_nistxml_sv_ii_list_double_min_length_1_5(save_xml):
+def test_list_double_min_length_5_nistxml_sv_ii_list_double_min_length_1_5(json_360, save_output):
     """
     Type list/double is restricted by facet minLength with value 5.
     """
@@ -9114,12 +9738,13 @@ def test_list_double_min_length_5_nistxml_sv_ii_list_double_min_length_1_5(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-minLength-1-5.xml",
         class_name="NistschemaSvIiListDoubleMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_9_nistxml_sv_ii_list_double_max_length_5_1(save_xml):
+def test_list_double_max_length_9_nistxml_sv_ii_list_double_max_length_5_1(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 10.
     """
@@ -9128,12 +9753,13 @@ def test_list_double_max_length_9_nistxml_sv_ii_list_double_max_length_5_1(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-5-1.xml",
         class_name="NistschemaSvIiListDoubleMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_9_nistxml_sv_ii_list_double_max_length_5_2(save_xml):
+def test_list_double_max_length_9_nistxml_sv_ii_list_double_max_length_5_2(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 10.
     """
@@ -9142,12 +9768,13 @@ def test_list_double_max_length_9_nistxml_sv_ii_list_double_max_length_5_2(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-5-2.xml",
         class_name="NistschemaSvIiListDoubleMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_9_nistxml_sv_ii_list_double_max_length_5_3(save_xml):
+def test_list_double_max_length_9_nistxml_sv_ii_list_double_max_length_5_3(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 10.
     """
@@ -9156,12 +9783,13 @@ def test_list_double_max_length_9_nistxml_sv_ii_list_double_max_length_5_3(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-5-3.xml",
         class_name="NistschemaSvIiListDoubleMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_9_nistxml_sv_ii_list_double_max_length_5_4(save_xml):
+def test_list_double_max_length_9_nistxml_sv_ii_list_double_max_length_5_4(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 10.
     """
@@ -9170,12 +9798,13 @@ def test_list_double_max_length_9_nistxml_sv_ii_list_double_max_length_5_4(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-5-4.xml",
         class_name="NistschemaSvIiListDoubleMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_9_nistxml_sv_ii_list_double_max_length_5_5(save_xml):
+def test_list_double_max_length_9_nistxml_sv_ii_list_double_max_length_5_5(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 10.
     """
@@ -9184,12 +9813,13 @@ def test_list_double_max_length_9_nistxml_sv_ii_list_double_max_length_5_5(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-5-5.xml",
         class_name="NistschemaSvIiListDoubleMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_8_nistxml_sv_ii_list_double_max_length_4_1(save_xml):
+def test_list_double_max_length_8_nistxml_sv_ii_list_double_max_length_4_1(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 8.
     """
@@ -9198,12 +9828,13 @@ def test_list_double_max_length_8_nistxml_sv_ii_list_double_max_length_4_1(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-4-1.xml",
         class_name="NistschemaSvIiListDoubleMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_8_nistxml_sv_ii_list_double_max_length_4_2(save_xml):
+def test_list_double_max_length_8_nistxml_sv_ii_list_double_max_length_4_2(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 8.
     """
@@ -9212,12 +9843,13 @@ def test_list_double_max_length_8_nistxml_sv_ii_list_double_max_length_4_2(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-4-2.xml",
         class_name="NistschemaSvIiListDoubleMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_8_nistxml_sv_ii_list_double_max_length_4_3(save_xml):
+def test_list_double_max_length_8_nistxml_sv_ii_list_double_max_length_4_3(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 8.
     """
@@ -9226,12 +9858,13 @@ def test_list_double_max_length_8_nistxml_sv_ii_list_double_max_length_4_3(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-4-3.xml",
         class_name="NistschemaSvIiListDoubleMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_8_nistxml_sv_ii_list_double_max_length_4_4(save_xml):
+def test_list_double_max_length_8_nistxml_sv_ii_list_double_max_length_4_4(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 8.
     """
@@ -9240,12 +9873,13 @@ def test_list_double_max_length_8_nistxml_sv_ii_list_double_max_length_4_4(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-4-4.xml",
         class_name="NistschemaSvIiListDoubleMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_8_nistxml_sv_ii_list_double_max_length_4_5(save_xml):
+def test_list_double_max_length_8_nistxml_sv_ii_list_double_max_length_4_5(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 8.
     """
@@ -9254,12 +9888,13 @@ def test_list_double_max_length_8_nistxml_sv_ii_list_double_max_length_4_5(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-4-5.xml",
         class_name="NistschemaSvIiListDoubleMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_7_nistxml_sv_ii_list_double_max_length_3_1(save_xml):
+def test_list_double_max_length_7_nistxml_sv_ii_list_double_max_length_3_1(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 7.
     """
@@ -9268,12 +9903,13 @@ def test_list_double_max_length_7_nistxml_sv_ii_list_double_max_length_3_1(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-3-1.xml",
         class_name="NistschemaSvIiListDoubleMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_7_nistxml_sv_ii_list_double_max_length_3_2(save_xml):
+def test_list_double_max_length_7_nistxml_sv_ii_list_double_max_length_3_2(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 7.
     """
@@ -9282,12 +9918,13 @@ def test_list_double_max_length_7_nistxml_sv_ii_list_double_max_length_3_2(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-3-2.xml",
         class_name="NistschemaSvIiListDoubleMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_7_nistxml_sv_ii_list_double_max_length_3_3(save_xml):
+def test_list_double_max_length_7_nistxml_sv_ii_list_double_max_length_3_3(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 7.
     """
@@ -9296,12 +9933,13 @@ def test_list_double_max_length_7_nistxml_sv_ii_list_double_max_length_3_3(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-3-3.xml",
         class_name="NistschemaSvIiListDoubleMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_7_nistxml_sv_ii_list_double_max_length_3_4(save_xml):
+def test_list_double_max_length_7_nistxml_sv_ii_list_double_max_length_3_4(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 7.
     """
@@ -9310,12 +9948,13 @@ def test_list_double_max_length_7_nistxml_sv_ii_list_double_max_length_3_4(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-3-4.xml",
         class_name="NistschemaSvIiListDoubleMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_7_nistxml_sv_ii_list_double_max_length_3_5(save_xml):
+def test_list_double_max_length_7_nistxml_sv_ii_list_double_max_length_3_5(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 7.
     """
@@ -9324,12 +9963,13 @@ def test_list_double_max_length_7_nistxml_sv_ii_list_double_max_length_3_5(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-3-5.xml",
         class_name="NistschemaSvIiListDoubleMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_6_nistxml_sv_ii_list_double_max_length_2_1(save_xml):
+def test_list_double_max_length_6_nistxml_sv_ii_list_double_max_length_2_1(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 6.
     """
@@ -9338,12 +9978,13 @@ def test_list_double_max_length_6_nistxml_sv_ii_list_double_max_length_2_1(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-2-1.xml",
         class_name="NistschemaSvIiListDoubleMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_6_nistxml_sv_ii_list_double_max_length_2_2(save_xml):
+def test_list_double_max_length_6_nistxml_sv_ii_list_double_max_length_2_2(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 6.
     """
@@ -9352,12 +9993,13 @@ def test_list_double_max_length_6_nistxml_sv_ii_list_double_max_length_2_2(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-2-2.xml",
         class_name="NistschemaSvIiListDoubleMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_6_nistxml_sv_ii_list_double_max_length_2_3(save_xml):
+def test_list_double_max_length_6_nistxml_sv_ii_list_double_max_length_2_3(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 6.
     """
@@ -9366,12 +10008,13 @@ def test_list_double_max_length_6_nistxml_sv_ii_list_double_max_length_2_3(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-2-3.xml",
         class_name="NistschemaSvIiListDoubleMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_6_nistxml_sv_ii_list_double_max_length_2_4(save_xml):
+def test_list_double_max_length_6_nistxml_sv_ii_list_double_max_length_2_4(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 6.
     """
@@ -9380,12 +10023,13 @@ def test_list_double_max_length_6_nistxml_sv_ii_list_double_max_length_2_4(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-2-4.xml",
         class_name="NistschemaSvIiListDoubleMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_6_nistxml_sv_ii_list_double_max_length_2_5(save_xml):
+def test_list_double_max_length_6_nistxml_sv_ii_list_double_max_length_2_5(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 6.
     """
@@ -9394,12 +10038,13 @@ def test_list_double_max_length_6_nistxml_sv_ii_list_double_max_length_2_5(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-2-5.xml",
         class_name="NistschemaSvIiListDoubleMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_5_nistxml_sv_ii_list_double_max_length_1_1(save_xml):
+def test_list_double_max_length_5_nistxml_sv_ii_list_double_max_length_1_1(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 5.
     """
@@ -9408,12 +10053,13 @@ def test_list_double_max_length_5_nistxml_sv_ii_list_double_max_length_1_1(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-1-1.xml",
         class_name="NistschemaSvIiListDoubleMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_5_nistxml_sv_ii_list_double_max_length_1_2(save_xml):
+def test_list_double_max_length_5_nistxml_sv_ii_list_double_max_length_1_2(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 5.
     """
@@ -9422,12 +10068,13 @@ def test_list_double_max_length_5_nistxml_sv_ii_list_double_max_length_1_2(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-1-2.xml",
         class_name="NistschemaSvIiListDoubleMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_5_nistxml_sv_ii_list_double_max_length_1_3(save_xml):
+def test_list_double_max_length_5_nistxml_sv_ii_list_double_max_length_1_3(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 5.
     """
@@ -9436,12 +10083,13 @@ def test_list_double_max_length_5_nistxml_sv_ii_list_double_max_length_1_3(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-1-3.xml",
         class_name="NistschemaSvIiListDoubleMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_5_nistxml_sv_ii_list_double_max_length_1_4(save_xml):
+def test_list_double_max_length_5_nistxml_sv_ii_list_double_max_length_1_4(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 5.
     """
@@ -9450,12 +10098,13 @@ def test_list_double_max_length_5_nistxml_sv_ii_list_double_max_length_1_4(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-1-4.xml",
         class_name="NistschemaSvIiListDoubleMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_double_max_length_5_nistxml_sv_ii_list_double_max_length_1_5(save_xml):
+def test_list_double_max_length_5_nistxml_sv_ii_list_double_max_length_1_5(json_360, save_output):
     """
     Type list/double is restricted by facet maxLength with value 5.
     """
@@ -9464,12 +10113,13 @@ def test_list_double_max_length_5_nistxml_sv_ii_list_double_max_length_1_5(save_
         instance="nistData/list/double/Schema+Instance/NISTXML-SV-II-list-double-maxLength-1-5.xml",
         class_name="NistschemaSvIiListDoubleMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_9_nistxml_sv_ii_list_positive_integer_enumeration_5_1(save_xml):
+def test_list_positive_integer_enumeration_9_nistxml_sv_ii_list_positive_integer_enumeration_5_1(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9478,12 +10128,13 @@ def test_list_positive_integer_enumeration_9_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-5-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_9_nistxml_sv_ii_list_positive_integer_enumeration_5_2(save_xml):
+def test_list_positive_integer_enumeration_9_nistxml_sv_ii_list_positive_integer_enumeration_5_2(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9492,12 +10143,13 @@ def test_list_positive_integer_enumeration_9_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-5-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_9_nistxml_sv_ii_list_positive_integer_enumeration_5_3(save_xml):
+def test_list_positive_integer_enumeration_9_nistxml_sv_ii_list_positive_integer_enumeration_5_3(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9506,12 +10158,13 @@ def test_list_positive_integer_enumeration_9_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-5-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_9_nistxml_sv_ii_list_positive_integer_enumeration_5_4(save_xml):
+def test_list_positive_integer_enumeration_9_nistxml_sv_ii_list_positive_integer_enumeration_5_4(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9520,12 +10173,13 @@ def test_list_positive_integer_enumeration_9_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-5-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_9_nistxml_sv_ii_list_positive_integer_enumeration_5_5(save_xml):
+def test_list_positive_integer_enumeration_9_nistxml_sv_ii_list_positive_integer_enumeration_5_5(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9534,12 +10188,13 @@ def test_list_positive_integer_enumeration_9_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-5-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_8_nistxml_sv_ii_list_positive_integer_enumeration_4_1(save_xml):
+def test_list_positive_integer_enumeration_8_nistxml_sv_ii_list_positive_integer_enumeration_4_1(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9548,12 +10203,13 @@ def test_list_positive_integer_enumeration_8_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-4-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_8_nistxml_sv_ii_list_positive_integer_enumeration_4_2(save_xml):
+def test_list_positive_integer_enumeration_8_nistxml_sv_ii_list_positive_integer_enumeration_4_2(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9562,12 +10218,13 @@ def test_list_positive_integer_enumeration_8_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-4-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_8_nistxml_sv_ii_list_positive_integer_enumeration_4_3(save_xml):
+def test_list_positive_integer_enumeration_8_nistxml_sv_ii_list_positive_integer_enumeration_4_3(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9576,12 +10233,13 @@ def test_list_positive_integer_enumeration_8_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-4-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_8_nistxml_sv_ii_list_positive_integer_enumeration_4_4(save_xml):
+def test_list_positive_integer_enumeration_8_nistxml_sv_ii_list_positive_integer_enumeration_4_4(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9590,12 +10248,13 @@ def test_list_positive_integer_enumeration_8_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-4-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_8_nistxml_sv_ii_list_positive_integer_enumeration_4_5(save_xml):
+def test_list_positive_integer_enumeration_8_nistxml_sv_ii_list_positive_integer_enumeration_4_5(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9604,12 +10263,13 @@ def test_list_positive_integer_enumeration_8_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-4-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_7_nistxml_sv_ii_list_positive_integer_enumeration_3_1(save_xml):
+def test_list_positive_integer_enumeration_7_nistxml_sv_ii_list_positive_integer_enumeration_3_1(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9618,12 +10278,13 @@ def test_list_positive_integer_enumeration_7_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-3-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_7_nistxml_sv_ii_list_positive_integer_enumeration_3_2(save_xml):
+def test_list_positive_integer_enumeration_7_nistxml_sv_ii_list_positive_integer_enumeration_3_2(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9632,12 +10293,13 @@ def test_list_positive_integer_enumeration_7_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-3-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_7_nistxml_sv_ii_list_positive_integer_enumeration_3_3(save_xml):
+def test_list_positive_integer_enumeration_7_nistxml_sv_ii_list_positive_integer_enumeration_3_3(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9646,12 +10308,13 @@ def test_list_positive_integer_enumeration_7_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-3-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_7_nistxml_sv_ii_list_positive_integer_enumeration_3_4(save_xml):
+def test_list_positive_integer_enumeration_7_nistxml_sv_ii_list_positive_integer_enumeration_3_4(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9660,12 +10323,13 @@ def test_list_positive_integer_enumeration_7_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-3-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_7_nistxml_sv_ii_list_positive_integer_enumeration_3_5(save_xml):
+def test_list_positive_integer_enumeration_7_nistxml_sv_ii_list_positive_integer_enumeration_3_5(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9674,12 +10338,13 @@ def test_list_positive_integer_enumeration_7_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-3-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_6_nistxml_sv_ii_list_positive_integer_enumeration_2_1(save_xml):
+def test_list_positive_integer_enumeration_6_nistxml_sv_ii_list_positive_integer_enumeration_2_1(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9688,12 +10353,13 @@ def test_list_positive_integer_enumeration_6_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-2-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_6_nistxml_sv_ii_list_positive_integer_enumeration_2_2(save_xml):
+def test_list_positive_integer_enumeration_6_nistxml_sv_ii_list_positive_integer_enumeration_2_2(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9702,12 +10368,13 @@ def test_list_positive_integer_enumeration_6_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-2-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_6_nistxml_sv_ii_list_positive_integer_enumeration_2_3(save_xml):
+def test_list_positive_integer_enumeration_6_nistxml_sv_ii_list_positive_integer_enumeration_2_3(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9716,12 +10383,13 @@ def test_list_positive_integer_enumeration_6_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-2-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_6_nistxml_sv_ii_list_positive_integer_enumeration_2_4(save_xml):
+def test_list_positive_integer_enumeration_6_nistxml_sv_ii_list_positive_integer_enumeration_2_4(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9730,12 +10398,13 @@ def test_list_positive_integer_enumeration_6_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-2-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_6_nistxml_sv_ii_list_positive_integer_enumeration_2_5(save_xml):
+def test_list_positive_integer_enumeration_6_nistxml_sv_ii_list_positive_integer_enumeration_2_5(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9744,12 +10413,13 @@ def test_list_positive_integer_enumeration_6_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-2-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_5_nistxml_sv_ii_list_positive_integer_enumeration_1_1(save_xml):
+def test_list_positive_integer_enumeration_5_nistxml_sv_ii_list_positive_integer_enumeration_1_1(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9758,12 +10428,13 @@ def test_list_positive_integer_enumeration_5_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-1-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_5_nistxml_sv_ii_list_positive_integer_enumeration_1_2(save_xml):
+def test_list_positive_integer_enumeration_5_nistxml_sv_ii_list_positive_integer_enumeration_1_2(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9772,12 +10443,13 @@ def test_list_positive_integer_enumeration_5_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-1-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_5_nistxml_sv_ii_list_positive_integer_enumeration_1_3(save_xml):
+def test_list_positive_integer_enumeration_5_nistxml_sv_ii_list_positive_integer_enumeration_1_3(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9786,12 +10458,13 @@ def test_list_positive_integer_enumeration_5_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-1-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_5_nistxml_sv_ii_list_positive_integer_enumeration_1_4(save_xml):
+def test_list_positive_integer_enumeration_5_nistxml_sv_ii_list_positive_integer_enumeration_1_4(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9800,12 +10473,13 @@ def test_list_positive_integer_enumeration_5_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-1-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_enumeration_5_nistxml_sv_ii_list_positive_integer_enumeration_1_5(save_xml):
+def test_list_positive_integer_enumeration_5_nistxml_sv_ii_list_positive_integer_enumeration_1_5(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet enumeration.
     """
@@ -9814,12 +10488,13 @@ def test_list_positive_integer_enumeration_5_nistxml_sv_ii_list_positive_integer
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-enumeration-1-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_9_nistxml_sv_ii_list_positive_integer_pattern_5_1(save_xml):
+def test_list_positive_integer_pattern_9_nistxml_sv_ii_list_positive_integer_pattern_5_1(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -9829,12 +10504,13 @@ def test_list_positive_integer_pattern_9_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-5-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_9_nistxml_sv_ii_list_positive_integer_pattern_5_2(save_xml):
+def test_list_positive_integer_pattern_9_nistxml_sv_ii_list_positive_integer_pattern_5_2(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -9844,12 +10520,13 @@ def test_list_positive_integer_pattern_9_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-5-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_9_nistxml_sv_ii_list_positive_integer_pattern_5_3(save_xml):
+def test_list_positive_integer_pattern_9_nistxml_sv_ii_list_positive_integer_pattern_5_3(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -9859,12 +10536,13 @@ def test_list_positive_integer_pattern_9_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-5-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_9_nistxml_sv_ii_list_positive_integer_pattern_5_4(save_xml):
+def test_list_positive_integer_pattern_9_nistxml_sv_ii_list_positive_integer_pattern_5_4(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -9874,12 +10552,13 @@ def test_list_positive_integer_pattern_9_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-5-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_9_nistxml_sv_ii_list_positive_integer_pattern_5_5(save_xml):
+def test_list_positive_integer_pattern_9_nistxml_sv_ii_list_positive_integer_pattern_5_5(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{15} \d{18}.
@@ -9889,12 +10568,13 @@ def test_list_positive_integer_pattern_9_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-5-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_8_nistxml_sv_ii_list_positive_integer_pattern_4_1(save_xml):
+def test_list_positive_integer_pattern_8_nistxml_sv_ii_list_positive_integer_pattern_4_1(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}.
@@ -9904,12 +10584,13 @@ def test_list_positive_integer_pattern_8_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-4-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_8_nistxml_sv_ii_list_positive_integer_pattern_4_2(save_xml):
+def test_list_positive_integer_pattern_8_nistxml_sv_ii_list_positive_integer_pattern_4_2(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}.
@@ -9919,12 +10600,13 @@ def test_list_positive_integer_pattern_8_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-4-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_8_nistxml_sv_ii_list_positive_integer_pattern_4_3(save_xml):
+def test_list_positive_integer_pattern_8_nistxml_sv_ii_list_positive_integer_pattern_4_3(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}.
@@ -9934,12 +10616,13 @@ def test_list_positive_integer_pattern_8_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-4-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_8_nistxml_sv_ii_list_positive_integer_pattern_4_4(save_xml):
+def test_list_positive_integer_pattern_8_nistxml_sv_ii_list_positive_integer_pattern_4_4(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}.
@@ -9949,12 +10632,13 @@ def test_list_positive_integer_pattern_8_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-4-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_8_nistxml_sv_ii_list_positive_integer_pattern_4_5(save_xml):
+def test_list_positive_integer_pattern_8_nistxml_sv_ii_list_positive_integer_pattern_4_5(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}.
@@ -9964,12 +10648,13 @@ def test_list_positive_integer_pattern_8_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-4-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_7_nistxml_sv_ii_list_positive_integer_pattern_3_1(save_xml):
+def test_list_positive_integer_pattern_7_nistxml_sv_ii_list_positive_integer_pattern_3_1(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}.
@@ -9979,12 +10664,13 @@ def test_list_positive_integer_pattern_7_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-3-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_7_nistxml_sv_ii_list_positive_integer_pattern_3_2(save_xml):
+def test_list_positive_integer_pattern_7_nistxml_sv_ii_list_positive_integer_pattern_3_2(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}.
@@ -9994,12 +10680,13 @@ def test_list_positive_integer_pattern_7_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-3-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_7_nistxml_sv_ii_list_positive_integer_pattern_3_3(save_xml):
+def test_list_positive_integer_pattern_7_nistxml_sv_ii_list_positive_integer_pattern_3_3(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}.
@@ -10009,12 +10696,13 @@ def test_list_positive_integer_pattern_7_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-3-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_7_nistxml_sv_ii_list_positive_integer_pattern_3_4(save_xml):
+def test_list_positive_integer_pattern_7_nistxml_sv_ii_list_positive_integer_pattern_3_4(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}.
@@ -10024,12 +10712,13 @@ def test_list_positive_integer_pattern_7_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-3-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_7_nistxml_sv_ii_list_positive_integer_pattern_3_5(save_xml):
+def test_list_positive_integer_pattern_7_nistxml_sv_ii_list_positive_integer_pattern_3_5(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}.
@@ -10039,12 +10728,13 @@ def test_list_positive_integer_pattern_7_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-3-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_6_nistxml_sv_ii_list_positive_integer_pattern_2_1(save_xml):
+def test_list_positive_integer_pattern_6_nistxml_sv_ii_list_positive_integer_pattern_2_1(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{18}.
@@ -10054,12 +10744,13 @@ def test_list_positive_integer_pattern_6_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-2-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_6_nistxml_sv_ii_list_positive_integer_pattern_2_2(save_xml):
+def test_list_positive_integer_pattern_6_nistxml_sv_ii_list_positive_integer_pattern_2_2(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{18}.
@@ -10069,12 +10760,13 @@ def test_list_positive_integer_pattern_6_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-2-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_6_nistxml_sv_ii_list_positive_integer_pattern_2_3(save_xml):
+def test_list_positive_integer_pattern_6_nistxml_sv_ii_list_positive_integer_pattern_2_3(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{18}.
@@ -10084,12 +10776,13 @@ def test_list_positive_integer_pattern_6_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-2-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_6_nistxml_sv_ii_list_positive_integer_pattern_2_4(save_xml):
+def test_list_positive_integer_pattern_6_nistxml_sv_ii_list_positive_integer_pattern_2_4(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{18}.
@@ -10099,12 +10792,13 @@ def test_list_positive_integer_pattern_6_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-2-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_6_nistxml_sv_ii_list_positive_integer_pattern_2_5(save_xml):
+def test_list_positive_integer_pattern_6_nistxml_sv_ii_list_positive_integer_pattern_2_5(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{13} \d{18}.
@@ -10114,12 +10808,13 @@ def test_list_positive_integer_pattern_6_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-2-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_5_nistxml_sv_ii_list_positive_integer_pattern_1_1(save_xml):
+def test_list_positive_integer_pattern_5_nistxml_sv_ii_list_positive_integer_pattern_1_1(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5} \d{6} \d{7} \d{8} \d{9} \d{18}.
@@ -10129,12 +10824,13 @@ def test_list_positive_integer_pattern_5_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-1-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_5_nistxml_sv_ii_list_positive_integer_pattern_1_2(save_xml):
+def test_list_positive_integer_pattern_5_nistxml_sv_ii_list_positive_integer_pattern_1_2(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5} \d{6} \d{7} \d{8} \d{9} \d{18}.
@@ -10144,12 +10840,13 @@ def test_list_positive_integer_pattern_5_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-1-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_5_nistxml_sv_ii_list_positive_integer_pattern_1_3(save_xml):
+def test_list_positive_integer_pattern_5_nistxml_sv_ii_list_positive_integer_pattern_1_3(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5} \d{6} \d{7} \d{8} \d{9} \d{18}.
@@ -10159,12 +10856,13 @@ def test_list_positive_integer_pattern_5_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-1-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_5_nistxml_sv_ii_list_positive_integer_pattern_1_4(save_xml):
+def test_list_positive_integer_pattern_5_nistxml_sv_ii_list_positive_integer_pattern_1_4(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5} \d{6} \d{7} \d{8} \d{9} \d{18}.
@@ -10174,12 +10872,13 @@ def test_list_positive_integer_pattern_5_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-1-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_pattern_5_nistxml_sv_ii_list_positive_integer_pattern_1_5(save_xml):
+def test_list_positive_integer_pattern_5_nistxml_sv_ii_list_positive_integer_pattern_1_5(json_360, save_output):
     r"""
     Type list/positiveInteger is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5} \d{6} \d{7} \d{8} \d{9} \d{18}.
@@ -10189,12 +10888,13 @@ def test_list_positive_integer_pattern_5_nistxml_sv_ii_list_positive_integer_pat
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-pattern-1-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_9_nistxml_sv_ii_list_positive_integer_length_5_1(save_xml):
+def test_list_positive_integer_length_9_nistxml_sv_ii_list_positive_integer_length_5_1(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 10.
     """
@@ -10203,12 +10903,13 @@ def test_list_positive_integer_length_9_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-5-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_9_nistxml_sv_ii_list_positive_integer_length_5_2(save_xml):
+def test_list_positive_integer_length_9_nistxml_sv_ii_list_positive_integer_length_5_2(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 10.
     """
@@ -10217,12 +10918,13 @@ def test_list_positive_integer_length_9_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-5-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_9_nistxml_sv_ii_list_positive_integer_length_5_3(save_xml):
+def test_list_positive_integer_length_9_nistxml_sv_ii_list_positive_integer_length_5_3(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 10.
     """
@@ -10231,12 +10933,13 @@ def test_list_positive_integer_length_9_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-5-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_9_nistxml_sv_ii_list_positive_integer_length_5_4(save_xml):
+def test_list_positive_integer_length_9_nistxml_sv_ii_list_positive_integer_length_5_4(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 10.
     """
@@ -10245,12 +10948,13 @@ def test_list_positive_integer_length_9_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-5-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_9_nistxml_sv_ii_list_positive_integer_length_5_5(save_xml):
+def test_list_positive_integer_length_9_nistxml_sv_ii_list_positive_integer_length_5_5(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 10.
     """
@@ -10259,12 +10963,13 @@ def test_list_positive_integer_length_9_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-5-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_8_nistxml_sv_ii_list_positive_integer_length_4_1(save_xml):
+def test_list_positive_integer_length_8_nistxml_sv_ii_list_positive_integer_length_4_1(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 8.
     """
@@ -10273,12 +10978,13 @@ def test_list_positive_integer_length_8_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-4-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_8_nistxml_sv_ii_list_positive_integer_length_4_2(save_xml):
+def test_list_positive_integer_length_8_nistxml_sv_ii_list_positive_integer_length_4_2(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 8.
     """
@@ -10287,12 +10993,13 @@ def test_list_positive_integer_length_8_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-4-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_8_nistxml_sv_ii_list_positive_integer_length_4_3(save_xml):
+def test_list_positive_integer_length_8_nistxml_sv_ii_list_positive_integer_length_4_3(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 8.
     """
@@ -10301,12 +11008,13 @@ def test_list_positive_integer_length_8_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-4-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_8_nistxml_sv_ii_list_positive_integer_length_4_4(save_xml):
+def test_list_positive_integer_length_8_nistxml_sv_ii_list_positive_integer_length_4_4(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 8.
     """
@@ -10315,12 +11023,13 @@ def test_list_positive_integer_length_8_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-4-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_8_nistxml_sv_ii_list_positive_integer_length_4_5(save_xml):
+def test_list_positive_integer_length_8_nistxml_sv_ii_list_positive_integer_length_4_5(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 8.
     """
@@ -10329,12 +11038,13 @@ def test_list_positive_integer_length_8_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-4-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_7_nistxml_sv_ii_list_positive_integer_length_3_1(save_xml):
+def test_list_positive_integer_length_7_nistxml_sv_ii_list_positive_integer_length_3_1(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 7.
     """
@@ -10343,12 +11053,13 @@ def test_list_positive_integer_length_7_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-3-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_7_nistxml_sv_ii_list_positive_integer_length_3_2(save_xml):
+def test_list_positive_integer_length_7_nistxml_sv_ii_list_positive_integer_length_3_2(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 7.
     """
@@ -10357,12 +11068,13 @@ def test_list_positive_integer_length_7_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-3-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_7_nistxml_sv_ii_list_positive_integer_length_3_3(save_xml):
+def test_list_positive_integer_length_7_nistxml_sv_ii_list_positive_integer_length_3_3(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 7.
     """
@@ -10371,12 +11083,13 @@ def test_list_positive_integer_length_7_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-3-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_7_nistxml_sv_ii_list_positive_integer_length_3_4(save_xml):
+def test_list_positive_integer_length_7_nistxml_sv_ii_list_positive_integer_length_3_4(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 7.
     """
@@ -10385,12 +11098,13 @@ def test_list_positive_integer_length_7_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-3-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_7_nistxml_sv_ii_list_positive_integer_length_3_5(save_xml):
+def test_list_positive_integer_length_7_nistxml_sv_ii_list_positive_integer_length_3_5(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 7.
     """
@@ -10399,12 +11113,13 @@ def test_list_positive_integer_length_7_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-3-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_6_nistxml_sv_ii_list_positive_integer_length_2_1(save_xml):
+def test_list_positive_integer_length_6_nistxml_sv_ii_list_positive_integer_length_2_1(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 6.
     """
@@ -10413,12 +11128,13 @@ def test_list_positive_integer_length_6_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-2-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_6_nistxml_sv_ii_list_positive_integer_length_2_2(save_xml):
+def test_list_positive_integer_length_6_nistxml_sv_ii_list_positive_integer_length_2_2(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 6.
     """
@@ -10427,12 +11143,13 @@ def test_list_positive_integer_length_6_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-2-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_6_nistxml_sv_ii_list_positive_integer_length_2_3(save_xml):
+def test_list_positive_integer_length_6_nistxml_sv_ii_list_positive_integer_length_2_3(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 6.
     """
@@ -10441,12 +11158,13 @@ def test_list_positive_integer_length_6_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-2-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_6_nistxml_sv_ii_list_positive_integer_length_2_4(save_xml):
+def test_list_positive_integer_length_6_nistxml_sv_ii_list_positive_integer_length_2_4(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 6.
     """
@@ -10455,12 +11173,13 @@ def test_list_positive_integer_length_6_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-2-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_6_nistxml_sv_ii_list_positive_integer_length_2_5(save_xml):
+def test_list_positive_integer_length_6_nistxml_sv_ii_list_positive_integer_length_2_5(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 6.
     """
@@ -10469,12 +11188,13 @@ def test_list_positive_integer_length_6_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-2-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_5_nistxml_sv_ii_list_positive_integer_length_1_1(save_xml):
+def test_list_positive_integer_length_5_nistxml_sv_ii_list_positive_integer_length_1_1(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 5.
     """
@@ -10483,12 +11203,13 @@ def test_list_positive_integer_length_5_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-1-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_5_nistxml_sv_ii_list_positive_integer_length_1_2(save_xml):
+def test_list_positive_integer_length_5_nistxml_sv_ii_list_positive_integer_length_1_2(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 5.
     """
@@ -10497,12 +11218,13 @@ def test_list_positive_integer_length_5_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-1-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_5_nistxml_sv_ii_list_positive_integer_length_1_3(save_xml):
+def test_list_positive_integer_length_5_nistxml_sv_ii_list_positive_integer_length_1_3(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 5.
     """
@@ -10511,12 +11233,13 @@ def test_list_positive_integer_length_5_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-1-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_5_nistxml_sv_ii_list_positive_integer_length_1_4(save_xml):
+def test_list_positive_integer_length_5_nistxml_sv_ii_list_positive_integer_length_1_4(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 5.
     """
@@ -10525,12 +11248,13 @@ def test_list_positive_integer_length_5_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-1-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_length_5_nistxml_sv_ii_list_positive_integer_length_1_5(save_xml):
+def test_list_positive_integer_length_5_nistxml_sv_ii_list_positive_integer_length_1_5(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet length with value 5.
     """
@@ -10539,12 +11263,13 @@ def test_list_positive_integer_length_5_nistxml_sv_ii_list_positive_integer_leng
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-length-1-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_9_nistxml_sv_ii_list_positive_integer_min_length_5_1(save_xml):
+def test_list_positive_integer_min_length_9_nistxml_sv_ii_list_positive_integer_min_length_5_1(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     10.
@@ -10554,12 +11279,13 @@ def test_list_positive_integer_min_length_9_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-5-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_9_nistxml_sv_ii_list_positive_integer_min_length_5_2(save_xml):
+def test_list_positive_integer_min_length_9_nistxml_sv_ii_list_positive_integer_min_length_5_2(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     10.
@@ -10569,12 +11295,13 @@ def test_list_positive_integer_min_length_9_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-5-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_9_nistxml_sv_ii_list_positive_integer_min_length_5_3(save_xml):
+def test_list_positive_integer_min_length_9_nistxml_sv_ii_list_positive_integer_min_length_5_3(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     10.
@@ -10584,12 +11311,13 @@ def test_list_positive_integer_min_length_9_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-5-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_9_nistxml_sv_ii_list_positive_integer_min_length_5_4(save_xml):
+def test_list_positive_integer_min_length_9_nistxml_sv_ii_list_positive_integer_min_length_5_4(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     10.
@@ -10599,12 +11327,13 @@ def test_list_positive_integer_min_length_9_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-5-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_9_nistxml_sv_ii_list_positive_integer_min_length_5_5(save_xml):
+def test_list_positive_integer_min_length_9_nistxml_sv_ii_list_positive_integer_min_length_5_5(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     10.
@@ -10614,12 +11343,13 @@ def test_list_positive_integer_min_length_9_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-5-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_8_nistxml_sv_ii_list_positive_integer_min_length_4_1(save_xml):
+def test_list_positive_integer_min_length_8_nistxml_sv_ii_list_positive_integer_min_length_4_1(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     8.
@@ -10629,12 +11359,13 @@ def test_list_positive_integer_min_length_8_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-4-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_8_nistxml_sv_ii_list_positive_integer_min_length_4_2(save_xml):
+def test_list_positive_integer_min_length_8_nistxml_sv_ii_list_positive_integer_min_length_4_2(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     8.
@@ -10644,12 +11375,13 @@ def test_list_positive_integer_min_length_8_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-4-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_8_nistxml_sv_ii_list_positive_integer_min_length_4_3(save_xml):
+def test_list_positive_integer_min_length_8_nistxml_sv_ii_list_positive_integer_min_length_4_3(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     8.
@@ -10659,12 +11391,13 @@ def test_list_positive_integer_min_length_8_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-4-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_8_nistxml_sv_ii_list_positive_integer_min_length_4_4(save_xml):
+def test_list_positive_integer_min_length_8_nistxml_sv_ii_list_positive_integer_min_length_4_4(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     8.
@@ -10674,12 +11407,13 @@ def test_list_positive_integer_min_length_8_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-4-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_8_nistxml_sv_ii_list_positive_integer_min_length_4_5(save_xml):
+def test_list_positive_integer_min_length_8_nistxml_sv_ii_list_positive_integer_min_length_4_5(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     8.
@@ -10689,12 +11423,13 @@ def test_list_positive_integer_min_length_8_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-4-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_7_nistxml_sv_ii_list_positive_integer_min_length_3_1(save_xml):
+def test_list_positive_integer_min_length_7_nistxml_sv_ii_list_positive_integer_min_length_3_1(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     7.
@@ -10704,12 +11439,13 @@ def test_list_positive_integer_min_length_7_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-3-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_7_nistxml_sv_ii_list_positive_integer_min_length_3_2(save_xml):
+def test_list_positive_integer_min_length_7_nistxml_sv_ii_list_positive_integer_min_length_3_2(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     7.
@@ -10719,12 +11455,13 @@ def test_list_positive_integer_min_length_7_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-3-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_7_nistxml_sv_ii_list_positive_integer_min_length_3_3(save_xml):
+def test_list_positive_integer_min_length_7_nistxml_sv_ii_list_positive_integer_min_length_3_3(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     7.
@@ -10734,12 +11471,13 @@ def test_list_positive_integer_min_length_7_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-3-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_7_nistxml_sv_ii_list_positive_integer_min_length_3_4(save_xml):
+def test_list_positive_integer_min_length_7_nistxml_sv_ii_list_positive_integer_min_length_3_4(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     7.
@@ -10749,12 +11487,13 @@ def test_list_positive_integer_min_length_7_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-3-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_7_nistxml_sv_ii_list_positive_integer_min_length_3_5(save_xml):
+def test_list_positive_integer_min_length_7_nistxml_sv_ii_list_positive_integer_min_length_3_5(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     7.
@@ -10764,12 +11503,13 @@ def test_list_positive_integer_min_length_7_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-3-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_6_nistxml_sv_ii_list_positive_integer_min_length_2_1(save_xml):
+def test_list_positive_integer_min_length_6_nistxml_sv_ii_list_positive_integer_min_length_2_1(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     6.
@@ -10779,12 +11519,13 @@ def test_list_positive_integer_min_length_6_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-2-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_6_nistxml_sv_ii_list_positive_integer_min_length_2_2(save_xml):
+def test_list_positive_integer_min_length_6_nistxml_sv_ii_list_positive_integer_min_length_2_2(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     6.
@@ -10794,12 +11535,13 @@ def test_list_positive_integer_min_length_6_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-2-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_6_nistxml_sv_ii_list_positive_integer_min_length_2_3(save_xml):
+def test_list_positive_integer_min_length_6_nistxml_sv_ii_list_positive_integer_min_length_2_3(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     6.
@@ -10809,12 +11551,13 @@ def test_list_positive_integer_min_length_6_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-2-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_6_nistxml_sv_ii_list_positive_integer_min_length_2_4(save_xml):
+def test_list_positive_integer_min_length_6_nistxml_sv_ii_list_positive_integer_min_length_2_4(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     6.
@@ -10824,12 +11567,13 @@ def test_list_positive_integer_min_length_6_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-2-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_6_nistxml_sv_ii_list_positive_integer_min_length_2_5(save_xml):
+def test_list_positive_integer_min_length_6_nistxml_sv_ii_list_positive_integer_min_length_2_5(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     6.
@@ -10839,12 +11583,13 @@ def test_list_positive_integer_min_length_6_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-2-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_5_nistxml_sv_ii_list_positive_integer_min_length_1_1(save_xml):
+def test_list_positive_integer_min_length_5_nistxml_sv_ii_list_positive_integer_min_length_1_1(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     5.
@@ -10854,12 +11599,13 @@ def test_list_positive_integer_min_length_5_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-1-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_5_nistxml_sv_ii_list_positive_integer_min_length_1_2(save_xml):
+def test_list_positive_integer_min_length_5_nistxml_sv_ii_list_positive_integer_min_length_1_2(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     5.
@@ -10869,12 +11615,13 @@ def test_list_positive_integer_min_length_5_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-1-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_5_nistxml_sv_ii_list_positive_integer_min_length_1_3(save_xml):
+def test_list_positive_integer_min_length_5_nistxml_sv_ii_list_positive_integer_min_length_1_3(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     5.
@@ -10884,12 +11631,13 @@ def test_list_positive_integer_min_length_5_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-1-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_5_nistxml_sv_ii_list_positive_integer_min_length_1_4(save_xml):
+def test_list_positive_integer_min_length_5_nistxml_sv_ii_list_positive_integer_min_length_1_4(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     5.
@@ -10899,12 +11647,13 @@ def test_list_positive_integer_min_length_5_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-1-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_min_length_5_nistxml_sv_ii_list_positive_integer_min_length_1_5(save_xml):
+def test_list_positive_integer_min_length_5_nistxml_sv_ii_list_positive_integer_min_length_1_5(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet minLength with value
     5.
@@ -10914,12 +11663,13 @@ def test_list_positive_integer_min_length_5_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-minLength-1-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_9_nistxml_sv_ii_list_positive_integer_max_length_5_1(save_xml):
+def test_list_positive_integer_max_length_9_nistxml_sv_ii_list_positive_integer_max_length_5_1(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     10.
@@ -10929,12 +11679,13 @@ def test_list_positive_integer_max_length_9_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-5-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_9_nistxml_sv_ii_list_positive_integer_max_length_5_2(save_xml):
+def test_list_positive_integer_max_length_9_nistxml_sv_ii_list_positive_integer_max_length_5_2(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     10.
@@ -10944,12 +11695,13 @@ def test_list_positive_integer_max_length_9_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-5-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_9_nistxml_sv_ii_list_positive_integer_max_length_5_3(save_xml):
+def test_list_positive_integer_max_length_9_nistxml_sv_ii_list_positive_integer_max_length_5_3(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     10.
@@ -10959,12 +11711,13 @@ def test_list_positive_integer_max_length_9_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-5-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_9_nistxml_sv_ii_list_positive_integer_max_length_5_4(save_xml):
+def test_list_positive_integer_max_length_9_nistxml_sv_ii_list_positive_integer_max_length_5_4(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     10.
@@ -10974,12 +11727,13 @@ def test_list_positive_integer_max_length_9_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-5-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_9_nistxml_sv_ii_list_positive_integer_max_length_5_5(save_xml):
+def test_list_positive_integer_max_length_9_nistxml_sv_ii_list_positive_integer_max_length_5_5(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     10.
@@ -10989,12 +11743,13 @@ def test_list_positive_integer_max_length_9_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-5-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_8_nistxml_sv_ii_list_positive_integer_max_length_4_1(save_xml):
+def test_list_positive_integer_max_length_8_nistxml_sv_ii_list_positive_integer_max_length_4_1(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     8.
@@ -11004,12 +11759,13 @@ def test_list_positive_integer_max_length_8_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-4-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_8_nistxml_sv_ii_list_positive_integer_max_length_4_2(save_xml):
+def test_list_positive_integer_max_length_8_nistxml_sv_ii_list_positive_integer_max_length_4_2(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     8.
@@ -11019,12 +11775,13 @@ def test_list_positive_integer_max_length_8_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-4-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_8_nistxml_sv_ii_list_positive_integer_max_length_4_3(save_xml):
+def test_list_positive_integer_max_length_8_nistxml_sv_ii_list_positive_integer_max_length_4_3(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     8.
@@ -11034,12 +11791,13 @@ def test_list_positive_integer_max_length_8_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-4-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_8_nistxml_sv_ii_list_positive_integer_max_length_4_4(save_xml):
+def test_list_positive_integer_max_length_8_nistxml_sv_ii_list_positive_integer_max_length_4_4(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     8.
@@ -11049,12 +11807,13 @@ def test_list_positive_integer_max_length_8_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-4-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_8_nistxml_sv_ii_list_positive_integer_max_length_4_5(save_xml):
+def test_list_positive_integer_max_length_8_nistxml_sv_ii_list_positive_integer_max_length_4_5(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     8.
@@ -11064,12 +11823,13 @@ def test_list_positive_integer_max_length_8_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-4-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_7_nistxml_sv_ii_list_positive_integer_max_length_3_1(save_xml):
+def test_list_positive_integer_max_length_7_nistxml_sv_ii_list_positive_integer_max_length_3_1(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     7.
@@ -11079,12 +11839,13 @@ def test_list_positive_integer_max_length_7_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-3-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_7_nistxml_sv_ii_list_positive_integer_max_length_3_2(save_xml):
+def test_list_positive_integer_max_length_7_nistxml_sv_ii_list_positive_integer_max_length_3_2(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     7.
@@ -11094,12 +11855,13 @@ def test_list_positive_integer_max_length_7_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-3-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_7_nistxml_sv_ii_list_positive_integer_max_length_3_3(save_xml):
+def test_list_positive_integer_max_length_7_nistxml_sv_ii_list_positive_integer_max_length_3_3(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     7.
@@ -11109,12 +11871,13 @@ def test_list_positive_integer_max_length_7_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-3-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_7_nistxml_sv_ii_list_positive_integer_max_length_3_4(save_xml):
+def test_list_positive_integer_max_length_7_nistxml_sv_ii_list_positive_integer_max_length_3_4(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     7.
@@ -11124,12 +11887,13 @@ def test_list_positive_integer_max_length_7_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-3-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_7_nistxml_sv_ii_list_positive_integer_max_length_3_5(save_xml):
+def test_list_positive_integer_max_length_7_nistxml_sv_ii_list_positive_integer_max_length_3_5(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     7.
@@ -11139,12 +11903,13 @@ def test_list_positive_integer_max_length_7_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-3-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_6_nistxml_sv_ii_list_positive_integer_max_length_2_1(save_xml):
+def test_list_positive_integer_max_length_6_nistxml_sv_ii_list_positive_integer_max_length_2_1(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     6.
@@ -11154,12 +11919,13 @@ def test_list_positive_integer_max_length_6_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-2-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_6_nistxml_sv_ii_list_positive_integer_max_length_2_2(save_xml):
+def test_list_positive_integer_max_length_6_nistxml_sv_ii_list_positive_integer_max_length_2_2(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     6.
@@ -11169,12 +11935,13 @@ def test_list_positive_integer_max_length_6_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-2-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_6_nistxml_sv_ii_list_positive_integer_max_length_2_3(save_xml):
+def test_list_positive_integer_max_length_6_nistxml_sv_ii_list_positive_integer_max_length_2_3(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     6.
@@ -11184,12 +11951,13 @@ def test_list_positive_integer_max_length_6_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-2-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_6_nistxml_sv_ii_list_positive_integer_max_length_2_4(save_xml):
+def test_list_positive_integer_max_length_6_nistxml_sv_ii_list_positive_integer_max_length_2_4(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     6.
@@ -11199,12 +11967,13 @@ def test_list_positive_integer_max_length_6_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-2-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_6_nistxml_sv_ii_list_positive_integer_max_length_2_5(save_xml):
+def test_list_positive_integer_max_length_6_nistxml_sv_ii_list_positive_integer_max_length_2_5(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     6.
@@ -11214,12 +11983,13 @@ def test_list_positive_integer_max_length_6_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-2-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_5_nistxml_sv_ii_list_positive_integer_max_length_1_1(save_xml):
+def test_list_positive_integer_max_length_5_nistxml_sv_ii_list_positive_integer_max_length_1_1(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     5.
@@ -11229,12 +11999,13 @@ def test_list_positive_integer_max_length_5_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-1-1.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_5_nistxml_sv_ii_list_positive_integer_max_length_1_2(save_xml):
+def test_list_positive_integer_max_length_5_nistxml_sv_ii_list_positive_integer_max_length_1_2(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     5.
@@ -11244,12 +12015,13 @@ def test_list_positive_integer_max_length_5_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-1-2.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_5_nistxml_sv_ii_list_positive_integer_max_length_1_3(save_xml):
+def test_list_positive_integer_max_length_5_nistxml_sv_ii_list_positive_integer_max_length_1_3(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     5.
@@ -11259,12 +12031,13 @@ def test_list_positive_integer_max_length_5_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-1-3.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_5_nistxml_sv_ii_list_positive_integer_max_length_1_4(save_xml):
+def test_list_positive_integer_max_length_5_nistxml_sv_ii_list_positive_integer_max_length_1_4(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     5.
@@ -11274,12 +12047,13 @@ def test_list_positive_integer_max_length_5_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-1-4.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_positive_integer_max_length_5_nistxml_sv_ii_list_positive_integer_max_length_1_5(save_xml):
+def test_list_positive_integer_max_length_5_nistxml_sv_ii_list_positive_integer_max_length_1_5(json_360, save_output):
     """
     Type list/positiveInteger is restricted by facet maxLength with value
     5.
@@ -11289,12 +12063,13 @@ def test_list_positive_integer_max_length_5_nistxml_sv_ii_list_positive_integer_
         instance="nistData/list/positiveInteger/Schema+Instance/NISTXML-SV-II-list-positiveInteger-maxLength-1-5.xml",
         class_name="NistschemaSvIiListPositiveIntegerMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_9_nistxml_sv_ii_list_unsigned_byte_enumeration_5_1(save_xml):
+def test_list_unsigned_byte_enumeration_9_nistxml_sv_ii_list_unsigned_byte_enumeration_5_1(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11303,12 +12078,13 @@ def test_list_unsigned_byte_enumeration_9_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-5-1.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_9_nistxml_sv_ii_list_unsigned_byte_enumeration_5_2(save_xml):
+def test_list_unsigned_byte_enumeration_9_nistxml_sv_ii_list_unsigned_byte_enumeration_5_2(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11317,12 +12093,13 @@ def test_list_unsigned_byte_enumeration_9_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-5-2.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_9_nistxml_sv_ii_list_unsigned_byte_enumeration_5_3(save_xml):
+def test_list_unsigned_byte_enumeration_9_nistxml_sv_ii_list_unsigned_byte_enumeration_5_3(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11331,12 +12108,13 @@ def test_list_unsigned_byte_enumeration_9_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-5-3.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_9_nistxml_sv_ii_list_unsigned_byte_enumeration_5_4(save_xml):
+def test_list_unsigned_byte_enumeration_9_nistxml_sv_ii_list_unsigned_byte_enumeration_5_4(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11345,12 +12123,13 @@ def test_list_unsigned_byte_enumeration_9_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-5-4.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_9_nistxml_sv_ii_list_unsigned_byte_enumeration_5_5(save_xml):
+def test_list_unsigned_byte_enumeration_9_nistxml_sv_ii_list_unsigned_byte_enumeration_5_5(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11359,12 +12138,13 @@ def test_list_unsigned_byte_enumeration_9_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-5-5.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_8_nistxml_sv_ii_list_unsigned_byte_enumeration_4_1(save_xml):
+def test_list_unsigned_byte_enumeration_8_nistxml_sv_ii_list_unsigned_byte_enumeration_4_1(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11373,12 +12153,13 @@ def test_list_unsigned_byte_enumeration_8_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-4-1.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_8_nistxml_sv_ii_list_unsigned_byte_enumeration_4_2(save_xml):
+def test_list_unsigned_byte_enumeration_8_nistxml_sv_ii_list_unsigned_byte_enumeration_4_2(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11387,12 +12168,13 @@ def test_list_unsigned_byte_enumeration_8_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-4-2.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_8_nistxml_sv_ii_list_unsigned_byte_enumeration_4_3(save_xml):
+def test_list_unsigned_byte_enumeration_8_nistxml_sv_ii_list_unsigned_byte_enumeration_4_3(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11401,12 +12183,13 @@ def test_list_unsigned_byte_enumeration_8_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-4-3.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_8_nistxml_sv_ii_list_unsigned_byte_enumeration_4_4(save_xml):
+def test_list_unsigned_byte_enumeration_8_nistxml_sv_ii_list_unsigned_byte_enumeration_4_4(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11415,12 +12198,13 @@ def test_list_unsigned_byte_enumeration_8_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-4-4.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_8_nistxml_sv_ii_list_unsigned_byte_enumeration_4_5(save_xml):
+def test_list_unsigned_byte_enumeration_8_nistxml_sv_ii_list_unsigned_byte_enumeration_4_5(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11429,12 +12213,13 @@ def test_list_unsigned_byte_enumeration_8_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-4-5.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_7_nistxml_sv_ii_list_unsigned_byte_enumeration_3_1(save_xml):
+def test_list_unsigned_byte_enumeration_7_nistxml_sv_ii_list_unsigned_byte_enumeration_3_1(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11443,12 +12228,13 @@ def test_list_unsigned_byte_enumeration_7_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-3-1.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_7_nistxml_sv_ii_list_unsigned_byte_enumeration_3_2(save_xml):
+def test_list_unsigned_byte_enumeration_7_nistxml_sv_ii_list_unsigned_byte_enumeration_3_2(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11457,12 +12243,13 @@ def test_list_unsigned_byte_enumeration_7_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-3-2.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_7_nistxml_sv_ii_list_unsigned_byte_enumeration_3_3(save_xml):
+def test_list_unsigned_byte_enumeration_7_nistxml_sv_ii_list_unsigned_byte_enumeration_3_3(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11471,12 +12258,13 @@ def test_list_unsigned_byte_enumeration_7_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-3-3.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_7_nistxml_sv_ii_list_unsigned_byte_enumeration_3_4(save_xml):
+def test_list_unsigned_byte_enumeration_7_nistxml_sv_ii_list_unsigned_byte_enumeration_3_4(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11485,12 +12273,13 @@ def test_list_unsigned_byte_enumeration_7_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-3-4.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_7_nistxml_sv_ii_list_unsigned_byte_enumeration_3_5(save_xml):
+def test_list_unsigned_byte_enumeration_7_nistxml_sv_ii_list_unsigned_byte_enumeration_3_5(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11499,12 +12288,13 @@ def test_list_unsigned_byte_enumeration_7_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-3-5.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_6_nistxml_sv_ii_list_unsigned_byte_enumeration_2_1(save_xml):
+def test_list_unsigned_byte_enumeration_6_nistxml_sv_ii_list_unsigned_byte_enumeration_2_1(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11513,12 +12303,13 @@ def test_list_unsigned_byte_enumeration_6_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-2-1.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_6_nistxml_sv_ii_list_unsigned_byte_enumeration_2_2(save_xml):
+def test_list_unsigned_byte_enumeration_6_nistxml_sv_ii_list_unsigned_byte_enumeration_2_2(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11527,12 +12318,13 @@ def test_list_unsigned_byte_enumeration_6_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-2-2.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_6_nistxml_sv_ii_list_unsigned_byte_enumeration_2_3(save_xml):
+def test_list_unsigned_byte_enumeration_6_nistxml_sv_ii_list_unsigned_byte_enumeration_2_3(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11541,12 +12333,13 @@ def test_list_unsigned_byte_enumeration_6_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-2-3.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_6_nistxml_sv_ii_list_unsigned_byte_enumeration_2_4(save_xml):
+def test_list_unsigned_byte_enumeration_6_nistxml_sv_ii_list_unsigned_byte_enumeration_2_4(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11555,12 +12348,13 @@ def test_list_unsigned_byte_enumeration_6_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-2-4.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_6_nistxml_sv_ii_list_unsigned_byte_enumeration_2_5(save_xml):
+def test_list_unsigned_byte_enumeration_6_nistxml_sv_ii_list_unsigned_byte_enumeration_2_5(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11569,12 +12363,13 @@ def test_list_unsigned_byte_enumeration_6_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-2-5.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_5_nistxml_sv_ii_list_unsigned_byte_enumeration_1_1(save_xml):
+def test_list_unsigned_byte_enumeration_5_nistxml_sv_ii_list_unsigned_byte_enumeration_1_1(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11583,12 +12378,13 @@ def test_list_unsigned_byte_enumeration_5_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-1-1.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_5_nistxml_sv_ii_list_unsigned_byte_enumeration_1_2(save_xml):
+def test_list_unsigned_byte_enumeration_5_nistxml_sv_ii_list_unsigned_byte_enumeration_1_2(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11597,12 +12393,13 @@ def test_list_unsigned_byte_enumeration_5_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-1-2.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_5_nistxml_sv_ii_list_unsigned_byte_enumeration_1_3(save_xml):
+def test_list_unsigned_byte_enumeration_5_nistxml_sv_ii_list_unsigned_byte_enumeration_1_3(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11611,12 +12408,13 @@ def test_list_unsigned_byte_enumeration_5_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-1-3.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_5_nistxml_sv_ii_list_unsigned_byte_enumeration_1_4(save_xml):
+def test_list_unsigned_byte_enumeration_5_nistxml_sv_ii_list_unsigned_byte_enumeration_1_4(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11625,12 +12423,13 @@ def test_list_unsigned_byte_enumeration_5_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-1-4.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_enumeration_5_nistxml_sv_ii_list_unsigned_byte_enumeration_1_5(save_xml):
+def test_list_unsigned_byte_enumeration_5_nistxml_sv_ii_list_unsigned_byte_enumeration_1_5(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet enumeration.
     """
@@ -11639,12 +12438,13 @@ def test_list_unsigned_byte_enumeration_5_nistxml_sv_ii_list_unsigned_byte_enume
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-enumeration-1-5.xml",
         class_name="NistschemaSvIiListUnsignedByteEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_9_nistxml_sv_ii_list_unsigned_byte_pattern_5_1(save_xml):
+def test_list_unsigned_byte_pattern_9_nistxml_sv_ii_list_unsigned_byte_pattern_5_1(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2} \d{3} \d{1} \d{2}.
@@ -11654,12 +12454,13 @@ def test_list_unsigned_byte_pattern_9_nistxml_sv_ii_list_unsigned_byte_pattern_5
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-5-1.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_9_nistxml_sv_ii_list_unsigned_byte_pattern_5_2(save_xml):
+def test_list_unsigned_byte_pattern_9_nistxml_sv_ii_list_unsigned_byte_pattern_5_2(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2} \d{3} \d{1} \d{2}.
@@ -11669,12 +12470,13 @@ def test_list_unsigned_byte_pattern_9_nistxml_sv_ii_list_unsigned_byte_pattern_5
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-5-2.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_9_nistxml_sv_ii_list_unsigned_byte_pattern_5_3(save_xml):
+def test_list_unsigned_byte_pattern_9_nistxml_sv_ii_list_unsigned_byte_pattern_5_3(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2} \d{3} \d{1} \d{2}.
@@ -11684,12 +12486,13 @@ def test_list_unsigned_byte_pattern_9_nistxml_sv_ii_list_unsigned_byte_pattern_5
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-5-3.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_9_nistxml_sv_ii_list_unsigned_byte_pattern_5_4(save_xml):
+def test_list_unsigned_byte_pattern_9_nistxml_sv_ii_list_unsigned_byte_pattern_5_4(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2} \d{3} \d{1} \d{2}.
@@ -11699,12 +12502,13 @@ def test_list_unsigned_byte_pattern_9_nistxml_sv_ii_list_unsigned_byte_pattern_5
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-5-4.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_9_nistxml_sv_ii_list_unsigned_byte_pattern_5_5(save_xml):
+def test_list_unsigned_byte_pattern_9_nistxml_sv_ii_list_unsigned_byte_pattern_5_5(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2} \d{3} \d{1} \d{2}.
@@ -11714,12 +12518,13 @@ def test_list_unsigned_byte_pattern_9_nistxml_sv_ii_list_unsigned_byte_pattern_5
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-5-5.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_8_nistxml_sv_ii_list_unsigned_byte_pattern_4_1(save_xml):
+def test_list_unsigned_byte_pattern_8_nistxml_sv_ii_list_unsigned_byte_pattern_4_1(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2} \d{3} \d{1} \d{2}.
@@ -11729,12 +12534,13 @@ def test_list_unsigned_byte_pattern_8_nistxml_sv_ii_list_unsigned_byte_pattern_4
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-4-1.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_8_nistxml_sv_ii_list_unsigned_byte_pattern_4_2(save_xml):
+def test_list_unsigned_byte_pattern_8_nistxml_sv_ii_list_unsigned_byte_pattern_4_2(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2} \d{3} \d{1} \d{2}.
@@ -11744,12 +12550,13 @@ def test_list_unsigned_byte_pattern_8_nistxml_sv_ii_list_unsigned_byte_pattern_4
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-4-2.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_8_nistxml_sv_ii_list_unsigned_byte_pattern_4_3(save_xml):
+def test_list_unsigned_byte_pattern_8_nistxml_sv_ii_list_unsigned_byte_pattern_4_3(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2} \d{3} \d{1} \d{2}.
@@ -11759,12 +12566,13 @@ def test_list_unsigned_byte_pattern_8_nistxml_sv_ii_list_unsigned_byte_pattern_4
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-4-3.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_8_nistxml_sv_ii_list_unsigned_byte_pattern_4_4(save_xml):
+def test_list_unsigned_byte_pattern_8_nistxml_sv_ii_list_unsigned_byte_pattern_4_4(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2} \d{3} \d{1} \d{2}.
@@ -11774,12 +12582,13 @@ def test_list_unsigned_byte_pattern_8_nistxml_sv_ii_list_unsigned_byte_pattern_4
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-4-4.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_8_nistxml_sv_ii_list_unsigned_byte_pattern_4_5(save_xml):
+def test_list_unsigned_byte_pattern_8_nistxml_sv_ii_list_unsigned_byte_pattern_4_5(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2} \d{3} \d{1} \d{2}.
@@ -11789,12 +12598,13 @@ def test_list_unsigned_byte_pattern_8_nistxml_sv_ii_list_unsigned_byte_pattern_4
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-4-5.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_7_nistxml_sv_ii_list_unsigned_byte_pattern_3_1(save_xml):
+def test_list_unsigned_byte_pattern_7_nistxml_sv_ii_list_unsigned_byte_pattern_3_1(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2} \d{3}.
@@ -11804,12 +12614,13 @@ def test_list_unsigned_byte_pattern_7_nistxml_sv_ii_list_unsigned_byte_pattern_3
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-3-1.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_7_nistxml_sv_ii_list_unsigned_byte_pattern_3_2(save_xml):
+def test_list_unsigned_byte_pattern_7_nistxml_sv_ii_list_unsigned_byte_pattern_3_2(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2} \d{3}.
@@ -11819,12 +12630,13 @@ def test_list_unsigned_byte_pattern_7_nistxml_sv_ii_list_unsigned_byte_pattern_3
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-3-2.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_7_nistxml_sv_ii_list_unsigned_byte_pattern_3_3(save_xml):
+def test_list_unsigned_byte_pattern_7_nistxml_sv_ii_list_unsigned_byte_pattern_3_3(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2} \d{3}.
@@ -11834,12 +12646,13 @@ def test_list_unsigned_byte_pattern_7_nistxml_sv_ii_list_unsigned_byte_pattern_3
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-3-3.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_7_nistxml_sv_ii_list_unsigned_byte_pattern_3_4(save_xml):
+def test_list_unsigned_byte_pattern_7_nistxml_sv_ii_list_unsigned_byte_pattern_3_4(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2} \d{3}.
@@ -11849,12 +12662,13 @@ def test_list_unsigned_byte_pattern_7_nistxml_sv_ii_list_unsigned_byte_pattern_3
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-3-4.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_7_nistxml_sv_ii_list_unsigned_byte_pattern_3_5(save_xml):
+def test_list_unsigned_byte_pattern_7_nistxml_sv_ii_list_unsigned_byte_pattern_3_5(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2} \d{3}.
@@ -11864,12 +12678,13 @@ def test_list_unsigned_byte_pattern_7_nistxml_sv_ii_list_unsigned_byte_pattern_3
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-3-5.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_6_nistxml_sv_ii_list_unsigned_byte_pattern_2_1(save_xml):
+def test_list_unsigned_byte_pattern_6_nistxml_sv_ii_list_unsigned_byte_pattern_2_1(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2} \d{3} \d{1} \d{2}.
@@ -11879,12 +12694,13 @@ def test_list_unsigned_byte_pattern_6_nistxml_sv_ii_list_unsigned_byte_pattern_2
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-2-1.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_6_nistxml_sv_ii_list_unsigned_byte_pattern_2_2(save_xml):
+def test_list_unsigned_byte_pattern_6_nistxml_sv_ii_list_unsigned_byte_pattern_2_2(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2} \d{3} \d{1} \d{2}.
@@ -11894,12 +12710,13 @@ def test_list_unsigned_byte_pattern_6_nistxml_sv_ii_list_unsigned_byte_pattern_2
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-2-2.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_6_nistxml_sv_ii_list_unsigned_byte_pattern_2_3(save_xml):
+def test_list_unsigned_byte_pattern_6_nistxml_sv_ii_list_unsigned_byte_pattern_2_3(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2} \d{3} \d{1} \d{2}.
@@ -11909,12 +12726,13 @@ def test_list_unsigned_byte_pattern_6_nistxml_sv_ii_list_unsigned_byte_pattern_2
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-2-3.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_6_nistxml_sv_ii_list_unsigned_byte_pattern_2_4(save_xml):
+def test_list_unsigned_byte_pattern_6_nistxml_sv_ii_list_unsigned_byte_pattern_2_4(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2} \d{3} \d{1} \d{2}.
@@ -11924,12 +12742,13 @@ def test_list_unsigned_byte_pattern_6_nistxml_sv_ii_list_unsigned_byte_pattern_2
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-2-4.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_6_nistxml_sv_ii_list_unsigned_byte_pattern_2_5(save_xml):
+def test_list_unsigned_byte_pattern_6_nistxml_sv_ii_list_unsigned_byte_pattern_2_5(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2} \d{3} \d{1} \d{2}.
@@ -11939,12 +12758,13 @@ def test_list_unsigned_byte_pattern_6_nistxml_sv_ii_list_unsigned_byte_pattern_2
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-2-5.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_5_nistxml_sv_ii_list_unsigned_byte_pattern_1_1(save_xml):
+def test_list_unsigned_byte_pattern_5_nistxml_sv_ii_list_unsigned_byte_pattern_1_1(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2}.
@@ -11954,12 +12774,13 @@ def test_list_unsigned_byte_pattern_5_nistxml_sv_ii_list_unsigned_byte_pattern_1
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-1-1.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_5_nistxml_sv_ii_list_unsigned_byte_pattern_1_2(save_xml):
+def test_list_unsigned_byte_pattern_5_nistxml_sv_ii_list_unsigned_byte_pattern_1_2(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2}.
@@ -11969,12 +12790,13 @@ def test_list_unsigned_byte_pattern_5_nistxml_sv_ii_list_unsigned_byte_pattern_1
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-1-2.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_5_nistxml_sv_ii_list_unsigned_byte_pattern_1_3(save_xml):
+def test_list_unsigned_byte_pattern_5_nistxml_sv_ii_list_unsigned_byte_pattern_1_3(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2}.
@@ -11984,12 +12806,13 @@ def test_list_unsigned_byte_pattern_5_nistxml_sv_ii_list_unsigned_byte_pattern_1
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-1-3.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_5_nistxml_sv_ii_list_unsigned_byte_pattern_1_4(save_xml):
+def test_list_unsigned_byte_pattern_5_nistxml_sv_ii_list_unsigned_byte_pattern_1_4(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2}.
@@ -11999,12 +12822,13 @@ def test_list_unsigned_byte_pattern_5_nistxml_sv_ii_list_unsigned_byte_pattern_1
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-1-4.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_pattern_5_nistxml_sv_ii_list_unsigned_byte_pattern_1_5(save_xml):
+def test_list_unsigned_byte_pattern_5_nistxml_sv_ii_list_unsigned_byte_pattern_1_5(json_360, save_output):
     r"""
     Type list/unsignedByte is restricted by facet pattern with value \d{1}
     \d{2} \d{3} \d{1} \d{2}.
@@ -12014,12 +12838,13 @@ def test_list_unsigned_byte_pattern_5_nistxml_sv_ii_list_unsigned_byte_pattern_1
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-pattern-1-5.xml",
         class_name="NistschemaSvIiListUnsignedBytePattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_9_nistxml_sv_ii_list_unsigned_byte_length_5_1(save_xml):
+def test_list_unsigned_byte_length_9_nistxml_sv_ii_list_unsigned_byte_length_5_1(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 10.
     """
@@ -12028,12 +12853,13 @@ def test_list_unsigned_byte_length_9_nistxml_sv_ii_list_unsigned_byte_length_5_1
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-5-1.xml",
         class_name="NistschemaSvIiListUnsignedByteLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_9_nistxml_sv_ii_list_unsigned_byte_length_5_2(save_xml):
+def test_list_unsigned_byte_length_9_nistxml_sv_ii_list_unsigned_byte_length_5_2(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 10.
     """
@@ -12042,12 +12868,13 @@ def test_list_unsigned_byte_length_9_nistxml_sv_ii_list_unsigned_byte_length_5_2
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-5-2.xml",
         class_name="NistschemaSvIiListUnsignedByteLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_9_nistxml_sv_ii_list_unsigned_byte_length_5_3(save_xml):
+def test_list_unsigned_byte_length_9_nistxml_sv_ii_list_unsigned_byte_length_5_3(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 10.
     """
@@ -12056,12 +12883,13 @@ def test_list_unsigned_byte_length_9_nistxml_sv_ii_list_unsigned_byte_length_5_3
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-5-3.xml",
         class_name="NistschemaSvIiListUnsignedByteLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_9_nistxml_sv_ii_list_unsigned_byte_length_5_4(save_xml):
+def test_list_unsigned_byte_length_9_nistxml_sv_ii_list_unsigned_byte_length_5_4(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 10.
     """
@@ -12070,12 +12898,13 @@ def test_list_unsigned_byte_length_9_nistxml_sv_ii_list_unsigned_byte_length_5_4
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-5-4.xml",
         class_name="NistschemaSvIiListUnsignedByteLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_9_nistxml_sv_ii_list_unsigned_byte_length_5_5(save_xml):
+def test_list_unsigned_byte_length_9_nistxml_sv_ii_list_unsigned_byte_length_5_5(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 10.
     """
@@ -12084,12 +12913,13 @@ def test_list_unsigned_byte_length_9_nistxml_sv_ii_list_unsigned_byte_length_5_5
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-5-5.xml",
         class_name="NistschemaSvIiListUnsignedByteLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_8_nistxml_sv_ii_list_unsigned_byte_length_4_1(save_xml):
+def test_list_unsigned_byte_length_8_nistxml_sv_ii_list_unsigned_byte_length_4_1(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 8.
     """
@@ -12098,12 +12928,13 @@ def test_list_unsigned_byte_length_8_nistxml_sv_ii_list_unsigned_byte_length_4_1
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-4-1.xml",
         class_name="NistschemaSvIiListUnsignedByteLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_8_nistxml_sv_ii_list_unsigned_byte_length_4_2(save_xml):
+def test_list_unsigned_byte_length_8_nistxml_sv_ii_list_unsigned_byte_length_4_2(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 8.
     """
@@ -12112,12 +12943,13 @@ def test_list_unsigned_byte_length_8_nistxml_sv_ii_list_unsigned_byte_length_4_2
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-4-2.xml",
         class_name="NistschemaSvIiListUnsignedByteLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_8_nistxml_sv_ii_list_unsigned_byte_length_4_3(save_xml):
+def test_list_unsigned_byte_length_8_nistxml_sv_ii_list_unsigned_byte_length_4_3(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 8.
     """
@@ -12126,12 +12958,13 @@ def test_list_unsigned_byte_length_8_nistxml_sv_ii_list_unsigned_byte_length_4_3
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-4-3.xml",
         class_name="NistschemaSvIiListUnsignedByteLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_8_nistxml_sv_ii_list_unsigned_byte_length_4_4(save_xml):
+def test_list_unsigned_byte_length_8_nistxml_sv_ii_list_unsigned_byte_length_4_4(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 8.
     """
@@ -12140,12 +12973,13 @@ def test_list_unsigned_byte_length_8_nistxml_sv_ii_list_unsigned_byte_length_4_4
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-4-4.xml",
         class_name="NistschemaSvIiListUnsignedByteLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_8_nistxml_sv_ii_list_unsigned_byte_length_4_5(save_xml):
+def test_list_unsigned_byte_length_8_nistxml_sv_ii_list_unsigned_byte_length_4_5(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 8.
     """
@@ -12154,12 +12988,13 @@ def test_list_unsigned_byte_length_8_nistxml_sv_ii_list_unsigned_byte_length_4_5
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-4-5.xml",
         class_name="NistschemaSvIiListUnsignedByteLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_7_nistxml_sv_ii_list_unsigned_byte_length_3_1(save_xml):
+def test_list_unsigned_byte_length_7_nistxml_sv_ii_list_unsigned_byte_length_3_1(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 7.
     """
@@ -12168,12 +13003,13 @@ def test_list_unsigned_byte_length_7_nistxml_sv_ii_list_unsigned_byte_length_3_1
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-3-1.xml",
         class_name="NistschemaSvIiListUnsignedByteLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_7_nistxml_sv_ii_list_unsigned_byte_length_3_2(save_xml):
+def test_list_unsigned_byte_length_7_nistxml_sv_ii_list_unsigned_byte_length_3_2(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 7.
     """
@@ -12182,12 +13018,13 @@ def test_list_unsigned_byte_length_7_nistxml_sv_ii_list_unsigned_byte_length_3_2
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-3-2.xml",
         class_name="NistschemaSvIiListUnsignedByteLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_7_nistxml_sv_ii_list_unsigned_byte_length_3_3(save_xml):
+def test_list_unsigned_byte_length_7_nistxml_sv_ii_list_unsigned_byte_length_3_3(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 7.
     """
@@ -12196,12 +13033,13 @@ def test_list_unsigned_byte_length_7_nistxml_sv_ii_list_unsigned_byte_length_3_3
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-3-3.xml",
         class_name="NistschemaSvIiListUnsignedByteLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_7_nistxml_sv_ii_list_unsigned_byte_length_3_4(save_xml):
+def test_list_unsigned_byte_length_7_nistxml_sv_ii_list_unsigned_byte_length_3_4(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 7.
     """
@@ -12210,12 +13048,13 @@ def test_list_unsigned_byte_length_7_nistxml_sv_ii_list_unsigned_byte_length_3_4
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-3-4.xml",
         class_name="NistschemaSvIiListUnsignedByteLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_7_nistxml_sv_ii_list_unsigned_byte_length_3_5(save_xml):
+def test_list_unsigned_byte_length_7_nistxml_sv_ii_list_unsigned_byte_length_3_5(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 7.
     """
@@ -12224,12 +13063,13 @@ def test_list_unsigned_byte_length_7_nistxml_sv_ii_list_unsigned_byte_length_3_5
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-3-5.xml",
         class_name="NistschemaSvIiListUnsignedByteLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_6_nistxml_sv_ii_list_unsigned_byte_length_2_1(save_xml):
+def test_list_unsigned_byte_length_6_nistxml_sv_ii_list_unsigned_byte_length_2_1(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 6.
     """
@@ -12238,12 +13078,13 @@ def test_list_unsigned_byte_length_6_nistxml_sv_ii_list_unsigned_byte_length_2_1
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-2-1.xml",
         class_name="NistschemaSvIiListUnsignedByteLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_6_nistxml_sv_ii_list_unsigned_byte_length_2_2(save_xml):
+def test_list_unsigned_byte_length_6_nistxml_sv_ii_list_unsigned_byte_length_2_2(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 6.
     """
@@ -12252,12 +13093,13 @@ def test_list_unsigned_byte_length_6_nistxml_sv_ii_list_unsigned_byte_length_2_2
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-2-2.xml",
         class_name="NistschemaSvIiListUnsignedByteLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_6_nistxml_sv_ii_list_unsigned_byte_length_2_3(save_xml):
+def test_list_unsigned_byte_length_6_nistxml_sv_ii_list_unsigned_byte_length_2_3(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 6.
     """
@@ -12266,12 +13108,13 @@ def test_list_unsigned_byte_length_6_nistxml_sv_ii_list_unsigned_byte_length_2_3
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-2-3.xml",
         class_name="NistschemaSvIiListUnsignedByteLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_6_nistxml_sv_ii_list_unsigned_byte_length_2_4(save_xml):
+def test_list_unsigned_byte_length_6_nistxml_sv_ii_list_unsigned_byte_length_2_4(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 6.
     """
@@ -12280,12 +13123,13 @@ def test_list_unsigned_byte_length_6_nistxml_sv_ii_list_unsigned_byte_length_2_4
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-2-4.xml",
         class_name="NistschemaSvIiListUnsignedByteLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_6_nistxml_sv_ii_list_unsigned_byte_length_2_5(save_xml):
+def test_list_unsigned_byte_length_6_nistxml_sv_ii_list_unsigned_byte_length_2_5(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 6.
     """
@@ -12294,12 +13138,13 @@ def test_list_unsigned_byte_length_6_nistxml_sv_ii_list_unsigned_byte_length_2_5
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-2-5.xml",
         class_name="NistschemaSvIiListUnsignedByteLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_5_nistxml_sv_ii_list_unsigned_byte_length_1_1(save_xml):
+def test_list_unsigned_byte_length_5_nistxml_sv_ii_list_unsigned_byte_length_1_1(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 5.
     """
@@ -12308,12 +13153,13 @@ def test_list_unsigned_byte_length_5_nistxml_sv_ii_list_unsigned_byte_length_1_1
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-1-1.xml",
         class_name="NistschemaSvIiListUnsignedByteLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_5_nistxml_sv_ii_list_unsigned_byte_length_1_2(save_xml):
+def test_list_unsigned_byte_length_5_nistxml_sv_ii_list_unsigned_byte_length_1_2(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 5.
     """
@@ -12322,12 +13168,13 @@ def test_list_unsigned_byte_length_5_nistxml_sv_ii_list_unsigned_byte_length_1_2
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-1-2.xml",
         class_name="NistschemaSvIiListUnsignedByteLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_5_nistxml_sv_ii_list_unsigned_byte_length_1_3(save_xml):
+def test_list_unsigned_byte_length_5_nistxml_sv_ii_list_unsigned_byte_length_1_3(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 5.
     """
@@ -12336,12 +13183,13 @@ def test_list_unsigned_byte_length_5_nistxml_sv_ii_list_unsigned_byte_length_1_3
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-1-3.xml",
         class_name="NistschemaSvIiListUnsignedByteLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_5_nistxml_sv_ii_list_unsigned_byte_length_1_4(save_xml):
+def test_list_unsigned_byte_length_5_nistxml_sv_ii_list_unsigned_byte_length_1_4(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 5.
     """
@@ -12350,12 +13198,13 @@ def test_list_unsigned_byte_length_5_nistxml_sv_ii_list_unsigned_byte_length_1_4
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-1-4.xml",
         class_name="NistschemaSvIiListUnsignedByteLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_length_5_nistxml_sv_ii_list_unsigned_byte_length_1_5(save_xml):
+def test_list_unsigned_byte_length_5_nistxml_sv_ii_list_unsigned_byte_length_1_5(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet length with value 5.
     """
@@ -12364,12 +13213,13 @@ def test_list_unsigned_byte_length_5_nistxml_sv_ii_list_unsigned_byte_length_1_5
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-length-1-5.xml",
         class_name="NistschemaSvIiListUnsignedByteLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_9_nistxml_sv_ii_list_unsigned_byte_min_length_5_1(save_xml):
+def test_list_unsigned_byte_min_length_9_nistxml_sv_ii_list_unsigned_byte_min_length_5_1(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 10.
     """
@@ -12378,12 +13228,13 @@ def test_list_unsigned_byte_min_length_9_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-5-1.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_9_nistxml_sv_ii_list_unsigned_byte_min_length_5_2(save_xml):
+def test_list_unsigned_byte_min_length_9_nistxml_sv_ii_list_unsigned_byte_min_length_5_2(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 10.
     """
@@ -12392,12 +13243,13 @@ def test_list_unsigned_byte_min_length_9_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-5-2.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_9_nistxml_sv_ii_list_unsigned_byte_min_length_5_3(save_xml):
+def test_list_unsigned_byte_min_length_9_nistxml_sv_ii_list_unsigned_byte_min_length_5_3(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 10.
     """
@@ -12406,12 +13258,13 @@ def test_list_unsigned_byte_min_length_9_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-5-3.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_9_nistxml_sv_ii_list_unsigned_byte_min_length_5_4(save_xml):
+def test_list_unsigned_byte_min_length_9_nistxml_sv_ii_list_unsigned_byte_min_length_5_4(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 10.
     """
@@ -12420,12 +13273,13 @@ def test_list_unsigned_byte_min_length_9_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-5-4.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_9_nistxml_sv_ii_list_unsigned_byte_min_length_5_5(save_xml):
+def test_list_unsigned_byte_min_length_9_nistxml_sv_ii_list_unsigned_byte_min_length_5_5(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 10.
     """
@@ -12434,12 +13288,13 @@ def test_list_unsigned_byte_min_length_9_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-5-5.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_8_nistxml_sv_ii_list_unsigned_byte_min_length_4_1(save_xml):
+def test_list_unsigned_byte_min_length_8_nistxml_sv_ii_list_unsigned_byte_min_length_4_1(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 8.
     """
@@ -12448,12 +13303,13 @@ def test_list_unsigned_byte_min_length_8_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-4-1.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_8_nistxml_sv_ii_list_unsigned_byte_min_length_4_2(save_xml):
+def test_list_unsigned_byte_min_length_8_nistxml_sv_ii_list_unsigned_byte_min_length_4_2(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 8.
     """
@@ -12462,12 +13318,13 @@ def test_list_unsigned_byte_min_length_8_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-4-2.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_8_nistxml_sv_ii_list_unsigned_byte_min_length_4_3(save_xml):
+def test_list_unsigned_byte_min_length_8_nistxml_sv_ii_list_unsigned_byte_min_length_4_3(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 8.
     """
@@ -12476,12 +13333,13 @@ def test_list_unsigned_byte_min_length_8_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-4-3.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_8_nistxml_sv_ii_list_unsigned_byte_min_length_4_4(save_xml):
+def test_list_unsigned_byte_min_length_8_nistxml_sv_ii_list_unsigned_byte_min_length_4_4(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 8.
     """
@@ -12490,12 +13348,13 @@ def test_list_unsigned_byte_min_length_8_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-4-4.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_8_nistxml_sv_ii_list_unsigned_byte_min_length_4_5(save_xml):
+def test_list_unsigned_byte_min_length_8_nistxml_sv_ii_list_unsigned_byte_min_length_4_5(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 8.
     """
@@ -12504,12 +13363,13 @@ def test_list_unsigned_byte_min_length_8_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-4-5.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_7_nistxml_sv_ii_list_unsigned_byte_min_length_3_1(save_xml):
+def test_list_unsigned_byte_min_length_7_nistxml_sv_ii_list_unsigned_byte_min_length_3_1(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 7.
     """
@@ -12518,12 +13378,13 @@ def test_list_unsigned_byte_min_length_7_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-3-1.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_7_nistxml_sv_ii_list_unsigned_byte_min_length_3_2(save_xml):
+def test_list_unsigned_byte_min_length_7_nistxml_sv_ii_list_unsigned_byte_min_length_3_2(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 7.
     """
@@ -12532,12 +13393,13 @@ def test_list_unsigned_byte_min_length_7_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-3-2.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_7_nistxml_sv_ii_list_unsigned_byte_min_length_3_3(save_xml):
+def test_list_unsigned_byte_min_length_7_nistxml_sv_ii_list_unsigned_byte_min_length_3_3(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 7.
     """
@@ -12546,12 +13408,13 @@ def test_list_unsigned_byte_min_length_7_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-3-3.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_7_nistxml_sv_ii_list_unsigned_byte_min_length_3_4(save_xml):
+def test_list_unsigned_byte_min_length_7_nistxml_sv_ii_list_unsigned_byte_min_length_3_4(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 7.
     """
@@ -12560,12 +13423,13 @@ def test_list_unsigned_byte_min_length_7_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-3-4.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_7_nistxml_sv_ii_list_unsigned_byte_min_length_3_5(save_xml):
+def test_list_unsigned_byte_min_length_7_nistxml_sv_ii_list_unsigned_byte_min_length_3_5(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 7.
     """
@@ -12574,12 +13438,13 @@ def test_list_unsigned_byte_min_length_7_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-3-5.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_6_nistxml_sv_ii_list_unsigned_byte_min_length_2_1(save_xml):
+def test_list_unsigned_byte_min_length_6_nistxml_sv_ii_list_unsigned_byte_min_length_2_1(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 6.
     """
@@ -12588,12 +13453,13 @@ def test_list_unsigned_byte_min_length_6_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-2-1.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_6_nistxml_sv_ii_list_unsigned_byte_min_length_2_2(save_xml):
+def test_list_unsigned_byte_min_length_6_nistxml_sv_ii_list_unsigned_byte_min_length_2_2(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 6.
     """
@@ -12602,12 +13468,13 @@ def test_list_unsigned_byte_min_length_6_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-2-2.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_6_nistxml_sv_ii_list_unsigned_byte_min_length_2_3(save_xml):
+def test_list_unsigned_byte_min_length_6_nistxml_sv_ii_list_unsigned_byte_min_length_2_3(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 6.
     """
@@ -12616,12 +13483,13 @@ def test_list_unsigned_byte_min_length_6_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-2-3.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_6_nistxml_sv_ii_list_unsigned_byte_min_length_2_4(save_xml):
+def test_list_unsigned_byte_min_length_6_nistxml_sv_ii_list_unsigned_byte_min_length_2_4(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 6.
     """
@@ -12630,12 +13498,13 @@ def test_list_unsigned_byte_min_length_6_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-2-4.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_6_nistxml_sv_ii_list_unsigned_byte_min_length_2_5(save_xml):
+def test_list_unsigned_byte_min_length_6_nistxml_sv_ii_list_unsigned_byte_min_length_2_5(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 6.
     """
@@ -12644,12 +13513,13 @@ def test_list_unsigned_byte_min_length_6_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-2-5.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_5_nistxml_sv_ii_list_unsigned_byte_min_length_1_1(save_xml):
+def test_list_unsigned_byte_min_length_5_nistxml_sv_ii_list_unsigned_byte_min_length_1_1(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 5.
     """
@@ -12658,12 +13528,13 @@ def test_list_unsigned_byte_min_length_5_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-1-1.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_5_nistxml_sv_ii_list_unsigned_byte_min_length_1_2(save_xml):
+def test_list_unsigned_byte_min_length_5_nistxml_sv_ii_list_unsigned_byte_min_length_1_2(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 5.
     """
@@ -12672,12 +13543,13 @@ def test_list_unsigned_byte_min_length_5_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-1-2.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_5_nistxml_sv_ii_list_unsigned_byte_min_length_1_3(save_xml):
+def test_list_unsigned_byte_min_length_5_nistxml_sv_ii_list_unsigned_byte_min_length_1_3(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 5.
     """
@@ -12686,12 +13558,13 @@ def test_list_unsigned_byte_min_length_5_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-1-3.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_5_nistxml_sv_ii_list_unsigned_byte_min_length_1_4(save_xml):
+def test_list_unsigned_byte_min_length_5_nistxml_sv_ii_list_unsigned_byte_min_length_1_4(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 5.
     """
@@ -12700,12 +13573,13 @@ def test_list_unsigned_byte_min_length_5_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-1-4.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_min_length_5_nistxml_sv_ii_list_unsigned_byte_min_length_1_5(save_xml):
+def test_list_unsigned_byte_min_length_5_nistxml_sv_ii_list_unsigned_byte_min_length_1_5(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet minLength with value 5.
     """
@@ -12714,12 +13588,13 @@ def test_list_unsigned_byte_min_length_5_nistxml_sv_ii_list_unsigned_byte_min_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-minLength-1-5.xml",
         class_name="NistschemaSvIiListUnsignedByteMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_9_nistxml_sv_ii_list_unsigned_byte_max_length_5_1(save_xml):
+def test_list_unsigned_byte_max_length_9_nistxml_sv_ii_list_unsigned_byte_max_length_5_1(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 10.
     """
@@ -12728,12 +13603,13 @@ def test_list_unsigned_byte_max_length_9_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-5-1.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_9_nistxml_sv_ii_list_unsigned_byte_max_length_5_2(save_xml):
+def test_list_unsigned_byte_max_length_9_nistxml_sv_ii_list_unsigned_byte_max_length_5_2(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 10.
     """
@@ -12742,12 +13618,13 @@ def test_list_unsigned_byte_max_length_9_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-5-2.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_9_nistxml_sv_ii_list_unsigned_byte_max_length_5_3(save_xml):
+def test_list_unsigned_byte_max_length_9_nistxml_sv_ii_list_unsigned_byte_max_length_5_3(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 10.
     """
@@ -12756,12 +13633,13 @@ def test_list_unsigned_byte_max_length_9_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-5-3.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_9_nistxml_sv_ii_list_unsigned_byte_max_length_5_4(save_xml):
+def test_list_unsigned_byte_max_length_9_nistxml_sv_ii_list_unsigned_byte_max_length_5_4(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 10.
     """
@@ -12770,12 +13648,13 @@ def test_list_unsigned_byte_max_length_9_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-5-4.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_9_nistxml_sv_ii_list_unsigned_byte_max_length_5_5(save_xml):
+def test_list_unsigned_byte_max_length_9_nistxml_sv_ii_list_unsigned_byte_max_length_5_5(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 10.
     """
@@ -12784,12 +13663,13 @@ def test_list_unsigned_byte_max_length_9_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-5-5.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_8_nistxml_sv_ii_list_unsigned_byte_max_length_4_1(save_xml):
+def test_list_unsigned_byte_max_length_8_nistxml_sv_ii_list_unsigned_byte_max_length_4_1(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 8.
     """
@@ -12798,12 +13678,13 @@ def test_list_unsigned_byte_max_length_8_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-4-1.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_8_nistxml_sv_ii_list_unsigned_byte_max_length_4_2(save_xml):
+def test_list_unsigned_byte_max_length_8_nistxml_sv_ii_list_unsigned_byte_max_length_4_2(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 8.
     """
@@ -12812,12 +13693,13 @@ def test_list_unsigned_byte_max_length_8_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-4-2.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_8_nistxml_sv_ii_list_unsigned_byte_max_length_4_3(save_xml):
+def test_list_unsigned_byte_max_length_8_nistxml_sv_ii_list_unsigned_byte_max_length_4_3(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 8.
     """
@@ -12826,12 +13708,13 @@ def test_list_unsigned_byte_max_length_8_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-4-3.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_8_nistxml_sv_ii_list_unsigned_byte_max_length_4_4(save_xml):
+def test_list_unsigned_byte_max_length_8_nistxml_sv_ii_list_unsigned_byte_max_length_4_4(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 8.
     """
@@ -12840,12 +13723,13 @@ def test_list_unsigned_byte_max_length_8_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-4-4.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_8_nistxml_sv_ii_list_unsigned_byte_max_length_4_5(save_xml):
+def test_list_unsigned_byte_max_length_8_nistxml_sv_ii_list_unsigned_byte_max_length_4_5(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 8.
     """
@@ -12854,12 +13738,13 @@ def test_list_unsigned_byte_max_length_8_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-4-5.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_7_nistxml_sv_ii_list_unsigned_byte_max_length_3_1(save_xml):
+def test_list_unsigned_byte_max_length_7_nistxml_sv_ii_list_unsigned_byte_max_length_3_1(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 7.
     """
@@ -12868,12 +13753,13 @@ def test_list_unsigned_byte_max_length_7_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-3-1.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_7_nistxml_sv_ii_list_unsigned_byte_max_length_3_2(save_xml):
+def test_list_unsigned_byte_max_length_7_nistxml_sv_ii_list_unsigned_byte_max_length_3_2(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 7.
     """
@@ -12882,12 +13768,13 @@ def test_list_unsigned_byte_max_length_7_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-3-2.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_7_nistxml_sv_ii_list_unsigned_byte_max_length_3_3(save_xml):
+def test_list_unsigned_byte_max_length_7_nistxml_sv_ii_list_unsigned_byte_max_length_3_3(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 7.
     """
@@ -12896,12 +13783,13 @@ def test_list_unsigned_byte_max_length_7_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-3-3.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_7_nistxml_sv_ii_list_unsigned_byte_max_length_3_4(save_xml):
+def test_list_unsigned_byte_max_length_7_nistxml_sv_ii_list_unsigned_byte_max_length_3_4(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 7.
     """
@@ -12910,12 +13798,13 @@ def test_list_unsigned_byte_max_length_7_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-3-4.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_7_nistxml_sv_ii_list_unsigned_byte_max_length_3_5(save_xml):
+def test_list_unsigned_byte_max_length_7_nistxml_sv_ii_list_unsigned_byte_max_length_3_5(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 7.
     """
@@ -12924,12 +13813,13 @@ def test_list_unsigned_byte_max_length_7_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-3-5.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_6_nistxml_sv_ii_list_unsigned_byte_max_length_2_1(save_xml):
+def test_list_unsigned_byte_max_length_6_nistxml_sv_ii_list_unsigned_byte_max_length_2_1(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 6.
     """
@@ -12938,12 +13828,13 @@ def test_list_unsigned_byte_max_length_6_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-2-1.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_6_nistxml_sv_ii_list_unsigned_byte_max_length_2_2(save_xml):
+def test_list_unsigned_byte_max_length_6_nistxml_sv_ii_list_unsigned_byte_max_length_2_2(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 6.
     """
@@ -12952,12 +13843,13 @@ def test_list_unsigned_byte_max_length_6_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-2-2.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_6_nistxml_sv_ii_list_unsigned_byte_max_length_2_3(save_xml):
+def test_list_unsigned_byte_max_length_6_nistxml_sv_ii_list_unsigned_byte_max_length_2_3(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 6.
     """
@@ -12966,12 +13858,13 @@ def test_list_unsigned_byte_max_length_6_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-2-3.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_6_nistxml_sv_ii_list_unsigned_byte_max_length_2_4(save_xml):
+def test_list_unsigned_byte_max_length_6_nistxml_sv_ii_list_unsigned_byte_max_length_2_4(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 6.
     """
@@ -12980,12 +13873,13 @@ def test_list_unsigned_byte_max_length_6_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-2-4.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_6_nistxml_sv_ii_list_unsigned_byte_max_length_2_5(save_xml):
+def test_list_unsigned_byte_max_length_6_nistxml_sv_ii_list_unsigned_byte_max_length_2_5(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 6.
     """
@@ -12994,12 +13888,13 @@ def test_list_unsigned_byte_max_length_6_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-2-5.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_5_nistxml_sv_ii_list_unsigned_byte_max_length_1_1(save_xml):
+def test_list_unsigned_byte_max_length_5_nistxml_sv_ii_list_unsigned_byte_max_length_1_1(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 5.
     """
@@ -13008,12 +13903,13 @@ def test_list_unsigned_byte_max_length_5_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-1-1.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_5_nistxml_sv_ii_list_unsigned_byte_max_length_1_2(save_xml):
+def test_list_unsigned_byte_max_length_5_nistxml_sv_ii_list_unsigned_byte_max_length_1_2(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 5.
     """
@@ -13022,12 +13918,13 @@ def test_list_unsigned_byte_max_length_5_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-1-2.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_5_nistxml_sv_ii_list_unsigned_byte_max_length_1_3(save_xml):
+def test_list_unsigned_byte_max_length_5_nistxml_sv_ii_list_unsigned_byte_max_length_1_3(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 5.
     """
@@ -13036,12 +13933,13 @@ def test_list_unsigned_byte_max_length_5_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-1-3.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_5_nistxml_sv_ii_list_unsigned_byte_max_length_1_4(save_xml):
+def test_list_unsigned_byte_max_length_5_nistxml_sv_ii_list_unsigned_byte_max_length_1_4(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 5.
     """
@@ -13050,12 +13948,13 @@ def test_list_unsigned_byte_max_length_5_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-1-4.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_byte_max_length_5_nistxml_sv_ii_list_unsigned_byte_max_length_1_5(save_xml):
+def test_list_unsigned_byte_max_length_5_nistxml_sv_ii_list_unsigned_byte_max_length_1_5(json_360, save_output):
     """
     Type list/unsignedByte is restricted by facet maxLength with value 5.
     """
@@ -13064,12 +13963,13 @@ def test_list_unsigned_byte_max_length_5_nistxml_sv_ii_list_unsigned_byte_max_le
         instance="nistData/list/unsignedByte/Schema+Instance/NISTXML-SV-II-list-unsignedByte-maxLength-1-5.xml",
         class_name="NistschemaSvIiListUnsignedByteMaxLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_9_nistxml_sv_ii_list_unsigned_short_enumeration_5_1(save_xml):
+def test_list_unsigned_short_enumeration_9_nistxml_sv_ii_list_unsigned_short_enumeration_5_1(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13078,12 +13978,13 @@ def test_list_unsigned_short_enumeration_9_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-5-1.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_9_nistxml_sv_ii_list_unsigned_short_enumeration_5_2(save_xml):
+def test_list_unsigned_short_enumeration_9_nistxml_sv_ii_list_unsigned_short_enumeration_5_2(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13092,12 +13993,13 @@ def test_list_unsigned_short_enumeration_9_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-5-2.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_9_nistxml_sv_ii_list_unsigned_short_enumeration_5_3(save_xml):
+def test_list_unsigned_short_enumeration_9_nistxml_sv_ii_list_unsigned_short_enumeration_5_3(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13106,12 +14008,13 @@ def test_list_unsigned_short_enumeration_9_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-5-3.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_9_nistxml_sv_ii_list_unsigned_short_enumeration_5_4(save_xml):
+def test_list_unsigned_short_enumeration_9_nistxml_sv_ii_list_unsigned_short_enumeration_5_4(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13120,12 +14023,13 @@ def test_list_unsigned_short_enumeration_9_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-5-4.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_9_nistxml_sv_ii_list_unsigned_short_enumeration_5_5(save_xml):
+def test_list_unsigned_short_enumeration_9_nistxml_sv_ii_list_unsigned_short_enumeration_5_5(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13134,12 +14038,13 @@ def test_list_unsigned_short_enumeration_9_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-5-5.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_8_nistxml_sv_ii_list_unsigned_short_enumeration_4_1(save_xml):
+def test_list_unsigned_short_enumeration_8_nistxml_sv_ii_list_unsigned_short_enumeration_4_1(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13148,12 +14053,13 @@ def test_list_unsigned_short_enumeration_8_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-4-1.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_8_nistxml_sv_ii_list_unsigned_short_enumeration_4_2(save_xml):
+def test_list_unsigned_short_enumeration_8_nistxml_sv_ii_list_unsigned_short_enumeration_4_2(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13162,12 +14068,13 @@ def test_list_unsigned_short_enumeration_8_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-4-2.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_8_nistxml_sv_ii_list_unsigned_short_enumeration_4_3(save_xml):
+def test_list_unsigned_short_enumeration_8_nistxml_sv_ii_list_unsigned_short_enumeration_4_3(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13176,12 +14083,13 @@ def test_list_unsigned_short_enumeration_8_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-4-3.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_8_nistxml_sv_ii_list_unsigned_short_enumeration_4_4(save_xml):
+def test_list_unsigned_short_enumeration_8_nistxml_sv_ii_list_unsigned_short_enumeration_4_4(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13190,12 +14098,13 @@ def test_list_unsigned_short_enumeration_8_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-4-4.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_8_nistxml_sv_ii_list_unsigned_short_enumeration_4_5(save_xml):
+def test_list_unsigned_short_enumeration_8_nistxml_sv_ii_list_unsigned_short_enumeration_4_5(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13204,12 +14113,13 @@ def test_list_unsigned_short_enumeration_8_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-4-5.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_7_nistxml_sv_ii_list_unsigned_short_enumeration_3_1(save_xml):
+def test_list_unsigned_short_enumeration_7_nistxml_sv_ii_list_unsigned_short_enumeration_3_1(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13218,12 +14128,13 @@ def test_list_unsigned_short_enumeration_7_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-3-1.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_7_nistxml_sv_ii_list_unsigned_short_enumeration_3_2(save_xml):
+def test_list_unsigned_short_enumeration_7_nistxml_sv_ii_list_unsigned_short_enumeration_3_2(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13232,12 +14143,13 @@ def test_list_unsigned_short_enumeration_7_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-3-2.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_7_nistxml_sv_ii_list_unsigned_short_enumeration_3_3(save_xml):
+def test_list_unsigned_short_enumeration_7_nistxml_sv_ii_list_unsigned_short_enumeration_3_3(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13246,12 +14158,13 @@ def test_list_unsigned_short_enumeration_7_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-3-3.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_7_nistxml_sv_ii_list_unsigned_short_enumeration_3_4(save_xml):
+def test_list_unsigned_short_enumeration_7_nistxml_sv_ii_list_unsigned_short_enumeration_3_4(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13260,12 +14173,13 @@ def test_list_unsigned_short_enumeration_7_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-3-4.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_7_nistxml_sv_ii_list_unsigned_short_enumeration_3_5(save_xml):
+def test_list_unsigned_short_enumeration_7_nistxml_sv_ii_list_unsigned_short_enumeration_3_5(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13274,12 +14188,13 @@ def test_list_unsigned_short_enumeration_7_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-3-5.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_6_nistxml_sv_ii_list_unsigned_short_enumeration_2_1(save_xml):
+def test_list_unsigned_short_enumeration_6_nistxml_sv_ii_list_unsigned_short_enumeration_2_1(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13288,12 +14203,13 @@ def test_list_unsigned_short_enumeration_6_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-2-1.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_6_nistxml_sv_ii_list_unsigned_short_enumeration_2_2(save_xml):
+def test_list_unsigned_short_enumeration_6_nistxml_sv_ii_list_unsigned_short_enumeration_2_2(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13302,12 +14218,13 @@ def test_list_unsigned_short_enumeration_6_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-2-2.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_6_nistxml_sv_ii_list_unsigned_short_enumeration_2_3(save_xml):
+def test_list_unsigned_short_enumeration_6_nistxml_sv_ii_list_unsigned_short_enumeration_2_3(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13316,12 +14233,13 @@ def test_list_unsigned_short_enumeration_6_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-2-3.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_6_nistxml_sv_ii_list_unsigned_short_enumeration_2_4(save_xml):
+def test_list_unsigned_short_enumeration_6_nistxml_sv_ii_list_unsigned_short_enumeration_2_4(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13330,12 +14248,13 @@ def test_list_unsigned_short_enumeration_6_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-2-4.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_6_nistxml_sv_ii_list_unsigned_short_enumeration_2_5(save_xml):
+def test_list_unsigned_short_enumeration_6_nistxml_sv_ii_list_unsigned_short_enumeration_2_5(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13344,12 +14263,13 @@ def test_list_unsigned_short_enumeration_6_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-2-5.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_5_nistxml_sv_ii_list_unsigned_short_enumeration_1_1(save_xml):
+def test_list_unsigned_short_enumeration_5_nistxml_sv_ii_list_unsigned_short_enumeration_1_1(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13358,12 +14278,13 @@ def test_list_unsigned_short_enumeration_5_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-1-1.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_5_nistxml_sv_ii_list_unsigned_short_enumeration_1_2(save_xml):
+def test_list_unsigned_short_enumeration_5_nistxml_sv_ii_list_unsigned_short_enumeration_1_2(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13372,12 +14293,13 @@ def test_list_unsigned_short_enumeration_5_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-1-2.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_5_nistxml_sv_ii_list_unsigned_short_enumeration_1_3(save_xml):
+def test_list_unsigned_short_enumeration_5_nistxml_sv_ii_list_unsigned_short_enumeration_1_3(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13386,12 +14308,13 @@ def test_list_unsigned_short_enumeration_5_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-1-3.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_5_nistxml_sv_ii_list_unsigned_short_enumeration_1_4(save_xml):
+def test_list_unsigned_short_enumeration_5_nistxml_sv_ii_list_unsigned_short_enumeration_1_4(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13400,12 +14323,13 @@ def test_list_unsigned_short_enumeration_5_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-1-4.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_enumeration_5_nistxml_sv_ii_list_unsigned_short_enumeration_1_5(save_xml):
+def test_list_unsigned_short_enumeration_5_nistxml_sv_ii_list_unsigned_short_enumeration_1_5(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet enumeration.
     """
@@ -13414,12 +14338,13 @@ def test_list_unsigned_short_enumeration_5_nistxml_sv_ii_list_unsigned_short_enu
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-enumeration-1-5.xml",
         class_name="NistschemaSvIiListUnsignedShortEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_9_nistxml_sv_ii_list_unsigned_short_pattern_5_1(save_xml):
+def test_list_unsigned_short_pattern_9_nistxml_sv_ii_list_unsigned_short_pattern_5_1(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5}.
@@ -13429,12 +14354,13 @@ def test_list_unsigned_short_pattern_9_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-5-1.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_9_nistxml_sv_ii_list_unsigned_short_pattern_5_2(save_xml):
+def test_list_unsigned_short_pattern_9_nistxml_sv_ii_list_unsigned_short_pattern_5_2(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5}.
@@ -13444,12 +14370,13 @@ def test_list_unsigned_short_pattern_9_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-5-2.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_9_nistxml_sv_ii_list_unsigned_short_pattern_5_3(save_xml):
+def test_list_unsigned_short_pattern_9_nistxml_sv_ii_list_unsigned_short_pattern_5_3(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5}.
@@ -13459,12 +14386,13 @@ def test_list_unsigned_short_pattern_9_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-5-3.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_9_nistxml_sv_ii_list_unsigned_short_pattern_5_4(save_xml):
+def test_list_unsigned_short_pattern_9_nistxml_sv_ii_list_unsigned_short_pattern_5_4(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5}.
@@ -13474,12 +14402,13 @@ def test_list_unsigned_short_pattern_9_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-5-4.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_9_nistxml_sv_ii_list_unsigned_short_pattern_5_5(save_xml):
+def test_list_unsigned_short_pattern_9_nistxml_sv_ii_list_unsigned_short_pattern_5_5(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5}.
@@ -13489,12 +14418,13 @@ def test_list_unsigned_short_pattern_9_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-5-5.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_8_nistxml_sv_ii_list_unsigned_short_pattern_4_1(save_xml):
+def test_list_unsigned_short_pattern_8_nistxml_sv_ii_list_unsigned_short_pattern_4_1(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5} \d{1}.
@@ -13504,12 +14434,13 @@ def test_list_unsigned_short_pattern_8_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-4-1.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_8_nistxml_sv_ii_list_unsigned_short_pattern_4_2(save_xml):
+def test_list_unsigned_short_pattern_8_nistxml_sv_ii_list_unsigned_short_pattern_4_2(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5} \d{1}.
@@ -13519,12 +14450,13 @@ def test_list_unsigned_short_pattern_8_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-4-2.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_8_nistxml_sv_ii_list_unsigned_short_pattern_4_3(save_xml):
+def test_list_unsigned_short_pattern_8_nistxml_sv_ii_list_unsigned_short_pattern_4_3(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5} \d{1}.
@@ -13534,12 +14466,13 @@ def test_list_unsigned_short_pattern_8_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-4-3.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_8_nistxml_sv_ii_list_unsigned_short_pattern_4_4(save_xml):
+def test_list_unsigned_short_pattern_8_nistxml_sv_ii_list_unsigned_short_pattern_4_4(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5} \d{1}.
@@ -13549,12 +14482,13 @@ def test_list_unsigned_short_pattern_8_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-4-4.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_8_nistxml_sv_ii_list_unsigned_short_pattern_4_5(save_xml):
+def test_list_unsigned_short_pattern_8_nistxml_sv_ii_list_unsigned_short_pattern_4_5(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5} \d{1}.
@@ -13564,12 +14498,13 @@ def test_list_unsigned_short_pattern_8_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-4-5.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_7_nistxml_sv_ii_list_unsigned_short_pattern_3_1(save_xml):
+def test_list_unsigned_short_pattern_7_nistxml_sv_ii_list_unsigned_short_pattern_3_1(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5} \d{1}.
@@ -13579,12 +14514,13 @@ def test_list_unsigned_short_pattern_7_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-3-1.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_7_nistxml_sv_ii_list_unsigned_short_pattern_3_2(save_xml):
+def test_list_unsigned_short_pattern_7_nistxml_sv_ii_list_unsigned_short_pattern_3_2(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5} \d{1}.
@@ -13594,12 +14530,13 @@ def test_list_unsigned_short_pattern_7_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-3-2.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_7_nistxml_sv_ii_list_unsigned_short_pattern_3_3(save_xml):
+def test_list_unsigned_short_pattern_7_nistxml_sv_ii_list_unsigned_short_pattern_3_3(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5} \d{1}.
@@ -13609,12 +14546,13 @@ def test_list_unsigned_short_pattern_7_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-3-3.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_7_nistxml_sv_ii_list_unsigned_short_pattern_3_4(save_xml):
+def test_list_unsigned_short_pattern_7_nistxml_sv_ii_list_unsigned_short_pattern_3_4(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5} \d{1}.
@@ -13624,12 +14562,13 @@ def test_list_unsigned_short_pattern_7_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-3-4.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_7_nistxml_sv_ii_list_unsigned_short_pattern_3_5(save_xml):
+def test_list_unsigned_short_pattern_7_nistxml_sv_ii_list_unsigned_short_pattern_3_5(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5} \d{1}.
@@ -13639,12 +14578,13 @@ def test_list_unsigned_short_pattern_7_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-3-5.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_6_nistxml_sv_ii_list_unsigned_short_pattern_2_1(save_xml):
+def test_list_unsigned_short_pattern_6_nistxml_sv_ii_list_unsigned_short_pattern_2_1(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5} \d{1} \d{2} \d{3} \d{4}.
@@ -13654,12 +14594,13 @@ def test_list_unsigned_short_pattern_6_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-2-1.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_6_nistxml_sv_ii_list_unsigned_short_pattern_2_2(save_xml):
+def test_list_unsigned_short_pattern_6_nistxml_sv_ii_list_unsigned_short_pattern_2_2(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5} \d{1} \d{2} \d{3} \d{4}.
@@ -13669,12 +14610,13 @@ def test_list_unsigned_short_pattern_6_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-2-2.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_6_nistxml_sv_ii_list_unsigned_short_pattern_2_3(save_xml):
+def test_list_unsigned_short_pattern_6_nistxml_sv_ii_list_unsigned_short_pattern_2_3(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5} \d{1} \d{2} \d{3} \d{4}.
@@ -13684,12 +14626,13 @@ def test_list_unsigned_short_pattern_6_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-2-3.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_6_nistxml_sv_ii_list_unsigned_short_pattern_2_4(save_xml):
+def test_list_unsigned_short_pattern_6_nistxml_sv_ii_list_unsigned_short_pattern_2_4(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5} \d{1} \d{2} \d{3} \d{4}.
@@ -13699,12 +14642,13 @@ def test_list_unsigned_short_pattern_6_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-2-4.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_6_nistxml_sv_ii_list_unsigned_short_pattern_2_5(save_xml):
+def test_list_unsigned_short_pattern_6_nistxml_sv_ii_list_unsigned_short_pattern_2_5(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5} \d{1} \d{2} \d{3} \d{4}.
@@ -13714,12 +14658,13 @@ def test_list_unsigned_short_pattern_6_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-2-5.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_5_nistxml_sv_ii_list_unsigned_short_pattern_1_1(save_xml):
+def test_list_unsigned_short_pattern_5_nistxml_sv_ii_list_unsigned_short_pattern_1_1(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5}.
@@ -13729,12 +14674,13 @@ def test_list_unsigned_short_pattern_5_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-1-1.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_5_nistxml_sv_ii_list_unsigned_short_pattern_1_2(save_xml):
+def test_list_unsigned_short_pattern_5_nistxml_sv_ii_list_unsigned_short_pattern_1_2(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5}.
@@ -13744,12 +14690,13 @@ def test_list_unsigned_short_pattern_5_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-1-2.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_5_nistxml_sv_ii_list_unsigned_short_pattern_1_3(save_xml):
+def test_list_unsigned_short_pattern_5_nistxml_sv_ii_list_unsigned_short_pattern_1_3(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5}.
@@ -13759,12 +14706,13 @@ def test_list_unsigned_short_pattern_5_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-1-3.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_5_nistxml_sv_ii_list_unsigned_short_pattern_1_4(save_xml):
+def test_list_unsigned_short_pattern_5_nistxml_sv_ii_list_unsigned_short_pattern_1_4(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5}.
@@ -13774,12 +14722,13 @@ def test_list_unsigned_short_pattern_5_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-1-4.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_pattern_5_nistxml_sv_ii_list_unsigned_short_pattern_1_5(save_xml):
+def test_list_unsigned_short_pattern_5_nistxml_sv_ii_list_unsigned_short_pattern_1_5(json_360, save_output):
     r"""
     Type list/unsignedShort is restricted by facet pattern with value
     \d{1} \d{2} \d{3} \d{4} \d{5}.
@@ -13789,12 +14738,13 @@ def test_list_unsigned_short_pattern_5_nistxml_sv_ii_list_unsigned_short_pattern
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-pattern-1-5.xml",
         class_name="NistschemaSvIiListUnsignedShortPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_9_nistxml_sv_ii_list_unsigned_short_length_5_1(save_xml):
+def test_list_unsigned_short_length_9_nistxml_sv_ii_list_unsigned_short_length_5_1(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 10.
     """
@@ -13803,12 +14753,13 @@ def test_list_unsigned_short_length_9_nistxml_sv_ii_list_unsigned_short_length_5
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-5-1.xml",
         class_name="NistschemaSvIiListUnsignedShortLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_9_nistxml_sv_ii_list_unsigned_short_length_5_2(save_xml):
+def test_list_unsigned_short_length_9_nistxml_sv_ii_list_unsigned_short_length_5_2(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 10.
     """
@@ -13817,12 +14768,13 @@ def test_list_unsigned_short_length_9_nistxml_sv_ii_list_unsigned_short_length_5
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-5-2.xml",
         class_name="NistschemaSvIiListUnsignedShortLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_9_nistxml_sv_ii_list_unsigned_short_length_5_3(save_xml):
+def test_list_unsigned_short_length_9_nistxml_sv_ii_list_unsigned_short_length_5_3(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 10.
     """
@@ -13831,12 +14783,13 @@ def test_list_unsigned_short_length_9_nistxml_sv_ii_list_unsigned_short_length_5
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-5-3.xml",
         class_name="NistschemaSvIiListUnsignedShortLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_9_nistxml_sv_ii_list_unsigned_short_length_5_4(save_xml):
+def test_list_unsigned_short_length_9_nistxml_sv_ii_list_unsigned_short_length_5_4(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 10.
     """
@@ -13845,12 +14798,13 @@ def test_list_unsigned_short_length_9_nistxml_sv_ii_list_unsigned_short_length_5
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-5-4.xml",
         class_name="NistschemaSvIiListUnsignedShortLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_9_nistxml_sv_ii_list_unsigned_short_length_5_5(save_xml):
+def test_list_unsigned_short_length_9_nistxml_sv_ii_list_unsigned_short_length_5_5(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 10.
     """
@@ -13859,12 +14813,13 @@ def test_list_unsigned_short_length_9_nistxml_sv_ii_list_unsigned_short_length_5
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-5-5.xml",
         class_name="NistschemaSvIiListUnsignedShortLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_8_nistxml_sv_ii_list_unsigned_short_length_4_1(save_xml):
+def test_list_unsigned_short_length_8_nistxml_sv_ii_list_unsigned_short_length_4_1(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 8.
     """
@@ -13873,12 +14828,13 @@ def test_list_unsigned_short_length_8_nistxml_sv_ii_list_unsigned_short_length_4
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-4-1.xml",
         class_name="NistschemaSvIiListUnsignedShortLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_8_nistxml_sv_ii_list_unsigned_short_length_4_2(save_xml):
+def test_list_unsigned_short_length_8_nistxml_sv_ii_list_unsigned_short_length_4_2(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 8.
     """
@@ -13887,12 +14843,13 @@ def test_list_unsigned_short_length_8_nistxml_sv_ii_list_unsigned_short_length_4
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-4-2.xml",
         class_name="NistschemaSvIiListUnsignedShortLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_8_nistxml_sv_ii_list_unsigned_short_length_4_3(save_xml):
+def test_list_unsigned_short_length_8_nistxml_sv_ii_list_unsigned_short_length_4_3(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 8.
     """
@@ -13901,12 +14858,13 @@ def test_list_unsigned_short_length_8_nistxml_sv_ii_list_unsigned_short_length_4
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-4-3.xml",
         class_name="NistschemaSvIiListUnsignedShortLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_8_nistxml_sv_ii_list_unsigned_short_length_4_4(save_xml):
+def test_list_unsigned_short_length_8_nistxml_sv_ii_list_unsigned_short_length_4_4(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 8.
     """
@@ -13915,12 +14873,13 @@ def test_list_unsigned_short_length_8_nistxml_sv_ii_list_unsigned_short_length_4
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-4-4.xml",
         class_name="NistschemaSvIiListUnsignedShortLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_8_nistxml_sv_ii_list_unsigned_short_length_4_5(save_xml):
+def test_list_unsigned_short_length_8_nistxml_sv_ii_list_unsigned_short_length_4_5(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 8.
     """
@@ -13929,12 +14888,13 @@ def test_list_unsigned_short_length_8_nistxml_sv_ii_list_unsigned_short_length_4
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-4-5.xml",
         class_name="NistschemaSvIiListUnsignedShortLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_7_nistxml_sv_ii_list_unsigned_short_length_3_1(save_xml):
+def test_list_unsigned_short_length_7_nistxml_sv_ii_list_unsigned_short_length_3_1(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 7.
     """
@@ -13943,12 +14903,13 @@ def test_list_unsigned_short_length_7_nistxml_sv_ii_list_unsigned_short_length_3
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-3-1.xml",
         class_name="NistschemaSvIiListUnsignedShortLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_7_nistxml_sv_ii_list_unsigned_short_length_3_2(save_xml):
+def test_list_unsigned_short_length_7_nistxml_sv_ii_list_unsigned_short_length_3_2(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 7.
     """
@@ -13957,12 +14918,13 @@ def test_list_unsigned_short_length_7_nistxml_sv_ii_list_unsigned_short_length_3
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-3-2.xml",
         class_name="NistschemaSvIiListUnsignedShortLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_7_nistxml_sv_ii_list_unsigned_short_length_3_3(save_xml):
+def test_list_unsigned_short_length_7_nistxml_sv_ii_list_unsigned_short_length_3_3(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 7.
     """
@@ -13971,12 +14933,13 @@ def test_list_unsigned_short_length_7_nistxml_sv_ii_list_unsigned_short_length_3
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-3-3.xml",
         class_name="NistschemaSvIiListUnsignedShortLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_7_nistxml_sv_ii_list_unsigned_short_length_3_4(save_xml):
+def test_list_unsigned_short_length_7_nistxml_sv_ii_list_unsigned_short_length_3_4(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 7.
     """
@@ -13985,12 +14948,13 @@ def test_list_unsigned_short_length_7_nistxml_sv_ii_list_unsigned_short_length_3
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-3-4.xml",
         class_name="NistschemaSvIiListUnsignedShortLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_7_nistxml_sv_ii_list_unsigned_short_length_3_5(save_xml):
+def test_list_unsigned_short_length_7_nistxml_sv_ii_list_unsigned_short_length_3_5(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 7.
     """
@@ -13999,12 +14963,13 @@ def test_list_unsigned_short_length_7_nistxml_sv_ii_list_unsigned_short_length_3
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-3-5.xml",
         class_name="NistschemaSvIiListUnsignedShortLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_6_nistxml_sv_ii_list_unsigned_short_length_2_1(save_xml):
+def test_list_unsigned_short_length_6_nistxml_sv_ii_list_unsigned_short_length_2_1(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 6.
     """
@@ -14013,12 +14978,13 @@ def test_list_unsigned_short_length_6_nistxml_sv_ii_list_unsigned_short_length_2
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-2-1.xml",
         class_name="NistschemaSvIiListUnsignedShortLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_6_nistxml_sv_ii_list_unsigned_short_length_2_2(save_xml):
+def test_list_unsigned_short_length_6_nistxml_sv_ii_list_unsigned_short_length_2_2(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 6.
     """
@@ -14027,12 +14993,13 @@ def test_list_unsigned_short_length_6_nistxml_sv_ii_list_unsigned_short_length_2
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-2-2.xml",
         class_name="NistschemaSvIiListUnsignedShortLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_6_nistxml_sv_ii_list_unsigned_short_length_2_3(save_xml):
+def test_list_unsigned_short_length_6_nistxml_sv_ii_list_unsigned_short_length_2_3(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 6.
     """
@@ -14041,12 +15008,13 @@ def test_list_unsigned_short_length_6_nistxml_sv_ii_list_unsigned_short_length_2
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-2-3.xml",
         class_name="NistschemaSvIiListUnsignedShortLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_6_nistxml_sv_ii_list_unsigned_short_length_2_4(save_xml):
+def test_list_unsigned_short_length_6_nistxml_sv_ii_list_unsigned_short_length_2_4(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 6.
     """
@@ -14055,12 +15023,13 @@ def test_list_unsigned_short_length_6_nistxml_sv_ii_list_unsigned_short_length_2
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-2-4.xml",
         class_name="NistschemaSvIiListUnsignedShortLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_6_nistxml_sv_ii_list_unsigned_short_length_2_5(save_xml):
+def test_list_unsigned_short_length_6_nistxml_sv_ii_list_unsigned_short_length_2_5(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 6.
     """
@@ -14069,12 +15038,13 @@ def test_list_unsigned_short_length_6_nistxml_sv_ii_list_unsigned_short_length_2
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-2-5.xml",
         class_name="NistschemaSvIiListUnsignedShortLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_5_nistxml_sv_ii_list_unsigned_short_length_1_1(save_xml):
+def test_list_unsigned_short_length_5_nistxml_sv_ii_list_unsigned_short_length_1_1(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 5.
     """
@@ -14083,12 +15053,13 @@ def test_list_unsigned_short_length_5_nistxml_sv_ii_list_unsigned_short_length_1
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-1-1.xml",
         class_name="NistschemaSvIiListUnsignedShortLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_5_nistxml_sv_ii_list_unsigned_short_length_1_2(save_xml):
+def test_list_unsigned_short_length_5_nistxml_sv_ii_list_unsigned_short_length_1_2(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 5.
     """
@@ -14097,12 +15068,13 @@ def test_list_unsigned_short_length_5_nistxml_sv_ii_list_unsigned_short_length_1
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-1-2.xml",
         class_name="NistschemaSvIiListUnsignedShortLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_5_nistxml_sv_ii_list_unsigned_short_length_1_3(save_xml):
+def test_list_unsigned_short_length_5_nistxml_sv_ii_list_unsigned_short_length_1_3(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 5.
     """
@@ -14111,12 +15083,13 @@ def test_list_unsigned_short_length_5_nistxml_sv_ii_list_unsigned_short_length_1
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-1-3.xml",
         class_name="NistschemaSvIiListUnsignedShortLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_5_nistxml_sv_ii_list_unsigned_short_length_1_4(save_xml):
+def test_list_unsigned_short_length_5_nistxml_sv_ii_list_unsigned_short_length_1_4(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 5.
     """
@@ -14125,12 +15098,13 @@ def test_list_unsigned_short_length_5_nistxml_sv_ii_list_unsigned_short_length_1
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-1-4.xml",
         class_name="NistschemaSvIiListUnsignedShortLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_length_5_nistxml_sv_ii_list_unsigned_short_length_1_5(save_xml):
+def test_list_unsigned_short_length_5_nistxml_sv_ii_list_unsigned_short_length_1_5(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet length with value 5.
     """
@@ -14139,12 +15113,13 @@ def test_list_unsigned_short_length_5_nistxml_sv_ii_list_unsigned_short_length_1
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-length-1-5.xml",
         class_name="NistschemaSvIiListUnsignedShortLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_9_nistxml_sv_ii_list_unsigned_short_min_length_5_1(save_xml):
+def test_list_unsigned_short_min_length_9_nistxml_sv_ii_list_unsigned_short_min_length_5_1(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value
     10.
@@ -14154,12 +15129,13 @@ def test_list_unsigned_short_min_length_9_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-5-1.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_9_nistxml_sv_ii_list_unsigned_short_min_length_5_2(save_xml):
+def test_list_unsigned_short_min_length_9_nistxml_sv_ii_list_unsigned_short_min_length_5_2(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value
     10.
@@ -14169,12 +15145,13 @@ def test_list_unsigned_short_min_length_9_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-5-2.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_9_nistxml_sv_ii_list_unsigned_short_min_length_5_3(save_xml):
+def test_list_unsigned_short_min_length_9_nistxml_sv_ii_list_unsigned_short_min_length_5_3(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value
     10.
@@ -14184,12 +15161,13 @@ def test_list_unsigned_short_min_length_9_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-5-3.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_9_nistxml_sv_ii_list_unsigned_short_min_length_5_4(save_xml):
+def test_list_unsigned_short_min_length_9_nistxml_sv_ii_list_unsigned_short_min_length_5_4(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value
     10.
@@ -14199,12 +15177,13 @@ def test_list_unsigned_short_min_length_9_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-5-4.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_9_nistxml_sv_ii_list_unsigned_short_min_length_5_5(save_xml):
+def test_list_unsigned_short_min_length_9_nistxml_sv_ii_list_unsigned_short_min_length_5_5(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value
     10.
@@ -14214,12 +15193,13 @@ def test_list_unsigned_short_min_length_9_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-5-5.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_8_nistxml_sv_ii_list_unsigned_short_min_length_4_1(save_xml):
+def test_list_unsigned_short_min_length_8_nistxml_sv_ii_list_unsigned_short_min_length_4_1(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value 8.
     """
@@ -14228,12 +15208,13 @@ def test_list_unsigned_short_min_length_8_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-4-1.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_8_nistxml_sv_ii_list_unsigned_short_min_length_4_2(save_xml):
+def test_list_unsigned_short_min_length_8_nistxml_sv_ii_list_unsigned_short_min_length_4_2(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value 8.
     """
@@ -14242,12 +15223,13 @@ def test_list_unsigned_short_min_length_8_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-4-2.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_8_nistxml_sv_ii_list_unsigned_short_min_length_4_3(save_xml):
+def test_list_unsigned_short_min_length_8_nistxml_sv_ii_list_unsigned_short_min_length_4_3(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value 8.
     """
@@ -14256,12 +15238,13 @@ def test_list_unsigned_short_min_length_8_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-4-3.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_8_nistxml_sv_ii_list_unsigned_short_min_length_4_4(save_xml):
+def test_list_unsigned_short_min_length_8_nistxml_sv_ii_list_unsigned_short_min_length_4_4(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value 8.
     """
@@ -14270,12 +15253,13 @@ def test_list_unsigned_short_min_length_8_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-4-4.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_8_nistxml_sv_ii_list_unsigned_short_min_length_4_5(save_xml):
+def test_list_unsigned_short_min_length_8_nistxml_sv_ii_list_unsigned_short_min_length_4_5(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value 8.
     """
@@ -14284,12 +15268,13 @@ def test_list_unsigned_short_min_length_8_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-4-5.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_7_nistxml_sv_ii_list_unsigned_short_min_length_3_1(save_xml):
+def test_list_unsigned_short_min_length_7_nistxml_sv_ii_list_unsigned_short_min_length_3_1(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value 7.
     """
@@ -14298,12 +15283,13 @@ def test_list_unsigned_short_min_length_7_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-3-1.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_7_nistxml_sv_ii_list_unsigned_short_min_length_3_2(save_xml):
+def test_list_unsigned_short_min_length_7_nistxml_sv_ii_list_unsigned_short_min_length_3_2(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value 7.
     """
@@ -14312,12 +15298,13 @@ def test_list_unsigned_short_min_length_7_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-3-2.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_7_nistxml_sv_ii_list_unsigned_short_min_length_3_3(save_xml):
+def test_list_unsigned_short_min_length_7_nistxml_sv_ii_list_unsigned_short_min_length_3_3(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value 7.
     """
@@ -14326,12 +15313,13 @@ def test_list_unsigned_short_min_length_7_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-3-3.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_7_nistxml_sv_ii_list_unsigned_short_min_length_3_4(save_xml):
+def test_list_unsigned_short_min_length_7_nistxml_sv_ii_list_unsigned_short_min_length_3_4(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value 7.
     """
@@ -14340,12 +15328,13 @@ def test_list_unsigned_short_min_length_7_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-3-4.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_7_nistxml_sv_ii_list_unsigned_short_min_length_3_5(save_xml):
+def test_list_unsigned_short_min_length_7_nistxml_sv_ii_list_unsigned_short_min_length_3_5(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value 7.
     """
@@ -14354,12 +15343,13 @@ def test_list_unsigned_short_min_length_7_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-3-5.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_6_nistxml_sv_ii_list_unsigned_short_min_length_2_1(save_xml):
+def test_list_unsigned_short_min_length_6_nistxml_sv_ii_list_unsigned_short_min_length_2_1(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value 6.
     """
@@ -14368,12 +15358,13 @@ def test_list_unsigned_short_min_length_6_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-2-1.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_6_nistxml_sv_ii_list_unsigned_short_min_length_2_2(save_xml):
+def test_list_unsigned_short_min_length_6_nistxml_sv_ii_list_unsigned_short_min_length_2_2(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value 6.
     """
@@ -14382,12 +15373,13 @@ def test_list_unsigned_short_min_length_6_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-2-2.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_6_nistxml_sv_ii_list_unsigned_short_min_length_2_3(save_xml):
+def test_list_unsigned_short_min_length_6_nistxml_sv_ii_list_unsigned_short_min_length_2_3(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value 6.
     """
@@ -14396,12 +15388,13 @@ def test_list_unsigned_short_min_length_6_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-2-3.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_6_nistxml_sv_ii_list_unsigned_short_min_length_2_4(save_xml):
+def test_list_unsigned_short_min_length_6_nistxml_sv_ii_list_unsigned_short_min_length_2_4(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value 6.
     """
@@ -14410,12 +15403,13 @@ def test_list_unsigned_short_min_length_6_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-2-4.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_6_nistxml_sv_ii_list_unsigned_short_min_length_2_5(save_xml):
+def test_list_unsigned_short_min_length_6_nistxml_sv_ii_list_unsigned_short_min_length_2_5(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value 6.
     """
@@ -14424,12 +15418,13 @@ def test_list_unsigned_short_min_length_6_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-2-5.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_5_nistxml_sv_ii_list_unsigned_short_min_length_1_1(save_xml):
+def test_list_unsigned_short_min_length_5_nistxml_sv_ii_list_unsigned_short_min_length_1_1(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value 5.
     """
@@ -14438,12 +15433,13 @@ def test_list_unsigned_short_min_length_5_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-1-1.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_5_nistxml_sv_ii_list_unsigned_short_min_length_1_2(save_xml):
+def test_list_unsigned_short_min_length_5_nistxml_sv_ii_list_unsigned_short_min_length_1_2(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value 5.
     """
@@ -14452,12 +15448,13 @@ def test_list_unsigned_short_min_length_5_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-1-2.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_5_nistxml_sv_ii_list_unsigned_short_min_length_1_3(save_xml):
+def test_list_unsigned_short_min_length_5_nistxml_sv_ii_list_unsigned_short_min_length_1_3(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value 5.
     """
@@ -14466,12 +15463,13 @@ def test_list_unsigned_short_min_length_5_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-1-3.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_5_nistxml_sv_ii_list_unsigned_short_min_length_1_4(save_xml):
+def test_list_unsigned_short_min_length_5_nistxml_sv_ii_list_unsigned_short_min_length_1_4(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value 5.
     """
@@ -14480,12 +15478,13 @@ def test_list_unsigned_short_min_length_5_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-1-4.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_list_unsigned_short_min_length_5_nistxml_sv_ii_list_unsigned_short_min_length_1_5(save_xml):
+def test_list_unsigned_short_min_length_5_nistxml_sv_ii_list_unsigned_short_min_length_1_5(json_360, save_output):
     """
     Type list/unsignedShort is restricted by facet minLength with value 5.
     """
@@ -14494,5 +15493,6 @@ def test_list_unsigned_short_min_length_5_nistxml_sv_ii_list_unsigned_short_min_
         instance="nistData/list/unsignedShort/Schema+Instance/NISTXML-SV-II-list-unsignedShort-minLength-1-5.xml",
         class_name="NistschemaSvIiListUnsignedShortMinLength1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )

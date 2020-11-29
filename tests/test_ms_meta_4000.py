@@ -3,7 +3,7 @@ import pytest
 from tests.utils import assert_bindings
 
 
-def test_particles_c029_particles_c029_v(save_xml):
+def test_particles_c029_particles_c029_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo bar
@@ -14,11 +14,12 @@ def test_particles_c029_particles_c029_v(save_xml):
         instance="msData/particles/particlesC029.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_c028_particles_c028_v(save_xml):
+def test_particles_c028_particles_c028_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo bar
@@ -29,11 +30,12 @@ def test_particles_c028_particles_c028_v(save_xml):
         instance="msData/particles/particlesC028.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_c027_particles_c027_v(save_xml):
+def test_particles_c027_particles_c027_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= ##local,
@@ -44,12 +46,13 @@ def test_particles_c027_particles_c027_v(save_xml):
         instance="msData/particles/particlesC027.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c026_particles_c026_i(save_xml):
+def test_particles_c026_particles_c026_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= ##local,
@@ -61,12 +64,13 @@ def test_particles_c026_particles_c026_i(save_xml):
         instance="msData/particles/particlesC026.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c025_particles_c025_i(save_xml):
+def test_particles_c025_particles_c025_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= ##local,
@@ -77,12 +81,13 @@ def test_particles_c025_particles_c025_i(save_xml):
         instance="msData/particles/particlesC025.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c024_particles_c024_i(save_xml):
+def test_particles_c024_particles_c024_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= ##local,
@@ -93,12 +98,13 @@ def test_particles_c024_particles_c024_i(save_xml):
         instance="msData/particles/particlesC024.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c023_particles_c023_i(save_xml):
+def test_particles_c023_particles_c023_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=
@@ -109,12 +115,13 @@ def test_particles_c023_particles_c023_i(save_xml):
         instance="msData/particles/particlesC023.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c022_particles_c022_i(save_xml):
+def test_particles_c022_particles_c022_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=
@@ -126,11 +133,12 @@ def test_particles_c022_particles_c022_i(save_xml):
         instance="msData/particles/particlesC022.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_c021_particles_c021_v(save_xml):
+def test_particles_c021_particles_c021_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=
@@ -141,12 +149,13 @@ def test_particles_c021_particles_c021_v(save_xml):
         instance="msData/particles/particlesC021.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c020_particles_c020_i(save_xml):
+def test_particles_c020_particles_c020_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=
@@ -157,12 +166,13 @@ def test_particles_c020_particles_c020_i(save_xml):
         instance="msData/particles/particlesC020.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c019_particles_c019_i(save_xml):
+def test_particles_c019_particles_c019_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo bar',
@@ -173,12 +183,13 @@ def test_particles_c019_particles_c019_i(save_xml):
         instance="msData/particles/particlesC019.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c018_particles_c018_i(save_xml):
+def test_particles_c018_particles_c018_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo bar',
@@ -189,12 +200,13 @@ def test_particles_c018_particles_c018_i(save_xml):
         instance="msData/particles/particlesC018.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c017_particles_c017_i(save_xml):
+def test_particles_c017_particles_c017_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo bar',
@@ -205,11 +217,12 @@ def test_particles_c017_particles_c017_i(save_xml):
         instance="msData/particles/particlesC017.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_c016_particles_c016_v(save_xml):
+def test_particles_c016_particles_c016_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo bar',
@@ -220,11 +233,12 @@ def test_particles_c016_particles_c016_v(save_xml):
         instance="msData/particles/particlesC016.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_c015_particles_c015_v(save_xml):
+def test_particles_c015_particles_c015_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo bar',
@@ -235,12 +249,13 @@ def test_particles_c015_particles_c015_v(save_xml):
         instance="msData/particles/particlesC015.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c014_particles_c014_i(save_xml):
+def test_particles_c014_particles_c014_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=
@@ -251,12 +266,13 @@ def test_particles_c014_particles_c014_i(save_xml):
         instance="msData/particles/particlesC014.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c013_particles_c013_i(save_xml):
+def test_particles_c013_particles_c013_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=
@@ -267,12 +283,13 @@ def test_particles_c013_particles_c013_i(save_xml):
         instance="msData/particles/particlesC013.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c012_particles_c012_i(save_xml):
+def test_particles_c012_particles_c012_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=
@@ -283,11 +300,12 @@ def test_particles_c012_particles_c012_i(save_xml):
         instance="msData/particles/particlesC012.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_c011_particles_c011_v(save_xml):
+def test_particles_c011_particles_c011_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=
@@ -298,12 +316,13 @@ def test_particles_c011_particles_c011_v(save_xml):
         instance="msData/particles/particlesC011.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c010_particles_c010_i(save_xml):
+def test_particles_c010_particles_c010_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=##other,
@@ -316,12 +335,13 @@ def test_particles_c010_particles_c010_i(save_xml):
         instance="msData/particles/particlesC010.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c009_particles_c009_i(save_xml):
+def test_particles_c009_particles_c009_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=##other,
@@ -334,11 +354,12 @@ def test_particles_c009_particles_c009_i(save_xml):
         instance="msData/particles/particlesC009.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_c008_particles_c008_v(save_xml):
+def test_particles_c008_particles_c008_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=##other,
@@ -349,12 +370,13 @@ def test_particles_c008_particles_c008_v(save_xml):
         instance="msData/particles/particlesC008.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c007_particles_c007_i(save_xml):
+def test_particles_c007_particles_c007_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=##other,
@@ -365,11 +387,12 @@ def test_particles_c007_particles_c007_i(save_xml):
         instance="msData/particles/particlesC007.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_c006_particles_c006_v(save_xml):
+def test_particles_c006_particles_c006_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=##any,
@@ -380,11 +403,12 @@ def test_particles_c006_particles_c006_v(save_xml):
         instance="msData/particles/particlesC006.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_c005_particles_c005_v(save_xml):
+def test_particles_c005_particles_c005_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=##any,
@@ -395,11 +419,12 @@ def test_particles_c005_particles_c005_v(save_xml):
         instance="msData/particles/particlesC005.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_c004_particles_c004_v(save_xml):
+def test_particles_c004_particles_c004_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=##any,
@@ -410,11 +435,12 @@ def test_particles_c004_particles_c004_v(save_xml):
         instance="msData/particles/particlesC004.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_c003_particles_c003_v(save_xml):
+def test_particles_c003_particles_c003_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=absent
@@ -425,11 +451,12 @@ def test_particles_c003_particles_c003_v(save_xml):
         instance="msData/particles/particlesC003.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_c002_particles_c002_v(save_xml):
+def test_particles_c002_particles_c002_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=absent
@@ -440,11 +467,12 @@ def test_particles_c002_particles_c002_v(save_xml):
         instance="msData/particles/particlesC002.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_c001_particles_c001_v(save_xml):
+def test_particles_c001_particles_c001_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=absent
@@ -455,12 +483,13 @@ def test_particles_c001_particles_c001_v(save_xml):
         instance="msData/particles/particlesC001.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_b015_particles_b015_i(save_xml):
+def test_particles_b015_particles_b015_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with child content=(a),
@@ -471,11 +500,12 @@ def test_particles_b015_particles_b015_i(save_xml):
         instance="msData/particles/particlesB015.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_b014_particles_b014_v(save_xml):
+def test_particles_b014_particles_b014_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with child content=(a),
@@ -486,11 +516,12 @@ def test_particles_b014_particles_b014_v(save_xml):
         instance="msData/particles/particlesB014.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_b013_particles_b013_v(save_xml):
+def test_particles_b013_particles_b013_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with child content=(a),
@@ -501,12 +532,13 @@ def test_particles_b013_particles_b013_v(save_xml):
         instance="msData/particles/particlesB013.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_b012_particles_b012_i(save_xml):
+def test_particles_b012_particles_b012_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with child content=(a),
@@ -517,12 +549,13 @@ def test_particles_b012_particles_b012_i(save_xml):
         instance="msData/particles/particlesB012.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_b011_particles_b011_i(save_xml):
+def test_particles_b011_particles_b011_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model 'choice' with child
@@ -533,11 +566,12 @@ def test_particles_b011_particles_b011_i(save_xml):
         instance="msData/particles/particlesB011.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_b010_particles_b010_v(save_xml):
+def test_particles_b010_particles_b010_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model 'choice' with child
@@ -548,11 +582,12 @@ def test_particles_b010_particles_b010_v(save_xml):
         instance="msData/particles/particlesB010.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_b009_particles_b009_v(save_xml):
+def test_particles_b009_particles_b009_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model 'choice' with child
@@ -563,12 +598,13 @@ def test_particles_b009_particles_b009_v(save_xml):
         instance="msData/particles/particlesB009.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_b008_particles_b008_i(save_xml):
+def test_particles_b008_particles_b008_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model 'choice' with child
@@ -579,12 +615,13 @@ def test_particles_b008_particles_b008_i(save_xml):
         instance="msData/particles/particlesB008.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_b007_particles_b007_i(save_xml):
+def test_particles_b007_particles_b007_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model 'sequence' with child
@@ -595,11 +632,12 @@ def test_particles_b007_particles_b007_i(save_xml):
         instance="msData/particles/particlesB007.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_b006_particles_b006_v(save_xml):
+def test_particles_b006_particles_b006_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model 'sequence' with child
@@ -610,11 +648,12 @@ def test_particles_b006_particles_b006_v(save_xml):
         instance="msData/particles/particlesB006.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_b005_particles_b005_v(save_xml):
+def test_particles_b005_particles_b005_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model 'sequence' with child
@@ -625,12 +664,13 @@ def test_particles_b005_particles_b005_v(save_xml):
         instance="msData/particles/particlesB005.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_b004_particles_b004_i(save_xml):
+def test_particles_b004_particles_b004_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model 'sequence' with child
@@ -641,12 +681,13 @@ def test_particles_b004_particles_b004_i(save_xml):
         instance="msData/particles/particlesB004.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_b003_particles_b003_i(save_xml):
+def test_particles_b003_particles_b003_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model 'all' with child
@@ -657,11 +698,12 @@ def test_particles_b003_particles_b003_i(save_xml):
         instance="msData/particles/particlesB003.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_b002_particles_b002_v(save_xml):
+def test_particles_b002_particles_b002_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model 'all' with child
@@ -672,12 +714,13 @@ def test_particles_b002_particles_b002_v(save_xml):
         instance="msData/particles/particlesB002.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_b001_particles_b001_i(save_xml):
+def test_particles_b001_particles_b001_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model 'all' with child
@@ -688,11 +731,12 @@ def test_particles_b001_particles_b001_i(save_xml):
         instance="msData/particles/particlesB001.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_a015_particles_a015_v(save_xml):
+def test_particles_a015_particles_a015_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with child content=(a),
@@ -703,11 +747,12 @@ def test_particles_a015_particles_a015_v(save_xml):
         instance="msData/particles/particlesA015.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_a014_particles_a014_v(save_xml):
+def test_particles_a014_particles_a014_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with child content=(a),
@@ -718,12 +763,13 @@ def test_particles_a014_particles_a014_v(save_xml):
         instance="msData/particles/particlesA014.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_a013_particles_a013_i(save_xml):
+def test_particles_a013_particles_a013_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with child content=(a),
@@ -734,12 +780,13 @@ def test_particles_a013_particles_a013_i(save_xml):
         instance="msData/particles/particlesA013.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_a012_particles_a012_i(save_xml):
+def test_particles_a012_particles_a012_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with child content=(a),
@@ -750,11 +797,12 @@ def test_particles_a012_particles_a012_i(save_xml):
         instance="msData/particles/particlesA012.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_a011_particles_a011_v(save_xml):
+def test_particles_a011_particles_a011_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model 'choice' with child
@@ -765,11 +813,12 @@ def test_particles_a011_particles_a011_v(save_xml):
         instance="msData/particles/particlesA011.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_a010_particles_a010_v(save_xml):
+def test_particles_a010_particles_a010_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model 'choice' with child
@@ -780,12 +829,13 @@ def test_particles_a010_particles_a010_v(save_xml):
         instance="msData/particles/particlesA010.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_a009_particles_a009_i(save_xml):
+def test_particles_a009_particles_a009_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model 'choice' with child
@@ -796,12 +846,13 @@ def test_particles_a009_particles_a009_i(save_xml):
         instance="msData/particles/particlesA009.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_a008_particles_a008_i(save_xml):
+def test_particles_a008_particles_a008_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model 'choice' with child
@@ -812,11 +863,12 @@ def test_particles_a008_particles_a008_i(save_xml):
         instance="msData/particles/particlesA008.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_a007_particles_a007_v(save_xml):
+def test_particles_a007_particles_a007_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model 'sequence' with child
@@ -827,11 +879,12 @@ def test_particles_a007_particles_a007_v(save_xml):
         instance="msData/particles/particlesA007.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_a006_particles_a006_v(save_xml):
+def test_particles_a006_particles_a006_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model 'sequence' with child
@@ -842,12 +895,13 @@ def test_particles_a006_particles_a006_v(save_xml):
         instance="msData/particles/particlesA006.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_a005_particles_a005_i(save_xml):
+def test_particles_a005_particles_a005_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model 'sequence' with child
@@ -858,12 +912,13 @@ def test_particles_a005_particles_a005_i(save_xml):
         instance="msData/particles/particlesA005.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_a004_particles_a004_i(save_xml):
+def test_particles_a004_particles_a004_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model 'sequence' with child
@@ -874,12 +929,13 @@ def test_particles_a004_particles_a004_i(save_xml):
         instance="msData/particles/particlesA004.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_a003_particles_a003_i(save_xml):
+def test_particles_a003_particles_a003_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model 'all' with child
@@ -890,11 +946,12 @@ def test_particles_a003_particles_a003_i(save_xml):
         instance="msData/particles/particlesA003.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles_a002_particles_a002_v(save_xml):
+def test_particles_a002_particles_a002_v(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model 'all' with child
@@ -905,12 +962,13 @@ def test_particles_a002_particles_a002_v(save_xml):
         instance="msData/particles/particlesA002.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_a001_particles_a001_i(save_xml):
+def test_particles_a001_particles_a001_i(json_360, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model 'all' with child
@@ -921,11 +979,12 @@ def test_particles_a001_particles_a001_i(save_xml):
         instance="msData/particles/particlesA001.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_z006i_re_z006i_i(save_xml):
+def test_re_z006i_re_z006i_i(json_360, save_output):
     r"""
     TEST :branch : Invalid characeter mappings from character sequence \c
     """
@@ -934,11 +993,12 @@ def test_re_z006i_re_z006i_i(save_xml):
         instance="msData/regex/invalid.c.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_z006v_re_z006v_v(save_xml):
+def test_re_z006v_re_z006v_v(json_360, save_output):
     r"""
     TEST :branch : Valid characeter mappings from character sequence \c
     """
@@ -947,12 +1007,13 @@ def test_re_z006v_re_z006v_v(save_xml):
         instance="msData/regex/valid.c.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_z005i_re_z005i_i(save_xml):
+def test_re_z005i_re_z005i_i(json_360, save_output):
     r"""
     TEST :branch : Invalid characeter mappings from character sequence \i
     """
@@ -961,11 +1022,12 @@ def test_re_z005i_re_z005i_i(save_xml):
         instance="msData/regex/invalid.i.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_z005v_re_z005v_v(save_xml):
+def test_re_z005v_re_z005v_v(json_360, save_output):
     r"""
     TEST :branch : Valid characeter mappings from character sequence \i
     """
@@ -974,12 +1036,13 @@ def test_re_z005v_re_z005v_v(save_xml):
         instance="msData/regex/valid.i.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_z004i_re_z004i_i(save_xml):
+def test_re_z004i_re_z004i_i(json_360, save_output):
     r"""
     TEST :branch : Invalid characeter mappings from character sequence \d
     """
@@ -988,11 +1051,12 @@ def test_re_z004i_re_z004i_i(save_xml):
         instance="msData/regex/invalid.d.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_z004v_re_z004v_v(save_xml):
+def test_re_z004v_re_z004v_v(json_360, save_output):
     r"""
     TEST :branch : Valid characeter mappings from character sequence \d
     """
@@ -1001,11 +1065,12 @@ def test_re_z004v_re_z004v_v(save_xml):
         instance="msData/regex/valid.d.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_z003v_re_z003v_v(save_xml):
+def test_re_z003v_re_z003v_v(json_360, save_output):
     r"""
     TEST :branch : Valid characeter mappings from character sequence \w
     """
@@ -1014,12 +1079,13 @@ def test_re_z003v_re_z003v_v(save_xml):
         instance="msData/regex/reZ003v.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_z002_re_z002_i(save_xml):
+def test_re_z002_re_z002_i(json_360, save_output):
     """
     TEST :branch : 381386 : character class escape whack w in pattern
     facet matches Low Line
@@ -1029,12 +1095,13 @@ def test_re_z002_re_z002_i(save_xml):
         instance="msData/regex/reZ002.xml",
         class_name="Document",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_z001_re_z001_v(save_xml):
+def test_re_z001_re_z001_v(json_360, save_output):
     """
     TEST :branch : XSD: an email regex pattern takes more than one minute
     to validate HST agrees this one doesn't match
@@ -1044,11 +1111,12 @@ def test_re_z001_re_z001_v(save_xml):
         instance="msData/regex/reZ001.xml",
         class_name="Email",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_specials_specials_v(save_xml):
+def test_specials_specials_v(json_360, save_output):
     """
     TEST :branch : Specials
     """
@@ -1057,11 +1125,12 @@ def test_specials_specials_v(save_xml):
         instance="msData/regex/Specials.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_halfwidthand_fullwidth_forms_halfwidthand_fullwidth_forms_v(save_xml):
+def test_halfwidthand_fullwidth_forms_halfwidthand_fullwidth_forms_v(json_360, save_output):
     """
     TEST :branch : HalfwidthandFullwidthForms
     """
@@ -1070,11 +1139,12 @@ def test_halfwidthand_fullwidth_forms_halfwidthand_fullwidth_forms_v(save_xml):
         instance="msData/regex/HalfwidthandFullwidthForms.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_small_form_variants_small_form_variants_v(save_xml):
+def test_small_form_variants_small_form_variants_v(json_360, save_output):
     """
     TEST :branch : SmallFormVariants
     """
@@ -1083,11 +1153,12 @@ def test_small_form_variants_small_form_variants_v(save_xml):
         instance="msData/regex/SmallFormVariants.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_cjkcompatibility_forms_cjkcompatibility_forms_v(save_xml):
+def test_cjkcompatibility_forms_cjkcompatibility_forms_v(json_360, save_output):
     """
     TEST :branch : CJKCompatibilityForms
     """
@@ -1096,11 +1167,12 @@ def test_cjkcompatibility_forms_cjkcompatibility_forms_v(save_xml):
         instance="msData/regex/CJKCompatibilityForms.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_combining_half_marks_combining_half_marks_v(save_xml):
+def test_combining_half_marks_combining_half_marks_v(json_360, save_output):
     """
     TEST :branch : CombiningHalfMarks
     """
@@ -1109,11 +1181,12 @@ def test_combining_half_marks_combining_half_marks_v(save_xml):
         instance="msData/regex/CombiningHalfMarks.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_arabic_presentation_forms_a_arabic_presentation_forms_a_v(save_xml):
+def test_arabic_presentation_forms_a_arabic_presentation_forms_a_v(json_360, save_output):
     """
     TEST :branch : ArabicPresentationForms-A
     """
@@ -1122,11 +1195,12 @@ def test_arabic_presentation_forms_a_arabic_presentation_forms_a_v(save_xml):
         instance="msData/regex/ArabicPresentationForms-A.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_alphabetic_presentation_forms_alphabetic_presentation_forms_v(save_xml):
+def test_alphabetic_presentation_forms_alphabetic_presentation_forms_v(json_360, save_output):
     """
     TEST :branch : AlphabeticPresentationForms
     """
@@ -1135,11 +1209,12 @@ def test_alphabetic_presentation_forms_alphabetic_presentation_forms_v(save_xml)
         instance="msData/regex/AlphabeticPresentationForms.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_cjkcompatibility_ideographs_cjkcompatibility_ideographs_v(save_xml):
+def test_cjkcompatibility_ideographs_cjkcompatibility_ideographs_v(json_360, save_output):
     """
     TEST :branch : CJKCompatibilityIdeographs
     """
@@ -1148,12 +1223,13 @@ def test_cjkcompatibility_ideographs_cjkcompatibility_ideographs_v(save_xml):
         instance="msData/regex/CJKCompatibilityIdeographs.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_high_surrogates_high_surrogates_i(save_xml):
+def test_high_surrogates_high_surrogates_i(json_360, save_output):
     """
     TEST :branch : HighSurrogates
     """
@@ -1162,11 +1238,12 @@ def test_high_surrogates_high_surrogates_i(save_xml):
         instance="msData/regex/HighSurrogates.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_yi_radicals_yi_radicals_v(save_xml):
+def test_yi_radicals_yi_radicals_v(json_360, save_output):
     """
     TEST :branch : YiRadicals
     """
@@ -1175,11 +1252,12 @@ def test_yi_radicals_yi_radicals_v(save_xml):
         instance="msData/regex/YiRadicals.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_yi_syllables_yi_syllables_v(save_xml):
+def test_yi_syllables_yi_syllables_v(json_360, save_output):
     """
     TEST :branch : YiSyllables
     """
@@ -1188,11 +1266,12 @@ def test_yi_syllables_yi_syllables_v(save_xml):
         instance="msData/regex/YiSyllables.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_cjkunified_ideographs_cjkunified_ideographs_v(save_xml):
+def test_cjkunified_ideographs_cjkunified_ideographs_v(json_360, save_output):
     """
     TEST :branch : CJKUnifiedIdeographs
     """
@@ -1201,11 +1280,12 @@ def test_cjkunified_ideographs_cjkunified_ideographs_v(save_xml):
         instance="msData/regex/CJKUnifiedIdeographs.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_cjkcompatibility_cjkcompatibility_v(save_xml):
+def test_cjkcompatibility_cjkcompatibility_v(json_360, save_output):
     """
     TEST :branch : CJKCompatibility
     """
@@ -1214,11 +1294,12 @@ def test_cjkcompatibility_cjkcompatibility_v(save_xml):
         instance="msData/regex/CJKCompatibility.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_enclosed_cjklettersand_months_enclosed_cjklettersand_months_v(save_xml):
+def test_enclosed_cjklettersand_months_enclosed_cjklettersand_months_v(json_360, save_output):
     """
     TEST :branch : EnclosedCJKLettersandMonths
     """
@@ -1227,11 +1308,12 @@ def test_enclosed_cjklettersand_months_enclosed_cjklettersand_months_v(save_xml)
         instance="msData/regex/EnclosedCJKLettersandMonths.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_bopomofo_extended_bopomofo_extended_v(save_xml):
+def test_bopomofo_extended_bopomofo_extended_v(json_360, save_output):
     """
     TEST :branch : BopomofoExtended
     """
@@ -1240,11 +1322,12 @@ def test_bopomofo_extended_bopomofo_extended_v(save_xml):
         instance="msData/regex/BopomofoExtended.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_kanbun_kanbun_v(save_xml):
+def test_kanbun_kanbun_v(json_360, save_output):
     """
     TEST :branch : Kanbun
     """
@@ -1253,11 +1336,12 @@ def test_kanbun_kanbun_v(save_xml):
         instance="msData/regex/Kanbun.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_hangul_compatibility_jamo_hangul_compatibility_jamo_v(save_xml):
+def test_hangul_compatibility_jamo_hangul_compatibility_jamo_v(json_360, save_output):
     """
     TEST :branch : HangulCompatibilityJamo
     """
@@ -1266,11 +1350,12 @@ def test_hangul_compatibility_jamo_hangul_compatibility_jamo_v(save_xml):
         instance="msData/regex/HangulCompatibilityJamo.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_bopomofo_bopomofo_v(save_xml):
+def test_bopomofo_bopomofo_v(json_360, save_output):
     """
     TEST :branch : Bopomofo
     """
@@ -1279,11 +1364,12 @@ def test_bopomofo_bopomofo_v(save_xml):
         instance="msData/regex/Bopomofo.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_katakana_katakana_v(save_xml):
+def test_katakana_katakana_v(json_360, save_output):
     """
     TEST :branch : Katakana
     """
@@ -1292,11 +1378,12 @@ def test_katakana_katakana_v(save_xml):
         instance="msData/regex/Katakana.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_hiragana_hiragana_v(save_xml):
+def test_hiragana_hiragana_v(json_360, save_output):
     """
     TEST :branch : Hiragana
     """
@@ -1305,11 +1392,12 @@ def test_hiragana_hiragana_v(save_xml):
         instance="msData/regex/Hiragana.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_cjksymbolsand_punctuation_cjksymbolsand_punctuation_v(save_xml):
+def test_cjksymbolsand_punctuation_cjksymbolsand_punctuation_v(json_360, save_output):
     """
     TEST :branch : CJKSymbolsandPunctuation
     """
@@ -1318,11 +1406,12 @@ def test_cjksymbolsand_punctuation_cjksymbolsand_punctuation_v(save_xml):
         instance="msData/regex/CJKSymbolsandPunctuation.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ideographic_description_characters_ideographic_description_characters_v(save_xml):
+def test_ideographic_description_characters_ideographic_description_characters_v(json_360, save_output):
     """
     TEST :branch : IdeographicDescriptionCharacters
     """
@@ -1331,11 +1420,12 @@ def test_ideographic_description_characters_ideographic_description_characters_v
         instance="msData/regex/IdeographicDescriptionCharacters.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_kangxi_radicals_kangxi_radicals_v(save_xml):
+def test_kangxi_radicals_kangxi_radicals_v(json_360, save_output):
     """
     TEST :branch : KangxiRadicals
     """
@@ -1344,11 +1434,12 @@ def test_kangxi_radicals_kangxi_radicals_v(save_xml):
         instance="msData/regex/KangxiRadicals.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_cjkradicals_supplement_cjkradicals_supplement_v(save_xml):
+def test_cjkradicals_supplement_cjkradicals_supplement_v(json_360, save_output):
     """
     TEST :branch : CJKRadicalsSupplement
     """
@@ -1357,11 +1448,12 @@ def test_cjkradicals_supplement_cjkradicals_supplement_v(save_xml):
         instance="msData/regex/CJKRadicalsSupplement.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_braille_patterns_braille_patterns_v(save_xml):
+def test_braille_patterns_braille_patterns_v(json_360, save_output):
     """
     TEST :branch : BraillePatterns
     """
@@ -1370,11 +1462,12 @@ def test_braille_patterns_braille_patterns_v(save_xml):
         instance="msData/regex/BraillePatterns.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_dingbats_dingbats_v(save_xml):
+def test_dingbats_dingbats_v(json_360, save_output):
     """
     TEST :branch : Dingbats
     """
@@ -1383,11 +1476,12 @@ def test_dingbats_dingbats_v(save_xml):
         instance="msData/regex/Dingbats.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_miscellaneous_symbols_miscellaneous_symbols_v(save_xml):
+def test_miscellaneous_symbols_miscellaneous_symbols_v(json_360, save_output):
     """
     TEST :branch : MiscellaneousSymbols
     """
@@ -1396,11 +1490,12 @@ def test_miscellaneous_symbols_miscellaneous_symbols_v(save_xml):
         instance="msData/regex/MiscellaneousSymbols.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_geometric_shapes_geometric_shapes_v(save_xml):
+def test_geometric_shapes_geometric_shapes_v(json_360, save_output):
     """
     TEST :branch : GeometricShapes
     """
@@ -1409,11 +1504,12 @@ def test_geometric_shapes_geometric_shapes_v(save_xml):
         instance="msData/regex/GeometricShapes.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_block_elements_block_elements_v(save_xml):
+def test_block_elements_block_elements_v(json_360, save_output):
     """
     TEST :branch : BlockElements
     """
@@ -1422,11 +1518,12 @@ def test_block_elements_block_elements_v(save_xml):
         instance="msData/regex/BlockElements.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_box_drawing_box_drawing_v(save_xml):
+def test_box_drawing_box_drawing_v(json_360, save_output):
     """
     TEST :branch : BoxDrawing
     """
@@ -1435,11 +1532,12 @@ def test_box_drawing_box_drawing_v(save_xml):
         instance="msData/regex/BoxDrawing.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_enclosed_alphanumerics_enclosed_alphanumerics_v(save_xml):
+def test_enclosed_alphanumerics_enclosed_alphanumerics_v(json_360, save_output):
     """
     TEST :branch : EnclosedAlphanumerics
     """
@@ -1448,11 +1546,12 @@ def test_enclosed_alphanumerics_enclosed_alphanumerics_v(save_xml):
         instance="msData/regex/EnclosedAlphanumerics.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_optical_character_recognition_optical_character_recognition_v(save_xml):
+def test_optical_character_recognition_optical_character_recognition_v(json_360, save_output):
     """
     TEST :branch : OpticalCharacterRecognition
     """
@@ -1461,11 +1560,12 @@ def test_optical_character_recognition_optical_character_recognition_v(save_xml)
         instance="msData/regex/OpticalCharacterRecognition.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_control_pictures_control_pictures_v(save_xml):
+def test_control_pictures_control_pictures_v(json_360, save_output):
     """
     TEST :branch : ControlPictures
     """
@@ -1474,11 +1574,12 @@ def test_control_pictures_control_pictures_v(save_xml):
         instance="msData/regex/ControlPictures.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_miscellaneous_technical_miscellaneous_technical_v(save_xml):
+def test_miscellaneous_technical_miscellaneous_technical_v(json_360, save_output):
     """
     TEST :branch : MiscellaneousTechnical
     """
@@ -1487,11 +1588,12 @@ def test_miscellaneous_technical_miscellaneous_technical_v(save_xml):
         instance="msData/regex/MiscellaneousTechnical.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_mathematical_operators_mathematical_operators_v(save_xml):
+def test_mathematical_operators_mathematical_operators_v(json_360, save_output):
     """
     TEST :branch : MathematicalOperators
     """
@@ -1500,11 +1602,12 @@ def test_mathematical_operators_mathematical_operators_v(save_xml):
         instance="msData/regex/MathematicalOperators.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_arrows_arrows_v(save_xml):
+def test_arrows_arrows_v(json_360, save_output):
     """
     TEST :branch : Arrows
     """
@@ -1513,11 +1616,12 @@ def test_arrows_arrows_v(save_xml):
         instance="msData/regex/Arrows.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_number_forms_number_forms_v(save_xml):
+def test_number_forms_number_forms_v(json_360, save_output):
     """
     TEST :branch : NumberForms
     """
@@ -1526,11 +1630,12 @@ def test_number_forms_number_forms_v(save_xml):
         instance="msData/regex/NumberForms.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_letterlike_symbols_letterlike_symbols_v(save_xml):
+def test_letterlike_symbols_letterlike_symbols_v(json_360, save_output):
     """
     TEST :branch : LetterlikeSymbols
     """
@@ -1539,11 +1644,12 @@ def test_letterlike_symbols_letterlike_symbols_v(save_xml):
         instance="msData/regex/LetterlikeSymbols.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_currency_symbols_currency_symbols_v(save_xml):
+def test_currency_symbols_currency_symbols_v(json_360, save_output):
     """
     TEST :branch : CurrencySymbols
     """
@@ -1552,11 +1658,12 @@ def test_currency_symbols_currency_symbols_v(save_xml):
         instance="msData/regex/CurrencySymbols.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_superscriptsand_subscripts_superscriptsand_subscripts_v(save_xml):
+def test_superscriptsand_subscripts_superscriptsand_subscripts_v(json_360, save_output):
     """
     TEST :branch : SuperscriptsandSubscripts
     """
@@ -1565,11 +1672,12 @@ def test_superscriptsand_subscripts_superscriptsand_subscripts_v(save_xml):
         instance="msData/regex/SuperscriptsandSubscripts.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_general_punctuation_general_punctuation_v(save_xml):
+def test_general_punctuation_general_punctuation_v(json_360, save_output):
     """
     TEST :branch : GeneralPunctuation
     """
@@ -1578,11 +1686,12 @@ def test_general_punctuation_general_punctuation_v(save_xml):
         instance="msData/regex/GeneralPunctuation.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_greek_extended_greek_extended_v(save_xml):
+def test_greek_extended_greek_extended_v(json_360, save_output):
     """
     TEST :branch : GreekExtended
     """
@@ -1591,11 +1700,12 @@ def test_greek_extended_greek_extended_v(save_xml):
         instance="msData/regex/GreekExtended.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_latin_extended_additional_latin_extended_additional_v(save_xml):
+def test_latin_extended_additional_latin_extended_additional_v(json_360, save_output):
     """
     TEST :branch : LatinExtendedAdditional
     """
@@ -1604,11 +1714,12 @@ def test_latin_extended_additional_latin_extended_additional_v(save_xml):
         instance="msData/regex/LatinExtendedAdditional.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_mongolian_mongolian_v(save_xml):
+def test_mongolian_mongolian_v(json_360, save_output):
     """
     TEST :branch : Mongolian
     """
@@ -1617,11 +1728,12 @@ def test_mongolian_mongolian_v(save_xml):
         instance="msData/regex/Mongolian.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_khmer_khmer_v(save_xml):
+def test_khmer_khmer_v(json_360, save_output):
     """
     TEST :branch : Khmer
     """
@@ -1630,11 +1742,12 @@ def test_khmer_khmer_v(save_xml):
         instance="msData/regex/Khmer.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_runic_runic_v(save_xml):
+def test_runic_runic_v(json_360, save_output):
     """
     TEST :branch : Runic
     """
@@ -1643,11 +1756,12 @@ def test_runic_runic_v(save_xml):
         instance="msData/regex/Runic.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ogham_ogham_v(save_xml):
+def test_ogham_ogham_v(json_360, save_output):
     """
     TEST :branch : Ogham
     """
@@ -1656,11 +1770,12 @@ def test_ogham_ogham_v(save_xml):
         instance="msData/regex/Ogham.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_unified_canadian_aboriginal_syllabics_unified_canadian_aboriginal_syllabics_v(save_xml):
+def test_unified_canadian_aboriginal_syllabics_unified_canadian_aboriginal_syllabics_v(json_360, save_output):
     """
     TEST :branch : UnifiedCanadianAboriginalSyllabics
     """
@@ -1669,11 +1784,12 @@ def test_unified_canadian_aboriginal_syllabics_unified_canadian_aboriginal_sylla
         instance="msData/regex/UnifiedCanadianAboriginalSyllabics.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_cherokee_cherokee_v(save_xml):
+def test_cherokee_cherokee_v(json_360, save_output):
     """
     TEST :branch : Cherokee
     """
@@ -1682,11 +1798,12 @@ def test_cherokee_cherokee_v(save_xml):
         instance="msData/regex/Cherokee.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ethiopic_ethiopic_v(save_xml):
+def test_ethiopic_ethiopic_v(json_360, save_output):
     """
     TEST :branch : Ethiopic
     """
@@ -1695,11 +1812,12 @@ def test_ethiopic_ethiopic_v(save_xml):
         instance="msData/regex/Ethiopic.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_hangul_jamo_hangul_jamo_v(save_xml):
+def test_hangul_jamo_hangul_jamo_v(json_360, save_output):
     """
     TEST :branch : HangulJamo
     """
@@ -1708,11 +1826,12 @@ def test_hangul_jamo_hangul_jamo_v(save_xml):
         instance="msData/regex/HangulJamo.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_georgian_georgian_v(save_xml):
+def test_georgian_georgian_v(json_360, save_output):
     """
     TEST :branch : Georgian
     """
@@ -1721,11 +1840,12 @@ def test_georgian_georgian_v(save_xml):
         instance="msData/regex/Georgian.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_myanmar_myanmar_v(save_xml):
+def test_myanmar_myanmar_v(json_360, save_output):
     """
     TEST :branch : Myanmar
     """
@@ -1734,11 +1854,12 @@ def test_myanmar_myanmar_v(save_xml):
         instance="msData/regex/Myanmar.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_tibetan_tibetan_v(save_xml):
+def test_tibetan_tibetan_v(json_360, save_output):
     """
     TEST :branch : Tibetan
     """
@@ -1747,11 +1868,12 @@ def test_tibetan_tibetan_v(save_xml):
         instance="msData/regex/Tibetan.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_lao_lao_v(save_xml):
+def test_lao_lao_v(json_360, save_output):
     """
     TEST :branch : Lao
     """
@@ -1760,11 +1882,12 @@ def test_lao_lao_v(save_xml):
         instance="msData/regex/Lao.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_thai_thai_v(save_xml):
+def test_thai_thai_v(json_360, save_output):
     """
     TEST :branch : Thai
     """
@@ -1773,11 +1896,12 @@ def test_thai_thai_v(save_xml):
         instance="msData/regex/Thai.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_sinhala_sinhala_v(save_xml):
+def test_sinhala_sinhala_v(json_360, save_output):
     """
     TEST :branch : Sinhala
     """
@@ -1786,11 +1910,12 @@ def test_sinhala_sinhala_v(save_xml):
         instance="msData/regex/Sinhala.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_malayalam_malayalam_v(save_xml):
+def test_malayalam_malayalam_v(json_360, save_output):
     """
     TEST :branch : Malayalam
     """
@@ -1799,11 +1924,12 @@ def test_malayalam_malayalam_v(save_xml):
         instance="msData/regex/Malayalam.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_kannada_kannada_v(save_xml):
+def test_kannada_kannada_v(json_360, save_output):
     """
     TEST :branch : Kannada
     """
@@ -1812,11 +1938,12 @@ def test_kannada_kannada_v(save_xml):
         instance="msData/regex/Kannada.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_telugu_telugu_v(save_xml):
+def test_telugu_telugu_v(json_360, save_output):
     """
     TEST :branch : Telugu
     """
@@ -1825,11 +1952,12 @@ def test_telugu_telugu_v(save_xml):
         instance="msData/regex/Telugu.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_tamil_tamil_v(save_xml):
+def test_tamil_tamil_v(json_360, save_output):
     """
     TEST :branch : Tamil
     """
@@ -1838,11 +1966,12 @@ def test_tamil_tamil_v(save_xml):
         instance="msData/regex/Tamil.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_oriya_oriya_v(save_xml):
+def test_oriya_oriya_v(json_360, save_output):
     """
     TEST :branch : Oriya
     """
@@ -1851,11 +1980,12 @@ def test_oriya_oriya_v(save_xml):
         instance="msData/regex/Oriya.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_gujarati_gujarati_v(save_xml):
+def test_gujarati_gujarati_v(json_360, save_output):
     """
     TEST :branch : Gujarati
     """
@@ -1864,11 +1994,12 @@ def test_gujarati_gujarati_v(save_xml):
         instance="msData/regex/Gujarati.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_gurmukhi_gurmukhi_v(save_xml):
+def test_gurmukhi_gurmukhi_v(json_360, save_output):
     """
     TEST :branch : Gurmukhi
     """
@@ -1877,11 +2008,12 @@ def test_gurmukhi_gurmukhi_v(save_xml):
         instance="msData/regex/Gurmukhi.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_bengali_bengali_v(save_xml):
+def test_bengali_bengali_v(json_360, save_output):
     """
     TEST :branch : Bengali
     """
@@ -1890,11 +2022,12 @@ def test_bengali_bengali_v(save_xml):
         instance="msData/regex/Bengali.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_devanagari_devanagari_v(save_xml):
+def test_devanagari_devanagari_v(json_360, save_output):
     """
     TEST :branch : Devanagari
     """
@@ -1903,11 +2036,12 @@ def test_devanagari_devanagari_v(save_xml):
         instance="msData/regex/Devanagari.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_thaana_thaana_v(save_xml):
+def test_thaana_thaana_v(json_360, save_output):
     """
     TEST :branch : Thaana
     """
@@ -1916,11 +2050,12 @@ def test_thaana_thaana_v(save_xml):
         instance="msData/regex/Thaana.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_syriac_syriac_v(save_xml):
+def test_syriac_syriac_v(json_360, save_output):
     """
     TEST :branch : Syriac
     """
@@ -1929,11 +2064,12 @@ def test_syriac_syriac_v(save_xml):
         instance="msData/regex/Syriac.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_arabic_arabic_v(save_xml):
+def test_arabic_arabic_v(json_360, save_output):
     """
     TEST :branch : Arabic
     """
@@ -1942,11 +2078,12 @@ def test_arabic_arabic_v(save_xml):
         instance="msData/regex/Arabic.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_hebrew_hebrew_v(save_xml):
+def test_hebrew_hebrew_v(json_360, save_output):
     """
     TEST :branch : Hebrew
     """
@@ -1955,11 +2092,12 @@ def test_hebrew_hebrew_v(save_xml):
         instance="msData/regex/Hebrew.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_armenian_armenian_v(save_xml):
+def test_armenian_armenian_v(json_360, save_output):
     """
     TEST :branch : Armenian
     """
@@ -1968,11 +2106,12 @@ def test_armenian_armenian_v(save_xml):
         instance="msData/regex/Armenian.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_cyrillic_cyrillic_v(save_xml):
+def test_cyrillic_cyrillic_v(json_360, save_output):
     """
     TEST :branch : Cyrillic
     """
@@ -1981,11 +2120,12 @@ def test_cyrillic_cyrillic_v(save_xml):
         instance="msData/regex/Cyrillic.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_combining_diacritical_marks_combining_diacritical_marks_v(save_xml):
+def test_combining_diacritical_marks_combining_diacritical_marks_v(json_360, save_output):
     """
     TEST :branch : CombiningDiacriticalMarks
     """
@@ -1994,11 +2134,12 @@ def test_combining_diacritical_marks_combining_diacritical_marks_v(save_xml):
         instance="msData/regex/CombiningDiacriticalMarks.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_spacing_modifier_letters_spacing_modifier_letters_v(save_xml):
+def test_spacing_modifier_letters_spacing_modifier_letters_v(json_360, save_output):
     """
     TEST :branch : SpacingModifierLetters
     """
@@ -2007,11 +2148,12 @@ def test_spacing_modifier_letters_spacing_modifier_letters_v(save_xml):
         instance="msData/regex/SpacingModifierLetters.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ipaextensions_ipaextensions_v(save_xml):
+def test_ipaextensions_ipaextensions_v(json_360, save_output):
     """
     TEST :branch : IPAExtensions
     """
@@ -2020,11 +2162,12 @@ def test_ipaextensions_ipaextensions_v(save_xml):
         instance="msData/regex/IPAExtensions.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_latin_extended_b_latin_extended_b_v(save_xml):
+def test_latin_extended_b_latin_extended_b_v(json_360, save_output):
     """
     TEST :branch : LatinExtended-B
     """
@@ -2033,11 +2176,12 @@ def test_latin_extended_b_latin_extended_b_v(save_xml):
         instance="msData/regex/LatinExtended-B.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_latin_extended_a_latin_extended_a_v(save_xml):
+def test_latin_extended_a_latin_extended_a_v(json_360, save_output):
     """
     TEST :branch : LatinExtended-A
     """
@@ -2046,11 +2190,12 @@ def test_latin_extended_a_latin_extended_a_v(save_xml):
         instance="msData/regex/LatinExtended-A.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_latin_1_supplement_latin_1_supplement_v(save_xml):
+def test_latin_1_supplement_latin_1_supplement_v(json_360, save_output):
     """
     TEST :branch : Latin-1Supplement
     """
@@ -2059,11 +2204,12 @@ def test_latin_1_supplement_latin_1_supplement_v(save_xml):
         instance="msData/regex/Latin-1Supplement.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_basic_latin_basic_latin_v(save_xml):
+def test_basic_latin_basic_latin_v(json_360, save_output):
     """
     TEST :branch : BasicLatin
     """
@@ -2072,11 +2218,12 @@ def test_basic_latin_basic_latin_v(save_xml):
         instance="msData/regex/BasicLatin.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_535_regex_test_535_v(save_xml):
+def test_regex_test_535_regex_test_535_v(json_360, save_output):
     """
     TEST :branch : RegexTest_535
     """
@@ -2085,12 +2232,13 @@ def test_regex_test_535_regex_test_535_v(save_xml):
         instance="msData/regex/RegexTest_535.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_533_regex_test_533_i(save_xml):
+def test_regex_test_533_regex_test_533_i(json_360, save_output):
     """
     TEST :branch : RegexTest_533
     """
@@ -2099,12 +2247,13 @@ def test_regex_test_533_regex_test_533_i(save_xml):
         instance="msData/regex/RegexTest_533.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_532_regex_test_532_i(save_xml):
+def test_regex_test_532_regex_test_532_i(json_360, save_output):
     """
     TEST :branch : RegexTest_532
     """
@@ -2113,12 +2262,13 @@ def test_regex_test_532_regex_test_532_i(save_xml):
         instance="msData/regex/RegexTest_532.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_531_regex_test_531_i(save_xml):
+def test_regex_test_531_regex_test_531_i(json_360, save_output):
     """
     TEST :branch : RegexTest_531
     """
@@ -2127,11 +2277,12 @@ def test_regex_test_531_regex_test_531_i(save_xml):
         instance="msData/regex/RegexTest_531.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_530_regex_test_530_v(save_xml):
+def test_regex_test_530_regex_test_530_v(json_360, save_output):
     """
     TEST :branch : RegexTest_530
     """
@@ -2140,12 +2291,13 @@ def test_regex_test_530_regex_test_530_v(save_xml):
         instance="msData/regex/RegexTest_530.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_529_regex_test_529_i(save_xml):
+def test_regex_test_529_regex_test_529_i(json_360, save_output):
     """
     TEST :branch : RegexTest_529
     """
@@ -2154,12 +2306,13 @@ def test_regex_test_529_regex_test_529_i(save_xml):
         instance="msData/regex/RegexTest_529.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_528_regex_test_528_i(save_xml):
+def test_regex_test_528_regex_test_528_i(json_360, save_output):
     """
     TEST :branch : RegexTest_528
     """
@@ -2168,11 +2321,12 @@ def test_regex_test_528_regex_test_528_i(save_xml):
         instance="msData/regex/RegexTest_528.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_525_regex_test_525_v(save_xml):
+def test_regex_test_525_regex_test_525_v(json_360, save_output):
     """
     TEST :branch : RegexTest_525
     """
@@ -2181,11 +2335,12 @@ def test_regex_test_525_regex_test_525_v(save_xml):
         instance="msData/regex/RegexTest_525.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_522_regex_test_522_v(save_xml):
+def test_regex_test_522_regex_test_522_v(json_360, save_output):
     """
     TEST :branch : RegexTest_522
     """
@@ -2194,12 +2349,13 @@ def test_regex_test_522_regex_test_522_v(save_xml):
         instance="msData/regex/RegexTest_522.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_520_regex_test_520_i(save_xml):
+def test_regex_test_520_regex_test_520_i(json_360, save_output):
     """
     TEST :branch : RegexTest_520
     """
@@ -2208,11 +2364,12 @@ def test_regex_test_520_regex_test_520_i(save_xml):
         instance="msData/regex/RegexTest_520.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_515_regex_test_515_v(save_xml):
+def test_regex_test_515_regex_test_515_v(json_360, save_output):
     """
     TEST :branch : RegexTest_515
     """
@@ -2221,12 +2378,13 @@ def test_regex_test_515_regex_test_515_v(save_xml):
         instance="msData/regex/RegexTest_515.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_514_regex_test_514_i(save_xml):
+def test_regex_test_514_regex_test_514_i(json_360, save_output):
     """
     TEST :branch : RegexTest_514
     """
@@ -2235,11 +2393,12 @@ def test_regex_test_514_regex_test_514_i(save_xml):
         instance="msData/regex/RegexTest_514.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_513_regex_test_513_v(save_xml):
+def test_regex_test_513_regex_test_513_v(json_360, save_output):
     """
     TEST :branch : RegexTest_513
     """
@@ -2248,12 +2407,13 @@ def test_regex_test_513_regex_test_513_v(save_xml):
         instance="msData/regex/RegexTest_513.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_508_regex_test_508_i(save_xml):
+def test_regex_test_508_regex_test_508_i(json_360, save_output):
     """
     TEST :branch : RegexTest_508
     """
@@ -2262,12 +2422,13 @@ def test_regex_test_508_regex_test_508_i(save_xml):
         instance="msData/regex/RegexTest_508.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_506_regex_test_506_i(save_xml):
+def test_regex_test_506_regex_test_506_i(json_360, save_output):
     """
     TEST :branch : RegexTest_506
     """
@@ -2276,12 +2437,13 @@ def test_regex_test_506_regex_test_506_i(save_xml):
         instance="msData/regex/RegexTest_506.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_504_regex_test_504_i(save_xml):
+def test_regex_test_504_regex_test_504_i(json_360, save_output):
     """
     TEST :branch : RegexTest_504
     """
@@ -2290,12 +2452,13 @@ def test_regex_test_504_regex_test_504_i(save_xml):
         instance="msData/regex/RegexTest_504.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_503_regex_test_503_i(save_xml):
+def test_regex_test_503_regex_test_503_i(json_360, save_output):
     """
     TEST :branch : RegexTest_503
     """
@@ -2304,12 +2467,13 @@ def test_regex_test_503_regex_test_503_i(save_xml):
         instance="msData/regex/RegexTest_503.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_502_regex_test_502_i(save_xml):
+def test_regex_test_502_regex_test_502_i(json_360, save_output):
     """
     TEST :branch : RegexTest_502
     """
@@ -2318,12 +2482,13 @@ def test_regex_test_502_regex_test_502_i(save_xml):
         instance="msData/regex/RegexTest_502.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_501_regex_test_501_i(save_xml):
+def test_regex_test_501_regex_test_501_i(json_360, save_output):
     """
     TEST :branch : RegexTest_501
     """
@@ -2332,12 +2497,13 @@ def test_regex_test_501_regex_test_501_i(save_xml):
         instance="msData/regex/RegexTest_501.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_500_regex_test_500_i(save_xml):
+def test_regex_test_500_regex_test_500_i(json_360, save_output):
     """
     TEST :branch : RegexTest_500
     """
@@ -2346,12 +2512,13 @@ def test_regex_test_500_regex_test_500_i(save_xml):
         instance="msData/regex/RegexTest_500.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_499_regex_test_499_i(save_xml):
+def test_regex_test_499_regex_test_499_i(json_360, save_output):
     """
     TEST :branch : RegexTest_499
     """
@@ -2360,12 +2527,13 @@ def test_regex_test_499_regex_test_499_i(save_xml):
         instance="msData/regex/RegexTest_499.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_498_regex_test_498_i(save_xml):
+def test_regex_test_498_regex_test_498_i(json_360, save_output):
     """
     TEST :branch : RegexTest_498
     """
@@ -2374,12 +2542,13 @@ def test_regex_test_498_regex_test_498_i(save_xml):
         instance="msData/regex/RegexTest_498.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_497_regex_test_497_i(save_xml):
+def test_regex_test_497_regex_test_497_i(json_360, save_output):
     """
     TEST :branch : RegexTest_497
     """
@@ -2388,12 +2557,13 @@ def test_regex_test_497_regex_test_497_i(save_xml):
         instance="msData/regex/RegexTest_497.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_496_regex_test_496_i(save_xml):
+def test_regex_test_496_regex_test_496_i(json_360, save_output):
     """
     TEST :branch : RegexTest_496
     """
@@ -2402,11 +2572,12 @@ def test_regex_test_496_regex_test_496_i(save_xml):
         instance="msData/regex/RegexTest_496.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_495_regex_test_495_v(save_xml):
+def test_regex_test_495_regex_test_495_v(json_360, save_output):
     """
     TEST :branch : RegexTest_495
     """
@@ -2415,12 +2586,13 @@ def test_regex_test_495_regex_test_495_v(save_xml):
         instance="msData/regex/RegexTest_495.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_494_regex_test_494_i(save_xml):
+def test_regex_test_494_regex_test_494_i(json_360, save_output):
     """
     TEST :branch : RegexTest_494
     """
@@ -2429,12 +2601,13 @@ def test_regex_test_494_regex_test_494_i(save_xml):
         instance="msData/regex/RegexTest_494.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_493_regex_test_493_i(save_xml):
+def test_regex_test_493_regex_test_493_i(json_360, save_output):
     """
     TEST :branch : RegexTest_493
     """
@@ -2443,12 +2616,13 @@ def test_regex_test_493_regex_test_493_i(save_xml):
         instance="msData/regex/RegexTest_493.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_492_regex_test_492_i(save_xml):
+def test_regex_test_492_regex_test_492_i(json_360, save_output):
     """
     TEST :branch : RegexTest_492
     """
@@ -2457,12 +2631,13 @@ def test_regex_test_492_regex_test_492_i(save_xml):
         instance="msData/regex/RegexTest_492.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_491_regex_test_491_i(save_xml):
+def test_regex_test_491_regex_test_491_i(json_360, save_output):
     """
     TEST :branch : RegexTest_491
     """
@@ -2471,12 +2646,13 @@ def test_regex_test_491_regex_test_491_i(save_xml):
         instance="msData/regex/RegexTest_491.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_489_regex_test_489_i(save_xml):
+def test_regex_test_489_regex_test_489_i(json_360, save_output):
     """
     TEST :branch : RegexTest_489
     """
@@ -2485,12 +2661,13 @@ def test_regex_test_489_regex_test_489_i(save_xml):
         instance="msData/regex/RegexTest_489.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_488_regex_test_488_i(save_xml):
+def test_regex_test_488_regex_test_488_i(json_360, save_output):
     """
     TEST :branch : RegexTest_488
     """
@@ -2499,12 +2676,13 @@ def test_regex_test_488_regex_test_488_i(save_xml):
         instance="msData/regex/RegexTest_488.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_476_regex_test_476_i(save_xml):
+def test_regex_test_476_regex_test_476_i(json_360, save_output):
     """
     TEST :branch : RegexTest_476
     """
@@ -2513,12 +2691,13 @@ def test_regex_test_476_regex_test_476_i(save_xml):
         instance="msData/regex/RegexTest_476.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_475_regex_test_475_i(save_xml):
+def test_regex_test_475_regex_test_475_i(json_360, save_output):
     """
     TEST :branch : RegexTest_475
     """
@@ -2527,12 +2706,13 @@ def test_regex_test_475_regex_test_475_i(save_xml):
         instance="msData/regex/RegexTest_475.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_474_regex_test_474_i(save_xml):
+def test_regex_test_474_regex_test_474_i(json_360, save_output):
     """
     TEST :branch : RegexTest_474
     """
@@ -2541,12 +2721,13 @@ def test_regex_test_474_regex_test_474_i(save_xml):
         instance="msData/regex/RegexTest_474.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_468_regex_test_468_i(save_xml):
+def test_regex_test_468_regex_test_468_i(json_360, save_output):
     """
     TEST :branch : RegexTest_468
     """
@@ -2555,12 +2736,13 @@ def test_regex_test_468_regex_test_468_i(save_xml):
         instance="msData/regex/RegexTest_468.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_467_regex_test_467_i(save_xml):
+def test_regex_test_467_regex_test_467_i(json_360, save_output):
     """
     TEST :branch : RegexTest_467
     """
@@ -2569,12 +2751,13 @@ def test_regex_test_467_regex_test_467_i(save_xml):
         instance="msData/regex/RegexTest_467.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_466_regex_test_466_i(save_xml):
+def test_regex_test_466_regex_test_466_i(json_360, save_output):
     """
     TEST :branch : RegexTest_466
     """
@@ -2583,12 +2766,13 @@ def test_regex_test_466_regex_test_466_i(save_xml):
         instance="msData/regex/RegexTest_466.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_462_regex_test_462_i(save_xml):
+def test_regex_test_462_regex_test_462_i(json_360, save_output):
     """
     TEST :branch : RegexTest_462
     """
@@ -2597,12 +2781,13 @@ def test_regex_test_462_regex_test_462_i(save_xml):
         instance="msData/regex/RegexTest_462.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_461_regex_test_461_i(save_xml):
+def test_regex_test_461_regex_test_461_i(json_360, save_output):
     """
     TEST :branch : RegexTest_461
     """
@@ -2611,12 +2796,13 @@ def test_regex_test_461_regex_test_461_i(save_xml):
         instance="msData/regex/RegexTest_461.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_460_regex_test_460_i(save_xml):
+def test_regex_test_460_regex_test_460_i(json_360, save_output):
     """
     TEST :branch : RegexTest_460
     """
@@ -2625,12 +2811,13 @@ def test_regex_test_460_regex_test_460_i(save_xml):
         instance="msData/regex/RegexTest_460.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_459_regex_test_459_i(save_xml):
+def test_regex_test_459_regex_test_459_i(json_360, save_output):
     """
     TEST :branch : RegexTest_459
     """
@@ -2639,12 +2826,13 @@ def test_regex_test_459_regex_test_459_i(save_xml):
         instance="msData/regex/RegexTest_459.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_439_regex_test_439_i(save_xml):
+def test_regex_test_439_regex_test_439_i(json_360, save_output):
     """
     TEST :branch : RegexTest_439
     """
@@ -2653,12 +2841,13 @@ def test_regex_test_439_regex_test_439_i(save_xml):
         instance="msData/regex/RegexTest_439.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_438_regex_test_438_i(save_xml):
+def test_regex_test_438_regex_test_438_i(json_360, save_output):
     """
     TEST :branch : RegexTest_438
     """
@@ -2667,12 +2856,13 @@ def test_regex_test_438_regex_test_438_i(save_xml):
         instance="msData/regex/RegexTest_438.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_434_regex_test_434_i(save_xml):
+def test_regex_test_434_regex_test_434_i(json_360, save_output):
     """
     TEST :branch : RegexTest_434
     """
@@ -2681,12 +2871,13 @@ def test_regex_test_434_regex_test_434_i(save_xml):
         instance="msData/regex/RegexTest_434.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_433_regex_test_433_i(save_xml):
+def test_regex_test_433_regex_test_433_i(json_360, save_output):
     """
     TEST :branch : RegexTest_433
     """
@@ -2695,12 +2886,13 @@ def test_regex_test_433_regex_test_433_i(save_xml):
         instance="msData/regex/RegexTest_433.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_430_regex_test_430_i(save_xml):
+def test_regex_test_430_regex_test_430_i(json_360, save_output):
     """
     TEST :branch : RegexTest_430
     """
@@ -2709,12 +2901,13 @@ def test_regex_test_430_regex_test_430_i(save_xml):
         instance="msData/regex/RegexTest_430.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_429_regex_test_429_i(save_xml):
+def test_regex_test_429_regex_test_429_i(json_360, save_output):
     """
     TEST :branch : RegexTest_429
     """
@@ -2723,12 +2916,13 @@ def test_regex_test_429_regex_test_429_i(save_xml):
         instance="msData/regex/RegexTest_429.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_426_regex_test_426_i(save_xml):
+def test_regex_test_426_regex_test_426_i(json_360, save_output):
     """
     TEST :branch : RegexTest_426
     """
@@ -2737,12 +2931,13 @@ def test_regex_test_426_regex_test_426_i(save_xml):
         instance="msData/regex/RegexTest_426.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_425_regex_test_425_i(save_xml):
+def test_regex_test_425_regex_test_425_i(json_360, save_output):
     """
     TEST :branch : RegexTest_425
     """
@@ -2751,12 +2946,13 @@ def test_regex_test_425_regex_test_425_i(save_xml):
         instance="msData/regex/RegexTest_425.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_424_regex_test_424_i(save_xml):
+def test_regex_test_424_regex_test_424_i(json_360, save_output):
     """
     TEST :branch : RegexTest_424
     """
@@ -2765,12 +2961,13 @@ def test_regex_test_424_regex_test_424_i(save_xml):
         instance="msData/regex/RegexTest_424.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_422_regex_test_422_i(save_xml):
+def test_regex_test_422_regex_test_422_i(json_360, save_output):
     """
     TEST :branch : RegexTest_422
     """
@@ -2779,12 +2976,13 @@ def test_regex_test_422_regex_test_422_i(save_xml):
         instance="msData/regex/RegexTest_422.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_421_regex_test_421_i(save_xml):
+def test_regex_test_421_regex_test_421_i(json_360, save_output):
     """
     TEST :branch : RegexTest_421
     """
@@ -2793,12 +2991,13 @@ def test_regex_test_421_regex_test_421_i(save_xml):
         instance="msData/regex/RegexTest_421.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_420_regex_test_420_i(save_xml):
+def test_regex_test_420_regex_test_420_i(json_360, save_output):
     """
     TEST :branch : RegexTest_420
     """
@@ -2807,12 +3006,13 @@ def test_regex_test_420_regex_test_420_i(save_xml):
         instance="msData/regex/RegexTest_420.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_375_regex_test_375_i(save_xml):
+def test_regex_test_375_regex_test_375_i(json_360, save_output):
     """
     TEST :branch : RegexTest_375
     """
@@ -2821,12 +3021,13 @@ def test_regex_test_375_regex_test_375_i(save_xml):
         instance="msData/regex/RegexTest_375.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_374_regex_test_374_i(save_xml):
+def test_regex_test_374_regex_test_374_i(json_360, save_output):
     """
     TEST :branch : RegexTest_374
     """
@@ -2835,12 +3036,13 @@ def test_regex_test_374_regex_test_374_i(save_xml):
         instance="msData/regex/RegexTest_374.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_373_regex_test_373_i(save_xml):
+def test_regex_test_373_regex_test_373_i(json_360, save_output):
     """
     TEST :branch : RegexTest_373
     """
@@ -2849,12 +3051,13 @@ def test_regex_test_373_regex_test_373_i(save_xml):
         instance="msData/regex/RegexTest_373.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_372_regex_test_372_i(save_xml):
+def test_regex_test_372_regex_test_372_i(json_360, save_output):
     """
     TEST :branch : RegexTest_372
     """
@@ -2863,12 +3066,13 @@ def test_regex_test_372_regex_test_372_i(save_xml):
         instance="msData/regex/RegexTest_372.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_371_regex_test_371_i(save_xml):
+def test_regex_test_371_regex_test_371_i(json_360, save_output):
     """
     TEST :branch : RegexTest_371
     """
@@ -2877,12 +3081,13 @@ def test_regex_test_371_regex_test_371_i(save_xml):
         instance="msData/regex/RegexTest_371.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_370_regex_test_370_i(save_xml):
+def test_regex_test_370_regex_test_370_i(json_360, save_output):
     """
     TEST :branch : RegexTest_370
     """
@@ -2891,12 +3096,13 @@ def test_regex_test_370_regex_test_370_i(save_xml):
         instance="msData/regex/RegexTest_370.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_367_regex_test_367_i(save_xml):
+def test_regex_test_367_regex_test_367_i(json_360, save_output):
     """
     TEST :branch : RegexTest_367
     """
@@ -2905,12 +3111,13 @@ def test_regex_test_367_regex_test_367_i(save_xml):
         instance="msData/regex/RegexTest_367.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_365_regex_test_365_i(save_xml):
+def test_regex_test_365_regex_test_365_i(json_360, save_output):
     """
     TEST :branch : RegexTest_365
     """
@@ -2919,12 +3126,13 @@ def test_regex_test_365_regex_test_365_i(save_xml):
         instance="msData/regex/RegexTest_365.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_364_regex_test_364_i(save_xml):
+def test_regex_test_364_regex_test_364_i(json_360, save_output):
     """
     TEST :branch : RegexTest_364
     """
@@ -2933,12 +3141,13 @@ def test_regex_test_364_regex_test_364_i(save_xml):
         instance="msData/regex/RegexTest_364.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_363_regex_test_363_i(save_xml):
+def test_regex_test_363_regex_test_363_i(json_360, save_output):
     """
     TEST :branch : RegexTest_363
     """
@@ -2947,12 +3156,13 @@ def test_regex_test_363_regex_test_363_i(save_xml):
         instance="msData/regex/RegexTest_363.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_359_regex_test_359_i(save_xml):
+def test_regex_test_359_regex_test_359_i(json_360, save_output):
     """
     TEST :branch : RegexTest_359
     """
@@ -2961,12 +3171,13 @@ def test_regex_test_359_regex_test_359_i(save_xml):
         instance="msData/regex/RegexTest_359.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_358_regex_test_358_i(save_xml):
+def test_regex_test_358_regex_test_358_i(json_360, save_output):
     """
     TEST :branch : RegexTest_358
     """
@@ -2975,12 +3186,13 @@ def test_regex_test_358_regex_test_358_i(save_xml):
         instance="msData/regex/RegexTest_358.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_357_regex_test_357_i(save_xml):
+def test_regex_test_357_regex_test_357_i(json_360, save_output):
     """
     TEST :branch : RegexTest_357
     """
@@ -2989,12 +3201,13 @@ def test_regex_test_357_regex_test_357_i(save_xml):
         instance="msData/regex/RegexTest_357.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_356_regex_test_356_i(save_xml):
+def test_regex_test_356_regex_test_356_i(json_360, save_output):
     """
     TEST :branch : RegexTest_356
     """
@@ -3003,12 +3216,13 @@ def test_regex_test_356_regex_test_356_i(save_xml):
         instance="msData/regex/RegexTest_356.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_354_regex_test_354_i(save_xml):
+def test_regex_test_354_regex_test_354_i(json_360, save_output):
     """
     TEST :branch : RegexTest_354
     """
@@ -3017,12 +3231,13 @@ def test_regex_test_354_regex_test_354_i(save_xml):
         instance="msData/regex/RegexTest_354.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_353_regex_test_353_i(save_xml):
+def test_regex_test_353_regex_test_353_i(json_360, save_output):
     """
     TEST :branch : RegexTest_353
     """
@@ -3031,12 +3246,13 @@ def test_regex_test_353_regex_test_353_i(save_xml):
         instance="msData/regex/RegexTest_353.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_352_regex_test_352_i(save_xml):
+def test_regex_test_352_regex_test_352_i(json_360, save_output):
     """
     TEST :branch : RegexTest_352
     """
@@ -3045,12 +3261,13 @@ def test_regex_test_352_regex_test_352_i(save_xml):
         instance="msData/regex/RegexTest_352.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_350_regex_test_350_i(save_xml):
+def test_regex_test_350_regex_test_350_i(json_360, save_output):
     """
     TEST :branch : RegexTest_350
     """
@@ -3059,12 +3276,13 @@ def test_regex_test_350_regex_test_350_i(save_xml):
         instance="msData/regex/RegexTest_350.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_349_regex_test_349_i(save_xml):
+def test_regex_test_349_regex_test_349_i(json_360, save_output):
     """
     TEST :branch : RegexTest_349
     """
@@ -3073,12 +3291,13 @@ def test_regex_test_349_regex_test_349_i(save_xml):
         instance="msData/regex/RegexTest_349.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_348_regex_test_348_i(save_xml):
+def test_regex_test_348_regex_test_348_i(json_360, save_output):
     """
     TEST :branch : RegexTest_348
     """
@@ -3087,12 +3306,13 @@ def test_regex_test_348_regex_test_348_i(save_xml):
         instance="msData/regex/RegexTest_348.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_347_regex_test_347_i(save_xml):
+def test_regex_test_347_regex_test_347_i(json_360, save_output):
     """
     TEST :branch : RegexTest_347
     """
@@ -3101,12 +3321,13 @@ def test_regex_test_347_regex_test_347_i(save_xml):
         instance="msData/regex/RegexTest_347.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_346_regex_test_346_i(save_xml):
+def test_regex_test_346_regex_test_346_i(json_360, save_output):
     """
     TEST :branch : RegexTest_346
     """
@@ -3115,12 +3336,13 @@ def test_regex_test_346_regex_test_346_i(save_xml):
         instance="msData/regex/RegexTest_346.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_345_regex_test_345_i(save_xml):
+def test_regex_test_345_regex_test_345_i(json_360, save_output):
     """
     TEST :branch : RegexTest_345
     """
@@ -3129,12 +3351,13 @@ def test_regex_test_345_regex_test_345_i(save_xml):
         instance="msData/regex/RegexTest_345.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_344_regex_test_344_i(save_xml):
+def test_regex_test_344_regex_test_344_i(json_360, save_output):
     """
     TEST :branch : RegexTest_344
     """
@@ -3143,12 +3366,13 @@ def test_regex_test_344_regex_test_344_i(save_xml):
         instance="msData/regex/RegexTest_344.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_343_regex_test_343_i(save_xml):
+def test_regex_test_343_regex_test_343_i(json_360, save_output):
     """
     TEST :branch : RegexTest_343
     """
@@ -3157,12 +3381,13 @@ def test_regex_test_343_regex_test_343_i(save_xml):
         instance="msData/regex/RegexTest_343.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_342_regex_test_342_i(save_xml):
+def test_regex_test_342_regex_test_342_i(json_360, save_output):
     """
     TEST :branch : RegexTest_342
     """
@@ -3171,12 +3396,13 @@ def test_regex_test_342_regex_test_342_i(save_xml):
         instance="msData/regex/RegexTest_342.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_341_regex_test_341_i(save_xml):
+def test_regex_test_341_regex_test_341_i(json_360, save_output):
     """
     TEST :branch : RegexTest_341
     """
@@ -3185,12 +3411,13 @@ def test_regex_test_341_regex_test_341_i(save_xml):
         instance="msData/regex/RegexTest_341.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_340_regex_test_340_i(save_xml):
+def test_regex_test_340_regex_test_340_i(json_360, save_output):
     """
     TEST :branch : RegexTest_340
     """
@@ -3199,12 +3426,13 @@ def test_regex_test_340_regex_test_340_i(save_xml):
         instance="msData/regex/RegexTest_340.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_339_regex_test_339_i(save_xml):
+def test_regex_test_339_regex_test_339_i(json_360, save_output):
     """
     TEST :branch : RegexTest_339
     """
@@ -3213,12 +3441,13 @@ def test_regex_test_339_regex_test_339_i(save_xml):
         instance="msData/regex/RegexTest_339.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_337_regex_test_337_i(save_xml):
+def test_regex_test_337_regex_test_337_i(json_360, save_output):
     """
     TEST :branch : RegexTest_337
     """
@@ -3227,12 +3456,13 @@ def test_regex_test_337_regex_test_337_i(save_xml):
         instance="msData/regex/RegexTest_337.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_336_regex_test_336_i(save_xml):
+def test_regex_test_336_regex_test_336_i(json_360, save_output):
     """
     TEST :branch : RegexTest_336
     """
@@ -3241,12 +3471,13 @@ def test_regex_test_336_regex_test_336_i(save_xml):
         instance="msData/regex/RegexTest_336.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_335_regex_test_335_i(save_xml):
+def test_regex_test_335_regex_test_335_i(json_360, save_output):
     """
     TEST :branch : RegexTest_335
     """
@@ -3255,12 +3486,13 @@ def test_regex_test_335_regex_test_335_i(save_xml):
         instance="msData/regex/RegexTest_335.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_334_regex_test_334_i(save_xml):
+def test_regex_test_334_regex_test_334_i(json_360, save_output):
     """
     TEST :branch : RegexTest_334
     """
@@ -3269,12 +3501,13 @@ def test_regex_test_334_regex_test_334_i(save_xml):
         instance="msData/regex/RegexTest_334.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_333_regex_test_333_i(save_xml):
+def test_regex_test_333_regex_test_333_i(json_360, save_output):
     """
     TEST :branch : RegexTest_333
     """
@@ -3283,12 +3516,13 @@ def test_regex_test_333_regex_test_333_i(save_xml):
         instance="msData/regex/RegexTest_333.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_332_regex_test_332_i(save_xml):
+def test_regex_test_332_regex_test_332_i(json_360, save_output):
     """
     TEST :branch : RegexTest_332
     """
@@ -3297,12 +3531,13 @@ def test_regex_test_332_regex_test_332_i(save_xml):
         instance="msData/regex/RegexTest_332.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_329_regex_test_329_i(save_xml):
+def test_regex_test_329_regex_test_329_i(json_360, save_output):
     """
     TEST :branch : RegexTest_329
     """
@@ -3311,12 +3546,13 @@ def test_regex_test_329_regex_test_329_i(save_xml):
         instance="msData/regex/RegexTest_329.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_328_regex_test_328_i(save_xml):
+def test_regex_test_328_regex_test_328_i(json_360, save_output):
     """
     TEST :branch : RegexTest_328
     """
@@ -3325,12 +3561,13 @@ def test_regex_test_328_regex_test_328_i(save_xml):
         instance="msData/regex/RegexTest_328.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_327_regex_test_327_i(save_xml):
+def test_regex_test_327_regex_test_327_i(json_360, save_output):
     """
     TEST :branch : RegexTest_327
     """
@@ -3339,12 +3576,13 @@ def test_regex_test_327_regex_test_327_i(save_xml):
         instance="msData/regex/RegexTest_327.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_326_regex_test_326_i(save_xml):
+def test_regex_test_326_regex_test_326_i(json_360, save_output):
     """
     TEST :branch : RegexTest_326
     """
@@ -3353,12 +3591,13 @@ def test_regex_test_326_regex_test_326_i(save_xml):
         instance="msData/regex/RegexTest_326.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_325_regex_test_325_i(save_xml):
+def test_regex_test_325_regex_test_325_i(json_360, save_output):
     """
     TEST :branch : RegexTest_325
     """
@@ -3367,12 +3606,13 @@ def test_regex_test_325_regex_test_325_i(save_xml):
         instance="msData/regex/RegexTest_325.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_324_regex_test_324_i(save_xml):
+def test_regex_test_324_regex_test_324_i(json_360, save_output):
     """
     TEST :branch : RegexTest_324
     """
@@ -3381,12 +3621,13 @@ def test_regex_test_324_regex_test_324_i(save_xml):
         instance="msData/regex/RegexTest_324.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_323_regex_test_323_i(save_xml):
+def test_regex_test_323_regex_test_323_i(json_360, save_output):
     """
     TEST :branch : RegexTest_323
     """
@@ -3395,12 +3636,13 @@ def test_regex_test_323_regex_test_323_i(save_xml):
         instance="msData/regex/RegexTest_323.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_322_regex_test_322_i(save_xml):
+def test_regex_test_322_regex_test_322_i(json_360, save_output):
     """
     TEST :branch : RegexTest_322
     """
@@ -3409,11 +3651,12 @@ def test_regex_test_322_regex_test_322_i(save_xml):
         instance="msData/regex/RegexTest_322.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_319_regex_test_319_v(save_xml):
+def test_regex_test_319_regex_test_319_v(json_360, save_output):
     """
     TEST :branch : RegexTest_319
     """
@@ -3422,12 +3665,13 @@ def test_regex_test_319_regex_test_319_v(save_xml):
         instance="msData/regex/RegexTest_319.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_286_regex_test_286_i(save_xml):
+def test_regex_test_286_regex_test_286_i(json_360, save_output):
     """
     TEST :branch : RegexTest_286
     """
@@ -3436,12 +3680,13 @@ def test_regex_test_286_regex_test_286_i(save_xml):
         instance="msData/regex/RegexTest_286.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_285_regex_test_285_i(save_xml):
+def test_regex_test_285_regex_test_285_i(json_360, save_output):
     """
     TEST :branch : RegexTest_285
     """
@@ -3450,12 +3695,13 @@ def test_regex_test_285_regex_test_285_i(save_xml):
         instance="msData/regex/RegexTest_285.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_284_regex_test_284_i(save_xml):
+def test_regex_test_284_regex_test_284_i(json_360, save_output):
     """
     TEST :branch : RegexTest_284
     """
@@ -3464,12 +3710,13 @@ def test_regex_test_284_regex_test_284_i(save_xml):
         instance="msData/regex/RegexTest_284.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_283_regex_test_283_i(save_xml):
+def test_regex_test_283_regex_test_283_i(json_360, save_output):
     """
     TEST :branch : RegexTest_283
     """
@@ -3478,12 +3725,13 @@ def test_regex_test_283_regex_test_283_i(save_xml):
         instance="msData/regex/RegexTest_283.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_282_regex_test_282_i(save_xml):
+def test_regex_test_282_regex_test_282_i(json_360, save_output):
     """
     TEST :branch : RegexTest_282
     """
@@ -3492,12 +3740,13 @@ def test_regex_test_282_regex_test_282_i(save_xml):
         instance="msData/regex/RegexTest_282.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_281_regex_test_281_i(save_xml):
+def test_regex_test_281_regex_test_281_i(json_360, save_output):
     """
     TEST :branch : RegexTest_281
     """
@@ -3506,12 +3755,13 @@ def test_regex_test_281_regex_test_281_i(save_xml):
         instance="msData/regex/RegexTest_281.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_280_regex_test_280_i(save_xml):
+def test_regex_test_280_regex_test_280_i(json_360, save_output):
     """
     TEST :branch : RegexTest_280
     """
@@ -3520,12 +3770,13 @@ def test_regex_test_280_regex_test_280_i(save_xml):
         instance="msData/regex/RegexTest_280.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_279_regex_test_279_i(save_xml):
+def test_regex_test_279_regex_test_279_i(json_360, save_output):
     """
     TEST :branch : RegexTest_279
     """
@@ -3534,12 +3785,13 @@ def test_regex_test_279_regex_test_279_i(save_xml):
         instance="msData/regex/RegexTest_279.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_278_regex_test_278_i(save_xml):
+def test_regex_test_278_regex_test_278_i(json_360, save_output):
     """
     TEST :branch : RegexTest_278
     """
@@ -3548,12 +3800,13 @@ def test_regex_test_278_regex_test_278_i(save_xml):
         instance="msData/regex/RegexTest_278.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_277_regex_test_277_i(save_xml):
+def test_regex_test_277_regex_test_277_i(json_360, save_output):
     """
     TEST :branch : RegexTest_277
     """
@@ -3562,12 +3815,13 @@ def test_regex_test_277_regex_test_277_i(save_xml):
         instance="msData/regex/RegexTest_277.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_276_regex_test_276_i(save_xml):
+def test_regex_test_276_regex_test_276_i(json_360, save_output):
     """
     TEST :branch : RegexTest_276
     """
@@ -3576,12 +3830,13 @@ def test_regex_test_276_regex_test_276_i(save_xml):
         instance="msData/regex/RegexTest_276.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_275_regex_test_275_i(save_xml):
+def test_regex_test_275_regex_test_275_i(json_360, save_output):
     """
     TEST :branch : RegexTest_275
     """
@@ -3590,12 +3845,13 @@ def test_regex_test_275_regex_test_275_i(save_xml):
         instance="msData/regex/RegexTest_275.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_274_regex_test_274_i(save_xml):
+def test_regex_test_274_regex_test_274_i(json_360, save_output):
     """
     TEST :branch : RegexTest_274
     """
@@ -3604,12 +3860,13 @@ def test_regex_test_274_regex_test_274_i(save_xml):
         instance="msData/regex/RegexTest_274.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_273_regex_test_273_i(save_xml):
+def test_regex_test_273_regex_test_273_i(json_360, save_output):
     """
     TEST :branch : RegexTest_273
     """
@@ -3618,12 +3875,13 @@ def test_regex_test_273_regex_test_273_i(save_xml):
         instance="msData/regex/RegexTest_273.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_272_regex_test_272_i(save_xml):
+def test_regex_test_272_regex_test_272_i(json_360, save_output):
     """
     TEST :branch : RegexTest_272
     """
@@ -3632,12 +3890,13 @@ def test_regex_test_272_regex_test_272_i(save_xml):
         instance="msData/regex/RegexTest_272.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_271_regex_test_271_i(save_xml):
+def test_regex_test_271_regex_test_271_i(json_360, save_output):
     """
     TEST :branch : RegexTest_271
     """
@@ -3646,12 +3905,13 @@ def test_regex_test_271_regex_test_271_i(save_xml):
         instance="msData/regex/RegexTest_271.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_270_regex_test_270_i(save_xml):
+def test_regex_test_270_regex_test_270_i(json_360, save_output):
     """
     TEST :branch : RegexTest_270
     """
@@ -3660,12 +3920,13 @@ def test_regex_test_270_regex_test_270_i(save_xml):
         instance="msData/regex/RegexTest_270.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_269_regex_test_269_i(save_xml):
+def test_regex_test_269_regex_test_269_i(json_360, save_output):
     """
     TEST :branch : RegexTest_269
     """
@@ -3674,12 +3935,13 @@ def test_regex_test_269_regex_test_269_i(save_xml):
         instance="msData/regex/RegexTest_269.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_268_regex_test_268_i(save_xml):
+def test_regex_test_268_regex_test_268_i(json_360, save_output):
     """
     TEST :branch : RegexTest_268
     """
@@ -3688,12 +3950,13 @@ def test_regex_test_268_regex_test_268_i(save_xml):
         instance="msData/regex/RegexTest_268.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_267_regex_test_267_i(save_xml):
+def test_regex_test_267_regex_test_267_i(json_360, save_output):
     """
     TEST :branch : RegexTest_267
     """
@@ -3702,11 +3965,12 @@ def test_regex_test_267_regex_test_267_i(save_xml):
         instance="msData/regex/RegexTest_267.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_264_regex_test_264_v(save_xml):
+def test_regex_test_264_regex_test_264_v(json_360, save_output):
     """
     TEST :branch : RegexTest_264
     """
@@ -3715,11 +3979,12 @@ def test_regex_test_264_regex_test_264_v(save_xml):
         instance="msData/regex/RegexTest_264.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_263_regex_test_263_v(save_xml):
+def test_regex_test_263_regex_test_263_v(json_360, save_output):
     """
     TEST :branch : RegexTest_263
     """
@@ -3728,11 +3993,12 @@ def test_regex_test_263_regex_test_263_v(save_xml):
         instance="msData/regex/RegexTest_263.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_262_regex_test_262_v(save_xml):
+def test_regex_test_262_regex_test_262_v(json_360, save_output):
     """
     TEST :branch : RegexTest_262
     """
@@ -3741,11 +4007,12 @@ def test_regex_test_262_regex_test_262_v(save_xml):
         instance="msData/regex/RegexTest_262.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_261_regex_test_261_v(save_xml):
+def test_regex_test_261_regex_test_261_v(json_360, save_output):
     """
     TEST :branch : RegexTest_261
     """
@@ -3754,11 +4021,12 @@ def test_regex_test_261_regex_test_261_v(save_xml):
         instance="msData/regex/RegexTest_261.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_260_regex_test_260_v(save_xml):
+def test_regex_test_260_regex_test_260_v(json_360, save_output):
     """
     TEST :branch : RegexTest_260
     """
@@ -3767,11 +4035,12 @@ def test_regex_test_260_regex_test_260_v(save_xml):
         instance="msData/regex/RegexTest_260.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_259_regex_test_259_v(save_xml):
+def test_regex_test_259_regex_test_259_v(json_360, save_output):
     """
     TEST :branch : RegexTest_259
     """
@@ -3780,12 +4049,13 @@ def test_regex_test_259_regex_test_259_v(save_xml):
         instance="msData/regex/RegexTest_259.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_255_regex_test_255_i(save_xml):
+def test_regex_test_255_regex_test_255_i(json_360, save_output):
     """
     TEST :branch : RegexTest_255
     """
@@ -3794,12 +4064,13 @@ def test_regex_test_255_regex_test_255_i(save_xml):
         instance="msData/regex/RegexTest_255.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_254_regex_test_254_i(save_xml):
+def test_regex_test_254_regex_test_254_i(json_360, save_output):
     """
     TEST :branch : RegexTest_254
     """
@@ -3808,12 +4079,13 @@ def test_regex_test_254_regex_test_254_i(save_xml):
         instance="msData/regex/RegexTest_254.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_253_regex_test_253_i(save_xml):
+def test_regex_test_253_regex_test_253_i(json_360, save_output):
     """
     TEST :branch : RegexTest_253
     """
@@ -3822,12 +4094,13 @@ def test_regex_test_253_regex_test_253_i(save_xml):
         instance="msData/regex/RegexTest_253.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_252_regex_test_252_i(save_xml):
+def test_regex_test_252_regex_test_252_i(json_360, save_output):
     """
     TEST :branch : RegexTest_252
     """
@@ -3836,12 +4109,13 @@ def test_regex_test_252_regex_test_252_i(save_xml):
         instance="msData/regex/RegexTest_252.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_251_regex_test_251_i(save_xml):
+def test_regex_test_251_regex_test_251_i(json_360, save_output):
     """
     TEST :branch : RegexTest_251
     """
@@ -3850,12 +4124,13 @@ def test_regex_test_251_regex_test_251_i(save_xml):
         instance="msData/regex/RegexTest_251.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_250_regex_test_250_i(save_xml):
+def test_regex_test_250_regex_test_250_i(json_360, save_output):
     """
     TEST :branch : RegexTest_250
     """
@@ -3864,12 +4139,13 @@ def test_regex_test_250_regex_test_250_i(save_xml):
         instance="msData/regex/RegexTest_250.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_239_regex_test_239_i(save_xml):
+def test_regex_test_239_regex_test_239_i(json_360, save_output):
     """
     TEST :branch : RegexTest_239
     """
@@ -3878,12 +4154,13 @@ def test_regex_test_239_regex_test_239_i(save_xml):
         instance="msData/regex/RegexTest_239.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_236_regex_test_236_i(save_xml):
+def test_regex_test_236_regex_test_236_i(json_360, save_output):
     """
     TEST :branch : RegexTest_236
     """
@@ -3892,12 +4169,13 @@ def test_regex_test_236_regex_test_236_i(save_xml):
         instance="msData/regex/RegexTest_236.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_235_regex_test_235_i(save_xml):
+def test_regex_test_235_regex_test_235_i(json_360, save_output):
     """
     TEST :branch : RegexTest_235
     """
@@ -3906,11 +4184,12 @@ def test_regex_test_235_regex_test_235_i(save_xml):
         instance="msData/regex/RegexTest_235.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_234_regex_test_234_v(save_xml):
+def test_regex_test_234_regex_test_234_v(json_360, save_output):
     """
     TEST :branch : RegexTest_234
     """
@@ -3919,12 +4198,13 @@ def test_regex_test_234_regex_test_234_v(save_xml):
         instance="msData/regex/RegexTest_234.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_182_regex_test_182_i(save_xml):
+def test_regex_test_182_regex_test_182_i(json_360, save_output):
     """
     TEST :branch : RegexTest_182
     """
@@ -3933,12 +4213,13 @@ def test_regex_test_182_regex_test_182_i(save_xml):
         instance="msData/regex/RegexTest_182.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_181_regex_test_181_i(save_xml):
+def test_regex_test_181_regex_test_181_i(json_360, save_output):
     """
     TEST :branch : RegexTest_181
     """
@@ -3947,12 +4228,13 @@ def test_regex_test_181_regex_test_181_i(save_xml):
         instance="msData/regex/RegexTest_181.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_180_regex_test_180_i(save_xml):
+def test_regex_test_180_regex_test_180_i(json_360, save_output):
     """
     TEST :branch : RegexTest_180
     """
@@ -3961,12 +4243,13 @@ def test_regex_test_180_regex_test_180_i(save_xml):
         instance="msData/regex/RegexTest_180.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_177_regex_test_177_i(save_xml):
+def test_regex_test_177_regex_test_177_i(json_360, save_output):
     """
     TEST :branch : RegexTest_177
     """
@@ -3975,12 +4258,13 @@ def test_regex_test_177_regex_test_177_i(save_xml):
         instance="msData/regex/RegexTest_177.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_176_regex_test_176_i(save_xml):
+def test_regex_test_176_regex_test_176_i(json_360, save_output):
     """
     TEST :branch : RegexTest_176
     """
@@ -3989,12 +4273,13 @@ def test_regex_test_176_regex_test_176_i(save_xml):
         instance="msData/regex/RegexTest_176.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_175_regex_test_175_i(save_xml):
+def test_regex_test_175_regex_test_175_i(json_360, save_output):
     """
     TEST :branch : RegexTest_175
     """
@@ -4003,12 +4288,13 @@ def test_regex_test_175_regex_test_175_i(save_xml):
         instance="msData/regex/RegexTest_175.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_118_regex_test_118_i(save_xml):
+def test_regex_test_118_regex_test_118_i(json_360, save_output):
     """
     TEST :branch : RegexTest_118
     """
@@ -4017,12 +4303,13 @@ def test_regex_test_118_regex_test_118_i(save_xml):
         instance="msData/regex/RegexTest_118.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_117_regex_test_117_i(save_xml):
+def test_regex_test_117_regex_test_117_i(json_360, save_output):
     """
     TEST :branch : RegexTest_117
     """
@@ -4031,11 +4318,12 @@ def test_regex_test_117_regex_test_117_i(save_xml):
         instance="msData/regex/RegexTest_117.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_81_regex_test_81_v(save_xml):
+def test_regex_test_81_regex_test_81_v(json_360, save_output):
     """
     TEST :branch : RegexTest_81
     """
@@ -4044,11 +4332,12 @@ def test_regex_test_81_regex_test_81_v(save_xml):
         instance="msData/regex/RegexTest_81.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_80_regex_test_80_v(save_xml):
+def test_regex_test_80_regex_test_80_v(json_360, save_output):
     """
     TEST :branch : RegexTest_80
     """
@@ -4057,12 +4346,13 @@ def test_regex_test_80_regex_test_80_v(save_xml):
         instance="msData/regex/RegexTest_80.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_79_regex_test_79_i(save_xml):
+def test_regex_test_79_regex_test_79_i(json_360, save_output):
     """
     TEST :branch : RegexTest_79
     """
@@ -4071,12 +4361,13 @@ def test_regex_test_79_regex_test_79_i(save_xml):
         instance="msData/regex/RegexTest_79.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_78_regex_test_78_i(save_xml):
+def test_regex_test_78_regex_test_78_i(json_360, save_output):
     """
     TEST :branch : RegexTest_78
     """
@@ -4085,12 +4376,13 @@ def test_regex_test_78_regex_test_78_i(save_xml):
         instance="msData/regex/RegexTest_78.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_77_regex_test_77_i(save_xml):
+def test_regex_test_77_regex_test_77_i(json_360, save_output):
     """
     TEST :branch : RegexTest_77
     """
@@ -4099,12 +4391,13 @@ def test_regex_test_77_regex_test_77_i(save_xml):
         instance="msData/regex/RegexTest_77.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_76_regex_test_76_i(save_xml):
+def test_regex_test_76_regex_test_76_i(json_360, save_output):
     """
     TEST :branch : RegexTest_76
     """
@@ -4113,12 +4406,13 @@ def test_regex_test_76_regex_test_76_i(save_xml):
         instance="msData/regex/RegexTest_76.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_75_regex_test_75_i(save_xml):
+def test_regex_test_75_regex_test_75_i(json_360, save_output):
     """
     TEST :branch : RegexTest_75
     """
@@ -4127,12 +4421,13 @@ def test_regex_test_75_regex_test_75_i(save_xml):
         instance="msData/regex/RegexTest_75.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_74_regex_test_74_i(save_xml):
+def test_regex_test_74_regex_test_74_i(json_360, save_output):
     """
     TEST :branch : RegexTest_74
     """
@@ -4141,11 +4436,12 @@ def test_regex_test_74_regex_test_74_i(save_xml):
         instance="msData/regex/RegexTest_74.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_73_regex_test_73_v(save_xml):
+def test_regex_test_73_regex_test_73_v(json_360, save_output):
     """
     TEST :branch : RegexTest_73
     """
@@ -4154,11 +4450,12 @@ def test_regex_test_73_regex_test_73_v(save_xml):
         instance="msData/regex/RegexTest_73.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_72_regex_test_72_v(save_xml):
+def test_regex_test_72_regex_test_72_v(json_360, save_output):
     """
     TEST :branch : RegexTest_72
     """
@@ -4167,12 +4464,13 @@ def test_regex_test_72_regex_test_72_v(save_xml):
         instance="msData/regex/RegexTest_72.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_71_regex_test_71_i(save_xml):
+def test_regex_test_71_regex_test_71_i(json_360, save_output):
     """
     TEST :branch : RegexTest_71
     """
@@ -4181,12 +4479,13 @@ def test_regex_test_71_regex_test_71_i(save_xml):
         instance="msData/regex/RegexTest_71.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_70_regex_test_70_i(save_xml):
+def test_regex_test_70_regex_test_70_i(json_360, save_output):
     """
     TEST :branch : RegexTest_70
     """
@@ -4195,12 +4494,13 @@ def test_regex_test_70_regex_test_70_i(save_xml):
         instance="msData/regex/RegexTest_70.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_69_regex_test_69_i(save_xml):
+def test_regex_test_69_regex_test_69_i(json_360, save_output):
     """
     TEST :branch : RegexTest_69
     """
@@ -4209,12 +4509,13 @@ def test_regex_test_69_regex_test_69_i(save_xml):
         instance="msData/regex/RegexTest_69.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_68_regex_test_68_i(save_xml):
+def test_regex_test_68_regex_test_68_i(json_360, save_output):
     """
     TEST :branch : RegexTest_68
     """
@@ -4223,12 +4524,13 @@ def test_regex_test_68_regex_test_68_i(save_xml):
         instance="msData/regex/RegexTest_68.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_67_regex_test_67_i(save_xml):
+def test_regex_test_67_regex_test_67_i(json_360, save_output):
     """
     TEST :branch : RegexTest_67
     """
@@ -4237,12 +4539,13 @@ def test_regex_test_67_regex_test_67_i(save_xml):
         instance="msData/regex/RegexTest_67.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_66_regex_test_66_i(save_xml):
+def test_regex_test_66_regex_test_66_i(json_360, save_output):
     """
     TEST :branch : RegexTest_66
     """
@@ -4251,12 +4554,13 @@ def test_regex_test_66_regex_test_66_i(save_xml):
         instance="msData/regex/RegexTest_66.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_63_regex_test_63_i(save_xml):
+def test_regex_test_63_regex_test_63_i(json_360, save_output):
     """
     TEST :branch : RegexTest_63
     """
@@ -4265,11 +4569,12 @@ def test_regex_test_63_regex_test_63_i(save_xml):
         instance="msData/regex/RegexTest_63.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_42_regex_test_42_v(save_xml):
+def test_regex_test_42_regex_test_42_v(json_360, save_output):
     """
     TEST :branch : RegexTest_42
     """
@@ -4278,11 +4583,12 @@ def test_regex_test_42_regex_test_42_v(save_xml):
         instance="msData/regex/RegexTest_42.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_41_regex_test_41_v(save_xml):
+def test_regex_test_41_regex_test_41_v(json_360, save_output):
     """
     TEST :branch : RegexTest_41
     """
@@ -4291,12 +4597,13 @@ def test_regex_test_41_regex_test_41_v(save_xml):
         instance="msData/regex/RegexTest_41.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_40_regex_test_40_i(save_xml):
+def test_regex_test_40_regex_test_40_i(json_360, save_output):
     """
     TEST :branch : RegexTest_40
     """
@@ -4305,12 +4612,13 @@ def test_regex_test_40_regex_test_40_i(save_xml):
         instance="msData/regex/RegexTest_40.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_39_regex_test_39_i(save_xml):
+def test_regex_test_39_regex_test_39_i(json_360, save_output):
     """
     TEST :branch : RegexTest_39
     """
@@ -4319,12 +4627,13 @@ def test_regex_test_39_regex_test_39_i(save_xml):
         instance="msData/regex/RegexTest_39.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_38_regex_test_38_i(save_xml):
+def test_regex_test_38_regex_test_38_i(json_360, save_output):
     """
     TEST :branch : RegexTest_38
     """
@@ -4333,12 +4642,13 @@ def test_regex_test_38_regex_test_38_i(save_xml):
         instance="msData/regex/RegexTest_38.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_37_regex_test_37_i(save_xml):
+def test_regex_test_37_regex_test_37_i(json_360, save_output):
     """
     TEST :branch : RegexTest_37
     """
@@ -4347,12 +4657,13 @@ def test_regex_test_37_regex_test_37_i(save_xml):
         instance="msData/regex/RegexTest_37.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_36_regex_test_36_i(save_xml):
+def test_regex_test_36_regex_test_36_i(json_360, save_output):
     """
     TEST :branch : RegexTest_36
     """
@@ -4361,12 +4672,13 @@ def test_regex_test_36_regex_test_36_i(save_xml):
         instance="msData/regex/RegexTest_36.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_35_regex_test_35_i(save_xml):
+def test_regex_test_35_regex_test_35_i(json_360, save_output):
     """
     TEST :branch : RegexTest_35
     """
@@ -4375,11 +4687,12 @@ def test_regex_test_35_regex_test_35_i(save_xml):
         instance="msData/regex/RegexTest_35.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_21_regex_test_21_v(save_xml):
+def test_regex_test_21_regex_test_21_v(json_360, save_output):
     """
     TEST :branch : RegexTest_21
     """
@@ -4388,11 +4701,12 @@ def test_regex_test_21_regex_test_21_v(save_xml):
         instance="msData/regex/RegexTest_21.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_20_regex_test_20_v(save_xml):
+def test_regex_test_20_regex_test_20_v(json_360, save_output):
     """
     TEST :branch : RegexTest_20
     """
@@ -4401,12 +4715,13 @@ def test_regex_test_20_regex_test_20_v(save_xml):
         instance="msData/regex/RegexTest_20.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_13_regex_test_13_i(save_xml):
+def test_regex_test_13_regex_test_13_i(json_360, save_output):
     """
     TEST :branch : RegexTest_13
     """
@@ -4415,12 +4730,13 @@ def test_regex_test_13_regex_test_13_i(save_xml):
         instance="msData/regex/RegexTest_13.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_12_regex_test_12_i(save_xml):
+def test_regex_test_12_regex_test_12_i(json_360, save_output):
     """
     TEST :branch : RegexTest_12
     """
@@ -4429,12 +4745,13 @@ def test_regex_test_12_regex_test_12_i(save_xml):
         instance="msData/regex/RegexTest_12.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_10_regex_test_10_i(save_xml):
+def test_regex_test_10_regex_test_10_i(json_360, save_output):
     """
     TEST :branch : RegexTest_10
     """
@@ -4443,12 +4760,13 @@ def test_regex_test_10_regex_test_10_i(save_xml):
         instance="msData/regex/RegexTest_10.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_8_regex_test_8_i(save_xml):
+def test_regex_test_8_regex_test_8_i(json_360, save_output):
     """
     TEST :branch : RegexTest_8
     """
@@ -4457,12 +4775,13 @@ def test_regex_test_8_regex_test_8_i(save_xml):
         instance="msData/regex/RegexTest_8.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_regex_test_7_regex_test_7_i(save_xml):
+def test_regex_test_7_regex_test_7_i(json_360, save_output):
     """
     TEST :branch : RegexTest_7
     """
@@ -4471,11 +4790,12 @@ def test_regex_test_7_regex_test_7_i(save_xml):
         instance="msData/regex/RegexTest_7.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_6_regex_test_6_v(save_xml):
+def test_regex_test_6_regex_test_6_v(json_360, save_output):
     """
     TEST :branch : RegexTest_6
     """
@@ -4484,11 +4804,12 @@ def test_regex_test_6_regex_test_6_v(save_xml):
         instance="msData/regex/RegexTest_6.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_5_regex_test_5_v(save_xml):
+def test_regex_test_5_regex_test_5_v(json_360, save_output):
     """
     TEST :branch : RegexTest_5
     """
@@ -4497,11 +4818,12 @@ def test_regex_test_5_regex_test_5_v(save_xml):
         instance="msData/regex/RegexTest_5.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_4_regex_test_4_v(save_xml):
+def test_regex_test_4_regex_test_4_v(json_360, save_output):
     """
     TEST :branch : RegexTest_4
     """
@@ -4510,11 +4832,12 @@ def test_regex_test_4_regex_test_4_v(save_xml):
         instance="msData/regex/RegexTest_4.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_3_regex_test_3_v(save_xml):
+def test_regex_test_3_regex_test_3_v(json_360, save_output):
     """
     TEST :branch : RegexTest_3
     """
@@ -4523,11 +4846,12 @@ def test_regex_test_3_regex_test_3_v(save_xml):
         instance="msData/regex/RegexTest_3.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_2_regex_test_2_v(save_xml):
+def test_regex_test_2_regex_test_2_v(json_360, save_output):
     """
     TEST :branch : RegexTest_2
     """
@@ -4536,11 +4860,12 @@ def test_regex_test_2_regex_test_2_v(save_xml):
         instance="msData/regex/RegexTest_2.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_regex_test_1_regex_test_1_v(save_xml):
+def test_regex_test_1_regex_test_1_v(json_360, save_output):
     """
     TEST :branch : RegexTest_1
     """
@@ -4549,12 +4874,13 @@ def test_regex_test_1_regex_test_1_v(save_xml):
         instance="msData/regex/RegexTest_1.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_p21_p21_i(save_xml):
+def test_p21_p21_i(json_360, save_output):
     """
     TEST :branch : restriction of two patterns in a simple type (1)
     "[abc]+" (2) "[123]+", should allow only the intersection, value="a1"
@@ -4565,11 +4891,12 @@ def test_p21_p21_i(save_xml):
         instance="msData/regex/p21.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_p20_p20_v(save_xml):
+def test_p20_p20_v(json_360, save_output):
     """
     TEST :branch : restriction of two patterns in a simple type (1)
     "[abc]+" (2) "[123]+", should allow only the intersection, value="a1"
@@ -4580,12 +4907,13 @@ def test_p20_p20_v(save_xml):
         instance="msData/regex/p20.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_p19_p19_i(save_xml):
+def test_p19_p19_i(json_360, save_output):
     """
     TEST :branch : two patterns in a simple type (1) "[abc]+" (2)
     "[123]+", should be same as [abc]+|[123]+, value="a1" [invalid]
@@ -4595,12 +4923,13 @@ def test_p19_p19_i(save_xml):
         instance="msData/regex/p19.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_p18_p18_i(save_xml):
+def test_p18_p18_i(json_360, save_output):
     """
     TEST :branch : two patterns in a simple type (1) "[abc]+" (2)
     "[123]+", should be same as [abc]+|[123]+, value="1a" [invalid]
@@ -4610,11 +4939,12 @@ def test_p18_p18_i(save_xml):
         instance="msData/regex/p18.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_p17_p17_v(save_xml):
+def test_p17_p17_v(json_360, save_output):
     """
     TEST :branch : two patterns in a simple type (1) "[abc]+" (2)
     "[123]+", should be same as [abc]+|[123]+, value="abcaabbccabc"
@@ -4625,11 +4955,12 @@ def test_p17_p17_v(save_xml):
         instance="msData/regex/p17.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_p16_p16_v(save_xml):
+def test_p16_p16_v(json_360, save_output):
     """
     TEST :branch : two patterns in a simple type (1) "[abc]+" (2)
     "[123]+", should be same as [abc]+|[123]+, value="112233123" [valid]
@@ -4639,12 +4970,13 @@ def test_p16_p16_v(save_xml):
         instance="msData/regex/p16.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_p15_p15_i(save_xml):
+def test_p15_p15_i(json_360, save_output):
     r"""
     TEST :branch : regex\pattern=123]+|[abc]+, value=a1[invalid]
     """
@@ -4653,12 +4985,13 @@ def test_p15_p15_i(save_xml):
         instance="msData/regex/p15.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_p14_p14_i(save_xml):
+def test_p14_p14_i(json_360, save_output):
     r"""
     TEST :branch : regex\pattern=123]+|[abc]+, value=1a[invalid]
     """
@@ -4667,11 +5000,12 @@ def test_p14_p14_i(save_xml):
         instance="msData/regex/p14.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_p13_p13_v(save_xml):
+def test_p13_p13_v(json_360, save_output):
     r"""
     TEST :branch : regex\pattern=123]+|[abc]+, value=abcaabbccabc [valid]
     """
@@ -4680,11 +5014,12 @@ def test_p13_p13_v(save_xml):
         instance="msData/regex/p13.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_p12_p12_v(save_xml):
+def test_p12_p12_v(json_360, save_output):
     """
     TEST :branch :
     """
@@ -4693,11 +5028,12 @@ def test_p12_p12_v(save_xml):
         instance="msData/regex/p12.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_p11_p11_v(save_xml):
+def test_p11_p11_v(json_360, save_output):
     r"""
     TEST :branch : regex\restriction of a type that defined as emum
     {1,2,3}, pattern="[13]", XML has value=3 [ valid ]
@@ -4707,12 +5043,13 @@ def test_p11_p11_v(save_xml):
         instance="msData/regex/p11.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_p10_p10_i(save_xml):
+def test_p10_p10_i(json_360, save_output):
     r"""
     TEST :branch : regex\restriction of a type that defined as emum
     {1,2,3}, pattern="[13]", XML has value=2 [ invalid ]
@@ -4722,11 +5059,12 @@ def test_p10_p10_i(save_xml):
         instance="msData/regex/p10.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_p9_p9_v(save_xml):
+def test_p9_p9_v(json_360, save_output):
     r"""
     TEST :branch : regex\restriction of a type that defined as emum
     {1,2,3}, pattern="[13]", XML has value=1 [ valid ]
@@ -4736,11 +5074,12 @@ def test_p9_p9_v(save_xml):
         instance="msData/regex/p9.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_p8_p8_v(save_xml):
+def test_p8_p8_v(json_360, save_output):
     r"""
     TEST :branch : restriction of a type that defined as integer,
     minInclusive=-9, pattern="\-[0-9]*", XML has value=-9 [ valid ]
@@ -4750,12 +5089,13 @@ def test_p8_p8_v(save_xml):
         instance="msData/regex/p8.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_p7_p7_i(save_xml):
+def test_p7_p7_i(json_360, save_output):
     r"""
     TEST :branch : regex\restriction of a type that defined as integer,
     minInclusive=-9, pattern="\-[0-9]*", XML has value=-10 [ invalid ]
@@ -4765,11 +5105,12 @@ def test_p7_p7_i(save_xml):
         instance="msData/regex/p7.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_p6_p6_v(save_xml):
+def test_p6_p6_v(json_360, save_output):
     r"""
     TEST :branch : regex\restriction of a type that defined as integer,
     maxExclusive=10, pattern="\-[0-9]*", XML has value=-1 [ valid ]
@@ -4779,11 +5120,12 @@ def test_p6_p6_v(save_xml):
         instance="msData/regex/p6.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_p5_p5_v(save_xml):
+def test_p5_p5_v(json_360, save_output):
     """
     TEST :branch : restriction of a type that defined as integer,
     maxExclusive=10, pattern="[0-9]*", XML has value=0 [ valid ]
@@ -4793,12 +5135,13 @@ def test_p5_p5_v(save_xml):
         instance="msData/regex/p5.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_p4_p4_i(save_xml):
+def test_p4_p4_i(json_360, save_output):
     """
     TEST :branch : restriction of a type that defined as integer,
     maxExclusive=10, pattern="[0-9]*", XML has value=10 [ invalid ]
@@ -4808,11 +5151,12 @@ def test_p4_p4_i(save_xml):
         instance="msData/regex/p4.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_p3_p3_v(save_xml):
+def test_p3_p3_v(json_360, save_output):
     """
     TEST :branch : restriction of a type that defined as integer,
     maxExclusive=10, pattern="[0-9]*", XML has value=9 [ valid ]
@@ -4822,12 +5166,13 @@ def test_p3_p3_v(save_xml):
         instance="msData/regex/p3.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_p2_p2_i(save_xml):
+def test_p2_p2_i(json_360, save_output):
     """
     TEST :branch : restriction of a type that defined as integer,
     pattern="abc" [ invalid ]
@@ -4837,11 +5182,12 @@ def test_p2_p2_i(save_xml):
         instance="msData/regex/p2.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_di14_re_di14_v(save_xml):
+def test_re_di14_re_di14_v(json_360, save_output):
     r"""
     TEST :branch : base='positiveInteger', pattern='\d+', value='123',
     type='valid', RULE=''
@@ -4851,12 +5197,13 @@ def test_re_di14_re_di14_v(save_xml):
         instance="msData/regex/reDI14.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_di13_re_di13_i(save_xml):
+def test_re_di13_re_di13_i(json_360, save_output):
     r"""
     TEST :branch : base='unshgiedByte', pattern='\d+', value='123',
     type='invalid', RULE=''
@@ -4866,12 +5213,13 @@ def test_re_di13_re_di13_i(save_xml):
         instance="msData/regex/reDI13.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_di12_re_di12_i(save_xml):
+def test_re_di12_re_di12_i(json_360, save_output):
     r"""
     TEST :branch : base='unsignedShort', pattern='\d+', value='123',
     type='valid', RULE=''
@@ -4881,11 +5229,12 @@ def test_re_di12_re_di12_i(save_xml):
         instance="msData/regex/reDI12.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_di11_re_di11_v(save_xml):
+def test_re_di11_re_di11_v(json_360, save_output):
     r"""
     TEST :branch : base='unsignedInt', pattern='\d+', value='123',
     type='valid', RULE=''
@@ -4895,11 +5244,12 @@ def test_re_di11_re_di11_v(save_xml):
         instance="msData/regex/reDI11.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_di10_re_di10_v(save_xml):
+def test_re_di10_re_di10_v(json_360, save_output):
     r"""
     TEST :branch : base='unsignedLong', pattern='\d+', value='123',
     type='valid', RULE=''
@@ -4909,11 +5259,12 @@ def test_re_di10_re_di10_v(save_xml):
         instance="msData/regex/reDI10.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_di9_re_di9_v(save_xml):
+def test_re_di9_re_di9_v(json_360, save_output):
     r"""
     TEST :branch : base='nonNegativeInteger', pattern='\d+', value='1111',
     type='valid', RULE=''
@@ -4923,11 +5274,12 @@ def test_re_di9_re_di9_v(save_xml):
         instance="msData/regex/reDI9.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_di8_re_di8_v(save_xml):
+def test_re_di8_re_di8_v(json_360, save_output):
     r"""
     TEST :branch : base='byte', pattern='(\- |
     \+)?((1[0-2]?[0-7]?)|([1-9]?[0-9]?))|(\+?128)', value='128',
@@ -4938,11 +5290,12 @@ def test_re_di8_re_di8_v(save_xml):
         instance="msData/regex/reDI8.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_di7_re_di7_v(save_xml):
+def test_re_di7_re_di7_v(json_360, save_output):
     r"""
     TEST :branch : base='short', pattern='\-?[0-3]{3}', value='-300',
     type='valid', RULE=''
@@ -4952,11 +5305,12 @@ def test_re_di7_re_di7_v(save_xml):
         instance="msData/regex/reDI7.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_di6_re_di6_v(save_xml):
+def test_re_di6_re_di6_v(json_360, save_output):
     r"""
     TEST :branch : base='int', pattern='\d+', value='123', type='valid',
     RULE=''
@@ -4966,12 +5320,13 @@ def test_re_di6_re_di6_v(save_xml):
         instance="msData/regex/reDI6.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_di5_re_di5_i(save_xml):
+def test_re_di5_re_di5_i(json_360, save_output):
     r"""
     TEST :branch : base='long', pattern='\d+', value='a', type='invalid',
     RULE=''
@@ -4981,12 +5336,13 @@ def test_re_di5_re_di5_i(save_xml):
         instance="msData/regex/reDI5.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_di4_re_di4_i(save_xml):
+def test_re_di4_re_di4_i(json_360, save_output):
     r"""
     TEST :branch : base='negativeInteger', pattern='\-?\d', value='+1',
     type='invalid', RULE=''
@@ -4996,12 +5352,13 @@ def test_re_di4_re_di4_i(save_xml):
         instance="msData/regex/reDI4.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_di3_re_di3_i(save_xml):
+def test_re_di3_re_di3_i(json_360, save_output):
     r"""
     TEST :branch : base='nonPositiveIntebger', pattern='\-\d\d',
     value='11', type='invalid', RULE=''
@@ -5011,11 +5368,12 @@ def test_re_di3_re_di3_i(save_xml):
         instance="msData/regex/reDI3.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_di2_re_di2_v(save_xml):
+def test_re_di2_re_di2_v(json_360, save_output):
     r"""
     TEST :branch : base='integer', pattern='\p{Nd}+', value='10000201',
     type='valid', RULE=''
@@ -5025,11 +5383,12 @@ def test_re_di2_re_di2_v(save_xml):
         instance="msData/regex/reDI2.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_di1_re_di1_v(save_xml):
+def test_re_di1_re_di1_v(json_360, save_output):
     r"""
     TEST :branch : base='decimal', pattern='\p{Nd}+', value='10000101',
     type='valid', RULE=''
@@ -5039,11 +5398,12 @@ def test_re_di1_re_di1_v(save_xml):
         instance="msData/regex/reDI1.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_dh11_re_dh11_v(save_xml):
+def test_re_dh11_re_dh11_v(json_360, save_output):
     r"""
     TEST :branch : base='NMTOKEN', pattern='\c[\c\d]*', value='name1',
     type='valid', RULE=''
@@ -5053,12 +5413,13 @@ def test_re_dh11_re_dh11_v(save_xml):
         instance="msData/regex/reDH11.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_dh7a_re_dh7a_i(save_xml):
+def test_re_dh7a_re_dh7a_i(json_360, save_output):
     r"""
     TEST :branch : base='IDREF', pattern='\c[\c\d]*', value='ab',
     type='valid', RULE=''
@@ -5068,11 +5429,12 @@ def test_re_dh7a_re_dh7a_i(save_xml):
         instance="msData/regex/reDH7a.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_dh7_re_dh7_v(save_xml):
+def test_re_dh7_re_dh7_v(json_360, save_output):
     r"""
     TEST :branch : base='IDREF', pattern='\c[\c\d]*', value='ab',
     type='valid', RULE=''
@@ -5082,11 +5444,12 @@ def test_re_dh7_re_dh7_v(save_xml):
         instance="msData/regex/reDH7.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_dh6_re_dh6_v(save_xml):
+def test_re_dh6_re_dh6_v(json_360, save_output):
     r"""
     TEST :branch : base='ID', pattern='\c[\c\d]*', value='a1b',
     type='valid', RULE=''
@@ -5096,11 +5459,12 @@ def test_re_dh6_re_dh6_v(save_xml):
         instance="msData/regex/reDH6.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_dh5_re_dh5_v(save_xml):
+def test_re_dh5_re_dh5_v(json_360, save_output):
     r"""
     TEST :branch : base='NCName', pattern='[\i-[:]][\c-[:]]*',
     value='a:b', type='valid', RULE=''
@@ -5110,11 +5474,12 @@ def test_re_dh5_re_dh5_v(save_xml):
         instance="msData/regex/reDH5.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_dh4_re_dh4_v(save_xml):
+def test_re_dh4_re_dh4_v(json_360, save_output):
     r"""
     TEST :branch : base='Name', pattern='\c+', value='abcdef',
     type='valid', RULE=''
@@ -5124,11 +5489,12 @@ def test_re_dh4_re_dh4_v(save_xml):
         instance="msData/regex/reDH4.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_dh3_re_dh3_v(save_xml):
+def test_re_dh3_re_dh3_v(json_360, save_output):
     r"""
     TEST :branch : base='language', pattern='\c{2,4}', value='ch-a',
     type='valid', RULE=''
@@ -5138,11 +5504,12 @@ def test_re_dh3_re_dh3_v(save_xml):
         instance="msData/regex/reDH3.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_dh2_re_dh2_v(save_xml):
+def test_re_dh2_re_dh2_v(json_360, save_output):
     r"""
     TEST :branch : base='token', pattern='\c+', value='a', type='valid',
     RULE=''
@@ -5152,11 +5519,12 @@ def test_re_dh2_re_dh2_v(save_xml):
         instance="msData/regex/reDH2.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_dg7_re_dg7_v(save_xml):
+def test_re_dg7_re_dg7_v(json_360, save_output):
     """
     TEST :branch : base='gMonth', pattern='[123456789]|(10|11|12)',
     value='9', type='valid', RULE=''
@@ -5166,11 +5534,12 @@ def test_re_dg7_re_dg7_v(save_xml):
         instance="msData/regex/reDG7.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_dg6_re_dg6_v(save_xml):
+def test_re_dg6_re_dg6_v(json_360, save_output):
     """
     TEST :branch : base='gDay', pattern='([123]0)|([12]?[1-9])|(31)',
     value='30', type='valid', RULE=''
@@ -5180,11 +5549,12 @@ def test_re_dg6_re_dg6_v(save_xml):
         instance="msData/regex/reDG6.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_dg5_re_dg5_v(save_xml):
+def test_re_dg5_re_dg5_v(json_360, save_output):
     r"""
     TEST :branch : base='gMonthDay', pattern='0[123]\-(12|14)',
     value='03-14', type='valid', RULE=''
@@ -5194,12 +5564,13 @@ def test_re_dg5_re_dg5_v(save_xml):
         instance="msData/regex/reDG5.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_dg4_re_dg4_i(save_xml):
+def test_re_dg4_re_dg4_i(json_360, save_output):
     r"""
     TEST :branch : base='gYear', pattern='\p{Nd}{2}', value='1999',
     type='invalid', RULE=''
@@ -5209,11 +5580,12 @@ def test_re_dg4_re_dg4_i(save_xml):
         instance="msData/regex/reDG4.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_dg3_re_dg3_v(save_xml):
+def test_re_dg3_re_dg3_v(json_360, save_output):
     r"""
     TEST :branch : base='gYear', pattern='\p{Nd}{4}', value='1999',
     type='valid', RULE=''
@@ -5223,12 +5595,13 @@ def test_re_dg3_re_dg3_v(save_xml):
         instance="msData/regex/reDG3.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_dg2_re_dg2_i(save_xml):
+def test_re_dg2_re_dg2_i(json_360, save_output):
     r"""
     TEST :branch : base='gYearMonth', pattern='\p{Nd}{4}-\p{Nd}{2}',
     value='12000-11', type='invalid', RULE='' Fixed schema typo in schema
@@ -5239,11 +5612,12 @@ def test_re_dg2_re_dg2_i(save_xml):
         instance="msData/regex/reDG2.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_dg1_re_dg1_v(save_xml):
+def test_re_dg1_re_dg1_v(json_360, save_output):
     r"""
     TEST :branch : base='date', pattern='\p{Nd}{4}-\p{Nd}{2}-\p{Nd}{2}',
     value='1999-12-12', type='valid', RULE=''
@@ -5253,12 +5627,13 @@ def test_re_dg1_re_dg1_v(save_xml):
         instance="msData/regex/reDG1.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_df5_re_df5_i(save_xml):
+def test_re_df5_re_df5_i(json_360, save_output):
     r"""
     TEST :branch : base='time', pattern='\p{Nd}+:\d\d:\d\d(\-\d\d:\d\d)?',
     value='12345:12:12-12:12', type='invalid', RULE=''
@@ -5268,12 +5643,13 @@ def test_re_df5_re_df5_i(save_xml):
         instance="msData/regex/reDF5.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_df3_re_df3_i(save_xml):
+def test_re_df3_re_df3_i(json_360, save_output):
     r"""
     TEST :branch : base='time', pattern='\c+', value='abc',
     type='invalid', RULE=''
@@ -5283,11 +5659,12 @@ def test_re_df3_re_df3_i(save_xml):
         instance="msData/regex/reDF3.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_df2_re_df2_v(save_xml):
+def test_re_df2_re_df2_v(json_360, save_output):
     r"""
     TEST :branch : base='time',
     pattern='\p{Nd}{2}:\d\d:\d\d(\-\d\d:\d\d)?', value='13:20:00-5:00',
@@ -5298,11 +5675,12 @@ def test_re_df2_re_df2_v(save_xml):
         instance="msData/regex/reDF2.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_df1_re_df1_v(save_xml):
+def test_re_df1_re_df1_v(json_360, save_output):
     r"""
     TEST :branch : base='time',
     pattern='\p{Nd}{2}:\d\d:\d\d(\-\d\d:\d\d)?', value='11:00:00',
@@ -5313,12 +5691,13 @@ def test_re_df1_re_df1_v(save_xml):
         instance="msData/regex/reDF1.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_de4_re_de4_i(save_xml):
+def test_re_de4_re_de4_i(json_360, save_output):
     r"""
     TEST :branch : base='dateTime',
     pattern='\p{Nd}{4}-\d\d-\d\dT\d\d:\d\d:\d\d',
@@ -5329,12 +5708,13 @@ def test_re_de4_re_de4_i(save_xml):
         instance="msData/regex/reDE4.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_de3_re_de3_i(save_xml):
+def test_re_de3_re_de3_i(json_360, save_output):
     r"""
     TEST :branch : base='dateTime',
     pattern='\p{Nd}{4}-\d\d-\d\dT\d\d:\d\d:\d\d',
@@ -5345,12 +5725,13 @@ def test_re_de3_re_de3_i(save_xml):
         instance="msData/regex/reDE3.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_de2_re_de2_i(save_xml):
+def test_re_de2_re_de2_i(json_360, save_output):
     r"""
     TEST :branch : base='dateTime',
     pattern='\p{Nd}{4}-\d\d-\d\dT\d\d:\d\d:\d\d', value='',
@@ -5361,11 +5742,12 @@ def test_re_de2_re_de2_i(save_xml):
         instance="msData/regex/reDE2.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_de1_re_de1_v(save_xml):
+def test_re_de1_re_de1_v(json_360, save_output):
     r"""
     TEST :branch : base='dateTime',
     pattern='\p{Nd}{4}-\d\d-\d\dT\d\d:\d\d:\d\d',
@@ -5376,12 +5758,13 @@ def test_re_de1_re_de1_v(save_xml):
         instance="msData/regex/reDE1.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_dd8_re_dd8_i(save_xml):
+def test_re_dd8_re_dd8_i(json_360, save_output):
     r"""
     TEST :branch : base='duration', pattern='P\p{Nd}{4}Y\p{Nd}{2}M',
     value='P11111Y13M', type='invalid', RULE=''
@@ -5391,12 +5774,13 @@ def test_re_dd8_re_dd8_i(save_xml):
         instance="msData/regex/reDD8.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_dd7_re_dd7_i(save_xml):
+def test_re_dd7_re_dd7_i(json_360, save_output):
     r"""
     TEST :branch : base='duration', pattern='P\p{Nd}{4}Y\p{Nd}{2}M',
     value='P11111Y00M', type='invalid', RULE=''
@@ -5406,12 +5790,13 @@ def test_re_dd7_re_dd7_i(save_xml):
         instance="msData/regex/reDD7.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_dd6_re_dd6_i(save_xml):
+def test_re_dd6_re_dd6_i(json_360, save_output):
     r"""
     TEST :branch : base='duration', pattern='P\p{Nd}{4}Y\p{Nd}{2}M',
     value='P12M', type='invalid', RULE=''
@@ -5421,12 +5806,13 @@ def test_re_dd6_re_dd6_i(save_xml):
         instance="msData/regex/reDD6.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_dd5_re_dd5_i(save_xml):
+def test_re_dd5_re_dd5_i(json_360, save_output):
     r"""
     TEST :branch : base='duration', pattern='P\p{Nd}{4}Y\p{Nd}{2}M',
     value='P1111Y', type='invalid', RULE=''
@@ -5436,12 +5822,13 @@ def test_re_dd5_re_dd5_i(save_xml):
         instance="msData/regex/reDD5.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_dd4_re_dd4_i(save_xml):
+def test_re_dd4_re_dd4_i(json_360, save_output):
     r"""
     TEST :branch : base='duration', pattern='P\p{Nd}{4}Y\p{Nd}{2}M',
     value='P11111Y12M', type='invalid', RULE=''
@@ -5451,12 +5838,13 @@ def test_re_dd4_re_dd4_i(save_xml):
         instance="msData/regex/reDD4.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_dd3_re_dd3_i(save_xml):
+def test_re_dd3_re_dd3_i(json_360, save_output):
     r"""
     TEST :branch : base='duration', pattern='P\p{Nd}{4}Y\p{Nd}{2}M',
     value='P1111Y1M', type='invalid', RULE=''
@@ -5466,12 +5854,13 @@ def test_re_dd3_re_dd3_i(save_xml):
         instance="msData/regex/reDD3.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_dd2_re_dd2_i(save_xml):
+def test_re_dd2_re_dd2_i(json_360, save_output):
     r"""
     TEST :branch : base='duration', pattern='P\p{Nd}{4}Y\p{Nd}{2}M',
     value='P111Y12M', type='invalid', RULE=''
@@ -5481,11 +5870,12 @@ def test_re_dd2_re_dd2_i(save_xml):
         instance="msData/regex/reDD2.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_dd1_re_dd1_v(save_xml):
+def test_re_dd1_re_dd1_v(json_360, save_output):
     r"""
     TEST :branch : base='duration', pattern='P\p{Nd}{4}Y\p{Nd}{2}M',
     value='P1111Y12M', type='valid', RULE=''
@@ -5495,11 +5885,12 @@ def test_re_dd1_re_dd1_v(save_xml):
         instance="msData/regex/reDD1.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_dc5_re_dc5_v(save_xml):
+def test_re_dc5_re_dc5_v(json_360, save_output):
     r"""
     TEST :branch : base='Qname',
     pattern='[\i-[:]][\c-[:]]+:[\i-[:]][\c-[:]]+', value='a:b',
@@ -5510,11 +5901,12 @@ def test_re_dc5_re_dc5_v(save_xml):
         instance="msData/regex/reDC5.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_dc4_re_dc4_v(save_xml):
+def test_re_dc4_re_dc4_v(json_360, save_output):
     r"""
     TEST :branch : base='anyURI', pattern='http://\c*',
     value='http://www.foo.com', type='valid', RULE=''
@@ -5524,11 +5916,12 @@ def test_re_dc4_re_dc4_v(save_xml):
         instance="msData/regex/reDC4.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_dc3_re_dc3_v(save_xml):
+def test_re_dc3_re_dc3_v(json_360, save_output):
     r"""
     TEST :branch : base='double', pattern='\d*\.\d+', value='1.001',
     type='valid', RULE=''
@@ -5538,11 +5931,12 @@ def test_re_dc3_re_dc3_v(save_xml):
         instance="msData/regex/reDC3.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_dc2_re_dc2_v(save_xml):
+def test_re_dc2_re_dc2_v(json_360, save_output):
     r"""
     TEST :branch : base='float', pattern='\d*\.\d+', value='1.001',
     type='valid', RULE=''
@@ -5552,11 +5946,12 @@ def test_re_dc2_re_dc2_v(save_xml):
         instance="msData/regex/reDC2.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_dc1_re_dc1_v(save_xml):
+def test_re_dc1_re_dc1_v(json_360, save_output):
     """
     TEST :branch : base='hexBinary', pattern='AF01D1', value='AF01D1',
     type='valid', RULE=''
@@ -5566,12 +5961,13 @@ def test_re_dc1_re_dc1_v(save_xml):
         instance="msData/regex/reDC1.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_db6_re_db6_i(save_xml):
+def test_re_db6_re_db6_i(json_360, save_output):
     """
     TEST :branch : base='base64Binary', pattern='([0-1]{4} | (0 | 1){8})',
     value='111111111', type='invalid', RULE=''
@@ -5581,12 +5977,13 @@ def test_re_db6_re_db6_i(save_xml):
         instance="msData/regex/reDB6.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_db5_re_db5_i(save_xml):
+def test_re_db5_re_db5_i(json_360, save_output):
     """
     TEST :branch : base='base64Binary', pattern='([0-1]{4} | (0 | 1){8})',
     value='1111111', type='invalid', RULE=''
@@ -5596,12 +5993,13 @@ def test_re_db5_re_db5_i(save_xml):
         instance="msData/regex/reDB5.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_db4_re_db4_i(save_xml):
+def test_re_db4_re_db4_i(json_360, save_output):
     """
     TEST :branch : base='base64Binary', pattern='([0-1]{4} | (0 | 1){8})',
     value='11111', type='invalid', RULE=''
@@ -5611,12 +6009,13 @@ def test_re_db4_re_db4_i(save_xml):
         instance="msData/regex/reDB4.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_db3_re_db3_i(save_xml):
+def test_re_db3_re_db3_i(json_360, save_output):
     """
     TEST :branch : base='base64Binary', pattern='([0-1]{4} | (0 | 1){8})',
     value='111', type='invalid', RULE=''
@@ -5626,11 +6025,12 @@ def test_re_db3_re_db3_i(save_xml):
         instance="msData/regex/reDB3.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_db2_re_db2_v(save_xml):
+def test_re_db2_re_db2_v(json_360, save_output):
     """
     TEST :branch : base='base64Binary', pattern='([0-1]{4} | (0 | 1){8})',
     value='110100111', type='valid', RULE=''
@@ -5640,11 +6040,12 @@ def test_re_db2_re_db2_v(save_xml):
         instance="msData/regex/reDB2.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_db1_re_db1_v(save_xml):
+def test_re_db1_re_db1_v(json_360, save_output):
     """
     TEST :branch : base='base64Binary', pattern='([0-1]{4} | (0 | 1){8})',
     value='1111', type='valid', RULE=''
@@ -5654,11 +6055,12 @@ def test_re_db1_re_db1_v(save_xml):
         instance="msData/regex/reDB1.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_da15_re_da15_v(save_xml):
+def test_re_da15_re_da15_v(json_360, save_output):
     """
     TEST :branch : base='boolean', pattern='(1|true|false|0|0)',
     value='0', type='valid', RULE=''
@@ -5668,12 +6070,13 @@ def test_re_da15_re_da15_v(save_xml):
         instance="msData/regex/reDA15.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_da14_re_da14_i(save_xml):
+def test_re_da14_re_da14_i(json_360, save_output):
     """
     TEST :branch : base='boolean', pattern='(1|true)', value='2',
     type='invalid', RULE=''
@@ -5683,12 +6086,13 @@ def test_re_da14_re_da14_i(save_xml):
         instance="msData/regex/reDA14.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_da13_re_da13_i(save_xml):
+def test_re_da13_re_da13_i(json_360, save_output):
     """
     TEST :branch : base='boolean', pattern='(1|true)', value='',
     type='invalid', RULE=''
@@ -5698,12 +6102,13 @@ def test_re_da13_re_da13_i(save_xml):
         instance="msData/regex/reDA13.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_da12_re_da12_i(save_xml):
+def test_re_da12_re_da12_i(json_360, save_output):
     """
     TEST :branch : base='boolean', pattern='(1|true)', value='FALSE',
     type='invalid', RULE=''
@@ -5713,12 +6118,13 @@ def test_re_da12_re_da12_i(save_xml):
         instance="msData/regex/reDA12.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_da11_re_da11_i(save_xml):
+def test_re_da11_re_da11_i(json_360, save_output):
     """
     TEST :branch : base='boolean', pattern='(1|true)', value='0',
     type='invalid', RULE=''
@@ -5728,12 +6134,13 @@ def test_re_da11_re_da11_i(save_xml):
         instance="msData/regex/reDA11.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_da10_re_da10_i(save_xml):
+def test_re_da10_re_da10_i(json_360, save_output):
     """
     TEST :branch : base='boolean', pattern='(1|true)', value='TRUE',
     type='valid', RULE=''
@@ -5743,11 +6150,12 @@ def test_re_da10_re_da10_i(save_xml):
         instance="msData/regex/reDA10.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_da9_re_da9_v(save_xml):
+def test_re_da9_re_da9_v(json_360, save_output):
     """
     TEST :branch : base='boolean', pattern='(1|true)', value='1',
     type='valid', RULE=''
@@ -5757,11 +6165,12 @@ def test_re_da9_re_da9_v(save_xml):
         instance="msData/regex/reDA9.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_da6_re_da6_v(save_xml):
+def test_re_da6_re_da6_v(json_360, save_output):
     """
     TEST :branch : base='boolean', pattern='(true|false)', value='false',
     type='valid', RULE=''
@@ -5771,11 +6180,12 @@ def test_re_da6_re_da6_v(save_xml):
         instance="msData/regex/reDA6.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_da5_re_da5_v(save_xml):
+def test_re_da5_re_da5_v(json_360, save_output):
     """
     TEST :branch : base='boolean', pattern='(true|false)', value='true',
     type='valid', RULE=''
@@ -5785,11 +6195,12 @@ def test_re_da5_re_da5_v(save_xml):
         instance="msData/regex/reDA5.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_da4_re_da4_v(save_xml):
+def test_re_da4_re_da4_v(json_360, save_output):
     """
     TEST :branch : base='boolean', pattern='false', value='false',
     type='valid', RULE=''
@@ -5799,12 +6210,13 @@ def test_re_da4_re_da4_v(save_xml):
         instance="msData/regex/reDA4.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_da3_re_da3_i(save_xml):
+def test_re_da3_re_da3_i(json_360, save_output):
     """
     TEST :branch : base='boolean', pattern='false', value='true',
     type='invalid', RULE=''
@@ -5814,12 +6226,13 @@ def test_re_da3_re_da3_i(save_xml):
         instance="msData/regex/reDA3.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_da2_re_da2_i(save_xml):
+def test_re_da2_re_da2_i(json_360, save_output):
     """
     TEST :branch : base='boolean', pattern='true', value='false',
     type='invalid', RULE=''
@@ -5829,11 +6242,12 @@ def test_re_da2_re_da2_i(save_xml):
         instance="msData/regex/reDA2.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_da1_re_da1_v(save_xml):
+def test_re_da1_re_da1_v(json_360, save_output):
     """
     TEST :branch : base='boolean', pattern='true', value='true',
     type='valid', RULE=''
@@ -5843,12 +6257,13 @@ def test_re_da1_re_da1_v(save_xml):
         instance="msData/regex/reDA1.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v43_re_v43_i(save_xml):
+def test_re_v43_re_v43_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x1D1DD;',
     type='invalid', RULE='37'
@@ -5858,12 +6273,13 @@ def test_re_v43_re_v43_i(save_xml):
         instance="msData/regex/reV43.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v42_re_v42_i(save_xml):
+def test_re_v42_re_v42_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x3190;',
     type='invalid', RULE='37'
@@ -5873,12 +6289,13 @@ def test_re_v42_re_v42_i(save_xml):
         instance="msData/regex/reV42.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v41_re_v41_i(save_xml):
+def test_re_v41_re_v41_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x3190;',
     type='invalid', RULE='37'
@@ -5888,12 +6305,13 @@ def test_re_v41_re_v41_i(save_xml):
         instance="msData/regex/reV41.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v40_re_v40_i(save_xml):
+def test_re_v40_re_v40_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#xFFE3;',
     type='invalid', RULE='37'
@@ -5903,12 +6321,13 @@ def test_re_v40_re_v40_i(save_xml):
         instance="msData/regex/reV40.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v39_re_v39_i(save_xml):
+def test_re_v39_re_v39_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x309B;',
     type='invalid', RULE='37'
@@ -5918,12 +6337,13 @@ def test_re_v39_re_v39_i(save_xml):
         instance="msData/regex/reV39.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v38_re_v38_i(save_xml):
+def test_re_v38_re_v38_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x309B;',
     type='invalid', RULE='37'
@@ -5933,12 +6353,13 @@ def test_re_v38_re_v38_i(save_xml):
         instance="msData/regex/reV38.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v37_re_v37_i(save_xml):
+def test_re_v37_re_v37_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#xFFE6;',
     type='invalid', RULE='37'
@@ -5948,12 +6369,13 @@ def test_re_v37_re_v37_i(save_xml):
         instance="msData/regex/reV37.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v36_re_v36_i(save_xml):
+def test_re_v36_re_v36_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x20A0;',
     type='invalid', RULE='37'
@@ -5963,12 +6385,13 @@ def test_re_v36_re_v36_i(save_xml):
         instance="msData/regex/reV36.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v35_re_v35_i(save_xml):
+def test_re_v35_re_v35_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x20A0;',
     type='invalid', RULE='37'
@@ -5978,12 +6401,13 @@ def test_re_v35_re_v35_i(save_xml):
         instance="msData/regex/reV35.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v34_re_v34_i(save_xml):
+def test_re_v34_re_v34_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#xFFE2;',
     type='invalid', RULE='37'
@@ -5993,12 +6417,13 @@ def test_re_v34_re_v34_i(save_xml):
         instance="msData/regex/reV34.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v33_re_v33_i(save_xml):
+def test_re_v33_re_v33_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x2044;',
     type='invalid', RULE='37'
@@ -6008,12 +6433,13 @@ def test_re_v33_re_v33_i(save_xml):
         instance="msData/regex/reV33.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v32_re_v32_i(save_xml):
+def test_re_v32_re_v32_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x10323;',
     type='invalid', RULE='37'
@@ -6023,12 +6449,13 @@ def test_re_v32_re_v32_i(save_xml):
         instance="msData/regex/reV32.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v31_re_v31_i(save_xml):
+def test_re_v31_re_v31_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#xB2;',
     type='invalid', RULE='37'
@@ -6038,12 +6465,13 @@ def test_re_v31_re_v31_i(save_xml):
         instance="msData/regex/reV31.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v30_re_v30_i(save_xml):
+def test_re_v30_re_v30_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#xB2;',
     type='invalid', RULE='37'
@@ -6053,12 +6481,13 @@ def test_re_v30_re_v30_i(save_xml):
         instance="msData/regex/reV30.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v29_re_v29_i(save_xml):
+def test_re_v29_re_v29_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x3025;',
     type='invalid', RULE='37'
@@ -6068,12 +6497,13 @@ def test_re_v29_re_v29_i(save_xml):
         instance="msData/regex/reV29.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v28_re_v28_i(save_xml):
+def test_re_v28_re_v28_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x1034A;',
     type='invalid', RULE='37'
@@ -6083,12 +6513,13 @@ def test_re_v28_re_v28_i(save_xml):
         instance="msData/regex/reV28.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v27_re_v27_i(save_xml):
+def test_re_v27_re_v27_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x1034A;',
     type='invalid', RULE='37'
@@ -6098,12 +6529,13 @@ def test_re_v27_re_v27_i(save_xml):
         instance="msData/regex/reV27.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v26_re_v26_i(save_xml):
+def test_re_v26_re_v26_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x1D7FF;',
     type='invalid', RULE='37'
@@ -6113,12 +6545,13 @@ def test_re_v26_re_v26_i(save_xml):
         instance="msData/regex/reV26.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v25_re_v25_i(save_xml):
+def test_re_v25_re_v25_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#xFF10;',
     type='invalid', RULE='37'
@@ -6128,12 +6561,13 @@ def test_re_v25_re_v25_i(save_xml):
         instance="msData/regex/reV25.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v24_re_v24_i(save_xml):
+def test_re_v24_re_v24_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x20E2;',
     type='invalid', RULE='37'
@@ -6143,12 +6577,13 @@ def test_re_v24_re_v24_i(save_xml):
         instance="msData/regex/reV24.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v23_re_v23_i(save_xml):
+def test_re_v23_re_v23_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x20DD;',
     type='invalid', RULE='37'
@@ -6158,12 +6593,13 @@ def test_re_v23_re_v23_i(save_xml):
         instance="msData/regex/reV23.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v22_re_v22_i(save_xml):
+def test_re_v22_re_v22_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x20DD;',
     type='invalid', RULE='37'
@@ -6173,12 +6609,13 @@ def test_re_v22_re_v22_i(save_xml):
         instance="msData/regex/reV22.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v21_re_v21_i(save_xml):
+def test_re_v21_re_v21_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x1D172;',
     type='invalid', RULE='37'
@@ -6188,12 +6625,13 @@ def test_re_v21_re_v21_i(save_xml):
         instance="msData/regex/reV21.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v20_re_v20_i(save_xml):
+def test_re_v20_re_v20_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x903;',
     type='invalid', RULE='37'
@@ -6203,12 +6641,13 @@ def test_re_v20_re_v20_i(save_xml):
         instance="msData/regex/reV20.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v19_re_v19_i(save_xml):
+def test_re_v19_re_v19_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x1D172;',
     type='invalid', RULE='37'
@@ -6218,12 +6657,13 @@ def test_re_v19_re_v19_i(save_xml):
         instance="msData/regex/reV19.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v18_re_v18_i(save_xml):
+def test_re_v18_re_v18_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x903;',
     type='invalid', RULE='37'
@@ -6233,12 +6673,13 @@ def test_re_v18_re_v18_i(save_xml):
         instance="msData/regex/reV18.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v17_re_v17_i(save_xml):
+def test_re_v17_re_v17_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x1D1AD;',
     type='invalid', RULE='37'
@@ -6248,12 +6689,13 @@ def test_re_v17_re_v17_i(save_xml):
         instance="msData/regex/reV17.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v16_re_v16_i(save_xml):
+def test_re_v16_re_v16_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x64B;',
     type='invalid', RULE='37'
@@ -6263,12 +6705,13 @@ def test_re_v16_re_v16_i(save_xml):
         instance="msData/regex/reV16.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v15_re_v15_i(save_xml):
+def test_re_v15_re_v15_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x2FA1D;',
     type='invalid', RULE='37'
@@ -6278,12 +6721,13 @@ def test_re_v15_re_v15_i(save_xml):
         instance="msData/regex/reV15.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v14_re_v14_i(save_xml):
+def test_re_v14_re_v14_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x5D0;',
     type='invalid', RULE='37'
@@ -6293,12 +6737,13 @@ def test_re_v14_re_v14_i(save_xml):
         instance="msData/regex/reV14.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v13_re_v13_i(save_xml):
+def test_re_v13_re_v13_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x5D0;',
     type='invalid', RULE='37'
@@ -6308,12 +6753,13 @@ def test_re_v13_re_v13_i(save_xml):
         instance="msData/regex/reV13.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v12_re_v12_i(save_xml):
+def test_re_v12_re_v12_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#xFF9F;',
     type='invalid', RULE='37'
@@ -6323,12 +6769,13 @@ def test_re_v12_re_v12_i(save_xml):
         instance="msData/regex/reV12.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v11_re_v11_i(save_xml):
+def test_re_v11_re_v11_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x2B0;',
     type='invalid', RULE='37'
@@ -6338,12 +6785,13 @@ def test_re_v11_re_v11_i(save_xml):
         instance="msData/regex/reV11.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v10_re_v10_i(save_xml):
+def test_re_v10_re_v10_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x2B0;',
     type='invalid', RULE='37'
@@ -6353,12 +6801,13 @@ def test_re_v10_re_v10_i(save_xml):
         instance="msData/regex/reV10.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v9_re_v9_i(save_xml):
+def test_re_v9_re_v9_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x1FFC;',
     type='invalid', RULE='37'
@@ -6368,12 +6817,13 @@ def test_re_v9_re_v9_i(save_xml):
         instance="msData/regex/reV9.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v8_re_v8_i(save_xml):
+def test_re_v8_re_v8_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x1C5;',
     type='invalid', RULE='37'
@@ -6383,12 +6833,13 @@ def test_re_v8_re_v8_i(save_xml):
         instance="msData/regex/reV8.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v7_re_v7_i(save_xml):
+def test_re_v7_re_v7_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x1C5;',
     type='invalid', RULE='37'
@@ -6398,12 +6849,13 @@ def test_re_v7_re_v7_i(save_xml):
         instance="msData/regex/reV7.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v6_re_v6_i(save_xml):
+def test_re_v6_re_v6_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x1D7C9;',
     type='invalid', RULE='37'
@@ -6413,12 +6865,13 @@ def test_re_v6_re_v6_i(save_xml):
         instance="msData/regex/reV6.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v5_re_v5_i(save_xml):
+def test_re_v5_re_v5_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x61;',
     type='invalid', RULE='37'
@@ -6428,12 +6881,13 @@ def test_re_v5_re_v5_i(save_xml):
         instance="msData/regex/reV5.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v4_re_v4_i(save_xml):
+def test_re_v4_re_v4_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x61;',
     type='invalid', RULE='37'
@@ -6443,12 +6897,13 @@ def test_re_v4_re_v4_i(save_xml):
         instance="msData/regex/reV4.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v3_re_v3_i(save_xml):
+def test_re_v3_re_v3_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x1D7A8;',
     type='invalid', RULE='37'
@@ -6458,12 +6913,13 @@ def test_re_v3_re_v3_i(save_xml):
         instance="msData/regex/reV3.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_v2_re_v2_i(save_xml):
+def test_re_v2_re_v2_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\W', value='#x41;',
     type='invalid', RULE='37'
@@ -6473,12 +6929,13 @@ def test_re_v2_re_v2_i(save_xml):
         instance="msData/regex/reV2.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_u15_re_u15_i(save_xml):
+def test_re_u15_re_u15_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\w', value='#x2029;',
     type='invalid', RULE='37'
@@ -6488,12 +6945,13 @@ def test_re_u15_re_u15_i(save_xml):
         instance="msData/regex/reU15.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_u14_re_u14_i(save_xml):
+def test_re_u14_re_u14_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\w', value='#x2028;',
     type='invalid', RULE='37'
@@ -6503,12 +6961,13 @@ def test_re_u14_re_u14_i(save_xml):
         instance="msData/regex/reU14.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_u13_re_u13_i(save_xml):
+def test_re_u13_re_u13_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\w', value='#x0020;',
     type='invalid', RULE='37'
@@ -6518,12 +6977,13 @@ def test_re_u13_re_u13_i(save_xml):
         instance="msData/regex/reU13.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_u12_re_u12_i(save_xml):
+def test_re_u12_re_u12_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\w', value='#x0F04;',
     type='invalid', RULE='37'
@@ -6533,12 +6993,13 @@ def test_re_u12_re_u12_i(save_xml):
         instance="msData/regex/reU12.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_u11_re_u11_i(save_xml):
+def test_re_u11_re_u11_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\w', value='#x00BB;',
     type='invalid', RULE='37'
@@ -6548,12 +7009,13 @@ def test_re_u11_re_u11_i(save_xml):
         instance="msData/regex/reU11.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_u10_re_u10_i(save_xml):
+def test_re_u10_re_u10_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\w', value='#x201C;',
     type='invalid', RULE='37'
@@ -6563,12 +7025,13 @@ def test_re_u10_re_u10_i(save_xml):
         instance="msData/regex/reU10.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_u9_re_u9_i(save_xml):
+def test_re_u9_re_u9_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\w', value='#x007D;',
     type='invalid', RULE='37'
@@ -6578,12 +7041,13 @@ def test_re_u9_re_u9_i(save_xml):
         instance="msData/regex/reU9.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_u8_re_u8_i(save_xml):
+def test_re_u8_re_u8_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\w', value='#xFE37;',
     type='invalid', RULE='37'
@@ -6593,12 +7057,13 @@ def test_re_u8_re_u8_i(save_xml):
         instance="msData/regex/reU8.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_u7_re_u7_i(save_xml):
+def test_re_u7_re_u7_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\w', value='#x2010;',
     type='invalid', RULE='37'
@@ -6608,11 +7073,12 @@ def test_re_u7_re_u7_i(save_xml):
         instance="msData/regex/reU7.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_u6_re_u6_i(save_xml):
+def test_re_u6_re_u6_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\w', value='#x023F;',
     type='invalid', RULE='37'
@@ -6622,12 +7088,13 @@ def test_re_u6_re_u6_i(save_xml):
         instance="msData/regex/reU6.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_u5_re_u5_i(save_xml):
+def test_re_u5_re_u5_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\w', value='#x007F;',
     type='invalid', RULE='37'
@@ -6637,12 +7104,13 @@ def test_re_u5_re_u5_i(save_xml):
         instance="msData/regex/reU5.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_u4_re_u4_i(save_xml):
+def test_re_u4_re_u4_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\w', value='#x070F;',
     type='invalid', RULE='37'
@@ -6652,12 +7120,13 @@ def test_re_u4_re_u4_i(save_xml):
         instance="msData/regex/reU4.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_u3_re_u3_i(save_xml):
+def test_re_u3_re_u3_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\w', value='#xF8FF;',
     type='invalid', RULE='37'
@@ -6667,12 +7136,13 @@ def test_re_u3_re_u3_i(save_xml):
         instance="msData/regex/reU3.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t84_re_t84_i(save_xml):
+def test_re_t84_re_t84_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x1D800;',
     type='valid', RULE='37'
@@ -6682,11 +7152,12 @@ def test_re_t84_re_t84_i(save_xml):
         instance="msData/regex/reT84.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t83_re_t83_v(save_xml):
+def test_re_t83_re_t83_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#xFF1A;',
     type='valid', RULE='37'
@@ -6696,11 +7167,12 @@ def test_re_t83_re_t83_v(save_xml):
         instance="msData/regex/reT83.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t82_re_t82_v(save_xml):
+def test_re_t82_re_t82_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x181A;',
     type='valid', RULE='37'
@@ -6710,11 +7182,12 @@ def test_re_t82_re_t82_v(save_xml):
         instance="msData/regex/reT82.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t81_re_t81_v(save_xml):
+def test_re_t81_re_t81_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x17EA;',
     type='valid', RULE='37'
@@ -6724,11 +7197,12 @@ def test_re_t81_re_t81_v(save_xml):
         instance="msData/regex/reT81.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t80_re_t80_v(save_xml):
+def test_re_t80_re_t80_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x1372;',
     type='valid', RULE='37'
@@ -6738,11 +7212,12 @@ def test_re_t80_re_t80_v(save_xml):
         instance="msData/regex/reT80.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t79_re_t79_v(save_xml):
+def test_re_t79_re_t79_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x104A;',
     type='valid', RULE='37'
@@ -6752,11 +7227,12 @@ def test_re_t79_re_t79_v(save_xml):
         instance="msData/regex/reT79.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t78_re_t78_v(save_xml):
+def test_re_t78_re_t78_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0F2A;',
     type='valid', RULE='37'
@@ -6766,11 +7242,12 @@ def test_re_t78_re_t78_v(save_xml):
         instance="msData/regex/reT78.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t77_re_t77_v(save_xml):
+def test_re_t77_re_t77_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0EDA;',
     type='valid', RULE='37'
@@ -6780,11 +7257,12 @@ def test_re_t77_re_t77_v(save_xml):
         instance="msData/regex/reT77.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t76_re_t76_v(save_xml):
+def test_re_t76_re_t76_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0E5A;',
     type='valid', RULE='37'
@@ -6794,11 +7272,12 @@ def test_re_t76_re_t76_v(save_xml):
         instance="msData/regex/reT76.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t75_re_t75_v(save_xml):
+def test_re_t75_re_t75_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0D70;',
     type='valid', RULE='37'
@@ -6808,11 +7287,12 @@ def test_re_t75_re_t75_v(save_xml):
         instance="msData/regex/reT75.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t74_re_t74_v(save_xml):
+def test_re_t74_re_t74_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0CF0;',
     type='valid', RULE='37'
@@ -6822,11 +7302,12 @@ def test_re_t74_re_t74_v(save_xml):
         instance="msData/regex/reT74.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t73_re_t73_v(save_xml):
+def test_re_t73_re_t73_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0C70;',
     type='valid', RULE='37'
@@ -6836,11 +7317,12 @@ def test_re_t73_re_t73_v(save_xml):
         instance="msData/regex/reT73.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t72_re_t72_v(save_xml):
+def test_re_t72_re_t72_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0BF0;',
     type='valid', RULE='37'
@@ -6850,11 +7332,12 @@ def test_re_t72_re_t72_v(save_xml):
         instance="msData/regex/reT72.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t71_re_t71_v(save_xml):
+def test_re_t71_re_t71_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0B70;',
     type='valid', RULE='37'
@@ -6864,11 +7347,12 @@ def test_re_t71_re_t71_v(save_xml):
         instance="msData/regex/reT71.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t70_re_t70_v(save_xml):
+def test_re_t70_re_t70_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0AF0;',
     type='valid', RULE='37'
@@ -6878,11 +7362,12 @@ def test_re_t70_re_t70_v(save_xml):
         instance="msData/regex/reT70.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t69_re_t69_v(save_xml):
+def test_re_t69_re_t69_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0A79;',
     type='valid', RULE='37'
@@ -6892,11 +7377,12 @@ def test_re_t69_re_t69_v(save_xml):
         instance="msData/regex/reT69.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t68_re_t68_v(save_xml):
+def test_re_t68_re_t68_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x09F0;',
     type='valid', RULE='37'
@@ -6906,11 +7392,12 @@ def test_re_t68_re_t68_v(save_xml):
         instance="msData/regex/reT68.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t67_re_t67_v(save_xml):
+def test_re_t67_re_t67_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0970;',
     type='valid', RULE='37'
@@ -6920,11 +7407,12 @@ def test_re_t67_re_t67_v(save_xml):
         instance="msData/regex/reT67.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t66_re_t66_v(save_xml):
+def test_re_t66_re_t66_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x06FA;',
     type='valid', RULE='37'
@@ -6934,11 +7422,12 @@ def test_re_t66_re_t66_v(save_xml):
         instance="msData/regex/reT66.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t65_re_t65_v(save_xml):
+def test_re_t65_re_t65_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x066A;',
     type='valid', RULE='37'
@@ -6948,11 +7437,12 @@ def test_re_t65_re_t65_v(save_xml):
         instance="msData/regex/reT65.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t64_re_t64_v(save_xml):
+def test_re_t64_re_t64_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x003A;',
     type='valid', RULE='37'
@@ -6962,12 +7452,13 @@ def test_re_t64_re_t64_v(save_xml):
         instance="msData/regex/reT64.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t63_re_t63_i(save_xml):
+def test_re_t63_re_t63_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x1D7CD;',
     type='valid', RULE='37'
@@ -6977,11 +7468,12 @@ def test_re_t63_re_t63_i(save_xml):
         instance="msData/regex/reT63.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t62_re_t62_v(save_xml):
+def test_re_t62_re_t62_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#xFF09;',
     type='valid', RULE='37'
@@ -6991,11 +7483,12 @@ def test_re_t62_re_t62_v(save_xml):
         instance="msData/regex/reT62.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t61_re_t61_v(save_xml):
+def test_re_t61_re_t61_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x1809;',
     type='valid', RULE='37'
@@ -7005,11 +7498,12 @@ def test_re_t61_re_t61_v(save_xml):
         instance="msData/regex/reT61.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t60_re_t60_v(save_xml):
+def test_re_t60_re_t60_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x17DF;',
     type='valid', RULE='37'
@@ -7019,11 +7513,12 @@ def test_re_t60_re_t60_v(save_xml):
         instance="msData/regex/reT60.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t59_re_t59_v(save_xml):
+def test_re_t59_re_t59_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x1368;',
     type='valid', RULE='37'
@@ -7033,11 +7528,12 @@ def test_re_t59_re_t59_v(save_xml):
         instance="msData/regex/reT59.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t58_re_t58_v(save_xml):
+def test_re_t58_re_t58_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x1039;',
     type='valid', RULE='37'
@@ -7047,11 +7543,12 @@ def test_re_t58_re_t58_v(save_xml):
         instance="msData/regex/reT58.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t57_re_t57_v(save_xml):
+def test_re_t57_re_t57_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0F19;',
     type='valid', RULE='37'
@@ -7061,11 +7558,12 @@ def test_re_t57_re_t57_v(save_xml):
         instance="msData/regex/reT57.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t56_re_t56_v(save_xml):
+def test_re_t56_re_t56_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0ECF;',
     type='valid', RULE='37'
@@ -7075,11 +7573,12 @@ def test_re_t56_re_t56_v(save_xml):
         instance="msData/regex/reT56.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t55_re_t55_v(save_xml):
+def test_re_t55_re_t55_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0E49;',
     type='valid', RULE='37'
@@ -7089,11 +7588,12 @@ def test_re_t55_re_t55_v(save_xml):
         instance="msData/regex/reT55.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t54_re_t54_v(save_xml):
+def test_re_t54_re_t54_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0D65;',
     type='valid', RULE='37'
@@ -7103,11 +7603,12 @@ def test_re_t54_re_t54_v(save_xml):
         instance="msData/regex/reT54.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t53_re_t53_v(save_xml):
+def test_re_t53_re_t53_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0CE5;',
     type='valid', RULE='37'
@@ -7117,11 +7618,12 @@ def test_re_t53_re_t53_v(save_xml):
         instance="msData/regex/reT53.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t52_re_t52_v(save_xml):
+def test_re_t52_re_t52_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0C65;',
     type='valid', RULE='37'
@@ -7131,11 +7633,12 @@ def test_re_t52_re_t52_v(save_xml):
         instance="msData/regex/reT52.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t51_re_t51_v(save_xml):
+def test_re_t51_re_t51_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0BE6;',
     type='valid', RULE='37'
@@ -7145,11 +7648,12 @@ def test_re_t51_re_t51_v(save_xml):
         instance="msData/regex/reT51.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t50_re_t50_v(save_xml):
+def test_re_t50_re_t50_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0B65;',
     type='valid', RULE='37'
@@ -7159,11 +7663,12 @@ def test_re_t50_re_t50_v(save_xml):
         instance="msData/regex/reT50.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t49_re_t49_v(save_xml):
+def test_re_t49_re_t49_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0AE5;',
     type='valid', RULE='37'
@@ -7173,11 +7678,12 @@ def test_re_t49_re_t49_v(save_xml):
         instance="msData/regex/reT49.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t48_re_t48_v(save_xml):
+def test_re_t48_re_t48_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0A65;',
     type='valid', RULE='37'
@@ -7187,11 +7693,12 @@ def test_re_t48_re_t48_v(save_xml):
         instance="msData/regex/reT48.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t47_re_t47_v(save_xml):
+def test_re_t47_re_t47_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x09E5;',
     type='valid', RULE='37'
@@ -7201,11 +7708,12 @@ def test_re_t47_re_t47_v(save_xml):
         instance="msData/regex/reT47.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t46_re_t46_v(save_xml):
+def test_re_t46_re_t46_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0965;',
     type='valid', RULE='37'
@@ -7215,11 +7723,12 @@ def test_re_t46_re_t46_v(save_xml):
         instance="msData/regex/reT46.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t45_re_t45_v(save_xml):
+def test_re_t45_re_t45_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x06EE;',
     type='valid', RULE='37'
@@ -7229,11 +7738,12 @@ def test_re_t45_re_t45_v(save_xml):
         instance="msData/regex/reT45.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t44_re_t44_v(save_xml):
+def test_re_t44_re_t44_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0659;',
     type='valid', RULE='37'
@@ -7243,11 +7753,12 @@ def test_re_t44_re_t44_v(save_xml):
         instance="msData/regex/reT44.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t43_re_t43_v(save_xml):
+def test_re_t43_re_t43_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0029;',
     type='valid', RULE='37'
@@ -7257,12 +7768,13 @@ def test_re_t43_re_t43_v(save_xml):
         instance="msData/regex/reT43.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t42_re_t42_i(save_xml):
+def test_re_t42_re_t42_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x1D7FF;',
     type='invalid', RULE='37'
@@ -7272,12 +7784,13 @@ def test_re_t42_re_t42_i(save_xml):
         instance="msData/regex/reT42.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t41_re_t41_i(save_xml):
+def test_re_t41_re_t41_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#xFF19;',
     type='invalid', RULE='37'
@@ -7287,12 +7800,13 @@ def test_re_t41_re_t41_i(save_xml):
         instance="msData/regex/reT41.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t40_re_t40_i(save_xml):
+def test_re_t40_re_t40_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x1819;',
     type='invalid', RULE='37'
@@ -7302,12 +7816,13 @@ def test_re_t40_re_t40_i(save_xml):
         instance="msData/regex/reT40.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t39_re_t39_i(save_xml):
+def test_re_t39_re_t39_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x17E9;',
     type='invalid', RULE='37'
@@ -7317,11 +7832,12 @@ def test_re_t39_re_t39_i(save_xml):
         instance="msData/regex/reT39.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t38_re_t38_i(save_xml):
+def test_re_t38_re_t38_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x1371;',
     type='invalid', RULE='37'
@@ -7331,12 +7847,13 @@ def test_re_t38_re_t38_i(save_xml):
         instance="msData/regex/reT38.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t37_re_t37_i(save_xml):
+def test_re_t37_re_t37_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x1049;',
     type='invalid', RULE='37'
@@ -7346,12 +7863,13 @@ def test_re_t37_re_t37_i(save_xml):
         instance="msData/regex/reT37.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t36_re_t36_i(save_xml):
+def test_re_t36_re_t36_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0F29;',
     type='invalid', RULE='37'
@@ -7361,12 +7879,13 @@ def test_re_t36_re_t36_i(save_xml):
         instance="msData/regex/reT36.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t35_re_t35_i(save_xml):
+def test_re_t35_re_t35_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0ED9;',
     type='invalid', RULE='37'
@@ -7376,12 +7895,13 @@ def test_re_t35_re_t35_i(save_xml):
         instance="msData/regex/reT35.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t34_re_t34_i(save_xml):
+def test_re_t34_re_t34_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0E59;',
     type='invalid', RULE='37'
@@ -7391,12 +7911,13 @@ def test_re_t34_re_t34_i(save_xml):
         instance="msData/regex/reT34.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t33_re_t33_i(save_xml):
+def test_re_t33_re_t33_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0D6F;',
     type='invalid', RULE='37'
@@ -7406,12 +7927,13 @@ def test_re_t33_re_t33_i(save_xml):
         instance="msData/regex/reT33.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t32_re_t32_i(save_xml):
+def test_re_t32_re_t32_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0CEF;',
     type='invalid', RULE='37'
@@ -7421,12 +7943,13 @@ def test_re_t32_re_t32_i(save_xml):
         instance="msData/regex/reT32.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t31_re_t31_i(save_xml):
+def test_re_t31_re_t31_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0C6F;',
     type='invalid', RULE='37'
@@ -7436,12 +7959,13 @@ def test_re_t31_re_t31_i(save_xml):
         instance="msData/regex/reT31.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t30_re_t30_i(save_xml):
+def test_re_t30_re_t30_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0BEF;',
     type='invalid', RULE='37'
@@ -7451,12 +7975,13 @@ def test_re_t30_re_t30_i(save_xml):
         instance="msData/regex/reT30.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t29_re_t29_i(save_xml):
+def test_re_t29_re_t29_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0B6F;',
     type='invalid', RULE='37'
@@ -7466,12 +7991,13 @@ def test_re_t29_re_t29_i(save_xml):
         instance="msData/regex/reT29.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t28_re_t28_i(save_xml):
+def test_re_t28_re_t28_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0AEF;',
     type='invalid', RULE='37'
@@ -7481,12 +8007,13 @@ def test_re_t28_re_t28_i(save_xml):
         instance="msData/regex/reT28.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t27_re_t27_i(save_xml):
+def test_re_t27_re_t27_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0A6F;',
     type='invalid', RULE='37'
@@ -7496,12 +8023,13 @@ def test_re_t27_re_t27_i(save_xml):
         instance="msData/regex/reT27.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t26_re_t26_i(save_xml):
+def test_re_t26_re_t26_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x09EF;',
     type='invalid', RULE='37'
@@ -7511,12 +8039,13 @@ def test_re_t26_re_t26_i(save_xml):
         instance="msData/regex/reT26.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t25_re_t25_i(save_xml):
+def test_re_t25_re_t25_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x096F;',
     type='invalid', RULE='37'
@@ -7526,12 +8055,13 @@ def test_re_t25_re_t25_i(save_xml):
         instance="msData/regex/reT25.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t24_re_t24_i(save_xml):
+def test_re_t24_re_t24_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x06F9;',
     type='invalid', RULE='37'
@@ -7541,12 +8071,13 @@ def test_re_t24_re_t24_i(save_xml):
         instance="msData/regex/reT24.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t23_re_t23_i(save_xml):
+def test_re_t23_re_t23_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0669;',
     type='invalid', RULE='37'
@@ -7556,12 +8087,13 @@ def test_re_t23_re_t23_i(save_xml):
         instance="msData/regex/reT23.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t22_re_t22_i(save_xml):
+def test_re_t22_re_t22_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0039;',
     type='invalid', RULE='37'
@@ -7571,12 +8103,13 @@ def test_re_t22_re_t22_i(save_xml):
         instance="msData/regex/reT22.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t21_re_t21_i(save_xml):
+def test_re_t21_re_t21_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x1D7CE;',
     type='invalid', RULE='37'
@@ -7586,12 +8119,13 @@ def test_re_t21_re_t21_i(save_xml):
         instance="msData/regex/reT21.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t20_re_t20_i(save_xml):
+def test_re_t20_re_t20_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#xFF10;',
     type='invalid', RULE='37'
@@ -7601,12 +8135,13 @@ def test_re_t20_re_t20_i(save_xml):
         instance="msData/regex/reT20.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t19_re_t19_i(save_xml):
+def test_re_t19_re_t19_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x1810;',
     type='invalid', RULE='37'
@@ -7616,12 +8151,13 @@ def test_re_t19_re_t19_i(save_xml):
         instance="msData/regex/reT19.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t18_re_t18_i(save_xml):
+def test_re_t18_re_t18_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x17E0;',
     type='invalid', RULE='37'
@@ -7631,11 +8167,12 @@ def test_re_t18_re_t18_i(save_xml):
         instance="msData/regex/reT18.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_t17_re_t17_i(save_xml):
+def test_re_t17_re_t17_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x1369;',
     type='invalid', RULE='37'
@@ -7645,12 +8182,13 @@ def test_re_t17_re_t17_i(save_xml):
         instance="msData/regex/reT17.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t16_re_t16_i(save_xml):
+def test_re_t16_re_t16_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x1040;',
     type='invalid', RULE='37'
@@ -7660,12 +8198,13 @@ def test_re_t16_re_t16_i(save_xml):
         instance="msData/regex/reT16.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t15_re_t15_i(save_xml):
+def test_re_t15_re_t15_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0F20;',
     type='invalid', RULE='37'
@@ -7675,12 +8214,13 @@ def test_re_t15_re_t15_i(save_xml):
         instance="msData/regex/reT15.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t14_re_t14_i(save_xml):
+def test_re_t14_re_t14_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0ED0;',
     type='invalid', RULE='37'
@@ -7690,12 +8230,13 @@ def test_re_t14_re_t14_i(save_xml):
         instance="msData/regex/reT14.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t13_re_t13_i(save_xml):
+def test_re_t13_re_t13_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0E50;',
     type='invalid', RULE='37'
@@ -7705,12 +8246,13 @@ def test_re_t13_re_t13_i(save_xml):
         instance="msData/regex/reT13.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t12_re_t12_i(save_xml):
+def test_re_t12_re_t12_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0D66;',
     type='invalid', RULE='37'
@@ -7720,12 +8262,13 @@ def test_re_t12_re_t12_i(save_xml):
         instance="msData/regex/reT12.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t11_re_t11_i(save_xml):
+def test_re_t11_re_t11_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0CE6;',
     type='invalid', RULE='37'
@@ -7735,12 +8278,13 @@ def test_re_t11_re_t11_i(save_xml):
         instance="msData/regex/reT11.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t10_re_t10_i(save_xml):
+def test_re_t10_re_t10_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0C66;',
     type='invalid', RULE='37'
@@ -7750,12 +8294,13 @@ def test_re_t10_re_t10_i(save_xml):
         instance="msData/regex/reT10.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t9_re_t9_i(save_xml):
+def test_re_t9_re_t9_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0BE7;',
     type='invalid', RULE='37'
@@ -7765,12 +8310,13 @@ def test_re_t9_re_t9_i(save_xml):
         instance="msData/regex/reT9.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t7_re_t7_i(save_xml):
+def test_re_t7_re_t7_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0AE6;',
     type='invalid', RULE='37'
@@ -7780,12 +8326,13 @@ def test_re_t7_re_t7_i(save_xml):
         instance="msData/regex/reT7.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t5_re_t5_i(save_xml):
+def test_re_t5_re_t5_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x09E6;',
     type='invalid', RULE='37'
@@ -7795,12 +8342,13 @@ def test_re_t5_re_t5_i(save_xml):
         instance="msData/regex/reT5.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t4_re_t4_i(save_xml):
+def test_re_t4_re_t4_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0966;',
     type='invalid', RULE='37'
@@ -7810,12 +8358,13 @@ def test_re_t4_re_t4_i(save_xml):
         instance="msData/regex/reT4.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t3_re_t3_i(save_xml):
+def test_re_t3_re_t3_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x06F0;',
     type='invalid', RULE='37'
@@ -7825,12 +8374,13 @@ def test_re_t3_re_t3_i(save_xml):
         instance="msData/regex/reT3.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t2_re_t2_i(save_xml):
+def test_re_t2_re_t2_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0660;',
     type='invalid', RULE='37'
@@ -7840,12 +8390,13 @@ def test_re_t2_re_t2_i(save_xml):
         instance="msData/regex/reT2.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_t1_re_t1_i(save_xml):
+def test_re_t1_re_t1_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\D', value='#x0030;',
     type='invalid', RULE='37'
@@ -7855,12 +8406,13 @@ def test_re_t1_re_t1_i(save_xml):
         instance="msData/regex/reT1.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s84_re_s84_i(save_xml):
+def test_re_s84_re_s84_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x1D800;',
     type='invalid', RULE='37'
@@ -7870,12 +8422,13 @@ def test_re_s84_re_s84_i(save_xml):
         instance="msData/regex/reS84.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s83_re_s83_i(save_xml):
+def test_re_s83_re_s83_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#xFF1A;',
     type='invalid', RULE='37'
@@ -7885,12 +8438,13 @@ def test_re_s83_re_s83_i(save_xml):
         instance="msData/regex/reS83.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s82_re_s82_i(save_xml):
+def test_re_s82_re_s82_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x181A;',
     type='invalid', RULE='37'
@@ -7900,12 +8454,13 @@ def test_re_s82_re_s82_i(save_xml):
         instance="msData/regex/reS82.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s81_re_s81_i(save_xml):
+def test_re_s81_re_s81_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x17EA;',
     type='invalid', RULE='37'
@@ -7915,12 +8470,13 @@ def test_re_s81_re_s81_i(save_xml):
         instance="msData/regex/reS81.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s80_re_s80_i(save_xml):
+def test_re_s80_re_s80_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x1372;',
     type='invalid', RULE='37'
@@ -7930,12 +8486,13 @@ def test_re_s80_re_s80_i(save_xml):
         instance="msData/regex/reS80.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s79_re_s79_i(save_xml):
+def test_re_s79_re_s79_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x104A;',
     type='invalid', RULE='37'
@@ -7945,12 +8502,13 @@ def test_re_s79_re_s79_i(save_xml):
         instance="msData/regex/reS79.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s78_re_s78_i(save_xml):
+def test_re_s78_re_s78_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0F2A;',
     type='invalid', RULE='37'
@@ -7960,12 +8518,13 @@ def test_re_s78_re_s78_i(save_xml):
         instance="msData/regex/reS78.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s77_re_s77_i(save_xml):
+def test_re_s77_re_s77_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0EDA;',
     type='invalid', RULE='37'
@@ -7975,12 +8534,13 @@ def test_re_s77_re_s77_i(save_xml):
         instance="msData/regex/reS77.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s76_re_s76_i(save_xml):
+def test_re_s76_re_s76_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0E5A;',
     type='invalid', RULE='37'
@@ -7990,12 +8550,13 @@ def test_re_s76_re_s76_i(save_xml):
         instance="msData/regex/reS76.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s75_re_s75_i(save_xml):
+def test_re_s75_re_s75_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0D70;',
     type='invalid', RULE='37'
@@ -8005,12 +8566,13 @@ def test_re_s75_re_s75_i(save_xml):
         instance="msData/regex/reS75.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s74_re_s74_i(save_xml):
+def test_re_s74_re_s74_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0CF0;',
     type='invalid', RULE='37'
@@ -8020,12 +8582,13 @@ def test_re_s74_re_s74_i(save_xml):
         instance="msData/regex/reS74.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s73_re_s73_i(save_xml):
+def test_re_s73_re_s73_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0C70;',
     type='invalid', RULE='37'
@@ -8035,12 +8598,13 @@ def test_re_s73_re_s73_i(save_xml):
         instance="msData/regex/reS73.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s72_re_s72_i(save_xml):
+def test_re_s72_re_s72_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0BF0;',
     type='invalid', RULE='37'
@@ -8050,12 +8614,13 @@ def test_re_s72_re_s72_i(save_xml):
         instance="msData/regex/reS72.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s71_re_s71_i(save_xml):
+def test_re_s71_re_s71_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0B70;',
     type='invalid', RULE='37'
@@ -8065,12 +8630,13 @@ def test_re_s71_re_s71_i(save_xml):
         instance="msData/regex/reS71.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s70_re_s70_i(save_xml):
+def test_re_s70_re_s70_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0AF0;',
     type='invalid', RULE='37'
@@ -8080,12 +8646,13 @@ def test_re_s70_re_s70_i(save_xml):
         instance="msData/regex/reS70.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s69_re_s69_i(save_xml):
+def test_re_s69_re_s69_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0A79;',
     type='invalid', RULE='37'
@@ -8095,12 +8662,13 @@ def test_re_s69_re_s69_i(save_xml):
         instance="msData/regex/reS69.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s68_re_s68_i(save_xml):
+def test_re_s68_re_s68_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x09F0;',
     type='invalid', RULE='37'
@@ -8110,12 +8678,13 @@ def test_re_s68_re_s68_i(save_xml):
         instance="msData/regex/reS68.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s67_re_s67_i(save_xml):
+def test_re_s67_re_s67_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0970;',
     type='invalid', RULE='37'
@@ -8125,12 +8694,13 @@ def test_re_s67_re_s67_i(save_xml):
         instance="msData/regex/reS67.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s66_re_s66_i(save_xml):
+def test_re_s66_re_s66_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x06FA;',
     type='invalid', RULE='37'
@@ -8140,12 +8710,13 @@ def test_re_s66_re_s66_i(save_xml):
         instance="msData/regex/reS66.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s65_re_s65_i(save_xml):
+def test_re_s65_re_s65_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x066A;',
     type='invalid', RULE='37'
@@ -8155,12 +8726,13 @@ def test_re_s65_re_s65_i(save_xml):
         instance="msData/regex/reS65.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s64_re_s64_i(save_xml):
+def test_re_s64_re_s64_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x003A;',
     type='invalid', RULE='37'
@@ -8170,12 +8742,13 @@ def test_re_s64_re_s64_i(save_xml):
         instance="msData/regex/reS64.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s63_re_s63_i(save_xml):
+def test_re_s63_re_s63_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x1D7CD;',
     type='invalid', RULE='37'
@@ -8185,12 +8758,13 @@ def test_re_s63_re_s63_i(save_xml):
         instance="msData/regex/reS63.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s62_re_s62_i(save_xml):
+def test_re_s62_re_s62_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#xFF09;',
     type='invalid', RULE='37'
@@ -8200,12 +8774,13 @@ def test_re_s62_re_s62_i(save_xml):
         instance="msData/regex/reS62.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s61_re_s61_i(save_xml):
+def test_re_s61_re_s61_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x1809;',
     type='invalid', RULE='37'
@@ -8215,12 +8790,13 @@ def test_re_s61_re_s61_i(save_xml):
         instance="msData/regex/reS61.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s60_re_s60_i(save_xml):
+def test_re_s60_re_s60_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x17DF;',
     type='invalid', RULE='37'
@@ -8230,12 +8806,13 @@ def test_re_s60_re_s60_i(save_xml):
         instance="msData/regex/reS60.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s59_re_s59_i(save_xml):
+def test_re_s59_re_s59_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x1368;',
     type='invalid', RULE='37'
@@ -8245,12 +8822,13 @@ def test_re_s59_re_s59_i(save_xml):
         instance="msData/regex/reS59.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s58_re_s58_i(save_xml):
+def test_re_s58_re_s58_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x1039;',
     type='invalid', RULE='37'
@@ -8260,12 +8838,13 @@ def test_re_s58_re_s58_i(save_xml):
         instance="msData/regex/reS58.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s57_re_s57_i(save_xml):
+def test_re_s57_re_s57_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0F19;',
     type='invalid', RULE='37'
@@ -8275,12 +8854,13 @@ def test_re_s57_re_s57_i(save_xml):
         instance="msData/regex/reS57.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s56_re_s56_i(save_xml):
+def test_re_s56_re_s56_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0ECF;',
     type='invalid', RULE='37'
@@ -8290,12 +8870,13 @@ def test_re_s56_re_s56_i(save_xml):
         instance="msData/regex/reS56.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s55_re_s55_i(save_xml):
+def test_re_s55_re_s55_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0E49;',
     type='invalid', RULE='37'
@@ -8305,12 +8886,13 @@ def test_re_s55_re_s55_i(save_xml):
         instance="msData/regex/reS55.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s54_re_s54_i(save_xml):
+def test_re_s54_re_s54_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0D65;',
     type='invalid', RULE='37'
@@ -8320,12 +8902,13 @@ def test_re_s54_re_s54_i(save_xml):
         instance="msData/regex/reS54.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s53_re_s53_i(save_xml):
+def test_re_s53_re_s53_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0CE5;',
     type='invalid', RULE='37'
@@ -8335,12 +8918,13 @@ def test_re_s53_re_s53_i(save_xml):
         instance="msData/regex/reS53.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s52_re_s52_i(save_xml):
+def test_re_s52_re_s52_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0C65;',
     type='invalid', RULE='37'
@@ -8350,11 +8934,12 @@ def test_re_s52_re_s52_i(save_xml):
         instance="msData/regex/reS52.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s51_re_s51_i(save_xml):
+def test_re_s51_re_s51_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0BE6;',
     type='invalid', RULE='37'
@@ -8364,12 +8949,13 @@ def test_re_s51_re_s51_i(save_xml):
         instance="msData/regex/reS51.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s50_re_s50_i(save_xml):
+def test_re_s50_re_s50_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0B65;',
     type='invalid', RULE='37'
@@ -8379,12 +8965,13 @@ def test_re_s50_re_s50_i(save_xml):
         instance="msData/regex/reS50.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s49_re_s49_i(save_xml):
+def test_re_s49_re_s49_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0AE5;',
     type='invalid', RULE='37'
@@ -8394,12 +8981,13 @@ def test_re_s49_re_s49_i(save_xml):
         instance="msData/regex/reS49.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s48_re_s48_i(save_xml):
+def test_re_s48_re_s48_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0A65;',
     type='invalid', RULE='37'
@@ -8409,12 +8997,13 @@ def test_re_s48_re_s48_i(save_xml):
         instance="msData/regex/reS48.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s47_re_s47_i(save_xml):
+def test_re_s47_re_s47_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x09E5;',
     type='invalid', RULE='37'
@@ -8424,12 +9013,13 @@ def test_re_s47_re_s47_i(save_xml):
         instance="msData/regex/reS47.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s46_re_s46_i(save_xml):
+def test_re_s46_re_s46_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0965;',
     type='invalid', RULE='37'
@@ -8439,12 +9029,13 @@ def test_re_s46_re_s46_i(save_xml):
         instance="msData/regex/reS46.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s45_re_s45_i(save_xml):
+def test_re_s45_re_s45_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x06EE;',
     type='invalid', RULE='37'
@@ -8454,12 +9045,13 @@ def test_re_s45_re_s45_i(save_xml):
         instance="msData/regex/reS45.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s44_re_s44_i(save_xml):
+def test_re_s44_re_s44_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0659;',
     type='invalid', RULE='37'
@@ -8469,12 +9061,13 @@ def test_re_s44_re_s44_i(save_xml):
         instance="msData/regex/reS44.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s43_re_s43_i(save_xml):
+def test_re_s43_re_s43_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0029;',
     type='invalid', RULE='37'
@@ -8484,12 +9077,13 @@ def test_re_s43_re_s43_i(save_xml):
         instance="msData/regex/reS43.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s42_re_s42_i(save_xml):
+def test_re_s42_re_s42_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x1D7FF;',
     type='valid', RULE='37'
@@ -8499,11 +9093,12 @@ def test_re_s42_re_s42_i(save_xml):
         instance="msData/regex/reS42.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s41_re_s41_v(save_xml):
+def test_re_s41_re_s41_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#xFF19;',
     type='valid', RULE='37'
@@ -8513,11 +9108,12 @@ def test_re_s41_re_s41_v(save_xml):
         instance="msData/regex/reS41.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s40_re_s40_v(save_xml):
+def test_re_s40_re_s40_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x1819;',
     type='valid', RULE='37'
@@ -8527,11 +9123,12 @@ def test_re_s40_re_s40_v(save_xml):
         instance="msData/regex/reS40.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s39_re_s39_v(save_xml):
+def test_re_s39_re_s39_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x17E9;',
     type='valid', RULE='37'
@@ -8541,11 +9138,12 @@ def test_re_s39_re_s39_v(save_xml):
         instance="msData/regex/reS39.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s38_re_s38_v(save_xml):
+def test_re_s38_re_s38_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x1371;',
     type='valid', RULE='37'
@@ -8555,11 +9153,12 @@ def test_re_s38_re_s38_v(save_xml):
         instance="msData/regex/reS38.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s37_re_s37_v(save_xml):
+def test_re_s37_re_s37_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x1049;',
     type='valid', RULE='37'
@@ -8569,11 +9168,12 @@ def test_re_s37_re_s37_v(save_xml):
         instance="msData/regex/reS37.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s36_re_s36_v(save_xml):
+def test_re_s36_re_s36_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0F29;',
     type='valid', RULE='37'
@@ -8583,11 +9183,12 @@ def test_re_s36_re_s36_v(save_xml):
         instance="msData/regex/reS36.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s35_re_s35_v(save_xml):
+def test_re_s35_re_s35_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0ED9;',
     type='valid', RULE='37'
@@ -8597,11 +9198,12 @@ def test_re_s35_re_s35_v(save_xml):
         instance="msData/regex/reS35.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s34_re_s34_v(save_xml):
+def test_re_s34_re_s34_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0E59;',
     type='valid', RULE='37'
@@ -8611,11 +9213,12 @@ def test_re_s34_re_s34_v(save_xml):
         instance="msData/regex/reS34.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s33_re_s33_v(save_xml):
+def test_re_s33_re_s33_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0D6F;',
     type='valid', RULE='37'
@@ -8625,11 +9228,12 @@ def test_re_s33_re_s33_v(save_xml):
         instance="msData/regex/reS33.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s32_re_s32_v(save_xml):
+def test_re_s32_re_s32_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0CEF;',
     type='valid', RULE='37'
@@ -8639,11 +9243,12 @@ def test_re_s32_re_s32_v(save_xml):
         instance="msData/regex/reS32.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s31_re_s31_v(save_xml):
+def test_re_s31_re_s31_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0C6F;',
     type='valid', RULE='37'
@@ -8653,11 +9258,12 @@ def test_re_s31_re_s31_v(save_xml):
         instance="msData/regex/reS31.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s30_re_s30_v(save_xml):
+def test_re_s30_re_s30_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0BEF;',
     type='valid', RULE='37'
@@ -8667,11 +9273,12 @@ def test_re_s30_re_s30_v(save_xml):
         instance="msData/regex/reS30.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s29_re_s29_v(save_xml):
+def test_re_s29_re_s29_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0B6F;',
     type='valid', RULE='37'
@@ -8681,11 +9288,12 @@ def test_re_s29_re_s29_v(save_xml):
         instance="msData/regex/reS29.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s28_re_s28_v(save_xml):
+def test_re_s28_re_s28_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0AEF;',
     type='valid', RULE='37'
@@ -8695,11 +9303,12 @@ def test_re_s28_re_s28_v(save_xml):
         instance="msData/regex/reS28.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s27_re_s27_v(save_xml):
+def test_re_s27_re_s27_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0A6F;',
     type='valid', RULE='37'
@@ -8709,11 +9318,12 @@ def test_re_s27_re_s27_v(save_xml):
         instance="msData/regex/reS27.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s26_re_s26_v(save_xml):
+def test_re_s26_re_s26_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x09EF;',
     type='valid', RULE='37'
@@ -8723,11 +9333,12 @@ def test_re_s26_re_s26_v(save_xml):
         instance="msData/regex/reS26.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s25_re_s25_v(save_xml):
+def test_re_s25_re_s25_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x096F;',
     type='valid', RULE='37'
@@ -8737,11 +9348,12 @@ def test_re_s25_re_s25_v(save_xml):
         instance="msData/regex/reS25.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s24_re_s24_v(save_xml):
+def test_re_s24_re_s24_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x06F9;',
     type='valid', RULE='37'
@@ -8751,11 +9363,12 @@ def test_re_s24_re_s24_v(save_xml):
         instance="msData/regex/reS24.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s23_re_s23_v(save_xml):
+def test_re_s23_re_s23_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0669;',
     type='valid', RULE='37'
@@ -8765,11 +9378,12 @@ def test_re_s23_re_s23_v(save_xml):
         instance="msData/regex/reS23.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s22_re_s22_v(save_xml):
+def test_re_s22_re_s22_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0039;',
     type='valid', RULE='37'
@@ -8779,12 +9393,13 @@ def test_re_s22_re_s22_v(save_xml):
         instance="msData/regex/reS22.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_s21_re_s21_i(save_xml):
+def test_re_s21_re_s21_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x1D7CE;',
     type='valid', RULE='37'
@@ -8794,11 +9409,12 @@ def test_re_s21_re_s21_i(save_xml):
         instance="msData/regex/reS21.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s20_re_s20_v(save_xml):
+def test_re_s20_re_s20_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#xFF10;',
     type='valid', RULE='37'
@@ -8808,11 +9424,12 @@ def test_re_s20_re_s20_v(save_xml):
         instance="msData/regex/reS20.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s19_re_s19_v(save_xml):
+def test_re_s19_re_s19_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x1810;',
     type='valid', RULE='37'
@@ -8822,11 +9439,12 @@ def test_re_s19_re_s19_v(save_xml):
         instance="msData/regex/reS19.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s18_re_s18_v(save_xml):
+def test_re_s18_re_s18_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x17E0;',
     type='valid', RULE='37'
@@ -8836,11 +9454,12 @@ def test_re_s18_re_s18_v(save_xml):
         instance="msData/regex/reS18.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s17_re_s17_v(save_xml):
+def test_re_s17_re_s17_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x1369;',
     type='valid', RULE='37'
@@ -8850,11 +9469,12 @@ def test_re_s17_re_s17_v(save_xml):
         instance="msData/regex/reS17.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s16_re_s16_v(save_xml):
+def test_re_s16_re_s16_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x1040;',
     type='valid', RULE='37'
@@ -8864,11 +9484,12 @@ def test_re_s16_re_s16_v(save_xml):
         instance="msData/regex/reS16.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s15_re_s15_v(save_xml):
+def test_re_s15_re_s15_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0F20;',
     type='valid', RULE='37'
@@ -8878,11 +9499,12 @@ def test_re_s15_re_s15_v(save_xml):
         instance="msData/regex/reS15.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s14_re_s14_v(save_xml):
+def test_re_s14_re_s14_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0ED0;',
     type='valid', RULE='37'
@@ -8892,11 +9514,12 @@ def test_re_s14_re_s14_v(save_xml):
         instance="msData/regex/reS14.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s13_re_s13_v(save_xml):
+def test_re_s13_re_s13_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0E50;',
     type='valid', RULE='37'
@@ -8906,11 +9529,12 @@ def test_re_s13_re_s13_v(save_xml):
         instance="msData/regex/reS13.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s12_re_s12_v(save_xml):
+def test_re_s12_re_s12_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0D66;',
     type='valid', RULE='37'
@@ -8920,11 +9544,12 @@ def test_re_s12_re_s12_v(save_xml):
         instance="msData/regex/reS12.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s11_re_s11_v(save_xml):
+def test_re_s11_re_s11_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0CE6;',
     type='valid', RULE='37'
@@ -8934,11 +9559,12 @@ def test_re_s11_re_s11_v(save_xml):
         instance="msData/regex/reS11.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s10_re_s10_v(save_xml):
+def test_re_s10_re_s10_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0C66;',
     type='valid', RULE='37'
@@ -8948,11 +9574,12 @@ def test_re_s10_re_s10_v(save_xml):
         instance="msData/regex/reS10.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s9_re_s9_v(save_xml):
+def test_re_s9_re_s9_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0BE7;',
     type='valid', RULE='37'
@@ -8962,11 +9589,12 @@ def test_re_s9_re_s9_v(save_xml):
         instance="msData/regex/reS9.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s8_re_s8_v(save_xml):
+def test_re_s8_re_s8_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0B66;',
     type='valid', RULE='37'
@@ -8976,11 +9604,12 @@ def test_re_s8_re_s8_v(save_xml):
         instance="msData/regex/reS8.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s7_re_s7_v(save_xml):
+def test_re_s7_re_s7_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0AE6;',
     type='valid', RULE='37'
@@ -8990,11 +9619,12 @@ def test_re_s7_re_s7_v(save_xml):
         instance="msData/regex/reS7.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s6_re_s6_v(save_xml):
+def test_re_s6_re_s6_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0A66;',
     type='valid', RULE='37'
@@ -9004,11 +9634,12 @@ def test_re_s6_re_s6_v(save_xml):
         instance="msData/regex/reS6.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s5_re_s5_v(save_xml):
+def test_re_s5_re_s5_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x09E6;',
     type='valid', RULE='37'
@@ -9018,11 +9649,12 @@ def test_re_s5_re_s5_v(save_xml):
         instance="msData/regex/reS5.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s3_re_s3_v(save_xml):
+def test_re_s3_re_s3_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x06F0;',
     type='valid', RULE='37'
@@ -9032,11 +9664,12 @@ def test_re_s3_re_s3_v(save_xml):
         instance="msData/regex/reS3.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_s1_re_s1_v(save_xml):
+def test_re_s1_re_s1_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\d', value='#x0030;',
     type='valid', RULE='37'
@@ -9046,12 +9679,13 @@ def test_re_s1_re_s1_v(save_xml):
         instance="msData/regex/reS1.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_r29_re_r29_i(save_xml):
+def test_re_r29_re_r29_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c\C?\c\C+\c\C*',
     value='a1b1c1a', type='invalid', RULE='37'
@@ -9061,12 +9695,13 @@ def test_re_r29_re_r29_i(save_xml):
         instance="msData/regex/reR29.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_r28_re_r28_i(save_xml):
+def test_re_r28_re_r28_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c\C?\c\C+\c\C*',
     value='1a2a2', type='invalid', RULE='37'
@@ -9076,12 +9711,13 @@ def test_re_r28_re_r28_i(save_xml):
         instance="msData/regex/reR28.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_r27_re_r27_i(save_xml):
+def test_re_r27_re_r27_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c\C?\c\C+\c\C*',
     value='ab12345', type='invalid', RULE='37'
@@ -9091,12 +9727,13 @@ def test_re_r27_re_r27_i(save_xml):
         instance="msData/regex/reR27.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_r26_re_r26_i(save_xml):
+def test_re_r26_re_r26_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c\C?\c\C+\c\C*',
     value='a12b1c1', type='invalid', RULE='37'
@@ -9106,11 +9743,12 @@ def test_re_r26_re_r26_i(save_xml):
         instance="msData/regex/reR26.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_r25_re_r25_v(save_xml):
+def test_re_r25_re_r25_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c\C?\c\C+\c\C*', value='aa2a',
     type='valid', RULE='37'
@@ -9120,11 +9758,12 @@ def test_re_r25_re_r25_v(save_xml):
         instance="msData/regex/reR25.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_r24_re_r24_v(save_xml):
+def test_re_r24_re_r24_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c\C?\c\C+\c\C*',
     value='a1a2a3', type='valid', RULE='37'
@@ -9134,12 +9773,13 @@ def test_re_r24_re_r24_v(save_xml):
         instance="msData/regex/reR24.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_r23_re_r23_i(save_xml):
+def test_re_r23_re_r23_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c\C?\c\C+\c\C*', value='',
     type='', RULE='37'
@@ -9149,11 +9789,12 @@ def test_re_r23_re_r23_i(save_xml):
         instance="msData/regex/reR23.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_r22_re_r22_v(save_xml):
+def test_re_r22_re_r22_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\C', value='#x9;',
     type='valid', RULE='37'
@@ -9163,11 +9804,12 @@ def test_re_r22_re_r22_v(save_xml):
         instance="msData/regex/reR22.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_r21_re_r21_v(save_xml):
+def test_re_r21_re_r21_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\C', value='#xD;',
     type='valid', RULE='37'
@@ -9177,11 +9819,12 @@ def test_re_r21_re_r21_v(save_xml):
         instance="msData/regex/reR21.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_r20_re_r20_v(save_xml):
+def test_re_r20_re_r20_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\C', value='#xA;',
     type='valid', RULE='37'
@@ -9191,11 +9834,12 @@ def test_re_r20_re_r20_v(save_xml):
         instance="msData/regex/reR20.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_r19_re_r19_v(save_xml):
+def test_re_r19_re_r19_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\C', value='#x20;',
     type='valid', RULE='37'
@@ -9205,12 +9849,13 @@ def test_re_r19_re_r19_v(save_xml):
         instance="msData/regex/reR19.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_r18_re_r18_i(save_xml):
+def test_re_r18_re_r18_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\C', value='a', type='invalid',
     RULE='37'
@@ -9220,12 +9865,13 @@ def test_re_r18_re_r18_i(save_xml):
         instance="msData/regex/reR18.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_r17_re_r17_i(save_xml):
+def test_re_r17_re_r17_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\C', value=':', type='invalid',
     RULE='37'
@@ -9235,12 +9881,13 @@ def test_re_r17_re_r17_i(save_xml):
         instance="msData/regex/reR17.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_r16_re_r16_i(save_xml):
+def test_re_r16_re_r16_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\C', value='_', type='invalid',
     RULE='37'
@@ -9250,12 +9897,13 @@ def test_re_r16_re_r16_i(save_xml):
         instance="msData/regex/reR16.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_r15_re_r15_i(save_xml):
+def test_re_r15_re_r15_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c?\c+\c*', value='',
     type='invalid', RULE='37'
@@ -9265,11 +9913,12 @@ def test_re_r15_re_r15_i(save_xml):
         instance="msData/regex/reR15.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_r14_re_r14_v(save_xml):
+def test_re_r14_re_r14_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c?\c+\c*',
     value='aaaaaaaaaaaaaaaaaaaaaaaaaa', type='valid', RULE='37'
@@ -9279,11 +9928,12 @@ def test_re_r14_re_r14_v(save_xml):
         instance="msData/regex/reR14.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_r13_re_r13_v(save_xml):
+def test_re_r13_re_r13_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c?\c+\c*', value='aa',
     type='valid', RULE='37'
@@ -9293,11 +9943,12 @@ def test_re_r13_re_r13_v(save_xml):
         instance="msData/regex/reR13.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_r12_re_r12_v(save_xml):
+def test_re_r12_re_r12_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c?\c+\c*', value='a',
     type='valid', RULE='37'
@@ -9307,12 +9958,13 @@ def test_re_r12_re_r12_v(save_xml):
         instance="msData/regex/reR12.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_r11_re_r11_i(save_xml):
+def test_re_r11_re_r11_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c?\?\d\s\c+', value='a?2#xa;',
     type='invalid', RULE='37'
@@ -9322,12 +9974,13 @@ def test_re_r11_re_r11_i(save_xml):
         instance="msData/regex/reR11.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_r10_re_r10_i(save_xml):
+def test_re_r10_re_r10_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c?\?\d\s\c+', value='aa?3 c',
     type='invalid', RULE='37'
@@ -9337,11 +9990,12 @@ def test_re_r10_re_r10_i(save_xml):
         instance="msData/regex/reR10.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_r9_re_r9_v(save_xml):
+def test_re_r9_re_r9_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c?\?\d\s\c+',
     value='?0#xd;zzz', type='valid', RULE='37'
@@ -9351,11 +10005,12 @@ def test_re_r9_re_r9_v(save_xml):
         instance="msData/regex/reR9.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_r8_re_r8_v(save_xml):
+def test_re_r8_re_r8_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c?\?\d\s\c+', value='c?1 abc',
     type='valid', RULE='37'
@@ -9365,12 +10020,13 @@ def test_re_r8_re_r8_v(save_xml):
         instance="msData/regex/reR8.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_r7_re_r7_i(save_xml):
+def test_re_r7_re_r7_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c', value='#x9;',
     type='invalid', RULE='37'
@@ -9380,12 +10036,13 @@ def test_re_r7_re_r7_i(save_xml):
         instance="msData/regex/reR7.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_r6_re_r6_i(save_xml):
+def test_re_r6_re_r6_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c', value='#xD;',
     type='invalid', RULE='37'
@@ -9395,12 +10052,13 @@ def test_re_r6_re_r6_i(save_xml):
         instance="msData/regex/reR6.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_r5_re_r5_i(save_xml):
+def test_re_r5_re_r5_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c', value='#xA;',
     type='invalid', RULE='37'
@@ -9410,12 +10068,13 @@ def test_re_r5_re_r5_i(save_xml):
         instance="msData/regex/reR5.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_r4_re_r4_i(save_xml):
+def test_re_r4_re_r4_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c', value='#x20;',
     type='invalid', RULE='37'
@@ -9425,11 +10084,12 @@ def test_re_r4_re_r4_i(save_xml):
         instance="msData/regex/reR4.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_r3_re_r3_v(save_xml):
+def test_re_r3_re_r3_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c', value='a', type='valid',
     RULE='37'
@@ -9439,11 +10099,12 @@ def test_re_r3_re_r3_v(save_xml):
         instance="msData/regex/reR3.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_r2_re_r2_v(save_xml):
+def test_re_r2_re_r2_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c', value=':', type='valid',
     RULE='37'
@@ -9453,11 +10114,12 @@ def test_re_r2_re_r2_v(save_xml):
         instance="msData/regex/reR2.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_r1_re_r1_v(save_xml):
+def test_re_r1_re_r1_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c', value='_', type='valid',
     RULE='37'
@@ -9467,12 +10129,13 @@ def test_re_r1_re_r1_v(save_xml):
         instance="msData/regex/reR1.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_q24_re_q24_i(save_xml):
+def test_re_q24_re_q24_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='a\I+\c', value='a123 123cc',
     type='invalid', RULE='37'
@@ -9482,12 +10145,13 @@ def test_re_q24_re_q24_i(save_xml):
         instance="msData/regex/reQ24.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_q23_re_q23_i(save_xml):
+def test_re_q23_re_q23_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='a\I+\c', value='b123c',
     type='invalid', RULE='37'
@@ -9497,11 +10161,12 @@ def test_re_q23_re_q23_i(save_xml):
         instance="msData/regex/reQ23.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_q22_re_q22_v(save_xml):
+def test_re_q22_re_q22_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='a\I+\c', value='a 123c',
     type='valid', RULE='37'
@@ -9511,11 +10176,12 @@ def test_re_q22_re_q22_v(save_xml):
         instance="msData/regex/reQ22.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_q21_re_q21_v(save_xml):
+def test_re_q21_re_q21_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\I*', value='1234',
     type='valid', RULE='37'
@@ -9525,11 +10191,12 @@ def test_re_q21_re_q21_v(save_xml):
         instance="msData/regex/reQ21.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_q20_re_q20_v(save_xml):
+def test_re_q20_re_q20_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\I', value='#x9;',
     type='valid', RULE='37'
@@ -9539,11 +10206,12 @@ def test_re_q20_re_q20_v(save_xml):
         instance="msData/regex/reQ20.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_q19_re_q19_v(save_xml):
+def test_re_q19_re_q19_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\I', value='#xD;',
     type='valid', RULE='37'
@@ -9553,11 +10221,12 @@ def test_re_q19_re_q19_v(save_xml):
         instance="msData/regex/reQ19.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_q18_re_q18_v(save_xml):
+def test_re_q18_re_q18_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\I', value='#xA;',
     type='valid', RULE='37'
@@ -9567,11 +10236,12 @@ def test_re_q18_re_q18_v(save_xml):
         instance="msData/regex/reQ18.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_q17_re_q17_v(save_xml):
+def test_re_q17_re_q17_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\I', value='#x20;',
     type='valid', RULE='37'
@@ -9581,12 +10251,13 @@ def test_re_q17_re_q17_v(save_xml):
         instance="msData/regex/reQ17.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_q16_re_q16_i(save_xml):
+def test_re_q16_re_q16_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\I', value='a', type='invalid',
     RULE='37'
@@ -9596,12 +10267,13 @@ def test_re_q16_re_q16_i(save_xml):
         instance="msData/regex/reQ16.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_q15_re_q15_i(save_xml):
+def test_re_q15_re_q15_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\I', value=':', type='invalid',
     RULE='37'
@@ -9611,12 +10283,13 @@ def test_re_q15_re_q15_i(save_xml):
         instance="msData/regex/reQ15.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_q14_re_q14_i(save_xml):
+def test_re_q14_re_q14_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\I', value='_', type='invalid',
     RULE='37'
@@ -9626,12 +10299,13 @@ def test_re_q14_re_q14_i(save_xml):
         instance="msData/regex/reQ14.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_q13_re_q13_i(save_xml):
+def test_re_q13_re_q13_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='[\s\i]*', value='1',
     type='invalid', RULE='37'
@@ -9641,11 +10315,12 @@ def test_re_q13_re_q13_i(save_xml):
         instance="msData/regex/reQ13.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_q12_re_q12_v(save_xml):
+def test_re_q12_re_q12_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='[\s\i]*', value='a b c Z :_
     d#xd;y #x9;b #xa;#x20; ', type='valid', RULE='37'
@@ -9655,12 +10330,13 @@ def test_re_q12_re_q12_v(save_xml):
         instance="msData/regex/reQ12.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_q11_re_q11_i(save_xml):
+def test_re_q11_re_q11_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c\i*a', value='ab',
     type='invalid', RULE='37'
@@ -9670,11 +10346,12 @@ def test_re_q11_re_q11_i(save_xml):
         instance="msData/regex/reQ11.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_q10_re_q10_v(save_xml):
+def test_re_q10_re_q10_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\c\i*a', value='zabcsdea',
     type='valid', RULE='37'
@@ -9684,12 +10361,13 @@ def test_re_q10_re_q10_v(save_xml):
         instance="msData/regex/reQ10.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_q9_re_q9_i(save_xml):
+def test_re_q9_re_q9_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\i+', value='a b',
     type='invalid', RULE='37'
@@ -9699,11 +10377,12 @@ def test_re_q9_re_q9_i(save_xml):
         instance="msData/regex/reQ9.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_q8_re_q8_v(save_xml):
+def test_re_q8_re_q8_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\i*',
     value='_:abcdefghijklmnopqrstuvwxyzAZ:_', type='valid', RULE='37'
@@ -9713,12 +10392,13 @@ def test_re_q8_re_q8_v(save_xml):
         instance="msData/regex/reQ8.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_q7_re_q7_i(save_xml):
+def test_re_q7_re_q7_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\i', value='#x9;',
     type='invalid', RULE='37'
@@ -9728,12 +10408,13 @@ def test_re_q7_re_q7_i(save_xml):
         instance="msData/regex/reQ7.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_q6_re_q6_i(save_xml):
+def test_re_q6_re_q6_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\i', value='#xD;',
     type='invalid', RULE='37'
@@ -9743,12 +10424,13 @@ def test_re_q6_re_q6_i(save_xml):
         instance="msData/regex/reQ6.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_q5_re_q5_i(save_xml):
+def test_re_q5_re_q5_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\i', value='#xA;',
     type='invalid', RULE='37'
@@ -9758,12 +10440,13 @@ def test_re_q5_re_q5_i(save_xml):
         instance="msData/regex/reQ5.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_q4_re_q4_i(save_xml):
+def test_re_q4_re_q4_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\i', value='#x20;',
     type='invalid', RULE='37'
@@ -9773,11 +10456,12 @@ def test_re_q4_re_q4_i(save_xml):
         instance="msData/regex/reQ4.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_q3_re_q3_v(save_xml):
+def test_re_q3_re_q3_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\i', value='a', type='valid',
     RULE='37'
@@ -9787,11 +10471,12 @@ def test_re_q3_re_q3_v(save_xml):
         instance="msData/regex/reQ3.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_q2_re_q2_v(save_xml):
+def test_re_q2_re_q2_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\i', value=':', type='valid',
     RULE='37'
@@ -9801,11 +10486,12 @@ def test_re_q2_re_q2_v(save_xml):
         instance="msData/regex/reQ2.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_q1_re_q1_v(save_xml):
+def test_re_q1_re_q1_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\i', value='_', type='valid',
     RULE='37'
@@ -9815,12 +10501,13 @@ def test_re_q1_re_q1_v(save_xml):
         instance="msData/regex/reQ1.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_p30_re_p30_i(save_xml):
+def test_re_p30_re_p30_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\S?\s?\S?\s+', value='ab',
     type='invalid', RULE='37'
@@ -9830,12 +10517,13 @@ def test_re_p30_re_p30_i(save_xml):
         instance="msData/regex/reP30.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_p29_re_p29_i(save_xml):
+def test_re_p29_re_p29_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\S?\s?\S?\s+', value=' a b',
     type='invalid', RULE='37'
@@ -9845,12 +10533,13 @@ def test_re_p29_re_p29_i(save_xml):
         instance="msData/regex/reP29.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_p28_re_p28_i(save_xml):
+def test_re_p28_re_p28_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\S?\s?\S?\s+', value='a b',
     type='invalid', RULE='37'
@@ -9860,11 +10549,12 @@ def test_re_p28_re_p28_i(save_xml):
         instance="msData/regex/reP28.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_p27_re_p27_v(save_xml):
+def test_re_p27_re_p27_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\S?\s?\S?\s+', value=' a #xD;',
     type='valid', RULE='37'
@@ -9874,11 +10564,12 @@ def test_re_p27_re_p27_v(save_xml):
         instance="msData/regex/reP27.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_p26_re_p26_v(save_xml):
+def test_re_p26_re_p26_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\S?\s?\S?\s+', value='a b#x9;',
     type='valid', RULE='37'
@@ -9888,11 +10579,12 @@ def test_re_p26_re_p26_v(save_xml):
         instance="msData/regex/reP26.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_p25_re_p25_v(save_xml):
+def test_re_p25_re_p25_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\S*', value='', type='valid',
     RULE='37'
@@ -9902,12 +10594,13 @@ def test_re_p25_re_p25_v(save_xml):
         instance="msData/regex/reP25.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_p24_re_p24_i(save_xml):
+def test_re_p24_re_p24_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\S+', value='a#x20;b',
     type='invalid', RULE='37'
@@ -9917,12 +10610,13 @@ def test_re_p24_re_p24_i(save_xml):
         instance="msData/regex/reP24.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_p23_re_p23_i(save_xml):
+def test_re_p23_re_p23_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\S', value='aa',
     type='invalid', RULE='37'
@@ -9932,12 +10626,13 @@ def test_re_p23_re_p23_i(save_xml):
         instance="msData/regex/reP23.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_p22_re_p22_i(save_xml):
+def test_re_p22_re_p22_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\S', value='#x9;',
     type='invalid', RULE='37'
@@ -9947,12 +10642,13 @@ def test_re_p22_re_p22_i(save_xml):
         instance="msData/regex/reP22.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_p21_re_p21_i(save_xml):
+def test_re_p21_re_p21_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\S', value='#xD;',
     type='invalid', RULE='37'
@@ -9962,12 +10658,13 @@ def test_re_p21_re_p21_i(save_xml):
         instance="msData/regex/reP21.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_p20_re_p20_i(save_xml):
+def test_re_p20_re_p20_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\S', value='#xA;',
     type='invalid', RULE='37'
@@ -9977,12 +10674,13 @@ def test_re_p20_re_p20_i(save_xml):
         instance="msData/regex/reP20.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_p19_re_p19_i(save_xml):
+def test_re_p19_re_p19_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\S', value='#x20;',
     type='invalid', RULE='37'
@@ -9992,11 +10690,12 @@ def test_re_p19_re_p19_i(save_xml):
         instance="msData/regex/reP19.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_p18_re_p18_v(save_xml):
+def test_re_p18_re_p18_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\S', value='a', type='valid',
     RULE='37'
@@ -10006,12 +10705,13 @@ def test_re_p18_re_p18_v(save_xml):
         instance="msData/regex/reP18.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_p17_re_p17_i(save_xml):
+def test_re_p17_re_p17_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\s', value='#x20;#xA;',
     type='invalid', RULE='37'
@@ -10021,12 +10721,13 @@ def test_re_p17_re_p17_i(save_xml):
         instance="msData/regex/reP17.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_p16_re_p16_i(save_xml):
+def test_re_p16_re_p16_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\s', value=' ', type='invalid',
     RULE='37'
@@ -10036,12 +10737,13 @@ def test_re_p16_re_p16_i(save_xml):
         instance="msData/regex/reP16.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_p15_re_p15_i(save_xml):
+def test_re_p15_re_p15_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='a\s{0,3}a', value='aa a',
     type='invalid', RULE='37'
@@ -10051,12 +10753,13 @@ def test_re_p15_re_p15_i(save_xml):
         instance="msData/regex/reP15.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_p14_re_p14_i(save_xml):
+def test_re_p14_re_p14_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='a\s{0,3}a', value='a a',
     type='invalid', RULE='37'
@@ -10066,11 +10769,12 @@ def test_re_p14_re_p14_i(save_xml):
         instance="msData/regex/reP14.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_p13_re_p13_v(save_xml):
+def test_re_p13_re_p13_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='a\s{0,3}a', value='a a',
     type='valid', RULE='37'
@@ -10080,11 +10784,12 @@ def test_re_p13_re_p13_v(save_xml):
         instance="msData/regex/reP13.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_p12_re_p12_v(save_xml):
+def test_re_p12_re_p12_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='a\s{0,3}a', value='a a',
     type='valid', RULE='37'
@@ -10094,11 +10799,12 @@ def test_re_p12_re_p12_v(save_xml):
         instance="msData/regex/reP12.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_p11_re_p11_v(save_xml):
+def test_re_p11_re_p11_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='a\s{0,3}a', value='aa',
     type='valid', RULE='37'
@@ -10108,12 +10814,13 @@ def test_re_p11_re_p11_v(save_xml):
         instance="msData/regex/reP11.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_p10_re_p10_i(save_xml):
+def test_re_p10_re_p10_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\s*\c\s?\c\s+\c\s*', value=' a
     aa ', type='invalid', RULE='37'
@@ -10123,12 +10830,13 @@ def test_re_p10_re_p10_i(save_xml):
         instance="msData/regex/reP10.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_p9_re_p9_i(save_xml):
+def test_re_p9_re_p9_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\s*\c\s?\c\s+\c\s*',
     value='aaa', type='invalid', RULE='37'
@@ -10138,12 +10846,13 @@ def test_re_p9_re_p9_i(save_xml):
         instance="msData/regex/reP9.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_p8_re_p8_i(save_xml):
+def test_re_p8_re_p8_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\s*\c\s?\c\s+\c\s*', value=' a
     a a', type='invalid', RULE='37'
@@ -10153,11 +10862,12 @@ def test_re_p8_re_p8_i(save_xml):
         instance="msData/regex/reP8.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_p7_re_p7_v(save_xml):
+def test_re_p7_re_p7_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\s*\c\s?\c\s+\c\s*', value='aa
     a', type='valid', RULE='37'
@@ -10167,11 +10877,12 @@ def test_re_p7_re_p7_v(save_xml):
         instance="msData/regex/reP7.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_p6_re_p6_v(save_xml):
+def test_re_p6_re_p6_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\s*\c\s?\c\s+\c\s*', value='
     #x20;#x9;#xa;#xD;a c#xA;#x9;#xD;#x20;a#x20;#xA;#xD;#x9;
@@ -10182,12 +10893,13 @@ def test_re_p6_re_p6_v(save_xml):
         instance="msData/regex/reP6.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_p5_re_p5_i(save_xml):
+def test_re_p5_re_p5_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\s', value='a', type='invalid',
     RULE='37'
@@ -10197,11 +10909,12 @@ def test_re_p5_re_p5_i(save_xml):
         instance="msData/regex/reP5.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_p4_re_p4_v(save_xml):
+def test_re_p4_re_p4_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\s', value='#x9;',
     type='valid', RULE='37'
@@ -10211,11 +10924,12 @@ def test_re_p4_re_p4_v(save_xml):
         instance="msData/regex/reP4.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_p3_re_p3_v(save_xml):
+def test_re_p3_re_p3_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\s', value='#xD;',
     type='valid', RULE='37'
@@ -10225,11 +10939,12 @@ def test_re_p3_re_p3_v(save_xml):
         instance="msData/regex/reP3.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_p2_re_p2_v(save_xml):
+def test_re_p2_re_p2_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\s', value='#xA;',
     type='valid', RULE='37'
@@ -10239,11 +10954,12 @@ def test_re_p2_re_p2_v(save_xml):
         instance="msData/regex/reP2.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_p1_re_p1_v(save_xml):
+def test_re_p1_re_p1_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\s', value='#x20;',
     type='valid', RULE='37'
@@ -10253,12 +10969,13 @@ def test_re_p1_re_p1_v(save_xml):
         instance="msData/regex/reP1.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_o4_re_o4_i(save_xml):
+def test_re_o4_re_o4_i(json_360, save_output):
     """
     TEST :branch : base='string', pattern='.', value='', type='invalid',
     RULE='37'
@@ -10268,12 +10985,13 @@ def test_re_o4_re_o4_i(save_xml):
         instance="msData/regex/reO4.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_o3_re_o3_i(save_xml):
+def test_re_o3_re_o3_i(json_360, save_output):
     """
     TEST :branch : base='string', pattern='.', value='aa', type='invalid',
     RULE='37'
@@ -10283,11 +11001,12 @@ def test_re_o3_re_o3_i(save_xml):
         instance="msData/regex/reO3.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_o2_re_o2_v(save_xml):
+def test_re_o2_re_o2_v(json_360, save_output):
     """
     TEST :branch : base='string', pattern='.', value='#x20;',
     type='valid', RULE='37'
@@ -10297,11 +11016,12 @@ def test_re_o2_re_o2_v(save_xml):
         instance="msData/regex/reO2.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_o1_re_o1_v(save_xml):
+def test_re_o1_re_o1_v(json_360, save_output):
     """
     TEST :branch : base='string', pattern='.', value='a', type='valid',
     RULE='37'
@@ -10311,12 +11031,13 @@ def test_re_o1_re_o1_v(save_xml):
         instance="msData/regex/reO1.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n99_re_n99_i(save_xml):
+def test_re_n99_re_n99_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsPrivateUse}',
     value='#xFFFFD;', type='invalid', RULE='25,36'
@@ -10326,12 +11047,13 @@ def test_re_n99_re_n99_i(save_xml):
         instance="msData/regex/reN99.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n98_re_n98_i(save_xml):
+def test_re_n98_re_n98_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsPrivateUse}',
     value='#xE007F;', type='invalid', RULE='25,36'
@@ -10341,12 +11063,13 @@ def test_re_n98_re_n98_i(save_xml):
         instance="msData/regex/reN98.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n97_re_n97_i(save_xml):
+def test_re_n97_re_n97_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsTags}', value='#x2FA1F;',
     type='invalid', RULE='25,36'
@@ -10356,12 +11079,13 @@ def test_re_n97_re_n97_i(save_xml):
         instance="msData/regex/reN97.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n96_re_n96_i(save_xml):
+def test_re_n96_re_n96_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsCJKCompatibilityIdeographsSupplement}',
@@ -10372,12 +11096,13 @@ def test_re_n96_re_n96_i(save_xml):
         instance="msData/regex/reN96.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n95_re_n95_i(save_xml):
+def test_re_n95_re_n95_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsCJKUnifiedIdeographsExtensionB}', value='#x1D7FF;',
@@ -10388,12 +11113,13 @@ def test_re_n95_re_n95_i(save_xml):
         instance="msData/regex/reN95.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n94_re_n94_i(save_xml):
+def test_re_n94_re_n94_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsMathematicalAlphanumericSymbols}', value='#x1D1FF;',
@@ -10404,12 +11130,13 @@ def test_re_n94_re_n94_i(save_xml):
         instance="msData/regex/reN94.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n93_re_n93_i(save_xml):
+def test_re_n93_re_n93_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsMusicalSymbols}',
     value='#x1D0FF;', type='invalid', RULE='25,36'
@@ -10419,12 +11146,13 @@ def test_re_n93_re_n93_i(save_xml):
         instance="msData/regex/reN93.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n92_re_n92_i(save_xml):
+def test_re_n92_re_n92_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsByzantineMusicalSymbols}',
     value='#x1044F;', type='invalid', RULE='25,36'
@@ -10434,12 +11162,13 @@ def test_re_n92_re_n92_i(save_xml):
         instance="msData/regex/reN92.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n91_re_n91_i(save_xml):
+def test_re_n91_re_n91_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsDeseret}',
     value='#x1034F;', type='invalid', RULE='25,36'
@@ -10449,12 +11178,13 @@ def test_re_n91_re_n91_i(save_xml):
         instance="msData/regex/reN91.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n90_re_n90_i(save_xml):
+def test_re_n90_re_n90_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsGothic}',
     value='#x1032F;', type='invalid', RULE='25,36'
@@ -10464,12 +11194,13 @@ def test_re_n90_re_n90_i(save_xml):
         instance="msData/regex/reN90.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n89_re_n89_i(save_xml):
+def test_re_n89_re_n89_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsOldItalic}',
     value='#xFFFD;', type='invalid', RULE='25,36'
@@ -10479,12 +11210,13 @@ def test_re_n89_re_n89_i(save_xml):
         instance="msData/regex/reN89.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n88_re_n88_i(save_xml):
+def test_re_n88_re_n88_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsSpecials}',
     value='#xFFEF;', type='invalid', RULE='25,36'
@@ -10494,12 +11226,13 @@ def test_re_n88_re_n88_i(save_xml):
         instance="msData/regex/reN88.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n87_re_n87_i(save_xml):
+def test_re_n87_re_n87_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsHalfwidthandFullwidthForms}', value='#xFEFF;',
@@ -10510,12 +11243,13 @@ def test_re_n87_re_n87_i(save_xml):
         instance="msData/regex/reN87.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n86_re_n86_i(save_xml):
+def test_re_n86_re_n86_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsSpecials}',
     value='#xFEFE;', type='invalid', RULE='25,36'
@@ -10525,12 +11259,13 @@ def test_re_n86_re_n86_i(save_xml):
         instance="msData/regex/reN86.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n85_re_n85_i(save_xml):
+def test_re_n85_re_n85_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsArabicPresentationForms-B}', value='#xFE6F;',
@@ -10541,12 +11276,13 @@ def test_re_n85_re_n85_i(save_xml):
         instance="msData/regex/reN85.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n84_re_n84_i(save_xml):
+def test_re_n84_re_n84_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsSmallFormVariants}',
     value='#xFE4F;', type='invalid', RULE='25,36'
@@ -10556,12 +11292,13 @@ def test_re_n84_re_n84_i(save_xml):
         instance="msData/regex/reN84.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n83_re_n83_i(save_xml):
+def test_re_n83_re_n83_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCJKCompatibilityForms}',
     value='#xFE2F;', type='invalid', RULE='25,36'
@@ -10571,12 +11308,13 @@ def test_re_n83_re_n83_i(save_xml):
         instance="msData/regex/reN83.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n82_re_n82_i(save_xml):
+def test_re_n82_re_n82_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCombiningHalfMarks}',
     value='#xFDFF;', type='invalid', RULE='25,36'
@@ -10586,12 +11324,13 @@ def test_re_n82_re_n82_i(save_xml):
         instance="msData/regex/reN82.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n81_re_n81_i(save_xml):
+def test_re_n81_re_n81_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsArabicPresentationForms-A}', value='#xFB4F;',
@@ -10602,12 +11341,13 @@ def test_re_n81_re_n81_i(save_xml):
         instance="msData/regex/reN81.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n80_re_n80_i(save_xml):
+def test_re_n80_re_n80_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsAlphabeticPresentationForms}', value='#xFAFF;',
@@ -10618,12 +11358,13 @@ def test_re_n80_re_n80_i(save_xml):
         instance="msData/regex/reN80.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n79_re_n79_i(save_xml):
+def test_re_n79_re_n79_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsCJKCompatibilityIdeographs}', value='#xF8FF;',
@@ -10634,12 +11375,13 @@ def test_re_n79_re_n79_i(save_xml):
         instance="msData/regex/reN79.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n75_re_n75_i(save_xml):
+def test_re_n75_re_n75_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsHighSurrogates}',
     value='&#xD7A3;', type='invalid', RULE='25,36'
@@ -10649,12 +11391,13 @@ def test_re_n75_re_n75_i(save_xml):
         instance="msData/regex/reN75.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n74_re_n74_i(save_xml):
+def test_re_n74_re_n74_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsHangulSyllables}',
     value='#xA4CF;', type='invalid', RULE='25,36'
@@ -10664,12 +11407,13 @@ def test_re_n74_re_n74_i(save_xml):
         instance="msData/regex/reN74.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n73_re_n73_i(save_xml):
+def test_re_n73_re_n73_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsYiRadicals}',
     value='#xA48F;', type='invalid', RULE='25,36'
@@ -10679,12 +11423,13 @@ def test_re_n73_re_n73_i(save_xml):
         instance="msData/regex/reN73.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n72_re_n72_i(save_xml):
+def test_re_n72_re_n72_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsYiSyllables}',
     value='#x9FFF;', type='invalid', RULE='25,36'
@@ -10694,12 +11439,13 @@ def test_re_n72_re_n72_i(save_xml):
         instance="msData/regex/reN72.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n71_re_n71_i(save_xml):
+def test_re_n71_re_n71_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCJKUnifiedIdeographs}',
     value='#x4DB5;', type='invalid', RULE='25,36'
@@ -10709,12 +11455,13 @@ def test_re_n71_re_n71_i(save_xml):
         instance="msData/regex/reN71.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n70_re_n70_i(save_xml):
+def test_re_n70_re_n70_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsCJKUnifiedIdeographsExtensionA}', value='#x33FF;',
@@ -10725,12 +11472,13 @@ def test_re_n70_re_n70_i(save_xml):
         instance="msData/regex/reN70.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n69_re_n69_i(save_xml):
+def test_re_n69_re_n69_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCJKCompatibility}',
     value='#x32FF;', type='invalid', RULE='25,36'
@@ -10740,12 +11488,13 @@ def test_re_n69_re_n69_i(save_xml):
         instance="msData/regex/reN69.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n68_re_n68_i(save_xml):
+def test_re_n68_re_n68_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsEnclosedCJKLettersandMonths}', value='#x31BF;',
@@ -10756,12 +11505,13 @@ def test_re_n68_re_n68_i(save_xml):
         instance="msData/regex/reN68.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n67_re_n67_i(save_xml):
+def test_re_n67_re_n67_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsBopomofoExtended}',
     value='#x319F;', type='invalid', RULE='25,36'
@@ -10771,12 +11521,13 @@ def test_re_n67_re_n67_i(save_xml):
         instance="msData/regex/reN67.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n66_re_n66_i(save_xml):
+def test_re_n66_re_n66_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsKanbun}', value='#x318F;',
     type='invalid', RULE='25,36'
@@ -10786,12 +11537,13 @@ def test_re_n66_re_n66_i(save_xml):
         instance="msData/regex/reN66.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n65_re_n65_i(save_xml):
+def test_re_n65_re_n65_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsHangulCompatibilityJamo}',
     value='#x312F;', type='invalid', RULE='25,36'
@@ -10801,12 +11553,13 @@ def test_re_n65_re_n65_i(save_xml):
         instance="msData/regex/reN65.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n64_re_n64_i(save_xml):
+def test_re_n64_re_n64_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsBopomofo}',
     value='#x30FF;', type='invalid', RULE='25,36'
@@ -10816,12 +11569,13 @@ def test_re_n64_re_n64_i(save_xml):
         instance="msData/regex/reN64.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n63_re_n63_i(save_xml):
+def test_re_n63_re_n63_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsKatakana}',
     value='#x309F;', type='invalid', RULE='25,36'
@@ -10831,12 +11585,13 @@ def test_re_n63_re_n63_i(save_xml):
         instance="msData/regex/reN63.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n62_re_n62_i(save_xml):
+def test_re_n62_re_n62_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsHiragana}',
     value='#x303F;', type='invalid', RULE='25,36'
@@ -10846,12 +11601,13 @@ def test_re_n62_re_n62_i(save_xml):
         instance="msData/regex/reN62.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n61_re_n61_i(save_xml):
+def test_re_n61_re_n61_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsCJKSymbolsandPunctuation}', value='#x2FFF;',
@@ -10862,12 +11618,13 @@ def test_re_n61_re_n61_i(save_xml):
         instance="msData/regex/reN61.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n60_re_n60_i(save_xml):
+def test_re_n60_re_n60_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsIdeographicDescriptionCharacters}', value='#x2FDF;',
@@ -10878,12 +11635,13 @@ def test_re_n60_re_n60_i(save_xml):
         instance="msData/regex/reN60.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n59_re_n59_i(save_xml):
+def test_re_n59_re_n59_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsKangxiRadicals}',
     value='#x2EFF;', type='invalid', RULE='25,36'
@@ -10893,12 +11651,13 @@ def test_re_n59_re_n59_i(save_xml):
         instance="msData/regex/reN59.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n58_re_n58_i(save_xml):
+def test_re_n58_re_n58_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCJKRadicalsSupplement}',
     value='#x28FF;', type='invalid', RULE='25,36'
@@ -10908,12 +11667,13 @@ def test_re_n58_re_n58_i(save_xml):
         instance="msData/regex/reN58.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n57_re_n57_i(save_xml):
+def test_re_n57_re_n57_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsBraillePatterns}',
     value='#x27BF;', type='invalid', RULE='25,36'
@@ -10923,12 +11683,13 @@ def test_re_n57_re_n57_i(save_xml):
         instance="msData/regex/reN57.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n56_re_n56_i(save_xml):
+def test_re_n56_re_n56_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsDingbats}',
     value='#x26FF;', type='invalid', RULE='25,36'
@@ -10938,12 +11699,13 @@ def test_re_n56_re_n56_i(save_xml):
         instance="msData/regex/reN56.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n55_re_n55_i(save_xml):
+def test_re_n55_re_n55_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsMiscellaneousSymbols}',
     value='#x25FF;', type='invalid', RULE='25,36'
@@ -10953,12 +11715,13 @@ def test_re_n55_re_n55_i(save_xml):
         instance="msData/regex/reN55.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n54_re_n54_i(save_xml):
+def test_re_n54_re_n54_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsGeometricShapes}',
     value='#x259F;', type='invalid', RULE='25,36'
@@ -10968,12 +11731,13 @@ def test_re_n54_re_n54_i(save_xml):
         instance="msData/regex/reN54.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n53_re_n53_i(save_xml):
+def test_re_n53_re_n53_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsBlockElements}',
     value='#x257F;', type='invalid', RULE='25,36'
@@ -10983,12 +11747,13 @@ def test_re_n53_re_n53_i(save_xml):
         instance="msData/regex/reN53.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n52_re_n52_i(save_xml):
+def test_re_n52_re_n52_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsBoxDrawing}',
     value='#x24FF;', type='invalid', RULE='25,36'
@@ -10998,12 +11763,13 @@ def test_re_n52_re_n52_i(save_xml):
         instance="msData/regex/reN52.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n51_re_n51_i(save_xml):
+def test_re_n51_re_n51_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsEnclosedAlphanumerics}',
     value='#x245F;', type='invalid', RULE='25,36'
@@ -11013,12 +11779,13 @@ def test_re_n51_re_n51_i(save_xml):
         instance="msData/regex/reN51.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n50_re_n50_i(save_xml):
+def test_re_n50_re_n50_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsOpticalCharacterRecognition}', value='#x243F;',
@@ -11029,12 +11796,13 @@ def test_re_n50_re_n50_i(save_xml):
         instance="msData/regex/reN50.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n49_re_n49_i(save_xml):
+def test_re_n49_re_n49_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsControlPictures}',
     value='#x23FF;', type='invalid', RULE='25,36'
@@ -11044,12 +11812,13 @@ def test_re_n49_re_n49_i(save_xml):
         instance="msData/regex/reN49.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n48_re_n48_i(save_xml):
+def test_re_n48_re_n48_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsMiscellaneousTechnical}',
     value='#x22FF;', type='invalid', RULE='25,36'
@@ -11059,12 +11828,13 @@ def test_re_n48_re_n48_i(save_xml):
         instance="msData/regex/reN48.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n47_re_n47_i(save_xml):
+def test_re_n47_re_n47_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsMathematicalOperators}',
     value='#x21FF;', type='invalid', RULE='25,36'
@@ -11074,12 +11844,13 @@ def test_re_n47_re_n47_i(save_xml):
         instance="msData/regex/reN47.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n46_re_n46_i(save_xml):
+def test_re_n46_re_n46_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsArrows}', value='#x218F;',
     type='invalid', RULE='25,36'
@@ -11089,12 +11860,13 @@ def test_re_n46_re_n46_i(save_xml):
         instance="msData/regex/reN46.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n45_re_n45_i(save_xml):
+def test_re_n45_re_n45_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsNumberForms}',
     value='#x214F;', type='invalid', RULE='25,36'
@@ -11104,12 +11876,13 @@ def test_re_n45_re_n45_i(save_xml):
         instance="msData/regex/reN45.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n44_re_n44_i(save_xml):
+def test_re_n44_re_n44_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsLetterlikeSymbols}',
     value='#x20FF;', type='invalid', RULE='25,36'
@@ -11119,12 +11892,13 @@ def test_re_n44_re_n44_i(save_xml):
         instance="msData/regex/reN44.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n43_re_n43_i(save_xml):
+def test_re_n43_re_n43_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsCombiningMarksforSymbols}', value='#x20CF;',
@@ -11135,12 +11909,13 @@ def test_re_n43_re_n43_i(save_xml):
         instance="msData/regex/reN43.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n42_re_n42_i(save_xml):
+def test_re_n42_re_n42_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCurrencySymbols}',
     value='#x209F;', type='invalid', RULE='25,36'
@@ -11150,12 +11925,13 @@ def test_re_n42_re_n42_i(save_xml):
         instance="msData/regex/reN42.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n41_re_n41_i(save_xml):
+def test_re_n41_re_n41_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsSuperscriptsandSubscripts}', value='#x206F;',
@@ -11166,12 +11942,13 @@ def test_re_n41_re_n41_i(save_xml):
         instance="msData/regex/reN41.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n40_re_n40_i(save_xml):
+def test_re_n40_re_n40_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsGeneralPunctuation}',
     value='#x1FFF;', type='invalid', RULE='25,36'
@@ -11181,12 +11958,13 @@ def test_re_n40_re_n40_i(save_xml):
         instance="msData/regex/reN40.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n39_re_n39_i(save_xml):
+def test_re_n39_re_n39_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsGreekExtended}',
     value='#x1EFF;', type='invalid', RULE='25,36'
@@ -11196,12 +11974,13 @@ def test_re_n39_re_n39_i(save_xml):
         instance="msData/regex/reN39.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n38_re_n38_i(save_xml):
+def test_re_n38_re_n38_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsLatinExtendedAdditional}',
     value='#x18AF;', type='invalid', RULE='25,36'
@@ -11211,12 +11990,13 @@ def test_re_n38_re_n38_i(save_xml):
         instance="msData/regex/reN38.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n37_re_n37_i(save_xml):
+def test_re_n37_re_n37_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsMongolian}',
     value='#x17FF;', type='invalid', RULE='25,36'
@@ -11226,12 +12006,13 @@ def test_re_n37_re_n37_i(save_xml):
         instance="msData/regex/reN37.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n36_re_n36_i(save_xml):
+def test_re_n36_re_n36_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsKhmer}', value='#x16FF;',
     type='invalid', RULE='25,36'
@@ -11241,12 +12022,13 @@ def test_re_n36_re_n36_i(save_xml):
         instance="msData/regex/reN36.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n35_re_n35_i(save_xml):
+def test_re_n35_re_n35_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsRunic}', value='#x169F;',
     type='invalid', RULE='25,36'
@@ -11256,12 +12038,13 @@ def test_re_n35_re_n35_i(save_xml):
         instance="msData/regex/reN35.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n34_re_n34_i(save_xml):
+def test_re_n34_re_n34_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsOgham}', value='#x167F;',
     type='invalid', RULE='25,36'
@@ -11271,12 +12054,13 @@ def test_re_n34_re_n34_i(save_xml):
         instance="msData/regex/reN34.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n33_re_n33_i(save_xml):
+def test_re_n33_re_n33_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsUnifiedCanadianAboriginalSyllabics}', value='#x13FF;',
@@ -11287,12 +12071,13 @@ def test_re_n33_re_n33_i(save_xml):
         instance="msData/regex/reN33.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n32_re_n32_i(save_xml):
+def test_re_n32_re_n32_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCherokee}',
     value='#x137F;', type='invalid', RULE='25,36'
@@ -11302,12 +12087,13 @@ def test_re_n32_re_n32_i(save_xml):
         instance="msData/regex/reN32.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n31_re_n31_i(save_xml):
+def test_re_n31_re_n31_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsEthiopic}',
     value='#x11FF;', type='invalid', RULE='25,36'
@@ -11317,12 +12103,13 @@ def test_re_n31_re_n31_i(save_xml):
         instance="msData/regex/reN31.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n30_re_n30_i(save_xml):
+def test_re_n30_re_n30_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsHangulJamo}',
     value='#x10FF;', type='invalid', RULE='25,36'
@@ -11332,12 +12119,13 @@ def test_re_n30_re_n30_i(save_xml):
         instance="msData/regex/reN30.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n29_re_n29_i(save_xml):
+def test_re_n29_re_n29_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsGeorgian}',
     value='#x109F;', type='invalid', RULE='25,36'
@@ -11347,12 +12135,13 @@ def test_re_n29_re_n29_i(save_xml):
         instance="msData/regex/reN29.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n28_re_n28_i(save_xml):
+def test_re_n28_re_n28_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsMyanmar}',
     value='#x0FFF;', type='invalid', RULE='25,36'
@@ -11362,12 +12151,13 @@ def test_re_n28_re_n28_i(save_xml):
         instance="msData/regex/reN28.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n27_re_n27_i(save_xml):
+def test_re_n27_re_n27_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsTibetan}',
     value='#x0EFF;', type='invalid', RULE='25,36'
@@ -11377,12 +12167,13 @@ def test_re_n27_re_n27_i(save_xml):
         instance="msData/regex/reN27.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n26_re_n26_i(save_xml):
+def test_re_n26_re_n26_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsLao}', value='#x0E7F;',
     type='invalid', RULE='25,36'
@@ -11392,12 +12183,13 @@ def test_re_n26_re_n26_i(save_xml):
         instance="msData/regex/reN26.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n25_re_n25_i(save_xml):
+def test_re_n25_re_n25_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsThai}', value='#x0DFF;',
     type='invalid', RULE='25,36'
@@ -11407,12 +12199,13 @@ def test_re_n25_re_n25_i(save_xml):
         instance="msData/regex/reN25.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n24_re_n24_i(save_xml):
+def test_re_n24_re_n24_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsSinhala}',
     value='#x0D7F;', type='invalid', RULE='25,36'
@@ -11422,12 +12215,13 @@ def test_re_n24_re_n24_i(save_xml):
         instance="msData/regex/reN24.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n23_re_n23_i(save_xml):
+def test_re_n23_re_n23_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsMalayalam}',
     value='#x0CFF;', type='invalid', RULE='25,36'
@@ -11437,12 +12231,13 @@ def test_re_n23_re_n23_i(save_xml):
         instance="msData/regex/reN23.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n22_re_n22_i(save_xml):
+def test_re_n22_re_n22_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsKannada}',
     value='#x0C7F;', type='invalid', RULE='25,36'
@@ -11452,12 +12247,13 @@ def test_re_n22_re_n22_i(save_xml):
         instance="msData/regex/reN22.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n21_re_n21_i(save_xml):
+def test_re_n21_re_n21_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsTelugu}', value='#x0BFF;',
     type='invalid', RULE='25,36'
@@ -11467,12 +12263,13 @@ def test_re_n21_re_n21_i(save_xml):
         instance="msData/regex/reN21.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n20_re_n20_i(save_xml):
+def test_re_n20_re_n20_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsTamil}', value='#x0B7F;',
     type='invalid', RULE='25,36'
@@ -11482,12 +12279,13 @@ def test_re_n20_re_n20_i(save_xml):
         instance="msData/regex/reN20.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n19_re_n19_i(save_xml):
+def test_re_n19_re_n19_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsOriya}', value='#x0AFF;',
     type='invalid', RULE='25,36'
@@ -11497,12 +12295,13 @@ def test_re_n19_re_n19_i(save_xml):
         instance="msData/regex/reN19.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n18_re_n18_i(save_xml):
+def test_re_n18_re_n18_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsGujarati}',
     value='#x0A7F;', type='invalid', RULE='25,36'
@@ -11512,12 +12311,13 @@ def test_re_n18_re_n18_i(save_xml):
         instance="msData/regex/reN18.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n17_re_n17_i(save_xml):
+def test_re_n17_re_n17_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsGurmukhi}',
     value='#x09FF;', type='invalid', RULE='25,36'
@@ -11527,12 +12327,13 @@ def test_re_n17_re_n17_i(save_xml):
         instance="msData/regex/reN17.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n16_re_n16_i(save_xml):
+def test_re_n16_re_n16_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsBengali}',
     value='#x097F;', type='invalid', RULE='25,36'
@@ -11542,12 +12343,13 @@ def test_re_n16_re_n16_i(save_xml):
         instance="msData/regex/reN16.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n15_re_n15_i(save_xml):
+def test_re_n15_re_n15_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsDevanagari}',
     value='#x07BF;', type='invalid', RULE='25,36'
@@ -11557,12 +12359,13 @@ def test_re_n15_re_n15_i(save_xml):
         instance="msData/regex/reN15.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n14_re_n14_i(save_xml):
+def test_re_n14_re_n14_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsThaana}', value='#x074F;',
     type='invalid', RULE='25,36'
@@ -11572,12 +12375,13 @@ def test_re_n14_re_n14_i(save_xml):
         instance="msData/regex/reN14.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n13_re_n13_i(save_xml):
+def test_re_n13_re_n13_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsSyriac}', value='#x06FF;',
     type='invalid', RULE='25,36'
@@ -11587,12 +12391,13 @@ def test_re_n13_re_n13_i(save_xml):
         instance="msData/regex/reN13.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n12_re_n12_i(save_xml):
+def test_re_n12_re_n12_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsArabic}', value='#x05FF;',
     type='invalid', RULE='25,36'
@@ -11602,12 +12407,13 @@ def test_re_n12_re_n12_i(save_xml):
         instance="msData/regex/reN12.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n11_re_n11_i(save_xml):
+def test_re_n11_re_n11_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsHebrew}', value='#x058F;',
     type='invalid', RULE='25,36'
@@ -11617,12 +12423,13 @@ def test_re_n11_re_n11_i(save_xml):
         instance="msData/regex/reN11.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n10_re_n10_i(save_xml):
+def test_re_n10_re_n10_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsArmenian}',
     value='#x04FF;', type='invalid', RULE='25,36'
@@ -11632,12 +12439,13 @@ def test_re_n10_re_n10_i(save_xml):
         instance="msData/regex/reN10.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n9_re_n9_i(save_xml):
+def test_re_n9_re_n9_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCyrillic}',
     value='#x03FF;', type='invalid', RULE='25,36'
@@ -11647,12 +12455,13 @@ def test_re_n9_re_n9_i(save_xml):
         instance="msData/regex/reN9.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n8_re_n8_i(save_xml):
+def test_re_n8_re_n8_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsGreek}', value='#x036F;',
     type='invalid', RULE='25,36'
@@ -11662,12 +12471,13 @@ def test_re_n8_re_n8_i(save_xml):
         instance="msData/regex/reN8.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n6_re_n6_i(save_xml):
+def test_re_n6_re_n6_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsSpacingModifierLetters}',
     value='#x02AF;', type='invalid', RULE='25,36'
@@ -11677,12 +12487,13 @@ def test_re_n6_re_n6_i(save_xml):
         instance="msData/regex/reN6.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n5_re_n5_i(save_xml):
+def test_re_n5_re_n5_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsIPAExtensions}',
     value='#x024F;', type='invalid', RULE='25,36'
@@ -11692,12 +12503,13 @@ def test_re_n5_re_n5_i(save_xml):
         instance="msData/regex/reN5.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n4_re_n4_i(save_xml):
+def test_re_n4_re_n4_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsLatinExtended-B}',
     value='#x017F;', type='invalid', RULE='25,36'
@@ -11707,12 +12519,13 @@ def test_re_n4_re_n4_i(save_xml):
         instance="msData/regex/reN4.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n3_re_n3_i(save_xml):
+def test_re_n3_re_n3_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsLatinExtended-A}',
     value='#x00FF;', type='invalid', RULE='25,36'
@@ -11722,12 +12535,13 @@ def test_re_n3_re_n3_i(save_xml):
         instance="msData/regex/reN3.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n2_re_n2_i(save_xml):
+def test_re_n2_re_n2_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsLatin-1Supplement}',
     value='#x007F;', type='invalid', RULE='25,36'
@@ -11737,12 +12551,13 @@ def test_re_n2_re_n2_i(save_xml):
         instance="msData/regex/reN2.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_n1_re_n1_i(save_xml):
+def test_re_n1_re_n1_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsBasicLatin}',
     value='#x06FF;', type='invalid', RULE='25,36'
@@ -11752,12 +12567,13 @@ def test_re_n1_re_n1_i(save_xml):
         instance="msData/regex/reN1.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m99_re_m99_i(save_xml):
+def test_re_m99_re_m99_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsPrivateUse}?',
     value='#x007F;', type='invalid', RULE='25,36'
@@ -11767,12 +12583,13 @@ def test_re_m99_re_m99_i(save_xml):
         instance="msData/regex/reM99.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m98_re_m98_i(save_xml):
+def test_re_m98_re_m98_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsPrivateUse}?',
     value='#x100000;', type='invalid', RULE='25,36'
@@ -11782,12 +12599,13 @@ def test_re_m98_re_m98_i(save_xml):
         instance="msData/regex/reM98.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m97_re_m97_i(save_xml):
+def test_re_m97_re_m97_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsTags}?', value='#xF0000;',
     type='invalid', RULE='25,36'
@@ -11797,12 +12615,13 @@ def test_re_m97_re_m97_i(save_xml):
         instance="msData/regex/reM97.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m96_re_m96_i(save_xml):
+def test_re_m96_re_m96_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsCJKCompatibilityIdeographsSupplement}?',
@@ -11813,12 +12632,13 @@ def test_re_m96_re_m96_i(save_xml):
         instance="msData/regex/reM96.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m95_re_m95_i(save_xml):
+def test_re_m95_re_m95_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsCJKUnifiedIdeographsExtensionB}?', value='#x2F800;',
@@ -11829,12 +12649,13 @@ def test_re_m95_re_m95_i(save_xml):
         instance="msData/regex/reM95.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m94_re_m94_i(save_xml):
+def test_re_m94_re_m94_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsMathematicalAlphanumericSymbols}?', value='#x20000;',
@@ -11845,12 +12666,13 @@ def test_re_m94_re_m94_i(save_xml):
         instance="msData/regex/reM94.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m93_re_m93_i(save_xml):
+def test_re_m93_re_m93_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsMusicalSymbols}?',
     value='#x1D400;', type='invalid', RULE='25,36'
@@ -11860,12 +12682,13 @@ def test_re_m93_re_m93_i(save_xml):
         instance="msData/regex/reM93.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m92_re_m92_i(save_xml):
+def test_re_m92_re_m92_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsByzantineMusicalSymbols}?', value='#x1D100;',
@@ -11876,12 +12699,13 @@ def test_re_m92_re_m92_i(save_xml):
         instance="msData/regex/reM92.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m91_re_m91_i(save_xml):
+def test_re_m91_re_m91_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsDeseret}?',
     value='#x1D000;', type='invalid', RULE='25,36'
@@ -11891,12 +12715,13 @@ def test_re_m91_re_m91_i(save_xml):
         instance="msData/regex/reM91.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m90_re_m90_i(save_xml):
+def test_re_m90_re_m90_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsGothic}?',
     value='#x10400;', type='invalid', RULE='25,36'
@@ -11906,12 +12731,13 @@ def test_re_m90_re_m90_i(save_xml):
         instance="msData/regex/reM90.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m89_re_m89_i(save_xml):
+def test_re_m89_re_m89_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsOldItalic}?',
     value='#x10330;', type='invalid', RULE='25,36'
@@ -11921,12 +12747,13 @@ def test_re_m89_re_m89_i(save_xml):
         instance="msData/regex/reM89.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m88_re_m88_i(save_xml):
+def test_re_m88_re_m88_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsSpecials}?',
     value='#x10300;', type='invalid', RULE='25,36'
@@ -11936,12 +12763,13 @@ def test_re_m88_re_m88_i(save_xml):
         instance="msData/regex/reM88.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m87_re_m87_i(save_xml):
+def test_re_m87_re_m87_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsHalfwidthandFullwidthForms}?', value='#xFFF0;',
@@ -11952,12 +12780,13 @@ def test_re_m87_re_m87_i(save_xml):
         instance="msData/regex/reM87.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m86_re_m86_i(save_xml):
+def test_re_m86_re_m86_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsSpecials}?',
     value='#xFF00;', type='invalid', RULE='25,36'
@@ -11967,12 +12796,13 @@ def test_re_m86_re_m86_i(save_xml):
         instance="msData/regex/reM86.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m84_re_m84_i(save_xml):
+def test_re_m84_re_m84_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsSmallFormVariants}?',
     value='#xFE70;', type='invalid', RULE='25,36'
@@ -11982,12 +12812,13 @@ def test_re_m84_re_m84_i(save_xml):
         instance="msData/regex/reM84.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m83_re_m83_i(save_xml):
+def test_re_m83_re_m83_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCJKCompatibilityForms}?',
     value='#xFE50;', type='invalid', RULE='25,36'
@@ -11997,12 +12828,13 @@ def test_re_m83_re_m83_i(save_xml):
         instance="msData/regex/reM83.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m82_re_m82_i(save_xml):
+def test_re_m82_re_m82_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCombiningHalfMarks}?',
     value='#xFE30;', type='invalid', RULE='25,36'
@@ -12012,12 +12844,13 @@ def test_re_m82_re_m82_i(save_xml):
         instance="msData/regex/reM82.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m81_re_m81_i(save_xml):
+def test_re_m81_re_m81_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsArabicPresentationForms-A}?', value='#xFE20;',
@@ -12028,12 +12861,13 @@ def test_re_m81_re_m81_i(save_xml):
         instance="msData/regex/reM81.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m80_re_m80_i(save_xml):
+def test_re_m80_re_m80_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsAlphabeticPresentationForms}?', value='#xFB50;',
@@ -12044,12 +12878,13 @@ def test_re_m80_re_m80_i(save_xml):
         instance="msData/regex/reM80.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m79_re_m79_i(save_xml):
+def test_re_m79_re_m79_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsCJKCompatibilityIdeographs}?', value='#xFB00;',
@@ -12060,12 +12895,13 @@ def test_re_m79_re_m79_i(save_xml):
         instance="msData/regex/reM79.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m78_re_m78_i(save_xml):
+def test_re_m78_re_m78_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsPrivateUse}?',
     value='#xF900;', type='invalid', RULE='25,36'
@@ -12075,12 +12911,13 @@ def test_re_m78_re_m78_i(save_xml):
         instance="msData/regex/reM78.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m77_re_m77_i(save_xml):
+def test_re_m77_re_m77_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsLowSurrogates}?',
     value='#xE000;', type='invalid', RULE='25,36'
@@ -12090,12 +12927,13 @@ def test_re_m77_re_m77_i(save_xml):
         instance="msData/regex/reM77.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m73_re_m73_i(save_xml):
+def test_re_m73_re_m73_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsYiRadicals}?',
     value='#xAC00;', type='invalid', RULE='25,36'
@@ -12105,12 +12943,13 @@ def test_re_m73_re_m73_i(save_xml):
         instance="msData/regex/reM73.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m72_re_m72_i(save_xml):
+def test_re_m72_re_m72_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsYiSyllables}?',
     value='#xA490;', type='invalid', RULE='25,36'
@@ -12120,12 +12959,13 @@ def test_re_m72_re_m72_i(save_xml):
         instance="msData/regex/reM72.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m71_re_m71_i(save_xml):
+def test_re_m71_re_m71_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCJKUnifiedIdeographs}?',
     value='#xA000;', type='invalid', RULE='25,36'
@@ -12135,12 +12975,13 @@ def test_re_m71_re_m71_i(save_xml):
         instance="msData/regex/reM71.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m70_re_m70_i(save_xml):
+def test_re_m70_re_m70_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsCJKUnifiedIdeographsExtensionA}?', value='#x4E00;',
@@ -12151,12 +12992,13 @@ def test_re_m70_re_m70_i(save_xml):
         instance="msData/regex/reM70.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m69_re_m69_i(save_xml):
+def test_re_m69_re_m69_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCJKCompatibility}?',
     value='#x3400;', type='invalid', RULE='25,36'
@@ -12166,12 +13008,13 @@ def test_re_m69_re_m69_i(save_xml):
         instance="msData/regex/reM69.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m68_re_m68_i(save_xml):
+def test_re_m68_re_m68_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsEnclosedCJKLettersandMonths}?', value='#x3300;',
@@ -12182,12 +13025,13 @@ def test_re_m68_re_m68_i(save_xml):
         instance="msData/regex/reM68.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m67_re_m67_i(save_xml):
+def test_re_m67_re_m67_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsBopomofoExtended}?',
     value='#x3200;', type='invalid', RULE='25,36'
@@ -12197,12 +13041,13 @@ def test_re_m67_re_m67_i(save_xml):
         instance="msData/regex/reM67.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m66_re_m66_i(save_xml):
+def test_re_m66_re_m66_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsKanbun}?',
     value='#x31A0;', type='invalid', RULE='25,36'
@@ -12212,12 +13057,13 @@ def test_re_m66_re_m66_i(save_xml):
         instance="msData/regex/reM66.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m65_re_m65_i(save_xml):
+def test_re_m65_re_m65_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsHangulCompatibilityJamo}?', value='#x3190;',
@@ -12228,12 +13074,13 @@ def test_re_m65_re_m65_i(save_xml):
         instance="msData/regex/reM65.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m64_re_m64_i(save_xml):
+def test_re_m64_re_m64_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsBopomofo}?',
     value='#x3130;', type='invalid', RULE='25,36'
@@ -12243,12 +13090,13 @@ def test_re_m64_re_m64_i(save_xml):
         instance="msData/regex/reM64.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m63_re_m63_i(save_xml):
+def test_re_m63_re_m63_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsKatakana}?',
     value='#x3100;', type='invalid', RULE='25,36'
@@ -12258,12 +13106,13 @@ def test_re_m63_re_m63_i(save_xml):
         instance="msData/regex/reM63.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m62_re_m62_i(save_xml):
+def test_re_m62_re_m62_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsHiragana}?',
     value='#x30A0;', type='invalid', RULE='25,36'
@@ -12273,12 +13122,13 @@ def test_re_m62_re_m62_i(save_xml):
         instance="msData/regex/reM62.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m61_re_m61_i(save_xml):
+def test_re_m61_re_m61_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsCJKSymbolsandPunctuation}?', value='#x3040;',
@@ -12289,12 +13139,13 @@ def test_re_m61_re_m61_i(save_xml):
         instance="msData/regex/reM61.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m60_re_m60_i(save_xml):
+def test_re_m60_re_m60_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsIdeographicDescriptionCharacters}?', value='#x3000;',
@@ -12305,12 +13156,13 @@ def test_re_m60_re_m60_i(save_xml):
         instance="msData/regex/reM60.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m59_re_m59_i(save_xml):
+def test_re_m59_re_m59_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsKangxiRadicals}?',
     value='#x2FF0;', type='invalid', RULE='25,36'
@@ -12320,12 +13172,13 @@ def test_re_m59_re_m59_i(save_xml):
         instance="msData/regex/reM59.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m58_re_m58_i(save_xml):
+def test_re_m58_re_m58_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCJKRadicalsSupplement}?',
     value='#x2F00;', type='invalid', RULE='25,36'
@@ -12335,12 +13188,13 @@ def test_re_m58_re_m58_i(save_xml):
         instance="msData/regex/reM58.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m57_re_m57_i(save_xml):
+def test_re_m57_re_m57_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsBraillePatterns}?',
     value='#x2E80;', type='invalid', RULE='25,36'
@@ -12350,12 +13204,13 @@ def test_re_m57_re_m57_i(save_xml):
         instance="msData/regex/reM57.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m56_re_m56_i(save_xml):
+def test_re_m56_re_m56_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsDingbats}?',
     value='#x2800;', type='invalid', RULE='25,36'
@@ -12365,12 +13220,13 @@ def test_re_m56_re_m56_i(save_xml):
         instance="msData/regex/reM56.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m55_re_m55_i(save_xml):
+def test_re_m55_re_m55_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsMiscellaneousSymbols}?',
     value='#x2700;', type='invalid', RULE='25,36'
@@ -12380,12 +13236,13 @@ def test_re_m55_re_m55_i(save_xml):
         instance="msData/regex/reM55.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m54_re_m54_i(save_xml):
+def test_re_m54_re_m54_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsGeometricShapes}?',
     value='#x2600;', type='invalid', RULE='25,36'
@@ -12395,12 +13252,13 @@ def test_re_m54_re_m54_i(save_xml):
         instance="msData/regex/reM54.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m53_re_m53_i(save_xml):
+def test_re_m53_re_m53_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsBlockElements}?',
     value='#x25A0;', type='invalid', RULE='25,36'
@@ -12410,12 +13268,13 @@ def test_re_m53_re_m53_i(save_xml):
         instance="msData/regex/reM53.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m52_re_m52_i(save_xml):
+def test_re_m52_re_m52_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsBoxDrawing}?',
     value='#x2580;', type='invalid', RULE='25,36'
@@ -12425,12 +13284,13 @@ def test_re_m52_re_m52_i(save_xml):
         instance="msData/regex/reM52.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m51_re_m51_i(save_xml):
+def test_re_m51_re_m51_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsEnclosedAlphanumerics}?',
     value='#x2500;', type='invalid', RULE='25,36'
@@ -12440,12 +13300,13 @@ def test_re_m51_re_m51_i(save_xml):
         instance="msData/regex/reM51.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m50_re_m50_i(save_xml):
+def test_re_m50_re_m50_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsOpticalCharacterRecognition}?', value='#x2460;',
@@ -12456,12 +13317,13 @@ def test_re_m50_re_m50_i(save_xml):
         instance="msData/regex/reM50.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m49_re_m49_i(save_xml):
+def test_re_m49_re_m49_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsControlPictures}?',
     value='#x2440;', type='invalid', RULE='25,36'
@@ -12471,12 +13333,13 @@ def test_re_m49_re_m49_i(save_xml):
         instance="msData/regex/reM49.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m48_re_m48_i(save_xml):
+def test_re_m48_re_m48_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsMiscellaneousTechnical}?',
     value='#x2400;', type='invalid', RULE='25,36'
@@ -12486,12 +13349,13 @@ def test_re_m48_re_m48_i(save_xml):
         instance="msData/regex/reM48.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m47_re_m47_i(save_xml):
+def test_re_m47_re_m47_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsMathematicalOperators}?',
     value='#x2300;', type='invalid', RULE='25,36'
@@ -12501,12 +13365,13 @@ def test_re_m47_re_m47_i(save_xml):
         instance="msData/regex/reM47.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m46_re_m46_i(save_xml):
+def test_re_m46_re_m46_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsArrows}?',
     value='#x2200;', type='invalid', RULE='25,36'
@@ -12516,12 +13381,13 @@ def test_re_m46_re_m46_i(save_xml):
         instance="msData/regex/reM46.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m45_re_m45_i(save_xml):
+def test_re_m45_re_m45_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsNumberForms}?',
     value='#x2190;', type='invalid', RULE='25,36'
@@ -12531,12 +13397,13 @@ def test_re_m45_re_m45_i(save_xml):
         instance="msData/regex/reM45.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m44_re_m44_i(save_xml):
+def test_re_m44_re_m44_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsLetterlikeSymbols}?',
     value='#x2150;', type='invalid', RULE='25,36'
@@ -12546,12 +13413,13 @@ def test_re_m44_re_m44_i(save_xml):
         instance="msData/regex/reM44.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m43_re_m43_i(save_xml):
+def test_re_m43_re_m43_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsCombiningMarksforSymbols}?', value='#x2100;',
@@ -12562,12 +13430,13 @@ def test_re_m43_re_m43_i(save_xml):
         instance="msData/regex/reM43.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m42_re_m42_i(save_xml):
+def test_re_m42_re_m42_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCurrencySymbols}?',
     value='#x20D0;', type='invalid', RULE='25,36'
@@ -12577,12 +13446,13 @@ def test_re_m42_re_m42_i(save_xml):
         instance="msData/regex/reM42.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m41_re_m41_i(save_xml):
+def test_re_m41_re_m41_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsSuperscriptsandSubscripts}?', value='#x20A0;',
@@ -12593,12 +13463,13 @@ def test_re_m41_re_m41_i(save_xml):
         instance="msData/regex/reM41.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m40_re_m40_i(save_xml):
+def test_re_m40_re_m40_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsGeneralPunctuation}?',
     value='#x2070;', type='invalid', RULE='25,36'
@@ -12608,12 +13479,13 @@ def test_re_m40_re_m40_i(save_xml):
         instance="msData/regex/reM40.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m39_re_m39_i(save_xml):
+def test_re_m39_re_m39_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsGreekExtended}?',
     value='#x2000;', type='invalid', RULE='25,36'
@@ -12623,12 +13495,13 @@ def test_re_m39_re_m39_i(save_xml):
         instance="msData/regex/reM39.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m38_re_m38_i(save_xml):
+def test_re_m38_re_m38_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsLatinExtendedAdditional}?', value='#x1F00;',
@@ -12639,12 +13512,13 @@ def test_re_m38_re_m38_i(save_xml):
         instance="msData/regex/reM38.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m37_re_m37_i(save_xml):
+def test_re_m37_re_m37_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsMongolian}?',
     value='#x1E00;', type='invalid', RULE='25,36'
@@ -12654,12 +13528,13 @@ def test_re_m37_re_m37_i(save_xml):
         instance="msData/regex/reM37.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m36_re_m36_i(save_xml):
+def test_re_m36_re_m36_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsKhmer}?', value='#x1800;',
     type='invalid', RULE='25,36'
@@ -12669,12 +13544,13 @@ def test_re_m36_re_m36_i(save_xml):
         instance="msData/regex/reM36.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m35_re_m35_i(save_xml):
+def test_re_m35_re_m35_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsRunic}?', value='#x1780;',
     type='invalid', RULE='25,36'
@@ -12684,12 +13560,13 @@ def test_re_m35_re_m35_i(save_xml):
         instance="msData/regex/reM35.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m34_re_m34_i(save_xml):
+def test_re_m34_re_m34_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsOgham}?', value='#x16A0;',
     type='invalid', RULE='25,36'
@@ -12699,12 +13576,13 @@ def test_re_m34_re_m34_i(save_xml):
         instance="msData/regex/reM34.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m33_re_m33_i(save_xml):
+def test_re_m33_re_m33_i(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsUnifiedCanadianAboriginalSyllabics}?', value='#x1680;',
@@ -12715,12 +13593,13 @@ def test_re_m33_re_m33_i(save_xml):
         instance="msData/regex/reM33.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m32_re_m32_i(save_xml):
+def test_re_m32_re_m32_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCherokee}?',
     value='#x1400;', type='invalid', RULE='25,36'
@@ -12730,12 +13609,13 @@ def test_re_m32_re_m32_i(save_xml):
         instance="msData/regex/reM32.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m31_re_m31_i(save_xml):
+def test_re_m31_re_m31_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsEthiopic}?',
     value='#x13A0;', type='invalid', RULE='25,36'
@@ -12745,12 +13625,13 @@ def test_re_m31_re_m31_i(save_xml):
         instance="msData/regex/reM31.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m30_re_m30_i(save_xml):
+def test_re_m30_re_m30_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsHangulJamo}?',
     value='#x1200;', type='invalid', RULE='25,36'
@@ -12760,12 +13641,13 @@ def test_re_m30_re_m30_i(save_xml):
         instance="msData/regex/reM30.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m29_re_m29_i(save_xml):
+def test_re_m29_re_m29_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsGeorgian}?',
     value='#x1100;', type='invalid', RULE='25,36'
@@ -12775,12 +13657,13 @@ def test_re_m29_re_m29_i(save_xml):
         instance="msData/regex/reM29.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m28_re_m28_i(save_xml):
+def test_re_m28_re_m28_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsMyanmar}?',
     value='#x10A0;', type='invalid', RULE='25,36'
@@ -12790,12 +13673,13 @@ def test_re_m28_re_m28_i(save_xml):
         instance="msData/regex/reM28.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m27_re_m27_i(save_xml):
+def test_re_m27_re_m27_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsTibetan}?',
     value='#x1000;', type='invalid', RULE='25,36'
@@ -12805,12 +13689,13 @@ def test_re_m27_re_m27_i(save_xml):
         instance="msData/regex/reM27.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m26_re_m26_i(save_xml):
+def test_re_m26_re_m26_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsLao}?', value='#x0F00;',
     type='invalid', RULE='25,36'
@@ -12820,12 +13705,13 @@ def test_re_m26_re_m26_i(save_xml):
         instance="msData/regex/reM26.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m25_re_m25_i(save_xml):
+def test_re_m25_re_m25_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsThai}?', value='#x0E80;',
     type='invalid', RULE='25,36'
@@ -12835,12 +13721,13 @@ def test_re_m25_re_m25_i(save_xml):
         instance="msData/regex/reM25.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m24_re_m24_i(save_xml):
+def test_re_m24_re_m24_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsSinhala}?',
     value='#x0E00;', type='invalid', RULE='25,36'
@@ -12850,12 +13737,13 @@ def test_re_m24_re_m24_i(save_xml):
         instance="msData/regex/reM24.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m23_re_m23_i(save_xml):
+def test_re_m23_re_m23_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsMalayalam}?',
     value='#x0D80;', type='invalid', RULE='25,36'
@@ -12865,12 +13753,13 @@ def test_re_m23_re_m23_i(save_xml):
         instance="msData/regex/reM23.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m22_re_m22_i(save_xml):
+def test_re_m22_re_m22_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsKannada}?',
     value='#x0D00;', type='invalid', RULE='25,36'
@@ -12880,12 +13769,13 @@ def test_re_m22_re_m22_i(save_xml):
         instance="msData/regex/reM22.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m21_re_m21_i(save_xml):
+def test_re_m21_re_m21_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsTelugu}?',
     value='#x0C80;', type='invalid', RULE='25,36'
@@ -12895,12 +13785,13 @@ def test_re_m21_re_m21_i(save_xml):
         instance="msData/regex/reM21.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m20_re_m20_i(save_xml):
+def test_re_m20_re_m20_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsTamil}?', value='#x0C00;',
     type='invalid', RULE='25,36'
@@ -12910,12 +13801,13 @@ def test_re_m20_re_m20_i(save_xml):
         instance="msData/regex/reM20.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m19_re_m19_i(save_xml):
+def test_re_m19_re_m19_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsOriya}?', value='#x0B80;',
     type='invalid', RULE='25,36'
@@ -12925,12 +13817,13 @@ def test_re_m19_re_m19_i(save_xml):
         instance="msData/regex/reM19.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m18_re_m18_i(save_xml):
+def test_re_m18_re_m18_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsGujarati}?',
     value='#x0B00;', type='invalid', RULE='25,36'
@@ -12940,12 +13833,13 @@ def test_re_m18_re_m18_i(save_xml):
         instance="msData/regex/reM18.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m17_re_m17_i(save_xml):
+def test_re_m17_re_m17_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsGurmukhi}?',
     value='#x0A80;', type='invalid', RULE='25,36'
@@ -12955,12 +13849,13 @@ def test_re_m17_re_m17_i(save_xml):
         instance="msData/regex/reM17.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m16_re_m16_i(save_xml):
+def test_re_m16_re_m16_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsBengali}?',
     value='#x0A00;', type='invalid', RULE='25,36'
@@ -12970,12 +13865,13 @@ def test_re_m16_re_m16_i(save_xml):
         instance="msData/regex/reM16.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m15_re_m15_i(save_xml):
+def test_re_m15_re_m15_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsDevanagari}?',
     value='#x0980;', type='invalid', RULE='25,36'
@@ -12985,12 +13881,13 @@ def test_re_m15_re_m15_i(save_xml):
         instance="msData/regex/reM15.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m14_re_m14_i(save_xml):
+def test_re_m14_re_m14_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsThaana}?',
     value='#x0900;', type='invalid', RULE='25,36'
@@ -13000,12 +13897,13 @@ def test_re_m14_re_m14_i(save_xml):
         instance="msData/regex/reM14.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m13_re_m13_i(save_xml):
+def test_re_m13_re_m13_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsSyriac}?',
     value='#x0780;', type='invalid', RULE='25,36'
@@ -13015,12 +13913,13 @@ def test_re_m13_re_m13_i(save_xml):
         instance="msData/regex/reM13.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m12_re_m12_i(save_xml):
+def test_re_m12_re_m12_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsArabic}?',
     value='#x0700;', type='invalid', RULE='25,36'
@@ -13030,12 +13929,13 @@ def test_re_m12_re_m12_i(save_xml):
         instance="msData/regex/reM12.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m11_re_m11_i(save_xml):
+def test_re_m11_re_m11_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsHebrew}?',
     value='#x0600;', type='invalid', RULE='25,36'
@@ -13045,12 +13945,13 @@ def test_re_m11_re_m11_i(save_xml):
         instance="msData/regex/reM11.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m10_re_m10_i(save_xml):
+def test_re_m10_re_m10_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsArmenian}?',
     value='#x0590;', type='invalid', RULE='25,36'
@@ -13060,12 +13961,13 @@ def test_re_m10_re_m10_i(save_xml):
         instance="msData/regex/reM10.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m9_re_m9_i(save_xml):
+def test_re_m9_re_m9_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCyrillic}?',
     value='#x0530;', type='invalid', RULE='25,36'
@@ -13075,12 +13977,13 @@ def test_re_m9_re_m9_i(save_xml):
         instance="msData/regex/reM9.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m6_re_m6_i(save_xml):
+def test_re_m6_re_m6_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsSpacingModifierLetters}?',
     value='#x0300;', type='invalid', RULE='25,36'
@@ -13090,12 +13993,13 @@ def test_re_m6_re_m6_i(save_xml):
         instance="msData/regex/reM6.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m5_re_m5_i(save_xml):
+def test_re_m5_re_m5_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsIPAExtensions}?',
     value='#x02B0;', type='invalid', RULE='25,36'
@@ -13105,12 +14009,13 @@ def test_re_m5_re_m5_i(save_xml):
         instance="msData/regex/reM5.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m4_re_m4_i(save_xml):
+def test_re_m4_re_m4_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsLatinExtended-B}?',
     value='#x0250;', type='invalid', RULE='25,36'
@@ -13120,12 +14025,13 @@ def test_re_m4_re_m4_i(save_xml):
         instance="msData/regex/reM4.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m3_re_m3_i(save_xml):
+def test_re_m3_re_m3_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsLatinExtended-A}?',
     value='#x0180;', type='invalid', RULE='25,36'
@@ -13135,12 +14041,13 @@ def test_re_m3_re_m3_i(save_xml):
         instance="msData/regex/reM3.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m2_re_m2_i(save_xml):
+def test_re_m2_re_m2_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsLatin-1Supplement}?',
     value='#x0100;', type='invalid', RULE='25,36'
@@ -13150,12 +14057,13 @@ def test_re_m2_re_m2_i(save_xml):
         instance="msData/regex/reM2.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_m1_re_m1_i(save_xml):
+def test_re_m1_re_m1_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsBasicLatin}?',
     value='#x0080;', type='invalid', RULE='25,36'
@@ -13165,12 +14073,13 @@ def test_re_m1_re_m1_i(save_xml):
         instance="msData/regex/reM1.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_l99_re_l99_i(save_xml):
+def test_re_l99_re_l99_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsPrivateUse}+',
     value='#x100000;#x10FFFD;', type='valid', RULE='25,36'
@@ -13180,12 +14089,13 @@ def test_re_l99_re_l99_i(save_xml):
         instance="msData/regex/reL99.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_l98_re_l98_i(save_xml):
+def test_re_l98_re_l98_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsPrivateUse}+',
     value='#xF0000;#xFFFFD;', type='valid', RULE='25,36'
@@ -13195,11 +14105,12 @@ def test_re_l98_re_l98_i(save_xml):
         instance="msData/regex/reL98.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l88_re_l88_v(save_xml):
+def test_re_l88_re_l88_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsSpecials}+',
     value='#xFFF0;#xFFFD;', type='valid', RULE='25,36'
@@ -13209,11 +14120,12 @@ def test_re_l88_re_l88_v(save_xml):
         instance="msData/regex/reL88.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l87_re_l87_v(save_xml):
+def test_re_l87_re_l87_v(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsHalfwidthandFullwidthForms}+', value='#xFF00;#xFFEF;',
@@ -13224,11 +14136,12 @@ def test_re_l87_re_l87_v(save_xml):
         instance="msData/regex/reL87.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l85_re_l85_v(save_xml):
+def test_re_l85_re_l85_v(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsArabicPresentationForms-B}+', value='#xFE70;#xFEFE;',
@@ -13239,11 +14152,12 @@ def test_re_l85_re_l85_v(save_xml):
         instance="msData/regex/reL85.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l84_re_l84_v(save_xml):
+def test_re_l84_re_l84_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsSmallFormVariants}+',
     value='#xFE50;#xFE6F;', type='valid', RULE='25,36'
@@ -13253,11 +14167,12 @@ def test_re_l84_re_l84_v(save_xml):
         instance="msData/regex/reL84.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l83_re_l83_v(save_xml):
+def test_re_l83_re_l83_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCJKCompatibilityForms}+',
     value='#xFE30;#xFE4F;', type='valid', RULE='25,36'
@@ -13267,11 +14182,12 @@ def test_re_l83_re_l83_v(save_xml):
         instance="msData/regex/reL83.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l82_re_l82_v(save_xml):
+def test_re_l82_re_l82_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCombiningHalfMarks}+',
     value='#xFE20;#xFE2F;', type='valid', RULE='25,36'
@@ -13281,11 +14197,12 @@ def test_re_l82_re_l82_v(save_xml):
         instance="msData/regex/reL82.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l81_re_l81_v(save_xml):
+def test_re_l81_re_l81_v(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsArabicPresentationForms-A}+', value='#xFB50;#xFDFF;',
@@ -13296,11 +14213,12 @@ def test_re_l81_re_l81_v(save_xml):
         instance="msData/regex/reL81.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l80_re_l80_v(save_xml):
+def test_re_l80_re_l80_v(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsAlphabeticPresentationForms}+', value='#xFB00;#xFB4F;',
@@ -13311,11 +14229,12 @@ def test_re_l80_re_l80_v(save_xml):
         instance="msData/regex/reL80.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l79_re_l79_v(save_xml):
+def test_re_l79_re_l79_v(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsCJKCompatibilityIdeographs}+', value='#xF900;#xFAFF;',
@@ -13326,11 +14245,12 @@ def test_re_l79_re_l79_v(save_xml):
         instance="msData/regex/reL79.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l78_re_l78_v(save_xml):
+def test_re_l78_re_l78_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsPrivateUse}+',
     value='#xE000;#xF8FF;', type='valid', RULE='25,36'
@@ -13340,11 +14260,12 @@ def test_re_l78_re_l78_v(save_xml):
         instance="msData/regex/reL78.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l74_re_l74_v(save_xml):
+def test_re_l74_re_l74_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsHangulSyllables}+',
     value='#xAC00;#xD7A3;', type='valid', RULE='25,36'
@@ -13354,11 +14275,12 @@ def test_re_l74_re_l74_v(save_xml):
         instance="msData/regex/reL74.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l73_re_l73_v(save_xml):
+def test_re_l73_re_l73_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsYiRadicals}+',
     value='#xA490;#xA4CF;', type='valid', RULE='25,36'
@@ -13368,11 +14290,12 @@ def test_re_l73_re_l73_v(save_xml):
         instance="msData/regex/reL73.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l72_re_l72_v(save_xml):
+def test_re_l72_re_l72_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsYiSyllables}+',
     value='#xA000;#xA48F;', type='valid', RULE='25,36'
@@ -13382,11 +14305,12 @@ def test_re_l72_re_l72_v(save_xml):
         instance="msData/regex/reL72.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l71_re_l71_v(save_xml):
+def test_re_l71_re_l71_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCJKUnifiedIdeographs}+',
     value='#x4E00;#x9FFF;', type='valid', RULE='25,36'
@@ -13396,11 +14320,12 @@ def test_re_l71_re_l71_v(save_xml):
         instance="msData/regex/reL71.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l70_re_l70_v(save_xml):
+def test_re_l70_re_l70_v(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsCJKUnifiedIdeographsExtensionA}+',
@@ -13411,11 +14336,12 @@ def test_re_l70_re_l70_v(save_xml):
         instance="msData/regex/reL70.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l69_re_l69_v(save_xml):
+def test_re_l69_re_l69_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCJKCompatibility}+',
     value='#x3300;#x33FF;', type='valid', RULE='25,36'
@@ -13425,11 +14351,12 @@ def test_re_l69_re_l69_v(save_xml):
         instance="msData/regex/reL69.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l68_re_l68_v(save_xml):
+def test_re_l68_re_l68_v(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsEnclosedCJKLettersandMonths}+', value='#x3200;#x32FF;',
@@ -13440,11 +14367,12 @@ def test_re_l68_re_l68_v(save_xml):
         instance="msData/regex/reL68.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l67_re_l67_v(save_xml):
+def test_re_l67_re_l67_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsBopomofoExtended}+',
     value='#x31A0;#x31BF;', type='valid', RULE='25,36'
@@ -13454,11 +14382,12 @@ def test_re_l67_re_l67_v(save_xml):
         instance="msData/regex/reL67.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l66_re_l66_v(save_xml):
+def test_re_l66_re_l66_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsKanbun}+',
     value='#x3190;#x319F;', type='valid', RULE='25,36'
@@ -13468,11 +14397,12 @@ def test_re_l66_re_l66_v(save_xml):
         instance="msData/regex/reL66.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l65_re_l65_v(save_xml):
+def test_re_l65_re_l65_v(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsHangulCompatibilityJamo}+', value='#x3130;#x318F;',
@@ -13483,11 +14413,12 @@ def test_re_l65_re_l65_v(save_xml):
         instance="msData/regex/reL65.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l64_re_l64_v(save_xml):
+def test_re_l64_re_l64_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsBopomofo}+',
     value='#x3100;#x312F;', type='valid', RULE='25,36'
@@ -13497,11 +14428,12 @@ def test_re_l64_re_l64_v(save_xml):
         instance="msData/regex/reL64.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l63_re_l63_v(save_xml):
+def test_re_l63_re_l63_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsKatakana}+',
     value='#x30A0;#x30FF;', type='valid', RULE='25,36'
@@ -13511,11 +14443,12 @@ def test_re_l63_re_l63_v(save_xml):
         instance="msData/regex/reL63.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l62_re_l62_v(save_xml):
+def test_re_l62_re_l62_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsHiragana}+',
     value='#x3040;#x309F;', type='valid', RULE='25,36'
@@ -13525,11 +14458,12 @@ def test_re_l62_re_l62_v(save_xml):
         instance="msData/regex/reL62.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l61_re_l61_v(save_xml):
+def test_re_l61_re_l61_v(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsCJKSymbolsandPunctuation}+', value='#x3000;#x303F;',
@@ -13540,11 +14474,12 @@ def test_re_l61_re_l61_v(save_xml):
         instance="msData/regex/reL61.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l60_re_l60_v(save_xml):
+def test_re_l60_re_l60_v(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsIdeographicDescriptionCharacters}+',
@@ -13555,11 +14490,12 @@ def test_re_l60_re_l60_v(save_xml):
         instance="msData/regex/reL60.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l59_re_l59_v(save_xml):
+def test_re_l59_re_l59_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsKangxiRadicals}+',
     value='#x2F00;#x2FDF;', type='valid', RULE='25,36'
@@ -13569,11 +14505,12 @@ def test_re_l59_re_l59_v(save_xml):
         instance="msData/regex/reL59.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l58_re_l58_v(save_xml):
+def test_re_l58_re_l58_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCJKRadicalsSupplement}+',
     value='#x2E80;#x2EFF;', type='valid', RULE='25,36'
@@ -13583,11 +14520,12 @@ def test_re_l58_re_l58_v(save_xml):
         instance="msData/regex/reL58.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l57_re_l57_v(save_xml):
+def test_re_l57_re_l57_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsBraillePatterns}+',
     value='#x2800;#x28FF;', type='valid', RULE='25,36'
@@ -13597,11 +14535,12 @@ def test_re_l57_re_l57_v(save_xml):
         instance="msData/regex/reL57.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l56_re_l56_v(save_xml):
+def test_re_l56_re_l56_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsDingbats}+',
     value='#x2700;#x27BF;', type='valid', RULE='25,36'
@@ -13611,11 +14550,12 @@ def test_re_l56_re_l56_v(save_xml):
         instance="msData/regex/reL56.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l55_re_l55_v(save_xml):
+def test_re_l55_re_l55_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsMiscellaneousSymbols}+',
     value='#x2600;#x26FF;', type='valid', RULE='25,36'
@@ -13625,11 +14565,12 @@ def test_re_l55_re_l55_v(save_xml):
         instance="msData/regex/reL55.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l54_re_l54_v(save_xml):
+def test_re_l54_re_l54_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsGeometricShapes}+',
     value='#x25A0;#x25FF;', type='valid', RULE='25,36'
@@ -13639,11 +14580,12 @@ def test_re_l54_re_l54_v(save_xml):
         instance="msData/regex/reL54.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l53_re_l53_v(save_xml):
+def test_re_l53_re_l53_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsBlockElements}+',
     value='#x2580;#x259F;', type='valid', RULE='25,36'
@@ -13653,11 +14595,12 @@ def test_re_l53_re_l53_v(save_xml):
         instance="msData/regex/reL53.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l52_re_l52_v(save_xml):
+def test_re_l52_re_l52_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsBoxDrawing}+',
     value='#x2500;#x257F;', type='valid', RULE='25,36'
@@ -13667,11 +14610,12 @@ def test_re_l52_re_l52_v(save_xml):
         instance="msData/regex/reL52.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l51_re_l51_v(save_xml):
+def test_re_l51_re_l51_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsEnclosedAlphanumerics}+',
     value='#x2460;#x24FF;', type='valid', RULE='25,36'
@@ -13681,11 +14625,12 @@ def test_re_l51_re_l51_v(save_xml):
         instance="msData/regex/reL51.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l50_re_l50_v(save_xml):
+def test_re_l50_re_l50_v(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsOpticalCharacterRecognition}+', value='#x2440;#x245F;',
@@ -13696,11 +14641,12 @@ def test_re_l50_re_l50_v(save_xml):
         instance="msData/regex/reL50.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l49_re_l49_v(save_xml):
+def test_re_l49_re_l49_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsControlPictures}+',
     value='#x2400;#x243F;', type='valid', RULE='25,36'
@@ -13710,11 +14656,12 @@ def test_re_l49_re_l49_v(save_xml):
         instance="msData/regex/reL49.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l48_re_l48_v(save_xml):
+def test_re_l48_re_l48_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsMiscellaneousTechnical}+',
     value='#x2300;#x23FF;', type='valid', RULE='25,36'
@@ -13724,11 +14671,12 @@ def test_re_l48_re_l48_v(save_xml):
         instance="msData/regex/reL48.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l47_re_l47_v(save_xml):
+def test_re_l47_re_l47_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsMathematicalOperators}+',
     value='#x2200;#x22FF;', type='valid', RULE='25,36'
@@ -13738,11 +14686,12 @@ def test_re_l47_re_l47_v(save_xml):
         instance="msData/regex/reL47.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l46_re_l46_v(save_xml):
+def test_re_l46_re_l46_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsArrows}+',
     value='#x2190;#x21FF;', type='valid', RULE='25,36'
@@ -13752,11 +14701,12 @@ def test_re_l46_re_l46_v(save_xml):
         instance="msData/regex/reL46.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l45_re_l45_v(save_xml):
+def test_re_l45_re_l45_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsNumberForms}+',
     value='#x2150;#x218F;', type='valid', RULE='25,36'
@@ -13766,11 +14716,12 @@ def test_re_l45_re_l45_v(save_xml):
         instance="msData/regex/reL45.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l44_re_l44_v(save_xml):
+def test_re_l44_re_l44_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsLetterlikeSymbols}+',
     value='#x2100;#x214F;', type='valid', RULE='25,36'
@@ -13780,11 +14731,12 @@ def test_re_l44_re_l44_v(save_xml):
         instance="msData/regex/reL44.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l43_re_l43_v(save_xml):
+def test_re_l43_re_l43_v(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsCombiningMarksforSymbols}+', value='#x20D0;#x20FF;',
@@ -13795,11 +14747,12 @@ def test_re_l43_re_l43_v(save_xml):
         instance="msData/regex/reL43.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l42_re_l42_v(save_xml):
+def test_re_l42_re_l42_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCurrencySymbols}+',
     value='#x20A0;#x20CF;', type='valid', RULE='25,36'
@@ -13809,11 +14762,12 @@ def test_re_l42_re_l42_v(save_xml):
         instance="msData/regex/reL42.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l41_re_l41_v(save_xml):
+def test_re_l41_re_l41_v(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsSuperscriptsandSubscripts}+', value='#x2070;#x209F;',
@@ -13824,11 +14778,12 @@ def test_re_l41_re_l41_v(save_xml):
         instance="msData/regex/reL41.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l40_re_l40_v(save_xml):
+def test_re_l40_re_l40_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsGeneralPunctuation}+',
     value='#x2000;#x206F;', type='valid', RULE='25,36'
@@ -13838,11 +14793,12 @@ def test_re_l40_re_l40_v(save_xml):
         instance="msData/regex/reL40.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l39_re_l39_v(save_xml):
+def test_re_l39_re_l39_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsGreekExtended}+',
     value='#x1F00;#x1FFF;', type='valid', RULE='25,36'
@@ -13852,11 +14808,12 @@ def test_re_l39_re_l39_v(save_xml):
         instance="msData/regex/reL39.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l38_re_l38_v(save_xml):
+def test_re_l38_re_l38_v(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsLatinExtendedAdditional}+', value='#x1E00;#x1EFF;',
@@ -13867,11 +14824,12 @@ def test_re_l38_re_l38_v(save_xml):
         instance="msData/regex/reL38.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l37_re_l37_v(save_xml):
+def test_re_l37_re_l37_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsMongolian}+',
     value='#x1800;#x18AF;', type='valid', RULE='25,36'
@@ -13881,11 +14839,12 @@ def test_re_l37_re_l37_v(save_xml):
         instance="msData/regex/reL37.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l36_re_l36_v(save_xml):
+def test_re_l36_re_l36_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsKhmer}+',
     value='#x1780;#x17FF;', type='valid', RULE='25,36'
@@ -13895,11 +14854,12 @@ def test_re_l36_re_l36_v(save_xml):
         instance="msData/regex/reL36.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l35_re_l35_v(save_xml):
+def test_re_l35_re_l35_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsRunic}+',
     value='#x16A0;#x16FF;', type='valid', RULE='25,36'
@@ -13909,11 +14869,12 @@ def test_re_l35_re_l35_v(save_xml):
         instance="msData/regex/reL35.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l34_re_l34_v(save_xml):
+def test_re_l34_re_l34_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsOgham}+',
     value='#x1680;#x169F;', type='valid', RULE='25,36'
@@ -13923,11 +14884,12 @@ def test_re_l34_re_l34_v(save_xml):
         instance="msData/regex/reL34.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l33_re_l33_v(save_xml):
+def test_re_l33_re_l33_v(json_360, save_output):
     r"""
     TEST :branch : base='string',
     pattern='\p{IsUnifiedCanadianAboriginalSyllabics}+',
@@ -13938,11 +14900,12 @@ def test_re_l33_re_l33_v(save_xml):
         instance="msData/regex/reL33.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l32_re_l32_v(save_xml):
+def test_re_l32_re_l32_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsCherokee}+',
     value='#x13A0;#x13FF;', type='valid', RULE='25,36'
@@ -13952,11 +14915,12 @@ def test_re_l32_re_l32_v(save_xml):
         instance="msData/regex/reL32.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l31_re_l31_v(save_xml):
+def test_re_l31_re_l31_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsEthiopic}+',
     value='#x1200;#x137F;', type='valid', RULE='25,36'
@@ -13966,11 +14930,12 @@ def test_re_l31_re_l31_v(save_xml):
         instance="msData/regex/reL31.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l30_re_l30_v(save_xml):
+def test_re_l30_re_l30_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsHangulJamo}+',
     value='#x1100;#x11FF;', type='valid', RULE='25,36'
@@ -13980,11 +14945,12 @@ def test_re_l30_re_l30_v(save_xml):
         instance="msData/regex/reL30.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l29_re_l29_v(save_xml):
+def test_re_l29_re_l29_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsGeorgian}+',
     value='#x10A0;#x10FF;', type='valid', RULE='25,36'
@@ -13994,11 +14960,12 @@ def test_re_l29_re_l29_v(save_xml):
         instance="msData/regex/reL29.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l28_re_l28_v(save_xml):
+def test_re_l28_re_l28_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsMyanmar}+',
     value='#x1000;#x109F;', type='valid', RULE='25,36'
@@ -14008,11 +14975,12 @@ def test_re_l28_re_l28_v(save_xml):
         instance="msData/regex/reL28.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l27_re_l27_v(save_xml):
+def test_re_l27_re_l27_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsTibetan}+',
     value='#x0F00;#x0FFF;', type='valid', RULE='25,36'
@@ -14022,11 +14990,12 @@ def test_re_l27_re_l27_v(save_xml):
         instance="msData/regex/reL27.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l26_re_l26_v(save_xml):
+def test_re_l26_re_l26_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsLao}+',
     value='#x0E80;#x0EFF;', type='valid', RULE='25,36'
@@ -14036,11 +15005,12 @@ def test_re_l26_re_l26_v(save_xml):
         instance="msData/regex/reL26.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l25_re_l25_v(save_xml):
+def test_re_l25_re_l25_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsThai}+',
     value='#x0E00;#x0E7F;', type='valid', RULE='25,36'
@@ -14050,11 +15020,12 @@ def test_re_l25_re_l25_v(save_xml):
         instance="msData/regex/reL25.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l24_re_l24_v(save_xml):
+def test_re_l24_re_l24_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsSinhala}+',
     value='#x0D80;#x0DFF;', type='valid', RULE='25,36'
@@ -14064,11 +15035,12 @@ def test_re_l24_re_l24_v(save_xml):
         instance="msData/regex/reL24.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l23_re_l23_v(save_xml):
+def test_re_l23_re_l23_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsMalayalam}+',
     value='#x0D00;#x0D7F;', type='valid', RULE='25,36'
@@ -14078,11 +15050,12 @@ def test_re_l23_re_l23_v(save_xml):
         instance="msData/regex/reL23.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l22_re_l22_v(save_xml):
+def test_re_l22_re_l22_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsKannada}+',
     value='#x0C80;#x0CFF;', type='valid', RULE='25,36'
@@ -14092,11 +15065,12 @@ def test_re_l22_re_l22_v(save_xml):
         instance="msData/regex/reL22.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l21_re_l21_v(save_xml):
+def test_re_l21_re_l21_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsTelugu}+',
     value='#x0C00;#x0C7F;', type='valid', RULE='25,36'
@@ -14106,11 +15080,12 @@ def test_re_l21_re_l21_v(save_xml):
         instance="msData/regex/reL21.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l20_re_l20_v(save_xml):
+def test_re_l20_re_l20_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsTamil}+',
     value='#x0B80;#x0BFF;', type='valid', RULE='25,36'
@@ -14120,11 +15095,12 @@ def test_re_l20_re_l20_v(save_xml):
         instance="msData/regex/reL20.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l19_re_l19_v(save_xml):
+def test_re_l19_re_l19_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsOriya}+',
     value='#x0B00;#x0B7F;', type='valid', RULE='25,36'
@@ -14134,11 +15110,12 @@ def test_re_l19_re_l19_v(save_xml):
         instance="msData/regex/reL19.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l18_re_l18_v(save_xml):
+def test_re_l18_re_l18_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsGujarati}+',
     value='#x0A80;#x0AFF;', type='valid', RULE='25,36'
@@ -14148,11 +15125,12 @@ def test_re_l18_re_l18_v(save_xml):
         instance="msData/regex/reL18.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l17_re_l17_v(save_xml):
+def test_re_l17_re_l17_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsGurmukhi}+',
     value='#x0A00;#x0A7F;', type='valid', RULE='25,36'
@@ -14162,11 +15140,12 @@ def test_re_l17_re_l17_v(save_xml):
         instance="msData/regex/reL17.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l16_re_l16_v(save_xml):
+def test_re_l16_re_l16_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsBengali}+',
     value='#x0980;#x09FF;', type='valid', RULE='25,36'
@@ -14176,11 +15155,12 @@ def test_re_l16_re_l16_v(save_xml):
         instance="msData/regex/reL16.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l15_re_l15_v(save_xml):
+def test_re_l15_re_l15_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsDevanagari}+',
     value='#x0900;#x097F;', type='valid', RULE='25,36'
@@ -14190,11 +15170,12 @@ def test_re_l15_re_l15_v(save_xml):
         instance="msData/regex/reL15.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l14_re_l14_v(save_xml):
+def test_re_l14_re_l14_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsThaana}+',
     value='#x0780;#x07BF;', type='valid', RULE='25,36'
@@ -14204,11 +15185,12 @@ def test_re_l14_re_l14_v(save_xml):
         instance="msData/regex/reL14.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l13_re_l13_v(save_xml):
+def test_re_l13_re_l13_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsSyriac}+',
     value='#x0700;#x074F;', type='valid', RULE='25,36'
@@ -14218,11 +15200,12 @@ def test_re_l13_re_l13_v(save_xml):
         instance="msData/regex/reL13.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l12_re_l12_v(save_xml):
+def test_re_l12_re_l12_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsArabic}+',
     value='#x0600;#x06FF;', type='valid', RULE='25,36'
@@ -14232,11 +15215,12 @@ def test_re_l12_re_l12_v(save_xml):
         instance="msData/regex/reL12.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l11_re_l11_v(save_xml):
+def test_re_l11_re_l11_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsHebrew}+',
     value='#x0590;#x05FF;', type='valid', RULE='25,36'
@@ -14246,11 +15230,12 @@ def test_re_l11_re_l11_v(save_xml):
         instance="msData/regex/reL11.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l10_re_l10_v(save_xml):
+def test_re_l10_re_l10_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsArmenian}+',
     value='#x0530;#x058F;', type='valid', RULE='25,36'
@@ -14260,11 +15245,12 @@ def test_re_l10_re_l10_v(save_xml):
         instance="msData/regex/reL10.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l6_re_l6_v(save_xml):
+def test_re_l6_re_l6_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsSpacingModifierLetters}+',
     value='#x02B0;#x02FF;', type='valid', RULE='25,36'
@@ -14274,11 +15260,12 @@ def test_re_l6_re_l6_v(save_xml):
         instance="msData/regex/reL6.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l5_re_l5_v(save_xml):
+def test_re_l5_re_l5_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsIPAExtensions}+',
     value='#x0250;#x02AF;', type='valid', RULE='25,36'
@@ -14288,11 +15275,12 @@ def test_re_l5_re_l5_v(save_xml):
         instance="msData/regex/reL5.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l4_re_l4_v(save_xml):
+def test_re_l4_re_l4_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsLatinExtended-B}+',
     value='#x0180;#x024F;', type='valid', RULE='25,36'
@@ -14302,11 +15290,12 @@ def test_re_l4_re_l4_v(save_xml):
         instance="msData/regex/reL4.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l3_re_l3_v(save_xml):
+def test_re_l3_re_l3_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsLatinExtended-A}+',
     value='#x0100;#x017F;', type='valid', RULE='25,36'
@@ -14316,11 +15305,12 @@ def test_re_l3_re_l3_v(save_xml):
         instance="msData/regex/reL3.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l2_re_l2_v(save_xml):
+def test_re_l2_re_l2_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsLatin-1Supplement}+',
     value='#x0080;#x00FF;', type='valid', RULE='25,36'
@@ -14330,11 +15320,12 @@ def test_re_l2_re_l2_v(save_xml):
         instance="msData/regex/reL2.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_l1_re_l1_v(save_xml):
+def test_re_l1_re_l1_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsBasicLatin}+',
     value='#x9;#xA;#xD;#x20;#x007F;', type='valid', RULE='25,36'
@@ -14344,11 +15335,12 @@ def test_re_l1_re_l1_v(save_xml):
         instance="msData/regex/reL1.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_k88_re_k88_v(save_xml):
+def test_re_k88_re_k88_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\p{IsaA0-a9}', value='',
     type='error', RULE='25,36'
@@ -14358,12 +15350,13 @@ def test_re_k88_re_k88_v(save_xml):
         instance="msData/regex/reK88.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_k85_re_k85_i(save_xml):
+def test_re_k85_re_k85_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\\\p{L}*', value='a',
     type='invalid', RULE='25,26'
@@ -14373,11 +15366,12 @@ def test_re_k85_re_k85_i(save_xml):
         instance="msData/regex/reK85.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_k84_re_k84_v(save_xml):
+def test_re_k84_re_k84_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\\\p{L}*', value='\a',
     type='valid', RULE='25,26'
@@ -14387,11 +15381,12 @@ def test_re_k84_re_k84_v(save_xml):
         instance="msData/regex/reK84.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_k78_re_k78_v(save_xml):
+def test_re_k78_re_k78_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\P{Co}*', value='#x2044;',
     type='valid', RULE='26,35'
@@ -14401,12 +15396,13 @@ def test_re_k78_re_k78_v(save_xml):
         instance="msData/regex/reK78.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_k77_re_k77_i(save_xml):
+def test_re_k77_re_k77_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\P{Co}*',
     value='#xE000;#x100000;#xF0000;#xFFFFD;#x10FFFD;', type='invalid',
@@ -14417,11 +15413,12 @@ def test_re_k77_re_k77_i(save_xml):
         instance="msData/regex/reK77.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_k76_re_k76_v(save_xml):
+def test_re_k76_re_k76_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\P{Cf}*', value='#xE000;',
     type='valid', RULE='26,35'
@@ -14431,12 +15428,13 @@ def test_re_k76_re_k76_v(save_xml):
         instance="msData/regex/reK76.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_re_k75_re_k75_i(save_xml):
+def test_re_k75_re_k75_i(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\P{Cf}*',
     value='#x70F;#xE0078;', type='invalid', RULE='26,35'
@@ -14446,11 +15444,12 @@ def test_re_k75_re_k75_i(save_xml):
         instance="msData/regex/reK75.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_re_k74_re_k74_v(save_xml):
+def test_re_k74_re_k74_v(json_360, save_output):
     r"""
     TEST :branch : base='string', pattern='\P{Cc}*', value='#x070F;',
     type='valid', RULE='26,35'
@@ -14460,5 +15459,6 @@ def test_re_k74_re_k74_v(save_xml):
         instance="msData/regex/reK74.xml",
         class_name="Doc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )

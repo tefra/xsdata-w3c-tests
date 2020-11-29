@@ -3,7 +3,7 @@ import pytest
 from tests.utils import assert_bindings
 
 
-def test_xsd024_xsd024_v00(save_xml):
+def test_xsd024_xsd024_v00(json_360, save_output):
     """
     xsd024 Use of the chameleon schema and "smart reference reparing"
     """
@@ -12,12 +12,13 @@ def test_xsd024_xsd024_v00(save_xml):
         instance="sunData/combined/xsd024/xsd024.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd022_xsd022_n00(save_xml):
+def test_xsd022_xsd022_n00(json_360, save_output):
     """
     xsd022 Various forms of forward reference to the simple type.
     """
@@ -26,11 +27,12 @@ def test_xsd022_xsd022_n00(save_xml):
         instance="sunData/combined/xsd022/xsd022.n00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_xsd022_xsd022_v00(save_xml):
+def test_xsd022_xsd022_v00(json_360, save_output):
     """
     xsd022 Various forms of forward reference to the simple type.
     """
@@ -39,12 +41,13 @@ def test_xsd022_xsd022_v00(save_xml):
         instance="sunData/combined/xsd022/xsd022.v00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd021_xsd021_n00(save_xml):
+def test_xsd021_xsd021_n00(json_360, save_output):
     """
     xsd021 anyOtherAttribute.
     """
@@ -53,12 +56,13 @@ def test_xsd021_xsd021_n00(save_xml):
         instance="sunData/combined/xsd021/xsd021.n00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd021_xsd021_n01(save_xml):
+def test_xsd021_xsd021_n01(json_360, save_output):
     """
     xsd021 anyOtherAttribute.
     """
@@ -67,12 +71,13 @@ def test_xsd021_xsd021_n01(save_xml):
         instance="sunData/combined/xsd021/xsd021.n01.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd021_xsd021_n02(save_xml):
+def test_xsd021_xsd021_n02(json_360, save_output):
     """
     xsd021 anyOtherAttribute.
     """
@@ -81,12 +86,13 @@ def test_xsd021_xsd021_n02(save_xml):
         instance="sunData/combined/xsd021/xsd021.n02.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd021_xsd021_n03(save_xml):
+def test_xsd021_xsd021_n03(json_360, save_output):
     """
     xsd021 anyOtherAttribute.
     """
@@ -95,12 +101,13 @@ def test_xsd021_xsd021_n03(save_xml):
         instance="sunData/combined/xsd021/xsd021.n03.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd021_xsd021_n04(save_xml):
+def test_xsd021_xsd021_n04(json_360, save_output):
     """
     xsd021 anyOtherAttribute.
     """
@@ -109,12 +116,13 @@ def test_xsd021_xsd021_n04(save_xml):
         instance="sunData/combined/xsd021/xsd021.n04.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd021_xsd021_n05(save_xml):
+def test_xsd021_xsd021_n05(json_360, save_output):
     """
     xsd021 anyOtherAttribute.
     """
@@ -123,12 +131,13 @@ def test_xsd021_xsd021_n05(save_xml):
         instance="sunData/combined/xsd021/xsd021.n05.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd021_xsd021_n06(save_xml):
+def test_xsd021_xsd021_n06(json_360, save_output):
     """
     xsd021 anyOtherAttribute.
     """
@@ -137,12 +146,13 @@ def test_xsd021_xsd021_n06(save_xml):
         instance="sunData/combined/xsd021/xsd021.n06.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd021_xsd021_n07(save_xml):
+def test_xsd021_xsd021_n07(json_360, save_output):
     """
     xsd021 anyOtherAttribute.
     """
@@ -151,12 +161,13 @@ def test_xsd021_xsd021_n07(save_xml):
         instance="sunData/combined/xsd021/xsd021.n07.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd021_xsd021_n08(save_xml):
+def test_xsd021_xsd021_n08(json_360, save_output):
     """
     xsd021 anyOtherAttribute.
     """
@@ -165,12 +176,13 @@ def test_xsd021_xsd021_n08(save_xml):
         instance="sunData/combined/xsd021/xsd021.n08.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd021_xsd021_n09(save_xml):
+def test_xsd021_xsd021_n09(json_360, save_output):
     """
     xsd021 anyOtherAttribute.
     """
@@ -179,12 +191,13 @@ def test_xsd021_xsd021_n09(save_xml):
         instance="sunData/combined/xsd021/xsd021.n09.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd021_xsd021_n10(save_xml):
+def test_xsd021_xsd021_n10(json_360, save_output):
     """
     xsd021 anyOtherAttribute.
     """
@@ -193,12 +206,13 @@ def test_xsd021_xsd021_n10(save_xml):
         instance="sunData/combined/xsd021/xsd021.n10.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd021_xsd021_n11(save_xml):
+def test_xsd021_xsd021_n11(json_360, save_output):
     """
     xsd021 anyOtherAttribute.
     """
@@ -207,11 +221,12 @@ def test_xsd021_xsd021_n11(save_xml):
         instance="sunData/combined/xsd021/xsd021.n11.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_xsd021_xsd021_v00(save_xml):
+def test_xsd021_xsd021_v00(json_360, save_output):
     """
     xsd021 anyOtherAttribute.
     """
@@ -220,12 +235,13 @@ def test_xsd021_xsd021_v00(save_xml):
         instance="sunData/combined/xsd021/xsd021.v00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd012_xsd012_n00(save_xml):
+def test_xsd012_xsd012_n00(json_360, save_output):
     """
     xsd012 Mixed content model.
     """
@@ -234,11 +250,12 @@ def test_xsd012_xsd012_n00(save_xml):
         instance="sunData/combined/xsd012/xsd012.n00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_xsd012_xsd012_v00(save_xml):
+def test_xsd012_xsd012_v00(json_360, save_output):
     """
     xsd012 Mixed content model.
     """
@@ -247,12 +264,13 @@ def test_xsd012_xsd012_v00(save_xml):
         instance="sunData/combined/xsd012/xsd012.v00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd011_xsd011_n00(save_xml):
+def test_xsd011_xsd011_n00(json_360, save_output):
     """
     xsd011 Nillable.
     """
@@ -261,12 +279,13 @@ def test_xsd011_xsd011_n00(save_xml):
         instance="sunData/combined/xsd011/xsd011.n00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd011_xsd011_n01(save_xml):
+def test_xsd011_xsd011_n01(json_360, save_output):
     """
     xsd011 Nillable.
     """
@@ -275,12 +294,13 @@ def test_xsd011_xsd011_n01(save_xml):
         instance="sunData/combined/xsd011/xsd011.n01.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd011_xsd011_n02(save_xml):
+def test_xsd011_xsd011_n02(json_360, save_output):
     """
     xsd011 Nillable.
     """
@@ -289,12 +309,13 @@ def test_xsd011_xsd011_n02(save_xml):
         instance="sunData/combined/xsd011/xsd011.n02.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd011_xsd011_n03(save_xml):
+def test_xsd011_xsd011_n03(json_360, save_output):
     """
     xsd011 Nillable.
     """
@@ -303,12 +324,13 @@ def test_xsd011_xsd011_n03(save_xml):
         instance="sunData/combined/xsd011/xsd011.n03.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd011_xsd011_n04(save_xml):
+def test_xsd011_xsd011_n04(json_360, save_output):
     """
     xsd011 Nillable.
     """
@@ -317,11 +339,12 @@ def test_xsd011_xsd011_n04(save_xml):
         instance="sunData/combined/xsd011/xsd011.n04.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_xsd011_xsd011_v00(save_xml):
+def test_xsd011_xsd011_v00(json_360, save_output):
     """
     xsd011 Nillable.
     """
@@ -330,12 +353,13 @@ def test_xsd011_xsd011_v00(save_xml):
         instance="sunData/combined/xsd011/xsd011.v00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd008_xsd008_n00(save_xml):
+def test_xsd008_xsd008_n00(json_360, save_output):
     """
     xsd008 Abstract element and element substitution group.
     """
@@ -344,12 +368,13 @@ def test_xsd008_xsd008_n00(save_xml):
         instance="sunData/combined/xsd008/xsd008.n00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd008_xsd008_n01(save_xml):
+def test_xsd008_xsd008_n01(json_360, save_output):
     """
     xsd008 Abstract element and element substitution group.
     """
@@ -358,12 +383,13 @@ def test_xsd008_xsd008_n01(save_xml):
         instance="sunData/combined/xsd008/xsd008.n01.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd008_xsd008_n02(save_xml):
+def test_xsd008_xsd008_n02(json_360, save_output):
     """
     xsd008 Abstract element and element substitution group.
     """
@@ -372,11 +398,12 @@ def test_xsd008_xsd008_n02(save_xml):
         instance="sunData/combined/xsd008/xsd008.n02.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_xsd008_xsd008_v00(save_xml):
+def test_xsd008_xsd008_v00(json_360, save_output):
     """
     xsd008 Abstract element and element substitution group.
     """
@@ -385,12 +412,13 @@ def test_xsd008_xsd008_v00(save_xml):
         instance="sunData/combined/xsd008/xsd008.v00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd006_xsd006_n00(save_xml):
+def test_xsd006_xsd006_n00(json_360, save_output):
     """
     xsd006 minOccurs/maxOccurs. Various combinations.
     """
@@ -399,12 +427,13 @@ def test_xsd006_xsd006_n00(save_xml):
         instance="sunData/combined/xsd006/xsd006.n00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd006_xsd006_n01(save_xml):
+def test_xsd006_xsd006_n01(json_360, save_output):
     """
     xsd006 minOccurs/maxOccurs. Various combinations.
     """
@@ -413,12 +442,13 @@ def test_xsd006_xsd006_n01(save_xml):
         instance="sunData/combined/xsd006/xsd006.n01.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd006_xsd006_n02(save_xml):
+def test_xsd006_xsd006_n02(json_360, save_output):
     """
     xsd006 minOccurs/maxOccurs. Various combinations.
     """
@@ -427,12 +457,13 @@ def test_xsd006_xsd006_n02(save_xml):
         instance="sunData/combined/xsd006/xsd006.n02.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd006_xsd006_n03(save_xml):
+def test_xsd006_xsd006_n03(json_360, save_output):
     """
     xsd006 minOccurs/maxOccurs. Various combinations.
     """
@@ -441,12 +472,13 @@ def test_xsd006_xsd006_n03(save_xml):
         instance="sunData/combined/xsd006/xsd006.n03.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd006_xsd006_n04(save_xml):
+def test_xsd006_xsd006_n04(json_360, save_output):
     """
     xsd006 minOccurs/maxOccurs. Various combinations.
     """
@@ -455,12 +487,13 @@ def test_xsd006_xsd006_n04(save_xml):
         instance="sunData/combined/xsd006/xsd006.n04.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd006_xsd006_n05(save_xml):
+def test_xsd006_xsd006_n05(json_360, save_output):
     """
     xsd006 minOccurs/maxOccurs. Various combinations.
     """
@@ -469,12 +502,13 @@ def test_xsd006_xsd006_n05(save_xml):
         instance="sunData/combined/xsd006/xsd006.n05.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd006_xsd006_n06(save_xml):
+def test_xsd006_xsd006_n06(json_360, save_output):
     """
     xsd006 minOccurs/maxOccurs. Various combinations.
     """
@@ -483,12 +517,13 @@ def test_xsd006_xsd006_n06(save_xml):
         instance="sunData/combined/xsd006/xsd006.n06.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd006_xsd006_n07(save_xml):
+def test_xsd006_xsd006_n07(json_360, save_output):
     """
     xsd006 minOccurs/maxOccurs. Various combinations.
     """
@@ -497,12 +532,13 @@ def test_xsd006_xsd006_n07(save_xml):
         instance="sunData/combined/xsd006/xsd006.n07.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd006_xsd006_n08(save_xml):
+def test_xsd006_xsd006_n08(json_360, save_output):
     """
     xsd006 minOccurs/maxOccurs. Various combinations.
     """
@@ -511,12 +547,13 @@ def test_xsd006_xsd006_n08(save_xml):
         instance="sunData/combined/xsd006/xsd006.n08.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd006_xsd006_n09(save_xml):
+def test_xsd006_xsd006_n09(json_360, save_output):
     """
     xsd006 minOccurs/maxOccurs. Various combinations.
     """
@@ -525,12 +562,13 @@ def test_xsd006_xsd006_n09(save_xml):
         instance="sunData/combined/xsd006/xsd006.n09.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd006_xsd006_n10(save_xml):
+def test_xsd006_xsd006_n10(json_360, save_output):
     """
     xsd006 minOccurs/maxOccurs. Various combinations.
     """
@@ -539,12 +577,13 @@ def test_xsd006_xsd006_n10(save_xml):
         instance="sunData/combined/xsd006/xsd006.n10.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd006_xsd006_n11(save_xml):
+def test_xsd006_xsd006_n11(json_360, save_output):
     """
     xsd006 minOccurs/maxOccurs. Various combinations.
     """
@@ -553,11 +592,12 @@ def test_xsd006_xsd006_n11(save_xml):
         instance="sunData/combined/xsd006/xsd006.n11.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_xsd006_xsd006_v00(save_xml):
+def test_xsd006_xsd006_v00(json_360, save_output):
     """
     xsd006 minOccurs/maxOccurs. Various combinations.
     """
@@ -566,12 +606,13 @@ def test_xsd006_xsd006_v00(save_xml):
         instance="sunData/combined/xsd006/xsd006.v00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd005_xsd005_n00(save_xml):
+def test_xsd005_xsd005_n00(json_360, save_output):
     """
     xsd005 Complex type derivation. Missing content model.
     """
@@ -580,12 +621,13 @@ def test_xsd005_xsd005_n00(save_xml):
         instance="sunData/combined/xsd005/xsd005.n00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd005_xsd005_n01(save_xml):
+def test_xsd005_xsd005_n01(json_360, save_output):
     """
     xsd005 Complex type derivation. Missing content model.
     """
@@ -594,12 +636,13 @@ def test_xsd005_xsd005_n01(save_xml):
         instance="sunData/combined/xsd005/xsd005.n01.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd005_xsd005_n02(save_xml):
+def test_xsd005_xsd005_n02(json_360, save_output):
     """
     xsd005 Complex type derivation. Missing content model.
     """
@@ -608,12 +651,13 @@ def test_xsd005_xsd005_n02(save_xml):
         instance="sunData/combined/xsd005/xsd005.n02.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd005_xsd005_n03(save_xml):
+def test_xsd005_xsd005_n03(json_360, save_output):
     """
     xsd005 Complex type derivation. Missing content model.
     """
@@ -622,12 +666,13 @@ def test_xsd005_xsd005_n03(save_xml):
         instance="sunData/combined/xsd005/xsd005.n03.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd005_xsd005_n04(save_xml):
+def test_xsd005_xsd005_n04(json_360, save_output):
     """
     xsd005 Complex type derivation. Missing content model.
     """
@@ -636,12 +681,13 @@ def test_xsd005_xsd005_n04(save_xml):
         instance="sunData/combined/xsd005/xsd005.n04.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd005_xsd005_n05(save_xml):
+def test_xsd005_xsd005_n05(json_360, save_output):
     """
     xsd005 Complex type derivation. Missing content model.
     """
@@ -650,12 +696,13 @@ def test_xsd005_xsd005_n05(save_xml):
         instance="sunData/combined/xsd005/xsd005.n05.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd005_xsd005_n06(save_xml):
+def test_xsd005_xsd005_n06(json_360, save_output):
     """
     xsd005 Complex type derivation. Missing content model.
     """
@@ -664,11 +711,12 @@ def test_xsd005_xsd005_n06(save_xml):
         instance="sunData/combined/xsd005/xsd005.n06.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_xsd005_xsd005_v00(save_xml):
+def test_xsd005_xsd005_v00(json_360, save_output):
     """
     xsd005 Complex type derivation. Missing content model.
     """
@@ -677,12 +725,13 @@ def test_xsd005_xsd005_v00(save_xml):
         instance="sunData/combined/xsd005/xsd005.v00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd004_xsd004_n00(save_xml):
+def test_xsd004_xsd004_n00(json_360, save_output):
     """
     xsd004 Use of three different type of any element with different
     @namespace.
@@ -692,12 +741,13 @@ def test_xsd004_xsd004_n00(save_xml):
         instance="sunData/combined/xsd004/xsd004.n00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd004_xsd004_n01(save_xml):
+def test_xsd004_xsd004_n01(json_360, save_output):
     """
     xsd004 Use of three different type of any element with different
     @namespace.
@@ -707,12 +757,13 @@ def test_xsd004_xsd004_n01(save_xml):
         instance="sunData/combined/xsd004/xsd004.n01.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd004_xsd004_n02(save_xml):
+def test_xsd004_xsd004_n02(json_360, save_output):
     """
     xsd004 Use of three different type of any element with different
     @namespace.
@@ -722,12 +773,13 @@ def test_xsd004_xsd004_n02(save_xml):
         instance="sunData/combined/xsd004/xsd004.n02.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd004_xsd004_n03(save_xml):
+def test_xsd004_xsd004_n03(json_360, save_output):
     """
     xsd004 Use of three different type of any element with different
     @namespace.
@@ -737,12 +789,13 @@ def test_xsd004_xsd004_n03(save_xml):
         instance="sunData/combined/xsd004/xsd004.n03.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd004_xsd004_n04(save_xml):
+def test_xsd004_xsd004_n04(json_360, save_output):
     """
     xsd004 Use of three different type of any element with different
     @namespace.
@@ -752,12 +805,13 @@ def test_xsd004_xsd004_n04(save_xml):
         instance="sunData/combined/xsd004/xsd004.n04.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd004_xsd004_n05(save_xml):
+def test_xsd004_xsd004_n05(json_360, save_output):
     """
     xsd004 Use of three different type of any element with different
     @namespace.
@@ -767,12 +821,13 @@ def test_xsd004_xsd004_n05(save_xml):
         instance="sunData/combined/xsd004/xsd004.n05.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd004_xsd004_n06(save_xml):
+def test_xsd004_xsd004_n06(json_360, save_output):
     """
     xsd004 Use of three different type of any element with different
     @namespace.
@@ -782,12 +837,13 @@ def test_xsd004_xsd004_n06(save_xml):
         instance="sunData/combined/xsd004/xsd004.n06.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd004_xsd004_n07(save_xml):
+def test_xsd004_xsd004_n07(json_360, save_output):
     """
     xsd004 Use of three different type of any element with different
     @namespace.
@@ -797,12 +853,13 @@ def test_xsd004_xsd004_n07(save_xml):
         instance="sunData/combined/xsd004/xsd004.n07.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd004_xsd004_n08(save_xml):
+def test_xsd004_xsd004_n08(json_360, save_output):
     """
     xsd004 Use of three different type of any element with different
     @namespace.
@@ -812,12 +869,13 @@ def test_xsd004_xsd004_n08(save_xml):
         instance="sunData/combined/xsd004/xsd004.n08.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd004_xsd004_n09(save_xml):
+def test_xsd004_xsd004_n09(json_360, save_output):
     """
     xsd004 Use of three different type of any element with different
     @namespace.
@@ -827,12 +885,13 @@ def test_xsd004_xsd004_n09(save_xml):
         instance="sunData/combined/xsd004/xsd004.n09.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd004_xsd004_n10(save_xml):
+def test_xsd004_xsd004_n10(json_360, save_output):
     """
     xsd004 Use of three different type of any element with different
     @namespace.
@@ -842,12 +901,13 @@ def test_xsd004_xsd004_n10(save_xml):
         instance="sunData/combined/xsd004/xsd004.n10.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd004_xsd004_n11(save_xml):
+def test_xsd004_xsd004_n11(json_360, save_output):
     """
     xsd004 Use of three different type of any element with different
     @namespace.
@@ -857,12 +917,13 @@ def test_xsd004_xsd004_n11(save_xml):
         instance="sunData/combined/xsd004/xsd004.n11.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd004_xsd004_n12(save_xml):
+def test_xsd004_xsd004_n12(json_360, save_output):
     """
     xsd004 Use of three different type of any element with different
     @namespace.
@@ -872,11 +933,12 @@ def test_xsd004_xsd004_n12(save_xml):
         instance="sunData/combined/xsd004/xsd004.n12.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_xsd004_xsd004_v00(save_xml):
+def test_xsd004_xsd004_v00(json_360, save_output):
     """
     xsd004 Use of three different type of any element with different
     @namespace.
@@ -886,12 +948,13 @@ def test_xsd004_xsd004_v00(save_xml):
         instance="sunData/combined/xsd004/xsd004.v00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd003b_xsd003b_n00(save_xml):
+def test_xsd003b_xsd003b_n00(json_360, save_output):
     """
     xsd003b Element redefinition. Test with redefinition with self-
     reference. @add in xsd003b.n00.xml must be number.
@@ -902,12 +965,13 @@ def test_xsd003b_xsd003b_n00(save_xml):
         class_name="Root",
         version="1.1",
         ns_struct=True,
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd003b_xsd003b_n01(save_xml):
+def test_xsd003b_xsd003b_n01(json_360, save_output):
     """
     xsd003b Element redefinition. Test with redefinition with self-
     reference. @add in xsd003b.n00.xml must be number.
@@ -918,11 +982,12 @@ def test_xsd003b_xsd003b_n01(save_xml):
         class_name="Root",
         version="1.1",
         ns_struct=True,
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_xsd003b_xsd003b_v00(save_xml):
+def test_xsd003b_xsd003b_v00(json_360, save_output):
     """
     xsd003b Element redefinition. Test with redefinition with self-
     reference. @add in xsd003b.n00.xml must be number.
@@ -933,11 +998,12 @@ def test_xsd003b_xsd003b_v00(save_xml):
         class_name="Root",
         version="1.1",
         ns_struct=True,
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_xsd003b_xsd003b_v01(save_xml):
+def test_xsd003b_xsd003b_v01(json_360, save_output):
     """
     xsd003b Element redefinition. Test with redefinition with self-
     reference. @add in xsd003b.n00.xml must be number.
@@ -948,11 +1014,12 @@ def test_xsd003b_xsd003b_v01(save_xml):
         class_name="Root",
         version="1.1",
         ns_struct=True,
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_xsd003a_xsd003a_v00(save_xml):
+def test_xsd003a_xsd003a_v00(json_360, save_output):
     """
     xsd003a Element redefinition. Test without redefinition.
     """
@@ -961,12 +1028,13 @@ def test_xsd003a_xsd003a_v00(save_xml):
         instance="sunData/combined/xsd003a/xsd003a.v00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd002_xsd002_n00(save_xml):
+def test_xsd002_xsd002_n00(json_360, save_output):
     """
     xsd002 - use of elementFormDefault="unqualified". - use of
     elementFormDefault and form attribute. - implicit use of "ur-type" as
@@ -977,12 +1045,13 @@ def test_xsd002_xsd002_n00(save_xml):
         instance="sunData/combined/xsd002/xsd002.n00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd002_xsd002_n01(save_xml):
+def test_xsd002_xsd002_n01(json_360, save_output):
     """
     xsd002 - use of elementFormDefault="unqualified". - use of
     elementFormDefault and form attribute. - implicit use of "ur-type" as
@@ -993,12 +1062,13 @@ def test_xsd002_xsd002_n01(save_xml):
         instance="sunData/combined/xsd002/xsd002.n01.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd002_xsd002_n02(save_xml):
+def test_xsd002_xsd002_n02(json_360, save_output):
     """
     xsd002 - use of elementFormDefault="unqualified". - use of
     elementFormDefault and form attribute. - implicit use of "ur-type" as
@@ -1009,11 +1079,12 @@ def test_xsd002_xsd002_n02(save_xml):
         instance="sunData/combined/xsd002/xsd002.n02.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_xsd002_xsd002_v00(save_xml):
+def test_xsd002_xsd002_v00(json_360, save_output):
     """
     xsd002 - use of elementFormDefault="unqualified". - use of
     elementFormDefault and form attribute. - implicit use of "ur-type" as
@@ -1024,11 +1095,12 @@ def test_xsd002_xsd002_v00(save_xml):
         instance="sunData/combined/xsd002/xsd002.v00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_xsd002_xsd002_v01(save_xml):
+def test_xsd002_xsd002_v01(json_360, save_output):
     """
     xsd002 - use of elementFormDefault="unqualified". - use of
     elementFormDefault and form attribute. - implicit use of "ur-type" as
@@ -1039,12 +1111,13 @@ def test_xsd002_xsd002_v01(save_xml):
         instance="sunData/combined/xsd002/xsd002.v01.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd001_xsd001_n00(save_xml):
+def test_xsd001_xsd001_n00(json_360, save_output):
     """
     xsd001 - use of elementFormDefault="unqualified" - unusual
     minOccurs/maxOccurs (3 and 7 respectively) - complexType with
@@ -1055,12 +1128,13 @@ def test_xsd001_xsd001_n00(save_xml):
         instance="sunData/combined/xsd001/xsd001.n00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd001_xsd001_n01(save_xml):
+def test_xsd001_xsd001_n01(json_360, save_output):
     """
     xsd001 - use of elementFormDefault="unqualified" - unusual
     minOccurs/maxOccurs (3 and 7 respectively) - complexType with
@@ -1071,12 +1145,13 @@ def test_xsd001_xsd001_n01(save_xml):
         instance="sunData/combined/xsd001/xsd001.n01.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd001_xsd001_n02(save_xml):
+def test_xsd001_xsd001_n02(json_360, save_output):
     """
     xsd001 - use of elementFormDefault="unqualified" - unusual
     minOccurs/maxOccurs (3 and 7 respectively) - complexType with
@@ -1087,12 +1162,13 @@ def test_xsd001_xsd001_n02(save_xml):
         instance="sunData/combined/xsd001/xsd001.n02.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd001_xsd001_n03(save_xml):
+def test_xsd001_xsd001_n03(json_360, save_output):
     """
     xsd001 - use of elementFormDefault="unqualified" - unusual
     minOccurs/maxOccurs (3 and 7 respectively) - complexType with
@@ -1103,12 +1179,13 @@ def test_xsd001_xsd001_n03(save_xml):
         instance="sunData/combined/xsd001/xsd001.n03.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd001_xsd001_n04(save_xml):
+def test_xsd001_xsd001_n04(json_360, save_output):
     """
     xsd001 - use of elementFormDefault="unqualified" - unusual
     minOccurs/maxOccurs (3 and 7 respectively) - complexType with
@@ -1119,12 +1196,13 @@ def test_xsd001_xsd001_n04(save_xml):
         instance="sunData/combined/xsd001/xsd001.n04.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd001_xsd001_n05(save_xml):
+def test_xsd001_xsd001_n05(json_360, save_output):
     """
     xsd001 - use of elementFormDefault="unqualified" - unusual
     minOccurs/maxOccurs (3 and 7 respectively) - complexType with
@@ -1135,12 +1213,13 @@ def test_xsd001_xsd001_n05(save_xml):
         instance="sunData/combined/xsd001/xsd001.n05.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd001_xsd001_n06(save_xml):
+def test_xsd001_xsd001_n06(json_360, save_output):
     """
     xsd001 - use of elementFormDefault="unqualified" - unusual
     minOccurs/maxOccurs (3 and 7 respectively) - complexType with
@@ -1151,12 +1230,13 @@ def test_xsd001_xsd001_n06(save_xml):
         instance="sunData/combined/xsd001/xsd001.n06.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_xsd001_xsd001_n07(save_xml):
+def test_xsd001_xsd001_n07(json_360, save_output):
     """
     xsd001 - use of elementFormDefault="unqualified" - unusual
     minOccurs/maxOccurs (3 and 7 respectively) - complexType with
@@ -1167,11 +1247,12 @@ def test_xsd001_xsd001_n07(save_xml):
         instance="sunData/combined/xsd001/xsd001.n07.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_xsd001_xsd001_v00(save_xml):
+def test_xsd001_xsd001_v00(json_360, save_output):
     """
     xsd001 - use of elementFormDefault="unqualified" - unusual
     minOccurs/maxOccurs (3 and 7 respectively) - complexType with
@@ -1182,11 +1263,12 @@ def test_xsd001_xsd001_v00(save_xml):
         instance="sunData/combined/xsd001/xsd001.v00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_xsd001_xsd001_v01(save_xml):
+def test_xsd001_xsd001_v01(json_360, save_output):
     """
     xsd001 - use of elementFormDefault="unqualified" - unusual
     minOccurs/maxOccurs (3 and 7 respectively) - complexType with
@@ -1197,11 +1279,12 @@ def test_xsd001_xsd001_v01(save_xml):
         instance="sunData/combined/xsd001/xsd001.v01.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_xsd001_xsd001_v02(save_xml):
+def test_xsd001_xsd001_v02(json_360, save_output):
     """
     xsd001 - use of elementFormDefault="unqualified" - unusual
     minOccurs/maxOccurs (3 and 7 respectively) - complexType with
@@ -1212,11 +1295,12 @@ def test_xsd001_xsd001_v02(save_xml):
         instance="sunData/combined/xsd001/xsd001.v02.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_xsd001_xsd001_v03(save_xml):
+def test_xsd001_xsd001_v03(json_360, save_output):
     """
     xsd001 - use of elementFormDefault="unqualified" - unusual
     minOccurs/maxOccurs (3 and 7 respectively) - complexType with
@@ -1227,12 +1311,13 @@ def test_xsd001_xsd001_v03(save_xml):
         instance="sunData/combined/xsd001/xsd001.v03.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idc006_nogen_idc006_nogen_n00(save_xml):
+def test_idc006_nogen_idc006_nogen_n00(json_360, save_output):
     """
     idc006.nogen ID Constaints. XPath engine test: ".//a/*/b" and use of
     "." for both selector and field.
@@ -1242,12 +1327,13 @@ def test_idc006_nogen_idc006_nogen_n00(save_xml):
         instance="sunData/combined/identity/idc006/idc006.nogen.n00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idc006_nogen_idc006_nogen_n01(save_xml):
+def test_idc006_nogen_idc006_nogen_n01(json_360, save_output):
     """
     idc006.nogen ID Constaints. XPath engine test: ".//a/*/b" and use of
     "." for both selector and field.
@@ -1257,11 +1343,12 @@ def test_idc006_nogen_idc006_nogen_n01(save_xml):
         instance="sunData/combined/identity/idc006/idc006.nogen.n01.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_idc006_nogen_idc006_nogen_v00(save_xml):
+def test_idc006_nogen_idc006_nogen_v00(json_360, save_output):
     """
     idc006.nogen ID Constaints. XPath engine test: ".//a/*/b" and use of
     "." for both selector and field.
@@ -1271,12 +1358,13 @@ def test_idc006_nogen_idc006_nogen_v00(save_xml):
         instance="sunData/combined/identity/idc006/idc006.nogen.v00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idc005_nogen_idc005_nogen_n00(save_xml):
+def test_idc005_nogen_idc005_nogen_n00(json_360, save_output):
     """
     idc005.nogen ID Constraints. very naive test of identity constraint.
     """
@@ -1285,12 +1373,13 @@ def test_idc005_nogen_idc005_nogen_n00(save_xml):
         instance="sunData/combined/identity/idc005/idc005.nogen.n00.xml",
         class_name="BookCatalogue",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idc005_nogen_idc005_nogen_n01(save_xml):
+def test_idc005_nogen_idc005_nogen_n01(json_360, save_output):
     """
     idc005.nogen ID Constraints. very naive test of identity constraint.
     """
@@ -1299,11 +1388,12 @@ def test_idc005_nogen_idc005_nogen_n01(save_xml):
         instance="sunData/combined/identity/idc005/idc005.nogen.n01.xml",
         class_name="BookCatalogue",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_idc005_nogen_idc005_nogen_v00(save_xml):
+def test_idc005_nogen_idc005_nogen_v00(json_360, save_output):
     """
     idc005.nogen ID Constraints. very naive test of identity constraint.
     """
@@ -1312,12 +1402,13 @@ def test_idc005_nogen_idc005_nogen_v00(save_xml):
         instance="sunData/combined/identity/idc005/idc005.nogen.v00.xml",
         class_name="BookCatalogue",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idc004_nogen_idc004_nogen_n00(save_xml):
+def test_idc004_nogen_idc004_nogen_n00(json_360, save_output):
     """
     idc004.nogen ID Constraints.
     """
@@ -1326,12 +1417,13 @@ def test_idc004_nogen_idc004_nogen_n00(save_xml):
         instance="sunData/combined/identity/idc004/idc004.nogen.n00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idc004_nogen_idc004_nogen_n01(save_xml):
+def test_idc004_nogen_idc004_nogen_n01(json_360, save_output):
     """
     idc004.nogen ID Constraints.
     """
@@ -1340,12 +1432,13 @@ def test_idc004_nogen_idc004_nogen_n01(save_xml):
         instance="sunData/combined/identity/idc004/idc004.nogen.n01.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idc004_nogen_idc004_nogen_n02(save_xml):
+def test_idc004_nogen_idc004_nogen_n02(json_360, save_output):
     """
     idc004.nogen ID Constraints.
     """
@@ -1354,12 +1447,13 @@ def test_idc004_nogen_idc004_nogen_n02(save_xml):
         instance="sunData/combined/identity/idc004/idc004.nogen.n02.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idc004_nogen_idc004_nogen_n03(save_xml):
+def test_idc004_nogen_idc004_nogen_n03(json_360, save_output):
     """
     idc004.nogen ID Constraints.
     """
@@ -1368,11 +1462,12 @@ def test_idc004_nogen_idc004_nogen_n03(save_xml):
         instance="sunData/combined/identity/idc004/idc004.nogen.n03.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_idc004_nogen_idc004_nogen_v00(save_xml):
+def test_idc004_nogen_idc004_nogen_v00(json_360, save_output):
     """
     idc004.nogen ID Constraints.
     """
@@ -1381,12 +1476,13 @@ def test_idc004_nogen_idc004_nogen_v00(save_xml):
         instance="sunData/combined/identity/idc004/idc004.nogen.v00.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idc001_nogen_idc001_nogen_n00(save_xml):
+def test_idc001_nogen_idc001_nogen_n00(json_360, save_output):
     """
     idc001.nogen ID Constraints.
     """
@@ -1395,11 +1491,12 @@ def test_idc001_nogen_idc001_nogen_n00(save_xml):
         instance="sunData/combined/identity/idc001/idc001.nogen.n00.xml",
         class_name="BookCatalogue",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_idc001_nogen_idc001_nogen_v00(save_xml):
+def test_idc001_nogen_idc001_nogen_v00(json_360, save_output):
     """
     idc001.nogen ID Constraints.
     """
@@ -1408,11 +1505,12 @@ def test_idc001_nogen_idc001_nogen_v00(save_xml):
         instance="sunData/combined/identity/idc001/idc001.nogen.v00.xml",
         class_name="BookCatalogue",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_idc001_nogen_idc001_nogen_v01(save_xml):
+def test_idc001_nogen_idc001_nogen_v01(json_360, save_output):
     """
     idc001.nogen ID Constraints.
     """
@@ -1421,11 +1519,12 @@ def test_idc001_nogen_idc001_nogen_v01(save_xml):
         instance="sunData/combined/identity/idc001/idc001.nogen.v01.xml",
         class_name="BookCatalogue",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_identitytestsuitetest004_test_1_v(save_xml):
+def test_identitytestsuitetest004_test_1_v(json_360, save_output):
     """
     test
     """
@@ -1434,12 +1533,13 @@ def test_identitytestsuitetest004_test_1_v(save_xml):
         instance="sunData/combined/identity/IdentityTestSuite/004/test.1.v.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_identitytestsuitetest004_test_2_n(save_xml):
+def test_identitytestsuitetest004_test_2_n(json_360, save_output):
     """
     test
     """
@@ -1448,12 +1548,13 @@ def test_identitytestsuitetest004_test_2_n(save_xml):
         instance="sunData/combined/identity/IdentityTestSuite/004/test.2.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_identitytestsuitetest004_test_3_n(save_xml):
+def test_identitytestsuitetest004_test_3_n(json_360, save_output):
     """
     test
     """
@@ -1462,11 +1563,12 @@ def test_identitytestsuitetest004_test_3_n(save_xml):
         instance="sunData/combined/identity/IdentityTestSuite/004/test.3.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_identitytestsuitetest003_test_1_v(save_xml):
+def test_identitytestsuitetest003_test_1_v(json_360, save_output):
     """
     test
     """
@@ -1475,11 +1577,12 @@ def test_identitytestsuitetest003_test_1_v(save_xml):
         instance="sunData/combined/identity/IdentityTestSuite/003/test.1.v.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_identitytestsuitetest003_test_2_v(save_xml):
+def test_identitytestsuitetest003_test_2_v(json_360, save_output):
     """
     test
     """
@@ -1488,12 +1591,13 @@ def test_identitytestsuitetest003_test_2_v(save_xml):
         instance="sunData/combined/identity/IdentityTestSuite/003/test.2.v.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_identitytestsuitetest003_test_3_n(save_xml):
+def test_identitytestsuitetest003_test_3_n(json_360, save_output):
     """
     test
     """
@@ -1502,11 +1606,12 @@ def test_identitytestsuitetest003_test_3_n(save_xml):
         instance="sunData/combined/identity/IdentityTestSuite/003/test.3.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_identitytestsuitetest002_test_1_v(save_xml):
+def test_identitytestsuitetest002_test_1_v(json_360, save_output):
     """
     test
     """
@@ -1515,11 +1620,12 @@ def test_identitytestsuitetest002_test_1_v(save_xml):
         instance="sunData/combined/identity/IdentityTestSuite/002/test.1.v.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_identitytestsuitetest002_test_2_v(save_xml):
+def test_identitytestsuitetest002_test_2_v(json_360, save_output):
     """
     test
     """
@@ -1528,12 +1634,13 @@ def test_identitytestsuitetest002_test_2_v(save_xml):
         instance="sunData/combined/identity/IdentityTestSuite/002/test.2.v.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_identitytestsuitetest002_test_3_n(save_xml):
+def test_identitytestsuitetest002_test_3_n(json_360, save_output):
     """
     test
     """
@@ -1542,11 +1649,12 @@ def test_identitytestsuitetest002_test_3_n(save_xml):
         instance="sunData/combined/identity/IdentityTestSuite/002/test.3.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_identitytestsuitetest001_test_1_v(save_xml):
+def test_identitytestsuitetest001_test_1_v(json_360, save_output):
     """
     test
     """
@@ -1555,12 +1663,13 @@ def test_identitytestsuitetest001_test_1_v(save_xml):
         instance="sunData/combined/identity/IdentityTestSuite/001/test.1.v.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_identitytestsuitetest001_test_2_n(save_xml):
+def test_identitytestsuitetest001_test_2_n(json_360, save_output):
     """
     test
     """
@@ -1569,12 +1678,13 @@ def test_identitytestsuitetest001_test_2_n(save_xml):
         instance="sunData/combined/identity/IdentityTestSuite/001/test.2.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test009_test_13_n(save_xml):
+def test_test009_test_13_n(json_360, save_output):
     """
     test
     """
@@ -1583,12 +1693,13 @@ def test_test009_test_13_n(save_xml):
         instance="sunData/combined/009/test.13.n.xml",
         class_name="Prohibit",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test009_test_8_n(save_xml):
+def test_test009_test_8_n(json_360, save_output):
     """
     test
     """
@@ -1597,11 +1708,12 @@ def test_test009_test_8_n(save_xml):
         instance="sunData/combined/009/test.8.n.xml",
         class_name="Override",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test009_test_1_v(save_xml):
+def test_test009_test_1_v(json_360, save_output):
     """
     test
     """
@@ -1610,11 +1722,12 @@ def test_test009_test_1_v(save_xml):
         instance="sunData/combined/009/test.1.v.xml",
         class_name="Base",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test009_test_10_v(save_xml):
+def test_test009_test_10_v(json_360, save_output):
     """
     test
     """
@@ -1623,11 +1736,12 @@ def test_test009_test_10_v(save_xml):
         instance="sunData/combined/009/test.10.v.xml",
         class_name="Add",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test009_test_11_v(save_xml):
+def test_test009_test_11_v(json_360, save_output):
     """
     test
     """
@@ -1636,11 +1750,12 @@ def test_test009_test_11_v(save_xml):
         instance="sunData/combined/009/test.11.v.xml",
         class_name="Prohibit",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test009_test_12_v(save_xml):
+def test_test009_test_12_v(json_360, save_output):
     """
     test
     """
@@ -1649,11 +1764,12 @@ def test_test009_test_12_v(save_xml):
         instance="sunData/combined/009/test.12.v.xml",
         class_name="Prohibit",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test009_test_2_v(save_xml):
+def test_test009_test_2_v(json_360, save_output):
     """
     test
     """
@@ -1662,11 +1778,12 @@ def test_test009_test_2_v(save_xml):
         instance="sunData/combined/009/test.2.v.xml",
         class_name="Base",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test009_test_3_v(save_xml):
+def test_test009_test_3_v(json_360, save_output):
     """
     test
     """
@@ -1675,11 +1792,12 @@ def test_test009_test_3_v(save_xml):
         instance="sunData/combined/009/test.3.v.xml",
         class_name="Default",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test009_test_4_v(save_xml):
+def test_test009_test_4_v(json_360, save_output):
     """
     test
     """
@@ -1688,11 +1806,12 @@ def test_test009_test_4_v(save_xml):
         instance="sunData/combined/009/test.4.v.xml",
         class_name="Default",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test009_test_5_v(save_xml):
+def test_test009_test_5_v(json_360, save_output):
     """
     test
     """
@@ -1701,11 +1820,12 @@ def test_test009_test_5_v(save_xml):
         instance="sunData/combined/009/test.5.v.xml",
         class_name="Override",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test009_test_6_v(save_xml):
+def test_test009_test_6_v(json_360, save_output):
     """
     test
     """
@@ -1714,11 +1834,12 @@ def test_test009_test_6_v(save_xml):
         instance="sunData/combined/009/test.6.v.xml",
         class_name="Override",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test009_test_7_v(save_xml):
+def test_test009_test_7_v(json_360, save_output):
     """
     test
     """
@@ -1727,11 +1848,12 @@ def test_test009_test_7_v(save_xml):
         instance="sunData/combined/009/test.7.v.xml",
         class_name="Override",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test009_test_9_v(save_xml):
+def test_test009_test_9_v(json_360, save_output):
     """
     test
     """
@@ -1740,12 +1862,13 @@ def test_test009_test_9_v(save_xml):
         instance="sunData/combined/009/test.9.v.xml",
         class_name="Add",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test008_test_1_n(save_xml):
+def test_test008_test_1_n(json_360, save_output):
     """
     test
     """
@@ -1754,12 +1877,13 @@ def test_test008_test_1_n(save_xml):
         instance="sunData/combined/008/test.1.n.xml",
         class_name="Extension",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test008_test_10_n(save_xml):
+def test_test008_test_10_n(json_360, save_output):
     """
     test
     """
@@ -1768,12 +1892,13 @@ def test_test008_test_10_n(save_xml):
         instance="sunData/combined/008/test.10.n.xml",
         class_name="Alias",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test008_test_11_n(save_xml):
+def test_test008_test_11_n(json_360, save_output):
     """
     test
     """
@@ -1782,12 +1907,13 @@ def test_test008_test_11_n(save_xml):
         instance="sunData/combined/008/test.11.n.xml",
         class_name="Alias",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test008_test_12_n(save_xml):
+def test_test008_test_12_n(json_360, save_output):
     """
     test
     """
@@ -1796,12 +1922,13 @@ def test_test008_test_12_n(save_xml):
         instance="sunData/combined/008/test.12.n.xml",
         class_name="Alias",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test008_test_5_n(save_xml):
+def test_test008_test_5_n(json_360, save_output):
     """
     test
     """
@@ -1810,12 +1937,13 @@ def test_test008_test_5_n(save_xml):
         instance="sunData/combined/008/test.5.n.xml",
         class_name="Restriction",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test008_test_7_n(save_xml):
+def test_test008_test_7_n(json_360, save_output):
     """
     test
     """
@@ -1824,12 +1952,13 @@ def test_test008_test_7_n(save_xml):
         instance="sunData/combined/008/test.7.n.xml",
         class_name="Restriction",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test008_test_8_n(save_xml):
+def test_test008_test_8_n(json_360, save_output):
     """
     test
     """
@@ -1838,12 +1967,13 @@ def test_test008_test_8_n(save_xml):
         instance="sunData/combined/008/test.8.n.xml",
         class_name="Restriction",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test008_test_9_n(save_xml):
+def test_test008_test_9_n(json_360, save_output):
     """
     test
     """
@@ -1852,11 +1982,12 @@ def test_test008_test_9_n(save_xml):
         instance="sunData/combined/008/test.9.n.xml",
         class_name="Alias",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test008_test_2_v(save_xml):
+def test_test008_test_2_v(json_360, save_output):
     """
     test
     """
@@ -1865,11 +1996,12 @@ def test_test008_test_2_v(save_xml):
         instance="sunData/combined/008/test.2.v.xml",
         class_name="Extension",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test008_test_3_v(save_xml):
+def test_test008_test_3_v(json_360, save_output):
     """
     test
     """
@@ -1878,11 +2010,12 @@ def test_test008_test_3_v(save_xml):
         instance="sunData/combined/008/test.3.v.xml",
         class_name="Extension",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test008_test_4_v(save_xml):
+def test_test008_test_4_v(json_360, save_output):
     """
     test
     """
@@ -1891,11 +2024,12 @@ def test_test008_test_4_v(save_xml):
         instance="sunData/combined/008/test.4.v.xml",
         class_name="Extension",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test008_test_6_v(save_xml):
+def test_test008_test_6_v(json_360, save_output):
     """
     test
     """
@@ -1904,11 +2038,12 @@ def test_test008_test_6_v(save_xml):
         instance="sunData/combined/008/test.6.v.xml",
         class_name="Restriction",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test007_test_1_v(save_xml):
+def test_test007_test_1_v(json_360, save_output):
     """
     test
     """
@@ -1917,11 +2052,12 @@ def test_test007_test_1_v(save_xml):
         instance="sunData/combined/007/test.1.v.xml",
         class_name="Emptywc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test007_test_6_v(save_xml):
+def test_test007_test_6_v(json_360, save_output):
     """
     test
     """
@@ -1930,12 +2066,13 @@ def test_test007_test_6_v(save_xml):
         instance="sunData/combined/007/test.6.v.xml",
         class_name="JustA",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test007_test_2_n(save_xml):
+def test_test007_test_2_n(json_360, save_output):
     """
     test
     """
@@ -1944,12 +2081,13 @@ def test_test007_test_2_n(save_xml):
         instance="sunData/combined/007/test.2.n.xml",
         class_name="Emptywc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test007_test_3_n(save_xml):
+def test_test007_test_3_n(json_360, save_output):
     """
     test
     """
@@ -1958,12 +2096,13 @@ def test_test007_test_3_n(save_xml):
         instance="sunData/combined/007/test.3.n.xml",
         class_name="Emptywc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test007_test_4_n(save_xml):
+def test_test007_test_4_n(json_360, save_output):
     """
     test
     """
@@ -1972,12 +2111,13 @@ def test_test007_test_4_n(save_xml):
         instance="sunData/combined/007/test.4.n.xml",
         class_name="Emptywc",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test007_test_5_n(save_xml):
+def test_test007_test_5_n(json_360, save_output):
     """
     test
     """
@@ -1986,12 +2126,13 @@ def test_test007_test_5_n(save_xml):
         instance="sunData/combined/007/test.5.n.xml",
         class_name="JustA",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test007_test_7_n(save_xml):
+def test_test007_test_7_n(json_360, save_output):
     """
     test
     """
@@ -2000,12 +2141,13 @@ def test_test007_test_7_n(save_xml):
         instance="sunData/combined/007/test.7.n.xml",
         class_name="JustA",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test007_test_8_n(save_xml):
+def test_test007_test_8_n(json_360, save_output):
     """
     test
     """
@@ -2014,11 +2156,12 @@ def test_test007_test_8_n(save_xml):
         instance="sunData/combined/007/test.8.n.xml",
         class_name="JustA",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test006_test_1_v(save_xml):
+def test_test006_test_1_v(json_360, save_output):
     """
     test
     """
@@ -2027,12 +2170,13 @@ def test_test006_test_1_v(save_xml):
         instance="sunData/combined/006/test.1.v.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_10_n(save_xml):
+def test_test006_test_10_n(json_360, save_output):
     """
     test
     """
@@ -2041,12 +2185,13 @@ def test_test006_test_10_n(save_xml):
         instance="sunData/combined/006/test.10.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_11_n(save_xml):
+def test_test006_test_11_n(json_360, save_output):
     """
     test
     """
@@ -2055,12 +2200,13 @@ def test_test006_test_11_n(save_xml):
         instance="sunData/combined/006/test.11.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_12_n(save_xml):
+def test_test006_test_12_n(json_360, save_output):
     """
     test
     """
@@ -2069,12 +2215,13 @@ def test_test006_test_12_n(save_xml):
         instance="sunData/combined/006/test.12.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_13_n(save_xml):
+def test_test006_test_13_n(json_360, save_output):
     """
     test
     """
@@ -2083,12 +2230,13 @@ def test_test006_test_13_n(save_xml):
         instance="sunData/combined/006/test.13.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_14_n(save_xml):
+def test_test006_test_14_n(json_360, save_output):
     """
     test
     """
@@ -2097,12 +2245,13 @@ def test_test006_test_14_n(save_xml):
         instance="sunData/combined/006/test.14.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_15_n(save_xml):
+def test_test006_test_15_n(json_360, save_output):
     """
     test
     """
@@ -2111,12 +2260,13 @@ def test_test006_test_15_n(save_xml):
         instance="sunData/combined/006/test.15.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_16_n(save_xml):
+def test_test006_test_16_n(json_360, save_output):
     """
     test
     """
@@ -2125,12 +2275,13 @@ def test_test006_test_16_n(save_xml):
         instance="sunData/combined/006/test.16.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_17_n(save_xml):
+def test_test006_test_17_n(json_360, save_output):
     """
     test
     """
@@ -2139,12 +2290,13 @@ def test_test006_test_17_n(save_xml):
         instance="sunData/combined/006/test.17.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_18_n(save_xml):
+def test_test006_test_18_n(json_360, save_output):
     """
     test
     """
@@ -2153,12 +2305,13 @@ def test_test006_test_18_n(save_xml):
         instance="sunData/combined/006/test.18.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_19_n(save_xml):
+def test_test006_test_19_n(json_360, save_output):
     """
     test
     """
@@ -2167,11 +2320,12 @@ def test_test006_test_19_n(save_xml):
         instance="sunData/combined/006/test.19.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test006_test_2_v(save_xml):
+def test_test006_test_2_v(json_360, save_output):
     """
     test
     """
@@ -2180,12 +2334,13 @@ def test_test006_test_2_v(save_xml):
         instance="sunData/combined/006/test.2.v.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_20_n(save_xml):
+def test_test006_test_20_n(json_360, save_output):
     """
     test
     """
@@ -2194,12 +2349,13 @@ def test_test006_test_20_n(save_xml):
         instance="sunData/combined/006/test.20.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_21_n(save_xml):
+def test_test006_test_21_n(json_360, save_output):
     """
     test
     """
@@ -2208,12 +2364,13 @@ def test_test006_test_21_n(save_xml):
         instance="sunData/combined/006/test.21.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_22_n(save_xml):
+def test_test006_test_22_n(json_360, save_output):
     """
     test
     """
@@ -2222,12 +2379,13 @@ def test_test006_test_22_n(save_xml):
         instance="sunData/combined/006/test.22.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_23_n(save_xml):
+def test_test006_test_23_n(json_360, save_output):
     """
     test
     """
@@ -2236,12 +2394,13 @@ def test_test006_test_23_n(save_xml):
         instance="sunData/combined/006/test.23.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_24_n(save_xml):
+def test_test006_test_24_n(json_360, save_output):
     """
     test
     """
@@ -2250,12 +2409,13 @@ def test_test006_test_24_n(save_xml):
         instance="sunData/combined/006/test.24.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_25_n(save_xml):
+def test_test006_test_25_n(json_360, save_output):
     """
     test
     """
@@ -2264,12 +2424,13 @@ def test_test006_test_25_n(save_xml):
         instance="sunData/combined/006/test.25.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_26_n(save_xml):
+def test_test006_test_26_n(json_360, save_output):
     """
     test
     """
@@ -2278,12 +2439,13 @@ def test_test006_test_26_n(save_xml):
         instance="sunData/combined/006/test.26.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_27_n(save_xml):
+def test_test006_test_27_n(json_360, save_output):
     """
     test
     """
@@ -2292,12 +2454,13 @@ def test_test006_test_27_n(save_xml):
         instance="sunData/combined/006/test.27.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_28_n(save_xml):
+def test_test006_test_28_n(json_360, save_output):
     """
     test
     """
@@ -2306,12 +2469,13 @@ def test_test006_test_28_n(save_xml):
         instance="sunData/combined/006/test.28.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_29_n(save_xml):
+def test_test006_test_29_n(json_360, save_output):
     """
     test
     """
@@ -2320,12 +2484,13 @@ def test_test006_test_29_n(save_xml):
         instance="sunData/combined/006/test.29.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_3_n(save_xml):
+def test_test006_test_3_n(json_360, save_output):
     """
     test
     """
@@ -2334,12 +2499,13 @@ def test_test006_test_3_n(save_xml):
         instance="sunData/combined/006/test.3.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_30_n(save_xml):
+def test_test006_test_30_n(json_360, save_output):
     """
     test
     """
@@ -2348,12 +2514,13 @@ def test_test006_test_30_n(save_xml):
         instance="sunData/combined/006/test.30.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_31_n(save_xml):
+def test_test006_test_31_n(json_360, save_output):
     """
     test
     """
@@ -2362,12 +2529,13 @@ def test_test006_test_31_n(save_xml):
         instance="sunData/combined/006/test.31.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_32_n(save_xml):
+def test_test006_test_32_n(json_360, save_output):
     """
     test
     """
@@ -2376,12 +2544,13 @@ def test_test006_test_32_n(save_xml):
         instance="sunData/combined/006/test.32.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_33_n(save_xml):
+def test_test006_test_33_n(json_360, save_output):
     """
     test
     """
@@ -2390,12 +2559,13 @@ def test_test006_test_33_n(save_xml):
         instance="sunData/combined/006/test.33.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_34_n(save_xml):
+def test_test006_test_34_n(json_360, save_output):
     """
     test
     """
@@ -2404,12 +2574,13 @@ def test_test006_test_34_n(save_xml):
         instance="sunData/combined/006/test.34.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_4_n(save_xml):
+def test_test006_test_4_n(json_360, save_output):
     """
     test
     """
@@ -2418,12 +2589,13 @@ def test_test006_test_4_n(save_xml):
         instance="sunData/combined/006/test.4.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_5_n(save_xml):
+def test_test006_test_5_n(json_360, save_output):
     """
     test
     """
@@ -2432,12 +2604,13 @@ def test_test006_test_5_n(save_xml):
         instance="sunData/combined/006/test.5.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_6_n(save_xml):
+def test_test006_test_6_n(json_360, save_output):
     """
     test
     """
@@ -2446,12 +2619,13 @@ def test_test006_test_6_n(save_xml):
         instance="sunData/combined/006/test.6.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_7_n(save_xml):
+def test_test006_test_7_n(json_360, save_output):
     """
     test
     """
@@ -2460,12 +2634,13 @@ def test_test006_test_7_n(save_xml):
         instance="sunData/combined/006/test.7.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_8_n(save_xml):
+def test_test006_test_8_n(json_360, save_output):
     """
     test
     """
@@ -2474,12 +2649,13 @@ def test_test006_test_8_n(save_xml):
         instance="sunData/combined/006/test.8.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test006_test_9_n(save_xml):
+def test_test006_test_9_n(json_360, save_output):
     """
     test
     """
@@ -2488,11 +2664,12 @@ def test_test006_test_9_n(save_xml):
         instance="sunData/combined/006/test.9.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test005_test_1_v(save_xml):
+def test_test005_test_1_v(json_360, save_output):
     """
     test
     """
@@ -2501,12 +2678,13 @@ def test_test005_test_1_v(save_xml):
         instance="sunData/combined/005/test.1.v.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test005_test_2_n(save_xml):
+def test_test005_test_2_n(json_360, save_output):
     """
     test
     """
@@ -2515,12 +2693,13 @@ def test_test005_test_2_n(save_xml):
         instance="sunData/combined/005/test.2.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test005_test_3_n(save_xml):
+def test_test005_test_3_n(json_360, save_output):
     """
     test
     """
@@ -2529,12 +2708,13 @@ def test_test005_test_3_n(save_xml):
         instance="sunData/combined/005/test.3.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test005_test_4_n(save_xml):
+def test_test005_test_4_n(json_360, save_output):
     """
     test
     """
@@ -2543,12 +2723,13 @@ def test_test005_test_4_n(save_xml):
         instance="sunData/combined/005/test.4.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test005_test_5_n(save_xml):
+def test_test005_test_5_n(json_360, save_output):
     """
     test
     """
@@ -2557,11 +2738,12 @@ def test_test005_test_5_n(save_xml):
         instance="sunData/combined/005/test.5.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test004_test_1_v(save_xml):
+def test_test004_test_1_v(json_360, save_output):
     """
     test
     """
@@ -2570,12 +2752,13 @@ def test_test004_test_1_v(save_xml):
         instance="sunData/combined/004/test.1.v.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test004_test_2_n(save_xml):
+def test_test004_test_2_n(json_360, save_output):
     """
     test
     """
@@ -2584,12 +2767,13 @@ def test_test004_test_2_n(save_xml):
         instance="sunData/combined/004/test.2.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test004_test_3_n(save_xml):
+def test_test004_test_3_n(json_360, save_output):
     """
     test
     """
@@ -2598,12 +2782,13 @@ def test_test004_test_3_n(save_xml):
         instance="sunData/combined/004/test.3.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test004_test_4_n(save_xml):
+def test_test004_test_4_n(json_360, save_output):
     """
     test
     """
@@ -2612,12 +2797,13 @@ def test_test004_test_4_n(save_xml):
         instance="sunData/combined/004/test.4.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test004_test_5_n(save_xml):
+def test_test004_test_5_n(json_360, save_output):
     """
     test
     """
@@ -2626,11 +2812,12 @@ def test_test004_test_5_n(save_xml):
         instance="sunData/combined/004/test.5.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test003_test_1_v(save_xml):
+def test_test003_test_1_v(json_360, save_output):
     """
     test
     """
@@ -2639,12 +2826,13 @@ def test_test003_test_1_v(save_xml):
         instance="sunData/combined/003/test.1.v.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test003_test_2_n(save_xml):
+def test_test003_test_2_n(json_360, save_output):
     """
     test
     """
@@ -2653,12 +2841,13 @@ def test_test003_test_2_n(save_xml):
         instance="sunData/combined/003/test.2.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test003_test_3_n(save_xml):
+def test_test003_test_3_n(json_360, save_output):
     """
     test
     """
@@ -2667,12 +2856,13 @@ def test_test003_test_3_n(save_xml):
         instance="sunData/combined/003/test.3.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test003_test_4_n(save_xml):
+def test_test003_test_4_n(json_360, save_output):
     """
     test
     """
@@ -2681,12 +2871,13 @@ def test_test003_test_4_n(save_xml):
         instance="sunData/combined/003/test.4.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test003_test_5_n(save_xml):
+def test_test003_test_5_n(json_360, save_output):
     """
     test
     """
@@ -2695,11 +2886,12 @@ def test_test003_test_5_n(save_xml):
         instance="sunData/combined/003/test.5.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test002_test_1_v(save_xml):
+def test_test002_test_1_v(json_360, save_output):
     """
     test
     """
@@ -2708,12 +2900,13 @@ def test_test002_test_1_v(save_xml):
         instance="sunData/combined/002/test.1.v.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test002_test_2_n(save_xml):
+def test_test002_test_2_n(json_360, save_output):
     """
     test
     """
@@ -2722,12 +2915,13 @@ def test_test002_test_2_n(save_xml):
         instance="sunData/combined/002/test.2.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test002_test_3_n(save_xml):
+def test_test002_test_3_n(json_360, save_output):
     """
     test
     """
@@ -2736,12 +2930,13 @@ def test_test002_test_3_n(save_xml):
         instance="sunData/combined/002/test.3.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test002_test_4_n(save_xml):
+def test_test002_test_4_n(json_360, save_output):
     """
     test
     """
@@ -2750,12 +2945,13 @@ def test_test002_test_4_n(save_xml):
         instance="sunData/combined/002/test.4.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test002_test_5_n(save_xml):
+def test_test002_test_5_n(json_360, save_output):
     """
     test
     """
@@ -2764,11 +2960,12 @@ def test_test002_test_5_n(save_xml):
         instance="sunData/combined/002/test.5.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_test001_test_1_v(save_xml):
+def test_test001_test_1_v(json_360, save_output):
     """
     test
     """
@@ -2777,12 +2974,13 @@ def test_test001_test_1_v(save_xml):
         instance="sunData/combined/001/test.1.v.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_test001_test_2_n(save_xml):
+def test_test001_test_2_n(json_360, save_output):
     """
     test
     """
@@ -2791,11 +2989,12 @@ def test_test001_test_2_n(save_xml):
         instance="sunData/combined/001/test.2.n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotation00101m4_positive(save_xml):
+def test_annotation00101m4_positive(json_360, save_output):
     """
     machine-targeted annotation for an attribute group definition (valid
     schema) Annotations provide for human- and machine-targeted
@@ -2807,11 +3006,12 @@ def test_annotation00101m4_positive(save_xml):
         instance="sunData/AGroupDef/annotation/annotation00101m/annotation00101m4_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotation00101m1_positive(save_xml):
+def test_annotation00101m1_positive(json_360, save_output):
     """
     human-targeted annotation for an attribute group definition (valid
     schema) Annotations provide for human- and machine-targeted
@@ -2823,11 +3023,12 @@ def test_annotation00101m1_positive(save_xml):
         instance="sunData/AGroupDef/annotation/annotation00101m/annotation00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ag_targetns00101m1_p_positive(save_xml):
+def test_ag_targetns00101m1_p_positive(json_360, save_output):
     """
     Attribute group reference with QName. (valid schema) Attribute Group
     use should has proper namespace prefix in the ref value to be resolved
@@ -2838,11 +3039,12 @@ def test_ag_targetns00101m1_p_positive(save_xml):
         instance="sunData/AGroupDef/AG_targetNS/AG_targetNS00101m/AG_targetNS00101m1.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ag_name00101m1_p_positive(save_xml):
+def test_ag_name00101m1_p_positive(json_360, save_output):
     """
     Attribute group declaration. (valid schema) Attribute Group use should
     has proper ref value to be resolved to its declaration.
@@ -2852,11 +3054,12 @@ def test_ag_name00101m1_p_positive(save_xml):
         instance="sunData/AGroupDef/AG_name/AG_name00101m/AG_name00101m1.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ag_attrwcard00101m1_positive(save_xml):
+def test_ag_attrwcard00101m1_positive(json_360, save_output):
     """
     Attribute wildcard is declared in attribute group. (valid schema)
     According to declared attribute wildcard content of the attributes in
@@ -2867,11 +3070,12 @@ def test_ag_attrwcard00101m1_positive(save_xml):
         instance="sunData/AGroupDef/AG_attrWCard/AG_attrWCard00101m/AG_attrWCard00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ag_attrusens00101m1_p_positive(save_xml):
+def test_ag_attrusens00101m1_p_positive(json_360, save_output):
     """
     Attribute is declared in attribute group by reference with QName.
     (valid schema) Attribute Use should has proper namespace prefix in the
@@ -2882,11 +3086,12 @@ def test_ag_attrusens00101m1_p_positive(save_xml):
         instance="sunData/AGroupDef/AG_attrUse/AG_attrUseNS00101m/AG_attrUseNS00101m1.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_valconstr00201m3_positive(save_xml):
+def test_ad_valconstr00201m3_positive(json_360, save_output):
     """
     Attribute with 'default' value and "optional" 'use' is declared
     entirely within element declaration (valid schema) If 'default' and
@@ -2897,11 +3102,12 @@ def test_ad_valconstr00201m3_positive(save_xml):
         instance="sunData/AttrDecl/AD_valConstr/AD_valConstr00201m/AD_valConstr00201m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_valconstr00101m_ad_val_constr00101m1_p(save_xml):
+def test_ad_valconstr00101m_ad_val_constr00101m1_p(json_360, save_output):
     """
     Attribute with fixed value is declared within element by reference
     (valid schema) Attribute declared with fixed value may not have
@@ -2912,12 +3118,13 @@ def test_ad_valconstr00101m_ad_val_constr00101m1_p(save_xml):
         instance="sunData/AttrDecl/AD_valConstr/AD_valConstr00101m/AD_valConstr00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_ad_valconstr00101m_ad_val_constr00101m1_n(save_xml):
+def test_ad_valconstr00101m_ad_val_constr00101m1_n(json_360, save_output):
     """
     Attribute with fixed value is declared within element by reference
     (valid schema) Attribute declared with fixed value may not have
@@ -2928,11 +3135,12 @@ def test_ad_valconstr00101m_ad_val_constr00101m1_n(save_xml):
         instance="sunData/AttrDecl/AD_valConstr/AD_valConstr00101m/AD_valConstr00101m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_valconstr00101m_ad_val_constr00101m2_p(save_xml):
+def test_ad_valconstr00101m_ad_val_constr00101m2_p(json_360, save_output):
     """
     Attribute with fixed value is declared within element by reference
     (valid schema) Attribute declared with fixed value may not have
@@ -2943,12 +3151,13 @@ def test_ad_valconstr00101m_ad_val_constr00101m2_p(save_xml):
         instance="sunData/AttrDecl/AD_valConstr/AD_valConstr00101m/AD_valConstr00101m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_ad_valconstr00101m_ad_val_constr00101m2_n(save_xml):
+def test_ad_valconstr00101m_ad_val_constr00101m2_n(json_360, save_output):
     """
     Attribute with fixed value is declared within element by reference
     (valid schema) Attribute declared with fixed value may not have
@@ -2959,11 +3168,12 @@ def test_ad_valconstr00101m_ad_val_constr00101m2_n(save_xml):
         instance="sunData/AttrDecl/AD_valConstr/AD_valConstr00101m/AD_valConstr00101m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_type00102m_ad_type00102m1_p(save_xml):
+def test_ad_type00102m_ad_type00102m1_p(json_360, save_output):
     """
     Attribute with restriction type is declared within element by
     reference (valid schema) The value of the attribute should conform to
@@ -2974,12 +3184,13 @@ def test_ad_type00102m_ad_type00102m1_p(save_xml):
         instance="sunData/AttrDecl/AD_type/AD_type00102m/AD_type00102m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_ad_type00102m_ad_type00102m1_n(save_xml):
+def test_ad_type00102m_ad_type00102m1_n(json_360, save_output):
     """
     Attribute with restriction type is declared within element by
     reference (valid schema) The value of the attribute should conform to
@@ -2990,11 +3201,12 @@ def test_ad_type00102m_ad_type00102m1_n(save_xml):
         instance="sunData/AttrDecl/AD_type/AD_type00102m/AD_type00102m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_type00102m_ad_type00102m2_p(save_xml):
+def test_ad_type00102m_ad_type00102m2_p(json_360, save_output):
     """
     Attribute with restriction type is declared within element by
     reference (valid schema) The value of the attribute should conform to
@@ -3005,12 +3217,13 @@ def test_ad_type00102m_ad_type00102m2_p(save_xml):
         instance="sunData/AttrDecl/AD_type/AD_type00102m/AD_type00102m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_ad_type00102m_ad_type00102m2_n(save_xml):
+def test_ad_type00102m_ad_type00102m2_n(json_360, save_output):
     """
     Attribute with restriction type is declared within element by
     reference (valid schema) The value of the attribute should conform to
@@ -3021,11 +3234,12 @@ def test_ad_type00102m_ad_type00102m2_n(save_xml):
         instance="sunData/AttrDecl/AD_type/AD_type00102m/AD_type00102m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_type00101m_ad_type00101m1_p(save_xml):
+def test_ad_type00101m_ad_type00101m1_p(json_360, save_output):
     """
     Attribute declared within element by reference (valid schema) The
     value of the attribute should conform to declared type of the
@@ -3036,12 +3250,13 @@ def test_ad_type00101m_ad_type00101m1_p(save_xml):
         instance="sunData/AttrDecl/AD_type/AD_type00101m/AD_type00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_ad_type00101m_ad_type00101m1_n(save_xml):
+def test_ad_type00101m_ad_type00101m1_n(json_360, save_output):
     """
     Attribute declared within element by reference (valid schema) The
     value of the attribute should conform to declared type of the
@@ -3052,11 +3267,12 @@ def test_ad_type00101m_ad_type00101m1_n(save_xml):
         instance="sunData/AttrDecl/AD_type/AD_type00101m/AD_type00101m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_type00101m_ad_type00101m2_p(save_xml):
+def test_ad_type00101m_ad_type00101m2_p(json_360, save_output):
     """
     Attribute declared within element by reference (valid schema) The
     value of the attribute should conform to declared type of the
@@ -3067,12 +3283,13 @@ def test_ad_type00101m_ad_type00101m2_p(save_xml):
         instance="sunData/AttrDecl/AD_type/AD_type00101m/AD_type00101m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_ad_type00101m_ad_type00101m2_n(save_xml):
+def test_ad_type00101m_ad_type00101m2_n(json_360, save_output):
     """
     Attribute declared within element by reference (valid schema) The
     value of the attribute should conform to declared type of the
@@ -3083,11 +3300,12 @@ def test_ad_type00101m_ad_type00101m2_n(save_xml):
         instance="sunData/AttrDecl/AD_type/AD_type00101m/AD_type00101m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_targetns00101m_ad_target_ns00101m1_p(save_xml):
+def test_ad_targetns00101m_ad_target_ns00101m1_p(json_360, save_output):
     """
     Attribute explicitly declared qualified. (valid schema) Attribute
     explicitly declared qualified should be used with NSName.
@@ -3097,12 +3315,13 @@ def test_ad_targetns00101m_ad_target_ns00101m1_p(save_xml):
         instance="sunData/AttrDecl/AD_targetNS/AD_targetNS00101m/AD_targetNS00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_ad_targetns00101m_ad_target_ns00101m1_n(save_xml):
+def test_ad_targetns00101m_ad_target_ns00101m1_n(json_360, save_output):
     """
     Attribute explicitly declared qualified. (valid schema) Attribute
     explicitly declared qualified should be used with NSName.
@@ -3112,12 +3331,13 @@ def test_ad_targetns00101m_ad_target_ns00101m1_n(save_xml):
         instance="sunData/AttrDecl/AD_targetNS/AD_targetNS00101m/AD_targetNS00101m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_ad_targetns00101m_ad_target_ns00101m2_n(save_xml):
+def test_ad_targetns00101m_ad_target_ns00101m2_n(json_360, save_output):
     """
     Attribute explicitly declared qualified. (valid schema) Attribute
     explicitly declared qualified should be used with NSName.
@@ -3127,11 +3347,12 @@ def test_ad_targetns00101m_ad_target_ns00101m2_n(save_xml):
         instance="sunData/AttrDecl/AD_targetNS/AD_targetNS00101m/AD_targetNS00101m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_targetns00101m_ad_target_ns00101m3_p(save_xml):
+def test_ad_targetns00101m_ad_target_ns00101m3_p(json_360, save_output):
     """
     Attribute explicitly declared qualified. (valid schema) Attribute
     explicitly declared qualified should be used with NSName.
@@ -3141,12 +3362,13 @@ def test_ad_targetns00101m_ad_target_ns00101m3_p(save_xml):
         instance="sunData/AttrDecl/AD_targetNS/AD_targetNS00101m/AD_targetNS00101m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_ad_targetns00101m_ad_target_ns00101m3_n(save_xml):
+def test_ad_targetns00101m_ad_target_ns00101m3_n(json_360, save_output):
     """
     Attribute explicitly declared qualified. (valid schema) Attribute
     explicitly declared qualified should be used with NSName.
@@ -3156,11 +3378,12 @@ def test_ad_targetns00101m_ad_target_ns00101m3_n(save_xml):
         instance="sunData/AttrDecl/AD_targetNS/AD_targetNS00101m/AD_targetNS00101m3_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_scope00101m1_positive(save_xml):
+def test_ad_scope00101m1_positive(json_360, save_output):
     """
     Attribute declared with global scope (valid schema) Attribute declared
     with global scope can be referenced in any declaration in the schema.
@@ -3170,11 +3393,12 @@ def test_ad_scope00101m1_positive(save_xml):
         instance="sunData/AttrDecl/AD_scope/AD_scope00101m/AD_scope00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00118_ad_name00118_p(save_xml):
+def test_ad_name00118_ad_name00118_p(json_360, save_output):
     """
     Attribute names contain an uncased letter followed by upper or lower
     case letter. (valid schema) Declare an element with two attributes of
@@ -3186,11 +3410,12 @@ def test_ad_name00118_ad_name00118_p(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00118/AD_name00118_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00115_ad_name00115_p(save_xml):
+def test_ad_name00115_ad_name00115_p(json_360, save_output):
     """
     Attribute names contain only punctuation characters and digits. (valid
     schema) Declare an element with two attributes of type int. Name the
@@ -3202,11 +3427,12 @@ def test_ad_name00115_ad_name00115_p(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00115/AD_name00115_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00114_ad_name00114_p(save_xml):
+def test_ad_name00114_ad_name00114_p(json_360, save_output):
     """
     Attribute names contain lower case and upper case letters and non-
     letter characters. (valid schema) Declare an element with several
@@ -3223,11 +3449,12 @@ def test_ad_name00114_ad_name00114_p(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00114/AD_name00114_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00113_ad_name00113_p(save_xml):
+def test_ad_name00113_ad_name00113_p(json_360, save_output):
     """
     Attribute names contain digits followed by a non-digit characters.
     (valid schema) Declare an element with three attributes of type int.
@@ -3239,11 +3466,12 @@ def test_ad_name00113_ad_name00113_p(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00113/AD_name00113_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00112_ad_name00112_p(save_xml):
+def test_ad_name00112_ad_name00112_p(json_360, save_output):
     r"""
     Attribute name contains 7 punctuation characters. (valid schema)
     Declare an element with two attributes of type int. Name the first one
@@ -3260,11 +3488,12 @@ def test_ad_name00112_ad_name00112_p(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00112/AD_name00112_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00111_ad_name00111_p(save_xml):
+def test_ad_name00111_ad_name00111_p(json_360, save_output):
     r"""
     Attribute names contain several punctuation characters. (valid schema)
     Declare an element with several attributes of type int. Name the
@@ -3280,11 +3509,12 @@ def test_ad_name00111_ad_name00111_p(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00111/AD_name00111_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00110m9_positive(save_xml):
+def test_ad_name00110m9_positive(json_360, save_output):
     """
     Attributes have names that end with the combining characters 0x0f39,
     0x0f3e, 0x0f3f, 0x0f71, 0x0f7a, 0x0f84, 0x0f86, 0x0f86, 0x0f87,
@@ -3301,11 +3531,12 @@ def test_ad_name00110m9_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00110m/AD_name00110m9_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00110m8_positive(save_xml):
+def test_ad_name00110m8_positive(json_360, save_output):
     """
     Attributes have names that end with the combining characters 0x0e31,
     0x0e34, 0x0e37, 0x0e3a, 0x0e47, 0x0e4a, 0x0e4e, 0x0eb1, 0x0eb4,
@@ -3322,11 +3553,12 @@ def test_ad_name00110m8_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00110m/AD_name00110m8_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00110m7_positive(save_xml):
+def test_ad_name00110m7_positive(json_360, save_output):
     """
     Attributes have names that end with the combining characters 0x0c82,
     0x0c82, 0x0c83, 0x0cbe, 0x0cc1, 0x0cc4, 0x0cc6, 0x0cc7, 0x0cc8,
@@ -3345,11 +3577,12 @@ def test_ad_name00110m7_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00110m/AD_name00110m7_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00110m6_positive(save_xml):
+def test_ad_name00110m6_positive(json_360, save_output):
     """
     Attributes have names that end with the combining characters 0x0b82,
     0x0b82, 0x0b83, 0x0bbe, 0x0bc0, 0x0bc2, 0x0bc6, 0x0bc7, 0x0bc8,
@@ -3368,11 +3601,12 @@ def test_ad_name00110m6_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00110m/AD_name00110m6_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00110m5_positive(save_xml):
+def test_ad_name00110m5_positive(json_360, save_output):
     """
     Attributes have names that end with the combining characters 0x0abc,
     0x0abe, 0x0ac1, 0x0ac5, 0x0ac7, 0x0ac8, 0x0ac9, 0x0acb, 0x0acc,
@@ -3390,11 +3624,12 @@ def test_ad_name00110m5_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00110m/AD_name00110m5_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00110m4_positive(save_xml):
+def test_ad_name00110m4_positive(json_360, save_output):
     """
     Attributes have names that end with the combining characters 0x09e2,
     0x09e2, 0x09e3, 0x0a02, 0x0a3c, 0x0a3e, 0x0a3f, 0x0a40, 0x0a41,
@@ -3411,11 +3646,12 @@ def test_ad_name00110m4_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00110m/AD_name00110m4_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00110m3_positive(save_xml):
+def test_ad_name00110m3_positive(json_360, save_output):
     """
     Attributes have names that end with the combining characters 0x0951,
     0x0952, 0x0954, 0x0962, 0x0962, 0x0963, 0x0981, 0x0982, 0x0983,
@@ -3432,11 +3668,12 @@ def test_ad_name00110m3_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00110m/AD_name00110m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00110m2_positive(save_xml):
+def test_ad_name00110m2_positive(json_360, save_output):
     """
     Attributes have names that end with the combining characters 0x0670,
     0x06d6, 0x06d9, 0x06dc, 0x06dd, 0x06de, 0x06df, 0x06e0, 0x06e2,
@@ -3454,11 +3691,12 @@ def test_ad_name00110m2_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00110m/AD_name00110m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00110m10_positive(save_xml):
+def test_ad_name00110m10_positive(json_360, save_output):
     """
     Attributes have names that end with the combining characters 0x20d0,
     0x20d6, 0x20dc, 0x20e1, 0x302a, 0x302c, 0x302f, 0x3099, 0x309a (valid
@@ -3472,11 +3710,12 @@ def test_ad_name00110m10_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00110m/AD_name00110m10_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00110m1_positive(save_xml):
+def test_ad_name00110m1_positive(json_360, save_output):
     """
     Attributes have names that end with the combining characters 0x0300,
     0x0322, 0x0344, 0x0360, 0x0360, 0x0361, 0x0483, 0x0484, 0x0486,
@@ -3494,11 +3733,12 @@ def test_ad_name00110m1_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00110m/AD_name00110m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00109m2_positive(save_xml):
+def test_ad_name00109m2_positive(json_360, save_output):
     """
     Attributes have names that end with the digit characters 0x0ce6,
     0x0cea, 0x0cef, 0x0d66, 0x0d6a, 0x0d6f, 0x0e50, 0x0e54, 0x0e59,
@@ -3513,11 +3753,12 @@ def test_ad_name00109m2_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00109m/AD_name00109m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00109m1_positive(save_xml):
+def test_ad_name00109m1_positive(json_360, save_output):
     """
     Attributes have names that end with the digit characters 0x0030,
     0x0034, 0x0039, 0x0660, 0x0664, 0x0669, 0x06f0, 0x06f4, 0x06f9,
@@ -3536,11 +3777,12 @@ def test_ad_name00109m1_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00109m/AD_name00109m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00108m9_positive(save_xml):
+def test_ad_name00108m9_positive(json_360, save_output):
     """
     Attributes have names that end with the basic characters 0x0a8f,
     0x0a90, 0x0a91, 0x0a93, 0x0a9d, 0x0aa8, 0x0aaa, 0x0aad, 0x0ab0,
@@ -3558,11 +3800,12 @@ def test_ad_name00108m9_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00108m/AD_name00108m9_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00108m8_positive(save_xml):
+def test_ad_name00108m8_positive(json_360, save_output):
     """
     Attributes have names that end with the basic characters 0x0a13,
     0x0a1d, 0x0a28, 0x0a2a, 0x0a2d, 0x0a30, 0x0a32, 0x0a32, 0x0a33,
@@ -3580,11 +3823,12 @@ def test_ad_name00108m8_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00108m/AD_name00108m8_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00108m7_positive(save_xml):
+def test_ad_name00108m7_positive(json_360, save_output):
     """
     Attributes have names that end with the basic characters 0x098f,
     0x098f, 0x0990, 0x0993, 0x099d, 0x09a8, 0x09aa, 0x09ad, 0x09b0,
@@ -3603,11 +3847,12 @@ def test_ad_name00108m7_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00108m/AD_name00108m7_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00108m6_positive(save_xml):
+def test_ad_name00108m6_positive(json_360, save_output):
     """
     Attributes have names that end with the basic characters 0x0671,
     0x0694, 0x06b7, 0x06ba, 0x06bc, 0x06be, 0x06c0, 0x06c7, 0x06ce,
@@ -3625,11 +3870,12 @@ def test_ad_name00108m6_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00108m/AD_name00108m6_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00108m5_positive(save_xml):
+def test_ad_name00108m5_positive(json_360, save_output):
     """
     Attributes have names that end with the basic characters 0x04d0,
     0x04dd, 0x04eb, 0x04ee, 0x04f1, 0x04f5, 0x04f8, 0x04f8, 0x04f9,
@@ -3648,11 +3894,12 @@ def test_ad_name00108m5_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00108m/AD_name00108m5_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00108m4_positive(save_xml):
+def test_ad_name00108m4_positive(json_360, save_output):
     """
     Attributes have names that end with the basic characters 0x03d0,
     0x03d3, 0x03d6, 0x03e2, 0x03e9, 0x03f1, 0x0401, 0x0406, 0x040c,
@@ -3671,11 +3918,12 @@ def test_ad_name00108m4_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00108m/AD_name00108m4_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00108m3_positive(save_xml):
+def test_ad_name00108m3_positive(json_360, save_output):
     """
     Attributes have names that end with the basic characters 0x0276,
     0x027a, 0x027f, 0x0281, 0x0294, 0x02a8, 0x02bb, 0x02be, 0x02c1,
@@ -3693,11 +3941,12 @@ def test_ad_name00108m3_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00108m/AD_name00108m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00108m21_positive(save_xml):
+def test_ad_name00108m21_positive(json_360, save_output):
     """
     Attributes have names that end with the basic characters 0x1fe8,
     0x1fea, 0x1fec, 0x1ff8, 0x1ff9, 0x1ffb, 0x2180, 0x2181, 0x2182,
@@ -3714,11 +3963,12 @@ def test_ad_name00108m21_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00108m/AD_name00108m21_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00108m20_positive(save_xml):
+def test_ad_name00108m20_positive(json_360, save_output):
     """
     Attributes have names that end with the basic characters 0x1f5b,
     0x1f5d, 0x1f5f, 0x1f6e, 0x1f7d, 0x1fb0, 0x1fb0, 0x1fb1, 0x1fb8,
@@ -3736,11 +3986,12 @@ def test_ad_name00108m20_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00108m/AD_name00108m20_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00108m2_positive(save_xml):
+def test_ad_name00108m2_positive(json_360, save_output):
     """
     Attributes have names that end with the basic characters 0x014a,
     0x0164, 0x017e, 0x0180, 0x018a, 0x0194, 0x0196, 0x019d, 0x01a5,
@@ -3759,11 +4010,12 @@ def test_ad_name00108m2_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00108m/AD_name00108m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00108m19_positive(save_xml):
+def test_ad_name00108m19_positive(json_360, save_output):
     """
     Attributes have names that end with the basic characters 0x1ea0,
     0x1ecc, 0x1ef9, 0x1f00, 0x1f0a, 0x1f15, 0x1f18, 0x1f1a, 0x1f1d,
@@ -3780,11 +4032,12 @@ def test_ad_name00108m19_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00108m/AD_name00108m19_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00108m18_positive(save_xml):
+def test_ad_name00108m18_positive(json_360, save_output):
     """
     Attributes have names that end with the basic characters 0x11ab,
     0x11ae, 0x11ae, 0x11af, 0x11b7, 0x11b7, 0x11b8, 0x11ba, 0x11bc,
@@ -3800,11 +4053,12 @@ def test_ad_name00108m18_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00108m/AD_name00108m18_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00108m17_positive(save_xml):
+def test_ad_name00108m17_positive(json_360, save_output):
     """
     Attributes have names that end with the basic characters 0x115f,
     0x1160, 0x1161, 0x1163, 0x1165, 0x1167, 0x1169, 0x116d, 0x116d,
@@ -3820,11 +4074,12 @@ def test_ad_name00108m17_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00108m/AD_name00108m17_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00108m16_positive(save_xml):
+def test_ad_name00108m16_positive(json_360, save_output):
     """
     Attributes have names that end with the basic characters 0x110b,
     0x110b, 0x110c, 0x110e, 0x1110, 0x1112, 0x113c, 0x113e, 0x1140,
@@ -3840,11 +4095,12 @@ def test_ad_name00108m16_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00108m/AD_name00108m16_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00108m15_positive(save_xml):
+def test_ad_name00108m15_positive(json_360, save_output):
     """
     Attributes have names that end with the basic characters 0x0eb0,
     0x0eb2, 0x0eb2, 0x0eb3, 0x0ebd, 0x0ec0, 0x0ec2, 0x0ec4, 0x0f40,
@@ -3861,11 +4117,12 @@ def test_ad_name00108m15_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00108m/AD_name00108m15_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00108m14_positive(save_xml):
+def test_ad_name00108m14_positive(json_360, save_output):
     """
     Attributes have names that end with the basic characters 0x0e87,
     0x0e87, 0x0e88, 0x0e8a, 0x0e8d, 0x0e94, 0x0e95, 0x0e97, 0x0e99,
@@ -3882,11 +4139,12 @@ def test_ad_name00108m14_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00108m/AD_name00108m14_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00108m13_positive(save_xml):
+def test_ad_name00108m13_positive(json_360, save_output):
     """
     Attributes have names that end with the basic characters 0x0d0e,
     0x0d0f, 0x0d10, 0x0d12, 0x0d1d, 0x0d28, 0x0d2a, 0x0d31, 0x0d39,
@@ -3904,11 +4162,12 @@ def test_ad_name00108m13_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00108m/AD_name00108m13_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00108m12_positive(save_xml):
+def test_ad_name00108m12_positive(json_360, save_output):
     """
     Attributes have names that end with the basic characters 0x0c35,
     0x0c37, 0x0c39, 0x0c60, 0x0c60, 0x0c61, 0x0c85, 0x0c88, 0x0c8c,
@@ -3927,11 +4186,12 @@ def test_ad_name00108m12_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00108m/AD_name00108m12_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00108m11_positive(save_xml):
+def test_ad_name00108m11_positive(json_360, save_output):
     """
     Attributes have names that end with the basic characters 0x0b9c,
     0x0b9e, 0x0b9e, 0x0b9f, 0x0ba3, 0x0ba3, 0x0ba4, 0x0ba8, 0x0ba9,
@@ -3950,11 +4210,12 @@ def test_ad_name00108m11_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00108m/AD_name00108m11_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00108m10_positive(save_xml):
+def test_ad_name00108m10_positive(json_360, save_output):
     """
     Attributes have names that end with the basic characters 0x0b2a,
     0x0b2d, 0x0b30, 0x0b32, 0x0b32, 0x0b33, 0x0b36, 0x0b37, 0x0b39,
@@ -3973,11 +4234,12 @@ def test_ad_name00108m10_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00108m/AD_name00108m10_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00108m1_positive(save_xml):
+def test_ad_name00108m1_positive(json_360, save_output):
     """
     Attributes have names that end with the basic characters 0x0041,
     0x004d, 0x005a, 0x0061, 0x0064, 0x0068, 0x006a, 0x0072, 0x007a,
@@ -3996,11 +4258,12 @@ def test_ad_name00108m1_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00108m/AD_name00108m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00107m1_positive(save_xml):
+def test_ad_name00107m1_positive(json_360, save_output):
     """
     Attributes have names that end with the ideographic characters 0x4e00,
     0x76d2, 0x9fa5, 0x3007, 0x3021, 0x3025, 0x3029 (valid schema) Declare
@@ -4014,11 +4277,12 @@ def test_ad_name00107m1_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00107m/AD_name00107m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00106m1_positive(save_xml):
+def test_ad_name00106m1_positive(json_360, save_output):
     """
     Attributes have names that end with the underscore, dot and minus
     characters 0x005f, 0x002e, 0x002d (valid schema) Declare 3 local
@@ -4031,11 +4295,12 @@ def test_ad_name00106m1_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00106m/AD_name00106m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00105m1_positive(save_xml):
+def test_ad_name00105m1_positive(json_360, save_output):
     """
     Attribute has name that begins with the underscore character 0x005f
     (valid schema) Declare one local integer attribute with the name that
@@ -4047,11 +4312,12 @@ def test_ad_name00105m1_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00105m/AD_name00105m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00104m9_positive(save_xml):
+def test_ad_name00104m9_positive(json_360, save_output):
     """
     Attributes have names that begin with the basic characters 0x0a8f,
     0x0a90, 0x0a91, 0x0a93, 0x0a9d, 0x0aa8, 0x0aaa, 0x0aad, 0x0ab0,
@@ -4069,11 +4335,12 @@ def test_ad_name00104m9_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00104m/AD_name00104m9_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00104m8_positive(save_xml):
+def test_ad_name00104m8_positive(json_360, save_output):
     """
     Attributes have names that begin with the basic characters 0x0a13,
     0x0a1d, 0x0a28, 0x0a2a, 0x0a2d, 0x0a30, 0x0a32, 0x0a32, 0x0a33,
@@ -4091,11 +4358,12 @@ def test_ad_name00104m8_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00104m/AD_name00104m8_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00104m7_positive(save_xml):
+def test_ad_name00104m7_positive(json_360, save_output):
     """
     Attributes have names that begin with the basic characters 0x098f,
     0x098f, 0x0990, 0x0993, 0x099d, 0x09a8, 0x09aa, 0x09ad, 0x09b0,
@@ -4114,11 +4382,12 @@ def test_ad_name00104m7_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00104m/AD_name00104m7_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00104m6_positive(save_xml):
+def test_ad_name00104m6_positive(json_360, save_output):
     """
     Attributes have names that begin with the basic characters 0x0671,
     0x0694, 0x06b7, 0x06ba, 0x06bc, 0x06be, 0x06c0, 0x06c7, 0x06ce,
@@ -4136,11 +4405,12 @@ def test_ad_name00104m6_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00104m/AD_name00104m6_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00104m5_positive(save_xml):
+def test_ad_name00104m5_positive(json_360, save_output):
     """
     Attributes have names that begin with the basic characters 0x04d0,
     0x04dd, 0x04eb, 0x04ee, 0x04f1, 0x04f5, 0x04f8, 0x04f8, 0x04f9,
@@ -4159,11 +4429,12 @@ def test_ad_name00104m5_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00104m/AD_name00104m5_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00104m4_positive(save_xml):
+def test_ad_name00104m4_positive(json_360, save_output):
     """
     Attributes have names that begin with the basic characters 0x03d0,
     0x03d3, 0x03d6, 0x03e2, 0x03e9, 0x03f1, 0x0401, 0x0406, 0x040c,
@@ -4182,11 +4453,12 @@ def test_ad_name00104m4_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00104m/AD_name00104m4_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00104m3_positive(save_xml):
+def test_ad_name00104m3_positive(json_360, save_output):
     """
     Attributes have names that begin with the basic characters 0x0276,
     0x027a, 0x027f, 0x0281, 0x0294, 0x02a8, 0x02bb, 0x02be, 0x02c1,
@@ -4204,11 +4476,12 @@ def test_ad_name00104m3_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00104m/AD_name00104m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00104m21_positive(save_xml):
+def test_ad_name00104m21_positive(json_360, save_output):
     """
     Attributes have names that begin with the basic characters 0x1fe8,
     0x1fea, 0x1fec, 0x1ff8, 0x1ff9, 0x1ffb, 0x2180, 0x2181, 0x2182,
@@ -4225,11 +4498,12 @@ def test_ad_name00104m21_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00104m/AD_name00104m21_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00104m20_positive(save_xml):
+def test_ad_name00104m20_positive(json_360, save_output):
     """
     Attributes have names that begin with the basic characters 0x1f5b,
     0x1f5d, 0x1f5f, 0x1f6e, 0x1f7d, 0x1fb0, 0x1fb0, 0x1fb1, 0x1fb8,
@@ -4247,11 +4521,12 @@ def test_ad_name00104m20_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00104m/AD_name00104m20_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00104m2_positive(save_xml):
+def test_ad_name00104m2_positive(json_360, save_output):
     """
     Attributes have names that begin with the basic characters 0x014a,
     0x0164, 0x017e, 0x0180, 0x018a, 0x0194, 0x0196, 0x019d, 0x01a5,
@@ -4270,11 +4545,12 @@ def test_ad_name00104m2_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00104m/AD_name00104m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00104m19_positive(save_xml):
+def test_ad_name00104m19_positive(json_360, save_output):
     """
     Attributes have names that begin with the basic characters 0x1ea0,
     0x1ecc, 0x1ef9, 0x1f00, 0x1f0a, 0x1f15, 0x1f18, 0x1f1a, 0x1f1d,
@@ -4291,11 +4567,12 @@ def test_ad_name00104m19_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00104m/AD_name00104m19_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00104m18_positive(save_xml):
+def test_ad_name00104m18_positive(json_360, save_output):
     """
     Attributes have names that begin with the basic characters 0x11ab,
     0x11ae, 0x11ae, 0x11af, 0x11b7, 0x11b7, 0x11b8, 0x11ba, 0x11bc,
@@ -4311,11 +4588,12 @@ def test_ad_name00104m18_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00104m/AD_name00104m18_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00104m17_positive(save_xml):
+def test_ad_name00104m17_positive(json_360, save_output):
     """
     Attributes have names that begin with the basic characters 0x115f,
     0x1160, 0x1161, 0x1163, 0x1165, 0x1167, 0x1169, 0x116d, 0x116d,
@@ -4331,11 +4609,12 @@ def test_ad_name00104m17_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00104m/AD_name00104m17_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00104m16_positive(save_xml):
+def test_ad_name00104m16_positive(json_360, save_output):
     """
     Attributes have names that begin with the basic characters 0x110b,
     0x110b, 0x110c, 0x110e, 0x1110, 0x1112, 0x113c, 0x113e, 0x1140,
@@ -4351,11 +4630,12 @@ def test_ad_name00104m16_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00104m/AD_name00104m16_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00104m15_positive(save_xml):
+def test_ad_name00104m15_positive(json_360, save_output):
     """
     Attributes have names that begin with the basic characters 0x0eb0,
     0x0eb2, 0x0eb2, 0x0eb3, 0x0ebd, 0x0ec0, 0x0ec2, 0x0ec4, 0x0f40,
@@ -4372,11 +4652,12 @@ def test_ad_name00104m15_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00104m/AD_name00104m15_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00104m14_positive(save_xml):
+def test_ad_name00104m14_positive(json_360, save_output):
     """
     Attributes have names that begin with the basic characters 0x0e87,
     0x0e87, 0x0e88, 0x0e8a, 0x0e8d, 0x0e94, 0x0e95, 0x0e97, 0x0e99,
@@ -4393,11 +4674,12 @@ def test_ad_name00104m14_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00104m/AD_name00104m14_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00104m13_positive(save_xml):
+def test_ad_name00104m13_positive(json_360, save_output):
     """
     Attributes have names that begin with the basic characters 0x0d0e,
     0x0d0f, 0x0d10, 0x0d12, 0x0d1d, 0x0d28, 0x0d2a, 0x0d31, 0x0d39,
@@ -4415,11 +4697,12 @@ def test_ad_name00104m13_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00104m/AD_name00104m13_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00104m12_positive(save_xml):
+def test_ad_name00104m12_positive(json_360, save_output):
     """
     Attributes have names that begin with the basic characters 0x0c35,
     0x0c37, 0x0c39, 0x0c60, 0x0c60, 0x0c61, 0x0c85, 0x0c88, 0x0c8c,
@@ -4438,11 +4721,12 @@ def test_ad_name00104m12_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00104m/AD_name00104m12_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00104m11_positive(save_xml):
+def test_ad_name00104m11_positive(json_360, save_output):
     """
     Attributes have names that begin with the basic characters 0x0b9c,
     0x0b9e, 0x0b9e, 0x0b9f, 0x0ba3, 0x0ba3, 0x0ba4, 0x0ba8, 0x0ba9,
@@ -4461,11 +4745,12 @@ def test_ad_name00104m11_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00104m/AD_name00104m11_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00104m10_positive(save_xml):
+def test_ad_name00104m10_positive(json_360, save_output):
     """
     Attributes have names that begin with the basic characters 0x0b2a,
     0x0b2d, 0x0b30, 0x0b32, 0x0b32, 0x0b33, 0x0b36, 0x0b37, 0x0b39,
@@ -4484,11 +4769,12 @@ def test_ad_name00104m10_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00104m/AD_name00104m10_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00104m1_positive(save_xml):
+def test_ad_name00104m1_positive(json_360, save_output):
     """
     Attributes have names that begin with the basic characters 0x0041,
     0x004d, 0x005a, 0x0061, 0x0064, 0x0068, 0x006a, 0x0072, 0x007a,
@@ -4507,11 +4793,12 @@ def test_ad_name00104m1_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00104m/AD_name00104m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00103m2_positive(save_xml):
+def test_ad_name00103m2_positive(json_360, save_output):
     """
     Attributes have names that end with the extender characters 0x30fc,
     0x30fd, 0x30fe (valid schema) Declare 3 local string attributes with
@@ -4524,11 +4811,12 @@ def test_ad_name00103m2_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00103m/AD_name00103m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00103m1_positive(save_xml):
+def test_ad_name00103m1_positive(json_360, save_output):
     """
     Attributes have names that end with the extender characters 0x00b7,
     0x02d0, 0x02d1, 0x0387, 0x0640, 0x0e46, 0x0ec6, 0x3005, 0x3031,
@@ -4543,11 +4831,12 @@ def test_ad_name00103m1_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00103m/AD_name00103m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00102m1_positive(save_xml):
+def test_ad_name00102m1_positive(json_360, save_output):
     """
     Attributes have names that begin with the ideographic characters
     0x4e00, 0x76d2, 0x9fa5, 0x3007, 0x3021, 0x3025, 0x3029 (valid schema)
@@ -4561,11 +4850,12 @@ def test_ad_name00102m1_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00102m/AD_name00102m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00101m4_positive(save_xml):
+def test_ad_name00101m4_positive(json_360, save_output):
     """
     Attribute in schema with "qualified" default form (valid schema)
     Attribute which has no explicitly declared form should be used in
@@ -4576,12 +4866,13 @@ def test_ad_name00101m4_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00101m/AD_name00101m4_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_ad_name00101m4_negative(save_xml):
+def test_ad_name00101m4_negative(json_360, save_output):
     """
     Attribute in schema with "qualified" default form (valid schema)
     Attribute which has no explicitly declared form should be used in
@@ -4592,11 +4883,12 @@ def test_ad_name00101m4_negative(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00101m/AD_name00101m4_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00101m3_positive(save_xml):
+def test_ad_name00101m3_positive(json_360, save_output):
     """
     Attribute explicitly declared "unqualified" while default form is
     "qualified" (valid schema) Attribute with explicitly declared form
@@ -4607,12 +4899,13 @@ def test_ad_name00101m3_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00101m/AD_name00101m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_ad_name00101m3_negative(save_xml):
+def test_ad_name00101m3_negative(json_360, save_output):
     """
     Attribute explicitly declared "unqualified" while default form is
     "qualified" (valid schema) Attribute with explicitly declared form
@@ -4623,11 +4916,12 @@ def test_ad_name00101m3_negative(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00101m/AD_name00101m3_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00101m2_positive(save_xml):
+def test_ad_name00101m2_positive(json_360, save_output):
     """
     Attribute in schema with "unqualified" default form (valid schema)
     Attribute which has no explicitly declared form should be used in
@@ -4638,12 +4932,13 @@ def test_ad_name00101m2_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00101m/AD_name00101m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_ad_name00101m2_negative(save_xml):
+def test_ad_name00101m2_negative(json_360, save_output):
     """
     Attribute in schema with "unqualified" default form (valid schema)
     Attribute which has no explicitly declared form should be used in
@@ -4654,11 +4949,12 @@ def test_ad_name00101m2_negative(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00101m/AD_name00101m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_name00101m1_positive(save_xml):
+def test_ad_name00101m1_positive(json_360, save_output):
     """
     Attribute explicitly declared "qualified" while default form is
     "unqualified" (valid schema) Attribute with explicitly declared form
@@ -4669,12 +4965,13 @@ def test_ad_name00101m1_positive(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00101m/AD_name00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_ad_name00101m1_negative(save_xml):
+def test_ad_name00101m1_negative(json_360, save_output):
     """
     Attribute explicitly declared "qualified" while default form is
     "unqualified" (valid schema) Attribute with explicitly declared form
@@ -4685,11 +4982,12 @@ def test_ad_name00101m1_negative(save_xml):
         instance="sunData/AttrDecl/AD_name/AD_name00101m/AD_name00101m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_annotation00101m2_positive(save_xml):
+def test_ad_annotation00101m2_positive(json_360, save_output):
     """
     machine-targeted annotation for attribute declarations (valid schema)
     Annotations provide for human- and machine-targeted annotations of
@@ -4700,11 +4998,12 @@ def test_ad_annotation00101m2_positive(save_xml):
         instance="sunData/AttrDecl/AD_annotation/AD_annotation00101m/AD_annotation00101m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_ad_annotation00101m1_positive(save_xml):
+def test_ad_annotation00101m1_positive(json_360, save_output):
     """
     human-targeted annotation for attribute declarations (valid schema)
     Annotations provide for human- and machine-targeted annotations of
@@ -4715,11 +5014,12 @@ def test_ad_annotation00101m1_positive(save_xml):
         instance="sunData/AttrDecl/AD_annotation/AD_annotation00101m/AD_annotation00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_au_valconstr00101m1_positive(save_xml):
+def test_au_valconstr00101m1_positive(json_360, save_output):
     """
     Attribute with fixed value is declared within element by reference
     (valid schema) Attribute declared with fixed value may not have
@@ -4730,12 +5030,13 @@ def test_au_valconstr00101m1_positive(save_xml):
         instance="sunData/AttrUse/AU_valConstr/AU_valConstr00101m/AU_valConstr00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_au_valconstr00101m1_negative(save_xml):
+def test_au_valconstr00101m1_negative(json_360, save_output):
     """
     Attribute with fixed value is declared within element by reference
     (valid schema) Attribute declared with fixed value may not have
@@ -4746,11 +5047,12 @@ def test_au_valconstr00101m1_negative(save_xml):
         instance="sunData/AttrUse/AU_valConstr/AU_valConstr00101m/AU_valConstr00101m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_au_required00101m1_positive(save_xml):
+def test_au_required00101m1_positive(json_360, save_output):
     """
     Attribute use is declared required. (valid schema) Element whose
     attribute use is declared required should has the attribute specified.
@@ -4760,12 +5062,13 @@ def test_au_required00101m1_positive(save_xml):
         instance="sunData/AttrUse/AU_required/AU_required00101m/AU_required00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_au_required00101m1_negative(save_xml):
+def test_au_required00101m1_negative(json_360, save_output):
     """
     Attribute use is declared required. (valid schema) Element whose
     attribute use is declared required should has the attribute specified.
@@ -4775,11 +5078,12 @@ def test_au_required00101m1_negative(save_xml):
         instance="sunData/AttrUse/AU_required/AU_required00101m/AU_required00101m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_au_attrdecl00101m1_p_positive(save_xml):
+def test_au_attrdecl00101m1_p_positive(json_360, save_output):
     """
     Attribute declaration is resolved for attribute use. (valid schema)
     Attribute use should has proper ref value to be resolved to its
@@ -4790,11 +5094,12 @@ def test_au_attrdecl00101m1_p_positive(save_xml):
         instance="sunData/AttrUse/AU_attrDecl/AU_attrDecl00101m/AU_attrDecl00101m1.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_targetns00101m_target_ns00101m1_p(save_xml):
+def test_targetns00101m_target_ns00101m1_p(json_360, save_output):
     """
     Simple types are identified by their {name} and {target namespace}.
     (valid schema) Simple types are identified by their {name} and {target
@@ -4805,12 +5110,13 @@ def test_targetns00101m_target_ns00101m1_p(save_xml):
         instance="sunData/CType/targetNS/targetNS00101m/targetNS00101m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_targetns00101m_target_ns00101m1_n(save_xml):
+def test_targetns00101m_target_ns00101m1_n(json_360, save_output):
     """
     Simple types are identified by their {name} and {target namespace}.
     (valid schema) Simple types are identified by their {name} and {target
@@ -4821,11 +5127,12 @@ def test_targetns00101m_target_ns00101m1_n(save_xml):
         instance="sunData/CType/targetNS/targetNS00101m/targetNS00101m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_psubstitutions00104m_p_substitutions00104m1_p(save_xml):
+def test_psubstitutions00104m_p_substitutions00104m1_p(json_360, save_output):
     """
     {prohibited substitutions} is #all (valid schema) {prohibited
     substitutions} determine whether an element declaration appearing in a
@@ -4837,12 +5144,13 @@ def test_psubstitutions00104m_p_substitutions00104m1_p(save_xml):
         instance="sunData/CType/pSubstitutions/pSubstitutions00104m/pSubstitutions00104m1_p.xml",
         class_name="E",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_psubstitutions00104m_p_substitutions00104m1_n(save_xml):
+def test_psubstitutions00104m_p_substitutions00104m1_n(json_360, save_output):
     """
     {prohibited substitutions} is #all (valid schema) {prohibited
     substitutions} determine whether an element declaration appearing in a
@@ -4854,11 +5162,12 @@ def test_psubstitutions00104m_p_substitutions00104m1_n(save_xml):
         instance="sunData/CType/pSubstitutions/pSubstitutions00104m/pSubstitutions00104m1_n.xml",
         class_name="E",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_psubstitutions00104m_p_substitutions00104m2_p(save_xml):
+def test_psubstitutions00104m_p_substitutions00104m2_p(json_360, save_output):
     """
     {prohibited substitutions} is #all (valid schema) {prohibited
     substitutions} determine whether an element declaration appearing in a
@@ -4870,12 +5179,13 @@ def test_psubstitutions00104m_p_substitutions00104m2_p(save_xml):
         instance="sunData/CType/pSubstitutions/pSubstitutions00104m/pSubstitutions00104m2_p.xml",
         class_name="E",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_psubstitutions00104m_p_substitutions00104m2_n(save_xml):
+def test_psubstitutions00104m_p_substitutions00104m2_n(json_360, save_output):
     """
     {prohibited substitutions} is #all (valid schema) {prohibited
     substitutions} determine whether an element declaration appearing in a
@@ -4887,11 +5197,12 @@ def test_psubstitutions00104m_p_substitutions00104m2_n(save_xml):
         instance="sunData/CType/pSubstitutions/pSubstitutions00104m/pSubstitutions00104m2_n.xml",
         class_name="E",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_psubstitutions00103m_p_substitutions00103m1_p(save_xml):
+def test_psubstitutions00103m_p_substitutions00103m1_p(json_360, save_output):
     """
     {prohibited substitutions} is restriction (valid schema) {prohibited
     substitutions} determine whether an element declaration appearing in a
@@ -4903,12 +5214,13 @@ def test_psubstitutions00103m_p_substitutions00103m1_p(save_xml):
         instance="sunData/CType/pSubstitutions/pSubstitutions00103m/pSubstitutions00103m1_p.xml",
         class_name="E",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_psubstitutions00103m_p_substitutions00103m1_n(save_xml):
+def test_psubstitutions00103m_p_substitutions00103m1_n(json_360, save_output):
     """
     {prohibited substitutions} is restriction (valid schema) {prohibited
     substitutions} determine whether an element declaration appearing in a
@@ -4920,11 +5232,12 @@ def test_psubstitutions00103m_p_substitutions00103m1_n(save_xml):
         instance="sunData/CType/pSubstitutions/pSubstitutions00103m/pSubstitutions00103m1_n.xml",
         class_name="E",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_psubstitutions00103m_p_substitutions00103m2_p(save_xml):
+def test_psubstitutions00103m_p_substitutions00103m2_p(json_360, save_output):
     """
     {prohibited substitutions} is restriction (valid schema) {prohibited
     substitutions} determine whether an element declaration appearing in a
@@ -4936,12 +5249,13 @@ def test_psubstitutions00103m_p_substitutions00103m2_p(save_xml):
         instance="sunData/CType/pSubstitutions/pSubstitutions00103m/pSubstitutions00103m2_p.xml",
         class_name="E",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_psubstitutions00103m_p_substitutions00103m2_n(save_xml):
+def test_psubstitutions00103m_p_substitutions00103m2_n(json_360, save_output):
     """
     {prohibited substitutions} is restriction (valid schema) {prohibited
     substitutions} determine whether an element declaration appearing in a
@@ -4953,11 +5267,12 @@ def test_psubstitutions00103m_p_substitutions00103m2_n(save_xml):
         instance="sunData/CType/pSubstitutions/pSubstitutions00103m/pSubstitutions00103m2_n.xml",
         class_name="E",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_psubstitutions00102m_p_substitutions00102m1_p(save_xml):
+def test_psubstitutions00102m_p_substitutions00102m1_p(json_360, save_output):
     """
     {prohibited substitutions} is extension (valid schema) {prohibited
     substitutions} determine whether an element declaration appearing in a
@@ -4969,12 +5284,13 @@ def test_psubstitutions00102m_p_substitutions00102m1_p(save_xml):
         instance="sunData/CType/pSubstitutions/pSubstitutions00102m/pSubstitutions00102m1_p.xml",
         class_name="E",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_psubstitutions00102m_p_substitutions00102m1_n(save_xml):
+def test_psubstitutions00102m_p_substitutions00102m1_n(json_360, save_output):
     """
     {prohibited substitutions} is extension (valid schema) {prohibited
     substitutions} determine whether an element declaration appearing in a
@@ -4986,11 +5302,12 @@ def test_psubstitutions00102m_p_substitutions00102m1_n(save_xml):
         instance="sunData/CType/pSubstitutions/pSubstitutions00102m/pSubstitutions00102m1_n.xml",
         class_name="E",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_psubstitutions00102m_p_substitutions00102m2_p(save_xml):
+def test_psubstitutions00102m_p_substitutions00102m2_p(json_360, save_output):
     """
     {prohibited substitutions} is extension (valid schema) {prohibited
     substitutions} determine whether an element declaration appearing in a
@@ -5002,12 +5319,13 @@ def test_psubstitutions00102m_p_substitutions00102m2_p(save_xml):
         instance="sunData/CType/pSubstitutions/pSubstitutions00102m/pSubstitutions00102m2_p.xml",
         class_name="E",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_psubstitutions00102m_p_substitutions00102m2_n(save_xml):
+def test_psubstitutions00102m_p_substitutions00102m2_n(json_360, save_output):
     """
     {prohibited substitutions} is extension (valid schema) {prohibited
     substitutions} determine whether an element declaration appearing in a
@@ -5019,11 +5337,12 @@ def test_psubstitutions00102m_p_substitutions00102m2_n(save_xml):
         instance="sunData/CType/pSubstitutions/pSubstitutions00102m/pSubstitutions00102m2_n.xml",
         class_name="E",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_psubstitutions00101m_p_substitutions00101m1_p(save_xml):
+def test_psubstitutions00101m_p_substitutions00101m1_p(json_360, save_output):
     """
     {prohibited substitutions} is empty (valid schema) If {prohibited
     substitutions} is empty, then all substitutions are allowed.
@@ -5033,12 +5352,13 @@ def test_psubstitutions00101m_p_substitutions00101m1_p(save_xml):
         instance="sunData/CType/pSubstitutions/pSubstitutions00101m/pSubstitutions00101m1_p.xml",
         class_name="E",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_psubstitutions00101m_p_substitutions00101m1_n(save_xml):
+def test_psubstitutions00101m_p_substitutions00101m1_n(json_360, save_output):
     """
     {prohibited substitutions} is empty (valid schema) If {prohibited
     substitutions} is empty, then all substitutions are allowed.
@@ -5048,11 +5368,12 @@ def test_psubstitutions00101m_p_substitutions00101m1_n(save_xml):
         instance="sunData/CType/pSubstitutions/pSubstitutions00101m/pSubstitutions00101m1_n.xml",
         class_name="E",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_psubstitutions00101m_p_substitutions00101m2_p(save_xml):
+def test_psubstitutions00101m_p_substitutions00101m2_p(json_360, save_output):
     """
     {prohibited substitutions} is empty (valid schema) If {prohibited
     substitutions} is empty, then all substitutions are allowed.
@@ -5062,12 +5383,13 @@ def test_psubstitutions00101m_p_substitutions00101m2_p(save_xml):
         instance="sunData/CType/pSubstitutions/pSubstitutions00101m/pSubstitutions00101m2_p.xml",
         class_name="E",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_psubstitutions00101m_p_substitutions00101m2_n(save_xml):
+def test_psubstitutions00101m_p_substitutions00101m2_n(json_360, save_output):
     """
     {prohibited substitutions} is empty (valid schema) If {prohibited
     substitutions} is empty, then all substitutions are allowed.
@@ -5077,11 +5399,12 @@ def test_psubstitutions00101m_p_substitutions00101m2_n(save_xml):
         instance="sunData/CType/pSubstitutions/pSubstitutions00101m/pSubstitutions00101m2_n.xml",
         class_name="E",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00101m_name00101m1_p(save_xml):
+def test_name00101m_name00101m1_p(json_360, save_output):
     """
     Simple types are identified by their {name} and {target namespace}.
     (valid schema) Simple types are identified by their {name} and {target
@@ -5092,12 +5415,13 @@ def test_name00101m_name00101m1_p(save_xml):
         instance="sunData/CType/name/name00101m/name00101m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_name00101m_name00101m1_n(save_xml):
+def test_name00101m_name00101m1_n(json_360, save_output):
     """
     Simple types are identified by their {name} and {target namespace}.
     (valid schema) Simple types are identified by their {name} and {target
@@ -5108,11 +5432,12 @@ def test_name00101m_name00101m1_n(save_xml):
         instance="sunData/CType/name/name00101m/name00101m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_final00101m3_positive(save_xml):
+def test_final00101m3_positive(json_360, save_output):
     """
     the value is restriction (valid schema) The explicit values extension,
     and restriction prevent further derivations by extension and
@@ -5125,12 +5450,13 @@ def test_final00101m3_positive(save_xml):
         instance="sunData/CType/final/final00101m/final00101m3_p.xml",
         class_name="B",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_final00101m3_negative(save_xml):
+def test_final00101m3_negative(json_360, save_output):
     """
     the value is restriction (valid schema) The explicit values extension,
     and restriction prevent further derivations by extension and
@@ -5143,11 +5469,12 @@ def test_final00101m3_negative(save_xml):
         instance="sunData/CType/final/final00101m/final00101m3_n.xml",
         class_name="B",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_derivationmethod00102m2_positive(save_xml):
+def test_derivationmethod00102m2_positive(json_360, save_output):
     """
     extension of the type int by adding the attribute 't' of the type int
     (valid schema) Schema Component Constraint: Derivation Valid
@@ -5159,12 +5486,13 @@ def test_derivationmethod00102m2_positive(save_xml):
         instance="sunData/CType/derivationMethod/derivationMethod00102m/derivationMethod00102m2_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_derivationmethod00102m2_negative(save_xml):
+def test_derivationmethod00102m2_negative(json_360, save_output):
     """
     extension of the type int by adding the attribute 't' of the type int
     (valid schema) Schema Component Constraint: Derivation Valid
@@ -5176,11 +5504,12 @@ def test_derivationmethod00102m2_negative(save_xml):
         instance="sunData/CType/derivationMethod/derivationMethod00102m/derivationMethod00102m2_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_derivationmethod00102m1_positive(save_xml):
+def test_derivationmethod00102m1_positive(json_360, save_output):
     """
     extension of the type int (valid schema) Schema Component Constraint:
     Derivation Valid (Extension). If the {base type definition} is a
@@ -5191,12 +5520,13 @@ def test_derivationmethod00102m1_positive(save_xml):
         instance="sunData/CType/derivationMethod/derivationMethod00102m/derivationMethod00102m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_derivationmethod00102m1_negative(save_xml):
+def test_derivationmethod00102m1_negative(json_360, save_output):
     """
     extension of the type int (valid schema) Schema Component Constraint:
     Derivation Valid (Extension). If the {base type definition} is a
@@ -5207,11 +5537,12 @@ def test_derivationmethod00102m1_negative(save_xml):
         instance="sunData/CType/derivationMethod/derivationMethod00102m/derivationMethod00102m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_derivationmethod00101m2_positive(save_xml):
+def test_derivationmethod00101m2_positive(json_360, save_output):
     """
     items: 1.1, 1.2, 1.3, 1.4.2.1, 1.4.2.2.1 (valid schema) Schema
     Component Constraint: Derivation Valid (Extension). The {base type
@@ -5222,12 +5553,13 @@ def test_derivationmethod00101m2_positive(save_xml):
         instance="sunData/CType/derivationMethod/derivationMethod00101m/derivationMethod00101m2_p.xml",
         class_name="B",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_derivationmethod00101m2_negative(save_xml):
+def test_derivationmethod00101m2_negative(json_360, save_output):
     """
     items: 1.1, 1.2, 1.3, 1.4.2.1, 1.4.2.2.1 (valid schema) Schema
     Component Constraint: Derivation Valid (Extension). The {base type
@@ -5238,11 +5570,12 @@ def test_derivationmethod00101m2_negative(save_xml):
         instance="sunData/CType/derivationMethod/derivationMethod00101m/derivationMethod00101m2_n.xml",
         class_name="B",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_derivationmethod00101m1_positive(save_xml):
+def test_derivationmethod00101m1_positive(json_360, save_output):
     """
     items: 1.1, 1.2, 1.3, 1.4.1 (valid schema) Schema Component
     Constraint: Derivation Valid (Extension). The {base type definition}
@@ -5253,12 +5586,13 @@ def test_derivationmethod00101m1_positive(save_xml):
         instance="sunData/CType/derivationMethod/derivationMethod00101m/derivationMethod00101m1_p.xml",
         class_name="B",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_derivationmethod00101m1_negative(save_xml):
+def test_derivationmethod00101m1_negative(json_360, save_output):
     """
     items: 1.1, 1.2, 1.3, 1.4.1 (valid schema) Schema Component
     Constraint: Derivation Valid (Extension). The {base type definition}
@@ -5269,11 +5603,12 @@ def test_derivationmethod00101m1_negative(save_xml):
         instance="sunData/CType/derivationMethod/derivationMethod00101m/derivationMethod00101m1_n.xml",
         class_name="B",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_contenttype00401m_content_type00401m1_p(save_xml):
+def test_contenttype00401m_content_type00401m1_p(json_360, save_output):
     """
     An mixed content type (valid schema) A mixed {content type}
     *validates* elements whose element [children] (i.e. specifically
@@ -5285,12 +5620,13 @@ def test_contenttype00401m_content_type00401m1_p(save_xml):
         instance="sunData/CType/contentType/contentType00401m/contentType00401m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_contenttype00401m_content_type00401m1_n(save_xml):
+def test_contenttype00401m_content_type00401m1_n(json_360, save_output):
     """
     An mixed content type (valid schema) A mixed {content type}
     *validates* elements whose element [children] (i.e. specifically
@@ -5302,11 +5638,12 @@ def test_contenttype00401m_content_type00401m1_n(save_xml):
         instance="sunData/CType/contentType/contentType00401m/contentType00401m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_contenttype00301m_content_type00301m1_p(save_xml):
+def test_contenttype00301m_content_type00301m1_p(json_360, save_output):
     """
     An element-only content type (valid schema) An element-only {content
     type} *validates* elements with [children] that conform to the
@@ -5317,12 +5654,13 @@ def test_contenttype00301m_content_type00301m1_p(save_xml):
         instance="sunData/CType/contentType/contentType00301m/contentType00301m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_contenttype00301m_content_type00301m1_n(save_xml):
+def test_contenttype00301m_content_type00301m1_n(json_360, save_output):
     """
     An element-only content type (valid schema) An element-only {content
     type} *validates* elements with [children] that conform to the
@@ -5333,11 +5671,12 @@ def test_contenttype00301m_content_type00301m1_n(save_xml):
         instance="sunData/CType/contentType/contentType00301m/contentType00301m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_contenttype00201m_content_type00201m1_p(save_xml):
+def test_contenttype00201m_content_type00201m1_p(json_360, save_output):
     """
     A simple content type (valid schema) A {content type} which is a
     Simple Type Definition (2.2.1.2) *validates* elements with character-
@@ -5348,12 +5687,13 @@ def test_contenttype00201m_content_type00201m1_p(save_xml):
         instance="sunData/CType/contentType/contentType00201m/contentType00201m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_contenttype00201m_content_type00201m1_n(save_xml):
+def test_contenttype00201m_content_type00201m1_n(json_360, save_output):
     """
     A simple content type (valid schema) A {content type} which is a
     Simple Type Definition (2.2.1.2) *validates* elements with character-
@@ -5364,11 +5704,12 @@ def test_contenttype00201m_content_type00201m1_n(save_xml):
         instance="sunData/CType/contentType/contentType00201m/contentType00201m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_contenttype00101m_content_type00101m1_p(save_xml):
+def test_contenttype00101m_content_type00101m1_p(json_360, save_output):
     """
     An empty content type (valid schema) A {content type} with the
     distinguished value empty *validates* elements with no character or
@@ -5379,12 +5720,13 @@ def test_contenttype00101m_content_type00101m1_p(save_xml):
         instance="sunData/CType/contentType/contentType00101m/contentType00101m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_contenttype00101m_content_type00101m1_n(save_xml):
+def test_contenttype00101m_content_type00101m1_n(json_360, save_output):
     """
     An empty content type (valid schema) A {content type} with the
     distinguished value empty *validates* elements with no character or
@@ -5395,11 +5737,12 @@ def test_contenttype00101m_content_type00101m1_n(save_xml):
         instance="sunData/CType/contentType/contentType00101m/contentType00101m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_basetd00101m4_positive(save_xml):
+def test_basetd00101m4_positive(json_360, save_output):
     """
     restriction of complex content (valid schema) The type definition
     resolved to by the actual value of the base [attribute].
@@ -5409,12 +5752,13 @@ def test_basetd00101m4_positive(save_xml):
         instance="sunData/CType/baseTD/baseTD00101m/baseTD00101m4_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_basetd00101m4_negative(save_xml):
+def test_basetd00101m4_negative(json_360, save_output):
     """
     restriction of complex content (valid schema) The type definition
     resolved to by the actual value of the base [attribute].
@@ -5424,11 +5768,12 @@ def test_basetd00101m4_negative(save_xml):
         instance="sunData/CType/baseTD/baseTD00101m/baseTD00101m4_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_basetd00101m3_positive(save_xml):
+def test_basetd00101m3_positive(json_360, save_output):
     """
     extention of complex content (valid schema) The type definition
     resolved to by the actual value of the base [attribute].
@@ -5438,12 +5783,13 @@ def test_basetd00101m3_positive(save_xml):
         instance="sunData/CType/baseTD/baseTD00101m/baseTD00101m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_basetd00101m3_negative(save_xml):
+def test_basetd00101m3_negative(json_360, save_output):
     """
     extention of complex content (valid schema) The type definition
     resolved to by the actual value of the base [attribute].
@@ -5453,11 +5799,12 @@ def test_basetd00101m3_negative(save_xml):
         instance="sunData/CType/baseTD/baseTD00101m/baseTD00101m3_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_basetd00101m2_positive(save_xml):
+def test_basetd00101m2_positive(json_360, save_output):
     """
     extention of simple content (valid schema) The type definition
     resolved to by the actual value of the base [attribute].
@@ -5467,12 +5814,13 @@ def test_basetd00101m2_positive(save_xml):
         instance="sunData/CType/baseTD/baseTD00101m/baseTD00101m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_basetd00101m2_negative(save_xml):
+def test_basetd00101m2_negative(json_360, save_output):
     """
     extention of simple content (valid schema) The type definition
     resolved to by the actual value of the base [attribute].
@@ -5482,11 +5830,12 @@ def test_basetd00101m2_negative(save_xml):
         instance="sunData/CType/baseTD/baseTD00101m/baseTD00101m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_basetd00101m1_positive(save_xml):
+def test_basetd00101m1_positive(json_360, save_output):
     """
     restriction of simple content (valid schema) The type definition
     resolved to by the actual value of the base [attribute].
@@ -5496,12 +5845,13 @@ def test_basetd00101m1_positive(save_xml):
         instance="sunData/CType/baseTD/baseTD00101m/baseTD00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_basetd00101m1_negative(save_xml):
+def test_basetd00101m1_negative(json_360, save_output):
     """
     restriction of simple content (valid schema) The type definition
     resolved to by the actual value of the base [attribute].
@@ -5511,11 +5861,12 @@ def test_basetd00101m1_negative(save_xml):
         instance="sunData/CType/baseTD/baseTD00101m/baseTD00101m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_attributeuses00101m1_positive(save_xml):
+def test_attributeuses00101m1_positive(json_360, save_output):
     """
     <attribute> [children] (valid schema) The set of attribute uses
     corresponding to the <attribute> [children].
@@ -5525,12 +5876,13 @@ def test_attributeuses00101m1_positive(save_xml):
         instance="sunData/CType/attributeUses/attributeUses00101m/attributeUses00101m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_attributeuses00101m1_negative(save_xml):
+def test_attributeuses00101m1_negative(json_360, save_output):
     """
     <attribute> [children] (valid schema) The set of attribute uses
     corresponding to the <attribute> [children].
@@ -5540,11 +5892,12 @@ def test_attributeuses00101m1_negative(save_xml):
         instance="sunData/CType/attributeUses/attributeUses00101m/attributeUses00101m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_attrwildcard00101m1_positive(save_xml):
+def test_attrwildcard00101m1_positive(json_360, save_output):
     """
     type definition with any attributes (valid schema) any: [attributes]
     can include attributes with any qualified or unqualified name.
@@ -5554,11 +5907,12 @@ def test_attrwildcard00101m1_positive(save_xml):
         instance="sunData/CType/attrWildcard/attrWildcard00101m/attrWildcard00101m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotation00101m2_positive(save_xml):
+def test_annotation00101m2_positive(json_360, save_output):
     """
     machine-targeted annotation for complex type definition (valid schema)
     Annotations provide for human- and machine-targeted annotations of
@@ -5569,11 +5923,12 @@ def test_annotation00101m2_positive(save_xml):
         instance="sunData/CType/annotation/annotation00101m/annotation00101m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotation00101m1_positive_355(save_xml):
+def test_annotation00101m1_positive_355(json_360, save_output):
     """
     human-targeted annotation for complex type definition (valid schema)
     Annotations provide for human- and machine-targeted annotations of
@@ -5584,12 +5939,13 @@ def test_annotation00101m1_positive_355(save_xml):
         instance="sunData/CType/annotation/annotation00101m/annotation00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_abstract00101m2_negative(save_xml):
+def test_abstract00101m2_negative(json_360, save_output):
     """
     declaration of element of abstract type (valid schema) Complex types
     for which {abstract} is true must not be used as the {type definition}
@@ -5600,11 +5956,12 @@ def test_abstract00101m2_negative(save_xml):
         instance="sunData/CType/abstract/abstract00101m/abstract00101m2_n.xml",
         class_name="B",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_abstract00101m1_positive(save_xml):
+def test_abstract00101m1_positive(json_360, save_output):
     """
     abstract type extension (valid schema) Abstract complex types can be
     used as {base type definition}s.
@@ -5614,12 +5971,13 @@ def test_abstract00101m1_positive(save_xml):
         instance="sunData/CType/abstract/abstract00101m/abstract00101m1_p.xml",
         class_name="B",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_abstract00101m1_negative(save_xml):
+def test_abstract00101m1_negative(json_360, save_output):
     """
     abstract type extension (valid schema) Abstract complex types can be
     used as {base type definition}s.
@@ -5629,12 +5987,13 @@ def test_abstract00101m1_negative(save_xml):
         instance="sunData/CType/abstract/abstract00101m/abstract00101m1_n.xml",
         class_name="B",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_valueconstraint01101m4_negative(save_xml):
+def test_valueconstraint01101m4_negative(json_360, save_output):
     """
     default value is invalid for the local type definition (valid schema)
     For a string to be a valid default with respect to a type definition,
@@ -5647,11 +6006,12 @@ def test_valueconstraint01101m4_negative(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint01101m/valueConstraint01101m4_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint01101m3_positive(save_xml):
+def test_valueconstraint01101m3_positive(json_360, save_output):
     """
     default value is valid (valid schema) For a string to be a valid
     default with respect to a type definition, if the type definition is a
@@ -5663,12 +6023,13 @@ def test_valueconstraint01101m3_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint01101m/valueConstraint01101m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_valueconstraint01101m2_negative(save_xml):
+def test_valueconstraint01101m2_negative(json_360, save_output):
     """
     fixed value is invalid for the local type definition (valid schema)
     For a string to be a valid default with respect to a type definition,
@@ -5681,11 +6042,12 @@ def test_valueconstraint01101m2_negative(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint01101m/valueConstraint01101m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint01101m1_positive(save_xml):
+def test_valueconstraint01101m1_positive(json_360, save_output):
     """
     fixed value is valid (valid schema) For a string to be a valid default
     with respect to a type definition, if the type definition is a simple
@@ -5697,11 +6059,12 @@ def test_valueconstraint01101m1_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint01101m/valueConstraint01101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint01001m8_positive(save_xml):
+def test_valueconstraint01001m8_positive(json_360, save_output):
     """
     default value constraint with string type (valid schema) Declare an
     element. Specify the following: type="xsd:string" default="alpha".
@@ -5712,11 +6075,12 @@ def test_valueconstraint01001m8_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m8_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint01001m7_positive(save_xml):
+def test_valueconstraint01001m7_positive(json_360, save_output):
     """
     fixed value constraint with string type (valid schema) Declare an
     element. Specify the following: type="xsd:string" fixed="alpha". Check
@@ -5727,11 +6091,12 @@ def test_valueconstraint01001m7_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m7_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint01001m4_positive(save_xml):
+def test_valueconstraint01001m4_positive(json_360, save_output):
     """
     no value constraint with a type derived from ID (valid schema) Declare
     an element. Specify the following: type="derivedFromID". Check that
@@ -5742,11 +6107,12 @@ def test_valueconstraint01001m4_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m4_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint01001m1_positive(save_xml):
+def test_valueconstraint01001m1_positive(json_360, save_output):
     """
     no value constraint with ID type (valid schema) Declare an element.
     Specify the following: type="xsd:ID". Check that the declaration is
@@ -5757,11 +6123,12 @@ def test_valueconstraint01001m1_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00901m1_positive(save_xml):
+def test_valueconstraint00901m1_positive(json_360, save_output):
     """
     value of simple content type must match the fixed value (valid schema)
     If the {content type} of the actual type definition is a simple type
@@ -5774,12 +6141,13 @@ def test_valueconstraint00901m1_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00901m/valueConstraint00901m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_valueconstraint00901m1_negative(save_xml):
+def test_valueconstraint00901m1_negative(json_360, save_output):
     """
     value of simple content type must match the fixed value (valid schema)
     If the {content type} of the actual type definition is a simple type
@@ -5792,11 +6160,12 @@ def test_valueconstraint00901m1_negative(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00901m/valueConstraint00901m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00801m1_positive(save_xml):
+def test_valueconstraint00801m1_positive(json_360, save_output):
     """
     value of mixed content type must match the fixed value (valid schema)
     If the {content type} of the actual type definition is mixed, then the
@@ -5809,12 +6178,13 @@ def test_valueconstraint00801m1_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00801m/valueConstraint00801m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_valueconstraint00801m1_negative(save_xml):
+def test_valueconstraint00801m1_negative(json_360, save_output):
     """
     value of mixed content type must match the fixed value (valid schema)
     If the {content type} of the actual type definition is mixed, then the
@@ -5827,11 +6197,12 @@ def test_valueconstraint00801m1_negative(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00801m/valueConstraint00801m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00701m1_positive(save_xml):
+def test_valueconstraint00701m1_positive(json_360, save_output):
     """
     fixed value constraint forbids element children (valid schema) If
     there is a fixed {value constraint} the element information item must
@@ -5842,12 +6213,13 @@ def test_valueconstraint00701m1_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00701m/valueConstraint00701m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_valueconstraint00701m1_negative(save_xml):
+def test_valueconstraint00701m1_negative(json_360, save_output):
     """
     fixed value constraint forbids element children (valid schema) If
     there is a fixed {value constraint} the element information item must
@@ -5858,11 +6230,12 @@ def test_valueconstraint00701m1_negative(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00701m/valueConstraint00701m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00601m7_positive(save_xml):
+def test_valueconstraint00601m7_positive(json_360, save_output):
     """
     default value a derived type is valid (valid schema) The element
     information item with the lexical representation of the {value
@@ -5875,11 +6248,12 @@ def test_valueconstraint00601m7_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m7_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00601m5_positive(save_xml):
+def test_valueconstraint00601m5_positive(json_360, save_output):
     """
     fixed value of a derived type is valid (valid schema) The element
     information item with the lexical representation of the {value
@@ -5892,11 +6266,12 @@ def test_valueconstraint00601m5_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m5_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00601m3_positive(save_xml):
+def test_valueconstraint00601m3_positive(json_360, save_output):
     """
     default value of built-in type is valid (valid schema) The element
     information item with the lexical representation of the {value
@@ -5909,11 +6284,12 @@ def test_valueconstraint00601m3_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00601m1_positive(save_xml):
+def test_valueconstraint00601m1_positive(json_360, save_output):
     """
     fixed value of built-in type is valid (valid schema) The element
     information item with the lexical representation of the {value
@@ -5926,12 +6302,13 @@ def test_valueconstraint00601m1_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_valueconstraint00501m6_negative(save_xml):
+def test_valueconstraint00501m6_negative(json_360, save_output):
     """
     default value is invalid for the local type definition (valid schema)
     If the declaration has a {value constraint}, the item has neither
@@ -5946,11 +6323,12 @@ def test_valueconstraint00501m6_negative(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m6_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00501m5_positive(save_xml):
+def test_valueconstraint00501m5_positive(json_360, save_output):
     """
     default value is valid (valid schema) If the declaration has a {value
     constraint}, the item has neither element nor character [children] and
@@ -5964,11 +6342,12 @@ def test_valueconstraint00501m5_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m5_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00501m4_positive(save_xml):
+def test_valueconstraint00501m4_positive(json_360, save_output):
     """
     default value is valid (valid schema) If the declaration has a {value
     constraint}, the item has neither element nor character [children] and
@@ -5982,12 +6361,13 @@ def test_valueconstraint00501m4_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m4_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_valueconstraint00501m3_negative(save_xml):
+def test_valueconstraint00501m3_negative(json_360, save_output):
     """
     fixed value is invalid for the local type definition (valid schema) If
     the declaration has a {value constraint}, the item has neither element
@@ -6002,11 +6382,12 @@ def test_valueconstraint00501m3_negative(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m3_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00501m2_positive(save_xml):
+def test_valueconstraint00501m2_positive(json_360, save_output):
     """
     fixed value is valid (valid schema) If the declaration has a {value
     constraint}, the item has neither element nor character [children] and
@@ -6020,11 +6401,12 @@ def test_valueconstraint00501m2_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00501m1_positive(save_xml):
+def test_valueconstraint00501m1_positive(json_360, save_output):
     """
     fixed value is valid (valid schema) If the declaration has a {value
     constraint}, the item has neither element nor character [children] and
@@ -6038,11 +6420,12 @@ def test_valueconstraint00501m1_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00402m9_positive(save_xml):
+def test_valueconstraint00402m9_positive(json_360, save_output):
     """
     fixed value is set for anySimpleType (valid schema) Declare an
     element. Set type="xsd:anySimpleType" fixed="alpha". Check that the
@@ -6053,11 +6436,12 @@ def test_valueconstraint00402m9_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m9_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00402m7_positive(save_xml):
+def test_valueconstraint00402m7_positive(json_360, save_output):
     """
     fixed value is set for a simple type (valid schema) Declare an
     element. Set type="answer" fixed="true". The content type of type
@@ -6068,11 +6452,12 @@ def test_valueconstraint00402m7_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m7_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00402m5_positive(save_xml):
+def test_valueconstraint00402m5_positive(json_360, save_output):
     """
     fixed value is set for a complex type with a simple content (valid
     schema) Declare an element. Set type="answer" fixed="true". The
@@ -6084,11 +6469,12 @@ def test_valueconstraint00402m5_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m5_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00402m4_positive(save_xml):
+def test_valueconstraint00402m4_positive(json_360, save_output):
     """
     fixed value is set for anyType (valid schema) Declare an element. Set
     type="xsd:anyType" fixed="alpha". Check that the schema is valid.
@@ -6098,11 +6484,12 @@ def test_valueconstraint00402m4_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m4_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00402m3_positive(save_xml):
+def test_valueconstraint00402m3_positive(json_360, save_output):
     """
     fixed value is set for ur-type (valid schema) Declare an element. Set
     fixed="alpha". Check that the schema is valid.
@@ -6112,11 +6499,12 @@ def test_valueconstraint00402m3_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00402m1_positive(save_xml):
+def test_valueconstraint00402m1_positive(json_360, save_output):
     """
     fixed value is set for type boolean (valid schema) Declare an element.
     Set type="xsd:boolean" fixed="true". Check that the schema is valid.
@@ -6126,11 +6514,12 @@ def test_valueconstraint00402m1_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00401m9_positive(save_xml):
+def test_valueconstraint00401m9_positive(json_360, save_output):
     """
     default value is set for anySimpleType (valid schema) Declare an
     element. Set type="xsd:anySimpleType" default="alpha". Check that the
@@ -6141,11 +6530,12 @@ def test_valueconstraint00401m9_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m9_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00401m7_positive(save_xml):
+def test_valueconstraint00401m7_positive(json_360, save_output):
     """
     default value is set for a simple type (valid schema) Declare an
     element. Set type="answer" default="true". The content type of type
@@ -6156,11 +6546,12 @@ def test_valueconstraint00401m7_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m7_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00401m5_positive(save_xml):
+def test_valueconstraint00401m5_positive(json_360, save_output):
     """
     default value is set for a complex type with a simple content (valid
     schema) Declare an element. Set type="answer" default="true". The
@@ -6172,11 +6563,12 @@ def test_valueconstraint00401m5_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m5_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00401m4_positive(save_xml):
+def test_valueconstraint00401m4_positive(json_360, save_output):
     """
     default value is set for anyType (valid schema) Declare an element.
     Set type="xsd:anyType" default="alpha". Check that the schema is
@@ -6187,11 +6579,12 @@ def test_valueconstraint00401m4_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m4_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00401m3_positive(save_xml):
+def test_valueconstraint00401m3_positive(json_360, save_output):
     """
     default value is set for ur-type (valid schema) Declare an element.
     Set default="alpha". Check that the schema is valid.
@@ -6201,11 +6594,12 @@ def test_valueconstraint00401m3_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00401m1_positive(save_xml):
+def test_valueconstraint00401m1_positive(json_360, save_output):
     """
     default value is set for type boolean (valid schema) Declare an
     element. Set type="xsd:boolean" default="true". Check that the schema
@@ -6216,11 +6610,12 @@ def test_valueconstraint00401m1_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00301m2_positive(save_xml):
+def test_valueconstraint00301m2_positive(json_360, save_output):
     """
     only fixed is present (valid schema) Define an element. Set fixed="0".
     Check that the schema is valid.
@@ -6230,11 +6625,12 @@ def test_valueconstraint00301m2_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00301m/valueConstraint00301m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00301m1_positive(save_xml):
+def test_valueconstraint00301m1_positive(json_360, save_output):
     """
     only default is present (valid schema) Define an element. Set
     default="0". Check that the schema is valid.
@@ -6244,11 +6640,12 @@ def test_valueconstraint00301m1_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00301m/valueConstraint00301m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00201m_value_constraint00201m1_p(save_xml):
+def test_valueconstraint00201m_value_constraint00201m1_p(json_360, save_output):
     """
     Validation of the fixed value attribute. (valid schema) Define an
     elements with fixed value defined. Ensure that the value may be empty
@@ -6259,12 +6656,13 @@ def test_valueconstraint00201m_value_constraint00201m1_p(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00201m/valueConstraint00201m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_valueconstraint00201m_value_constraint00201m1_n(save_xml):
+def test_valueconstraint00201m_value_constraint00201m1_n(json_360, save_output):
     """
     Validation of the fixed value attribute. (valid schema) Define an
     elements with fixed value defined. Ensure that the value may be empty
@@ -6275,11 +6673,12 @@ def test_valueconstraint00201m_value_constraint00201m1_n(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00201m/valueConstraint00201m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_valueconstraint00101m1_positive(save_xml):
+def test_valueconstraint00101m1_positive(json_360, save_output):
     """
     Validation of the default value attribute (positive case). (valid
     schema) Define an elements with default value defined. Ensure that the
@@ -6290,11 +6689,12 @@ def test_valueconstraint00101m1_positive(save_xml):
         instance="sunData/ElemDecl/valueConstraint/valueConstraint00101m/valueConstraint00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef01501m1_positive(save_xml):
+def test_typedef01501m1_positive(json_360, save_output):
     """
     value must be valid with respect to the type definition (valid schema)
     If the type definition is a complex type definition, then the element
@@ -6306,12 +6706,13 @@ def test_typedef01501m1_positive(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef01501m/typeDef01501m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_typedef01501m1_negative(save_xml):
+def test_typedef01501m1_negative(json_360, save_output):
     """
     value must be valid with respect to the type definition (valid schema)
     If the type definition is a complex type definition, then the element
@@ -6323,11 +6724,12 @@ def test_typedef01501m1_negative(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef01501m/typeDef01501m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef01401m1_positive(save_xml):
+def test_typedef01401m1_positive(json_360, save_output):
     """
     normalized value must be valid with respect to the type definition
     (valid schema) If the element information item of a simple type is not
@@ -6339,12 +6741,13 @@ def test_typedef01401m1_positive(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef01401m/typeDef01401m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_typedef01401m1_negative(save_xml):
+def test_typedef01401m1_negative(json_360, save_output):
     """
     normalized value must be valid with respect to the type definition
     (valid schema) If the element information item of a simple type is not
@@ -6356,11 +6759,12 @@ def test_typedef01401m1_negative(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef01401m/typeDef01401m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef01301m1_positive(save_xml):
+def test_typedef01301m1_positive(json_360, save_output):
     """
     trying to use element children in the element of a simple type (valid
     schema) The element information item must have no element information
@@ -6372,12 +6776,13 @@ def test_typedef01301m1_positive(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef01301m/typeDef01301m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_typedef01301m1_negative(save_xml):
+def test_typedef01301m1_negative(json_360, save_output):
     """
     trying to use element children in the element of a simple type (valid
     schema) The element information item must have no element information
@@ -6389,11 +6794,12 @@ def test_typedef01301m1_negative(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef01301m/typeDef01301m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef01202m1_positive(save_xml):
+def test_typedef01202m1_positive(json_360, save_output):
     """
     element of a simple type has noNamespaceSchemaLocation, type and nil
     attributes (valid schema) If the type definition is a simple type
@@ -6408,12 +6814,13 @@ def test_typedef01202m1_positive(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef01202m/typeDef01202m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_typedef01202m1_negative(save_xml):
+def test_typedef01202m1_negative(json_360, save_output):
     """
     element of a simple type has noNamespaceSchemaLocation, type and nil
     attributes (valid schema) If the type definition is a simple type
@@ -6428,11 +6835,12 @@ def test_typedef01202m1_negative(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef01202m/typeDef01202m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef01201m1_positive(save_xml):
+def test_typedef01201m1_positive(json_360, save_output):
     """
     element of a simple type has schemaLocation, type and nil attributes
     (valid schema) If the type definition is a simple type definition,
@@ -6447,12 +6855,13 @@ def test_typedef01201m1_positive(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef01201m/typeDef01201m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_typedef01201m1_negative(save_xml):
+def test_typedef01201m1_negative(json_360, save_output):
     """
     element of a simple type has schemaLocation, type and nil attributes
     (valid schema) If the type definition is a simple type definition,
@@ -6467,11 +6876,12 @@ def test_typedef01201m1_negative(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef01201m/typeDef01201m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef01101m1_positive(save_xml):
+def test_typedef01101m1_positive(json_360, save_output):
     """
     actual type must not be abstract (valid schema) For an element to be
     locally valid its type must not be abstract . Negative case uses local
@@ -6482,12 +6892,13 @@ def test_typedef01101m1_positive(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef01101m/typeDef01101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_typedef01101m1_negative(save_xml):
+def test_typedef01101m1_negative(json_360, save_output):
     """
     actual type must not be abstract (valid schema) For an element to be
     locally valid its type must not be abstract . Negative case uses local
@@ -6498,11 +6909,12 @@ def test_typedef01101m1_negative(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef01101m/typeDef01101m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef00901m1_positive(save_xml):
+def test_typedef00901m1_positive(json_360, save_output):
     """
     the element information item must be valid with respect to the actual
     type definition (valid schema) The element information item must be
@@ -6514,12 +6926,13 @@ def test_typedef00901m1_positive(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00901m/typeDef00901m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_typedef00901m1_negative(save_xml):
+def test_typedef00901m1_negative(json_360, save_output):
     """
     the element information item must be valid with respect to the actual
     type definition (valid schema) The element information item must be
@@ -6531,12 +6944,13 @@ def test_typedef00901m1_negative(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00901m/typeDef00901m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_typedef00802m2_negative(save_xml):
+def test_typedef00802m2_negative(json_360, save_output):
     """
     local type is 'dissalowed' (valid schema) If it is a simple type
     definition, the local type definition must be validly derived from the
@@ -6548,11 +6962,12 @@ def test_typedef00802m2_negative(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00802m/typeDef00802m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef00802m1_positive(save_xml):
+def test_typedef00802m1_positive(json_360, save_output):
     """
     local type definition is validly derived from simpleType (valid
     schema) If it is a simple type definition, the local type definition
@@ -6565,12 +6980,13 @@ def test_typedef00802m1_positive(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00802m/typeDef00802m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_typedef00802m1_negative(save_xml):
+def test_typedef00802m1_negative(json_360, save_output):
     """
     local type definition is validly derived from simpleType (valid
     schema) If it is a simple type definition, the local type definition
@@ -6583,12 +6999,13 @@ def test_typedef00802m1_negative(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00802m/typeDef00802m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_typedef00801m3_negative(save_xml):
+def test_typedef00801m3_negative(json_360, save_output):
     """
     local type is 'dissalowed' (valid schema) If it is a complex type
     definition, the local type definition must be validly derived from the
@@ -6601,12 +7018,13 @@ def test_typedef00801m3_negative(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00801m/typeDef00801m3_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_typedef00801m2_negative(save_xml):
+def test_typedef00801m2_negative(json_360, save_output):
     """
     local type is 'prohibited' (valid schema) If it is a complex type
     definition, the local type definition must be validly derived from the
@@ -6619,11 +7037,12 @@ def test_typedef00801m2_negative(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00801m/typeDef00801m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef00801m1_positive(save_xml):
+def test_typedef00801m1_positive(json_360, save_output):
     """
     local type definition is validly derived from complexType (valid
     schema) If it is a complex type definition, the local type definition
@@ -6637,11 +7056,12 @@ def test_typedef00801m1_positive(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00801m/typeDef00801m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef00701m_type_def00701m1_p(save_xml):
+def test_typedef00701m_type_def00701m1_p(json_360, save_output):
     """
     local name and namespace name of the xsi:type must resolve to a type
     definition (valid schema) Use xsi:type attribute set to a value that
@@ -6652,12 +7072,13 @@ def test_typedef00701m_type_def00701m1_p(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00701m/typeDef00701m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_typedef00701m_type_def00701m1_n(save_xml):
+def test_typedef00701m_type_def00701m1_n(json_360, save_output):
     """
     local name and namespace name of the xsi:type must resolve to a type
     definition (valid schema) Use xsi:type attribute set to a value that
@@ -6668,11 +7089,12 @@ def test_typedef00701m_type_def00701m1_n(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00701m/typeDef00701m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef00601m_type_def00601m1_p(save_xml):
+def test_typedef00601m_type_def00601m1_p(json_360, save_output):
     """
     a normalized value of the type attribute must be valid (valid schema)
     Specify a type of an element by means of the type attribute set to a
@@ -6683,11 +7105,12 @@ def test_typedef00601m_type_def00601m1_p(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00601m/typeDef00601m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef00502m1_positive(save_xml):
+def test_typedef00502m1_positive(json_360, save_output):
     """
     simpleType and type are mutually exclusive (valid schema) Declare an
     element using type . Declare another element with a simpleType .
@@ -6698,11 +7121,12 @@ def test_typedef00502m1_positive(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00502m/typeDef00502m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef00501m1_positive(save_xml):
+def test_typedef00501m1_positive(json_360, save_output):
     """
     complexType and type are mutually exclusive (valid schema) Declare an
     element using type . Declare another element with a complexType .
@@ -6713,11 +7137,12 @@ def test_typedef00501m1_positive(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00501m/typeDef00501m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef00403m_type_def00403m1_p(save_xml):
+def test_typedef00403m_type_def00403m1_p(json_360, save_output):
     """
     Various setting of the {type definition} property. (valid schema) For
     complete declarations, top-level or local, the type attribute is used
@@ -6730,11 +7155,12 @@ def test_typedef00403m_type_def00403m1_p(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00403m/typeDef00403m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef00402m_type_def00402m1_p(save_xml):
+def test_typedef00402m_type_def00402m1_p(json_360, save_output):
     """
     Eelements within complexType. (valid schema) Eelements within
     complexType produce either particles which contain global element
@@ -6746,12 +7172,13 @@ def test_typedef00402m_type_def00402m1_p(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00402m/typeDef00402m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_typedef00402m_type_def00402m1_n(save_xml):
+def test_typedef00402m_type_def00402m1_n(json_360, save_output):
     """
     Eelements within complexType. (valid schema) Eelements within
     complexType produce either particles which contain global element
@@ -6763,11 +7190,12 @@ def test_typedef00402m_type_def00402m1_n(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00402m/typeDef00402m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef00401m_type_def00401m1_p(save_xml):
+def test_typedef00401m_type_def00401m1_p(json_360, save_output):
     """
     Eelements within group. (valid schema) Eelements within group produce
     either particles which contain global element declarations (if there's
@@ -6778,12 +7206,13 @@ def test_typedef00401m_type_def00401m1_p(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00401m/typeDef00401m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_typedef00401m_type_def00401m1_n(save_xml):
+def test_typedef00401m_type_def00401m1_n(json_360, save_output):
     """
     Eelements within group. (valid schema) Eelements within group produce
     either particles which contain global element declarations (if there's
@@ -6794,11 +7223,12 @@ def test_typedef00401m_type_def00401m1_n(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00401m/typeDef00401m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef00301m_type_def00301m1_p(save_xml):
+def test_typedef00301m_type_def00301m1_p(json_360, save_output):
     """
     The {type definition} property is specified by reference. (valid
     schema) Declare a global element with a certain type. Declare another
@@ -6810,12 +7240,13 @@ def test_typedef00301m_type_def00301m1_p(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00301m/typeDef00301m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_typedef00301m_type_def00301m1_n(save_xml):
+def test_typedef00301m_type_def00301m1_n(json_360, save_output):
     """
     The {type definition} property is specified by reference. (valid
     schema) Declare a global element with a certain type. Declare another
@@ -6827,11 +7258,12 @@ def test_typedef00301m_type_def00301m1_n(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00301m/typeDef00301m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef00205m_type_def00205m1_p(save_xml):
+def test_typedef00205m_type_def00205m1_p(json_360, save_output):
     """
     default type is used to define {type definition} property. (valid
     schema) Define an element with the default type. Define another
@@ -6843,11 +7275,12 @@ def test_typedef00205m_type_def00205m1_p(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00205m/typeDef00205m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef00204m_type_def00204m1_p(save_xml):
+def test_typedef00204m_type_def00204m1_p(json_360, save_output):
     """
     type attribute is used to define {type definition} property. (valid
     schema) Define an element by means of the substitutionGroup attribute.
@@ -6858,12 +7291,13 @@ def test_typedef00204m_type_def00204m1_p(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00204m/typeDef00204m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_typedef00204m_type_def00204m1_n(save_xml):
+def test_typedef00204m_type_def00204m1_n(json_360, save_output):
     """
     type attribute is used to define {type definition} property. (valid
     schema) Define an element by means of the substitutionGroup attribute.
@@ -6874,11 +7308,12 @@ def test_typedef00204m_type_def00204m1_n(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00204m/typeDef00204m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef00203m_type_def00203m1_p(save_xml):
+def test_typedef00203m_type_def00203m1_p(json_360, save_output):
     """
     type attribute is used to define {type definition} property. (valid
     schema) Define an element by means of type attribute. Ensure the value
@@ -6889,12 +7324,13 @@ def test_typedef00203m_type_def00203m1_p(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00203m/typeDef00203m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_typedef00203m_type_def00203m1_n(save_xml):
+def test_typedef00203m_type_def00203m1_n(json_360, save_output):
     """
     type attribute is used to define {type definition} property. (valid
     schema) Define an element by means of type attribute. Ensure the value
@@ -6905,11 +7341,12 @@ def test_typedef00203m_type_def00203m1_n(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00203m/typeDef00203m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef00202m_type_def00202m1_p(save_xml):
+def test_typedef00202m_type_def00202m1_p(json_360, save_output):
     """
     complexType is used to define {type definition} property. (valid
     schema) Define an element with a complexType. Ensure the value is
@@ -6920,12 +7357,13 @@ def test_typedef00202m_type_def00202m1_p(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00202m/typeDef00202m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_typedef00202m_type_def00202m1_n(save_xml):
+def test_typedef00202m_type_def00202m1_n(json_360, save_output):
     """
     complexType is used to define {type definition} property. (valid
     schema) Define an element with a complexType. Ensure the value is
@@ -6936,11 +7374,12 @@ def test_typedef00202m_type_def00202m1_n(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00202m/typeDef00202m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef00201m_type_def00201m1_p(save_xml):
+def test_typedef00201m_type_def00201m1_p(json_360, save_output):
     """
     simpleType is used to define {type definition} property. (valid
     schema) Define an element with a simpleType. Ensure the value is
@@ -6951,12 +7390,13 @@ def test_typedef00201m_type_def00201m1_p(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00201m/typeDef00201m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_typedef00201m_type_def00201m1_n(save_xml):
+def test_typedef00201m_type_def00201m1_n(json_360, save_output):
     """
     simpleType is used to define {type definition} property. (valid
     schema) Define an element with a simpleType. Ensure the value is
@@ -6967,11 +7407,12 @@ def test_typedef00201m_type_def00201m1_n(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00201m/typeDef00201m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_typedef00101m_type_def00101m1_p(save_xml):
+def test_typedef00101m_type_def00101m1_p(json_360, save_output):
     """
     General check of the {type definition} property. (valid schema) Define
     an element with a certain type. Ensure the value is validated
@@ -6982,12 +7423,13 @@ def test_typedef00101m_type_def00101m1_p(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00101m/typeDef00101m1_p.xml",
         class_name="Answer",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_typedef00101m_type_def00101m1_n(save_xml):
+def test_typedef00101m_type_def00101m1_n(json_360, save_output):
     """
     General check of the {type definition} property. (valid schema) Define
     an element with a certain type. Ensure the value is validated
@@ -6998,11 +7440,12 @@ def test_typedef00101m_type_def00101m1_n(save_xml):
         instance="sunData/ElemDecl/typeDef/typeDef00101m/typeDef00101m1_n.xml",
         class_name="Answer",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_term00101m_term00101m1_p(save_xml):
+def test_term00101m_term00101m1_p(json_360, save_output):
     """
     The (top-level) element declaration resolved to by the actual value of
     the ref attribute. (valid schema) Declare one local element that
@@ -7014,12 +7457,13 @@ def test_term00101m_term00101m1_p(save_xml):
         instance="sunData/ElemDecl/term/term00101m/term00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_term00101m_term00101m1_n(save_xml):
+def test_term00101m_term00101m1_n(json_360, save_output):
     """
     The (top-level) element declaration resolved to by the actual value of
     the ref attribute. (valid schema) Declare one local element that
@@ -7031,11 +7475,12 @@ def test_term00101m_term00101m1_n(save_xml):
         instance="sunData/ElemDecl/term/term00101m/term00101m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_targetns00402m_target_ns00402m1_p(save_xml):
+def test_targetns00402m_target_ns00402m1_p(json_360, save_output):
     """
     Global elements must be qualified. (valid schema) If {target
     namespace} is absent , element information items validated by a top-
@@ -7046,12 +7491,13 @@ def test_targetns00402m_target_ns00402m1_p(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00402m/targetNS00402m1_p.xml",
         class_name="GlobalType",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_targetns00402m_target_ns00402m1_n(save_xml):
+def test_targetns00402m_target_ns00402m1_n(json_360, save_output):
     """
     Global elements must be qualified. (valid schema) If {target
     namespace} is absent , element information items validated by a top-
@@ -7062,11 +7508,12 @@ def test_targetns00402m_target_ns00402m1_n(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00402m/targetNS00402m1_n.xml",
         class_name="GlobalType",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_targetns00401m_target_ns00401m1_p(save_xml):
+def test_targetns00401m_target_ns00401m1_p(json_360, save_output):
     """
     Global elements must be qualified. (valid schema) Element information
     items validated by a top-level declaration must be qualified with the
@@ -7077,12 +7524,13 @@ def test_targetns00401m_target_ns00401m1_p(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00401m/targetNS00401m1_p.xml",
         class_name="GlobalType",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_targetns00401m_target_ns00401m1_n(save_xml):
+def test_targetns00401m_target_ns00401m1_n(json_360, save_output):
     """
     Global elements must be qualified. (valid schema) Element information
     items validated by a top-level declaration must be qualified with the
@@ -7093,11 +7541,12 @@ def test_targetns00401m_target_ns00401m1_n(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00401m/targetNS00401m1_n.xml",
         class_name="GlobalType",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_targetns00303m3_positive(save_xml):
+def test_targetns00303m3_positive(json_360, save_output):
     """
     The form attribute is omitted, the elementFormDefault is set to
     unqualified. (valid schema) Omit the form attribute of the local
@@ -7108,12 +7557,13 @@ def test_targetns00303m3_positive(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_targetns00303m3_negative(save_xml):
+def test_targetns00303m3_negative(json_360, save_output):
     """
     The form attribute is omitted, the elementFormDefault is set to
     unqualified. (valid schema) Omit the form attribute of the local
@@ -7124,11 +7574,12 @@ def test_targetns00303m3_negative(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m3_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_targetns00303m2_positive(save_xml):
+def test_targetns00303m2_positive(json_360, save_output):
     """
     The form attribute is set to unqualified, the elementFormDefault is
     set to unqualified. (valid schema) Set the form attribute of the local
@@ -7140,12 +7591,13 @@ def test_targetns00303m2_positive(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_targetns00303m2_negative(save_xml):
+def test_targetns00303m2_negative(json_360, save_output):
     """
     The form attribute is set to unqualified, the elementFormDefault is
     set to unqualified. (valid schema) Set the form attribute of the local
@@ -7157,11 +7609,12 @@ def test_targetns00303m2_negative(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_targetns00303m1_positive(save_xml):
+def test_targetns00303m1_positive(json_360, save_output):
     """
     The form attribute is set to qualified, the elementFormDefault is set
     to unqualified. (valid schema) Set the form attribute of the local
@@ -7173,12 +7626,13 @@ def test_targetns00303m1_positive(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_targetns00303m1_negative(save_xml):
+def test_targetns00303m1_negative(json_360, save_output):
     """
     The form attribute is set to qualified, the elementFormDefault is set
     to unqualified. (valid schema) Set the form attribute of the local
@@ -7190,11 +7644,12 @@ def test_targetns00303m1_negative(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_targetns00302m3_positive(save_xml):
+def test_targetns00302m3_positive(json_360, save_output):
     """
     The form attribute is omitted, the elementFormDefault is set to
     qualified. (valid schema) Omit the form attribute of the local element
@@ -7205,12 +7660,13 @@ def test_targetns00302m3_positive(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_targetns00302m3_negative(save_xml):
+def test_targetns00302m3_negative(json_360, save_output):
     """
     The form attribute is omitted, the elementFormDefault is set to
     qualified. (valid schema) Omit the form attribute of the local element
@@ -7221,11 +7677,12 @@ def test_targetns00302m3_negative(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m3_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_targetns00302m2_positive(save_xml):
+def test_targetns00302m2_positive(json_360, save_output):
     """
     The form attribute is set to unqualified, the elementFormDefault is
     set to qualified. (valid schema) Set the form attribute of the local
@@ -7237,12 +7694,13 @@ def test_targetns00302m2_positive(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_targetns00302m2_negative(save_xml):
+def test_targetns00302m2_negative(json_360, save_output):
     """
     The form attribute is set to unqualified, the elementFormDefault is
     set to qualified. (valid schema) Set the form attribute of the local
@@ -7254,11 +7712,12 @@ def test_targetns00302m2_negative(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_targetns00302m1_positive(save_xml):
+def test_targetns00302m1_positive(json_360, save_output):
     """
     The form attribute is set to qualified, the elementFormDefault is set
     to qualified. (valid schema) Set the form attribute of the local
@@ -7270,12 +7729,13 @@ def test_targetns00302m1_positive(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_targetns00302m1_negative(save_xml):
+def test_targetns00302m1_negative(json_360, save_output):
     """
     The form attribute is set to qualified, the elementFormDefault is set
     to qualified. (valid schema) Set the form attribute of the local
@@ -7287,11 +7747,12 @@ def test_targetns00302m1_negative(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_targetns00301m3_positive(save_xml):
+def test_targetns00301m3_positive(json_360, save_output):
     """
     Both the form and elementFormDefault attributes are omitted. (valid
     schema) Omit the form attribute of the local element declaration. Omit
@@ -7302,12 +7763,13 @@ def test_targetns00301m3_positive(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_targetns00301m3_negative(save_xml):
+def test_targetns00301m3_negative(json_360, save_output):
     """
     Both the form and elementFormDefault attributes are omitted. (valid
     schema) Omit the form attribute of the local element declaration. Omit
@@ -7318,11 +7780,12 @@ def test_targetns00301m3_negative(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m3_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_targetns00301m2_positive(save_xml):
+def test_targetns00301m2_positive(json_360, save_output):
     """
     The form attribute is set to unqualified. The elementFormDefault
     attribute is omitted. (valid schema) Set the form attribute of the
@@ -7334,12 +7797,13 @@ def test_targetns00301m2_positive(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_targetns00301m2_negative(save_xml):
+def test_targetns00301m2_negative(json_360, save_output):
     """
     The form attribute is set to unqualified. The elementFormDefault
     attribute is omitted. (valid schema) Set the form attribute of the
@@ -7351,11 +7815,12 @@ def test_targetns00301m2_negative(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_targetns00301m1_positive(save_xml):
+def test_targetns00301m1_positive(json_360, save_output):
     """
     The form attribute is set to qualified. The elementFormDefault
     attribute is omitted. (valid schema) Set the form attribute of the
@@ -7367,12 +7832,13 @@ def test_targetns00301m1_positive(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_targetns00301m1_negative(save_xml):
+def test_targetns00301m1_negative(json_360, save_output):
     """
     The form attribute is set to qualified. The elementFormDefault
     attribute is omitted. (valid schema) Set the form attribute of the
@@ -7384,11 +7850,12 @@ def test_targetns00301m1_negative(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_targetns00201m_target_ns00201m1_p(save_xml):
+def test_targetns00201m_target_ns00201m1_p(json_360, save_output):
     """
     Absent values of {target namespace} validate unqualified items. (valid
     schema) Define unqualified element.
@@ -7398,12 +7865,13 @@ def test_targetns00201m_target_ns00201m1_p(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00201m/targetNS00201m1_p.xml",
         class_name="Number",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_targetns00201m_target_ns00201m1_n(save_xml):
+def test_targetns00201m_target_ns00201m1_n(json_360, save_output):
     """
     Absent values of {target namespace} validate unqualified items. (valid
     schema) Define unqualified element.
@@ -7413,11 +7881,12 @@ def test_targetns00201m_target_ns00201m1_n(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00201m/targetNS00201m1_n.xml",
         class_name="Number",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_targetns00101m_target_ns00101m1_p_469(save_xml):
+def test_targetns00101m_target_ns00101m1_p_469(json_360, save_output):
     """
     Different target namespaces. (valid schema) Define two elements with
     the same name in two different Namespaces. Make their content types
@@ -7429,11 +7898,12 @@ def test_targetns00101m_target_ns00101m1_p_469(save_xml):
         instance="sunData/ElemDecl/targetNS/targetNS00101m/targetNS00101m1_p.xml",
         class_name="Number",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_substgrpexcl00402m7_positive(save_xml):
+def test_substgrpexcl00402m7_positive(json_360, save_output):
     """
     Various subsets of values for the final attribute. (valid schema)
     Various subsets of the final attribute values are used for a number of
@@ -7444,11 +7914,12 @@ def test_substgrpexcl00402m7_positive(save_xml):
         instance="sunData/ElemDecl/substGroupExclusions/substGrpExcl00402m/substGrpExcl00402m7_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_substgrpexcl00401m6_positive(save_xml):
+def test_substgrpexcl00401m6_positive(json_360, save_output):
     """
     Rule out restriction extension (valid schema) Set finalDefault
     attribute to "restriction extension"
@@ -7458,11 +7929,12 @@ def test_substgrpexcl00401m6_positive(save_xml):
         instance="sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m6_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_substgrpexcl00401m5_positive(save_xml):
+def test_substgrpexcl00401m5_positive(json_360, save_output):
     """
     Rule out extension restriction (valid schema) Set finalDefault
     attribute to "extension restriction"
@@ -7472,11 +7944,12 @@ def test_substgrpexcl00401m5_positive(save_xml):
         instance="sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m5_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_substgrpexcl00401m4_positive(save_xml):
+def test_substgrpexcl00401m4_positive(json_360, save_output):
     """
     Rule out extension (valid schema) Set finalDefault attribute to
     "extension"
@@ -7486,11 +7959,12 @@ def test_substgrpexcl00401m4_positive(save_xml):
         instance="sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m4_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_substgrpexcl00401m3_positive(save_xml):
+def test_substgrpexcl00401m3_positive(json_360, save_output):
     """
     Rule out restriction (valid schema) Set finalDefault attribute to
     "restriction"
@@ -7500,11 +7974,12 @@ def test_substgrpexcl00401m3_positive(save_xml):
         instance="sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_substgrpexcl00401m2_positive(save_xml):
+def test_substgrpexcl00401m2_positive(json_360, save_output):
     """
     Rule out #all (valid schema) Set finalDefault attribute to "#all"
     """
@@ -7513,11 +7988,12 @@ def test_substgrpexcl00401m2_positive(save_xml):
         instance="sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_substgrpexcl00401m1_positive(save_xml):
+def test_substgrpexcl00401m1_positive(json_360, save_output):
     """
     Rule out nothing (valid schema) Omit the finalDefault attribute.
     """
@@ -7526,11 +8002,12 @@ def test_substgrpexcl00401m1_positive(save_xml):
         instance="sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_substgrpexcl00303m3_positive(save_xml):
+def test_substgrpexcl00303m3_positive(json_360, save_output):
     """
     Rule out both restriction and extension substitutions (positive case).
     (valid schema) Define one element within a substitution group headed
@@ -7544,11 +8021,12 @@ def test_substgrpexcl00303m3_positive(save_xml):
         instance="sunData/ElemDecl/substGroupExclusions/substGrpExcl00303m/substGrpExcl00303m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_substgrpexcl00303m1_positive(save_xml):
+def test_substgrpexcl00303m1_positive(json_360, save_output):
     """
     Rule out both restriction and extension substitutions (positive case).
     (valid schema) Define one element within a substitution group headed
@@ -7562,11 +8040,12 @@ def test_substgrpexcl00303m1_positive(save_xml):
         instance="sunData/ElemDecl/substGroupExclusions/substGrpExcl00303m/substGrpExcl00303m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_substgrpexcl00301m3_positive(save_xml):
+def test_substgrpexcl00301m3_positive(json_360, save_output):
     """
     Rule out both restriction and extension substitutions (positive case).
     (valid schema) Define one element within a substitution group headed
@@ -7580,11 +8059,12 @@ def test_substgrpexcl00301m3_positive(save_xml):
         instance="sunData/ElemDecl/substGroupExclusions/substGrpExcl00301m/substGrpExcl00301m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_substgrpexcl00301m1_positive(save_xml):
+def test_substgrpexcl00301m1_positive(json_360, save_output):
     """
     Rule out both restriction and extension substitutions (positive case).
     (valid schema) Define one element within a substitution group headed
@@ -7598,11 +8078,12 @@ def test_substgrpexcl00301m1_positive(save_xml):
         instance="sunData/ElemDecl/substGroupExclusions/substGrpExcl00301m/substGrpExcl00301m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_substgrpexcl00202m1_positive(save_xml):
+def test_substgrpexcl00202m1_positive(json_360, save_output):
     """
     Rule out extension substitutions (positive case). (valid schema)
     Define three elements within one substitution group. The first has the
@@ -7616,11 +8097,12 @@ def test_substgrpexcl00202m1_positive(save_xml):
         instance="sunData/ElemDecl/substGroupExclusions/substGrpExcl00202m/substGrpExcl00202m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_substgrpaffil00201m_subst_grp_affil00201m1_p(save_xml):
+def test_substgrpaffil00201m_subst_grp_affil00201m1_p(json_360, save_output):
     """
     Substitution group memebership is transitive but not symmetric. (valid
     schema) Define an element within a substitution group of another one.
@@ -7633,12 +8115,13 @@ def test_substgrpaffil00201m_subst_grp_affil00201m1_p(save_xml):
         instance="sunData/ElemDecl/substGroupAffilation/substGrpAffil00201m/substGrpAffil00201m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_substgrpaffil00201m_subst_grp_affil00201m1_n(save_xml):
+def test_substgrpaffil00201m_subst_grp_affil00201m1_n(json_360, save_output):
     """
     Substitution group memebership is transitive but not symmetric. (valid
     schema) Define an element within a substitution group of another one.
@@ -7651,11 +8134,12 @@ def test_substgrpaffil00201m_subst_grp_affil00201m1_n(save_xml):
         instance="sunData/ElemDecl/substGroupAffilation/substGrpAffil00201m/substGrpAffil00201m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_substgrpaffil00101m_subst_grp_affil00101m1_p(save_xml):
+def test_substgrpaffil00101m_subst_grp_affil00101m1_p(json_360, save_output):
     """
     General check of the {substitution group affiliation} property. (valid
     schema) Define two elements within one substitution group and one
@@ -7666,12 +8150,13 @@ def test_substgrpaffil00101m_subst_grp_affil00101m1_p(save_xml):
         instance="sunData/ElemDecl/substGroupAffilation/substGrpAffil00101m/substGrpAffil00101m1_p.xml",
         class_name="BookStore",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_substgrpaffil00101m_subst_grp_affil00101m1_n(save_xml):
+def test_substgrpaffil00101m_subst_grp_affil00101m1_n(json_360, save_output):
     """
     General check of the {substitution group affiliation} property. (valid
     schema) Define two elements within one substitution group and one
@@ -7682,11 +8167,12 @@ def test_substgrpaffil00101m_subst_grp_affil00101m1_n(save_xml):
         instance="sunData/ElemDecl/substGroupAffilation/substGrpAffil00101m/substGrpAffil00101m1_n.xml",
         class_name="BookStore",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_scope00301m_scope00301m1_p(save_xml):
+def test_scope00301m_scope00301m1_p(json_360, save_output):
     """
     Scope of a named group. (valid schema) Define a group with two
     elements. Use the group in a complexType.
@@ -7696,11 +8182,12 @@ def test_scope00301m_scope00301m1_p(save_xml):
         instance="sunData/ElemDecl/scope/scope00301m/scope00301m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_scope00201m1_positive(save_xml):
+def test_scope00201m1_positive(json_360, save_output):
     """
     Locally scoped element (positive case). (valid schema) Using localy
     scoped element within the complex type.
@@ -7710,11 +8197,12 @@ def test_scope00201m1_positive(save_xml):
         instance="sunData/ElemDecl/scope/scope00201m/scope00201m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_scope00101m_scope00101m1_p(save_xml):
+def test_scope00101m_scope00101m1_p(json_360, save_output):
     """
     General check of the {scope} property. (valid schema) Define one
     global element and one local.
@@ -7724,11 +8212,12 @@ def test_scope00101m_scope00101m1_p(save_xml):
         instance="sunData/ElemDecl/scope/scope00101m/scope00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_nillable00401m2_positive(save_xml):
+def test_nillable00401m2_positive(json_360, save_output):
     """
     there may be a fixed {value constraint} along with nillable set to
     true (valid schema) Declare a nillable element. The the second variant
@@ -7739,11 +8228,12 @@ def test_nillable00401m2_positive(save_xml):
         instance="sunData/ElemDecl/nillable/nillable00401m/nillable00401m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_nillable00401m1_positive(save_xml):
+def test_nillable00401m1_positive(json_360, save_output):
     """
     there may be a fixed {value constraint} along with nillable set to
     true (valid schema) Declare a nillable element. The the second variant
@@ -7754,11 +8244,12 @@ def test_nillable00401m1_positive(save_xml):
         instance="sunData/ElemDecl/nillable/nillable00401m/nillable00401m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_nillable00302m_nillable00302m1_p(save_xml):
+def test_nillable00302m_nillable00302m1_p(json_360, save_output):
     """
     the element information item must have no element information children
     if nil is specified (valid schema) Declare a nillable element of a
@@ -7770,12 +8261,13 @@ def test_nillable00302m_nillable00302m1_p(save_xml):
         instance="sunData/ElemDecl/nillable/nillable00302m/nillable00302m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_nillable00302m_nillable00302m1_n(save_xml):
+def test_nillable00302m_nillable00302m1_n(json_360, save_output):
     """
     the element information item must have no element information children
     if nil is specified (valid schema) Declare a nillable element of a
@@ -7787,11 +8279,12 @@ def test_nillable00302m_nillable00302m1_n(save_xml):
         instance="sunData/ElemDecl/nillable/nillable00302m/nillable00302m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_nillable00301m_nillable00301m1_p(save_xml):
+def test_nillable00301m_nillable00301m1_p(json_360, save_output):
     """
     the element information item must have no character if nil is
     specified (valid schema) Declare a nillable element. Set the element
@@ -7802,12 +8295,13 @@ def test_nillable00301m_nillable00301m1_p(save_xml):
         instance="sunData/ElemDecl/nillable/nillable00301m/nillable00301m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_nillable00301m_nillable00301m1_n(save_xml):
+def test_nillable00301m_nillable00301m1_n(json_360, save_output):
     """
     the element information item must have no character if nil is
     specified (valid schema) Declare a nillable element. Set the element
@@ -7818,12 +8312,13 @@ def test_nillable00301m_nillable00301m1_n(save_xml):
         instance="sunData/ElemDecl/nillable/nillable00301m/nillable00301m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_nillable00201m_nillable00201m1_n(save_xml):
+def test_nillable00201m_nillable00201m1_n(json_360, save_output):
     """
     nillable=false and xsi:nil=true (valid schema) Declare a non-nillable
     element. Try xsi:nil="true".The test is negative.
@@ -7833,12 +8328,13 @@ def test_nillable00201m_nillable00201m1_n(save_xml):
         instance="sunData/ElemDecl/nillable/nillable00201m/nillable00201m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_nillable00201m_nillable00201m2_n(save_xml):
+def test_nillable00201m_nillable00201m2_n(json_360, save_output):
     """
     nillable=false and xsi:nil=true (valid schema) Declare a non-nillable
     element. Try xsi:nil="true".The test is negative.
@@ -7848,11 +8344,12 @@ def test_nillable00201m_nillable00201m2_n(save_xml):
         instance="sunData/ElemDecl/nillable/nillable00201m/nillable00201m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_nillable00201m_nillable00201m3_p(save_xml):
+def test_nillable00201m_nillable00201m3_p(json_360, save_output):
     """
     nillable=false and xsi:nil=true (valid schema) Declare a non-nillable
     element. Try xsi:nil="true".The test is negative.
@@ -7862,11 +8359,12 @@ def test_nillable00201m_nillable00201m3_p(save_xml):
         instance="sunData/ElemDecl/nillable/nillable00201m/nillable00201m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_nillable00102m_nillable00102m1_p(save_xml):
+def test_nillable00102m_nillable00102m1_p(json_360, save_output):
     """
     xsi:nil=false (valid schema) Define nillable element with content type
     which requires content. Try xsi:nil=false.
@@ -7876,12 +8374,13 @@ def test_nillable00102m_nillable00102m1_p(save_xml):
         instance="sunData/ElemDecl/nillable/nillable00102m/nillable00102m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_nillable00102m_nillable00102m1_n(save_xml):
+def test_nillable00102m_nillable00102m1_n(json_360, save_output):
     """
     xsi:nil=false (valid schema) Define nillable element with content type
     which requires content. Try xsi:nil=false.
@@ -7891,12 +8390,13 @@ def test_nillable00102m_nillable00102m1_n(save_xml):
         instance="sunData/ElemDecl/nillable/nillable00102m/nillable00102m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_nillable00101m2_negative(save_xml):
+def test_nillable00101m2_negative(json_360, save_output):
     """
     nillable=false (negative case) (valid schema) Define nillable element
     with content type which requires content. Try nillable=false.
@@ -7906,11 +8406,12 @@ def test_nillable00101m2_negative(save_xml):
         instance="sunData/ElemDecl/nillable/nillable00101m/nillable00101m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_nillable00101m1_positive(save_xml):
+def test_nillable00101m1_positive(json_360, save_output):
     """
     nillable=false (positive case) (valid schema) Define nillable element
     with content type which requires content. Try nillable=false.
@@ -7920,11 +8421,12 @@ def test_nillable00101m1_positive(save_xml):
         instance="sunData/ElemDecl/nillable/nillable00101m/nillable00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00805_name00805_p(save_xml):
+def test_name00805_name00805_p(json_360, save_output):
     """
     Element names contain only punctuation characters and digits. (valid
     schema) Declare an element with a sequence of two integer elements.
@@ -7936,11 +8438,12 @@ def test_name00805_name00805_p(save_xml):
         instance="sunData/ElemDecl/name/name008/name00805/name00805_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00804_name00804_p(save_xml):
+def test_name00804_name00804_p(json_360, save_output):
     """
     Element names contain lower case and upper case letters and non-letter
     characters. (valid schema) Declare an element with a sequence of
@@ -7957,11 +8460,12 @@ def test_name00804_name00804_p(save_xml):
         instance="sunData/ElemDecl/name/name008/name00804/name00804_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00803_name00803_p(save_xml):
+def test_name00803_name00803_p(json_360, save_output):
     """
     Element names contain digits followed by a non-digit characters.
     (valid schema) Declare an element with a sequence of three integer
@@ -7973,11 +8477,12 @@ def test_name00803_name00803_p(save_xml):
         instance="sunData/ElemDecl/name/name008/name00803/name00803_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00802_name00802_p(save_xml):
+def test_name00802_name00802_p(json_360, save_output):
     r"""
     Element name contains 7 punctuation characters. (valid schema) Declare
     an element with a sequence of two int elements. Name the first one
@@ -7993,11 +8498,12 @@ def test_name00802_name00802_p(save_xml):
         instance="sunData/ElemDecl/name/name008/name00802/name00802_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00801_name00801_p(save_xml):
+def test_name00801_name00801_p(json_360, save_output):
     r"""
     Element names contain several punctuation characters. (valid schema)
     Declare an element with a sequence of elements of type int. Name the
@@ -8013,11 +8519,12 @@ def test_name00801_name00801_p(save_xml):
         instance="sunData/ElemDecl/name/name008/name00801/name00801_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00601m_name00601m1_p(save_xml):
+def test_name00601m_name00601m1_p(json_360, save_output):
     """
     The declaration must not be absent (valid schema) Declare an element
     root . Use element information item with respect to the element
@@ -8028,12 +8535,13 @@ def test_name00601m_name00601m1_p(save_xml):
         instance="sunData/ElemDecl/name/name00601m/name00601m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_name00601m_name00601m1_n(save_xml):
+def test_name00601m_name00601m1_n(json_360, save_output):
     """
     The declaration must not be absent (valid schema) Declare an element
     root . Use element information item with respect to the element
@@ -8044,11 +8552,12 @@ def test_name00601m_name00601m1_n(save_xml):
         instance="sunData/ElemDecl/name/name00601m/name00601m1_n.xml",
         class_name="Toor",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00505m1_positive(save_xml):
+def test_name00505m1_positive(json_360, save_output):
     """
     element declaration with keyref (valid schema) Declare an element with
     keyref . Check that the schema is valid.
@@ -8058,11 +8567,12 @@ def test_name00505m1_positive(save_xml):
         instance="sunData/ElemDecl/name/name00505m/name00505m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00504m3_positive(save_xml):
+def test_name00504m3_positive(json_360, save_output):
     """
     element declaration with unique (valid schema) Declare an element with
     unique . Check that the schema is valid.
@@ -8072,11 +8582,12 @@ def test_name00504m3_positive(save_xml):
         instance="sunData/ElemDecl/name/name00504m/name00504m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00504m1_positive(save_xml):
+def test_name00504m1_positive(json_360, save_output):
     """
     element declaration with key (valid schema) Declare an element with
     key . Check that the schema is valid.
@@ -8086,11 +8597,12 @@ def test_name00504m1_positive(save_xml):
         instance="sunData/ElemDecl/name/name00504m/name00504m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00503m1_positive(save_xml):
+def test_name00503m1_positive(json_360, save_output):
     """
     element declaration with simple type (valid schema) Declare an element
     using inline simple type definition. Check that the schema is valid.
@@ -8100,11 +8612,12 @@ def test_name00503m1_positive(save_xml):
         instance="sunData/ElemDecl/name/name00503m/name00503m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00502m1_positive(save_xml):
+def test_name00502m1_positive(json_360, save_output):
     """
     element declaration with complex type (valid schema) Declare an
     element using inline complex type definition. Check that the schema is
@@ -8115,11 +8628,12 @@ def test_name00502m1_positive(save_xml):
         instance="sunData/ElemDecl/name/name00502m/name00502m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00501m9_positive(save_xml):
+def test_name00501m9_positive(json_360, save_output):
     """
     block is present (valid schema) Declare an element. Set name ="Local"
     block="#all" type="xsd:boolean". Check that the schema is valid.
@@ -8129,11 +8643,12 @@ def test_name00501m9_positive(save_xml):
         instance="sunData/ElemDecl/name/name00501m/name00501m9_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00501m7_positive(save_xml):
+def test_name00501m7_positive(json_360, save_output):
     """
     form is present (valid schema) Declare an element. Set name ="Local"
     form="qualified" type="xsd:boolean". Check that the schema is valid.
@@ -8143,11 +8658,12 @@ def test_name00501m7_positive(save_xml):
         instance="sunData/ElemDecl/name/name00501m/name00501m7_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00501m5_positive(save_xml):
+def test_name00501m5_positive(json_360, save_output):
     """
     fixed is present (valid schema) Declare an element. Set name ="Local"
     fixed="true" type="xsd:boolean". Check that the schema is valid.
@@ -8157,11 +8673,12 @@ def test_name00501m5_positive(save_xml):
         instance="sunData/ElemDecl/name/name00501m/name00501m5_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00501m3_positive(save_xml):
+def test_name00501m3_positive(json_360, save_output):
     """
     default is present (valid schema) Declare an element. Set name
     ="Local" default="true" type="xsd:boolean". Check that the schema is
@@ -8172,11 +8689,12 @@ def test_name00501m3_positive(save_xml):
         instance="sunData/ElemDecl/name/name00501m/name00501m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00501m15_positive(save_xml):
+def test_name00501m15_positive(json_360, save_output):
     """
     id and ref are present (valid schema) Declare an element. Set
     ref="Main" id="X123". Check that the schema is valid.
@@ -8186,11 +8704,12 @@ def test_name00501m15_positive(save_xml):
         instance="sunData/ElemDecl/name/name00501m/name00501m15_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00501m14_positive(save_xml):
+def test_name00501m14_positive(json_360, save_output):
     """
     maxOccurs and ref are present (valid schema) Declare an element. Set
     ref="Main" maxOccurs="unbounded". Check that the schema is valid.
@@ -8200,11 +8719,12 @@ def test_name00501m14_positive(save_xml):
         instance="sunData/ElemDecl/name/name00501m/name00501m14_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00501m13_positive(save_xml):
+def test_name00501m13_positive(json_360, save_output):
     """
     minOccurs and ref are present (valid schema) Declare an element. Set
     ref="Main" minOccurs="0". Check that the schema is valid.
@@ -8214,11 +8734,12 @@ def test_name00501m13_positive(save_xml):
         instance="sunData/ElemDecl/name/name00501m/name00501m13_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00501m11_positive(save_xml):
+def test_name00501m11_positive(json_360, save_output):
     """
     type is present (valid schema) Declare an element. Set name ="Local"
     type="xsd:boolean". Check that the schema is valid.
@@ -8228,11 +8749,12 @@ def test_name00501m11_positive(save_xml):
         instance="sunData/ElemDecl/name/name00501m/name00501m11_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00501m1_positive(save_xml):
+def test_name00501m1_positive(json_360, save_output):
     """
     nillable is present (valid schema) Declare an element. Set name
     ="Local" nillable="true" type="xsd:boolean". Check that the schema is
@@ -8243,11 +8765,12 @@ def test_name00501m1_positive(save_xml):
         instance="sunData/ElemDecl/name/name00501m/name00501m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00401m2_positive(save_xml):
+def test_name00401m2_positive(json_360, save_output):
     """
     the root attribute is set (valid schema) Declare an element. Set
     ref="root". Check that the schema is valid.
@@ -8257,11 +8780,12 @@ def test_name00401m2_positive(save_xml):
         instance="sunData/ElemDecl/name/name00401m/name00401m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00401m1_positive(save_xml):
+def test_name00401m1_positive(json_360, save_output):
     """
     the name attribute is set (valid schema) Declare an element. Set
     name="Local". Check that the schema is valid.
@@ -8271,11 +8795,12 @@ def test_name00401m1_positive(save_xml):
         instance="sunData/ElemDecl/name/name00401m/name00401m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00301m1_positive(save_xml):
+def test_name00301m1_positive(json_360, save_output):
     """
     Local element names do not clash. (valid schema) Declare two local
     elements with the same name but in different scope.
@@ -8285,11 +8810,12 @@ def test_name00301m1_positive(save_xml):
         instance="sunData/ElemDecl/name/name00301m/name00301m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00201m2_positive(save_xml):
+def test_name00201m2_positive(json_360, save_output):
     """
     simpleType definitions and element declarations have different symbol
     spaces. (valid schema) Declare an element. Define a simpleType with
@@ -8300,11 +8826,12 @@ def test_name00201m2_positive(save_xml):
         instance="sunData/ElemDecl/name/name00201m/name00201m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00201m1_positive(save_xml):
+def test_name00201m1_positive(json_360, save_output):
     """
     complexType definitions and element declarations have different symbol
     spaces. (valid schema) Declare an element. Define a complexType with
@@ -8315,11 +8842,12 @@ def test_name00201m1_positive(save_xml):
         instance="sunData/ElemDecl/name/name00201m/name00201m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00101m_name00101m1_p_528(save_xml):
+def test_name00101m_name00101m1_p_528(json_360, save_output):
     """
     General check of the {name} property. (valid schema) Define two
     elements with incompatible types. Check that the elements are
@@ -8330,12 +8858,13 @@ def test_name00101m_name00101m1_p_528(save_xml):
         instance="sunData/ElemDecl/name/name00101m/name00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_name00101m_name00101m1_n_529(save_xml):
+def test_name00101m_name00101m1_n_529(json_360, save_output):
     """
     General check of the {name} property. (valid schema) Define two
     elements with incompatible types. Check that the elements are
@@ -8346,11 +8875,12 @@ def test_name00101m_name00101m1_n_529(save_xml):
         instance="sunData/ElemDecl/name/name00101m/name00101m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_minoccurs00201m_min_occurs00201m1_p(save_xml):
+def test_minoccurs00201m_min_occurs00201m1_p(json_360, save_output):
     """
     Default value of the {minOccurs} property when the ref attribute is
     used. (valid schema) Declare a local element with a reference to a
@@ -8362,12 +8892,13 @@ def test_minoccurs00201m_min_occurs00201m1_p(save_xml):
         instance="sunData/ElemDecl/minOccurs/minOccurs00201m/minOccurs00201m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_minoccurs00201m_min_occurs00201m1_n(save_xml):
+def test_minoccurs00201m_min_occurs00201m1_n(json_360, save_output):
     """
     Default value of the {minOccurs} property when the ref attribute is
     used. (valid schema) Declare a local element with a reference to a
@@ -8379,11 +8910,12 @@ def test_minoccurs00201m_min_occurs00201m1_n(save_xml):
         instance="sunData/ElemDecl/minOccurs/minOccurs00201m/minOccurs00201m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_minoccurs00101m_min_occurs00101m1_p(save_xml):
+def test_minoccurs00101m_min_occurs00101m1_p(json_360, save_output):
     """
     Default value of the {minOccurs} property. (valid schema) Define one
     global element and one local. Omit minOccurs attribute. Check that the
@@ -8394,12 +8926,13 @@ def test_minoccurs00101m_min_occurs00101m1_p(save_xml):
         instance="sunData/ElemDecl/minOccurs/minOccurs00101m/minOccurs00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_minoccurs00101m_min_occurs00101m1_n(save_xml):
+def test_minoccurs00101m_min_occurs00101m1_n(json_360, save_output):
     """
     Default value of the {minOccurs} property. (valid schema) Define one
     global element and one local. Omit minOccurs attribute. Check that the
@@ -8410,11 +8943,12 @@ def test_minoccurs00101m_min_occurs00101m1_n(save_xml):
         instance="sunData/ElemDecl/minOccurs/minOccurs00101m/minOccurs00101m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_maxoccurs00201m_max_occurs00201m1_p(save_xml):
+def test_maxoccurs00201m_max_occurs00201m1_p(json_360, save_output):
     """
     Default value of the {maxOccurs} property when the ref attribute is
     used. (valid schema) Define one local that refers to a global one.
@@ -8426,12 +8960,13 @@ def test_maxoccurs00201m_max_occurs00201m1_p(save_xml):
         instance="sunData/ElemDecl/maxOccurs/maxOccurs00201m/maxOccurs00201m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_maxoccurs00201m_max_occurs00201m1_n(save_xml):
+def test_maxoccurs00201m_max_occurs00201m1_n(json_360, save_output):
     """
     Default value of the {maxOccurs} property when the ref attribute is
     used. (valid schema) Define one local that refers to a global one.
@@ -8443,11 +8978,12 @@ def test_maxoccurs00201m_max_occurs00201m1_n(save_xml):
         instance="sunData/ElemDecl/maxOccurs/maxOccurs00201m/maxOccurs00201m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_maxoccurs00101m_max_occurs00101m1_p(save_xml):
+def test_maxoccurs00101m_max_occurs00101m1_p(json_360, save_output):
     """
     Default value of the {maxOccurs} property. (valid schema) Define one
     global element and one local. Omit maxOccurs attribute. Check that the
@@ -8458,12 +8994,13 @@ def test_maxoccurs00101m_max_occurs00101m1_p(save_xml):
         instance="sunData/ElemDecl/maxOccurs/maxOccurs00101m/maxOccurs00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_maxoccurs00101m_max_occurs00101m1_n(save_xml):
+def test_maxoccurs00101m_max_occurs00101m1_n(json_360, save_output):
     """
     Default value of the {maxOccurs} property. (valid schema) Define one
     global element and one local. Omit maxOccurs attribute. Check that the
@@ -8474,11 +9011,12 @@ def test_maxoccurs00101m_max_occurs00101m1_n(save_xml):
         instance="sunData/ElemDecl/maxOccurs/maxOccurs00101m/maxOccurs00101m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_idconstrdefs00501m_id_constr_defs00501m1_p(save_xml):
+def test_idconstrdefs00501m_id_constr_defs00501m1_p(json_360, save_output):
     """
     there must be no multiply-defined ID (valid schema) Declare an
     attribute of a type derived from ID. Ensure that two element
@@ -8489,12 +9027,13 @@ def test_idconstrdefs00501m_id_constr_defs00501m1_p(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00501m/idConstrDefs00501m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idconstrdefs00501m_id_constr_defs00501m1_n(save_xml):
+def test_idconstrdefs00501m_id_constr_defs00501m1_n(json_360, save_output):
     """
     there must be no multiply-defined ID (valid schema) Declare an
     attribute of a type derived from ID. Ensure that two element
@@ -8505,11 +9044,12 @@ def test_idconstrdefs00501m_id_constr_defs00501m1_n(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00501m/idConstrDefs00501m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_idconstrdefs00403m_id_constr_defs00403m1_p(save_xml):
+def test_idconstrdefs00403m_id_constr_defs00403m1_p(json_360, save_output):
     """
     derived IDREFS must refer to IDs that are defined (valid schema)
     Declare an attribute of a type derived from ID. Declare an attribute
@@ -8522,12 +9062,13 @@ def test_idconstrdefs00403m_id_constr_defs00403m1_p(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00403m/idConstrDefs00403m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idconstrdefs00403m_id_constr_defs00403m1_n(save_xml):
+def test_idconstrdefs00403m_id_constr_defs00403m1_n(json_360, save_output):
     """
     derived IDREFS must refer to IDs that are defined (valid schema)
     Declare an attribute of a type derived from ID. Declare an attribute
@@ -8540,11 +9081,12 @@ def test_idconstrdefs00403m_id_constr_defs00403m1_n(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00403m/idConstrDefs00403m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_idconstrdefs00402m_id_constr_defs00402m1_p(save_xml):
+def test_idconstrdefs00402m_id_constr_defs00402m1_p(json_360, save_output):
     """
     derived IDREF must refer to an ID that is defined (valid schema)
     Declare an attribute of a type derived from ID. Declare an attribute
@@ -8557,12 +9099,13 @@ def test_idconstrdefs00402m_id_constr_defs00402m1_p(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00402m/idConstrDefs00402m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idconstrdefs00402m_id_constr_defs00402m1_n(save_xml):
+def test_idconstrdefs00402m_id_constr_defs00402m1_n(json_360, save_output):
     """
     derived IDREF must refer to an ID that is defined (valid schema)
     Declare an attribute of a type derived from ID. Declare an attribute
@@ -8575,11 +9118,12 @@ def test_idconstrdefs00402m_id_constr_defs00402m1_n(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00402m/idConstrDefs00402m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_idconstrdefs00401m_id_constr_defs00401m1_p(save_xml):
+def test_idconstrdefs00401m_id_constr_defs00401m1_p(json_360, save_output):
     """
     derived IDREF must refer to an ID that is defined (cyclic) (valid
     schema) Declare an attribute of a type derived from ID. Declare an
@@ -8592,11 +9136,12 @@ def test_idconstrdefs00401m_id_constr_defs00401m1_p(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00401m/idConstrDefs00401m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_idconstrdefs00302m_id_constr_defs00302m1_p(save_xml):
+def test_idconstrdefs00302m_id_constr_defs00302m1_p(json_360, save_output):
     """
     all attributes of type ID, IDREF, IDREFS are valid (valid schema) All
     ID, IDREF and IDREFS attributes are valid.
@@ -8606,12 +9151,13 @@ def test_idconstrdefs00302m_id_constr_defs00302m1_p(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00302m/idConstrDefs00302m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idconstrdefs00302m_id_constr_defs00302m2_n(save_xml):
+def test_idconstrdefs00302m_id_constr_defs00302m2_n(json_360, save_output):
     """
     all attributes of type ID, IDREF, IDREFS are valid (valid schema) All
     ID, IDREF and IDREFS attributes are valid.
@@ -8621,12 +9167,13 @@ def test_idconstrdefs00302m_id_constr_defs00302m2_n(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00302m/idConstrDefs00302m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idconstrdefs00302m_id_constr_defs00302m3_n(save_xml):
+def test_idconstrdefs00302m_id_constr_defs00302m3_n(json_360, save_output):
     """
     all attributes of type ID, IDREF, IDREFS are valid (valid schema) All
     ID, IDREF and IDREFS attributes are valid.
@@ -8636,12 +9183,13 @@ def test_idconstrdefs00302m_id_constr_defs00302m3_n(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00302m/idConstrDefs00302m3_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idconstrdefs00302m_id_constr_defs00302m4_n(save_xml):
+def test_idconstrdefs00302m_id_constr_defs00302m4_n(json_360, save_output):
     """
     all attributes of type ID, IDREF, IDREFS are valid (valid schema) All
     ID, IDREF and IDREFS attributes are valid.
@@ -8651,11 +9199,12 @@ def test_idconstrdefs00302m_id_constr_defs00302m4_n(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00302m/idConstrDefs00302m4_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_idconstrdefs00301m_id_constr_defs00301m1_p(save_xml):
+def test_idconstrdefs00301m_id_constr_defs00301m1_p(json_360, save_output):
     """
     all ID, IDREF, IDREFS are valid (valid schema) All ID, IDREF and
     IDREFS values are valid.
@@ -8665,11 +9214,12 @@ def test_idconstrdefs00301m_id_constr_defs00301m1_p(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00301m/idConstrDefs00301m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_idconstrdefs00301m_id_constr_defs00301m2_n(save_xml):
+def test_idconstrdefs00301m_id_constr_defs00301m2_n(json_360, save_output):
     """
     all ID, IDREF, IDREFS are valid (valid schema) All ID, IDREF and
     IDREFS values are valid.
@@ -8679,12 +9229,13 @@ def test_idconstrdefs00301m_id_constr_defs00301m2_n(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00301m/idConstrDefs00301m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idconstrdefs00301m_id_constr_defs00301m3_n(save_xml):
+def test_idconstrdefs00301m_id_constr_defs00301m3_n(json_360, save_output):
     """
     all ID, IDREF, IDREFS are valid (valid schema) All ID, IDREF and
     IDREFS values are valid.
@@ -8694,12 +9245,13 @@ def test_idconstrdefs00301m_id_constr_defs00301m3_n(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00301m/idConstrDefs00301m3_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idconstrdefs00301m_id_constr_defs00301m4_n(save_xml):
+def test_idconstrdefs00301m_id_constr_defs00301m4_n(json_360, save_output):
     """
     all ID, IDREF, IDREFS are valid (valid schema) All ID, IDREF and
     IDREFS values are valid.
@@ -8709,11 +9261,12 @@ def test_idconstrdefs00301m_id_constr_defs00301m4_n(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00301m/idConstrDefs00301m4_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_idconstrdefs00204m_id_constr_defs00204m1_p(save_xml):
+def test_idconstrdefs00204m_id_constr_defs00204m1_p(json_360, save_output):
     """
     keyref must refer to a key that is defined (valid schema) Define a key
     identity constraint. Define a keyref to that key. Ensure that the
@@ -8724,12 +9277,13 @@ def test_idconstrdefs00204m_id_constr_defs00204m1_p(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00204m/idConstrDefs00204m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idconstrdefs00204m_id_constr_defs00204m1_n(save_xml):
+def test_idconstrdefs00204m_id_constr_defs00204m1_n(json_360, save_output):
     """
     keyref must refer to a key that is defined (valid schema) Define a key
     identity constraint. Define a keyref to that key. Ensure that the
@@ -8740,11 +9294,12 @@ def test_idconstrdefs00204m_id_constr_defs00204m1_n(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00204m/idConstrDefs00204m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_idconstrdefs00203m_id_constr_defs00203m1_p(save_xml):
+def test_idconstrdefs00203m_id_constr_defs00203m1_p(json_360, save_output):
     """
     there must be no uniqueness violations (valid schema) Define a
     uniqueness identity constraint with two fields. Ensure that the
@@ -8755,12 +9310,13 @@ def test_idconstrdefs00203m_id_constr_defs00203m1_p(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00203m/idConstrDefs00203m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idconstrdefs00203m_id_constr_defs00203m1_n(save_xml):
+def test_idconstrdefs00203m_id_constr_defs00203m1_n(json_360, save_output):
     """
     there must be no uniqueness violations (valid schema) Define a
     uniqueness identity constraint with two fields. Ensure that the
@@ -8771,11 +9327,12 @@ def test_idconstrdefs00203m_id_constr_defs00203m1_n(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00203m/idConstrDefs00203m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_idconstrdefs00202m_id_constr_defs00202m1_p(save_xml):
+def test_idconstrdefs00202m_id_constr_defs00202m1_p(json_360, save_output):
     """
     there must be no multiply-defined ID (valid schema) Define a key
     identity constraint with two fields. Ensure that the constraint
@@ -8786,12 +9343,13 @@ def test_idconstrdefs00202m_id_constr_defs00202m1_p(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00202m/idConstrDefs00202m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idconstrdefs00202m_id_constr_defs00202m1_n(save_xml):
+def test_idconstrdefs00202m_id_constr_defs00202m1_n(json_360, save_output):
     """
     there must be no multiply-defined ID (valid schema) Define a key
     identity constraint with two fields. Ensure that the constraint
@@ -8802,11 +9360,12 @@ def test_idconstrdefs00202m_id_constr_defs00202m1_n(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00202m/idConstrDefs00202m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_idconstrdefs00201m_id_constr_defs00201m1_p(save_xml):
+def test_idconstrdefs00201m_id_constr_defs00201m1_p(json_360, save_output):
     """
     all kinds of identity constraint are not violated (valid schema)
     Define and check key, keyref and uniqueness among values of elements.
@@ -8817,12 +9376,13 @@ def test_idconstrdefs00201m_id_constr_defs00201m1_p(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00201m/idConstrDefs00201m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idconstrdefs00201m_id_constr_defs00201m2_n(save_xml):
+def test_idconstrdefs00201m_id_constr_defs00201m2_n(json_360, save_output):
     """
     all kinds of identity constraint are not violated (valid schema)
     Define and check key, keyref and uniqueness among values of elements.
@@ -8833,12 +9393,13 @@ def test_idconstrdefs00201m_id_constr_defs00201m2_n(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00201m/idConstrDefs00201m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idconstrdefs00201m_id_constr_defs00201m3_n(save_xml):
+def test_idconstrdefs00201m_id_constr_defs00201m3_n(json_360, save_output):
     """
     all kinds of identity constraint are not violated (valid schema)
     Define and check key, keyref and uniqueness among values of elements.
@@ -8849,12 +9410,13 @@ def test_idconstrdefs00201m_id_constr_defs00201m3_n(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00201m/idConstrDefs00201m3_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idconstrdefs00201m_id_constr_defs00201m4_n(save_xml):
+def test_idconstrdefs00201m_id_constr_defs00201m4_n(json_360, save_output):
     """
     all kinds of identity constraint are not violated (valid schema)
     Define and check key, keyref and uniqueness among values of elements.
@@ -8865,11 +9427,12 @@ def test_idconstrdefs00201m_id_constr_defs00201m4_n(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00201m/idConstrDefs00201m4_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_idconstrdefs00101m_id_constr_defs00101m1_p(save_xml):
+def test_idconstrdefs00101m_id_constr_defs00101m1_p(json_360, save_output):
     """
     Uniqueness among values of elements. (valid schema) Define and check a
     uniqueness among values of elements.
@@ -8879,12 +9442,13 @@ def test_idconstrdefs00101m_id_constr_defs00101m1_p(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00101m/idConstrDefs00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_idconstrdefs00101m_id_constr_defs00101m1_n(save_xml):
+def test_idconstrdefs00101m_id_constr_defs00101m1_n(json_360, save_output):
     """
     Uniqueness among values of elements. (valid schema) Define and check a
     uniqueness among values of elements.
@@ -8894,12 +9458,13 @@ def test_idconstrdefs00101m_id_constr_defs00101m1_n(save_xml):
         instance="sunData/ElemDecl/identityConstraintDefs/idConstrDefs00101m/idConstrDefs00101m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_disallowedsubst00503m5_negative(save_xml):
+def test_disallowedsubst00503m5_negative(json_360, save_output):
     """
     derived by restriction: prohibiting substitutions contains '#all'
     (valid schema) Two elements are declared. The second one has type
@@ -8912,12 +9477,13 @@ def test_disallowedsubst00503m5_negative(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m5_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_disallowedsubst00503m4_negative(save_xml):
+def test_disallowedsubst00503m4_negative(json_360, save_output):
     """
     derived by restriction: prohibiting substitutions contains
     'restriction extension' (valid schema) Two elements are declared. The
@@ -8931,12 +9497,13 @@ def test_disallowedsubst00503m4_negative(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m4_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_disallowedsubst00503m3_negative(save_xml):
+def test_disallowedsubst00503m3_negative(json_360, save_output):
     """
     derived by restriction: prohibiting substitutions contains
     'restriction' (valid schema) Two elements are declared. The second one
@@ -8950,11 +9517,12 @@ def test_disallowedsubst00503m3_negative(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m3_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_disallowedsubst00503m2_positive(save_xml):
+def test_disallowedsubst00503m2_positive(json_360, save_output):
     """
     derived by restriction: prohibiting substitutions contains 'extension'
     (valid schema) Two elements are declared. The second one has type
@@ -8967,11 +9535,12 @@ def test_disallowedsubst00503m2_positive(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_disallowedsubst00503m1_positive(save_xml):
+def test_disallowedsubst00503m1_positive(json_360, save_output):
     """
     derived by restriction: prohibiting substitutions is empty (valid
     schema) Two elements are declared. The second one has type derived by
@@ -8984,12 +9553,13 @@ def test_disallowedsubst00503m1_positive(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_disallowedsubst00502m4_negative(save_xml):
+def test_disallowedsubst00502m4_negative(json_360, save_output):
     """
     complex type substitution: extension and restriction are blocked
     (valid schema) Two elements are declared. The second one has type
@@ -9002,12 +9572,13 @@ def test_disallowedsubst00502m4_negative(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00502m/disallowedSubst00502m4_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_disallowedsubst00502m3_negative(save_xml):
+def test_disallowedsubst00502m3_negative(json_360, save_output):
     """
     complex type substitution: extension is blocked (valid schema) Two
     elements are declared. The second one has type derived by extension
@@ -9020,11 +9591,12 @@ def test_disallowedsubst00502m3_negative(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00502m/disallowedSubst00502m3_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_disallowedsubst00502m2_positive(save_xml):
+def test_disallowedsubst00502m2_positive(json_360, save_output):
     """
     complex type substitution: restriction is blocked (valid schema) Two
     elements are declared. The second one has type derived by extension
@@ -9037,11 +9609,12 @@ def test_disallowedsubst00502m2_positive(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00502m/disallowedSubst00502m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_disallowedsubst00502m1_positive(save_xml):
+def test_disallowedsubst00502m1_positive(json_360, save_output):
     """
     complex type substitution: no blocking constraints (valid schema) Two
     elements are declared. The second one has type derived by extension
@@ -9054,12 +9627,13 @@ def test_disallowedsubst00502m1_positive(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00502m/disallowedSubst00502m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_disallowedsubst00501m2_negative(save_xml):
+def test_disallowedsubst00501m2_negative(json_360, save_output):
     """
     restriction is blocked (valid schema) Two elements are declared. The
     second one has type derived by restriction from type of the first
@@ -9072,11 +9646,12 @@ def test_disallowedsubst00501m2_negative(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00501m/disallowedSubst00501m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_disallowedsubst00501m1_positive(save_xml):
+def test_disallowedsubst00501m1_positive(json_360, save_output):
     """
     no blocking constraints (valid schema) Two elements are declared. The
     second one has type derived by restriction from type of the first
@@ -9088,12 +9663,13 @@ def test_disallowedsubst00501m1_positive(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00501m/disallowedSubst00501m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_disallowedsubst00401m2_negative(save_xml):
+def test_disallowedsubst00401m2_negative(json_360, save_output):
     """
     substitution is disallowed (valid schema) The blocking constraint must
     not contain substitution for an element declaration to be validly
@@ -9105,11 +9681,12 @@ def test_disallowedsubst00401m2_negative(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00401m/disallowedSubst00401m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_disallowedsubst00401m1_positive(save_xml):
+def test_disallowedsubst00401m1_positive(json_360, save_output):
     """
     substitution is allowed (valid schema) The blocking constraint must
     not contain substitution for an element declaration to be validly
@@ -9121,12 +9698,13 @@ def test_disallowedsubst00401m1_positive(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00401m/disallowedSubst00401m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_disallowedsubst00301m2_negative(save_xml):
+def test_disallowedsubst00301m2_negative(json_360, save_output):
     """
     substitution is disallowed (valid schema) The blocking constraint must
     not contain substitution for an element declaration to be validly
@@ -9138,11 +9716,12 @@ def test_disallowedsubst00301m2_negative(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00301m/disallowedSubst00301m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_disallowedsubst00301m1_positive(save_xml):
+def test_disallowedsubst00301m1_positive(json_360, save_output):
     """
     substitution is allowed (valid schema) The blocking constraint must
     not contain substitution for an element declaration to be validly
@@ -9154,11 +9733,12 @@ def test_disallowedsubst00301m1_positive(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00301m/disallowedSubst00301m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_disallowedsubst00202m12_positive(save_xml):
+def test_disallowedsubst00202m12_positive(json_360, save_output):
     """
     Various subsets of blocking values. (valid schema) Various subsets of
     blocking values are used for a number of elemen declarations.
@@ -9168,12 +9748,13 @@ def test_disallowedsubst00202m12_positive(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m12_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_disallowedsubst00106m2_negative(save_xml):
+def test_disallowedsubst00106m2_negative(json_360, save_output):
     """
     Blocking any extension (negative case) (valid schema) Define an
     element within a substitution group headed by another element. The
@@ -9186,11 +9767,12 @@ def test_disallowedsubst00106m2_negative(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00106m/disallowedSubst00106m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_disallowedsubst00106m1_positive(save_xml):
+def test_disallowedsubst00106m1_positive(json_360, save_output):
     """
     Blocking any extension (positive case) (valid schema) Define an
     element within a substitution group headed by another element. The
@@ -9203,11 +9785,12 @@ def test_disallowedsubst00106m1_positive(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00106m/disallowedSubst00106m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_disallowedsubst00105m_disallowed_subst00105m1_p(save_xml):
+def test_disallowedsubst00105m_disallowed_subst00105m1_p(json_360, save_output):
     """
     Blocking any extension. (valid schema) Define an element within a
     substitution group headed by another element. The first element has a
@@ -9219,12 +9802,13 @@ def test_disallowedsubst00105m_disallowed_subst00105m1_p(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00105m/disallowedSubst00105m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_disallowedsubst00105m_disallowed_subst00105m1_n(save_xml):
+def test_disallowedsubst00105m_disallowed_subst00105m1_n(json_360, save_output):
     """
     Blocking any extension. (valid schema) Define an element within a
     substitution group headed by another element. The first element has a
@@ -9236,12 +9820,13 @@ def test_disallowedsubst00105m_disallowed_subst00105m1_n(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00105m/disallowedSubst00105m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_disallowedsubst00102m2_negative(save_xml):
+def test_disallowedsubst00102m2_negative(json_360, save_output):
     """
     Blocking any substitution (negative case) (valid schema) Define an
     element within a substitution group headed by another element. The
@@ -9253,11 +9838,12 @@ def test_disallowedsubst00102m2_negative(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00102m/disallowedSubst00102m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_disallowedsubst00102m1_positive(save_xml):
+def test_disallowedsubst00102m1_positive(json_360, save_output):
     """
     Blocking any substitution (positive case) (valid schema) Define an
     element within a substitution group headed by another element. The
@@ -9269,11 +9855,12 @@ def test_disallowedsubst00102m1_positive(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00102m/disallowedSubst00102m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_disallowedsubst00101m_disallowed_subst00101m1_p(save_xml):
+def test_disallowedsubst00101m_disallowed_subst00101m1_p(json_360, save_output):
     """
     Blocking any substitution. (valid schema) Define an element within a
     substitution group headed by another element. The elements have the
@@ -9285,12 +9872,13 @@ def test_disallowedsubst00101m_disallowed_subst00101m1_p(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00101m/disallowedSubst00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_disallowedsubst00101m_disallowed_subst00101m1_n(save_xml):
+def test_disallowedsubst00101m_disallowed_subst00101m1_n(json_360, save_output):
     """
     Blocking any substitution. (valid schema) Define an element within a
     substitution group headed by another element. The elements have the
@@ -9302,11 +9890,12 @@ def test_disallowedsubst00101m_disallowed_subst00101m1_n(save_xml):
         instance="sunData/ElemDecl/disallowedSubst/disallowedSubst00101m/disallowedSubst00101m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotation00101m3_positive(save_xml):
+def test_annotation00101m3_positive(json_360, save_output):
     """
     machine-targeted annotation for element declaration (valid schema)
     Annotations provide for human- and machine-targeted annotations of
@@ -9318,11 +9907,12 @@ def test_annotation00101m3_positive(save_xml):
         instance="sunData/ElemDecl/annotation/annotation00101m/annotation00101m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotation00101m1_positive_590(save_xml):
+def test_annotation00101m1_positive_590(json_360, save_output):
     """
     human-targeted annotation for element declaration (valid schema)
     Annotations provide for human- and machine-targeted annotations of
@@ -9334,11 +9924,12 @@ def test_annotation00101m1_positive_590(save_xml):
         instance="sunData/ElemDecl/annotation/annotation00101m/annotation00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_abstract00201m3_positive(save_xml):
+def test_abstract00201m3_positive(json_360, save_output):
     """
     use default value of the attribute abstract (valid schema) Declare an
     element with default value of the attribute abstract. Try to use it in
@@ -9349,11 +9940,12 @@ def test_abstract00201m3_positive(save_xml):
         instance="sunData/ElemDecl/abstract/abstract00201m/abstract00201m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_abstract00201m2_positive(save_xml):
+def test_abstract00201m2_positive(json_360, save_output):
     """
     use abstarct explicitly set to false (valid schema) Declare an element
     with abstarct explicitly set to false. Try to use it in the xml
@@ -9364,12 +9956,13 @@ def test_abstract00201m2_positive(save_xml):
         instance="sunData/ElemDecl/abstract/abstract00201m/abstract00201m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_abstract00201m1_negative(save_xml):
+def test_abstract00201m1_negative(json_360, save_output):
     """
     use abstarct explicitly set to true (valid schema) Declare an element
     with abstarct explicitly set to true. Try to use it in the xml
@@ -9380,11 +9973,12 @@ def test_abstract00201m1_negative(save_xml):
         instance="sunData/ElemDecl/abstract/abstract00201m/abstract00201m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_abstract00101m_abstract00101m1_p(save_xml):
+def test_abstract00101m_abstract00101m1_p(json_360, save_output):
     """
     Abstract declarations may not be used to validate element content.
     (valid schema) Define an element within a substitution group headed by
@@ -9397,12 +9991,13 @@ def test_abstract00101m_abstract00101m1_p(save_xml):
         instance="sunData/ElemDecl/abstract/abstract00101m/abstract00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_abstract00101m_abstract00101m1_n(save_xml):
+def test_abstract00101m_abstract00101m1_n(json_360, save_output):
     """
     Abstract declarations may not be used to validate element content.
     (valid schema) Define an element within a substitution group headed by
@@ -9415,11 +10010,12 @@ def test_abstract00101m_abstract00101m1_n(save_xml):
         instance="sunData/ElemDecl/abstract/abstract00101m/abstract00101m1_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_targetns00101m1_positive(save_xml):
+def test_targetns00101m1_positive(json_360, save_output):
     """
     Identity-constraint definition identities must be unique: different
     namespaces (valid schema) Declare an element. Define a key identity
@@ -9433,11 +10029,12 @@ def test_targetns00101m1_positive(save_xml):
         instance="sunData/IdConstrDefs/targetNS/targetNS00101m/targetNS00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00201m1_positive_597(save_xml):
+def test_name00201m1_positive_597(json_360, save_output):
     """
     constraints have separate symbol space (valid schema) With the same
     name declare a global element, a local element, an attribute, define a
@@ -9448,11 +10045,12 @@ def test_name00201m1_positive_597(save_xml):
         instance="sunData/IdConstrDefs/name/name00201m/name00201m1_p.xml",
         class_name="Name",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00101m1_positive(save_xml):
+def test_name00101m1_positive(json_360, save_output):
     """
     In one namespace Identity-constraint definition names must be unique:
     the names are KEY0 and KEY1 (valid schema) Declare an element. Define
@@ -9464,12 +10062,13 @@ def test_name00101m1_positive(save_xml):
         instance="sunData/IdConstrDefs/name/name00101m/name00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_fields00203m5_negative(save_xml):
+def test_fields00203m5_negative(json_360, save_output):
     """
     values of the fields are checked for equality: string(3.0) compares
     with string(3.0) (valid schema) The equality and inequality conditions
@@ -9484,11 +10083,12 @@ def test_fields00203m5_negative(save_xml):
         instance="sunData/IdConstrDefs/fields/fields00203m/fields00203m5_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_fields00203m4_positive(save_xml):
+def test_fields00203m4_positive(json_360, save_output):
     """
     values of the fields are checked for equality: string(3.0) compares
     with string(3) (valid schema) The equality and inequality conditions
@@ -9503,12 +10103,13 @@ def test_fields00203m4_positive(save_xml):
         instance="sunData/IdConstrDefs/fields/fields00203m/fields00203m4_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_fields00203m3_negative(save_xml):
+def test_fields00203m3_negative(json_360, save_output):
     """
     values of the fields are checked for equality: decimal(3.0) compares
     with decimal(3.0) (valid schema) The equality and inequality
@@ -9523,12 +10124,13 @@ def test_fields00203m3_negative(save_xml):
         instance="sunData/IdConstrDefs/fields/fields00203m/fields00203m3_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_fields00203m2_negative(save_xml):
+def test_fields00203m2_negative(json_360, save_output):
     """
     values of the fields are checked for equality: decimal(3.0) compares
     with decimal(3) (valid schema) The equality and inequality conditions
@@ -9543,11 +10145,12 @@ def test_fields00203m2_negative(save_xml):
         instance="sunData/IdConstrDefs/fields/fields00203m/fields00203m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_fields00203m1_positive(save_xml):
+def test_fields00203m1_positive(json_360, save_output):
     """
     values of the fields are checked for equality: decimal(3.0) compares
     with decimal(-3) (valid schema) The equality and inequality conditions
@@ -9562,12 +10165,13 @@ def test_fields00203m1_positive(save_xml):
         instance="sunData/IdConstrDefs/fields/fields00203m/fields00203m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_fields00202m5_negative(save_xml):
+def test_fields00202m5_negative(json_360, save_output):
     """
     values of the fields are checked for equality: string(3.0) compares
     with string(3.0) (valid schema) The equality and inequality conditions
@@ -9583,11 +10187,12 @@ def test_fields00202m5_negative(save_xml):
         instance="sunData/IdConstrDefs/fields/fields00202m/fields00202m5_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_fields00202m4_positive(save_xml):
+def test_fields00202m4_positive(json_360, save_output):
     """
     values of the fields are checked for equality: string(3.0) compares
     with string(3) (valid schema) The equality and inequality conditions
@@ -9603,11 +10208,12 @@ def test_fields00202m4_positive(save_xml):
         instance="sunData/IdConstrDefs/fields/fields00202m/fields00202m4_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_fields00202m3_positive(save_xml):
+def test_fields00202m3_positive(json_360, save_output):
     """
     values of the fields are checked for equality: string(3.0) compares
     with decimal(3.0) (valid schema) The equality and inequality
@@ -9623,11 +10229,12 @@ def test_fields00202m3_positive(save_xml):
         instance="sunData/IdConstrDefs/fields/fields00202m/fields00202m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_fields00202m2_positive(save_xml):
+def test_fields00202m2_positive(json_360, save_output):
     """
     values of the fields are checked for equality: string(3.0) compares
     with decimal(3) (valid schema) The equality and inequality conditions
@@ -9643,11 +10250,12 @@ def test_fields00202m2_positive(save_xml):
         instance="sunData/IdConstrDefs/fields/fields00202m/fields00202m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_fields00202m1_positive(save_xml):
+def test_fields00202m1_positive(json_360, save_output):
     """
     values of the fields are checked for equality: string(3.0) compares
     with decimal(-3) (valid schema) The equality and inequality conditions
@@ -9663,12 +10271,13 @@ def test_fields00202m1_positive(save_xml):
         instance="sunData/IdConstrDefs/fields/fields00202m/fields00202m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_fields00201m5_negative(save_xml):
+def test_fields00201m5_negative(json_360, save_output):
     """
     values of the fields are checked for equality: type is string, values
     are 3.0 and 3.0 (valid schema) The equality and inequality conditions
@@ -9683,11 +10292,12 @@ def test_fields00201m5_negative(save_xml):
         instance="sunData/IdConstrDefs/fields/fields00201m/fields00201m5_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_fields00201m4_positive(save_xml):
+def test_fields00201m4_positive(json_360, save_output):
     """
     values of the fields are checked for equality: type is string, values
     are 3.0 and 3 (valid schema) The equality and inequality conditions
@@ -9702,12 +10312,13 @@ def test_fields00201m4_positive(save_xml):
         instance="sunData/IdConstrDefs/fields/fields00201m/fields00201m4_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_fields00201m3_negative(save_xml):
+def test_fields00201m3_negative(json_360, save_output):
     """
     values of the fields are checked for equality: type is decimal, values
     are 3.0 and 3.0 (valid schema) The equality and inequality conditions
@@ -9722,12 +10333,13 @@ def test_fields00201m3_negative(save_xml):
         instance="sunData/IdConstrDefs/fields/fields00201m/fields00201m3_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_fields00201m2_negative(save_xml):
+def test_fields00201m2_negative(json_360, save_output):
     """
     values of the fields are checked for equality: type is decimal, values
     are 3.0 and 3 (valid schema) The equality and inequality conditions
@@ -9742,11 +10354,12 @@ def test_fields00201m2_negative(save_xml):
         instance="sunData/IdConstrDefs/fields/fields00201m/fields00201m2_n.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_fields00201m1_positive(save_xml):
+def test_fields00201m1_positive(json_360, save_output):
     """
     values of the fields are checked for equality: type is decimal, values
     are 3.0 and -3 (valid schema) The equality and inequality conditions
@@ -9761,11 +10374,12 @@ def test_fields00201m1_positive(save_xml):
         instance="sunData/IdConstrDefs/fields/fields00201m/fields00201m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_fields00101m1_positive(save_xml):
+def test_fields00101m1_positive(json_360, save_output):
     """
     fields may have different types (valid schema) Define a uniqueness
     constraint with fields of different types.
@@ -9775,11 +10389,12 @@ def test_fields00101m1_positive(save_xml):
         instance="sunData/IdConstrDefs/fields/fields00101m/fields00101m1_p.xml",
         class_name="People",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotation00101m4_positive_615(save_xml):
+def test_annotation00101m4_positive_615(json_360, save_output):
     """
     machine-targeted annotation for an Identity-constraint Definition
     (valid schema) Annotations provide for human- and machine-targeted
@@ -9791,11 +10406,12 @@ def test_annotation00101m4_positive_615(save_xml):
         instance="sunData/IdConstrDefs/annotation/annotation00101m/annotation00101m4_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotation00101m1_positive_616(save_xml):
+def test_annotation00101m1_positive_616(json_360, save_output):
     """
     human-targeted annotation for an Identity-constraint Definition (valid
     schema) Annotations provide for human- and machine-targeted
@@ -9807,11 +10423,12 @@ def test_annotation00101m1_positive_616(save_xml):
         instance="sunData/IdConstrDefs/annotation/annotation00101m/annotation00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles00305m1_positive(save_xml):
+def test_particles00305m1_positive(json_360, save_output):
     """
     {particles}: 1 <any> (valid schema) The {particles} of 'sequence' must
     be one of <element>, <group>, <choice>, <sequence> <any>.
@@ -9821,12 +10438,13 @@ def test_particles00305m1_positive(save_xml):
         instance="sunData/MGroup/particles/particles00305m/particles00305m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles00305m1_negative(save_xml):
+def test_particles00305m1_negative(json_360, save_output):
     """
     {particles}: 1 <any> (valid schema) The {particles} of 'sequence' must
     be one of <element>, <group>, <choice>, <sequence> <any>.
@@ -9836,11 +10454,12 @@ def test_particles00305m1_negative(save_xml):
         instance="sunData/MGroup/particles/particles00305m/particles00305m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles00304m1_positive(save_xml):
+def test_particles00304m1_positive(json_360, save_output):
     """
     {particles}: 2 <sequence> (valid schema) The {particles} of 'sequence'
     must be one of <element>, <group>, <choice>, <sequence> <any>.
@@ -9850,12 +10469,13 @@ def test_particles00304m1_positive(save_xml):
         instance="sunData/MGroup/particles/particles00304m/particles00304m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles00304m1_negative(save_xml):
+def test_particles00304m1_negative(json_360, save_output):
     """
     {particles}: 2 <sequence> (valid schema) The {particles} of 'sequence'
     must be one of <element>, <group>, <choice>, <sequence> <any>.
@@ -9865,11 +10485,12 @@ def test_particles00304m1_negative(save_xml):
         instance="sunData/MGroup/particles/particles00304m/particles00304m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles00303m1_positive(save_xml):
+def test_particles00303m1_positive(json_360, save_output):
     """
     {particles}: 2 <choice> (valid schema) The {particles} of 'sequence'
     must be one of <element>, <group>, <choice>, <sequence> <any>.
@@ -9879,12 +10500,13 @@ def test_particles00303m1_positive(save_xml):
         instance="sunData/MGroup/particles/particles00303m/particles00303m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles00303m1_negative(save_xml):
+def test_particles00303m1_negative(json_360, save_output):
     """
     {particles}: 2 <choice> (valid schema) The {particles} of 'sequence'
     must be one of <element>, <group>, <choice>, <sequence> <any>.
@@ -9894,11 +10516,12 @@ def test_particles00303m1_negative(save_xml):
         instance="sunData/MGroup/particles/particles00303m/particles00303m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles00302m1_positive(save_xml):
+def test_particles00302m1_positive(json_360, save_output):
     """
     {particles}: 2 <group> (valid schema) The {particles} of 'sequence'
     must be one of <element>, <group>, <choice>, <sequence> <any>.
@@ -9908,12 +10531,13 @@ def test_particles00302m1_positive(save_xml):
         instance="sunData/MGroup/particles/particles00302m/particles00302m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles00302m1_negative(save_xml):
+def test_particles00302m1_negative(json_360, save_output):
     """
     {particles}: 2 <group> (valid schema) The {particles} of 'sequence'
     must be one of <element>, <group>, <choice>, <sequence> <any>.
@@ -9923,11 +10547,12 @@ def test_particles00302m1_negative(save_xml):
         instance="sunData/MGroup/particles/particles00302m/particles00302m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles00301m1_positive(save_xml):
+def test_particles00301m1_positive(json_360, save_output):
     """
     {particles}: 2 <element> (valid schema) The {particles} of 'sequence'
     must be one of <element>, <group>, <choice>, <sequence> <any>.
@@ -9937,12 +10562,13 @@ def test_particles00301m1_positive(save_xml):
         instance="sunData/MGroup/particles/particles00301m/particles00301m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles00301m1_negative(save_xml):
+def test_particles00301m1_negative(json_360, save_output):
     """
     {particles}: 2 <element> (valid schema) The {particles} of 'sequence'
     must be one of <element>, <group>, <choice>, <sequence> <any>.
@@ -9952,11 +10578,12 @@ def test_particles00301m1_negative(save_xml):
         instance="sunData/MGroup/particles/particles00301m/particles00301m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles00205m1_positive(save_xml):
+def test_particles00205m1_positive(json_360, save_output):
     """
     {particles}: 1 <any> (valid schema) The {particles} of 'choice' must
     be one of <element>, <group>, <choice>, <sequence> <any>.
@@ -9966,12 +10593,13 @@ def test_particles00205m1_positive(save_xml):
         instance="sunData/MGroup/particles/particles00205m/particles00205m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles00205m1_negative(save_xml):
+def test_particles00205m1_negative(json_360, save_output):
     """
     {particles}: 1 <any> (valid schema) The {particles} of 'choice' must
     be one of <element>, <group>, <choice>, <sequence> <any>.
@@ -9981,11 +10609,12 @@ def test_particles00205m1_negative(save_xml):
         instance="sunData/MGroup/particles/particles00205m/particles00205m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles00204m1_positive(save_xml):
+def test_particles00204m1_positive(json_360, save_output):
     """
     {particles}: 2 <sequence> (valid schema) The {particles} of 'choice'
     must be one of <element>, <group>, <choice>, <sequence> <any>.
@@ -9995,12 +10624,13 @@ def test_particles00204m1_positive(save_xml):
         instance="sunData/MGroup/particles/particles00204m/particles00204m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles00204m1_negative(save_xml):
+def test_particles00204m1_negative(json_360, save_output):
     """
     {particles}: 2 <sequence> (valid schema) The {particles} of 'choice'
     must be one of <element>, <group>, <choice>, <sequence> <any>.
@@ -10010,11 +10640,12 @@ def test_particles00204m1_negative(save_xml):
         instance="sunData/MGroup/particles/particles00204m/particles00204m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles00203m1_positive(save_xml):
+def test_particles00203m1_positive(json_360, save_output):
     """
     {particles}: 2 <choice> (valid schema) The {particles} of 'choice'
     must be one of <element>, <group>, <choice>, <sequence> <any>.
@@ -10024,12 +10655,13 @@ def test_particles00203m1_positive(save_xml):
         instance="sunData/MGroup/particles/particles00203m/particles00203m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles00203m1_negative(save_xml):
+def test_particles00203m1_negative(json_360, save_output):
     """
     {particles}: 2 <choice> (valid schema) The {particles} of 'choice'
     must be one of <element>, <group>, <choice>, <sequence> <any>.
@@ -10039,11 +10671,12 @@ def test_particles00203m1_negative(save_xml):
         instance="sunData/MGroup/particles/particles00203m/particles00203m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles00202m1_positive(save_xml):
+def test_particles00202m1_positive(json_360, save_output):
     """
     {particles}: 2 <group> (valid schema) The {particles} of 'choice' must
     be one of <element>, <group>, <choice>, <sequence> <any>.
@@ -10053,12 +10686,13 @@ def test_particles00202m1_positive(save_xml):
         instance="sunData/MGroup/particles/particles00202m/particles00202m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles00202m1_negative(save_xml):
+def test_particles00202m1_negative(json_360, save_output):
     """
     {particles}: 2 <group> (valid schema) The {particles} of 'choice' must
     be one of <element>, <group>, <choice>, <sequence> <any>.
@@ -10068,11 +10702,12 @@ def test_particles00202m1_negative(save_xml):
         instance="sunData/MGroup/particles/particles00202m/particles00202m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles00201m1_positive(save_xml):
+def test_particles00201m1_positive(json_360, save_output):
     """
     {particles}: 2 <element> (valid schema) The {particles} of 'choice'
     must be one of <element>, <group>, <choice>, <sequence> <any>.
@@ -10082,12 +10717,13 @@ def test_particles00201m1_positive(save_xml):
         instance="sunData/MGroup/particles/particles00201m/particles00201m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles00201m1_negative(save_xml):
+def test_particles00201m1_negative(json_360, save_output):
     """
     {particles}: 2 <element> (valid schema) The {particles} of 'choice'
     must be one of <element>, <group>, <choice>, <sequence> <any>.
@@ -10097,11 +10733,12 @@ def test_particles00201m1_negative(save_xml):
         instance="sunData/MGroup/particles/particles00201m/particles00201m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles00101m2_positive(save_xml):
+def test_particles00101m2_positive(json_360, save_output):
     """
     {particles}: 2 <element> (valid schema) The {particles} of 'all' must
     be <element>.
@@ -10111,12 +10748,13 @@ def test_particles00101m2_positive(save_xml):
         instance="sunData/MGroup/particles/particles00101m/particles00101m2_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles00101m2_negative(save_xml):
+def test_particles00101m2_negative(json_360, save_output):
     """
     {particles}: 2 <element> (valid schema) The {particles} of 'all' must
     be <element>.
@@ -10126,11 +10764,12 @@ def test_particles00101m2_negative(save_xml):
         instance="sunData/MGroup/particles/particles00101m/particles00101m2_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_particles00101m1_positive(save_xml):
+def test_particles00101m1_positive(json_360, save_output):
     """
     {particles}: 1 <element> (valid schema) The {particles} of 'all' must
     be <element>.
@@ -10140,12 +10779,13 @@ def test_particles00101m1_positive(save_xml):
         instance="sunData/MGroup/particles/particles00101m/particles00101m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles00101m1_negative(save_xml):
+def test_particles00101m1_negative(json_360, save_output):
     """
     {particles}: 1 <element> (valid schema) The {particles} of 'all' must
     be <element>.
@@ -10155,11 +10795,12 @@ def test_particles00101m1_negative(save_xml):
         instance="sunData/MGroup/particles/particles00101m/particles00101m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_compositor00203m1_positive(save_xml):
+def test_compositor00203m1_positive(json_360, save_output):
     """
     An empty all (valid schema) The XMLSchema specification allows an
     empty all.
@@ -10169,11 +10810,12 @@ def test_compositor00203m1_positive(save_xml):
         instance="sunData/MGroup/compositor/compositor00203m/compositor00203m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_compositor00202m1_positive(save_xml):
+def test_compositor00202m1_positive(json_360, save_output):
     """
     An empty choice (valid schema) The XMLSchema specification allows an
     empty choice.
@@ -10183,11 +10825,12 @@ def test_compositor00202m1_positive(save_xml):
         instance="sunData/MGroup/compositor/compositor00202m/compositor00202m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_compositor00201m1_positive(save_xml):
+def test_compositor00201m1_positive(json_360, save_output):
     """
     An empty sequence (valid schema) The XMLSchema specification allows an
     empty sequence.
@@ -10197,11 +10840,12 @@ def test_compositor00201m1_positive(save_xml):
         instance="sunData/MGroup/compositor/compositor00201m/compositor00201m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_compositor00103m1_positive(save_xml):
+def test_compositor00103m1_positive(json_360, save_output):
     """
     The {compositor} is all, {particles} are element declarations (valid
     schema) Validation Rule: Element Sequence Valid case #3
@@ -10211,12 +10855,13 @@ def test_compositor00103m1_positive(save_xml):
         instance="sunData/MGroup/compositor/compositor00103m/compositor00103m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_compositor00103m1_negative(save_xml):
+def test_compositor00103m1_negative(json_360, save_output):
     """
     The {compositor} is all, {particles} are element declarations (valid
     schema) Validation Rule: Element Sequence Valid case #3
@@ -10226,11 +10871,12 @@ def test_compositor00103m1_negative(save_xml):
         instance="sunData/MGroup/compositor/compositor00103m/compositor00103m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_compositor00102m1_positive(save_xml):
+def test_compositor00102m1_positive(json_360, save_output):
     """
     The {compositor} is choice, {particles} are element declarations
     (valid schema) Validation Rule: Element Sequence Valid case #2
@@ -10240,12 +10886,13 @@ def test_compositor00102m1_positive(save_xml):
         instance="sunData/MGroup/compositor/compositor00102m/compositor00102m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_compositor00102m1_negative(save_xml):
+def test_compositor00102m1_negative(json_360, save_output):
     """
     The {compositor} is choice, {particles} are element declarations
     (valid schema) Validation Rule: Element Sequence Valid case #2
@@ -10255,11 +10902,12 @@ def test_compositor00102m1_negative(save_xml):
         instance="sunData/MGroup/compositor/compositor00102m/compositor00102m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_compositor00101m1_positive(save_xml):
+def test_compositor00101m1_positive(json_360, save_output):
     """
     The {compositor} is <sequence> of 3 elements, {particles} are element
     declarations (valid schema) Validation Rule: Element Sequence Valid
@@ -10270,12 +10918,13 @@ def test_compositor00101m1_positive(save_xml):
         instance="sunData/MGroup/compositor/compositor00101m/compositor00101m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_compositor00101m1_negative(save_xml):
+def test_compositor00101m1_negative(json_360, save_output):
     """
     The {compositor} is <sequence> of 3 elements, {particles} are element
     declarations (valid schema) Validation Rule: Element Sequence Valid
@@ -10286,11 +10935,12 @@ def test_compositor00101m1_negative(save_xml):
         instance="sunData/MGroup/compositor/compositor00101m/compositor00101m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotation00101m7_positive(save_xml):
+def test_annotation00101m7_positive(json_360, save_output):
     """
     human-targeted annotation for a model group schema component (choice)
     (valid schema) Annotations provide for human- and machine-targeted
@@ -10302,11 +10952,12 @@ def test_annotation00101m7_positive(save_xml):
         instance="sunData/MGroup/annotation/annotation00101m/annotation00101m7_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotation00101m4_positive_651(save_xml):
+def test_annotation00101m4_positive_651(json_360, save_output):
     """
     machine-targeted annotation for a model group schema component (all)
     (valid schema) Annotations provide for human- and machine-targeted
@@ -10318,11 +10969,12 @@ def test_annotation00101m4_positive_651(save_xml):
         instance="sunData/MGroup/annotation/annotation00101m/annotation00101m4_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotation00101m16_positive(save_xml):
+def test_annotation00101m16_positive(json_360, save_output):
     """
     machine-targeted annotation for a model group schema component
     (sequence) (valid schema) Annotations provide for human- and machine-
@@ -10335,11 +10987,12 @@ def test_annotation00101m16_positive(save_xml):
         instance="sunData/MGroup/annotation/annotation00101m/annotation00101m16_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotation00101m13_positive(save_xml):
+def test_annotation00101m13_positive(json_360, save_output):
     """
     human-targeted annotation for a model group schema component
     (sequence) (valid schema) Annotations provide for human- and machine-
@@ -10352,11 +11005,12 @@ def test_annotation00101m13_positive(save_xml):
         instance="sunData/MGroup/annotation/annotation00101m/annotation00101m13_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotation00101m10_positive(save_xml):
+def test_annotation00101m10_positive(json_360, save_output):
     """
     machine-targeted annotation for a model group schema component
     (choice) (valid schema) Annotations provide for human- and machine-
@@ -10369,11 +11023,12 @@ def test_annotation00101m10_positive(save_xml):
         instance="sunData/MGroup/annotation/annotation00101m/annotation00101m10_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotation00101m1_positive_655(save_xml):
+def test_annotation00101m1_positive_655(json_360, save_output):
     """
     human-targeted annotation for a model group schema component (all)
     (valid schema) Annotations provide for human- and machine-targeted
@@ -10385,11 +11040,12 @@ def test_annotation00101m1_positive_655(save_xml):
         instance="sunData/MGroup/annotation/annotation00101m/annotation00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_targetns00101m2_positive(save_xml):
+def test_targetns00101m2_positive(json_360, save_output):
     """
     Use the model group definition defined in other namespace (valid
     schema) Model group definitions are identified by their {name} and
@@ -10401,12 +11057,13 @@ def test_targetns00101m2_positive(save_xml):
         instance="sunData/MGroupDef/targetNS/targetNS00101m/targetNS00101m2_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_targetns00101m2_negative(save_xml):
+def test_targetns00101m2_negative(json_360, save_output):
     """
     Use the model group definition defined in other namespace (valid
     schema) Model group definitions are identified by their {name} and
@@ -10418,11 +11075,12 @@ def test_targetns00101m2_negative(save_xml):
         instance="sunData/MGroupDef/targetNS/targetNS00101m/targetNS00101m2_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_targetns00101m1_positive_658(save_xml):
+def test_targetns00101m1_positive_658(json_360, save_output):
     """
     The auxiliary schema for targetNS00101m2.xsd (valid schema) Model
     group definitions are identified by their {name} and {target
@@ -10434,12 +11092,13 @@ def test_targetns00101m1_positive_658(save_xml):
         instance="sunData/MGroupDef/targetNS/targetNS00101m/targetNS00101m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_targetns00101m1_negative(save_xml):
+def test_targetns00101m1_negative(json_360, save_output):
     """
     The auxiliary schema for targetNS00101m2.xsd (valid schema) Model
     group definitions are identified by their {name} and {target
@@ -10451,11 +11110,12 @@ def test_targetns00101m1_negative(save_xml):
         instance="sunData/MGroupDef/targetNS/targetNS00101m/targetNS00101m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00101m1_positive_660(save_xml):
+def test_name00101m1_positive_660(json_360, save_output):
     """
     Identify a model group definition by name (valid schema) Model group
     definitions are identified by their {name} and {target namespace};
@@ -10466,12 +11126,13 @@ def test_name00101m1_positive_660(save_xml):
         instance="sunData/MGroupDef/name/name00101m/name00101m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_name00101m1_negative(save_xml):
+def test_name00101m1_negative(json_360, save_output):
     """
     Identify a model group definition by name (valid schema) Model group
     definitions are identified by their {name} and {target namespace};
@@ -10482,11 +11143,12 @@ def test_name00101m1_negative(save_xml):
         instance="sunData/MGroupDef/name/name00101m/name00101m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_modelgroup00101m3_positive(save_xml):
+def test_modelgroup00101m3_positive(json_360, save_output):
     """
     A model group is <sequence> (valid schema) A model group which is the
     {term} of a particle corresponding to the <all>, <choice> or
@@ -10497,12 +11159,13 @@ def test_modelgroup00101m3_positive(save_xml):
         instance="sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m3_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_modelgroup00101m3_negative(save_xml):
+def test_modelgroup00101m3_negative(json_360, save_output):
     """
     A model group is <sequence> (valid schema) A model group which is the
     {term} of a particle corresponding to the <all>, <choice> or
@@ -10513,11 +11176,12 @@ def test_modelgroup00101m3_negative(save_xml):
         instance="sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m3_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_modelgroup00101m2_positive(save_xml):
+def test_modelgroup00101m2_positive(json_360, save_output):
     """
     A model group is <choice> (valid schema) A model group which is the
     {term} of a particle corresponding to the <all>, <choice> or
@@ -10528,12 +11192,13 @@ def test_modelgroup00101m2_positive(save_xml):
         instance="sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m2_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_modelgroup00101m2_negative(save_xml):
+def test_modelgroup00101m2_negative(json_360, save_output):
     """
     A model group is <choice> (valid schema) A model group which is the
     {term} of a particle corresponding to the <all>, <choice> or
@@ -10544,11 +11209,12 @@ def test_modelgroup00101m2_negative(save_xml):
         instance="sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m2_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_modelgroup00101m1_positive(save_xml):
+def test_modelgroup00101m1_positive(json_360, save_output):
     """
     A model group is <all> (valid schema) A model group which is the
     {term} of a particle corresponding to the <all>, <choice> or
@@ -10559,12 +11225,13 @@ def test_modelgroup00101m1_positive(save_xml):
         instance="sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_modelgroup00101m1_negative(save_xml):
+def test_modelgroup00101m1_negative(json_360, save_output):
     """
     A model group is <all> (valid schema) A model group which is the
     {term} of a particle corresponding to the <all>, <choice> or
@@ -10575,11 +11242,12 @@ def test_modelgroup00101m1_negative(save_xml):
         instance="sunData/MGroupDef/modelGroup/modelGroup00101m/modelGroup00101m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotation00101m4_positive_668(save_xml):
+def test_annotation00101m4_positive_668(json_360, save_output):
     """
     machine-targeted annotation for a model group definition (valid
     schema) Annotations provide for human- and machine-targeted
@@ -10591,11 +11259,12 @@ def test_annotation00101m4_positive_668(save_xml):
         instance="sunData/MGroupDef/annotation/annotation00101m/annotation00101m4_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotation00101m1_positive_669(save_xml):
+def test_annotation00101m1_positive_669(json_360, save_output):
     """
     human-targeted annotation for a model group definition (valid schema)
     Annotations provide for human- and machine-targeted annotations of
@@ -10607,11 +11276,12 @@ def test_annotation00101m1_positive_669(save_xml):
         instance="sunData/MGroupDef/annotation/annotation00101m/annotation00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_targetns00101m2_positive_670(save_xml):
+def test_targetns00101m2_positive_670(json_360, save_output):
     """
     Use of the notation declared in the namespace 'tck_test' (valid
     schema) Notation declarations are referenced in the course of
@@ -10622,11 +11292,12 @@ def test_targetns00101m2_positive_670(save_xml):
         instance="sunData/Notation/targetNS/targetNS00101m/targetNS00101m2_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_targetns00101m1_positive_671(save_xml):
+def test_targetns00101m1_positive_671(json_360, save_output):
     """
     Declaration of the notation with the name 'png' and the namespace
     'tck_test' (valid schema) The property {name} is represented as the
@@ -10637,11 +11308,12 @@ def test_targetns00101m1_positive_671(save_xml):
         instance="sunData/Notation/targetNS/targetNS00101m/targetNS00101m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_systemid00201m1_positive(save_xml):
+def test_systemid00201m1_positive(json_360, save_output):
     """
     Declare a notation without the {system identifier} (valid schema) The
     property {system identifier} is optional.
@@ -10651,11 +11323,12 @@ def test_systemid00201m1_positive(save_xml):
         instance="sunData/Notation/systemId/systemId00201m/systemId00201m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_systemid00101m1_positive(save_xml):
+def test_systemid00101m1_positive(json_360, save_output):
     """
     Declare a notation with the {system identifier} 'sdtimage' (valid
     schema) The property {system identifier} is represented as the actual
@@ -10666,11 +11339,12 @@ def test_systemid00101m1_positive(save_xml):
         instance="sunData/Notation/systemId/systemId00101m/systemId00101m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_publicid00101m1_positive(save_xml):
+def test_publicid00101m1_positive(json_360, save_output):
     """
     Declare a notation with the {public identifier} 'image/png' (valid
     schema) The property {public identifier} is represented as the actual
@@ -10681,11 +11355,12 @@ def test_publicid00101m1_positive(save_xml):
         instance="sunData/Notation/publicId/publicId00101m/publicId00101m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_name00101m1_positive_675(save_xml):
+def test_name00101m1_positive_675(json_360, save_output):
     """
     Use the declared notation with the name 'png' (valid schema) Notation
     declarations are referenced in the course of *validating* strings as
@@ -10697,11 +11372,12 @@ def test_name00101m1_positive_675(save_xml):
         instance="sunData/Notation/name/name00101m/name00101m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotation00101m3_positive_676(save_xml):
+def test_annotation00101m3_positive_676(json_360, save_output):
     """
     machine-targeted annotation for a notation declaration (valid schema)
     Annotations provide for human- and machine-targeted annotations of
@@ -10713,11 +11389,12 @@ def test_annotation00101m3_positive_676(save_xml):
         instance="sunData/Notation/annotation/annotation00101m/annotation00101m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotation00101m1_positive_677(save_xml):
+def test_annotation00101m1_positive_677(json_360, save_output):
     """
     human-targeted annotation for a notation declaration (valid schema)
     Annotations provide for human- and machine-targeted annotations of
@@ -10729,11 +11406,12 @@ def test_annotation00101m1_positive_677(save_xml):
         instance="sunData/Notation/annotation/annotation00101m/annotation00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_variety00101m2_positive(save_xml):
+def test_st_variety00101m2_positive(json_360, save_output):
     """
     The {variety} is atomic (valid schema) If the {variety} is atomic,
     then all of the following must be true: 1. The {base type definition}
@@ -10749,12 +11427,13 @@ def test_st_variety00101m2_positive(save_xml):
         instance="sunData/SType/ST_variety/ST_variety00101m/ST_variety00101m2_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_variety00101m2_negative(save_xml):
+def test_st_variety00101m2_negative(json_360, save_output):
     """
     The {variety} is atomic (valid schema) If the {variety} is atomic,
     then all of the following must be true: 1. The {base type definition}
@@ -10770,11 +11449,12 @@ def test_st_variety00101m2_negative(save_xml):
         instance="sunData/SType/ST_variety/ST_variety00101m/ST_variety00101m2_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_variety00101m1_positive(save_xml):
+def test_st_variety00101m1_positive(json_360, save_output):
     """
     The {variety} is atomic (valid schema) If the {variety} is atomic,
     then all of the following must be true: 1. The {base type definition}
@@ -10790,12 +11470,13 @@ def test_st_variety00101m1_positive(save_xml):
         instance="sunData/SType/ST_variety/ST_variety00101m/ST_variety00101m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_variety00101m1_negative(save_xml):
+def test_st_variety00101m1_negative(json_360, save_output):
     """
     The {variety} is atomic (valid schema) If the {variety} is atomic,
     then all of the following must be true: 1. The {base type definition}
@@ -10811,11 +11492,12 @@ def test_st_variety00101m1_negative(save_xml):
         instance="sunData/SType/ST_variety/ST_variety00101m/ST_variety00101m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_targetns00201m_st_target_ns00201m1_p(save_xml):
+def test_st_targetns00201m_st_target_ns00201m1_p(json_360, save_output):
     """
     reference to type (valid schema) Simple type {name}s and {target
     namespace}s are provided for reference from instances.
@@ -10825,11 +11507,12 @@ def test_st_targetns00201m_st_target_ns00201m1_p(save_xml):
         instance="sunData/SType/ST_targetNS/ST_targetNS00201m/ST_targetNS00201m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_targetns00101m_st_target_ns00101m1_p(save_xml):
+def test_st_targetns00101m_st_target_ns00101m1_p(json_360, save_output):
     """
     Identify the type by their {name} and {target namespace} (valid
     schema) Simple types are identified by their {name} and {target
@@ -10840,12 +11523,13 @@ def test_st_targetns00101m_st_target_ns00101m1_p(save_xml):
         instance="sunData/SType/ST_targetNS/ST_targetNS00101m/ST_targetNS00101m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_targetns00101m_st_target_ns00101m1_n(save_xml):
+def test_st_targetns00101m_st_target_ns00101m1_n(json_360, save_output):
     """
     Identify the type by their {name} and {target namespace} (valid
     schema) Simple types are identified by their {name} and {target
@@ -10856,11 +11540,12 @@ def test_st_targetns00101m_st_target_ns00101m1_n(save_xml):
         instance="sunData/SType/ST_targetNS/ST_targetNS00101m/ST_targetNS00101m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_targetns00101m_st_target_ns00101m2_p(save_xml):
+def test_st_targetns00101m_st_target_ns00101m2_p(json_360, save_output):
     """
     Identify the type by their {name} and {target namespace} (valid
     schema) Simple types are identified by their {name} and {target
@@ -10871,12 +11556,13 @@ def test_st_targetns00101m_st_target_ns00101m2_p(save_xml):
         instance="sunData/SType/ST_targetNS/ST_targetNS00101m/ST_targetNS00101m2_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_targetns00101m_st_target_ns00101m2_n(save_xml):
+def test_st_targetns00101m_st_target_ns00101m2_n(json_360, save_output):
     """
     Identify the type by their {name} and {target namespace} (valid
     schema) Simple types are identified by their {name} and {target
@@ -10887,11 +11573,12 @@ def test_st_targetns00101m_st_target_ns00101m2_n(save_xml):
         instance="sunData/SType/ST_targetNS/ST_targetNS00101m/ST_targetNS00101m2_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_name00401m_st_name00401m1_p(save_xml):
+def test_st_name00401m_st_name00401m1_p(json_360, save_output):
     """
     Simple type {name}s is provided for reference (valid schema) Simple
     type {name}s is provided for reference from instances.
@@ -10901,11 +11588,12 @@ def test_st_name00401m_st_name00401m1_p(save_xml):
         instance="sunData/SType/ST_name/ST_name00401m/ST_name00401m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_name00101m_st_name00101m1_p(save_xml):
+def test_st_name00101m_st_name00101m1_p(json_360, save_output):
     """
     Simple types are identified by their {name} and {target namespace}.
     (valid schema) Simple types are identified by their {name} and {target
@@ -10916,12 +11604,13 @@ def test_st_name00101m_st_name00101m1_p(save_xml):
         instance="sunData/SType/ST_name/ST_name00101m/ST_name00101m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_name00101m_st_name00101m1_n(save_xml):
+def test_st_name00101m_st_name00101m1_n(json_360, save_output):
     """
     Simple types are identified by their {name} and {target namespace}.
     (valid schema) Simple types are identified by their {name} and {target
@@ -10932,11 +11621,12 @@ def test_st_name00101m_st_name00101m1_n(save_xml):
         instance="sunData/SType/ST_name/ST_name00101m/ST_name00101m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_final00103m3_positive(save_xml):
+def test_st_final00103m3_positive(json_360, save_output):
     """
     derivation by list (valid schema) The explicit value union prevents
     further use in constructing unions.
@@ -10946,12 +11636,13 @@ def test_st_final00103m3_positive(save_xml):
         instance="sunData/SType/ST_final/ST_final00103m/ST_final00103m3_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_final00103m3_negative(save_xml):
+def test_st_final00103m3_negative(json_360, save_output):
     """
     derivation by list (valid schema) The explicit value union prevents
     further use in constructing unions.
@@ -10961,11 +11652,12 @@ def test_st_final00103m3_negative(save_xml):
         instance="sunData/SType/ST_final/ST_final00103m/ST_final00103m3_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_final00103m2_positive(save_xml):
+def test_st_final00103m2_positive(json_360, save_output):
     """
     derivation by restriction (valid schema) The explicit value union
     prevents further use in constructing unions.
@@ -10975,12 +11667,13 @@ def test_st_final00103m2_positive(save_xml):
         instance="sunData/SType/ST_final/ST_final00103m/ST_final00103m2_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_final00103m2_negative(save_xml):
+def test_st_final00103m2_negative(json_360, save_output):
     """
     derivation by restriction (valid schema) The explicit value union
     prevents further use in constructing unions.
@@ -10990,11 +11683,12 @@ def test_st_final00103m2_negative(save_xml):
         instance="sunData/SType/ST_final/ST_final00103m/ST_final00103m2_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_final00102m6_positive(save_xml):
+def test_st_final00102m6_positive(json_360, save_output):
     """
     derivation by union (valid schema) The explicit value list prevents
     further use in constructing lists.
@@ -11004,12 +11698,13 @@ def test_st_final00102m6_positive(save_xml):
         instance="sunData/SType/ST_final/ST_final00102m/ST_final00102m6_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_final00102m6_negative(save_xml):
+def test_st_final00102m6_negative(json_360, save_output):
     """
     derivation by union (valid schema) The explicit value list prevents
     further use in constructing lists.
@@ -11019,11 +11714,12 @@ def test_st_final00102m6_negative(save_xml):
         instance="sunData/SType/ST_final/ST_final00102m/ST_final00102m6_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_final00102m5_positive(save_xml):
+def test_st_final00102m5_positive(json_360, save_output):
     """
     derivation by union (valid schema) The explicit value list prevents
     further use in constructing lists.
@@ -11033,12 +11729,13 @@ def test_st_final00102m5_positive(save_xml):
         instance="sunData/SType/ST_final/ST_final00102m/ST_final00102m5_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_final00102m5_negative(save_xml):
+def test_st_final00102m5_negative(json_360, save_output):
     """
     derivation by union (valid schema) The explicit value list prevents
     further use in constructing lists.
@@ -11048,11 +11745,12 @@ def test_st_final00102m5_negative(save_xml):
         instance="sunData/SType/ST_final/ST_final00102m/ST_final00102m5_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_final00102m4_positive(save_xml):
+def test_st_final00102m4_positive(json_360, save_output):
     """
     derivation by union (valid schema) The explicit value list prevents
     further use in constructing lists.
@@ -11062,12 +11760,13 @@ def test_st_final00102m4_positive(save_xml):
         instance="sunData/SType/ST_final/ST_final00102m/ST_final00102m4_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_final00102m4_negative(save_xml):
+def test_st_final00102m4_negative(json_360, save_output):
     """
     derivation by union (valid schema) The explicit value list prevents
     further use in constructing lists.
@@ -11077,11 +11776,12 @@ def test_st_final00102m4_negative(save_xml):
         instance="sunData/SType/ST_final/ST_final00102m/ST_final00102m4_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_final00102m3_positive(save_xml):
+def test_st_final00102m3_positive(json_360, save_output):
     """
     derivation by union (valid schema) The explicit value list prevents
     further use in constructing lists.
@@ -11091,12 +11791,13 @@ def test_st_final00102m3_positive(save_xml):
         instance="sunData/SType/ST_final/ST_final00102m/ST_final00102m3_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_final00102m3_negative(save_xml):
+def test_st_final00102m3_negative(json_360, save_output):
     """
     derivation by union (valid schema) The explicit value list prevents
     further use in constructing lists.
@@ -11106,11 +11807,12 @@ def test_st_final00102m3_negative(save_xml):
         instance="sunData/SType/ST_final/ST_final00102m/ST_final00102m3_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_final00102m2_positive(save_xml):
+def test_st_final00102m2_positive(json_360, save_output):
     """
     derivation by restriction (valid schema) The explicit value list
     prevents further use in constructing lists.
@@ -11120,12 +11822,13 @@ def test_st_final00102m2_positive(save_xml):
         instance="sunData/SType/ST_final/ST_final00102m/ST_final00102m2_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_final00102m2_negative(save_xml):
+def test_st_final00102m2_negative(json_360, save_output):
     """
     derivation by restriction (valid schema) The explicit value list
     prevents further use in constructing lists.
@@ -11135,11 +11838,12 @@ def test_st_final00102m2_negative(save_xml):
         instance="sunData/SType/ST_final/ST_final00102m/ST_final00102m2_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_final00101m6_positive(save_xml):
+def test_st_final00101m6_positive(json_360, save_output):
     """
     derivation by union (valid schema) The explicit value restriction
     prevents further derivations by restriction (to yield a simple type).
@@ -11149,12 +11853,13 @@ def test_st_final00101m6_positive(save_xml):
         instance="sunData/SType/ST_final/ST_final00101m/ST_final00101m6_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_final00101m6_negative(save_xml):
+def test_st_final00101m6_negative(json_360, save_output):
     """
     derivation by union (valid schema) The explicit value restriction
     prevents further derivations by restriction (to yield a simple type).
@@ -11164,11 +11869,12 @@ def test_st_final00101m6_negative(save_xml):
         instance="sunData/SType/ST_final/ST_final00101m/ST_final00101m6_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_final00101m5_positive(save_xml):
+def test_st_final00101m5_positive(json_360, save_output):
     """
     derivation by union (valid schema) The explicit value restriction
     prevents further derivations by restriction (to yield a simple type).
@@ -11178,12 +11884,13 @@ def test_st_final00101m5_positive(save_xml):
         instance="sunData/SType/ST_final/ST_final00101m/ST_final00101m5_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_final00101m5_negative(save_xml):
+def test_st_final00101m5_negative(json_360, save_output):
     """
     derivation by union (valid schema) The explicit value restriction
     prevents further derivations by restriction (to yield a simple type).
@@ -11193,11 +11900,12 @@ def test_st_final00101m5_negative(save_xml):
         instance="sunData/SType/ST_final/ST_final00101m/ST_final00101m5_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_final00101m4_positive(save_xml):
+def test_st_final00101m4_positive(json_360, save_output):
     """
     derivation by union (valid schema) The explicit value restriction
     prevents further derivations by restriction (to yield a simple type).
@@ -11207,12 +11915,13 @@ def test_st_final00101m4_positive(save_xml):
         instance="sunData/SType/ST_final/ST_final00101m/ST_final00101m4_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_final00101m4_negative(save_xml):
+def test_st_final00101m4_negative(json_360, save_output):
     """
     derivation by union (valid schema) The explicit value restriction
     prevents further derivations by restriction (to yield a simple type).
@@ -11222,11 +11931,12 @@ def test_st_final00101m4_negative(save_xml):
         instance="sunData/SType/ST_final/ST_final00101m/ST_final00101m4_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_final00101m3_positive(save_xml):
+def test_st_final00101m3_positive(json_360, save_output):
     """
     derivation by union (valid schema) The explicit value restriction
     prevents further derivations by restriction (to yield a simple type).
@@ -11236,12 +11946,13 @@ def test_st_final00101m3_positive(save_xml):
         instance="sunData/SType/ST_final/ST_final00101m/ST_final00101m3_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_final00101m3_negative(save_xml):
+def test_st_final00101m3_negative(json_360, save_output):
     """
     derivation by union (valid schema) The explicit value restriction
     prevents further derivations by restriction (to yield a simple type).
@@ -11251,11 +11962,12 @@ def test_st_final00101m3_negative(save_xml):
         instance="sunData/SType/ST_final/ST_final00101m/ST_final00101m3_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_final00101m2_positive(save_xml):
+def test_st_final00101m2_positive(json_360, save_output):
     """
     derivation by list (valid schema) The explicit value restriction
     prevents further derivations by restriction (to yield a simple type).
@@ -11265,12 +11977,13 @@ def test_st_final00101m2_positive(save_xml):
         instance="sunData/SType/ST_final/ST_final00101m/ST_final00101m2_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_final00101m2_negative(save_xml):
+def test_st_final00101m2_negative(json_360, save_output):
     """
     derivation by list (valid schema) The explicit value restriction
     prevents further derivations by restriction (to yield a simple type).
@@ -11280,11 +11993,12 @@ def test_st_final00101m2_negative(save_xml):
         instance="sunData/SType/ST_final/ST_final00101m/ST_final00101m2_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00608_st_facets00608_p(save_xml):
+def test_st_facets00608_st_facets00608_p(json_360, save_output):
     """
     Enumeration values contain an uncased letter followed by upper or
     lower case letter. (valid schema) Declare a simple type based on
@@ -11297,11 +12011,12 @@ def test_st_facets00608_st_facets00608_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00608/ST_facets00608_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00605_st_facets00605_p(save_xml):
+def test_st_facets00605_st_facets00605_p(json_360, save_output):
     """
     Enumeration values contain only punctuation characters and digits.
     (valid schema) Declare a simple type based on NCName and restricted
@@ -11313,11 +12028,12 @@ def test_st_facets00605_st_facets00605_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00605/ST_facets00605_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00604_st_facets00604_p(save_xml):
+def test_st_facets00604_st_facets00604_p(json_360, save_output):
     """
     Enumeration values contain lower case and upper case letters and non-
     letter characters. (valid schema) Declare a simple type based on
@@ -11335,11 +12051,12 @@ def test_st_facets00604_st_facets00604_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00604/ST_facets00604_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00603_st_facets00603_p(save_xml):
+def test_st_facets00603_st_facets00603_p(json_360, save_output):
     """
     Enumeration values contain digits followed by a non-digit characters.
     (valid schema) Declare a simple type based on NCName and restricted
@@ -11351,11 +12068,12 @@ def test_st_facets00603_st_facets00603_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00603/ST_facets00603_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00602_st_facets00602_p(save_xml):
+def test_st_facets00602_st_facets00602_p(json_360, save_output):
     """
     Enumeration values contain several punctuation characters. (valid
     schema) Declare a simple type based on NCName and restricted with 2
@@ -11368,11 +12086,12 @@ def test_st_facets00602_st_facets00602_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00602/ST_facets00602_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00601_st_facets00601_p(save_xml):
+def test_st_facets00601_st_facets00601_p(json_360, save_output):
     r"""
     Enumeration values contain several punctuation characters. (valid
     schema) Declare a simple type based on NCName and restricted with 7
@@ -11387,11 +12106,12 @@ def test_st_facets00601_st_facets00601_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00601/ST_facets00601_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00506m2_positive(save_xml):
+def test_st_facets00506m2_positive(json_360, save_output):
     """
     Enumeration values end with the extender characters 0x30fc, 0x30fd,
     0x30fe (valid schema) Declare a simple type based on NCName and
@@ -11404,11 +12124,12 @@ def test_st_facets00506m2_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00506m/ST_facets00506m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00506m1_positive(save_xml):
+def test_st_facets00506m1_positive(json_360, save_output):
     """
     Enumeration values end with the extender characters 0x00b7, 0x02d0,
     0x02d1, 0x0387, 0x0640, 0x0e46, 0x0ec6, 0x3005, 0x3031, 0x3033,
@@ -11423,11 +12144,12 @@ def test_st_facets00506m1_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00506m/ST_facets00506m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00505m9_positive(save_xml):
+def test_st_facets00505m9_positive(json_360, save_output):
     """
     Enumeration values end with the combining characters 0x0f39, 0x0f3e,
     0x0f3f, 0x0f71, 0x0f7a, 0x0f84, 0x0f86, 0x0f86, 0x0f87, 0x0f90,
@@ -11444,11 +12166,12 @@ def test_st_facets00505m9_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m9_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00505m8_positive(save_xml):
+def test_st_facets00505m8_positive(json_360, save_output):
     """
     Enumeration values end with the combining characters 0x0e31, 0x0e34,
     0x0e37, 0x0e3a, 0x0e47, 0x0e4a, 0x0e4e, 0x0eb1, 0x0eb4, 0x0eb6,
@@ -11465,11 +12188,12 @@ def test_st_facets00505m8_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m8_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00505m7_positive(save_xml):
+def test_st_facets00505m7_positive(json_360, save_output):
     """
     Enumeration values end with the combining characters 0x0c82, 0x0c82,
     0x0c83, 0x0cbe, 0x0cc1, 0x0cc4, 0x0cc6, 0x0cc7, 0x0cc8, 0x0cca,
@@ -11488,11 +12212,12 @@ def test_st_facets00505m7_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m7_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00505m6_positive(save_xml):
+def test_st_facets00505m6_positive(json_360, save_output):
     """
     Enumeration values end with the combining characters 0x0b82, 0x0b82,
     0x0b83, 0x0bbe, 0x0bc0, 0x0bc2, 0x0bc6, 0x0bc7, 0x0bc8, 0x0bca,
@@ -11511,11 +12236,12 @@ def test_st_facets00505m6_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m6_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00505m5_positive(save_xml):
+def test_st_facets00505m5_positive(json_360, save_output):
     """
     Enumeration values end with the combining characters 0x0abc, 0x0abe,
     0x0ac1, 0x0ac5, 0x0ac7, 0x0ac8, 0x0ac9, 0x0acb, 0x0acc, 0x0acd,
@@ -11533,11 +12259,12 @@ def test_st_facets00505m5_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m5_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00505m4_positive(save_xml):
+def test_st_facets00505m4_positive(json_360, save_output):
     """
     Enumeration values end with the combining characters 0x09e2, 0x09e2,
     0x09e3, 0x0a02, 0x0a3c, 0x0a3e, 0x0a3f, 0x0a40, 0x0a41, 0x0a42,
@@ -11554,11 +12281,12 @@ def test_st_facets00505m4_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m4_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00505m3_positive(save_xml):
+def test_st_facets00505m3_positive(json_360, save_output):
     """
     Enumeration values end with the combining characters 0x0951, 0x0952,
     0x0954, 0x0962, 0x0962, 0x0963, 0x0981, 0x0982, 0x0983, 0x09bc,
@@ -11575,11 +12303,12 @@ def test_st_facets00505m3_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00505m2_positive(save_xml):
+def test_st_facets00505m2_positive(json_360, save_output):
     """
     Enumeration values end with the combining characters 0x0670, 0x06d6,
     0x06d9, 0x06dc, 0x06dd, 0x06de, 0x06df, 0x06e0, 0x06e2, 0x06e4,
@@ -11597,11 +12326,12 @@ def test_st_facets00505m2_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00505m10_positive(save_xml):
+def test_st_facets00505m10_positive(json_360, save_output):
     """
     Enumeration values end with the combining characters 0x20d0, 0x20d6,
     0x20dc, 0x20e1, 0x302a, 0x302c, 0x302f, 0x3099, 0x309a (valid schema)
@@ -11615,11 +12345,12 @@ def test_st_facets00505m10_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m10_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00505m1_positive(save_xml):
+def test_st_facets00505m1_positive(json_360, save_output):
     """
     Enumeration values end with the combining characters 0x0300, 0x0322,
     0x0344, 0x0360, 0x0360, 0x0361, 0x0483, 0x0484, 0x0486, 0x0591,
@@ -11637,11 +12368,12 @@ def test_st_facets00505m1_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00504m2_positive(save_xml):
+def test_st_facets00504m2_positive(json_360, save_output):
     """
     Enumeration values end with the digit characters 0x0ce6, 0x0cea,
     0x0cef, 0x0d66, 0x0d6a, 0x0d6f, 0x0e50, 0x0e54, 0x0e59, 0x0ed0,
@@ -11656,11 +12388,12 @@ def test_st_facets00504m2_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00504m/ST_facets00504m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00504m1_positive(save_xml):
+def test_st_facets00504m1_positive(json_360, save_output):
     """
     Enumeration values end with the digit characters 0x0030, 0x0034,
     0x0039, 0x0660, 0x0664, 0x0669, 0x06f0, 0x06f4, 0x06f9, 0x0966,
@@ -11679,11 +12412,12 @@ def test_st_facets00504m1_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00504m/ST_facets00504m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00503m1_positive(save_xml):
+def test_st_facets00503m1_positive(json_360, save_output):
     """
     Enumeration values end with the characters 0x005f, 0x002e, 0x002d
     (valid schema) Declare a simple type based on NCName and restricted
@@ -11695,11 +12429,12 @@ def test_st_facets00503m1_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00503m/ST_facets00503m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00502m1_positive(save_xml):
+def test_st_facets00502m1_positive(json_360, save_output):
     """
     Enumeration values end with the ideographic characters 0x4e00, 0x76d2,
     0x9fa5, 0x3007, 0x3021, 0x3025, 0x3029 (valid schema) Declare a simple
@@ -11712,11 +12447,12 @@ def test_st_facets00502m1_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00502m/ST_facets00502m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00501m9_positive(save_xml):
+def test_st_facets00501m9_positive(json_360, save_output):
     """
     Enumeration values end with the basic characters 0x0a8f, 0x0a90,
     0x0a91, 0x0a93, 0x0a9d, 0x0aa8, 0x0aaa, 0x0aad, 0x0ab0, 0x0ab2,
@@ -11734,11 +12470,12 @@ def test_st_facets00501m9_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m9_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00501m8_positive(save_xml):
+def test_st_facets00501m8_positive(json_360, save_output):
     """
     Enumeration values end with the basic characters 0x0a13, 0x0a1d,
     0x0a28, 0x0a2a, 0x0a2d, 0x0a30, 0x0a32, 0x0a32, 0x0a33, 0x0a35,
@@ -11756,11 +12493,12 @@ def test_st_facets00501m8_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m8_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00501m7_positive(save_xml):
+def test_st_facets00501m7_positive(json_360, save_output):
     """
     Enumeration values end with the basic characters 0x098f, 0x098f,
     0x0990, 0x0993, 0x099d, 0x09a8, 0x09aa, 0x09ad, 0x09b0, 0x09b2,
@@ -11779,11 +12517,12 @@ def test_st_facets00501m7_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m7_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00501m6_positive(save_xml):
+def test_st_facets00501m6_positive(json_360, save_output):
     """
     Enumeration values end with the basic characters 0x0671, 0x0694,
     0x06b7, 0x06ba, 0x06bc, 0x06be, 0x06c0, 0x06c7, 0x06ce, 0x06d0,
@@ -11801,11 +12540,12 @@ def test_st_facets00501m6_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m6_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00501m5_positive(save_xml):
+def test_st_facets00501m5_positive(json_360, save_output):
     """
     Enumeration values end with the basic characters 0x04d0, 0x04dd,
     0x04eb, 0x04ee, 0x04f1, 0x04f5, 0x04f8, 0x04f8, 0x04f9, 0x0531,
@@ -11824,11 +12564,12 @@ def test_st_facets00501m5_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m5_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00501m4_positive(save_xml):
+def test_st_facets00501m4_positive(json_360, save_output):
     """
     Enumeration values end with the basic characters 0x03d0, 0x03d3,
     0x03d6, 0x03e2, 0x03e9, 0x03f1, 0x0401, 0x0406, 0x040c, 0x040e,
@@ -11847,11 +12588,12 @@ def test_st_facets00501m4_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m4_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00501m3_positive(save_xml):
+def test_st_facets00501m3_positive(json_360, save_output):
     """
     Enumeration values end with the basic characters 0x0276, 0x027a,
     0x027f, 0x0281, 0x0294, 0x02a8, 0x02bb, 0x02be, 0x02c1, 0x0386,
@@ -11869,11 +12611,12 @@ def test_st_facets00501m3_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00501m21_positive(save_xml):
+def test_st_facets00501m21_positive(json_360, save_output):
     """
     Enumeration values end with the basic characters 0x1fe8, 0x1fea,
     0x1fec, 0x1ff8, 0x1ff9, 0x1ffb, 0x2180, 0x2181, 0x2182, 0x3041,
@@ -11890,11 +12633,12 @@ def test_st_facets00501m21_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m21_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00501m20_positive(save_xml):
+def test_st_facets00501m20_positive(json_360, save_output):
     """
     Enumeration values end with the basic characters 0x1f5b, 0x1f5d,
     0x1f5f, 0x1f6e, 0x1f7d, 0x1fb0, 0x1fb0, 0x1fb1, 0x1fb8, 0x1fb9,
@@ -11912,11 +12656,12 @@ def test_st_facets00501m20_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m20_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00501m2_positive(save_xml):
+def test_st_facets00501m2_positive(json_360, save_output):
     """
     Enumeration values end with the basic characters 0x014a, 0x0164,
     0x017e, 0x0180, 0x018a, 0x0194, 0x0196, 0x019d, 0x01a5, 0x01a7,
@@ -11935,11 +12680,12 @@ def test_st_facets00501m2_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00501m19_positive(save_xml):
+def test_st_facets00501m19_positive(json_360, save_output):
     """
     Enumeration values end with the basic characters 0x1ea0, 0x1ecc,
     0x1ef9, 0x1f00, 0x1f0a, 0x1f15, 0x1f18, 0x1f1a, 0x1f1d, 0x1f20,
@@ -11956,11 +12702,12 @@ def test_st_facets00501m19_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m19_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00501m18_positive(save_xml):
+def test_st_facets00501m18_positive(json_360, save_output):
     """
     Enumeration values end with the basic characters 0x11ab, 0x11ae,
     0x11ae, 0x11af, 0x11b7, 0x11b7, 0x11b8, 0x11ba, 0x11bc, 0x11bf,
@@ -11976,11 +12723,12 @@ def test_st_facets00501m18_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m18_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00501m17_positive(save_xml):
+def test_st_facets00501m17_positive(json_360, save_output):
     """
     Enumeration values end with the basic characters 0x115f, 0x1160,
     0x1161, 0x1163, 0x1165, 0x1167, 0x1169, 0x116d, 0x116d, 0x116e,
@@ -11996,11 +12744,12 @@ def test_st_facets00501m17_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m17_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00501m16_positive(save_xml):
+def test_st_facets00501m16_positive(json_360, save_output):
     """
     Enumeration values end with the basic characters 0x110b, 0x110b,
     0x110c, 0x110e, 0x1110, 0x1112, 0x113c, 0x113e, 0x1140, 0x114c,
@@ -12016,11 +12765,12 @@ def test_st_facets00501m16_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m16_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00501m15_positive(save_xml):
+def test_st_facets00501m15_positive(json_360, save_output):
     """
     Enumeration values end with the basic characters 0x0eb0, 0x0eb2,
     0x0eb2, 0x0eb3, 0x0ebd, 0x0ec0, 0x0ec2, 0x0ec4, 0x0f40, 0x0f43,
@@ -12037,11 +12787,12 @@ def test_st_facets00501m15_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m15_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00501m14_positive(save_xml):
+def test_st_facets00501m14_positive(json_360, save_output):
     """
     Enumeration values end with the basic characters 0x0e87, 0x0e87,
     0x0e88, 0x0e8a, 0x0e8d, 0x0e94, 0x0e95, 0x0e97, 0x0e99, 0x0e9c,
@@ -12058,11 +12809,12 @@ def test_st_facets00501m14_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m14_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00501m13_positive(save_xml):
+def test_st_facets00501m13_positive(json_360, save_output):
     """
     Enumeration values end with the basic characters 0x0d0e, 0x0d0f,
     0x0d10, 0x0d12, 0x0d1d, 0x0d28, 0x0d2a, 0x0d31, 0x0d39, 0x0d60,
@@ -12080,11 +12832,12 @@ def test_st_facets00501m13_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m13_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00501m12_positive(save_xml):
+def test_st_facets00501m12_positive(json_360, save_output):
     """
     Enumeration values end with the basic characters 0x0c35, 0x0c37,
     0x0c39, 0x0c60, 0x0c60, 0x0c61, 0x0c85, 0x0c88, 0x0c8c, 0x0c8e,
@@ -12103,11 +12856,12 @@ def test_st_facets00501m12_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m12_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00501m11_positive(save_xml):
+def test_st_facets00501m11_positive(json_360, save_output):
     """
     Enumeration values end with the basic characters 0x0b9c, 0x0b9e,
     0x0b9e, 0x0b9f, 0x0ba3, 0x0ba3, 0x0ba4, 0x0ba8, 0x0ba9, 0x0baa,
@@ -12126,11 +12880,12 @@ def test_st_facets00501m11_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m11_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00501m10_positive(save_xml):
+def test_st_facets00501m10_positive(json_360, save_output):
     """
     Enumeration values end with the basic characters 0x0b2a, 0x0b2d,
     0x0b30, 0x0b32, 0x0b32, 0x0b33, 0x0b36, 0x0b37, 0x0b39, 0x0b3d,
@@ -12149,11 +12904,12 @@ def test_st_facets00501m10_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m10_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00501m1_positive(save_xml):
+def test_st_facets00501m1_positive(json_360, save_output):
     """
     Enumeration values end with the basic characters 0x0041, 0x004d,
     0x005a, 0x0061, 0x0064, 0x0068, 0x006a, 0x0072, 0x007a, 0x00c0,
@@ -12172,11 +12928,12 @@ def test_st_facets00501m1_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00403m1_positive(save_xml):
+def test_st_facets00403m1_positive(json_360, save_output):
     """
     Enumeration value begins with the underscore character 0x005f (valid
     schema) Declare a simple type based on NCName and restricted with an
@@ -12188,11 +12945,12 @@ def test_st_facets00403m1_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00403m/ST_facets00403m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00402m1_positive(save_xml):
+def test_st_facets00402m1_positive(json_360, save_output):
     """
     Enumeration values begin with the ideographic characters 0x4e00,
     0x76d2, 0x9fa5, 0x3007, 0x3021, 0x3025, 0x3029 (valid schema) Declare
@@ -12205,11 +12963,12 @@ def test_st_facets00402m1_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00402m/ST_facets00402m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00401m9_positive(save_xml):
+def test_st_facets00401m9_positive(json_360, save_output):
     """
     Enumeration values begin with the basic characters 0x0a8f, 0x0a90,
     0x0a91, 0x0a93, 0x0a9d, 0x0aa8, 0x0aaa, 0x0aad, 0x0ab0, 0x0ab2,
@@ -12227,11 +12986,12 @@ def test_st_facets00401m9_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m9_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00401m8_positive(save_xml):
+def test_st_facets00401m8_positive(json_360, save_output):
     """
     Enumeration values begin with the basic characters 0x0a13, 0x0a1d,
     0x0a28, 0x0a2a, 0x0a2d, 0x0a30, 0x0a32, 0x0a32, 0x0a33, 0x0a35,
@@ -12249,11 +13009,12 @@ def test_st_facets00401m8_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m8_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00401m7_positive(save_xml):
+def test_st_facets00401m7_positive(json_360, save_output):
     """
     Enumeration values begin with the basic characters 0x098f, 0x098f,
     0x0990, 0x0993, 0x099d, 0x09a8, 0x09aa, 0x09ad, 0x09b0, 0x09b2,
@@ -12272,11 +13033,12 @@ def test_st_facets00401m7_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m7_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00401m6_positive(save_xml):
+def test_st_facets00401m6_positive(json_360, save_output):
     """
     Enumeration values begin with the basic characters 0x0671, 0x0694,
     0x06b7, 0x06ba, 0x06bc, 0x06be, 0x06c0, 0x06c7, 0x06ce, 0x06d0,
@@ -12294,11 +13056,12 @@ def test_st_facets00401m6_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m6_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00401m5_positive(save_xml):
+def test_st_facets00401m5_positive(json_360, save_output):
     """
     Enumeration values begin with the basic characters 0x04d0, 0x04dd,
     0x04eb, 0x04ee, 0x04f1, 0x04f5, 0x04f8, 0x04f8, 0x04f9, 0x0531,
@@ -12317,11 +13080,12 @@ def test_st_facets00401m5_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m5_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00401m4_positive(save_xml):
+def test_st_facets00401m4_positive(json_360, save_output):
     """
     Enumeration values begin with the basic characters 0x03d0, 0x03d3,
     0x03d6, 0x03e2, 0x03e9, 0x03f1, 0x0401, 0x0406, 0x040c, 0x040e,
@@ -12340,11 +13104,12 @@ def test_st_facets00401m4_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m4_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00401m3_positive(save_xml):
+def test_st_facets00401m3_positive(json_360, save_output):
     """
     Enumeration values begin with the basic characters 0x0276, 0x027a,
     0x027f, 0x0281, 0x0294, 0x02a8, 0x02bb, 0x02be, 0x02c1, 0x0386,
@@ -12362,11 +13127,12 @@ def test_st_facets00401m3_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00401m21_positive(save_xml):
+def test_st_facets00401m21_positive(json_360, save_output):
     """
     Enumeration values begin with the basic characters 0x1fe8, 0x1fea,
     0x1fec, 0x1ff8, 0x1ff9, 0x1ffb, 0x2180, 0x2181, 0x2182, 0x3041,
@@ -12383,11 +13149,12 @@ def test_st_facets00401m21_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m21_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00401m20_positive(save_xml):
+def test_st_facets00401m20_positive(json_360, save_output):
     """
     Enumeration values begin with the basic characters 0x1f5b, 0x1f5d,
     0x1f5f, 0x1f6e, 0x1f7d, 0x1fb0, 0x1fb0, 0x1fb1, 0x1fb8, 0x1fb9,
@@ -12405,11 +13172,12 @@ def test_st_facets00401m20_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m20_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00401m2_positive(save_xml):
+def test_st_facets00401m2_positive(json_360, save_output):
     """
     Enumeration values begin with the basic characters 0x014a, 0x0164,
     0x017e, 0x0180, 0x018a, 0x0194, 0x0196, 0x019d, 0x01a5, 0x01a7,
@@ -12428,11 +13196,12 @@ def test_st_facets00401m2_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00401m19_positive(save_xml):
+def test_st_facets00401m19_positive(json_360, save_output):
     """
     Enumeration values begin with the basic characters 0x1ea0, 0x1ecc,
     0x1ef9, 0x1f00, 0x1f0a, 0x1f15, 0x1f18, 0x1f1a, 0x1f1d, 0x1f20,
@@ -12449,11 +13218,12 @@ def test_st_facets00401m19_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m19_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00401m18_positive(save_xml):
+def test_st_facets00401m18_positive(json_360, save_output):
     """
     Enumeration values begin with the basic characters 0x11ab, 0x11ae,
     0x11ae, 0x11af, 0x11b7, 0x11b7, 0x11b8, 0x11ba, 0x11bc, 0x11bf,
@@ -12469,11 +13239,12 @@ def test_st_facets00401m18_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m18_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00401m17_positive(save_xml):
+def test_st_facets00401m17_positive(json_360, save_output):
     """
     Enumeration values begin with the basic characters 0x115f, 0x1160,
     0x1161, 0x1163, 0x1165, 0x1167, 0x1169, 0x116d, 0x116d, 0x116e,
@@ -12489,11 +13260,12 @@ def test_st_facets00401m17_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m17_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00401m16_positive(save_xml):
+def test_st_facets00401m16_positive(json_360, save_output):
     """
     Enumeration values begin with the basic characters 0x110b, 0x110b,
     0x110c, 0x110e, 0x1110, 0x1112, 0x113c, 0x113e, 0x1140, 0x114c,
@@ -12509,11 +13281,12 @@ def test_st_facets00401m16_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m16_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00401m15_positive(save_xml):
+def test_st_facets00401m15_positive(json_360, save_output):
     """
     Enumeration values begin with the basic characters 0x0eb0, 0x0eb2,
     0x0eb2, 0x0eb3, 0x0ebd, 0x0ec0, 0x0ec2, 0x0ec4, 0x0f40, 0x0f43,
@@ -12530,11 +13303,12 @@ def test_st_facets00401m15_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m15_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00401m14_positive(save_xml):
+def test_st_facets00401m14_positive(json_360, save_output):
     """
     Enumeration values begin with the basic characters 0x0e87, 0x0e87,
     0x0e88, 0x0e8a, 0x0e8d, 0x0e94, 0x0e95, 0x0e97, 0x0e99, 0x0e9c,
@@ -12551,11 +13325,12 @@ def test_st_facets00401m14_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m14_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00401m13_positive(save_xml):
+def test_st_facets00401m13_positive(json_360, save_output):
     """
     Enumeration values begin with the basic characters 0x0d0e, 0x0d0f,
     0x0d10, 0x0d12, 0x0d1d, 0x0d28, 0x0d2a, 0x0d31, 0x0d39, 0x0d60,
@@ -12573,11 +13348,12 @@ def test_st_facets00401m13_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m13_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00401m12_positive(save_xml):
+def test_st_facets00401m12_positive(json_360, save_output):
     """
     Enumeration values begin with the basic characters 0x0c35, 0x0c37,
     0x0c39, 0x0c60, 0x0c60, 0x0c61, 0x0c85, 0x0c88, 0x0c8c, 0x0c8e,
@@ -12596,11 +13372,12 @@ def test_st_facets00401m12_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m12_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00401m11_positive(save_xml):
+def test_st_facets00401m11_positive(json_360, save_output):
     """
     Enumeration values begin with the basic characters 0x0b9c, 0x0b9e,
     0x0b9e, 0x0b9f, 0x0ba3, 0x0ba3, 0x0ba4, 0x0ba8, 0x0ba9, 0x0baa,
@@ -12619,11 +13396,12 @@ def test_st_facets00401m11_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m11_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00401m10_positive(save_xml):
+def test_st_facets00401m10_positive(json_360, save_output):
     """
     Enumeration values begin with the basic characters 0x0b2a, 0x0b2d,
     0x0b30, 0x0b32, 0x0b32, 0x0b33, 0x0b36, 0x0b37, 0x0b39, 0x0b3d,
@@ -12642,11 +13420,12 @@ def test_st_facets00401m10_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m10_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00401m1_positive(save_xml):
+def test_st_facets00401m1_positive(json_360, save_output):
     """
     Enumeration values begin with the basic characters 0x0041, 0x004d,
     0x005a, 0x0061, 0x0064, 0x0068, 0x006a, 0x0072, 0x007a, 0x00c0,
@@ -12665,11 +13444,12 @@ def test_st_facets00401m1_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00301m_st_facets00301m1_p(save_xml):
+def test_st_facets00301m_st_facets00301m1_p(json_360, save_output):
     """
     Enumeration facet restricts string type (valid schema) Base type
     string restricted with two enumeration values '3.14' and 'int'.
@@ -12680,12 +13460,13 @@ def test_st_facets00301m_st_facets00301m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00301m/ST_facets00301m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00301m_st_facets00301m1_n(save_xml):
+def test_st_facets00301m_st_facets00301m1_n(json_360, save_output):
     """
     Enumeration facet restricts string type (valid schema) Base type
     string restricted with two enumeration values '3.14' and 'int'.
@@ -12696,11 +13477,12 @@ def test_st_facets00301m_st_facets00301m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00301m/ST_facets00301m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00201m9_positive(save_xml):
+def test_st_facets00201m9_positive(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -12711,12 +13493,13 @@ def test_st_facets00201m9_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m9_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00201m9_negative(save_xml):
+def test_st_facets00201m9_negative(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -12727,11 +13510,12 @@ def test_st_facets00201m9_negative(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m9_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00201m8_positive(save_xml):
+def test_st_facets00201m8_positive(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -12742,12 +13526,13 @@ def test_st_facets00201m8_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m8_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00201m8_negative(save_xml):
+def test_st_facets00201m8_negative(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -12758,11 +13543,12 @@ def test_st_facets00201m8_negative(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m8_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00201m7_positive(save_xml):
+def test_st_facets00201m7_positive(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -12773,12 +13559,13 @@ def test_st_facets00201m7_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m7_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00201m7_negative(save_xml):
+def test_st_facets00201m7_negative(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -12789,11 +13576,12 @@ def test_st_facets00201m7_negative(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m7_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00201m6_positive(save_xml):
+def test_st_facets00201m6_positive(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -12804,12 +13592,13 @@ def test_st_facets00201m6_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m6_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00201m6_negative(save_xml):
+def test_st_facets00201m6_negative(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -12820,11 +13609,12 @@ def test_st_facets00201m6_negative(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m6_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00201m5_positive(save_xml):
+def test_st_facets00201m5_positive(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -12835,12 +13625,13 @@ def test_st_facets00201m5_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m5_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00201m5_negative(save_xml):
+def test_st_facets00201m5_negative(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -12851,11 +13642,12 @@ def test_st_facets00201m5_negative(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m5_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00201m4_positive(save_xml):
+def test_st_facets00201m4_positive(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -12866,12 +13658,13 @@ def test_st_facets00201m4_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m4_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00201m4_negative(save_xml):
+def test_st_facets00201m4_negative(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -12882,11 +13675,12 @@ def test_st_facets00201m4_negative(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m4_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00201m3_positive(save_xml):
+def test_st_facets00201m3_positive(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -12897,12 +13691,13 @@ def test_st_facets00201m3_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m3_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00201m3_negative(save_xml):
+def test_st_facets00201m3_negative(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -12913,11 +13708,12 @@ def test_st_facets00201m3_negative(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m3_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00201m2_positive(save_xml):
+def test_st_facets00201m2_positive(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -12928,12 +13724,13 @@ def test_st_facets00201m2_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m2_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00201m2_negative(save_xml):
+def test_st_facets00201m2_negative(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -12944,11 +13741,12 @@ def test_st_facets00201m2_negative(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m2_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00201m16_positive(save_xml):
+def test_st_facets00201m16_positive(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -12959,12 +13757,13 @@ def test_st_facets00201m16_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m16_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00201m16_negative(save_xml):
+def test_st_facets00201m16_negative(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -12975,11 +13774,12 @@ def test_st_facets00201m16_negative(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m16_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00201m15_positive(save_xml):
+def test_st_facets00201m15_positive(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -12990,12 +13790,13 @@ def test_st_facets00201m15_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m15_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00201m15_negative(save_xml):
+def test_st_facets00201m15_negative(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -13006,11 +13807,12 @@ def test_st_facets00201m15_negative(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m15_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00201m14_positive(save_xml):
+def test_st_facets00201m14_positive(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -13021,12 +13823,13 @@ def test_st_facets00201m14_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m14_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00201m14_negative(save_xml):
+def test_st_facets00201m14_negative(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -13037,11 +13840,12 @@ def test_st_facets00201m14_negative(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m14_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00201m13_positive(save_xml):
+def test_st_facets00201m13_positive(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -13052,12 +13856,13 @@ def test_st_facets00201m13_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m13_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00201m13_negative(save_xml):
+def test_st_facets00201m13_negative(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -13068,11 +13873,12 @@ def test_st_facets00201m13_negative(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m13_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00201m12_positive(save_xml):
+def test_st_facets00201m12_positive(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -13083,12 +13889,13 @@ def test_st_facets00201m12_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m12_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00201m12_negative(save_xml):
+def test_st_facets00201m12_negative(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -13099,11 +13906,12 @@ def test_st_facets00201m12_negative(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m12_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00201m11_positive(save_xml):
+def test_st_facets00201m11_positive(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -13114,12 +13922,13 @@ def test_st_facets00201m11_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m11_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00201m11_negative(save_xml):
+def test_st_facets00201m11_negative(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -13130,11 +13939,12 @@ def test_st_facets00201m11_negative(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m11_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00201m10_positive(save_xml):
+def test_st_facets00201m10_positive(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -13145,12 +13955,13 @@ def test_st_facets00201m10_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m10_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00201m10_negative(save_xml):
+def test_st_facets00201m10_negative(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -13161,11 +13972,12 @@ def test_st_facets00201m10_negative(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m10_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00201m1_positive(save_xml):
+def test_st_facets00201m1_positive(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -13176,12 +13988,13 @@ def test_st_facets00201m1_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00201m1_negative(save_xml):
+def test_st_facets00201m1_negative(json_360, save_output):
     """
     maxExclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -13192,11 +14005,12 @@ def test_st_facets00201m1_negative(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00124m1_positive(save_xml):
+def test_st_facets00124m1_positive(json_360, save_output):
     """
     maxInclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -13207,12 +14021,13 @@ def test_st_facets00124m1_positive(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00124m/ST_facets00124m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00124m1_negative(save_xml):
+def test_st_facets00124m1_negative(json_360, save_output):
     """
     maxInclusive facet (valid schema) {facets} for each simple type
     definition are selected from those defined in [XML Schemas:
@@ -13223,11 +14038,12 @@ def test_st_facets00124m1_negative(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00124m/ST_facets00124m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00123m_st_facets00123m1_p(save_xml):
+def test_st_facets00123m_st_facets00123m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13237,12 +14053,13 @@ def test_st_facets00123m_st_facets00123m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00123m/ST_facets00123m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00123m_st_facets00123m1_n(save_xml):
+def test_st_facets00123m_st_facets00123m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13252,11 +14069,12 @@ def test_st_facets00123m_st_facets00123m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00123m/ST_facets00123m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00122m_st_facets00122m1_p(save_xml):
+def test_st_facets00122m_st_facets00122m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13266,12 +14084,13 @@ def test_st_facets00122m_st_facets00122m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00122m/ST_facets00122m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00122m_st_facets00122m1_n(save_xml):
+def test_st_facets00122m_st_facets00122m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13281,11 +14100,12 @@ def test_st_facets00122m_st_facets00122m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00122m/ST_facets00122m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00121m_st_facets00121m1_p(save_xml):
+def test_st_facets00121m_st_facets00121m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13295,12 +14115,13 @@ def test_st_facets00121m_st_facets00121m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00121m/ST_facets00121m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00121m_st_facets00121m1_n(save_xml):
+def test_st_facets00121m_st_facets00121m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13310,11 +14131,12 @@ def test_st_facets00121m_st_facets00121m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00121m/ST_facets00121m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00120m_st_facets00120m1_p(save_xml):
+def test_st_facets00120m_st_facets00120m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13324,12 +14146,13 @@ def test_st_facets00120m_st_facets00120m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00120m/ST_facets00120m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00120m_st_facets00120m1_n(save_xml):
+def test_st_facets00120m_st_facets00120m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13339,11 +14162,12 @@ def test_st_facets00120m_st_facets00120m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00120m/ST_facets00120m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00119m_st_facets00119m1_p(save_xml):
+def test_st_facets00119m_st_facets00119m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13353,12 +14177,13 @@ def test_st_facets00119m_st_facets00119m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00119m/ST_facets00119m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00119m_st_facets00119m1_n(save_xml):
+def test_st_facets00119m_st_facets00119m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13368,11 +14193,12 @@ def test_st_facets00119m_st_facets00119m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00119m/ST_facets00119m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00118m_st_facets00118m1_p(save_xml):
+def test_st_facets00118m_st_facets00118m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13382,12 +14208,13 @@ def test_st_facets00118m_st_facets00118m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00118m/ST_facets00118m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00118m_st_facets00118m1_n(save_xml):
+def test_st_facets00118m_st_facets00118m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13397,11 +14224,12 @@ def test_st_facets00118m_st_facets00118m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00118m/ST_facets00118m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00117m_st_facets00117m1_p(save_xml):
+def test_st_facets00117m_st_facets00117m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13411,12 +14239,13 @@ def test_st_facets00117m_st_facets00117m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00117m/ST_facets00117m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00117m_st_facets00117m1_n(save_xml):
+def test_st_facets00117m_st_facets00117m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13426,11 +14255,12 @@ def test_st_facets00117m_st_facets00117m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00117m/ST_facets00117m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00116m_st_facets00116m1_p(save_xml):
+def test_st_facets00116m_st_facets00116m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13440,12 +14270,13 @@ def test_st_facets00116m_st_facets00116m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00116m/ST_facets00116m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00116m_st_facets00116m1_n(save_xml):
+def test_st_facets00116m_st_facets00116m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13455,11 +14286,12 @@ def test_st_facets00116m_st_facets00116m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00116m/ST_facets00116m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00115m_st_facets00115m1_p(save_xml):
+def test_st_facets00115m_st_facets00115m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13469,12 +14301,13 @@ def test_st_facets00115m_st_facets00115m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00115m/ST_facets00115m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00115m_st_facets00115m1_n(save_xml):
+def test_st_facets00115m_st_facets00115m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13484,11 +14317,12 @@ def test_st_facets00115m_st_facets00115m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00115m/ST_facets00115m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00114m_st_facets00114m1_p(save_xml):
+def test_st_facets00114m_st_facets00114m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13498,12 +14332,13 @@ def test_st_facets00114m_st_facets00114m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00114m/ST_facets00114m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00114m_st_facets00114m1_n(save_xml):
+def test_st_facets00114m_st_facets00114m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13513,11 +14348,12 @@ def test_st_facets00114m_st_facets00114m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00114m/ST_facets00114m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00113m_st_facets00113m1_p(save_xml):
+def test_st_facets00113m_st_facets00113m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13527,12 +14363,13 @@ def test_st_facets00113m_st_facets00113m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00113m/ST_facets00113m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00113m_st_facets00113m1_n(save_xml):
+def test_st_facets00113m_st_facets00113m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13542,11 +14379,12 @@ def test_st_facets00113m_st_facets00113m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00113m/ST_facets00113m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00112m_st_facets00112m1_p(save_xml):
+def test_st_facets00112m_st_facets00112m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13556,12 +14394,13 @@ def test_st_facets00112m_st_facets00112m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00112m/ST_facets00112m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00112m_st_facets00112m1_n(save_xml):
+def test_st_facets00112m_st_facets00112m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13571,11 +14410,12 @@ def test_st_facets00112m_st_facets00112m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00112m/ST_facets00112m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00111m_st_facets00111m1_p(save_xml):
+def test_st_facets00111m_st_facets00111m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13585,12 +14425,13 @@ def test_st_facets00111m_st_facets00111m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00111m/ST_facets00111m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00111m_st_facets00111m1_n(save_xml):
+def test_st_facets00111m_st_facets00111m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13600,11 +14441,12 @@ def test_st_facets00111m_st_facets00111m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00111m/ST_facets00111m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00110m_st_facets00110m1_p(save_xml):
+def test_st_facets00110m_st_facets00110m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13614,12 +14456,13 @@ def test_st_facets00110m_st_facets00110m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00110m/ST_facets00110m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00110m_st_facets00110m1_n(save_xml):
+def test_st_facets00110m_st_facets00110m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13629,11 +14472,12 @@ def test_st_facets00110m_st_facets00110m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00110m/ST_facets00110m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00109m_st_facets00109m1_p(save_xml):
+def test_st_facets00109m_st_facets00109m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13643,12 +14487,13 @@ def test_st_facets00109m_st_facets00109m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00109m/ST_facets00109m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00109m_st_facets00109m1_n(save_xml):
+def test_st_facets00109m_st_facets00109m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13658,11 +14503,12 @@ def test_st_facets00109m_st_facets00109m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00109m/ST_facets00109m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00108m_st_facets00108m1_p(save_xml):
+def test_st_facets00108m_st_facets00108m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13672,12 +14518,13 @@ def test_st_facets00108m_st_facets00108m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00108m/ST_facets00108m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00108m_st_facets00108m1_n(save_xml):
+def test_st_facets00108m_st_facets00108m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13687,11 +14534,12 @@ def test_st_facets00108m_st_facets00108m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00108m/ST_facets00108m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00107m_st_facets00107m1_p(save_xml):
+def test_st_facets00107m_st_facets00107m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13701,12 +14549,13 @@ def test_st_facets00107m_st_facets00107m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00107m/ST_facets00107m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00107m_st_facets00107m1_n(save_xml):
+def test_st_facets00107m_st_facets00107m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13716,11 +14565,12 @@ def test_st_facets00107m_st_facets00107m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00107m/ST_facets00107m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00106m_st_facets00106m1_p(save_xml):
+def test_st_facets00106m_st_facets00106m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13730,12 +14580,13 @@ def test_st_facets00106m_st_facets00106m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00106m/ST_facets00106m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00106m_st_facets00106m1_n(save_xml):
+def test_st_facets00106m_st_facets00106m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13745,11 +14596,12 @@ def test_st_facets00106m_st_facets00106m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00106m/ST_facets00106m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00105m_st_facets00105m1_p(save_xml):
+def test_st_facets00105m_st_facets00105m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13759,12 +14611,13 @@ def test_st_facets00105m_st_facets00105m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00105m/ST_facets00105m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00105m_st_facets00105m1_n(save_xml):
+def test_st_facets00105m_st_facets00105m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13774,11 +14627,12 @@ def test_st_facets00105m_st_facets00105m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00105m/ST_facets00105m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00104m_st_facets00104m1_p(save_xml):
+def test_st_facets00104m_st_facets00104m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13788,12 +14642,13 @@ def test_st_facets00104m_st_facets00104m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00104m/ST_facets00104m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00104m_st_facets00104m1_n(save_xml):
+def test_st_facets00104m_st_facets00104m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13803,11 +14658,12 @@ def test_st_facets00104m_st_facets00104m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00104m/ST_facets00104m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00103m_st_facets00103m1_p(save_xml):
+def test_st_facets00103m_st_facets00103m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13817,12 +14673,13 @@ def test_st_facets00103m_st_facets00103m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00103m/ST_facets00103m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00103m_st_facets00103m1_n(save_xml):
+def test_st_facets00103m_st_facets00103m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13832,11 +14689,12 @@ def test_st_facets00103m_st_facets00103m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00103m/ST_facets00103m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00102m_st_facets00102m1_p(save_xml):
+def test_st_facets00102m_st_facets00102m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13846,12 +14704,13 @@ def test_st_facets00102m_st_facets00102m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00102m/ST_facets00102m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00102m_st_facets00102m1_n(save_xml):
+def test_st_facets00102m_st_facets00102m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13861,11 +14720,12 @@ def test_st_facets00102m_st_facets00102m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00102m/ST_facets00102m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00101m_st_facets00101m1_p(save_xml):
+def test_st_facets00101m_st_facets00101m1_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13875,12 +14735,13 @@ def test_st_facets00101m_st_facets00101m1_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00101m/ST_facets00101m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_facets00101m_st_facets00101m1_n(save_xml):
+def test_st_facets00101m_st_facets00101m1_n(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13890,11 +14751,12 @@ def test_st_facets00101m_st_facets00101m1_n(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00101m/ST_facets00101m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00101m_st_facets00101m2_p(save_xml):
+def test_st_facets00101m_st_facets00101m2_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13904,11 +14766,12 @@ def test_st_facets00101m_st_facets00101m2_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00101m/ST_facets00101m2_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_facets00101m_st_facets00101m3_p(save_xml):
+def test_st_facets00101m_st_facets00101m3_p(json_360, save_output):
     """
     {facets} restriction (valid schema) The {facets} of R constitute a
     restriction of the {facets} of B with respect to S.
@@ -13918,11 +14781,12 @@ def test_st_facets00101m_st_facets00101m3_p(save_xml):
         instance="sunData/SType/ST_facets/ST_facets00101m/ST_facets00101m3_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_basetd00302m_st_base_td00302m1_p(save_xml):
+def test_st_basetd00302m_st_base_td00302m1_p(json_360, save_output):
     """
     the 'union' alternative is chosen (valid schema) If the 'list' or
     'union' alternative is chosen, then the *simple ur-type definition*.
@@ -13932,12 +14796,13 @@ def test_st_basetd00302m_st_base_td00302m1_p(save_xml):
         instance="sunData/SType/ST_baseTD/ST_baseTD00302m/ST_baseTD00302m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_basetd00302m_st_base_td00302m1_n(save_xml):
+def test_st_basetd00302m_st_base_td00302m1_n(json_360, save_output):
     """
     the 'union' alternative is chosen (valid schema) If the 'list' or
     'union' alternative is chosen, then the *simple ur-type definition*.
@@ -13947,11 +14812,12 @@ def test_st_basetd00302m_st_base_td00302m1_n(save_xml):
         instance="sunData/SType/ST_baseTD/ST_baseTD00302m/ST_baseTD00302m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_basetd00302m_st_base_td00302m2_p(save_xml):
+def test_st_basetd00302m_st_base_td00302m2_p(json_360, save_output):
     """
     the 'union' alternative is chosen (valid schema) If the 'list' or
     'union' alternative is chosen, then the *simple ur-type definition*.
@@ -13961,12 +14827,13 @@ def test_st_basetd00302m_st_base_td00302m2_p(save_xml):
         instance="sunData/SType/ST_baseTD/ST_baseTD00302m/ST_baseTD00302m2_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_basetd00302m_st_base_td00302m2_n(save_xml):
+def test_st_basetd00302m_st_base_td00302m2_n(json_360, save_output):
     """
     the 'union' alternative is chosen (valid schema) If the 'list' or
     'union' alternative is chosen, then the *simple ur-type definition*.
@@ -13976,12 +14843,13 @@ def test_st_basetd00302m_st_base_td00302m2_n(save_xml):
         instance="sunData/SType/ST_baseTD/ST_baseTD00302m/ST_baseTD00302m2_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_basetd00302m_st_base_td00302m3_n(save_xml):
+def test_st_basetd00302m_st_base_td00302m3_n(json_360, save_output):
     """
     the 'union' alternative is chosen (valid schema) If the 'list' or
     'union' alternative is chosen, then the *simple ur-type definition*.
@@ -13991,11 +14859,12 @@ def test_st_basetd00302m_st_base_td00302m3_n(save_xml):
         instance="sunData/SType/ST_baseTD/ST_baseTD00302m/ST_baseTD00302m3_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_basetd00301m_st_base_td00301m1_p(save_xml):
+def test_st_basetd00301m_st_base_td00301m1_p(json_360, save_output):
     """
     the 'list' alternative is chosen (valid schema) If the 'list' or
     'union' alternative is chosen, then the *simple ur-type definition*.
@@ -14005,12 +14874,13 @@ def test_st_basetd00301m_st_base_td00301m1_p(save_xml):
         instance="sunData/SType/ST_baseTD/ST_baseTD00301m/ST_baseTD00301m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_basetd00301m_st_base_td00301m1_n(save_xml):
+def test_st_basetd00301m_st_base_td00301m1_n(json_360, save_output):
     """
     the 'list' alternative is chosen (valid schema) If the 'list' or
     'union' alternative is chosen, then the *simple ur-type definition*.
@@ -14020,11 +14890,12 @@ def test_st_basetd00301m_st_base_td00301m1_n(save_xml):
         instance="sunData/SType/ST_baseTD/ST_baseTD00301m/ST_baseTD00301m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_basetd00201m_st_base_td00201m1_p(save_xml):
+def test_st_basetd00201m_st_base_td00201m1_p(json_360, save_output):
     """
     The base type is defined by the type of 'simpleType' among the
     [children] of 'restriction' (valid schema) If the base [attribute] is
@@ -14036,12 +14907,13 @@ def test_st_basetd00201m_st_base_td00201m1_p(save_xml):
         instance="sunData/SType/ST_baseTD/ST_baseTD00201m/ST_baseTD00201m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_basetd00201m_st_base_td00201m1_n(save_xml):
+def test_st_basetd00201m_st_base_td00201m1_n(json_360, save_output):
     """
     The base type is defined by the type of 'simpleType' among the
     [children] of 'restriction' (valid schema) If the base [attribute] is
@@ -14053,11 +14925,12 @@ def test_st_basetd00201m_st_base_td00201m1_n(save_xml):
         instance="sunData/SType/ST_baseTD/ST_baseTD00201m/ST_baseTD00201m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_basetd00101m_st_base_td00101m1_p(save_xml):
+def test_st_basetd00101m_st_base_td00101m1_p(json_360, save_output):
     """
     The value of the base [attribute] specifies the base type definition
     (valid schema) If the 'restriction' alternative is chosen, then the
@@ -14069,12 +14942,13 @@ def test_st_basetd00101m_st_base_td00101m1_p(save_xml):
         instance="sunData/SType/ST_baseTD/ST_baseTD00101m/ST_baseTD00101m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_st_basetd00101m_st_base_td00101m1_n(save_xml):
+def test_st_basetd00101m_st_base_td00101m1_n(json_360, save_output):
     """
     The value of the base [attribute] specifies the base type definition
     (valid schema) If the 'restriction' alternative is chosen, then the
@@ -14086,11 +14960,12 @@ def test_st_basetd00101m_st_base_td00101m1_n(save_xml):
         instance="sunData/SType/ST_baseTD/ST_baseTD00101m/ST_baseTD00101m1_n.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_basetd00101m_st_base_td00101m2_p(save_xml):
+def test_st_basetd00101m_st_base_td00101m2_p(json_360, save_output):
     """
     The value of the base [attribute] specifies the base type definition
     (valid schema) If the 'restriction' alternative is chosen, then the
@@ -14102,11 +14977,12 @@ def test_st_basetd00101m_st_base_td00101m2_p(save_xml):
         instance="sunData/SType/ST_baseTD/ST_baseTD00101m/ST_baseTD00101m2_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_annotation00101m2_positive(save_xml):
+def test_st_annotation00101m2_positive(json_360, save_output):
     """
     machine-targeted annotation (valid schema) Annotations provide for
     human- and machine-targeted annotations of schema components.
@@ -14116,11 +14992,12 @@ def test_st_annotation00101m2_positive(save_xml):
         instance="sunData/SType/ST_annotation/ST_annotation00101m/ST_annotation00101m2_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_st_annotation00101m1_positive(save_xml):
+def test_st_annotation00101m1_positive(json_360, save_output):
     """
     human-targeted annotation (valid schema) Annotations provide for
     human- and machine-targeted annotations of schema components.
@@ -14130,11 +15007,12 @@ def test_st_annotation00101m1_positive(save_xml):
         instance="sunData/SType/ST_annotation/ST_annotation00101m/ST_annotation00101m1_p.xml",
         class_name="Test",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotations00101m6_positive(save_xml):
+def test_annotations00101m6_positive(json_360, save_output):
     """
     machine-targeted placed at the end annotation for the schema itself
     (valid schema) Annotations provide for human- and machine-targeted
@@ -14147,11 +15025,12 @@ def test_annotations00101m6_positive(save_xml):
         instance="sunData/Schema/annotations/annotations00101m/annotations00101m6_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotations00101m5_positive(save_xml):
+def test_annotations00101m5_positive(json_360, save_output):
     """
     machine-targeted double annotation for the schema itself (valid
     schema) Annotations provide for human- and machine-targeted
@@ -14164,11 +15043,12 @@ def test_annotations00101m5_positive(save_xml):
         instance="sunData/Schema/annotations/annotations00101m/annotations00101m5_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotations00101m4_positive(save_xml):
+def test_annotations00101m4_positive(json_360, save_output):
     """
     machine-targeted annotation for the schema itself (valid schema)
     Annotations provide for human- and machine-targeted annotations of
@@ -14180,11 +15060,12 @@ def test_annotations00101m4_positive(save_xml):
         instance="sunData/Schema/annotations/annotations00101m/annotations00101m4_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotations00101m3_positive(save_xml):
+def test_annotations00101m3_positive(json_360, save_output):
     """
     human-targeted placed at the end annotation for the schema itself
     (valid schema) Annotations provide for human- and machine-targeted
@@ -14197,11 +15078,12 @@ def test_annotations00101m3_positive(save_xml):
         instance="sunData/Schema/annotations/annotations00101m/annotations00101m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotations00101m2_positive(save_xml):
+def test_annotations00101m2_positive(json_360, save_output):
     """
     human-targeted double annotation for the schema itself (valid schema)
     Annotations provide for human- and machine-targeted annotations of
@@ -14213,11 +15095,12 @@ def test_annotations00101m2_positive(save_xml):
         instance="sunData/Schema/annotations/annotations00101m/annotations00101m2_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotations00101m1_positive(save_xml):
+def test_annotations00101m1_positive(json_360, save_output):
     """
     human-targeted annotation for the schema itself (valid schema)
     Annotations provide for human- and machine-targeted annotations of
@@ -14229,11 +15112,12 @@ def test_annotations00101m1_positive(save_xml):
         instance="sunData/Schema/annotations/annotations00101m/annotations00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_pscontents00302m2_positive(save_xml):
+def test_pscontents00302m2_positive(json_360, save_output):
     """
     processContents='lax' and the declaration is not available (valid
     schema) {process contents} controls the impact on *assessment* of the
@@ -14248,12 +15132,13 @@ def test_pscontents00302m2_positive(save_xml):
         instance="sunData/Wildcard/psContents/psContents00302m/psContents00302m2_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_pscontents00302m2_negative(save_xml):
+def test_pscontents00302m2_negative(json_360, save_output):
     """
     processContents='lax' and the declaration is not available (valid
     schema) {process contents} controls the impact on *assessment* of the
@@ -14268,11 +15153,12 @@ def test_pscontents00302m2_negative(save_xml):
         instance="sunData/Wildcard/psContents/psContents00302m/psContents00302m2_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_pscontents00302m1_positive(save_xml):
+def test_pscontents00302m1_positive(json_360, save_output):
     """
     processContents='lax' and the declaration is available (valid schema)
     {process contents} controls the impact on *assessment* of the
@@ -14287,12 +15173,13 @@ def test_pscontents00302m1_positive(save_xml):
         instance="sunData/Wildcard/psContents/psContents00302m/psContents00302m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_pscontents00302m1_negative(save_xml):
+def test_pscontents00302m1_negative(json_360, save_output):
     """
     processContents='lax' and the declaration is available (valid schema)
     {process contents} controls the impact on *assessment* of the
@@ -14307,11 +15194,12 @@ def test_pscontents00302m1_negative(save_xml):
         instance="sunData/Wildcard/psContents/psContents00302m/psContents00302m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_pscontents00301m2_positive(save_xml):
+def test_pscontents00301m2_positive(json_360, save_output):
     """
     processContents='lax' and the declaration is not available (valid
     schema) {process contents} controls the impact on *assessment* of the
@@ -14326,12 +15214,13 @@ def test_pscontents00301m2_positive(save_xml):
         instance="sunData/Wildcard/psContents/psContents00301m/psContents00301m2_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_pscontents00301m2_negative(save_xml):
+def test_pscontents00301m2_negative(json_360, save_output):
     """
     processContents='lax' and the declaration is not available (valid
     schema) {process contents} controls the impact on *assessment* of the
@@ -14346,11 +15235,12 @@ def test_pscontents00301m2_negative(save_xml):
         instance="sunData/Wildcard/psContents/psContents00301m/psContents00301m2_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_pscontents00301m1_positive(save_xml):
+def test_pscontents00301m1_positive(json_360, save_output):
     """
     processContents='lax' and the declaration is available (valid schema)
     {process contents} controls the impact on *assessment* of the
@@ -14365,12 +15255,13 @@ def test_pscontents00301m1_positive(save_xml):
         instance="sunData/Wildcard/psContents/psContents00301m/psContents00301m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_pscontents00301m1_negative(save_xml):
+def test_pscontents00301m1_negative(json_360, save_output):
     """
     processContents='lax' and the declaration is available (valid schema)
     {process contents} controls the impact on *assessment* of the
@@ -14385,11 +15276,12 @@ def test_pscontents00301m1_negative(save_xml):
         instance="sunData/Wildcard/psContents/psContents00301m/psContents00301m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_pscontents00202m1_positive(save_xml):
+def test_pscontents00202m1_positive(json_360, save_output):
     """
     processContents='skip' (valid schema) {process contents} controls the
     impact on *assessment* of the information items allowed by wildcards,
@@ -14401,11 +15293,12 @@ def test_pscontents00202m1_positive(save_xml):
         instance="sunData/Wildcard/psContents/psContents00202m/psContents00202m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_pscontents00201m1_positive(save_xml):
+def test_pscontents00201m1_positive(json_360, save_output):
     """
     processContents='skip' (valid schema) {process contents} controls the
     impact on *assessment* of the information items allowed by wildcards,
@@ -14417,12 +15310,13 @@ def test_pscontents00201m1_positive(save_xml):
         instance="sunData/Wildcard/psContents/psContents00201m/psContents00201m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_pscontents00201m1_negative(save_xml):
+def test_pscontents00201m1_negative(json_360, save_output):
     """
     processContents='skip' (valid schema) {process contents} controls the
     impact on *assessment* of the information items allowed by wildcards,
@@ -14434,12 +15328,13 @@ def test_pscontents00201m1_negative(save_xml):
         instance="sunData/Wildcard/psContents/psContents00201m/psContents00201m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_pscontents00102m2_negative(save_xml):
+def test_pscontents00102m2_negative(json_360, save_output):
     """
     processContents='strict' and the declaration is not available (valid
     schema) {process contents} controls the impact on *assessment* of the
@@ -14452,11 +15347,12 @@ def test_pscontents00102m2_negative(save_xml):
         instance="sunData/Wildcard/psContents/psContents00102m/psContents00102m2_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_pscontents00102m1_positive(save_xml):
+def test_pscontents00102m1_positive(json_360, save_output):
     """
     processContents='strict' and the declaration is available (valid
     schema) {process contents} controls the impact on *assessment* of the
@@ -14469,12 +15365,13 @@ def test_pscontents00102m1_positive(save_xml):
         instance="sunData/Wildcard/psContents/psContents00102m/psContents00102m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_pscontents00102m1_negative(save_xml):
+def test_pscontents00102m1_negative(json_360, save_output):
     """
     processContents='strict' and the declaration is available (valid
     schema) {process contents} controls the impact on *assessment* of the
@@ -14487,12 +15384,13 @@ def test_pscontents00102m1_negative(save_xml):
         instance="sunData/Wildcard/psContents/psContents00102m/psContents00102m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_pscontents00101m2_negative(save_xml):
+def test_pscontents00101m2_negative(json_360, save_output):
     """
     processContents='strict' and the declaration is not available (valid
     schema) {process contents} controls the impact on *assessment* of the
@@ -14505,11 +15403,12 @@ def test_pscontents00101m2_negative(save_xml):
         instance="sunData/Wildcard/psContents/psContents00101m/psContents00101m2_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_pscontents00101m1_positive(save_xml):
+def test_pscontents00101m1_positive(json_360, save_output):
     """
     processContents='strict' and the declaration is available (valid
     schema) {process contents} controls the impact on *assessment* of the
@@ -14522,12 +15421,13 @@ def test_pscontents00101m1_positive(save_xml):
         instance="sunData/Wildcard/psContents/psContents00101m/psContents00101m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_pscontents00101m1_negative(save_xml):
+def test_pscontents00101m1_negative(json_360, save_output):
     """
     processContents='strict' and the declaration is available (valid
     schema) {process contents} controls the impact on *assessment* of the
@@ -14540,11 +15440,12 @@ def test_pscontents00101m1_negative(save_xml):
         instance="sunData/Wildcard/psContents/psContents00101m/psContents00101m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_nsconstraint00302m1_positive(save_xml):
+def test_nsconstraint00302m1_positive(json_360, save_output):
     """
     namespace='ns_test1 ns_test2' (valid schema) {namespace constraint}
     provides for *validation* of attribute and element items that: 4. (a
@@ -14557,12 +15458,13 @@ def test_nsconstraint00302m1_positive(save_xml):
         instance="sunData/Wildcard/nsConstraint/nsConstraint00302m/nsConstraint00302m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_nsconstraint00302m1_negative(save_xml):
+def test_nsconstraint00302m1_negative(json_360, save_output):
     """
     namespace='ns_test1 ns_test2' (valid schema) {namespace constraint}
     provides for *validation* of attribute and element items that: 4. (a
@@ -14575,11 +15477,12 @@ def test_nsconstraint00302m1_negative(save_xml):
         instance="sunData/Wildcard/nsConstraint/nsConstraint00302m/nsConstraint00302m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_nsconstraint00301m1_positive(save_xml):
+def test_nsconstraint00301m1_positive(json_360, save_output):
     """
     namespace='ns_test1 ns_test2' (valid schema) {namespace constraint}
     provides for *validation* of attribute and element items that: 4. (a
@@ -14592,12 +15495,13 @@ def test_nsconstraint00301m1_positive(save_xml):
         instance="sunData/Wildcard/nsConstraint/nsConstraint00301m/nsConstraint00301m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_nsconstraint00301m1_negative(save_xml):
+def test_nsconstraint00301m1_negative(json_360, save_output):
     """
     namespace='ns_test1 ns_test2' (valid schema) {namespace constraint}
     provides for *validation* of attribute and element items that: 4. (a
@@ -14610,11 +15514,12 @@ def test_nsconstraint00301m1_negative(save_xml):
         instance="sunData/Wildcard/nsConstraint/nsConstraint00301m/nsConstraint00301m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_nsconstraint00202m1_positive(save_xml):
+def test_nsconstraint00202m1_positive(json_360, save_output):
     """
     namespace='##other' (valid schema) {namespace constraint} provides for
     *validation* of attribute and element items that: 2. (not and a
@@ -14626,12 +15531,13 @@ def test_nsconstraint00202m1_positive(save_xml):
         instance="sunData/Wildcard/nsConstraint/nsConstraint00202m/nsConstraint00202m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_nsconstraint00202m1_negative(save_xml):
+def test_nsconstraint00202m1_negative(json_360, save_output):
     """
     namespace='##other' (valid schema) {namespace constraint} provides for
     *validation* of attribute and element items that: 2. (not and a
@@ -14643,11 +15549,12 @@ def test_nsconstraint00202m1_negative(save_xml):
         instance="sunData/Wildcard/nsConstraint/nsConstraint00202m/nsConstraint00202m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_nsconstraint00201m1_positive(save_xml):
+def test_nsconstraint00201m1_positive(json_360, save_output):
     """
     namespace='##other' (valid schema) {namespace constraint} provides for
     *validation* of attribute and element items that: 2. (not and a
@@ -14659,12 +15566,13 @@ def test_nsconstraint00201m1_positive(save_xml):
         instance="sunData/Wildcard/nsConstraint/nsConstraint00201m/nsConstraint00201m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_nsconstraint00201m1_negative(save_xml):
+def test_nsconstraint00201m1_negative(json_360, save_output):
     """
     namespace='##other' (valid schema) {namespace constraint} provides for
     *validation* of attribute and element items that: 2. (not and a
@@ -14676,11 +15584,12 @@ def test_nsconstraint00201m1_negative(save_xml):
         instance="sunData/Wildcard/nsConstraint/nsConstraint00201m/nsConstraint00201m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_nsconstraint00102m2_positive(save_xml):
+def test_nsconstraint00102m2_positive(json_360, save_output):
     """
     default value of 'namespace' is '##any' (valid schema) {namespace
     constraint} provides for *validation* of attribute and element items
@@ -14691,11 +15600,12 @@ def test_nsconstraint00102m2_positive(save_xml):
         instance="sunData/Wildcard/nsConstraint/nsConstraint00102m/nsConstraint00102m2_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_nsconstraint00102m1_positive(save_xml):
+def test_nsconstraint00102m1_positive(json_360, save_output):
     """
     namespace='##any' (valid schema) {namespace constraint} provides for
     *validation* of attribute and element items that: 1. (any) have any
@@ -14706,11 +15616,12 @@ def test_nsconstraint00102m1_positive(save_xml):
         instance="sunData/Wildcard/nsConstraint/nsConstraint00102m/nsConstraint00102m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_nsconstraint00101m2_positive(save_xml):
+def test_nsconstraint00101m2_positive(json_360, save_output):
     """
     default value of 'namespace' is '##any' (valid schema) {namespace
     constraint} provides for *validation* of attribute and element items
@@ -14721,12 +15632,13 @@ def test_nsconstraint00101m2_positive(save_xml):
         instance="sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m2_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_nsconstraint00101m2_negative(save_xml):
+def test_nsconstraint00101m2_negative(json_360, save_output):
     """
     default value of 'namespace' is '##any' (valid schema) {namespace
     constraint} provides for *validation* of attribute and element items
@@ -14737,11 +15649,12 @@ def test_nsconstraint00101m2_negative(save_xml):
         instance="sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m2_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_nsconstraint00101m1_positive(save_xml):
+def test_nsconstraint00101m1_positive(json_360, save_output):
     """
     namespace='##any' (valid schema) {namespace constraint} provides for
     *validation* of attribute and element items that: 1. (any) have any
@@ -14752,12 +15665,13 @@ def test_nsconstraint00101m1_positive(save_xml):
         instance="sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m1_p.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_nsconstraint00101m1_negative(save_xml):
+def test_nsconstraint00101m1_negative(json_360, save_output):
     """
     namespace='##any' (valid schema) {namespace constraint} provides for
     *validation* of attribute and element items that: 1. (any) have any
@@ -14768,11 +15682,12 @@ def test_nsconstraint00101m1_negative(save_xml):
         instance="sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m1_n.xml",
         class_name="A",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotation00101m7_positive_915(save_xml):
+def test_annotation00101m7_positive_915(json_360, save_output):
     """
     machine-targeted annotation for a wildcard schema component (any)
     (valid schema) Annotations provide for human- and machine-targeted
@@ -14784,11 +15699,12 @@ def test_annotation00101m7_positive_915(save_xml):
         instance="sunData/Wildcard/annotation/annotation00101m/annotation00101m7_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotation00101m5_positive(save_xml):
+def test_annotation00101m5_positive(json_360, save_output):
     """
     human-targeted annotation for a wildcard schema component (any) (valid
     schema) Annotations provide for human- and machine-targeted
@@ -14800,11 +15716,12 @@ def test_annotation00101m5_positive(save_xml):
         instance="sunData/Wildcard/annotation/annotation00101m/annotation00101m5_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotation00101m3_positive_917(save_xml):
+def test_annotation00101m3_positive_917(json_360, save_output):
     """
     machine-targeted annotation for a wildcard schema component
     (anyAttribute) (valid schema) Annotations provide for human- and
@@ -14817,11 +15734,12 @@ def test_annotation00101m3_positive_917(save_xml):
         instance="sunData/Wildcard/annotation/annotation00101m/annotation00101m3_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_annotation00101m1_positive_918(save_xml):
+def test_annotation00101m1_positive_918(json_360, save_output):
     """
     human-targeted annotation for a wildcard schema component
     (anyAttribute) (valid schema) Annotations provide for human- and
@@ -14834,5 +15752,6 @@ def test_annotation00101m1_positive_918(save_xml):
         instance="sunData/Wildcard/annotation/annotation00101m/annotation00101m1_p.xml",
         class_name="Root",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )

@@ -3,7 +3,6 @@ import pytest
 from tests.utils import assert_bindings
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_9_nistxml_sv_ii_union_short_g_year_enumeration_5_1(save_xml):
     """
@@ -18,7 +17,6 @@ def test_union_short_g_year_enumeration_9_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_9_nistxml_sv_ii_union_short_g_year_enumeration_5_2(save_xml):
     """
@@ -33,7 +31,6 @@ def test_union_short_g_year_enumeration_9_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_9_nistxml_sv_ii_union_short_g_year_enumeration_5_3(save_xml):
     """
@@ -48,7 +45,6 @@ def test_union_short_g_year_enumeration_9_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_9_nistxml_sv_ii_union_short_g_year_enumeration_5_4(save_xml):
     """
@@ -63,7 +59,6 @@ def test_union_short_g_year_enumeration_9_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_9_nistxml_sv_ii_union_short_g_year_enumeration_5_5(save_xml):
     """
@@ -78,7 +73,6 @@ def test_union_short_g_year_enumeration_9_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_8_nistxml_sv_ii_union_short_g_year_enumeration_4_1(save_xml):
     """
@@ -93,7 +87,6 @@ def test_union_short_g_year_enumeration_8_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_8_nistxml_sv_ii_union_short_g_year_enumeration_4_2(save_xml):
     """
@@ -108,7 +101,6 @@ def test_union_short_g_year_enumeration_8_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_8_nistxml_sv_ii_union_short_g_year_enumeration_4_3(save_xml):
     """
@@ -123,7 +115,6 @@ def test_union_short_g_year_enumeration_8_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_8_nistxml_sv_ii_union_short_g_year_enumeration_4_4(save_xml):
     """
@@ -138,7 +129,6 @@ def test_union_short_g_year_enumeration_8_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_8_nistxml_sv_ii_union_short_g_year_enumeration_4_5(save_xml):
     """
@@ -153,7 +143,6 @@ def test_union_short_g_year_enumeration_8_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_7_nistxml_sv_ii_union_short_g_year_enumeration_3_1(save_xml):
     """
@@ -168,7 +157,6 @@ def test_union_short_g_year_enumeration_7_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_7_nistxml_sv_ii_union_short_g_year_enumeration_3_2(save_xml):
     """
@@ -183,7 +171,6 @@ def test_union_short_g_year_enumeration_7_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_7_nistxml_sv_ii_union_short_g_year_enumeration_3_3(save_xml):
     """
@@ -198,7 +185,6 @@ def test_union_short_g_year_enumeration_7_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_7_nistxml_sv_ii_union_short_g_year_enumeration_3_4(save_xml):
     """
@@ -213,7 +199,6 @@ def test_union_short_g_year_enumeration_7_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_7_nistxml_sv_ii_union_short_g_year_enumeration_3_5(save_xml):
     """
@@ -228,7 +213,6 @@ def test_union_short_g_year_enumeration_7_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_6_nistxml_sv_ii_union_short_g_year_enumeration_2_1(save_xml):
     """
@@ -243,7 +227,6 @@ def test_union_short_g_year_enumeration_6_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_6_nistxml_sv_ii_union_short_g_year_enumeration_2_2(save_xml):
     """
@@ -258,7 +241,6 @@ def test_union_short_g_year_enumeration_6_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_6_nistxml_sv_ii_union_short_g_year_enumeration_2_3(save_xml):
     """
@@ -273,7 +255,6 @@ def test_union_short_g_year_enumeration_6_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_6_nistxml_sv_ii_union_short_g_year_enumeration_2_4(save_xml):
     """
@@ -288,7 +269,6 @@ def test_union_short_g_year_enumeration_6_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_6_nistxml_sv_ii_union_short_g_year_enumeration_2_5(save_xml):
     """
@@ -303,7 +283,6 @@ def test_union_short_g_year_enumeration_6_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_5_nistxml_sv_ii_union_short_g_year_enumeration_1_1(save_xml):
     """
@@ -318,7 +297,6 @@ def test_union_short_g_year_enumeration_5_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_5_nistxml_sv_ii_union_short_g_year_enumeration_1_2(save_xml):
     """
@@ -333,7 +311,6 @@ def test_union_short_g_year_enumeration_5_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_5_nistxml_sv_ii_union_short_g_year_enumeration_1_3(save_xml):
     """
@@ -348,7 +325,6 @@ def test_union_short_g_year_enumeration_5_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_5_nistxml_sv_ii_union_short_g_year_enumeration_1_4(save_xml):
     """
@@ -363,7 +339,6 @@ def test_union_short_g_year_enumeration_5_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_enumeration_5_nistxml_sv_ii_union_short_g_year_enumeration_1_5(save_xml):
     """
@@ -378,7 +353,6 @@ def test_union_short_g_year_enumeration_5_nistxml_sv_ii_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_9_nistxml_sv_ii_union_short_g_year_pattern_5_1(save_xml):
     r"""
@@ -394,7 +368,6 @@ def test_union_short_g_year_pattern_9_nistxml_sv_ii_union_short_g_year_pattern_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_9_nistxml_sv_ii_union_short_g_year_pattern_5_2(save_xml):
     r"""
@@ -410,7 +383,6 @@ def test_union_short_g_year_pattern_9_nistxml_sv_ii_union_short_g_year_pattern_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_9_nistxml_sv_ii_union_short_g_year_pattern_5_3(save_xml):
     r"""
@@ -426,7 +398,6 @@ def test_union_short_g_year_pattern_9_nistxml_sv_ii_union_short_g_year_pattern_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_9_nistxml_sv_ii_union_short_g_year_pattern_5_4(save_xml):
     r"""
@@ -442,7 +413,6 @@ def test_union_short_g_year_pattern_9_nistxml_sv_ii_union_short_g_year_pattern_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_9_nistxml_sv_ii_union_short_g_year_pattern_5_5(save_xml):
     r"""
@@ -458,7 +428,6 @@ def test_union_short_g_year_pattern_9_nistxml_sv_ii_union_short_g_year_pattern_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_8_nistxml_sv_ii_union_short_g_year_pattern_4_1(save_xml):
     r"""
@@ -474,7 +443,6 @@ def test_union_short_g_year_pattern_8_nistxml_sv_ii_union_short_g_year_pattern_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_8_nistxml_sv_ii_union_short_g_year_pattern_4_2(save_xml):
     r"""
@@ -490,7 +458,6 @@ def test_union_short_g_year_pattern_8_nistxml_sv_ii_union_short_g_year_pattern_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_8_nistxml_sv_ii_union_short_g_year_pattern_4_3(save_xml):
     r"""
@@ -506,7 +473,6 @@ def test_union_short_g_year_pattern_8_nistxml_sv_ii_union_short_g_year_pattern_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_8_nistxml_sv_ii_union_short_g_year_pattern_4_4(save_xml):
     r"""
@@ -522,7 +488,6 @@ def test_union_short_g_year_pattern_8_nistxml_sv_ii_union_short_g_year_pattern_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_8_nistxml_sv_ii_union_short_g_year_pattern_4_5(save_xml):
     r"""
@@ -538,7 +503,6 @@ def test_union_short_g_year_pattern_8_nistxml_sv_ii_union_short_g_year_pattern_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_7_nistxml_sv_ii_union_short_g_year_pattern_3_1(save_xml):
     r"""
@@ -554,7 +518,6 @@ def test_union_short_g_year_pattern_7_nistxml_sv_ii_union_short_g_year_pattern_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_7_nistxml_sv_ii_union_short_g_year_pattern_3_2(save_xml):
     r"""
@@ -570,7 +533,6 @@ def test_union_short_g_year_pattern_7_nistxml_sv_ii_union_short_g_year_pattern_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_7_nistxml_sv_ii_union_short_g_year_pattern_3_3(save_xml):
     r"""
@@ -586,7 +548,6 @@ def test_union_short_g_year_pattern_7_nistxml_sv_ii_union_short_g_year_pattern_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_7_nistxml_sv_ii_union_short_g_year_pattern_3_4(save_xml):
     r"""
@@ -602,7 +563,6 @@ def test_union_short_g_year_pattern_7_nistxml_sv_ii_union_short_g_year_pattern_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_7_nistxml_sv_ii_union_short_g_year_pattern_3_5(save_xml):
     r"""
@@ -618,7 +578,6 @@ def test_union_short_g_year_pattern_7_nistxml_sv_ii_union_short_g_year_pattern_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_6_nistxml_sv_ii_union_short_g_year_pattern_2_1(save_xml):
     r"""
@@ -634,7 +593,6 @@ def test_union_short_g_year_pattern_6_nistxml_sv_ii_union_short_g_year_pattern_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_6_nistxml_sv_ii_union_short_g_year_pattern_2_2(save_xml):
     r"""
@@ -650,7 +608,6 @@ def test_union_short_g_year_pattern_6_nistxml_sv_ii_union_short_g_year_pattern_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_6_nistxml_sv_ii_union_short_g_year_pattern_2_3(save_xml):
     r"""
@@ -666,7 +623,6 @@ def test_union_short_g_year_pattern_6_nistxml_sv_ii_union_short_g_year_pattern_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_6_nistxml_sv_ii_union_short_g_year_pattern_2_4(save_xml):
     r"""
@@ -682,7 +638,6 @@ def test_union_short_g_year_pattern_6_nistxml_sv_ii_union_short_g_year_pattern_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_6_nistxml_sv_ii_union_short_g_year_pattern_2_5(save_xml):
     r"""
@@ -698,7 +653,6 @@ def test_union_short_g_year_pattern_6_nistxml_sv_ii_union_short_g_year_pattern_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_5_nistxml_sv_ii_union_short_g_year_pattern_1_1(save_xml):
     r"""
@@ -714,7 +668,6 @@ def test_union_short_g_year_pattern_5_nistxml_sv_ii_union_short_g_year_pattern_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_5_nistxml_sv_ii_union_short_g_year_pattern_1_2(save_xml):
     r"""
@@ -730,7 +683,6 @@ def test_union_short_g_year_pattern_5_nistxml_sv_ii_union_short_g_year_pattern_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_5_nistxml_sv_ii_union_short_g_year_pattern_1_3(save_xml):
     r"""
@@ -746,7 +698,6 @@ def test_union_short_g_year_pattern_5_nistxml_sv_ii_union_short_g_year_pattern_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_5_nistxml_sv_ii_union_short_g_year_pattern_1_4(save_xml):
     r"""
@@ -762,7 +713,6 @@ def test_union_short_g_year_pattern_5_nistxml_sv_ii_union_short_g_year_pattern_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_short_g_year_pattern_5_nistxml_sv_ii_union_short_g_year_pattern_1_5(save_xml):
     r"""
@@ -778,7 +728,6 @@ def test_union_short_g_year_pattern_5_nistxml_sv_ii_union_short_g_year_pattern_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_9_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_5_1(save_xml):
     """
@@ -793,7 +742,6 @@ def test_union_g_month_day_g_year_month_enumeration_9_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_9_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_5_2(save_xml):
     """
@@ -808,7 +756,6 @@ def test_union_g_month_day_g_year_month_enumeration_9_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_9_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_5_3(save_xml):
     """
@@ -823,7 +770,6 @@ def test_union_g_month_day_g_year_month_enumeration_9_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_9_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_5_4(save_xml):
     """
@@ -838,7 +784,6 @@ def test_union_g_month_day_g_year_month_enumeration_9_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_9_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_5_5(save_xml):
     """
@@ -853,7 +798,6 @@ def test_union_g_month_day_g_year_month_enumeration_9_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_8_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_4_1(save_xml):
     """
@@ -868,7 +812,6 @@ def test_union_g_month_day_g_year_month_enumeration_8_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_8_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_4_2(save_xml):
     """
@@ -883,7 +826,6 @@ def test_union_g_month_day_g_year_month_enumeration_8_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_8_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_4_3(save_xml):
     """
@@ -898,7 +840,6 @@ def test_union_g_month_day_g_year_month_enumeration_8_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_8_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_4_4(save_xml):
     """
@@ -913,7 +854,6 @@ def test_union_g_month_day_g_year_month_enumeration_8_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_8_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_4_5(save_xml):
     """
@@ -928,7 +868,6 @@ def test_union_g_month_day_g_year_month_enumeration_8_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_7_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_3_1(save_xml):
     """
@@ -943,7 +882,6 @@ def test_union_g_month_day_g_year_month_enumeration_7_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_7_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_3_2(save_xml):
     """
@@ -958,7 +896,6 @@ def test_union_g_month_day_g_year_month_enumeration_7_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_7_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_3_3(save_xml):
     """
@@ -973,7 +910,6 @@ def test_union_g_month_day_g_year_month_enumeration_7_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_7_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_3_4(save_xml):
     """
@@ -988,7 +924,6 @@ def test_union_g_month_day_g_year_month_enumeration_7_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_7_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_3_5(save_xml):
     """
@@ -1003,7 +938,6 @@ def test_union_g_month_day_g_year_month_enumeration_7_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_6_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_2_1(save_xml):
     """
@@ -1018,7 +952,6 @@ def test_union_g_month_day_g_year_month_enumeration_6_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_6_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_2_2(save_xml):
     """
@@ -1033,7 +966,6 @@ def test_union_g_month_day_g_year_month_enumeration_6_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_6_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_2_3(save_xml):
     """
@@ -1048,7 +980,6 @@ def test_union_g_month_day_g_year_month_enumeration_6_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_6_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_2_4(save_xml):
     """
@@ -1063,7 +994,6 @@ def test_union_g_month_day_g_year_month_enumeration_6_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_6_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_2_5(save_xml):
     """
@@ -1078,7 +1008,6 @@ def test_union_g_month_day_g_year_month_enumeration_6_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_5_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_1_1(save_xml):
     """
@@ -1093,7 +1022,6 @@ def test_union_g_month_day_g_year_month_enumeration_5_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_5_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_1_2(save_xml):
     """
@@ -1108,7 +1036,6 @@ def test_union_g_month_day_g_year_month_enumeration_5_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_5_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_1_3(save_xml):
     """
@@ -1123,7 +1050,6 @@ def test_union_g_month_day_g_year_month_enumeration_5_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_5_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_1_4(save_xml):
     """
@@ -1138,7 +1064,6 @@ def test_union_g_month_day_g_year_month_enumeration_5_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_enumeration_5_nistxml_sv_ii_union_g_month_day_g_year_month_enumeration_1_5(save_xml):
     """
@@ -1153,7 +1078,6 @@ def test_union_g_month_day_g_year_month_enumeration_5_nistxml_sv_ii_union_g_mont
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_9_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_5_1(save_xml):
     r"""
@@ -1169,7 +1093,6 @@ def test_union_g_month_day_g_year_month_pattern_9_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_9_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_5_2(save_xml):
     r"""
@@ -1185,7 +1108,6 @@ def test_union_g_month_day_g_year_month_pattern_9_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_9_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_5_3(save_xml):
     r"""
@@ -1201,7 +1123,6 @@ def test_union_g_month_day_g_year_month_pattern_9_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_9_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_5_4(save_xml):
     r"""
@@ -1217,7 +1138,6 @@ def test_union_g_month_day_g_year_month_pattern_9_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_9_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_5_5(save_xml):
     r"""
@@ -1233,7 +1153,6 @@ def test_union_g_month_day_g_year_month_pattern_9_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_8_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_4_1(save_xml):
     r"""
@@ -1249,7 +1168,6 @@ def test_union_g_month_day_g_year_month_pattern_8_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_8_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_4_2(save_xml):
     r"""
@@ -1265,7 +1183,6 @@ def test_union_g_month_day_g_year_month_pattern_8_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_8_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_4_3(save_xml):
     r"""
@@ -1281,7 +1198,6 @@ def test_union_g_month_day_g_year_month_pattern_8_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_8_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_4_4(save_xml):
     r"""
@@ -1297,7 +1213,6 @@ def test_union_g_month_day_g_year_month_pattern_8_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_8_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_4_5(save_xml):
     r"""
@@ -1313,7 +1228,6 @@ def test_union_g_month_day_g_year_month_pattern_8_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_7_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_3_1(save_xml):
     r"""
@@ -1329,7 +1243,6 @@ def test_union_g_month_day_g_year_month_pattern_7_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_7_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_3_2(save_xml):
     r"""
@@ -1345,7 +1258,6 @@ def test_union_g_month_day_g_year_month_pattern_7_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_7_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_3_3(save_xml):
     r"""
@@ -1361,7 +1273,6 @@ def test_union_g_month_day_g_year_month_pattern_7_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_7_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_3_4(save_xml):
     r"""
@@ -1377,7 +1288,6 @@ def test_union_g_month_day_g_year_month_pattern_7_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_7_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_3_5(save_xml):
     r"""
@@ -1393,7 +1303,6 @@ def test_union_g_month_day_g_year_month_pattern_7_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_6_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_2_1(save_xml):
     r"""
@@ -1409,7 +1318,6 @@ def test_union_g_month_day_g_year_month_pattern_6_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_6_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_2_2(save_xml):
     r"""
@@ -1425,7 +1333,6 @@ def test_union_g_month_day_g_year_month_pattern_6_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_6_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_2_3(save_xml):
     r"""
@@ -1441,7 +1348,6 @@ def test_union_g_month_day_g_year_month_pattern_6_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_6_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_2_4(save_xml):
     r"""
@@ -1457,7 +1363,6 @@ def test_union_g_month_day_g_year_month_pattern_6_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_6_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_2_5(save_xml):
     r"""
@@ -1473,7 +1378,6 @@ def test_union_g_month_day_g_year_month_pattern_6_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_5_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_1_1(save_xml):
     r"""
@@ -1489,7 +1393,6 @@ def test_union_g_month_day_g_year_month_pattern_5_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_5_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_1_2(save_xml):
     r"""
@@ -1505,7 +1408,6 @@ def test_union_g_month_day_g_year_month_pattern_5_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_5_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_1_3(save_xml):
     r"""
@@ -1521,7 +1423,6 @@ def test_union_g_month_day_g_year_month_pattern_5_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_5_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_1_4(save_xml):
     r"""
@@ -1537,7 +1438,6 @@ def test_union_g_month_day_g_year_month_pattern_5_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_g_month_day_g_year_month_pattern_5_nistxml_sv_ii_union_g_month_day_g_year_month_pattern_1_5(save_xml):
     r"""
@@ -1553,7 +1453,6 @@ def test_union_g_month_day_g_year_month_pattern_5_nistxml_sv_ii_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_9_nistxml_sv_ii_union_any_uri_float_enumeration_5_1(save_xml):
     """
@@ -1568,7 +1467,6 @@ def test_union_any_uri_float_enumeration_9_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_9_nistxml_sv_ii_union_any_uri_float_enumeration_5_2(save_xml):
     """
@@ -1583,7 +1481,6 @@ def test_union_any_uri_float_enumeration_9_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_9_nistxml_sv_ii_union_any_uri_float_enumeration_5_3(save_xml):
     """
@@ -1598,7 +1495,6 @@ def test_union_any_uri_float_enumeration_9_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_9_nistxml_sv_ii_union_any_uri_float_enumeration_5_4(save_xml):
     """
@@ -1613,7 +1509,6 @@ def test_union_any_uri_float_enumeration_9_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_9_nistxml_sv_ii_union_any_uri_float_enumeration_5_5(save_xml):
     """
@@ -1628,7 +1523,6 @@ def test_union_any_uri_float_enumeration_9_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_8_nistxml_sv_ii_union_any_uri_float_enumeration_4_1(save_xml):
     """
@@ -1643,7 +1537,6 @@ def test_union_any_uri_float_enumeration_8_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_8_nistxml_sv_ii_union_any_uri_float_enumeration_4_2(save_xml):
     """
@@ -1658,7 +1551,6 @@ def test_union_any_uri_float_enumeration_8_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_8_nistxml_sv_ii_union_any_uri_float_enumeration_4_3(save_xml):
     """
@@ -1673,7 +1565,6 @@ def test_union_any_uri_float_enumeration_8_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_8_nistxml_sv_ii_union_any_uri_float_enumeration_4_4(save_xml):
     """
@@ -1688,7 +1579,6 @@ def test_union_any_uri_float_enumeration_8_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_8_nistxml_sv_ii_union_any_uri_float_enumeration_4_5(save_xml):
     """
@@ -1703,7 +1593,6 @@ def test_union_any_uri_float_enumeration_8_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_7_nistxml_sv_ii_union_any_uri_float_enumeration_3_1(save_xml):
     """
@@ -1718,7 +1607,6 @@ def test_union_any_uri_float_enumeration_7_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_7_nistxml_sv_ii_union_any_uri_float_enumeration_3_2(save_xml):
     """
@@ -1733,7 +1621,6 @@ def test_union_any_uri_float_enumeration_7_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_7_nistxml_sv_ii_union_any_uri_float_enumeration_3_3(save_xml):
     """
@@ -1748,7 +1635,6 @@ def test_union_any_uri_float_enumeration_7_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_7_nistxml_sv_ii_union_any_uri_float_enumeration_3_4(save_xml):
     """
@@ -1763,7 +1649,6 @@ def test_union_any_uri_float_enumeration_7_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_7_nistxml_sv_ii_union_any_uri_float_enumeration_3_5(save_xml):
     """
@@ -1778,7 +1663,6 @@ def test_union_any_uri_float_enumeration_7_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_6_nistxml_sv_ii_union_any_uri_float_enumeration_2_1(save_xml):
     """
@@ -1793,7 +1677,6 @@ def test_union_any_uri_float_enumeration_6_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_6_nistxml_sv_ii_union_any_uri_float_enumeration_2_2(save_xml):
     """
@@ -1808,7 +1691,6 @@ def test_union_any_uri_float_enumeration_6_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_6_nistxml_sv_ii_union_any_uri_float_enumeration_2_3(save_xml):
     """
@@ -1823,7 +1705,6 @@ def test_union_any_uri_float_enumeration_6_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_6_nistxml_sv_ii_union_any_uri_float_enumeration_2_4(save_xml):
     """
@@ -1838,7 +1719,6 @@ def test_union_any_uri_float_enumeration_6_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_6_nistxml_sv_ii_union_any_uri_float_enumeration_2_5(save_xml):
     """
@@ -1853,7 +1733,6 @@ def test_union_any_uri_float_enumeration_6_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_5_nistxml_sv_ii_union_any_uri_float_enumeration_1_1(save_xml):
     """
@@ -1868,7 +1747,6 @@ def test_union_any_uri_float_enumeration_5_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_5_nistxml_sv_ii_union_any_uri_float_enumeration_1_2(save_xml):
     """
@@ -1883,7 +1761,6 @@ def test_union_any_uri_float_enumeration_5_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_5_nistxml_sv_ii_union_any_uri_float_enumeration_1_3(save_xml):
     """
@@ -1898,7 +1775,6 @@ def test_union_any_uri_float_enumeration_5_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_5_nistxml_sv_ii_union_any_uri_float_enumeration_1_4(save_xml):
     """
@@ -1913,7 +1789,6 @@ def test_union_any_uri_float_enumeration_5_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_enumeration_5_nistxml_sv_ii_union_any_uri_float_enumeration_1_5(save_xml):
     """
@@ -1928,7 +1803,6 @@ def test_union_any_uri_float_enumeration_5_nistxml_sv_ii_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_9_nistxml_sv_ii_union_any_uri_float_pattern_5_1(save_xml):
     r"""
@@ -1944,7 +1818,6 @@ def test_union_any_uri_float_pattern_9_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_9_nistxml_sv_ii_union_any_uri_float_pattern_5_2(save_xml):
     r"""
@@ -1960,7 +1833,6 @@ def test_union_any_uri_float_pattern_9_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_9_nistxml_sv_ii_union_any_uri_float_pattern_5_3(save_xml):
     r"""
@@ -1976,7 +1848,6 @@ def test_union_any_uri_float_pattern_9_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_9_nistxml_sv_ii_union_any_uri_float_pattern_5_4(save_xml):
     r"""
@@ -1992,7 +1863,6 @@ def test_union_any_uri_float_pattern_9_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_9_nistxml_sv_ii_union_any_uri_float_pattern_5_5(save_xml):
     r"""
@@ -2008,7 +1878,6 @@ def test_union_any_uri_float_pattern_9_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_8_nistxml_sv_ii_union_any_uri_float_pattern_4_1(save_xml):
     r"""
@@ -2024,7 +1893,6 @@ def test_union_any_uri_float_pattern_8_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_8_nistxml_sv_ii_union_any_uri_float_pattern_4_2(save_xml):
     r"""
@@ -2040,7 +1908,6 @@ def test_union_any_uri_float_pattern_8_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_8_nistxml_sv_ii_union_any_uri_float_pattern_4_3(save_xml):
     r"""
@@ -2056,7 +1923,6 @@ def test_union_any_uri_float_pattern_8_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_8_nistxml_sv_ii_union_any_uri_float_pattern_4_4(save_xml):
     r"""
@@ -2072,7 +1938,6 @@ def test_union_any_uri_float_pattern_8_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_8_nistxml_sv_ii_union_any_uri_float_pattern_4_5(save_xml):
     r"""
@@ -2088,7 +1953,6 @@ def test_union_any_uri_float_pattern_8_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_7_nistxml_sv_ii_union_any_uri_float_pattern_3_1(save_xml):
     r"""
@@ -2104,7 +1968,6 @@ def test_union_any_uri_float_pattern_7_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_7_nistxml_sv_ii_union_any_uri_float_pattern_3_2(save_xml):
     r"""
@@ -2120,7 +1983,6 @@ def test_union_any_uri_float_pattern_7_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_7_nistxml_sv_ii_union_any_uri_float_pattern_3_3(save_xml):
     r"""
@@ -2136,7 +1998,6 @@ def test_union_any_uri_float_pattern_7_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_7_nistxml_sv_ii_union_any_uri_float_pattern_3_4(save_xml):
     r"""
@@ -2152,7 +2013,6 @@ def test_union_any_uri_float_pattern_7_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_7_nistxml_sv_ii_union_any_uri_float_pattern_3_5(save_xml):
     r"""
@@ -2168,7 +2028,6 @@ def test_union_any_uri_float_pattern_7_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_6_nistxml_sv_ii_union_any_uri_float_pattern_2_1(save_xml):
     r"""
@@ -2184,7 +2043,6 @@ def test_union_any_uri_float_pattern_6_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_6_nistxml_sv_ii_union_any_uri_float_pattern_2_2(save_xml):
     r"""
@@ -2200,7 +2058,6 @@ def test_union_any_uri_float_pattern_6_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_6_nistxml_sv_ii_union_any_uri_float_pattern_2_3(save_xml):
     r"""
@@ -2216,7 +2073,6 @@ def test_union_any_uri_float_pattern_6_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_6_nistxml_sv_ii_union_any_uri_float_pattern_2_4(save_xml):
     r"""
@@ -2232,7 +2088,6 @@ def test_union_any_uri_float_pattern_6_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_6_nistxml_sv_ii_union_any_uri_float_pattern_2_5(save_xml):
     r"""
@@ -2248,7 +2103,6 @@ def test_union_any_uri_float_pattern_6_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_5_nistxml_sv_ii_union_any_uri_float_pattern_1_1(save_xml):
     r"""
@@ -2264,7 +2118,6 @@ def test_union_any_uri_float_pattern_5_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_5_nistxml_sv_ii_union_any_uri_float_pattern_1_2(save_xml):
     r"""
@@ -2280,7 +2133,6 @@ def test_union_any_uri_float_pattern_5_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_5_nistxml_sv_ii_union_any_uri_float_pattern_1_3(save_xml):
     r"""
@@ -2296,7 +2148,6 @@ def test_union_any_uri_float_pattern_5_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_5_nistxml_sv_ii_union_any_uri_float_pattern_1_4(save_xml):
     r"""
@@ -2312,7 +2163,6 @@ def test_union_any_uri_float_pattern_5_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_any_uri_float_pattern_5_nistxml_sv_ii_union_any_uri_float_pattern_1_5(save_xml):
     r"""
@@ -2328,7 +2178,6 @@ def test_union_any_uri_float_pattern_5_nistxml_sv_ii_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_9_nistxml_sv_ii_union_duration_decimal_enumeration_5_1(save_xml):
     """
@@ -2343,7 +2192,6 @@ def test_union_duration_decimal_enumeration_9_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_9_nistxml_sv_ii_union_duration_decimal_enumeration_5_2(save_xml):
     """
@@ -2358,7 +2206,6 @@ def test_union_duration_decimal_enumeration_9_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_9_nistxml_sv_ii_union_duration_decimal_enumeration_5_3(save_xml):
     """
@@ -2373,7 +2220,6 @@ def test_union_duration_decimal_enumeration_9_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_9_nistxml_sv_ii_union_duration_decimal_enumeration_5_4(save_xml):
     """
@@ -2388,7 +2234,6 @@ def test_union_duration_decimal_enumeration_9_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_9_nistxml_sv_ii_union_duration_decimal_enumeration_5_5(save_xml):
     """
@@ -2403,7 +2248,6 @@ def test_union_duration_decimal_enumeration_9_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_8_nistxml_sv_ii_union_duration_decimal_enumeration_4_1(save_xml):
     """
@@ -2418,7 +2262,6 @@ def test_union_duration_decimal_enumeration_8_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_8_nistxml_sv_ii_union_duration_decimal_enumeration_4_2(save_xml):
     """
@@ -2433,7 +2276,6 @@ def test_union_duration_decimal_enumeration_8_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_8_nistxml_sv_ii_union_duration_decimal_enumeration_4_3(save_xml):
     """
@@ -2448,7 +2290,6 @@ def test_union_duration_decimal_enumeration_8_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_8_nistxml_sv_ii_union_duration_decimal_enumeration_4_4(save_xml):
     """
@@ -2463,7 +2304,6 @@ def test_union_duration_decimal_enumeration_8_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_8_nistxml_sv_ii_union_duration_decimal_enumeration_4_5(save_xml):
     """
@@ -2478,7 +2318,6 @@ def test_union_duration_decimal_enumeration_8_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_7_nistxml_sv_ii_union_duration_decimal_enumeration_3_1(save_xml):
     """
@@ -2493,7 +2332,6 @@ def test_union_duration_decimal_enumeration_7_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_7_nistxml_sv_ii_union_duration_decimal_enumeration_3_2(save_xml):
     """
@@ -2508,7 +2346,6 @@ def test_union_duration_decimal_enumeration_7_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_7_nistxml_sv_ii_union_duration_decimal_enumeration_3_3(save_xml):
     """
@@ -2523,7 +2360,6 @@ def test_union_duration_decimal_enumeration_7_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_7_nistxml_sv_ii_union_duration_decimal_enumeration_3_4(save_xml):
     """
@@ -2538,7 +2374,6 @@ def test_union_duration_decimal_enumeration_7_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_7_nistxml_sv_ii_union_duration_decimal_enumeration_3_5(save_xml):
     """
@@ -2553,7 +2388,6 @@ def test_union_duration_decimal_enumeration_7_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_6_nistxml_sv_ii_union_duration_decimal_enumeration_2_1(save_xml):
     """
@@ -2568,7 +2402,6 @@ def test_union_duration_decimal_enumeration_6_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_6_nistxml_sv_ii_union_duration_decimal_enumeration_2_2(save_xml):
     """
@@ -2583,7 +2416,6 @@ def test_union_duration_decimal_enumeration_6_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_6_nistxml_sv_ii_union_duration_decimal_enumeration_2_3(save_xml):
     """
@@ -2598,7 +2430,6 @@ def test_union_duration_decimal_enumeration_6_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_6_nistxml_sv_ii_union_duration_decimal_enumeration_2_4(save_xml):
     """
@@ -2613,7 +2444,6 @@ def test_union_duration_decimal_enumeration_6_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_6_nistxml_sv_ii_union_duration_decimal_enumeration_2_5(save_xml):
     """
@@ -2628,7 +2458,6 @@ def test_union_duration_decimal_enumeration_6_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_5_nistxml_sv_ii_union_duration_decimal_enumeration_1_1(save_xml):
     """
@@ -2643,7 +2472,6 @@ def test_union_duration_decimal_enumeration_5_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_5_nistxml_sv_ii_union_duration_decimal_enumeration_1_2(save_xml):
     """
@@ -2658,7 +2486,6 @@ def test_union_duration_decimal_enumeration_5_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_5_nistxml_sv_ii_union_duration_decimal_enumeration_1_3(save_xml):
     """
@@ -2673,7 +2500,6 @@ def test_union_duration_decimal_enumeration_5_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_5_nistxml_sv_ii_union_duration_decimal_enumeration_1_4(save_xml):
     """
@@ -2688,7 +2514,6 @@ def test_union_duration_decimal_enumeration_5_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_enumeration_5_nistxml_sv_ii_union_duration_decimal_enumeration_1_5(save_xml):
     """
@@ -2703,7 +2528,6 @@ def test_union_duration_decimal_enumeration_5_nistxml_sv_ii_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_9_nistxml_sv_ii_union_duration_decimal_pattern_5_1(save_xml):
     r"""
@@ -2719,7 +2543,6 @@ def test_union_duration_decimal_pattern_9_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_9_nistxml_sv_ii_union_duration_decimal_pattern_5_2(save_xml):
     r"""
@@ -2735,7 +2558,6 @@ def test_union_duration_decimal_pattern_9_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_9_nistxml_sv_ii_union_duration_decimal_pattern_5_3(save_xml):
     r"""
@@ -2751,7 +2573,6 @@ def test_union_duration_decimal_pattern_9_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_9_nistxml_sv_ii_union_duration_decimal_pattern_5_4(save_xml):
     r"""
@@ -2767,7 +2588,6 @@ def test_union_duration_decimal_pattern_9_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_9_nistxml_sv_ii_union_duration_decimal_pattern_5_5(save_xml):
     r"""
@@ -2783,7 +2603,6 @@ def test_union_duration_decimal_pattern_9_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_8_nistxml_sv_ii_union_duration_decimal_pattern_4_1(save_xml):
     r"""
@@ -2799,7 +2618,6 @@ def test_union_duration_decimal_pattern_8_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_8_nistxml_sv_ii_union_duration_decimal_pattern_4_2(save_xml):
     r"""
@@ -2815,7 +2633,6 @@ def test_union_duration_decimal_pattern_8_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_8_nistxml_sv_ii_union_duration_decimal_pattern_4_3(save_xml):
     r"""
@@ -2831,7 +2648,6 @@ def test_union_duration_decimal_pattern_8_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_8_nistxml_sv_ii_union_duration_decimal_pattern_4_4(save_xml):
     r"""
@@ -2847,7 +2663,6 @@ def test_union_duration_decimal_pattern_8_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_8_nistxml_sv_ii_union_duration_decimal_pattern_4_5(save_xml):
     r"""
@@ -2863,7 +2678,6 @@ def test_union_duration_decimal_pattern_8_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_7_nistxml_sv_ii_union_duration_decimal_pattern_3_1(save_xml):
     r"""
@@ -2879,7 +2693,6 @@ def test_union_duration_decimal_pattern_7_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_7_nistxml_sv_ii_union_duration_decimal_pattern_3_2(save_xml):
     r"""
@@ -2895,7 +2708,6 @@ def test_union_duration_decimal_pattern_7_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_7_nistxml_sv_ii_union_duration_decimal_pattern_3_3(save_xml):
     r"""
@@ -2911,7 +2723,6 @@ def test_union_duration_decimal_pattern_7_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_7_nistxml_sv_ii_union_duration_decimal_pattern_3_4(save_xml):
     r"""
@@ -2927,7 +2738,6 @@ def test_union_duration_decimal_pattern_7_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_7_nistxml_sv_ii_union_duration_decimal_pattern_3_5(save_xml):
     r"""
@@ -2943,7 +2753,6 @@ def test_union_duration_decimal_pattern_7_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_6_nistxml_sv_ii_union_duration_decimal_pattern_2_1(save_xml):
     r"""
@@ -2959,7 +2768,6 @@ def test_union_duration_decimal_pattern_6_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_6_nistxml_sv_ii_union_duration_decimal_pattern_2_2(save_xml):
     r"""
@@ -2975,7 +2783,6 @@ def test_union_duration_decimal_pattern_6_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_6_nistxml_sv_ii_union_duration_decimal_pattern_2_3(save_xml):
     r"""
@@ -2991,7 +2798,6 @@ def test_union_duration_decimal_pattern_6_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_6_nistxml_sv_ii_union_duration_decimal_pattern_2_4(save_xml):
     r"""
@@ -3007,7 +2813,6 @@ def test_union_duration_decimal_pattern_6_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_6_nistxml_sv_ii_union_duration_decimal_pattern_2_5(save_xml):
     r"""
@@ -3023,7 +2828,6 @@ def test_union_duration_decimal_pattern_6_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_5_nistxml_sv_ii_union_duration_decimal_pattern_1_1(save_xml):
     r"""
@@ -3039,7 +2843,6 @@ def test_union_duration_decimal_pattern_5_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_5_nistxml_sv_ii_union_duration_decimal_pattern_1_2(save_xml):
     r"""
@@ -3055,7 +2858,6 @@ def test_union_duration_decimal_pattern_5_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_5_nistxml_sv_ii_union_duration_decimal_pattern_1_3(save_xml):
     r"""
@@ -3071,7 +2873,6 @@ def test_union_duration_decimal_pattern_5_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_5_nistxml_sv_ii_union_duration_decimal_pattern_1_4(save_xml):
     r"""
@@ -3087,7 +2888,6 @@ def test_union_duration_decimal_pattern_5_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_union_duration_decimal_pattern_5_nistxml_sv_ii_union_duration_decimal_pattern_1_5(save_xml):
     r"""
@@ -3103,7 +2903,6 @@ def test_union_duration_decimal_pattern_5_nistxml_sv_ii_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_4_nistxml_sv_iv_union_short_g_year_enumeration_5_1(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3117,7 +2916,6 @@ def test_union_short_g_year_enumeration_4_nistxml_sv_iv_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_4_nistxml_sv_iv_union_short_g_year_enumeration_5_2(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3131,7 +2929,6 @@ def test_union_short_g_year_enumeration_4_nistxml_sv_iv_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_4_nistxml_sv_iv_union_short_g_year_enumeration_5_3(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3145,7 +2942,6 @@ def test_union_short_g_year_enumeration_4_nistxml_sv_iv_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_4_nistxml_sv_iv_union_short_g_year_enumeration_5_4(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3159,7 +2955,6 @@ def test_union_short_g_year_enumeration_4_nistxml_sv_iv_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_4_nistxml_sv_iv_union_short_g_year_enumeration_5_5(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3173,7 +2968,6 @@ def test_union_short_g_year_enumeration_4_nistxml_sv_iv_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_3_nistxml_sv_iv_union_short_g_year_enumeration_4_1(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3187,7 +2981,6 @@ def test_union_short_g_year_enumeration_3_nistxml_sv_iv_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_3_nistxml_sv_iv_union_short_g_year_enumeration_4_2(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3201,7 +2994,6 @@ def test_union_short_g_year_enumeration_3_nistxml_sv_iv_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_3_nistxml_sv_iv_union_short_g_year_enumeration_4_3(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3215,7 +3007,6 @@ def test_union_short_g_year_enumeration_3_nistxml_sv_iv_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_3_nistxml_sv_iv_union_short_g_year_enumeration_4_4(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3229,7 +3020,6 @@ def test_union_short_g_year_enumeration_3_nistxml_sv_iv_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_3_nistxml_sv_iv_union_short_g_year_enumeration_4_5(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3243,7 +3033,6 @@ def test_union_short_g_year_enumeration_3_nistxml_sv_iv_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_2_nistxml_sv_iv_union_short_g_year_enumeration_3_1(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3257,7 +3046,6 @@ def test_union_short_g_year_enumeration_2_nistxml_sv_iv_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_2_nistxml_sv_iv_union_short_g_year_enumeration_3_2(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3271,7 +3059,6 @@ def test_union_short_g_year_enumeration_2_nistxml_sv_iv_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_2_nistxml_sv_iv_union_short_g_year_enumeration_3_3(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3285,7 +3072,6 @@ def test_union_short_g_year_enumeration_2_nistxml_sv_iv_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_2_nistxml_sv_iv_union_short_g_year_enumeration_3_4(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3299,7 +3085,6 @@ def test_union_short_g_year_enumeration_2_nistxml_sv_iv_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_2_nistxml_sv_iv_union_short_g_year_enumeration_3_5(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3313,7 +3098,6 @@ def test_union_short_g_year_enumeration_2_nistxml_sv_iv_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_1_nistxml_sv_iv_union_short_g_year_enumeration_2_1(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3327,7 +3111,6 @@ def test_union_short_g_year_enumeration_1_nistxml_sv_iv_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_1_nistxml_sv_iv_union_short_g_year_enumeration_2_2(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3341,7 +3124,6 @@ def test_union_short_g_year_enumeration_1_nistxml_sv_iv_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_1_nistxml_sv_iv_union_short_g_year_enumeration_2_3(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3355,7 +3137,6 @@ def test_union_short_g_year_enumeration_1_nistxml_sv_iv_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_1_nistxml_sv_iv_union_short_g_year_enumeration_2_4(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3369,7 +3150,6 @@ def test_union_short_g_year_enumeration_1_nistxml_sv_iv_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_1_nistxml_sv_iv_union_short_g_year_enumeration_2_5(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3383,7 +3163,6 @@ def test_union_short_g_year_enumeration_1_nistxml_sv_iv_union_short_g_year_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_nistxml_sv_iv_union_short_g_year_enumeration_1_1(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3397,7 +3176,6 @@ def test_union_short_g_year_enumeration_nistxml_sv_iv_union_short_g_year_enumera
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_nistxml_sv_iv_union_short_g_year_enumeration_1_2(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3411,7 +3189,6 @@ def test_union_short_g_year_enumeration_nistxml_sv_iv_union_short_g_year_enumera
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_nistxml_sv_iv_union_short_g_year_enumeration_1_3(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3425,7 +3202,6 @@ def test_union_short_g_year_enumeration_nistxml_sv_iv_union_short_g_year_enumera
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_nistxml_sv_iv_union_short_g_year_enumeration_1_4(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3439,7 +3215,6 @@ def test_union_short_g_year_enumeration_nistxml_sv_iv_union_short_g_year_enumera
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_enumeration_nistxml_sv_iv_union_short_g_year_enumeration_1_5(save_xml):
     """
     Type union/short-gYear is restricted by facet enumeration.
@@ -3453,7 +3228,6 @@ def test_union_short_g_year_enumeration_nistxml_sv_iv_union_short_g_year_enumera
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_4_nistxml_sv_iv_union_short_g_year_pattern_5_1(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3468,7 +3242,6 @@ def test_union_short_g_year_pattern_4_nistxml_sv_iv_union_short_g_year_pattern_5
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_4_nistxml_sv_iv_union_short_g_year_pattern_5_2(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3483,7 +3256,6 @@ def test_union_short_g_year_pattern_4_nistxml_sv_iv_union_short_g_year_pattern_5
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_4_nistxml_sv_iv_union_short_g_year_pattern_5_3(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3498,7 +3270,6 @@ def test_union_short_g_year_pattern_4_nistxml_sv_iv_union_short_g_year_pattern_5
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_4_nistxml_sv_iv_union_short_g_year_pattern_5_4(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3513,7 +3284,6 @@ def test_union_short_g_year_pattern_4_nistxml_sv_iv_union_short_g_year_pattern_5
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_4_nistxml_sv_iv_union_short_g_year_pattern_5_5(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3528,7 +3298,6 @@ def test_union_short_g_year_pattern_4_nistxml_sv_iv_union_short_g_year_pattern_5
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_3_nistxml_sv_iv_union_short_g_year_pattern_4_1(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3543,7 +3312,6 @@ def test_union_short_g_year_pattern_3_nistxml_sv_iv_union_short_g_year_pattern_4
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_3_nistxml_sv_iv_union_short_g_year_pattern_4_2(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3558,7 +3326,6 @@ def test_union_short_g_year_pattern_3_nistxml_sv_iv_union_short_g_year_pattern_4
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_3_nistxml_sv_iv_union_short_g_year_pattern_4_3(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3573,7 +3340,6 @@ def test_union_short_g_year_pattern_3_nistxml_sv_iv_union_short_g_year_pattern_4
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_3_nistxml_sv_iv_union_short_g_year_pattern_4_4(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3588,7 +3354,6 @@ def test_union_short_g_year_pattern_3_nistxml_sv_iv_union_short_g_year_pattern_4
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_3_nistxml_sv_iv_union_short_g_year_pattern_4_5(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3603,7 +3368,6 @@ def test_union_short_g_year_pattern_3_nistxml_sv_iv_union_short_g_year_pattern_4
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_2_nistxml_sv_iv_union_short_g_year_pattern_3_1(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3618,7 +3382,6 @@ def test_union_short_g_year_pattern_2_nistxml_sv_iv_union_short_g_year_pattern_3
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_2_nistxml_sv_iv_union_short_g_year_pattern_3_2(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3633,7 +3396,6 @@ def test_union_short_g_year_pattern_2_nistxml_sv_iv_union_short_g_year_pattern_3
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_2_nistxml_sv_iv_union_short_g_year_pattern_3_3(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3648,7 +3410,6 @@ def test_union_short_g_year_pattern_2_nistxml_sv_iv_union_short_g_year_pattern_3
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_2_nistxml_sv_iv_union_short_g_year_pattern_3_4(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3663,7 +3424,6 @@ def test_union_short_g_year_pattern_2_nistxml_sv_iv_union_short_g_year_pattern_3
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_2_nistxml_sv_iv_union_short_g_year_pattern_3_5(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3678,7 +3438,6 @@ def test_union_short_g_year_pattern_2_nistxml_sv_iv_union_short_g_year_pattern_3
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_1_nistxml_sv_iv_union_short_g_year_pattern_2_1(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3693,7 +3452,6 @@ def test_union_short_g_year_pattern_1_nistxml_sv_iv_union_short_g_year_pattern_2
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_1_nistxml_sv_iv_union_short_g_year_pattern_2_2(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3708,7 +3466,6 @@ def test_union_short_g_year_pattern_1_nistxml_sv_iv_union_short_g_year_pattern_2
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_1_nistxml_sv_iv_union_short_g_year_pattern_2_3(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3723,7 +3480,6 @@ def test_union_short_g_year_pattern_1_nistxml_sv_iv_union_short_g_year_pattern_2
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_1_nistxml_sv_iv_union_short_g_year_pattern_2_4(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3738,7 +3494,6 @@ def test_union_short_g_year_pattern_1_nistxml_sv_iv_union_short_g_year_pattern_2
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_1_nistxml_sv_iv_union_short_g_year_pattern_2_5(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3753,7 +3508,6 @@ def test_union_short_g_year_pattern_1_nistxml_sv_iv_union_short_g_year_pattern_2
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_nistxml_sv_iv_union_short_g_year_pattern_1_1(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3768,7 +3522,6 @@ def test_union_short_g_year_pattern_nistxml_sv_iv_union_short_g_year_pattern_1_1
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_nistxml_sv_iv_union_short_g_year_pattern_1_2(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3783,7 +3536,6 @@ def test_union_short_g_year_pattern_nistxml_sv_iv_union_short_g_year_pattern_1_2
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_nistxml_sv_iv_union_short_g_year_pattern_1_3(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3798,7 +3550,6 @@ def test_union_short_g_year_pattern_nistxml_sv_iv_union_short_g_year_pattern_1_3
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_nistxml_sv_iv_union_short_g_year_pattern_1_4(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3813,7 +3564,6 @@ def test_union_short_g_year_pattern_nistxml_sv_iv_union_short_g_year_pattern_1_4
     )
 
 
-@pytest.mark.schema11
 def test_union_short_g_year_pattern_nistxml_sv_iv_union_short_g_year_pattern_1_5(save_xml):
     r"""
     Type union/short-gYear is restricted by facet pattern with value
@@ -3828,7 +3578,6 @@ def test_union_short_g_year_pattern_nistxml_sv_iv_union_short_g_year_pattern_1_5
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_4_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_5_1(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -3842,7 +3591,6 @@ def test_union_g_month_day_g_year_month_enumeration_4_nistxml_sv_iv_union_g_mont
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_4_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_5_2(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -3856,7 +3604,6 @@ def test_union_g_month_day_g_year_month_enumeration_4_nistxml_sv_iv_union_g_mont
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_4_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_5_3(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -3870,7 +3617,6 @@ def test_union_g_month_day_g_year_month_enumeration_4_nistxml_sv_iv_union_g_mont
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_4_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_5_4(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -3884,7 +3630,6 @@ def test_union_g_month_day_g_year_month_enumeration_4_nistxml_sv_iv_union_g_mont
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_4_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_5_5(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -3898,7 +3643,6 @@ def test_union_g_month_day_g_year_month_enumeration_4_nistxml_sv_iv_union_g_mont
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_3_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_4_1(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -3912,7 +3656,6 @@ def test_union_g_month_day_g_year_month_enumeration_3_nistxml_sv_iv_union_g_mont
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_3_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_4_2(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -3926,7 +3669,6 @@ def test_union_g_month_day_g_year_month_enumeration_3_nistxml_sv_iv_union_g_mont
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_3_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_4_3(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -3940,7 +3682,6 @@ def test_union_g_month_day_g_year_month_enumeration_3_nistxml_sv_iv_union_g_mont
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_3_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_4_4(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -3954,7 +3695,6 @@ def test_union_g_month_day_g_year_month_enumeration_3_nistxml_sv_iv_union_g_mont
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_3_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_4_5(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -3968,7 +3708,6 @@ def test_union_g_month_day_g_year_month_enumeration_3_nistxml_sv_iv_union_g_mont
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_2_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_3_1(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -3982,7 +3721,6 @@ def test_union_g_month_day_g_year_month_enumeration_2_nistxml_sv_iv_union_g_mont
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_2_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_3_2(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -3996,7 +3734,6 @@ def test_union_g_month_day_g_year_month_enumeration_2_nistxml_sv_iv_union_g_mont
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_2_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_3_3(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -4010,7 +3747,6 @@ def test_union_g_month_day_g_year_month_enumeration_2_nistxml_sv_iv_union_g_mont
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_2_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_3_4(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -4024,7 +3760,6 @@ def test_union_g_month_day_g_year_month_enumeration_2_nistxml_sv_iv_union_g_mont
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_2_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_3_5(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -4038,7 +3773,6 @@ def test_union_g_month_day_g_year_month_enumeration_2_nistxml_sv_iv_union_g_mont
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_1_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_2_1(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -4052,7 +3786,6 @@ def test_union_g_month_day_g_year_month_enumeration_1_nistxml_sv_iv_union_g_mont
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_1_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_2_2(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -4066,7 +3799,6 @@ def test_union_g_month_day_g_year_month_enumeration_1_nistxml_sv_iv_union_g_mont
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_1_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_2_3(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -4080,7 +3812,6 @@ def test_union_g_month_day_g_year_month_enumeration_1_nistxml_sv_iv_union_g_mont
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_1_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_2_4(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -4094,7 +3825,6 @@ def test_union_g_month_day_g_year_month_enumeration_1_nistxml_sv_iv_union_g_mont
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_1_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_2_5(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -4108,7 +3838,6 @@ def test_union_g_month_day_g_year_month_enumeration_1_nistxml_sv_iv_union_g_mont
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_1_1(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -4122,7 +3851,6 @@ def test_union_g_month_day_g_year_month_enumeration_nistxml_sv_iv_union_g_month_
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_1_2(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -4136,7 +3864,6 @@ def test_union_g_month_day_g_year_month_enumeration_nistxml_sv_iv_union_g_month_
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_1_3(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -4150,7 +3877,6 @@ def test_union_g_month_day_g_year_month_enumeration_nistxml_sv_iv_union_g_month_
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_1_4(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -4164,7 +3890,6 @@ def test_union_g_month_day_g_year_month_enumeration_nistxml_sv_iv_union_g_month_
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_enumeration_nistxml_sv_iv_union_g_month_day_g_year_month_enumeration_1_5(save_xml):
     """
     Type union/gMonthDay-gYearMonth is restricted by facet enumeration.
@@ -4178,7 +3903,6 @@ def test_union_g_month_day_g_year_month_enumeration_nistxml_sv_iv_union_g_month_
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_4_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_5_1(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4193,7 +3917,6 @@ def test_union_g_month_day_g_year_month_pattern_4_nistxml_sv_iv_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_4_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_5_2(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4208,7 +3931,6 @@ def test_union_g_month_day_g_year_month_pattern_4_nistxml_sv_iv_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_4_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_5_3(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4223,7 +3945,6 @@ def test_union_g_month_day_g_year_month_pattern_4_nistxml_sv_iv_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_4_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_5_4(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4238,7 +3959,6 @@ def test_union_g_month_day_g_year_month_pattern_4_nistxml_sv_iv_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_4_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_5_5(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4253,7 +3973,6 @@ def test_union_g_month_day_g_year_month_pattern_4_nistxml_sv_iv_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_3_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_4_1(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4268,7 +3987,6 @@ def test_union_g_month_day_g_year_month_pattern_3_nistxml_sv_iv_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_3_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_4_2(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4283,7 +4001,6 @@ def test_union_g_month_day_g_year_month_pattern_3_nistxml_sv_iv_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_3_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_4_3(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4298,7 +4015,6 @@ def test_union_g_month_day_g_year_month_pattern_3_nistxml_sv_iv_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_3_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_4_4(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4313,7 +4029,6 @@ def test_union_g_month_day_g_year_month_pattern_3_nistxml_sv_iv_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_3_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_4_5(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4328,7 +4043,6 @@ def test_union_g_month_day_g_year_month_pattern_3_nistxml_sv_iv_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_2_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_3_1(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4343,7 +4057,6 @@ def test_union_g_month_day_g_year_month_pattern_2_nistxml_sv_iv_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_2_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_3_2(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4358,7 +4071,6 @@ def test_union_g_month_day_g_year_month_pattern_2_nistxml_sv_iv_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_2_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_3_3(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4373,7 +4085,6 @@ def test_union_g_month_day_g_year_month_pattern_2_nistxml_sv_iv_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_2_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_3_4(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4388,7 +4099,6 @@ def test_union_g_month_day_g_year_month_pattern_2_nistxml_sv_iv_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_2_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_3_5(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4403,7 +4113,6 @@ def test_union_g_month_day_g_year_month_pattern_2_nistxml_sv_iv_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_1_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_2_1(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4418,7 +4127,6 @@ def test_union_g_month_day_g_year_month_pattern_1_nistxml_sv_iv_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_1_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_2_2(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4433,7 +4141,6 @@ def test_union_g_month_day_g_year_month_pattern_1_nistxml_sv_iv_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_1_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_2_3(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4448,7 +4155,6 @@ def test_union_g_month_day_g_year_month_pattern_1_nistxml_sv_iv_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_1_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_2_4(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4463,7 +4169,6 @@ def test_union_g_month_day_g_year_month_pattern_1_nistxml_sv_iv_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_1_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_2_5(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4478,7 +4183,6 @@ def test_union_g_month_day_g_year_month_pattern_1_nistxml_sv_iv_union_g_month_da
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_1_1(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4493,7 +4197,6 @@ def test_union_g_month_day_g_year_month_pattern_nistxml_sv_iv_union_g_month_day_
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_1_2(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4508,7 +4211,6 @@ def test_union_g_month_day_g_year_month_pattern_nistxml_sv_iv_union_g_month_day_
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_1_3(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4523,7 +4225,6 @@ def test_union_g_month_day_g_year_month_pattern_nistxml_sv_iv_union_g_month_day_
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_1_4(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4538,7 +4239,6 @@ def test_union_g_month_day_g_year_month_pattern_nistxml_sv_iv_union_g_month_day_
     )
 
 
-@pytest.mark.schema11
 def test_union_g_month_day_g_year_month_pattern_nistxml_sv_iv_union_g_month_day_g_year_month_pattern_1_5(save_xml):
     r"""
     Type union/gMonthDay-gYearMonth is restricted by facet pattern with
@@ -4553,7 +4253,6 @@ def test_union_g_month_day_g_year_month_pattern_nistxml_sv_iv_union_g_month_day_
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_4_nistxml_sv_iv_union_any_uri_float_enumeration_5_1(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4567,7 +4266,6 @@ def test_union_any_uri_float_enumeration_4_nistxml_sv_iv_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_4_nistxml_sv_iv_union_any_uri_float_enumeration_5_2(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4581,7 +4279,6 @@ def test_union_any_uri_float_enumeration_4_nistxml_sv_iv_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_4_nistxml_sv_iv_union_any_uri_float_enumeration_5_3(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4595,7 +4292,6 @@ def test_union_any_uri_float_enumeration_4_nistxml_sv_iv_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_4_nistxml_sv_iv_union_any_uri_float_enumeration_5_4(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4609,7 +4305,6 @@ def test_union_any_uri_float_enumeration_4_nistxml_sv_iv_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_4_nistxml_sv_iv_union_any_uri_float_enumeration_5_5(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4623,7 +4318,6 @@ def test_union_any_uri_float_enumeration_4_nistxml_sv_iv_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_3_nistxml_sv_iv_union_any_uri_float_enumeration_4_1(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4637,7 +4331,6 @@ def test_union_any_uri_float_enumeration_3_nistxml_sv_iv_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_3_nistxml_sv_iv_union_any_uri_float_enumeration_4_2(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4651,7 +4344,6 @@ def test_union_any_uri_float_enumeration_3_nistxml_sv_iv_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_3_nistxml_sv_iv_union_any_uri_float_enumeration_4_3(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4665,7 +4357,6 @@ def test_union_any_uri_float_enumeration_3_nistxml_sv_iv_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_3_nistxml_sv_iv_union_any_uri_float_enumeration_4_4(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4679,7 +4370,6 @@ def test_union_any_uri_float_enumeration_3_nistxml_sv_iv_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_3_nistxml_sv_iv_union_any_uri_float_enumeration_4_5(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4693,7 +4383,6 @@ def test_union_any_uri_float_enumeration_3_nistxml_sv_iv_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_2_nistxml_sv_iv_union_any_uri_float_enumeration_3_1(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4707,7 +4396,6 @@ def test_union_any_uri_float_enumeration_2_nistxml_sv_iv_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_2_nistxml_sv_iv_union_any_uri_float_enumeration_3_2(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4721,7 +4409,6 @@ def test_union_any_uri_float_enumeration_2_nistxml_sv_iv_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_2_nistxml_sv_iv_union_any_uri_float_enumeration_3_3(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4735,7 +4422,6 @@ def test_union_any_uri_float_enumeration_2_nistxml_sv_iv_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_2_nistxml_sv_iv_union_any_uri_float_enumeration_3_4(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4749,7 +4435,6 @@ def test_union_any_uri_float_enumeration_2_nistxml_sv_iv_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_2_nistxml_sv_iv_union_any_uri_float_enumeration_3_5(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4763,7 +4448,6 @@ def test_union_any_uri_float_enumeration_2_nistxml_sv_iv_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_1_nistxml_sv_iv_union_any_uri_float_enumeration_2_1(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4777,7 +4461,6 @@ def test_union_any_uri_float_enumeration_1_nistxml_sv_iv_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_1_nistxml_sv_iv_union_any_uri_float_enumeration_2_2(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4791,7 +4474,6 @@ def test_union_any_uri_float_enumeration_1_nistxml_sv_iv_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_1_nistxml_sv_iv_union_any_uri_float_enumeration_2_3(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4805,7 +4487,6 @@ def test_union_any_uri_float_enumeration_1_nistxml_sv_iv_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_1_nistxml_sv_iv_union_any_uri_float_enumeration_2_4(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4819,7 +4500,6 @@ def test_union_any_uri_float_enumeration_1_nistxml_sv_iv_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_1_nistxml_sv_iv_union_any_uri_float_enumeration_2_5(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4833,7 +4513,6 @@ def test_union_any_uri_float_enumeration_1_nistxml_sv_iv_union_any_uri_float_enu
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_nistxml_sv_iv_union_any_uri_float_enumeration_1_1(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4847,7 +4526,6 @@ def test_union_any_uri_float_enumeration_nistxml_sv_iv_union_any_uri_float_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_nistxml_sv_iv_union_any_uri_float_enumeration_1_2(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4861,7 +4539,6 @@ def test_union_any_uri_float_enumeration_nistxml_sv_iv_union_any_uri_float_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_nistxml_sv_iv_union_any_uri_float_enumeration_1_3(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4875,7 +4552,6 @@ def test_union_any_uri_float_enumeration_nistxml_sv_iv_union_any_uri_float_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_nistxml_sv_iv_union_any_uri_float_enumeration_1_4(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4889,7 +4565,6 @@ def test_union_any_uri_float_enumeration_nistxml_sv_iv_union_any_uri_float_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_enumeration_nistxml_sv_iv_union_any_uri_float_enumeration_1_5(save_xml):
     """
     Type union/anyURI-float is restricted by facet enumeration.
@@ -4903,7 +4578,6 @@ def test_union_any_uri_float_enumeration_nistxml_sv_iv_union_any_uri_float_enume
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_4_nistxml_sv_iv_union_any_uri_float_pattern_5_1(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -4918,7 +4592,6 @@ def test_union_any_uri_float_pattern_4_nistxml_sv_iv_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_4_nistxml_sv_iv_union_any_uri_float_pattern_5_2(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -4933,7 +4606,6 @@ def test_union_any_uri_float_pattern_4_nistxml_sv_iv_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_4_nistxml_sv_iv_union_any_uri_float_pattern_5_3(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -4948,7 +4620,6 @@ def test_union_any_uri_float_pattern_4_nistxml_sv_iv_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_4_nistxml_sv_iv_union_any_uri_float_pattern_5_4(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -4963,7 +4634,6 @@ def test_union_any_uri_float_pattern_4_nistxml_sv_iv_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_4_nistxml_sv_iv_union_any_uri_float_pattern_5_5(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -4978,7 +4648,6 @@ def test_union_any_uri_float_pattern_4_nistxml_sv_iv_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_3_nistxml_sv_iv_union_any_uri_float_pattern_4_1(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -4993,7 +4662,6 @@ def test_union_any_uri_float_pattern_3_nistxml_sv_iv_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_3_nistxml_sv_iv_union_any_uri_float_pattern_4_2(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -5008,7 +4676,6 @@ def test_union_any_uri_float_pattern_3_nistxml_sv_iv_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_3_nistxml_sv_iv_union_any_uri_float_pattern_4_3(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -5023,7 +4690,6 @@ def test_union_any_uri_float_pattern_3_nistxml_sv_iv_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_3_nistxml_sv_iv_union_any_uri_float_pattern_4_4(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -5038,7 +4704,6 @@ def test_union_any_uri_float_pattern_3_nistxml_sv_iv_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_3_nistxml_sv_iv_union_any_uri_float_pattern_4_5(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -5053,7 +4718,6 @@ def test_union_any_uri_float_pattern_3_nistxml_sv_iv_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_2_nistxml_sv_iv_union_any_uri_float_pattern_3_1(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -5068,7 +4732,6 @@ def test_union_any_uri_float_pattern_2_nistxml_sv_iv_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_2_nistxml_sv_iv_union_any_uri_float_pattern_3_2(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -5083,7 +4746,6 @@ def test_union_any_uri_float_pattern_2_nistxml_sv_iv_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_2_nistxml_sv_iv_union_any_uri_float_pattern_3_3(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -5098,7 +4760,6 @@ def test_union_any_uri_float_pattern_2_nistxml_sv_iv_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_2_nistxml_sv_iv_union_any_uri_float_pattern_3_4(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -5113,7 +4774,6 @@ def test_union_any_uri_float_pattern_2_nistxml_sv_iv_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_2_nistxml_sv_iv_union_any_uri_float_pattern_3_5(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -5128,7 +4788,6 @@ def test_union_any_uri_float_pattern_2_nistxml_sv_iv_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_1_nistxml_sv_iv_union_any_uri_float_pattern_2_1(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -5143,7 +4802,6 @@ def test_union_any_uri_float_pattern_1_nistxml_sv_iv_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_1_nistxml_sv_iv_union_any_uri_float_pattern_2_2(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -5158,7 +4816,6 @@ def test_union_any_uri_float_pattern_1_nistxml_sv_iv_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_1_nistxml_sv_iv_union_any_uri_float_pattern_2_3(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -5173,7 +4830,6 @@ def test_union_any_uri_float_pattern_1_nistxml_sv_iv_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_1_nistxml_sv_iv_union_any_uri_float_pattern_2_4(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -5188,7 +4844,6 @@ def test_union_any_uri_float_pattern_1_nistxml_sv_iv_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_1_nistxml_sv_iv_union_any_uri_float_pattern_2_5(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -5203,7 +4858,6 @@ def test_union_any_uri_float_pattern_1_nistxml_sv_iv_union_any_uri_float_pattern
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_nistxml_sv_iv_union_any_uri_float_pattern_1_1(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -5218,7 +4872,6 @@ def test_union_any_uri_float_pattern_nistxml_sv_iv_union_any_uri_float_pattern_1
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_nistxml_sv_iv_union_any_uri_float_pattern_1_2(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -5233,7 +4886,6 @@ def test_union_any_uri_float_pattern_nistxml_sv_iv_union_any_uri_float_pattern_1
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_nistxml_sv_iv_union_any_uri_float_pattern_1_3(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -5248,7 +4900,6 @@ def test_union_any_uri_float_pattern_nistxml_sv_iv_union_any_uri_float_pattern_1
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_nistxml_sv_iv_union_any_uri_float_pattern_1_4(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -5263,7 +4914,6 @@ def test_union_any_uri_float_pattern_nistxml_sv_iv_union_any_uri_float_pattern_1
     )
 
 
-@pytest.mark.schema11
 def test_union_any_uri_float_pattern_nistxml_sv_iv_union_any_uri_float_pattern_1_5(save_xml):
     r"""
     Type union/anyURI-float is restricted by facet pattern with value
@@ -5278,7 +4928,6 @@ def test_union_any_uri_float_pattern_nistxml_sv_iv_union_any_uri_float_pattern_1
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_4_nistxml_sv_iv_union_duration_decimal_enumeration_5_1(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5292,7 +4941,6 @@ def test_union_duration_decimal_enumeration_4_nistxml_sv_iv_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_4_nistxml_sv_iv_union_duration_decimal_enumeration_5_2(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5306,7 +4954,6 @@ def test_union_duration_decimal_enumeration_4_nistxml_sv_iv_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_4_nistxml_sv_iv_union_duration_decimal_enumeration_5_3(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5320,7 +4967,6 @@ def test_union_duration_decimal_enumeration_4_nistxml_sv_iv_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_4_nistxml_sv_iv_union_duration_decimal_enumeration_5_4(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5334,7 +4980,6 @@ def test_union_duration_decimal_enumeration_4_nistxml_sv_iv_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_4_nistxml_sv_iv_union_duration_decimal_enumeration_5_5(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5348,7 +4993,6 @@ def test_union_duration_decimal_enumeration_4_nistxml_sv_iv_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_3_nistxml_sv_iv_union_duration_decimal_enumeration_4_1(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5362,7 +5006,6 @@ def test_union_duration_decimal_enumeration_3_nistxml_sv_iv_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_3_nistxml_sv_iv_union_duration_decimal_enumeration_4_2(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5376,7 +5019,6 @@ def test_union_duration_decimal_enumeration_3_nistxml_sv_iv_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_3_nistxml_sv_iv_union_duration_decimal_enumeration_4_3(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5390,7 +5032,6 @@ def test_union_duration_decimal_enumeration_3_nistxml_sv_iv_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_3_nistxml_sv_iv_union_duration_decimal_enumeration_4_4(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5404,7 +5045,6 @@ def test_union_duration_decimal_enumeration_3_nistxml_sv_iv_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_3_nistxml_sv_iv_union_duration_decimal_enumeration_4_5(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5418,7 +5058,6 @@ def test_union_duration_decimal_enumeration_3_nistxml_sv_iv_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_2_nistxml_sv_iv_union_duration_decimal_enumeration_3_1(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5432,7 +5071,6 @@ def test_union_duration_decimal_enumeration_2_nistxml_sv_iv_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_2_nistxml_sv_iv_union_duration_decimal_enumeration_3_2(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5446,7 +5084,6 @@ def test_union_duration_decimal_enumeration_2_nistxml_sv_iv_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_2_nistxml_sv_iv_union_duration_decimal_enumeration_3_3(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5460,7 +5097,6 @@ def test_union_duration_decimal_enumeration_2_nistxml_sv_iv_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_2_nistxml_sv_iv_union_duration_decimal_enumeration_3_4(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5474,7 +5110,6 @@ def test_union_duration_decimal_enumeration_2_nistxml_sv_iv_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_2_nistxml_sv_iv_union_duration_decimal_enumeration_3_5(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5488,7 +5123,6 @@ def test_union_duration_decimal_enumeration_2_nistxml_sv_iv_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_1_nistxml_sv_iv_union_duration_decimal_enumeration_2_1(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5502,7 +5136,6 @@ def test_union_duration_decimal_enumeration_1_nistxml_sv_iv_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_1_nistxml_sv_iv_union_duration_decimal_enumeration_2_2(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5516,7 +5149,6 @@ def test_union_duration_decimal_enumeration_1_nistxml_sv_iv_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_1_nistxml_sv_iv_union_duration_decimal_enumeration_2_3(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5530,7 +5162,6 @@ def test_union_duration_decimal_enumeration_1_nistxml_sv_iv_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_1_nistxml_sv_iv_union_duration_decimal_enumeration_2_4(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5544,7 +5175,6 @@ def test_union_duration_decimal_enumeration_1_nistxml_sv_iv_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_1_nistxml_sv_iv_union_duration_decimal_enumeration_2_5(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5558,7 +5188,6 @@ def test_union_duration_decimal_enumeration_1_nistxml_sv_iv_union_duration_decim
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_nistxml_sv_iv_union_duration_decimal_enumeration_1_1(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5572,7 +5201,6 @@ def test_union_duration_decimal_enumeration_nistxml_sv_iv_union_duration_decimal
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_nistxml_sv_iv_union_duration_decimal_enumeration_1_2(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5586,7 +5214,6 @@ def test_union_duration_decimal_enumeration_nistxml_sv_iv_union_duration_decimal
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_nistxml_sv_iv_union_duration_decimal_enumeration_1_3(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5600,7 +5227,6 @@ def test_union_duration_decimal_enumeration_nistxml_sv_iv_union_duration_decimal
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_nistxml_sv_iv_union_duration_decimal_enumeration_1_4(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5614,7 +5240,6 @@ def test_union_duration_decimal_enumeration_nistxml_sv_iv_union_duration_decimal
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_enumeration_nistxml_sv_iv_union_duration_decimal_enumeration_1_5(save_xml):
     """
     Type union/duration-decimal is restricted by facet enumeration.
@@ -5628,7 +5253,6 @@ def test_union_duration_decimal_enumeration_nistxml_sv_iv_union_duration_decimal
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_4_nistxml_sv_iv_union_duration_decimal_pattern_5_1(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5643,7 +5267,6 @@ def test_union_duration_decimal_pattern_4_nistxml_sv_iv_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_4_nistxml_sv_iv_union_duration_decimal_pattern_5_2(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5658,7 +5281,6 @@ def test_union_duration_decimal_pattern_4_nistxml_sv_iv_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_4_nistxml_sv_iv_union_duration_decimal_pattern_5_3(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5673,7 +5295,6 @@ def test_union_duration_decimal_pattern_4_nistxml_sv_iv_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_4_nistxml_sv_iv_union_duration_decimal_pattern_5_4(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5688,7 +5309,6 @@ def test_union_duration_decimal_pattern_4_nistxml_sv_iv_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_4_nistxml_sv_iv_union_duration_decimal_pattern_5_5(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5703,7 +5323,6 @@ def test_union_duration_decimal_pattern_4_nistxml_sv_iv_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_3_nistxml_sv_iv_union_duration_decimal_pattern_4_1(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5718,7 +5337,6 @@ def test_union_duration_decimal_pattern_3_nistxml_sv_iv_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_3_nistxml_sv_iv_union_duration_decimal_pattern_4_2(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5733,7 +5351,6 @@ def test_union_duration_decimal_pattern_3_nistxml_sv_iv_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_3_nistxml_sv_iv_union_duration_decimal_pattern_4_3(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5748,7 +5365,6 @@ def test_union_duration_decimal_pattern_3_nistxml_sv_iv_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_3_nistxml_sv_iv_union_duration_decimal_pattern_4_4(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5763,7 +5379,6 @@ def test_union_duration_decimal_pattern_3_nistxml_sv_iv_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_3_nistxml_sv_iv_union_duration_decimal_pattern_4_5(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5778,7 +5393,6 @@ def test_union_duration_decimal_pattern_3_nistxml_sv_iv_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_2_nistxml_sv_iv_union_duration_decimal_pattern_3_1(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5793,7 +5407,6 @@ def test_union_duration_decimal_pattern_2_nistxml_sv_iv_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_2_nistxml_sv_iv_union_duration_decimal_pattern_3_2(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5808,7 +5421,6 @@ def test_union_duration_decimal_pattern_2_nistxml_sv_iv_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_2_nistxml_sv_iv_union_duration_decimal_pattern_3_3(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5823,7 +5435,6 @@ def test_union_duration_decimal_pattern_2_nistxml_sv_iv_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_2_nistxml_sv_iv_union_duration_decimal_pattern_3_4(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5838,7 +5449,6 @@ def test_union_duration_decimal_pattern_2_nistxml_sv_iv_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_2_nistxml_sv_iv_union_duration_decimal_pattern_3_5(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5853,7 +5463,6 @@ def test_union_duration_decimal_pattern_2_nistxml_sv_iv_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_1_nistxml_sv_iv_union_duration_decimal_pattern_2_1(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5868,7 +5477,6 @@ def test_union_duration_decimal_pattern_1_nistxml_sv_iv_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_1_nistxml_sv_iv_union_duration_decimal_pattern_2_2(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5883,7 +5491,6 @@ def test_union_duration_decimal_pattern_1_nistxml_sv_iv_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_1_nistxml_sv_iv_union_duration_decimal_pattern_2_3(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5898,7 +5505,6 @@ def test_union_duration_decimal_pattern_1_nistxml_sv_iv_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_1_nistxml_sv_iv_union_duration_decimal_pattern_2_4(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5913,7 +5519,6 @@ def test_union_duration_decimal_pattern_1_nistxml_sv_iv_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_1_nistxml_sv_iv_union_duration_decimal_pattern_2_5(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5928,7 +5533,6 @@ def test_union_duration_decimal_pattern_1_nistxml_sv_iv_union_duration_decimal_p
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_nistxml_sv_iv_union_duration_decimal_pattern_1_1(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5943,7 +5547,6 @@ def test_union_duration_decimal_pattern_nistxml_sv_iv_union_duration_decimal_pat
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_nistxml_sv_iv_union_duration_decimal_pattern_1_2(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5958,7 +5561,6 @@ def test_union_duration_decimal_pattern_nistxml_sv_iv_union_duration_decimal_pat
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_nistxml_sv_iv_union_duration_decimal_pattern_1_3(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5973,7 +5575,6 @@ def test_union_duration_decimal_pattern_nistxml_sv_iv_union_duration_decimal_pat
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_nistxml_sv_iv_union_duration_decimal_pattern_1_4(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -5988,7 +5589,6 @@ def test_union_duration_decimal_pattern_nistxml_sv_iv_union_duration_decimal_pat
     )
 
 
-@pytest.mark.schema11
 def test_union_duration_decimal_pattern_nistxml_sv_iv_union_duration_decimal_pattern_1_5(save_xml):
     r"""
     Type union/duration-decimal is restricted by facet pattern with value
@@ -6003,7 +5603,6 @@ def test_union_duration_decimal_pattern_nistxml_sv_iv_union_duration_decimal_pat
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_9_nistxml_sv_ii_list_qname_length_5_1(save_xml):
     """
@@ -6018,7 +5617,6 @@ def test_list_qname_length_9_nistxml_sv_ii_list_qname_length_5_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_9_nistxml_sv_ii_list_qname_length_5_2(save_xml):
     """
@@ -6033,7 +5631,6 @@ def test_list_qname_length_9_nistxml_sv_ii_list_qname_length_5_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_9_nistxml_sv_ii_list_qname_length_5_3(save_xml):
     """
@@ -6048,7 +5645,6 @@ def test_list_qname_length_9_nistxml_sv_ii_list_qname_length_5_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_9_nistxml_sv_ii_list_qname_length_5_4(save_xml):
     """
@@ -6063,7 +5659,6 @@ def test_list_qname_length_9_nistxml_sv_ii_list_qname_length_5_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_9_nistxml_sv_ii_list_qname_length_5_5(save_xml):
     """
@@ -6078,7 +5673,6 @@ def test_list_qname_length_9_nistxml_sv_ii_list_qname_length_5_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_8_nistxml_sv_ii_list_qname_length_4_1(save_xml):
     """
@@ -6093,7 +5687,6 @@ def test_list_qname_length_8_nistxml_sv_ii_list_qname_length_4_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_8_nistxml_sv_ii_list_qname_length_4_2(save_xml):
     """
@@ -6108,7 +5701,6 @@ def test_list_qname_length_8_nistxml_sv_ii_list_qname_length_4_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_8_nistxml_sv_ii_list_qname_length_4_3(save_xml):
     """
@@ -6123,7 +5715,6 @@ def test_list_qname_length_8_nistxml_sv_ii_list_qname_length_4_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_8_nistxml_sv_ii_list_qname_length_4_4(save_xml):
     """
@@ -6138,7 +5729,6 @@ def test_list_qname_length_8_nistxml_sv_ii_list_qname_length_4_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_8_nistxml_sv_ii_list_qname_length_4_5(save_xml):
     """
@@ -6153,7 +5743,6 @@ def test_list_qname_length_8_nistxml_sv_ii_list_qname_length_4_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_7_nistxml_sv_ii_list_qname_length_3_1(save_xml):
     """
@@ -6168,7 +5757,6 @@ def test_list_qname_length_7_nistxml_sv_ii_list_qname_length_3_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_7_nistxml_sv_ii_list_qname_length_3_2(save_xml):
     """
@@ -6183,7 +5771,6 @@ def test_list_qname_length_7_nistxml_sv_ii_list_qname_length_3_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_7_nistxml_sv_ii_list_qname_length_3_3(save_xml):
     """
@@ -6198,7 +5785,6 @@ def test_list_qname_length_7_nistxml_sv_ii_list_qname_length_3_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_7_nistxml_sv_ii_list_qname_length_3_4(save_xml):
     """
@@ -6213,7 +5799,6 @@ def test_list_qname_length_7_nistxml_sv_ii_list_qname_length_3_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_7_nistxml_sv_ii_list_qname_length_3_5(save_xml):
     """
@@ -6228,7 +5813,6 @@ def test_list_qname_length_7_nistxml_sv_ii_list_qname_length_3_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_6_nistxml_sv_ii_list_qname_length_2_1(save_xml):
     """
@@ -6243,7 +5827,6 @@ def test_list_qname_length_6_nistxml_sv_ii_list_qname_length_2_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_6_nistxml_sv_ii_list_qname_length_2_2(save_xml):
     """
@@ -6258,7 +5841,6 @@ def test_list_qname_length_6_nistxml_sv_ii_list_qname_length_2_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_6_nistxml_sv_ii_list_qname_length_2_3(save_xml):
     """
@@ -6273,7 +5855,6 @@ def test_list_qname_length_6_nistxml_sv_ii_list_qname_length_2_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_6_nistxml_sv_ii_list_qname_length_2_4(save_xml):
     """
@@ -6288,7 +5869,6 @@ def test_list_qname_length_6_nistxml_sv_ii_list_qname_length_2_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_6_nistxml_sv_ii_list_qname_length_2_5(save_xml):
     """
@@ -6303,7 +5883,6 @@ def test_list_qname_length_6_nistxml_sv_ii_list_qname_length_2_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_5_nistxml_sv_ii_list_qname_length_1_1(save_xml):
     """
@@ -6318,7 +5897,6 @@ def test_list_qname_length_5_nistxml_sv_ii_list_qname_length_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_5_nistxml_sv_ii_list_qname_length_1_2(save_xml):
     """
@@ -6333,7 +5911,6 @@ def test_list_qname_length_5_nistxml_sv_ii_list_qname_length_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_5_nistxml_sv_ii_list_qname_length_1_3(save_xml):
     """
@@ -6348,7 +5925,6 @@ def test_list_qname_length_5_nistxml_sv_ii_list_qname_length_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_5_nistxml_sv_ii_list_qname_length_1_4(save_xml):
     """
@@ -6363,7 +5939,6 @@ def test_list_qname_length_5_nistxml_sv_ii_list_qname_length_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_length_5_nistxml_sv_ii_list_qname_length_1_5(save_xml):
     """
@@ -6378,7 +5953,6 @@ def test_list_qname_length_5_nistxml_sv_ii_list_qname_length_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_9_nistxml_sv_ii_list_qname_min_length_5_1(save_xml):
     """
@@ -6393,7 +5967,6 @@ def test_list_qname_min_length_9_nistxml_sv_ii_list_qname_min_length_5_1(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_9_nistxml_sv_ii_list_qname_min_length_5_2(save_xml):
     """
@@ -6408,7 +5981,6 @@ def test_list_qname_min_length_9_nistxml_sv_ii_list_qname_min_length_5_2(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_9_nistxml_sv_ii_list_qname_min_length_5_3(save_xml):
     """
@@ -6423,7 +5995,6 @@ def test_list_qname_min_length_9_nistxml_sv_ii_list_qname_min_length_5_3(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_9_nistxml_sv_ii_list_qname_min_length_5_4(save_xml):
     """
@@ -6438,7 +6009,6 @@ def test_list_qname_min_length_9_nistxml_sv_ii_list_qname_min_length_5_4(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_9_nistxml_sv_ii_list_qname_min_length_5_5(save_xml):
     """
@@ -6453,7 +6023,6 @@ def test_list_qname_min_length_9_nistxml_sv_ii_list_qname_min_length_5_5(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_8_nistxml_sv_ii_list_qname_min_length_4_1(save_xml):
     """
@@ -6468,7 +6037,6 @@ def test_list_qname_min_length_8_nistxml_sv_ii_list_qname_min_length_4_1(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_8_nistxml_sv_ii_list_qname_min_length_4_2(save_xml):
     """
@@ -6483,7 +6051,6 @@ def test_list_qname_min_length_8_nistxml_sv_ii_list_qname_min_length_4_2(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_8_nistxml_sv_ii_list_qname_min_length_4_3(save_xml):
     """
@@ -6498,7 +6065,6 @@ def test_list_qname_min_length_8_nistxml_sv_ii_list_qname_min_length_4_3(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_8_nistxml_sv_ii_list_qname_min_length_4_4(save_xml):
     """
@@ -6513,7 +6079,6 @@ def test_list_qname_min_length_8_nistxml_sv_ii_list_qname_min_length_4_4(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_8_nistxml_sv_ii_list_qname_min_length_4_5(save_xml):
     """
@@ -6528,7 +6093,6 @@ def test_list_qname_min_length_8_nistxml_sv_ii_list_qname_min_length_4_5(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_7_nistxml_sv_ii_list_qname_min_length_3_1(save_xml):
     """
@@ -6543,7 +6107,6 @@ def test_list_qname_min_length_7_nistxml_sv_ii_list_qname_min_length_3_1(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_7_nistxml_sv_ii_list_qname_min_length_3_2(save_xml):
     """
@@ -6558,7 +6121,6 @@ def test_list_qname_min_length_7_nistxml_sv_ii_list_qname_min_length_3_2(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_7_nistxml_sv_ii_list_qname_min_length_3_3(save_xml):
     """
@@ -6573,7 +6135,6 @@ def test_list_qname_min_length_7_nistxml_sv_ii_list_qname_min_length_3_3(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_7_nistxml_sv_ii_list_qname_min_length_3_4(save_xml):
     """
@@ -6588,7 +6149,6 @@ def test_list_qname_min_length_7_nistxml_sv_ii_list_qname_min_length_3_4(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_7_nistxml_sv_ii_list_qname_min_length_3_5(save_xml):
     """
@@ -6603,7 +6163,6 @@ def test_list_qname_min_length_7_nistxml_sv_ii_list_qname_min_length_3_5(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_6_nistxml_sv_ii_list_qname_min_length_2_1(save_xml):
     """
@@ -6618,7 +6177,6 @@ def test_list_qname_min_length_6_nistxml_sv_ii_list_qname_min_length_2_1(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_6_nistxml_sv_ii_list_qname_min_length_2_2(save_xml):
     """
@@ -6633,7 +6191,6 @@ def test_list_qname_min_length_6_nistxml_sv_ii_list_qname_min_length_2_2(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_6_nistxml_sv_ii_list_qname_min_length_2_3(save_xml):
     """
@@ -6648,7 +6205,6 @@ def test_list_qname_min_length_6_nistxml_sv_ii_list_qname_min_length_2_3(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_6_nistxml_sv_ii_list_qname_min_length_2_4(save_xml):
     """
@@ -6663,7 +6219,6 @@ def test_list_qname_min_length_6_nistxml_sv_ii_list_qname_min_length_2_4(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_6_nistxml_sv_ii_list_qname_min_length_2_5(save_xml):
     """
@@ -6678,7 +6233,6 @@ def test_list_qname_min_length_6_nistxml_sv_ii_list_qname_min_length_2_5(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_5_nistxml_sv_ii_list_qname_min_length_1_1(save_xml):
     """
@@ -6693,7 +6247,6 @@ def test_list_qname_min_length_5_nistxml_sv_ii_list_qname_min_length_1_1(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_5_nistxml_sv_ii_list_qname_min_length_1_2(save_xml):
     """
@@ -6708,7 +6261,6 @@ def test_list_qname_min_length_5_nistxml_sv_ii_list_qname_min_length_1_2(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_5_nistxml_sv_ii_list_qname_min_length_1_3(save_xml):
     """
@@ -6723,7 +6275,6 @@ def test_list_qname_min_length_5_nistxml_sv_ii_list_qname_min_length_1_3(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_5_nistxml_sv_ii_list_qname_min_length_1_4(save_xml):
     """
@@ -6738,7 +6289,6 @@ def test_list_qname_min_length_5_nistxml_sv_ii_list_qname_min_length_1_4(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_min_length_5_nistxml_sv_ii_list_qname_min_length_1_5(save_xml):
     """
@@ -6753,7 +6303,6 @@ def test_list_qname_min_length_5_nistxml_sv_ii_list_qname_min_length_1_5(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_9_nistxml_sv_ii_list_qname_max_length_5_1(save_xml):
     """
@@ -6768,7 +6317,6 @@ def test_list_qname_max_length_9_nistxml_sv_ii_list_qname_max_length_5_1(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_9_nistxml_sv_ii_list_qname_max_length_5_2(save_xml):
     """
@@ -6783,7 +6331,6 @@ def test_list_qname_max_length_9_nistxml_sv_ii_list_qname_max_length_5_2(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_9_nistxml_sv_ii_list_qname_max_length_5_3(save_xml):
     """
@@ -6798,7 +6345,6 @@ def test_list_qname_max_length_9_nistxml_sv_ii_list_qname_max_length_5_3(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_9_nistxml_sv_ii_list_qname_max_length_5_4(save_xml):
     """
@@ -6813,7 +6359,6 @@ def test_list_qname_max_length_9_nistxml_sv_ii_list_qname_max_length_5_4(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_9_nistxml_sv_ii_list_qname_max_length_5_5(save_xml):
     """
@@ -6828,7 +6373,6 @@ def test_list_qname_max_length_9_nistxml_sv_ii_list_qname_max_length_5_5(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_8_nistxml_sv_ii_list_qname_max_length_4_1(save_xml):
     """
@@ -6843,7 +6387,6 @@ def test_list_qname_max_length_8_nistxml_sv_ii_list_qname_max_length_4_1(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_8_nistxml_sv_ii_list_qname_max_length_4_2(save_xml):
     """
@@ -6858,7 +6401,6 @@ def test_list_qname_max_length_8_nistxml_sv_ii_list_qname_max_length_4_2(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_8_nistxml_sv_ii_list_qname_max_length_4_3(save_xml):
     """
@@ -6873,7 +6415,6 @@ def test_list_qname_max_length_8_nistxml_sv_ii_list_qname_max_length_4_3(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_8_nistxml_sv_ii_list_qname_max_length_4_4(save_xml):
     """
@@ -6888,7 +6429,6 @@ def test_list_qname_max_length_8_nistxml_sv_ii_list_qname_max_length_4_4(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_8_nistxml_sv_ii_list_qname_max_length_4_5(save_xml):
     """
@@ -6903,7 +6443,6 @@ def test_list_qname_max_length_8_nistxml_sv_ii_list_qname_max_length_4_5(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_7_nistxml_sv_ii_list_qname_max_length_3_1(save_xml):
     """
@@ -6918,7 +6457,6 @@ def test_list_qname_max_length_7_nistxml_sv_ii_list_qname_max_length_3_1(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_7_nistxml_sv_ii_list_qname_max_length_3_2(save_xml):
     """
@@ -6933,7 +6471,6 @@ def test_list_qname_max_length_7_nistxml_sv_ii_list_qname_max_length_3_2(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_7_nistxml_sv_ii_list_qname_max_length_3_3(save_xml):
     """
@@ -6948,7 +6485,6 @@ def test_list_qname_max_length_7_nistxml_sv_ii_list_qname_max_length_3_3(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_7_nistxml_sv_ii_list_qname_max_length_3_4(save_xml):
     """
@@ -6963,7 +6499,6 @@ def test_list_qname_max_length_7_nistxml_sv_ii_list_qname_max_length_3_4(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_7_nistxml_sv_ii_list_qname_max_length_3_5(save_xml):
     """
@@ -6978,7 +6513,6 @@ def test_list_qname_max_length_7_nistxml_sv_ii_list_qname_max_length_3_5(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_6_nistxml_sv_ii_list_qname_max_length_2_1(save_xml):
     """
@@ -6993,7 +6527,6 @@ def test_list_qname_max_length_6_nistxml_sv_ii_list_qname_max_length_2_1(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_6_nistxml_sv_ii_list_qname_max_length_2_2(save_xml):
     """
@@ -7008,7 +6541,6 @@ def test_list_qname_max_length_6_nistxml_sv_ii_list_qname_max_length_2_2(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_6_nistxml_sv_ii_list_qname_max_length_2_3(save_xml):
     """
@@ -7023,7 +6555,6 @@ def test_list_qname_max_length_6_nistxml_sv_ii_list_qname_max_length_2_3(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_6_nistxml_sv_ii_list_qname_max_length_2_4(save_xml):
     """
@@ -7038,7 +6569,6 @@ def test_list_qname_max_length_6_nistxml_sv_ii_list_qname_max_length_2_4(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_6_nistxml_sv_ii_list_qname_max_length_2_5(save_xml):
     """
@@ -7053,7 +6583,6 @@ def test_list_qname_max_length_6_nistxml_sv_ii_list_qname_max_length_2_5(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_5_nistxml_sv_ii_list_qname_max_length_1_1(save_xml):
     """
@@ -7068,7 +6597,6 @@ def test_list_qname_max_length_5_nistxml_sv_ii_list_qname_max_length_1_1(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_5_nistxml_sv_ii_list_qname_max_length_1_2(save_xml):
     """
@@ -7083,7 +6611,6 @@ def test_list_qname_max_length_5_nistxml_sv_ii_list_qname_max_length_1_2(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_5_nistxml_sv_ii_list_qname_max_length_1_3(save_xml):
     """
@@ -7098,7 +6625,6 @@ def test_list_qname_max_length_5_nistxml_sv_ii_list_qname_max_length_1_3(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_5_nistxml_sv_ii_list_qname_max_length_1_4(save_xml):
     """
@@ -7113,7 +6639,6 @@ def test_list_qname_max_length_5_nistxml_sv_ii_list_qname_max_length_1_4(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_qname_max_length_5_nistxml_sv_ii_list_qname_max_length_1_5(save_xml):
     """
@@ -7128,7 +6653,6 @@ def test_list_qname_max_length_5_nistxml_sv_ii_list_qname_max_length_1_5(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_9_nistxml_sv_ii_list_language_length_5_1(save_xml):
     """
@@ -7143,7 +6667,6 @@ def test_list_language_length_9_nistxml_sv_ii_list_language_length_5_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_9_nistxml_sv_ii_list_language_length_5_2(save_xml):
     """
@@ -7158,7 +6681,6 @@ def test_list_language_length_9_nistxml_sv_ii_list_language_length_5_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_9_nistxml_sv_ii_list_language_length_5_3(save_xml):
     """
@@ -7173,7 +6695,6 @@ def test_list_language_length_9_nistxml_sv_ii_list_language_length_5_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_9_nistxml_sv_ii_list_language_length_5_4(save_xml):
     """
@@ -7188,7 +6709,6 @@ def test_list_language_length_9_nistxml_sv_ii_list_language_length_5_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_9_nistxml_sv_ii_list_language_length_5_5(save_xml):
     """
@@ -7203,7 +6723,6 @@ def test_list_language_length_9_nistxml_sv_ii_list_language_length_5_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_8_nistxml_sv_ii_list_language_length_4_1(save_xml):
     """
@@ -7218,7 +6737,6 @@ def test_list_language_length_8_nistxml_sv_ii_list_language_length_4_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_8_nistxml_sv_ii_list_language_length_4_2(save_xml):
     """
@@ -7233,7 +6751,6 @@ def test_list_language_length_8_nistxml_sv_ii_list_language_length_4_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_8_nistxml_sv_ii_list_language_length_4_3(save_xml):
     """
@@ -7248,7 +6765,6 @@ def test_list_language_length_8_nistxml_sv_ii_list_language_length_4_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_8_nistxml_sv_ii_list_language_length_4_4(save_xml):
     """
@@ -7263,7 +6779,6 @@ def test_list_language_length_8_nistxml_sv_ii_list_language_length_4_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_8_nistxml_sv_ii_list_language_length_4_5(save_xml):
     """
@@ -7278,7 +6793,6 @@ def test_list_language_length_8_nistxml_sv_ii_list_language_length_4_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_7_nistxml_sv_ii_list_language_length_3_1(save_xml):
     """
@@ -7293,7 +6807,6 @@ def test_list_language_length_7_nistxml_sv_ii_list_language_length_3_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_7_nistxml_sv_ii_list_language_length_3_2(save_xml):
     """
@@ -7308,7 +6821,6 @@ def test_list_language_length_7_nistxml_sv_ii_list_language_length_3_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_7_nistxml_sv_ii_list_language_length_3_3(save_xml):
     """
@@ -7323,7 +6835,6 @@ def test_list_language_length_7_nistxml_sv_ii_list_language_length_3_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_7_nistxml_sv_ii_list_language_length_3_4(save_xml):
     """
@@ -7338,7 +6849,6 @@ def test_list_language_length_7_nistxml_sv_ii_list_language_length_3_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_7_nistxml_sv_ii_list_language_length_3_5(save_xml):
     """
@@ -7353,7 +6863,6 @@ def test_list_language_length_7_nistxml_sv_ii_list_language_length_3_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_6_nistxml_sv_ii_list_language_length_2_1(save_xml):
     """
@@ -7368,7 +6877,6 @@ def test_list_language_length_6_nistxml_sv_ii_list_language_length_2_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_6_nistxml_sv_ii_list_language_length_2_2(save_xml):
     """
@@ -7383,7 +6891,6 @@ def test_list_language_length_6_nistxml_sv_ii_list_language_length_2_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_6_nistxml_sv_ii_list_language_length_2_3(save_xml):
     """
@@ -7398,7 +6905,6 @@ def test_list_language_length_6_nistxml_sv_ii_list_language_length_2_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_6_nistxml_sv_ii_list_language_length_2_4(save_xml):
     """
@@ -7413,7 +6919,6 @@ def test_list_language_length_6_nistxml_sv_ii_list_language_length_2_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_6_nistxml_sv_ii_list_language_length_2_5(save_xml):
     """
@@ -7428,7 +6933,6 @@ def test_list_language_length_6_nistxml_sv_ii_list_language_length_2_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_5_nistxml_sv_ii_list_language_length_1_1(save_xml):
     """
@@ -7443,7 +6947,6 @@ def test_list_language_length_5_nistxml_sv_ii_list_language_length_1_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_5_nistxml_sv_ii_list_language_length_1_2(save_xml):
     """
@@ -7458,7 +6961,6 @@ def test_list_language_length_5_nistxml_sv_ii_list_language_length_1_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_5_nistxml_sv_ii_list_language_length_1_3(save_xml):
     """
@@ -7473,7 +6975,6 @@ def test_list_language_length_5_nistxml_sv_ii_list_language_length_1_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_5_nistxml_sv_ii_list_language_length_1_4(save_xml):
     """
@@ -7488,7 +6989,6 @@ def test_list_language_length_5_nistxml_sv_ii_list_language_length_1_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_length_5_nistxml_sv_ii_list_language_length_1_5(save_xml):
     """
@@ -7503,7 +7003,6 @@ def test_list_language_length_5_nistxml_sv_ii_list_language_length_1_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_9_nistxml_sv_ii_list_language_min_length_5_1(save_xml):
     """
@@ -7518,7 +7017,6 @@ def test_list_language_min_length_9_nistxml_sv_ii_list_language_min_length_5_1(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_9_nistxml_sv_ii_list_language_min_length_5_2(save_xml):
     """
@@ -7533,7 +7031,6 @@ def test_list_language_min_length_9_nistxml_sv_ii_list_language_min_length_5_2(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_9_nistxml_sv_ii_list_language_min_length_5_3(save_xml):
     """
@@ -7548,7 +7045,6 @@ def test_list_language_min_length_9_nistxml_sv_ii_list_language_min_length_5_3(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_9_nistxml_sv_ii_list_language_min_length_5_4(save_xml):
     """
@@ -7563,7 +7059,6 @@ def test_list_language_min_length_9_nistxml_sv_ii_list_language_min_length_5_4(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_9_nistxml_sv_ii_list_language_min_length_5_5(save_xml):
     """
@@ -7578,7 +7073,6 @@ def test_list_language_min_length_9_nistxml_sv_ii_list_language_min_length_5_5(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_8_nistxml_sv_ii_list_language_min_length_4_1(save_xml):
     """
@@ -7593,7 +7087,6 @@ def test_list_language_min_length_8_nistxml_sv_ii_list_language_min_length_4_1(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_8_nistxml_sv_ii_list_language_min_length_4_2(save_xml):
     """
@@ -7608,7 +7101,6 @@ def test_list_language_min_length_8_nistxml_sv_ii_list_language_min_length_4_2(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_8_nistxml_sv_ii_list_language_min_length_4_3(save_xml):
     """
@@ -7623,7 +7115,6 @@ def test_list_language_min_length_8_nistxml_sv_ii_list_language_min_length_4_3(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_8_nistxml_sv_ii_list_language_min_length_4_4(save_xml):
     """
@@ -7638,7 +7129,6 @@ def test_list_language_min_length_8_nistxml_sv_ii_list_language_min_length_4_4(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_8_nistxml_sv_ii_list_language_min_length_4_5(save_xml):
     """
@@ -7653,7 +7143,6 @@ def test_list_language_min_length_8_nistxml_sv_ii_list_language_min_length_4_5(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_7_nistxml_sv_ii_list_language_min_length_3_1(save_xml):
     """
@@ -7668,7 +7157,6 @@ def test_list_language_min_length_7_nistxml_sv_ii_list_language_min_length_3_1(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_7_nistxml_sv_ii_list_language_min_length_3_2(save_xml):
     """
@@ -7683,7 +7171,6 @@ def test_list_language_min_length_7_nistxml_sv_ii_list_language_min_length_3_2(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_7_nistxml_sv_ii_list_language_min_length_3_3(save_xml):
     """
@@ -7698,7 +7185,6 @@ def test_list_language_min_length_7_nistxml_sv_ii_list_language_min_length_3_3(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_7_nistxml_sv_ii_list_language_min_length_3_4(save_xml):
     """
@@ -7713,7 +7199,6 @@ def test_list_language_min_length_7_nistxml_sv_ii_list_language_min_length_3_4(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_7_nistxml_sv_ii_list_language_min_length_3_5(save_xml):
     """
@@ -7728,7 +7213,6 @@ def test_list_language_min_length_7_nistxml_sv_ii_list_language_min_length_3_5(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_6_nistxml_sv_ii_list_language_min_length_2_1(save_xml):
     """
@@ -7743,7 +7227,6 @@ def test_list_language_min_length_6_nistxml_sv_ii_list_language_min_length_2_1(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_6_nistxml_sv_ii_list_language_min_length_2_2(save_xml):
     """
@@ -7758,7 +7241,6 @@ def test_list_language_min_length_6_nistxml_sv_ii_list_language_min_length_2_2(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_6_nistxml_sv_ii_list_language_min_length_2_3(save_xml):
     """
@@ -7773,7 +7255,6 @@ def test_list_language_min_length_6_nistxml_sv_ii_list_language_min_length_2_3(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_6_nistxml_sv_ii_list_language_min_length_2_4(save_xml):
     """
@@ -7788,7 +7269,6 @@ def test_list_language_min_length_6_nistxml_sv_ii_list_language_min_length_2_4(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_6_nistxml_sv_ii_list_language_min_length_2_5(save_xml):
     """
@@ -7803,7 +7283,6 @@ def test_list_language_min_length_6_nistxml_sv_ii_list_language_min_length_2_5(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_5_nistxml_sv_ii_list_language_min_length_1_1(save_xml):
     """
@@ -7818,7 +7297,6 @@ def test_list_language_min_length_5_nistxml_sv_ii_list_language_min_length_1_1(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_5_nistxml_sv_ii_list_language_min_length_1_2(save_xml):
     """
@@ -7833,7 +7311,6 @@ def test_list_language_min_length_5_nistxml_sv_ii_list_language_min_length_1_2(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_5_nistxml_sv_ii_list_language_min_length_1_3(save_xml):
     """
@@ -7848,7 +7325,6 @@ def test_list_language_min_length_5_nistxml_sv_ii_list_language_min_length_1_3(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_5_nistxml_sv_ii_list_language_min_length_1_4(save_xml):
     """
@@ -7863,7 +7339,6 @@ def test_list_language_min_length_5_nistxml_sv_ii_list_language_min_length_1_4(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_min_length_5_nistxml_sv_ii_list_language_min_length_1_5(save_xml):
     """
@@ -7878,7 +7353,6 @@ def test_list_language_min_length_5_nistxml_sv_ii_list_language_min_length_1_5(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_9_nistxml_sv_ii_list_language_max_length_5_1(save_xml):
     """
@@ -7893,7 +7367,6 @@ def test_list_language_max_length_9_nistxml_sv_ii_list_language_max_length_5_1(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_9_nistxml_sv_ii_list_language_max_length_5_2(save_xml):
     """
@@ -7908,7 +7381,6 @@ def test_list_language_max_length_9_nistxml_sv_ii_list_language_max_length_5_2(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_9_nistxml_sv_ii_list_language_max_length_5_3(save_xml):
     """
@@ -7923,7 +7395,6 @@ def test_list_language_max_length_9_nistxml_sv_ii_list_language_max_length_5_3(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_9_nistxml_sv_ii_list_language_max_length_5_4(save_xml):
     """
@@ -7938,7 +7409,6 @@ def test_list_language_max_length_9_nistxml_sv_ii_list_language_max_length_5_4(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_9_nistxml_sv_ii_list_language_max_length_5_5(save_xml):
     """
@@ -7953,7 +7423,6 @@ def test_list_language_max_length_9_nistxml_sv_ii_list_language_max_length_5_5(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_8_nistxml_sv_ii_list_language_max_length_4_1(save_xml):
     """
@@ -7968,7 +7437,6 @@ def test_list_language_max_length_8_nistxml_sv_ii_list_language_max_length_4_1(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_8_nistxml_sv_ii_list_language_max_length_4_2(save_xml):
     """
@@ -7983,7 +7451,6 @@ def test_list_language_max_length_8_nistxml_sv_ii_list_language_max_length_4_2(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_8_nistxml_sv_ii_list_language_max_length_4_3(save_xml):
     """
@@ -7998,7 +7465,6 @@ def test_list_language_max_length_8_nistxml_sv_ii_list_language_max_length_4_3(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_8_nistxml_sv_ii_list_language_max_length_4_4(save_xml):
     """
@@ -8013,7 +7479,6 @@ def test_list_language_max_length_8_nistxml_sv_ii_list_language_max_length_4_4(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_8_nistxml_sv_ii_list_language_max_length_4_5(save_xml):
     """
@@ -8028,7 +7493,6 @@ def test_list_language_max_length_8_nistxml_sv_ii_list_language_max_length_4_5(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_7_nistxml_sv_ii_list_language_max_length_3_1(save_xml):
     """
@@ -8043,7 +7507,6 @@ def test_list_language_max_length_7_nistxml_sv_ii_list_language_max_length_3_1(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_7_nistxml_sv_ii_list_language_max_length_3_2(save_xml):
     """
@@ -8058,7 +7521,6 @@ def test_list_language_max_length_7_nistxml_sv_ii_list_language_max_length_3_2(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_7_nistxml_sv_ii_list_language_max_length_3_3(save_xml):
     """
@@ -8073,7 +7535,6 @@ def test_list_language_max_length_7_nistxml_sv_ii_list_language_max_length_3_3(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_7_nistxml_sv_ii_list_language_max_length_3_4(save_xml):
     """
@@ -8088,7 +7549,6 @@ def test_list_language_max_length_7_nistxml_sv_ii_list_language_max_length_3_4(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_7_nistxml_sv_ii_list_language_max_length_3_5(save_xml):
     """
@@ -8103,7 +7563,6 @@ def test_list_language_max_length_7_nistxml_sv_ii_list_language_max_length_3_5(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_6_nistxml_sv_ii_list_language_max_length_2_1(save_xml):
     """
@@ -8118,7 +7577,6 @@ def test_list_language_max_length_6_nistxml_sv_ii_list_language_max_length_2_1(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_6_nistxml_sv_ii_list_language_max_length_2_2(save_xml):
     """
@@ -8133,7 +7591,6 @@ def test_list_language_max_length_6_nistxml_sv_ii_list_language_max_length_2_2(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_6_nistxml_sv_ii_list_language_max_length_2_3(save_xml):
     """
@@ -8148,7 +7605,6 @@ def test_list_language_max_length_6_nistxml_sv_ii_list_language_max_length_2_3(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_6_nistxml_sv_ii_list_language_max_length_2_4(save_xml):
     """
@@ -8163,7 +7619,6 @@ def test_list_language_max_length_6_nistxml_sv_ii_list_language_max_length_2_4(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_6_nistxml_sv_ii_list_language_max_length_2_5(save_xml):
     """
@@ -8178,7 +7633,6 @@ def test_list_language_max_length_6_nistxml_sv_ii_list_language_max_length_2_5(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_5_nistxml_sv_ii_list_language_max_length_1_1(save_xml):
     """
@@ -8193,7 +7647,6 @@ def test_list_language_max_length_5_nistxml_sv_ii_list_language_max_length_1_1(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_5_nistxml_sv_ii_list_language_max_length_1_2(save_xml):
     """
@@ -8208,7 +7661,6 @@ def test_list_language_max_length_5_nistxml_sv_ii_list_language_max_length_1_2(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_5_nistxml_sv_ii_list_language_max_length_1_3(save_xml):
     """
@@ -8223,7 +7675,6 @@ def test_list_language_max_length_5_nistxml_sv_ii_list_language_max_length_1_3(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_5_nistxml_sv_ii_list_language_max_length_1_4(save_xml):
     """
@@ -8238,7 +7689,6 @@ def test_list_language_max_length_5_nistxml_sv_ii_list_language_max_length_1_4(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_language_max_length_5_nistxml_sv_ii_list_language_max_length_1_5(save_xml):
     """
@@ -8253,7 +7703,6 @@ def test_list_language_max_length_5_nistxml_sv_ii_list_language_max_length_1_5(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_9_nistxml_sv_ii_list_id_length_5_1(save_xml):
     """
@@ -8268,7 +7717,6 @@ def test_list_id_length_9_nistxml_sv_ii_list_id_length_5_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_9_nistxml_sv_ii_list_id_length_5_2(save_xml):
     """
@@ -8283,7 +7731,6 @@ def test_list_id_length_9_nistxml_sv_ii_list_id_length_5_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_9_nistxml_sv_ii_list_id_length_5_3(save_xml):
     """
@@ -8298,7 +7745,6 @@ def test_list_id_length_9_nistxml_sv_ii_list_id_length_5_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_9_nistxml_sv_ii_list_id_length_5_4(save_xml):
     """
@@ -8313,7 +7759,6 @@ def test_list_id_length_9_nistxml_sv_ii_list_id_length_5_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_9_nistxml_sv_ii_list_id_length_5_5(save_xml):
     """
@@ -8328,7 +7773,6 @@ def test_list_id_length_9_nistxml_sv_ii_list_id_length_5_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_8_nistxml_sv_ii_list_id_length_4_1(save_xml):
     """
@@ -8343,7 +7787,6 @@ def test_list_id_length_8_nistxml_sv_ii_list_id_length_4_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_8_nistxml_sv_ii_list_id_length_4_2(save_xml):
     """
@@ -8358,7 +7801,6 @@ def test_list_id_length_8_nistxml_sv_ii_list_id_length_4_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_8_nistxml_sv_ii_list_id_length_4_3(save_xml):
     """
@@ -8373,7 +7815,6 @@ def test_list_id_length_8_nistxml_sv_ii_list_id_length_4_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_8_nistxml_sv_ii_list_id_length_4_4(save_xml):
     """
@@ -8388,7 +7829,6 @@ def test_list_id_length_8_nistxml_sv_ii_list_id_length_4_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_8_nistxml_sv_ii_list_id_length_4_5(save_xml):
     """
@@ -8403,7 +7843,6 @@ def test_list_id_length_8_nistxml_sv_ii_list_id_length_4_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_7_nistxml_sv_ii_list_id_length_3_1(save_xml):
     """
@@ -8418,7 +7857,6 @@ def test_list_id_length_7_nistxml_sv_ii_list_id_length_3_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_7_nistxml_sv_ii_list_id_length_3_2(save_xml):
     """
@@ -8433,7 +7871,6 @@ def test_list_id_length_7_nistxml_sv_ii_list_id_length_3_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_7_nistxml_sv_ii_list_id_length_3_3(save_xml):
     """
@@ -8448,7 +7885,6 @@ def test_list_id_length_7_nistxml_sv_ii_list_id_length_3_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_7_nistxml_sv_ii_list_id_length_3_4(save_xml):
     """
@@ -8463,7 +7899,6 @@ def test_list_id_length_7_nistxml_sv_ii_list_id_length_3_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_7_nistxml_sv_ii_list_id_length_3_5(save_xml):
     """
@@ -8478,7 +7913,6 @@ def test_list_id_length_7_nistxml_sv_ii_list_id_length_3_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_6_nistxml_sv_ii_list_id_length_2_1(save_xml):
     """
@@ -8493,7 +7927,6 @@ def test_list_id_length_6_nistxml_sv_ii_list_id_length_2_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_6_nistxml_sv_ii_list_id_length_2_2(save_xml):
     """
@@ -8508,7 +7941,6 @@ def test_list_id_length_6_nistxml_sv_ii_list_id_length_2_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_6_nistxml_sv_ii_list_id_length_2_3(save_xml):
     """
@@ -8523,7 +7955,6 @@ def test_list_id_length_6_nistxml_sv_ii_list_id_length_2_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_6_nistxml_sv_ii_list_id_length_2_4(save_xml):
     """
@@ -8538,7 +7969,6 @@ def test_list_id_length_6_nistxml_sv_ii_list_id_length_2_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_6_nistxml_sv_ii_list_id_length_2_5(save_xml):
     """
@@ -8553,7 +7983,6 @@ def test_list_id_length_6_nistxml_sv_ii_list_id_length_2_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_5_nistxml_sv_ii_list_id_length_1_1(save_xml):
     """
@@ -8568,7 +7997,6 @@ def test_list_id_length_5_nistxml_sv_ii_list_id_length_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_5_nistxml_sv_ii_list_id_length_1_2(save_xml):
     """
@@ -8583,7 +8011,6 @@ def test_list_id_length_5_nistxml_sv_ii_list_id_length_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_5_nistxml_sv_ii_list_id_length_1_3(save_xml):
     """
@@ -8598,7 +8025,6 @@ def test_list_id_length_5_nistxml_sv_ii_list_id_length_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_5_nistxml_sv_ii_list_id_length_1_4(save_xml):
     """
@@ -8613,7 +8039,6 @@ def test_list_id_length_5_nistxml_sv_ii_list_id_length_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_length_5_nistxml_sv_ii_list_id_length_1_5(save_xml):
     """
@@ -8628,7 +8053,6 @@ def test_list_id_length_5_nistxml_sv_ii_list_id_length_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_9_nistxml_sv_ii_list_id_min_length_5_1(save_xml):
     """
@@ -8643,7 +8067,6 @@ def test_list_id_min_length_9_nistxml_sv_ii_list_id_min_length_5_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_9_nistxml_sv_ii_list_id_min_length_5_2(save_xml):
     """
@@ -8658,7 +8081,6 @@ def test_list_id_min_length_9_nistxml_sv_ii_list_id_min_length_5_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_9_nistxml_sv_ii_list_id_min_length_5_3(save_xml):
     """
@@ -8673,7 +8095,6 @@ def test_list_id_min_length_9_nistxml_sv_ii_list_id_min_length_5_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_9_nistxml_sv_ii_list_id_min_length_5_4(save_xml):
     """
@@ -8688,7 +8109,6 @@ def test_list_id_min_length_9_nistxml_sv_ii_list_id_min_length_5_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_9_nistxml_sv_ii_list_id_min_length_5_5(save_xml):
     """
@@ -8703,7 +8123,6 @@ def test_list_id_min_length_9_nistxml_sv_ii_list_id_min_length_5_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_8_nistxml_sv_ii_list_id_min_length_4_1(save_xml):
     """
@@ -8718,7 +8137,6 @@ def test_list_id_min_length_8_nistxml_sv_ii_list_id_min_length_4_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_8_nistxml_sv_ii_list_id_min_length_4_2(save_xml):
     """
@@ -8733,7 +8151,6 @@ def test_list_id_min_length_8_nistxml_sv_ii_list_id_min_length_4_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_8_nistxml_sv_ii_list_id_min_length_4_3(save_xml):
     """
@@ -8748,7 +8165,6 @@ def test_list_id_min_length_8_nistxml_sv_ii_list_id_min_length_4_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_8_nistxml_sv_ii_list_id_min_length_4_4(save_xml):
     """
@@ -8763,7 +8179,6 @@ def test_list_id_min_length_8_nistxml_sv_ii_list_id_min_length_4_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_8_nistxml_sv_ii_list_id_min_length_4_5(save_xml):
     """
@@ -8778,7 +8193,6 @@ def test_list_id_min_length_8_nistxml_sv_ii_list_id_min_length_4_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_7_nistxml_sv_ii_list_id_min_length_3_1(save_xml):
     """
@@ -8793,7 +8207,6 @@ def test_list_id_min_length_7_nistxml_sv_ii_list_id_min_length_3_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_7_nistxml_sv_ii_list_id_min_length_3_2(save_xml):
     """
@@ -8808,7 +8221,6 @@ def test_list_id_min_length_7_nistxml_sv_ii_list_id_min_length_3_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_7_nistxml_sv_ii_list_id_min_length_3_3(save_xml):
     """
@@ -8823,7 +8235,6 @@ def test_list_id_min_length_7_nistxml_sv_ii_list_id_min_length_3_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_7_nistxml_sv_ii_list_id_min_length_3_4(save_xml):
     """
@@ -8838,7 +8249,6 @@ def test_list_id_min_length_7_nistxml_sv_ii_list_id_min_length_3_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_7_nistxml_sv_ii_list_id_min_length_3_5(save_xml):
     """
@@ -8853,7 +8263,6 @@ def test_list_id_min_length_7_nistxml_sv_ii_list_id_min_length_3_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_6_nistxml_sv_ii_list_id_min_length_2_1(save_xml):
     """
@@ -8868,7 +8277,6 @@ def test_list_id_min_length_6_nistxml_sv_ii_list_id_min_length_2_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_6_nistxml_sv_ii_list_id_min_length_2_2(save_xml):
     """
@@ -8883,7 +8291,6 @@ def test_list_id_min_length_6_nistxml_sv_ii_list_id_min_length_2_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_6_nistxml_sv_ii_list_id_min_length_2_3(save_xml):
     """
@@ -8898,7 +8305,6 @@ def test_list_id_min_length_6_nistxml_sv_ii_list_id_min_length_2_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_6_nistxml_sv_ii_list_id_min_length_2_4(save_xml):
     """
@@ -8913,7 +8319,6 @@ def test_list_id_min_length_6_nistxml_sv_ii_list_id_min_length_2_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_6_nistxml_sv_ii_list_id_min_length_2_5(save_xml):
     """
@@ -8928,7 +8333,6 @@ def test_list_id_min_length_6_nistxml_sv_ii_list_id_min_length_2_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_5_nistxml_sv_ii_list_id_min_length_1_1(save_xml):
     """
@@ -8943,7 +8347,6 @@ def test_list_id_min_length_5_nistxml_sv_ii_list_id_min_length_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_5_nistxml_sv_ii_list_id_min_length_1_2(save_xml):
     """
@@ -8958,7 +8361,6 @@ def test_list_id_min_length_5_nistxml_sv_ii_list_id_min_length_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_5_nistxml_sv_ii_list_id_min_length_1_3(save_xml):
     """
@@ -8973,7 +8375,6 @@ def test_list_id_min_length_5_nistxml_sv_ii_list_id_min_length_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_5_nistxml_sv_ii_list_id_min_length_1_4(save_xml):
     """
@@ -8988,7 +8389,6 @@ def test_list_id_min_length_5_nistxml_sv_ii_list_id_min_length_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_min_length_5_nistxml_sv_ii_list_id_min_length_1_5(save_xml):
     """
@@ -9003,7 +8403,6 @@ def test_list_id_min_length_5_nistxml_sv_ii_list_id_min_length_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_9_nistxml_sv_ii_list_id_max_length_5_1(save_xml):
     """
@@ -9018,7 +8417,6 @@ def test_list_id_max_length_9_nistxml_sv_ii_list_id_max_length_5_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_9_nistxml_sv_ii_list_id_max_length_5_2(save_xml):
     """
@@ -9033,7 +8431,6 @@ def test_list_id_max_length_9_nistxml_sv_ii_list_id_max_length_5_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_9_nistxml_sv_ii_list_id_max_length_5_3(save_xml):
     """
@@ -9048,7 +8445,6 @@ def test_list_id_max_length_9_nistxml_sv_ii_list_id_max_length_5_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_9_nistxml_sv_ii_list_id_max_length_5_4(save_xml):
     """
@@ -9063,7 +8459,6 @@ def test_list_id_max_length_9_nistxml_sv_ii_list_id_max_length_5_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_9_nistxml_sv_ii_list_id_max_length_5_5(save_xml):
     """
@@ -9078,7 +8473,6 @@ def test_list_id_max_length_9_nistxml_sv_ii_list_id_max_length_5_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_8_nistxml_sv_ii_list_id_max_length_4_1(save_xml):
     """
@@ -9093,7 +8487,6 @@ def test_list_id_max_length_8_nistxml_sv_ii_list_id_max_length_4_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_8_nistxml_sv_ii_list_id_max_length_4_2(save_xml):
     """
@@ -9108,7 +8501,6 @@ def test_list_id_max_length_8_nistxml_sv_ii_list_id_max_length_4_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_8_nistxml_sv_ii_list_id_max_length_4_3(save_xml):
     """
@@ -9123,7 +8515,6 @@ def test_list_id_max_length_8_nistxml_sv_ii_list_id_max_length_4_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_8_nistxml_sv_ii_list_id_max_length_4_4(save_xml):
     """
@@ -9138,7 +8529,6 @@ def test_list_id_max_length_8_nistxml_sv_ii_list_id_max_length_4_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_8_nistxml_sv_ii_list_id_max_length_4_5(save_xml):
     """
@@ -9153,7 +8543,6 @@ def test_list_id_max_length_8_nistxml_sv_ii_list_id_max_length_4_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_7_nistxml_sv_ii_list_id_max_length_3_1(save_xml):
     """
@@ -9168,7 +8557,6 @@ def test_list_id_max_length_7_nistxml_sv_ii_list_id_max_length_3_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_7_nistxml_sv_ii_list_id_max_length_3_2(save_xml):
     """
@@ -9183,7 +8571,6 @@ def test_list_id_max_length_7_nistxml_sv_ii_list_id_max_length_3_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_7_nistxml_sv_ii_list_id_max_length_3_3(save_xml):
     """
@@ -9198,7 +8585,6 @@ def test_list_id_max_length_7_nistxml_sv_ii_list_id_max_length_3_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_7_nistxml_sv_ii_list_id_max_length_3_4(save_xml):
     """
@@ -9213,7 +8599,6 @@ def test_list_id_max_length_7_nistxml_sv_ii_list_id_max_length_3_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_7_nistxml_sv_ii_list_id_max_length_3_5(save_xml):
     """
@@ -9228,7 +8613,6 @@ def test_list_id_max_length_7_nistxml_sv_ii_list_id_max_length_3_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_6_nistxml_sv_ii_list_id_max_length_2_1(save_xml):
     """
@@ -9243,7 +8627,6 @@ def test_list_id_max_length_6_nistxml_sv_ii_list_id_max_length_2_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_6_nistxml_sv_ii_list_id_max_length_2_2(save_xml):
     """
@@ -9258,7 +8641,6 @@ def test_list_id_max_length_6_nistxml_sv_ii_list_id_max_length_2_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_6_nistxml_sv_ii_list_id_max_length_2_3(save_xml):
     """
@@ -9273,7 +8655,6 @@ def test_list_id_max_length_6_nistxml_sv_ii_list_id_max_length_2_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_6_nistxml_sv_ii_list_id_max_length_2_4(save_xml):
     """
@@ -9288,7 +8669,6 @@ def test_list_id_max_length_6_nistxml_sv_ii_list_id_max_length_2_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_6_nistxml_sv_ii_list_id_max_length_2_5(save_xml):
     """
@@ -9303,7 +8683,6 @@ def test_list_id_max_length_6_nistxml_sv_ii_list_id_max_length_2_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_5_nistxml_sv_ii_list_id_max_length_1_1(save_xml):
     """
@@ -9318,7 +8697,6 @@ def test_list_id_max_length_5_nistxml_sv_ii_list_id_max_length_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_5_nistxml_sv_ii_list_id_max_length_1_2(save_xml):
     """
@@ -9333,7 +8711,6 @@ def test_list_id_max_length_5_nistxml_sv_ii_list_id_max_length_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_5_nistxml_sv_ii_list_id_max_length_1_3(save_xml):
     """
@@ -9348,7 +8725,6 @@ def test_list_id_max_length_5_nistxml_sv_ii_list_id_max_length_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_5_nistxml_sv_ii_list_id_max_length_1_4(save_xml):
     """
@@ -9363,7 +8739,6 @@ def test_list_id_max_length_5_nistxml_sv_ii_list_id_max_length_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_id_max_length_5_nistxml_sv_ii_list_id_max_length_1_5(save_xml):
     """
@@ -9378,7 +8753,6 @@ def test_list_id_max_length_5_nistxml_sv_ii_list_id_max_length_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_9_nistxml_sv_ii_list_ncname_length_5_1(save_xml):
     """
@@ -9393,7 +8767,6 @@ def test_list_ncname_length_9_nistxml_sv_ii_list_ncname_length_5_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_9_nistxml_sv_ii_list_ncname_length_5_2(save_xml):
     """
@@ -9408,7 +8781,6 @@ def test_list_ncname_length_9_nistxml_sv_ii_list_ncname_length_5_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_9_nistxml_sv_ii_list_ncname_length_5_3(save_xml):
     """
@@ -9423,7 +8795,6 @@ def test_list_ncname_length_9_nistxml_sv_ii_list_ncname_length_5_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_9_nistxml_sv_ii_list_ncname_length_5_4(save_xml):
     """
@@ -9438,7 +8809,6 @@ def test_list_ncname_length_9_nistxml_sv_ii_list_ncname_length_5_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_9_nistxml_sv_ii_list_ncname_length_5_5(save_xml):
     """
@@ -9453,7 +8823,6 @@ def test_list_ncname_length_9_nistxml_sv_ii_list_ncname_length_5_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_8_nistxml_sv_ii_list_ncname_length_4_1(save_xml):
     """
@@ -9468,7 +8837,6 @@ def test_list_ncname_length_8_nistxml_sv_ii_list_ncname_length_4_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_8_nistxml_sv_ii_list_ncname_length_4_2(save_xml):
     """
@@ -9483,7 +8851,6 @@ def test_list_ncname_length_8_nistxml_sv_ii_list_ncname_length_4_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_8_nistxml_sv_ii_list_ncname_length_4_3(save_xml):
     """
@@ -9498,7 +8865,6 @@ def test_list_ncname_length_8_nistxml_sv_ii_list_ncname_length_4_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_8_nistxml_sv_ii_list_ncname_length_4_4(save_xml):
     """
@@ -9513,7 +8879,6 @@ def test_list_ncname_length_8_nistxml_sv_ii_list_ncname_length_4_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_8_nistxml_sv_ii_list_ncname_length_4_5(save_xml):
     """
@@ -9528,7 +8893,6 @@ def test_list_ncname_length_8_nistxml_sv_ii_list_ncname_length_4_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_7_nistxml_sv_ii_list_ncname_length_3_1(save_xml):
     """
@@ -9543,7 +8907,6 @@ def test_list_ncname_length_7_nistxml_sv_ii_list_ncname_length_3_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_7_nistxml_sv_ii_list_ncname_length_3_2(save_xml):
     """
@@ -9558,7 +8921,6 @@ def test_list_ncname_length_7_nistxml_sv_ii_list_ncname_length_3_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_7_nistxml_sv_ii_list_ncname_length_3_3(save_xml):
     """
@@ -9573,7 +8935,6 @@ def test_list_ncname_length_7_nistxml_sv_ii_list_ncname_length_3_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_7_nistxml_sv_ii_list_ncname_length_3_4(save_xml):
     """
@@ -9588,7 +8949,6 @@ def test_list_ncname_length_7_nistxml_sv_ii_list_ncname_length_3_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_7_nistxml_sv_ii_list_ncname_length_3_5(save_xml):
     """
@@ -9603,7 +8963,6 @@ def test_list_ncname_length_7_nistxml_sv_ii_list_ncname_length_3_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_6_nistxml_sv_ii_list_ncname_length_2_1(save_xml):
     """
@@ -9618,7 +8977,6 @@ def test_list_ncname_length_6_nistxml_sv_ii_list_ncname_length_2_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_6_nistxml_sv_ii_list_ncname_length_2_2(save_xml):
     """
@@ -9633,7 +8991,6 @@ def test_list_ncname_length_6_nistxml_sv_ii_list_ncname_length_2_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_6_nistxml_sv_ii_list_ncname_length_2_3(save_xml):
     """
@@ -9648,7 +9005,6 @@ def test_list_ncname_length_6_nistxml_sv_ii_list_ncname_length_2_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_6_nistxml_sv_ii_list_ncname_length_2_4(save_xml):
     """
@@ -9663,7 +9019,6 @@ def test_list_ncname_length_6_nistxml_sv_ii_list_ncname_length_2_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_6_nistxml_sv_ii_list_ncname_length_2_5(save_xml):
     """
@@ -9678,7 +9033,6 @@ def test_list_ncname_length_6_nistxml_sv_ii_list_ncname_length_2_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_5_nistxml_sv_ii_list_ncname_length_1_1(save_xml):
     """
@@ -9693,7 +9047,6 @@ def test_list_ncname_length_5_nistxml_sv_ii_list_ncname_length_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_5_nistxml_sv_ii_list_ncname_length_1_2(save_xml):
     """
@@ -9708,7 +9061,6 @@ def test_list_ncname_length_5_nistxml_sv_ii_list_ncname_length_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_5_nistxml_sv_ii_list_ncname_length_1_3(save_xml):
     """
@@ -9723,7 +9075,6 @@ def test_list_ncname_length_5_nistxml_sv_ii_list_ncname_length_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_5_nistxml_sv_ii_list_ncname_length_1_4(save_xml):
     """
@@ -9738,7 +9089,6 @@ def test_list_ncname_length_5_nistxml_sv_ii_list_ncname_length_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_length_5_nistxml_sv_ii_list_ncname_length_1_5(save_xml):
     """
@@ -9753,7 +9103,6 @@ def test_list_ncname_length_5_nistxml_sv_ii_list_ncname_length_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_9_nistxml_sv_ii_list_ncname_min_length_5_1(save_xml):
     """
@@ -9768,7 +9117,6 @@ def test_list_ncname_min_length_9_nistxml_sv_ii_list_ncname_min_length_5_1(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_9_nistxml_sv_ii_list_ncname_min_length_5_2(save_xml):
     """
@@ -9783,7 +9131,6 @@ def test_list_ncname_min_length_9_nistxml_sv_ii_list_ncname_min_length_5_2(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_9_nistxml_sv_ii_list_ncname_min_length_5_3(save_xml):
     """
@@ -9798,7 +9145,6 @@ def test_list_ncname_min_length_9_nistxml_sv_ii_list_ncname_min_length_5_3(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_9_nistxml_sv_ii_list_ncname_min_length_5_4(save_xml):
     """
@@ -9813,7 +9159,6 @@ def test_list_ncname_min_length_9_nistxml_sv_ii_list_ncname_min_length_5_4(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_9_nistxml_sv_ii_list_ncname_min_length_5_5(save_xml):
     """
@@ -9828,7 +9173,6 @@ def test_list_ncname_min_length_9_nistxml_sv_ii_list_ncname_min_length_5_5(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_8_nistxml_sv_ii_list_ncname_min_length_4_1(save_xml):
     """
@@ -9843,7 +9187,6 @@ def test_list_ncname_min_length_8_nistxml_sv_ii_list_ncname_min_length_4_1(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_8_nistxml_sv_ii_list_ncname_min_length_4_2(save_xml):
     """
@@ -9858,7 +9201,6 @@ def test_list_ncname_min_length_8_nistxml_sv_ii_list_ncname_min_length_4_2(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_8_nistxml_sv_ii_list_ncname_min_length_4_3(save_xml):
     """
@@ -9873,7 +9215,6 @@ def test_list_ncname_min_length_8_nistxml_sv_ii_list_ncname_min_length_4_3(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_8_nistxml_sv_ii_list_ncname_min_length_4_4(save_xml):
     """
@@ -9888,7 +9229,6 @@ def test_list_ncname_min_length_8_nistxml_sv_ii_list_ncname_min_length_4_4(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_8_nistxml_sv_ii_list_ncname_min_length_4_5(save_xml):
     """
@@ -9903,7 +9243,6 @@ def test_list_ncname_min_length_8_nistxml_sv_ii_list_ncname_min_length_4_5(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_7_nistxml_sv_ii_list_ncname_min_length_3_1(save_xml):
     """
@@ -9918,7 +9257,6 @@ def test_list_ncname_min_length_7_nistxml_sv_ii_list_ncname_min_length_3_1(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_7_nistxml_sv_ii_list_ncname_min_length_3_2(save_xml):
     """
@@ -9933,7 +9271,6 @@ def test_list_ncname_min_length_7_nistxml_sv_ii_list_ncname_min_length_3_2(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_7_nistxml_sv_ii_list_ncname_min_length_3_3(save_xml):
     """
@@ -9948,7 +9285,6 @@ def test_list_ncname_min_length_7_nistxml_sv_ii_list_ncname_min_length_3_3(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_7_nistxml_sv_ii_list_ncname_min_length_3_4(save_xml):
     """
@@ -9963,7 +9299,6 @@ def test_list_ncname_min_length_7_nistxml_sv_ii_list_ncname_min_length_3_4(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_7_nistxml_sv_ii_list_ncname_min_length_3_5(save_xml):
     """
@@ -9978,7 +9313,6 @@ def test_list_ncname_min_length_7_nistxml_sv_ii_list_ncname_min_length_3_5(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_6_nistxml_sv_ii_list_ncname_min_length_2_1(save_xml):
     """
@@ -9993,7 +9327,6 @@ def test_list_ncname_min_length_6_nistxml_sv_ii_list_ncname_min_length_2_1(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_6_nistxml_sv_ii_list_ncname_min_length_2_2(save_xml):
     """
@@ -10008,7 +9341,6 @@ def test_list_ncname_min_length_6_nistxml_sv_ii_list_ncname_min_length_2_2(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_6_nistxml_sv_ii_list_ncname_min_length_2_3(save_xml):
     """
@@ -10023,7 +9355,6 @@ def test_list_ncname_min_length_6_nistxml_sv_ii_list_ncname_min_length_2_3(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_6_nistxml_sv_ii_list_ncname_min_length_2_4(save_xml):
     """
@@ -10038,7 +9369,6 @@ def test_list_ncname_min_length_6_nistxml_sv_ii_list_ncname_min_length_2_4(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_6_nistxml_sv_ii_list_ncname_min_length_2_5(save_xml):
     """
@@ -10053,7 +9383,6 @@ def test_list_ncname_min_length_6_nistxml_sv_ii_list_ncname_min_length_2_5(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_5_nistxml_sv_ii_list_ncname_min_length_1_1(save_xml):
     """
@@ -10068,7 +9397,6 @@ def test_list_ncname_min_length_5_nistxml_sv_ii_list_ncname_min_length_1_1(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_5_nistxml_sv_ii_list_ncname_min_length_1_2(save_xml):
     """
@@ -10083,7 +9411,6 @@ def test_list_ncname_min_length_5_nistxml_sv_ii_list_ncname_min_length_1_2(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_5_nistxml_sv_ii_list_ncname_min_length_1_3(save_xml):
     """
@@ -10098,7 +9425,6 @@ def test_list_ncname_min_length_5_nistxml_sv_ii_list_ncname_min_length_1_3(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_5_nistxml_sv_ii_list_ncname_min_length_1_4(save_xml):
     """
@@ -10113,7 +9439,6 @@ def test_list_ncname_min_length_5_nistxml_sv_ii_list_ncname_min_length_1_4(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_min_length_5_nistxml_sv_ii_list_ncname_min_length_1_5(save_xml):
     """
@@ -10128,7 +9453,6 @@ def test_list_ncname_min_length_5_nistxml_sv_ii_list_ncname_min_length_1_5(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_9_nistxml_sv_ii_list_ncname_max_length_5_1(save_xml):
     """
@@ -10143,7 +9467,6 @@ def test_list_ncname_max_length_9_nistxml_sv_ii_list_ncname_max_length_5_1(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_9_nistxml_sv_ii_list_ncname_max_length_5_2(save_xml):
     """
@@ -10158,7 +9481,6 @@ def test_list_ncname_max_length_9_nistxml_sv_ii_list_ncname_max_length_5_2(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_9_nistxml_sv_ii_list_ncname_max_length_5_3(save_xml):
     """
@@ -10173,7 +9495,6 @@ def test_list_ncname_max_length_9_nistxml_sv_ii_list_ncname_max_length_5_3(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_9_nistxml_sv_ii_list_ncname_max_length_5_4(save_xml):
     """
@@ -10188,7 +9509,6 @@ def test_list_ncname_max_length_9_nistxml_sv_ii_list_ncname_max_length_5_4(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_9_nistxml_sv_ii_list_ncname_max_length_5_5(save_xml):
     """
@@ -10203,7 +9523,6 @@ def test_list_ncname_max_length_9_nistxml_sv_ii_list_ncname_max_length_5_5(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_8_nistxml_sv_ii_list_ncname_max_length_4_1(save_xml):
     """
@@ -10218,7 +9537,6 @@ def test_list_ncname_max_length_8_nistxml_sv_ii_list_ncname_max_length_4_1(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_8_nistxml_sv_ii_list_ncname_max_length_4_2(save_xml):
     """
@@ -10233,7 +9551,6 @@ def test_list_ncname_max_length_8_nistxml_sv_ii_list_ncname_max_length_4_2(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_8_nistxml_sv_ii_list_ncname_max_length_4_3(save_xml):
     """
@@ -10248,7 +9565,6 @@ def test_list_ncname_max_length_8_nistxml_sv_ii_list_ncname_max_length_4_3(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_8_nistxml_sv_ii_list_ncname_max_length_4_4(save_xml):
     """
@@ -10263,7 +9579,6 @@ def test_list_ncname_max_length_8_nistxml_sv_ii_list_ncname_max_length_4_4(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_8_nistxml_sv_ii_list_ncname_max_length_4_5(save_xml):
     """
@@ -10278,7 +9593,6 @@ def test_list_ncname_max_length_8_nistxml_sv_ii_list_ncname_max_length_4_5(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_7_nistxml_sv_ii_list_ncname_max_length_3_1(save_xml):
     """
@@ -10293,7 +9607,6 @@ def test_list_ncname_max_length_7_nistxml_sv_ii_list_ncname_max_length_3_1(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_7_nistxml_sv_ii_list_ncname_max_length_3_2(save_xml):
     """
@@ -10308,7 +9621,6 @@ def test_list_ncname_max_length_7_nistxml_sv_ii_list_ncname_max_length_3_2(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_7_nistxml_sv_ii_list_ncname_max_length_3_3(save_xml):
     """
@@ -10323,7 +9635,6 @@ def test_list_ncname_max_length_7_nistxml_sv_ii_list_ncname_max_length_3_3(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_7_nistxml_sv_ii_list_ncname_max_length_3_4(save_xml):
     """
@@ -10338,7 +9649,6 @@ def test_list_ncname_max_length_7_nistxml_sv_ii_list_ncname_max_length_3_4(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_7_nistxml_sv_ii_list_ncname_max_length_3_5(save_xml):
     """
@@ -10353,7 +9663,6 @@ def test_list_ncname_max_length_7_nistxml_sv_ii_list_ncname_max_length_3_5(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_6_nistxml_sv_ii_list_ncname_max_length_2_1(save_xml):
     """
@@ -10368,7 +9677,6 @@ def test_list_ncname_max_length_6_nistxml_sv_ii_list_ncname_max_length_2_1(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_6_nistxml_sv_ii_list_ncname_max_length_2_2(save_xml):
     """
@@ -10383,7 +9691,6 @@ def test_list_ncname_max_length_6_nistxml_sv_ii_list_ncname_max_length_2_2(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_6_nistxml_sv_ii_list_ncname_max_length_2_3(save_xml):
     """
@@ -10398,7 +9705,6 @@ def test_list_ncname_max_length_6_nistxml_sv_ii_list_ncname_max_length_2_3(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_6_nistxml_sv_ii_list_ncname_max_length_2_4(save_xml):
     """
@@ -10413,7 +9719,6 @@ def test_list_ncname_max_length_6_nistxml_sv_ii_list_ncname_max_length_2_4(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_6_nistxml_sv_ii_list_ncname_max_length_2_5(save_xml):
     """
@@ -10428,7 +9733,6 @@ def test_list_ncname_max_length_6_nistxml_sv_ii_list_ncname_max_length_2_5(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_5_nistxml_sv_ii_list_ncname_max_length_1_1(save_xml):
     """
@@ -10443,7 +9747,6 @@ def test_list_ncname_max_length_5_nistxml_sv_ii_list_ncname_max_length_1_1(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_5_nistxml_sv_ii_list_ncname_max_length_1_2(save_xml):
     """
@@ -10458,7 +9761,6 @@ def test_list_ncname_max_length_5_nistxml_sv_ii_list_ncname_max_length_1_2(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_5_nistxml_sv_ii_list_ncname_max_length_1_3(save_xml):
     """
@@ -10473,7 +9775,6 @@ def test_list_ncname_max_length_5_nistxml_sv_ii_list_ncname_max_length_1_3(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_5_nistxml_sv_ii_list_ncname_max_length_1_4(save_xml):
     """
@@ -10488,7 +9789,6 @@ def test_list_ncname_max_length_5_nistxml_sv_ii_list_ncname_max_length_1_4(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_ncname_max_length_5_nistxml_sv_ii_list_ncname_max_length_1_5(save_xml):
     """
@@ -10503,7 +9803,6 @@ def test_list_ncname_max_length_5_nistxml_sv_ii_list_ncname_max_length_1_5(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_9_nistxml_sv_ii_list_nmtokens_length_5_1(save_xml):
     """
@@ -10518,7 +9817,6 @@ def test_list_nmtokens_length_9_nistxml_sv_ii_list_nmtokens_length_5_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_9_nistxml_sv_ii_list_nmtokens_length_5_2(save_xml):
     """
@@ -10533,7 +9831,6 @@ def test_list_nmtokens_length_9_nistxml_sv_ii_list_nmtokens_length_5_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_9_nistxml_sv_ii_list_nmtokens_length_5_3(save_xml):
     """
@@ -10548,7 +9845,6 @@ def test_list_nmtokens_length_9_nistxml_sv_ii_list_nmtokens_length_5_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_9_nistxml_sv_ii_list_nmtokens_length_5_4(save_xml):
     """
@@ -10563,7 +9859,6 @@ def test_list_nmtokens_length_9_nistxml_sv_ii_list_nmtokens_length_5_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_9_nistxml_sv_ii_list_nmtokens_length_5_5(save_xml):
     """
@@ -10578,7 +9873,6 @@ def test_list_nmtokens_length_9_nistxml_sv_ii_list_nmtokens_length_5_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_8_nistxml_sv_ii_list_nmtokens_length_4_1(save_xml):
     """
@@ -10593,7 +9887,6 @@ def test_list_nmtokens_length_8_nistxml_sv_ii_list_nmtokens_length_4_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_8_nistxml_sv_ii_list_nmtokens_length_4_2(save_xml):
     """
@@ -10608,7 +9901,6 @@ def test_list_nmtokens_length_8_nistxml_sv_ii_list_nmtokens_length_4_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_8_nistxml_sv_ii_list_nmtokens_length_4_3(save_xml):
     """
@@ -10623,7 +9915,6 @@ def test_list_nmtokens_length_8_nistxml_sv_ii_list_nmtokens_length_4_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_8_nistxml_sv_ii_list_nmtokens_length_4_4(save_xml):
     """
@@ -10638,7 +9929,6 @@ def test_list_nmtokens_length_8_nistxml_sv_ii_list_nmtokens_length_4_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_8_nistxml_sv_ii_list_nmtokens_length_4_5(save_xml):
     """
@@ -10653,7 +9943,6 @@ def test_list_nmtokens_length_8_nistxml_sv_ii_list_nmtokens_length_4_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_7_nistxml_sv_ii_list_nmtokens_length_3_1(save_xml):
     """
@@ -10668,7 +9957,6 @@ def test_list_nmtokens_length_7_nistxml_sv_ii_list_nmtokens_length_3_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_7_nistxml_sv_ii_list_nmtokens_length_3_2(save_xml):
     """
@@ -10683,7 +9971,6 @@ def test_list_nmtokens_length_7_nistxml_sv_ii_list_nmtokens_length_3_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_7_nistxml_sv_ii_list_nmtokens_length_3_3(save_xml):
     """
@@ -10698,7 +9985,6 @@ def test_list_nmtokens_length_7_nistxml_sv_ii_list_nmtokens_length_3_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_7_nistxml_sv_ii_list_nmtokens_length_3_4(save_xml):
     """
@@ -10713,7 +9999,6 @@ def test_list_nmtokens_length_7_nistxml_sv_ii_list_nmtokens_length_3_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_7_nistxml_sv_ii_list_nmtokens_length_3_5(save_xml):
     """
@@ -10728,7 +10013,6 @@ def test_list_nmtokens_length_7_nistxml_sv_ii_list_nmtokens_length_3_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_6_nistxml_sv_ii_list_nmtokens_length_2_1(save_xml):
     """
@@ -10743,7 +10027,6 @@ def test_list_nmtokens_length_6_nistxml_sv_ii_list_nmtokens_length_2_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_6_nistxml_sv_ii_list_nmtokens_length_2_2(save_xml):
     """
@@ -10758,7 +10041,6 @@ def test_list_nmtokens_length_6_nistxml_sv_ii_list_nmtokens_length_2_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_6_nistxml_sv_ii_list_nmtokens_length_2_3(save_xml):
     """
@@ -10773,7 +10055,6 @@ def test_list_nmtokens_length_6_nistxml_sv_ii_list_nmtokens_length_2_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_6_nistxml_sv_ii_list_nmtokens_length_2_4(save_xml):
     """
@@ -10788,7 +10069,6 @@ def test_list_nmtokens_length_6_nistxml_sv_ii_list_nmtokens_length_2_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_6_nistxml_sv_ii_list_nmtokens_length_2_5(save_xml):
     """
@@ -10803,7 +10083,6 @@ def test_list_nmtokens_length_6_nistxml_sv_ii_list_nmtokens_length_2_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_5_nistxml_sv_ii_list_nmtokens_length_1_1(save_xml):
     """
@@ -10818,7 +10097,6 @@ def test_list_nmtokens_length_5_nistxml_sv_ii_list_nmtokens_length_1_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_5_nistxml_sv_ii_list_nmtokens_length_1_2(save_xml):
     """
@@ -10833,7 +10111,6 @@ def test_list_nmtokens_length_5_nistxml_sv_ii_list_nmtokens_length_1_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_5_nistxml_sv_ii_list_nmtokens_length_1_3(save_xml):
     """
@@ -10848,7 +10125,6 @@ def test_list_nmtokens_length_5_nistxml_sv_ii_list_nmtokens_length_1_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_5_nistxml_sv_ii_list_nmtokens_length_1_4(save_xml):
     """
@@ -10863,7 +10139,6 @@ def test_list_nmtokens_length_5_nistxml_sv_ii_list_nmtokens_length_1_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_length_5_nistxml_sv_ii_list_nmtokens_length_1_5(save_xml):
     """
@@ -10878,7 +10153,6 @@ def test_list_nmtokens_length_5_nistxml_sv_ii_list_nmtokens_length_1_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_9_nistxml_sv_ii_list_nmtokens_min_length_5_1(save_xml):
     """
@@ -10893,7 +10167,6 @@ def test_list_nmtokens_min_length_9_nistxml_sv_ii_list_nmtokens_min_length_5_1(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_9_nistxml_sv_ii_list_nmtokens_min_length_5_2(save_xml):
     """
@@ -10908,7 +10181,6 @@ def test_list_nmtokens_min_length_9_nistxml_sv_ii_list_nmtokens_min_length_5_2(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_9_nistxml_sv_ii_list_nmtokens_min_length_5_3(save_xml):
     """
@@ -10923,7 +10195,6 @@ def test_list_nmtokens_min_length_9_nistxml_sv_ii_list_nmtokens_min_length_5_3(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_9_nistxml_sv_ii_list_nmtokens_min_length_5_4(save_xml):
     """
@@ -10938,7 +10209,6 @@ def test_list_nmtokens_min_length_9_nistxml_sv_ii_list_nmtokens_min_length_5_4(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_9_nistxml_sv_ii_list_nmtokens_min_length_5_5(save_xml):
     """
@@ -10953,7 +10223,6 @@ def test_list_nmtokens_min_length_9_nistxml_sv_ii_list_nmtokens_min_length_5_5(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_8_nistxml_sv_ii_list_nmtokens_min_length_4_1(save_xml):
     """
@@ -10968,7 +10237,6 @@ def test_list_nmtokens_min_length_8_nistxml_sv_ii_list_nmtokens_min_length_4_1(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_8_nistxml_sv_ii_list_nmtokens_min_length_4_2(save_xml):
     """
@@ -10983,7 +10251,6 @@ def test_list_nmtokens_min_length_8_nistxml_sv_ii_list_nmtokens_min_length_4_2(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_8_nistxml_sv_ii_list_nmtokens_min_length_4_3(save_xml):
     """
@@ -10998,7 +10265,6 @@ def test_list_nmtokens_min_length_8_nistxml_sv_ii_list_nmtokens_min_length_4_3(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_8_nistxml_sv_ii_list_nmtokens_min_length_4_4(save_xml):
     """
@@ -11013,7 +10279,6 @@ def test_list_nmtokens_min_length_8_nistxml_sv_ii_list_nmtokens_min_length_4_4(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_8_nistxml_sv_ii_list_nmtokens_min_length_4_5(save_xml):
     """
@@ -11028,7 +10293,6 @@ def test_list_nmtokens_min_length_8_nistxml_sv_ii_list_nmtokens_min_length_4_5(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_7_nistxml_sv_ii_list_nmtokens_min_length_3_1(save_xml):
     """
@@ -11043,7 +10307,6 @@ def test_list_nmtokens_min_length_7_nistxml_sv_ii_list_nmtokens_min_length_3_1(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_7_nistxml_sv_ii_list_nmtokens_min_length_3_2(save_xml):
     """
@@ -11058,7 +10321,6 @@ def test_list_nmtokens_min_length_7_nistxml_sv_ii_list_nmtokens_min_length_3_2(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_7_nistxml_sv_ii_list_nmtokens_min_length_3_3(save_xml):
     """
@@ -11073,7 +10335,6 @@ def test_list_nmtokens_min_length_7_nistxml_sv_ii_list_nmtokens_min_length_3_3(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_7_nistxml_sv_ii_list_nmtokens_min_length_3_4(save_xml):
     """
@@ -11088,7 +10349,6 @@ def test_list_nmtokens_min_length_7_nistxml_sv_ii_list_nmtokens_min_length_3_4(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_7_nistxml_sv_ii_list_nmtokens_min_length_3_5(save_xml):
     """
@@ -11103,7 +10363,6 @@ def test_list_nmtokens_min_length_7_nistxml_sv_ii_list_nmtokens_min_length_3_5(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_6_nistxml_sv_ii_list_nmtokens_min_length_2_1(save_xml):
     """
@@ -11118,7 +10377,6 @@ def test_list_nmtokens_min_length_6_nistxml_sv_ii_list_nmtokens_min_length_2_1(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_6_nistxml_sv_ii_list_nmtokens_min_length_2_2(save_xml):
     """
@@ -11133,7 +10391,6 @@ def test_list_nmtokens_min_length_6_nistxml_sv_ii_list_nmtokens_min_length_2_2(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_6_nistxml_sv_ii_list_nmtokens_min_length_2_3(save_xml):
     """
@@ -11148,7 +10405,6 @@ def test_list_nmtokens_min_length_6_nistxml_sv_ii_list_nmtokens_min_length_2_3(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_6_nistxml_sv_ii_list_nmtokens_min_length_2_4(save_xml):
     """
@@ -11163,7 +10419,6 @@ def test_list_nmtokens_min_length_6_nistxml_sv_ii_list_nmtokens_min_length_2_4(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_6_nistxml_sv_ii_list_nmtokens_min_length_2_5(save_xml):
     """
@@ -11178,7 +10433,6 @@ def test_list_nmtokens_min_length_6_nistxml_sv_ii_list_nmtokens_min_length_2_5(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_5_nistxml_sv_ii_list_nmtokens_min_length_1_1(save_xml):
     """
@@ -11193,7 +10447,6 @@ def test_list_nmtokens_min_length_5_nistxml_sv_ii_list_nmtokens_min_length_1_1(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_5_nistxml_sv_ii_list_nmtokens_min_length_1_2(save_xml):
     """
@@ -11208,7 +10461,6 @@ def test_list_nmtokens_min_length_5_nistxml_sv_ii_list_nmtokens_min_length_1_2(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_5_nistxml_sv_ii_list_nmtokens_min_length_1_3(save_xml):
     """
@@ -11223,7 +10475,6 @@ def test_list_nmtokens_min_length_5_nistxml_sv_ii_list_nmtokens_min_length_1_3(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_5_nistxml_sv_ii_list_nmtokens_min_length_1_4(save_xml):
     """
@@ -11238,7 +10489,6 @@ def test_list_nmtokens_min_length_5_nistxml_sv_ii_list_nmtokens_min_length_1_4(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_min_length_5_nistxml_sv_ii_list_nmtokens_min_length_1_5(save_xml):
     """
@@ -11253,7 +10503,6 @@ def test_list_nmtokens_min_length_5_nistxml_sv_ii_list_nmtokens_min_length_1_5(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_9_nistxml_sv_ii_list_nmtokens_max_length_5_1(save_xml):
     """
@@ -11268,7 +10517,6 @@ def test_list_nmtokens_max_length_9_nistxml_sv_ii_list_nmtokens_max_length_5_1(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_9_nistxml_sv_ii_list_nmtokens_max_length_5_2(save_xml):
     """
@@ -11283,7 +10531,6 @@ def test_list_nmtokens_max_length_9_nistxml_sv_ii_list_nmtokens_max_length_5_2(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_9_nistxml_sv_ii_list_nmtokens_max_length_5_3(save_xml):
     """
@@ -11298,7 +10545,6 @@ def test_list_nmtokens_max_length_9_nistxml_sv_ii_list_nmtokens_max_length_5_3(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_9_nistxml_sv_ii_list_nmtokens_max_length_5_4(save_xml):
     """
@@ -11313,7 +10559,6 @@ def test_list_nmtokens_max_length_9_nistxml_sv_ii_list_nmtokens_max_length_5_4(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_9_nistxml_sv_ii_list_nmtokens_max_length_5_5(save_xml):
     """
@@ -11328,7 +10573,6 @@ def test_list_nmtokens_max_length_9_nistxml_sv_ii_list_nmtokens_max_length_5_5(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_8_nistxml_sv_ii_list_nmtokens_max_length_4_1(save_xml):
     """
@@ -11343,7 +10587,6 @@ def test_list_nmtokens_max_length_8_nistxml_sv_ii_list_nmtokens_max_length_4_1(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_8_nistxml_sv_ii_list_nmtokens_max_length_4_2(save_xml):
     """
@@ -11358,7 +10601,6 @@ def test_list_nmtokens_max_length_8_nistxml_sv_ii_list_nmtokens_max_length_4_2(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_8_nistxml_sv_ii_list_nmtokens_max_length_4_3(save_xml):
     """
@@ -11373,7 +10615,6 @@ def test_list_nmtokens_max_length_8_nistxml_sv_ii_list_nmtokens_max_length_4_3(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_8_nistxml_sv_ii_list_nmtokens_max_length_4_4(save_xml):
     """
@@ -11388,7 +10629,6 @@ def test_list_nmtokens_max_length_8_nistxml_sv_ii_list_nmtokens_max_length_4_4(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_8_nistxml_sv_ii_list_nmtokens_max_length_4_5(save_xml):
     """
@@ -11403,7 +10643,6 @@ def test_list_nmtokens_max_length_8_nistxml_sv_ii_list_nmtokens_max_length_4_5(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_7_nistxml_sv_ii_list_nmtokens_max_length_3_1(save_xml):
     """
@@ -11418,7 +10657,6 @@ def test_list_nmtokens_max_length_7_nistxml_sv_ii_list_nmtokens_max_length_3_1(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_7_nistxml_sv_ii_list_nmtokens_max_length_3_2(save_xml):
     """
@@ -11433,7 +10671,6 @@ def test_list_nmtokens_max_length_7_nistxml_sv_ii_list_nmtokens_max_length_3_2(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_7_nistxml_sv_ii_list_nmtokens_max_length_3_3(save_xml):
     """
@@ -11448,7 +10685,6 @@ def test_list_nmtokens_max_length_7_nistxml_sv_ii_list_nmtokens_max_length_3_3(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_7_nistxml_sv_ii_list_nmtokens_max_length_3_4(save_xml):
     """
@@ -11463,7 +10699,6 @@ def test_list_nmtokens_max_length_7_nistxml_sv_ii_list_nmtokens_max_length_3_4(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_7_nistxml_sv_ii_list_nmtokens_max_length_3_5(save_xml):
     """
@@ -11478,7 +10713,6 @@ def test_list_nmtokens_max_length_7_nistxml_sv_ii_list_nmtokens_max_length_3_5(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_6_nistxml_sv_ii_list_nmtokens_max_length_2_1(save_xml):
     """
@@ -11493,7 +10727,6 @@ def test_list_nmtokens_max_length_6_nistxml_sv_ii_list_nmtokens_max_length_2_1(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_6_nistxml_sv_ii_list_nmtokens_max_length_2_2(save_xml):
     """
@@ -11508,7 +10741,6 @@ def test_list_nmtokens_max_length_6_nistxml_sv_ii_list_nmtokens_max_length_2_2(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_6_nistxml_sv_ii_list_nmtokens_max_length_2_3(save_xml):
     """
@@ -11523,7 +10755,6 @@ def test_list_nmtokens_max_length_6_nistxml_sv_ii_list_nmtokens_max_length_2_3(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_6_nistxml_sv_ii_list_nmtokens_max_length_2_4(save_xml):
     """
@@ -11538,7 +10769,6 @@ def test_list_nmtokens_max_length_6_nistxml_sv_ii_list_nmtokens_max_length_2_4(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_6_nistxml_sv_ii_list_nmtokens_max_length_2_5(save_xml):
     """
@@ -11553,7 +10783,6 @@ def test_list_nmtokens_max_length_6_nistxml_sv_ii_list_nmtokens_max_length_2_5(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_5_nistxml_sv_ii_list_nmtokens_max_length_1_1(save_xml):
     """
@@ -11568,7 +10797,6 @@ def test_list_nmtokens_max_length_5_nistxml_sv_ii_list_nmtokens_max_length_1_1(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_5_nistxml_sv_ii_list_nmtokens_max_length_1_2(save_xml):
     """
@@ -11583,7 +10811,6 @@ def test_list_nmtokens_max_length_5_nistxml_sv_ii_list_nmtokens_max_length_1_2(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_5_nistxml_sv_ii_list_nmtokens_max_length_1_3(save_xml):
     """
@@ -11598,7 +10825,6 @@ def test_list_nmtokens_max_length_5_nistxml_sv_ii_list_nmtokens_max_length_1_3(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_5_nistxml_sv_ii_list_nmtokens_max_length_1_4(save_xml):
     """
@@ -11613,7 +10839,6 @@ def test_list_nmtokens_max_length_5_nistxml_sv_ii_list_nmtokens_max_length_1_4(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtokens_max_length_5_nistxml_sv_ii_list_nmtokens_max_length_1_5(save_xml):
     """
@@ -11628,7 +10853,6 @@ def test_list_nmtokens_max_length_5_nistxml_sv_ii_list_nmtokens_max_length_1_5(s
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_9_nistxml_sv_ii_list_nmtoken_length_5_1(save_xml):
     """
@@ -11643,7 +10867,6 @@ def test_list_nmtoken_length_9_nistxml_sv_ii_list_nmtoken_length_5_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_9_nistxml_sv_ii_list_nmtoken_length_5_2(save_xml):
     """
@@ -11658,7 +10881,6 @@ def test_list_nmtoken_length_9_nistxml_sv_ii_list_nmtoken_length_5_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_9_nistxml_sv_ii_list_nmtoken_length_5_3(save_xml):
     """
@@ -11673,7 +10895,6 @@ def test_list_nmtoken_length_9_nistxml_sv_ii_list_nmtoken_length_5_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_9_nistxml_sv_ii_list_nmtoken_length_5_4(save_xml):
     """
@@ -11688,7 +10909,6 @@ def test_list_nmtoken_length_9_nistxml_sv_ii_list_nmtoken_length_5_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_9_nistxml_sv_ii_list_nmtoken_length_5_5(save_xml):
     """
@@ -11703,7 +10923,6 @@ def test_list_nmtoken_length_9_nistxml_sv_ii_list_nmtoken_length_5_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_8_nistxml_sv_ii_list_nmtoken_length_4_1(save_xml):
     """
@@ -11718,7 +10937,6 @@ def test_list_nmtoken_length_8_nistxml_sv_ii_list_nmtoken_length_4_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_8_nistxml_sv_ii_list_nmtoken_length_4_2(save_xml):
     """
@@ -11733,7 +10951,6 @@ def test_list_nmtoken_length_8_nistxml_sv_ii_list_nmtoken_length_4_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_8_nistxml_sv_ii_list_nmtoken_length_4_3(save_xml):
     """
@@ -11748,7 +10965,6 @@ def test_list_nmtoken_length_8_nistxml_sv_ii_list_nmtoken_length_4_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_8_nistxml_sv_ii_list_nmtoken_length_4_4(save_xml):
     """
@@ -11763,7 +10979,6 @@ def test_list_nmtoken_length_8_nistxml_sv_ii_list_nmtoken_length_4_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_8_nistxml_sv_ii_list_nmtoken_length_4_5(save_xml):
     """
@@ -11778,7 +10993,6 @@ def test_list_nmtoken_length_8_nistxml_sv_ii_list_nmtoken_length_4_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_7_nistxml_sv_ii_list_nmtoken_length_3_1(save_xml):
     """
@@ -11793,7 +11007,6 @@ def test_list_nmtoken_length_7_nistxml_sv_ii_list_nmtoken_length_3_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_7_nistxml_sv_ii_list_nmtoken_length_3_2(save_xml):
     """
@@ -11808,7 +11021,6 @@ def test_list_nmtoken_length_7_nistxml_sv_ii_list_nmtoken_length_3_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_7_nistxml_sv_ii_list_nmtoken_length_3_3(save_xml):
     """
@@ -11823,7 +11035,6 @@ def test_list_nmtoken_length_7_nistxml_sv_ii_list_nmtoken_length_3_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_7_nistxml_sv_ii_list_nmtoken_length_3_4(save_xml):
     """
@@ -11838,7 +11049,6 @@ def test_list_nmtoken_length_7_nistxml_sv_ii_list_nmtoken_length_3_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_7_nistxml_sv_ii_list_nmtoken_length_3_5(save_xml):
     """
@@ -11853,7 +11063,6 @@ def test_list_nmtoken_length_7_nistxml_sv_ii_list_nmtoken_length_3_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_6_nistxml_sv_ii_list_nmtoken_length_2_1(save_xml):
     """
@@ -11868,7 +11077,6 @@ def test_list_nmtoken_length_6_nistxml_sv_ii_list_nmtoken_length_2_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_6_nistxml_sv_ii_list_nmtoken_length_2_2(save_xml):
     """
@@ -11883,7 +11091,6 @@ def test_list_nmtoken_length_6_nistxml_sv_ii_list_nmtoken_length_2_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_6_nistxml_sv_ii_list_nmtoken_length_2_3(save_xml):
     """
@@ -11898,7 +11105,6 @@ def test_list_nmtoken_length_6_nistxml_sv_ii_list_nmtoken_length_2_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_6_nistxml_sv_ii_list_nmtoken_length_2_4(save_xml):
     """
@@ -11913,7 +11119,6 @@ def test_list_nmtoken_length_6_nistxml_sv_ii_list_nmtoken_length_2_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_6_nistxml_sv_ii_list_nmtoken_length_2_5(save_xml):
     """
@@ -11928,7 +11133,6 @@ def test_list_nmtoken_length_6_nistxml_sv_ii_list_nmtoken_length_2_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_5_nistxml_sv_ii_list_nmtoken_length_1_1(save_xml):
     """
@@ -11943,7 +11147,6 @@ def test_list_nmtoken_length_5_nistxml_sv_ii_list_nmtoken_length_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_5_nistxml_sv_ii_list_nmtoken_length_1_2(save_xml):
     """
@@ -11958,7 +11161,6 @@ def test_list_nmtoken_length_5_nistxml_sv_ii_list_nmtoken_length_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_5_nistxml_sv_ii_list_nmtoken_length_1_3(save_xml):
     """
@@ -11973,7 +11175,6 @@ def test_list_nmtoken_length_5_nistxml_sv_ii_list_nmtoken_length_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_5_nistxml_sv_ii_list_nmtoken_length_1_4(save_xml):
     """
@@ -11988,7 +11189,6 @@ def test_list_nmtoken_length_5_nistxml_sv_ii_list_nmtoken_length_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_length_5_nistxml_sv_ii_list_nmtoken_length_1_5(save_xml):
     """
@@ -12003,7 +11203,6 @@ def test_list_nmtoken_length_5_nistxml_sv_ii_list_nmtoken_length_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_9_nistxml_sv_ii_list_nmtoken_min_length_5_1(save_xml):
     """
@@ -12018,7 +11217,6 @@ def test_list_nmtoken_min_length_9_nistxml_sv_ii_list_nmtoken_min_length_5_1(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_9_nistxml_sv_ii_list_nmtoken_min_length_5_2(save_xml):
     """
@@ -12033,7 +11231,6 @@ def test_list_nmtoken_min_length_9_nistxml_sv_ii_list_nmtoken_min_length_5_2(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_9_nistxml_sv_ii_list_nmtoken_min_length_5_3(save_xml):
     """
@@ -12048,7 +11245,6 @@ def test_list_nmtoken_min_length_9_nistxml_sv_ii_list_nmtoken_min_length_5_3(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_9_nistxml_sv_ii_list_nmtoken_min_length_5_4(save_xml):
     """
@@ -12063,7 +11259,6 @@ def test_list_nmtoken_min_length_9_nistxml_sv_ii_list_nmtoken_min_length_5_4(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_9_nistxml_sv_ii_list_nmtoken_min_length_5_5(save_xml):
     """
@@ -12078,7 +11273,6 @@ def test_list_nmtoken_min_length_9_nistxml_sv_ii_list_nmtoken_min_length_5_5(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_8_nistxml_sv_ii_list_nmtoken_min_length_4_1(save_xml):
     """
@@ -12093,7 +11287,6 @@ def test_list_nmtoken_min_length_8_nistxml_sv_ii_list_nmtoken_min_length_4_1(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_8_nistxml_sv_ii_list_nmtoken_min_length_4_2(save_xml):
     """
@@ -12108,7 +11301,6 @@ def test_list_nmtoken_min_length_8_nistxml_sv_ii_list_nmtoken_min_length_4_2(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_8_nistxml_sv_ii_list_nmtoken_min_length_4_3(save_xml):
     """
@@ -12123,7 +11315,6 @@ def test_list_nmtoken_min_length_8_nistxml_sv_ii_list_nmtoken_min_length_4_3(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_8_nistxml_sv_ii_list_nmtoken_min_length_4_4(save_xml):
     """
@@ -12138,7 +11329,6 @@ def test_list_nmtoken_min_length_8_nistxml_sv_ii_list_nmtoken_min_length_4_4(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_8_nistxml_sv_ii_list_nmtoken_min_length_4_5(save_xml):
     """
@@ -12153,7 +11343,6 @@ def test_list_nmtoken_min_length_8_nistxml_sv_ii_list_nmtoken_min_length_4_5(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_7_nistxml_sv_ii_list_nmtoken_min_length_3_1(save_xml):
     """
@@ -12168,7 +11357,6 @@ def test_list_nmtoken_min_length_7_nistxml_sv_ii_list_nmtoken_min_length_3_1(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_7_nistxml_sv_ii_list_nmtoken_min_length_3_2(save_xml):
     """
@@ -12183,7 +11371,6 @@ def test_list_nmtoken_min_length_7_nistxml_sv_ii_list_nmtoken_min_length_3_2(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_7_nistxml_sv_ii_list_nmtoken_min_length_3_3(save_xml):
     """
@@ -12198,7 +11385,6 @@ def test_list_nmtoken_min_length_7_nistxml_sv_ii_list_nmtoken_min_length_3_3(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_7_nistxml_sv_ii_list_nmtoken_min_length_3_4(save_xml):
     """
@@ -12213,7 +11399,6 @@ def test_list_nmtoken_min_length_7_nistxml_sv_ii_list_nmtoken_min_length_3_4(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_7_nistxml_sv_ii_list_nmtoken_min_length_3_5(save_xml):
     """
@@ -12228,7 +11413,6 @@ def test_list_nmtoken_min_length_7_nistxml_sv_ii_list_nmtoken_min_length_3_5(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_6_nistxml_sv_ii_list_nmtoken_min_length_2_1(save_xml):
     """
@@ -12243,7 +11427,6 @@ def test_list_nmtoken_min_length_6_nistxml_sv_ii_list_nmtoken_min_length_2_1(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_6_nistxml_sv_ii_list_nmtoken_min_length_2_2(save_xml):
     """
@@ -12258,7 +11441,6 @@ def test_list_nmtoken_min_length_6_nistxml_sv_ii_list_nmtoken_min_length_2_2(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_6_nistxml_sv_ii_list_nmtoken_min_length_2_3(save_xml):
     """
@@ -12273,7 +11455,6 @@ def test_list_nmtoken_min_length_6_nistxml_sv_ii_list_nmtoken_min_length_2_3(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_6_nistxml_sv_ii_list_nmtoken_min_length_2_4(save_xml):
     """
@@ -12288,7 +11469,6 @@ def test_list_nmtoken_min_length_6_nistxml_sv_ii_list_nmtoken_min_length_2_4(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_6_nistxml_sv_ii_list_nmtoken_min_length_2_5(save_xml):
     """
@@ -12303,7 +11483,6 @@ def test_list_nmtoken_min_length_6_nistxml_sv_ii_list_nmtoken_min_length_2_5(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_5_nistxml_sv_ii_list_nmtoken_min_length_1_1(save_xml):
     """
@@ -12318,7 +11497,6 @@ def test_list_nmtoken_min_length_5_nistxml_sv_ii_list_nmtoken_min_length_1_1(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_5_nistxml_sv_ii_list_nmtoken_min_length_1_2(save_xml):
     """
@@ -12333,7 +11511,6 @@ def test_list_nmtoken_min_length_5_nistxml_sv_ii_list_nmtoken_min_length_1_2(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_5_nistxml_sv_ii_list_nmtoken_min_length_1_3(save_xml):
     """
@@ -12348,7 +11525,6 @@ def test_list_nmtoken_min_length_5_nistxml_sv_ii_list_nmtoken_min_length_1_3(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_5_nistxml_sv_ii_list_nmtoken_min_length_1_4(save_xml):
     """
@@ -12363,7 +11539,6 @@ def test_list_nmtoken_min_length_5_nistxml_sv_ii_list_nmtoken_min_length_1_4(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_min_length_5_nistxml_sv_ii_list_nmtoken_min_length_1_5(save_xml):
     """
@@ -12378,7 +11553,6 @@ def test_list_nmtoken_min_length_5_nistxml_sv_ii_list_nmtoken_min_length_1_5(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_9_nistxml_sv_ii_list_nmtoken_max_length_5_1(save_xml):
     """
@@ -12393,7 +11567,6 @@ def test_list_nmtoken_max_length_9_nistxml_sv_ii_list_nmtoken_max_length_5_1(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_9_nistxml_sv_ii_list_nmtoken_max_length_5_2(save_xml):
     """
@@ -12408,7 +11581,6 @@ def test_list_nmtoken_max_length_9_nistxml_sv_ii_list_nmtoken_max_length_5_2(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_9_nistxml_sv_ii_list_nmtoken_max_length_5_3(save_xml):
     """
@@ -12423,7 +11595,6 @@ def test_list_nmtoken_max_length_9_nistxml_sv_ii_list_nmtoken_max_length_5_3(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_9_nistxml_sv_ii_list_nmtoken_max_length_5_4(save_xml):
     """
@@ -12438,7 +11609,6 @@ def test_list_nmtoken_max_length_9_nistxml_sv_ii_list_nmtoken_max_length_5_4(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_9_nistxml_sv_ii_list_nmtoken_max_length_5_5(save_xml):
     """
@@ -12453,7 +11623,6 @@ def test_list_nmtoken_max_length_9_nistxml_sv_ii_list_nmtoken_max_length_5_5(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_8_nistxml_sv_ii_list_nmtoken_max_length_4_1(save_xml):
     """
@@ -12468,7 +11637,6 @@ def test_list_nmtoken_max_length_8_nistxml_sv_ii_list_nmtoken_max_length_4_1(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_8_nistxml_sv_ii_list_nmtoken_max_length_4_2(save_xml):
     """
@@ -12483,7 +11651,6 @@ def test_list_nmtoken_max_length_8_nistxml_sv_ii_list_nmtoken_max_length_4_2(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_8_nistxml_sv_ii_list_nmtoken_max_length_4_3(save_xml):
     """
@@ -12498,7 +11665,6 @@ def test_list_nmtoken_max_length_8_nistxml_sv_ii_list_nmtoken_max_length_4_3(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_8_nistxml_sv_ii_list_nmtoken_max_length_4_4(save_xml):
     """
@@ -12513,7 +11679,6 @@ def test_list_nmtoken_max_length_8_nistxml_sv_ii_list_nmtoken_max_length_4_4(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_8_nistxml_sv_ii_list_nmtoken_max_length_4_5(save_xml):
     """
@@ -12528,7 +11693,6 @@ def test_list_nmtoken_max_length_8_nistxml_sv_ii_list_nmtoken_max_length_4_5(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_7_nistxml_sv_ii_list_nmtoken_max_length_3_1(save_xml):
     """
@@ -12543,7 +11707,6 @@ def test_list_nmtoken_max_length_7_nistxml_sv_ii_list_nmtoken_max_length_3_1(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_7_nistxml_sv_ii_list_nmtoken_max_length_3_2(save_xml):
     """
@@ -12558,7 +11721,6 @@ def test_list_nmtoken_max_length_7_nistxml_sv_ii_list_nmtoken_max_length_3_2(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_7_nistxml_sv_ii_list_nmtoken_max_length_3_3(save_xml):
     """
@@ -12573,7 +11735,6 @@ def test_list_nmtoken_max_length_7_nistxml_sv_ii_list_nmtoken_max_length_3_3(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_7_nistxml_sv_ii_list_nmtoken_max_length_3_4(save_xml):
     """
@@ -12588,7 +11749,6 @@ def test_list_nmtoken_max_length_7_nistxml_sv_ii_list_nmtoken_max_length_3_4(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_7_nistxml_sv_ii_list_nmtoken_max_length_3_5(save_xml):
     """
@@ -12603,7 +11763,6 @@ def test_list_nmtoken_max_length_7_nistxml_sv_ii_list_nmtoken_max_length_3_5(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_6_nistxml_sv_ii_list_nmtoken_max_length_2_1(save_xml):
     """
@@ -12618,7 +11777,6 @@ def test_list_nmtoken_max_length_6_nistxml_sv_ii_list_nmtoken_max_length_2_1(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_6_nistxml_sv_ii_list_nmtoken_max_length_2_2(save_xml):
     """
@@ -12633,7 +11791,6 @@ def test_list_nmtoken_max_length_6_nistxml_sv_ii_list_nmtoken_max_length_2_2(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_6_nistxml_sv_ii_list_nmtoken_max_length_2_3(save_xml):
     """
@@ -12648,7 +11805,6 @@ def test_list_nmtoken_max_length_6_nistxml_sv_ii_list_nmtoken_max_length_2_3(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_6_nistxml_sv_ii_list_nmtoken_max_length_2_4(save_xml):
     """
@@ -12663,7 +11819,6 @@ def test_list_nmtoken_max_length_6_nistxml_sv_ii_list_nmtoken_max_length_2_4(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_6_nistxml_sv_ii_list_nmtoken_max_length_2_5(save_xml):
     """
@@ -12678,7 +11833,6 @@ def test_list_nmtoken_max_length_6_nistxml_sv_ii_list_nmtoken_max_length_2_5(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_5_nistxml_sv_ii_list_nmtoken_max_length_1_1(save_xml):
     """
@@ -12693,7 +11847,6 @@ def test_list_nmtoken_max_length_5_nistxml_sv_ii_list_nmtoken_max_length_1_1(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_5_nistxml_sv_ii_list_nmtoken_max_length_1_2(save_xml):
     """
@@ -12708,7 +11861,6 @@ def test_list_nmtoken_max_length_5_nistxml_sv_ii_list_nmtoken_max_length_1_2(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_5_nistxml_sv_ii_list_nmtoken_max_length_1_3(save_xml):
     """
@@ -12723,7 +11875,6 @@ def test_list_nmtoken_max_length_5_nistxml_sv_ii_list_nmtoken_max_length_1_3(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_5_nistxml_sv_ii_list_nmtoken_max_length_1_4(save_xml):
     """
@@ -12738,7 +11889,6 @@ def test_list_nmtoken_max_length_5_nistxml_sv_ii_list_nmtoken_max_length_1_4(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_nmtoken_max_length_5_nistxml_sv_ii_list_nmtoken_max_length_1_5(save_xml):
     """
@@ -12753,7 +11903,6 @@ def test_list_nmtoken_max_length_5_nistxml_sv_ii_list_nmtoken_max_length_1_5(sav
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_9_nistxml_sv_ii_list_name_length_5_1(save_xml):
     """
@@ -12768,7 +11917,6 @@ def test_list_name_length_9_nistxml_sv_ii_list_name_length_5_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_9_nistxml_sv_ii_list_name_length_5_2(save_xml):
     """
@@ -12783,7 +11931,6 @@ def test_list_name_length_9_nistxml_sv_ii_list_name_length_5_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_9_nistxml_sv_ii_list_name_length_5_3(save_xml):
     """
@@ -12798,7 +11945,6 @@ def test_list_name_length_9_nistxml_sv_ii_list_name_length_5_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_9_nistxml_sv_ii_list_name_length_5_4(save_xml):
     """
@@ -12813,7 +11959,6 @@ def test_list_name_length_9_nistxml_sv_ii_list_name_length_5_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_9_nistxml_sv_ii_list_name_length_5_5(save_xml):
     """
@@ -12828,7 +11973,6 @@ def test_list_name_length_9_nistxml_sv_ii_list_name_length_5_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_8_nistxml_sv_ii_list_name_length_4_1(save_xml):
     """
@@ -12843,7 +11987,6 @@ def test_list_name_length_8_nistxml_sv_ii_list_name_length_4_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_8_nistxml_sv_ii_list_name_length_4_2(save_xml):
     """
@@ -12858,7 +12001,6 @@ def test_list_name_length_8_nistxml_sv_ii_list_name_length_4_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_8_nistxml_sv_ii_list_name_length_4_3(save_xml):
     """
@@ -12873,7 +12015,6 @@ def test_list_name_length_8_nistxml_sv_ii_list_name_length_4_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_8_nistxml_sv_ii_list_name_length_4_4(save_xml):
     """
@@ -12888,7 +12029,6 @@ def test_list_name_length_8_nistxml_sv_ii_list_name_length_4_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_8_nistxml_sv_ii_list_name_length_4_5(save_xml):
     """
@@ -12903,7 +12043,6 @@ def test_list_name_length_8_nistxml_sv_ii_list_name_length_4_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_7_nistxml_sv_ii_list_name_length_3_1(save_xml):
     """
@@ -12918,7 +12057,6 @@ def test_list_name_length_7_nistxml_sv_ii_list_name_length_3_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_7_nistxml_sv_ii_list_name_length_3_2(save_xml):
     """
@@ -12933,7 +12071,6 @@ def test_list_name_length_7_nistxml_sv_ii_list_name_length_3_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_7_nistxml_sv_ii_list_name_length_3_3(save_xml):
     """
@@ -12948,7 +12085,6 @@ def test_list_name_length_7_nistxml_sv_ii_list_name_length_3_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_7_nistxml_sv_ii_list_name_length_3_4(save_xml):
     """
@@ -12963,7 +12099,6 @@ def test_list_name_length_7_nistxml_sv_ii_list_name_length_3_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_7_nistxml_sv_ii_list_name_length_3_5(save_xml):
     """
@@ -12978,7 +12113,6 @@ def test_list_name_length_7_nistxml_sv_ii_list_name_length_3_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_6_nistxml_sv_ii_list_name_length_2_1(save_xml):
     """
@@ -12993,7 +12127,6 @@ def test_list_name_length_6_nistxml_sv_ii_list_name_length_2_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_6_nistxml_sv_ii_list_name_length_2_2(save_xml):
     """
@@ -13008,7 +12141,6 @@ def test_list_name_length_6_nistxml_sv_ii_list_name_length_2_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_6_nistxml_sv_ii_list_name_length_2_3(save_xml):
     """
@@ -13023,7 +12155,6 @@ def test_list_name_length_6_nistxml_sv_ii_list_name_length_2_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_6_nistxml_sv_ii_list_name_length_2_4(save_xml):
     """
@@ -13038,7 +12169,6 @@ def test_list_name_length_6_nistxml_sv_ii_list_name_length_2_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_6_nistxml_sv_ii_list_name_length_2_5(save_xml):
     """
@@ -13053,7 +12183,6 @@ def test_list_name_length_6_nistxml_sv_ii_list_name_length_2_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_5_nistxml_sv_ii_list_name_length_1_1(save_xml):
     """
@@ -13068,7 +12197,6 @@ def test_list_name_length_5_nistxml_sv_ii_list_name_length_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_5_nistxml_sv_ii_list_name_length_1_2(save_xml):
     """
@@ -13083,7 +12211,6 @@ def test_list_name_length_5_nistxml_sv_ii_list_name_length_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_5_nistxml_sv_ii_list_name_length_1_3(save_xml):
     """
@@ -13098,7 +12225,6 @@ def test_list_name_length_5_nistxml_sv_ii_list_name_length_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_5_nistxml_sv_ii_list_name_length_1_4(save_xml):
     """
@@ -13113,7 +12239,6 @@ def test_list_name_length_5_nistxml_sv_ii_list_name_length_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_length_5_nistxml_sv_ii_list_name_length_1_5(save_xml):
     """
@@ -13128,7 +12253,6 @@ def test_list_name_length_5_nistxml_sv_ii_list_name_length_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_9_nistxml_sv_ii_list_name_min_length_5_1(save_xml):
     """
@@ -13143,7 +12267,6 @@ def test_list_name_min_length_9_nistxml_sv_ii_list_name_min_length_5_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_9_nistxml_sv_ii_list_name_min_length_5_2(save_xml):
     """
@@ -13158,7 +12281,6 @@ def test_list_name_min_length_9_nistxml_sv_ii_list_name_min_length_5_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_9_nistxml_sv_ii_list_name_min_length_5_3(save_xml):
     """
@@ -13173,7 +12295,6 @@ def test_list_name_min_length_9_nistxml_sv_ii_list_name_min_length_5_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_9_nistxml_sv_ii_list_name_min_length_5_4(save_xml):
     """
@@ -13188,7 +12309,6 @@ def test_list_name_min_length_9_nistxml_sv_ii_list_name_min_length_5_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_9_nistxml_sv_ii_list_name_min_length_5_5(save_xml):
     """
@@ -13203,7 +12323,6 @@ def test_list_name_min_length_9_nistxml_sv_ii_list_name_min_length_5_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_8_nistxml_sv_ii_list_name_min_length_4_1(save_xml):
     """
@@ -13218,7 +12337,6 @@ def test_list_name_min_length_8_nistxml_sv_ii_list_name_min_length_4_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_8_nistxml_sv_ii_list_name_min_length_4_2(save_xml):
     """
@@ -13233,7 +12351,6 @@ def test_list_name_min_length_8_nistxml_sv_ii_list_name_min_length_4_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_8_nistxml_sv_ii_list_name_min_length_4_3(save_xml):
     """
@@ -13248,7 +12365,6 @@ def test_list_name_min_length_8_nistxml_sv_ii_list_name_min_length_4_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_8_nistxml_sv_ii_list_name_min_length_4_4(save_xml):
     """
@@ -13263,7 +12379,6 @@ def test_list_name_min_length_8_nistxml_sv_ii_list_name_min_length_4_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_8_nistxml_sv_ii_list_name_min_length_4_5(save_xml):
     """
@@ -13278,7 +12393,6 @@ def test_list_name_min_length_8_nistxml_sv_ii_list_name_min_length_4_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_7_nistxml_sv_ii_list_name_min_length_3_1(save_xml):
     """
@@ -13293,7 +12407,6 @@ def test_list_name_min_length_7_nistxml_sv_ii_list_name_min_length_3_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_7_nistxml_sv_ii_list_name_min_length_3_2(save_xml):
     """
@@ -13308,7 +12421,6 @@ def test_list_name_min_length_7_nistxml_sv_ii_list_name_min_length_3_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_7_nistxml_sv_ii_list_name_min_length_3_3(save_xml):
     """
@@ -13323,7 +12435,6 @@ def test_list_name_min_length_7_nistxml_sv_ii_list_name_min_length_3_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_7_nistxml_sv_ii_list_name_min_length_3_4(save_xml):
     """
@@ -13338,7 +12449,6 @@ def test_list_name_min_length_7_nistxml_sv_ii_list_name_min_length_3_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_7_nistxml_sv_ii_list_name_min_length_3_5(save_xml):
     """
@@ -13353,7 +12463,6 @@ def test_list_name_min_length_7_nistxml_sv_ii_list_name_min_length_3_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_6_nistxml_sv_ii_list_name_min_length_2_1(save_xml):
     """
@@ -13368,7 +12477,6 @@ def test_list_name_min_length_6_nistxml_sv_ii_list_name_min_length_2_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_6_nistxml_sv_ii_list_name_min_length_2_2(save_xml):
     """
@@ -13383,7 +12491,6 @@ def test_list_name_min_length_6_nistxml_sv_ii_list_name_min_length_2_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_6_nistxml_sv_ii_list_name_min_length_2_3(save_xml):
     """
@@ -13398,7 +12505,6 @@ def test_list_name_min_length_6_nistxml_sv_ii_list_name_min_length_2_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_6_nistxml_sv_ii_list_name_min_length_2_4(save_xml):
     """
@@ -13413,7 +12519,6 @@ def test_list_name_min_length_6_nistxml_sv_ii_list_name_min_length_2_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_6_nistxml_sv_ii_list_name_min_length_2_5(save_xml):
     """
@@ -13428,7 +12533,6 @@ def test_list_name_min_length_6_nistxml_sv_ii_list_name_min_length_2_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_5_nistxml_sv_ii_list_name_min_length_1_1(save_xml):
     """
@@ -13443,7 +12547,6 @@ def test_list_name_min_length_5_nistxml_sv_ii_list_name_min_length_1_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_5_nistxml_sv_ii_list_name_min_length_1_2(save_xml):
     """
@@ -13458,7 +12561,6 @@ def test_list_name_min_length_5_nistxml_sv_ii_list_name_min_length_1_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_5_nistxml_sv_ii_list_name_min_length_1_3(save_xml):
     """
@@ -13473,7 +12575,6 @@ def test_list_name_min_length_5_nistxml_sv_ii_list_name_min_length_1_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_5_nistxml_sv_ii_list_name_min_length_1_4(save_xml):
     """
@@ -13488,7 +12589,6 @@ def test_list_name_min_length_5_nistxml_sv_ii_list_name_min_length_1_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_min_length_5_nistxml_sv_ii_list_name_min_length_1_5(save_xml):
     """
@@ -13503,7 +12603,6 @@ def test_list_name_min_length_5_nistxml_sv_ii_list_name_min_length_1_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_9_nistxml_sv_ii_list_name_max_length_5_1(save_xml):
     """
@@ -13518,7 +12617,6 @@ def test_list_name_max_length_9_nistxml_sv_ii_list_name_max_length_5_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_9_nistxml_sv_ii_list_name_max_length_5_2(save_xml):
     """
@@ -13533,7 +12631,6 @@ def test_list_name_max_length_9_nistxml_sv_ii_list_name_max_length_5_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_9_nistxml_sv_ii_list_name_max_length_5_3(save_xml):
     """
@@ -13548,7 +12645,6 @@ def test_list_name_max_length_9_nistxml_sv_ii_list_name_max_length_5_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_9_nistxml_sv_ii_list_name_max_length_5_4(save_xml):
     """
@@ -13563,7 +12659,6 @@ def test_list_name_max_length_9_nistxml_sv_ii_list_name_max_length_5_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_9_nistxml_sv_ii_list_name_max_length_5_5(save_xml):
     """
@@ -13578,7 +12673,6 @@ def test_list_name_max_length_9_nistxml_sv_ii_list_name_max_length_5_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_8_nistxml_sv_ii_list_name_max_length_4_1(save_xml):
     """
@@ -13593,7 +12687,6 @@ def test_list_name_max_length_8_nistxml_sv_ii_list_name_max_length_4_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_8_nistxml_sv_ii_list_name_max_length_4_2(save_xml):
     """
@@ -13608,7 +12701,6 @@ def test_list_name_max_length_8_nistxml_sv_ii_list_name_max_length_4_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_8_nistxml_sv_ii_list_name_max_length_4_3(save_xml):
     """
@@ -13623,7 +12715,6 @@ def test_list_name_max_length_8_nistxml_sv_ii_list_name_max_length_4_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_8_nistxml_sv_ii_list_name_max_length_4_4(save_xml):
     """
@@ -13638,7 +12729,6 @@ def test_list_name_max_length_8_nistxml_sv_ii_list_name_max_length_4_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_8_nistxml_sv_ii_list_name_max_length_4_5(save_xml):
     """
@@ -13653,7 +12743,6 @@ def test_list_name_max_length_8_nistxml_sv_ii_list_name_max_length_4_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_7_nistxml_sv_ii_list_name_max_length_3_1(save_xml):
     """
@@ -13668,7 +12757,6 @@ def test_list_name_max_length_7_nistxml_sv_ii_list_name_max_length_3_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_7_nistxml_sv_ii_list_name_max_length_3_2(save_xml):
     """
@@ -13683,7 +12771,6 @@ def test_list_name_max_length_7_nistxml_sv_ii_list_name_max_length_3_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_7_nistxml_sv_ii_list_name_max_length_3_3(save_xml):
     """
@@ -13698,7 +12785,6 @@ def test_list_name_max_length_7_nistxml_sv_ii_list_name_max_length_3_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_7_nistxml_sv_ii_list_name_max_length_3_4(save_xml):
     """
@@ -13713,7 +12799,6 @@ def test_list_name_max_length_7_nistxml_sv_ii_list_name_max_length_3_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_7_nistxml_sv_ii_list_name_max_length_3_5(save_xml):
     """
@@ -13728,7 +12813,6 @@ def test_list_name_max_length_7_nistxml_sv_ii_list_name_max_length_3_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_6_nistxml_sv_ii_list_name_max_length_2_1(save_xml):
     """
@@ -13743,7 +12827,6 @@ def test_list_name_max_length_6_nistxml_sv_ii_list_name_max_length_2_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_6_nistxml_sv_ii_list_name_max_length_2_2(save_xml):
     """
@@ -13758,7 +12841,6 @@ def test_list_name_max_length_6_nistxml_sv_ii_list_name_max_length_2_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_6_nistxml_sv_ii_list_name_max_length_2_3(save_xml):
     """
@@ -13773,7 +12855,6 @@ def test_list_name_max_length_6_nistxml_sv_ii_list_name_max_length_2_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_6_nistxml_sv_ii_list_name_max_length_2_4(save_xml):
     """
@@ -13788,7 +12869,6 @@ def test_list_name_max_length_6_nistxml_sv_ii_list_name_max_length_2_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_6_nistxml_sv_ii_list_name_max_length_2_5(save_xml):
     """
@@ -13803,7 +12883,6 @@ def test_list_name_max_length_6_nistxml_sv_ii_list_name_max_length_2_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_5_nistxml_sv_ii_list_name_max_length_1_1(save_xml):
     """
@@ -13818,7 +12897,6 @@ def test_list_name_max_length_5_nistxml_sv_ii_list_name_max_length_1_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_5_nistxml_sv_ii_list_name_max_length_1_2(save_xml):
     """
@@ -13833,7 +12911,6 @@ def test_list_name_max_length_5_nistxml_sv_ii_list_name_max_length_1_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_5_nistxml_sv_ii_list_name_max_length_1_3(save_xml):
     """
@@ -13848,7 +12925,6 @@ def test_list_name_max_length_5_nistxml_sv_ii_list_name_max_length_1_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_5_nistxml_sv_ii_list_name_max_length_1_4(save_xml):
     """
@@ -13863,7 +12939,6 @@ def test_list_name_max_length_5_nistxml_sv_ii_list_name_max_length_1_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_name_max_length_5_nistxml_sv_ii_list_name_max_length_1_5(save_xml):
     """
@@ -13878,7 +12953,6 @@ def test_list_name_max_length_5_nistxml_sv_ii_list_name_max_length_1_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_9_nistxml_sv_ii_list_token_length_5_1(save_xml):
     """
@@ -13893,7 +12967,6 @@ def test_list_token_length_9_nistxml_sv_ii_list_token_length_5_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_9_nistxml_sv_ii_list_token_length_5_2(save_xml):
     """
@@ -13908,7 +12981,6 @@ def test_list_token_length_9_nistxml_sv_ii_list_token_length_5_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_9_nistxml_sv_ii_list_token_length_5_3(save_xml):
     """
@@ -13923,7 +12995,6 @@ def test_list_token_length_9_nistxml_sv_ii_list_token_length_5_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_9_nistxml_sv_ii_list_token_length_5_4(save_xml):
     """
@@ -13938,7 +13009,6 @@ def test_list_token_length_9_nistxml_sv_ii_list_token_length_5_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_9_nistxml_sv_ii_list_token_length_5_5(save_xml):
     """
@@ -13953,7 +13023,6 @@ def test_list_token_length_9_nistxml_sv_ii_list_token_length_5_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_8_nistxml_sv_ii_list_token_length_4_1(save_xml):
     """
@@ -13968,7 +13037,6 @@ def test_list_token_length_8_nistxml_sv_ii_list_token_length_4_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_8_nistxml_sv_ii_list_token_length_4_2(save_xml):
     """
@@ -13983,7 +13051,6 @@ def test_list_token_length_8_nistxml_sv_ii_list_token_length_4_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_8_nistxml_sv_ii_list_token_length_4_3(save_xml):
     """
@@ -13998,7 +13065,6 @@ def test_list_token_length_8_nistxml_sv_ii_list_token_length_4_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_8_nistxml_sv_ii_list_token_length_4_4(save_xml):
     """
@@ -14013,7 +13079,6 @@ def test_list_token_length_8_nistxml_sv_ii_list_token_length_4_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_8_nistxml_sv_ii_list_token_length_4_5(save_xml):
     """
@@ -14028,7 +13093,6 @@ def test_list_token_length_8_nistxml_sv_ii_list_token_length_4_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_7_nistxml_sv_ii_list_token_length_3_1(save_xml):
     """
@@ -14043,7 +13107,6 @@ def test_list_token_length_7_nistxml_sv_ii_list_token_length_3_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_7_nistxml_sv_ii_list_token_length_3_2(save_xml):
     """
@@ -14058,7 +13121,6 @@ def test_list_token_length_7_nistxml_sv_ii_list_token_length_3_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_7_nistxml_sv_ii_list_token_length_3_3(save_xml):
     """
@@ -14073,7 +13135,6 @@ def test_list_token_length_7_nistxml_sv_ii_list_token_length_3_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_7_nistxml_sv_ii_list_token_length_3_4(save_xml):
     """
@@ -14088,7 +13149,6 @@ def test_list_token_length_7_nistxml_sv_ii_list_token_length_3_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_7_nistxml_sv_ii_list_token_length_3_5(save_xml):
     """
@@ -14103,7 +13163,6 @@ def test_list_token_length_7_nistxml_sv_ii_list_token_length_3_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_6_nistxml_sv_ii_list_token_length_2_1(save_xml):
     """
@@ -14118,7 +13177,6 @@ def test_list_token_length_6_nistxml_sv_ii_list_token_length_2_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_6_nistxml_sv_ii_list_token_length_2_2(save_xml):
     """
@@ -14133,7 +13191,6 @@ def test_list_token_length_6_nistxml_sv_ii_list_token_length_2_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_6_nistxml_sv_ii_list_token_length_2_3(save_xml):
     """
@@ -14148,7 +13205,6 @@ def test_list_token_length_6_nistxml_sv_ii_list_token_length_2_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_6_nistxml_sv_ii_list_token_length_2_4(save_xml):
     """
@@ -14163,7 +13219,6 @@ def test_list_token_length_6_nistxml_sv_ii_list_token_length_2_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_6_nistxml_sv_ii_list_token_length_2_5(save_xml):
     """
@@ -14178,7 +13233,6 @@ def test_list_token_length_6_nistxml_sv_ii_list_token_length_2_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_5_nistxml_sv_ii_list_token_length_1_1(save_xml):
     """
@@ -14193,7 +13247,6 @@ def test_list_token_length_5_nistxml_sv_ii_list_token_length_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_5_nistxml_sv_ii_list_token_length_1_2(save_xml):
     """
@@ -14208,7 +13261,6 @@ def test_list_token_length_5_nistxml_sv_ii_list_token_length_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_5_nistxml_sv_ii_list_token_length_1_3(save_xml):
     """
@@ -14223,7 +13275,6 @@ def test_list_token_length_5_nistxml_sv_ii_list_token_length_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_5_nistxml_sv_ii_list_token_length_1_4(save_xml):
     """
@@ -14238,7 +13289,6 @@ def test_list_token_length_5_nistxml_sv_ii_list_token_length_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_length_5_nistxml_sv_ii_list_token_length_1_5(save_xml):
     """
@@ -14253,7 +13303,6 @@ def test_list_token_length_5_nistxml_sv_ii_list_token_length_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_9_nistxml_sv_ii_list_token_min_length_5_1(save_xml):
     """
@@ -14268,7 +13317,6 @@ def test_list_token_min_length_9_nistxml_sv_ii_list_token_min_length_5_1(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_9_nistxml_sv_ii_list_token_min_length_5_2(save_xml):
     """
@@ -14283,7 +13331,6 @@ def test_list_token_min_length_9_nistxml_sv_ii_list_token_min_length_5_2(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_9_nistxml_sv_ii_list_token_min_length_5_3(save_xml):
     """
@@ -14298,7 +13345,6 @@ def test_list_token_min_length_9_nistxml_sv_ii_list_token_min_length_5_3(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_9_nistxml_sv_ii_list_token_min_length_5_4(save_xml):
     """
@@ -14313,7 +13359,6 @@ def test_list_token_min_length_9_nistxml_sv_ii_list_token_min_length_5_4(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_9_nistxml_sv_ii_list_token_min_length_5_5(save_xml):
     """
@@ -14328,7 +13373,6 @@ def test_list_token_min_length_9_nistxml_sv_ii_list_token_min_length_5_5(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_8_nistxml_sv_ii_list_token_min_length_4_1(save_xml):
     """
@@ -14343,7 +13387,6 @@ def test_list_token_min_length_8_nistxml_sv_ii_list_token_min_length_4_1(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_8_nistxml_sv_ii_list_token_min_length_4_2(save_xml):
     """
@@ -14358,7 +13401,6 @@ def test_list_token_min_length_8_nistxml_sv_ii_list_token_min_length_4_2(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_8_nistxml_sv_ii_list_token_min_length_4_3(save_xml):
     """
@@ -14373,7 +13415,6 @@ def test_list_token_min_length_8_nistxml_sv_ii_list_token_min_length_4_3(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_8_nistxml_sv_ii_list_token_min_length_4_4(save_xml):
     """
@@ -14388,7 +13429,6 @@ def test_list_token_min_length_8_nistxml_sv_ii_list_token_min_length_4_4(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_8_nistxml_sv_ii_list_token_min_length_4_5(save_xml):
     """
@@ -14403,7 +13443,6 @@ def test_list_token_min_length_8_nistxml_sv_ii_list_token_min_length_4_5(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_7_nistxml_sv_ii_list_token_min_length_3_1(save_xml):
     """
@@ -14418,7 +13457,6 @@ def test_list_token_min_length_7_nistxml_sv_ii_list_token_min_length_3_1(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_7_nistxml_sv_ii_list_token_min_length_3_2(save_xml):
     """
@@ -14433,7 +13471,6 @@ def test_list_token_min_length_7_nistxml_sv_ii_list_token_min_length_3_2(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_7_nistxml_sv_ii_list_token_min_length_3_3(save_xml):
     """
@@ -14448,7 +13485,6 @@ def test_list_token_min_length_7_nistxml_sv_ii_list_token_min_length_3_3(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_7_nistxml_sv_ii_list_token_min_length_3_4(save_xml):
     """
@@ -14463,7 +13499,6 @@ def test_list_token_min_length_7_nistxml_sv_ii_list_token_min_length_3_4(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_7_nistxml_sv_ii_list_token_min_length_3_5(save_xml):
     """
@@ -14478,7 +13513,6 @@ def test_list_token_min_length_7_nistxml_sv_ii_list_token_min_length_3_5(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_6_nistxml_sv_ii_list_token_min_length_2_1(save_xml):
     """
@@ -14493,7 +13527,6 @@ def test_list_token_min_length_6_nistxml_sv_ii_list_token_min_length_2_1(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_6_nistxml_sv_ii_list_token_min_length_2_2(save_xml):
     """
@@ -14508,7 +13541,6 @@ def test_list_token_min_length_6_nistxml_sv_ii_list_token_min_length_2_2(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_6_nistxml_sv_ii_list_token_min_length_2_3(save_xml):
     """
@@ -14523,7 +13555,6 @@ def test_list_token_min_length_6_nistxml_sv_ii_list_token_min_length_2_3(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_6_nistxml_sv_ii_list_token_min_length_2_4(save_xml):
     """
@@ -14538,7 +13569,6 @@ def test_list_token_min_length_6_nistxml_sv_ii_list_token_min_length_2_4(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_6_nistxml_sv_ii_list_token_min_length_2_5(save_xml):
     """
@@ -14553,7 +13583,6 @@ def test_list_token_min_length_6_nistxml_sv_ii_list_token_min_length_2_5(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_5_nistxml_sv_ii_list_token_min_length_1_1(save_xml):
     """
@@ -14568,7 +13597,6 @@ def test_list_token_min_length_5_nistxml_sv_ii_list_token_min_length_1_1(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_5_nistxml_sv_ii_list_token_min_length_1_2(save_xml):
     """
@@ -14583,7 +13611,6 @@ def test_list_token_min_length_5_nistxml_sv_ii_list_token_min_length_1_2(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_5_nistxml_sv_ii_list_token_min_length_1_3(save_xml):
     """
@@ -14598,7 +13625,6 @@ def test_list_token_min_length_5_nistxml_sv_ii_list_token_min_length_1_3(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_5_nistxml_sv_ii_list_token_min_length_1_4(save_xml):
     """
@@ -14613,7 +13639,6 @@ def test_list_token_min_length_5_nistxml_sv_ii_list_token_min_length_1_4(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_min_length_5_nistxml_sv_ii_list_token_min_length_1_5(save_xml):
     """
@@ -14628,7 +13653,6 @@ def test_list_token_min_length_5_nistxml_sv_ii_list_token_min_length_1_5(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_9_nistxml_sv_ii_list_token_max_length_5_1(save_xml):
     """
@@ -14643,7 +13667,6 @@ def test_list_token_max_length_9_nistxml_sv_ii_list_token_max_length_5_1(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_9_nistxml_sv_ii_list_token_max_length_5_2(save_xml):
     """
@@ -14658,7 +13681,6 @@ def test_list_token_max_length_9_nistxml_sv_ii_list_token_max_length_5_2(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_9_nistxml_sv_ii_list_token_max_length_5_3(save_xml):
     """
@@ -14673,7 +13695,6 @@ def test_list_token_max_length_9_nistxml_sv_ii_list_token_max_length_5_3(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_9_nistxml_sv_ii_list_token_max_length_5_4(save_xml):
     """
@@ -14688,7 +13709,6 @@ def test_list_token_max_length_9_nistxml_sv_ii_list_token_max_length_5_4(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_9_nistxml_sv_ii_list_token_max_length_5_5(save_xml):
     """
@@ -14703,7 +13723,6 @@ def test_list_token_max_length_9_nistxml_sv_ii_list_token_max_length_5_5(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_8_nistxml_sv_ii_list_token_max_length_4_1(save_xml):
     """
@@ -14718,7 +13737,6 @@ def test_list_token_max_length_8_nistxml_sv_ii_list_token_max_length_4_1(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_8_nistxml_sv_ii_list_token_max_length_4_2(save_xml):
     """
@@ -14733,7 +13751,6 @@ def test_list_token_max_length_8_nistxml_sv_ii_list_token_max_length_4_2(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_8_nistxml_sv_ii_list_token_max_length_4_3(save_xml):
     """
@@ -14748,7 +13765,6 @@ def test_list_token_max_length_8_nistxml_sv_ii_list_token_max_length_4_3(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_8_nistxml_sv_ii_list_token_max_length_4_4(save_xml):
     """
@@ -14763,7 +13779,6 @@ def test_list_token_max_length_8_nistxml_sv_ii_list_token_max_length_4_4(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_8_nistxml_sv_ii_list_token_max_length_4_5(save_xml):
     """
@@ -14778,7 +13793,6 @@ def test_list_token_max_length_8_nistxml_sv_ii_list_token_max_length_4_5(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_7_nistxml_sv_ii_list_token_max_length_3_1(save_xml):
     """
@@ -14793,7 +13807,6 @@ def test_list_token_max_length_7_nistxml_sv_ii_list_token_max_length_3_1(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_7_nistxml_sv_ii_list_token_max_length_3_2(save_xml):
     """
@@ -14808,7 +13821,6 @@ def test_list_token_max_length_7_nistxml_sv_ii_list_token_max_length_3_2(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_7_nistxml_sv_ii_list_token_max_length_3_3(save_xml):
     """
@@ -14823,7 +13835,6 @@ def test_list_token_max_length_7_nistxml_sv_ii_list_token_max_length_3_3(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_7_nistxml_sv_ii_list_token_max_length_3_4(save_xml):
     """
@@ -14838,7 +13849,6 @@ def test_list_token_max_length_7_nistxml_sv_ii_list_token_max_length_3_4(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_7_nistxml_sv_ii_list_token_max_length_3_5(save_xml):
     """
@@ -14853,7 +13863,6 @@ def test_list_token_max_length_7_nistxml_sv_ii_list_token_max_length_3_5(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_6_nistxml_sv_ii_list_token_max_length_2_1(save_xml):
     """
@@ -14868,7 +13877,6 @@ def test_list_token_max_length_6_nistxml_sv_ii_list_token_max_length_2_1(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_6_nistxml_sv_ii_list_token_max_length_2_2(save_xml):
     """
@@ -14883,7 +13891,6 @@ def test_list_token_max_length_6_nistxml_sv_ii_list_token_max_length_2_2(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_6_nistxml_sv_ii_list_token_max_length_2_3(save_xml):
     """
@@ -14898,7 +13905,6 @@ def test_list_token_max_length_6_nistxml_sv_ii_list_token_max_length_2_3(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_6_nistxml_sv_ii_list_token_max_length_2_4(save_xml):
     """
@@ -14913,7 +13919,6 @@ def test_list_token_max_length_6_nistxml_sv_ii_list_token_max_length_2_4(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_6_nistxml_sv_ii_list_token_max_length_2_5(save_xml):
     """
@@ -14928,7 +13933,6 @@ def test_list_token_max_length_6_nistxml_sv_ii_list_token_max_length_2_5(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_5_nistxml_sv_ii_list_token_max_length_1_1(save_xml):
     """
@@ -14943,7 +13947,6 @@ def test_list_token_max_length_5_nistxml_sv_ii_list_token_max_length_1_1(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_5_nistxml_sv_ii_list_token_max_length_1_2(save_xml):
     """
@@ -14958,7 +13961,6 @@ def test_list_token_max_length_5_nistxml_sv_ii_list_token_max_length_1_2(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_5_nistxml_sv_ii_list_token_max_length_1_3(save_xml):
     """
@@ -14973,7 +13975,6 @@ def test_list_token_max_length_5_nistxml_sv_ii_list_token_max_length_1_3(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_5_nistxml_sv_ii_list_token_max_length_1_4(save_xml):
     """
@@ -14988,7 +13989,6 @@ def test_list_token_max_length_5_nistxml_sv_ii_list_token_max_length_1_4(save_xm
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_list_token_max_length_5_nistxml_sv_ii_list_token_max_length_1_5(save_xml):
     """

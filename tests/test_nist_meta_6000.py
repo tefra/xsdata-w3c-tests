@@ -1,9 +1,6 @@
-import pytest
-
 from tests.utils import assert_bindings
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_4_nistxml_sv_iv_list_any_uri_max_length_5_1(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 10.
@@ -17,7 +14,6 @@ def test_list_any_uri_max_length_4_nistxml_sv_iv_list_any_uri_max_length_5_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_4_nistxml_sv_iv_list_any_uri_max_length_5_2(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 10.
@@ -31,7 +27,6 @@ def test_list_any_uri_max_length_4_nistxml_sv_iv_list_any_uri_max_length_5_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_4_nistxml_sv_iv_list_any_uri_max_length_5_3(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 10.
@@ -45,7 +40,6 @@ def test_list_any_uri_max_length_4_nistxml_sv_iv_list_any_uri_max_length_5_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_4_nistxml_sv_iv_list_any_uri_max_length_5_4(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 10.
@@ -59,7 +53,6 @@ def test_list_any_uri_max_length_4_nistxml_sv_iv_list_any_uri_max_length_5_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_4_nistxml_sv_iv_list_any_uri_max_length_5_5(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 10.
@@ -73,7 +66,6 @@ def test_list_any_uri_max_length_4_nistxml_sv_iv_list_any_uri_max_length_5_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_3_nistxml_sv_iv_list_any_uri_max_length_4_1(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 8.
@@ -87,7 +79,6 @@ def test_list_any_uri_max_length_3_nistxml_sv_iv_list_any_uri_max_length_4_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_3_nistxml_sv_iv_list_any_uri_max_length_4_2(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 8.
@@ -101,7 +92,6 @@ def test_list_any_uri_max_length_3_nistxml_sv_iv_list_any_uri_max_length_4_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_3_nistxml_sv_iv_list_any_uri_max_length_4_3(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 8.
@@ -115,7 +105,6 @@ def test_list_any_uri_max_length_3_nistxml_sv_iv_list_any_uri_max_length_4_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_3_nistxml_sv_iv_list_any_uri_max_length_4_4(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 8.
@@ -129,7 +118,6 @@ def test_list_any_uri_max_length_3_nistxml_sv_iv_list_any_uri_max_length_4_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_3_nistxml_sv_iv_list_any_uri_max_length_4_5(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 8.
@@ -143,7 +131,6 @@ def test_list_any_uri_max_length_3_nistxml_sv_iv_list_any_uri_max_length_4_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_2_nistxml_sv_iv_list_any_uri_max_length_3_1(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 7.
@@ -157,7 +144,6 @@ def test_list_any_uri_max_length_2_nistxml_sv_iv_list_any_uri_max_length_3_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_2_nistxml_sv_iv_list_any_uri_max_length_3_2(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 7.
@@ -171,7 +157,6 @@ def test_list_any_uri_max_length_2_nistxml_sv_iv_list_any_uri_max_length_3_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_2_nistxml_sv_iv_list_any_uri_max_length_3_3(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 7.
@@ -185,7 +170,6 @@ def test_list_any_uri_max_length_2_nistxml_sv_iv_list_any_uri_max_length_3_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_2_nistxml_sv_iv_list_any_uri_max_length_3_4(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 7.
@@ -199,7 +183,6 @@ def test_list_any_uri_max_length_2_nistxml_sv_iv_list_any_uri_max_length_3_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_2_nistxml_sv_iv_list_any_uri_max_length_3_5(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 7.
@@ -213,7 +196,6 @@ def test_list_any_uri_max_length_2_nistxml_sv_iv_list_any_uri_max_length_3_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_1_nistxml_sv_iv_list_any_uri_max_length_2_1(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 6.
@@ -227,7 +209,6 @@ def test_list_any_uri_max_length_1_nistxml_sv_iv_list_any_uri_max_length_2_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_1_nistxml_sv_iv_list_any_uri_max_length_2_2(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 6.
@@ -241,7 +222,6 @@ def test_list_any_uri_max_length_1_nistxml_sv_iv_list_any_uri_max_length_2_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_1_nistxml_sv_iv_list_any_uri_max_length_2_3(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 6.
@@ -255,7 +235,6 @@ def test_list_any_uri_max_length_1_nistxml_sv_iv_list_any_uri_max_length_2_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_1_nistxml_sv_iv_list_any_uri_max_length_2_4(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 6.
@@ -269,7 +248,6 @@ def test_list_any_uri_max_length_1_nistxml_sv_iv_list_any_uri_max_length_2_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_1_nistxml_sv_iv_list_any_uri_max_length_2_5(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 6.
@@ -283,7 +261,6 @@ def test_list_any_uri_max_length_1_nistxml_sv_iv_list_any_uri_max_length_2_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_nistxml_sv_iv_list_any_uri_max_length_1_1(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 5.
@@ -297,7 +274,6 @@ def test_list_any_uri_max_length_nistxml_sv_iv_list_any_uri_max_length_1_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_nistxml_sv_iv_list_any_uri_max_length_1_2(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 5.
@@ -311,7 +287,6 @@ def test_list_any_uri_max_length_nistxml_sv_iv_list_any_uri_max_length_1_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_nistxml_sv_iv_list_any_uri_max_length_1_3(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 5.
@@ -325,7 +300,6 @@ def test_list_any_uri_max_length_nistxml_sv_iv_list_any_uri_max_length_1_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_nistxml_sv_iv_list_any_uri_max_length_1_4(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 5.
@@ -339,7 +313,6 @@ def test_list_any_uri_max_length_nistxml_sv_iv_list_any_uri_max_length_1_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_any_uri_max_length_nistxml_sv_iv_list_any_uri_max_length_1_5(save_xml):
     """
     Type list/anyURI is restricted by facet maxLength with value 5.
@@ -353,7 +326,6 @@ def test_list_any_uri_max_length_nistxml_sv_iv_list_any_uri_max_length_1_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_language_white_space_nistxml_sv_iv_list_language_white_space_1_1(save_xml):
     """
     Type list/language is restricted by facet whiteSpace with value
@@ -368,7 +340,6 @@ def test_list_language_white_space_nistxml_sv_iv_list_language_white_space_1_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_white_space_nistxml_sv_iv_list_language_white_space_1_2(save_xml):
     """
     Type list/language is restricted by facet whiteSpace with value
@@ -383,7 +354,6 @@ def test_list_language_white_space_nistxml_sv_iv_list_language_white_space_1_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_white_space_nistxml_sv_iv_list_language_white_space_1_3(save_xml):
     """
     Type list/language is restricted by facet whiteSpace with value
@@ -398,7 +368,6 @@ def test_list_language_white_space_nistxml_sv_iv_list_language_white_space_1_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_white_space_nistxml_sv_iv_list_language_white_space_1_4(save_xml):
     """
     Type list/language is restricted by facet whiteSpace with value
@@ -413,7 +382,6 @@ def test_list_language_white_space_nistxml_sv_iv_list_language_white_space_1_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_white_space_nistxml_sv_iv_list_language_white_space_1_5(save_xml):
     """
     Type list/language is restricted by facet whiteSpace with value
@@ -428,7 +396,6 @@ def test_list_language_white_space_nistxml_sv_iv_list_language_white_space_1_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_4_nistxml_sv_iv_list_language_enumeration_5_1(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -442,7 +409,6 @@ def test_list_language_enumeration_4_nistxml_sv_iv_list_language_enumeration_5_1
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_4_nistxml_sv_iv_list_language_enumeration_5_2(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -456,7 +422,6 @@ def test_list_language_enumeration_4_nistxml_sv_iv_list_language_enumeration_5_2
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_4_nistxml_sv_iv_list_language_enumeration_5_3(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -470,7 +435,6 @@ def test_list_language_enumeration_4_nistxml_sv_iv_list_language_enumeration_5_3
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_4_nistxml_sv_iv_list_language_enumeration_5_4(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -484,7 +448,6 @@ def test_list_language_enumeration_4_nistxml_sv_iv_list_language_enumeration_5_4
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_4_nistxml_sv_iv_list_language_enumeration_5_5(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -498,7 +461,6 @@ def test_list_language_enumeration_4_nistxml_sv_iv_list_language_enumeration_5_5
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_3_nistxml_sv_iv_list_language_enumeration_4_1(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -512,7 +474,6 @@ def test_list_language_enumeration_3_nistxml_sv_iv_list_language_enumeration_4_1
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_3_nistxml_sv_iv_list_language_enumeration_4_2(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -526,7 +487,6 @@ def test_list_language_enumeration_3_nistxml_sv_iv_list_language_enumeration_4_2
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_3_nistxml_sv_iv_list_language_enumeration_4_3(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -540,7 +500,6 @@ def test_list_language_enumeration_3_nistxml_sv_iv_list_language_enumeration_4_3
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_3_nistxml_sv_iv_list_language_enumeration_4_4(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -554,7 +513,6 @@ def test_list_language_enumeration_3_nistxml_sv_iv_list_language_enumeration_4_4
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_3_nistxml_sv_iv_list_language_enumeration_4_5(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -568,7 +526,6 @@ def test_list_language_enumeration_3_nistxml_sv_iv_list_language_enumeration_4_5
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_2_nistxml_sv_iv_list_language_enumeration_3_1(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -582,7 +539,6 @@ def test_list_language_enumeration_2_nistxml_sv_iv_list_language_enumeration_3_1
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_2_nistxml_sv_iv_list_language_enumeration_3_2(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -596,7 +552,6 @@ def test_list_language_enumeration_2_nistxml_sv_iv_list_language_enumeration_3_2
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_2_nistxml_sv_iv_list_language_enumeration_3_3(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -610,7 +565,6 @@ def test_list_language_enumeration_2_nistxml_sv_iv_list_language_enumeration_3_3
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_2_nistxml_sv_iv_list_language_enumeration_3_4(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -624,7 +578,6 @@ def test_list_language_enumeration_2_nistxml_sv_iv_list_language_enumeration_3_4
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_2_nistxml_sv_iv_list_language_enumeration_3_5(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -638,7 +591,6 @@ def test_list_language_enumeration_2_nistxml_sv_iv_list_language_enumeration_3_5
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_1_nistxml_sv_iv_list_language_enumeration_2_1(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -652,7 +604,6 @@ def test_list_language_enumeration_1_nistxml_sv_iv_list_language_enumeration_2_1
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_1_nistxml_sv_iv_list_language_enumeration_2_2(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -666,7 +617,6 @@ def test_list_language_enumeration_1_nistxml_sv_iv_list_language_enumeration_2_2
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_1_nistxml_sv_iv_list_language_enumeration_2_3(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -680,7 +630,6 @@ def test_list_language_enumeration_1_nistxml_sv_iv_list_language_enumeration_2_3
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_1_nistxml_sv_iv_list_language_enumeration_2_4(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -694,7 +643,6 @@ def test_list_language_enumeration_1_nistxml_sv_iv_list_language_enumeration_2_4
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_1_nistxml_sv_iv_list_language_enumeration_2_5(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -708,7 +656,6 @@ def test_list_language_enumeration_1_nistxml_sv_iv_list_language_enumeration_2_5
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_nistxml_sv_iv_list_language_enumeration_1_1(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -722,7 +669,6 @@ def test_list_language_enumeration_nistxml_sv_iv_list_language_enumeration_1_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_nistxml_sv_iv_list_language_enumeration_1_2(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -736,7 +682,6 @@ def test_list_language_enumeration_nistxml_sv_iv_list_language_enumeration_1_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_nistxml_sv_iv_list_language_enumeration_1_3(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -750,7 +695,6 @@ def test_list_language_enumeration_nistxml_sv_iv_list_language_enumeration_1_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_nistxml_sv_iv_list_language_enumeration_1_4(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -764,7 +708,6 @@ def test_list_language_enumeration_nistxml_sv_iv_list_language_enumeration_1_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_enumeration_nistxml_sv_iv_list_language_enumeration_1_5(save_xml):
     """
     Type list/language is restricted by facet enumeration.
@@ -778,7 +721,6 @@ def test_list_language_enumeration_nistxml_sv_iv_list_language_enumeration_1_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_4_nistxml_sv_iv_list_language_pattern_5_1(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -800,7 +742,6 @@ def test_list_language_pattern_4_nistxml_sv_iv_list_language_pattern_5_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_4_nistxml_sv_iv_list_language_pattern_5_2(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -822,7 +763,6 @@ def test_list_language_pattern_4_nistxml_sv_iv_list_language_pattern_5_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_4_nistxml_sv_iv_list_language_pattern_5_3(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -844,7 +784,6 @@ def test_list_language_pattern_4_nistxml_sv_iv_list_language_pattern_5_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_4_nistxml_sv_iv_list_language_pattern_5_4(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -866,7 +805,6 @@ def test_list_language_pattern_4_nistxml_sv_iv_list_language_pattern_5_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_4_nistxml_sv_iv_list_language_pattern_5_5(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -888,7 +826,6 @@ def test_list_language_pattern_4_nistxml_sv_iv_list_language_pattern_5_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_3_nistxml_sv_iv_list_language_pattern_4_1(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -911,7 +848,6 @@ def test_list_language_pattern_3_nistxml_sv_iv_list_language_pattern_4_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_3_nistxml_sv_iv_list_language_pattern_4_2(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -934,7 +870,6 @@ def test_list_language_pattern_3_nistxml_sv_iv_list_language_pattern_4_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_3_nistxml_sv_iv_list_language_pattern_4_3(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -957,7 +892,6 @@ def test_list_language_pattern_3_nistxml_sv_iv_list_language_pattern_4_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_3_nistxml_sv_iv_list_language_pattern_4_4(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -980,7 +914,6 @@ def test_list_language_pattern_3_nistxml_sv_iv_list_language_pattern_4_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_3_nistxml_sv_iv_list_language_pattern_4_5(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -1003,7 +936,6 @@ def test_list_language_pattern_3_nistxml_sv_iv_list_language_pattern_4_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_2_nistxml_sv_iv_list_language_pattern_3_1(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -1026,7 +958,6 @@ def test_list_language_pattern_2_nistxml_sv_iv_list_language_pattern_3_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_2_nistxml_sv_iv_list_language_pattern_3_2(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -1049,7 +980,6 @@ def test_list_language_pattern_2_nistxml_sv_iv_list_language_pattern_3_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_2_nistxml_sv_iv_list_language_pattern_3_3(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -1072,7 +1002,6 @@ def test_list_language_pattern_2_nistxml_sv_iv_list_language_pattern_3_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_2_nistxml_sv_iv_list_language_pattern_3_4(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -1095,7 +1024,6 @@ def test_list_language_pattern_2_nistxml_sv_iv_list_language_pattern_3_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_2_nistxml_sv_iv_list_language_pattern_3_5(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -1118,7 +1046,6 @@ def test_list_language_pattern_2_nistxml_sv_iv_list_language_pattern_3_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_1_nistxml_sv_iv_list_language_pattern_2_1(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -1141,7 +1068,6 @@ def test_list_language_pattern_1_nistxml_sv_iv_list_language_pattern_2_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_1_nistxml_sv_iv_list_language_pattern_2_2(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -1164,7 +1090,6 @@ def test_list_language_pattern_1_nistxml_sv_iv_list_language_pattern_2_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_1_nistxml_sv_iv_list_language_pattern_2_3(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -1187,7 +1112,6 @@ def test_list_language_pattern_1_nistxml_sv_iv_list_language_pattern_2_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_1_nistxml_sv_iv_list_language_pattern_2_4(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -1210,7 +1134,6 @@ def test_list_language_pattern_1_nistxml_sv_iv_list_language_pattern_2_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_1_nistxml_sv_iv_list_language_pattern_2_5(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -1233,7 +1156,6 @@ def test_list_language_pattern_1_nistxml_sv_iv_list_language_pattern_2_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_nistxml_sv_iv_list_language_pattern_1_1(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -1254,7 +1176,6 @@ def test_list_language_pattern_nistxml_sv_iv_list_language_pattern_1_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_nistxml_sv_iv_list_language_pattern_1_2(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -1275,7 +1196,6 @@ def test_list_language_pattern_nistxml_sv_iv_list_language_pattern_1_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_nistxml_sv_iv_list_language_pattern_1_3(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -1296,7 +1216,6 @@ def test_list_language_pattern_nistxml_sv_iv_list_language_pattern_1_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_nistxml_sv_iv_list_language_pattern_1_4(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -1317,7 +1236,6 @@ def test_list_language_pattern_nistxml_sv_iv_list_language_pattern_1_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_pattern_nistxml_sv_iv_list_language_pattern_1_5(save_xml):
     """
     Type list/language is restricted by facet pattern with value
@@ -1338,7 +1256,6 @@ def test_list_language_pattern_nistxml_sv_iv_list_language_pattern_1_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_4_nistxml_sv_iv_list_language_length_5_1(save_xml):
     """
     Type list/language is restricted by facet length with value 10.
@@ -1352,7 +1269,6 @@ def test_list_language_length_4_nistxml_sv_iv_list_language_length_5_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_4_nistxml_sv_iv_list_language_length_5_2(save_xml):
     """
     Type list/language is restricted by facet length with value 10.
@@ -1366,7 +1282,6 @@ def test_list_language_length_4_nistxml_sv_iv_list_language_length_5_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_4_nistxml_sv_iv_list_language_length_5_3(save_xml):
     """
     Type list/language is restricted by facet length with value 10.
@@ -1380,7 +1295,6 @@ def test_list_language_length_4_nistxml_sv_iv_list_language_length_5_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_4_nistxml_sv_iv_list_language_length_5_4(save_xml):
     """
     Type list/language is restricted by facet length with value 10.
@@ -1394,7 +1308,6 @@ def test_list_language_length_4_nistxml_sv_iv_list_language_length_5_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_4_nistxml_sv_iv_list_language_length_5_5(save_xml):
     """
     Type list/language is restricted by facet length with value 10.
@@ -1408,7 +1321,6 @@ def test_list_language_length_4_nistxml_sv_iv_list_language_length_5_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_3_nistxml_sv_iv_list_language_length_4_1(save_xml):
     """
     Type list/language is restricted by facet length with value 8.
@@ -1422,7 +1334,6 @@ def test_list_language_length_3_nistxml_sv_iv_list_language_length_4_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_3_nistxml_sv_iv_list_language_length_4_2(save_xml):
     """
     Type list/language is restricted by facet length with value 8.
@@ -1436,7 +1347,6 @@ def test_list_language_length_3_nistxml_sv_iv_list_language_length_4_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_3_nistxml_sv_iv_list_language_length_4_3(save_xml):
     """
     Type list/language is restricted by facet length with value 8.
@@ -1450,7 +1360,6 @@ def test_list_language_length_3_nistxml_sv_iv_list_language_length_4_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_3_nistxml_sv_iv_list_language_length_4_4(save_xml):
     """
     Type list/language is restricted by facet length with value 8.
@@ -1464,7 +1373,6 @@ def test_list_language_length_3_nistxml_sv_iv_list_language_length_4_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_3_nistxml_sv_iv_list_language_length_4_5(save_xml):
     """
     Type list/language is restricted by facet length with value 8.
@@ -1478,7 +1386,6 @@ def test_list_language_length_3_nistxml_sv_iv_list_language_length_4_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_2_nistxml_sv_iv_list_language_length_3_1(save_xml):
     """
     Type list/language is restricted by facet length with value 7.
@@ -1492,7 +1399,6 @@ def test_list_language_length_2_nistxml_sv_iv_list_language_length_3_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_2_nistxml_sv_iv_list_language_length_3_2(save_xml):
     """
     Type list/language is restricted by facet length with value 7.
@@ -1506,7 +1412,6 @@ def test_list_language_length_2_nistxml_sv_iv_list_language_length_3_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_2_nistxml_sv_iv_list_language_length_3_3(save_xml):
     """
     Type list/language is restricted by facet length with value 7.
@@ -1520,7 +1425,6 @@ def test_list_language_length_2_nistxml_sv_iv_list_language_length_3_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_2_nistxml_sv_iv_list_language_length_3_4(save_xml):
     """
     Type list/language is restricted by facet length with value 7.
@@ -1534,7 +1438,6 @@ def test_list_language_length_2_nistxml_sv_iv_list_language_length_3_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_2_nistxml_sv_iv_list_language_length_3_5(save_xml):
     """
     Type list/language is restricted by facet length with value 7.
@@ -1548,7 +1451,6 @@ def test_list_language_length_2_nistxml_sv_iv_list_language_length_3_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_1_nistxml_sv_iv_list_language_length_2_1(save_xml):
     """
     Type list/language is restricted by facet length with value 6.
@@ -1562,7 +1464,6 @@ def test_list_language_length_1_nistxml_sv_iv_list_language_length_2_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_1_nistxml_sv_iv_list_language_length_2_2(save_xml):
     """
     Type list/language is restricted by facet length with value 6.
@@ -1576,7 +1477,6 @@ def test_list_language_length_1_nistxml_sv_iv_list_language_length_2_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_1_nistxml_sv_iv_list_language_length_2_3(save_xml):
     """
     Type list/language is restricted by facet length with value 6.
@@ -1590,7 +1490,6 @@ def test_list_language_length_1_nistxml_sv_iv_list_language_length_2_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_1_nistxml_sv_iv_list_language_length_2_4(save_xml):
     """
     Type list/language is restricted by facet length with value 6.
@@ -1604,7 +1503,6 @@ def test_list_language_length_1_nistxml_sv_iv_list_language_length_2_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_1_nistxml_sv_iv_list_language_length_2_5(save_xml):
     """
     Type list/language is restricted by facet length with value 6.
@@ -1618,7 +1516,6 @@ def test_list_language_length_1_nistxml_sv_iv_list_language_length_2_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_nistxml_sv_iv_list_language_length_1_1(save_xml):
     """
     Type list/language is restricted by facet length with value 5.
@@ -1632,7 +1529,6 @@ def test_list_language_length_nistxml_sv_iv_list_language_length_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_nistxml_sv_iv_list_language_length_1_2(save_xml):
     """
     Type list/language is restricted by facet length with value 5.
@@ -1646,7 +1542,6 @@ def test_list_language_length_nistxml_sv_iv_list_language_length_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_nistxml_sv_iv_list_language_length_1_3(save_xml):
     """
     Type list/language is restricted by facet length with value 5.
@@ -1660,7 +1555,6 @@ def test_list_language_length_nistxml_sv_iv_list_language_length_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_nistxml_sv_iv_list_language_length_1_4(save_xml):
     """
     Type list/language is restricted by facet length with value 5.
@@ -1674,7 +1568,6 @@ def test_list_language_length_nistxml_sv_iv_list_language_length_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_language_length_nistxml_sv_iv_list_language_length_1_5(save_xml):
     """
     Type list/language is restricted by facet length with value 5.
@@ -1688,7 +1581,6 @@ def test_list_language_length_nistxml_sv_iv_list_language_length_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_4_nistxml_sv_iv_list_language_min_length_5_1(save_xml):
     """
     Type list/language is restricted by facet minLength with value 10.
@@ -1702,7 +1594,6 @@ def test_list_language_min_length_4_nistxml_sv_iv_list_language_min_length_5_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_4_nistxml_sv_iv_list_language_min_length_5_2(save_xml):
     """
     Type list/language is restricted by facet minLength with value 10.
@@ -1716,7 +1607,6 @@ def test_list_language_min_length_4_nistxml_sv_iv_list_language_min_length_5_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_4_nistxml_sv_iv_list_language_min_length_5_3(save_xml):
     """
     Type list/language is restricted by facet minLength with value 10.
@@ -1730,7 +1620,6 @@ def test_list_language_min_length_4_nistxml_sv_iv_list_language_min_length_5_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_4_nistxml_sv_iv_list_language_min_length_5_4(save_xml):
     """
     Type list/language is restricted by facet minLength with value 10.
@@ -1744,7 +1633,6 @@ def test_list_language_min_length_4_nistxml_sv_iv_list_language_min_length_5_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_4_nistxml_sv_iv_list_language_min_length_5_5(save_xml):
     """
     Type list/language is restricted by facet minLength with value 10.
@@ -1758,7 +1646,6 @@ def test_list_language_min_length_4_nistxml_sv_iv_list_language_min_length_5_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_3_nistxml_sv_iv_list_language_min_length_4_1(save_xml):
     """
     Type list/language is restricted by facet minLength with value 8.
@@ -1772,7 +1659,6 @@ def test_list_language_min_length_3_nistxml_sv_iv_list_language_min_length_4_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_3_nistxml_sv_iv_list_language_min_length_4_2(save_xml):
     """
     Type list/language is restricted by facet minLength with value 8.
@@ -1786,7 +1672,6 @@ def test_list_language_min_length_3_nistxml_sv_iv_list_language_min_length_4_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_3_nistxml_sv_iv_list_language_min_length_4_3(save_xml):
     """
     Type list/language is restricted by facet minLength with value 8.
@@ -1800,7 +1685,6 @@ def test_list_language_min_length_3_nistxml_sv_iv_list_language_min_length_4_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_3_nistxml_sv_iv_list_language_min_length_4_4(save_xml):
     """
     Type list/language is restricted by facet minLength with value 8.
@@ -1814,7 +1698,6 @@ def test_list_language_min_length_3_nistxml_sv_iv_list_language_min_length_4_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_3_nistxml_sv_iv_list_language_min_length_4_5(save_xml):
     """
     Type list/language is restricted by facet minLength with value 8.
@@ -1828,7 +1711,6 @@ def test_list_language_min_length_3_nistxml_sv_iv_list_language_min_length_4_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_2_nistxml_sv_iv_list_language_min_length_3_1(save_xml):
     """
     Type list/language is restricted by facet minLength with value 7.
@@ -1842,7 +1724,6 @@ def test_list_language_min_length_2_nistxml_sv_iv_list_language_min_length_3_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_2_nistxml_sv_iv_list_language_min_length_3_2(save_xml):
     """
     Type list/language is restricted by facet minLength with value 7.
@@ -1856,7 +1737,6 @@ def test_list_language_min_length_2_nistxml_sv_iv_list_language_min_length_3_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_2_nistxml_sv_iv_list_language_min_length_3_3(save_xml):
     """
     Type list/language is restricted by facet minLength with value 7.
@@ -1870,7 +1750,6 @@ def test_list_language_min_length_2_nistxml_sv_iv_list_language_min_length_3_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_2_nistxml_sv_iv_list_language_min_length_3_4(save_xml):
     """
     Type list/language is restricted by facet minLength with value 7.
@@ -1884,7 +1763,6 @@ def test_list_language_min_length_2_nistxml_sv_iv_list_language_min_length_3_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_2_nistxml_sv_iv_list_language_min_length_3_5(save_xml):
     """
     Type list/language is restricted by facet minLength with value 7.
@@ -1898,7 +1776,6 @@ def test_list_language_min_length_2_nistxml_sv_iv_list_language_min_length_3_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_1_nistxml_sv_iv_list_language_min_length_2_1(save_xml):
     """
     Type list/language is restricted by facet minLength with value 6.
@@ -1912,7 +1789,6 @@ def test_list_language_min_length_1_nistxml_sv_iv_list_language_min_length_2_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_1_nistxml_sv_iv_list_language_min_length_2_2(save_xml):
     """
     Type list/language is restricted by facet minLength with value 6.
@@ -1926,7 +1802,6 @@ def test_list_language_min_length_1_nistxml_sv_iv_list_language_min_length_2_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_1_nistxml_sv_iv_list_language_min_length_2_3(save_xml):
     """
     Type list/language is restricted by facet minLength with value 6.
@@ -1940,7 +1815,6 @@ def test_list_language_min_length_1_nistxml_sv_iv_list_language_min_length_2_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_1_nistxml_sv_iv_list_language_min_length_2_4(save_xml):
     """
     Type list/language is restricted by facet minLength with value 6.
@@ -1954,7 +1828,6 @@ def test_list_language_min_length_1_nistxml_sv_iv_list_language_min_length_2_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_1_nistxml_sv_iv_list_language_min_length_2_5(save_xml):
     """
     Type list/language is restricted by facet minLength with value 6.
@@ -1968,7 +1841,6 @@ def test_list_language_min_length_1_nistxml_sv_iv_list_language_min_length_2_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_nistxml_sv_iv_list_language_min_length_1_1(save_xml):
     """
     Type list/language is restricted by facet minLength with value 5.
@@ -1982,7 +1854,6 @@ def test_list_language_min_length_nistxml_sv_iv_list_language_min_length_1_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_nistxml_sv_iv_list_language_min_length_1_2(save_xml):
     """
     Type list/language is restricted by facet minLength with value 5.
@@ -1996,7 +1867,6 @@ def test_list_language_min_length_nistxml_sv_iv_list_language_min_length_1_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_nistxml_sv_iv_list_language_min_length_1_3(save_xml):
     """
     Type list/language is restricted by facet minLength with value 5.
@@ -2010,7 +1880,6 @@ def test_list_language_min_length_nistxml_sv_iv_list_language_min_length_1_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_nistxml_sv_iv_list_language_min_length_1_4(save_xml):
     """
     Type list/language is restricted by facet minLength with value 5.
@@ -2024,7 +1893,6 @@ def test_list_language_min_length_nistxml_sv_iv_list_language_min_length_1_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_language_min_length_nistxml_sv_iv_list_language_min_length_1_5(save_xml):
     """
     Type list/language is restricted by facet minLength with value 5.
@@ -2038,7 +1906,6 @@ def test_list_language_min_length_nistxml_sv_iv_list_language_min_length_1_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_4_nistxml_sv_iv_list_language_max_length_5_1(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 10.
@@ -2052,7 +1919,6 @@ def test_list_language_max_length_4_nistxml_sv_iv_list_language_max_length_5_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_4_nistxml_sv_iv_list_language_max_length_5_2(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 10.
@@ -2066,7 +1932,6 @@ def test_list_language_max_length_4_nistxml_sv_iv_list_language_max_length_5_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_4_nistxml_sv_iv_list_language_max_length_5_3(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 10.
@@ -2080,7 +1945,6 @@ def test_list_language_max_length_4_nistxml_sv_iv_list_language_max_length_5_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_4_nistxml_sv_iv_list_language_max_length_5_4(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 10.
@@ -2094,7 +1958,6 @@ def test_list_language_max_length_4_nistxml_sv_iv_list_language_max_length_5_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_4_nistxml_sv_iv_list_language_max_length_5_5(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 10.
@@ -2108,7 +1971,6 @@ def test_list_language_max_length_4_nistxml_sv_iv_list_language_max_length_5_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_3_nistxml_sv_iv_list_language_max_length_4_1(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 8.
@@ -2122,7 +1984,6 @@ def test_list_language_max_length_3_nistxml_sv_iv_list_language_max_length_4_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_3_nistxml_sv_iv_list_language_max_length_4_2(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 8.
@@ -2136,7 +1997,6 @@ def test_list_language_max_length_3_nistxml_sv_iv_list_language_max_length_4_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_3_nistxml_sv_iv_list_language_max_length_4_3(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 8.
@@ -2150,7 +2010,6 @@ def test_list_language_max_length_3_nistxml_sv_iv_list_language_max_length_4_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_3_nistxml_sv_iv_list_language_max_length_4_4(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 8.
@@ -2164,7 +2023,6 @@ def test_list_language_max_length_3_nistxml_sv_iv_list_language_max_length_4_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_3_nistxml_sv_iv_list_language_max_length_4_5(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 8.
@@ -2178,7 +2036,6 @@ def test_list_language_max_length_3_nistxml_sv_iv_list_language_max_length_4_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_2_nistxml_sv_iv_list_language_max_length_3_1(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 7.
@@ -2192,7 +2049,6 @@ def test_list_language_max_length_2_nistxml_sv_iv_list_language_max_length_3_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_2_nistxml_sv_iv_list_language_max_length_3_2(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 7.
@@ -2206,7 +2062,6 @@ def test_list_language_max_length_2_nistxml_sv_iv_list_language_max_length_3_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_2_nistxml_sv_iv_list_language_max_length_3_3(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 7.
@@ -2220,7 +2075,6 @@ def test_list_language_max_length_2_nistxml_sv_iv_list_language_max_length_3_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_2_nistxml_sv_iv_list_language_max_length_3_4(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 7.
@@ -2234,7 +2088,6 @@ def test_list_language_max_length_2_nistxml_sv_iv_list_language_max_length_3_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_2_nistxml_sv_iv_list_language_max_length_3_5(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 7.
@@ -2248,7 +2101,6 @@ def test_list_language_max_length_2_nistxml_sv_iv_list_language_max_length_3_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_1_nistxml_sv_iv_list_language_max_length_2_1(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 6.
@@ -2262,7 +2114,6 @@ def test_list_language_max_length_1_nistxml_sv_iv_list_language_max_length_2_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_1_nistxml_sv_iv_list_language_max_length_2_2(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 6.
@@ -2276,7 +2127,6 @@ def test_list_language_max_length_1_nistxml_sv_iv_list_language_max_length_2_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_1_nistxml_sv_iv_list_language_max_length_2_3(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 6.
@@ -2290,7 +2140,6 @@ def test_list_language_max_length_1_nistxml_sv_iv_list_language_max_length_2_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_1_nistxml_sv_iv_list_language_max_length_2_4(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 6.
@@ -2304,7 +2153,6 @@ def test_list_language_max_length_1_nistxml_sv_iv_list_language_max_length_2_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_1_nistxml_sv_iv_list_language_max_length_2_5(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 6.
@@ -2318,7 +2166,6 @@ def test_list_language_max_length_1_nistxml_sv_iv_list_language_max_length_2_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_nistxml_sv_iv_list_language_max_length_1_1(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 5.
@@ -2332,7 +2179,6 @@ def test_list_language_max_length_nistxml_sv_iv_list_language_max_length_1_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_nistxml_sv_iv_list_language_max_length_1_2(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 5.
@@ -2346,7 +2192,6 @@ def test_list_language_max_length_nistxml_sv_iv_list_language_max_length_1_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_nistxml_sv_iv_list_language_max_length_1_3(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 5.
@@ -2360,7 +2205,6 @@ def test_list_language_max_length_nistxml_sv_iv_list_language_max_length_1_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_nistxml_sv_iv_list_language_max_length_1_4(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 5.
@@ -2374,7 +2218,6 @@ def test_list_language_max_length_nistxml_sv_iv_list_language_max_length_1_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_language_max_length_nistxml_sv_iv_list_language_max_length_1_5(save_xml):
     """
     Type list/language is restricted by facet maxLength with value 5.
@@ -2388,7 +2231,6 @@ def test_list_language_max_length_nistxml_sv_iv_list_language_max_length_1_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_id_white_space_nistxml_sv_iv_list_id_white_space_1_1(save_xml):
     """
     Type list/ID is restricted by facet whiteSpace with value collapse.
@@ -2402,7 +2244,6 @@ def test_list_id_white_space_nistxml_sv_iv_list_id_white_space_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_white_space_nistxml_sv_iv_list_id_white_space_1_2(save_xml):
     """
     Type list/ID is restricted by facet whiteSpace with value collapse.
@@ -2416,7 +2257,6 @@ def test_list_id_white_space_nistxml_sv_iv_list_id_white_space_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_white_space_nistxml_sv_iv_list_id_white_space_1_3(save_xml):
     """
     Type list/ID is restricted by facet whiteSpace with value collapse.
@@ -2430,7 +2270,6 @@ def test_list_id_white_space_nistxml_sv_iv_list_id_white_space_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_white_space_nistxml_sv_iv_list_id_white_space_1_4(save_xml):
     """
     Type list/ID is restricted by facet whiteSpace with value collapse.
@@ -2444,7 +2283,6 @@ def test_list_id_white_space_nistxml_sv_iv_list_id_white_space_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_white_space_nistxml_sv_iv_list_id_white_space_1_5(save_xml):
     """
     Type list/ID is restricted by facet whiteSpace with value collapse.
@@ -2458,7 +2296,6 @@ def test_list_id_white_space_nistxml_sv_iv_list_id_white_space_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_4_nistxml_sv_iv_list_id_enumeration_5_1(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2472,7 +2309,6 @@ def test_list_id_enumeration_4_nistxml_sv_iv_list_id_enumeration_5_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_4_nistxml_sv_iv_list_id_enumeration_5_2(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2486,7 +2322,6 @@ def test_list_id_enumeration_4_nistxml_sv_iv_list_id_enumeration_5_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_4_nistxml_sv_iv_list_id_enumeration_5_3(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2500,7 +2335,6 @@ def test_list_id_enumeration_4_nistxml_sv_iv_list_id_enumeration_5_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_4_nistxml_sv_iv_list_id_enumeration_5_4(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2514,7 +2348,6 @@ def test_list_id_enumeration_4_nistxml_sv_iv_list_id_enumeration_5_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_4_nistxml_sv_iv_list_id_enumeration_5_5(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2528,7 +2361,6 @@ def test_list_id_enumeration_4_nistxml_sv_iv_list_id_enumeration_5_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_3_nistxml_sv_iv_list_id_enumeration_4_1(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2542,7 +2374,6 @@ def test_list_id_enumeration_3_nistxml_sv_iv_list_id_enumeration_4_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_3_nistxml_sv_iv_list_id_enumeration_4_2(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2556,7 +2387,6 @@ def test_list_id_enumeration_3_nistxml_sv_iv_list_id_enumeration_4_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_3_nistxml_sv_iv_list_id_enumeration_4_3(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2570,7 +2400,6 @@ def test_list_id_enumeration_3_nistxml_sv_iv_list_id_enumeration_4_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_3_nistxml_sv_iv_list_id_enumeration_4_4(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2584,7 +2413,6 @@ def test_list_id_enumeration_3_nistxml_sv_iv_list_id_enumeration_4_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_3_nistxml_sv_iv_list_id_enumeration_4_5(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2598,7 +2426,6 @@ def test_list_id_enumeration_3_nistxml_sv_iv_list_id_enumeration_4_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_2_nistxml_sv_iv_list_id_enumeration_3_1(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2612,7 +2439,6 @@ def test_list_id_enumeration_2_nistxml_sv_iv_list_id_enumeration_3_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_2_nistxml_sv_iv_list_id_enumeration_3_2(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2626,7 +2452,6 @@ def test_list_id_enumeration_2_nistxml_sv_iv_list_id_enumeration_3_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_2_nistxml_sv_iv_list_id_enumeration_3_3(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2640,7 +2465,6 @@ def test_list_id_enumeration_2_nistxml_sv_iv_list_id_enumeration_3_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_2_nistxml_sv_iv_list_id_enumeration_3_4(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2654,7 +2478,6 @@ def test_list_id_enumeration_2_nistxml_sv_iv_list_id_enumeration_3_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_2_nistxml_sv_iv_list_id_enumeration_3_5(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2668,7 +2491,6 @@ def test_list_id_enumeration_2_nistxml_sv_iv_list_id_enumeration_3_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_1_nistxml_sv_iv_list_id_enumeration_2_1(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2682,7 +2504,6 @@ def test_list_id_enumeration_1_nistxml_sv_iv_list_id_enumeration_2_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_1_nistxml_sv_iv_list_id_enumeration_2_2(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2696,7 +2517,6 @@ def test_list_id_enumeration_1_nistxml_sv_iv_list_id_enumeration_2_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_1_nistxml_sv_iv_list_id_enumeration_2_3(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2710,7 +2530,6 @@ def test_list_id_enumeration_1_nistxml_sv_iv_list_id_enumeration_2_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_1_nistxml_sv_iv_list_id_enumeration_2_4(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2724,7 +2543,6 @@ def test_list_id_enumeration_1_nistxml_sv_iv_list_id_enumeration_2_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_1_nistxml_sv_iv_list_id_enumeration_2_5(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2738,7 +2556,6 @@ def test_list_id_enumeration_1_nistxml_sv_iv_list_id_enumeration_2_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_nistxml_sv_iv_list_id_enumeration_1_1(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2752,7 +2569,6 @@ def test_list_id_enumeration_nistxml_sv_iv_list_id_enumeration_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_nistxml_sv_iv_list_id_enumeration_1_2(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2766,7 +2582,6 @@ def test_list_id_enumeration_nistxml_sv_iv_list_id_enumeration_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_nistxml_sv_iv_list_id_enumeration_1_3(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2780,7 +2595,6 @@ def test_list_id_enumeration_nistxml_sv_iv_list_id_enumeration_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_nistxml_sv_iv_list_id_enumeration_1_4(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2794,7 +2608,6 @@ def test_list_id_enumeration_nistxml_sv_iv_list_id_enumeration_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_enumeration_nistxml_sv_iv_list_id_enumeration_1_5(save_xml):
     """
     Type list/ID is restricted by facet enumeration.
@@ -2808,7 +2621,6 @@ def test_list_id_enumeration_nistxml_sv_iv_list_id_enumeration_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_4_nistxml_sv_iv_list_id_pattern_5_1(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -2825,7 +2637,6 @@ def test_list_id_pattern_4_nistxml_sv_iv_list_id_pattern_5_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_4_nistxml_sv_iv_list_id_pattern_5_2(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -2842,7 +2653,6 @@ def test_list_id_pattern_4_nistxml_sv_iv_list_id_pattern_5_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_4_nistxml_sv_iv_list_id_pattern_5_3(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -2859,7 +2669,6 @@ def test_list_id_pattern_4_nistxml_sv_iv_list_id_pattern_5_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_4_nistxml_sv_iv_list_id_pattern_5_4(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -2876,7 +2685,6 @@ def test_list_id_pattern_4_nistxml_sv_iv_list_id_pattern_5_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_4_nistxml_sv_iv_list_id_pattern_5_5(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -2893,7 +2701,6 @@ def test_list_id_pattern_4_nistxml_sv_iv_list_id_pattern_5_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_3_nistxml_sv_iv_list_id_pattern_4_1(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -2909,7 +2716,6 @@ def test_list_id_pattern_3_nistxml_sv_iv_list_id_pattern_4_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_3_nistxml_sv_iv_list_id_pattern_4_2(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -2925,7 +2731,6 @@ def test_list_id_pattern_3_nistxml_sv_iv_list_id_pattern_4_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_3_nistxml_sv_iv_list_id_pattern_4_3(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -2941,7 +2746,6 @@ def test_list_id_pattern_3_nistxml_sv_iv_list_id_pattern_4_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_3_nistxml_sv_iv_list_id_pattern_4_4(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -2957,7 +2761,6 @@ def test_list_id_pattern_3_nistxml_sv_iv_list_id_pattern_4_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_3_nistxml_sv_iv_list_id_pattern_4_5(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -2973,7 +2776,6 @@ def test_list_id_pattern_3_nistxml_sv_iv_list_id_pattern_4_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_2_nistxml_sv_iv_list_id_pattern_3_1(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -2990,7 +2792,6 @@ def test_list_id_pattern_2_nistxml_sv_iv_list_id_pattern_3_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_2_nistxml_sv_iv_list_id_pattern_3_2(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3007,7 +2808,6 @@ def test_list_id_pattern_2_nistxml_sv_iv_list_id_pattern_3_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_2_nistxml_sv_iv_list_id_pattern_3_3(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3024,7 +2824,6 @@ def test_list_id_pattern_2_nistxml_sv_iv_list_id_pattern_3_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_2_nistxml_sv_iv_list_id_pattern_3_4(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3041,7 +2840,6 @@ def test_list_id_pattern_2_nistxml_sv_iv_list_id_pattern_3_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_2_nistxml_sv_iv_list_id_pattern_3_5(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3058,7 +2856,6 @@ def test_list_id_pattern_2_nistxml_sv_iv_list_id_pattern_3_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_1(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3075,7 +2872,6 @@ def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_2(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3092,7 +2888,6 @@ def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_3(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3109,7 +2904,6 @@ def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_4(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3126,7 +2920,6 @@ def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_5(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3143,7 +2936,6 @@ def test_list_id_pattern_1_nistxml_sv_iv_list_id_pattern_2_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_1(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3160,7 +2952,6 @@ def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_2(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3177,7 +2968,6 @@ def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_3(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3194,7 +2984,6 @@ def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_4(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3211,7 +3000,6 @@ def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_5(save_xml):
     r"""
     Type list/ID is restricted by facet pattern with value
@@ -3228,7 +3016,6 @@ def test_list_id_pattern_nistxml_sv_iv_list_id_pattern_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_1(save_xml):
     """
     Type list/ID is restricted by facet length with value 10.
@@ -3242,7 +3029,6 @@ def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_2(save_xml):
     """
     Type list/ID is restricted by facet length with value 10.
@@ -3256,7 +3042,6 @@ def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_3(save_xml):
     """
     Type list/ID is restricted by facet length with value 10.
@@ -3270,7 +3055,6 @@ def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_4(save_xml):
     """
     Type list/ID is restricted by facet length with value 10.
@@ -3284,7 +3068,6 @@ def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_5(save_xml):
     """
     Type list/ID is restricted by facet length with value 10.
@@ -3298,7 +3081,6 @@ def test_list_id_length_4_nistxml_sv_iv_list_id_length_5_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_1(save_xml):
     """
     Type list/ID is restricted by facet length with value 8.
@@ -3312,7 +3094,6 @@ def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_2(save_xml):
     """
     Type list/ID is restricted by facet length with value 8.
@@ -3326,7 +3107,6 @@ def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_3(save_xml):
     """
     Type list/ID is restricted by facet length with value 8.
@@ -3340,7 +3120,6 @@ def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_4(save_xml):
     """
     Type list/ID is restricted by facet length with value 8.
@@ -3354,7 +3133,6 @@ def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_5(save_xml):
     """
     Type list/ID is restricted by facet length with value 8.
@@ -3368,7 +3146,6 @@ def test_list_id_length_3_nistxml_sv_iv_list_id_length_4_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_1(save_xml):
     """
     Type list/ID is restricted by facet length with value 7.
@@ -3382,7 +3159,6 @@ def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_2(save_xml):
     """
     Type list/ID is restricted by facet length with value 7.
@@ -3396,7 +3172,6 @@ def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_3(save_xml):
     """
     Type list/ID is restricted by facet length with value 7.
@@ -3410,7 +3185,6 @@ def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_4(save_xml):
     """
     Type list/ID is restricted by facet length with value 7.
@@ -3424,7 +3198,6 @@ def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_5(save_xml):
     """
     Type list/ID is restricted by facet length with value 7.
@@ -3438,7 +3211,6 @@ def test_list_id_length_2_nistxml_sv_iv_list_id_length_3_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_1(save_xml):
     """
     Type list/ID is restricted by facet length with value 6.
@@ -3452,7 +3224,6 @@ def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_2(save_xml):
     """
     Type list/ID is restricted by facet length with value 6.
@@ -3466,7 +3237,6 @@ def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_3(save_xml):
     """
     Type list/ID is restricted by facet length with value 6.
@@ -3480,7 +3250,6 @@ def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_4(save_xml):
     """
     Type list/ID is restricted by facet length with value 6.
@@ -3494,7 +3263,6 @@ def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_5(save_xml):
     """
     Type list/ID is restricted by facet length with value 6.
@@ -3508,7 +3276,6 @@ def test_list_id_length_1_nistxml_sv_iv_list_id_length_2_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_nistxml_sv_iv_list_id_length_1_1(save_xml):
     """
     Type list/ID is restricted by facet length with value 5.
@@ -3522,7 +3289,6 @@ def test_list_id_length_nistxml_sv_iv_list_id_length_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_nistxml_sv_iv_list_id_length_1_2(save_xml):
     """
     Type list/ID is restricted by facet length with value 5.
@@ -3536,7 +3302,6 @@ def test_list_id_length_nistxml_sv_iv_list_id_length_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_nistxml_sv_iv_list_id_length_1_3(save_xml):
     """
     Type list/ID is restricted by facet length with value 5.
@@ -3550,7 +3315,6 @@ def test_list_id_length_nistxml_sv_iv_list_id_length_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_nistxml_sv_iv_list_id_length_1_4(save_xml):
     """
     Type list/ID is restricted by facet length with value 5.
@@ -3564,7 +3328,6 @@ def test_list_id_length_nistxml_sv_iv_list_id_length_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_length_nistxml_sv_iv_list_id_length_1_5(save_xml):
     """
     Type list/ID is restricted by facet length with value 5.
@@ -3578,7 +3341,6 @@ def test_list_id_length_nistxml_sv_iv_list_id_length_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_1(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 10.
@@ -3592,7 +3354,6 @@ def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_2(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 10.
@@ -3606,7 +3367,6 @@ def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_3(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 10.
@@ -3620,7 +3380,6 @@ def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_4(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 10.
@@ -3634,7 +3393,6 @@ def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_5(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 10.
@@ -3648,7 +3406,6 @@ def test_list_id_min_length_4_nistxml_sv_iv_list_id_min_length_5_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_1(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 8.
@@ -3662,7 +3419,6 @@ def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_2(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 8.
@@ -3676,7 +3432,6 @@ def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_3(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 8.
@@ -3690,7 +3445,6 @@ def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_4(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 8.
@@ -3704,7 +3458,6 @@ def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_5(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 8.
@@ -3718,7 +3471,6 @@ def test_list_id_min_length_3_nistxml_sv_iv_list_id_min_length_4_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_1(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 7.
@@ -3732,7 +3484,6 @@ def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_2(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 7.
@@ -3746,7 +3497,6 @@ def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_3(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 7.
@@ -3760,7 +3510,6 @@ def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_4(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 7.
@@ -3774,7 +3523,6 @@ def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_5(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 7.
@@ -3788,7 +3536,6 @@ def test_list_id_min_length_2_nistxml_sv_iv_list_id_min_length_3_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_1(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 6.
@@ -3802,7 +3549,6 @@ def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_2(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 6.
@@ -3816,7 +3562,6 @@ def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_3(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 6.
@@ -3830,7 +3575,6 @@ def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_4(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 6.
@@ -3844,7 +3588,6 @@ def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_5(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 6.
@@ -3858,7 +3601,6 @@ def test_list_id_min_length_1_nistxml_sv_iv_list_id_min_length_2_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_1(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 5.
@@ -3872,7 +3614,6 @@ def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_2(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 5.
@@ -3886,7 +3627,6 @@ def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_3(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 5.
@@ -3900,7 +3640,6 @@ def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_4(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 5.
@@ -3914,7 +3653,6 @@ def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_5(save_xml):
     """
     Type list/ID is restricted by facet minLength with value 5.
@@ -3928,7 +3666,6 @@ def test_list_id_min_length_nistxml_sv_iv_list_id_min_length_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_1(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 10.
@@ -3942,7 +3679,6 @@ def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_2(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 10.
@@ -3956,7 +3692,6 @@ def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_3(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 10.
@@ -3970,7 +3705,6 @@ def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_4(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 10.
@@ -3984,7 +3718,6 @@ def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_5(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 10.
@@ -3998,7 +3731,6 @@ def test_list_id_max_length_4_nistxml_sv_iv_list_id_max_length_5_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_1(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 8.
@@ -4012,7 +3744,6 @@ def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_2(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 8.
@@ -4026,7 +3757,6 @@ def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_3(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 8.
@@ -4040,7 +3770,6 @@ def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_4(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 8.
@@ -4054,7 +3783,6 @@ def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_5(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 8.
@@ -4068,7 +3796,6 @@ def test_list_id_max_length_3_nistxml_sv_iv_list_id_max_length_4_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_1(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 7.
@@ -4082,7 +3809,6 @@ def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_2(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 7.
@@ -4096,7 +3822,6 @@ def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_3(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 7.
@@ -4110,7 +3835,6 @@ def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_4(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 7.
@@ -4124,7 +3848,6 @@ def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_5(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 7.
@@ -4138,7 +3861,6 @@ def test_list_id_max_length_2_nistxml_sv_iv_list_id_max_length_3_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_1(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 6.
@@ -4152,7 +3874,6 @@ def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_2(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 6.
@@ -4166,7 +3887,6 @@ def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_3(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 6.
@@ -4180,7 +3900,6 @@ def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_4(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 6.
@@ -4194,7 +3913,6 @@ def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_5(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 6.
@@ -4208,7 +3926,6 @@ def test_list_id_max_length_1_nistxml_sv_iv_list_id_max_length_2_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_1(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 5.
@@ -4222,7 +3939,6 @@ def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_2(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 5.
@@ -4236,7 +3952,6 @@ def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_3(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 5.
@@ -4250,7 +3965,6 @@ def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_4(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 5.
@@ -4264,7 +3978,6 @@ def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_5(save_xml):
     """
     Type list/ID is restricted by facet maxLength with value 5.
@@ -4278,7 +3991,6 @@ def test_list_id_max_length_nistxml_sv_iv_list_id_max_length_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_1(save_xml):
     """
     Type list/NCName is restricted by facet whiteSpace with value
@@ -4293,7 +4005,6 @@ def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_2(save_xml):
     """
     Type list/NCName is restricted by facet whiteSpace with value
@@ -4308,7 +4019,6 @@ def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_3(save_xml):
     """
     Type list/NCName is restricted by facet whiteSpace with value
@@ -4323,7 +4033,6 @@ def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_4(save_xml):
     """
     Type list/NCName is restricted by facet whiteSpace with value
@@ -4338,7 +4047,6 @@ def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_5(save_xml):
     """
     Type list/NCName is restricted by facet whiteSpace with value
@@ -4353,7 +4061,6 @@ def test_list_ncname_white_space_nistxml_sv_iv_list_ncname_white_space_1_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_1(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4367,7 +4074,6 @@ def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_2(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4381,7 +4087,6 @@ def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_3(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4395,7 +4100,6 @@ def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_4(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4409,7 +4113,6 @@ def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_5(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4423,7 +4126,6 @@ def test_list_ncname_enumeration_4_nistxml_sv_iv_list_ncname_enumeration_5_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_1(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4437,7 +4139,6 @@ def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_2(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4451,7 +4152,6 @@ def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_3(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4465,7 +4165,6 @@ def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_4(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4479,7 +4178,6 @@ def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_5(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4493,7 +4191,6 @@ def test_list_ncname_enumeration_3_nistxml_sv_iv_list_ncname_enumeration_4_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_1(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4507,7 +4204,6 @@ def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_2(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4521,7 +4217,6 @@ def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_3(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4535,7 +4230,6 @@ def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_4(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4549,7 +4243,6 @@ def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_5(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4563,7 +4256,6 @@ def test_list_ncname_enumeration_2_nistxml_sv_iv_list_ncname_enumeration_3_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_1(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4577,7 +4269,6 @@ def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_2(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4591,7 +4282,6 @@ def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_3(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4605,7 +4295,6 @@ def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_4(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4619,7 +4308,6 @@ def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_5(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4633,7 +4321,6 @@ def test_list_ncname_enumeration_1_nistxml_sv_iv_list_ncname_enumeration_2_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_1(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4647,7 +4334,6 @@ def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_2(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4661,7 +4347,6 @@ def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_3(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4675,7 +4360,6 @@ def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_4(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4689,7 +4373,6 @@ def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_5(save_xml):
     """
     Type list/NCName is restricted by facet enumeration.
@@ -4703,7 +4386,6 @@ def test_list_ncname_enumeration_nistxml_sv_iv_list_ncname_enumeration_1_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_1(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -4719,7 +4401,6 @@ def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_2(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -4735,7 +4416,6 @@ def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_3(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -4751,7 +4431,6 @@ def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_4(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -4767,7 +4446,6 @@ def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_5(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -4783,7 +4461,6 @@ def test_list_ncname_pattern_4_nistxml_sv_iv_list_ncname_pattern_5_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_1(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -4801,7 +4478,6 @@ def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_2(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -4819,7 +4495,6 @@ def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_3(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -4837,7 +4512,6 @@ def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_4(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -4855,7 +4529,6 @@ def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_5(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -4873,7 +4546,6 @@ def test_list_ncname_pattern_3_nistxml_sv_iv_list_ncname_pattern_4_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_1(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -4889,7 +4561,6 @@ def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_2(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -4905,7 +4576,6 @@ def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_3(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -4921,7 +4591,6 @@ def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_4(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -4937,7 +4606,6 @@ def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_5(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -4953,7 +4621,6 @@ def test_list_ncname_pattern_2_nistxml_sv_iv_list_ncname_pattern_3_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_1(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -4970,7 +4637,6 @@ def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_2(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -4987,7 +4653,6 @@ def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_3(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -5004,7 +4669,6 @@ def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_4(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -5021,7 +4685,6 @@ def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_5(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -5038,7 +4701,6 @@ def test_list_ncname_pattern_1_nistxml_sv_iv_list_ncname_pattern_2_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_1(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -5055,7 +4717,6 @@ def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_2(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -5072,7 +4733,6 @@ def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_3(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -5089,7 +4749,6 @@ def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_4(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -5106,7 +4765,6 @@ def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_5(save_xml):
     r"""
     Type list/NCName is restricted by facet pattern with value
@@ -5123,7 +4781,6 @@ def test_list_ncname_pattern_nistxml_sv_iv_list_ncname_pattern_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_1(save_xml):
     """
     Type list/NCName is restricted by facet length with value 10.
@@ -5137,7 +4794,6 @@ def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_2(save_xml):
     """
     Type list/NCName is restricted by facet length with value 10.
@@ -5151,7 +4807,6 @@ def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_3(save_xml):
     """
     Type list/NCName is restricted by facet length with value 10.
@@ -5165,7 +4820,6 @@ def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_4(save_xml):
     """
     Type list/NCName is restricted by facet length with value 10.
@@ -5179,7 +4833,6 @@ def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_5(save_xml):
     """
     Type list/NCName is restricted by facet length with value 10.
@@ -5193,7 +4846,6 @@ def test_list_ncname_length_4_nistxml_sv_iv_list_ncname_length_5_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_1(save_xml):
     """
     Type list/NCName is restricted by facet length with value 8.
@@ -5207,7 +4859,6 @@ def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_2(save_xml):
     """
     Type list/NCName is restricted by facet length with value 8.
@@ -5221,7 +4872,6 @@ def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_3(save_xml):
     """
     Type list/NCName is restricted by facet length with value 8.
@@ -5235,7 +4885,6 @@ def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_4(save_xml):
     """
     Type list/NCName is restricted by facet length with value 8.
@@ -5249,7 +4898,6 @@ def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_5(save_xml):
     """
     Type list/NCName is restricted by facet length with value 8.
@@ -5263,7 +4911,6 @@ def test_list_ncname_length_3_nistxml_sv_iv_list_ncname_length_4_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_1(save_xml):
     """
     Type list/NCName is restricted by facet length with value 7.
@@ -5277,7 +4924,6 @@ def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_2(save_xml):
     """
     Type list/NCName is restricted by facet length with value 7.
@@ -5291,7 +4937,6 @@ def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_3(save_xml):
     """
     Type list/NCName is restricted by facet length with value 7.
@@ -5305,7 +4950,6 @@ def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_4(save_xml):
     """
     Type list/NCName is restricted by facet length with value 7.
@@ -5319,7 +4963,6 @@ def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_5(save_xml):
     """
     Type list/NCName is restricted by facet length with value 7.
@@ -5333,7 +4976,6 @@ def test_list_ncname_length_2_nistxml_sv_iv_list_ncname_length_3_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_1(save_xml):
     """
     Type list/NCName is restricted by facet length with value 6.
@@ -5347,7 +4989,6 @@ def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_2(save_xml):
     """
     Type list/NCName is restricted by facet length with value 6.
@@ -5361,7 +5002,6 @@ def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_3(save_xml):
     """
     Type list/NCName is restricted by facet length with value 6.
@@ -5375,7 +5015,6 @@ def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_4(save_xml):
     """
     Type list/NCName is restricted by facet length with value 6.
@@ -5389,7 +5028,6 @@ def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_5(save_xml):
     """
     Type list/NCName is restricted by facet length with value 6.
@@ -5403,7 +5041,6 @@ def test_list_ncname_length_1_nistxml_sv_iv_list_ncname_length_2_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_1(save_xml):
     """
     Type list/NCName is restricted by facet length with value 5.
@@ -5417,7 +5054,6 @@ def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_2(save_xml):
     """
     Type list/NCName is restricted by facet length with value 5.
@@ -5431,7 +5067,6 @@ def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_3(save_xml):
     """
     Type list/NCName is restricted by facet length with value 5.
@@ -5445,7 +5080,6 @@ def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_4(save_xml):
     """
     Type list/NCName is restricted by facet length with value 5.
@@ -5459,7 +5093,6 @@ def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_5(save_xml):
     """
     Type list/NCName is restricted by facet length with value 5.
@@ -5473,7 +5106,6 @@ def test_list_ncname_length_nistxml_sv_iv_list_ncname_length_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_1(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 10.
@@ -5487,7 +5119,6 @@ def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_2(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 10.
@@ -5501,7 +5132,6 @@ def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_3(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 10.
@@ -5515,7 +5145,6 @@ def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_4(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 10.
@@ -5529,7 +5158,6 @@ def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_5(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 10.
@@ -5543,7 +5171,6 @@ def test_list_ncname_min_length_4_nistxml_sv_iv_list_ncname_min_length_5_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_1(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 8.
@@ -5557,7 +5184,6 @@ def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_2(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 8.
@@ -5571,7 +5197,6 @@ def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_3(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 8.
@@ -5585,7 +5210,6 @@ def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_4(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 8.
@@ -5599,7 +5223,6 @@ def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_5(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 8.
@@ -5613,7 +5236,6 @@ def test_list_ncname_min_length_3_nistxml_sv_iv_list_ncname_min_length_4_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_1(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 7.
@@ -5627,7 +5249,6 @@ def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_2(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 7.
@@ -5641,7 +5262,6 @@ def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_3(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 7.
@@ -5655,7 +5275,6 @@ def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_4(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 7.
@@ -5669,7 +5288,6 @@ def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_5(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 7.
@@ -5683,7 +5301,6 @@ def test_list_ncname_min_length_2_nistxml_sv_iv_list_ncname_min_length_3_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_1(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 6.
@@ -5697,7 +5314,6 @@ def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_2(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 6.
@@ -5711,7 +5327,6 @@ def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_3(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 6.
@@ -5725,7 +5340,6 @@ def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_4(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 6.
@@ -5739,7 +5353,6 @@ def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_5(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 6.
@@ -5753,7 +5366,6 @@ def test_list_ncname_min_length_1_nistxml_sv_iv_list_ncname_min_length_2_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_1(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 5.
@@ -5767,7 +5379,6 @@ def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_2(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 5.
@@ -5781,7 +5392,6 @@ def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_3(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 5.
@@ -5795,7 +5405,6 @@ def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_4(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 5.
@@ -5809,7 +5418,6 @@ def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_5(save_xml):
     """
     Type list/NCName is restricted by facet minLength with value 5.
@@ -5823,7 +5431,6 @@ def test_list_ncname_min_length_nistxml_sv_iv_list_ncname_min_length_1_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_1(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 10.
@@ -5837,7 +5444,6 @@ def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_2(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 10.
@@ -5851,7 +5457,6 @@ def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_3(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 10.
@@ -5865,7 +5470,6 @@ def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_4(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 10.
@@ -5879,7 +5483,6 @@ def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_5(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 10.
@@ -5893,7 +5496,6 @@ def test_list_ncname_max_length_4_nistxml_sv_iv_list_ncname_max_length_5_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_1(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 8.
@@ -5907,7 +5509,6 @@ def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_2(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 8.
@@ -5921,7 +5522,6 @@ def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_3(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 8.
@@ -5935,7 +5535,6 @@ def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_4(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 8.
@@ -5949,7 +5548,6 @@ def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_5(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 8.
@@ -5963,7 +5561,6 @@ def test_list_ncname_max_length_3_nistxml_sv_iv_list_ncname_max_length_4_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_1(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 7.
@@ -5977,7 +5574,6 @@ def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_2(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 7.
@@ -5991,7 +5587,6 @@ def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_3(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 7.
@@ -6005,7 +5600,6 @@ def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_4(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 7.
@@ -6019,7 +5613,6 @@ def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_5(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 7.
@@ -6033,7 +5626,6 @@ def test_list_ncname_max_length_2_nistxml_sv_iv_list_ncname_max_length_3_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_1(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 6.
@@ -6047,7 +5639,6 @@ def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_2(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 6.
@@ -6061,7 +5652,6 @@ def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_3(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 6.
@@ -6075,7 +5665,6 @@ def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_4(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 6.
@@ -6089,7 +5678,6 @@ def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_5(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 6.
@@ -6103,7 +5691,6 @@ def test_list_ncname_max_length_1_nistxml_sv_iv_list_ncname_max_length_2_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_1(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 5.
@@ -6117,7 +5704,6 @@ def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_2(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 5.
@@ -6131,7 +5717,6 @@ def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_3(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 5.
@@ -6145,7 +5730,6 @@ def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_4(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 5.
@@ -6159,7 +5743,6 @@ def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_5(save_xml):
     """
     Type list/NCName is restricted by facet maxLength with value 5.
@@ -6173,7 +5756,6 @@ def test_list_ncname_max_length_nistxml_sv_iv_list_ncname_max_length_1_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_1(save_xml):
     """
     Type list/NMTOKENS is restricted by facet whiteSpace with value
@@ -6188,7 +5770,6 @@ def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_2(save_xml):
     """
     Type list/NMTOKENS is restricted by facet whiteSpace with value
@@ -6203,7 +5784,6 @@ def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_3(save_xml):
     """
     Type list/NMTOKENS is restricted by facet whiteSpace with value
@@ -6218,7 +5798,6 @@ def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_4(save_xml):
     """
     Type list/NMTOKENS is restricted by facet whiteSpace with value
@@ -6233,7 +5812,6 @@ def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_5(save_xml):
     """
     Type list/NMTOKENS is restricted by facet whiteSpace with value
@@ -6248,7 +5826,6 @@ def test_list_nmtokens_white_space_nistxml_sv_iv_list_nmtokens_white_space_1_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_1(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6262,7 +5839,6 @@ def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_1
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_2(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6276,7 +5852,6 @@ def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_2
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_3(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6290,7 +5865,6 @@ def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_3
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_4(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6304,7 +5878,6 @@ def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_4
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_5(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6318,7 +5891,6 @@ def test_list_nmtokens_enumeration_4_nistxml_sv_iv_list_nmtokens_enumeration_5_5
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_1(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6332,7 +5904,6 @@ def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_1
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_2(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6346,7 +5917,6 @@ def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_2
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_3(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6360,7 +5930,6 @@ def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_3
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_4(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6374,7 +5943,6 @@ def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_4
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_5(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6388,7 +5956,6 @@ def test_list_nmtokens_enumeration_3_nistxml_sv_iv_list_nmtokens_enumeration_4_5
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_1(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6402,7 +5969,6 @@ def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_1
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_2(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6416,7 +5982,6 @@ def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_2
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_3(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6430,7 +5995,6 @@ def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_3
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_4(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6444,7 +6008,6 @@ def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_4
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_5(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6458,7 +6021,6 @@ def test_list_nmtokens_enumeration_2_nistxml_sv_iv_list_nmtokens_enumeration_3_5
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_1(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6472,7 +6034,6 @@ def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_1
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_2(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6486,7 +6047,6 @@ def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_2
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_3(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6500,7 +6060,6 @@ def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_3
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_4(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6514,7 +6073,6 @@ def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_4
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_5(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6528,7 +6086,6 @@ def test_list_nmtokens_enumeration_1_nistxml_sv_iv_list_nmtokens_enumeration_2_5
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_1(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6542,7 +6099,6 @@ def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_2(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6556,7 +6112,6 @@ def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_3(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6570,7 +6125,6 @@ def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_4(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6584,7 +6138,6 @@ def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_5(save_xml):
     """
     Type list/NMTOKENS is restricted by facet enumeration.
@@ -6598,7 +6151,6 @@ def test_list_nmtokens_enumeration_nistxml_sv_iv_list_nmtokens_enumeration_1_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_1(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{44}
@@ -6613,7 +6165,6 @@ def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_2(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{44}
@@ -6628,7 +6179,6 @@ def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_3(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{44}
@@ -6643,7 +6193,6 @@ def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_4(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{44}
@@ -6658,7 +6207,6 @@ def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_5(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{44}
@@ -6673,7 +6221,6 @@ def test_list_nmtokens_pattern_4_nistxml_sv_iv_list_nmtokens_pattern_5_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_1(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{29}
@@ -6688,7 +6235,6 @@ def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_2(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{29}
@@ -6703,7 +6249,6 @@ def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_3(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{29}
@@ -6718,7 +6263,6 @@ def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_4(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{29}
@@ -6733,7 +6277,6 @@ def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_5(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{29}
@@ -6748,7 +6291,6 @@ def test_list_nmtokens_pattern_3_nistxml_sv_iv_list_nmtokens_pattern_4_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_1(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{20}
@@ -6763,7 +6305,6 @@ def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_2(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{20}
@@ -6778,7 +6319,6 @@ def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_3(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{20}
@@ -6793,7 +6333,6 @@ def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_4(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{20}
@@ -6808,7 +6347,6 @@ def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_5(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{20}
@@ -6823,7 +6361,6 @@ def test_list_nmtokens_pattern_2_nistxml_sv_iv_list_nmtokens_pattern_3_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_1(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{64}
@@ -6838,7 +6375,6 @@ def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_2(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{64}
@@ -6853,7 +6389,6 @@ def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_3(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{64}
@@ -6868,7 +6403,6 @@ def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_4(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{64}
@@ -6883,7 +6417,6 @@ def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_5(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{64}
@@ -6898,7 +6431,6 @@ def test_list_nmtokens_pattern_1_nistxml_sv_iv_list_nmtokens_pattern_2_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_1(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{16}
@@ -6913,7 +6445,6 @@ def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_2(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{16}
@@ -6928,7 +6459,6 @@ def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_3(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{16}
@@ -6943,7 +6473,6 @@ def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_4(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{16}
@@ -6958,7 +6487,6 @@ def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_5(save_xml):
     r"""
     Type list/NMTOKENS is restricted by facet pattern with value \c{16}
@@ -6973,7 +6501,6 @@ def test_list_nmtokens_pattern_nistxml_sv_iv_list_nmtokens_pattern_1_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_1(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 10.
@@ -6987,7 +6514,6 @@ def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_2(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 10.
@@ -7001,7 +6527,6 @@ def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_3(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 10.
@@ -7015,7 +6540,6 @@ def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_4(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 10.
@@ -7029,7 +6553,6 @@ def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_5(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 10.
@@ -7043,7 +6566,6 @@ def test_list_nmtokens_length_4_nistxml_sv_iv_list_nmtokens_length_5_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_1(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 8.
@@ -7057,7 +6579,6 @@ def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_2(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 8.
@@ -7071,7 +6592,6 @@ def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_3(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 8.
@@ -7085,7 +6605,6 @@ def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_4(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 8.
@@ -7099,7 +6618,6 @@ def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_5(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 8.
@@ -7113,7 +6631,6 @@ def test_list_nmtokens_length_3_nistxml_sv_iv_list_nmtokens_length_4_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_1(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 7.
@@ -7127,7 +6644,6 @@ def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_2(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 7.
@@ -7141,7 +6657,6 @@ def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_3(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 7.
@@ -7155,7 +6670,6 @@ def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_4(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 7.
@@ -7169,7 +6683,6 @@ def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_5(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 7.
@@ -7183,7 +6696,6 @@ def test_list_nmtokens_length_2_nistxml_sv_iv_list_nmtokens_length_3_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_1(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 6.
@@ -7197,7 +6709,6 @@ def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_2(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 6.
@@ -7211,7 +6722,6 @@ def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_3(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 6.
@@ -7225,7 +6735,6 @@ def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_4(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 6.
@@ -7239,7 +6748,6 @@ def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_5(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 6.
@@ -7253,7 +6761,6 @@ def test_list_nmtokens_length_1_nistxml_sv_iv_list_nmtokens_length_2_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_1(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 5.
@@ -7267,7 +6774,6 @@ def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_2(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 5.
@@ -7281,7 +6787,6 @@ def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_3(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 5.
@@ -7295,7 +6800,6 @@ def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_4(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 5.
@@ -7309,7 +6813,6 @@ def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_5(save_xml):
     """
     Type list/NMTOKENS is restricted by facet length with value 5.
@@ -7323,7 +6826,6 @@ def test_list_nmtokens_length_nistxml_sv_iv_list_nmtokens_length_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_1(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 10.
@@ -7337,7 +6839,6 @@ def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_2(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 10.
@@ -7351,7 +6852,6 @@ def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_3(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 10.
@@ -7365,7 +6865,6 @@ def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_4(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 10.
@@ -7379,7 +6878,6 @@ def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_5(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 10.
@@ -7393,7 +6891,6 @@ def test_list_nmtokens_min_length_4_nistxml_sv_iv_list_nmtokens_min_length_5_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_1(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 8.
@@ -7407,7 +6904,6 @@ def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_2(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 8.
@@ -7421,7 +6917,6 @@ def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_3(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 8.
@@ -7435,7 +6930,6 @@ def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_4(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 8.
@@ -7449,7 +6943,6 @@ def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_5(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 8.
@@ -7463,7 +6956,6 @@ def test_list_nmtokens_min_length_3_nistxml_sv_iv_list_nmtokens_min_length_4_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_1(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 7.
@@ -7477,7 +6969,6 @@ def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_2(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 7.
@@ -7491,7 +6982,6 @@ def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_3(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 7.
@@ -7505,7 +6995,6 @@ def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_4(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 7.
@@ -7519,7 +7008,6 @@ def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_5(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 7.
@@ -7533,7 +7021,6 @@ def test_list_nmtokens_min_length_2_nistxml_sv_iv_list_nmtokens_min_length_3_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_1(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 6.
@@ -7547,7 +7034,6 @@ def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_2(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 6.
@@ -7561,7 +7047,6 @@ def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_3(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 6.
@@ -7575,7 +7060,6 @@ def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_4(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 6.
@@ -7589,7 +7073,6 @@ def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_5(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 6.
@@ -7603,7 +7086,6 @@ def test_list_nmtokens_min_length_1_nistxml_sv_iv_list_nmtokens_min_length_2_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_1(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 5.
@@ -7617,7 +7099,6 @@ def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_2(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 5.
@@ -7631,7 +7112,6 @@ def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_3(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 5.
@@ -7645,7 +7125,6 @@ def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_4(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 5.
@@ -7659,7 +7138,6 @@ def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_5(save_xml):
     """
     Type list/NMTOKENS is restricted by facet minLength with value 5.
@@ -7673,7 +7151,6 @@ def test_list_nmtokens_min_length_nistxml_sv_iv_list_nmtokens_min_length_1_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_1(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 10.
@@ -7687,7 +7164,6 @@ def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_2(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 10.
@@ -7701,7 +7177,6 @@ def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_3(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 10.
@@ -7715,7 +7190,6 @@ def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_4(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 10.
@@ -7729,7 +7203,6 @@ def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_5(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 10.
@@ -7743,7 +7216,6 @@ def test_list_nmtokens_max_length_4_nistxml_sv_iv_list_nmtokens_max_length_5_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_1(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 8.
@@ -7757,7 +7229,6 @@ def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_2(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 8.
@@ -7771,7 +7242,6 @@ def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_3(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 8.
@@ -7785,7 +7255,6 @@ def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_4(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 8.
@@ -7799,7 +7268,6 @@ def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_5(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 8.
@@ -7813,7 +7281,6 @@ def test_list_nmtokens_max_length_3_nistxml_sv_iv_list_nmtokens_max_length_4_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_1(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 7.
@@ -7827,7 +7294,6 @@ def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_2(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 7.
@@ -7841,7 +7307,6 @@ def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_3(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 7.
@@ -7855,7 +7320,6 @@ def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_4(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 7.
@@ -7869,7 +7333,6 @@ def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_5(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 7.
@@ -7883,7 +7346,6 @@ def test_list_nmtokens_max_length_2_nistxml_sv_iv_list_nmtokens_max_length_3_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_1(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 6.
@@ -7897,7 +7359,6 @@ def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_2(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 6.
@@ -7911,7 +7372,6 @@ def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_3(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 6.
@@ -7925,7 +7385,6 @@ def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_4(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 6.
@@ -7939,7 +7398,6 @@ def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_5(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 6.
@@ -7953,7 +7411,6 @@ def test_list_nmtokens_max_length_1_nistxml_sv_iv_list_nmtokens_max_length_2_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_1(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 5.
@@ -7967,7 +7424,6 @@ def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_2(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 5.
@@ -7981,7 +7437,6 @@ def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_3(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 5.
@@ -7995,7 +7450,6 @@ def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_4(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 5.
@@ -8009,7 +7463,6 @@ def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_5(save_xml):
     """
     Type list/NMTOKENS is restricted by facet maxLength with value 5.
@@ -8023,7 +7476,6 @@ def test_list_nmtokens_max_length_nistxml_sv_iv_list_nmtokens_max_length_1_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_1(save_xml):
     """
     Type list/NMTOKEN is restricted by facet whiteSpace with value
@@ -8038,7 +7490,6 @@ def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_2(save_xml):
     """
     Type list/NMTOKEN is restricted by facet whiteSpace with value
@@ -8053,7 +7504,6 @@ def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_3(save_xml):
     """
     Type list/NMTOKEN is restricted by facet whiteSpace with value
@@ -8068,7 +7518,6 @@ def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_4(save_xml):
     """
     Type list/NMTOKEN is restricted by facet whiteSpace with value
@@ -8083,7 +7532,6 @@ def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_5(save_xml):
     """
     Type list/NMTOKEN is restricted by facet whiteSpace with value
@@ -8098,7 +7546,6 @@ def test_list_nmtoken_white_space_nistxml_sv_iv_list_nmtoken_white_space_1_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_1(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8112,7 +7559,6 @@ def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_2(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8126,7 +7572,6 @@ def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_3(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8140,7 +7585,6 @@ def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_4(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8154,7 +7598,6 @@ def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_5(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8168,7 +7611,6 @@ def test_list_nmtoken_enumeration_4_nistxml_sv_iv_list_nmtoken_enumeration_5_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_1(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8182,7 +7624,6 @@ def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_2(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8196,7 +7637,6 @@ def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_3(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8210,7 +7650,6 @@ def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_4(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8224,7 +7663,6 @@ def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_5(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8238,7 +7676,6 @@ def test_list_nmtoken_enumeration_3_nistxml_sv_iv_list_nmtoken_enumeration_4_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_1(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8252,7 +7689,6 @@ def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_2(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8266,7 +7702,6 @@ def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_3(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8280,7 +7715,6 @@ def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_4(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8294,7 +7728,6 @@ def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_5(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8308,7 +7741,6 @@ def test_list_nmtoken_enumeration_2_nistxml_sv_iv_list_nmtoken_enumeration_3_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_1(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8322,7 +7754,6 @@ def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_1(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_2(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8336,7 +7767,6 @@ def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_2(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_3(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8350,7 +7780,6 @@ def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_3(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_4(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8364,7 +7793,6 @@ def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_4(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_5(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8378,7 +7806,6 @@ def test_list_nmtoken_enumeration_1_nistxml_sv_iv_list_nmtoken_enumeration_2_5(s
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_1(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8392,7 +7819,6 @@ def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_2(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8406,7 +7832,6 @@ def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_3(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8420,7 +7845,6 @@ def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_4(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8434,7 +7858,6 @@ def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_5(save_xml):
     """
     Type list/NMTOKEN is restricted by facet enumeration.
@@ -8448,7 +7871,6 @@ def test_list_nmtoken_enumeration_nistxml_sv_iv_list_nmtoken_enumeration_1_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_1(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{45}
@@ -8463,7 +7885,6 @@ def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_2(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{45}
@@ -8478,7 +7899,6 @@ def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_3(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{45}
@@ -8493,7 +7913,6 @@ def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_4(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{45}
@@ -8508,7 +7927,6 @@ def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_5(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{45}
@@ -8523,7 +7941,6 @@ def test_list_nmtoken_pattern_4_nistxml_sv_iv_list_nmtoken_pattern_5_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_1(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{35}
@@ -8538,7 +7955,6 @@ def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_2(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{35}
@@ -8553,7 +7969,6 @@ def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_3(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{35}
@@ -8568,7 +7983,6 @@ def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_4(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{35}
@@ -8583,7 +7997,6 @@ def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_5(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{35}
@@ -8598,7 +8011,6 @@ def test_list_nmtoken_pattern_3_nistxml_sv_iv_list_nmtoken_pattern_4_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_1(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{1}
@@ -8613,7 +8025,6 @@ def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_2(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{1}
@@ -8628,7 +8039,6 @@ def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_3(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{1}
@@ -8643,7 +8053,6 @@ def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_4(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{1}
@@ -8658,7 +8067,6 @@ def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_5(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{1}
@@ -8673,7 +8081,6 @@ def test_list_nmtoken_pattern_2_nistxml_sv_iv_list_nmtoken_pattern_3_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_1(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{20}
@@ -8688,7 +8095,6 @@ def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_2(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{20}
@@ -8703,7 +8109,6 @@ def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_3(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{20}
@@ -8718,7 +8123,6 @@ def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_4(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{20}
@@ -8733,7 +8137,6 @@ def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_5(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{20}
@@ -8748,7 +8151,6 @@ def test_list_nmtoken_pattern_1_nistxml_sv_iv_list_nmtoken_pattern_2_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_1(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{40}
@@ -8763,7 +8165,6 @@ def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_2(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{40}
@@ -8778,7 +8179,6 @@ def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_3(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{40}
@@ -8793,7 +8193,6 @@ def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_4(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{40}
@@ -8808,7 +8207,6 @@ def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_5(save_xml):
     r"""
     Type list/NMTOKEN is restricted by facet pattern with value \c{40}
@@ -8823,7 +8221,6 @@ def test_list_nmtoken_pattern_nistxml_sv_iv_list_nmtoken_pattern_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_1(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 10.
@@ -8837,7 +8234,6 @@ def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_2(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 10.
@@ -8851,7 +8247,6 @@ def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_3(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 10.
@@ -8865,7 +8260,6 @@ def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_4(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 10.
@@ -8879,7 +8273,6 @@ def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_5(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 10.
@@ -8893,7 +8286,6 @@ def test_list_nmtoken_length_4_nistxml_sv_iv_list_nmtoken_length_5_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_1(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 8.
@@ -8907,7 +8299,6 @@ def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_2(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 8.
@@ -8921,7 +8312,6 @@ def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_3(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 8.
@@ -8935,7 +8325,6 @@ def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_4(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 8.
@@ -8949,7 +8338,6 @@ def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_5(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 8.
@@ -8963,7 +8351,6 @@ def test_list_nmtoken_length_3_nistxml_sv_iv_list_nmtoken_length_4_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_1(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 7.
@@ -8977,7 +8364,6 @@ def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_2(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 7.
@@ -8991,7 +8377,6 @@ def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_3(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 7.
@@ -9005,7 +8390,6 @@ def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_4(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 7.
@@ -9019,7 +8403,6 @@ def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_5(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 7.
@@ -9033,7 +8416,6 @@ def test_list_nmtoken_length_2_nistxml_sv_iv_list_nmtoken_length_3_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_1(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 6.
@@ -9047,7 +8429,6 @@ def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_2(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 6.
@@ -9061,7 +8442,6 @@ def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_3(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 6.
@@ -9075,7 +8455,6 @@ def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_4(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 6.
@@ -9089,7 +8468,6 @@ def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_5(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 6.
@@ -9103,7 +8481,6 @@ def test_list_nmtoken_length_1_nistxml_sv_iv_list_nmtoken_length_2_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_1(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 5.
@@ -9117,7 +8494,6 @@ def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_2(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 5.
@@ -9131,7 +8507,6 @@ def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_3(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 5.
@@ -9145,7 +8520,6 @@ def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_4(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 5.
@@ -9159,7 +8533,6 @@ def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_5(save_xml):
     """
     Type list/NMTOKEN is restricted by facet length with value 5.
@@ -9173,7 +8546,6 @@ def test_list_nmtoken_length_nistxml_sv_iv_list_nmtoken_length_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_1(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 10.
@@ -9187,7 +8559,6 @@ def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_2(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 10.
@@ -9201,7 +8572,6 @@ def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_3(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 10.
@@ -9215,7 +8585,6 @@ def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_4(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 10.
@@ -9229,7 +8598,6 @@ def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_5(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 10.
@@ -9243,7 +8611,6 @@ def test_list_nmtoken_min_length_4_nistxml_sv_iv_list_nmtoken_min_length_5_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_1(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 8.
@@ -9257,7 +8624,6 @@ def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_2(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 8.
@@ -9271,7 +8637,6 @@ def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_3(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 8.
@@ -9285,7 +8650,6 @@ def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_4(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 8.
@@ -9299,7 +8663,6 @@ def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_5(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 8.
@@ -9313,7 +8676,6 @@ def test_list_nmtoken_min_length_3_nistxml_sv_iv_list_nmtoken_min_length_4_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_1(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 7.
@@ -9327,7 +8689,6 @@ def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_2(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 7.
@@ -9341,7 +8702,6 @@ def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_3(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 7.
@@ -9355,7 +8715,6 @@ def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_4(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 7.
@@ -9369,7 +8728,6 @@ def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_5(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 7.
@@ -9383,7 +8741,6 @@ def test_list_nmtoken_min_length_2_nistxml_sv_iv_list_nmtoken_min_length_3_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_1(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 6.
@@ -9397,7 +8754,6 @@ def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_2(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 6.
@@ -9411,7 +8767,6 @@ def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_3(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 6.
@@ -9425,7 +8780,6 @@ def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_4(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 6.
@@ -9439,7 +8793,6 @@ def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_5(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 6.
@@ -9453,7 +8806,6 @@ def test_list_nmtoken_min_length_1_nistxml_sv_iv_list_nmtoken_min_length_2_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_1(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 5.
@@ -9467,7 +8819,6 @@ def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_2(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 5.
@@ -9481,7 +8832,6 @@ def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_3(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 5.
@@ -9495,7 +8845,6 @@ def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_4(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 5.
@@ -9509,7 +8858,6 @@ def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_5(save_xml):
     """
     Type list/NMTOKEN is restricted by facet minLength with value 5.
@@ -9523,7 +8871,6 @@ def test_list_nmtoken_min_length_nistxml_sv_iv_list_nmtoken_min_length_1_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_1(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 10.
@@ -9537,7 +8884,6 @@ def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_2(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 10.
@@ -9551,7 +8897,6 @@ def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_3(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 10.
@@ -9565,7 +8910,6 @@ def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_4(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 10.
@@ -9579,7 +8923,6 @@ def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_5(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 10.
@@ -9593,7 +8936,6 @@ def test_list_nmtoken_max_length_4_nistxml_sv_iv_list_nmtoken_max_length_5_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_1(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 8.
@@ -9607,7 +8949,6 @@ def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_2(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 8.
@@ -9621,7 +8962,6 @@ def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_3(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 8.
@@ -9635,7 +8975,6 @@ def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_4(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 8.
@@ -9649,7 +8988,6 @@ def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_5(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 8.
@@ -9663,7 +9001,6 @@ def test_list_nmtoken_max_length_3_nistxml_sv_iv_list_nmtoken_max_length_4_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_1(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 7.
@@ -9677,7 +9014,6 @@ def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_2(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 7.
@@ -9691,7 +9027,6 @@ def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_3(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 7.
@@ -9705,7 +9040,6 @@ def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_4(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 7.
@@ -9719,7 +9053,6 @@ def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_5(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 7.
@@ -9733,7 +9066,6 @@ def test_list_nmtoken_max_length_2_nistxml_sv_iv_list_nmtoken_max_length_3_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_1(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 6.
@@ -9747,7 +9079,6 @@ def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_2(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 6.
@@ -9761,7 +9092,6 @@ def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_3(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 6.
@@ -9775,7 +9105,6 @@ def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_4(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 6.
@@ -9789,7 +9118,6 @@ def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_5(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 6.
@@ -9803,7 +9131,6 @@ def test_list_nmtoken_max_length_1_nistxml_sv_iv_list_nmtoken_max_length_2_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_1(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 5.
@@ -9817,7 +9144,6 @@ def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_2(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 5.
@@ -9831,7 +9157,6 @@ def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_3(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 5.
@@ -9845,7 +9170,6 @@ def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_4(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 5.
@@ -9859,7 +9183,6 @@ def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_5(save_xml):
     """
     Type list/NMTOKEN is restricted by facet maxLength with value 5.
@@ -9873,7 +9196,6 @@ def test_list_nmtoken_max_length_nistxml_sv_iv_list_nmtoken_max_length_1_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_1(save_xml):
     """
     Type list/Name is restricted by facet whiteSpace with value collapse.
@@ -9887,7 +9209,6 @@ def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_2(save_xml):
     """
     Type list/Name is restricted by facet whiteSpace with value collapse.
@@ -9901,7 +9222,6 @@ def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_3(save_xml):
     """
     Type list/Name is restricted by facet whiteSpace with value collapse.
@@ -9915,7 +9235,6 @@ def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_4(save_xml):
     """
     Type list/Name is restricted by facet whiteSpace with value collapse.
@@ -9929,7 +9248,6 @@ def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_5(save_xml):
     """
     Type list/Name is restricted by facet whiteSpace with value collapse.
@@ -9943,7 +9261,6 @@ def test_list_name_white_space_nistxml_sv_iv_list_name_white_space_1_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_1(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -9957,7 +9274,6 @@ def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_2(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -9971,7 +9287,6 @@ def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_3(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -9985,7 +9300,6 @@ def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_4(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -9999,7 +9313,6 @@ def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_5(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -10013,7 +9326,6 @@ def test_list_name_enumeration_4_nistxml_sv_iv_list_name_enumeration_5_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_1(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -10027,7 +9339,6 @@ def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_2(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -10041,7 +9352,6 @@ def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_3(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -10055,7 +9365,6 @@ def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_4(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -10069,7 +9378,6 @@ def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_5(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -10083,7 +9391,6 @@ def test_list_name_enumeration_3_nistxml_sv_iv_list_name_enumeration_4_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_1(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -10097,7 +9404,6 @@ def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_2(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -10111,7 +9417,6 @@ def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_3(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -10125,7 +9430,6 @@ def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_4(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -10139,7 +9443,6 @@ def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_5(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -10153,7 +9456,6 @@ def test_list_name_enumeration_2_nistxml_sv_iv_list_name_enumeration_3_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_1(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -10167,7 +9469,6 @@ def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_2(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -10181,7 +9482,6 @@ def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_3(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -10195,7 +9495,6 @@ def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_4(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -10209,7 +9508,6 @@ def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_5(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -10223,7 +9521,6 @@ def test_list_name_enumeration_1_nistxml_sv_iv_list_name_enumeration_2_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_1(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -10237,7 +9534,6 @@ def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_2(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -10251,7 +9547,6 @@ def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_3(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -10265,7 +9560,6 @@ def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_4(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -10279,7 +9573,6 @@ def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_5(save_xml):
     """
     Type list/Name is restricted by facet enumeration.
@@ -10293,7 +9586,6 @@ def test_list_name_enumeration_nistxml_sv_iv_list_name_enumeration_1_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_1(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{21}
@@ -10309,7 +9601,6 @@ def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_2(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{21}
@@ -10325,7 +9616,6 @@ def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_3(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{21}
@@ -10341,7 +9631,6 @@ def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_4(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{21}
@@ -10357,7 +9646,6 @@ def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_5(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{21}
@@ -10373,7 +9661,6 @@ def test_list_name_pattern_4_nistxml_sv_iv_list_name_pattern_5_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_1(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{19}
@@ -10389,7 +9676,6 @@ def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_2(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{19}
@@ -10405,7 +9691,6 @@ def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_3(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{19}
@@ -10421,7 +9706,6 @@ def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_4(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{19}
@@ -10437,7 +9721,6 @@ def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_5(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{19}
@@ -10453,7 +9736,6 @@ def test_list_name_pattern_3_nistxml_sv_iv_list_name_pattern_4_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_1(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{24}
@@ -10468,7 +9750,6 @@ def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_2(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{24}
@@ -10483,7 +9764,6 @@ def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_3(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{24}
@@ -10498,7 +9778,6 @@ def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_4(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{24}
@@ -10513,7 +9792,6 @@ def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_5(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{24}
@@ -10528,7 +9806,6 @@ def test_list_name_pattern_2_nistxml_sv_iv_list_name_pattern_3_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_1(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{33}
@@ -10543,7 +9820,6 @@ def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_2(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{33}
@@ -10558,7 +9834,6 @@ def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_3(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{33}
@@ -10573,7 +9848,6 @@ def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_4(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{33}
@@ -10588,7 +9862,6 @@ def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_5(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{33}
@@ -10603,7 +9876,6 @@ def test_list_name_pattern_1_nistxml_sv_iv_list_name_pattern_2_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_1(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{48}
@@ -10618,7 +9890,6 @@ def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_2(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{48}
@@ -10633,7 +9904,6 @@ def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_3(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{48}
@@ -10648,7 +9918,6 @@ def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_4(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{48}
@@ -10663,7 +9932,6 @@ def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_5(save_xml):
     r"""
     Type list/Name is restricted by facet pattern with value \i\c{48}
@@ -10678,7 +9946,6 @@ def test_list_name_pattern_nistxml_sv_iv_list_name_pattern_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_1(save_xml):
     """
     Type list/Name is restricted by facet length with value 10.
@@ -10692,7 +9959,6 @@ def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_2(save_xml):
     """
     Type list/Name is restricted by facet length with value 10.
@@ -10706,7 +9972,6 @@ def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_3(save_xml):
     """
     Type list/Name is restricted by facet length with value 10.
@@ -10720,7 +9985,6 @@ def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_4(save_xml):
     """
     Type list/Name is restricted by facet length with value 10.
@@ -10734,7 +9998,6 @@ def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_5(save_xml):
     """
     Type list/Name is restricted by facet length with value 10.
@@ -10748,7 +10011,6 @@ def test_list_name_length_4_nistxml_sv_iv_list_name_length_5_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_1(save_xml):
     """
     Type list/Name is restricted by facet length with value 8.
@@ -10762,7 +10024,6 @@ def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_2(save_xml):
     """
     Type list/Name is restricted by facet length with value 8.
@@ -10776,7 +10037,6 @@ def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_3(save_xml):
     """
     Type list/Name is restricted by facet length with value 8.
@@ -10790,7 +10050,6 @@ def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_4(save_xml):
     """
     Type list/Name is restricted by facet length with value 8.
@@ -10804,7 +10063,6 @@ def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_5(save_xml):
     """
     Type list/Name is restricted by facet length with value 8.
@@ -10818,7 +10076,6 @@ def test_list_name_length_3_nistxml_sv_iv_list_name_length_4_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_1(save_xml):
     """
     Type list/Name is restricted by facet length with value 7.
@@ -10832,7 +10089,6 @@ def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_2(save_xml):
     """
     Type list/Name is restricted by facet length with value 7.
@@ -10846,7 +10102,6 @@ def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_3(save_xml):
     """
     Type list/Name is restricted by facet length with value 7.
@@ -10860,7 +10115,6 @@ def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_4(save_xml):
     """
     Type list/Name is restricted by facet length with value 7.
@@ -10874,7 +10128,6 @@ def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_5(save_xml):
     """
     Type list/Name is restricted by facet length with value 7.
@@ -10888,7 +10141,6 @@ def test_list_name_length_2_nistxml_sv_iv_list_name_length_3_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_1(save_xml):
     """
     Type list/Name is restricted by facet length with value 6.
@@ -10902,7 +10154,6 @@ def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_2(save_xml):
     """
     Type list/Name is restricted by facet length with value 6.
@@ -10916,7 +10167,6 @@ def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_3(save_xml):
     """
     Type list/Name is restricted by facet length with value 6.
@@ -10930,7 +10180,6 @@ def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_4(save_xml):
     """
     Type list/Name is restricted by facet length with value 6.
@@ -10944,7 +10193,6 @@ def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_5(save_xml):
     """
     Type list/Name is restricted by facet length with value 6.
@@ -10958,7 +10206,6 @@ def test_list_name_length_1_nistxml_sv_iv_list_name_length_2_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_nistxml_sv_iv_list_name_length_1_1(save_xml):
     """
     Type list/Name is restricted by facet length with value 5.
@@ -10972,7 +10219,6 @@ def test_list_name_length_nistxml_sv_iv_list_name_length_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_nistxml_sv_iv_list_name_length_1_2(save_xml):
     """
     Type list/Name is restricted by facet length with value 5.
@@ -10986,7 +10232,6 @@ def test_list_name_length_nistxml_sv_iv_list_name_length_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_nistxml_sv_iv_list_name_length_1_3(save_xml):
     """
     Type list/Name is restricted by facet length with value 5.
@@ -11000,7 +10245,6 @@ def test_list_name_length_nistxml_sv_iv_list_name_length_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_nistxml_sv_iv_list_name_length_1_4(save_xml):
     """
     Type list/Name is restricted by facet length with value 5.
@@ -11014,7 +10258,6 @@ def test_list_name_length_nistxml_sv_iv_list_name_length_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_length_nistxml_sv_iv_list_name_length_1_5(save_xml):
     """
     Type list/Name is restricted by facet length with value 5.
@@ -11028,7 +10271,6 @@ def test_list_name_length_nistxml_sv_iv_list_name_length_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_1(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 10.
@@ -11042,7 +10284,6 @@ def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_2(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 10.
@@ -11056,7 +10297,6 @@ def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_3(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 10.
@@ -11070,7 +10310,6 @@ def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_4(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 10.
@@ -11084,7 +10323,6 @@ def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_5(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 10.
@@ -11098,7 +10336,6 @@ def test_list_name_min_length_4_nistxml_sv_iv_list_name_min_length_5_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_1(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 8.
@@ -11112,7 +10349,6 @@ def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_2(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 8.
@@ -11126,7 +10362,6 @@ def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_3(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 8.
@@ -11140,7 +10375,6 @@ def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_4(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 8.
@@ -11154,7 +10388,6 @@ def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_5(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 8.
@@ -11168,7 +10401,6 @@ def test_list_name_min_length_3_nistxml_sv_iv_list_name_min_length_4_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_1(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 7.
@@ -11182,7 +10414,6 @@ def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_2(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 7.
@@ -11196,7 +10427,6 @@ def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_3(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 7.
@@ -11210,7 +10440,6 @@ def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_4(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 7.
@@ -11224,7 +10453,6 @@ def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_5(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 7.
@@ -11238,7 +10466,6 @@ def test_list_name_min_length_2_nistxml_sv_iv_list_name_min_length_3_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_1(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 6.
@@ -11252,7 +10479,6 @@ def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_2(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 6.
@@ -11266,7 +10492,6 @@ def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_3(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 6.
@@ -11280,7 +10505,6 @@ def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_4(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 6.
@@ -11294,7 +10518,6 @@ def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_5(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 6.
@@ -11308,7 +10531,6 @@ def test_list_name_min_length_1_nistxml_sv_iv_list_name_min_length_2_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_1(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 5.
@@ -11322,7 +10544,6 @@ def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_2(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 5.
@@ -11336,7 +10557,6 @@ def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_3(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 5.
@@ -11350,7 +10570,6 @@ def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_4(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 5.
@@ -11364,7 +10583,6 @@ def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_5(save_xml):
     """
     Type list/Name is restricted by facet minLength with value 5.
@@ -11378,7 +10596,6 @@ def test_list_name_min_length_nistxml_sv_iv_list_name_min_length_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_1(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 10.
@@ -11392,7 +10609,6 @@ def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_2(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 10.
@@ -11406,7 +10622,6 @@ def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_3(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 10.
@@ -11420,7 +10635,6 @@ def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_4(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 10.
@@ -11434,7 +10648,6 @@ def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_5(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 10.
@@ -11448,7 +10661,6 @@ def test_list_name_max_length_4_nistxml_sv_iv_list_name_max_length_5_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_1(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 8.
@@ -11462,7 +10674,6 @@ def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_2(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 8.
@@ -11476,7 +10687,6 @@ def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_3(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 8.
@@ -11490,7 +10700,6 @@ def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_4(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 8.
@@ -11504,7 +10713,6 @@ def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_5(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 8.
@@ -11518,7 +10726,6 @@ def test_list_name_max_length_3_nistxml_sv_iv_list_name_max_length_4_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_1(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 7.
@@ -11532,7 +10739,6 @@ def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_2(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 7.
@@ -11546,7 +10752,6 @@ def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_3(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 7.
@@ -11560,7 +10765,6 @@ def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_4(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 7.
@@ -11574,7 +10778,6 @@ def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_5(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 7.
@@ -11588,7 +10791,6 @@ def test_list_name_max_length_2_nistxml_sv_iv_list_name_max_length_3_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_1(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 6.
@@ -11602,7 +10804,6 @@ def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_2(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 6.
@@ -11616,7 +10817,6 @@ def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_3(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 6.
@@ -11630,7 +10830,6 @@ def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_4(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 6.
@@ -11644,7 +10843,6 @@ def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_5(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 6.
@@ -11658,7 +10856,6 @@ def test_list_name_max_length_1_nistxml_sv_iv_list_name_max_length_2_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_1(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 5.
@@ -11672,7 +10869,6 @@ def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_2(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 5.
@@ -11686,7 +10882,6 @@ def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_3(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 5.
@@ -11700,7 +10895,6 @@ def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_4(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 5.
@@ -11714,7 +10908,6 @@ def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_5(save_xml):
     """
     Type list/Name is restricted by facet maxLength with value 5.
@@ -11728,7 +10921,6 @@ def test_list_name_max_length_nistxml_sv_iv_list_name_max_length_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_1(save_xml):
     """
     Type list/token is restricted by facet whiteSpace with value collapse.
@@ -11742,7 +10934,6 @@ def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_2(save_xml):
     """
     Type list/token is restricted by facet whiteSpace with value collapse.
@@ -11756,7 +10947,6 @@ def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_3(save_xml):
     """
     Type list/token is restricted by facet whiteSpace with value collapse.
@@ -11770,7 +10960,6 @@ def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_4(save_xml):
     """
     Type list/token is restricted by facet whiteSpace with value collapse.
@@ -11784,7 +10973,6 @@ def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_5(save_xml):
     """
     Type list/token is restricted by facet whiteSpace with value collapse.
@@ -11798,7 +10986,6 @@ def test_list_token_white_space_nistxml_sv_iv_list_token_white_space_1_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_1(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -11812,7 +10999,6 @@ def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_2(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -11826,7 +11012,6 @@ def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_3(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -11840,7 +11025,6 @@ def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_4(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -11854,7 +11038,6 @@ def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_5(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -11868,7 +11051,6 @@ def test_list_token_enumeration_4_nistxml_sv_iv_list_token_enumeration_5_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_1(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -11882,7 +11064,6 @@ def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_2(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -11896,7 +11077,6 @@ def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_3(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -11910,7 +11090,6 @@ def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_4(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -11924,7 +11103,6 @@ def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_5(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -11938,7 +11116,6 @@ def test_list_token_enumeration_3_nistxml_sv_iv_list_token_enumeration_4_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_1(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -11952,7 +11129,6 @@ def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_2(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -11966,7 +11142,6 @@ def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_3(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -11980,7 +11155,6 @@ def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_4(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -11994,7 +11168,6 @@ def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_5(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -12008,7 +11181,6 @@ def test_list_token_enumeration_2_nistxml_sv_iv_list_token_enumeration_3_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_1(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -12022,7 +11194,6 @@ def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_2(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -12036,7 +11207,6 @@ def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_3(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -12050,7 +11220,6 @@ def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_4(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -12064,7 +11233,6 @@ def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_5(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -12078,7 +11246,6 @@ def test_list_token_enumeration_1_nistxml_sv_iv_list_token_enumeration_2_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_1(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -12092,7 +11259,6 @@ def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_2(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -12106,7 +11272,6 @@ def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_3(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -12120,7 +11285,6 @@ def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_4(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -12134,7 +11298,6 @@ def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_5(save_xml):
     """
     Type list/token is restricted by facet enumeration.
@@ -12148,7 +11311,6 @@ def test_list_token_enumeration_nistxml_sv_iv_list_token_enumeration_1_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_1(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12171,7 +11333,6 @@ def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_2(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12194,7 +11355,6 @@ def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_3(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12217,7 +11377,6 @@ def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_4(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12240,7 +11399,6 @@ def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_5(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12263,7 +11421,6 @@ def test_list_token_pattern_4_nistxml_sv_iv_list_token_pattern_5_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_1(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12287,7 +11444,6 @@ def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_2(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12311,7 +11467,6 @@ def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_3(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12335,7 +11490,6 @@ def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_4(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12359,7 +11513,6 @@ def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_5(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12383,7 +11536,6 @@ def test_list_token_pattern_3_nistxml_sv_iv_list_token_pattern_4_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_1(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12405,7 +11557,6 @@ def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_2(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12427,7 +11578,6 @@ def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_3(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12449,7 +11599,6 @@ def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_4(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12471,7 +11620,6 @@ def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_5(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12493,7 +11641,6 @@ def test_list_token_pattern_2_nistxml_sv_iv_list_token_pattern_3_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_1(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12518,7 +11665,6 @@ def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_2(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12543,7 +11689,6 @@ def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_3(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12568,7 +11713,6 @@ def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_4(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12593,7 +11737,6 @@ def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_5(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12618,7 +11761,6 @@ def test_list_token_pattern_1_nistxml_sv_iv_list_token_pattern_2_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_1(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12638,7 +11780,6 @@ def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_2(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12658,7 +11799,6 @@ def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_3(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12678,7 +11818,6 @@ def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_4(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12698,7 +11837,6 @@ def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_5(save_xml):
     r"""
     Type list/token is restricted by facet pattern with value \d{1,5}_([A-
@@ -12718,7 +11856,6 @@ def test_list_token_pattern_nistxml_sv_iv_list_token_pattern_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_1(save_xml):
     """
     Type list/token is restricted by facet length with value 10.
@@ -12732,7 +11869,6 @@ def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_2(save_xml):
     """
     Type list/token is restricted by facet length with value 10.
@@ -12746,7 +11882,6 @@ def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_3(save_xml):
     """
     Type list/token is restricted by facet length with value 10.
@@ -12760,7 +11895,6 @@ def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_4(save_xml):
     """
     Type list/token is restricted by facet length with value 10.
@@ -12774,7 +11908,6 @@ def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_5(save_xml):
     """
     Type list/token is restricted by facet length with value 10.
@@ -12788,7 +11921,6 @@ def test_list_token_length_4_nistxml_sv_iv_list_token_length_5_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_1(save_xml):
     """
     Type list/token is restricted by facet length with value 8.
@@ -12802,7 +11934,6 @@ def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_2(save_xml):
     """
     Type list/token is restricted by facet length with value 8.
@@ -12816,7 +11947,6 @@ def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_3(save_xml):
     """
     Type list/token is restricted by facet length with value 8.
@@ -12830,7 +11960,6 @@ def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_4(save_xml):
     """
     Type list/token is restricted by facet length with value 8.
@@ -12844,7 +11973,6 @@ def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_5(save_xml):
     """
     Type list/token is restricted by facet length with value 8.
@@ -12858,7 +11986,6 @@ def test_list_token_length_3_nistxml_sv_iv_list_token_length_4_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_1(save_xml):
     """
     Type list/token is restricted by facet length with value 7.
@@ -12872,7 +11999,6 @@ def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_2(save_xml):
     """
     Type list/token is restricted by facet length with value 7.
@@ -12886,7 +12012,6 @@ def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_3(save_xml):
     """
     Type list/token is restricted by facet length with value 7.
@@ -12900,7 +12025,6 @@ def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_4(save_xml):
     """
     Type list/token is restricted by facet length with value 7.
@@ -12914,7 +12038,6 @@ def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_5(save_xml):
     """
     Type list/token is restricted by facet length with value 7.
@@ -12928,7 +12051,6 @@ def test_list_token_length_2_nistxml_sv_iv_list_token_length_3_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_1(save_xml):
     """
     Type list/token is restricted by facet length with value 6.
@@ -12942,7 +12064,6 @@ def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_2(save_xml):
     """
     Type list/token is restricted by facet length with value 6.
@@ -12956,7 +12077,6 @@ def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_3(save_xml):
     """
     Type list/token is restricted by facet length with value 6.
@@ -12970,7 +12090,6 @@ def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_4(save_xml):
     """
     Type list/token is restricted by facet length with value 6.
@@ -12984,7 +12103,6 @@ def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_5(save_xml):
     """
     Type list/token is restricted by facet length with value 6.
@@ -12998,7 +12116,6 @@ def test_list_token_length_1_nistxml_sv_iv_list_token_length_2_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_nistxml_sv_iv_list_token_length_1_1(save_xml):
     """
     Type list/token is restricted by facet length with value 5.
@@ -13012,7 +12129,6 @@ def test_list_token_length_nistxml_sv_iv_list_token_length_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_nistxml_sv_iv_list_token_length_1_2(save_xml):
     """
     Type list/token is restricted by facet length with value 5.
@@ -13026,7 +12142,6 @@ def test_list_token_length_nistxml_sv_iv_list_token_length_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_nistxml_sv_iv_list_token_length_1_3(save_xml):
     """
     Type list/token is restricted by facet length with value 5.
@@ -13040,7 +12155,6 @@ def test_list_token_length_nistxml_sv_iv_list_token_length_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_nistxml_sv_iv_list_token_length_1_4(save_xml):
     """
     Type list/token is restricted by facet length with value 5.
@@ -13054,7 +12168,6 @@ def test_list_token_length_nistxml_sv_iv_list_token_length_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_length_nistxml_sv_iv_list_token_length_1_5(save_xml):
     """
     Type list/token is restricted by facet length with value 5.
@@ -13068,7 +12181,6 @@ def test_list_token_length_nistxml_sv_iv_list_token_length_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_1(save_xml):
     """
     Type list/token is restricted by facet minLength with value 10.
@@ -13082,7 +12194,6 @@ def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_2(save_xml):
     """
     Type list/token is restricted by facet minLength with value 10.
@@ -13096,7 +12207,6 @@ def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_3(save_xml):
     """
     Type list/token is restricted by facet minLength with value 10.
@@ -13110,7 +12220,6 @@ def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_4(save_xml):
     """
     Type list/token is restricted by facet minLength with value 10.
@@ -13124,7 +12233,6 @@ def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_5(save_xml):
     """
     Type list/token is restricted by facet minLength with value 10.
@@ -13138,7 +12246,6 @@ def test_list_token_min_length_4_nistxml_sv_iv_list_token_min_length_5_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_1(save_xml):
     """
     Type list/token is restricted by facet minLength with value 8.
@@ -13152,7 +12259,6 @@ def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_2(save_xml):
     """
     Type list/token is restricted by facet minLength with value 8.
@@ -13166,7 +12272,6 @@ def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_3(save_xml):
     """
     Type list/token is restricted by facet minLength with value 8.
@@ -13180,7 +12285,6 @@ def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_4(save_xml):
     """
     Type list/token is restricted by facet minLength with value 8.
@@ -13194,7 +12298,6 @@ def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_5(save_xml):
     """
     Type list/token is restricted by facet minLength with value 8.
@@ -13208,7 +12311,6 @@ def test_list_token_min_length_3_nistxml_sv_iv_list_token_min_length_4_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_1(save_xml):
     """
     Type list/token is restricted by facet minLength with value 7.
@@ -13222,7 +12324,6 @@ def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_2(save_xml):
     """
     Type list/token is restricted by facet minLength with value 7.
@@ -13236,7 +12337,6 @@ def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_3(save_xml):
     """
     Type list/token is restricted by facet minLength with value 7.
@@ -13250,7 +12350,6 @@ def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_4(save_xml):
     """
     Type list/token is restricted by facet minLength with value 7.
@@ -13264,7 +12363,6 @@ def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_5(save_xml):
     """
     Type list/token is restricted by facet minLength with value 7.
@@ -13278,7 +12376,6 @@ def test_list_token_min_length_2_nistxml_sv_iv_list_token_min_length_3_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_1(save_xml):
     """
     Type list/token is restricted by facet minLength with value 6.
@@ -13292,7 +12389,6 @@ def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_2(save_xml):
     """
     Type list/token is restricted by facet minLength with value 6.
@@ -13306,7 +12402,6 @@ def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_3(save_xml):
     """
     Type list/token is restricted by facet minLength with value 6.
@@ -13320,7 +12415,6 @@ def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_4(save_xml):
     """
     Type list/token is restricted by facet minLength with value 6.
@@ -13334,7 +12428,6 @@ def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_5(save_xml):
     """
     Type list/token is restricted by facet minLength with value 6.
@@ -13348,7 +12441,6 @@ def test_list_token_min_length_1_nistxml_sv_iv_list_token_min_length_2_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_1(save_xml):
     """
     Type list/token is restricted by facet minLength with value 5.
@@ -13362,7 +12454,6 @@ def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_2(save_xml):
     """
     Type list/token is restricted by facet minLength with value 5.
@@ -13376,7 +12467,6 @@ def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_3(save_xml):
     """
     Type list/token is restricted by facet minLength with value 5.
@@ -13390,7 +12480,6 @@ def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_4(save_xml):
     """
     Type list/token is restricted by facet minLength with value 5.
@@ -13404,7 +12493,6 @@ def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_5(save_xml):
     """
     Type list/token is restricted by facet minLength with value 5.
@@ -13418,7 +12506,6 @@ def test_list_token_min_length_nistxml_sv_iv_list_token_min_length_1_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_1(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 10.
@@ -13432,7 +12519,6 @@ def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_2(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 10.
@@ -13446,7 +12532,6 @@ def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_3(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 10.
@@ -13460,7 +12545,6 @@ def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_4(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 10.
@@ -13474,7 +12558,6 @@ def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_5(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 10.
@@ -13488,7 +12571,6 @@ def test_list_token_max_length_4_nistxml_sv_iv_list_token_max_length_5_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_1(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 8.
@@ -13502,7 +12584,6 @@ def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_2(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 8.
@@ -13516,7 +12597,6 @@ def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_3(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 8.
@@ -13530,7 +12610,6 @@ def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_4(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 8.
@@ -13544,7 +12623,6 @@ def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_5(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 8.
@@ -13558,7 +12636,6 @@ def test_list_token_max_length_3_nistxml_sv_iv_list_token_max_length_4_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_1(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 7.
@@ -13572,7 +12649,6 @@ def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_2(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 7.
@@ -13586,7 +12662,6 @@ def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_3(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 7.
@@ -13600,7 +12675,6 @@ def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_4(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 7.
@@ -13614,7 +12688,6 @@ def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_5(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 7.
@@ -13628,7 +12701,6 @@ def test_list_token_max_length_2_nistxml_sv_iv_list_token_max_length_3_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_1(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 6.
@@ -13642,7 +12714,6 @@ def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_2(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 6.
@@ -13656,7 +12727,6 @@ def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_3(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 6.
@@ -13670,7 +12740,6 @@ def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_4(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 6.
@@ -13684,7 +12753,6 @@ def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_5(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 6.
@@ -13698,7 +12766,6 @@ def test_list_token_max_length_1_nistxml_sv_iv_list_token_max_length_2_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_1(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 5.
@@ -13712,7 +12779,6 @@ def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_2(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 5.
@@ -13726,7 +12792,6 @@ def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_3(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 5.
@@ -13740,7 +12805,6 @@ def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_4(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 5.
@@ -13754,7 +12818,6 @@ def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_5(save_xml):
     """
     Type list/token is restricted by facet maxLength with value 5.
@@ -13768,7 +12831,6 @@ def test_list_token_max_length_nistxml_sv_iv_list_token_max_length_1_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string_white_space_1_1(save_xml):
     """
     Type list/normalizedString is restricted by facet whiteSpace with
@@ -13783,7 +12845,6 @@ def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string_white_space_1_2(save_xml):
     """
     Type list/normalizedString is restricted by facet whiteSpace with
@@ -13798,7 +12859,6 @@ def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string_white_space_1_3(save_xml):
     """
     Type list/normalizedString is restricted by facet whiteSpace with
@@ -13813,7 +12873,6 @@ def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string_white_space_1_4(save_xml):
     """
     Type list/normalizedString is restricted by facet whiteSpace with
@@ -13828,7 +12887,6 @@ def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string_white_space_1_5(save_xml):
     """
     Type list/normalizedString is restricted by facet whiteSpace with
@@ -13843,7 +12901,6 @@ def test_list_normalized_string_white_space_nistxml_sv_iv_list_normalized_string
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_string_enumeration_5_1(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -13857,7 +12914,6 @@ def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_string_enumeration_5_2(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -13871,7 +12927,6 @@ def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_string_enumeration_5_3(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -13885,7 +12940,6 @@ def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_string_enumeration_5_4(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -13899,7 +12953,6 @@ def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_string_enumeration_5_5(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -13913,7 +12966,6 @@ def test_list_normalized_string_enumeration_4_nistxml_sv_iv_list_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_string_enumeration_4_1(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -13927,7 +12979,6 @@ def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_string_enumeration_4_2(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -13941,7 +12992,6 @@ def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_string_enumeration_4_3(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -13955,7 +13005,6 @@ def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_string_enumeration_4_4(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -13969,7 +13018,6 @@ def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_string_enumeration_4_5(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -13983,7 +13031,6 @@ def test_list_normalized_string_enumeration_3_nistxml_sv_iv_list_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_string_enumeration_3_1(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -13997,7 +13044,6 @@ def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_string_enumeration_3_2(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -14011,7 +13057,6 @@ def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_string_enumeration_3_3(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -14025,7 +13070,6 @@ def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_string_enumeration_3_4(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -14039,7 +13083,6 @@ def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_string_enumeration_3_5(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -14053,7 +13096,6 @@ def test_list_normalized_string_enumeration_2_nistxml_sv_iv_list_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_string_enumeration_2_1(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -14067,7 +13109,6 @@ def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_string_enumeration_2_2(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -14081,7 +13122,6 @@ def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_string_enumeration_2_3(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -14095,7 +13135,6 @@ def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_string_enumeration_2_4(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -14109,7 +13148,6 @@ def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_string_enumeration_2_5(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -14123,7 +13161,6 @@ def test_list_normalized_string_enumeration_1_nistxml_sv_iv_list_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string_enumeration_1_1(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -14137,7 +13174,6 @@ def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string_enumeration_1_2(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -14151,7 +13187,6 @@ def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string_enumeration_1_3(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -14165,7 +13200,6 @@ def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string_enumeration_1_4(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -14179,7 +13213,6 @@ def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string_enumeration_1_5(save_xml):
     """
     Type list/normalizedString is restricted by facet enumeration.
@@ -14193,7 +13226,6 @@ def test_list_normalized_string_enumeration_nistxml_sv_iv_list_normalized_string
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_pattern_5_1(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14215,7 +13247,6 @@ def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_p
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_pattern_5_2(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14237,7 +13268,6 @@ def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_p
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_pattern_5_3(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14259,7 +13289,6 @@ def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_p
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_pattern_5_4(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14281,7 +13310,6 @@ def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_p
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_pattern_5_5(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14303,7 +13331,6 @@ def test_list_normalized_string_pattern_4_nistxml_sv_iv_list_normalized_string_p
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_pattern_4_1(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14324,7 +13351,6 @@ def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_p
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_pattern_4_2(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14345,7 +13371,6 @@ def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_p
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_pattern_4_3(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14366,7 +13391,6 @@ def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_p
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_pattern_4_4(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14387,7 +13411,6 @@ def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_p
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_pattern_4_5(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14408,7 +13431,6 @@ def test_list_normalized_string_pattern_3_nistxml_sv_iv_list_normalized_string_p
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_pattern_3_1(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14429,7 +13451,6 @@ def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_p
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_pattern_3_2(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14450,7 +13471,6 @@ def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_p
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_pattern_3_3(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14471,7 +13491,6 @@ def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_p
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_pattern_3_4(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14492,7 +13511,6 @@ def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_p
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_pattern_3_5(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14513,7 +13531,6 @@ def test_list_normalized_string_pattern_2_nistxml_sv_iv_list_normalized_string_p
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_pattern_2_1(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14533,7 +13550,6 @@ def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_p
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_pattern_2_2(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14553,7 +13569,6 @@ def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_p
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_pattern_2_3(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14573,7 +13588,6 @@ def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_p
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_pattern_2_4(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14593,7 +13607,6 @@ def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_p
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_pattern_2_5(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14613,7 +13626,6 @@ def test_list_normalized_string_pattern_1_nistxml_sv_iv_list_normalized_string_p
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pattern_1_1(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14635,7 +13647,6 @@ def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pat
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pattern_1_2(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14657,7 +13668,6 @@ def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pat
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pattern_1_3(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14679,7 +13689,6 @@ def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pat
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pattern_1_4(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14701,7 +13710,6 @@ def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pat
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pattern_1_5(save_xml):
     r"""
     Type list/normalizedString is restricted by facet pattern with value \
@@ -14723,7 +13731,6 @@ def test_list_normalized_string_pattern_nistxml_sv_iv_list_normalized_string_pat
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_length_5_1(save_xml):
     """
     Type list/normalizedString is restricted by facet length with value
@@ -14738,7 +13745,6 @@ def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_le
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_length_5_2(save_xml):
     """
     Type list/normalizedString is restricted by facet length with value
@@ -14753,7 +13759,6 @@ def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_le
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_length_5_3(save_xml):
     """
     Type list/normalizedString is restricted by facet length with value
@@ -14768,7 +13773,6 @@ def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_le
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_length_5_4(save_xml):
     """
     Type list/normalizedString is restricted by facet length with value
@@ -14783,7 +13787,6 @@ def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_le
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_length_5_5(save_xml):
     """
     Type list/normalizedString is restricted by facet length with value
@@ -14798,7 +13801,6 @@ def test_list_normalized_string_length_4_nistxml_sv_iv_list_normalized_string_le
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_length_4_1(save_xml):
     """
     Type list/normalizedString is restricted by facet length with value 8.
@@ -14812,7 +13814,6 @@ def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_le
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_length_4_2(save_xml):
     """
     Type list/normalizedString is restricted by facet length with value 8.
@@ -14826,7 +13827,6 @@ def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_le
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_length_4_3(save_xml):
     """
     Type list/normalizedString is restricted by facet length with value 8.
@@ -14840,7 +13840,6 @@ def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_le
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_length_4_4(save_xml):
     """
     Type list/normalizedString is restricted by facet length with value 8.
@@ -14854,7 +13853,6 @@ def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_le
     )
 
 
-@pytest.mark.schema11
 def test_list_normalized_string_length_3_nistxml_sv_iv_list_normalized_string_length_4_5(save_xml):
     """
     Type list/normalizedString is restricted by facet length with value 8.

@@ -3,7 +3,6 @@ import pytest
 from tests.utils import assert_bindings
 
 
-@pytest.mark.schema11
 def test_all314_all314_v01_xml(save_xml):
     """
     All model group derived by extension from another all model group,
@@ -18,7 +17,6 @@ def test_all314_all314_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_all314_all314_v02_xml(save_xml):
     """
     All model group derived by extension from another all model group,
@@ -33,7 +31,6 @@ def test_all314_all314_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_all314_all314_v05_xml(save_xml):
     """
     All model group derived by extension from another all model group,
@@ -48,7 +45,6 @@ def test_all314_all314_v05_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all314_all314_n01_xml(save_xml):
     """
@@ -64,7 +60,6 @@ def test_all314_all314_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all314_all314_n02_xml(save_xml):
     """
@@ -80,7 +75,6 @@ def test_all314_all314_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all314_all314_n03_xml(save_xml):
     """
@@ -96,7 +90,6 @@ def test_all314_all314_n03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all314_all314_n04_xml(save_xml):
     """
@@ -112,7 +105,6 @@ def test_all314_all314_n04_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all307_all307_n01_xml(save_xml):
     """
@@ -128,7 +120,6 @@ def test_all307_all307_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_all306_all306_v01_xml(save_xml):
     """
     All model group derived by extension from another all model group;
@@ -143,7 +134,6 @@ def test_all306_all306_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_all304_all304_v01_xml(save_xml):
     """
     All model group derived by extension from another all model group
@@ -158,7 +148,6 @@ def test_all304_all304_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all304_all304_n01_xml(save_xml):
     """
@@ -174,7 +163,6 @@ def test_all304_all304_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all304_all304_n02_xml(save_xml):
     """
@@ -190,7 +178,6 @@ def test_all304_all304_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all304_all304_n03_xml(save_xml):
     """
@@ -206,7 +193,6 @@ def test_all304_all304_n03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all304_all304_n04_xml(save_xml):
     """
@@ -222,7 +208,6 @@ def test_all304_all304_n04_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_all301_all301_v01_xml(save_xml):
     """
     All model group derived by extension from another all model group
@@ -237,7 +222,6 @@ def test_all301_all301_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all301_all301_n01_xml(save_xml):
     """
@@ -253,7 +237,6 @@ def test_all301_all301_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all301_all301_n02_xml(save_xml):
     """
@@ -269,7 +252,6 @@ def test_all301_all301_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all301_all301_n03_xml(save_xml):
     """
@@ -285,7 +267,6 @@ def test_all301_all301_n03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_all007_all007_v01_xml(save_xml):
     """
     All model group with a nested xs:group reference All model group with
@@ -300,7 +281,6 @@ def test_all007_all007_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all007_all007_n01_xml(save_xml):
     """
@@ -316,7 +296,6 @@ def test_all007_all007_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all007_all007_n02_xml(save_xml):
     """
@@ -332,7 +311,6 @@ def test_all007_all007_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all007_all007_n03_xml(save_xml):
     """
@@ -348,7 +326,6 @@ def test_all007_all007_n03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_all006_all006_v01_xml(save_xml):
     """
     All model group, test on children Test that each child of an all group
@@ -363,7 +340,6 @@ def test_all006_all006_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all006_all006_n01_xml(save_xml):
     """
@@ -379,7 +355,6 @@ def test_all006_all006_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all006_all006_n02_xml(save_xml):
     """
@@ -395,7 +370,6 @@ def test_all006_all006_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all006_all006_n03_xml(save_xml):
     """
@@ -411,7 +385,6 @@ def test_all006_all006_n03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all006_all006_n04_xml(save_xml):
     """
@@ -427,7 +400,6 @@ def test_all006_all006_n04_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_all005_all005_v01_xml(save_xml):
     """
     All model group with two xs:any wildcards Test cases matching and non-
@@ -442,7 +414,6 @@ def test_all005_all005_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all005_all005_n01_xml(save_xml):
     """
@@ -458,7 +429,6 @@ def test_all005_all005_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all005_all005_n02_xml(save_xml):
     """
@@ -474,7 +444,6 @@ def test_all005_all005_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all005_all005_n03_xml(save_xml):
     """
@@ -490,7 +459,6 @@ def test_all005_all005_n03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all005_all005_n04_xml(save_xml):
     """
@@ -506,7 +474,6 @@ def test_all005_all005_n04_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all005_all005_n05_xml(save_xml):
     """
@@ -522,7 +489,6 @@ def test_all005_all005_n05_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_all004_all004_v01_xml(save_xml):
     """
     All model group with nillable="true" Test cases involving
@@ -537,7 +503,6 @@ def test_all004_all004_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_all004_all004_v02_xml(save_xml):
     """
     All model group with nillable="true" Test cases involving
@@ -552,7 +517,6 @@ def test_all004_all004_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all004_all004_n01_xml(save_xml):
     """
@@ -568,7 +532,6 @@ def test_all004_all004_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all004_all004_n02_xml(save_xml):
     """
@@ -584,7 +547,6 @@ def test_all004_all004_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_all003_all003_v01_xml(save_xml):
     """
     All model group with mixed content with extended minOccurs and
@@ -600,7 +562,6 @@ def test_all003_all003_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_all003_all003_v02_xml(save_xml):
     """
     All model group with mixed content with extended minOccurs and
@@ -616,7 +577,6 @@ def test_all003_all003_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_all003_all003_v03_xml(save_xml):
     """
     All model group with mixed content with extended minOccurs and
@@ -632,7 +592,6 @@ def test_all003_all003_v03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_all002_all002_v01_xml(save_xml):
     """
     All model group with substitution groups All model group with extended
@@ -647,7 +606,6 @@ def test_all002_all002_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all002_all002_n01_xml(save_xml):
     """
@@ -663,7 +621,6 @@ def test_all002_all002_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all002_all002_n02_xml(save_xml):
     """
@@ -679,7 +636,6 @@ def test_all002_all002_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all002_all002_n03_xml(save_xml):
     """
@@ -695,7 +651,6 @@ def test_all002_all002_n03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_all001_all001_v01_xml(save_xml):
     """
     All model group with extended minOccurs and maxOccurs values All model
@@ -710,7 +665,6 @@ def test_all001_all001_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all001_all001_n01_xml(save_xml):
     """
@@ -726,7 +680,6 @@ def test_all001_all001_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all001_all001_n02_xml(save_xml):
     """
@@ -742,7 +695,6 @@ def test_all001_all001_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_all001_all001_n03_xml(save_xml):
     """
@@ -758,7 +710,6 @@ def test_all001_all001_n03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert_simple010_assert_simple007_n1_xml(save_xml):
     """
@@ -774,7 +725,6 @@ def test_assert_simple010_assert_simple007_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert_simple009_assert_simple007_n1_xml(save_xml):
     """
@@ -790,7 +740,6 @@ def test_assert_simple009_assert_simple007_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert_simple008_assert_simple007_n1_xml(save_xml):
     """
@@ -806,7 +755,6 @@ def test_assert_simple008_assert_simple007_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert_simple007_assert_simple007_n1_xml(save_xml):
     """
@@ -822,7 +770,6 @@ def test_assert_simple007_assert_simple007_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_simple006_assert_simple006_v1_xml(save_xml):
     """
     Assertion on a simple type with variety union Assertion on a simple
@@ -837,7 +784,6 @@ def test_assert_simple006_assert_simple006_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert_simple006_assert_simple006_n1_xml(save_xml):
     """
@@ -853,7 +799,6 @@ def test_assert_simple006_assert_simple006_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_simple005_assert_simple005_v1_xml(save_xml):
     """
     Assertion on a simple type with variety list Assertion on a simple
@@ -868,7 +813,6 @@ def test_assert_simple005_assert_simple005_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert_simple005_assert_simple005_n1_xml(save_xml):
     """
@@ -884,7 +828,6 @@ def test_assert_simple005_assert_simple005_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_simple004_assert_simple004_v1_xml(save_xml):
     """
     Assertion on a simple type using xpathDefaultNamespace on xs:schema
@@ -900,7 +843,6 @@ def test_assert_simple004_assert_simple004_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert_simple004_assert_simple004_n1_xml(save_xml):
     """
@@ -917,7 +859,6 @@ def test_assert_simple004_assert_simple004_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_simple003_assert_simple003_v1_xml(save_xml):
     """
     Assertion on a simple type using xpathDefaultNamespace Assertion on a
@@ -932,7 +873,6 @@ def test_assert_simple003_assert_simple003_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert_simple003_assert_simple003_n1_xml(save_xml):
     """
@@ -948,7 +888,6 @@ def test_assert_simple003_assert_simple003_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_simple001_assert_simple001_v1_xml(save_xml):
     """
     Assertion on a simple type Assertion on a simple type: date must be in
@@ -963,7 +902,6 @@ def test_assert_simple001_assert_simple001_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert_simple001_assert_simple001_n1_xml(save_xml):
     """
@@ -979,7 +917,6 @@ def test_assert_simple001_assert_simple001_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert024_assert024_v1_xml(save_xml):
     """
     Namespace-aware assertions The subtree being validated must include
@@ -994,7 +931,6 @@ def test_assert024_assert024_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert023_assert023_v1_xml(save_xml):
     """
     Check that comments are by default not visible in assertions Schema
@@ -1010,7 +946,6 @@ def test_assert023_assert023_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert023_assert023_v2_xml(save_xml):
     """
     Check that comments are by default not visible in assertions Schema
@@ -1026,7 +961,6 @@ def test_assert023_assert023_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert022_assert022_v1_xml(save_xml):
     """
     Assertion testing type of data Elements below the assertion root are
@@ -1041,7 +975,6 @@ def test_assert022_assert022_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert021_assert021_v1_xml(save_xml):
     """
     Assertion combined with chameleon include Effect of
@@ -1056,7 +989,6 @@ def test_assert021_assert021_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert021_assert021_n1_xml(save_xml):
     """
@@ -1072,7 +1004,6 @@ def test_assert021_assert021_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert020_assert020_v1_xml(save_xml):
     """
     Assertion combined with chameleon include Effect of
@@ -1087,7 +1018,6 @@ def test_assert020_assert020_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert020_assert020_n1_xml(save_xml):
     """
@@ -1103,7 +1033,6 @@ def test_assert020_assert020_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert019_assert019_v1_xml(save_xml):
     """
     Assertion testing type of data Elements below the assertion root are
@@ -1118,7 +1047,6 @@ def test_assert019_assert019_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert018_assert018_v1_xml(save_xml):
     """
     Assertion testing type of data Elements below the assertion root are
@@ -1133,7 +1061,6 @@ def test_assert018_assert018_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert017_assert017_v1_xml(save_xml):
     """
     Assertion testing type of data Atomizing the element succeeds, and the
@@ -1148,7 +1075,6 @@ def test_assert017_assert017_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert016_assert016_v1_xml(save_xml):
     """
     Assertion testing type of data Atomizing the element succeeds (it has
@@ -1163,7 +1089,6 @@ def test_assert016_assert016_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert015_assert015_v1_xml(save_xml):
     """
     Assertion testing type of data $value is typed (complex type with
@@ -1178,7 +1103,6 @@ def test_assert015_assert015_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert014_assert014_v1_xml(save_xml):
     """
     Assertion testing type of data Element root of subtree is anyType
@@ -1192,7 +1116,6 @@ def test_assert014_assert014_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert013_assert013_v1_xml(save_xml):
     """
     Assertion testing type of data Attribute within subtree is typed
@@ -1206,7 +1129,6 @@ def test_assert013_assert013_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert012_assert012_n1_xml(save_xml):
     """
@@ -1222,7 +1144,6 @@ def test_assert012_assert012_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert011_assert011_v1_xml(save_xml):
     """
@@ -1240,7 +1161,6 @@ def test_assert011_assert011_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert011_assert011_n1_xml(save_xml):
     """
@@ -1258,7 +1178,6 @@ def test_assert011_assert011_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert010_assert010_v1_xml(save_xml):
     """
     Assertion on a complex type with simple content Co-occurrence
@@ -1273,7 +1192,6 @@ def test_assert010_assert010_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert010_assert010_n1_xml(save_xml):
     """
@@ -1289,7 +1207,6 @@ def test_assert010_assert010_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert009_assert009_v1_xml(save_xml):
     """
     Assert that a node-set is empty - error diagnostics handled specially
@@ -1304,7 +1221,6 @@ def test_assert009_assert009_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert009_assert009_n1_xml(save_xml):
     """
@@ -1320,7 +1236,6 @@ def test_assert009_assert009_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert008a_assert008a_v1_xml(save_xml):
     """
     Use xpathDefaultNamespace on xs:schema element Variant of assert007
@@ -1335,7 +1250,6 @@ def test_assert008a_assert008a_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert008a_assert008a_n1_xml(save_xml):
     """
@@ -1351,7 +1265,6 @@ def test_assert008a_assert008a_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert008a_assert008a_n2_xml(save_xml):
     """
@@ -1367,7 +1280,6 @@ def test_assert008a_assert008a_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert008a_assert008a_n3_xml(save_xml):
     """
@@ -1383,7 +1295,6 @@ def test_assert008a_assert008a_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert008_assert008_v1_xml(save_xml):
     """
     Use xpathDefaultNamespace on xs:assert Variant of assert007 written
@@ -1398,7 +1309,6 @@ def test_assert008_assert008_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert008_assert008_n1_xml(save_xml):
     """
@@ -1414,7 +1324,6 @@ def test_assert008_assert008_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert008_assert008_n2_xml(save_xml):
     """
@@ -1430,7 +1339,6 @@ def test_assert008_assert008_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert008_assert008_n3_xml(save_xml):
     """
@@ -1446,7 +1354,6 @@ def test_assert008_assert008_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert007_assert007_v1_xml(save_xml):
     """
     Inheritance of constraints in a type derived by extension Tests
@@ -1462,7 +1369,6 @@ def test_assert007_assert007_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert007_assert007_n1_xml(save_xml):
     """
@@ -1479,7 +1385,6 @@ def test_assert007_assert007_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert007_assert007_n2_xml(save_xml):
     """
@@ -1496,7 +1401,6 @@ def test_assert007_assert007_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert007_assert007_n3_xml(save_xml):
     """
@@ -1513,7 +1417,6 @@ def test_assert007_assert007_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert006_assert006_v1_xml(save_xml):
     """
     Inheritance of constraints in a type derived by restriction Tests
@@ -1529,7 +1432,6 @@ def test_assert006_assert006_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert006_assert006_n1_xml(save_xml):
     """
@@ -1546,7 +1448,6 @@ def test_assert006_assert006_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert006_assert006_n2_xml(save_xml):
     """
@@ -1563,7 +1464,6 @@ def test_assert006_assert006_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert005_assert005_v1_xml(save_xml):
     """
     Multiple constraints on an inner level, no constraint at outer level
@@ -1580,7 +1480,6 @@ def test_assert005_assert005_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert005_assert005_v2_xml(save_xml):
     """
     Multiple constraints on an inner level, no constraint at outer level
@@ -1597,7 +1496,6 @@ def test_assert005_assert005_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert005_assert005_n1_xml(save_xml):
     """
@@ -1615,7 +1513,6 @@ def test_assert005_assert005_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert005_assert005_n2_xml(save_xml):
     """
@@ -1633,7 +1530,6 @@ def test_assert005_assert005_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert004_assert004_v1_xml(save_xml):
     """
     Constraints at more than one level Imposes constraints at two levels
@@ -1649,7 +1545,6 @@ def test_assert004_assert004_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert004_assert004_v2_xml(save_xml):
     """
     Constraints at more than one level Imposes constraints at two levels
@@ -1665,7 +1560,6 @@ def test_assert004_assert004_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert004_assert004_n1_xml(save_xml):
     """
@@ -1682,7 +1576,6 @@ def test_assert004_assert004_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert004_assert004_n2_xml(save_xml):
     """
@@ -1699,7 +1592,6 @@ def test_assert004_assert004_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert003_assert003_v1_xml(save_xml):
     """
     Cross validation between elements and attributes Asserts that
@@ -1715,7 +1607,6 @@ def test_assert003_assert003_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert003_assert003_v2_xml(save_xml):
     """
     Cross validation between elements and attributes Asserts that
@@ -1731,7 +1622,6 @@ def test_assert003_assert003_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert003_assert003_n1_xml(save_xml):
     """
@@ -1748,7 +1638,6 @@ def test_assert003_assert003_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert003_assert003_n2_xml(save_xml):
     """
@@ -1765,7 +1654,6 @@ def test_assert003_assert003_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert002_assert002_v1_xml(save_xml):
     """
     Cross validation between two attributes Cross validation between two
@@ -1780,7 +1668,6 @@ def test_assert002_assert002_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert002_assert002_n1_xml(save_xml):
     """
@@ -1796,7 +1683,6 @@ def test_assert002_assert002_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert001_assert001_v1_xml(save_xml):
     """
     Simple assertion on an attribute value Simple assertion on an
@@ -1811,7 +1697,6 @@ def test_assert001_assert001_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert001_assert001_n1_xml(save_xml):
     """
@@ -1827,7 +1712,6 @@ def test_assert001_assert001_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_unique003_unique003_v1_xml(save_xml):
     """
     For the purposes of uniqueness constraints, NaN is effectively equal
@@ -1844,7 +1728,6 @@ def test_unique003_unique003_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_unique003_unique003_v2_xml(save_xml):
     """
     For the purposes of uniqueness constraints, NaN is effectively equal
@@ -1861,7 +1744,6 @@ def test_unique003_unique003_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_unique003_unique003_n1_xml(save_xml):
     """
@@ -1879,7 +1761,6 @@ def test_unique003_unique003_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_unique003_unique003_n2_xml(save_xml):
     """
@@ -1897,7 +1778,6 @@ def test_unique003_unique003_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_unique002_unique002_n1_xml(save_xml):
     """
@@ -1914,7 +1794,6 @@ def test_unique002_unique002_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_unique001_unique001_v1_xml(save_xml):
     """
     Test uniqueness constraint on a field having a complex type with
@@ -1931,7 +1810,6 @@ def test_unique001_unique001_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_unique001_unique001_n1_xml(save_xml):
     """
@@ -1949,7 +1827,6 @@ def test_unique001_unique001_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex022_complex022_n1_xml(save_xml):
     """
@@ -1967,7 +1844,6 @@ def test_complex022_complex022_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex022_complex022_n2_xml(save_xml):
     """
@@ -1985,7 +1861,6 @@ def test_complex022_complex022_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex021_complex021_n1_xml(save_xml):
     """
@@ -2001,7 +1876,6 @@ def test_complex021_complex021_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex015_complex015_n1_xml(save_xml):
     """
@@ -2017,7 +1891,6 @@ def test_complex015_complex015_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex014_complex014_v1_xml(save_xml):
     """
     xsi:nil on complex type with element-only content, xs:all compositor
@@ -2033,7 +1906,6 @@ def test_complex014_complex014_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex014_complex014_v2_xml(save_xml):
     """
     xsi:nil on complex type with element-only content, xs:all compositor
@@ -2049,7 +1921,6 @@ def test_complex014_complex014_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex014_complex014_n1_xml(save_xml):
     """
@@ -2066,7 +1937,6 @@ def test_complex014_complex014_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex014_complex014_n2_xml(save_xml):
     """
@@ -2083,7 +1953,6 @@ def test_complex014_complex014_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex013_complex013_v1_xml(save_xml):
     """
     xsi:nil on complex type with element-only content (not specific to
@@ -2098,7 +1967,6 @@ def test_complex013_complex013_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex013_complex013_v2_xml(save_xml):
     """
     xsi:nil on complex type with element-only content (not specific to
@@ -2113,7 +1981,6 @@ def test_complex013_complex013_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex013_complex013_n1_xml(save_xml):
     """
@@ -2129,7 +1996,6 @@ def test_complex013_complex013_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex013_complex013_n2_xml(save_xml):
     """
@@ -2145,7 +2011,6 @@ def test_complex013_complex013_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex012_complex012_v1_xml(save_xml):
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2160,7 +2025,6 @@ def test_complex012_complex012_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex012_complex012_v2_xml(save_xml):
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2175,7 +2039,6 @@ def test_complex012_complex012_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex012_complex012_v3_xml(save_xml):
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2190,7 +2053,6 @@ def test_complex012_complex012_v3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex012_complex012_v4_xml(save_xml):
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2205,7 +2067,6 @@ def test_complex012_complex012_v4_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex012_complex012_v5_xml(save_xml):
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2220,7 +2081,6 @@ def test_complex012_complex012_v5_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex012_complex012_v6_xml(save_xml):
     """
     xsi:nil on complex type with mixede content (not specific to 1.1) All
@@ -2235,7 +2095,6 @@ def test_complex012_complex012_v6_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex012_complex012_n1_xml(save_xml):
     """
@@ -2251,7 +2110,6 @@ def test_complex012_complex012_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex012_complex012_n2_xml(save_xml):
     """
@@ -2267,7 +2125,6 @@ def test_complex012_complex012_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex012_complex012_n3_xml(save_xml):
     """
@@ -2283,7 +2140,6 @@ def test_complex012_complex012_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex011_complex011_v1_xml(save_xml):
     """
     xsi:nil on complex type with simple content (not specific to 1.1) All
@@ -2298,7 +2154,6 @@ def test_complex011_complex011_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex011_complex011_v2_xml(save_xml):
     """
     xsi:nil on complex type with simple content (not specific to 1.1) All
@@ -2313,7 +2168,6 @@ def test_complex011_complex011_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex011_complex011_n1_xml(save_xml):
     """
@@ -2329,7 +2183,6 @@ def test_complex011_complex011_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex011_complex011_n2_xml(save_xml):
     """
@@ -2345,7 +2198,6 @@ def test_complex011_complex011_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex011_complex011_n3_xml(save_xml):
     """
@@ -2361,7 +2213,6 @@ def test_complex011_complex011_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex010_complex010_v1_xml(save_xml):
     """
     xsi:noNamespaceSchemaLocation use="required Specifying use="required"
@@ -2376,7 +2227,6 @@ def test_complex010_complex010_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex010_complex010_n1_xml(save_xml):
     """
@@ -2392,7 +2242,6 @@ def test_complex010_complex010_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex009_complex009_v1_xml(save_xml):
     """
     xsi:type use="required Specifying use="required" for xsi:type is
@@ -2407,7 +2256,6 @@ def test_complex009_complex009_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex009_complex009_v2_xml(save_xml):
     """
     xsi:type use="required Specifying use="required" for xsi:type is
@@ -2422,7 +2270,6 @@ def test_complex009_complex009_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex009_complex009_n1_xml(save_xml):
     """
@@ -2438,7 +2285,6 @@ def test_complex009_complex009_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex009_complex009_n2_xml(save_xml):
     """
@@ -2454,7 +2300,6 @@ def test_complex009_complex009_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex008_complex008_n1_xml(save_xml):
     """
@@ -2469,7 +2314,6 @@ def test_complex008_complex008_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex008_complex008_n2_xml(save_xml):
     """
@@ -2484,7 +2328,6 @@ def test_complex008_complex008_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex008_complex008_n3_xml(save_xml):
     """
@@ -2499,7 +2342,6 @@ def test_complex008_complex008_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex008_complex008_n4_xml(save_xml):
     """
@@ -2514,7 +2356,6 @@ def test_complex008_complex008_n4_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex007_complex007_v1_xml(save_xml):
     """
     xsi:nil fixed Fixed value for xsi:nil is allowed but ignored, except
@@ -2529,7 +2370,6 @@ def test_complex007_complex007_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex007_complex007_v2_xml(save_xml):
     """
     xsi:nil fixed Fixed value for xsi:nil is allowed but ignored, except
@@ -2544,7 +2384,6 @@ def test_complex007_complex007_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex007_complex007_n1_xml(save_xml):
     """
@@ -2560,7 +2399,6 @@ def test_complex007_complex007_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex007_complex007_n2_xml(save_xml):
     """
@@ -2576,7 +2414,6 @@ def test_complex007_complex007_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex007_complex007_n3_xml(save_xml):
     """
@@ -2592,7 +2429,6 @@ def test_complex007_complex007_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex006_complex006_v1_xml(save_xml):
     """
     xsi:nil default Default value for xsi:nil is allowed but ignored
@@ -2606,7 +2442,6 @@ def test_complex006_complex006_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex006_complex006_v2_xml(save_xml):
     """
     xsi:nil default Default value for xsi:nil is allowed but ignored
@@ -2620,7 +2455,6 @@ def test_complex006_complex006_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex006_complex006_n1_xml(save_xml):
     """
@@ -2635,7 +2469,6 @@ def test_complex006_complex006_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex006_complex006_n2_xml(save_xml):
     """
@@ -2650,7 +2483,6 @@ def test_complex006_complex006_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex006_complex006_n3_xml(save_xml):
     """
@@ -2665,7 +2497,6 @@ def test_complex006_complex006_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex005_complex005_v2_xml(save_xml):
     """
     xsi:type fixed Fixed value for xsi:type is allowed but ignored, except
@@ -2680,7 +2511,6 @@ def test_complex005_complex005_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex005_complex005_n1_xml(save_xml):
     """
@@ -2696,7 +2526,6 @@ def test_complex005_complex005_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex005_complex005_n2_xml(save_xml):
     """
@@ -2712,7 +2541,6 @@ def test_complex005_complex005_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex005_complex005_n3_xml(save_xml):
     """
@@ -2728,7 +2556,6 @@ def test_complex005_complex005_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex004_complex004_v1_xml(save_xml):
     """
     xsi:type default Default value for xsi:type is allowed but ignored
@@ -2742,7 +2569,6 @@ def test_complex004_complex004_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex004_complex004_n1_xml(save_xml):
     """
@@ -2757,7 +2583,6 @@ def test_complex004_complex004_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex004_complex004_v2_xml(save_xml):
     """
     xsi:type default Default value for xsi:type is allowed but ignored
@@ -2771,7 +2596,6 @@ def test_complex004_complex004_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_complex003_complex003_v1_xml(save_xml):
     """
     xsi:type default Default value for xsi:type is allowed but ignored
@@ -2785,7 +2609,6 @@ def test_complex003_complex003_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_complex003_complex003_n1_xml(save_xml):
     """
@@ -2800,7 +2623,6 @@ def test_complex003_complex003_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0044_cta0044_v01(save_xml):
     """
     Type alternatives - restricting attributes Attribute allowed in one
@@ -2815,7 +2637,6 @@ def test_cta0044_cta0044_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0044_cta0044_n01(save_xml):
     """
@@ -2831,7 +2652,6 @@ def test_cta0044_cta0044_n01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0042_cta0042_v01(save_xml):
     """
     Element Declarations Consistent Two particles in a content model have
@@ -2846,7 +2666,6 @@ def test_cta0042_cta0042_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0041_cta0041_v01(save_xml):
     """
     Type alternative - substitutability Invalid substitution in a
@@ -2862,7 +2681,6 @@ def test_cta0041_cta0041_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0041_cta0041_n01(save_xml):
     """
@@ -2879,7 +2697,6 @@ def test_cta0041_cta0041_n01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0040_cta0040_v01(save_xml):
     """
     Type alternative - substitutability Valid substitution in a
@@ -2894,7 +2711,6 @@ def test_cta0040_cta0040_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0040_cta0040_n01(save_xml):
     """
@@ -2910,7 +2726,6 @@ def test_cta0040_cta0040_n01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0028_cta0028_v01(save_xml):
     """
     Type alternative using a simple type Static context of XPath
@@ -2925,7 +2740,6 @@ def test_cta0028_cta0028_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0027_cta0027_v01(save_xml):
     """
     Type alternative using a simple type Static context of XPath
@@ -2940,7 +2754,6 @@ def test_cta0027_cta0027_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0026_cta0026_v01(save_xml):
     """
     Type alternative using a simple type Static context of XPath
@@ -2955,7 +2768,6 @@ def test_cta0026_cta0026_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0025_cta0025_v01(save_xml):
     """
     Type alternative using a simple type Static context of XPath
@@ -2970,7 +2782,6 @@ def test_cta0025_cta0025_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0024_cta0024_v01(save_xml):
     """
     Type alternative using a simple type Static context of XPath
@@ -2985,7 +2796,6 @@ def test_cta0024_cta0024_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0023_cta0023_v01(save_xml):
     """
     Type alternative using a simple type Static context of XPath
@@ -3000,7 +2810,6 @@ def test_cta0023_cta0023_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0022_cta0022_v01(save_xml):
     """
     Type alternative using a simple type Dynamic context of XPath
@@ -3015,7 +2824,6 @@ def test_cta0022_cta0022_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0021_cta0021_v01(save_xml):
     """
     Type alternative using a simple type XPath expression sees base URI of
@@ -3030,7 +2838,6 @@ def test_cta0021_cta0021_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0021_cta0021_n01(save_xml):
     """
@@ -3046,7 +2853,6 @@ def test_cta0021_cta0021_n01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0020_cta0020_v01(save_xml):
     """
     Type alternative using a simple type XPath expression sees name of
@@ -3061,7 +2867,6 @@ def test_cta0020_cta0020_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0019_cta0019_v01(save_xml):
     """
     Type alternative using a simple type XPath expression sees untyped
@@ -3076,7 +2881,6 @@ def test_cta0019_cta0019_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0018_cta0018_v01(save_xml):
     """
     Type alternative using a simple type XPath expression sees untyped
@@ -3091,7 +2895,6 @@ def test_cta0018_cta0018_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0017_cta0017_v01(save_xml):
     """
     Type alternative using a simple type XPath expression can only access
@@ -3106,7 +2909,6 @@ def test_cta0017_cta0017_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0016_cta0016_v01(save_xml):
     """
     Type alternative using a simple type Error in XPath evaluation treated
@@ -3121,7 +2923,6 @@ def test_cta0016_cta0016_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0016_cta0016_v02(save_xml):
     """
     Type alternative using a simple type Error in XPath evaluation treated
@@ -3136,7 +2937,6 @@ def test_cta0016_cta0016_v02(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0016_cta0016_n01(save_xml):
     """
@@ -3152,7 +2952,6 @@ def test_cta0016_cta0016_n01(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0016_cta0016_n02(save_xml):
     """
@@ -3168,7 +2967,6 @@ def test_cta0016_cta0016_n02(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0015_cta0015_v01(save_xml):
     """
     Type alternative using a simple type Implicit default alternative as
@@ -3183,7 +2981,6 @@ def test_cta0015_cta0015_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0015_cta0015_v02(save_xml):
     """
     Type alternative using a simple type Implicit default alternative as
@@ -3198,7 +2995,6 @@ def test_cta0015_cta0015_v02(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0015_cta0015_n01(save_xml):
     """
@@ -3214,7 +3010,6 @@ def test_cta0015_cta0015_n01(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0015_cta0015_n02(save_xml):
     """
@@ -3230,7 +3025,6 @@ def test_cta0015_cta0015_n02(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0014_cta0014_v01(save_xml):
     """
     Type alternative using a simple type Explicit default alternative as
@@ -3245,7 +3039,6 @@ def test_cta0014_cta0014_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0014_cta0014_v02(save_xml):
     """
     Type alternative using a simple type Explicit default alternative as
@@ -3260,7 +3053,6 @@ def test_cta0014_cta0014_v02(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0014_cta0014_n01(save_xml):
     """
@@ -3276,7 +3068,6 @@ def test_cta0014_cta0014_n01(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0014_cta0014_n02(save_xml):
     """
@@ -3292,7 +3083,6 @@ def test_cta0014_cta0014_n02(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0013_cta0013_v01(save_xml):
     """
     Type alternative using an inherited attribute A non-inheritable
@@ -3307,7 +3097,6 @@ def test_cta0013_cta0013_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0013_cta0013_v02(save_xml):
     """
     Type alternative using an inherited attribute A non-inheritable
@@ -3322,7 +3111,6 @@ def test_cta0013_cta0013_v02(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0013_cta0013_n01(save_xml):
     """
@@ -3338,7 +3126,6 @@ def test_cta0013_cta0013_n01(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0013_cta0013_n02(save_xml):
     """
@@ -3354,7 +3141,6 @@ def test_cta0013_cta0013_n02(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0012_cta0012_v01(save_xml):
     """
     Type alternative using an inherited attribute Inheritability differs
@@ -3369,7 +3155,6 @@ def test_cta0012_cta0012_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0012_cta0012_n01(save_xml):
     """
@@ -3385,7 +3170,6 @@ def test_cta0012_cta0012_n01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0011_cta0011_v01(save_xml):
     """
     Type alternative using an inherited attribute Inheritability differs
@@ -3400,7 +3184,6 @@ def test_cta0011_cta0011_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0011_cta0011_v02(save_xml):
     """
     Type alternative using an inherited attribute Inheritability differs
@@ -3415,7 +3198,6 @@ def test_cta0011_cta0011_v02(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0011_cta0011_n01(save_xml):
     """
@@ -3431,7 +3213,6 @@ def test_cta0011_cta0011_n01(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0011_cta0011_n02(save_xml):
     """
@@ -3447,7 +3228,6 @@ def test_cta0011_cta0011_n02(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0010_cta0010_v01(save_xml):
     """
     Type alternative using an inherited attribute Type alternative is an
@@ -3462,7 +3242,6 @@ def test_cta0010_cta0010_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0010_cta0010_v02(save_xml):
     """
     Type alternative using an inherited attribute Type alternative is an
@@ -3477,7 +3256,6 @@ def test_cta0010_cta0010_v02(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0010_cta0010_n01(save_xml):
     """
@@ -3493,7 +3271,6 @@ def test_cta0010_cta0010_n01(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0010_cta0010_n02(save_xml):
     """
@@ -3509,7 +3286,6 @@ def test_cta0010_cta0010_n02(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0009_cta0009_v01(save_xml):
     """
     Type alternative using an inherited attribute Type alternative is an
@@ -3524,7 +3300,6 @@ def test_cta0009_cta0009_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0009_cta0009_v02(save_xml):
     """
     Type alternative using an inherited attribute Type alternative is an
@@ -3539,7 +3314,6 @@ def test_cta0009_cta0009_v02(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0009_cta0009_n01(save_xml):
     """
@@ -3555,7 +3329,6 @@ def test_cta0009_cta0009_n01(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0009_cta0009_n02(save_xml):
     """
@@ -3571,7 +3344,6 @@ def test_cta0009_cta0009_n02(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0008_cta0008_v01(save_xml):
     """
     Inline type alternative Type alternative is an anonymous type defined
@@ -3586,7 +3358,6 @@ def test_cta0008_cta0008_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0008_cta0008_n01(save_xml):
     """
@@ -3602,7 +3373,6 @@ def test_cta0008_cta0008_n01(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0007_cta0007_n01(save_xml):
     """
@@ -3618,7 +3388,6 @@ def test_cta0007_cta0007_n01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0006_cta0006_v01(save_xml):
     """
     Conditional simple type: selecting a branch of a union Simple type of
@@ -3634,7 +3403,6 @@ def test_cta0006_cta0006_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0006_cta0006_n01(save_xml):
     """
@@ -3651,7 +3419,6 @@ def test_cta0006_cta0006_n01(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0006_cta0006_n02(save_xml):
     """
@@ -3668,7 +3435,6 @@ def test_cta0006_cta0006_n02(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0005_cta0005_v01(save_xml):
     """
     Conditional complex type with namespaces Variant of cta0003 (same
@@ -3683,7 +3449,6 @@ def test_cta0005_cta0005_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0005_cta0005_n01(save_xml):
     """
@@ -3699,7 +3464,6 @@ def test_cta0005_cta0005_n01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0004_cta0004_v01(save_xml):
     """
     Conditional complex type with namespaces Variant of cta0003 (same
@@ -3714,7 +3478,6 @@ def test_cta0004_cta0004_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0004_cta0004_n01(save_xml):
     """
@@ -3730,7 +3493,6 @@ def test_cta0004_cta0004_n01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0003_cta0003_v01(save_xml):
     """
     Conditional complex type with namespaces Trivial reference to the name
@@ -3745,7 +3507,6 @@ def test_cta0003_cta0003_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0003_cta0003_n01(save_xml):
     """
@@ -3761,7 +3522,6 @@ def test_cta0003_cta0003_n01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0002_cta0002_v01(save_xml):
     """
     Conditional complex type with namespaces Complex type of message
@@ -3776,7 +3536,6 @@ def test_cta0002_cta0002_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0002_cta0002_n01(save_xml):
     """
@@ -3792,7 +3551,6 @@ def test_cta0002_cta0002_n01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0001_cta0001_v01(save_xml):
     """
     Conditional simple type: example based on spec Simple type of message
@@ -3807,7 +3565,6 @@ def test_cta0001_cta0001_v01(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0001_cta0001_v02(save_xml):
     """
     Conditional simple type: example based on spec Simple type of message
@@ -3822,7 +3579,6 @@ def test_cta0001_cta0001_v02(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_cta0001_cta0001_v03(save_xml):
     """
     Conditional simple type: example based on spec Simple type of message
@@ -3837,7 +3593,6 @@ def test_cta0001_cta0001_v03(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0001_cta0001_n01(save_xml):
     """
@@ -3853,7 +3608,6 @@ def test_cta0001_cta0001_n01(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_cta0001_cta0001_n02(save_xml):
     """
@@ -3869,7 +3623,6 @@ def test_cta0001_cta0001_n02(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id054_id054_v01_xml(save_xml):
     """
     Keyref constraint using xpathDefaultNamespace Use
@@ -3885,7 +3638,6 @@ def test_id054_id054_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id054_id054_n01_xml(save_xml):
     """
@@ -3902,7 +3654,6 @@ def test_id054_id054_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id053_id053_v01_xml(save_xml):
     """
     Key constraint using xpathDefaultNamespace Use
@@ -3917,7 +3668,6 @@ def test_id053_id053_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id053_id053_n01_xml(save_xml):
     """
@@ -3933,7 +3683,6 @@ def test_id053_id053_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id052_id052_v01_xml(save_xml):
     """
     Key constraint using xpathDefaultNamespace Use XPathDefaultNamespace
@@ -3948,7 +3697,6 @@ def test_id052_id052_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id052_id052_n01_xml(save_xml):
     """
@@ -3964,7 +3712,6 @@ def test_id052_id052_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id051_id051_v01_xml(save_xml):
     """
     Key constraint using xpathDefaultNamespace Use XPathDefaultNamespace
@@ -3979,7 +3726,6 @@ def test_id051_id051_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id051_id051_n01_xml(save_xml):
     """
@@ -3995,7 +3741,6 @@ def test_id051_id051_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id050_id050_v01_xml(save_xml):
     """
     Unique constraint using xpathDefaultNamespace Use
@@ -4010,7 +3755,6 @@ def test_id050_id050_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id050_id050_n01_xml(save_xml):
     """
@@ -4026,7 +3770,6 @@ def test_id050_id050_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id044_id044_v01_xml(save_xml):
     """
     Keyref constraint using ref attribute Keyref constraint refers to
@@ -4041,7 +3784,6 @@ def test_id044_id044_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id044_id044_n01_xml(save_xml):
     """
@@ -4057,7 +3799,6 @@ def test_id044_id044_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id044_id044_n02_xml(save_xml):
     """
@@ -4073,7 +3814,6 @@ def test_id044_id044_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id043_id043_v01_xml(save_xml):
     """
     Key constraint using ref attribute Key constraint refers to another
@@ -4088,7 +3828,6 @@ def test_id043_id043_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id043_id043_n01_xml(save_xml):
     """
@@ -4104,7 +3843,6 @@ def test_id043_id043_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id043_id043_n02_xml(save_xml):
     """
@@ -4120,7 +3858,6 @@ def test_id043_id043_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id040_id040_v01_xml(save_xml):
     """
     Unique constraint using ref attribute Unique constraint refers to
@@ -4135,7 +3872,6 @@ def test_id040_id040_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id040_id040_n01_xml(save_xml):
     """
@@ -4151,7 +3887,6 @@ def test_id040_id040_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id040_id040_n02_xml(save_xml):
     """
@@ -4167,7 +3902,6 @@ def test_id040_id040_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id022_id022_v01_xml(save_xml):
     """
     Atomic value equal to singleton list Value of a key is atomic; value
@@ -4182,7 +3916,6 @@ def test_id022_id022_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id022_id022_n01_xml(save_xml):
     """
@@ -4198,7 +3931,6 @@ def test_id022_id022_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id021_id021_v01_xml(save_xml):
     """
     Element of type xs:ENTITIES with default value Element of type
@@ -4213,7 +3945,6 @@ def test_id021_id021_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id021_id021_v02_xml(save_xml):
     """
     Element of type xs:ENTITIES with default value Element of type
@@ -4228,7 +3959,6 @@ def test_id021_id021_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id021_id021_n01_xml(save_xml):
     """
@@ -4244,7 +3974,6 @@ def test_id021_id021_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id021_id021_n02_xml(save_xml):
     """
@@ -4260,7 +3989,6 @@ def test_id021_id021_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id020_id020_v01_xml(save_xml):
     """
     Element of type xs:ENTITY with default value Element of type xs:ENTITY
@@ -4275,7 +4003,6 @@ def test_id020_id020_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id020_id020_v02_xml(save_xml):
     """
     Element of type xs:ENTITY with default value Element of type xs:ENTITY
@@ -4290,7 +4017,6 @@ def test_id020_id020_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id020_id020_v03_xml(save_xml):
     """
     Element of type xs:ENTITY with default value Element of type xs:ENTITY
@@ -4305,7 +4031,6 @@ def test_id020_id020_v03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id020_id020_n01_xml(save_xml):
     """
@@ -4321,7 +4046,6 @@ def test_id020_id020_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id020_id020_n02_xml(save_xml):
     """
@@ -4337,7 +4061,6 @@ def test_id020_id020_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id019_id019_v01_xml(save_xml):
     """
     Union of ENTITY and integer attribute with default value Union of
@@ -4352,7 +4075,6 @@ def test_id019_id019_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id019_id019_v02_xml(save_xml):
     """
     Union of ENTITY and integer attribute with default value Union of
@@ -4367,7 +4089,6 @@ def test_id019_id019_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id019_id019_n01_xml(save_xml):
     """
@@ -4383,7 +4104,6 @@ def test_id019_id019_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id019_id019_n02_xml(save_xml):
     """
@@ -4399,7 +4119,6 @@ def test_id019_id019_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id018_id018_v01_xml(save_xml):
     """
     ENTITIES attribute with default value ENTITIES attribute with default
@@ -4414,7 +4133,6 @@ def test_id018_id018_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id018_id018_v02_xml(save_xml):
     """
     ENTITIES attribute with default value ENTITIES attribute with default
@@ -4429,7 +4147,6 @@ def test_id018_id018_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id018_id018_v03_xml(save_xml):
     """
     ENTITIES attribute with default value ENTITIES attribute with default
@@ -4444,7 +4161,6 @@ def test_id018_id018_v03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id018_id018_n01_xml(save_xml):
     """
@@ -4460,7 +4176,6 @@ def test_id018_id018_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id018_id018_n02_xml(save_xml):
     """
@@ -4476,7 +4191,6 @@ def test_id018_id018_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id017_id017_v01_xml(save_xml):
     """
     ENTITY attribute with default value ENTITY attribute with default
@@ -4491,7 +4205,6 @@ def test_id017_id017_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id017_id017_v02_xml(save_xml):
     """
     ENTITY attribute with default value ENTITY attribute with default
@@ -4506,7 +4219,6 @@ def test_id017_id017_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id017_id017_n01_xml(save_xml):
     """
@@ -4522,7 +4234,6 @@ def test_id017_id017_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id016_id016_v01_xml(save_xml):
     """
     IDREF attribute with default value IDREF attribute with default value
@@ -4536,7 +4247,6 @@ def test_id016_id016_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id016_id016_v02_xml(save_xml):
     """
     IDREF attribute with default value IDREF attribute with default value
@@ -4550,7 +4260,6 @@ def test_id016_id016_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id016_id016_n01_xml(save_xml):
     """
@@ -4565,7 +4274,6 @@ def test_id016_id016_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id016_id016_n02_xml(save_xml):
     """
@@ -4580,7 +4288,6 @@ def test_id016_id016_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id015_id015_v01_xml(save_xml):
     """
     ID element with fixed value ID element with fixed value
@@ -4594,7 +4301,6 @@ def test_id015_id015_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id015_id015_n01_xml(save_xml):
     """
@@ -4609,7 +4315,6 @@ def test_id015_id015_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id015_id015_n02_xml(save_xml):
     """
@@ -4624,7 +4329,6 @@ def test_id015_id015_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id014_id014_v01_xml(save_xml):
     """
     ID element with default value ID element with default value
@@ -4638,7 +4342,6 @@ def test_id014_id014_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id014_id014_n01_xml(save_xml):
     """
@@ -4653,7 +4356,6 @@ def test_id014_id014_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id014_id014_n02_xml(save_xml):
     """
@@ -4668,7 +4370,6 @@ def test_id014_id014_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id013_id013_v01_xml(save_xml):
     """
     ID attribute with fixed value ID attribute with fixed value
@@ -4682,7 +4383,6 @@ def test_id013_id013_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id013_id013_n01_xml(save_xml):
     """
@@ -4697,7 +4397,6 @@ def test_id013_id013_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id013_id013_n02_xml(save_xml):
     """
@@ -4712,7 +4411,6 @@ def test_id013_id013_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id012_id012_v01_xml(save_xml):
     """
     ID attribute with default value ID attribute with default value
@@ -4726,7 +4424,6 @@ def test_id012_id012_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id012_id012_n01_xml(save_xml):
     """
@@ -4741,7 +4438,6 @@ def test_id012_id012_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id012_id012_n02_xml(save_xml):
     """
@@ -4756,7 +4452,6 @@ def test_id012_id012_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id011_id011_v01_xml(save_xml):
     """
     ID attribute with fixed value ID attribute with fixed value
@@ -4770,7 +4465,6 @@ def test_id011_id011_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id011_id011_n01_xml(save_xml):
     """
@@ -4785,7 +4479,6 @@ def test_id011_id011_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id011_id011_n02_xml(save_xml):
     """
@@ -4800,7 +4493,6 @@ def test_id011_id011_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id010_id010_v01_xml(save_xml):
     """
     ID attribute with default value ID attribute with default value
@@ -4814,7 +4506,6 @@ def test_id010_id010_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id010_id010_n01_xml(save_xml):
     """
@@ -4829,7 +4520,6 @@ def test_id010_id010_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id010_id010_n02_xml(save_xml):
     """
@@ -4844,7 +4534,6 @@ def test_id010_id010_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id009_id009_v01_xml(save_xml):
     """
     Nillable ID/IDREF elements Nillable ID/IDREF elements
@@ -4858,7 +4547,6 @@ def test_id009_id009_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id008_id008_v01_xml(save_xml):
     """
     A complex type with simple ID/IDREF content A complex type with simple
@@ -4874,7 +4562,6 @@ def test_id008_id008_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id008_id008_n02_xml(save_xml):
     """
@@ -4891,7 +4578,6 @@ def test_id008_id008_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id008_id008_n03_xml(save_xml):
     """
@@ -4908,7 +4594,6 @@ def test_id008_id008_n03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id007_id007_v01_xml(save_xml):
     """
     A highly devious test in which we define a list type whose items may
@@ -4924,7 +4609,6 @@ def test_id007_id007_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id007_id007_n01_xml(save_xml):
     """
@@ -4941,7 +4625,6 @@ def test_id007_id007_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id007_id007_n02_xml(save_xml):
     """
@@ -4958,7 +4641,6 @@ def test_id007_id007_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id006_id006_v01_xml(save_xml):
     """
     Element with list-of-maybe-IDREF attributes and list-of-maybe-IDREF
@@ -4974,7 +4656,6 @@ def test_id006_id006_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id006_id006_n01_xml(save_xml):
     """
@@ -4991,7 +4672,6 @@ def test_id006_id006_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id006_id006_n02_xml(save_xml):
     """
@@ -5008,7 +4688,6 @@ def test_id006_id006_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id005_id005_v01_xml(save_xml):
     """
     Element with list-of-IDREF attributes and list-of-IDREF children
@@ -5023,7 +4702,6 @@ def test_id005_id005_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id005_id005_n01_xml(save_xml):
     """
@@ -5039,7 +4717,6 @@ def test_id005_id005_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id005_id005_n02_xml(save_xml):
     """
@@ -5055,7 +4732,6 @@ def test_id005_id005_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id004_id004_v01_xml(save_xml):
     """
     Element with list-of-ID attributes and list-of-ID children Element
@@ -5070,7 +4746,6 @@ def test_id004_id004_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id004_id004_n01_xml(save_xml):
     """
@@ -5086,7 +4761,6 @@ def test_id004_id004_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id004_id004_n02_xml(save_xml):
     """
@@ -5102,7 +4776,6 @@ def test_id004_id004_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id003_id003_v01_xml(save_xml):
     """
     Element with more than one ID attribute, one being a wildcard, plus ID
@@ -5118,7 +4791,6 @@ def test_id003_id003_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id003_id003_n01_xml(save_xml):
     """
@@ -5135,7 +4807,6 @@ def test_id003_id003_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id003_id003_n02_xml(save_xml):
     """
@@ -5152,7 +4823,6 @@ def test_id003_id003_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id002_id002_v01_xml(save_xml):
     """
     Element with more than one ID attribute, one being a wildcard Element
@@ -5167,7 +4837,6 @@ def test_id002_id002_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id002_id002_n01_xml(save_xml):
     """
@@ -5183,7 +4852,6 @@ def test_id002_id002_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id002_id002_n02_xml(save_xml):
     """
@@ -5199,7 +4867,6 @@ def test_id002_id002_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_id001_id001_v01_xml(save_xml):
     """
     Element with more than one ID attribute Element with more than one ID
@@ -5214,7 +4881,6 @@ def test_id001_id001_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id001_id001_n01_xml(save_xml):
     """
@@ -5230,7 +4896,6 @@ def test_id001_id001_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_id001_id001_n02_xml(save_xml):
     """
@@ -5361,7 +5026,6 @@ def test_missing001_missing001_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open205_open205_v1_xml(save_xml):
     """
     Valid content model defaultAttributes in an imported namespace
@@ -5375,7 +5039,6 @@ def test_open205_open205_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open205_open205_n1_xml(save_xml):
     """
@@ -5390,7 +5053,6 @@ def test_open205_open205_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open202_open202_v1_xml(save_xml):
     """
     Valid content model Basic test of defaultAttributes with
@@ -5405,7 +5067,6 @@ def test_open202_open202_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open202_open202_n1_xml(save_xml):
     """
@@ -5421,7 +5082,6 @@ def test_open202_open202_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open201_open201_v1_xml(save_xml):
     """
     Valid content model Basic test of defaultAttributes
@@ -5435,7 +5095,6 @@ def test_open201_open201_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open201_open201_v2_xml(save_xml):
     """
     Valid content model Basic test of defaultAttributes
@@ -5449,7 +5108,6 @@ def test_open201_open201_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open047_open047_v1_xml(save_xml):
     """
     A valid extension complex type extension: derived type's open content
@@ -5465,7 +5123,6 @@ def test_open047_open047_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open047_open047_v2_xml(save_xml):
     """
     A valid extension complex type extension: derived type's open content
@@ -5481,7 +5138,6 @@ def test_open047_open047_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open047_open047_v3_xml(save_xml):
     """
     A valid extension complex type extension: derived type's open content
@@ -5497,7 +5153,6 @@ def test_open047_open047_v3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open047_open047_n1_xml(save_xml):
     """
@@ -5514,7 +5169,6 @@ def test_open047_open047_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open045_open045_v1_xml(save_xml):
     """
     defaultAttributes does not apply to types defined within xs:override
@@ -5533,7 +5187,6 @@ def test_open045_open045_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open045_open045_n1_xml(save_xml):
     """
@@ -5553,7 +5206,6 @@ def test_open045_open045_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open045_open045_n2_xml(save_xml):
     """
@@ -5573,7 +5225,6 @@ def test_open045_open045_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open044_open044_v1_xml(save_xml):
     """
     defaultAttributes applies to types defined within xs:redefine
@@ -5588,7 +5239,6 @@ def test_open044_open044_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open044_open044_n1_xml(save_xml):
     """
@@ -5604,7 +5254,6 @@ def test_open044_open044_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open044_open044_n2_xml(save_xml):
     """
@@ -5620,7 +5269,6 @@ def test_open044_open044_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open043_open043_v1_xml(save_xml):
     """
     For types defined within xs:override, the relevant defaultOpenContent
@@ -5638,7 +5286,6 @@ def test_open043_open043_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open043_open043_n1_xml(save_xml):
     """
@@ -5657,7 +5304,6 @@ def test_open043_open043_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open043_open043_n2_xml(save_xml):
     """
@@ -5676,7 +5322,6 @@ def test_open043_open043_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open042_open042_v1_xml(save_xml):
     """
     defaultOpenContent applies to types defined within xs:redefine
@@ -5691,7 +5336,6 @@ def test_open042_open042_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open042_open042_n1_xml(save_xml):
     """
@@ -5707,7 +5351,6 @@ def test_open042_open042_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open042_open042_n2_xml(save_xml):
     """
@@ -5723,7 +5366,6 @@ def test_open042_open042_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open041_open041_v1_xml(save_xml):
     """
     defaultOpenContent is scoped to a schema document defaultOpenContent
@@ -5738,7 +5380,6 @@ def test_open041_open041_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open041_open041_n1_xml(save_xml):
     """
@@ -5754,7 +5395,6 @@ def test_open041_open041_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open040_open040_v1_xml(save_xml):
     """
     defaultOpenContent is scoped to a schema document defaultOpenContent
@@ -5769,7 +5409,6 @@ def test_open040_open040_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open040_open040_n1_xml(save_xml):
     """
@@ -5785,7 +5424,6 @@ def test_open040_open040_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open035_open035_v1_xml(save_xml):
     """
     Test defaultAttributesApply on an anonymous complex type Attribute is
@@ -5800,7 +5438,6 @@ def test_open035_open035_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open035_open035_n1_xml(save_xml):
     """
@@ -5816,7 +5453,6 @@ def test_open035_open035_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open035_open035_n2_xml(save_xml):
     """
@@ -5832,7 +5468,6 @@ def test_open035_open035_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open031_open031_v1_xml(save_xml):
     """
     A valid extension complex type extension: derived type takes
@@ -5848,7 +5483,6 @@ def test_open031_open031_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open031_open031_v2_xml(save_xml):
     """
     A valid extension complex type extension: derived type takes
@@ -5864,7 +5498,6 @@ def test_open031_open031_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open031_open031_v3_xml(save_xml):
     """
     A valid extension complex type extension: derived type takes
@@ -5880,7 +5513,6 @@ def test_open031_open031_v3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open031_open031_v4_xml(save_xml):
     """
     A valid extension complex type extension: derived type takes
@@ -5896,7 +5528,6 @@ def test_open031_open031_v4_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open031_open031_n2_xml(save_xml):
     """
@@ -5913,7 +5544,6 @@ def test_open031_open031_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open028_open028_v1_xml(save_xml):
     """
     A valid extension Derived type has suffix open content, base type does
@@ -5928,7 +5558,6 @@ def test_open028_open028_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open028_open028_v2_xml(save_xml):
     """
     A valid extension Derived type has suffix open content, base type does
@@ -5943,7 +5572,6 @@ def test_open028_open028_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open028_open028_v3_xml(save_xml):
     """
     A valid extension Derived type has suffix open content, base type does
@@ -5958,7 +5586,6 @@ def test_open028_open028_v3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open028_open028_n1_xml(save_xml):
     """
@@ -5974,7 +5601,6 @@ def test_open028_open028_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open027_open027_v1_xml(save_xml):
     """
     A valid extension Base type has suffix open content, extended type
@@ -5989,7 +5615,6 @@ def test_open027_open027_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open027_open027_v2_xml(save_xml):
     """
     A valid extension Base type has suffix open content, extended type
@@ -6004,7 +5629,6 @@ def test_open027_open027_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open027_open027_v3_xml(save_xml):
     """
     A valid extension Base type has suffix open content, extended type
@@ -6019,7 +5643,6 @@ def test_open027_open027_v3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open027_open027_n1_xml(save_xml):
     """
@@ -6035,7 +5658,6 @@ def test_open027_open027_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open025_open025_v1_xml(save_xml):
     """
     Open content and regular content match the same instances Show that
@@ -6050,7 +5672,6 @@ def test_open025_open025_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open025_open025_n1_xml(save_xml):
     """
@@ -6066,7 +5687,6 @@ def test_open025_open025_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open024_open024_v1_xml(save_xml):
     """
     A valid restriction Open content in base type has weaker
@@ -6081,7 +5701,6 @@ def test_open024_open024_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open023_open023_v1_xml(save_xml):
     """
     A valid restriction Open content in base type allows more namespaces
@@ -6096,7 +5715,6 @@ def test_open023_open023_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open022_open022_v1_xml(save_xml):
     """
     A valid restriction (though Saxon can't yet handle it) Base type has
@@ -6112,7 +5730,6 @@ def test_open022_open022_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open021_open021_v1_xml(save_xml):
     """
     A valid restriction Base type has suffixed open content, restricted
@@ -6128,7 +5745,6 @@ def test_open021_open021_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open020_open020_v1_xml(save_xml):
     """
     A valid restriction Base type has suffixed open content, restricted
@@ -6144,7 +5760,6 @@ def test_open020_open020_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open016_open016_v1_xml(save_xml):
     """
     Open content: no effect on complex types with simple content Default
@@ -6159,7 +5774,6 @@ def test_open016_open016_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open016_open016_n1_xml(save_xml):
     """
@@ -6175,7 +5789,6 @@ def test_open016_open016_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open015_open015_v1_xml(save_xml):
     """
     A valid restriction Base type has open content, restricted type has
@@ -6190,7 +5803,6 @@ def test_open015_open015_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open015_open015_n1_xml(save_xml):
     """
@@ -6206,7 +5818,6 @@ def test_open015_open015_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open014_open014_v1_xml(save_xml):
     """
     A valid restriction Base type has open content, restricted type does
@@ -6221,7 +5832,6 @@ def test_open014_open014_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open014_open014_n1_xml(save_xml):
     """
@@ -6237,7 +5847,6 @@ def test_open014_open014_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open013_open013_v1_xml(save_xml):
     """
     Schema defines default open content not applying to an empty content
@@ -6253,7 +5862,6 @@ def test_open013_open013_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open012_open012_v1_xml(save_xml):
     """
     Schema defines default open content but not applying to an empty
@@ -6268,7 +5876,6 @@ def test_open012_open012_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open012_open012_n1_xml(save_xml):
     """
@@ -6284,7 +5891,6 @@ def test_open012_open012_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open012_open012_n2_xml(save_xml):
     """
@@ -6300,7 +5906,6 @@ def test_open012_open012_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open012_open012_n3_xml(save_xml):
     """
@@ -6316,7 +5921,6 @@ def test_open012_open012_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open011_open011_v1_xml(save_xml):
     """
     Open content in an (otherwise) empty content model Defined by
@@ -6332,7 +5936,6 @@ def test_open011_open011_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open011_open011_v2_xml(save_xml):
     """
     Open content in an (otherwise) empty content model Defined by
@@ -6348,7 +5951,6 @@ def test_open011_open011_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open011_open011_n1_xml(save_xml):
     """
@@ -6365,7 +5967,6 @@ def test_open011_open011_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open011_open011_n2_xml(save_xml):
     """
@@ -6382,7 +5983,6 @@ def test_open011_open011_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open010_open010_v1_xml(save_xml):
     """
     Open content in an (otherwise) empty content model Allows any element
@@ -6397,7 +5997,6 @@ def test_open010_open010_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open010_open010_v2_xml(save_xml):
     """
     Open content in an (otherwise) empty content model Allows any element
@@ -6412,7 +6011,6 @@ def test_open010_open010_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open010_open010_n1_xml(save_xml):
     """
@@ -6428,7 +6026,6 @@ def test_open010_open010_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open010_open010_n2_xml(save_xml):
     """
@@ -6444,7 +6041,6 @@ def test_open010_open010_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open009_open009_v1_xml(save_xml):
     """
     Suffix open content in an xs:all group Allows any element in specified
@@ -6459,7 +6055,6 @@ def test_open009_open009_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open009_open009_v2_xml(save_xml):
     """
     Suffix open content in an xs:all group Allows any element in specified
@@ -6474,7 +6069,6 @@ def test_open009_open009_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open009_open009_n1_xml(save_xml):
     """
@@ -6490,7 +6084,6 @@ def test_open009_open009_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open009_open009_n2_xml(save_xml):
     """
@@ -6506,7 +6099,6 @@ def test_open009_open009_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open008_open008_v1_xml(save_xml):
     """
     Interleaved open content in an xs:all group Allows any element in
@@ -6521,7 +6113,6 @@ def test_open008_open008_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open008_open008_v2_xml(save_xml):
     """
     Interleaved open content in an xs:all group Allows any element in
@@ -6536,7 +6127,6 @@ def test_open008_open008_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open008_open008_v3_xml(save_xml):
     """
     Interleaved open content in an xs:all group Allows any element in
@@ -6551,7 +6141,6 @@ def test_open008_open008_v3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open008_open008_n1_xml(save_xml):
     """
@@ -6567,7 +6156,6 @@ def test_open008_open008_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open008_open008_n2_xml(save_xml):
     """
@@ -6583,7 +6171,6 @@ def test_open008_open008_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open008_open008_n3_xml(save_xml):
     """
@@ -6599,7 +6186,6 @@ def test_open008_open008_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open007_open007_v1_xml(save_xml):
     """
     Interleaved open content within a counting content model Designed to
@@ -6614,7 +6200,6 @@ def test_open007_open007_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open007_open007_v2_xml(save_xml):
     """
     Interleaved open content within a counting content model Designed to
@@ -6629,7 +6214,6 @@ def test_open007_open007_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open007_open007_n1_xml(save_xml):
     """
@@ -6645,7 +6229,6 @@ def test_open007_open007_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open007_open007_n2_xml(save_xml):
     """
@@ -6661,7 +6244,6 @@ def test_open007_open007_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open006_open006_v1_xml(save_xml):
     """
     Basic interleaved open content using defaultOpenContent definition
@@ -6677,7 +6259,6 @@ def test_open006_open006_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open006_open006_v2_xml(save_xml):
     """
     Basic interleaved open content using defaultOpenContent definition
@@ -6693,7 +6274,6 @@ def test_open006_open006_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open006_open006_v3_xml(save_xml):
     """
     Basic interleaved open content using defaultOpenContent definition
@@ -6709,7 +6289,6 @@ def test_open006_open006_v3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open006_open006_v4_xml(save_xml):
     """
     Basic interleaved open content using defaultOpenContent definition
@@ -6725,7 +6304,6 @@ def test_open006_open006_v4_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open006_open006_n1_xml(save_xml):
     """
@@ -6742,7 +6320,6 @@ def test_open006_open006_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open006_open006_n2_xml(save_xml):
     """
@@ -6759,7 +6336,6 @@ def test_open006_open006_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open006_open006_n3_xml(save_xml):
     """
@@ -6776,7 +6352,6 @@ def test_open006_open006_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open005_open005_v1_xml(save_xml):
     """
     Basic interleaved open content Allows any element in specified
@@ -6791,7 +6366,6 @@ def test_open005_open005_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open005_open005_v2_xml(save_xml):
     """
     Basic interleaved open content Allows any element in specified
@@ -6806,7 +6380,6 @@ def test_open005_open005_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open005_open005_v3_xml(save_xml):
     """
     Basic interleaved open content Allows any element in specified
@@ -6821,7 +6394,6 @@ def test_open005_open005_v3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open005_open005_v4_xml(save_xml):
     """
     Basic interleaved open content Allows any element in specified
@@ -6836,7 +6408,6 @@ def test_open005_open005_v4_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open005_open005_n1_xml(save_xml):
     """
@@ -6852,7 +6423,6 @@ def test_open005_open005_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open005_open005_n2_xml(save_xml):
     """
@@ -6868,7 +6438,6 @@ def test_open005_open005_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open005_open005_n3_xml(save_xml):
     """
@@ -6884,7 +6453,6 @@ def test_open005_open005_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open004_open004_v1_xml(save_xml):
     """
     mode="none" takes precedence over default open content Open content
@@ -6899,7 +6467,6 @@ def test_open004_open004_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open004_open004_n1_xml(save_xml):
     """
@@ -6915,7 +6482,6 @@ def test_open004_open004_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open003_open003_v1_xml(save_xml):
     """
     Explicit open content takes precedence over default open content
@@ -6931,7 +6497,6 @@ def test_open003_open003_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open003_open003_n1_xml(save_xml):
     """
@@ -6948,7 +6513,6 @@ def test_open003_open003_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open002_open002_v1_xml(save_xml):
     """
     Suffixed open content defined by defaultOpenContent element Same as
@@ -6963,7 +6527,6 @@ def test_open002_open002_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open002_open002_v2_xml(save_xml):
     """
     Suffixed open content defined by defaultOpenContent element Same as
@@ -6978,7 +6541,6 @@ def test_open002_open002_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open002_open002_v3_xml(save_xml):
     """
     Suffixed open content defined by defaultOpenContent element Same as
@@ -6993,7 +6555,6 @@ def test_open002_open002_v3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open002_open002_n1_xml(save_xml):
     """
@@ -7009,7 +6570,6 @@ def test_open002_open002_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open002_open002_n2_xml(save_xml):
     """
@@ -7025,7 +6585,6 @@ def test_open002_open002_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open002_open002_n3_xml(save_xml):
     """
@@ -7041,7 +6600,6 @@ def test_open002_open002_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open002_open002_n4_xml(save_xml):
     """
@@ -7057,7 +6615,6 @@ def test_open002_open002_n4_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open001_open001_v1_xml(save_xml):
     """
     Basic suffixed open content Allows any element in specified namespace
@@ -7072,7 +6629,6 @@ def test_open001_open001_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open001_open001_v2_xml(save_xml):
     """
     Basic suffixed open content Allows any element in specified namespace
@@ -7087,7 +6643,6 @@ def test_open001_open001_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_open001_open001_v3_xml(save_xml):
     """
     Basic suffixed open content Allows any element in specified namespace
@@ -7102,7 +6657,6 @@ def test_open001_open001_v3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open001_open001_n1_xml(save_xml):
     """
@@ -7118,7 +6672,6 @@ def test_open001_open001_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open001_open001_n2_xml(save_xml):
     """
@@ -7134,7 +6687,6 @@ def test_open001_open001_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open001_open001_n3_xml(save_xml):
     """
@@ -7150,7 +6702,6 @@ def test_open001_open001_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_open001_open001_n4_xml(save_xml):
     """
@@ -7166,7 +6717,6 @@ def test_open001_open001_n4_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_over030_over030_v01_xml(save_xml):
     """
     Override a schema document with top-level annotation See W3C bug
@@ -7181,7 +6731,6 @@ def test_over030_over030_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over029_over029_n01_xml(save_xml):
     """
@@ -7199,7 +6748,6 @@ def test_over029_over029_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_over029_over029_v01_xml(save_xml):
     """
     Interaction of xs:override and xs:import. Test case from Priscilla
@@ -7216,7 +6764,6 @@ def test_over029_over029_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over028_over028_n01_xml(save_xml):
     """
@@ -7232,7 +6779,6 @@ def test_over028_over028_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_over028_over028_v01_xml(save_xml):
     """
     Simple override test. Test case from Priscilla Walmsley Override a
@@ -7247,7 +6793,6 @@ def test_over028_over028_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over027_over027_n01_xml(save_xml):
     """
@@ -7262,7 +6807,6 @@ def test_over027_over027_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_over023_over023_v01_xml(save_xml):
     """
     A permissible circular xs:override A permissible circular xs:override
@@ -7277,7 +6821,6 @@ def test_over023_over023_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over023_over023_n01_xml(save_xml):
     """
@@ -7293,7 +6836,6 @@ def test_over023_over023_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over023_over023_n02_xml(save_xml):
     """
@@ -7309,7 +6851,6 @@ def test_over023_over023_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_over020_over020_v01_xml(save_xml):
     """
     Indirect chameleon Override declaration Indirect chameleon Override
@@ -7324,7 +6865,6 @@ def test_over020_over020_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over020_over020_n01_xml(save_xml):
     """
@@ -7340,7 +6880,6 @@ def test_over020_over020_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over020_over020_n02_xml(save_xml):
     """
@@ -7356,7 +6895,6 @@ def test_over020_over020_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_over019_over019_v01_xml(save_xml):
     """
     Chameleon Override declaration Chameleon Override declaration
@@ -7370,7 +6908,6 @@ def test_over019_over019_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over019_over019_n01_xml(save_xml):
     """
@@ -7385,7 +6922,6 @@ def test_over019_over019_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over019_over019_n02_xml(save_xml):
     """
@@ -7400,7 +6936,6 @@ def test_over019_over019_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_over018_over018_v01_xml(save_xml):
     """
     Override declaration in a target namespace Override declaration in a
@@ -7415,7 +6950,6 @@ def test_over018_over018_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over018_over018_n01_xml(save_xml):
     """
@@ -7431,7 +6965,6 @@ def test_over018_over018_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over018_over018_n02_xml(save_xml):
     """
@@ -7447,7 +6980,6 @@ def test_over018_over018_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_over015_over015_v01_xml(save_xml):
     """
     Override a notation Override a notation
@@ -7462,7 +6994,6 @@ def test_over015_over015_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.xfail
 def test_over015_over015_v02_xml(save_xml):
     """
@@ -7478,7 +7009,6 @@ def test_over015_over015_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over015_over015_n01_xml(save_xml):
     """
@@ -7494,7 +7024,6 @@ def test_over015_over015_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over015_over015_n02_xml(save_xml):
     """
@@ -7510,7 +7039,6 @@ def test_over015_over015_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_over012_over012_v01_xml(save_xml):
     """
     Override a complex type Override a complex type
@@ -7524,7 +7052,6 @@ def test_over012_over012_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over012_over012_n01_xml(save_xml):
     """
@@ -7539,7 +7066,6 @@ def test_over012_over012_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over012_over012_n02_xml(save_xml):
     """
@@ -7554,7 +7080,6 @@ def test_over012_over012_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_over010_over010_v01_xml(save_xml):
     """
     Override a simple type Override a simple type
@@ -7568,7 +7093,6 @@ def test_over010_over010_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over010_over010_n01_xml(save_xml):
     """
@@ -7583,7 +7107,6 @@ def test_over010_over010_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over010_over010_n02_xml(save_xml):
     """
@@ -7598,7 +7121,6 @@ def test_over010_over010_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_over009_over009_v01_xml(save_xml):
     """
     Double override Double override. Depends on schema documents in
@@ -7613,7 +7135,6 @@ def test_over009_over009_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over009_over009_n01_xml(save_xml):
     """
@@ -7629,7 +7150,6 @@ def test_over009_over009_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over009_over009_n02_xml(save_xml):
     """
@@ -7645,7 +7165,6 @@ def test_over009_over009_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_over008_over008_v01_xml(save_xml):
     """
     xs:override of an attribute group declaration xs:override of an
@@ -7660,7 +7179,6 @@ def test_over008_over008_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over008_over008_n01_xml(save_xml):
     """
@@ -7676,7 +7194,6 @@ def test_over008_over008_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over008_over008_n02_xml(save_xml):
     """
@@ -7692,7 +7209,6 @@ def test_over008_over008_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_over007_over007_v01_xml(save_xml):
     """
     xs:override of a model group declaration xs:override of model group
@@ -7707,7 +7223,6 @@ def test_over007_over007_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over007_over007_n01_xml(save_xml):
     """
@@ -7723,7 +7238,6 @@ def test_over007_over007_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over007_over007_n02_xml(save_xml):
     """
@@ -7739,7 +7253,6 @@ def test_over007_over007_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_over006_over006_v01_xml(save_xml):
     """
     xs:override of a self-referential element declaration xs:override of
@@ -7754,7 +7267,6 @@ def test_over006_over006_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over006_over006_n01_xml(save_xml):
     """
@@ -7770,7 +7282,6 @@ def test_over006_over006_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over006_over006_n02_xml(save_xml):
     """
@@ -7786,7 +7297,6 @@ def test_over006_over006_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_over005_over005_v01_xml(save_xml):
     """
     xs:override of an attribute declaration xs:override of an attribute
@@ -7801,7 +7311,6 @@ def test_over005_over005_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over005_over005_n01_xml(save_xml):
     """
@@ -7817,7 +7326,6 @@ def test_over005_over005_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over005_over005_n02_xml(save_xml):
     """
@@ -7833,7 +7341,6 @@ def test_over005_over005_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_over004_over004_v01_xml(save_xml):
     """
     xs:override including a declaration outside the xs:override. Depends
@@ -7848,7 +7355,6 @@ def test_over004_over004_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over004_over004_n01_xml(save_xml):
     """
@@ -7864,7 +7370,6 @@ def test_over004_over004_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over004_over004_n02_xml(save_xml):
     """
@@ -7880,7 +7385,6 @@ def test_over004_over004_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_over003_over003_v01_xml(save_xml):
     """
     xs:override including a declaration which overrides nothing in the
@@ -7896,7 +7400,6 @@ def test_over003_over003_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over003_over003_n01_xml(save_xml):
     """
@@ -7913,7 +7416,6 @@ def test_over003_over003_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over003_over003_n02_xml(save_xml):
     """
@@ -7930,7 +7432,6 @@ def test_over003_over003_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_over002_over002_v01_xml(save_xml):
     """
     xs:override overriding an element declaration which is referenced in
@@ -7946,7 +7447,6 @@ def test_over002_over002_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over002_over002_n01_xml(save_xml):
     """
@@ -7963,7 +7463,6 @@ def test_over002_over002_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over002_over002_n02_xml(save_xml):
     """
@@ -7980,7 +7479,6 @@ def test_over002_over002_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_over001_over001_v01_xml(save_xml):
     """
     xs:override overriding an element declaration xs:override overriding
@@ -7995,7 +7493,6 @@ def test_over001_over001_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over001_over001_n01_xml(save_xml):
     """
@@ -8011,7 +7508,6 @@ def test_over001_over001_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_over001_over001_n02_xml(save_xml):
     """
@@ -8027,7 +7523,6 @@ def test_over001_over001_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_simple085_simple085_v01_xml(save_xml):
     """
     Union derived by restriction with a pattern facet Pattern facet
@@ -8043,7 +7538,6 @@ def test_simple085_simple085_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_simple055_simple055_n01_xml(save_xml):
     """
@@ -8060,7 +7554,6 @@ def test_simple055_simple055_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_simple054_simple053_n01_xml(save_xml):
     """
@@ -8076,7 +7569,6 @@ def test_simple054_simple053_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_simple050_simple050_v01_xml(save_xml):
     """
     Use of xs:anyAtomicType Tests use of xs:anyAtomicType as the type of
@@ -8091,7 +7583,6 @@ def test_simple050_simple050_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_simple050_simple050_v02_xml(save_xml):
     """
     Use of xs:anyAtomicType Tests use of xs:anyAtomicType as the type of
@@ -8106,7 +7597,6 @@ def test_simple050_simple050_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_simple050_simple050_n01_xml(save_xml):
     """
@@ -8122,7 +7612,6 @@ def test_simple050_simple050_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_simple050_simple050_n02_xml(save_xml):
     """
@@ -8138,7 +7627,6 @@ def test_simple050_simple050_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_simple050_simple050_n03_xml(save_xml):
     """
@@ -8154,7 +7642,6 @@ def test_simple050_simple050_n03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_simple046_simple046_v01_xml(save_xml):
     """
     Hyphens in regular expressions Tests use of hyphens in regular
@@ -8169,7 +7656,6 @@ def test_simple046_simple046_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_simple046_simple046_n01_xml(save_xml):
     """
@@ -8185,7 +7671,6 @@ def test_simple046_simple046_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_simple045_simple045_v01_xml(save_xml):
     """
     Hyphens in regular expressions Tests use of hyphens in regular
@@ -8200,7 +7685,6 @@ def test_simple045_simple045_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_simple045_simple045_n01_xml(save_xml):
     """
@@ -8216,7 +7700,6 @@ def test_simple045_simple045_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_simple044_simple044_v01_xml(save_xml):
     """
     Hyphens in regular expressions Tests use of hyphens in regular
@@ -8231,7 +7714,6 @@ def test_simple044_simple044_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_simple044_simple044_n01_xml(save_xml):
     """
@@ -8247,7 +7729,6 @@ def test_simple044_simple044_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_simple040_simple040_v01_xml(save_xml):
     """
     Hyphens in regular expressions Tests use of hyphens in regular
@@ -8262,7 +7743,6 @@ def test_simple040_simple040_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_simple040_simple040_n01_xml(save_xml):
     """
@@ -8278,7 +7758,6 @@ def test_simple040_simple040_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_simple040_simple040_n02_xml(save_xml):
     """
@@ -8294,7 +7773,6 @@ def test_simple040_simple040_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_simple022_simple022_v01_xml(save_xml):
     """
     Enumeration value OK if "equal or identical", so NaN is accepted. See
@@ -8310,7 +7788,6 @@ def test_simple022_simple022_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_simple022_simple022_v02_xml(save_xml):
     """
     Enumeration value OK if "equal or identical", so NaN is accepted. See
@@ -8326,7 +7803,6 @@ def test_simple022_simple022_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_simple022_simple022_v03_xml(save_xml):
     """
     Enumeration value OK if "equal or identical", so NaN is accepted. See
@@ -8342,7 +7818,6 @@ def test_simple022_simple022_v03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_simple022_simple016_n01_xml(save_xml):
     """
@@ -8359,7 +7834,6 @@ def test_simple022_simple016_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_simple016_simple016_v01_xml(save_xml):
     """
     xsi:type OK to select a member of a union only if there are no
@@ -8375,7 +7849,6 @@ def test_simple016_simple016_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_simple016_simple016_n01_xml(save_xml):
     """
@@ -8392,7 +7865,6 @@ def test_simple016_simple016_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_simple013_simple013_v01_xml(save_xml):
     """
     Type D is substitutable for union(X,DT) when DT is union (D,T) Tests
@@ -8407,7 +7879,6 @@ def test_simple013_simple013_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_simple013_simple013_n01_xml(save_xml):
     """
@@ -8423,7 +7894,6 @@ def test_simple013_simple013_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_simple013_simple013_n02_xml(save_xml):
     """
@@ -8439,7 +7909,6 @@ def test_simple013_simple013_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_simple012_simple012_v01_xml(save_xml):
     """
     Type X is substitutable for union(X,Y) when X is itself a union type
@@ -8455,7 +7924,6 @@ def test_simple012_simple012_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_simple012_simple012_v02_xml(save_xml):
     """
     Type X is substitutable for union(X,Y) when X is itself a union type
@@ -8471,7 +7939,6 @@ def test_simple012_simple012_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_simple012_simple012_n01_xml(save_xml):
     """
@@ -8488,7 +7955,6 @@ def test_simple012_simple012_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_simple012_simple012_n02_xml(save_xml):
     """
@@ -8505,7 +7971,6 @@ def test_simple012_simple012_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_simple010_simple010_v01_xml(save_xml):
     """
     Type X is substitutable for union(X,Y) Union is substitutable by one
@@ -8520,7 +7985,6 @@ def test_simple010_simple010_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_simple010_simple010_n01_xml(save_xml):
     """
@@ -8536,7 +8000,6 @@ def test_simple010_simple010_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_simple010_simple010_n02_xml(save_xml):
     """
@@ -8552,7 +8015,6 @@ def test_simple010_simple010_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_simple003_simple003_v01_xml(save_xml):
     """
     Test that simpleType/@final = extension is allowed Depends on
@@ -8567,7 +8029,6 @@ def test_simple003_simple003_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_simple002_simple002_v01_xml(save_xml):
     """
     +INF allowed in xs:float lexical space +INF allowed in xs:float
@@ -8582,7 +8043,6 @@ def test_simple002_simple002_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_simple002_simple002_n01_xml(save_xml):
     """
@@ -8598,7 +8058,6 @@ def test_simple002_simple002_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_simple002_simple002_n02_xml(save_xml):
     """
@@ -8614,7 +8073,6 @@ def test_simple002_simple002_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_simple001_simple001_v01_xml(save_xml):
     """
     +INF allowed in xs:double lexical space +INF allowed in xs:double
@@ -8629,7 +8087,6 @@ def test_simple001_simple001_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_simple001_simple001_n01_xml(save_xml):
     """
@@ -8645,7 +8102,6 @@ def test_simple001_simple001_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_simple001_simple001_n02_xml(save_xml):
     """
@@ -8661,7 +8117,6 @@ def test_simple001_simple001_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.xfail
 def test_subsgroup003_subsgroup003_v1_xml(save_xml):
     """
@@ -8680,7 +8135,6 @@ def test_subsgroup003_subsgroup003_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_subsgroup002_subsgroup002_v1_xml(save_xml):
     """
     Tests to show an element declaration can be in multiple substitution
@@ -8696,7 +8150,6 @@ def test_subsgroup002_subsgroup002_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_subsgroup002_subsgroup002_n1_xml(save_xml):
     """
@@ -8713,7 +8166,6 @@ def test_subsgroup002_subsgroup002_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_subsgroup001_subsgroup001_v1_xml(save_xml):
     """
     Tests to show an element declaration can be in multiple substitution
@@ -8729,7 +8181,6 @@ def test_subsgroup001_subsgroup001_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_subsgroup001_subsgroup001_n1_xml(save_xml):
     """
@@ -8746,7 +8197,6 @@ def test_subsgroup001_subsgroup001_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_target003_target003_v1_xml(save_xml):
     """
     Simple use of targetNamespace on a local attribute declaration Simple
@@ -8761,7 +8211,6 @@ def test_target003_target003_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_target003_target003_n1_xml(save_xml):
     """
@@ -8777,7 +8226,6 @@ def test_target003_target003_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_target003_target003_n2_xml(save_xml):
     """
@@ -8793,7 +8241,6 @@ def test_target003_target003_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_target001_target001_v1_xml(save_xml):
     """
     Simple use of targetNamespace on a local element declaration Simple
@@ -8808,7 +8255,6 @@ def test_target001_target001_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_target001_target001_n1_xml(save_xml):
     """
@@ -8824,7 +8270,6 @@ def test_target001_target001_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_vc024_11_vc024_v1_xml(save_xml):
     """
     Simple assertion on an attribute value, ignored under XSD 1.0 Simple
@@ -8839,7 +8284,6 @@ def test_vc024_11_vc024_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_vc024_11_vc024_n1_xml(save_xml):
     """
     Simple assertion on an attribute value, ignored under XSD 1.0 Simple
@@ -8854,7 +8298,6 @@ def test_vc024_11_vc024_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_vc023_vc023_v1_xml(save_xml):
     """
     vc:facetUnavailable with a mix of known and unknown facet
@@ -8869,7 +8312,6 @@ def test_vc023_vc023_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_vc022_vc022_n1_xml(save_xml):
     """
@@ -8885,7 +8327,6 @@ def test_vc022_vc022_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_vc021_vc021_n1_xml(save_xml):
     """
@@ -8901,7 +8342,6 @@ def test_vc021_vc021_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_vc020_vc020_v1_xml(save_xml):
     """
     vc:facetAvailable with a known facet vc:facetAvailable with a known
@@ -8916,7 +8356,6 @@ def test_vc020_vc020_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_vc014_vc014_v1_xml(save_xml):
     """
     Conditional use of xs:error controlled by vc:typeAvailable Conditional
@@ -8931,7 +8370,6 @@ def test_vc014_vc014_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_vc014_vc014_n1_xml(save_xml):
     """
@@ -8947,7 +8385,6 @@ def test_vc014_vc014_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_vc013_vc013_v1_xml(save_xml):
     """
     vc:typeUnavailable with a mix of known and unknown types
@@ -8962,7 +8399,6 @@ def test_vc013_vc013_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_vc012_vc012_n1_xml(save_xml):
     """
@@ -8978,7 +8414,6 @@ def test_vc012_vc012_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_vc011_vc011_n1_xml(save_xml):
     """
@@ -8994,7 +8429,6 @@ def test_vc011_vc011_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_vc010_vc010_v1_xml(save_xml):
     """
     vc:typeAvailable with a known type vc:typeAvailable with a known type
@@ -9008,7 +8442,6 @@ def test_vc010_vc010_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_vc009_vc009_v1_xml(save_xml):
     """
     Misspelt vc: attribute has no effect Misspelt vc: attribute has no
@@ -9023,7 +8456,6 @@ def test_vc009_vc009_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_vc009_vc009_n1_xml(save_xml):
     """
@@ -9039,7 +8471,6 @@ def test_vc009_vc009_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_vc008_vc008_v1_xml(save_xml):
     """
     Empty vc:xx[un]available attributes have no effect Empty
@@ -9054,7 +8485,6 @@ def test_vc008_vc008_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_vc008_vc008_n1_xml(save_xml):
     """
@@ -9070,7 +8500,6 @@ def test_vc008_vc008_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_vc007_vc007_v1_xml(save_xml):
     """
     Include a schema document made empty by version control attributes
@@ -9085,7 +8514,6 @@ def test_vc007_vc007_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_vc007_vc007_n1_xml(save_xml):
     """
@@ -9101,7 +8529,6 @@ def test_vc007_vc007_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_vc006_vc006_n1_xml(save_xml):
     """
@@ -9117,7 +8544,6 @@ def test_vc006_vc006_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_vc005_vc005_v1_xml(save_xml):
     """
     Use of version conditionals to ignore an (otherwise invalid)
@@ -9133,7 +8559,6 @@ def test_vc005_vc005_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_vc004_vc004_v1_xml(save_xml):
     """
     Use of version conditionals in an included schema document Use of
@@ -9148,7 +8573,6 @@ def test_vc004_vc004_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_vc003_vc003_v1_xml(save_xml):
     """
     Test a hypothetical 5.0 feature ignored under XSD 1.1 Test a
@@ -9163,7 +8587,6 @@ def test_vc003_vc003_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_vc002_vc002_v1_xml(save_xml):
     """
     Equivalent schemas with different formulations under XSD 1.0 and XSD
@@ -9179,7 +8602,6 @@ def test_vc002_vc002_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_vc002_vc002_n1_xml(save_xml):
     """
@@ -9196,7 +8618,6 @@ def test_vc002_vc002_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_vc001_vc001_v1_xml(save_xml):
     """
     Simple assertion on an attribute value, ignored under XSD 1.0 Simple
@@ -9211,7 +8632,6 @@ def test_vc001_vc001_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_vc001_vc001_n1_xml(save_xml):
     """
     Simple assertion on an attribute value, ignored under XSD 1.0 Simple
@@ -9226,7 +8646,6 @@ def test_vc001_vc001_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild084_wild084_n1_xml(save_xml):
     """
@@ -9241,7 +8660,6 @@ def test_wild084_wild084_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild083_wild083_v1_xml(save_xml):
     """
     Element Wildcard union with notQName="##defined" Tests the spec note:
@@ -9260,7 +8678,6 @@ def test_wild083_wild083_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild083_wild047_n1_xml(save_xml):
     """
@@ -9280,7 +8697,6 @@ def test_wild083_wild047_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild082_wild082_v1_xml(save_xml):
     """
     Consistency of governing type declarations between locally-declared
@@ -9296,7 +8712,6 @@ def test_wild082_wild082_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild080_wild080_v1_xml(save_xml):
     """
     Consistency of governing type declarations between locally-declared
@@ -9312,7 +8727,6 @@ def test_wild080_wild080_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild077_wild077_v1_xml(save_xml):
     """
     Consistency of governing type declarations between locally-declared
@@ -9328,7 +8742,6 @@ def test_wild077_wild077_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild077_wild077_n1_xml(save_xml):
     """
     Consistency of governing type declarations between locally-declared
@@ -9344,7 +8757,6 @@ def test_wild077_wild077_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild076_wild076_v1_xml(save_xml):
     """
     Consistency of governing type declarations between locally-declared
@@ -9360,7 +8772,6 @@ def test_wild076_wild076_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild076_wild076_n1_xml(save_xml):
     """
@@ -9377,7 +8788,6 @@ def test_wild076_wild076_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild075_wild075_v1_xml(save_xml):
     """
     Consistency of governing type declarations between locally-declared
@@ -9393,7 +8803,6 @@ def test_wild075_wild075_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild075_wild075_n1_xml(save_xml):
     """
@@ -9410,7 +8819,6 @@ def test_wild075_wild075_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild074_wild074_v1_xml(save_xml):
     """
     Test of openContent wildcards and substitution groups in xs:sequence
@@ -9425,7 +8833,6 @@ def test_wild074_wild074_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild074_wild074_n1_xml(save_xml):
     """
@@ -9441,7 +8848,6 @@ def test_wild074_wild074_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild074_wild074_n2_xml(save_xml):
     """
@@ -9457,7 +8863,6 @@ def test_wild074_wild074_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild073_wild073_v1_xml(save_xml):
     """
     Test of wildcards and substitution groups in xs:all content model
@@ -9472,7 +8877,6 @@ def test_wild073_wild073_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild073_wild073_v2_xml(save_xml):
     """
     Test of wildcards and substitution groups in xs:all content model
@@ -9487,7 +8891,6 @@ def test_wild073_wild073_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild073_wild073_v3_xml(save_xml):
     """
     Test of wildcards and substitution groups in xs:all content model
@@ -9502,7 +8905,6 @@ def test_wild073_wild073_v3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild072_wild072_v1_xml(save_xml):
     """
     Test of notQName=##definedSibling with substitution groups in xs:all
@@ -9517,7 +8919,6 @@ def test_wild072_wild072_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild072_wild072_n1_xml(save_xml):
     """
@@ -9533,7 +8934,6 @@ def test_wild072_wild072_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild072_wild072_n2_xml(save_xml):
     """
@@ -9549,7 +8949,6 @@ def test_wild072_wild072_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild071_wild071_v1_xml(save_xml):
     """
     Basic test of notQName=##definedSibling with substitution groups
@@ -9564,7 +8963,6 @@ def test_wild071_wild071_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild071_wild071_n1_xml(save_xml):
     """
@@ -9580,7 +8978,6 @@ def test_wild071_wild071_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild071_wild071_n2_xml(save_xml):
     """
@@ -9596,7 +8993,6 @@ def test_wild071_wild071_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild070_wild070_v1_xml(save_xml):
     """
     Basic test of notQName=##definedSibling notQName=##definedSibling in a
@@ -9611,7 +9007,6 @@ def test_wild070_wild070_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild070_wild070_n1_xml(save_xml):
     """
@@ -9627,7 +9022,6 @@ def test_wild070_wild070_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild070_wild070_n2_xml(save_xml):
     """
@@ -9643,7 +9037,6 @@ def test_wild070_wild070_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild068_wild068_n1_xml(save_xml):
     """
@@ -9659,7 +9052,6 @@ def test_wild068_wild068_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild067_wild067_n1_xml(save_xml):
     """
@@ -9675,7 +9067,6 @@ def test_wild067_wild067_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild066_wild066_v1_xml(save_xml):
     """
     Element fails "dynamic EDC" test - lax wildcard Substitutability
@@ -9690,7 +9081,6 @@ def test_wild066_wild066_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.xfail
 def test_wild065_wild065_v1_xml(save_xml):
     """
@@ -9706,7 +9096,6 @@ def test_wild065_wild065_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild065_wild065_n1_xml(save_xml):
     """
@@ -9722,7 +9111,6 @@ def test_wild065_wild065_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild064_wild064_v1_xml(save_xml):
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
@@ -9737,7 +9125,6 @@ def test_wild064_wild064_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.xfail
 def test_wild064_wild064_v2_xml(save_xml):
     """
@@ -9753,7 +9140,6 @@ def test_wild064_wild064_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild064_wild064_n1_xml(save_xml):
     """
@@ -9769,7 +9155,6 @@ def test_wild064_wild064_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild063_wild063_v1_xml(save_xml):
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
@@ -9784,7 +9169,6 @@ def test_wild063_wild063_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild063_wild063_v2_xml(save_xml):
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
@@ -9799,7 +9183,6 @@ def test_wild063_wild063_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild063_wild063_n1_xml(save_xml):
     """
@@ -9815,7 +9198,6 @@ def test_wild063_wild063_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild063_wild063_n2_xml(save_xml):
     """
@@ -9831,7 +9213,6 @@ def test_wild063_wild063_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild062_wild062_v1_xml(save_xml):
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,
@@ -9846,7 +9227,6 @@ def test_wild062_wild062_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild062_wild062_n1_xml(save_xml):
     """
@@ -9862,7 +9242,6 @@ def test_wild062_wild062_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild062_wild062_n2_xml(save_xml):
     """
@@ -9878,7 +9257,6 @@ def test_wild062_wild062_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild062_wild062_n3_xml(save_xml):
     """
@@ -9894,7 +9272,6 @@ def test_wild062_wild062_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild061_wild061_n1_xml(save_xml):
     """
@@ -9910,7 +9287,6 @@ def test_wild061_wild061_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild060_wild060_v1_xml(save_xml):
     """
     Attribute Wildcard union with notQName=##defined Both wildcards
@@ -9925,7 +9301,6 @@ def test_wild060_wild060_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild060_wild060_v2_xml(save_xml):
     """
     Attribute Wildcard union with notQName=##defined Both wildcards
@@ -9940,7 +9315,6 @@ def test_wild060_wild060_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild060_wild060_n2_xml(save_xml):
     """
@@ -9956,7 +9330,6 @@ def test_wild060_wild060_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild059_wild059_v1_xml(save_xml):
     """
     Attribute Wildcard intersection with notQName=##defined One wildcard
@@ -9971,7 +9344,6 @@ def test_wild059_wild059_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild059_wild059_n1_xml(save_xml):
     """
@@ -9987,7 +9359,6 @@ def test_wild059_wild059_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild059_wild059_n2_xml(save_xml):
     """
@@ -10003,7 +9374,6 @@ def test_wild059_wild059_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild058_wild058_v1_xml(save_xml):
     """
     Attribute Wildcard intersection with notQName=##defined Both wildcards
@@ -10018,7 +9388,6 @@ def test_wild058_wild058_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild058_wild058_n1_xml(save_xml):
     """
@@ -10034,7 +9403,6 @@ def test_wild058_wild058_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild058_wild058_n2_xml(save_xml):
     """
@@ -10050,7 +9418,6 @@ def test_wild058_wild058_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild056_wild056_v1_xml(save_xml):
     """
     Attribute Wildcard with notQName=##defined Valid restriction of
@@ -10065,7 +9432,6 @@ def test_wild056_wild056_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild056_wild056_n1_xml(save_xml):
     """
@@ -10081,7 +9447,6 @@ def test_wild056_wild056_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild056_wild056_n2_xml(save_xml):
     """
@@ -10097,7 +9462,6 @@ def test_wild056_wild056_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild056_wild056_n3_xml(save_xml):
     """
@@ -10113,7 +9477,6 @@ def test_wild056_wild056_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild055_wild055_v1_xml(save_xml):
     """
     Attribute Wildcard with notQName=##defined Valid restriction of
@@ -10128,7 +9491,6 @@ def test_wild055_wild055_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild055_wild055_n1_xml(save_xml):
     """
@@ -10144,7 +9506,6 @@ def test_wild055_wild055_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild055_wild055_n2_xml(save_xml):
     """
@@ -10160,7 +9521,6 @@ def test_wild055_wild055_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild055_wild055_n3_xml(save_xml):
     """
@@ -10176,7 +9536,6 @@ def test_wild055_wild055_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild054_wild054_v1_xml(save_xml):
     """
     Attribute Wildcard with notQName=##defined Basic test of ##defined
@@ -10190,7 +9549,6 @@ def test_wild054_wild054_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild054_wild054_v2_xml(save_xml):
     """
     Attribute Wildcard with notQName=##defined Basic test of ##defined
@@ -10204,7 +9562,6 @@ def test_wild054_wild054_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild054_wild054_n1_xml(save_xml):
     """
@@ -10219,7 +9576,6 @@ def test_wild054_wild054_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild054_wild054_n2_xml(save_xml):
     """
@@ -10234,7 +9590,6 @@ def test_wild054_wild054_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild053_wild053_v1_xml(save_xml):
     """
     Element Wildcard with notQName=##defined Basic test of ##defined with
@@ -10249,7 +9604,6 @@ def test_wild053_wild053_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild053_wild053_v2_xml(save_xml):
     """
     Element Wildcard with notQName=##defined Basic test of ##defined with
@@ -10264,7 +9618,6 @@ def test_wild053_wild053_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild053_wild053_n1_xml(save_xml):
     """
@@ -10280,7 +9633,6 @@ def test_wild053_wild053_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild053_wild053_n2_xml(save_xml):
     """
@@ -10296,7 +9648,6 @@ def test_wild053_wild053_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild052_wild052_v1_xml(save_xml):
     """
     Element Wildcard with notQName=##defined Basic test of ##defined
@@ -10310,7 +9661,6 @@ def test_wild052_wild052_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild052_wild052_v2_xml(save_xml):
     """
     Element Wildcard with notQName=##defined Basic test of ##defined
@@ -10324,7 +9674,6 @@ def test_wild052_wild052_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild052_wild052_n1_xml(save_xml):
     """
@@ -10339,7 +9688,6 @@ def test_wild052_wild052_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild052_wild052_n2_xml(save_xml):
     """
@@ -10354,7 +9702,6 @@ def test_wild052_wild052_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild047_wild047_v1_xml(save_xml):
     """
     Element Wildcard union with notQName and notNamespace disallows the
@@ -10369,7 +9716,6 @@ def test_wild047_wild047_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild047_wild047_n1_xml(save_xml):
     """
@@ -10385,7 +9731,6 @@ def test_wild047_wild047_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild046_wild046_v1_xml(save_xml):
     """
     Wildcard union with notQName and notNamespace disallows the
@@ -10400,7 +9745,6 @@ def test_wild046_wild046_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild046_wild046_v2_xml(save_xml):
     """
     Wildcard union with notQName and notNamespace disallows the
@@ -10415,7 +9759,6 @@ def test_wild046_wild046_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild046_wild046_n1_xml(save_xml):
     """
@@ -10431,7 +9774,6 @@ def test_wild046_wild046_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild046_wild046_n2_xml(save_xml):
     """
@@ -10447,7 +9789,6 @@ def test_wild046_wild046_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild045_wild045_v1_xml(save_xml):
     """
     Wildcard union with notQName disallows the intersection of the
@@ -10462,7 +9803,6 @@ def test_wild045_wild045_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild045_wild045_v2_xml(save_xml):
     """
     Wildcard union with notQName disallows the intersection of the
@@ -10477,7 +9817,6 @@ def test_wild045_wild045_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild045_wild045_n1_xml(save_xml):
     """
@@ -10493,7 +9832,6 @@ def test_wild045_wild045_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild045_wild045_n2_xml(save_xml):
     """
@@ -10509,7 +9847,6 @@ def test_wild045_wild045_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild044_wild044_v1_xml(save_xml):
     """
     Wildcard intersection with notQName disallows the union of the
@@ -10524,7 +9861,6 @@ def test_wild044_wild044_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild044_wild044_n1_xml(save_xml):
     """
@@ -10540,7 +9876,6 @@ def test_wild044_wild044_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild044_wild044_n2_xml(save_xml):
     """
@@ -10556,7 +9891,6 @@ def test_wild044_wild044_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild043_wild043_v1_xml(save_xml):
     """
     Wildcard intersection with notQName disallows the union of the
@@ -10571,7 +9905,6 @@ def test_wild043_wild043_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild043_wild043_n1_xml(save_xml):
     """
@@ -10587,7 +9920,6 @@ def test_wild043_wild043_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild043_wild043_n2_xml(save_xml):
     """
@@ -10603,7 +9935,6 @@ def test_wild043_wild043_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild043_wild043_n3_xml(save_xml):
     """
@@ -10619,7 +9950,6 @@ def test_wild043_wild043_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild042_wild042_v1_xml(save_xml):
     """
     xsi attribute wildcards are allowed There's no rule to stop non-
@@ -10634,7 +9964,6 @@ def test_wild042_wild042_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild042_wild042_n1_xml(save_xml):
     """
@@ -10650,7 +9979,6 @@ def test_wild042_wild042_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild040_wild040_v1_xml(save_xml):
     """
     Banning xsi attributes has no effect xsi:type is validated without
@@ -10665,7 +9993,6 @@ def test_wild040_wild040_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild040_wild040_n1_xml(save_xml):
     """
@@ -10681,7 +10008,6 @@ def test_wild040_wild040_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild030_wild030_v1_xml(save_xml):
     """
     Example from the spec: restricting away a child element that overlaps
@@ -10696,7 +10022,6 @@ def test_wild030_wild030_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild030_wild030_v2_xml(save_xml):
     """
     Example from the spec: restricting away a child element that overlaps
@@ -10711,7 +10036,6 @@ def test_wild030_wild030_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild030_wild030_n1_xml(save_xml):
     """
@@ -10727,7 +10051,6 @@ def test_wild030_wild030_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild029_wild029_v1_xml(save_xml):
     """
     Test of xs:any with notQName attribute in an xs:sequence model group
@@ -10742,7 +10065,6 @@ def test_wild029_wild029_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild029_wild029_n1_xml(save_xml):
     """
@@ -10758,7 +10080,6 @@ def test_wild029_wild029_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild029_wild029_n2_xml(save_xml):
     """
@@ -10774,7 +10095,6 @@ def test_wild029_wild029_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild028_wild028_v1_xml(save_xml):
     """
     Basic test of xs:any with notQName attribute Allows any child element
@@ -10789,7 +10109,6 @@ def test_wild028_wild028_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild028_wild028_n1_xml(save_xml):
     """
@@ -10805,7 +10124,6 @@ def test_wild028_wild028_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild028_wild028_n2_xml(save_xml):
     """
@@ -10821,7 +10139,6 @@ def test_wild028_wild028_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild027_wild027_v1_xml(save_xml):
     """
     Basic test of xs:anyAttribute with notQName attribute Allows any
@@ -10836,7 +10153,6 @@ def test_wild027_wild027_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild027_wild027_n1_xml(save_xml):
     """
@@ -10852,7 +10168,6 @@ def test_wild027_wild027_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild027_wild027_n2_xml(save_xml):
     """
@@ -10868,7 +10183,6 @@ def test_wild027_wild027_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild026_wild026_v1_xml(save_xml):
     """
     Wildcard intersection Type allows anything allowed by all the
@@ -10883,7 +10197,6 @@ def test_wild026_wild026_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild026_wild026_n1_xml(save_xml):
     """
@@ -10899,7 +10212,6 @@ def test_wild026_wild026_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild026_wild026_n2_xml(save_xml):
     """
@@ -10915,7 +10227,6 @@ def test_wild026_wild026_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild026_wild026_n3_xml(save_xml):
     """
@@ -10931,7 +10242,6 @@ def test_wild026_wild026_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild026_wild026_n4_xml(save_xml):
     """
@@ -10947,7 +10257,6 @@ def test_wild026_wild026_n4_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild025_wild025_v1_xml(save_xml):
     """
     Wildcard intersection Type allows anything allowed by all the
@@ -10962,7 +10271,6 @@ def test_wild025_wild025_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild025_wild025_n1_xml(save_xml):
     """
@@ -10978,7 +10286,6 @@ def test_wild025_wild025_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild025_wild025_n2_xml(save_xml):
     """
@@ -10994,7 +10301,6 @@ def test_wild025_wild025_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild025_wild025_n3_xml(save_xml):
     """
@@ -11010,7 +10316,6 @@ def test_wild025_wild025_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild025_wild025_n4_xml(save_xml):
     """
@@ -11026,7 +10331,6 @@ def test_wild025_wild025_n4_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild024_wild024_v1_xml(save_xml):
     """
     Wildcard intersection Type allows anything allowed by all the
@@ -11041,7 +10345,6 @@ def test_wild024_wild024_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild024_wild024_v2_xml(save_xml):
     """
     Wildcard intersection Type allows anything allowed by all the
@@ -11056,7 +10359,6 @@ def test_wild024_wild024_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild024_wild024_n1_xml(save_xml):
     """
@@ -11072,7 +10374,6 @@ def test_wild024_wild024_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild023_wild023_v1_xml(save_xml):
     """
     Wildcard intersection Type allows anything allowed by all the
@@ -11087,7 +10388,6 @@ def test_wild023_wild023_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild023_wild023_n1_xml(save_xml):
     """
@@ -11103,7 +10403,6 @@ def test_wild023_wild023_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild023_wild023_n2_xml(save_xml):
     """
@@ -11119,7 +10418,6 @@ def test_wild023_wild023_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild019_wild019_v1_xml(save_xml):
     """
     Valid restriction of wildcards Restricted type disallows more
@@ -11134,7 +10432,6 @@ def test_wild019_wild019_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild019_wild019_n1_xml(save_xml):
     """
@@ -11150,7 +10447,6 @@ def test_wild019_wild019_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild019_wild019_n2_xml(save_xml):
     """
@@ -11166,7 +10462,6 @@ def test_wild019_wild019_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild019_wild019_n3_xml(save_xml):
     """
@@ -11182,7 +10477,6 @@ def test_wild019_wild019_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild018_wild018_v1_xml(save_xml):
     """
     Valid restriction of wildcards Restricted type disallows more
@@ -11197,7 +10491,6 @@ def test_wild018_wild018_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild018_wild018_n1_xml(save_xml):
     """
@@ -11213,7 +10506,6 @@ def test_wild018_wild018_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild018_wild018_n2_xml(save_xml):
     """
@@ -11229,7 +10521,6 @@ def test_wild018_wild018_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild018_wild018_n3_xml(save_xml):
     """
@@ -11245,7 +10536,6 @@ def test_wild018_wild018_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild017_wild017_v1_xml(save_xml):
     """
     Valid restriction of wildcards Restricted type disallows more
@@ -11260,7 +10550,6 @@ def test_wild017_wild017_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild017_wild017_n1_xml(save_xml):
     """
@@ -11276,7 +10565,6 @@ def test_wild017_wild017_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild017_wild017_n2_xml(save_xml):
     """
@@ -11292,7 +10580,6 @@ def test_wild017_wild017_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild017_wild017_n3_xml(save_xml):
     """
@@ -11308,7 +10595,6 @@ def test_wild017_wild017_n3_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild016_wild016_v1_xml(save_xml):
     """
     Union of two wildcards using namespace and notNamespace respectively
@@ -11324,7 +10610,6 @@ def test_wild016_wild016_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild016_wild016_n1_xml(save_xml):
     """
@@ -11341,7 +10626,6 @@ def test_wild016_wild016_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild015_wild015_v1_xml(save_xml):
     """
     Union of two wildcards using namespace and notNamespace respectively
@@ -11356,7 +10640,6 @@ def test_wild015_wild015_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild015_wild015_n1_xml(save_xml):
     """
@@ -11372,7 +10655,6 @@ def test_wild015_wild015_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild014_wild014_v1_xml(save_xml):
     """
     Union of two wildcards using notNamespace The union allows abel but
@@ -11387,7 +10669,6 @@ def test_wild014_wild014_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild014_wild014_n1_xml(save_xml):
     """
@@ -11403,7 +10684,6 @@ def test_wild014_wild014_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild013_wild013_v1_xml(save_xml):
     """
     Union of two wildcards using notNamespace The union allows anything
@@ -11417,7 +10697,6 @@ def test_wild013_wild013_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild012_wild012_v1_xml(save_xml):
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
@@ -11433,7 +10712,6 @@ def test_wild012_wild012_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild012_wild012_v2_xml(save_xml):
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
@@ -11449,7 +10727,6 @@ def test_wild012_wild012_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild012_wild012_n1_xml(save_xml):
     """
@@ -11466,7 +10743,6 @@ def test_wild012_wild012_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild012_wild012_n2_xml(save_xml):
     """
@@ -11483,7 +10759,6 @@ def test_wild012_wild012_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild011_wild011_v1_xml(save_xml):
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
@@ -11499,7 +10774,6 @@ def test_wild011_wild011_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild011_wild011_v2_xml(save_xml):
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
@@ -11515,7 +10789,6 @@ def test_wild011_wild011_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild011_wild011_n1_xml(save_xml):
     """
@@ -11532,7 +10805,6 @@ def test_wild011_wild011_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild011_wild011_n2_xml(save_xml):
     """
@@ -11549,7 +10821,6 @@ def test_wild011_wild011_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild010_wild010_v1_xml(save_xml):
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
@@ -11565,7 +10836,6 @@ def test_wild010_wild010_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild010_wild010_v2_xml(save_xml):
     """
     Test of xs:any with notNamespace = ##targetNamespace in a namespaced
@@ -11581,7 +10851,6 @@ def test_wild010_wild010_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild010_wild010_n1_xml(save_xml):
     """
@@ -11598,7 +10867,6 @@ def test_wild010_wild010_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild010_wild010_n2_xml(save_xml):
     """
@@ -11615,7 +10883,6 @@ def test_wild010_wild010_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild009_wild009_v1_xml(save_xml):
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
@@ -11631,7 +10898,6 @@ def test_wild009_wild009_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild009_wild009_v2_xml(save_xml):
     """
     Test of xs:anyAttribute with notNamespace = ##targetNamespace in a
@@ -11647,7 +10913,6 @@ def test_wild009_wild009_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild009_wild009_n1_xml(save_xml):
     """
@@ -11664,7 +10929,6 @@ def test_wild009_wild009_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild009_wild009_n2_xml(save_xml):
     """
@@ -11681,7 +10945,6 @@ def test_wild009_wild009_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild006_wild006_v1_xml(save_xml):
     """
     Basic test of xs:any with notNamespace = ##targetNamespace in a no-
@@ -11696,7 +10959,6 @@ def test_wild006_wild006_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild006_wild006_v2_xml(save_xml):
     """
     Basic test of xs:any with notNamespace = ##targetNamespace in a no-
@@ -11711,7 +10973,6 @@ def test_wild006_wild006_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild006_wild006_n1_xml(save_xml):
     """
@@ -11727,7 +10988,6 @@ def test_wild006_wild006_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild005_wild005_v1_xml(save_xml):
     """
     Basic test of xs:anyAttribute with notNamespace = ##targetNamespace in
@@ -11743,7 +11003,6 @@ def test_wild005_wild005_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild005_wild005_v2_xml(save_xml):
     """
     Basic test of xs:anyAttribute with notNamespace = ##targetNamespace in
@@ -11759,7 +11018,6 @@ def test_wild005_wild005_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild005_wild005_n1_xml(save_xml):
     """
@@ -11776,7 +11034,6 @@ def test_wild005_wild005_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild004_wild004_v1_xml(save_xml):
     """
     Basic test of xs:any with notNamespace = ##local Allows any child so
@@ -11791,7 +11048,6 @@ def test_wild004_wild004_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild004_wild004_v2_xml(save_xml):
     """
     Basic test of xs:any with notNamespace = ##local Allows any child so
@@ -11806,7 +11062,6 @@ def test_wild004_wild004_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild004_wild004_n1_xml(save_xml):
     """
@@ -11822,7 +11077,6 @@ def test_wild004_wild004_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild003_wild003_v1_xml(save_xml):
     """
     Basic test of xs:anyAttribute with notNamespace = ##local Allows any
@@ -11837,7 +11091,6 @@ def test_wild003_wild003_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild003_wild003_v2_xml(save_xml):
     """
     Basic test of xs:anyAttribute with notNamespace = ##local Allows any
@@ -11852,7 +11105,6 @@ def test_wild003_wild003_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild003_wild003_n1_xml(save_xml):
     """
@@ -11868,7 +11120,6 @@ def test_wild003_wild003_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild002_wild002_v1_xml(save_xml):
     """
     Basic test of xs:anyAttribute with notNamespace attribute Allows any
@@ -11883,7 +11134,6 @@ def test_wild002_wild002_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild002_wild002_v2_xml(save_xml):
     """
     Basic test of xs:anyAttribute with notNamespace attribute Allows any
@@ -11898,7 +11148,6 @@ def test_wild002_wild002_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild002_wild002_n1_xml(save_xml):
     """
@@ -11914,7 +11163,6 @@ def test_wild002_wild002_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild002_wild002_n2_xml(save_xml):
     """
@@ -11930,7 +11178,6 @@ def test_wild002_wild002_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild001_wild001_v1_xml(save_xml):
     """
     Basic test of xs:anyAttribute with notNamespace attribute Allows any
@@ -11945,7 +11192,6 @@ def test_wild001_wild001_v1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_wild001_wild001_v2_xml(save_xml):
     """
     Basic test of xs:anyAttribute with notNamespace attribute Allows any
@@ -11960,7 +11206,6 @@ def test_wild001_wild001_v2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild001_wild001_n1_xml(save_xml):
     """
@@ -11976,7 +11221,6 @@ def test_wild001_wild001_n1_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_wild001_wild001_n2_xml(save_xml):
     """
@@ -11992,7 +11236,6 @@ def test_wild001_wild001_n2_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_xv100notc_xv100notc_i_xml(save_xml):
     r"""
@@ -12008,7 +11251,6 @@ def test_xv100notc_xv100notc_i_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_xv100notc_xv100notc_c_xml(save_xml):
     r"""
@@ -12024,7 +11266,6 @@ def test_xv100notc_xv100notc_c_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_xv100notc_xv100notc_noti_xml(save_xml):
     r"""
@@ -12040,7 +11281,6 @@ def test_xv100notc_xv100notc_noti_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_xv100notc_xv100notc_notc_xml(save_xml):
     r"""
     Test which characters match \C in a regex Name characters in XML 1.1
@@ -12055,7 +11295,6 @@ def test_xv100notc_xv100notc_notc_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_xv100noti_xv100noti_i_xml(save_xml):
     r"""
@@ -12071,7 +11310,6 @@ def test_xv100noti_xv100noti_i_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_xv100noti_xv100noti_c_xml(save_xml):
     r"""
@@ -12087,7 +11325,6 @@ def test_xv100noti_xv100noti_c_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_xv100noti_xv100noti_noti_xml(save_xml):
     r"""
     Test which characters match \I in a regex Name characters in XML 1.1
@@ -12102,7 +11339,6 @@ def test_xv100noti_xv100noti_noti_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_xv100noti_xv100noti_notc_xml(save_xml):
     r"""
     Test which characters match \I in a regex Name characters in XML 1.1
@@ -12117,7 +11353,6 @@ def test_xv100noti_xv100noti_notc_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_xv100c_xv100c_i_xml(save_xml):
     r"""
     Test which characters match \c in a regex Name characters in XML 1.1
@@ -12132,7 +11367,6 @@ def test_xv100c_xv100c_i_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_xv100c_xv100c_c_xml(save_xml):
     r"""
     Test which characters match \c in a regex Name characters in XML 1.1
@@ -12147,7 +11381,6 @@ def test_xv100c_xv100c_c_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_xv100c_xv100c_noti_xml(save_xml):
     r"""
@@ -12163,7 +11396,6 @@ def test_xv100c_xv100c_noti_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_xv100c_xv100c_notc_xml(save_xml):
     r"""
@@ -12179,7 +11411,6 @@ def test_xv100c_xv100c_notc_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_xv100i_xv100i_i_xml(save_xml):
     r"""
     Test which characters match \i in a regex Name characters in XML 1.1
@@ -12194,7 +11425,6 @@ def test_xv100i_xv100i_i_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_xv100i_xv100i_c_xml(save_xml):
     r"""
@@ -12210,7 +11440,6 @@ def test_xv100i_xv100i_c_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_xv100i_xv100i_noti_xml(save_xml):
     r"""
@@ -12226,7 +11455,6 @@ def test_xv100i_xv100i_noti_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_xv100i_xv100i_notc_xml(save_xml):
     r"""
@@ -12242,7 +11470,6 @@ def test_xv100i_xv100i_notc_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_xv009_xv009_v01_xml(save_xml):
     """
     Test interpretation of NMTOKENS under XML 1.1 Name characters in XML
@@ -12257,7 +11484,6 @@ def test_xv009_xv009_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_xv009_xv009_v02_xml(save_xml):
     """
     Test interpretation of NMTOKENS under XML 1.1 Name characters in XML
@@ -12272,7 +11498,6 @@ def test_xv009_xv009_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_xv009_xv009_n01_xml(save_xml):
     """
@@ -12288,7 +11513,6 @@ def test_xv009_xv009_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_xv009_xv009_n02_xml(save_xml):
     """
@@ -12304,7 +11528,6 @@ def test_xv009_xv009_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_xv009_xv009_n03_xml(save_xml):
     """
@@ -12320,7 +11543,6 @@ def test_xv009_xv009_n03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_xv008_xv008_v01_xml(save_xml):
     r"""
     Test which characters match \C in a regex Name characters in XML 1.1
@@ -12335,7 +11557,6 @@ def test_xv008_xv008_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_xv008_xv008_n01_xml(save_xml):
     r"""
@@ -12351,7 +11572,6 @@ def test_xv008_xv008_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_xv008_xv008_n02_xml(save_xml):
     r"""
@@ -12367,7 +11587,6 @@ def test_xv008_xv008_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_xv007_xv007_v01_xml(save_xml):
     r"""
     Test which characters match \c in a regex Name characters in XML 1.1
@@ -12382,7 +11601,6 @@ def test_xv007_xv007_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_xv007_xv007_n01_xml(save_xml):
     r"""
@@ -12398,7 +11616,6 @@ def test_xv007_xv007_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_xv007_xv007_n02_xml(save_xml):
     r"""
@@ -12414,7 +11631,6 @@ def test_xv007_xv007_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_xv006_xv006_v01_xml(save_xml):
     r"""
     Test which characters match \I in a regex Initial name characters in
@@ -12429,7 +11645,6 @@ def test_xv006_xv006_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_xv006_xv006_n01_xml(save_xml):
     r"""
@@ -12445,7 +11660,6 @@ def test_xv006_xv006_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_xv006_xv006_n02_xml(save_xml):
     r"""
@@ -12461,7 +11675,6 @@ def test_xv006_xv006_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_xv006_xv006_n03_xml(save_xml):
     r"""
@@ -12477,7 +11690,6 @@ def test_xv006_xv006_n03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_xv005_xv005_v01_xml(save_xml):
     r"""
     Test which characters match \i in a regex Initial name characters in
@@ -12492,7 +11704,6 @@ def test_xv005_xv005_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_xv005_xv005_n01_xml(save_xml):
     r"""
@@ -12508,7 +11719,6 @@ def test_xv005_xv005_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_xv005_xv005_n02_xml(save_xml):
     r"""
@@ -12524,7 +11734,6 @@ def test_xv005_xv005_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_xv004_xv004_v01_xml(save_xml):
     """
     Use newly-allowed name characters in schema component names Non-BMP
@@ -12539,7 +11748,6 @@ def test_xv004_xv004_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_xv003_xv003_v01_xml(save_xml):
     """
     Use newly-allowed C0 characters in character content and in attribute
@@ -12554,7 +11762,6 @@ def test_xv003_xv003_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_xv002_xv002_v01_xml(save_xml):
     """
     Use newly-allowed name characters in NCName value Dutch ligature ij is
@@ -12569,7 +11776,6 @@ def test_xv002_xv002_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.xfail
 def test_xv001_xv001_v01_xml(save_xml):
     """
@@ -12586,7 +11792,6 @@ def test_xv001_xv001_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone304_zone304_v01_xml(save_xml):
     """
     Test xs:yearMonthDuration min/max rules For example, P1Y is equal to
@@ -12601,7 +11806,6 @@ def test_zone304_zone304_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone304_zone304_v02_xml(save_xml):
     """
     Test xs:yearMonthDuration min/max rules For example, P1Y is equal to
@@ -12616,7 +11820,6 @@ def test_zone304_zone304_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone304_zone304_v03_xml(save_xml):
     """
     Test xs:yearMonthDuration min/max rules For example, P1Y is equal to
@@ -12631,7 +11834,6 @@ def test_zone304_zone304_v03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone304_zone304_n01_xml(save_xml):
     """
@@ -12647,7 +11849,6 @@ def test_zone304_zone304_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone304_zone304_n02_xml(save_xml):
     """
@@ -12663,7 +11864,6 @@ def test_zone304_zone304_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone303_zone303_v01_xml(save_xml):
     """
     Test xs:dayTimeDuration min/max rules For example, P1Y is equal to
@@ -12678,7 +11878,6 @@ def test_zone303_zone303_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone303_zone303_v02_xml(save_xml):
     """
     Test xs:dayTimeDuration min/max rules For example, P1Y is equal to
@@ -12693,7 +11892,6 @@ def test_zone303_zone303_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone303_zone303_v03_xml(save_xml):
     """
     Test xs:dayTimeDuration min/max rules For example, P1Y is equal to
@@ -12708,7 +11906,6 @@ def test_zone303_zone303_v03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone303_zone303_n01_xml(save_xml):
     """
@@ -12724,7 +11921,6 @@ def test_zone303_zone303_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone303_zone303_n02_xml(save_xml):
     """
@@ -12740,7 +11936,6 @@ def test_zone303_zone303_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone302_zone302_v01_xml(save_xml):
     """
     Test xs:yearMonthDuration including equality rules For example, P1Y is
@@ -12755,7 +11950,6 @@ def test_zone302_zone302_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone302_zone302_n01_xml(save_xml):
     """
@@ -12771,7 +11965,6 @@ def test_zone302_zone302_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone301_zone301_v01_xml(save_xml):
     """
     Test xs:dayTimeDuration including equality rules For example, P1D is
@@ -12786,7 +11979,6 @@ def test_zone301_zone301_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone301_zone301_n01_xml(save_xml):
     """
@@ -12802,7 +11994,6 @@ def test_zone301_zone301_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone206_zone206_v01_xml(save_xml):
     """
     Test equality of xs:time values appearing in integrity constraints For
@@ -12817,7 +12008,6 @@ def test_zone206_zone206_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone206_zone206_v02_xml(save_xml):
     """
     Test equality of xs:time values appearing in integrity constraints For
@@ -12832,7 +12022,6 @@ def test_zone206_zone206_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone206_zone206_n01_xml(save_xml):
     """
@@ -12848,7 +12037,6 @@ def test_zone206_zone206_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone206_zone206_n02_xml(save_xml):
     """
@@ -12864,7 +12052,6 @@ def test_zone206_zone206_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone205_zone205_v01_xml(save_xml):
     """
     Test equality of xs:dateTime values appearing in an enumeration For
@@ -12879,7 +12066,6 @@ def test_zone205_zone205_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone205_zone205_v02_xml(save_xml):
     """
     Test equality of xs:dateTime values appearing in an enumeration For
@@ -12894,7 +12080,6 @@ def test_zone205_zone205_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone205_zone205_v03_xml(save_xml):
     """
     Test equality of xs:dateTime values appearing in an enumeration For
@@ -12909,7 +12094,6 @@ def test_zone205_zone205_v03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone205_zone205_n01_xml(save_xml):
     """
@@ -12925,7 +12109,6 @@ def test_zone205_zone205_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone205_zone205_n02_xml(save_xml):
     """
@@ -12941,7 +12124,6 @@ def test_zone205_zone205_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone204_zone204_n01_xml(save_xml):
     """
@@ -12957,7 +12139,6 @@ def test_zone204_zone204_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone203_zone203_v01_xml(save_xml):
     """
     Test leap years in proleptic Gregorian calendar 0, -4, ... are a leap
@@ -12972,7 +12153,6 @@ def test_zone203_zone203_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone203_zone203_v02_xml(save_xml):
     """
     Test leap years in proleptic Gregorian calendar 0, -4, ... are a leap
@@ -12987,7 +12167,6 @@ def test_zone203_zone203_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone203_zone203_v03_xml(save_xml):
     """
     Test leap years in proleptic Gregorian calendar 0, -4, ... are a leap
@@ -13002,7 +12181,6 @@ def test_zone203_zone203_v03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone203_zone203_n01_xml(save_xml):
     """
@@ -13018,7 +12196,6 @@ def test_zone203_zone203_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone203_zone203_n02_xml(save_xml):
     """
@@ -13034,7 +12211,6 @@ def test_zone203_zone203_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone202_zone202_v01_xml(save_xml):
     """
     Test year zero allowed in type xs:gYearMonth use year zero in
@@ -13049,7 +12225,6 @@ def test_zone202_zone202_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone202_zone202_v02_xml(save_xml):
     """
     Test year zero allowed in type xs:gYearMonth use year zero in
@@ -13064,7 +12239,6 @@ def test_zone202_zone202_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone202_zone202_v03_xml(save_xml):
     """
     Test year zero allowed in type xs:gYearMonth use year zero in
@@ -13079,7 +12253,6 @@ def test_zone202_zone202_v03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone202_zone202_n01_xml(save_xml):
     """
@@ -13095,7 +12268,6 @@ def test_zone202_zone202_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone202_zone202_n02_xml(save_xml):
     """
@@ -13111,7 +12283,6 @@ def test_zone202_zone202_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone202_zone202_n03_xml(save_xml):
     """
@@ -13127,7 +12298,6 @@ def test_zone202_zone202_n03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone201_zone201_v01_xml(save_xml):
     """
     Test year zero allowed in type xs:dateTimeStamp use year zero in
@@ -13142,7 +12312,6 @@ def test_zone201_zone201_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone201_zone201_v02_xml(save_xml):
     """
     Test year zero allowed in type xs:dateTimeStamp use year zero in
@@ -13157,7 +12326,6 @@ def test_zone201_zone201_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone201_zone201_n01_xml(save_xml):
     """
@@ -13173,7 +12341,6 @@ def test_zone201_zone201_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone102_zone102_v01_xml(save_xml):
     """
     Test built-in type xs:dateTimeStamp restriction from xs:dateTimeStamp
@@ -13187,7 +12354,6 @@ def test_zone102_zone102_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone102_zone102_v02_xml(save_xml):
     """
     Test built-in type xs:dateTimeStamp restriction from xs:dateTimeStamp
@@ -13201,7 +12367,6 @@ def test_zone102_zone102_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone102_zone102_n01_xml(save_xml):
     """
@@ -13216,7 +12381,6 @@ def test_zone102_zone102_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone102_zone102_n02_xml(save_xml):
     """
@@ -13231,7 +12395,6 @@ def test_zone102_zone102_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone101_zone101_v01_xml(save_xml):
     """
     Test built-in type xs:dateTimeStamp A dateTime value with a required
@@ -13246,7 +12409,6 @@ def test_zone101_zone101_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone101_zone101_v02_xml(save_xml):
     """
     Test built-in type xs:dateTimeStamp A dateTime value with a required
@@ -13261,7 +12423,6 @@ def test_zone101_zone101_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone101_zone101_n01_xml(save_xml):
     """
@@ -13277,7 +12438,6 @@ def test_zone101_zone101_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone003_zone003_v01_xml(save_xml):
     """
     Test timezone facet with value="optional" Allows an xs:time value
@@ -13292,7 +12452,6 @@ def test_zone003_zone003_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone003_zone003_v02_xml(save_xml):
     """
     Test timezone facet with value="optional" Allows an xs:time value
@@ -13307,7 +12466,6 @@ def test_zone003_zone003_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone003_zone003_v03_xml(save_xml):
     """
     Test timezone facet with value="optional" Allows an xs:time value
@@ -13322,7 +12480,6 @@ def test_zone003_zone003_v03_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone002_zone002_n01_xml(save_xml):
     """
@@ -13338,7 +12495,6 @@ def test_zone002_zone002_n01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone002_zone002_n02_xml(save_xml):
     """
@@ -13354,7 +12510,6 @@ def test_zone002_zone002_n02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone002_zone002_v01_xml(save_xml):
     """
     Test timezone facet with value="prohibited" Allows an xs:time value
@@ -13369,7 +12524,6 @@ def test_zone002_zone002_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone001_zone001_v01_xml(save_xml):
     """
     Test timezone facet with value="required" Allows an xs:time value
@@ -13384,7 +12538,6 @@ def test_zone001_zone001_v01_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_zone001_zone001_v02_xml(save_xml):
     """
     Test timezone facet with value="required" Allows an xs:time value
@@ -13399,7 +12552,6 @@ def test_zone001_zone001_v02_xml(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_zone001_zone001_n01_xml(save_xml):
     """

@@ -1,9 +1,6 @@
-import pytest
-
 from tests.utils import assert_bindings
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_introspection_1(save_xml):
 
     assert_bindings(
@@ -15,7 +12,6 @@ def test_introspection_introspect_test_set_introspection_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_nist2004_01_14_2(save_xml):
 
     assert_bindings(
@@ -27,7 +23,6 @@ def test_introspection_introspect_test_set_nist2004_01_14_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_suntest_3(save_xml):
 
     assert_bindings(
@@ -39,7 +34,6 @@ def test_introspection_introspect_test_set_suntest_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_agroup_def_4(save_xml):
 
     assert_bindings(
@@ -51,7 +45,6 @@ def test_introspection_introspect_test_set_agroup_def_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_attr_decl_5(save_xml):
 
     assert_bindings(
@@ -63,7 +56,6 @@ def test_introspection_introspect_test_set_attr_decl_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_attr_use_6(save_xml):
 
     assert_bindings(
@@ -75,7 +67,6 @@ def test_introspection_introspect_test_set_attr_use_6(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_ctype_7(save_xml):
 
     assert_bindings(
@@ -87,7 +78,6 @@ def test_introspection_introspect_test_set_ctype_7(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_elem_decl_8(save_xml):
 
     assert_bindings(
@@ -99,7 +89,6 @@ def test_introspection_introspect_test_set_elem_decl_8(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_id_constr_defs_9(save_xml):
 
     assert_bindings(
@@ -111,7 +100,6 @@ def test_introspection_introspect_test_set_id_constr_defs_9(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_mgroup_10(save_xml):
 
     assert_bindings(
@@ -123,7 +111,6 @@ def test_introspection_introspect_test_set_mgroup_10(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_mgroup_def_11(save_xml):
 
     assert_bindings(
@@ -135,7 +122,6 @@ def test_introspection_introspect_test_set_mgroup_def_11(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_notation_12(save_xml):
 
     assert_bindings(
@@ -147,7 +133,6 @@ def test_introspection_introspect_test_set_notation_12(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_stype_13(save_xml):
 
     assert_bindings(
@@ -159,7 +144,6 @@ def test_introspection_introspect_test_set_stype_13(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_schema_14(save_xml):
 
     assert_bindings(
@@ -171,7 +155,6 @@ def test_introspection_introspect_test_set_schema_14(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_wildcard_15(save_xml):
 
     assert_bindings(
@@ -183,7 +166,6 @@ def test_introspection_introspect_test_set_wildcard_15(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_ms_additional2006_07_15_16(save_xml):
 
     assert_bindings(
@@ -195,7 +177,6 @@ def test_introspection_introspect_test_set_ms_additional2006_07_15_16(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_ms_annotations2006_07_15_17(save_xml):
 
     assert_bindings(
@@ -207,7 +188,6 @@ def test_introspection_introspect_test_set_ms_annotations2006_07_15_17(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_ms_attribute_group2006_07_15_18(save_xml):
 
     assert_bindings(
@@ -219,7 +199,6 @@ def test_introspection_introspect_test_set_ms_attribute_group2006_07_15_18(save_
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_ms_attribute2006_07_15_19(save_xml):
 
     assert_bindings(
@@ -231,7 +210,6 @@ def test_introspection_introspect_test_set_ms_attribute2006_07_15_19(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_ms_complex_type2006_07_15_20(save_xml):
 
     assert_bindings(
@@ -243,7 +221,6 @@ def test_introspection_introspect_test_set_ms_complex_type2006_07_15_20(save_xml
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_ms_data_types2006_07_15_21(save_xml):
 
     assert_bindings(
@@ -255,7 +232,6 @@ def test_introspection_introspect_test_set_ms_data_types2006_07_15_21(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_ms_element2006_07_15_22(save_xml):
 
     assert_bindings(
@@ -267,7 +243,6 @@ def test_introspection_introspect_test_set_ms_element2006_07_15_22(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_ms_errata102006_07_15_23(save_xml):
 
     assert_bindings(
@@ -279,7 +254,6 @@ def test_introspection_introspect_test_set_ms_errata102006_07_15_23(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_ms_group2006_07_15_24(save_xml):
 
     assert_bindings(
@@ -291,7 +265,6 @@ def test_introspection_introspect_test_set_ms_group2006_07_15_24(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_ms_identity_constraint2006_07_15_25(save_xml):
 
     assert_bindings(
@@ -303,7 +276,6 @@ def test_introspection_introspect_test_set_ms_identity_constraint2006_07_15_25(s
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_ms_model_groups2006_07_15_26(save_xml):
 
     assert_bindings(
@@ -315,7 +287,6 @@ def test_introspection_introspect_test_set_ms_model_groups2006_07_15_26(save_xml
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_ms_notations2006_07_15_27(save_xml):
 
     assert_bindings(
@@ -327,7 +298,6 @@ def test_introspection_introspect_test_set_ms_notations2006_07_15_27(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_ms_particles2006_07_15_28(save_xml):
 
     assert_bindings(
@@ -339,7 +309,6 @@ def test_introspection_introspect_test_set_ms_particles2006_07_15_28(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_ms_regex2006_07_15_29(save_xml):
 
     assert_bindings(
@@ -351,7 +320,6 @@ def test_introspection_introspect_test_set_ms_regex2006_07_15_29(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_ms_schema2006_07_15_30(save_xml):
 
     assert_bindings(
@@ -363,7 +331,6 @@ def test_introspection_introspect_test_set_ms_schema2006_07_15_30(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_ms_simple_type2006_07_15_31(save_xml):
 
     assert_bindings(
@@ -375,7 +342,6 @@ def test_introspection_introspect_test_set_ms_simple_type2006_07_15_31(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_ms_wildcards2006_07_15_32(save_xml):
 
     assert_bindings(
@@ -387,7 +353,6 @@ def test_introspection_introspect_test_set_ms_wildcards2006_07_15_32(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_boeing_xsdtest_cases_33(save_xml):
 
     assert_bindings(
@@ -399,7 +364,6 @@ def test_introspection_introspect_test_set_boeing_xsdtest_cases_33(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_all_34(save_xml):
 
     assert_bindings(
@@ -411,7 +375,6 @@ def test_introspection_introspect_test_set_all_34(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_assert_35(save_xml):
 
     assert_bindings(
@@ -423,7 +386,6 @@ def test_introspection_introspect_test_set_assert_35(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_complex_36(save_xml):
 
     assert_bindings(
@@ -435,7 +397,6 @@ def test_introspection_introspect_test_set_complex_36(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_cta_37(save_xml):
 
     assert_bindings(
@@ -447,7 +408,6 @@ def test_introspection_introspect_test_set_cta_37(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_id_38(save_xml):
 
     assert_bindings(
@@ -459,7 +419,6 @@ def test_introspection_introspect_test_set_id_38(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_open_39(save_xml):
 
     assert_bindings(
@@ -471,7 +430,6 @@ def test_introspection_introspect_test_set_open_39(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_override_40(save_xml):
 
     assert_bindings(
@@ -483,7 +441,6 @@ def test_introspection_introspect_test_set_override_40(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_simple_41(save_xml):
 
     assert_bindings(
@@ -495,7 +452,6 @@ def test_introspection_introspect_test_set_simple_41(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_subsgroup_42(save_xml):
 
     assert_bindings(
@@ -507,7 +463,6 @@ def test_introspection_introspect_test_set_subsgroup_42(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_target_ns_43(save_xml):
 
     assert_bindings(
@@ -519,7 +474,6 @@ def test_introspection_introspect_test_set_target_ns_43(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_vc_44(save_xml):
 
     assert_bindings(
@@ -531,7 +485,6 @@ def test_introspection_introspect_test_set_vc_44(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_wild_45(save_xml):
 
     assert_bindings(
@@ -543,7 +496,6 @@ def test_introspection_introspect_test_set_wild_45(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_xml_versions_46(save_xml):
 
     assert_bindings(
@@ -555,7 +507,6 @@ def test_introspection_introspect_test_set_xml_versions_46(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_zone_47(save_xml):
 
     assert_bindings(
@@ -567,7 +518,6 @@ def test_introspection_introspect_test_set_zone_47(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_zone_48(save_xml):
 
     assert_bindings(
@@ -579,7 +529,6 @@ def test_introspection_introspect_test_set_zone_48(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_substitution_groups_49(save_xml):
 
     assert_bindings(
@@ -591,7 +540,6 @@ def test_introspection_introspect_test_set_substitution_groups_49(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_all_group_50(save_xml):
 
     assert_bindings(
@@ -603,7 +551,6 @@ def test_introspection_introspect_test_set_all_group_50(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_any_attribute_51(save_xml):
 
     assert_bindings(
@@ -615,7 +562,6 @@ def test_introspection_introspect_test_set_any_attribute_51(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_assert_52(save_xml):
 
     assert_bindings(
@@ -627,7 +573,6 @@ def test_introspection_introspect_test_set_assert_52(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_assertion_53(save_xml):
 
     assert_bindings(
@@ -639,7 +584,6 @@ def test_introspection_introspect_test_set_assertion_53(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_conditional_inclusion_54(save_xml):
 
     assert_bindings(
@@ -651,7 +595,6 @@ def test_introspection_introspect_test_set_conditional_inclusion_54(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_constraints_on_attribute_55(save_xml):
 
     assert_bindings(
@@ -663,7 +606,6 @@ def test_introspection_introspect_test_set_constraints_on_attribute_55(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_cyclic_dependencies_redefine_include_import_override_56(save_xml):
 
     assert_bindings(
@@ -675,7 +617,6 @@ def test_introspection_introspect_test_set_cyclic_dependencies_redefine_include_
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_date_57(save_xml):
 
     assert_bindings(
@@ -687,7 +628,6 @@ def test_introspection_introspect_test_set_date_57(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_date_time_stamp_58(save_xml):
 
     assert_bindings(
@@ -699,7 +639,6 @@ def test_introspection_introspect_test_set_date_time_stamp_58(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_day_time_duration_59(save_xml):
 
     assert_bindings(
@@ -711,7 +650,6 @@ def test_introspection_introspect_test_set_day_time_duration_59(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_default_attributes_apply_60(save_xml):
 
     assert_bindings(
@@ -723,7 +661,6 @@ def test_introspection_introspect_test_set_default_attributes_apply_60(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_default_fixed_61(save_xml):
 
     assert_bindings(
@@ -735,7 +672,6 @@ def test_introspection_introspect_test_set_default_fixed_61(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_double_62(save_xml):
 
     assert_bindings(
@@ -747,7 +683,6 @@ def test_introspection_introspect_test_set_double_62(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_edcwildcard_63(save_xml):
 
     assert_bindings(
@@ -759,7 +694,6 @@ def test_introspection_introspect_test_set_edcwildcard_63(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_explicit_timezone_64(save_xml):
 
     assert_bindings(
@@ -771,7 +705,6 @@ def test_introspection_introspect_test_set_explicit_timezone_64(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_float_65(save_xml):
 
     assert_bindings(
@@ -783,7 +716,6 @@ def test_introspection_introspect_test_set_float_65(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_g_year_month_66(save_xml):
 
     assert_bindings(
@@ -795,7 +727,6 @@ def test_introspection_introspect_test_set_g_year_month_66(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_g_year_67(save_xml):
 
     assert_bindings(
@@ -807,7 +738,6 @@ def test_introspection_introspect_test_set_g_year_67(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_g_month_day_68(save_xml):
 
     assert_bindings(
@@ -819,7 +749,6 @@ def test_introspection_introspect_test_set_g_month_day_68(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_g_day_69(save_xml):
 
     assert_bindings(
@@ -831,7 +760,6 @@ def test_introspection_introspect_test_set_g_day_69(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_g_month_70(save_xml):
 
     assert_bindings(
@@ -843,7 +771,6 @@ def test_introspection_introspect_test_set_g_month_70(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_id_idref_71(save_xml):
 
     assert_bindings(
@@ -855,7 +782,6 @@ def test_introspection_introspect_test_set_id_idref_71(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_identity_constraint_72(save_xml):
 
     assert_bindings(
@@ -867,7 +793,6 @@ def test_introspection_introspect_test_set_identity_constraint_72(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_list_73(save_xml):
 
     assert_bindings(
@@ -879,7 +804,6 @@ def test_introspection_introspect_test_set_list_73(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_popen_content_74(save_xml):
 
     assert_bindings(
@@ -891,7 +815,6 @@ def test_introspection_introspect_test_set_popen_content_74(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_regular_expression_75(save_xml):
 
     assert_bindings(
@@ -903,7 +826,6 @@ def test_introspection_introspect_test_set_regular_expression_75(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_restriction_of_complex_types_76(save_xml):
 
     assert_bindings(
@@ -915,7 +837,6 @@ def test_introspection_introspect_test_set_restriction_of_complex_types_76(save_
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_rf_white_space_77(save_xml):
 
     assert_bindings(
@@ -927,7 +848,6 @@ def test_introspection_introspect_test_set_rf_white_space_77(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_substitution_group_78(save_xml):
 
     assert_bindings(
@@ -939,7 +859,6 @@ def test_introspection_introspect_test_set_substitution_group_78(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_target_ns_79(save_xml):
 
     assert_bindings(
@@ -951,7 +870,6 @@ def test_introspection_introspect_test_set_target_ns_79(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_time_80(save_xml):
 
     assert_bindings(
@@ -963,7 +881,6 @@ def test_introspection_introspect_test_set_time_80(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_type_alternative_tests_81(save_xml):
 
     assert_bindings(
@@ -975,7 +892,6 @@ def test_introspection_introspect_test_set_type_alternative_tests_81(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_cta_82(save_xml):
 
     assert_bindings(
@@ -987,7 +903,6 @@ def test_introspection_introspect_test_set_cta_82(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_union_83(save_xml):
 
     assert_bindings(
@@ -999,7 +914,6 @@ def test_introspection_introspect_test_set_union_83(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_units_length_84(save_xml):
 
     assert_bindings(
@@ -1011,7 +925,6 @@ def test_introspection_introspect_test_set_units_length_84(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_unsigned_integers_85(save_xml):
 
     assert_bindings(
@@ -1023,7 +936,6 @@ def test_introspection_introspect_test_set_unsigned_integers_85(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_vc_86(save_xml):
 
     assert_bindings(
@@ -1035,7 +947,6 @@ def test_introspection_introspect_test_set_vc_86(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_wildcard_87(save_xml):
 
     assert_bindings(
@@ -1047,7 +958,6 @@ def test_introspection_introspect_test_set_wildcard_87(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_xml11_support_88(save_xml):
 
     assert_bindings(
@@ -1059,7 +969,6 @@ def test_introspection_introspect_test_set_xml11_support_88(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_xpath_default_nson_key_key_ref_unique_89(save_xml):
 
     assert_bindings(
@@ -1071,7 +980,6 @@ def test_introspection_introspect_test_set_xpath_default_nson_key_key_ref_unique
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_xsimport_reference_90(save_xml):
 
     assert_bindings(
@@ -1083,7 +991,6 @@ def test_introspection_introspect_test_set_xsimport_reference_90(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_introspection_introspect_test_set_year_month_duration_91(save_xml):
 
     assert_bindings(

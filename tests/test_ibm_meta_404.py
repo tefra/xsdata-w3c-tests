@@ -3,7 +3,6 @@ import pytest
 from tests.utils import assert_bindings
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_6ii03_s3_3_6ii03i(save_xml):
     """
@@ -18,7 +17,6 @@ def test_s3_3_6ii03_s3_3_6ii03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_6ii02_s3_3_6ii02i(save_xml):
     """
@@ -33,7 +31,6 @@ def test_s3_3_6ii02_s3_3_6ii02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_6ii01_s3_3_6ii01i(save_xml):
     """
@@ -48,7 +45,6 @@ def test_s3_3_6ii01_s3_3_6ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_6v05_s3_3_6v05i(save_xml):
     """
     Tests maxOccurs > 1 for elements within all group
@@ -62,7 +58,6 @@ def test_s3_3_6v05_s3_3_6v05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_6v04_s3_3_6v04i(save_xml):
     """
     Tests restriction of all group
@@ -76,7 +71,6 @@ def test_s3_3_6v04_s3_3_6v04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_6v01_s3_3_6v01i(save_xml):
     """
     Wildcards are now allowed in xs:all
@@ -90,7 +84,6 @@ def test_s3_3_6v01_s3_3_6v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_6ii04_s3_10_6v04i(save_xml):
     """
@@ -105,7 +98,6 @@ def test_s3_10_6ii04_s3_10_6v04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_6ii03_s3_10_6v03i(save_xml):
     """
@@ -120,7 +112,6 @@ def test_s3_10_6ii03_s3_10_6v03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_6ii02_s3_10_6v02i(save_xml):
     """
@@ -135,7 +126,6 @@ def test_s3_10_6ii02_s3_10_6v02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_6ii01_s3_10_6v01i(save_xml):
     """
@@ -150,7 +140,6 @@ def test_s3_10_6ii01_s3_10_6v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_10_6v03_s3_10_6v03i(save_xml):
     """
     Tests namespace attribute on xs:anyAttribute
@@ -164,7 +153,6 @@ def test_s3_10_6v03_s3_10_6v03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_10_6v02_s3_10_6v02i(save_xml):
     """
     Tests namespace attribute on xs:anyAttribute
@@ -178,7 +166,6 @@ def test_s3_10_6v02_s3_10_6v02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_10_6v01_s3_10_6v01i(save_xml):
     """
     Tests notQName on xs:anyAttribute
@@ -192,7 +179,6 @@ def test_s3_10_6v01_s3_10_6v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_035_assert_035_2(save_xml):
     """
     An example demonstrating constraining the cardinality of schema
@@ -207,7 +193,6 @@ def test_assert_035_assert_035_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert_035_assert_035_3(save_xml):
     """
@@ -223,7 +208,6 @@ def test_assert_035_assert_035_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert_034_assert_034_3(save_xml):
     """
@@ -240,7 +224,6 @@ def test_assert_034_assert_034_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_033_assert_033_2(save_xml):
     """
     Demonstrating assertions on memberTypes of xs:union.
@@ -254,7 +237,6 @@ def test_assert_033_assert_033_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_032_assert_032_2(save_xml):
     """
     This is similar to example "assert_031", but here both of memberTypes
@@ -269,7 +251,6 @@ def test_assert_032_assert_032_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert_032_assert_032_3(save_xml):
     """
@@ -285,7 +266,6 @@ def test_assert_032_assert_032_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_031_assert_031_2(save_xml):
     """
     An example demonstrating XSD 1.1 assertions evaluation on a simple
@@ -301,7 +281,6 @@ def test_assert_031_assert_031_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert_031_assert_031_3(save_xml):
     """
@@ -318,7 +297,6 @@ def test_assert_031_assert_031_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_031_assert_031_4(save_xml):
     """
     An example demonstrating XSD 1.1 assertions evaluation on a simple
@@ -334,7 +312,6 @@ def test_assert_031_assert_031_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert_031_assert_031_5(save_xml):
     """
@@ -351,7 +328,6 @@ def test_assert_031_assert_031_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_030_assert_030_2(save_xml):
     """
     An example demonstrating XSD 1.1 assertions defined on itemType
@@ -369,7 +345,6 @@ def test_assert_030_assert_030_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert_030_assert_030_3(save_xml):
     """
@@ -388,7 +363,6 @@ def test_assert_030_assert_030_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_029_assert_029_2(save_xml):
     """
     An example demonstrating XSD 1.1 assertions evaluation, where XML
@@ -408,7 +382,6 @@ def test_assert_029_assert_029_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert_029_assert_029_3(save_xml):
     """
@@ -429,7 +402,6 @@ def test_assert_029_assert_029_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_028_assert_028_2(save_xml):
     """
     An example demonstrating XSD 1.1 assertions evaluation, where an
@@ -444,7 +416,6 @@ def test_assert_028_assert_028_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_027_assert_027_2(save_xml):
     """
     An example demonstrating XSD 1.1 assertions evaluation when XML
@@ -460,7 +431,6 @@ def test_assert_027_assert_027_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_026_assert_026_2(save_xml):
     """
     An example demonstrating XSD 1.1 assertions evaluation when outermost
@@ -476,7 +446,6 @@ def test_assert_026_assert_026_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_025_assert_025_2(save_xml):
     """
     An example demonstrating XSD 1.1 assertions evaluation using xs:assert
@@ -491,7 +460,6 @@ def test_assert_025_assert_025_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_024_assert_024_2(save_xml):
     """
     An example demonstrating assertions evaluation, with xs:string schema
@@ -509,7 +477,6 @@ def test_assert_024_assert_024_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert_023_assert_023_2(save_xml):
     """
@@ -530,7 +497,6 @@ def test_assert_023_assert_023_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_022_assert_022_2(save_xml):
     """
     An example demonstrating assertions evaluation, with a numeric schema
@@ -548,7 +514,6 @@ def test_assert_022_assert_022_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert_021_assert_021_2(save_xml):
     """
@@ -565,7 +530,6 @@ def test_assert_021_assert_021_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_020_assert_020_2(save_xml):
     """
     An example demonstrating assertions evaluation, with a numeric schema
@@ -580,7 +544,6 @@ def test_assert_020_assert_020_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_019_assert_019_2(save_xml):
     """
     A sample "purchase order" instance validation with an XML schema,
@@ -595,7 +558,6 @@ def test_assert_019_assert_019_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_018_assert_018_2(save_xml):
     """
     This is similar to test 'assert_017', but element a's schema type in
@@ -610,7 +572,6 @@ def test_assert_018_assert_018_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert_018_assert_018_3(save_xml):
     """
@@ -626,7 +587,6 @@ def test_assert_018_assert_018_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_017_assert_017_2(save_xml):
     """
     An assertions example, where an XML schema xs:group definition is
@@ -642,7 +602,6 @@ def test_assert_017_assert_017_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_016_assert_016_2(save_xml):
     """
     Describing both xs:assert & xs:assertion on complexType ->
@@ -657,7 +616,6 @@ def test_assert_016_assert_016_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_015_assert_015_2(save_xml):
     """
     Describing relatively involved assertions. Assertions are described in
@@ -672,7 +630,6 @@ def test_assert_015_assert_015_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_014_assert_014_2(save_xml):
     """
     Assertion defined on attribute's schema type. Uses assertions XPath
@@ -687,7 +644,6 @@ def test_assert_014_assert_014_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_013_assert_013_2(save_xml):
     """
     Assertions on a fictitious numerical example.
@@ -701,7 +657,6 @@ def test_assert_013_assert_013_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_012_assert_012_2(save_xml):
     """
     Multiple assertions on a complexType, with a fictitious problem
@@ -716,7 +671,6 @@ def test_assert_012_assert_012_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_011_assert_011_2(save_xml):
     """
     Assertions on complex type, using xpathDefaultNamespace attribute on
@@ -731,7 +685,6 @@ def test_assert_011_assert_011_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_010_assert_010_2(save_xml):
     """
     Assertions on complex type derivations.
@@ -745,7 +698,6 @@ def test_assert_010_assert_010_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_009_assert_009_2(save_xml):
     """
     Assertions on simple type, using assertions XPath 2.0 context variable
@@ -760,7 +712,6 @@ def test_assert_009_assert_009_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_008_assert_008_2(save_xml):
     """
     Assertions on schema "complex type" definitions, having attribute with
@@ -775,7 +726,6 @@ def test_assert_008_assert_008_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_007_assert_007_2(save_xml):
     """
     Assertions on schema "simple type" definitions, with inheritance
@@ -790,7 +740,6 @@ def test_assert_007_assert_007_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_006_assert_006_2(save_xml):
     """
     Assertions on complexType -> complexContent, with inheritance
@@ -805,7 +754,6 @@ def test_assert_006_assert_006_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_005_assert_005_2(save_xml):
     """
     Multiple assertions on a sample 'simple type'.
@@ -819,7 +767,6 @@ def test_assert_005_assert_005_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_004_assert_004_2(save_xml):
     """
     Multiple assertions on a complex type, with a fictitious problem
@@ -834,7 +781,6 @@ def test_assert_004_assert_004_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_003_assert_003_2(save_xml):
     """
     Assertions on a complex type, with relatively bigger content model.
@@ -848,7 +794,6 @@ def test_assert_003_assert_003_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_002_assert_002_2(save_xml):
     """
     Assertions demonstrating co-occurence constraints (constraints between
@@ -863,7 +808,6 @@ def test_assert_002_assert_002_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_assert_002_assert_002_3(save_xml):
     """
@@ -879,7 +823,6 @@ def test_assert_002_assert_002_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_assert_001_assert_001_2(save_xml):
     """
     Assertions demonstrating co-occurence constraints, along with an
@@ -894,7 +837,6 @@ def test_assert_001_assert_001_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii32_d4_3_15ii32i(save_xml):
     """
@@ -909,7 +851,6 @@ def test_d4_3_15ii32_d4_3_15ii32i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii31_d4_3_15ii31i(save_xml):
     """
@@ -924,7 +865,6 @@ def test_d4_3_15ii31_d4_3_15ii31i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii30_d4_3_15ii30i(save_xml):
     """
@@ -940,7 +880,6 @@ def test_d4_3_15ii30_d4_3_15ii30i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii29_d4_3_15ii29i(save_xml):
     """
@@ -956,7 +895,6 @@ def test_d4_3_15ii29_d4_3_15ii29i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii27_d4_3_15ii27i(save_xml):
     """
@@ -972,7 +910,6 @@ def test_d4_3_15ii27_d4_3_15ii27i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii25_d4_3_15ii25i(save_xml):
     """
@@ -988,7 +925,6 @@ def test_d4_3_15ii25_d4_3_15ii25i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii24_d4_3_15ii24i(save_xml):
     """
@@ -1004,7 +940,6 @@ def test_d4_3_15ii24_d4_3_15ii24i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii23_d4_3_15ii23i(save_xml):
     """
@@ -1020,7 +955,6 @@ def test_d4_3_15ii23_d4_3_15ii23i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii22_d4_3_15ii22i(save_xml):
     """
@@ -1036,7 +970,6 @@ def test_d4_3_15ii22_d4_3_15ii22i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii21_d4_3_15ii21i(save_xml):
     """
@@ -1052,7 +985,6 @@ def test_d4_3_15ii21_d4_3_15ii21i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii20_d4_3_15ii20i(save_xml):
     """
@@ -1067,7 +999,6 @@ def test_d4_3_15ii20_d4_3_15ii20i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii19_d4_3_15ii19i(save_xml):
     """
@@ -1083,7 +1014,6 @@ def test_d4_3_15ii19_d4_3_15ii19i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii18_d4_3_15ii18i(save_xml):
     """
@@ -1099,7 +1029,6 @@ def test_d4_3_15ii18_d4_3_15ii18i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii17_d4_3_15ii17i(save_xml):
     """
@@ -1115,7 +1044,6 @@ def test_d4_3_15ii17_d4_3_15ii17i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii15_d4_3_15ii15i(save_xml):
     """
@@ -1130,7 +1058,6 @@ def test_d4_3_15ii15_d4_3_15ii15i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii14_d4_3_15ii14i(save_xml):
     """
@@ -1145,7 +1072,6 @@ def test_d4_3_15ii14_d4_3_15ii14i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii13_d4_3_15ii13i(save_xml):
     """
@@ -1160,7 +1086,6 @@ def test_d4_3_15ii13_d4_3_15ii13i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii12_d4_3_15ii12i(save_xml):
     """
@@ -1176,7 +1101,6 @@ def test_d4_3_15ii12_d4_3_15ii12i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii11_d4_3_15ii11i(save_xml):
     """
@@ -1191,7 +1115,6 @@ def test_d4_3_15ii11_d4_3_15ii11i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii10_d4_3_15ii10i(save_xml):
     """
@@ -1206,7 +1129,6 @@ def test_d4_3_15ii10_d4_3_15ii10i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii08_d4_3_15ii08i(save_xml):
     """
@@ -1221,7 +1143,6 @@ def test_d4_3_15ii08_d4_3_15ii08i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii06_d4_3_15ii06i(save_xml):
     """
@@ -1237,7 +1158,6 @@ def test_d4_3_15ii06_d4_3_15ii06i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii04_d4_3_15ii04i(save_xml):
     """
@@ -1252,7 +1172,6 @@ def test_d4_3_15ii04_d4_3_15ii04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii03_d4_3_15ii03i(save_xml):
     """
@@ -1268,7 +1187,6 @@ def test_d4_3_15ii03_d4_3_15ii03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii02_d4_3_15ii02i(save_xml):
     """
@@ -1283,7 +1201,6 @@ def test_d4_3_15ii02_d4_3_15ii02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_15ii01_d4_3_15ii01i(save_xml):
     """
@@ -1298,7 +1215,6 @@ def test_d4_3_15ii01_d4_3_15ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v28_d4_3_15v28i(save_xml):
     """
     naive xpathDefaultNamespace(with value ##local) test case in
@@ -1313,7 +1229,6 @@ def test_d4_3_15v28_d4_3_15v28i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v27_d4_3_15v27i(save_xml):
     """
     naive xpathDefaultNamespace(with value ##local) test case in
@@ -1328,7 +1243,6 @@ def test_d4_3_15v27_d4_3_15v27i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v26_d4_3_15v26i(save_xml):
     """
     naive xpathDefaultNamespace(with value ##defaultNamespace) test case
@@ -1343,7 +1257,6 @@ def test_d4_3_15v26_d4_3_15v26i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v25_d4_3_15v25i(save_xml):
     """
     naive xpathDefaultNamespace(with value ##defaultNamespace) test case
@@ -1358,7 +1271,6 @@ def test_d4_3_15v25_d4_3_15v25i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v24_d4_3_15v24i(save_xml):
     """
     naive xpathDefaultNamespace(exact uri of targetNamespace) test case in
@@ -1373,7 +1285,6 @@ def test_d4_3_15v24_d4_3_15v24i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v23_d4_3_15v23i(save_xml):
     """
     naive xpathDefaultNamespace (exact uri of targetNamespace) test case
@@ -1388,7 +1299,6 @@ def test_d4_3_15v23_d4_3_15v23i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v22_d4_3_15v22i(save_xml):
     """
     naive xpathDefaultNamespace(with value ##targetNamespace) test case in
@@ -1403,7 +1313,6 @@ def test_d4_3_15v22_d4_3_15v22i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v21_d4_3_15v21i(save_xml):
     """
     naive xpathDefaultNamespace(with value ##targetNamespace) test case in
@@ -1418,7 +1327,6 @@ def test_d4_3_15v21_d4_3_15v21i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v19_d4_3_15v19i(save_xml):
     """
     assertions on a complex type definition, having simpleContent,
@@ -1433,7 +1341,6 @@ def test_d4_3_15v19_d4_3_15v19i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v18_d4_3_15v18i(save_xml):
     """
     assertions on a complex type definition, having complexContent,
@@ -1448,7 +1355,6 @@ def test_d4_3_15v18_d4_3_15v18i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v15_d4_3_15v15i(save_xml):
     """
     inability to navigate outside the subtree, assertion on attributes
@@ -1462,7 +1368,6 @@ def test_d4_3_15v15_d4_3_15v15i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v14_d4_3_15v14i(save_xml):
     """
     inability to navigate outside the subtree, assertion on elements
@@ -1476,7 +1381,6 @@ def test_d4_3_15v14_d4_3_15v14i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v13_d4_3_15v13i(save_xml):
     """
     dynamic context of the XPath expression, assertion on element
@@ -1490,7 +1394,6 @@ def test_d4_3_15v13_d4_3_15v13i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v11_d4_3_15v11i(save_xml):
     """
     dynamic context of the XPath expression, assertion on attribute
@@ -1504,7 +1407,6 @@ def test_d4_3_15v11_d4_3_15v11i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v10_d4_3_15v10i(save_xml):
     """
     assertions on derived complex type
@@ -1518,7 +1420,6 @@ def test_d4_3_15v10_d4_3_15v10i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v09_d4_3_15v09i(save_xml):
     """
     assertions on simple type, using variable $value
@@ -1532,7 +1433,6 @@ def test_d4_3_15v09_d4_3_15v09i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v08_d4_3_15v08i(save_xml):
     """
     assertions on a complex type definition having simpleContent
@@ -1546,7 +1446,6 @@ def test_d4_3_15v08_d4_3_15v08i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v07_d4_3_15v07i(save_xml):
     """
     assertions on derived simple type definitions, all baseType and
@@ -1561,7 +1460,6 @@ def test_d4_3_15v07_d4_3_15v07i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v06_d4_3_15v06i(save_xml):
     """
     having complexContent, assertions from both derived and base type must
@@ -1576,7 +1474,6 @@ def test_d4_3_15v06_d4_3_15v06i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v05_d4_3_15v05i(save_xml):
     """
     assertions on a simple type definition
@@ -1590,7 +1487,6 @@ def test_d4_3_15v05_d4_3_15v05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v04_d4_3_15v04i(save_xml):
     """
     ssertions on a complex type definition. uses multiple asserts
@@ -1604,7 +1500,6 @@ def test_d4_3_15v04_d4_3_15v04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v03_d4_3_15v03i(save_xml):
     """
     assertions on a complex type definition
@@ -1618,7 +1513,6 @@ def test_d4_3_15v03_d4_3_15v03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v02_d4_3_15v02i(save_xml):
     """
     Assertions on a complex type definition
@@ -1632,7 +1526,6 @@ def test_d4_3_15v02_d4_3_15v02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_15v01_d4_3_15v01i(save_xml):
     """
     Assertions on a complex type definition
@@ -1646,7 +1539,6 @@ def test_d4_3_15v01_d4_3_15v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s4_2_2ii01_s4_2_2ii01i(save_xml):
     """
@@ -1661,7 +1553,6 @@ def test_s4_2_2ii01_s4_2_2ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s4_2_2v01_s4_2_2v01i(save_xml):
     """
     vc: conditional inclusion Testing version
@@ -1675,7 +1566,6 @@ def test_s4_2_2v01_s4_2_2v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_2_3ii05_s3_2_3ii05i(save_xml):
     """
@@ -1690,7 +1580,6 @@ def test_s3_2_3ii05_s3_2_3ii05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_2_3ii04_s3_2_3ii04i(save_xml):
     """
@@ -1706,7 +1595,6 @@ def test_s3_2_3ii04_s3_2_3ii04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_2_3ii02_s3_2_3ii02i(save_xml):
     """
@@ -1722,7 +1610,6 @@ def test_s3_2_3ii02_s3_2_3ii02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_2_3ii01_s3_2_3ii01i(save_xml):
     """
@@ -1738,7 +1625,6 @@ def test_s3_2_3ii01_s3_2_3ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_2_3v04_s3_2_3v04i(save_xml):
     """
     Tests the targetNamespace attribute in locally declared element and
@@ -1753,7 +1639,6 @@ def test_s3_2_3v04_s3_2_3v04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_2_3v01_s3_2_3v01i(save_xml):
     """
     Tests the targetNamespace attribute in locally declared element and
@@ -1768,7 +1653,6 @@ def test_s3_2_3v01_s3_2_3v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_3_10v01_d3_3_10v01i(save_xml):
     """
     A day is a calendar (or "local time") day in each timezone, including
@@ -1783,7 +1667,6 @@ def test_d3_3_10v01_d3_3_10v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_28ii01_d3_4_28ii01i(save_xml):
     """
@@ -1798,7 +1681,6 @@ def test_d3_4_28ii01_d3_4_28ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_28ii01_d3_4_28ii02i(save_xml):
     """
@@ -1813,7 +1695,6 @@ def test_d3_4_28ii01_d3_4_28ii02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_28ii01_d3_4_28ii03i(save_xml):
     """
@@ -1828,7 +1709,6 @@ def test_d3_4_28ii01_d3_4_28ii03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_28ii01_d3_4_28ii04i(save_xml):
     """
@@ -1843,7 +1723,6 @@ def test_d3_4_28ii01_d3_4_28ii04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_28ii01_d3_4_28ii05i(save_xml):
     """
@@ -1858,7 +1737,6 @@ def test_d3_4_28ii01_d3_4_28ii05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_28v10_d3_4_28v10i(save_xml):
     """
     Additional dateTimeStamp tests, for attributes
@@ -1872,7 +1750,6 @@ def test_d3_4_28v10_d3_4_28v10i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_28v09_d3_4_28v09i(save_xml):
     """
     Tests the simpleType dateTimeStamp and its facets with (min|max)
@@ -1887,7 +1764,6 @@ def test_d3_4_28v09_d3_4_28v09i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_28v08_d3_4_28v08i(save_xml):
     """
     Tests the simpleType dateTimeStamp and its facets with (min|max)
@@ -1902,7 +1778,6 @@ def test_d3_4_28v08_d3_4_28v08i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_28v07_d3_4_28v07i(save_xml):
     """
     Tests the simpleType decimal and its facets with (min|max)
@@ -1917,7 +1792,6 @@ def test_d3_4_28v07_d3_4_28v07i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_28v06_d3_4_28v06i(save_xml):
     """
     Tests the simpleType dateTimeStamp and its facets with (min|max)
@@ -1932,7 +1806,6 @@ def test_d3_4_28v06_d3_4_28v06i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_28v05_d3_4_28v05i(save_xml):
     """
     Tests the simpleType decimal and its facets
@@ -1946,7 +1819,6 @@ def test_d3_4_28v05_d3_4_28v05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_28v04_d3_4_28v04i(save_xml):
     """
     Tests the simpleType decimal and its facets, used with unions
@@ -1960,7 +1832,6 @@ def test_d3_4_28v04_d3_4_28v04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_28v03_d3_4_28v03i(save_xml):
     """
     Tests the simpleType dateTimeStamp and its facets pattern, used in
@@ -1975,7 +1846,6 @@ def test_d3_4_28v03_d3_4_28v03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_28v02_d3_4_28v02i(save_xml):
     """
     Tests the simpleType decimal and its facets and its use in attributes
@@ -1989,7 +1859,6 @@ def test_d3_4_28v02_d3_4_28v02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_28v01_d3_4_28v01i(save_xml):
     """
     Tests the simpleType dateTimeStamp and its facets and its use in
@@ -2004,7 +1873,6 @@ def test_d3_4_28v01_d3_4_28v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_27ii07_d3_4_27ii07i(save_xml):
     """
@@ -2020,7 +1888,6 @@ def test_d3_4_27ii07_d3_4_27ii07i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_27ii06_d3_4_27ii06i(save_xml):
     """
@@ -2035,7 +1902,6 @@ def test_d3_4_27ii06_d3_4_27ii06i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_27ii05_d3_4_27ii05i(save_xml):
     """
@@ -2051,7 +1917,6 @@ def test_d3_4_27ii05_d3_4_27ii05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_27ii04_d3_4_27ii04i(save_xml):
     """
@@ -2066,7 +1931,6 @@ def test_d3_4_27ii04_d3_4_27ii04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_27ii03_d3_4_27ii03i(save_xml):
     """
@@ -2081,7 +1945,6 @@ def test_d3_4_27ii03_d3_4_27ii03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_27ii02_d3_4_27ii02i(save_xml):
     """
@@ -2096,7 +1959,6 @@ def test_d3_4_27ii02_d3_4_27ii02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_27ii01_d3_4_27ii01i(save_xml):
     """
@@ -2111,7 +1973,6 @@ def test_d3_4_27ii01_d3_4_27ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_27v05_d3_4_27v05i(save_xml):
     """
     Additional tests for dayTimeDuration and its facets with (min|max)
@@ -2126,7 +1987,6 @@ def test_d3_4_27v05_d3_4_27v05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_27v04_d3_4_27v04i(save_xml):
     """
     Tests the simpleType dayTimeDuration and its facets with (min|max)
@@ -2141,7 +2001,6 @@ def test_d3_4_27v04_d3_4_27v04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_27v03_d3_4_27v03i(save_xml):
     """
     Tests dayTimeDuration used in unions
@@ -2155,7 +2014,6 @@ def test_d3_4_27v03_d3_4_27v03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_27v02_d3_4_27v02i(save_xml):
     """
     Tests the simpleType dayTimeDuration and its facets and its use in
@@ -2170,7 +2028,6 @@ def test_d3_4_27v02_d3_4_27v02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_27v01_d3_4_27v01i(save_xml):
     """
     Tests the simpleType dayTimeDuration and its facets
@@ -2184,7 +2041,6 @@ def test_d3_4_27v01_d3_4_27v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_2_4ii11_s3_4_2_4ii11i(save_xml):
     """
@@ -2200,7 +2056,6 @@ def test_s3_4_2_4ii11_s3_4_2_4ii11i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_2_4ii10_s3_4_2_4ii10i(save_xml):
     """
@@ -2215,7 +2070,6 @@ def test_s3_4_2_4ii10_s3_4_2_4ii10i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_2_4ii09_s3_4_2_4ii09i(save_xml):
     """
@@ -2231,7 +2085,6 @@ def test_s3_4_2_4ii09_s3_4_2_4ii09i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_2_4ii08_s3_4_2_4ii08i(save_xml):
     """
@@ -2246,7 +2099,6 @@ def test_s3_4_2_4ii08_s3_4_2_4ii08i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_2_4ii07_s3_4_2_4ii07i(save_xml):
     """
@@ -2261,7 +2113,6 @@ def test_s3_4_2_4ii07_s3_4_2_4ii07i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_4_2_4ii06_s3_4_2_4ii06i(save_xml):
     """
     test defaultAttributesApply = true and redefined as false
@@ -2275,7 +2126,6 @@ def test_s3_4_2_4ii06_s3_4_2_4ii06i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_2_4ii05_s3_4_2_4ii05i(save_xml):
     """
@@ -2290,7 +2140,6 @@ def test_s3_4_2_4ii05_s3_4_2_4ii05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_2_4ii03_s3_4_2_4ii03i(save_xml):
     """
@@ -2305,7 +2154,6 @@ def test_s3_4_2_4ii03_s3_4_2_4ii03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_2_4ii02_s3_4_2_4ii02i(save_xml):
     """
@@ -2320,7 +2168,6 @@ def test_s3_4_2_4ii02_s3_4_2_4ii02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_2_4ii01_s3_4_2_4ii01i(save_xml):
     """
@@ -2335,7 +2182,6 @@ def test_s3_4_2_4ii01_s3_4_2_4ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_4_2_4v13_s3_4_2_4v13i(save_xml):
     """
     test defaultAttributesApply is absent, and ref attribute in
@@ -2350,7 +2196,6 @@ def test_s3_4_2_4v13_s3_4_2_4v13i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_4_2_4v03_s3_4_2_4v03i(save_xml):
     """
     test defaultAttributesApply = true
@@ -2364,7 +2209,6 @@ def test_s3_4_2_4v03_s3_4_2_4v03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_4_2_4v02_s3_4_2_4v02i(save_xml):
     """
     test defaultAttributesApply = false
@@ -2378,7 +2222,6 @@ def test_s3_4_2_4v02_s3_4_2_4v02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_4_2_4v01_s3_4_2_4v01i(save_xml):
     """
     test defaultAttributesApply is absent
@@ -2392,7 +2235,6 @@ def test_s3_4_2_4v01_s3_4_2_4v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s2_7_2ii01_s2_7_2ii01i(save_xml):
     """
@@ -2407,7 +2249,6 @@ def test_s2_7_2ii01_s2_7_2ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s2_7_2v01_s2_7_2v01i(save_xml):
     """
     Structures introduces a mechanism for signaling that an element must
@@ -2426,7 +2267,6 @@ def test_s2_7_2v01_s2_7_2v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s2_7_1ii02_s2_7_1ii02i(save_xml):
     """
@@ -2445,7 +2285,6 @@ def test_s2_7_1ii02_s2_7_1ii02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s2_7_1ii01_s2_7_1ii01i(save_xml):
     """
@@ -2460,7 +2299,6 @@ def test_s2_7_1ii01_s2_7_1ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s2_7_1v01_s2_7_1v01i(save_xml):
     """
     xsi:type must resolve to a type definition
@@ -2474,7 +2312,6 @@ def test_s2_7_1v01_s2_7_1v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_3_6v02_d3_3_6v02i(save_xml):
     """
     Lexical representation +INF for double
@@ -2488,7 +2325,6 @@ def test_d3_3_6v02_d3_3_6v02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_3_6v01_d3_3_6v01i(save_xml):
     """
     Valid test for +0 and -0 bound checking
@@ -2502,7 +2338,6 @@ def test_d3_3_6v01_d3_3_6v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_8_6ii01_s3_8_6ii01i(save_xml):
     """
@@ -2518,7 +2353,6 @@ def test_s3_8_6ii01_s3_8_6ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_8_6v01_s3_8_6v01i(save_xml):
     """
@@ -2534,7 +2368,6 @@ def test_s3_8_6v01_s3_8_6v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_16ii07_d4_3_16ii07i(save_xml):
     """
@@ -2550,7 +2383,6 @@ def test_d4_3_16ii07_d4_3_16ii07i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_16ii06_d4_3_16ii06i(save_xml):
     """
@@ -2566,7 +2398,6 @@ def test_d4_3_16ii06_d4_3_16ii06i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_16ii05_d4_3_16ii05i(save_xml):
     """
@@ -2581,7 +2412,6 @@ def test_d4_3_16ii05_d4_3_16ii05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_16ii04_d4_3_16ii04i(save_xml):
     """
@@ -2597,7 +2427,6 @@ def test_d4_3_16ii04_d4_3_16ii04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_16ii03_d4_3_16ii03i(save_xml):
     """
@@ -2613,7 +2442,6 @@ def test_d4_3_16ii03_d4_3_16ii03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_16ii02_d4_3_16ii02i(save_xml):
     """
@@ -2629,7 +2457,6 @@ def test_d4_3_16ii02_d4_3_16ii02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_16ii01_d4_3_16ii01i(save_xml):
     """
@@ -2644,7 +2471,6 @@ def test_d4_3_16ii01_d4_3_16ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_16v07_d4_3_16v07i(save_xml):
     """
     Tests the simpleType dateTime and its facets with explicitTimezone
@@ -2659,7 +2485,6 @@ def test_d4_3_16v07_d4_3_16v07i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_16v06_d4_3_16v06i(save_xml):
     """
     Tests the simpleType dateTime and its facet with explicitTimezone
@@ -2674,7 +2499,6 @@ def test_d4_3_16v06_d4_3_16v06i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_16v05_d4_3_16v05i(save_xml):
     """
     Tests the simpleType dateTime and its facets, explicitTimezone
@@ -2688,7 +2512,6 @@ def test_d4_3_16v05_d4_3_16v05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_16v04_d4_3_16v04i(save_xml):
     """
     Tests the simpleType dateTime and its facet, explicitTimezone used
@@ -2703,7 +2526,6 @@ def test_d4_3_16v04_d4_3_16v04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_16v03_d4_3_16v03i(save_xml):
     """
     Tests the simpleType precisionDecimal and its facet, explicitTimezone,
@@ -2718,7 +2540,6 @@ def test_d4_3_16v03_d4_3_16v03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_16v02_d4_3_16v02i(save_xml):
     """
     Tests the simpleType dateTime and its facets, explicitTimezone and its
@@ -2733,7 +2554,6 @@ def test_d4_3_16v02_d4_3_16v02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_16v01_d4_3_16v01i(save_xml):
     """
     Tests the simpleType dateTime and its facets, explicitTimezone and its
@@ -2748,7 +2568,6 @@ def test_d4_3_16v01_d4_3_16v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_3_5v02_d3_3_5v02i(save_xml):
     """
     lexical representation +INF for float
@@ -2762,7 +2581,6 @@ def test_d3_3_5v02_d3_3_5v02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_3_5v01_d3_3_5v01i(save_xml):
     """
     Valid test for +0 and -0 bound checking
@@ -2776,7 +2594,6 @@ def test_d3_3_5v01_d3_3_5v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_3_11v01_d3_3_11v01i(save_xml):
     """
     A day is a calendar (or "local time") day in each timezone, including
@@ -2791,7 +2608,6 @@ def test_d3_3_11v01_d3_3_11v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_3_12v01_d3_3_12v01i(save_xml):
     """
     A day is a calendar (or "local time") day in each timezone, including
@@ -2806,7 +2622,6 @@ def test_d3_3_12v01_d3_3_12v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_3_13v01_d3_3_13v01i(save_xml):
     """
     A day is a calendar (or "local time") day in each timezone, including
@@ -2821,7 +2636,6 @@ def test_d3_3_13v01_d3_3_13v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_3_14v01_d3_3_14v01i(save_xml):
     """
     A day is a calendar (or "local time") day in each timezone, including
@@ -2836,7 +2650,6 @@ def test_d3_3_14v01_d3_3_14v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii27_s3_3_4ii27i(save_xml):
     """
@@ -2851,7 +2664,6 @@ def test_s3_3_4ii27_s3_3_4ii27i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii26_s3_3_4ii26i(save_xml):
     """
@@ -2866,7 +2678,6 @@ def test_s3_3_4ii26_s3_3_4ii26i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii25_s3_3_4ii25i(save_xml):
     """
@@ -2881,7 +2692,6 @@ def test_s3_3_4ii25_s3_3_4ii25i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii24_s3_3_4ii24i(save_xml):
     """
@@ -2896,7 +2706,6 @@ def test_s3_3_4ii24_s3_3_4ii24i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii23_s3_3_4ii23i(save_xml):
     """
@@ -2912,7 +2721,6 @@ def test_s3_3_4ii23_s3_3_4ii23i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii22_s3_3_4ii22i(save_xml):
     """
@@ -2927,7 +2735,6 @@ def test_s3_3_4ii22_s3_3_4ii22i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii21_s3_3_4ii21i(save_xml):
     """
@@ -2942,7 +2749,6 @@ def test_s3_3_4ii21_s3_3_4ii21i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii20_s3_3_4ii20i(save_xml):
     """
@@ -2957,7 +2763,6 @@ def test_s3_3_4ii20_s3_3_4ii20i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii19_s3_3_4ii19i(save_xml):
     """
@@ -2973,7 +2778,6 @@ def test_s3_3_4ii19_s3_3_4ii19i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii18_s3_3_4ii18i(save_xml):
     """
@@ -2988,7 +2792,6 @@ def test_s3_3_4ii18_s3_3_4ii18i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii17_s3_3_4ii17i(save_xml):
     """
@@ -3003,7 +2806,6 @@ def test_s3_3_4ii17_s3_3_4ii17i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii16_s3_3_4ii16i(save_xml):
     """
@@ -3018,7 +2820,6 @@ def test_s3_3_4ii16_s3_3_4ii16i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii15_s3_3_4ii15i(save_xml):
     """
@@ -3033,7 +2834,6 @@ def test_s3_3_4ii15_s3_3_4ii15i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii14_s3_3_4ii14i(save_xml):
     """
@@ -3048,7 +2848,6 @@ def test_s3_3_4ii14_s3_3_4ii14i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii13_s3_3_4ii13i(save_xml):
     """
@@ -3063,7 +2862,6 @@ def test_s3_3_4ii13_s3_3_4ii13i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii12_s3_3_4ii12i(save_xml):
     """
@@ -3078,7 +2876,6 @@ def test_s3_3_4ii12_s3_3_4ii12i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii11_s3_3_4ii11i(save_xml):
     """
@@ -3093,7 +2890,6 @@ def test_s3_3_4ii11_s3_3_4ii11i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii10_s3_3_4ii10i(save_xml):
     """
@@ -3108,7 +2904,6 @@ def test_s3_3_4ii10_s3_3_4ii10i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii09_s3_3_4ii09i(save_xml):
     """
@@ -3123,7 +2918,6 @@ def test_s3_3_4ii09_s3_3_4ii09i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii08_s3_3_4ii08i(save_xml):
     """
@@ -3138,7 +2932,6 @@ def test_s3_3_4ii08_s3_3_4ii08i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii07_s3_3_4ii07i(save_xml):
     """
@@ -3153,7 +2946,6 @@ def test_s3_3_4ii07_s3_3_4ii07i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii06_s3_3_4ii06i(save_xml):
     """
@@ -3168,7 +2960,6 @@ def test_s3_3_4ii06_s3_3_4ii06i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii05_s3_3_4ii05i(save_xml):
     """
@@ -3184,7 +2975,6 @@ def test_s3_3_4ii05_s3_3_4ii05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii04_s3_3_4ii04i(save_xml):
     """
@@ -3199,7 +2989,6 @@ def test_s3_3_4ii04_s3_3_4ii04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii03_s3_3_4ii03i(save_xml):
     """
@@ -3214,7 +3003,6 @@ def test_s3_3_4ii03_s3_3_4ii03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii02_s3_3_4ii02i(save_xml):
     """
@@ -3229,7 +3017,6 @@ def test_s3_3_4ii02_s3_3_4ii02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_3_4ii01_s3_3_4ii01i(save_xml):
     """
@@ -3244,7 +3031,6 @@ def test_s3_3_4ii01_s3_3_4ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v30_s3_3_4v30i(save_xml):
     """
     equality of an atomic value with a singleton list in ID/IDREF
@@ -3258,7 +3044,6 @@ def test_s3_3_4v30_s3_3_4v30i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v29_s3_3_4v29i(save_xml):
     """
     Multiple attributes of type ID with default value
@@ -3272,7 +3057,6 @@ def test_s3_3_4v29_s3_3_4v29i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v28_s3_3_4v28i(save_xml):
     """
     xs:ID/IDREF with default value on attribute
@@ -3286,7 +3070,6 @@ def test_s3_3_4v28_s3_3_4v28i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v27_s3_3_4v27i(save_xml):
     """
     xs:ID/IDREF with default value on attribute
@@ -3300,7 +3083,6 @@ def test_s3_3_4v27_s3_3_4v27i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v26_s3_3_4v26i(save_xml):
     """
     xs:ID with default value on attribute, and xs:IDREF on element
@@ -3314,7 +3096,6 @@ def test_s3_3_4v26_s3_3_4v26i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v25_s3_3_4v25i(save_xml):
     """
     Multiple attributes of type ID
@@ -3328,7 +3109,6 @@ def test_s3_3_4v25_s3_3_4v25i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v24_s3_3_4v24i(save_xml):
     """
     Multiple attributes of type ID
@@ -3342,7 +3122,6 @@ def test_s3_3_4v24_s3_3_4v24i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v23_s3_3_4v23i(save_xml):
     """
     Multiple attributes of type ID
@@ -3356,7 +3135,6 @@ def test_s3_3_4v23_s3_3_4v23i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v22_s3_3_4v22i(save_xml):
     """
     Multiple attributes of type ID
@@ -3370,7 +3148,6 @@ def test_s3_3_4v22_s3_3_4v22i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v21_s3_3_4v21i(save_xml):
     """
     lists of ID, simpleContent
@@ -3384,7 +3161,6 @@ def test_s3_3_4v21_s3_3_4v21i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v20_s3_3_4v20i(save_xml):
     """
     Unions involving ID in elements, attributes
@@ -3398,7 +3174,6 @@ def test_s3_3_4v20_s3_3_4v20i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v19_s3_3_4v19i(save_xml):
     """
     Unions involving ID in elements, attributes
@@ -3412,7 +3187,6 @@ def test_s3_3_4v19_s3_3_4v19i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v18_s3_3_4v18i(save_xml):
     """
     Unions involving ID in attributes
@@ -3426,7 +3200,6 @@ def test_s3_3_4v18_s3_3_4v18i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v17_s3_3_4v17i(save_xml):
     """
     Unions involving ID in elements
@@ -3440,7 +3213,6 @@ def test_s3_3_4v17_s3_3_4v17i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v16_s3_3_4v16i(save_xml):
     """
     lists of ID, simpleContent
@@ -3454,7 +3226,6 @@ def test_s3_3_4v16_s3_3_4v16i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v15_s3_3_4v15i(save_xml):
     """
     lists of ID, simpleContent
@@ -3468,7 +3239,6 @@ def test_s3_3_4v15_s3_3_4v15i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v14_s3_3_4v14i(save_xml):
     """
     lists of ID, naive test case on elements
@@ -3482,7 +3252,6 @@ def test_s3_3_4v14_s3_3_4v14i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v13_s3_3_4v13i(save_xml):
     """
     lists of ID on attributes
@@ -3496,7 +3265,6 @@ def test_s3_3_4v13_s3_3_4v13i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v12_s3_3_4v12i(save_xml):
     """
     Multiple attributes of type ID
@@ -3510,7 +3278,6 @@ def test_s3_3_4v12_s3_3_4v12i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v11_s3_3_4v11i(save_xml):
     """
     Unions involving ID
@@ -3524,7 +3291,6 @@ def test_s3_3_4v11_s3_3_4v11i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v10_s3_3_4v10i(save_xml):
     """
     lists of ID, naive test case on elements
@@ -3538,7 +3304,6 @@ def test_s3_3_4v10_s3_3_4v10i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v09_s3_3_4v09i(save_xml):
     """
     xs:ID/IDREF with fixed value on attribute
@@ -3552,7 +3317,6 @@ def test_s3_3_4v09_s3_3_4v09i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v08_s3_3_4v08i(save_xml):
     """
     xs:ID/IDREF with default value on attribute
@@ -3566,7 +3330,6 @@ def test_s3_3_4v08_s3_3_4v08i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v07_s3_3_4v07i(save_xml):
     """
     xs:ID/IDREF with fixed value on attribute
@@ -3580,7 +3343,6 @@ def test_s3_3_4v07_s3_3_4v07i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v06_s3_3_4v06i(save_xml):
     """
     xs:ID/IDREF with default value on attribute
@@ -3594,7 +3356,6 @@ def test_s3_3_4v06_s3_3_4v06i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v05_s3_3_4v05i(save_xml):
     """
     xs:ENTITY with default value on attribute
@@ -3608,7 +3369,6 @@ def test_s3_3_4v05_s3_3_4v05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v04_s3_3_4v04i(save_xml):
     """
     xs:ENTITIES with default value on attribute
@@ -3622,7 +3382,6 @@ def test_s3_3_4v04_s3_3_4v04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v03_s3_3_4v03i(save_xml):
     """
     xs:ID/IDREF with fixed value on attribute
@@ -3636,7 +3395,6 @@ def test_s3_3_4v03_s3_3_4v03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v02_s3_3_4v02i(save_xml):
     """
     xs:ID/IDREF with xs:anyAttribute
@@ -3650,7 +3408,6 @@ def test_s3_3_4v02_s3_3_4v02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_3_4v01_s3_3_4v01i(save_xml):
     """
     xs:ID/IDREF with xs:anyAttribute
@@ -3664,7 +3421,6 @@ def test_s3_3_4v01_s3_3_4v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s2_2_4ii03_s2_2_4ii03i(save_xml):
     """
@@ -3679,7 +3435,6 @@ def test_s2_2_4ii03_s2_2_4ii03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s2_2_4ii02_s2_2_4ii02i(save_xml):
     """
@@ -3695,7 +3450,6 @@ def test_s2_2_4ii02_s2_2_4ii02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s2_2_4ii01_s2_2_4ii01i(save_xml):
     """
@@ -3710,7 +3464,6 @@ def test_s2_2_4ii01_s2_2_4ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s2_2_4v03_s2_2_4v03i(save_xml):
     """
     Tests unresolvable xpath
@@ -3724,7 +3477,6 @@ def test_s2_2_4v03_s2_2_4v03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s2_2_4v02_s2_2_4v02i(save_xml):
     """
     Valid test for identity constraint referrals
@@ -3738,7 +3490,6 @@ def test_s2_2_4v02_s2_2_4v02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s2_2_4v01_s2_2_4v01i(save_xml):
     """
     Valid test for identity constraint referrals with annotation
@@ -3752,7 +3503,6 @@ def test_s2_2_4v01_s2_2_4v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d2_4_1_2v01_d2_4_1_2v01i(save_xml):
     """
     test Units of length for list datatype.
@@ -3766,7 +3516,6 @@ def test_d2_4_1_2v01_d2_4_1_2v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_1ii05_s3_4_1ii05i(save_xml):
     """
@@ -3782,7 +3531,6 @@ def test_s3_4_1ii05_s3_4_1ii05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_1ii04_s3_4_1ii04i(save_xml):
     """
@@ -3797,7 +3545,6 @@ def test_s3_4_1ii04_s3_4_1ii04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_1ii03_s3_4_1ii03i(save_xml):
     """
@@ -3813,7 +3560,6 @@ def test_s3_4_1ii03_s3_4_1ii03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_1ii02_s3_4_1ii02i(save_xml):
     """
@@ -3828,7 +3574,6 @@ def test_s3_4_1ii02_s3_4_1ii02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_1ii01_s3_4_1ii01i(save_xml):
     """
@@ -3845,7 +3590,6 @@ def test_s3_4_1ii01_s3_4_1ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_4_1v11_s3_4_1v11i(save_xml):
     """
     complexType/@mixed
@@ -3859,7 +3603,6 @@ def test_s3_4_1v11_s3_4_1v11i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_4_1v10_s3_4_1v10i(save_xml):
     """
     Tests derivation by extension with openContent mode interleave in both
@@ -3874,7 +3617,6 @@ def test_s3_4_1v10_s3_4_1v10i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_4_1v09_s3_4_1v09i(save_xml):
     """
     Tests derivation by restriction with openContent mode interleave in
@@ -3889,7 +3631,6 @@ def test_s3_4_1v09_s3_4_1v09i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_4_1v08_s3_4_1v08i(save_xml):
     """
     Tests derivation by extension with openContent mode interleave in
@@ -3904,7 +3645,6 @@ def test_s3_4_1v08_s3_4_1v08i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_4_1v07_s3_4_1v07i(save_xml):
     """
     Tests derivation by extension with openContent mode suffix in both
@@ -3919,7 +3659,6 @@ def test_s3_4_1v07_s3_4_1v07i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_4_1v06_s3_4_1v06i(save_xml):
     """
     Tests openContent in complexType derived by extension
@@ -3933,7 +3672,6 @@ def test_s3_4_1v06_s3_4_1v06i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_4_1v05_s3_4_1v05i(save_xml):
     """
     Tests openContent in complexType derived by restriction
@@ -3947,7 +3685,6 @@ def test_s3_4_1v05_s3_4_1v05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_4_1v04_s3_4_1v04i(save_xml):
     """
     Tests defaultOpenContent in suffix mode
@@ -3961,7 +3698,6 @@ def test_s3_4_1v04_s3_4_1v04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_4_1v03_s3_4_1v03i(save_xml):
     """
     Tests openContent for empty content model
@@ -3975,7 +3711,6 @@ def test_s3_4_1v03_s3_4_1v03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_4_1v02_s3_4_1v02i(save_xml):
     """
     Tests defaultOpenContent for CT not empty
@@ -3989,7 +3724,6 @@ def test_s3_4_1v02_s3_4_1v02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_4_1v01_s3_4_1v01i(save_xml):
     """
     Tests defaultOpenContent: appliesToEmpty="true"
@@ -4003,7 +3737,6 @@ def test_s3_4_1v01_s3_4_1v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d6_gii04_d6_gii04i(save_xml):
     """
@@ -4019,7 +3752,6 @@ def test_d6_gii04_d6_gii04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d6_gii03_d6_gii03i(save_xml):
     """
@@ -4035,7 +3767,6 @@ def test_d6_gii03_d6_gii03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d6_gii02_d6_gii02i(save_xml):
     """
@@ -4051,7 +3782,6 @@ def test_d6_gii02_d6_gii02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d6_gii01_d6_gii01i(save_xml):
     """
@@ -4067,7 +3797,6 @@ def test_d6_gii01_d6_gii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d6_gv04_d6_gv04i(save_xml):
     """
     use of hyphens within square brackets in regular expressions [bc-]
@@ -4081,7 +3810,6 @@ def test_d6_gv04_d6_gv04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d6_gv03_d6_gv03i(save_xml):
     """
     use of hyphens within square brackets in regular expressions [-abc]
@@ -4095,7 +3823,6 @@ def test_d6_gv03_d6_gv03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d6_gv02_d6_gv02i(save_xml):
     """
     use of hyphens within square brackets in regular expressions [abc-[c]]
@@ -4109,7 +3836,6 @@ def test_d6_gv02_d6_gv02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d6_gv01_d6_gv01i(save_xml):
     """
     use of hyphens within square brackets in regular expressions [a-c]
@@ -4123,7 +3849,6 @@ def test_d6_gv01_d6_gv01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_6ii03_s3_4_6ii03i(save_xml):
     """
@@ -4138,7 +3863,6 @@ def test_s3_4_6ii03_s3_4_6ii03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_4_6ii01_s3_4_6ii01i(save_xml):
     """
@@ -4153,7 +3877,6 @@ def test_s3_4_6ii01_s3_4_6ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_4_6v08_s3_4_6v08i(save_xml):
     """
     Restrict xs:all to xs:sequence
@@ -4167,7 +3890,6 @@ def test_s3_4_6v08_s3_4_6v08i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_4_6v05_s3_4_6v05i(save_xml):
     """
     Tests maxOccurs > 1 for elements within all group
@@ -4181,7 +3903,6 @@ def test_s3_4_6v05_s3_4_6v05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_4_6v04_s3_4_6v04i(save_xml):
     """
     Tests restriction of all group
@@ -4195,7 +3916,6 @@ def test_s3_4_6v04_s3_4_6v04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_4_6v01_s3_4_6v01i(save_xml):
     """
     Wildcards are now allowed in xs:all
@@ -4209,7 +3929,6 @@ def test_s3_4_6v01_s3_4_6v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d4_3_6ii01_d4_3_6ii01i(save_xml):
     """
@@ -4225,7 +3944,6 @@ def test_d4_3_6ii01_d4_3_6ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d4_3_6v01_d4_3_6v01i(save_xml):
     """
     when the value is collapse, literals consisting solely of whitespace
@@ -4240,7 +3958,6 @@ def test_d4_3_6v01_d4_3_6v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s2_2_2v03_s2_2_2v03i(save_xml):
     """
     Tests for 1 substitution group head
@@ -4254,7 +3971,6 @@ def test_s2_2_2v03_s2_2_2v03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s2_2_2v02_s2_2_2v02i(save_xml):
     """
     Tests multiple substitution group heads
@@ -4268,7 +3984,6 @@ def test_s2_2_2v02_s2_2_2v02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s2_2_2v01_s2_2_2v01i(save_xml):
     """
     Tests abstract substitution group
@@ -4282,7 +3997,6 @@ def test_s2_2_2v01_s2_2_2v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_target_namespace_005_target_namespace_005_2(save_xml):
     """
     This example demonstrates 'targetNamespace' attribute on xs:attribute
@@ -4297,7 +4011,6 @@ def test_target_namespace_005_target_namespace_005_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_target_namespace_004_target_namespace_004_2(save_xml):
     """
     Composition of XML schemas via xs:import to be able to achive
@@ -4312,7 +4025,6 @@ def test_target_namespace_004_target_namespace_004_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_3_9v01_d3_3_9v01i(save_xml):
     """
     1a: chameleon include on unqualified names in XPath expressions 1b: A
@@ -4329,7 +4041,6 @@ def test_d3_3_9v01_d3_3_9v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_3_9v01_d3_3_9v01ai(save_xml):
     """
     1a: chameleon include on unqualified names in XPath expressions 1b: A
@@ -4346,7 +4057,6 @@ def test_d3_3_9v01_d3_3_9v01ai(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_3_9v01_d3_3_9v01bi(save_xml):
     """
     1a: chameleon include on unqualified names in XPath expressions 1b: A
@@ -4363,7 +4073,6 @@ def test_d3_3_9v01_d3_3_9v01bi(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_3_9v01_d3_3_9v01ci(save_xml):
     """
     1a: chameleon include on unqualified names in XPath expressions 1b: A
@@ -4380,7 +4089,6 @@ def test_d3_3_9v01_d3_3_9v01ci(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_12ii05_s3_12ii05i(save_xml):
     """
@@ -4395,7 +4103,6 @@ def test_s3_12ii05_s3_12ii05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_12ii04_s3_12ii04i(save_xml):
     """
@@ -4410,7 +4117,6 @@ def test_s3_12ii04_s3_12ii04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_12ii03_s3_12ii03i(save_xml):
     """
@@ -4426,7 +4132,6 @@ def test_s3_12ii03_s3_12ii03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_12ii02_s3_12ii02i(save_xml):
     """
@@ -4442,7 +4147,6 @@ def test_s3_12ii02_s3_12ii02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_12ii01_s3_12ii01i(save_xml):
     """
@@ -4457,7 +4161,6 @@ def test_s3_12ii01_s3_12ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_12v11_s3_12v01i(save_xml):
     """
     Attribute declarations can now be marked {inheritable}.
@@ -4471,7 +4174,6 @@ def test_s3_12v11_s3_12v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_12v10_s3_12v11i(save_xml):
     """
     Basic type alternatives. Selection of the alternative type is
@@ -4487,7 +4189,6 @@ def test_s3_12v10_s3_12v11i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_12v09_s3_12v09i(save_xml):
     """
     Basic type alternatives.
@@ -4501,7 +4202,6 @@ def test_s3_12v09_s3_12v09i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_12v08_s3_12v08i(save_xml):
     """
     Basic type alternatives. Selection of the alternative type is
@@ -4517,7 +4217,6 @@ def test_s3_12v08_s3_12v08i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_12v07_s3_12v07i(save_xml):
     """
     Basic type alternatives. Selection of the alternative type is
@@ -4532,7 +4231,6 @@ def test_s3_12v07_s3_12v07i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_12v06_s3_12v06i(save_xml):
     """
     Basic type alternatives. Selection of the alternative type is
@@ -4548,7 +4246,6 @@ def test_s3_12v06_s3_12v06i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_12v05_s3_12v05i(save_xml):
     """
     Basic type alternatives. Selection of the alternative type is
@@ -4564,7 +4261,6 @@ def test_s3_12v05_s3_12v05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_12v04_s3_12v04i(save_xml):
     """
     Basic type alternatives. For the first alternative type, the attribute
@@ -4585,7 +4281,6 @@ def test_s3_12v04_s3_12v04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_12v03_s3_12v03i(save_xml):
     """
     Basic type alternatives. The alternative type extends the base
@@ -4601,7 +4296,6 @@ def test_s3_12v03_s3_12v03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_12v02_s3_12v02i(save_xml):
     """
     Basic type alternatives. alternative element with a complexType child
@@ -4618,7 +4312,6 @@ def test_s3_12v02_s3_12v02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_12v01_s3_12v01i(save_xml):
     """
     Basic type alternatives. The alternative type extends the base
@@ -4634,7 +4327,6 @@ def test_s3_12v01_s3_12v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_type_alternatives_006_type_alternatives_006_2(save_xml):
     """
     Demonstrates XML Schema 1.1 type-alternatives.
@@ -4648,7 +4340,6 @@ def test_type_alternatives_006_type_alternatives_006_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_type_alternatives_006_type_alternatives_006_3(save_xml):
     """
     Demonstrates XML Schema 1.1 type-alternatives.
@@ -4662,7 +4353,6 @@ def test_type_alternatives_006_type_alternatives_006_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_type_alternatives_005_type_alternatives_005_2(save_xml):
     """
     Demonstrates XML Schema 1.1 type-alternatives. Using inheritable
@@ -4677,7 +4367,6 @@ def test_type_alternatives_005_type_alternatives_005_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_type_alternatives_005_type_alternatives_005_3(save_xml):
     """
@@ -4693,7 +4382,6 @@ def test_type_alternatives_005_type_alternatives_005_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_type_alternatives_004_type_alternatives_004_2(save_xml):
     """
     Demonstrates XML Schema 1.1 type-alternatives. Using inheritable
@@ -4708,7 +4396,6 @@ def test_type_alternatives_004_type_alternatives_004_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_type_alternatives_004_type_alternatives_004_3(save_xml):
     """
@@ -4724,7 +4411,6 @@ def test_type_alternatives_004_type_alternatives_004_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_type_alternatives_003_type_alternatives_003_2(save_xml):
     """
     Demonstrates XML Schema 1.1 type-alternatives. In this example, schema
@@ -4740,7 +4426,6 @@ def test_type_alternatives_003_type_alternatives_003_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_type_alternatives_002_type_alternatives_002_2(save_xml):
     """
     Demonstrates XML Schema 1.1 type-alternatives.
@@ -4754,7 +4439,6 @@ def test_type_alternatives_002_type_alternatives_002_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_type_alternatives_001_type_alternatives_001_2(save_xml):
     """
     Demonstrates XML Schema 1.1 type-alternatives.
@@ -4768,7 +4452,6 @@ def test_type_alternatives_001_type_alternatives_001_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_16_2ii07_s3_16_2ii07i(save_xml):
     """
@@ -4783,7 +4466,6 @@ def test_s3_16_2ii07_s3_16_2ii07i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_16_2ii06_s3_16_2ii06i(save_xml):
     """
@@ -4798,7 +4480,6 @@ def test_s3_16_2ii06_s3_16_2ii06i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_16_2ii05_s3_16_2ii05i(save_xml):
     """
@@ -4813,7 +4494,6 @@ def test_s3_16_2ii05_s3_16_2ii05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_16_2ii04_s3_16_2ii04i(save_xml):
     """
@@ -4828,7 +4508,6 @@ def test_s3_16_2ii04_s3_16_2ii04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_16_2ii03_s3_16_2ii03i(save_xml):
     """
@@ -4843,7 +4522,6 @@ def test_s3_16_2ii03_s3_16_2ii03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_16_2ii02_s3_16_2ii02i(save_xml):
     """
@@ -4858,7 +4536,6 @@ def test_s3_16_2ii02_s3_16_2ii02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_16_2ii01_s3_16_2ii01i(save_xml):
     """
@@ -4873,7 +4550,6 @@ def test_s3_16_2ii01_s3_16_2ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_16_2v07_s3_16_2v07i(save_xml):
     """
     xsi:type used to name a member of a restricted union type
@@ -4887,7 +4563,6 @@ def test_s3_16_2v07_s3_16_2v07i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_16_2v06_s3_16_2v06i(save_xml):
     """
     Union of unions
@@ -4901,7 +4576,6 @@ def test_s3_16_2v06_s3_16_2v06i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_16_2v05_s3_16_2v05i(save_xml):
     """
     xsi:type used to name a member of a restricted union type
@@ -4915,7 +4589,6 @@ def test_s3_16_2v05_s3_16_2v05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_16_2v04_s3_16_2v04i(save_xml):
     """
     Types derived by restriction from a union type
@@ -4929,7 +4602,6 @@ def test_s3_16_2v04_s3_16_2v04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_16_2v03_s3_16_2v03i(save_xml):
     """
     tests restriction facet in intervening union
@@ -4943,7 +4615,6 @@ def test_s3_16_2v03_s3_16_2v03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_16_2v02_s3_16_2v02i(save_xml):
     """
     Types derived by restriction from a union type
@@ -4957,7 +4628,6 @@ def test_s3_16_2v02_s3_16_2v02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_16_2v01_s3_16_2v01i(save_xml):
     """
     tests restriction facet in intervening union
@@ -4971,7 +4641,6 @@ def test_s3_16_2v01_s3_16_2v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d2_4_1_2ii01_d2_4_1_2ii01i(save_xml):
     """
@@ -4986,7 +4655,6 @@ def test_d2_4_1_2ii01_d2_4_1_2ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_3_17ii01_d3_3_17ii01i(save_xml):
     """
@@ -5001,7 +4669,6 @@ def test_d3_3_17ii01_d3_3_17ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_3_17v01_d3_3_17v01i(save_xml):
     """
     test Units of length for base64Binary datatype.
@@ -5015,7 +4682,6 @@ def test_d3_3_17v01_d3_3_17v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_3_16ii02_d3_3_16ii02i(save_xml):
     """
@@ -5030,7 +4696,6 @@ def test_d3_3_16ii02_d3_3_16ii02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_3_16ii01_d3_3_16ii01i(save_xml):
     """
@@ -5045,7 +4710,6 @@ def test_d3_3_16ii01_d3_3_16ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_3_16v01_d3_3_16v01i(save_xml):
     """
     test Units of length for hexBinary datatype.
@@ -5059,7 +4723,6 @@ def test_d3_3_16v01_d3_3_16v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_24ii01_d3_4_24ii01i(save_xml):
     """
@@ -5074,7 +4737,6 @@ def test_d3_4_24ii01_d3_4_24ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_23ii01_d3_4_23ii01i(save_xml):
     """
@@ -5089,7 +4751,6 @@ def test_d3_4_23ii01_d3_4_23ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_22ii01_d3_4_22ii01i(save_xml):
     """
@@ -5104,7 +4765,6 @@ def test_d3_4_22ii01_d3_4_22ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_21ii01_d3_4_21ii01i(save_xml):
     """
@@ -5119,7 +4779,6 @@ def test_d3_4_21ii01_d3_4_21ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_24v01_d3_4_24v01i(save_xml):
     """
     The possibility of a leading sign is allowed for unsignedByte.
@@ -5133,7 +4792,6 @@ def test_d3_4_24v01_d3_4_24v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_23v01_d3_4_23v01i(save_xml):
     """
     The possibility of a leading sign is allowed for unsignedInt.
@@ -5147,7 +4805,6 @@ def test_d3_4_23v01_d3_4_23v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_22v01_d3_4_22v01i(save_xml):
     """
     The possibility of a leading sign is allowed for unsignedInt.
@@ -5161,7 +4818,6 @@ def test_d3_4_22v01_d3_4_22v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_21v01_d3_4_21v01i(save_xml):
     """
     test unsignedLong
@@ -5175,7 +4831,6 @@ def test_d3_4_21v01_d3_4_21v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_vc_009_vc_009_2(save_xml):
 
     assert_bindings(
@@ -5187,7 +4842,6 @@ def test_vc_009_vc_009_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_vc_008_vc_008_2(save_xml):
 
     assert_bindings(
@@ -5199,7 +4853,6 @@ def test_vc_008_vc_008_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_vc_007_vc_007_2(save_xml):
 
@@ -5212,7 +4865,6 @@ def test_vc_007_vc_007_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.xfail
 def test_vc_007_vc_007_3(save_xml):
 
@@ -5225,7 +4877,6 @@ def test_vc_007_vc_007_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_vc_005_vc_005_2(save_xml):
 
@@ -5238,7 +4889,6 @@ def test_vc_005_vc_005_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_vc_003_vc_003_2(save_xml):
 
@@ -5251,7 +4901,6 @@ def test_vc_003_vc_003_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_vc_001_vc_001_2(save_xml):
 
     assert_bindings(
@@ -5263,7 +4912,6 @@ def test_vc_001_vc_001_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_vc_001_vc_001_3(save_xml):
 
@@ -5276,7 +4924,6 @@ def test_vc_001_vc_001_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_1ii09_s3_10_1ii09i(save_xml):
     """
@@ -5293,7 +4940,6 @@ def test_s3_10_1ii09_s3_10_1ii09i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_1ii08_s3_10_1ii08i(save_xml):
     """
@@ -5309,7 +4955,6 @@ def test_s3_10_1ii08_s3_10_1ii08i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_1ii07_s3_10_1ii07i(save_xml):
     """
@@ -5324,7 +4969,6 @@ def test_s3_10_1ii07_s3_10_1ii07i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_1ii06_s3_10_1ii06i(save_xml):
     """
@@ -5340,7 +4984,6 @@ def test_s3_10_1ii06_s3_10_1ii06i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_1ii04_s3_10_1ii04i(save_xml):
     """
@@ -5356,7 +4999,6 @@ def test_s3_10_1ii04_s3_10_1ii04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_1ii03_s3_10_1ii03i(save_xml):
     """
@@ -5372,7 +5014,6 @@ def test_s3_10_1ii03_s3_10_1ii03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_1ii02_s3_10_1ii02i(save_xml):
     """
@@ -5388,7 +5029,6 @@ def test_s3_10_1ii02_s3_10_1ii02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_10_1ii01_s3_10_1ii01i(save_xml):
     """
@@ -5404,7 +5044,6 @@ def test_s3_10_1ii01_s3_10_1ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_10_1v07_s3_10_1v07i(save_xml):
     """
     skip wildcards now excluded from EDC constraint
@@ -5418,7 +5057,6 @@ def test_s3_10_1v07_s3_10_1v07i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_10_1v06_s3_10_1v06i(save_xml):
     """
     the keyword ##definedSibling can be used to exclude all elements
@@ -5434,7 +5072,6 @@ def test_s3_10_1v06_s3_10_1v06i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_10_1v05_s3_10_1v05i(save_xml):
     """
     the keyword ##definedSibling can be used to exclude all elements
@@ -5449,7 +5086,6 @@ def test_s3_10_1v05_s3_10_1v05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_10_1v04_s3_10_1v04i(save_xml):
     """
     Tests weakened wildcard (tests whether error occurs on violation of
@@ -5464,7 +5100,6 @@ def test_s3_10_1v04_s3_10_1v04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_10_1v03_s3_10_1v03i(save_xml):
     """
     Tests namespace attribute in wildcard
@@ -5478,7 +5113,6 @@ def test_s3_10_1v03_s3_10_1v03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_10_1v02_s3_10_1v02i(save_xml):
     """
     Tests notQName and notNamespace list
@@ -5492,7 +5126,6 @@ def test_s3_10_1v02_s3_10_1v02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_10_1v01_s3_10_1v01i(save_xml):
     """
     Tests notQName="##defined"
@@ -5506,7 +5139,6 @@ def test_s3_10_1v01_s3_10_1v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_6ii04_d3_4_6ii04i(save_xml):
     r"""
@@ -5521,7 +5153,6 @@ def test_d3_4_6ii04_d3_4_6ii04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_6ii03_d3_4_6ii03i(save_xml):
     r"""
@@ -5536,7 +5167,6 @@ def test_d3_4_6ii03_d3_4_6ii03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_6ii02_d3_4_6ii02i(save_xml):
     """
@@ -5551,7 +5181,6 @@ def test_d3_4_6ii02_d3_4_6ii02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_6ii01_d3_4_6ii01i(save_xml):
     """
@@ -5566,7 +5195,6 @@ def test_d3_4_6ii01_d3_4_6ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_6v07_d3_4_6v07i(save_xml):
     """
     Use of newly allowed name characters in names of schema components
@@ -5581,7 +5209,6 @@ def test_d3_4_6v07_d3_4_6v07i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_6v06_d3_4_6v06i(save_xml):
     """
     Use of newly allowed name characters in names of schema components
@@ -5596,7 +5223,6 @@ def test_d3_4_6v06_d3_4_6v06i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_6v05_d3_4_6v05i(save_xml):
     """
     Use of newly allowed name characters in names of schema components
@@ -5611,7 +5237,6 @@ def test_d3_4_6v05_d3_4_6v05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_6v04_d3_4_6v04i(save_xml):
     r"""
     effect of \i in regular expressions
@@ -5625,7 +5250,6 @@ def test_d3_4_6v04_d3_4_6v04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_6v03_d3_4_6v03i(save_xml):
     r"""
     effect of \i in regular expressions
@@ -5639,7 +5263,6 @@ def test_d3_4_6v03_d3_4_6v03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_6v02_d3_4_6v02i(save_xml):
     """
     value space of xs:Name and related types (test NCName)
@@ -5653,7 +5276,6 @@ def test_d3_4_6v02_d3_4_6v02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_6v01_d3_4_6v01i(save_xml):
     """
     value space of xs:Name and related types (test Name)
@@ -5667,7 +5289,6 @@ def test_d3_4_6v01_d3_4_6v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_11_2ii07_s3_11_2ii07i(save_xml):
     """
@@ -5682,7 +5303,6 @@ def test_s3_11_2ii07_s3_11_2ii07i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_11_2ii06_s3_11_2ii06i(save_xml):
     """
@@ -5697,7 +5317,6 @@ def test_s3_11_2ii06_s3_11_2ii06i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_11_2ii05_s3_11_2ii05i(save_xml):
     """
@@ -5712,7 +5331,6 @@ def test_s3_11_2ii05_s3_11_2ii05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_11_2ii04_s3_11_2ii04i(save_xml):
     """
@@ -5727,7 +5345,6 @@ def test_s3_11_2ii04_s3_11_2ii04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_11_2ii03_s3_11_2ii03i(save_xml):
     """
@@ -5742,7 +5359,6 @@ def test_s3_11_2ii03_s3_11_2ii03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_11_2ii02_s3_11_2ii02i(save_xml):
     """
@@ -5757,7 +5373,6 @@ def test_s3_11_2ii02_s3_11_2ii02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_s3_11_2ii01_s3_11_2ii01i(save_xml):
     """
@@ -5772,7 +5387,6 @@ def test_s3_11_2ii01_s3_11_2ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_11_2v06_s3_11_2v06i(save_xml):
     """
     key/keyref selection expressions_2
@@ -5786,7 +5400,6 @@ def test_s3_11_2v06_s3_11_2v06i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_11_2v05_s3_11_2v05i(save_xml):
     """
     key/keyref selection expressions_1
@@ -5800,7 +5413,6 @@ def test_s3_11_2v05_s3_11_2v05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_11_2v04_s3_11_2v04i(save_xml):
     """
     key selection expressions_2
@@ -5814,7 +5426,6 @@ def test_s3_11_2v04_s3_11_2v04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_11_2v03_s3_11_2v03i(save_xml):
     """
     key selection expressions_1
@@ -5828,7 +5439,6 @@ def test_s3_11_2v03_s3_11_2v03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_11_2v02_s3_11_2v02i(save_xml):
     """
     unique selection expressions 2
@@ -5842,7 +5452,6 @@ def test_s3_11_2v02_s3_11_2v02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_s3_11_2v01_s3_11_2v01i(save_xml):
     """
     unique selection expressions
@@ -5856,7 +5465,6 @@ def test_s3_11_2v01_s3_11_2v01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_26ii07_d3_4_26ii07i(save_xml):
     """
@@ -5872,7 +5480,6 @@ def test_d3_4_26ii07_d3_4_26ii07i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_26ii06_d3_4_26ii06i(save_xml):
     """
@@ -5887,7 +5494,6 @@ def test_d3_4_26ii06_d3_4_26ii06i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_26ii05_d3_4_26ii05i(save_xml):
     """
@@ -5903,7 +5509,6 @@ def test_d3_4_26ii05_d3_4_26ii05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_26ii04_d3_4_26ii04i(save_xml):
     """
@@ -5918,7 +5523,6 @@ def test_d3_4_26ii04_d3_4_26ii04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_26ii03_d3_4_26ii03i(save_xml):
     """
@@ -5933,7 +5537,6 @@ def test_d3_4_26ii03_d3_4_26ii03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_26ii02_d3_4_26ii02i(save_xml):
     """
@@ -5948,7 +5551,6 @@ def test_d3_4_26ii02_d3_4_26ii02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_d3_4_26ii01_d3_4_26ii01i(save_xml):
     """
@@ -5963,7 +5565,6 @@ def test_d3_4_26ii01_d3_4_26ii01i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_26v06_d3_4_26v06i(save_xml):
     """
     Pattern is a valid facet for yearMonthDuration
@@ -5977,7 +5578,6 @@ def test_d3_4_26v06_d3_4_26v06i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_26v05_d3_4_26v05i(save_xml):
     """
     Additional tests for yearMonth Duration and its facets with (min|max)
@@ -5992,7 +5592,6 @@ def test_d3_4_26v05_d3_4_26v05i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_26v04_d3_4_26v04i(save_xml):
     """
     Tests the simpleType yearMonthDuration and its facets with (min|max)
@@ -6007,7 +5606,6 @@ def test_d3_4_26v04_d3_4_26v04i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_26v03_d3_4_26v03i(save_xml):
     """
     Tests yearMonthDuration used in unions
@@ -6021,7 +5619,6 @@ def test_d3_4_26v03_d3_4_26v03i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_26v02_d3_4_26v02i(save_xml):
     """
     Tests the simpleType decimal and its facets and its use in attributes
@@ -6035,7 +5632,6 @@ def test_d3_4_26v02_d3_4_26v02i(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_d3_4_26v01_d3_4_26v01i(save_xml):
     """
     Tests the simpleType yearMonthDuration and its facets and its use in

@@ -3,7 +3,6 @@ import pytest
 from tests.utils import assert_bindings
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_negative_integer_min_exclusive_5_nistxml_sv_ii_atomic_negative_integer_min_exclusive_1_1(save_xml):
     """
@@ -19,7 +18,6 @@ def test_atomic_negative_integer_min_exclusive_5_nistxml_sv_ii_atomic_negative_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_9_nistxml_sv_ii_atomic_non_positive_integer_enumeration_5_1(save_xml):
     """
@@ -34,7 +32,6 @@ def test_atomic_non_positive_integer_enumeration_9_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_9_nistxml_sv_ii_atomic_non_positive_integer_enumeration_5_2(save_xml):
     """
@@ -49,7 +46,6 @@ def test_atomic_non_positive_integer_enumeration_9_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_9_nistxml_sv_ii_atomic_non_positive_integer_enumeration_5_3(save_xml):
     """
@@ -64,7 +60,6 @@ def test_atomic_non_positive_integer_enumeration_9_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_9_nistxml_sv_ii_atomic_non_positive_integer_enumeration_5_4(save_xml):
     """
@@ -79,7 +74,6 @@ def test_atomic_non_positive_integer_enumeration_9_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_9_nistxml_sv_ii_atomic_non_positive_integer_enumeration_5_5(save_xml):
     """
@@ -94,7 +88,6 @@ def test_atomic_non_positive_integer_enumeration_9_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_8_nistxml_sv_ii_atomic_non_positive_integer_enumeration_4_1(save_xml):
     """
@@ -109,7 +102,6 @@ def test_atomic_non_positive_integer_enumeration_8_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_8_nistxml_sv_ii_atomic_non_positive_integer_enumeration_4_2(save_xml):
     """
@@ -124,7 +116,6 @@ def test_atomic_non_positive_integer_enumeration_8_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_8_nistxml_sv_ii_atomic_non_positive_integer_enumeration_4_3(save_xml):
     """
@@ -139,7 +130,6 @@ def test_atomic_non_positive_integer_enumeration_8_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_8_nistxml_sv_ii_atomic_non_positive_integer_enumeration_4_4(save_xml):
     """
@@ -154,7 +144,6 @@ def test_atomic_non_positive_integer_enumeration_8_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_8_nistxml_sv_ii_atomic_non_positive_integer_enumeration_4_5(save_xml):
     """
@@ -169,7 +158,6 @@ def test_atomic_non_positive_integer_enumeration_8_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_7_nistxml_sv_ii_atomic_non_positive_integer_enumeration_3_1(save_xml):
     """
@@ -184,7 +172,6 @@ def test_atomic_non_positive_integer_enumeration_7_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_7_nistxml_sv_ii_atomic_non_positive_integer_enumeration_3_2(save_xml):
     """
@@ -199,7 +186,6 @@ def test_atomic_non_positive_integer_enumeration_7_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_7_nistxml_sv_ii_atomic_non_positive_integer_enumeration_3_3(save_xml):
     """
@@ -214,7 +200,6 @@ def test_atomic_non_positive_integer_enumeration_7_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_7_nistxml_sv_ii_atomic_non_positive_integer_enumeration_3_4(save_xml):
     """
@@ -229,7 +214,6 @@ def test_atomic_non_positive_integer_enumeration_7_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_7_nistxml_sv_ii_atomic_non_positive_integer_enumeration_3_5(save_xml):
     """
@@ -244,7 +228,6 @@ def test_atomic_non_positive_integer_enumeration_7_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_6_nistxml_sv_ii_atomic_non_positive_integer_enumeration_2_1(save_xml):
     """
@@ -259,7 +242,6 @@ def test_atomic_non_positive_integer_enumeration_6_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_6_nistxml_sv_ii_atomic_non_positive_integer_enumeration_2_2(save_xml):
     """
@@ -274,7 +256,6 @@ def test_atomic_non_positive_integer_enumeration_6_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_6_nistxml_sv_ii_atomic_non_positive_integer_enumeration_2_3(save_xml):
     """
@@ -289,7 +270,6 @@ def test_atomic_non_positive_integer_enumeration_6_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_6_nistxml_sv_ii_atomic_non_positive_integer_enumeration_2_4(save_xml):
     """
@@ -304,7 +284,6 @@ def test_atomic_non_positive_integer_enumeration_6_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_6_nistxml_sv_ii_atomic_non_positive_integer_enumeration_2_5(save_xml):
     """
@@ -319,7 +298,6 @@ def test_atomic_non_positive_integer_enumeration_6_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_5_nistxml_sv_ii_atomic_non_positive_integer_enumeration_1_1(save_xml):
     """
@@ -334,7 +312,6 @@ def test_atomic_non_positive_integer_enumeration_5_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_5_nistxml_sv_ii_atomic_non_positive_integer_enumeration_1_2(save_xml):
     """
@@ -349,7 +326,6 @@ def test_atomic_non_positive_integer_enumeration_5_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_5_nistxml_sv_ii_atomic_non_positive_integer_enumeration_1_3(save_xml):
     """
@@ -364,7 +340,6 @@ def test_atomic_non_positive_integer_enumeration_5_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_5_nistxml_sv_ii_atomic_non_positive_integer_enumeration_1_4(save_xml):
     """
@@ -379,7 +354,6 @@ def test_atomic_non_positive_integer_enumeration_5_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_enumeration_5_nistxml_sv_ii_atomic_non_positive_integer_enumeration_1_5(save_xml):
     """
@@ -394,7 +368,6 @@ def test_atomic_non_positive_integer_enumeration_5_nistxml_sv_ii_atomic_non_posi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_9_nistxml_sv_ii_atomic_non_positive_integer_pattern_5_1(save_xml):
     r"""
@@ -410,7 +383,6 @@ def test_atomic_non_positive_integer_pattern_9_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_9_nistxml_sv_ii_atomic_non_positive_integer_pattern_5_2(save_xml):
     r"""
@@ -426,7 +398,6 @@ def test_atomic_non_positive_integer_pattern_9_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_9_nistxml_sv_ii_atomic_non_positive_integer_pattern_5_3(save_xml):
     r"""
@@ -442,7 +413,6 @@ def test_atomic_non_positive_integer_pattern_9_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_9_nistxml_sv_ii_atomic_non_positive_integer_pattern_5_4(save_xml):
     r"""
@@ -458,7 +428,6 @@ def test_atomic_non_positive_integer_pattern_9_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_9_nistxml_sv_ii_atomic_non_positive_integer_pattern_5_5(save_xml):
     r"""
@@ -474,7 +443,6 @@ def test_atomic_non_positive_integer_pattern_9_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_8_nistxml_sv_ii_atomic_non_positive_integer_pattern_4_1(save_xml):
     r"""
@@ -490,7 +458,6 @@ def test_atomic_non_positive_integer_pattern_8_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_8_nistxml_sv_ii_atomic_non_positive_integer_pattern_4_2(save_xml):
     r"""
@@ -506,7 +473,6 @@ def test_atomic_non_positive_integer_pattern_8_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_8_nistxml_sv_ii_atomic_non_positive_integer_pattern_4_3(save_xml):
     r"""
@@ -522,7 +488,6 @@ def test_atomic_non_positive_integer_pattern_8_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_8_nistxml_sv_ii_atomic_non_positive_integer_pattern_4_4(save_xml):
     r"""
@@ -538,7 +503,6 @@ def test_atomic_non_positive_integer_pattern_8_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_8_nistxml_sv_ii_atomic_non_positive_integer_pattern_4_5(save_xml):
     r"""
@@ -554,7 +518,6 @@ def test_atomic_non_positive_integer_pattern_8_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_7_nistxml_sv_ii_atomic_non_positive_integer_pattern_3_1(save_xml):
     r"""
@@ -570,7 +533,6 @@ def test_atomic_non_positive_integer_pattern_7_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_7_nistxml_sv_ii_atomic_non_positive_integer_pattern_3_2(save_xml):
     r"""
@@ -586,7 +548,6 @@ def test_atomic_non_positive_integer_pattern_7_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_7_nistxml_sv_ii_atomic_non_positive_integer_pattern_3_3(save_xml):
     r"""
@@ -602,7 +563,6 @@ def test_atomic_non_positive_integer_pattern_7_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_7_nistxml_sv_ii_atomic_non_positive_integer_pattern_3_4(save_xml):
     r"""
@@ -618,7 +578,6 @@ def test_atomic_non_positive_integer_pattern_7_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_7_nistxml_sv_ii_atomic_non_positive_integer_pattern_3_5(save_xml):
     r"""
@@ -634,7 +593,6 @@ def test_atomic_non_positive_integer_pattern_7_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_6_nistxml_sv_ii_atomic_non_positive_integer_pattern_2_1(save_xml):
     r"""
@@ -650,7 +608,6 @@ def test_atomic_non_positive_integer_pattern_6_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_6_nistxml_sv_ii_atomic_non_positive_integer_pattern_2_2(save_xml):
     r"""
@@ -666,7 +623,6 @@ def test_atomic_non_positive_integer_pattern_6_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_6_nistxml_sv_ii_atomic_non_positive_integer_pattern_2_3(save_xml):
     r"""
@@ -682,7 +638,6 @@ def test_atomic_non_positive_integer_pattern_6_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_6_nistxml_sv_ii_atomic_non_positive_integer_pattern_2_4(save_xml):
     r"""
@@ -698,7 +653,6 @@ def test_atomic_non_positive_integer_pattern_6_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_6_nistxml_sv_ii_atomic_non_positive_integer_pattern_2_5(save_xml):
     r"""
@@ -714,7 +668,6 @@ def test_atomic_non_positive_integer_pattern_6_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_5_nistxml_sv_ii_atomic_non_positive_integer_pattern_1_1(save_xml):
     r"""
@@ -730,7 +683,6 @@ def test_atomic_non_positive_integer_pattern_5_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_5_nistxml_sv_ii_atomic_non_positive_integer_pattern_1_2(save_xml):
     r"""
@@ -746,7 +698,6 @@ def test_atomic_non_positive_integer_pattern_5_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_5_nistxml_sv_ii_atomic_non_positive_integer_pattern_1_3(save_xml):
     r"""
@@ -762,7 +713,6 @@ def test_atomic_non_positive_integer_pattern_5_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_5_nistxml_sv_ii_atomic_non_positive_integer_pattern_1_4(save_xml):
     r"""
@@ -778,7 +728,6 @@ def test_atomic_non_positive_integer_pattern_5_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_pattern_5_nistxml_sv_ii_atomic_non_positive_integer_pattern_1_5(save_xml):
     r"""
@@ -794,7 +743,6 @@ def test_atomic_non_positive_integer_pattern_5_nistxml_sv_ii_atomic_non_positive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_max_exclusive_9_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_5_1(save_xml):
     """
@@ -810,7 +758,6 @@ def test_atomic_non_positive_integer_max_exclusive_9_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_4_1(save_xml):
     """
@@ -826,7 +773,6 @@ def test_atomic_non_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_4_2(save_xml):
     """
@@ -842,7 +788,6 @@ def test_atomic_non_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_4_3(save_xml):
     """
@@ -858,7 +803,6 @@ def test_atomic_non_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_4_4(save_xml):
     """
@@ -874,7 +818,6 @@ def test_atomic_non_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_4_5(save_xml):
     """
@@ -890,7 +833,6 @@ def test_atomic_non_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_3_1(save_xml):
     """
@@ -906,7 +848,6 @@ def test_atomic_non_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_3_2(save_xml):
     """
@@ -922,7 +863,6 @@ def test_atomic_non_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_3_3(save_xml):
     """
@@ -938,7 +878,6 @@ def test_atomic_non_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_3_4(save_xml):
     """
@@ -954,7 +893,6 @@ def test_atomic_non_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_3_5(save_xml):
     """
@@ -970,7 +908,6 @@ def test_atomic_non_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_2_1(save_xml):
     """
@@ -986,7 +923,6 @@ def test_atomic_non_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_2_2(save_xml):
     """
@@ -1002,7 +938,6 @@ def test_atomic_non_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_2_3(save_xml):
     """
@@ -1018,7 +953,6 @@ def test_atomic_non_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_2_4(save_xml):
     """
@@ -1034,7 +968,6 @@ def test_atomic_non_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_2_5(save_xml):
     """
@@ -1050,7 +983,6 @@ def test_atomic_non_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_1_1(save_xml):
     """
@@ -1066,7 +998,6 @@ def test_atomic_non_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_1_2(save_xml):
     """
@@ -1082,7 +1013,6 @@ def test_atomic_non_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_1_3(save_xml):
     """
@@ -1098,7 +1028,6 @@ def test_atomic_non_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_1_4(save_xml):
     """
@@ -1114,7 +1043,6 @@ def test_atomic_non_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_positive_integer_max_exclusive_1_5(save_xml):
     """
@@ -1130,7 +1058,6 @@ def test_atomic_non_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_5_1(save_xml):
     """
@@ -1146,7 +1073,6 @@ def test_atomic_non_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_5_2(save_xml):
     """
@@ -1162,7 +1088,6 @@ def test_atomic_non_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_5_3(save_xml):
     """
@@ -1178,7 +1103,6 @@ def test_atomic_non_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_5_4(save_xml):
     """
@@ -1194,7 +1118,6 @@ def test_atomic_non_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_5_5(save_xml):
     """
@@ -1210,7 +1133,6 @@ def test_atomic_non_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_4_1(save_xml):
     """
@@ -1226,7 +1148,6 @@ def test_atomic_non_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_4_2(save_xml):
     """
@@ -1242,7 +1163,6 @@ def test_atomic_non_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_4_3(save_xml):
     """
@@ -1258,7 +1178,6 @@ def test_atomic_non_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_4_4(save_xml):
     """
@@ -1274,7 +1193,6 @@ def test_atomic_non_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_4_5(save_xml):
     """
@@ -1290,7 +1208,6 @@ def test_atomic_non_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_3_1(save_xml):
     """
@@ -1306,7 +1223,6 @@ def test_atomic_non_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_3_2(save_xml):
     """
@@ -1322,7 +1238,6 @@ def test_atomic_non_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_3_3(save_xml):
     """
@@ -1338,7 +1253,6 @@ def test_atomic_non_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_3_4(save_xml):
     """
@@ -1354,7 +1268,6 @@ def test_atomic_non_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_3_5(save_xml):
     """
@@ -1370,7 +1283,6 @@ def test_atomic_non_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_2_1(save_xml):
     """
@@ -1386,7 +1298,6 @@ def test_atomic_non_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_2_2(save_xml):
     """
@@ -1402,7 +1313,6 @@ def test_atomic_non_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_2_3(save_xml):
     """
@@ -1418,7 +1328,6 @@ def test_atomic_non_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_2_4(save_xml):
     """
@@ -1434,7 +1343,6 @@ def test_atomic_non_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_2_5(save_xml):
     """
@@ -1450,7 +1358,6 @@ def test_atomic_non_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_non_positive_integer_min_exclusive_5_nistxml_sv_ii_atomic_non_positive_integer_min_exclusive_1_1(save_xml):
     """
@@ -1466,7 +1373,6 @@ def test_atomic_non_positive_integer_min_exclusive_5_nistxml_sv_ii_atomic_non_po
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_9_nistxml_sv_ii_atomic_integer_enumeration_5_1(save_xml):
     """
@@ -1481,7 +1387,6 @@ def test_atomic_integer_enumeration_9_nistxml_sv_ii_atomic_integer_enumeration_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_9_nistxml_sv_ii_atomic_integer_enumeration_5_2(save_xml):
     """
@@ -1496,7 +1401,6 @@ def test_atomic_integer_enumeration_9_nistxml_sv_ii_atomic_integer_enumeration_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_9_nistxml_sv_ii_atomic_integer_enumeration_5_3(save_xml):
     """
@@ -1511,7 +1415,6 @@ def test_atomic_integer_enumeration_9_nistxml_sv_ii_atomic_integer_enumeration_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_9_nistxml_sv_ii_atomic_integer_enumeration_5_4(save_xml):
     """
@@ -1526,7 +1429,6 @@ def test_atomic_integer_enumeration_9_nistxml_sv_ii_atomic_integer_enumeration_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_9_nistxml_sv_ii_atomic_integer_enumeration_5_5(save_xml):
     """
@@ -1541,7 +1443,6 @@ def test_atomic_integer_enumeration_9_nistxml_sv_ii_atomic_integer_enumeration_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_8_nistxml_sv_ii_atomic_integer_enumeration_4_1(save_xml):
     """
@@ -1556,7 +1457,6 @@ def test_atomic_integer_enumeration_8_nistxml_sv_ii_atomic_integer_enumeration_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_8_nistxml_sv_ii_atomic_integer_enumeration_4_2(save_xml):
     """
@@ -1571,7 +1471,6 @@ def test_atomic_integer_enumeration_8_nistxml_sv_ii_atomic_integer_enumeration_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_8_nistxml_sv_ii_atomic_integer_enumeration_4_3(save_xml):
     """
@@ -1586,7 +1485,6 @@ def test_atomic_integer_enumeration_8_nistxml_sv_ii_atomic_integer_enumeration_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_8_nistxml_sv_ii_atomic_integer_enumeration_4_4(save_xml):
     """
@@ -1601,7 +1499,6 @@ def test_atomic_integer_enumeration_8_nistxml_sv_ii_atomic_integer_enumeration_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_8_nistxml_sv_ii_atomic_integer_enumeration_4_5(save_xml):
     """
@@ -1616,7 +1513,6 @@ def test_atomic_integer_enumeration_8_nistxml_sv_ii_atomic_integer_enumeration_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_7_nistxml_sv_ii_atomic_integer_enumeration_3_1(save_xml):
     """
@@ -1631,7 +1527,6 @@ def test_atomic_integer_enumeration_7_nistxml_sv_ii_atomic_integer_enumeration_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_7_nistxml_sv_ii_atomic_integer_enumeration_3_2(save_xml):
     """
@@ -1646,7 +1541,6 @@ def test_atomic_integer_enumeration_7_nistxml_sv_ii_atomic_integer_enumeration_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_7_nistxml_sv_ii_atomic_integer_enumeration_3_3(save_xml):
     """
@@ -1661,7 +1555,6 @@ def test_atomic_integer_enumeration_7_nistxml_sv_ii_atomic_integer_enumeration_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_7_nistxml_sv_ii_atomic_integer_enumeration_3_4(save_xml):
     """
@@ -1676,7 +1569,6 @@ def test_atomic_integer_enumeration_7_nistxml_sv_ii_atomic_integer_enumeration_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_7_nistxml_sv_ii_atomic_integer_enumeration_3_5(save_xml):
     """
@@ -1691,7 +1583,6 @@ def test_atomic_integer_enumeration_7_nistxml_sv_ii_atomic_integer_enumeration_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_6_nistxml_sv_ii_atomic_integer_enumeration_2_1(save_xml):
     """
@@ -1706,7 +1597,6 @@ def test_atomic_integer_enumeration_6_nistxml_sv_ii_atomic_integer_enumeration_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_6_nistxml_sv_ii_atomic_integer_enumeration_2_2(save_xml):
     """
@@ -1721,7 +1611,6 @@ def test_atomic_integer_enumeration_6_nistxml_sv_ii_atomic_integer_enumeration_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_6_nistxml_sv_ii_atomic_integer_enumeration_2_3(save_xml):
     """
@@ -1736,7 +1625,6 @@ def test_atomic_integer_enumeration_6_nistxml_sv_ii_atomic_integer_enumeration_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_6_nistxml_sv_ii_atomic_integer_enumeration_2_4(save_xml):
     """
@@ -1751,7 +1639,6 @@ def test_atomic_integer_enumeration_6_nistxml_sv_ii_atomic_integer_enumeration_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_6_nistxml_sv_ii_atomic_integer_enumeration_2_5(save_xml):
     """
@@ -1766,7 +1653,6 @@ def test_atomic_integer_enumeration_6_nistxml_sv_ii_atomic_integer_enumeration_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_5_nistxml_sv_ii_atomic_integer_enumeration_1_1(save_xml):
     """
@@ -1781,7 +1667,6 @@ def test_atomic_integer_enumeration_5_nistxml_sv_ii_atomic_integer_enumeration_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_5_nistxml_sv_ii_atomic_integer_enumeration_1_2(save_xml):
     """
@@ -1796,7 +1681,6 @@ def test_atomic_integer_enumeration_5_nistxml_sv_ii_atomic_integer_enumeration_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_5_nistxml_sv_ii_atomic_integer_enumeration_1_3(save_xml):
     """
@@ -1811,7 +1695,6 @@ def test_atomic_integer_enumeration_5_nistxml_sv_ii_atomic_integer_enumeration_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_5_nistxml_sv_ii_atomic_integer_enumeration_1_4(save_xml):
     """
@@ -1826,7 +1709,6 @@ def test_atomic_integer_enumeration_5_nistxml_sv_ii_atomic_integer_enumeration_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_enumeration_5_nistxml_sv_ii_atomic_integer_enumeration_1_5(save_xml):
     """
@@ -1841,7 +1723,6 @@ def test_atomic_integer_enumeration_5_nistxml_sv_ii_atomic_integer_enumeration_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_9_nistxml_sv_ii_atomic_integer_pattern_5_1(save_xml):
     r"""
@@ -1856,7 +1737,6 @@ def test_atomic_integer_pattern_9_nistxml_sv_ii_atomic_integer_pattern_5_1(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_9_nistxml_sv_ii_atomic_integer_pattern_5_2(save_xml):
     r"""
@@ -1871,7 +1751,6 @@ def test_atomic_integer_pattern_9_nistxml_sv_ii_atomic_integer_pattern_5_2(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_9_nistxml_sv_ii_atomic_integer_pattern_5_3(save_xml):
     r"""
@@ -1886,7 +1765,6 @@ def test_atomic_integer_pattern_9_nistxml_sv_ii_atomic_integer_pattern_5_3(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_9_nistxml_sv_ii_atomic_integer_pattern_5_4(save_xml):
     r"""
@@ -1901,7 +1779,6 @@ def test_atomic_integer_pattern_9_nistxml_sv_ii_atomic_integer_pattern_5_4(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_9_nistxml_sv_ii_atomic_integer_pattern_5_5(save_xml):
     r"""
@@ -1916,7 +1793,6 @@ def test_atomic_integer_pattern_9_nistxml_sv_ii_atomic_integer_pattern_5_5(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_8_nistxml_sv_ii_atomic_integer_pattern_4_1(save_xml):
     r"""
@@ -1931,7 +1807,6 @@ def test_atomic_integer_pattern_8_nistxml_sv_ii_atomic_integer_pattern_4_1(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_8_nistxml_sv_ii_atomic_integer_pattern_4_2(save_xml):
     r"""
@@ -1946,7 +1821,6 @@ def test_atomic_integer_pattern_8_nistxml_sv_ii_atomic_integer_pattern_4_2(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_8_nistxml_sv_ii_atomic_integer_pattern_4_3(save_xml):
     r"""
@@ -1961,7 +1835,6 @@ def test_atomic_integer_pattern_8_nistxml_sv_ii_atomic_integer_pattern_4_3(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_8_nistxml_sv_ii_atomic_integer_pattern_4_4(save_xml):
     r"""
@@ -1976,7 +1849,6 @@ def test_atomic_integer_pattern_8_nistxml_sv_ii_atomic_integer_pattern_4_4(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_8_nistxml_sv_ii_atomic_integer_pattern_4_5(save_xml):
     r"""
@@ -1991,7 +1863,6 @@ def test_atomic_integer_pattern_8_nistxml_sv_ii_atomic_integer_pattern_4_5(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_7_nistxml_sv_ii_atomic_integer_pattern_3_1(save_xml):
     r"""
@@ -2006,7 +1877,6 @@ def test_atomic_integer_pattern_7_nistxml_sv_ii_atomic_integer_pattern_3_1(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_7_nistxml_sv_ii_atomic_integer_pattern_3_2(save_xml):
     r"""
@@ -2021,7 +1891,6 @@ def test_atomic_integer_pattern_7_nistxml_sv_ii_atomic_integer_pattern_3_2(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_7_nistxml_sv_ii_atomic_integer_pattern_3_3(save_xml):
     r"""
@@ -2036,7 +1905,6 @@ def test_atomic_integer_pattern_7_nistxml_sv_ii_atomic_integer_pattern_3_3(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_7_nistxml_sv_ii_atomic_integer_pattern_3_4(save_xml):
     r"""
@@ -2051,7 +1919,6 @@ def test_atomic_integer_pattern_7_nistxml_sv_ii_atomic_integer_pattern_3_4(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_7_nistxml_sv_ii_atomic_integer_pattern_3_5(save_xml):
     r"""
@@ -2066,7 +1933,6 @@ def test_atomic_integer_pattern_7_nistxml_sv_ii_atomic_integer_pattern_3_5(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_6_nistxml_sv_ii_atomic_integer_pattern_2_1(save_xml):
     r"""
@@ -2081,7 +1947,6 @@ def test_atomic_integer_pattern_6_nistxml_sv_ii_atomic_integer_pattern_2_1(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_6_nistxml_sv_ii_atomic_integer_pattern_2_2(save_xml):
     r"""
@@ -2096,7 +1961,6 @@ def test_atomic_integer_pattern_6_nistxml_sv_ii_atomic_integer_pattern_2_2(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_6_nistxml_sv_ii_atomic_integer_pattern_2_3(save_xml):
     r"""
@@ -2111,7 +1975,6 @@ def test_atomic_integer_pattern_6_nistxml_sv_ii_atomic_integer_pattern_2_3(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_6_nistxml_sv_ii_atomic_integer_pattern_2_4(save_xml):
     r"""
@@ -2126,7 +1989,6 @@ def test_atomic_integer_pattern_6_nistxml_sv_ii_atomic_integer_pattern_2_4(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_6_nistxml_sv_ii_atomic_integer_pattern_2_5(save_xml):
     r"""
@@ -2141,7 +2003,6 @@ def test_atomic_integer_pattern_6_nistxml_sv_ii_atomic_integer_pattern_2_5(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_5_nistxml_sv_ii_atomic_integer_pattern_1_1(save_xml):
     r"""
@@ -2157,7 +2018,6 @@ def test_atomic_integer_pattern_5_nistxml_sv_ii_atomic_integer_pattern_1_1(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_5_nistxml_sv_ii_atomic_integer_pattern_1_2(save_xml):
     r"""
@@ -2173,7 +2033,6 @@ def test_atomic_integer_pattern_5_nistxml_sv_ii_atomic_integer_pattern_1_2(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_5_nistxml_sv_ii_atomic_integer_pattern_1_3(save_xml):
     r"""
@@ -2189,7 +2048,6 @@ def test_atomic_integer_pattern_5_nistxml_sv_ii_atomic_integer_pattern_1_3(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_5_nistxml_sv_ii_atomic_integer_pattern_1_4(save_xml):
     r"""
@@ -2205,7 +2063,6 @@ def test_atomic_integer_pattern_5_nistxml_sv_ii_atomic_integer_pattern_1_4(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_pattern_5_nistxml_sv_ii_atomic_integer_pattern_1_5(save_xml):
     r"""
@@ -2221,7 +2078,6 @@ def test_atomic_integer_pattern_5_nistxml_sv_ii_atomic_integer_pattern_1_5(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_max_exclusive_9_nistxml_sv_ii_atomic_integer_max_exclusive_5_1(save_xml):
     """
@@ -2237,7 +2093,6 @@ def test_atomic_integer_max_exclusive_9_nistxml_sv_ii_atomic_integer_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_max_exclusive_8_nistxml_sv_ii_atomic_integer_max_exclusive_4_1(save_xml):
     """
@@ -2253,7 +2108,6 @@ def test_atomic_integer_max_exclusive_8_nistxml_sv_ii_atomic_integer_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_max_exclusive_8_nistxml_sv_ii_atomic_integer_max_exclusive_4_2(save_xml):
     """
@@ -2269,7 +2123,6 @@ def test_atomic_integer_max_exclusive_8_nistxml_sv_ii_atomic_integer_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_max_exclusive_8_nistxml_sv_ii_atomic_integer_max_exclusive_4_3(save_xml):
     """
@@ -2285,7 +2138,6 @@ def test_atomic_integer_max_exclusive_8_nistxml_sv_ii_atomic_integer_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_max_exclusive_8_nistxml_sv_ii_atomic_integer_max_exclusive_4_4(save_xml):
     """
@@ -2301,7 +2153,6 @@ def test_atomic_integer_max_exclusive_8_nistxml_sv_ii_atomic_integer_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_max_exclusive_8_nistxml_sv_ii_atomic_integer_max_exclusive_4_5(save_xml):
     """
@@ -2317,7 +2168,6 @@ def test_atomic_integer_max_exclusive_8_nistxml_sv_ii_atomic_integer_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_max_exclusive_7_nistxml_sv_ii_atomic_integer_max_exclusive_3_1(save_xml):
     """
@@ -2333,7 +2183,6 @@ def test_atomic_integer_max_exclusive_7_nistxml_sv_ii_atomic_integer_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_max_exclusive_7_nistxml_sv_ii_atomic_integer_max_exclusive_3_2(save_xml):
     """
@@ -2349,7 +2198,6 @@ def test_atomic_integer_max_exclusive_7_nistxml_sv_ii_atomic_integer_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_max_exclusive_7_nistxml_sv_ii_atomic_integer_max_exclusive_3_3(save_xml):
     """
@@ -2365,7 +2213,6 @@ def test_atomic_integer_max_exclusive_7_nistxml_sv_ii_atomic_integer_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_max_exclusive_7_nistxml_sv_ii_atomic_integer_max_exclusive_3_4(save_xml):
     """
@@ -2381,7 +2228,6 @@ def test_atomic_integer_max_exclusive_7_nistxml_sv_ii_atomic_integer_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_max_exclusive_7_nistxml_sv_ii_atomic_integer_max_exclusive_3_5(save_xml):
     """
@@ -2397,7 +2243,6 @@ def test_atomic_integer_max_exclusive_7_nistxml_sv_ii_atomic_integer_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_max_exclusive_6_nistxml_sv_ii_atomic_integer_max_exclusive_2_1(save_xml):
     """
@@ -2413,7 +2258,6 @@ def test_atomic_integer_max_exclusive_6_nistxml_sv_ii_atomic_integer_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_max_exclusive_6_nistxml_sv_ii_atomic_integer_max_exclusive_2_2(save_xml):
     """
@@ -2429,7 +2273,6 @@ def test_atomic_integer_max_exclusive_6_nistxml_sv_ii_atomic_integer_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_max_exclusive_6_nistxml_sv_ii_atomic_integer_max_exclusive_2_3(save_xml):
     """
@@ -2445,7 +2288,6 @@ def test_atomic_integer_max_exclusive_6_nistxml_sv_ii_atomic_integer_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_max_exclusive_6_nistxml_sv_ii_atomic_integer_max_exclusive_2_4(save_xml):
     """
@@ -2461,7 +2303,6 @@ def test_atomic_integer_max_exclusive_6_nistxml_sv_ii_atomic_integer_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_max_exclusive_6_nistxml_sv_ii_atomic_integer_max_exclusive_2_5(save_xml):
     """
@@ -2477,7 +2318,6 @@ def test_atomic_integer_max_exclusive_6_nistxml_sv_ii_atomic_integer_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_max_exclusive_5_nistxml_sv_ii_atomic_integer_max_exclusive_1_1(save_xml):
     """
@@ -2493,7 +2333,6 @@ def test_atomic_integer_max_exclusive_5_nistxml_sv_ii_atomic_integer_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_max_exclusive_5_nistxml_sv_ii_atomic_integer_max_exclusive_1_2(save_xml):
     """
@@ -2509,7 +2348,6 @@ def test_atomic_integer_max_exclusive_5_nistxml_sv_ii_atomic_integer_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_max_exclusive_5_nistxml_sv_ii_atomic_integer_max_exclusive_1_3(save_xml):
     """
@@ -2525,7 +2363,6 @@ def test_atomic_integer_max_exclusive_5_nistxml_sv_ii_atomic_integer_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_max_exclusive_5_nistxml_sv_ii_atomic_integer_max_exclusive_1_4(save_xml):
     """
@@ -2541,7 +2378,6 @@ def test_atomic_integer_max_exclusive_5_nistxml_sv_ii_atomic_integer_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_max_exclusive_5_nistxml_sv_ii_atomic_integer_max_exclusive_1_5(save_xml):
     """
@@ -2557,7 +2393,6 @@ def test_atomic_integer_max_exclusive_5_nistxml_sv_ii_atomic_integer_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_min_exclusive_9_nistxml_sv_ii_atomic_integer_min_exclusive_5_1(save_xml):
     """
@@ -2573,7 +2408,6 @@ def test_atomic_integer_min_exclusive_9_nistxml_sv_ii_atomic_integer_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_min_exclusive_9_nistxml_sv_ii_atomic_integer_min_exclusive_5_2(save_xml):
     """
@@ -2589,7 +2423,6 @@ def test_atomic_integer_min_exclusive_9_nistxml_sv_ii_atomic_integer_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_min_exclusive_9_nistxml_sv_ii_atomic_integer_min_exclusive_5_3(save_xml):
     """
@@ -2605,7 +2438,6 @@ def test_atomic_integer_min_exclusive_9_nistxml_sv_ii_atomic_integer_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_min_exclusive_9_nistxml_sv_ii_atomic_integer_min_exclusive_5_4(save_xml):
     """
@@ -2621,7 +2453,6 @@ def test_atomic_integer_min_exclusive_9_nistxml_sv_ii_atomic_integer_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_min_exclusive_9_nistxml_sv_ii_atomic_integer_min_exclusive_5_5(save_xml):
     """
@@ -2637,7 +2468,6 @@ def test_atomic_integer_min_exclusive_9_nistxml_sv_ii_atomic_integer_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_min_exclusive_8_nistxml_sv_ii_atomic_integer_min_exclusive_4_1(save_xml):
     """
@@ -2653,7 +2483,6 @@ def test_atomic_integer_min_exclusive_8_nistxml_sv_ii_atomic_integer_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_min_exclusive_8_nistxml_sv_ii_atomic_integer_min_exclusive_4_2(save_xml):
     """
@@ -2669,7 +2498,6 @@ def test_atomic_integer_min_exclusive_8_nistxml_sv_ii_atomic_integer_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_min_exclusive_8_nistxml_sv_ii_atomic_integer_min_exclusive_4_3(save_xml):
     """
@@ -2685,7 +2513,6 @@ def test_atomic_integer_min_exclusive_8_nistxml_sv_ii_atomic_integer_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_min_exclusive_8_nistxml_sv_ii_atomic_integer_min_exclusive_4_4(save_xml):
     """
@@ -2701,7 +2528,6 @@ def test_atomic_integer_min_exclusive_8_nistxml_sv_ii_atomic_integer_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_min_exclusive_8_nistxml_sv_ii_atomic_integer_min_exclusive_4_5(save_xml):
     """
@@ -2717,7 +2543,6 @@ def test_atomic_integer_min_exclusive_8_nistxml_sv_ii_atomic_integer_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_min_exclusive_7_nistxml_sv_ii_atomic_integer_min_exclusive_3_1(save_xml):
     """
@@ -2733,7 +2558,6 @@ def test_atomic_integer_min_exclusive_7_nistxml_sv_ii_atomic_integer_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_min_exclusive_7_nistxml_sv_ii_atomic_integer_min_exclusive_3_2(save_xml):
     """
@@ -2749,7 +2573,6 @@ def test_atomic_integer_min_exclusive_7_nistxml_sv_ii_atomic_integer_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_min_exclusive_7_nistxml_sv_ii_atomic_integer_min_exclusive_3_3(save_xml):
     """
@@ -2765,7 +2588,6 @@ def test_atomic_integer_min_exclusive_7_nistxml_sv_ii_atomic_integer_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_min_exclusive_7_nistxml_sv_ii_atomic_integer_min_exclusive_3_4(save_xml):
     """
@@ -2781,7 +2603,6 @@ def test_atomic_integer_min_exclusive_7_nistxml_sv_ii_atomic_integer_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_min_exclusive_7_nistxml_sv_ii_atomic_integer_min_exclusive_3_5(save_xml):
     """
@@ -2797,7 +2618,6 @@ def test_atomic_integer_min_exclusive_7_nistxml_sv_ii_atomic_integer_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_min_exclusive_6_nistxml_sv_ii_atomic_integer_min_exclusive_2_1(save_xml):
     """
@@ -2813,7 +2633,6 @@ def test_atomic_integer_min_exclusive_6_nistxml_sv_ii_atomic_integer_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_min_exclusive_6_nistxml_sv_ii_atomic_integer_min_exclusive_2_2(save_xml):
     """
@@ -2829,7 +2648,6 @@ def test_atomic_integer_min_exclusive_6_nistxml_sv_ii_atomic_integer_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_min_exclusive_6_nistxml_sv_ii_atomic_integer_min_exclusive_2_3(save_xml):
     """
@@ -2845,7 +2663,6 @@ def test_atomic_integer_min_exclusive_6_nistxml_sv_ii_atomic_integer_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_min_exclusive_6_nistxml_sv_ii_atomic_integer_min_exclusive_2_4(save_xml):
     """
@@ -2861,7 +2678,6 @@ def test_atomic_integer_min_exclusive_6_nistxml_sv_ii_atomic_integer_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_min_exclusive_6_nistxml_sv_ii_atomic_integer_min_exclusive_2_5(save_xml):
     """
@@ -2877,7 +2693,6 @@ def test_atomic_integer_min_exclusive_6_nistxml_sv_ii_atomic_integer_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_integer_min_exclusive_5_nistxml_sv_ii_atomic_integer_min_exclusive_1_1(save_xml):
     """
@@ -2893,7 +2708,6 @@ def test_atomic_integer_min_exclusive_5_nistxml_sv_ii_atomic_integer_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_9_nistxml_sv_ii_atomic_decimal_enumeration_5_1(save_xml):
     """
@@ -2908,7 +2722,6 @@ def test_atomic_decimal_enumeration_9_nistxml_sv_ii_atomic_decimal_enumeration_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_9_nistxml_sv_ii_atomic_decimal_enumeration_5_2(save_xml):
     """
@@ -2923,7 +2736,6 @@ def test_atomic_decimal_enumeration_9_nistxml_sv_ii_atomic_decimal_enumeration_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_9_nistxml_sv_ii_atomic_decimal_enumeration_5_3(save_xml):
     """
@@ -2938,7 +2750,6 @@ def test_atomic_decimal_enumeration_9_nistxml_sv_ii_atomic_decimal_enumeration_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_9_nistxml_sv_ii_atomic_decimal_enumeration_5_4(save_xml):
     """
@@ -2953,7 +2764,6 @@ def test_atomic_decimal_enumeration_9_nistxml_sv_ii_atomic_decimal_enumeration_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_9_nistxml_sv_ii_atomic_decimal_enumeration_5_5(save_xml):
     """
@@ -2968,7 +2778,6 @@ def test_atomic_decimal_enumeration_9_nistxml_sv_ii_atomic_decimal_enumeration_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_8_nistxml_sv_ii_atomic_decimal_enumeration_4_1(save_xml):
     """
@@ -2983,7 +2792,6 @@ def test_atomic_decimal_enumeration_8_nistxml_sv_ii_atomic_decimal_enumeration_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_8_nistxml_sv_ii_atomic_decimal_enumeration_4_2(save_xml):
     """
@@ -2998,7 +2806,6 @@ def test_atomic_decimal_enumeration_8_nistxml_sv_ii_atomic_decimal_enumeration_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_8_nistxml_sv_ii_atomic_decimal_enumeration_4_3(save_xml):
     """
@@ -3013,7 +2820,6 @@ def test_atomic_decimal_enumeration_8_nistxml_sv_ii_atomic_decimal_enumeration_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_8_nistxml_sv_ii_atomic_decimal_enumeration_4_4(save_xml):
     """
@@ -3028,7 +2834,6 @@ def test_atomic_decimal_enumeration_8_nistxml_sv_ii_atomic_decimal_enumeration_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_8_nistxml_sv_ii_atomic_decimal_enumeration_4_5(save_xml):
     """
@@ -3043,7 +2848,6 @@ def test_atomic_decimal_enumeration_8_nistxml_sv_ii_atomic_decimal_enumeration_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_7_nistxml_sv_ii_atomic_decimal_enumeration_3_1(save_xml):
     """
@@ -3058,7 +2862,6 @@ def test_atomic_decimal_enumeration_7_nistxml_sv_ii_atomic_decimal_enumeration_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_7_nistxml_sv_ii_atomic_decimal_enumeration_3_2(save_xml):
     """
@@ -3073,7 +2876,6 @@ def test_atomic_decimal_enumeration_7_nistxml_sv_ii_atomic_decimal_enumeration_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_7_nistxml_sv_ii_atomic_decimal_enumeration_3_3(save_xml):
     """
@@ -3088,7 +2890,6 @@ def test_atomic_decimal_enumeration_7_nistxml_sv_ii_atomic_decimal_enumeration_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_7_nistxml_sv_ii_atomic_decimal_enumeration_3_4(save_xml):
     """
@@ -3103,7 +2904,6 @@ def test_atomic_decimal_enumeration_7_nistxml_sv_ii_atomic_decimal_enumeration_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_7_nistxml_sv_ii_atomic_decimal_enumeration_3_5(save_xml):
     """
@@ -3118,7 +2918,6 @@ def test_atomic_decimal_enumeration_7_nistxml_sv_ii_atomic_decimal_enumeration_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_6_nistxml_sv_ii_atomic_decimal_enumeration_2_1(save_xml):
     """
@@ -3133,7 +2932,6 @@ def test_atomic_decimal_enumeration_6_nistxml_sv_ii_atomic_decimal_enumeration_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_6_nistxml_sv_ii_atomic_decimal_enumeration_2_2(save_xml):
     """
@@ -3148,7 +2946,6 @@ def test_atomic_decimal_enumeration_6_nistxml_sv_ii_atomic_decimal_enumeration_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_6_nistxml_sv_ii_atomic_decimal_enumeration_2_3(save_xml):
     """
@@ -3163,7 +2960,6 @@ def test_atomic_decimal_enumeration_6_nistxml_sv_ii_atomic_decimal_enumeration_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_6_nistxml_sv_ii_atomic_decimal_enumeration_2_4(save_xml):
     """
@@ -3178,7 +2974,6 @@ def test_atomic_decimal_enumeration_6_nistxml_sv_ii_atomic_decimal_enumeration_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_6_nistxml_sv_ii_atomic_decimal_enumeration_2_5(save_xml):
     """
@@ -3193,7 +2988,6 @@ def test_atomic_decimal_enumeration_6_nistxml_sv_ii_atomic_decimal_enumeration_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_5_nistxml_sv_ii_atomic_decimal_enumeration_1_1(save_xml):
     """
@@ -3208,7 +3002,6 @@ def test_atomic_decimal_enumeration_5_nistxml_sv_ii_atomic_decimal_enumeration_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_5_nistxml_sv_ii_atomic_decimal_enumeration_1_2(save_xml):
     """
@@ -3223,7 +3016,6 @@ def test_atomic_decimal_enumeration_5_nistxml_sv_ii_atomic_decimal_enumeration_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_5_nistxml_sv_ii_atomic_decimal_enumeration_1_3(save_xml):
     """
@@ -3238,7 +3030,6 @@ def test_atomic_decimal_enumeration_5_nistxml_sv_ii_atomic_decimal_enumeration_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_5_nistxml_sv_ii_atomic_decimal_enumeration_1_4(save_xml):
     """
@@ -3253,7 +3044,6 @@ def test_atomic_decimal_enumeration_5_nistxml_sv_ii_atomic_decimal_enumeration_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_enumeration_5_nistxml_sv_ii_atomic_decimal_enumeration_1_5(save_xml):
     """
@@ -3268,7 +3058,6 @@ def test_atomic_decimal_enumeration_5_nistxml_sv_ii_atomic_decimal_enumeration_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_9_nistxml_sv_ii_atomic_decimal_pattern_5_1(save_xml):
     r"""
@@ -3284,7 +3073,6 @@ def test_atomic_decimal_pattern_9_nistxml_sv_ii_atomic_decimal_pattern_5_1(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_9_nistxml_sv_ii_atomic_decimal_pattern_5_2(save_xml):
     r"""
@@ -3300,7 +3088,6 @@ def test_atomic_decimal_pattern_9_nistxml_sv_ii_atomic_decimal_pattern_5_2(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_9_nistxml_sv_ii_atomic_decimal_pattern_5_3(save_xml):
     r"""
@@ -3316,7 +3103,6 @@ def test_atomic_decimal_pattern_9_nistxml_sv_ii_atomic_decimal_pattern_5_3(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_9_nistxml_sv_ii_atomic_decimal_pattern_5_4(save_xml):
     r"""
@@ -3332,7 +3118,6 @@ def test_atomic_decimal_pattern_9_nistxml_sv_ii_atomic_decimal_pattern_5_4(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_9_nistxml_sv_ii_atomic_decimal_pattern_5_5(save_xml):
     r"""
@@ -3348,7 +3133,6 @@ def test_atomic_decimal_pattern_9_nistxml_sv_ii_atomic_decimal_pattern_5_5(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_8_nistxml_sv_ii_atomic_decimal_pattern_4_1(save_xml):
     r"""
@@ -3364,7 +3148,6 @@ def test_atomic_decimal_pattern_8_nistxml_sv_ii_atomic_decimal_pattern_4_1(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_8_nistxml_sv_ii_atomic_decimal_pattern_4_2(save_xml):
     r"""
@@ -3380,7 +3163,6 @@ def test_atomic_decimal_pattern_8_nistxml_sv_ii_atomic_decimal_pattern_4_2(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_8_nistxml_sv_ii_atomic_decimal_pattern_4_3(save_xml):
     r"""
@@ -3396,7 +3178,6 @@ def test_atomic_decimal_pattern_8_nistxml_sv_ii_atomic_decimal_pattern_4_3(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_8_nistxml_sv_ii_atomic_decimal_pattern_4_4(save_xml):
     r"""
@@ -3412,7 +3193,6 @@ def test_atomic_decimal_pattern_8_nistxml_sv_ii_atomic_decimal_pattern_4_4(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_8_nistxml_sv_ii_atomic_decimal_pattern_4_5(save_xml):
     r"""
@@ -3428,7 +3208,6 @@ def test_atomic_decimal_pattern_8_nistxml_sv_ii_atomic_decimal_pattern_4_5(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_7_nistxml_sv_ii_atomic_decimal_pattern_3_1(save_xml):
     r"""
@@ -3444,7 +3223,6 @@ def test_atomic_decimal_pattern_7_nistxml_sv_ii_atomic_decimal_pattern_3_1(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_7_nistxml_sv_ii_atomic_decimal_pattern_3_2(save_xml):
     r"""
@@ -3460,7 +3238,6 @@ def test_atomic_decimal_pattern_7_nistxml_sv_ii_atomic_decimal_pattern_3_2(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_7_nistxml_sv_ii_atomic_decimal_pattern_3_3(save_xml):
     r"""
@@ -3476,7 +3253,6 @@ def test_atomic_decimal_pattern_7_nistxml_sv_ii_atomic_decimal_pattern_3_3(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_7_nistxml_sv_ii_atomic_decimal_pattern_3_4(save_xml):
     r"""
@@ -3492,7 +3268,6 @@ def test_atomic_decimal_pattern_7_nistxml_sv_ii_atomic_decimal_pattern_3_4(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_7_nistxml_sv_ii_atomic_decimal_pattern_3_5(save_xml):
     r"""
@@ -3508,7 +3283,6 @@ def test_atomic_decimal_pattern_7_nistxml_sv_ii_atomic_decimal_pattern_3_5(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_6_nistxml_sv_ii_atomic_decimal_pattern_2_1(save_xml):
     r"""
@@ -3524,7 +3298,6 @@ def test_atomic_decimal_pattern_6_nistxml_sv_ii_atomic_decimal_pattern_2_1(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_6_nistxml_sv_ii_atomic_decimal_pattern_2_2(save_xml):
     r"""
@@ -3540,7 +3313,6 @@ def test_atomic_decimal_pattern_6_nistxml_sv_ii_atomic_decimal_pattern_2_2(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_6_nistxml_sv_ii_atomic_decimal_pattern_2_3(save_xml):
     r"""
@@ -3556,7 +3328,6 @@ def test_atomic_decimal_pattern_6_nistxml_sv_ii_atomic_decimal_pattern_2_3(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_6_nistxml_sv_ii_atomic_decimal_pattern_2_4(save_xml):
     r"""
@@ -3572,7 +3343,6 @@ def test_atomic_decimal_pattern_6_nistxml_sv_ii_atomic_decimal_pattern_2_4(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_6_nistxml_sv_ii_atomic_decimal_pattern_2_5(save_xml):
     r"""
@@ -3588,7 +3358,6 @@ def test_atomic_decimal_pattern_6_nistxml_sv_ii_atomic_decimal_pattern_2_5(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_5_nistxml_sv_ii_atomic_decimal_pattern_1_1(save_xml):
     r"""
@@ -3603,7 +3372,6 @@ def test_atomic_decimal_pattern_5_nistxml_sv_ii_atomic_decimal_pattern_1_1(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_5_nistxml_sv_ii_atomic_decimal_pattern_1_2(save_xml):
     r"""
@@ -3618,7 +3386,6 @@ def test_atomic_decimal_pattern_5_nistxml_sv_ii_atomic_decimal_pattern_1_2(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_5_nistxml_sv_ii_atomic_decimal_pattern_1_3(save_xml):
     r"""
@@ -3633,7 +3400,6 @@ def test_atomic_decimal_pattern_5_nistxml_sv_ii_atomic_decimal_pattern_1_3(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_5_nistxml_sv_ii_atomic_decimal_pattern_1_4(save_xml):
     r"""
@@ -3648,7 +3414,6 @@ def test_atomic_decimal_pattern_5_nistxml_sv_ii_atomic_decimal_pattern_1_4(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_pattern_5_nistxml_sv_ii_atomic_decimal_pattern_1_5(save_xml):
     r"""
@@ -3663,7 +3428,6 @@ def test_atomic_decimal_pattern_5_nistxml_sv_ii_atomic_decimal_pattern_1_5(save_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_max_exclusive_9_nistxml_sv_ii_atomic_decimal_max_exclusive_5_1(save_xml):
     """
@@ -3679,7 +3443,6 @@ def test_atomic_decimal_max_exclusive_9_nistxml_sv_ii_atomic_decimal_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_max_exclusive_8_nistxml_sv_ii_atomic_decimal_max_exclusive_4_1(save_xml):
     """
@@ -3695,7 +3458,6 @@ def test_atomic_decimal_max_exclusive_8_nistxml_sv_ii_atomic_decimal_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_max_exclusive_8_nistxml_sv_ii_atomic_decimal_max_exclusive_4_2(save_xml):
     """
@@ -3711,7 +3473,6 @@ def test_atomic_decimal_max_exclusive_8_nistxml_sv_ii_atomic_decimal_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_max_exclusive_8_nistxml_sv_ii_atomic_decimal_max_exclusive_4_3(save_xml):
     """
@@ -3727,7 +3488,6 @@ def test_atomic_decimal_max_exclusive_8_nistxml_sv_ii_atomic_decimal_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_max_exclusive_8_nistxml_sv_ii_atomic_decimal_max_exclusive_4_4(save_xml):
     """
@@ -3743,7 +3503,6 @@ def test_atomic_decimal_max_exclusive_8_nistxml_sv_ii_atomic_decimal_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_max_exclusive_8_nistxml_sv_ii_atomic_decimal_max_exclusive_4_5(save_xml):
     """
@@ -3759,7 +3518,6 @@ def test_atomic_decimal_max_exclusive_8_nistxml_sv_ii_atomic_decimal_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_max_exclusive_7_nistxml_sv_ii_atomic_decimal_max_exclusive_3_1(save_xml):
     """
@@ -3775,7 +3533,6 @@ def test_atomic_decimal_max_exclusive_7_nistxml_sv_ii_atomic_decimal_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_max_exclusive_7_nistxml_sv_ii_atomic_decimal_max_exclusive_3_2(save_xml):
     """
@@ -3791,7 +3548,6 @@ def test_atomic_decimal_max_exclusive_7_nistxml_sv_ii_atomic_decimal_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_max_exclusive_7_nistxml_sv_ii_atomic_decimal_max_exclusive_3_3(save_xml):
     """
@@ -3807,7 +3563,6 @@ def test_atomic_decimal_max_exclusive_7_nistxml_sv_ii_atomic_decimal_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_max_exclusive_7_nistxml_sv_ii_atomic_decimal_max_exclusive_3_4(save_xml):
     """
@@ -3823,7 +3578,6 @@ def test_atomic_decimal_max_exclusive_7_nistxml_sv_ii_atomic_decimal_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_max_exclusive_7_nistxml_sv_ii_atomic_decimal_max_exclusive_3_5(save_xml):
     """
@@ -3839,7 +3593,6 @@ def test_atomic_decimal_max_exclusive_7_nistxml_sv_ii_atomic_decimal_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_max_exclusive_6_nistxml_sv_ii_atomic_decimal_max_exclusive_2_1(save_xml):
     """
@@ -3855,7 +3608,6 @@ def test_atomic_decimal_max_exclusive_6_nistxml_sv_ii_atomic_decimal_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_max_exclusive_6_nistxml_sv_ii_atomic_decimal_max_exclusive_2_2(save_xml):
     """
@@ -3871,7 +3623,6 @@ def test_atomic_decimal_max_exclusive_6_nistxml_sv_ii_atomic_decimal_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_max_exclusive_6_nistxml_sv_ii_atomic_decimal_max_exclusive_2_3(save_xml):
     """
@@ -3887,7 +3638,6 @@ def test_atomic_decimal_max_exclusive_6_nistxml_sv_ii_atomic_decimal_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_max_exclusive_6_nistxml_sv_ii_atomic_decimal_max_exclusive_2_4(save_xml):
     """
@@ -3903,7 +3653,6 @@ def test_atomic_decimal_max_exclusive_6_nistxml_sv_ii_atomic_decimal_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_max_exclusive_6_nistxml_sv_ii_atomic_decimal_max_exclusive_2_5(save_xml):
     """
@@ -3919,7 +3668,6 @@ def test_atomic_decimal_max_exclusive_6_nistxml_sv_ii_atomic_decimal_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_max_exclusive_5_nistxml_sv_ii_atomic_decimal_max_exclusive_1_1(save_xml):
     """
@@ -3935,7 +3683,6 @@ def test_atomic_decimal_max_exclusive_5_nistxml_sv_ii_atomic_decimal_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_max_exclusive_5_nistxml_sv_ii_atomic_decimal_max_exclusive_1_2(save_xml):
     """
@@ -3951,7 +3698,6 @@ def test_atomic_decimal_max_exclusive_5_nistxml_sv_ii_atomic_decimal_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_max_exclusive_5_nistxml_sv_ii_atomic_decimal_max_exclusive_1_3(save_xml):
     """
@@ -3967,7 +3713,6 @@ def test_atomic_decimal_max_exclusive_5_nistxml_sv_ii_atomic_decimal_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_max_exclusive_5_nistxml_sv_ii_atomic_decimal_max_exclusive_1_4(save_xml):
     """
@@ -3983,7 +3728,6 @@ def test_atomic_decimal_max_exclusive_5_nistxml_sv_ii_atomic_decimal_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_max_exclusive_5_nistxml_sv_ii_atomic_decimal_max_exclusive_1_5(save_xml):
     """
@@ -3999,7 +3743,6 @@ def test_atomic_decimal_max_exclusive_5_nistxml_sv_ii_atomic_decimal_max_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_min_exclusive_9_nistxml_sv_ii_atomic_decimal_min_exclusive_5_1(save_xml):
     """
@@ -4015,7 +3758,6 @@ def test_atomic_decimal_min_exclusive_9_nistxml_sv_ii_atomic_decimal_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_min_exclusive_9_nistxml_sv_ii_atomic_decimal_min_exclusive_5_2(save_xml):
     """
@@ -4031,7 +3773,6 @@ def test_atomic_decimal_min_exclusive_9_nistxml_sv_ii_atomic_decimal_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_min_exclusive_9_nistxml_sv_ii_atomic_decimal_min_exclusive_5_3(save_xml):
     """
@@ -4047,7 +3788,6 @@ def test_atomic_decimal_min_exclusive_9_nistxml_sv_ii_atomic_decimal_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_min_exclusive_9_nistxml_sv_ii_atomic_decimal_min_exclusive_5_4(save_xml):
     """
@@ -4063,7 +3803,6 @@ def test_atomic_decimal_min_exclusive_9_nistxml_sv_ii_atomic_decimal_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_min_exclusive_9_nistxml_sv_ii_atomic_decimal_min_exclusive_5_5(save_xml):
     """
@@ -4079,7 +3818,6 @@ def test_atomic_decimal_min_exclusive_9_nistxml_sv_ii_atomic_decimal_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_min_exclusive_8_nistxml_sv_ii_atomic_decimal_min_exclusive_4_1(save_xml):
     """
@@ -4095,7 +3833,6 @@ def test_atomic_decimal_min_exclusive_8_nistxml_sv_ii_atomic_decimal_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_min_exclusive_8_nistxml_sv_ii_atomic_decimal_min_exclusive_4_2(save_xml):
     """
@@ -4111,7 +3848,6 @@ def test_atomic_decimal_min_exclusive_8_nistxml_sv_ii_atomic_decimal_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_min_exclusive_8_nistxml_sv_ii_atomic_decimal_min_exclusive_4_3(save_xml):
     """
@@ -4127,7 +3863,6 @@ def test_atomic_decimal_min_exclusive_8_nistxml_sv_ii_atomic_decimal_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_min_exclusive_8_nistxml_sv_ii_atomic_decimal_min_exclusive_4_4(save_xml):
     """
@@ -4143,7 +3878,6 @@ def test_atomic_decimal_min_exclusive_8_nistxml_sv_ii_atomic_decimal_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_min_exclusive_8_nistxml_sv_ii_atomic_decimal_min_exclusive_4_5(save_xml):
     """
@@ -4159,7 +3893,6 @@ def test_atomic_decimal_min_exclusive_8_nistxml_sv_ii_atomic_decimal_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_min_exclusive_7_nistxml_sv_ii_atomic_decimal_min_exclusive_3_1(save_xml):
     """
@@ -4175,7 +3908,6 @@ def test_atomic_decimal_min_exclusive_7_nistxml_sv_ii_atomic_decimal_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_min_exclusive_7_nistxml_sv_ii_atomic_decimal_min_exclusive_3_2(save_xml):
     """
@@ -4191,7 +3923,6 @@ def test_atomic_decimal_min_exclusive_7_nistxml_sv_ii_atomic_decimal_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_min_exclusive_7_nistxml_sv_ii_atomic_decimal_min_exclusive_3_3(save_xml):
     """
@@ -4207,7 +3938,6 @@ def test_atomic_decimal_min_exclusive_7_nistxml_sv_ii_atomic_decimal_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_min_exclusive_7_nistxml_sv_ii_atomic_decimal_min_exclusive_3_4(save_xml):
     """
@@ -4223,7 +3953,6 @@ def test_atomic_decimal_min_exclusive_7_nistxml_sv_ii_atomic_decimal_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_min_exclusive_7_nistxml_sv_ii_atomic_decimal_min_exclusive_3_5(save_xml):
     """
@@ -4239,7 +3968,6 @@ def test_atomic_decimal_min_exclusive_7_nistxml_sv_ii_atomic_decimal_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_min_exclusive_6_nistxml_sv_ii_atomic_decimal_min_exclusive_2_1(save_xml):
     """
@@ -4255,7 +3983,6 @@ def test_atomic_decimal_min_exclusive_6_nistxml_sv_ii_atomic_decimal_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_min_exclusive_6_nistxml_sv_ii_atomic_decimal_min_exclusive_2_2(save_xml):
     """
@@ -4271,7 +3998,6 @@ def test_atomic_decimal_min_exclusive_6_nistxml_sv_ii_atomic_decimal_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_min_exclusive_6_nistxml_sv_ii_atomic_decimal_min_exclusive_2_3(save_xml):
     """
@@ -4287,7 +4013,6 @@ def test_atomic_decimal_min_exclusive_6_nistxml_sv_ii_atomic_decimal_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_min_exclusive_6_nistxml_sv_ii_atomic_decimal_min_exclusive_2_4(save_xml):
     """
@@ -4303,7 +4028,6 @@ def test_atomic_decimal_min_exclusive_6_nistxml_sv_ii_atomic_decimal_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_min_exclusive_6_nistxml_sv_ii_atomic_decimal_min_exclusive_2_5(save_xml):
     """
@@ -4319,7 +4043,6 @@ def test_atomic_decimal_min_exclusive_6_nistxml_sv_ii_atomic_decimal_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_decimal_min_exclusive_5_nistxml_sv_ii_atomic_decimal_min_exclusive_1_1(save_xml):
     """
@@ -4335,7 +4058,6 @@ def test_atomic_decimal_min_exclusive_5_nistxml_sv_ii_atomic_decimal_min_exclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_9_nistxml_sv_ii_atomic_g_month_max_inclusive_5_1(save_xml):
     """
@@ -4351,7 +4073,6 @@ def test_atomic_g_month_max_inclusive_9_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_9_nistxml_sv_ii_atomic_g_month_max_inclusive_5_2(save_xml):
     """
@@ -4367,7 +4088,6 @@ def test_atomic_g_month_max_inclusive_9_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_9_nistxml_sv_ii_atomic_g_month_max_inclusive_5_3(save_xml):
     """
@@ -4383,7 +4103,6 @@ def test_atomic_g_month_max_inclusive_9_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_9_nistxml_sv_ii_atomic_g_month_max_inclusive_5_4(save_xml):
     """
@@ -4399,7 +4118,6 @@ def test_atomic_g_month_max_inclusive_9_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_9_nistxml_sv_ii_atomic_g_month_max_inclusive_5_5(save_xml):
     """
@@ -4415,7 +4133,6 @@ def test_atomic_g_month_max_inclusive_9_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_8_nistxml_sv_ii_atomic_g_month_max_inclusive_4_1(save_xml):
     """
@@ -4431,7 +4148,6 @@ def test_atomic_g_month_max_inclusive_8_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_8_nistxml_sv_ii_atomic_g_month_max_inclusive_4_2(save_xml):
     """
@@ -4447,7 +4163,6 @@ def test_atomic_g_month_max_inclusive_8_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_8_nistxml_sv_ii_atomic_g_month_max_inclusive_4_3(save_xml):
     """
@@ -4463,7 +4178,6 @@ def test_atomic_g_month_max_inclusive_8_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_8_nistxml_sv_ii_atomic_g_month_max_inclusive_4_4(save_xml):
     """
@@ -4479,7 +4193,6 @@ def test_atomic_g_month_max_inclusive_8_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_8_nistxml_sv_ii_atomic_g_month_max_inclusive_4_5(save_xml):
     """
@@ -4495,7 +4208,6 @@ def test_atomic_g_month_max_inclusive_8_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_7_nistxml_sv_ii_atomic_g_month_max_inclusive_3_1(save_xml):
     """
@@ -4511,7 +4223,6 @@ def test_atomic_g_month_max_inclusive_7_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_7_nistxml_sv_ii_atomic_g_month_max_inclusive_3_2(save_xml):
     """
@@ -4527,7 +4238,6 @@ def test_atomic_g_month_max_inclusive_7_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_7_nistxml_sv_ii_atomic_g_month_max_inclusive_3_3(save_xml):
     """
@@ -4543,7 +4253,6 @@ def test_atomic_g_month_max_inclusive_7_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_7_nistxml_sv_ii_atomic_g_month_max_inclusive_3_4(save_xml):
     """
@@ -4559,7 +4268,6 @@ def test_atomic_g_month_max_inclusive_7_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_7_nistxml_sv_ii_atomic_g_month_max_inclusive_3_5(save_xml):
     """
@@ -4575,7 +4283,6 @@ def test_atomic_g_month_max_inclusive_7_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_6_nistxml_sv_ii_atomic_g_month_max_inclusive_2_1(save_xml):
     """
@@ -4591,7 +4298,6 @@ def test_atomic_g_month_max_inclusive_6_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_6_nistxml_sv_ii_atomic_g_month_max_inclusive_2_2(save_xml):
     """
@@ -4607,7 +4313,6 @@ def test_atomic_g_month_max_inclusive_6_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_6_nistxml_sv_ii_atomic_g_month_max_inclusive_2_3(save_xml):
     """
@@ -4623,7 +4328,6 @@ def test_atomic_g_month_max_inclusive_6_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_6_nistxml_sv_ii_atomic_g_month_max_inclusive_2_4(save_xml):
     """
@@ -4639,7 +4343,6 @@ def test_atomic_g_month_max_inclusive_6_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_6_nistxml_sv_ii_atomic_g_month_max_inclusive_2_5(save_xml):
     """
@@ -4655,7 +4358,6 @@ def test_atomic_g_month_max_inclusive_6_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_5_nistxml_sv_ii_atomic_g_month_max_inclusive_1_1(save_xml):
     """
@@ -4671,7 +4373,6 @@ def test_atomic_g_month_max_inclusive_5_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_5_nistxml_sv_ii_atomic_g_month_max_inclusive_1_2(save_xml):
     """
@@ -4687,7 +4388,6 @@ def test_atomic_g_month_max_inclusive_5_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_5_nistxml_sv_ii_atomic_g_month_max_inclusive_1_3(save_xml):
     """
@@ -4703,7 +4403,6 @@ def test_atomic_g_month_max_inclusive_5_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_5_nistxml_sv_ii_atomic_g_month_max_inclusive_1_4(save_xml):
     """
@@ -4719,7 +4418,6 @@ def test_atomic_g_month_max_inclusive_5_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_max_inclusive_5_nistxml_sv_ii_atomic_g_month_max_inclusive_1_5(save_xml):
     """
@@ -4735,7 +4433,6 @@ def test_atomic_g_month_max_inclusive_5_nistxml_sv_ii_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_9_nistxml_sv_ii_atomic_g_month_min_inclusive_6_1(save_xml):
     """
@@ -4751,7 +4448,6 @@ def test_atomic_g_month_min_inclusive_9_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_9_nistxml_sv_ii_atomic_g_month_min_inclusive_6_2(save_xml):
     """
@@ -4767,7 +4463,6 @@ def test_atomic_g_month_min_inclusive_9_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_9_nistxml_sv_ii_atomic_g_month_min_inclusive_6_3(save_xml):
     """
@@ -4783,7 +4478,6 @@ def test_atomic_g_month_min_inclusive_9_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_9_nistxml_sv_ii_atomic_g_month_min_inclusive_6_4(save_xml):
     """
@@ -4799,7 +4493,6 @@ def test_atomic_g_month_min_inclusive_9_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_9_nistxml_sv_ii_atomic_g_month_min_inclusive_6_5(save_xml):
     """
@@ -4815,7 +4508,6 @@ def test_atomic_g_month_min_inclusive_9_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_8_nistxml_sv_ii_atomic_g_month_min_inclusive_5_1(save_xml):
     """
@@ -4831,7 +4523,6 @@ def test_atomic_g_month_min_inclusive_8_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_8_nistxml_sv_ii_atomic_g_month_min_inclusive_5_2(save_xml):
     """
@@ -4847,7 +4538,6 @@ def test_atomic_g_month_min_inclusive_8_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_8_nistxml_sv_ii_atomic_g_month_min_inclusive_5_3(save_xml):
     """
@@ -4863,7 +4553,6 @@ def test_atomic_g_month_min_inclusive_8_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_8_nistxml_sv_ii_atomic_g_month_min_inclusive_5_4(save_xml):
     """
@@ -4879,7 +4568,6 @@ def test_atomic_g_month_min_inclusive_8_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_8_nistxml_sv_ii_atomic_g_month_min_inclusive_5_5(save_xml):
     """
@@ -4895,7 +4583,6 @@ def test_atomic_g_month_min_inclusive_8_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_7_nistxml_sv_ii_atomic_g_month_min_inclusive_4_1(save_xml):
     """
@@ -4911,7 +4598,6 @@ def test_atomic_g_month_min_inclusive_7_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_7_nistxml_sv_ii_atomic_g_month_min_inclusive_4_2(save_xml):
     """
@@ -4927,7 +4613,6 @@ def test_atomic_g_month_min_inclusive_7_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_7_nistxml_sv_ii_atomic_g_month_min_inclusive_4_3(save_xml):
     """
@@ -4943,7 +4628,6 @@ def test_atomic_g_month_min_inclusive_7_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_7_nistxml_sv_ii_atomic_g_month_min_inclusive_4_4(save_xml):
     """
@@ -4959,7 +4643,6 @@ def test_atomic_g_month_min_inclusive_7_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_7_nistxml_sv_ii_atomic_g_month_min_inclusive_4_5(save_xml):
     """
@@ -4975,7 +4658,6 @@ def test_atomic_g_month_min_inclusive_7_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_6_nistxml_sv_ii_atomic_g_month_min_inclusive_3_1(save_xml):
     """
@@ -4991,7 +4673,6 @@ def test_atomic_g_month_min_inclusive_6_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_6_nistxml_sv_ii_atomic_g_month_min_inclusive_3_2(save_xml):
     """
@@ -5007,7 +4688,6 @@ def test_atomic_g_month_min_inclusive_6_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_6_nistxml_sv_ii_atomic_g_month_min_inclusive_3_3(save_xml):
     """
@@ -5023,7 +4703,6 @@ def test_atomic_g_month_min_inclusive_6_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_6_nistxml_sv_ii_atomic_g_month_min_inclusive_3_4(save_xml):
     """
@@ -5039,7 +4718,6 @@ def test_atomic_g_month_min_inclusive_6_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_6_nistxml_sv_ii_atomic_g_month_min_inclusive_3_5(save_xml):
     """
@@ -5055,7 +4733,6 @@ def test_atomic_g_month_min_inclusive_6_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_5_nistxml_sv_ii_atomic_g_month_min_inclusive_2_1(save_xml):
     """
@@ -5071,7 +4748,6 @@ def test_atomic_g_month_min_inclusive_5_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_5_nistxml_sv_ii_atomic_g_month_min_inclusive_2_2(save_xml):
     """
@@ -5087,7 +4763,6 @@ def test_atomic_g_month_min_inclusive_5_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_5_nistxml_sv_ii_atomic_g_month_min_inclusive_2_3(save_xml):
     """
@@ -5103,7 +4778,6 @@ def test_atomic_g_month_min_inclusive_5_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_5_nistxml_sv_ii_atomic_g_month_min_inclusive_2_4(save_xml):
     """
@@ -5119,7 +4793,6 @@ def test_atomic_g_month_min_inclusive_5_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_min_inclusive_5_nistxml_sv_ii_atomic_g_month_min_inclusive_2_5(save_xml):
     """
@@ -5135,7 +4808,6 @@ def test_atomic_g_month_min_inclusive_5_nistxml_sv_ii_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_max_inclusive_9_nistxml_sv_ii_atomic_g_day_max_inclusive_5_1(save_xml):
     """
@@ -5150,7 +4822,6 @@ def test_atomic_g_day_max_inclusive_9_nistxml_sv_ii_atomic_g_day_max_inclusive_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_max_inclusive_9_nistxml_sv_ii_atomic_g_day_max_inclusive_5_2(save_xml):
     """
@@ -5165,7 +4836,6 @@ def test_atomic_g_day_max_inclusive_9_nistxml_sv_ii_atomic_g_day_max_inclusive_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_max_inclusive_9_nistxml_sv_ii_atomic_g_day_max_inclusive_5_3(save_xml):
     """
@@ -5180,7 +4850,6 @@ def test_atomic_g_day_max_inclusive_9_nistxml_sv_ii_atomic_g_day_max_inclusive_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_max_inclusive_9_nistxml_sv_ii_atomic_g_day_max_inclusive_5_4(save_xml):
     """
@@ -5195,7 +4864,6 @@ def test_atomic_g_day_max_inclusive_9_nistxml_sv_ii_atomic_g_day_max_inclusive_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_max_inclusive_9_nistxml_sv_ii_atomic_g_day_max_inclusive_5_5(save_xml):
     """
@@ -5210,7 +4878,6 @@ def test_atomic_g_day_max_inclusive_9_nistxml_sv_ii_atomic_g_day_max_inclusive_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_max_inclusive_8_nistxml_sv_ii_atomic_g_day_max_inclusive_4_1(save_xml):
     """
@@ -5225,7 +4892,6 @@ def test_atomic_g_day_max_inclusive_8_nistxml_sv_ii_atomic_g_day_max_inclusive_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_max_inclusive_8_nistxml_sv_ii_atomic_g_day_max_inclusive_4_2(save_xml):
     """
@@ -5240,7 +4906,6 @@ def test_atomic_g_day_max_inclusive_8_nistxml_sv_ii_atomic_g_day_max_inclusive_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_max_inclusive_8_nistxml_sv_ii_atomic_g_day_max_inclusive_4_3(save_xml):
     """
@@ -5255,7 +4920,6 @@ def test_atomic_g_day_max_inclusive_8_nistxml_sv_ii_atomic_g_day_max_inclusive_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_max_inclusive_8_nistxml_sv_ii_atomic_g_day_max_inclusive_4_4(save_xml):
     """
@@ -5270,7 +4934,6 @@ def test_atomic_g_day_max_inclusive_8_nistxml_sv_ii_atomic_g_day_max_inclusive_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_max_inclusive_8_nistxml_sv_ii_atomic_g_day_max_inclusive_4_5(save_xml):
     """
@@ -5285,7 +4948,6 @@ def test_atomic_g_day_max_inclusive_8_nistxml_sv_ii_atomic_g_day_max_inclusive_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_max_inclusive_7_nistxml_sv_ii_atomic_g_day_max_inclusive_3_1(save_xml):
     """
@@ -5300,7 +4962,6 @@ def test_atomic_g_day_max_inclusive_7_nistxml_sv_ii_atomic_g_day_max_inclusive_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_max_inclusive_7_nistxml_sv_ii_atomic_g_day_max_inclusive_3_2(save_xml):
     """
@@ -5315,7 +4976,6 @@ def test_atomic_g_day_max_inclusive_7_nistxml_sv_ii_atomic_g_day_max_inclusive_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_max_inclusive_7_nistxml_sv_ii_atomic_g_day_max_inclusive_3_3(save_xml):
     """
@@ -5330,7 +4990,6 @@ def test_atomic_g_day_max_inclusive_7_nistxml_sv_ii_atomic_g_day_max_inclusive_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_max_inclusive_7_nistxml_sv_ii_atomic_g_day_max_inclusive_3_4(save_xml):
     """
@@ -5345,7 +5004,6 @@ def test_atomic_g_day_max_inclusive_7_nistxml_sv_ii_atomic_g_day_max_inclusive_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_max_inclusive_7_nistxml_sv_ii_atomic_g_day_max_inclusive_3_5(save_xml):
     """
@@ -5360,7 +5018,6 @@ def test_atomic_g_day_max_inclusive_7_nistxml_sv_ii_atomic_g_day_max_inclusive_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_max_inclusive_6_nistxml_sv_ii_atomic_g_day_max_inclusive_2_1(save_xml):
     """
@@ -5375,7 +5032,6 @@ def test_atomic_g_day_max_inclusive_6_nistxml_sv_ii_atomic_g_day_max_inclusive_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_max_inclusive_5_nistxml_sv_ii_atomic_g_day_max_inclusive_1_1(save_xml):
     """
@@ -5390,7 +5046,6 @@ def test_atomic_g_day_max_inclusive_5_nistxml_sv_ii_atomic_g_day_max_inclusive_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_max_inclusive_5_nistxml_sv_ii_atomic_g_day_max_inclusive_1_2(save_xml):
     """
@@ -5405,7 +5060,6 @@ def test_atomic_g_day_max_inclusive_5_nistxml_sv_ii_atomic_g_day_max_inclusive_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_max_inclusive_5_nistxml_sv_ii_atomic_g_day_max_inclusive_1_3(save_xml):
     """
@@ -5420,7 +5074,6 @@ def test_atomic_g_day_max_inclusive_5_nistxml_sv_ii_atomic_g_day_max_inclusive_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_max_inclusive_5_nistxml_sv_ii_atomic_g_day_max_inclusive_1_4(save_xml):
     """
@@ -5435,7 +5088,6 @@ def test_atomic_g_day_max_inclusive_5_nistxml_sv_ii_atomic_g_day_max_inclusive_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_max_inclusive_5_nistxml_sv_ii_atomic_g_day_max_inclusive_1_5(save_xml):
     """
@@ -5450,7 +5102,6 @@ def test_atomic_g_day_max_inclusive_5_nistxml_sv_ii_atomic_g_day_max_inclusive_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_min_inclusive_8_nistxml_sv_ii_atomic_g_day_min_inclusive_6_1(save_xml):
     """
@@ -5465,7 +5116,6 @@ def test_atomic_g_day_min_inclusive_8_nistxml_sv_ii_atomic_g_day_min_inclusive_6
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_min_inclusive_8_nistxml_sv_ii_atomic_g_day_min_inclusive_6_2(save_xml):
     """
@@ -5480,7 +5130,6 @@ def test_atomic_g_day_min_inclusive_8_nistxml_sv_ii_atomic_g_day_min_inclusive_6
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_min_inclusive_8_nistxml_sv_ii_atomic_g_day_min_inclusive_6_3(save_xml):
     """
@@ -5495,7 +5144,6 @@ def test_atomic_g_day_min_inclusive_8_nistxml_sv_ii_atomic_g_day_min_inclusive_6
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_min_inclusive_8_nistxml_sv_ii_atomic_g_day_min_inclusive_6_4(save_xml):
     """
@@ -5510,7 +5158,6 @@ def test_atomic_g_day_min_inclusive_8_nistxml_sv_ii_atomic_g_day_min_inclusive_6
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_min_inclusive_8_nistxml_sv_ii_atomic_g_day_min_inclusive_6_5(save_xml):
     """
@@ -5525,7 +5172,6 @@ def test_atomic_g_day_min_inclusive_8_nistxml_sv_ii_atomic_g_day_min_inclusive_6
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_min_inclusive_7_nistxml_sv_ii_atomic_g_day_min_inclusive_5_1(save_xml):
     """
@@ -5540,7 +5186,6 @@ def test_atomic_g_day_min_inclusive_7_nistxml_sv_ii_atomic_g_day_min_inclusive_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_min_inclusive_7_nistxml_sv_ii_atomic_g_day_min_inclusive_5_2(save_xml):
     """
@@ -5555,7 +5200,6 @@ def test_atomic_g_day_min_inclusive_7_nistxml_sv_ii_atomic_g_day_min_inclusive_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_min_inclusive_7_nistxml_sv_ii_atomic_g_day_min_inclusive_5_3(save_xml):
     """
@@ -5570,7 +5214,6 @@ def test_atomic_g_day_min_inclusive_7_nistxml_sv_ii_atomic_g_day_min_inclusive_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_min_inclusive_7_nistxml_sv_ii_atomic_g_day_min_inclusive_5_4(save_xml):
     """
@@ -5585,7 +5228,6 @@ def test_atomic_g_day_min_inclusive_7_nistxml_sv_ii_atomic_g_day_min_inclusive_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_min_inclusive_7_nistxml_sv_ii_atomic_g_day_min_inclusive_5_5(save_xml):
     """
@@ -5600,7 +5242,6 @@ def test_atomic_g_day_min_inclusive_7_nistxml_sv_ii_atomic_g_day_min_inclusive_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_min_inclusive_6_nistxml_sv_ii_atomic_g_day_min_inclusive_4_1(save_xml):
     """
@@ -5615,7 +5256,6 @@ def test_atomic_g_day_min_inclusive_6_nistxml_sv_ii_atomic_g_day_min_inclusive_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_min_inclusive_6_nistxml_sv_ii_atomic_g_day_min_inclusive_4_2(save_xml):
     """
@@ -5630,7 +5270,6 @@ def test_atomic_g_day_min_inclusive_6_nistxml_sv_ii_atomic_g_day_min_inclusive_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_min_inclusive_6_nistxml_sv_ii_atomic_g_day_min_inclusive_4_3(save_xml):
     """
@@ -5645,7 +5284,6 @@ def test_atomic_g_day_min_inclusive_6_nistxml_sv_ii_atomic_g_day_min_inclusive_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_min_inclusive_6_nistxml_sv_ii_atomic_g_day_min_inclusive_4_4(save_xml):
     """
@@ -5660,7 +5298,6 @@ def test_atomic_g_day_min_inclusive_6_nistxml_sv_ii_atomic_g_day_min_inclusive_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_min_inclusive_6_nistxml_sv_ii_atomic_g_day_min_inclusive_4_5(save_xml):
     """
@@ -5675,7 +5312,6 @@ def test_atomic_g_day_min_inclusive_6_nistxml_sv_ii_atomic_g_day_min_inclusive_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_min_inclusive_5_nistxml_sv_ii_atomic_g_day_min_inclusive_3_1(save_xml):
     """
@@ -5690,7 +5326,6 @@ def test_atomic_g_day_min_inclusive_5_nistxml_sv_ii_atomic_g_day_min_inclusive_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_min_inclusive_5_nistxml_sv_ii_atomic_g_day_min_inclusive_3_2(save_xml):
     """
@@ -5705,7 +5340,6 @@ def test_atomic_g_day_min_inclusive_5_nistxml_sv_ii_atomic_g_day_min_inclusive_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_min_inclusive_5_nistxml_sv_ii_atomic_g_day_min_inclusive_3_3(save_xml):
     """
@@ -5720,7 +5354,6 @@ def test_atomic_g_day_min_inclusive_5_nistxml_sv_ii_atomic_g_day_min_inclusive_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_min_inclusive_5_nistxml_sv_ii_atomic_g_day_min_inclusive_3_4(save_xml):
     """
@@ -5735,7 +5368,6 @@ def test_atomic_g_day_min_inclusive_5_nistxml_sv_ii_atomic_g_day_min_inclusive_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_day_min_inclusive_5_nistxml_sv_ii_atomic_g_day_min_inclusive_3_5(save_xml):
     """
@@ -5750,7 +5382,6 @@ def test_atomic_g_day_min_inclusive_5_nistxml_sv_ii_atomic_g_day_min_inclusive_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_9_nistxml_sv_ii_atomic_g_month_day_max_inclusive_5_1(save_xml):
     """
@@ -5766,7 +5397,6 @@ def test_atomic_g_month_day_max_inclusive_9_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_9_nistxml_sv_ii_atomic_g_month_day_max_inclusive_5_2(save_xml):
     """
@@ -5782,7 +5412,6 @@ def test_atomic_g_month_day_max_inclusive_9_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_9_nistxml_sv_ii_atomic_g_month_day_max_inclusive_5_3(save_xml):
     """
@@ -5798,7 +5427,6 @@ def test_atomic_g_month_day_max_inclusive_9_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_9_nistxml_sv_ii_atomic_g_month_day_max_inclusive_5_4(save_xml):
     """
@@ -5814,7 +5442,6 @@ def test_atomic_g_month_day_max_inclusive_9_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_9_nistxml_sv_ii_atomic_g_month_day_max_inclusive_5_5(save_xml):
     """
@@ -5830,7 +5457,6 @@ def test_atomic_g_month_day_max_inclusive_9_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_8_nistxml_sv_ii_atomic_g_month_day_max_inclusive_4_1(save_xml):
     """
@@ -5846,7 +5472,6 @@ def test_atomic_g_month_day_max_inclusive_8_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_8_nistxml_sv_ii_atomic_g_month_day_max_inclusive_4_2(save_xml):
     """
@@ -5862,7 +5487,6 @@ def test_atomic_g_month_day_max_inclusive_8_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_8_nistxml_sv_ii_atomic_g_month_day_max_inclusive_4_3(save_xml):
     """
@@ -5878,7 +5502,6 @@ def test_atomic_g_month_day_max_inclusive_8_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_8_nistxml_sv_ii_atomic_g_month_day_max_inclusive_4_4(save_xml):
     """
@@ -5894,7 +5517,6 @@ def test_atomic_g_month_day_max_inclusive_8_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_8_nistxml_sv_ii_atomic_g_month_day_max_inclusive_4_5(save_xml):
     """
@@ -5910,7 +5532,6 @@ def test_atomic_g_month_day_max_inclusive_8_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_7_nistxml_sv_ii_atomic_g_month_day_max_inclusive_3_1(save_xml):
     """
@@ -5926,7 +5547,6 @@ def test_atomic_g_month_day_max_inclusive_7_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_7_nistxml_sv_ii_atomic_g_month_day_max_inclusive_3_2(save_xml):
     """
@@ -5942,7 +5562,6 @@ def test_atomic_g_month_day_max_inclusive_7_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_7_nistxml_sv_ii_atomic_g_month_day_max_inclusive_3_3(save_xml):
     """
@@ -5958,7 +5577,6 @@ def test_atomic_g_month_day_max_inclusive_7_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_7_nistxml_sv_ii_atomic_g_month_day_max_inclusive_3_4(save_xml):
     """
@@ -5974,7 +5592,6 @@ def test_atomic_g_month_day_max_inclusive_7_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_7_nistxml_sv_ii_atomic_g_month_day_max_inclusive_3_5(save_xml):
     """
@@ -5990,7 +5607,6 @@ def test_atomic_g_month_day_max_inclusive_7_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_6_nistxml_sv_ii_atomic_g_month_day_max_inclusive_2_1(save_xml):
     """
@@ -6006,7 +5622,6 @@ def test_atomic_g_month_day_max_inclusive_6_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_6_nistxml_sv_ii_atomic_g_month_day_max_inclusive_2_2(save_xml):
     """
@@ -6022,7 +5637,6 @@ def test_atomic_g_month_day_max_inclusive_6_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_6_nistxml_sv_ii_atomic_g_month_day_max_inclusive_2_3(save_xml):
     """
@@ -6038,7 +5652,6 @@ def test_atomic_g_month_day_max_inclusive_6_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_6_nistxml_sv_ii_atomic_g_month_day_max_inclusive_2_4(save_xml):
     """
@@ -6054,7 +5667,6 @@ def test_atomic_g_month_day_max_inclusive_6_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_6_nistxml_sv_ii_atomic_g_month_day_max_inclusive_2_5(save_xml):
     """
@@ -6070,7 +5682,6 @@ def test_atomic_g_month_day_max_inclusive_6_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_5_nistxml_sv_ii_atomic_g_month_day_max_inclusive_1_1(save_xml):
     """
@@ -6086,7 +5697,6 @@ def test_atomic_g_month_day_max_inclusive_5_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_5_nistxml_sv_ii_atomic_g_month_day_max_inclusive_1_2(save_xml):
     """
@@ -6102,7 +5712,6 @@ def test_atomic_g_month_day_max_inclusive_5_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_5_nistxml_sv_ii_atomic_g_month_day_max_inclusive_1_3(save_xml):
     """
@@ -6118,7 +5727,6 @@ def test_atomic_g_month_day_max_inclusive_5_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_5_nistxml_sv_ii_atomic_g_month_day_max_inclusive_1_4(save_xml):
     """
@@ -6134,7 +5742,6 @@ def test_atomic_g_month_day_max_inclusive_5_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_max_inclusive_5_nistxml_sv_ii_atomic_g_month_day_max_inclusive_1_5(save_xml):
     """
@@ -6150,7 +5757,6 @@ def test_atomic_g_month_day_max_inclusive_5_nistxml_sv_ii_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_9_nistxml_sv_ii_atomic_g_month_day_min_inclusive_6_1(save_xml):
     """
@@ -6166,7 +5772,6 @@ def test_atomic_g_month_day_min_inclusive_9_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_9_nistxml_sv_ii_atomic_g_month_day_min_inclusive_6_2(save_xml):
     """
@@ -6182,7 +5787,6 @@ def test_atomic_g_month_day_min_inclusive_9_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_9_nistxml_sv_ii_atomic_g_month_day_min_inclusive_6_3(save_xml):
     """
@@ -6198,7 +5802,6 @@ def test_atomic_g_month_day_min_inclusive_9_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_9_nistxml_sv_ii_atomic_g_month_day_min_inclusive_6_4(save_xml):
     """
@@ -6214,7 +5817,6 @@ def test_atomic_g_month_day_min_inclusive_9_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_9_nistxml_sv_ii_atomic_g_month_day_min_inclusive_6_5(save_xml):
     """
@@ -6230,7 +5832,6 @@ def test_atomic_g_month_day_min_inclusive_9_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_8_nistxml_sv_ii_atomic_g_month_day_min_inclusive_5_1(save_xml):
     """
@@ -6246,7 +5847,6 @@ def test_atomic_g_month_day_min_inclusive_8_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_8_nistxml_sv_ii_atomic_g_month_day_min_inclusive_5_2(save_xml):
     """
@@ -6262,7 +5862,6 @@ def test_atomic_g_month_day_min_inclusive_8_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_8_nistxml_sv_ii_atomic_g_month_day_min_inclusive_5_3(save_xml):
     """
@@ -6278,7 +5877,6 @@ def test_atomic_g_month_day_min_inclusive_8_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_8_nistxml_sv_ii_atomic_g_month_day_min_inclusive_5_4(save_xml):
     """
@@ -6294,7 +5892,6 @@ def test_atomic_g_month_day_min_inclusive_8_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_8_nistxml_sv_ii_atomic_g_month_day_min_inclusive_5_5(save_xml):
     """
@@ -6310,7 +5907,6 @@ def test_atomic_g_month_day_min_inclusive_8_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_7_nistxml_sv_ii_atomic_g_month_day_min_inclusive_4_1(save_xml):
     """
@@ -6326,7 +5922,6 @@ def test_atomic_g_month_day_min_inclusive_7_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_7_nistxml_sv_ii_atomic_g_month_day_min_inclusive_4_2(save_xml):
     """
@@ -6342,7 +5937,6 @@ def test_atomic_g_month_day_min_inclusive_7_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_7_nistxml_sv_ii_atomic_g_month_day_min_inclusive_4_3(save_xml):
     """
@@ -6358,7 +5952,6 @@ def test_atomic_g_month_day_min_inclusive_7_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_7_nistxml_sv_ii_atomic_g_month_day_min_inclusive_4_4(save_xml):
     """
@@ -6374,7 +5967,6 @@ def test_atomic_g_month_day_min_inclusive_7_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_7_nistxml_sv_ii_atomic_g_month_day_min_inclusive_4_5(save_xml):
     """
@@ -6390,7 +5982,6 @@ def test_atomic_g_month_day_min_inclusive_7_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_6_nistxml_sv_ii_atomic_g_month_day_min_inclusive_3_1(save_xml):
     """
@@ -6406,7 +5997,6 @@ def test_atomic_g_month_day_min_inclusive_6_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_6_nistxml_sv_ii_atomic_g_month_day_min_inclusive_3_2(save_xml):
     """
@@ -6422,7 +6012,6 @@ def test_atomic_g_month_day_min_inclusive_6_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_6_nistxml_sv_ii_atomic_g_month_day_min_inclusive_3_3(save_xml):
     """
@@ -6438,7 +6027,6 @@ def test_atomic_g_month_day_min_inclusive_6_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_6_nistxml_sv_ii_atomic_g_month_day_min_inclusive_3_4(save_xml):
     """
@@ -6454,7 +6042,6 @@ def test_atomic_g_month_day_min_inclusive_6_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_6_nistxml_sv_ii_atomic_g_month_day_min_inclusive_3_5(save_xml):
     """
@@ -6470,7 +6057,6 @@ def test_atomic_g_month_day_min_inclusive_6_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_5_nistxml_sv_ii_atomic_g_month_day_min_inclusive_2_1(save_xml):
     """
@@ -6486,7 +6072,6 @@ def test_atomic_g_month_day_min_inclusive_5_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_5_nistxml_sv_ii_atomic_g_month_day_min_inclusive_2_2(save_xml):
     """
@@ -6502,7 +6087,6 @@ def test_atomic_g_month_day_min_inclusive_5_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_5_nistxml_sv_ii_atomic_g_month_day_min_inclusive_2_3(save_xml):
     """
@@ -6518,7 +6102,6 @@ def test_atomic_g_month_day_min_inclusive_5_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_5_nistxml_sv_ii_atomic_g_month_day_min_inclusive_2_4(save_xml):
     """
@@ -6534,7 +6117,6 @@ def test_atomic_g_month_day_min_inclusive_5_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_month_day_min_inclusive_5_nistxml_sv_ii_atomic_g_month_day_min_inclusive_2_5(save_xml):
     """
@@ -6550,7 +6132,6 @@ def test_atomic_g_month_day_min_inclusive_5_nistxml_sv_ii_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_9_nistxml_sv_ii_atomic_g_year_max_inclusive_5_1(save_xml):
     """
@@ -6565,7 +6146,6 @@ def test_atomic_g_year_max_inclusive_9_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_9_nistxml_sv_ii_atomic_g_year_max_inclusive_5_2(save_xml):
     """
@@ -6580,7 +6160,6 @@ def test_atomic_g_year_max_inclusive_9_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_9_nistxml_sv_ii_atomic_g_year_max_inclusive_5_3(save_xml):
     """
@@ -6595,7 +6174,6 @@ def test_atomic_g_year_max_inclusive_9_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_9_nistxml_sv_ii_atomic_g_year_max_inclusive_5_4(save_xml):
     """
@@ -6610,7 +6188,6 @@ def test_atomic_g_year_max_inclusive_9_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_9_nistxml_sv_ii_atomic_g_year_max_inclusive_5_5(save_xml):
     """
@@ -6625,7 +6202,6 @@ def test_atomic_g_year_max_inclusive_9_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_8_nistxml_sv_ii_atomic_g_year_max_inclusive_4_1(save_xml):
     """
@@ -6640,7 +6216,6 @@ def test_atomic_g_year_max_inclusive_8_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_8_nistxml_sv_ii_atomic_g_year_max_inclusive_4_2(save_xml):
     """
@@ -6655,7 +6230,6 @@ def test_atomic_g_year_max_inclusive_8_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_8_nistxml_sv_ii_atomic_g_year_max_inclusive_4_3(save_xml):
     """
@@ -6670,7 +6244,6 @@ def test_atomic_g_year_max_inclusive_8_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_8_nistxml_sv_ii_atomic_g_year_max_inclusive_4_4(save_xml):
     """
@@ -6685,7 +6258,6 @@ def test_atomic_g_year_max_inclusive_8_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_8_nistxml_sv_ii_atomic_g_year_max_inclusive_4_5(save_xml):
     """
@@ -6700,7 +6272,6 @@ def test_atomic_g_year_max_inclusive_8_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_7_nistxml_sv_ii_atomic_g_year_max_inclusive_3_1(save_xml):
     """
@@ -6715,7 +6286,6 @@ def test_atomic_g_year_max_inclusive_7_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_7_nistxml_sv_ii_atomic_g_year_max_inclusive_3_2(save_xml):
     """
@@ -6730,7 +6300,6 @@ def test_atomic_g_year_max_inclusive_7_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_7_nistxml_sv_ii_atomic_g_year_max_inclusive_3_3(save_xml):
     """
@@ -6745,7 +6314,6 @@ def test_atomic_g_year_max_inclusive_7_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_7_nistxml_sv_ii_atomic_g_year_max_inclusive_3_4(save_xml):
     """
@@ -6760,7 +6328,6 @@ def test_atomic_g_year_max_inclusive_7_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_7_nistxml_sv_ii_atomic_g_year_max_inclusive_3_5(save_xml):
     """
@@ -6775,7 +6342,6 @@ def test_atomic_g_year_max_inclusive_7_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_6_nistxml_sv_ii_atomic_g_year_max_inclusive_2_1(save_xml):
     """
@@ -6790,7 +6356,6 @@ def test_atomic_g_year_max_inclusive_6_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_6_nistxml_sv_ii_atomic_g_year_max_inclusive_2_2(save_xml):
     """
@@ -6805,7 +6370,6 @@ def test_atomic_g_year_max_inclusive_6_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_6_nistxml_sv_ii_atomic_g_year_max_inclusive_2_3(save_xml):
     """
@@ -6820,7 +6384,6 @@ def test_atomic_g_year_max_inclusive_6_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_6_nistxml_sv_ii_atomic_g_year_max_inclusive_2_4(save_xml):
     """
@@ -6835,7 +6398,6 @@ def test_atomic_g_year_max_inclusive_6_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_6_nistxml_sv_ii_atomic_g_year_max_inclusive_2_5(save_xml):
     """
@@ -6850,7 +6412,6 @@ def test_atomic_g_year_max_inclusive_6_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_5_nistxml_sv_ii_atomic_g_year_max_inclusive_1_1(save_xml):
     """
@@ -6865,7 +6426,6 @@ def test_atomic_g_year_max_inclusive_5_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_5_nistxml_sv_ii_atomic_g_year_max_inclusive_1_2(save_xml):
     """
@@ -6880,7 +6440,6 @@ def test_atomic_g_year_max_inclusive_5_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_5_nistxml_sv_ii_atomic_g_year_max_inclusive_1_3(save_xml):
     """
@@ -6895,7 +6454,6 @@ def test_atomic_g_year_max_inclusive_5_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_5_nistxml_sv_ii_atomic_g_year_max_inclusive_1_4(save_xml):
     """
@@ -6910,7 +6468,6 @@ def test_atomic_g_year_max_inclusive_5_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_max_inclusive_5_nistxml_sv_ii_atomic_g_year_max_inclusive_1_5(save_xml):
     """
@@ -6925,7 +6482,6 @@ def test_atomic_g_year_max_inclusive_5_nistxml_sv_ii_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_9_nistxml_sv_ii_atomic_g_year_min_inclusive_6_1(save_xml):
     """
@@ -6940,7 +6496,6 @@ def test_atomic_g_year_min_inclusive_9_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_9_nistxml_sv_ii_atomic_g_year_min_inclusive_6_2(save_xml):
     """
@@ -6955,7 +6510,6 @@ def test_atomic_g_year_min_inclusive_9_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_9_nistxml_sv_ii_atomic_g_year_min_inclusive_6_3(save_xml):
     """
@@ -6970,7 +6524,6 @@ def test_atomic_g_year_min_inclusive_9_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_9_nistxml_sv_ii_atomic_g_year_min_inclusive_6_4(save_xml):
     """
@@ -6985,7 +6538,6 @@ def test_atomic_g_year_min_inclusive_9_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_9_nistxml_sv_ii_atomic_g_year_min_inclusive_6_5(save_xml):
     """
@@ -7000,7 +6552,6 @@ def test_atomic_g_year_min_inclusive_9_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_8_nistxml_sv_ii_atomic_g_year_min_inclusive_5_1(save_xml):
     """
@@ -7015,7 +6566,6 @@ def test_atomic_g_year_min_inclusive_8_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_8_nistxml_sv_ii_atomic_g_year_min_inclusive_5_2(save_xml):
     """
@@ -7030,7 +6580,6 @@ def test_atomic_g_year_min_inclusive_8_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_8_nistxml_sv_ii_atomic_g_year_min_inclusive_5_3(save_xml):
     """
@@ -7045,7 +6594,6 @@ def test_atomic_g_year_min_inclusive_8_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_8_nistxml_sv_ii_atomic_g_year_min_inclusive_5_4(save_xml):
     """
@@ -7060,7 +6608,6 @@ def test_atomic_g_year_min_inclusive_8_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_8_nistxml_sv_ii_atomic_g_year_min_inclusive_5_5(save_xml):
     """
@@ -7075,7 +6622,6 @@ def test_atomic_g_year_min_inclusive_8_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_7_nistxml_sv_ii_atomic_g_year_min_inclusive_4_1(save_xml):
     """
@@ -7090,7 +6636,6 @@ def test_atomic_g_year_min_inclusive_7_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_7_nistxml_sv_ii_atomic_g_year_min_inclusive_4_2(save_xml):
     """
@@ -7105,7 +6650,6 @@ def test_atomic_g_year_min_inclusive_7_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_7_nistxml_sv_ii_atomic_g_year_min_inclusive_4_3(save_xml):
     """
@@ -7120,7 +6664,6 @@ def test_atomic_g_year_min_inclusive_7_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_7_nistxml_sv_ii_atomic_g_year_min_inclusive_4_4(save_xml):
     """
@@ -7135,7 +6678,6 @@ def test_atomic_g_year_min_inclusive_7_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_7_nistxml_sv_ii_atomic_g_year_min_inclusive_4_5(save_xml):
     """
@@ -7150,7 +6692,6 @@ def test_atomic_g_year_min_inclusive_7_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_6_nistxml_sv_ii_atomic_g_year_min_inclusive_3_1(save_xml):
     """
@@ -7165,7 +6706,6 @@ def test_atomic_g_year_min_inclusive_6_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_6_nistxml_sv_ii_atomic_g_year_min_inclusive_3_2(save_xml):
     """
@@ -7180,7 +6720,6 @@ def test_atomic_g_year_min_inclusive_6_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_6_nistxml_sv_ii_atomic_g_year_min_inclusive_3_3(save_xml):
     """
@@ -7195,7 +6734,6 @@ def test_atomic_g_year_min_inclusive_6_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_6_nistxml_sv_ii_atomic_g_year_min_inclusive_3_4(save_xml):
     """
@@ -7210,7 +6748,6 @@ def test_atomic_g_year_min_inclusive_6_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_6_nistxml_sv_ii_atomic_g_year_min_inclusive_3_5(save_xml):
     """
@@ -7225,7 +6762,6 @@ def test_atomic_g_year_min_inclusive_6_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_5_nistxml_sv_ii_atomic_g_year_min_inclusive_2_1(save_xml):
     """
@@ -7240,7 +6776,6 @@ def test_atomic_g_year_min_inclusive_5_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_5_nistxml_sv_ii_atomic_g_year_min_inclusive_2_2(save_xml):
     """
@@ -7255,7 +6790,6 @@ def test_atomic_g_year_min_inclusive_5_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_5_nistxml_sv_ii_atomic_g_year_min_inclusive_2_3(save_xml):
     """
@@ -7270,7 +6804,6 @@ def test_atomic_g_year_min_inclusive_5_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_5_nistxml_sv_ii_atomic_g_year_min_inclusive_2_4(save_xml):
     """
@@ -7285,7 +6818,6 @@ def test_atomic_g_year_min_inclusive_5_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_min_inclusive_5_nistxml_sv_ii_atomic_g_year_min_inclusive_2_5(save_xml):
     """
@@ -7300,7 +6832,6 @@ def test_atomic_g_year_min_inclusive_5_nistxml_sv_ii_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_9_nistxml_sv_ii_atomic_g_year_month_max_inclusive_5_1(save_xml):
     """
@@ -7316,7 +6847,6 @@ def test_atomic_g_year_month_max_inclusive_9_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_9_nistxml_sv_ii_atomic_g_year_month_max_inclusive_5_2(save_xml):
     """
@@ -7332,7 +6862,6 @@ def test_atomic_g_year_month_max_inclusive_9_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_9_nistxml_sv_ii_atomic_g_year_month_max_inclusive_5_3(save_xml):
     """
@@ -7348,7 +6877,6 @@ def test_atomic_g_year_month_max_inclusive_9_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_9_nistxml_sv_ii_atomic_g_year_month_max_inclusive_5_4(save_xml):
     """
@@ -7364,7 +6892,6 @@ def test_atomic_g_year_month_max_inclusive_9_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_9_nistxml_sv_ii_atomic_g_year_month_max_inclusive_5_5(save_xml):
     """
@@ -7380,7 +6907,6 @@ def test_atomic_g_year_month_max_inclusive_9_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_8_nistxml_sv_ii_atomic_g_year_month_max_inclusive_4_1(save_xml):
     """
@@ -7396,7 +6922,6 @@ def test_atomic_g_year_month_max_inclusive_8_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_8_nistxml_sv_ii_atomic_g_year_month_max_inclusive_4_2(save_xml):
     """
@@ -7412,7 +6937,6 @@ def test_atomic_g_year_month_max_inclusive_8_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_8_nistxml_sv_ii_atomic_g_year_month_max_inclusive_4_3(save_xml):
     """
@@ -7428,7 +6952,6 @@ def test_atomic_g_year_month_max_inclusive_8_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_8_nistxml_sv_ii_atomic_g_year_month_max_inclusive_4_4(save_xml):
     """
@@ -7444,7 +6967,6 @@ def test_atomic_g_year_month_max_inclusive_8_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_8_nistxml_sv_ii_atomic_g_year_month_max_inclusive_4_5(save_xml):
     """
@@ -7460,7 +6982,6 @@ def test_atomic_g_year_month_max_inclusive_8_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_7_nistxml_sv_ii_atomic_g_year_month_max_inclusive_3_1(save_xml):
     """
@@ -7476,7 +6997,6 @@ def test_atomic_g_year_month_max_inclusive_7_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_7_nistxml_sv_ii_atomic_g_year_month_max_inclusive_3_2(save_xml):
     """
@@ -7492,7 +7012,6 @@ def test_atomic_g_year_month_max_inclusive_7_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_7_nistxml_sv_ii_atomic_g_year_month_max_inclusive_3_3(save_xml):
     """
@@ -7508,7 +7027,6 @@ def test_atomic_g_year_month_max_inclusive_7_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_7_nistxml_sv_ii_atomic_g_year_month_max_inclusive_3_4(save_xml):
     """
@@ -7524,7 +7042,6 @@ def test_atomic_g_year_month_max_inclusive_7_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_7_nistxml_sv_ii_atomic_g_year_month_max_inclusive_3_5(save_xml):
     """
@@ -7540,7 +7057,6 @@ def test_atomic_g_year_month_max_inclusive_7_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_6_nistxml_sv_ii_atomic_g_year_month_max_inclusive_2_1(save_xml):
     """
@@ -7556,7 +7072,6 @@ def test_atomic_g_year_month_max_inclusive_6_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_6_nistxml_sv_ii_atomic_g_year_month_max_inclusive_2_2(save_xml):
     """
@@ -7572,7 +7087,6 @@ def test_atomic_g_year_month_max_inclusive_6_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_6_nistxml_sv_ii_atomic_g_year_month_max_inclusive_2_3(save_xml):
     """
@@ -7588,7 +7102,6 @@ def test_atomic_g_year_month_max_inclusive_6_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_6_nistxml_sv_ii_atomic_g_year_month_max_inclusive_2_4(save_xml):
     """
@@ -7604,7 +7117,6 @@ def test_atomic_g_year_month_max_inclusive_6_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_6_nistxml_sv_ii_atomic_g_year_month_max_inclusive_2_5(save_xml):
     """
@@ -7620,7 +7132,6 @@ def test_atomic_g_year_month_max_inclusive_6_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_5_nistxml_sv_ii_atomic_g_year_month_max_inclusive_1_1(save_xml):
     """
@@ -7636,7 +7147,6 @@ def test_atomic_g_year_month_max_inclusive_5_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_5_nistxml_sv_ii_atomic_g_year_month_max_inclusive_1_2(save_xml):
     """
@@ -7652,7 +7162,6 @@ def test_atomic_g_year_month_max_inclusive_5_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_5_nistxml_sv_ii_atomic_g_year_month_max_inclusive_1_3(save_xml):
     """
@@ -7668,7 +7177,6 @@ def test_atomic_g_year_month_max_inclusive_5_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_5_nistxml_sv_ii_atomic_g_year_month_max_inclusive_1_4(save_xml):
     """
@@ -7684,7 +7192,6 @@ def test_atomic_g_year_month_max_inclusive_5_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_max_inclusive_5_nistxml_sv_ii_atomic_g_year_month_max_inclusive_1_5(save_xml):
     """
@@ -7700,7 +7207,6 @@ def test_atomic_g_year_month_max_inclusive_5_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_9_nistxml_sv_ii_atomic_g_year_month_min_inclusive_6_1(save_xml):
     """
@@ -7716,7 +7222,6 @@ def test_atomic_g_year_month_min_inclusive_9_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_9_nistxml_sv_ii_atomic_g_year_month_min_inclusive_6_2(save_xml):
     """
@@ -7732,7 +7237,6 @@ def test_atomic_g_year_month_min_inclusive_9_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_9_nistxml_sv_ii_atomic_g_year_month_min_inclusive_6_3(save_xml):
     """
@@ -7748,7 +7252,6 @@ def test_atomic_g_year_month_min_inclusive_9_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_9_nistxml_sv_ii_atomic_g_year_month_min_inclusive_6_4(save_xml):
     """
@@ -7764,7 +7267,6 @@ def test_atomic_g_year_month_min_inclusive_9_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_9_nistxml_sv_ii_atomic_g_year_month_min_inclusive_6_5(save_xml):
     """
@@ -7780,7 +7282,6 @@ def test_atomic_g_year_month_min_inclusive_9_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_8_nistxml_sv_ii_atomic_g_year_month_min_inclusive_5_1(save_xml):
     """
@@ -7796,7 +7297,6 @@ def test_atomic_g_year_month_min_inclusive_8_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_8_nistxml_sv_ii_atomic_g_year_month_min_inclusive_5_2(save_xml):
     """
@@ -7812,7 +7312,6 @@ def test_atomic_g_year_month_min_inclusive_8_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_8_nistxml_sv_ii_atomic_g_year_month_min_inclusive_5_3(save_xml):
     """
@@ -7828,7 +7327,6 @@ def test_atomic_g_year_month_min_inclusive_8_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_8_nistxml_sv_ii_atomic_g_year_month_min_inclusive_5_4(save_xml):
     """
@@ -7844,7 +7342,6 @@ def test_atomic_g_year_month_min_inclusive_8_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_8_nistxml_sv_ii_atomic_g_year_month_min_inclusive_5_5(save_xml):
     """
@@ -7860,7 +7357,6 @@ def test_atomic_g_year_month_min_inclusive_8_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_7_nistxml_sv_ii_atomic_g_year_month_min_inclusive_4_1(save_xml):
     """
@@ -7876,7 +7372,6 @@ def test_atomic_g_year_month_min_inclusive_7_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_7_nistxml_sv_ii_atomic_g_year_month_min_inclusive_4_2(save_xml):
     """
@@ -7892,7 +7387,6 @@ def test_atomic_g_year_month_min_inclusive_7_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_7_nistxml_sv_ii_atomic_g_year_month_min_inclusive_4_3(save_xml):
     """
@@ -7908,7 +7402,6 @@ def test_atomic_g_year_month_min_inclusive_7_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_7_nistxml_sv_ii_atomic_g_year_month_min_inclusive_4_4(save_xml):
     """
@@ -7924,7 +7417,6 @@ def test_atomic_g_year_month_min_inclusive_7_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_7_nistxml_sv_ii_atomic_g_year_month_min_inclusive_4_5(save_xml):
     """
@@ -7940,7 +7432,6 @@ def test_atomic_g_year_month_min_inclusive_7_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_6_nistxml_sv_ii_atomic_g_year_month_min_inclusive_3_1(save_xml):
     """
@@ -7956,7 +7447,6 @@ def test_atomic_g_year_month_min_inclusive_6_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_6_nistxml_sv_ii_atomic_g_year_month_min_inclusive_3_2(save_xml):
     """
@@ -7972,7 +7462,6 @@ def test_atomic_g_year_month_min_inclusive_6_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_6_nistxml_sv_ii_atomic_g_year_month_min_inclusive_3_3(save_xml):
     """
@@ -7988,7 +7477,6 @@ def test_atomic_g_year_month_min_inclusive_6_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_6_nistxml_sv_ii_atomic_g_year_month_min_inclusive_3_4(save_xml):
     """
@@ -8004,7 +7492,6 @@ def test_atomic_g_year_month_min_inclusive_6_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_6_nistxml_sv_ii_atomic_g_year_month_min_inclusive_3_5(save_xml):
     """
@@ -8020,7 +7507,6 @@ def test_atomic_g_year_month_min_inclusive_6_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_5_nistxml_sv_ii_atomic_g_year_month_min_inclusive_2_1(save_xml):
     """
@@ -8036,7 +7522,6 @@ def test_atomic_g_year_month_min_inclusive_5_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_5_nistxml_sv_ii_atomic_g_year_month_min_inclusive_2_2(save_xml):
     """
@@ -8052,7 +7537,6 @@ def test_atomic_g_year_month_min_inclusive_5_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_5_nistxml_sv_ii_atomic_g_year_month_min_inclusive_2_3(save_xml):
     """
@@ -8068,7 +7552,6 @@ def test_atomic_g_year_month_min_inclusive_5_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_5_nistxml_sv_ii_atomic_g_year_month_min_inclusive_2_4(save_xml):
     """
@@ -8084,7 +7567,6 @@ def test_atomic_g_year_month_min_inclusive_5_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_g_year_month_min_inclusive_5_nistxml_sv_ii_atomic_g_year_month_min_inclusive_2_5(save_xml):
     """
@@ -8100,7 +7582,6 @@ def test_atomic_g_year_month_min_inclusive_5_nistxml_sv_ii_atomic_g_year_month_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_9_nistxml_sv_ii_atomic_date_max_inclusive_5_1(save_xml):
     """
@@ -8116,7 +7597,6 @@ def test_atomic_date_max_inclusive_9_nistxml_sv_ii_atomic_date_max_inclusive_5_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_9_nistxml_sv_ii_atomic_date_max_inclusive_5_2(save_xml):
     """
@@ -8132,7 +7612,6 @@ def test_atomic_date_max_inclusive_9_nistxml_sv_ii_atomic_date_max_inclusive_5_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_9_nistxml_sv_ii_atomic_date_max_inclusive_5_3(save_xml):
     """
@@ -8148,7 +7627,6 @@ def test_atomic_date_max_inclusive_9_nistxml_sv_ii_atomic_date_max_inclusive_5_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_9_nistxml_sv_ii_atomic_date_max_inclusive_5_4(save_xml):
     """
@@ -8164,7 +7642,6 @@ def test_atomic_date_max_inclusive_9_nistxml_sv_ii_atomic_date_max_inclusive_5_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_9_nistxml_sv_ii_atomic_date_max_inclusive_5_5(save_xml):
     """
@@ -8180,7 +7657,6 @@ def test_atomic_date_max_inclusive_9_nistxml_sv_ii_atomic_date_max_inclusive_5_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_8_nistxml_sv_ii_atomic_date_max_inclusive_4_1(save_xml):
     """
@@ -8196,7 +7672,6 @@ def test_atomic_date_max_inclusive_8_nistxml_sv_ii_atomic_date_max_inclusive_4_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_8_nistxml_sv_ii_atomic_date_max_inclusive_4_2(save_xml):
     """
@@ -8212,7 +7687,6 @@ def test_atomic_date_max_inclusive_8_nistxml_sv_ii_atomic_date_max_inclusive_4_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_8_nistxml_sv_ii_atomic_date_max_inclusive_4_3(save_xml):
     """
@@ -8228,7 +7702,6 @@ def test_atomic_date_max_inclusive_8_nistxml_sv_ii_atomic_date_max_inclusive_4_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_8_nistxml_sv_ii_atomic_date_max_inclusive_4_4(save_xml):
     """
@@ -8244,7 +7717,6 @@ def test_atomic_date_max_inclusive_8_nistxml_sv_ii_atomic_date_max_inclusive_4_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_8_nistxml_sv_ii_atomic_date_max_inclusive_4_5(save_xml):
     """
@@ -8260,7 +7732,6 @@ def test_atomic_date_max_inclusive_8_nistxml_sv_ii_atomic_date_max_inclusive_4_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_7_nistxml_sv_ii_atomic_date_max_inclusive_3_1(save_xml):
     """
@@ -8276,7 +7747,6 @@ def test_atomic_date_max_inclusive_7_nistxml_sv_ii_atomic_date_max_inclusive_3_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_7_nistxml_sv_ii_atomic_date_max_inclusive_3_2(save_xml):
     """
@@ -8292,7 +7762,6 @@ def test_atomic_date_max_inclusive_7_nistxml_sv_ii_atomic_date_max_inclusive_3_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_7_nistxml_sv_ii_atomic_date_max_inclusive_3_3(save_xml):
     """
@@ -8308,7 +7777,6 @@ def test_atomic_date_max_inclusive_7_nistxml_sv_ii_atomic_date_max_inclusive_3_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_7_nistxml_sv_ii_atomic_date_max_inclusive_3_4(save_xml):
     """
@@ -8324,7 +7792,6 @@ def test_atomic_date_max_inclusive_7_nistxml_sv_ii_atomic_date_max_inclusive_3_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_7_nistxml_sv_ii_atomic_date_max_inclusive_3_5(save_xml):
     """
@@ -8340,7 +7807,6 @@ def test_atomic_date_max_inclusive_7_nistxml_sv_ii_atomic_date_max_inclusive_3_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_6_nistxml_sv_ii_atomic_date_max_inclusive_2_1(save_xml):
     """
@@ -8356,7 +7822,6 @@ def test_atomic_date_max_inclusive_6_nistxml_sv_ii_atomic_date_max_inclusive_2_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_6_nistxml_sv_ii_atomic_date_max_inclusive_2_2(save_xml):
     """
@@ -8372,7 +7837,6 @@ def test_atomic_date_max_inclusive_6_nistxml_sv_ii_atomic_date_max_inclusive_2_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_6_nistxml_sv_ii_atomic_date_max_inclusive_2_3(save_xml):
     """
@@ -8388,7 +7852,6 @@ def test_atomic_date_max_inclusive_6_nistxml_sv_ii_atomic_date_max_inclusive_2_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_6_nistxml_sv_ii_atomic_date_max_inclusive_2_4(save_xml):
     """
@@ -8404,7 +7867,6 @@ def test_atomic_date_max_inclusive_6_nistxml_sv_ii_atomic_date_max_inclusive_2_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_6_nistxml_sv_ii_atomic_date_max_inclusive_2_5(save_xml):
     """
@@ -8420,7 +7882,6 @@ def test_atomic_date_max_inclusive_6_nistxml_sv_ii_atomic_date_max_inclusive_2_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_5_nistxml_sv_ii_atomic_date_max_inclusive_1_1(save_xml):
     """
@@ -8436,7 +7897,6 @@ def test_atomic_date_max_inclusive_5_nistxml_sv_ii_atomic_date_max_inclusive_1_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_5_nistxml_sv_ii_atomic_date_max_inclusive_1_2(save_xml):
     """
@@ -8452,7 +7912,6 @@ def test_atomic_date_max_inclusive_5_nistxml_sv_ii_atomic_date_max_inclusive_1_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_5_nistxml_sv_ii_atomic_date_max_inclusive_1_3(save_xml):
     """
@@ -8468,7 +7927,6 @@ def test_atomic_date_max_inclusive_5_nistxml_sv_ii_atomic_date_max_inclusive_1_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_5_nistxml_sv_ii_atomic_date_max_inclusive_1_4(save_xml):
     """
@@ -8484,7 +7942,6 @@ def test_atomic_date_max_inclusive_5_nistxml_sv_ii_atomic_date_max_inclusive_1_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_max_inclusive_5_nistxml_sv_ii_atomic_date_max_inclusive_1_5(save_xml):
     """
@@ -8500,7 +7957,6 @@ def test_atomic_date_max_inclusive_5_nistxml_sv_ii_atomic_date_max_inclusive_1_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_9_nistxml_sv_ii_atomic_date_min_inclusive_6_1(save_xml):
     """
@@ -8516,7 +7972,6 @@ def test_atomic_date_min_inclusive_9_nistxml_sv_ii_atomic_date_min_inclusive_6_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_9_nistxml_sv_ii_atomic_date_min_inclusive_6_2(save_xml):
     """
@@ -8532,7 +7987,6 @@ def test_atomic_date_min_inclusive_9_nistxml_sv_ii_atomic_date_min_inclusive_6_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_9_nistxml_sv_ii_atomic_date_min_inclusive_6_3(save_xml):
     """
@@ -8548,7 +8002,6 @@ def test_atomic_date_min_inclusive_9_nistxml_sv_ii_atomic_date_min_inclusive_6_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_9_nistxml_sv_ii_atomic_date_min_inclusive_6_4(save_xml):
     """
@@ -8564,7 +8017,6 @@ def test_atomic_date_min_inclusive_9_nistxml_sv_ii_atomic_date_min_inclusive_6_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_9_nistxml_sv_ii_atomic_date_min_inclusive_6_5(save_xml):
     """
@@ -8580,7 +8032,6 @@ def test_atomic_date_min_inclusive_9_nistxml_sv_ii_atomic_date_min_inclusive_6_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_8_nistxml_sv_ii_atomic_date_min_inclusive_5_1(save_xml):
     """
@@ -8596,7 +8047,6 @@ def test_atomic_date_min_inclusive_8_nistxml_sv_ii_atomic_date_min_inclusive_5_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_8_nistxml_sv_ii_atomic_date_min_inclusive_5_2(save_xml):
     """
@@ -8612,7 +8062,6 @@ def test_atomic_date_min_inclusive_8_nistxml_sv_ii_atomic_date_min_inclusive_5_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_8_nistxml_sv_ii_atomic_date_min_inclusive_5_3(save_xml):
     """
@@ -8628,7 +8077,6 @@ def test_atomic_date_min_inclusive_8_nistxml_sv_ii_atomic_date_min_inclusive_5_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_8_nistxml_sv_ii_atomic_date_min_inclusive_5_4(save_xml):
     """
@@ -8644,7 +8092,6 @@ def test_atomic_date_min_inclusive_8_nistxml_sv_ii_atomic_date_min_inclusive_5_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_8_nistxml_sv_ii_atomic_date_min_inclusive_5_5(save_xml):
     """
@@ -8660,7 +8107,6 @@ def test_atomic_date_min_inclusive_8_nistxml_sv_ii_atomic_date_min_inclusive_5_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_7_nistxml_sv_ii_atomic_date_min_inclusive_4_1(save_xml):
     """
@@ -8676,7 +8122,6 @@ def test_atomic_date_min_inclusive_7_nistxml_sv_ii_atomic_date_min_inclusive_4_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_7_nistxml_sv_ii_atomic_date_min_inclusive_4_2(save_xml):
     """
@@ -8692,7 +8137,6 @@ def test_atomic_date_min_inclusive_7_nistxml_sv_ii_atomic_date_min_inclusive_4_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_7_nistxml_sv_ii_atomic_date_min_inclusive_4_3(save_xml):
     """
@@ -8708,7 +8152,6 @@ def test_atomic_date_min_inclusive_7_nistxml_sv_ii_atomic_date_min_inclusive_4_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_7_nistxml_sv_ii_atomic_date_min_inclusive_4_4(save_xml):
     """
@@ -8724,7 +8167,6 @@ def test_atomic_date_min_inclusive_7_nistxml_sv_ii_atomic_date_min_inclusive_4_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_7_nistxml_sv_ii_atomic_date_min_inclusive_4_5(save_xml):
     """
@@ -8740,7 +8182,6 @@ def test_atomic_date_min_inclusive_7_nistxml_sv_ii_atomic_date_min_inclusive_4_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_6_nistxml_sv_ii_atomic_date_min_inclusive_3_1(save_xml):
     """
@@ -8756,7 +8197,6 @@ def test_atomic_date_min_inclusive_6_nistxml_sv_ii_atomic_date_min_inclusive_3_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_6_nistxml_sv_ii_atomic_date_min_inclusive_3_2(save_xml):
     """
@@ -8772,7 +8212,6 @@ def test_atomic_date_min_inclusive_6_nistxml_sv_ii_atomic_date_min_inclusive_3_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_6_nistxml_sv_ii_atomic_date_min_inclusive_3_3(save_xml):
     """
@@ -8788,7 +8227,6 @@ def test_atomic_date_min_inclusive_6_nistxml_sv_ii_atomic_date_min_inclusive_3_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_6_nistxml_sv_ii_atomic_date_min_inclusive_3_4(save_xml):
     """
@@ -8804,7 +8242,6 @@ def test_atomic_date_min_inclusive_6_nistxml_sv_ii_atomic_date_min_inclusive_3_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_6_nistxml_sv_ii_atomic_date_min_inclusive_3_5(save_xml):
     """
@@ -8820,7 +8257,6 @@ def test_atomic_date_min_inclusive_6_nistxml_sv_ii_atomic_date_min_inclusive_3_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_5_nistxml_sv_ii_atomic_date_min_inclusive_2_1(save_xml):
     """
@@ -8836,7 +8272,6 @@ def test_atomic_date_min_inclusive_5_nistxml_sv_ii_atomic_date_min_inclusive_2_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_5_nistxml_sv_ii_atomic_date_min_inclusive_2_2(save_xml):
     """
@@ -8852,7 +8287,6 @@ def test_atomic_date_min_inclusive_5_nistxml_sv_ii_atomic_date_min_inclusive_2_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_5_nistxml_sv_ii_atomic_date_min_inclusive_2_3(save_xml):
     """
@@ -8868,7 +8302,6 @@ def test_atomic_date_min_inclusive_5_nistxml_sv_ii_atomic_date_min_inclusive_2_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_5_nistxml_sv_ii_atomic_date_min_inclusive_2_4(save_xml):
     """
@@ -8884,7 +8317,6 @@ def test_atomic_date_min_inclusive_5_nistxml_sv_ii_atomic_date_min_inclusive_2_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_min_inclusive_5_nistxml_sv_ii_atomic_date_min_inclusive_2_5(save_xml):
     """
@@ -8900,7 +8332,6 @@ def test_atomic_date_min_inclusive_5_nistxml_sv_ii_atomic_date_min_inclusive_2_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_9_nistxml_sv_ii_atomic_time_max_inclusive_5_1(save_xml):
     """
@@ -8916,7 +8347,6 @@ def test_atomic_time_max_inclusive_9_nistxml_sv_ii_atomic_time_max_inclusive_5_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_9_nistxml_sv_ii_atomic_time_max_inclusive_5_2(save_xml):
     """
@@ -8932,7 +8362,6 @@ def test_atomic_time_max_inclusive_9_nistxml_sv_ii_atomic_time_max_inclusive_5_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_9_nistxml_sv_ii_atomic_time_max_inclusive_5_3(save_xml):
     """
@@ -8948,7 +8377,6 @@ def test_atomic_time_max_inclusive_9_nistxml_sv_ii_atomic_time_max_inclusive_5_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_9_nistxml_sv_ii_atomic_time_max_inclusive_5_4(save_xml):
     """
@@ -8964,7 +8392,6 @@ def test_atomic_time_max_inclusive_9_nistxml_sv_ii_atomic_time_max_inclusive_5_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_9_nistxml_sv_ii_atomic_time_max_inclusive_5_5(save_xml):
     """
@@ -8980,7 +8407,6 @@ def test_atomic_time_max_inclusive_9_nistxml_sv_ii_atomic_time_max_inclusive_5_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_8_nistxml_sv_ii_atomic_time_max_inclusive_4_1(save_xml):
     """
@@ -8996,7 +8422,6 @@ def test_atomic_time_max_inclusive_8_nistxml_sv_ii_atomic_time_max_inclusive_4_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_8_nistxml_sv_ii_atomic_time_max_inclusive_4_2(save_xml):
     """
@@ -9012,7 +8437,6 @@ def test_atomic_time_max_inclusive_8_nistxml_sv_ii_atomic_time_max_inclusive_4_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_8_nistxml_sv_ii_atomic_time_max_inclusive_4_3(save_xml):
     """
@@ -9028,7 +8452,6 @@ def test_atomic_time_max_inclusive_8_nistxml_sv_ii_atomic_time_max_inclusive_4_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_8_nistxml_sv_ii_atomic_time_max_inclusive_4_4(save_xml):
     """
@@ -9044,7 +8467,6 @@ def test_atomic_time_max_inclusive_8_nistxml_sv_ii_atomic_time_max_inclusive_4_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_8_nistxml_sv_ii_atomic_time_max_inclusive_4_5(save_xml):
     """
@@ -9060,7 +8482,6 @@ def test_atomic_time_max_inclusive_8_nistxml_sv_ii_atomic_time_max_inclusive_4_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_7_nistxml_sv_ii_atomic_time_max_inclusive_3_1(save_xml):
     """
@@ -9076,7 +8497,6 @@ def test_atomic_time_max_inclusive_7_nistxml_sv_ii_atomic_time_max_inclusive_3_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_7_nistxml_sv_ii_atomic_time_max_inclusive_3_2(save_xml):
     """
@@ -9092,7 +8512,6 @@ def test_atomic_time_max_inclusive_7_nistxml_sv_ii_atomic_time_max_inclusive_3_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_7_nistxml_sv_ii_atomic_time_max_inclusive_3_3(save_xml):
     """
@@ -9108,7 +8527,6 @@ def test_atomic_time_max_inclusive_7_nistxml_sv_ii_atomic_time_max_inclusive_3_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_7_nistxml_sv_ii_atomic_time_max_inclusive_3_4(save_xml):
     """
@@ -9124,7 +8542,6 @@ def test_atomic_time_max_inclusive_7_nistxml_sv_ii_atomic_time_max_inclusive_3_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_7_nistxml_sv_ii_atomic_time_max_inclusive_3_5(save_xml):
     """
@@ -9140,7 +8557,6 @@ def test_atomic_time_max_inclusive_7_nistxml_sv_ii_atomic_time_max_inclusive_3_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_6_nistxml_sv_ii_atomic_time_max_inclusive_2_1(save_xml):
     """
@@ -9156,7 +8572,6 @@ def test_atomic_time_max_inclusive_6_nistxml_sv_ii_atomic_time_max_inclusive_2_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_6_nistxml_sv_ii_atomic_time_max_inclusive_2_2(save_xml):
     """
@@ -9172,7 +8587,6 @@ def test_atomic_time_max_inclusive_6_nistxml_sv_ii_atomic_time_max_inclusive_2_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_6_nistxml_sv_ii_atomic_time_max_inclusive_2_3(save_xml):
     """
@@ -9188,7 +8602,6 @@ def test_atomic_time_max_inclusive_6_nistxml_sv_ii_atomic_time_max_inclusive_2_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_6_nistxml_sv_ii_atomic_time_max_inclusive_2_4(save_xml):
     """
@@ -9204,7 +8617,6 @@ def test_atomic_time_max_inclusive_6_nistxml_sv_ii_atomic_time_max_inclusive_2_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_6_nistxml_sv_ii_atomic_time_max_inclusive_2_5(save_xml):
     """
@@ -9220,7 +8632,6 @@ def test_atomic_time_max_inclusive_6_nistxml_sv_ii_atomic_time_max_inclusive_2_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_5_nistxml_sv_ii_atomic_time_max_inclusive_1_1(save_xml):
     """
@@ -9236,7 +8647,6 @@ def test_atomic_time_max_inclusive_5_nistxml_sv_ii_atomic_time_max_inclusive_1_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_5_nistxml_sv_ii_atomic_time_max_inclusive_1_2(save_xml):
     """
@@ -9252,7 +8662,6 @@ def test_atomic_time_max_inclusive_5_nistxml_sv_ii_atomic_time_max_inclusive_1_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_5_nistxml_sv_ii_atomic_time_max_inclusive_1_3(save_xml):
     """
@@ -9268,7 +8677,6 @@ def test_atomic_time_max_inclusive_5_nistxml_sv_ii_atomic_time_max_inclusive_1_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_5_nistxml_sv_ii_atomic_time_max_inclusive_1_4(save_xml):
     """
@@ -9284,7 +8692,6 @@ def test_atomic_time_max_inclusive_5_nistxml_sv_ii_atomic_time_max_inclusive_1_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_max_inclusive_5_nistxml_sv_ii_atomic_time_max_inclusive_1_5(save_xml):
     """
@@ -9300,7 +8707,6 @@ def test_atomic_time_max_inclusive_5_nistxml_sv_ii_atomic_time_max_inclusive_1_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_9_nistxml_sv_ii_atomic_time_min_inclusive_6_1(save_xml):
     """
@@ -9316,7 +8722,6 @@ def test_atomic_time_min_inclusive_9_nistxml_sv_ii_atomic_time_min_inclusive_6_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_9_nistxml_sv_ii_atomic_time_min_inclusive_6_2(save_xml):
     """
@@ -9332,7 +8737,6 @@ def test_atomic_time_min_inclusive_9_nistxml_sv_ii_atomic_time_min_inclusive_6_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_9_nistxml_sv_ii_atomic_time_min_inclusive_6_3(save_xml):
     """
@@ -9348,7 +8752,6 @@ def test_atomic_time_min_inclusive_9_nistxml_sv_ii_atomic_time_min_inclusive_6_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_9_nistxml_sv_ii_atomic_time_min_inclusive_6_4(save_xml):
     """
@@ -9364,7 +8767,6 @@ def test_atomic_time_min_inclusive_9_nistxml_sv_ii_atomic_time_min_inclusive_6_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_9_nistxml_sv_ii_atomic_time_min_inclusive_6_5(save_xml):
     """
@@ -9380,7 +8782,6 @@ def test_atomic_time_min_inclusive_9_nistxml_sv_ii_atomic_time_min_inclusive_6_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_8_nistxml_sv_ii_atomic_time_min_inclusive_5_1(save_xml):
     """
@@ -9396,7 +8797,6 @@ def test_atomic_time_min_inclusive_8_nistxml_sv_ii_atomic_time_min_inclusive_5_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_8_nistxml_sv_ii_atomic_time_min_inclusive_5_2(save_xml):
     """
@@ -9412,7 +8812,6 @@ def test_atomic_time_min_inclusive_8_nistxml_sv_ii_atomic_time_min_inclusive_5_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_8_nistxml_sv_ii_atomic_time_min_inclusive_5_3(save_xml):
     """
@@ -9428,7 +8827,6 @@ def test_atomic_time_min_inclusive_8_nistxml_sv_ii_atomic_time_min_inclusive_5_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_8_nistxml_sv_ii_atomic_time_min_inclusive_5_4(save_xml):
     """
@@ -9444,7 +8842,6 @@ def test_atomic_time_min_inclusive_8_nistxml_sv_ii_atomic_time_min_inclusive_5_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_8_nistxml_sv_ii_atomic_time_min_inclusive_5_5(save_xml):
     """
@@ -9460,7 +8857,6 @@ def test_atomic_time_min_inclusive_8_nistxml_sv_ii_atomic_time_min_inclusive_5_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_7_nistxml_sv_ii_atomic_time_min_inclusive_4_1(save_xml):
     """
@@ -9476,7 +8872,6 @@ def test_atomic_time_min_inclusive_7_nistxml_sv_ii_atomic_time_min_inclusive_4_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_7_nistxml_sv_ii_atomic_time_min_inclusive_4_2(save_xml):
     """
@@ -9492,7 +8887,6 @@ def test_atomic_time_min_inclusive_7_nistxml_sv_ii_atomic_time_min_inclusive_4_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_7_nistxml_sv_ii_atomic_time_min_inclusive_4_3(save_xml):
     """
@@ -9508,7 +8902,6 @@ def test_atomic_time_min_inclusive_7_nistxml_sv_ii_atomic_time_min_inclusive_4_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_7_nistxml_sv_ii_atomic_time_min_inclusive_4_4(save_xml):
     """
@@ -9524,7 +8917,6 @@ def test_atomic_time_min_inclusive_7_nistxml_sv_ii_atomic_time_min_inclusive_4_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_7_nistxml_sv_ii_atomic_time_min_inclusive_4_5(save_xml):
     """
@@ -9540,7 +8932,6 @@ def test_atomic_time_min_inclusive_7_nistxml_sv_ii_atomic_time_min_inclusive_4_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_6_nistxml_sv_ii_atomic_time_min_inclusive_3_1(save_xml):
     """
@@ -9556,7 +8947,6 @@ def test_atomic_time_min_inclusive_6_nistxml_sv_ii_atomic_time_min_inclusive_3_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_6_nistxml_sv_ii_atomic_time_min_inclusive_3_2(save_xml):
     """
@@ -9572,7 +8962,6 @@ def test_atomic_time_min_inclusive_6_nistxml_sv_ii_atomic_time_min_inclusive_3_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_6_nistxml_sv_ii_atomic_time_min_inclusive_3_3(save_xml):
     """
@@ -9588,7 +8977,6 @@ def test_atomic_time_min_inclusive_6_nistxml_sv_ii_atomic_time_min_inclusive_3_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_6_nistxml_sv_ii_atomic_time_min_inclusive_3_4(save_xml):
     """
@@ -9604,7 +8992,6 @@ def test_atomic_time_min_inclusive_6_nistxml_sv_ii_atomic_time_min_inclusive_3_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_6_nistxml_sv_ii_atomic_time_min_inclusive_3_5(save_xml):
     """
@@ -9620,7 +9007,6 @@ def test_atomic_time_min_inclusive_6_nistxml_sv_ii_atomic_time_min_inclusive_3_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_5_nistxml_sv_ii_atomic_time_min_inclusive_2_1(save_xml):
     """
@@ -9636,7 +9022,6 @@ def test_atomic_time_min_inclusive_5_nistxml_sv_ii_atomic_time_min_inclusive_2_1
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_5_nistxml_sv_ii_atomic_time_min_inclusive_2_2(save_xml):
     """
@@ -9652,7 +9037,6 @@ def test_atomic_time_min_inclusive_5_nistxml_sv_ii_atomic_time_min_inclusive_2_2
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_5_nistxml_sv_ii_atomic_time_min_inclusive_2_3(save_xml):
     """
@@ -9668,7 +9052,6 @@ def test_atomic_time_min_inclusive_5_nistxml_sv_ii_atomic_time_min_inclusive_2_3
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_5_nistxml_sv_ii_atomic_time_min_inclusive_2_4(save_xml):
     """
@@ -9684,7 +9067,6 @@ def test_atomic_time_min_inclusive_5_nistxml_sv_ii_atomic_time_min_inclusive_2_4
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_time_min_inclusive_5_nistxml_sv_ii_atomic_time_min_inclusive_2_5(save_xml):
     """
@@ -9700,7 +9082,6 @@ def test_atomic_time_min_inclusive_5_nistxml_sv_ii_atomic_time_min_inclusive_2_5
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_9_nistxml_sv_ii_atomic_date_time_max_inclusive_5_1(save_xml):
     """
@@ -9716,7 +9097,6 @@ def test_atomic_date_time_max_inclusive_9_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_9_nistxml_sv_ii_atomic_date_time_max_inclusive_5_2(save_xml):
     """
@@ -9732,7 +9112,6 @@ def test_atomic_date_time_max_inclusive_9_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_9_nistxml_sv_ii_atomic_date_time_max_inclusive_5_3(save_xml):
     """
@@ -9748,7 +9127,6 @@ def test_atomic_date_time_max_inclusive_9_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_9_nistxml_sv_ii_atomic_date_time_max_inclusive_5_4(save_xml):
     """
@@ -9764,7 +9142,6 @@ def test_atomic_date_time_max_inclusive_9_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_9_nistxml_sv_ii_atomic_date_time_max_inclusive_5_5(save_xml):
     """
@@ -9780,7 +9157,6 @@ def test_atomic_date_time_max_inclusive_9_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_8_nistxml_sv_ii_atomic_date_time_max_inclusive_4_1(save_xml):
     """
@@ -9796,7 +9172,6 @@ def test_atomic_date_time_max_inclusive_8_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_8_nistxml_sv_ii_atomic_date_time_max_inclusive_4_2(save_xml):
     """
@@ -9812,7 +9187,6 @@ def test_atomic_date_time_max_inclusive_8_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_8_nistxml_sv_ii_atomic_date_time_max_inclusive_4_3(save_xml):
     """
@@ -9828,7 +9202,6 @@ def test_atomic_date_time_max_inclusive_8_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_8_nistxml_sv_ii_atomic_date_time_max_inclusive_4_4(save_xml):
     """
@@ -9844,7 +9217,6 @@ def test_atomic_date_time_max_inclusive_8_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_8_nistxml_sv_ii_atomic_date_time_max_inclusive_4_5(save_xml):
     """
@@ -9860,7 +9232,6 @@ def test_atomic_date_time_max_inclusive_8_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_7_nistxml_sv_ii_atomic_date_time_max_inclusive_3_1(save_xml):
     """
@@ -9876,7 +9247,6 @@ def test_atomic_date_time_max_inclusive_7_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_7_nistxml_sv_ii_atomic_date_time_max_inclusive_3_2(save_xml):
     """
@@ -9892,7 +9262,6 @@ def test_atomic_date_time_max_inclusive_7_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_7_nistxml_sv_ii_atomic_date_time_max_inclusive_3_3(save_xml):
     """
@@ -9908,7 +9277,6 @@ def test_atomic_date_time_max_inclusive_7_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_7_nistxml_sv_ii_atomic_date_time_max_inclusive_3_4(save_xml):
     """
@@ -9924,7 +9292,6 @@ def test_atomic_date_time_max_inclusive_7_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_7_nistxml_sv_ii_atomic_date_time_max_inclusive_3_5(save_xml):
     """
@@ -9940,7 +9307,6 @@ def test_atomic_date_time_max_inclusive_7_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_6_nistxml_sv_ii_atomic_date_time_max_inclusive_2_1(save_xml):
     """
@@ -9956,7 +9322,6 @@ def test_atomic_date_time_max_inclusive_6_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_6_nistxml_sv_ii_atomic_date_time_max_inclusive_2_2(save_xml):
     """
@@ -9972,7 +9337,6 @@ def test_atomic_date_time_max_inclusive_6_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_6_nistxml_sv_ii_atomic_date_time_max_inclusive_2_3(save_xml):
     """
@@ -9988,7 +9352,6 @@ def test_atomic_date_time_max_inclusive_6_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_6_nistxml_sv_ii_atomic_date_time_max_inclusive_2_4(save_xml):
     """
@@ -10004,7 +9367,6 @@ def test_atomic_date_time_max_inclusive_6_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_6_nistxml_sv_ii_atomic_date_time_max_inclusive_2_5(save_xml):
     """
@@ -10020,7 +9382,6 @@ def test_atomic_date_time_max_inclusive_6_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_5_nistxml_sv_ii_atomic_date_time_max_inclusive_1_1(save_xml):
     """
@@ -10036,7 +9397,6 @@ def test_atomic_date_time_max_inclusive_5_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_5_nistxml_sv_ii_atomic_date_time_max_inclusive_1_2(save_xml):
     """
@@ -10052,7 +9412,6 @@ def test_atomic_date_time_max_inclusive_5_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_5_nistxml_sv_ii_atomic_date_time_max_inclusive_1_3(save_xml):
     """
@@ -10068,7 +9427,6 @@ def test_atomic_date_time_max_inclusive_5_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_5_nistxml_sv_ii_atomic_date_time_max_inclusive_1_4(save_xml):
     """
@@ -10084,7 +9442,6 @@ def test_atomic_date_time_max_inclusive_5_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_max_inclusive_5_nistxml_sv_ii_atomic_date_time_max_inclusive_1_5(save_xml):
     """
@@ -10100,7 +9457,6 @@ def test_atomic_date_time_max_inclusive_5_nistxml_sv_ii_atomic_date_time_max_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_9_nistxml_sv_ii_atomic_date_time_min_inclusive_6_1(save_xml):
     """
@@ -10116,7 +9472,6 @@ def test_atomic_date_time_min_inclusive_9_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_9_nistxml_sv_ii_atomic_date_time_min_inclusive_6_2(save_xml):
     """
@@ -10132,7 +9487,6 @@ def test_atomic_date_time_min_inclusive_9_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_9_nistxml_sv_ii_atomic_date_time_min_inclusive_6_3(save_xml):
     """
@@ -10148,7 +9502,6 @@ def test_atomic_date_time_min_inclusive_9_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_9_nistxml_sv_ii_atomic_date_time_min_inclusive_6_4(save_xml):
     """
@@ -10164,7 +9517,6 @@ def test_atomic_date_time_min_inclusive_9_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_9_nistxml_sv_ii_atomic_date_time_min_inclusive_6_5(save_xml):
     """
@@ -10180,7 +9532,6 @@ def test_atomic_date_time_min_inclusive_9_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_8_nistxml_sv_ii_atomic_date_time_min_inclusive_5_1(save_xml):
     """
@@ -10196,7 +9547,6 @@ def test_atomic_date_time_min_inclusive_8_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_8_nistxml_sv_ii_atomic_date_time_min_inclusive_5_2(save_xml):
     """
@@ -10212,7 +9562,6 @@ def test_atomic_date_time_min_inclusive_8_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_8_nistxml_sv_ii_atomic_date_time_min_inclusive_5_3(save_xml):
     """
@@ -10228,7 +9577,6 @@ def test_atomic_date_time_min_inclusive_8_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_8_nistxml_sv_ii_atomic_date_time_min_inclusive_5_4(save_xml):
     """
@@ -10244,7 +9592,6 @@ def test_atomic_date_time_min_inclusive_8_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_8_nistxml_sv_ii_atomic_date_time_min_inclusive_5_5(save_xml):
     """
@@ -10260,7 +9607,6 @@ def test_atomic_date_time_min_inclusive_8_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_7_nistxml_sv_ii_atomic_date_time_min_inclusive_4_1(save_xml):
     """
@@ -10276,7 +9622,6 @@ def test_atomic_date_time_min_inclusive_7_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_7_nistxml_sv_ii_atomic_date_time_min_inclusive_4_2(save_xml):
     """
@@ -10292,7 +9637,6 @@ def test_atomic_date_time_min_inclusive_7_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_7_nistxml_sv_ii_atomic_date_time_min_inclusive_4_3(save_xml):
     """
@@ -10308,7 +9652,6 @@ def test_atomic_date_time_min_inclusive_7_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_7_nistxml_sv_ii_atomic_date_time_min_inclusive_4_4(save_xml):
     """
@@ -10324,7 +9667,6 @@ def test_atomic_date_time_min_inclusive_7_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_7_nistxml_sv_ii_atomic_date_time_min_inclusive_4_5(save_xml):
     """
@@ -10340,7 +9682,6 @@ def test_atomic_date_time_min_inclusive_7_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_6_nistxml_sv_ii_atomic_date_time_min_inclusive_3_1(save_xml):
     """
@@ -10356,7 +9697,6 @@ def test_atomic_date_time_min_inclusive_6_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_6_nistxml_sv_ii_atomic_date_time_min_inclusive_3_2(save_xml):
     """
@@ -10372,7 +9712,6 @@ def test_atomic_date_time_min_inclusive_6_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_6_nistxml_sv_ii_atomic_date_time_min_inclusive_3_3(save_xml):
     """
@@ -10388,7 +9727,6 @@ def test_atomic_date_time_min_inclusive_6_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_6_nistxml_sv_ii_atomic_date_time_min_inclusive_3_4(save_xml):
     """
@@ -10404,7 +9742,6 @@ def test_atomic_date_time_min_inclusive_6_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_6_nistxml_sv_ii_atomic_date_time_min_inclusive_3_5(save_xml):
     """
@@ -10420,7 +9757,6 @@ def test_atomic_date_time_min_inclusive_6_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_5_nistxml_sv_ii_atomic_date_time_min_inclusive_2_1(save_xml):
     """
@@ -10436,7 +9772,6 @@ def test_atomic_date_time_min_inclusive_5_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_5_nistxml_sv_ii_atomic_date_time_min_inclusive_2_2(save_xml):
     """
@@ -10452,7 +9787,6 @@ def test_atomic_date_time_min_inclusive_5_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_5_nistxml_sv_ii_atomic_date_time_min_inclusive_2_3(save_xml):
     """
@@ -10468,7 +9802,6 @@ def test_atomic_date_time_min_inclusive_5_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_5_nistxml_sv_ii_atomic_date_time_min_inclusive_2_4(save_xml):
     """
@@ -10484,7 +9817,6 @@ def test_atomic_date_time_min_inclusive_5_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_date_time_min_inclusive_5_nistxml_sv_ii_atomic_date_time_min_inclusive_2_5(save_xml):
     """
@@ -10500,7 +9832,6 @@ def test_atomic_date_time_min_inclusive_5_nistxml_sv_ii_atomic_date_time_min_inc
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_9_nistxml_sv_ii_atomic_duration_max_inclusive_5_1(save_xml):
     """
@@ -10516,7 +9847,6 @@ def test_atomic_duration_max_inclusive_9_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_9_nistxml_sv_ii_atomic_duration_max_inclusive_5_2(save_xml):
     """
@@ -10532,7 +9862,6 @@ def test_atomic_duration_max_inclusive_9_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_9_nistxml_sv_ii_atomic_duration_max_inclusive_5_3(save_xml):
     """
@@ -10548,7 +9877,6 @@ def test_atomic_duration_max_inclusive_9_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_9_nistxml_sv_ii_atomic_duration_max_inclusive_5_4(save_xml):
     """
@@ -10564,7 +9892,6 @@ def test_atomic_duration_max_inclusive_9_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_9_nistxml_sv_ii_atomic_duration_max_inclusive_5_5(save_xml):
     """
@@ -10580,7 +9907,6 @@ def test_atomic_duration_max_inclusive_9_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_8_nistxml_sv_ii_atomic_duration_max_inclusive_4_1(save_xml):
     """
@@ -10596,7 +9922,6 @@ def test_atomic_duration_max_inclusive_8_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_8_nistxml_sv_ii_atomic_duration_max_inclusive_4_2(save_xml):
     """
@@ -10612,7 +9937,6 @@ def test_atomic_duration_max_inclusive_8_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_8_nistxml_sv_ii_atomic_duration_max_inclusive_4_3(save_xml):
     """
@@ -10628,7 +9952,6 @@ def test_atomic_duration_max_inclusive_8_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_8_nistxml_sv_ii_atomic_duration_max_inclusive_4_4(save_xml):
     """
@@ -10644,7 +9967,6 @@ def test_atomic_duration_max_inclusive_8_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_8_nistxml_sv_ii_atomic_duration_max_inclusive_4_5(save_xml):
     """
@@ -10660,7 +9982,6 @@ def test_atomic_duration_max_inclusive_8_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_7_nistxml_sv_ii_atomic_duration_max_inclusive_3_1(save_xml):
     """
@@ -10676,7 +9997,6 @@ def test_atomic_duration_max_inclusive_7_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_7_nistxml_sv_ii_atomic_duration_max_inclusive_3_2(save_xml):
     """
@@ -10692,7 +10012,6 @@ def test_atomic_duration_max_inclusive_7_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_7_nistxml_sv_ii_atomic_duration_max_inclusive_3_3(save_xml):
     """
@@ -10708,7 +10027,6 @@ def test_atomic_duration_max_inclusive_7_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_7_nistxml_sv_ii_atomic_duration_max_inclusive_3_4(save_xml):
     """
@@ -10724,7 +10042,6 @@ def test_atomic_duration_max_inclusive_7_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_7_nistxml_sv_ii_atomic_duration_max_inclusive_3_5(save_xml):
     """
@@ -10740,7 +10057,6 @@ def test_atomic_duration_max_inclusive_7_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_6_nistxml_sv_ii_atomic_duration_max_inclusive_2_1(save_xml):
     """
@@ -10756,7 +10072,6 @@ def test_atomic_duration_max_inclusive_6_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_6_nistxml_sv_ii_atomic_duration_max_inclusive_2_2(save_xml):
     """
@@ -10772,7 +10087,6 @@ def test_atomic_duration_max_inclusive_6_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_6_nistxml_sv_ii_atomic_duration_max_inclusive_2_3(save_xml):
     """
@@ -10788,7 +10102,6 @@ def test_atomic_duration_max_inclusive_6_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_6_nistxml_sv_ii_atomic_duration_max_inclusive_2_4(save_xml):
     """
@@ -10804,7 +10117,6 @@ def test_atomic_duration_max_inclusive_6_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_6_nistxml_sv_ii_atomic_duration_max_inclusive_2_5(save_xml):
     """
@@ -10820,7 +10132,6 @@ def test_atomic_duration_max_inclusive_6_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_5_nistxml_sv_ii_atomic_duration_max_inclusive_1_1(save_xml):
     """
@@ -10836,7 +10147,6 @@ def test_atomic_duration_max_inclusive_5_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_5_nistxml_sv_ii_atomic_duration_max_inclusive_1_2(save_xml):
     """
@@ -10852,7 +10162,6 @@ def test_atomic_duration_max_inclusive_5_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_5_nistxml_sv_ii_atomic_duration_max_inclusive_1_3(save_xml):
     """
@@ -10868,7 +10177,6 @@ def test_atomic_duration_max_inclusive_5_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_5_nistxml_sv_ii_atomic_duration_max_inclusive_1_4(save_xml):
     """
@@ -10884,7 +10192,6 @@ def test_atomic_duration_max_inclusive_5_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_max_inclusive_5_nistxml_sv_ii_atomic_duration_max_inclusive_1_5(save_xml):
     """
@@ -10900,7 +10207,6 @@ def test_atomic_duration_max_inclusive_5_nistxml_sv_ii_atomic_duration_max_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_9_nistxml_sv_ii_atomic_duration_min_inclusive_6_1(save_xml):
     """
@@ -10916,7 +10222,6 @@ def test_atomic_duration_min_inclusive_9_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_9_nistxml_sv_ii_atomic_duration_min_inclusive_6_2(save_xml):
     """
@@ -10932,7 +10237,6 @@ def test_atomic_duration_min_inclusive_9_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_9_nistxml_sv_ii_atomic_duration_min_inclusive_6_3(save_xml):
     """
@@ -10948,7 +10252,6 @@ def test_atomic_duration_min_inclusive_9_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_9_nistxml_sv_ii_atomic_duration_min_inclusive_6_4(save_xml):
     """
@@ -10964,7 +10267,6 @@ def test_atomic_duration_min_inclusive_9_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_9_nistxml_sv_ii_atomic_duration_min_inclusive_6_5(save_xml):
     """
@@ -10980,7 +10282,6 @@ def test_atomic_duration_min_inclusive_9_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_8_nistxml_sv_ii_atomic_duration_min_inclusive_5_1(save_xml):
     """
@@ -10996,7 +10297,6 @@ def test_atomic_duration_min_inclusive_8_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_8_nistxml_sv_ii_atomic_duration_min_inclusive_5_2(save_xml):
     """
@@ -11012,7 +10312,6 @@ def test_atomic_duration_min_inclusive_8_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_8_nistxml_sv_ii_atomic_duration_min_inclusive_5_3(save_xml):
     """
@@ -11028,7 +10327,6 @@ def test_atomic_duration_min_inclusive_8_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_8_nistxml_sv_ii_atomic_duration_min_inclusive_5_4(save_xml):
     """
@@ -11044,7 +10342,6 @@ def test_atomic_duration_min_inclusive_8_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_8_nistxml_sv_ii_atomic_duration_min_inclusive_5_5(save_xml):
     """
@@ -11060,7 +10357,6 @@ def test_atomic_duration_min_inclusive_8_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_7_nistxml_sv_ii_atomic_duration_min_inclusive_4_1(save_xml):
     """
@@ -11076,7 +10372,6 @@ def test_atomic_duration_min_inclusive_7_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_7_nistxml_sv_ii_atomic_duration_min_inclusive_4_2(save_xml):
     """
@@ -11092,7 +10387,6 @@ def test_atomic_duration_min_inclusive_7_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_7_nistxml_sv_ii_atomic_duration_min_inclusive_4_3(save_xml):
     """
@@ -11108,7 +10402,6 @@ def test_atomic_duration_min_inclusive_7_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_7_nistxml_sv_ii_atomic_duration_min_inclusive_4_4(save_xml):
     """
@@ -11124,7 +10417,6 @@ def test_atomic_duration_min_inclusive_7_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_7_nistxml_sv_ii_atomic_duration_min_inclusive_4_5(save_xml):
     """
@@ -11140,7 +10432,6 @@ def test_atomic_duration_min_inclusive_7_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_6_nistxml_sv_ii_atomic_duration_min_inclusive_3_1(save_xml):
     """
@@ -11156,7 +10447,6 @@ def test_atomic_duration_min_inclusive_6_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_6_nistxml_sv_ii_atomic_duration_min_inclusive_3_2(save_xml):
     """
@@ -11172,7 +10462,6 @@ def test_atomic_duration_min_inclusive_6_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_6_nistxml_sv_ii_atomic_duration_min_inclusive_3_3(save_xml):
     """
@@ -11188,7 +10477,6 @@ def test_atomic_duration_min_inclusive_6_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_6_nistxml_sv_ii_atomic_duration_min_inclusive_3_4(save_xml):
     """
@@ -11204,7 +10492,6 @@ def test_atomic_duration_min_inclusive_6_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_6_nistxml_sv_ii_atomic_duration_min_inclusive_3_5(save_xml):
     """
@@ -11220,7 +10507,6 @@ def test_atomic_duration_min_inclusive_6_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_5_nistxml_sv_ii_atomic_duration_min_inclusive_2_1(save_xml):
     """
@@ -11236,7 +10522,6 @@ def test_atomic_duration_min_inclusive_5_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_5_nistxml_sv_ii_atomic_duration_min_inclusive_2_2(save_xml):
     """
@@ -11252,7 +10537,6 @@ def test_atomic_duration_min_inclusive_5_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_5_nistxml_sv_ii_atomic_duration_min_inclusive_2_3(save_xml):
     """
@@ -11268,7 +10552,6 @@ def test_atomic_duration_min_inclusive_5_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_5_nistxml_sv_ii_atomic_duration_min_inclusive_2_4(save_xml):
     """
@@ -11284,7 +10567,6 @@ def test_atomic_duration_min_inclusive_5_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_duration_min_inclusive_5_nistxml_sv_ii_atomic_duration_min_inclusive_2_5(save_xml):
     """
@@ -11300,7 +10582,6 @@ def test_atomic_duration_min_inclusive_5_nistxml_sv_ii_atomic_duration_min_inclu
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_9_nistxml_sv_ii_atomic_positive_integer_total_digits_5_1(save_xml):
     """
@@ -11316,7 +10597,6 @@ def test_atomic_positive_integer_total_digits_9_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_9_nistxml_sv_ii_atomic_positive_integer_total_digits_5_2(save_xml):
     """
@@ -11332,7 +10612,6 @@ def test_atomic_positive_integer_total_digits_9_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_9_nistxml_sv_ii_atomic_positive_integer_total_digits_5_3(save_xml):
     """
@@ -11348,7 +10627,6 @@ def test_atomic_positive_integer_total_digits_9_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_9_nistxml_sv_ii_atomic_positive_integer_total_digits_5_4(save_xml):
     """
@@ -11364,7 +10642,6 @@ def test_atomic_positive_integer_total_digits_9_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_9_nistxml_sv_ii_atomic_positive_integer_total_digits_5_5(save_xml):
     """
@@ -11380,7 +10657,6 @@ def test_atomic_positive_integer_total_digits_9_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_8_nistxml_sv_ii_atomic_positive_integer_total_digits_4_1(save_xml):
     """
@@ -11396,7 +10672,6 @@ def test_atomic_positive_integer_total_digits_8_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_8_nistxml_sv_ii_atomic_positive_integer_total_digits_4_2(save_xml):
     """
@@ -11412,7 +10687,6 @@ def test_atomic_positive_integer_total_digits_8_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_8_nistxml_sv_ii_atomic_positive_integer_total_digits_4_3(save_xml):
     """
@@ -11428,7 +10702,6 @@ def test_atomic_positive_integer_total_digits_8_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_8_nistxml_sv_ii_atomic_positive_integer_total_digits_4_4(save_xml):
     """
@@ -11444,7 +10717,6 @@ def test_atomic_positive_integer_total_digits_8_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_8_nistxml_sv_ii_atomic_positive_integer_total_digits_4_5(save_xml):
     """
@@ -11460,7 +10732,6 @@ def test_atomic_positive_integer_total_digits_8_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_7_nistxml_sv_ii_atomic_positive_integer_total_digits_3_1(save_xml):
     """
@@ -11476,7 +10747,6 @@ def test_atomic_positive_integer_total_digits_7_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_7_nistxml_sv_ii_atomic_positive_integer_total_digits_3_2(save_xml):
     """
@@ -11492,7 +10762,6 @@ def test_atomic_positive_integer_total_digits_7_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_7_nistxml_sv_ii_atomic_positive_integer_total_digits_3_3(save_xml):
     """
@@ -11508,7 +10777,6 @@ def test_atomic_positive_integer_total_digits_7_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_7_nistxml_sv_ii_atomic_positive_integer_total_digits_3_4(save_xml):
     """
@@ -11524,7 +10792,6 @@ def test_atomic_positive_integer_total_digits_7_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_7_nistxml_sv_ii_atomic_positive_integer_total_digits_3_5(save_xml):
     """
@@ -11540,7 +10807,6 @@ def test_atomic_positive_integer_total_digits_7_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_6_nistxml_sv_ii_atomic_positive_integer_total_digits_2_1(save_xml):
     """
@@ -11556,7 +10822,6 @@ def test_atomic_positive_integer_total_digits_6_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_6_nistxml_sv_ii_atomic_positive_integer_total_digits_2_2(save_xml):
     """
@@ -11572,7 +10837,6 @@ def test_atomic_positive_integer_total_digits_6_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_6_nistxml_sv_ii_atomic_positive_integer_total_digits_2_3(save_xml):
     """
@@ -11588,7 +10852,6 @@ def test_atomic_positive_integer_total_digits_6_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_6_nistxml_sv_ii_atomic_positive_integer_total_digits_2_4(save_xml):
     """
@@ -11604,7 +10867,6 @@ def test_atomic_positive_integer_total_digits_6_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_6_nistxml_sv_ii_atomic_positive_integer_total_digits_2_5(save_xml):
     """
@@ -11620,7 +10882,6 @@ def test_atomic_positive_integer_total_digits_6_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_5_nistxml_sv_ii_atomic_positive_integer_total_digits_1_1(save_xml):
     """
@@ -11636,7 +10897,6 @@ def test_atomic_positive_integer_total_digits_5_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_5_nistxml_sv_ii_atomic_positive_integer_total_digits_1_2(save_xml):
     """
@@ -11652,7 +10912,6 @@ def test_atomic_positive_integer_total_digits_5_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_5_nistxml_sv_ii_atomic_positive_integer_total_digits_1_3(save_xml):
     """
@@ -11668,7 +10927,6 @@ def test_atomic_positive_integer_total_digits_5_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_5_nistxml_sv_ii_atomic_positive_integer_total_digits_1_4(save_xml):
     """
@@ -11684,7 +10942,6 @@ def test_atomic_positive_integer_total_digits_5_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_total_digits_5_nistxml_sv_ii_atomic_positive_integer_total_digits_1_5(save_xml):
     """
@@ -11700,7 +10957,6 @@ def test_atomic_positive_integer_total_digits_5_nistxml_sv_ii_atomic_positive_in
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_positive_integer_max_inclusive_5_1(save_xml):
     """
@@ -11716,7 +10972,6 @@ def test_atomic_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_positive_integer_max_inclusive_5_2(save_xml):
     """
@@ -11732,7 +10987,6 @@ def test_atomic_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_positive_integer_max_inclusive_5_3(save_xml):
     """
@@ -11748,7 +11002,6 @@ def test_atomic_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_positive_integer_max_inclusive_5_4(save_xml):
     """
@@ -11764,7 +11017,6 @@ def test_atomic_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_positive_integer_max_inclusive_5_5(save_xml):
     """
@@ -11780,7 +11032,6 @@ def test_atomic_positive_integer_max_inclusive_9_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_positive_integer_max_inclusive_4_1(save_xml):
     """
@@ -11796,7 +11047,6 @@ def test_atomic_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_positive_integer_max_inclusive_4_2(save_xml):
     """
@@ -11812,7 +11062,6 @@ def test_atomic_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_positive_integer_max_inclusive_4_3(save_xml):
     """
@@ -11828,7 +11077,6 @@ def test_atomic_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_positive_integer_max_inclusive_4_4(save_xml):
     """
@@ -11844,7 +11092,6 @@ def test_atomic_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_positive_integer_max_inclusive_4_5(save_xml):
     """
@@ -11860,7 +11107,6 @@ def test_atomic_positive_integer_max_inclusive_8_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_positive_integer_max_inclusive_3_1(save_xml):
     """
@@ -11876,7 +11122,6 @@ def test_atomic_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_positive_integer_max_inclusive_3_2(save_xml):
     """
@@ -11892,7 +11137,6 @@ def test_atomic_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_positive_integer_max_inclusive_3_3(save_xml):
     """
@@ -11908,7 +11152,6 @@ def test_atomic_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_positive_integer_max_inclusive_3_4(save_xml):
     """
@@ -11924,7 +11167,6 @@ def test_atomic_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_positive_integer_max_inclusive_3_5(save_xml):
     """
@@ -11940,7 +11182,6 @@ def test_atomic_positive_integer_max_inclusive_7_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_positive_integer_max_inclusive_2_1(save_xml):
     """
@@ -11956,7 +11197,6 @@ def test_atomic_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_positive_integer_max_inclusive_2_2(save_xml):
     """
@@ -11972,7 +11212,6 @@ def test_atomic_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_positive_integer_max_inclusive_2_3(save_xml):
     """
@@ -11988,7 +11227,6 @@ def test_atomic_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_positive_integer_max_inclusive_2_4(save_xml):
     """
@@ -12004,7 +11242,6 @@ def test_atomic_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_positive_integer_max_inclusive_2_5(save_xml):
     """
@@ -12020,7 +11257,6 @@ def test_atomic_positive_integer_max_inclusive_6_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_positive_integer_max_inclusive_1_1(save_xml):
     """
@@ -12036,7 +11272,6 @@ def test_atomic_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_positive_integer_max_inclusive_1_2(save_xml):
     """
@@ -12052,7 +11287,6 @@ def test_atomic_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_positive_integer_max_inclusive_1_3(save_xml):
     """
@@ -12068,7 +11302,6 @@ def test_atomic_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_positive_integer_max_inclusive_1_4(save_xml):
     """
@@ -12084,7 +11317,6 @@ def test_atomic_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_positive_integer_max_inclusive_1_5(save_xml):
     """
@@ -12100,7 +11332,6 @@ def test_atomic_positive_integer_max_inclusive_5_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_positive_integer_min_inclusive_6_1(save_xml):
     """
@@ -12116,7 +11347,6 @@ def test_atomic_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_positive_integer_min_inclusive_6_2(save_xml):
     """
@@ -12132,7 +11362,6 @@ def test_atomic_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_positive_integer_min_inclusive_6_3(save_xml):
     """
@@ -12148,7 +11377,6 @@ def test_atomic_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_positive_integer_min_inclusive_6_4(save_xml):
     """
@@ -12164,7 +11392,6 @@ def test_atomic_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_positive_integer_min_inclusive_6_5(save_xml):
     """
@@ -12180,7 +11407,6 @@ def test_atomic_positive_integer_min_inclusive_9_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_positive_integer_min_inclusive_5_1(save_xml):
     """
@@ -12196,7 +11422,6 @@ def test_atomic_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_positive_integer_min_inclusive_5_2(save_xml):
     """
@@ -12212,7 +11437,6 @@ def test_atomic_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_positive_integer_min_inclusive_5_3(save_xml):
     """
@@ -12228,7 +11452,6 @@ def test_atomic_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_positive_integer_min_inclusive_5_4(save_xml):
     """
@@ -12244,7 +11467,6 @@ def test_atomic_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_positive_integer_min_inclusive_5_5(save_xml):
     """
@@ -12260,7 +11482,6 @@ def test_atomic_positive_integer_min_inclusive_8_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_positive_integer_min_inclusive_4_1(save_xml):
     """
@@ -12276,7 +11497,6 @@ def test_atomic_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_positive_integer_min_inclusive_4_2(save_xml):
     """
@@ -12292,7 +11512,6 @@ def test_atomic_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_positive_integer_min_inclusive_4_3(save_xml):
     """
@@ -12308,7 +11527,6 @@ def test_atomic_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_positive_integer_min_inclusive_4_4(save_xml):
     """
@@ -12324,7 +11542,6 @@ def test_atomic_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_positive_integer_min_inclusive_4_5(save_xml):
     """
@@ -12340,7 +11557,6 @@ def test_atomic_positive_integer_min_inclusive_7_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_positive_integer_min_inclusive_3_1(save_xml):
     """
@@ -12356,7 +11572,6 @@ def test_atomic_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_positive_integer_min_inclusive_3_2(save_xml):
     """
@@ -12372,7 +11587,6 @@ def test_atomic_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_positive_integer_min_inclusive_3_3(save_xml):
     """
@@ -12388,7 +11602,6 @@ def test_atomic_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_positive_integer_min_inclusive_3_4(save_xml):
     """
@@ -12404,7 +11617,6 @@ def test_atomic_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_positive_integer_min_inclusive_3_5(save_xml):
     """
@@ -12420,7 +11632,6 @@ def test_atomic_positive_integer_min_inclusive_6_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_positive_integer_min_inclusive_2_1(save_xml):
     """
@@ -12436,7 +11647,6 @@ def test_atomic_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_positive_integer_min_inclusive_2_2(save_xml):
     """
@@ -12452,7 +11662,6 @@ def test_atomic_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_positive_integer_min_inclusive_2_3(save_xml):
     """
@@ -12468,7 +11677,6 @@ def test_atomic_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_positive_integer_min_inclusive_2_4(save_xml):
     """
@@ -12484,7 +11692,6 @@ def test_atomic_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_positive_integer_min_inclusive_2_5(save_xml):
     """
@@ -12500,7 +11707,6 @@ def test_atomic_positive_integer_min_inclusive_5_nistxml_sv_ii_atomic_positive_i
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_total_digits_4_nistxml_sv_ii_atomic_unsigned_byte_total_digits_2_1(save_xml):
     """
@@ -12516,7 +11722,6 @@ def test_atomic_unsigned_byte_total_digits_4_nistxml_sv_ii_atomic_unsigned_byte_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_total_digits_4_nistxml_sv_ii_atomic_unsigned_byte_total_digits_2_2(save_xml):
     """
@@ -12532,7 +11737,6 @@ def test_atomic_unsigned_byte_total_digits_4_nistxml_sv_ii_atomic_unsigned_byte_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_total_digits_4_nistxml_sv_ii_atomic_unsigned_byte_total_digits_2_3(save_xml):
     """
@@ -12548,7 +11752,6 @@ def test_atomic_unsigned_byte_total_digits_4_nistxml_sv_ii_atomic_unsigned_byte_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_total_digits_4_nistxml_sv_ii_atomic_unsigned_byte_total_digits_2_4(save_xml):
     """
@@ -12564,7 +11767,6 @@ def test_atomic_unsigned_byte_total_digits_4_nistxml_sv_ii_atomic_unsigned_byte_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_total_digits_4_nistxml_sv_ii_atomic_unsigned_byte_total_digits_2_5(save_xml):
     """
@@ -12580,7 +11782,6 @@ def test_atomic_unsigned_byte_total_digits_4_nistxml_sv_ii_atomic_unsigned_byte_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_total_digits_3_nistxml_sv_ii_atomic_unsigned_byte_total_digits_1_1(save_xml):
     """
@@ -12596,7 +11797,6 @@ def test_atomic_unsigned_byte_total_digits_3_nistxml_sv_ii_atomic_unsigned_byte_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_total_digits_3_nistxml_sv_ii_atomic_unsigned_byte_total_digits_1_2(save_xml):
     """
@@ -12612,7 +11812,6 @@ def test_atomic_unsigned_byte_total_digits_3_nistxml_sv_ii_atomic_unsigned_byte_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_total_digits_3_nistxml_sv_ii_atomic_unsigned_byte_total_digits_1_3(save_xml):
     """
@@ -12628,7 +11827,6 @@ def test_atomic_unsigned_byte_total_digits_3_nistxml_sv_ii_atomic_unsigned_byte_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_total_digits_3_nistxml_sv_ii_atomic_unsigned_byte_total_digits_1_4(save_xml):
     """
@@ -12644,7 +11842,6 @@ def test_atomic_unsigned_byte_total_digits_3_nistxml_sv_ii_atomic_unsigned_byte_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_total_digits_3_nistxml_sv_ii_atomic_unsigned_byte_total_digits_1_5(save_xml):
     """
@@ -12660,7 +11857,6 @@ def test_atomic_unsigned_byte_total_digits_3_nistxml_sv_ii_atomic_unsigned_byte_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_5_1(save_xml):
     """
@@ -12676,7 +11872,6 @@ def test_atomic_unsigned_byte_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_5_2(save_xml):
     """
@@ -12692,7 +11887,6 @@ def test_atomic_unsigned_byte_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_5_3(save_xml):
     """
@@ -12708,7 +11902,6 @@ def test_atomic_unsigned_byte_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_5_4(save_xml):
     """
@@ -12724,7 +11917,6 @@ def test_atomic_unsigned_byte_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_5_5(save_xml):
     """
@@ -12740,7 +11932,6 @@ def test_atomic_unsigned_byte_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_4_1(save_xml):
     """
@@ -12756,7 +11947,6 @@ def test_atomic_unsigned_byte_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_4_2(save_xml):
     """
@@ -12772,7 +11962,6 @@ def test_atomic_unsigned_byte_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_4_3(save_xml):
     """
@@ -12788,7 +11977,6 @@ def test_atomic_unsigned_byte_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_4_4(save_xml):
     """
@@ -12804,7 +11992,6 @@ def test_atomic_unsigned_byte_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_4_5(save_xml):
     """
@@ -12820,7 +12007,6 @@ def test_atomic_unsigned_byte_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_3_1(save_xml):
     """
@@ -12836,7 +12022,6 @@ def test_atomic_unsigned_byte_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_3_2(save_xml):
     """
@@ -12852,7 +12037,6 @@ def test_atomic_unsigned_byte_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_3_3(save_xml):
     """
@@ -12868,7 +12052,6 @@ def test_atomic_unsigned_byte_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_3_4(save_xml):
     """
@@ -12884,7 +12067,6 @@ def test_atomic_unsigned_byte_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_3_5(save_xml):
     """
@@ -12900,7 +12082,6 @@ def test_atomic_unsigned_byte_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_2_1(save_xml):
     """
@@ -12916,7 +12097,6 @@ def test_atomic_unsigned_byte_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_2_2(save_xml):
     """
@@ -12932,7 +12112,6 @@ def test_atomic_unsigned_byte_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_2_3(save_xml):
     """
@@ -12948,7 +12127,6 @@ def test_atomic_unsigned_byte_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_2_4(save_xml):
     """
@@ -12964,7 +12142,6 @@ def test_atomic_unsigned_byte_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_2_5(save_xml):
     """
@@ -12980,7 +12157,6 @@ def test_atomic_unsigned_byte_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_1_1(save_xml):
     """
@@ -12996,7 +12172,6 @@ def test_atomic_unsigned_byte_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_1_2(save_xml):
     """
@@ -13012,7 +12187,6 @@ def test_atomic_unsigned_byte_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_1_3(save_xml):
     """
@@ -13028,7 +12202,6 @@ def test_atomic_unsigned_byte_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_1_4(save_xml):
     """
@@ -13044,7 +12217,6 @@ def test_atomic_unsigned_byte_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte_max_inclusive_1_5(save_xml):
     """
@@ -13060,7 +12232,6 @@ def test_atomic_unsigned_byte_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_6_1(save_xml):
     """
@@ -13076,7 +12247,6 @@ def test_atomic_unsigned_byte_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_6_2(save_xml):
     """
@@ -13092,7 +12262,6 @@ def test_atomic_unsigned_byte_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_6_3(save_xml):
     """
@@ -13108,7 +12277,6 @@ def test_atomic_unsigned_byte_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_6_4(save_xml):
     """
@@ -13124,7 +12292,6 @@ def test_atomic_unsigned_byte_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_6_5(save_xml):
     """
@@ -13140,7 +12307,6 @@ def test_atomic_unsigned_byte_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_5_1(save_xml):
     """
@@ -13156,7 +12322,6 @@ def test_atomic_unsigned_byte_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_5_2(save_xml):
     """
@@ -13172,7 +12337,6 @@ def test_atomic_unsigned_byte_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_5_3(save_xml):
     """
@@ -13188,7 +12352,6 @@ def test_atomic_unsigned_byte_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_5_4(save_xml):
     """
@@ -13204,7 +12367,6 @@ def test_atomic_unsigned_byte_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_5_5(save_xml):
     """
@@ -13220,7 +12382,6 @@ def test_atomic_unsigned_byte_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_4_1(save_xml):
     """
@@ -13236,7 +12397,6 @@ def test_atomic_unsigned_byte_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_4_2(save_xml):
     """
@@ -13252,7 +12412,6 @@ def test_atomic_unsigned_byte_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_4_3(save_xml):
     """
@@ -13268,7 +12427,6 @@ def test_atomic_unsigned_byte_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_4_4(save_xml):
     """
@@ -13284,7 +12442,6 @@ def test_atomic_unsigned_byte_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_4_5(save_xml):
     """
@@ -13300,7 +12457,6 @@ def test_atomic_unsigned_byte_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_3_1(save_xml):
     """
@@ -13316,7 +12472,6 @@ def test_atomic_unsigned_byte_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_3_2(save_xml):
     """
@@ -13332,7 +12487,6 @@ def test_atomic_unsigned_byte_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_3_3(save_xml):
     """
@@ -13348,7 +12502,6 @@ def test_atomic_unsigned_byte_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_3_4(save_xml):
     """
@@ -13364,7 +12517,6 @@ def test_atomic_unsigned_byte_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_3_5(save_xml):
     """
@@ -13380,7 +12532,6 @@ def test_atomic_unsigned_byte_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_2_1(save_xml):
     """
@@ -13396,7 +12547,6 @@ def test_atomic_unsigned_byte_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_2_2(save_xml):
     """
@@ -13412,7 +12562,6 @@ def test_atomic_unsigned_byte_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_2_3(save_xml):
     """
@@ -13428,7 +12577,6 @@ def test_atomic_unsigned_byte_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_2_4(save_xml):
     """
@@ -13444,7 +12592,6 @@ def test_atomic_unsigned_byte_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_byte_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte_min_inclusive_2_5(save_xml):
     """
@@ -13460,7 +12607,6 @@ def test_atomic_unsigned_byte_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_byte
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_total_digits_8_nistxml_sv_ii_atomic_unsigned_short_total_digits_4_1(save_xml):
     """
@@ -13476,7 +12622,6 @@ def test_atomic_unsigned_short_total_digits_8_nistxml_sv_ii_atomic_unsigned_shor
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_total_digits_8_nistxml_sv_ii_atomic_unsigned_short_total_digits_4_2(save_xml):
     """
@@ -13492,7 +12637,6 @@ def test_atomic_unsigned_short_total_digits_8_nistxml_sv_ii_atomic_unsigned_shor
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_total_digits_8_nistxml_sv_ii_atomic_unsigned_short_total_digits_4_3(save_xml):
     """
@@ -13508,7 +12652,6 @@ def test_atomic_unsigned_short_total_digits_8_nistxml_sv_ii_atomic_unsigned_shor
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_total_digits_8_nistxml_sv_ii_atomic_unsigned_short_total_digits_4_4(save_xml):
     """
@@ -13524,7 +12667,6 @@ def test_atomic_unsigned_short_total_digits_8_nistxml_sv_ii_atomic_unsigned_shor
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_total_digits_8_nistxml_sv_ii_atomic_unsigned_short_total_digits_4_5(save_xml):
     """
@@ -13540,7 +12682,6 @@ def test_atomic_unsigned_short_total_digits_8_nistxml_sv_ii_atomic_unsigned_shor
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_total_digits_7_nistxml_sv_ii_atomic_unsigned_short_total_digits_3_1(save_xml):
     """
@@ -13556,7 +12697,6 @@ def test_atomic_unsigned_short_total_digits_7_nistxml_sv_ii_atomic_unsigned_shor
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_total_digits_7_nistxml_sv_ii_atomic_unsigned_short_total_digits_3_2(save_xml):
     """
@@ -13572,7 +12712,6 @@ def test_atomic_unsigned_short_total_digits_7_nistxml_sv_ii_atomic_unsigned_shor
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_total_digits_7_nistxml_sv_ii_atomic_unsigned_short_total_digits_3_3(save_xml):
     """
@@ -13588,7 +12727,6 @@ def test_atomic_unsigned_short_total_digits_7_nistxml_sv_ii_atomic_unsigned_shor
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_total_digits_7_nistxml_sv_ii_atomic_unsigned_short_total_digits_3_4(save_xml):
     """
@@ -13604,7 +12742,6 @@ def test_atomic_unsigned_short_total_digits_7_nistxml_sv_ii_atomic_unsigned_shor
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_total_digits_7_nistxml_sv_ii_atomic_unsigned_short_total_digits_3_5(save_xml):
     """
@@ -13620,7 +12757,6 @@ def test_atomic_unsigned_short_total_digits_7_nistxml_sv_ii_atomic_unsigned_shor
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_total_digits_6_nistxml_sv_ii_atomic_unsigned_short_total_digits_2_1(save_xml):
     """
@@ -13636,7 +12772,6 @@ def test_atomic_unsigned_short_total_digits_6_nistxml_sv_ii_atomic_unsigned_shor
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_total_digits_6_nistxml_sv_ii_atomic_unsigned_short_total_digits_2_2(save_xml):
     """
@@ -13652,7 +12787,6 @@ def test_atomic_unsigned_short_total_digits_6_nistxml_sv_ii_atomic_unsigned_shor
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_total_digits_6_nistxml_sv_ii_atomic_unsigned_short_total_digits_2_3(save_xml):
     """
@@ -13668,7 +12802,6 @@ def test_atomic_unsigned_short_total_digits_6_nistxml_sv_ii_atomic_unsigned_shor
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_total_digits_6_nistxml_sv_ii_atomic_unsigned_short_total_digits_2_4(save_xml):
     """
@@ -13684,7 +12817,6 @@ def test_atomic_unsigned_short_total_digits_6_nistxml_sv_ii_atomic_unsigned_shor
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_total_digits_6_nistxml_sv_ii_atomic_unsigned_short_total_digits_2_5(save_xml):
     """
@@ -13700,7 +12832,6 @@ def test_atomic_unsigned_short_total_digits_6_nistxml_sv_ii_atomic_unsigned_shor
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_total_digits_5_nistxml_sv_ii_atomic_unsigned_short_total_digits_1_1(save_xml):
     """
@@ -13716,7 +12847,6 @@ def test_atomic_unsigned_short_total_digits_5_nistxml_sv_ii_atomic_unsigned_shor
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_total_digits_5_nistxml_sv_ii_atomic_unsigned_short_total_digits_1_2(save_xml):
     """
@@ -13732,7 +12862,6 @@ def test_atomic_unsigned_short_total_digits_5_nistxml_sv_ii_atomic_unsigned_shor
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_total_digits_5_nistxml_sv_ii_atomic_unsigned_short_total_digits_1_3(save_xml):
     """
@@ -13748,7 +12877,6 @@ def test_atomic_unsigned_short_total_digits_5_nistxml_sv_ii_atomic_unsigned_shor
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_total_digits_5_nistxml_sv_ii_atomic_unsigned_short_total_digits_1_4(save_xml):
     """
@@ -13764,7 +12892,6 @@ def test_atomic_unsigned_short_total_digits_5_nistxml_sv_ii_atomic_unsigned_shor
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_total_digits_5_nistxml_sv_ii_atomic_unsigned_short_total_digits_1_5(save_xml):
     """
@@ -13780,7 +12907,6 @@ def test_atomic_unsigned_short_total_digits_5_nistxml_sv_ii_atomic_unsigned_shor
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_5_1(save_xml):
     """
@@ -13796,7 +12922,6 @@ def test_atomic_unsigned_short_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_5_2(save_xml):
     """
@@ -13812,7 +12937,6 @@ def test_atomic_unsigned_short_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_5_3(save_xml):
     """
@@ -13828,7 +12952,6 @@ def test_atomic_unsigned_short_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_5_4(save_xml):
     """
@@ -13844,7 +12967,6 @@ def test_atomic_unsigned_short_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_5_5(save_xml):
     """
@@ -13860,7 +12982,6 @@ def test_atomic_unsigned_short_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_4_1(save_xml):
     """
@@ -13876,7 +12997,6 @@ def test_atomic_unsigned_short_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_4_2(save_xml):
     """
@@ -13892,7 +13012,6 @@ def test_atomic_unsigned_short_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_4_3(save_xml):
     """
@@ -13908,7 +13027,6 @@ def test_atomic_unsigned_short_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_4_4(save_xml):
     """
@@ -13924,7 +13042,6 @@ def test_atomic_unsigned_short_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_4_5(save_xml):
     """
@@ -13940,7 +13057,6 @@ def test_atomic_unsigned_short_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_3_1(save_xml):
     """
@@ -13956,7 +13072,6 @@ def test_atomic_unsigned_short_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_3_2(save_xml):
     """
@@ -13972,7 +13087,6 @@ def test_atomic_unsigned_short_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_3_3(save_xml):
     """
@@ -13988,7 +13102,6 @@ def test_atomic_unsigned_short_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_3_4(save_xml):
     """
@@ -14004,7 +13117,6 @@ def test_atomic_unsigned_short_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_3_5(save_xml):
     """
@@ -14020,7 +13132,6 @@ def test_atomic_unsigned_short_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_2_1(save_xml):
     """
@@ -14036,7 +13147,6 @@ def test_atomic_unsigned_short_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_2_2(save_xml):
     """
@@ -14052,7 +13162,6 @@ def test_atomic_unsigned_short_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_2_3(save_xml):
     """
@@ -14068,7 +13177,6 @@ def test_atomic_unsigned_short_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_2_4(save_xml):
     """
@@ -14084,7 +13192,6 @@ def test_atomic_unsigned_short_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_2_5(save_xml):
     """
@@ -14100,7 +13207,6 @@ def test_atomic_unsigned_short_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_1_1(save_xml):
     """
@@ -14116,7 +13222,6 @@ def test_atomic_unsigned_short_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_1_2(save_xml):
     """
@@ -14132,7 +13237,6 @@ def test_atomic_unsigned_short_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_1_3(save_xml):
     """
@@ -14148,7 +13252,6 @@ def test_atomic_unsigned_short_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_1_4(save_xml):
     """
@@ -14164,7 +13267,6 @@ def test_atomic_unsigned_short_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_short_max_inclusive_1_5(save_xml):
     """
@@ -14180,7 +13282,6 @@ def test_atomic_unsigned_short_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_6_1(save_xml):
     """
@@ -14196,7 +13297,6 @@ def test_atomic_unsigned_short_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_6_2(save_xml):
     """
@@ -14212,7 +13312,6 @@ def test_atomic_unsigned_short_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_6_3(save_xml):
     """
@@ -14228,7 +13327,6 @@ def test_atomic_unsigned_short_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_6_4(save_xml):
     """
@@ -14244,7 +13342,6 @@ def test_atomic_unsigned_short_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_6_5(save_xml):
     """
@@ -14260,7 +13357,6 @@ def test_atomic_unsigned_short_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_5_1(save_xml):
     """
@@ -14276,7 +13372,6 @@ def test_atomic_unsigned_short_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_5_2(save_xml):
     """
@@ -14292,7 +13387,6 @@ def test_atomic_unsigned_short_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_5_3(save_xml):
     """
@@ -14308,7 +13402,6 @@ def test_atomic_unsigned_short_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_5_4(save_xml):
     """
@@ -14324,7 +13417,6 @@ def test_atomic_unsigned_short_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_5_5(save_xml):
     """
@@ -14340,7 +13432,6 @@ def test_atomic_unsigned_short_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_4_1(save_xml):
     """
@@ -14356,7 +13447,6 @@ def test_atomic_unsigned_short_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_4_2(save_xml):
     """
@@ -14372,7 +13462,6 @@ def test_atomic_unsigned_short_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_4_3(save_xml):
     """
@@ -14388,7 +13477,6 @@ def test_atomic_unsigned_short_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_4_4(save_xml):
     """
@@ -14404,7 +13492,6 @@ def test_atomic_unsigned_short_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_4_5(save_xml):
     """
@@ -14420,7 +13507,6 @@ def test_atomic_unsigned_short_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_3_1(save_xml):
     """
@@ -14436,7 +13522,6 @@ def test_atomic_unsigned_short_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_3_2(save_xml):
     """
@@ -14452,7 +13537,6 @@ def test_atomic_unsigned_short_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_3_3(save_xml):
     """
@@ -14468,7 +13552,6 @@ def test_atomic_unsigned_short_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_3_4(save_xml):
     """
@@ -14484,7 +13567,6 @@ def test_atomic_unsigned_short_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_3_5(save_xml):
     """
@@ -14500,7 +13582,6 @@ def test_atomic_unsigned_short_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_2_1(save_xml):
     """
@@ -14516,7 +13597,6 @@ def test_atomic_unsigned_short_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_2_2(save_xml):
     """
@@ -14532,7 +13612,6 @@ def test_atomic_unsigned_short_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_2_3(save_xml):
     """
@@ -14548,7 +13627,6 @@ def test_atomic_unsigned_short_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_2_4(save_xml):
     """
@@ -14564,7 +13642,6 @@ def test_atomic_unsigned_short_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_short_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_short_min_inclusive_2_5(save_xml):
     """
@@ -14580,7 +13657,6 @@ def test_atomic_unsigned_short_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_sho
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_9_nistxml_sv_ii_atomic_unsigned_int_total_digits_5_1(save_xml):
     """
@@ -14596,7 +13672,6 @@ def test_atomic_unsigned_int_total_digits_9_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_9_nistxml_sv_ii_atomic_unsigned_int_total_digits_5_2(save_xml):
     """
@@ -14612,7 +13687,6 @@ def test_atomic_unsigned_int_total_digits_9_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_9_nistxml_sv_ii_atomic_unsigned_int_total_digits_5_3(save_xml):
     """
@@ -14628,7 +13702,6 @@ def test_atomic_unsigned_int_total_digits_9_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_9_nistxml_sv_ii_atomic_unsigned_int_total_digits_5_4(save_xml):
     """
@@ -14644,7 +13717,6 @@ def test_atomic_unsigned_int_total_digits_9_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_9_nistxml_sv_ii_atomic_unsigned_int_total_digits_5_5(save_xml):
     """
@@ -14660,7 +13732,6 @@ def test_atomic_unsigned_int_total_digits_9_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_8_nistxml_sv_ii_atomic_unsigned_int_total_digits_4_1(save_xml):
     """
@@ -14676,7 +13747,6 @@ def test_atomic_unsigned_int_total_digits_8_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_8_nistxml_sv_ii_atomic_unsigned_int_total_digits_4_2(save_xml):
     """
@@ -14692,7 +13762,6 @@ def test_atomic_unsigned_int_total_digits_8_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_8_nistxml_sv_ii_atomic_unsigned_int_total_digits_4_3(save_xml):
     """
@@ -14708,7 +13777,6 @@ def test_atomic_unsigned_int_total_digits_8_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_8_nistxml_sv_ii_atomic_unsigned_int_total_digits_4_4(save_xml):
     """
@@ -14724,7 +13792,6 @@ def test_atomic_unsigned_int_total_digits_8_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_8_nistxml_sv_ii_atomic_unsigned_int_total_digits_4_5(save_xml):
     """
@@ -14740,7 +13807,6 @@ def test_atomic_unsigned_int_total_digits_8_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_7_nistxml_sv_ii_atomic_unsigned_int_total_digits_3_1(save_xml):
     """
@@ -14756,7 +13822,6 @@ def test_atomic_unsigned_int_total_digits_7_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_7_nistxml_sv_ii_atomic_unsigned_int_total_digits_3_2(save_xml):
     """
@@ -14772,7 +13837,6 @@ def test_atomic_unsigned_int_total_digits_7_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_7_nistxml_sv_ii_atomic_unsigned_int_total_digits_3_3(save_xml):
     """
@@ -14788,7 +13852,6 @@ def test_atomic_unsigned_int_total_digits_7_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_7_nistxml_sv_ii_atomic_unsigned_int_total_digits_3_4(save_xml):
     """
@@ -14804,7 +13867,6 @@ def test_atomic_unsigned_int_total_digits_7_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_7_nistxml_sv_ii_atomic_unsigned_int_total_digits_3_5(save_xml):
     """
@@ -14820,7 +13882,6 @@ def test_atomic_unsigned_int_total_digits_7_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_6_nistxml_sv_ii_atomic_unsigned_int_total_digits_2_1(save_xml):
     """
@@ -14836,7 +13897,6 @@ def test_atomic_unsigned_int_total_digits_6_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_6_nistxml_sv_ii_atomic_unsigned_int_total_digits_2_2(save_xml):
     """
@@ -14852,7 +13912,6 @@ def test_atomic_unsigned_int_total_digits_6_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_6_nistxml_sv_ii_atomic_unsigned_int_total_digits_2_3(save_xml):
     """
@@ -14868,7 +13927,6 @@ def test_atomic_unsigned_int_total_digits_6_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_6_nistxml_sv_ii_atomic_unsigned_int_total_digits_2_4(save_xml):
     """
@@ -14884,7 +13942,6 @@ def test_atomic_unsigned_int_total_digits_6_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_6_nistxml_sv_ii_atomic_unsigned_int_total_digits_2_5(save_xml):
     """
@@ -14900,7 +13957,6 @@ def test_atomic_unsigned_int_total_digits_6_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_5_nistxml_sv_ii_atomic_unsigned_int_total_digits_1_1(save_xml):
     """
@@ -14916,7 +13972,6 @@ def test_atomic_unsigned_int_total_digits_5_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_5_nistxml_sv_ii_atomic_unsigned_int_total_digits_1_2(save_xml):
     """
@@ -14932,7 +13987,6 @@ def test_atomic_unsigned_int_total_digits_5_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_5_nistxml_sv_ii_atomic_unsigned_int_total_digits_1_3(save_xml):
     """
@@ -14948,7 +14002,6 @@ def test_atomic_unsigned_int_total_digits_5_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_5_nistxml_sv_ii_atomic_unsigned_int_total_digits_1_4(save_xml):
     """
@@ -14964,7 +14017,6 @@ def test_atomic_unsigned_int_total_digits_5_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_total_digits_5_nistxml_sv_ii_atomic_unsigned_int_total_digits_1_5(save_xml):
     """
@@ -14980,7 +14032,6 @@ def test_atomic_unsigned_int_total_digits_5_nistxml_sv_ii_atomic_unsigned_int_to
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_5_1(save_xml):
     """
@@ -14996,7 +14047,6 @@ def test_atomic_unsigned_int_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_5_2(save_xml):
     """
@@ -15012,7 +14062,6 @@ def test_atomic_unsigned_int_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_5_3(save_xml):
     """
@@ -15028,7 +14077,6 @@ def test_atomic_unsigned_int_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_5_4(save_xml):
     """
@@ -15044,7 +14092,6 @@ def test_atomic_unsigned_int_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_5_5(save_xml):
     """
@@ -15060,7 +14107,6 @@ def test_atomic_unsigned_int_max_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_4_1(save_xml):
     """
@@ -15076,7 +14122,6 @@ def test_atomic_unsigned_int_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_4_2(save_xml):
     """
@@ -15092,7 +14137,6 @@ def test_atomic_unsigned_int_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_4_3(save_xml):
     """
@@ -15108,7 +14152,6 @@ def test_atomic_unsigned_int_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_4_4(save_xml):
     """
@@ -15124,7 +14167,6 @@ def test_atomic_unsigned_int_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_4_5(save_xml):
     """
@@ -15140,7 +14182,6 @@ def test_atomic_unsigned_int_max_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_3_1(save_xml):
     """
@@ -15156,7 +14197,6 @@ def test_atomic_unsigned_int_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_3_2(save_xml):
     """
@@ -15172,7 +14212,6 @@ def test_atomic_unsigned_int_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_3_3(save_xml):
     """
@@ -15188,7 +14227,6 @@ def test_atomic_unsigned_int_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_3_4(save_xml):
     """
@@ -15204,7 +14242,6 @@ def test_atomic_unsigned_int_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_3_5(save_xml):
     """
@@ -15220,7 +14257,6 @@ def test_atomic_unsigned_int_max_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_2_1(save_xml):
     """
@@ -15236,7 +14272,6 @@ def test_atomic_unsigned_int_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_2_2(save_xml):
     """
@@ -15252,7 +14287,6 @@ def test_atomic_unsigned_int_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_2_3(save_xml):
     """
@@ -15268,7 +14302,6 @@ def test_atomic_unsigned_int_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_2_4(save_xml):
     """
@@ -15284,7 +14317,6 @@ def test_atomic_unsigned_int_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_2_5(save_xml):
     """
@@ -15300,7 +14332,6 @@ def test_atomic_unsigned_int_max_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_1_1(save_xml):
     """
@@ -15316,7 +14347,6 @@ def test_atomic_unsigned_int_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_1_2(save_xml):
     """
@@ -15332,7 +14362,6 @@ def test_atomic_unsigned_int_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_1_3(save_xml):
     """
@@ -15348,7 +14377,6 @@ def test_atomic_unsigned_int_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_1_4(save_xml):
     """
@@ -15364,7 +14392,6 @@ def test_atomic_unsigned_int_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_max_inclusive_1_5(save_xml):
     """
@@ -15380,7 +14407,6 @@ def test_atomic_unsigned_int_max_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_6_1(save_xml):
     """
@@ -15396,7 +14422,6 @@ def test_atomic_unsigned_int_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_6_2(save_xml):
     """
@@ -15412,7 +14437,6 @@ def test_atomic_unsigned_int_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_6_3(save_xml):
     """
@@ -15428,7 +14452,6 @@ def test_atomic_unsigned_int_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_6_4(save_xml):
     """
@@ -15444,7 +14467,6 @@ def test_atomic_unsigned_int_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_6_5(save_xml):
     """
@@ -15460,7 +14482,6 @@ def test_atomic_unsigned_int_min_inclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_5_1(save_xml):
     """
@@ -15476,7 +14497,6 @@ def test_atomic_unsigned_int_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_5_2(save_xml):
     """
@@ -15492,7 +14512,6 @@ def test_atomic_unsigned_int_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_5_3(save_xml):
     """
@@ -15508,7 +14527,6 @@ def test_atomic_unsigned_int_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_5_4(save_xml):
     """
@@ -15524,7 +14542,6 @@ def test_atomic_unsigned_int_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_5_5(save_xml):
     """
@@ -15540,7 +14557,6 @@ def test_atomic_unsigned_int_min_inclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_4_1(save_xml):
     """
@@ -15556,7 +14572,6 @@ def test_atomic_unsigned_int_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_4_2(save_xml):
     """
@@ -15572,7 +14587,6 @@ def test_atomic_unsigned_int_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_4_3(save_xml):
     """
@@ -15588,7 +14602,6 @@ def test_atomic_unsigned_int_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_4_4(save_xml):
     """
@@ -15604,7 +14617,6 @@ def test_atomic_unsigned_int_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_4_5(save_xml):
     """
@@ -15620,7 +14632,6 @@ def test_atomic_unsigned_int_min_inclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_3_1(save_xml):
     """
@@ -15636,7 +14647,6 @@ def test_atomic_unsigned_int_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_3_2(save_xml):
     """
@@ -15652,7 +14662,6 @@ def test_atomic_unsigned_int_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_3_3(save_xml):
     """
@@ -15668,7 +14677,6 @@ def test_atomic_unsigned_int_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_3_4(save_xml):
     """
@@ -15684,7 +14692,6 @@ def test_atomic_unsigned_int_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_3_5(save_xml):
     """
@@ -15700,7 +14707,6 @@ def test_atomic_unsigned_int_min_inclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_2_1(save_xml):
     """
@@ -15716,7 +14722,6 @@ def test_atomic_unsigned_int_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_2_2(save_xml):
     """
@@ -15732,7 +14737,6 @@ def test_atomic_unsigned_int_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_2_3(save_xml):
     """
@@ -15748,7 +14752,6 @@ def test_atomic_unsigned_int_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_2_4(save_xml):
     """
@@ -15764,7 +14767,6 @@ def test_atomic_unsigned_int_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_int_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_min_inclusive_2_5(save_xml):
     """
@@ -15780,7 +14782,6 @@ def test_atomic_unsigned_int_min_inclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_long_total_digits_9_nistxml_sv_ii_atomic_unsigned_long_total_digits_5_1(save_xml):
     """
@@ -15796,7 +14797,6 @@ def test_atomic_unsigned_long_total_digits_9_nistxml_sv_ii_atomic_unsigned_long_
     )
 
 
-@pytest.mark.schema11
 @pytest.mark.skip(reason="Invalid instance")
 def test_atomic_unsigned_long_total_digits_9_nistxml_sv_ii_atomic_unsigned_long_total_digits_5_2(save_xml):
     """

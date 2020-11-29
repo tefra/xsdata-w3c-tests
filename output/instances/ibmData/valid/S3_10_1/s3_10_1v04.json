@@ -2,7 +2,7 @@
     "z": 1,
     "any_element": {
         "qname": "{a}z",
-        "text": 1,
+        "text": "1",
         "tail": null,
         "children": [],
         "attributes": {}

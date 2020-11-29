@@ -29,19 +29,20 @@ test_module_tpl = """import pytest
 from tests.utils import assert_bindings\n\n{}"""
 
 test_case_tpl = """{decorators}
-def test_{name}(save_xml):
+def test_{name}(json_360, save_output):
 {test.documentation}
     assert_bindings(
         schema="{test.schema_path}",
         instance="{test.instance_path}",
         class_name="{test.class_name}",
         version="{test.version}",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 """
 
 test_ns_struct_case_tpl = """{decorators}
-def test_{name}(save_xml):
+def test_{name}(json_360, save_output):
 {test.documentation}
     assert_bindings(
         schema="{test.schema_path}",
@@ -49,7 +50,8 @@ def test_{name}(save_xml):
         class_name="{test.class_name}",
         version="{test.version}",
         ns_struct=True,
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 """
 

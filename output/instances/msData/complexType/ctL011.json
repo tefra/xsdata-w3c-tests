@@ -11,7 +11,7 @@
             },
             {
                 "qname": "child_2",
-                "text": 3,
+                "text": "3",
                 "tail": null,
                 "children": [],
                 "attributes": {}

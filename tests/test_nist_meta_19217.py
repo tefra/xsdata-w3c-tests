@@ -1,7 +1,7 @@
 from tests.utils import assert_bindings
 
 
-def test_atomic_integer_min_inclusive_1_nistxml_sv_iv_atomic_integer_min_inclusive_2_4(save_xml):
+def test_atomic_integer_min_inclusive_1_nistxml_sv_iv_atomic_integer_min_inclusive_2_4(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     156487900906511434.
@@ -11,11 +11,12 @@ def test_atomic_integer_min_inclusive_1_nistxml_sv_iv_atomic_integer_min_inclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minInclusive-2-4.xml",
         class_name="NistschemaSvIvAtomicIntegerMinInclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_inclusive_1_nistxml_sv_iv_atomic_integer_min_inclusive_2_5(save_xml):
+def test_atomic_integer_min_inclusive_1_nistxml_sv_iv_atomic_integer_min_inclusive_2_5(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     156487900906511434.
@@ -25,11 +26,12 @@ def test_atomic_integer_min_inclusive_1_nistxml_sv_iv_atomic_integer_min_inclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minInclusive-2-5.xml",
         class_name="NistschemaSvIvAtomicIntegerMinInclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive_1_1(save_xml):
+def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive_1_1(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     -999999999999999999.
@@ -39,11 +41,12 @@ def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minInclusive-1-1.xml",
         class_name="NistschemaSvIvAtomicIntegerMinInclusive1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive_1_2(save_xml):
+def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive_1_2(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     -999999999999999999.
@@ -53,11 +56,12 @@ def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minInclusive-1-2.xml",
         class_name="NistschemaSvIvAtomicIntegerMinInclusive1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive_1_3(save_xml):
+def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive_1_3(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     -999999999999999999.
@@ -67,11 +71,12 @@ def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minInclusive-1-3.xml",
         class_name="NistschemaSvIvAtomicIntegerMinInclusive1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive_1_4(save_xml):
+def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive_1_4(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     -999999999999999999.
@@ -81,11 +86,12 @@ def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minInclusive-1-4.xml",
         class_name="NistschemaSvIvAtomicIntegerMinInclusive1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive_1_5(save_xml):
+def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive_1_5(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minInclusive with value
     -999999999999999999.
@@ -95,11 +101,12 @@ def test_atomic_integer_min_inclusive_nistxml_sv_iv_atomic_integer_min_inclusive
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minInclusive-1-5.xml",
         class_name="NistschemaSvIvAtomicIntegerMinInclusive1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_exclusive_4_nistxml_sv_iv_atomic_integer_min_exclusive_5_1(save_xml):
+def test_atomic_integer_min_exclusive_4_nistxml_sv_iv_atomic_integer_min_exclusive_5_1(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     999999999999999998.
@@ -109,11 +116,12 @@ def test_atomic_integer_min_exclusive_4_nistxml_sv_iv_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minExclusive-5-1.xml",
         class_name="NistschemaSvIvAtomicIntegerMinExclusive5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusive_4_1(save_xml):
+def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusive_4_1(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     470740450062970382.
@@ -123,11 +131,12 @@ def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minExclusive-4-1.xml",
         class_name="NistschemaSvIvAtomicIntegerMinExclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusive_4_2(save_xml):
+def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusive_4_2(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     470740450062970382.
@@ -137,11 +146,12 @@ def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minExclusive-4-2.xml",
         class_name="NistschemaSvIvAtomicIntegerMinExclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusive_4_3(save_xml):
+def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusive_4_3(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     470740450062970382.
@@ -151,11 +161,12 @@ def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minExclusive-4-3.xml",
         class_name="NistschemaSvIvAtomicIntegerMinExclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusive_4_4(save_xml):
+def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusive_4_4(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     470740450062970382.
@@ -165,11 +176,12 @@ def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minExclusive-4-4.xml",
         class_name="NistschemaSvIvAtomicIntegerMinExclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusive_4_5(save_xml):
+def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusive_4_5(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     470740450062970382.
@@ -179,11 +191,12 @@ def test_atomic_integer_min_exclusive_3_nistxml_sv_iv_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minExclusive-4-5.xml",
         class_name="NistschemaSvIvAtomicIntegerMinExclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusive_3_1(save_xml):
+def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusive_3_1(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     389578809107570477.
@@ -193,11 +206,12 @@ def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minExclusive-3-1.xml",
         class_name="NistschemaSvIvAtomicIntegerMinExclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusive_3_2(save_xml):
+def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusive_3_2(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     389578809107570477.
@@ -207,11 +221,12 @@ def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minExclusive-3-2.xml",
         class_name="NistschemaSvIvAtomicIntegerMinExclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusive_3_3(save_xml):
+def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusive_3_3(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     389578809107570477.
@@ -221,11 +236,12 @@ def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minExclusive-3-3.xml",
         class_name="NistschemaSvIvAtomicIntegerMinExclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusive_3_4(save_xml):
+def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusive_3_4(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     389578809107570477.
@@ -235,11 +251,12 @@ def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minExclusive-3-4.xml",
         class_name="NistschemaSvIvAtomicIntegerMinExclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusive_3_5(save_xml):
+def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusive_3_5(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     389578809107570477.
@@ -249,11 +266,12 @@ def test_atomic_integer_min_exclusive_2_nistxml_sv_iv_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minExclusive-3-5.xml",
         class_name="NistschemaSvIvAtomicIntegerMinExclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusive_2_1(save_xml):
+def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusive_2_1(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     511594901568435787.
@@ -263,11 +281,12 @@ def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minExclusive-2-1.xml",
         class_name="NistschemaSvIvAtomicIntegerMinExclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusive_2_2(save_xml):
+def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusive_2_2(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     511594901568435787.
@@ -277,11 +296,12 @@ def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minExclusive-2-2.xml",
         class_name="NistschemaSvIvAtomicIntegerMinExclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusive_2_3(save_xml):
+def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusive_2_3(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     511594901568435787.
@@ -291,11 +311,12 @@ def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minExclusive-2-3.xml",
         class_name="NistschemaSvIvAtomicIntegerMinExclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusive_2_4(save_xml):
+def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusive_2_4(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     511594901568435787.
@@ -305,11 +326,12 @@ def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minExclusive-2-4.xml",
         class_name="NistschemaSvIvAtomicIntegerMinExclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusive_2_5(save_xml):
+def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusive_2_5(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     511594901568435787.
@@ -319,11 +341,12 @@ def test_atomic_integer_min_exclusive_1_nistxml_sv_iv_atomic_integer_min_exclusi
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minExclusive-2-5.xml",
         class_name="NistschemaSvIvAtomicIntegerMinExclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive_1_1(save_xml):
+def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive_1_1(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     -999999999999999999.
@@ -333,11 +356,12 @@ def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minExclusive-1-1.xml",
         class_name="NistschemaSvIvAtomicIntegerMinExclusive1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive_1_2(save_xml):
+def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive_1_2(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     -999999999999999999.
@@ -347,11 +371,12 @@ def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minExclusive-1-2.xml",
         class_name="NistschemaSvIvAtomicIntegerMinExclusive1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive_1_3(save_xml):
+def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive_1_3(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     -999999999999999999.
@@ -361,11 +386,12 @@ def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minExclusive-1-3.xml",
         class_name="NistschemaSvIvAtomicIntegerMinExclusive1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive_1_4(save_xml):
+def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive_1_4(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     -999999999999999999.
@@ -375,11 +401,12 @@ def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minExclusive-1-4.xml",
         class_name="NistschemaSvIvAtomicIntegerMinExclusive1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive_1_5(save_xml):
+def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive_1_5(json_360, save_output):
     """
     Type atomic/integer is restricted by facet minExclusive with value
     -999999999999999999.
@@ -389,11 +416,12 @@ def test_atomic_integer_min_exclusive_nistxml_sv_iv_atomic_integer_min_exclusive
         instance="nistData/atomic/integer/Schema+Instance/NISTXML-SV-IV-atomic-integer-minExclusive-1-5.xml",
         class_name="NistschemaSvIvAtomicIntegerMinExclusive1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_1(save_xml):
+def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet whiteSpace with value
     collapse.
@@ -403,11 +431,12 @@ def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_1
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-whiteSpace-1-1.xml",
         class_name="NistschemaSvIvAtomicDecimalWhiteSpace1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_2(save_xml):
+def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet whiteSpace with value
     collapse.
@@ -417,11 +446,12 @@ def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_2
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-whiteSpace-1-2.xml",
         class_name="NistschemaSvIvAtomicDecimalWhiteSpace1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_3(save_xml):
+def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet whiteSpace with value
     collapse.
@@ -431,11 +461,12 @@ def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_3
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-whiteSpace-1-3.xml",
         class_name="NistschemaSvIvAtomicDecimalWhiteSpace1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_4(save_xml):
+def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet whiteSpace with value
     collapse.
@@ -445,11 +476,12 @@ def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_4
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-whiteSpace-1-4.xml",
         class_name="NistschemaSvIvAtomicDecimalWhiteSpace1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_5(save_xml):
+def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet whiteSpace with value
     collapse.
@@ -459,11 +491,12 @@ def test_atomic_decimal_white_space_nistxml_sv_iv_atomic_decimal_white_space_1_5
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-whiteSpace-1-5.xml",
         class_name="NistschemaSvIvAtomicDecimalWhiteSpace1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5_1(save_xml):
+def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -472,11 +505,12 @@ def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-5-1.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5_2(save_xml):
+def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -485,11 +519,12 @@ def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-5-2.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5_3(save_xml):
+def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -498,11 +533,12 @@ def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-5-3.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5_4(save_xml):
+def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -511,11 +547,12 @@ def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-5-4.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5_5(save_xml):
+def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -524,11 +561,12 @@ def test_atomic_decimal_enumeration_4_nistxml_sv_iv_atomic_decimal_enumeration_5
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-5-5.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4_1(save_xml):
+def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -537,11 +575,12 @@ def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-4-1.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4_2(save_xml):
+def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -550,11 +589,12 @@ def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-4-2.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4_3(save_xml):
+def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -563,11 +603,12 @@ def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-4-3.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4_4(save_xml):
+def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -576,11 +617,12 @@ def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-4-4.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4_5(save_xml):
+def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -589,11 +631,12 @@ def test_atomic_decimal_enumeration_3_nistxml_sv_iv_atomic_decimal_enumeration_4
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-4-5.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3_1(save_xml):
+def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -602,11 +645,12 @@ def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-3-1.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3_2(save_xml):
+def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -615,11 +659,12 @@ def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-3-2.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3_3(save_xml):
+def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -628,11 +673,12 @@ def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-3-3.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3_4(save_xml):
+def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -641,11 +687,12 @@ def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-3-4.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3_5(save_xml):
+def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -654,11 +701,12 @@ def test_atomic_decimal_enumeration_2_nistxml_sv_iv_atomic_decimal_enumeration_3
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-3-5.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2_1(save_xml):
+def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -667,11 +715,12 @@ def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-2-1.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2_2(save_xml):
+def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -680,11 +729,12 @@ def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-2-2.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2_3(save_xml):
+def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -693,11 +743,12 @@ def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-2-3.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2_4(save_xml):
+def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -706,11 +757,12 @@ def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-2-4.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2_5(save_xml):
+def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -719,11 +771,12 @@ def test_atomic_decimal_enumeration_1_nistxml_sv_iv_atomic_decimal_enumeration_2
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-2-5.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_1(save_xml):
+def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -732,11 +785,12 @@ def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_1
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-1-1.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_2(save_xml):
+def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -745,11 +799,12 @@ def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_2
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-1-2.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_3(save_xml):
+def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -758,11 +813,12 @@ def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_3
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-1-3.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_4(save_xml):
+def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -771,11 +827,12 @@ def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_4
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-1-4.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_5(save_xml):
+def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet enumeration.
     """
@@ -784,11 +841,12 @@ def test_atomic_decimal_enumeration_nistxml_sv_iv_atomic_decimal_enumeration_1_5
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-enumeration-1-5.xml",
         class_name="NistschemaSvIvAtomicDecimalEnumeration1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_1(save_xml):
+def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_1(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \d{5}\.\d{13}.
@@ -798,11 +856,12 @@ def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_1(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-5-1.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_2(save_xml):
+def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_2(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \d{5}\.\d{13}.
@@ -812,11 +871,12 @@ def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_2(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-5-2.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_3(save_xml):
+def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_3(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \d{5}\.\d{13}.
@@ -826,11 +886,12 @@ def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_3(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-5-3.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_4(save_xml):
+def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_4(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \d{5}\.\d{13}.
@@ -840,11 +901,12 @@ def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_4(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-5-4.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_5(save_xml):
+def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_5(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \d{5}\.\d{13}.
@@ -854,11 +916,12 @@ def test_atomic_decimal_pattern_4_nistxml_sv_iv_atomic_decimal_pattern_5_5(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-5-5.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_1(save_xml):
+def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_1(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \.\d{13}.
@@ -868,11 +931,12 @@ def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_1(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-4-1.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_2(save_xml):
+def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_2(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \.\d{13}.
@@ -882,11 +946,12 @@ def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_2(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-4-2.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_3(save_xml):
+def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_3(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \.\d{13}.
@@ -896,11 +961,12 @@ def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_3(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-4-3.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_4(save_xml):
+def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_4(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \.\d{13}.
@@ -910,11 +976,12 @@ def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_4(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-4-4.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_5(save_xml):
+def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_5(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \.\d{13}.
@@ -924,11 +991,12 @@ def test_atomic_decimal_pattern_3_nistxml_sv_iv_atomic_decimal_pattern_4_5(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-4-5.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_1(save_xml):
+def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_1(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \-\d{1}\.\d{8}.
@@ -938,11 +1006,12 @@ def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_1(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-3-1.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_2(save_xml):
+def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_2(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \-\d{1}\.\d{8}.
@@ -952,11 +1021,12 @@ def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_2(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-3-2.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_3(save_xml):
+def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_3(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \-\d{1}\.\d{8}.
@@ -966,11 +1036,12 @@ def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_3(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-3-3.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_4(save_xml):
+def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_4(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \-\d{1}\.\d{8}.
@@ -980,11 +1051,12 @@ def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_4(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-3-4.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_5(save_xml):
+def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_5(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \-\d{1}\.\d{8}.
@@ -994,11 +1066,12 @@ def test_atomic_decimal_pattern_2_nistxml_sv_iv_atomic_decimal_pattern_3_5(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-3-5.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_1(save_xml):
+def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_1(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \-\d{2}\.\d{3}.
@@ -1008,11 +1081,12 @@ def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_1(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-2-1.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_2(save_xml):
+def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_2(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \-\d{2}\.\d{3}.
@@ -1022,11 +1096,12 @@ def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_2(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-2-2.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_3(save_xml):
+def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_3(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \-\d{2}\.\d{3}.
@@ -1036,11 +1111,12 @@ def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_3(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-2-3.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_4(save_xml):
+def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_4(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \-\d{2}\.\d{3}.
@@ -1050,11 +1126,12 @@ def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_4(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-2-4.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_5(save_xml):
+def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_5(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value
     \-\d{2}\.\d{3}.
@@ -1064,11 +1141,12 @@ def test_atomic_decimal_pattern_1_nistxml_sv_iv_atomic_decimal_pattern_2_5(save_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-2-5.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_1(save_xml):
+def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_1(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value \d{1}.
     """
@@ -1077,11 +1155,12 @@ def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_1(save_xm
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-1-1.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_2(save_xml):
+def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_2(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value \d{1}.
     """
@@ -1090,11 +1169,12 @@ def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_2(save_xm
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-1-2.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_3(save_xml):
+def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_3(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value \d{1}.
     """
@@ -1103,11 +1183,12 @@ def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_3(save_xm
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-1-3.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_4(save_xml):
+def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_4(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value \d{1}.
     """
@@ -1116,11 +1197,12 @@ def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_4(save_xm
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-1-4.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_5(save_xml):
+def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_5(json_360, save_output):
     r"""
     Type atomic/decimal is restricted by facet pattern with value \d{1}.
     """
@@ -1129,11 +1211,12 @@ def test_atomic_decimal_pattern_nistxml_sv_iv_atomic_decimal_pattern_1_5(save_xm
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-pattern-1-5.xml",
         class_name="NistschemaSvIvAtomicDecimalPattern1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits_5_1(save_xml):
+def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits_5_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 18.
     """
@@ -1142,11 +1225,12 @@ def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-5-1.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits_5_2(save_xml):
+def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits_5_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 18.
     """
@@ -1155,11 +1239,12 @@ def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-5-2.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits_5_3(save_xml):
+def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits_5_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 18.
     """
@@ -1168,11 +1253,12 @@ def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-5-3.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits_5_4(save_xml):
+def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits_5_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 18.
     """
@@ -1181,11 +1267,12 @@ def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-5-4.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits_5_5(save_xml):
+def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits_5_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 18.
     """
@@ -1194,11 +1281,12 @@ def test_atomic_decimal_total_digits_4_nistxml_sv_iv_atomic_decimal_total_digits
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-5-5.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits_4_1(save_xml):
+def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits_4_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 13.
     """
@@ -1207,11 +1295,12 @@ def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-4-1.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits_4_2(save_xml):
+def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits_4_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 13.
     """
@@ -1220,11 +1309,12 @@ def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-4-2.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits_4_3(save_xml):
+def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits_4_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 13.
     """
@@ -1233,11 +1323,12 @@ def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-4-3.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits_4_4(save_xml):
+def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits_4_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 13.
     """
@@ -1246,11 +1337,12 @@ def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-4-4.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits_4_5(save_xml):
+def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits_4_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 13.
     """
@@ -1259,11 +1351,12 @@ def test_atomic_decimal_total_digits_3_nistxml_sv_iv_atomic_decimal_total_digits
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-4-5.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits_3_1(save_xml):
+def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits_3_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 9.
     """
@@ -1272,11 +1365,12 @@ def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-3-1.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits_3_2(save_xml):
+def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits_3_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 9.
     """
@@ -1285,11 +1379,12 @@ def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-3-2.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits_3_3(save_xml):
+def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits_3_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 9.
     """
@@ -1298,11 +1393,12 @@ def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-3-3.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits_3_4(save_xml):
+def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits_3_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 9.
     """
@@ -1311,11 +1407,12 @@ def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-3-4.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits_3_5(save_xml):
+def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits_3_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 9.
     """
@@ -1324,11 +1421,12 @@ def test_atomic_decimal_total_digits_2_nistxml_sv_iv_atomic_decimal_total_digits
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-3-5.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits_2_1(save_xml):
+def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits_2_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 5.
     """
@@ -1337,11 +1435,12 @@ def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-2-1.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits_2_2(save_xml):
+def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits_2_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 5.
     """
@@ -1350,11 +1449,12 @@ def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-2-2.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits_2_3(save_xml):
+def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits_2_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 5.
     """
@@ -1363,11 +1463,12 @@ def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-2-3.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits_2_4(save_xml):
+def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits_2_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 5.
     """
@@ -1376,11 +1477,12 @@ def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-2-4.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits_2_5(save_xml):
+def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits_2_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 5.
     """
@@ -1389,11 +1491,12 @@ def test_atomic_decimal_total_digits_1_nistxml_sv_iv_atomic_decimal_total_digits
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-2-5.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1_1(save_xml):
+def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 1.
     """
@@ -1402,11 +1505,12 @@ def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-1-1.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1_2(save_xml):
+def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 1.
     """
@@ -1415,11 +1519,12 @@ def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-1-2.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1_3(save_xml):
+def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 1.
     """
@@ -1428,11 +1533,12 @@ def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-1-3.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1_4(save_xml):
+def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 1.
     """
@@ -1441,11 +1547,12 @@ def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-1-4.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1_5(save_xml):
+def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet totalDigits with value 1.
     """
@@ -1454,11 +1561,12 @@ def test_atomic_decimal_total_digits_nistxml_sv_iv_atomic_decimal_total_digits_1
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-totalDigits-1-5.xml",
         class_name="NistschemaSvIvAtomicDecimalTotalDigits1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_digits_5_1(save_xml):
+def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_digits_5_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     18.
@@ -1468,11 +1576,12 @@ def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-5-1.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_digits_5_2(save_xml):
+def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_digits_5_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     18.
@@ -1482,11 +1591,12 @@ def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-5-2.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_digits_5_3(save_xml):
+def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_digits_5_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     18.
@@ -1496,11 +1606,12 @@ def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-5-3.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_digits_5_4(save_xml):
+def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_digits_5_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     18.
@@ -1510,11 +1621,12 @@ def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-5-4.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_digits_5_5(save_xml):
+def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_digits_5_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     18.
@@ -1524,11 +1636,12 @@ def test_atomic_decimal_fraction_digits_4_nistxml_sv_iv_atomic_decimal_fraction_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-5-5.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_digits_4_1(save_xml):
+def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_digits_4_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     12.
@@ -1538,11 +1651,12 @@ def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-4-1.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_digits_4_2(save_xml):
+def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_digits_4_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     12.
@@ -1552,11 +1666,12 @@ def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-4-2.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_digits_4_3(save_xml):
+def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_digits_4_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     12.
@@ -1566,11 +1681,12 @@ def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-4-3.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_digits_4_4(save_xml):
+def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_digits_4_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     12.
@@ -1580,11 +1696,12 @@ def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-4-4.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_digits_4_5(save_xml):
+def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_digits_4_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     12.
@@ -1594,11 +1711,12 @@ def test_atomic_decimal_fraction_digits_3_nistxml_sv_iv_atomic_decimal_fraction_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-4-5.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_digits_3_1(save_xml):
+def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_digits_3_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     8.
@@ -1608,11 +1726,12 @@ def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-3-1.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_digits_3_2(save_xml):
+def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_digits_3_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     8.
@@ -1622,11 +1741,12 @@ def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-3-2.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_digits_3_3(save_xml):
+def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_digits_3_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     8.
@@ -1636,11 +1756,12 @@ def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-3-3.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_digits_3_4(save_xml):
+def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_digits_3_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     8.
@@ -1650,11 +1771,12 @@ def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-3-4.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_digits_3_5(save_xml):
+def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_digits_3_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     8.
@@ -1664,11 +1786,12 @@ def test_atomic_decimal_fraction_digits_2_nistxml_sv_iv_atomic_decimal_fraction_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-3-5.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_digits_2_1(save_xml):
+def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_digits_2_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     4.
@@ -1678,11 +1801,12 @@ def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-2-1.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_digits_2_2(save_xml):
+def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_digits_2_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     4.
@@ -1692,11 +1816,12 @@ def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-2-2.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_digits_2_3(save_xml):
+def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_digits_2_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     4.
@@ -1706,11 +1831,12 @@ def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-2-3.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_digits_2_4(save_xml):
+def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_digits_2_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     4.
@@ -1720,11 +1846,12 @@ def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-2-4.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_digits_2_5(save_xml):
+def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_digits_2_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     4.
@@ -1734,11 +1861,12 @@ def test_atomic_decimal_fraction_digits_1_nistxml_sv_iv_atomic_decimal_fraction_
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-2-5.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_digits_1_1(save_xml):
+def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_digits_1_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     0.
@@ -1748,11 +1876,12 @@ def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_di
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-1-1.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_digits_1_2(save_xml):
+def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_digits_1_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     0.
@@ -1762,11 +1891,12 @@ def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_di
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-1-2.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_digits_1_3(save_xml):
+def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_digits_1_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     0.
@@ -1776,11 +1906,12 @@ def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_di
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-1-3.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_digits_1_4(save_xml):
+def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_digits_1_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     0.
@@ -1790,11 +1921,12 @@ def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_di
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-1-4.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_digits_1_5(save_xml):
+def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_digits_1_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet fractionDigits with value
     0.
@@ -1804,11 +1936,12 @@ def test_atomic_decimal_fraction_digits_nistxml_sv_iv_atomic_decimal_fraction_di
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-fractionDigits-1-5.xml",
         class_name="NistschemaSvIvAtomicDecimalFractionDigits1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusive_5_1(save_xml):
+def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusive_5_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     999999999999999999.
@@ -1818,11 +1951,12 @@ def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxInclusive-5-1.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxInclusive5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusive_5_2(save_xml):
+def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusive_5_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     999999999999999999.
@@ -1832,11 +1966,12 @@ def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxInclusive-5-2.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxInclusive5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusive_5_3(save_xml):
+def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusive_5_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     999999999999999999.
@@ -1846,11 +1981,12 @@ def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxInclusive-5-3.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxInclusive5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusive_5_4(save_xml):
+def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusive_5_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     999999999999999999.
@@ -1860,11 +1996,12 @@ def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxInclusive-5-4.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxInclusive5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusive_5_5(save_xml):
+def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusive_5_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     999999999999999999.
@@ -1874,11 +2011,12 @@ def test_atomic_decimal_max_inclusive_4_nistxml_sv_iv_atomic_decimal_max_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxInclusive-5-5.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxInclusive5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusive_4_1(save_xml):
+def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusive_4_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -95776055693671313.
@@ -1888,11 +2026,12 @@ def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxInclusive-4-1.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxInclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusive_4_2(save_xml):
+def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusive_4_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -95776055693671313.
@@ -1902,11 +2041,12 @@ def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxInclusive-4-2.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxInclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusive_4_3(save_xml):
+def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusive_4_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -95776055693671313.
@@ -1916,11 +2056,12 @@ def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxInclusive-4-3.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxInclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusive_4_4(save_xml):
+def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusive_4_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -95776055693671313.
@@ -1930,11 +2071,12 @@ def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxInclusive-4-4.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxInclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusive_4_5(save_xml):
+def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusive_4_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -95776055693671313.
@@ -1944,11 +2086,12 @@ def test_atomic_decimal_max_inclusive_3_nistxml_sv_iv_atomic_decimal_max_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxInclusive-4-5.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxInclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusive_3_1(save_xml):
+def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusive_3_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -888403528420030673.
@@ -1958,11 +2101,12 @@ def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxInclusive-3-1.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxInclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusive_3_2(save_xml):
+def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusive_3_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -888403528420030673.
@@ -1972,11 +2116,12 @@ def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxInclusive-3-2.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxInclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusive_3_3(save_xml):
+def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusive_3_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -888403528420030673.
@@ -1986,11 +2131,12 @@ def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxInclusive-3-3.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxInclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusive_3_4(save_xml):
+def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusive_3_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -888403528420030673.
@@ -2000,11 +2146,12 @@ def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxInclusive-3-4.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxInclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusive_3_5(save_xml):
+def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusive_3_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -888403528420030673.
@@ -2014,11 +2161,12 @@ def test_atomic_decimal_max_inclusive_2_nistxml_sv_iv_atomic_decimal_max_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxInclusive-3-5.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxInclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusive_2_1(save_xml):
+def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusive_2_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     625897845365533055.
@@ -2028,11 +2176,12 @@ def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxInclusive-2-1.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxInclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusive_2_2(save_xml):
+def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusive_2_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     625897845365533055.
@@ -2042,11 +2191,12 @@ def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxInclusive-2-2.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxInclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusive_2_3(save_xml):
+def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusive_2_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     625897845365533055.
@@ -2056,11 +2206,12 @@ def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxInclusive-2-3.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxInclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusive_2_4(save_xml):
+def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusive_2_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     625897845365533055.
@@ -2070,11 +2221,12 @@ def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxInclusive-2-4.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxInclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusive_2_5(save_xml):
+def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusive_2_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     625897845365533055.
@@ -2084,11 +2236,12 @@ def test_atomic_decimal_max_inclusive_1_nistxml_sv_iv_atomic_decimal_max_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxInclusive-2-5.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxInclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_inclusive_nistxml_sv_iv_atomic_decimal_max_inclusive_1_1(save_xml):
+def test_atomic_decimal_max_inclusive_nistxml_sv_iv_atomic_decimal_max_inclusive_1_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxInclusive with value
     -999999999999999999.
@@ -2098,11 +2251,12 @@ def test_atomic_decimal_max_inclusive_nistxml_sv_iv_atomic_decimal_max_inclusive
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxInclusive-1-1.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxInclusive1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusive_5_1(save_xml):
+def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusive_5_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     999999999999999999.
@@ -2112,11 +2266,12 @@ def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxExclusive-5-1.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxExclusive5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusive_5_2(save_xml):
+def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusive_5_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     999999999999999999.
@@ -2126,11 +2281,12 @@ def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxExclusive-5-2.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxExclusive5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusive_5_3(save_xml):
+def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusive_5_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     999999999999999999.
@@ -2140,11 +2296,12 @@ def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxExclusive-5-3.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxExclusive5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusive_5_4(save_xml):
+def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusive_5_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     999999999999999999.
@@ -2154,11 +2311,12 @@ def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxExclusive-5-4.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxExclusive5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusive_5_5(save_xml):
+def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusive_5_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     999999999999999999.
@@ -2168,11 +2326,12 @@ def test_atomic_decimal_max_exclusive_4_nistxml_sv_iv_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxExclusive-5-5.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxExclusive5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusive_4_1(save_xml):
+def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusive_4_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     -214771926190724381.
@@ -2182,11 +2341,12 @@ def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxExclusive-4-1.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxExclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusive_4_2(save_xml):
+def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusive_4_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     -214771926190724381.
@@ -2196,11 +2356,12 @@ def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxExclusive-4-2.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxExclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusive_4_3(save_xml):
+def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusive_4_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     -214771926190724381.
@@ -2210,11 +2371,12 @@ def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxExclusive-4-3.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxExclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusive_4_4(save_xml):
+def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusive_4_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     -214771926190724381.
@@ -2224,11 +2386,12 @@ def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxExclusive-4-4.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxExclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusive_4_5(save_xml):
+def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusive_4_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     -214771926190724381.
@@ -2238,11 +2401,12 @@ def test_atomic_decimal_max_exclusive_3_nistxml_sv_iv_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxExclusive-4-5.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxExclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusive_3_1(save_xml):
+def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusive_3_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     171942968603657986.
@@ -2252,11 +2416,12 @@ def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxExclusive-3-1.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxExclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusive_3_2(save_xml):
+def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusive_3_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     171942968603657986.
@@ -2266,11 +2431,12 @@ def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxExclusive-3-2.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxExclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusive_3_3(save_xml):
+def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusive_3_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     171942968603657986.
@@ -2280,11 +2446,12 @@ def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxExclusive-3-3.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxExclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusive_3_4(save_xml):
+def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusive_3_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     171942968603657986.
@@ -2294,11 +2461,12 @@ def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxExclusive-3-4.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxExclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusive_3_5(save_xml):
+def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusive_3_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     171942968603657986.
@@ -2308,11 +2476,12 @@ def test_atomic_decimal_max_exclusive_2_nistxml_sv_iv_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxExclusive-3-5.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxExclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusive_2_1(save_xml):
+def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusive_2_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     78119693427168402.
@@ -2322,11 +2491,12 @@ def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxExclusive-2-1.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxExclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusive_2_2(save_xml):
+def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusive_2_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     78119693427168402.
@@ -2336,11 +2506,12 @@ def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxExclusive-2-2.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxExclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusive_2_3(save_xml):
+def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusive_2_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     78119693427168402.
@@ -2350,11 +2521,12 @@ def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxExclusive-2-3.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxExclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusive_2_4(save_xml):
+def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusive_2_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     78119693427168402.
@@ -2364,11 +2536,12 @@ def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxExclusive-2-4.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxExclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusive_2_5(save_xml):
+def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusive_2_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     78119693427168402.
@@ -2378,11 +2551,12 @@ def test_atomic_decimal_max_exclusive_1_nistxml_sv_iv_atomic_decimal_max_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxExclusive-2-5.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxExclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_max_exclusive_nistxml_sv_iv_atomic_decimal_max_exclusive_1_1(save_xml):
+def test_atomic_decimal_max_exclusive_nistxml_sv_iv_atomic_decimal_max_exclusive_1_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet maxExclusive with value
     -999999999999999998.
@@ -2392,11 +2566,12 @@ def test_atomic_decimal_max_exclusive_nistxml_sv_iv_atomic_decimal_max_exclusive
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-maxExclusive-1-1.xml",
         class_name="NistschemaSvIvAtomicDecimalMaxExclusive1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_inclusive_4_nistxml_sv_iv_atomic_decimal_min_inclusive_5_1(save_xml):
+def test_atomic_decimal_min_inclusive_4_nistxml_sv_iv_atomic_decimal_min_inclusive_5_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     999999999999999999.
@@ -2406,11 +2581,12 @@ def test_atomic_decimal_min_inclusive_4_nistxml_sv_iv_atomic_decimal_min_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minInclusive-5-1.xml",
         class_name="NistschemaSvIvAtomicDecimalMinInclusive5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusive_4_1(save_xml):
+def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusive_4_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     325207740352921658.
@@ -2420,11 +2596,12 @@ def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minInclusive-4-1.xml",
         class_name="NistschemaSvIvAtomicDecimalMinInclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusive_4_2(save_xml):
+def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusive_4_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     325207740352921658.
@@ -2434,11 +2611,12 @@ def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minInclusive-4-2.xml",
         class_name="NistschemaSvIvAtomicDecimalMinInclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusive_4_3(save_xml):
+def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusive_4_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     325207740352921658.
@@ -2448,11 +2626,12 @@ def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minInclusive-4-3.xml",
         class_name="NistschemaSvIvAtomicDecimalMinInclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusive_4_4(save_xml):
+def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusive_4_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     325207740352921658.
@@ -2462,11 +2641,12 @@ def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minInclusive-4-4.xml",
         class_name="NistschemaSvIvAtomicDecimalMinInclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusive_4_5(save_xml):
+def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusive_4_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     325207740352921658.
@@ -2476,11 +2656,12 @@ def test_atomic_decimal_min_inclusive_3_nistxml_sv_iv_atomic_decimal_min_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minInclusive-4-5.xml",
         class_name="NistschemaSvIvAtomicDecimalMinInclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusive_3_1(save_xml):
+def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusive_3_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -785368448026986020.
@@ -2490,11 +2671,12 @@ def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minInclusive-3-1.xml",
         class_name="NistschemaSvIvAtomicDecimalMinInclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusive_3_2(save_xml):
+def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusive_3_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -785368448026986020.
@@ -2504,11 +2686,12 @@ def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minInclusive-3-2.xml",
         class_name="NistschemaSvIvAtomicDecimalMinInclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusive_3_3(save_xml):
+def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusive_3_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -785368448026986020.
@@ -2518,11 +2701,12 @@ def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minInclusive-3-3.xml",
         class_name="NistschemaSvIvAtomicDecimalMinInclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusive_3_4(save_xml):
+def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusive_3_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -785368448026986020.
@@ -2532,11 +2716,12 @@ def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minInclusive-3-4.xml",
         class_name="NistschemaSvIvAtomicDecimalMinInclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusive_3_5(save_xml):
+def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusive_3_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -785368448026986020.
@@ -2546,11 +2731,12 @@ def test_atomic_decimal_min_inclusive_2_nistxml_sv_iv_atomic_decimal_min_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minInclusive-3-5.xml",
         class_name="NistschemaSvIvAtomicDecimalMinInclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusive_2_1(save_xml):
+def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusive_2_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     229822855408968073.
@@ -2560,11 +2746,12 @@ def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minInclusive-2-1.xml",
         class_name="NistschemaSvIvAtomicDecimalMinInclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusive_2_2(save_xml):
+def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusive_2_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     229822855408968073.
@@ -2574,11 +2761,12 @@ def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minInclusive-2-2.xml",
         class_name="NistschemaSvIvAtomicDecimalMinInclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusive_2_3(save_xml):
+def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusive_2_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     229822855408968073.
@@ -2588,11 +2776,12 @@ def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minInclusive-2-3.xml",
         class_name="NistschemaSvIvAtomicDecimalMinInclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusive_2_4(save_xml):
+def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusive_2_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     229822855408968073.
@@ -2602,11 +2791,12 @@ def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minInclusive-2-4.xml",
         class_name="NistschemaSvIvAtomicDecimalMinInclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusive_2_5(save_xml):
+def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusive_2_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     229822855408968073.
@@ -2616,11 +2806,12 @@ def test_atomic_decimal_min_inclusive_1_nistxml_sv_iv_atomic_decimal_min_inclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minInclusive-2-5.xml",
         class_name="NistschemaSvIvAtomicDecimalMinInclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive_1_1(save_xml):
+def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive_1_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -999999999999999999.
@@ -2630,11 +2821,12 @@ def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minInclusive-1-1.xml",
         class_name="NistschemaSvIvAtomicDecimalMinInclusive1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive_1_2(save_xml):
+def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive_1_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -999999999999999999.
@@ -2644,11 +2836,12 @@ def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minInclusive-1-2.xml",
         class_name="NistschemaSvIvAtomicDecimalMinInclusive1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive_1_3(save_xml):
+def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive_1_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -999999999999999999.
@@ -2658,11 +2851,12 @@ def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minInclusive-1-3.xml",
         class_name="NistschemaSvIvAtomicDecimalMinInclusive1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive_1_4(save_xml):
+def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive_1_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -999999999999999999.
@@ -2672,11 +2866,12 @@ def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minInclusive-1-4.xml",
         class_name="NistschemaSvIvAtomicDecimalMinInclusive1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive_1_5(save_xml):
+def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive_1_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minInclusive with value
     -999999999999999999.
@@ -2686,11 +2881,12 @@ def test_atomic_decimal_min_inclusive_nistxml_sv_iv_atomic_decimal_min_inclusive
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minInclusive-1-5.xml",
         class_name="NistschemaSvIvAtomicDecimalMinInclusive1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_exclusive_4_nistxml_sv_iv_atomic_decimal_min_exclusive_5_1(save_xml):
+def test_atomic_decimal_min_exclusive_4_nistxml_sv_iv_atomic_decimal_min_exclusive_5_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     999999999999999998.
@@ -2700,11 +2896,12 @@ def test_atomic_decimal_min_exclusive_4_nistxml_sv_iv_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minExclusive-5-1.xml",
         class_name="NistschemaSvIvAtomicDecimalMinExclusive5",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusive_4_1(save_xml):
+def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusive_4_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -294253147230818967.
@@ -2714,11 +2911,12 @@ def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minExclusive-4-1.xml",
         class_name="NistschemaSvIvAtomicDecimalMinExclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusive_4_2(save_xml):
+def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusive_4_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -294253147230818967.
@@ -2728,11 +2926,12 @@ def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minExclusive-4-2.xml",
         class_name="NistschemaSvIvAtomicDecimalMinExclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusive_4_3(save_xml):
+def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusive_4_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -294253147230818967.
@@ -2742,11 +2941,12 @@ def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minExclusive-4-3.xml",
         class_name="NistschemaSvIvAtomicDecimalMinExclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusive_4_4(save_xml):
+def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusive_4_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -294253147230818967.
@@ -2756,11 +2956,12 @@ def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minExclusive-4-4.xml",
         class_name="NistschemaSvIvAtomicDecimalMinExclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusive_4_5(save_xml):
+def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusive_4_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -294253147230818967.
@@ -2770,11 +2971,12 @@ def test_atomic_decimal_min_exclusive_3_nistxml_sv_iv_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minExclusive-4-5.xml",
         class_name="NistschemaSvIvAtomicDecimalMinExclusive4",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusive_3_1(save_xml):
+def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusive_3_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -67428259604688900.
@@ -2784,11 +2986,12 @@ def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minExclusive-3-1.xml",
         class_name="NistschemaSvIvAtomicDecimalMinExclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusive_3_2(save_xml):
+def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusive_3_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -67428259604688900.
@@ -2798,11 +3001,12 @@ def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minExclusive-3-2.xml",
         class_name="NistschemaSvIvAtomicDecimalMinExclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusive_3_3(save_xml):
+def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusive_3_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -67428259604688900.
@@ -2812,11 +3016,12 @@ def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minExclusive-3-3.xml",
         class_name="NistschemaSvIvAtomicDecimalMinExclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusive_3_4(save_xml):
+def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusive_3_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -67428259604688900.
@@ -2826,11 +3031,12 @@ def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minExclusive-3-4.xml",
         class_name="NistschemaSvIvAtomicDecimalMinExclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusive_3_5(save_xml):
+def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusive_3_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -67428259604688900.
@@ -2840,11 +3046,12 @@ def test_atomic_decimal_min_exclusive_2_nistxml_sv_iv_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minExclusive-3-5.xml",
         class_name="NistschemaSvIvAtomicDecimalMinExclusive3",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusive_2_1(save_xml):
+def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusive_2_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     631308414640570968.
@@ -2854,11 +3061,12 @@ def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minExclusive-2-1.xml",
         class_name="NistschemaSvIvAtomicDecimalMinExclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusive_2_2(save_xml):
+def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusive_2_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     631308414640570968.
@@ -2868,11 +3076,12 @@ def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minExclusive-2-2.xml",
         class_name="NistschemaSvIvAtomicDecimalMinExclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusive_2_3(save_xml):
+def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusive_2_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     631308414640570968.
@@ -2882,11 +3091,12 @@ def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minExclusive-2-3.xml",
         class_name="NistschemaSvIvAtomicDecimalMinExclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusive_2_4(save_xml):
+def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusive_2_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     631308414640570968.
@@ -2896,11 +3106,12 @@ def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minExclusive-2-4.xml",
         class_name="NistschemaSvIvAtomicDecimalMinExclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusive_2_5(save_xml):
+def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusive_2_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     631308414640570968.
@@ -2910,11 +3121,12 @@ def test_atomic_decimal_min_exclusive_1_nistxml_sv_iv_atomic_decimal_min_exclusi
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minExclusive-2-5.xml",
         class_name="NistschemaSvIvAtomicDecimalMinExclusive2",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive_1_1(save_xml):
+def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive_1_1(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -999999999999999999.
@@ -2924,11 +3136,12 @@ def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minExclusive-1-1.xml",
         class_name="NistschemaSvIvAtomicDecimalMinExclusive1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive_1_2(save_xml):
+def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive_1_2(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -999999999999999999.
@@ -2938,11 +3151,12 @@ def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minExclusive-1-2.xml",
         class_name="NistschemaSvIvAtomicDecimalMinExclusive1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive_1_3(save_xml):
+def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive_1_3(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -999999999999999999.
@@ -2952,11 +3166,12 @@ def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minExclusive-1-3.xml",
         class_name="NistschemaSvIvAtomicDecimalMinExclusive1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive_1_4(save_xml):
+def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive_1_4(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -999999999999999999.
@@ -2966,11 +3181,12 @@ def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minExclusive-1-4.xml",
         class_name="NistschemaSvIvAtomicDecimalMinExclusive1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )
 
 
-def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive_1_5(save_xml):
+def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive_1_5(json_360, save_output):
     """
     Type atomic/decimal is restricted by facet minExclusive with value
     -999999999999999999.
@@ -2980,5 +3196,6 @@ def test_atomic_decimal_min_exclusive_nistxml_sv_iv_atomic_decimal_min_exclusive
         instance="nistData/atomic/decimal/Schema+Instance/NISTXML-SV-IV-atomic-decimal-minExclusive-1-5.xml",
         class_name="NistschemaSvIvAtomicDecimalMinExclusive1",
         version="1.1",
-        save_xml=save_xml,
+        json_360=json_360,
+        save_output=save_output,
     )

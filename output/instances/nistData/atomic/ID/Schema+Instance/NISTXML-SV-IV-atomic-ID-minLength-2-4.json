@@ -3,10 +3,6 @@
         "qname": "{NISTSchema-SV-IV-atomic-ID-minLength-2-NS}NISTSchema-SV-IV-atomic-ID-minLength-2",
         "text": "cforensics_their_implementations.and.be_and-means_create-",
         "tail": null,
-        "ns_map": {
-            "null": "NISTSchema-SV-IV-atomic-ID-minLength-2-NS",
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
         "children": [],
         "attributes": {}
     }

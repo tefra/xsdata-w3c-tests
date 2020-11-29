@@ -6,7 +6,6 @@
             "qname": "a",
             "text": "",
             "tail": null,
-            "ns_map": {},
             "children": [],
             "attributes": {}
         },
@@ -17,9 +16,6 @@
                     "qname": "{http://open.com/}extra",
                     "text": null,
                     "tail": null,
-                    "ns_map": {
-                        "null": "http://open.com/"
-                    },
                     "children": [],
                     "attributes": {}
                 }

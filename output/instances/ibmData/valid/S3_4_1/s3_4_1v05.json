@@ -7,10 +7,6 @@
                 "qname": "z",
                 "text": "sdf9873",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "a": "a"
-                },
                 "children": [],
                 "attributes": {}
             }

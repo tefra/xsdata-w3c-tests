@@ -11,13 +11,11 @@
                     "qname": "e3",
                     "text": null,
                     "tail": null,
-                    "ns_map": {},
                     "children": [
                         {
                             "qname": "e31",
                             "text": null,
                             "tail": null,
-                            "ns_map": {},
                             "children": [],
                             "attributes": {}
                         }

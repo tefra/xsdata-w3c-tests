@@ -11,12 +11,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:override overriding an element declaration",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -24,12 +18,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "xs:override overriding an element declaration",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -226,12 +214,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:override overriding an element declaration which is referenced in the overridden schema doc",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -239,12 +221,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "xs:override overriding an element declaration which is referenced in the overridden schema doc",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -441,12 +417,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:override including a declaration which overrides nothing in the overridden schema",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -454,12 +424,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "xs:override including a declaration which overrides nothing in the overridden schema",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -656,12 +620,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:override including a declaration outside the xs:override. Depends on over003",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -669,12 +627,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "xs:override including a declaration outside the xs:override",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -871,12 +823,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:override of an attribute declaration",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -884,12 +830,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "xs:override of an attribute declaration",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1086,12 +1026,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:override of a self-referential element declaration",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1099,12 +1033,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "xs:override of self-referential element declaration",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1301,12 +1229,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:override of a model group declaration",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1314,12 +1236,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "xs:override of model group declaration",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1516,12 +1432,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:override of an attribute group declaration",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1529,12 +1439,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "xs:override of an attribute group declaration",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1731,12 +1635,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Double override",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1744,12 +1642,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Double override. Depends on schema documents in over003",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1946,12 +1838,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override a simple type",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1959,12 +1845,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Override a simple type",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2161,12 +2041,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override a simple type incorrectly by restricting its former self",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2174,12 +2048,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Override a simple type incorrectly by restricting its former self",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2252,12 +2120,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override a complex type",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2265,12 +2127,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Override a complex type",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2467,12 +2323,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override a complex type incorrectly with a simple type",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2480,12 +2330,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Override a complex type with a simple type. \n                This is not in fact an error: the override is simply ignored.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2580,12 +2424,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override a complex type by self-restriction",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2593,12 +2431,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Override a complex type by self-restriction",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2671,12 +2503,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override a notation",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2684,12 +2510,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Override a notation",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2927,12 +2747,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override schema with wrong namespace",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2940,12 +2754,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Override schema with wrong namespace",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3018,12 +2826,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override schema with wrong namespace",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3031,12 +2833,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Override schema with wrong namespace",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3109,12 +2905,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override declaration in a target namespace",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3122,12 +2912,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Override declaration in a target namespace",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3324,12 +3108,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Chameleon Override declaration",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3337,12 +3115,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Chameleon Override declaration",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3539,12 +3311,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Indirect chameleon Override declaration",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3552,12 +3318,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Indirect chameleon Override declaration (uses over019)",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3754,12 +3514,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override the same thing twice",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3767,12 +3521,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Override the same thing twice",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3845,12 +3593,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override the same thing twice",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3858,12 +3600,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Override the same thing twice",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3936,12 +3672,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "A permissible circular xs:override",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3949,12 +3679,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "A permissible circular xs:override (doesn't work in Saxon 9.3)",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4151,12 +3875,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Disallowed circular xs:override",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4164,12 +3882,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Disallowed circular xs:override",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4248,12 +3960,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Import is not transitive",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4261,12 +3967,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Can't reference components unless the namespace is imported",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4339,12 +4039,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Overrides ignored if there's nothing to override",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4352,12 +4046,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "A child of xs:override that doesn't override anything is ignored, so the reference\n                to it is a dangling references which makes the schema invalid",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4430,12 +4118,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override a notation",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4443,12 +4125,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Override a notation. Was over015. See bug 14388",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4563,12 +4239,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Simple override test. Test case from Priscilla Walmsley",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4576,12 +4246,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Override a simpleType",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4737,12 +4401,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Interaction of xs:override and xs:import. Test case from Priscilla Walmsley",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4750,12 +4408,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "The xs:override contains a reference to a type in an imported schema\n                document, which is not imported into the overridden schema document. See\n                Saxon bug 1505 and W3C bug 17574",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4911,12 +4563,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Override a schema document with top-level annotation",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4924,12 +4570,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "See W3C bug 20784. Test case supplied by Norm Walsh.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }

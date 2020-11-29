@@ -8,10 +8,6 @@
                             "qname": "state",
                             "text": "Texas",
                             "tail": null,
-                            "ns_map": {
-                                "ns": "tns",
-                                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                            },
                             "children": [],
                             "attributes": {}
                         },
@@ -19,7 +15,6 @@
                             "qname": "currency",
                             "text": "USD",
                             "tail": null,
-                            "ns_map": {},
                             "children": [],
                             "attributes": {}
                         },
@@ -27,10 +22,6 @@
                             "qname": "zip",
                             "text": "75244",
                             "tail": null,
-                            "ns_map": {
-                                "ns": "tns",
-                                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                            },
                             "children": [],
                             "attributes": {}
                         }
@@ -48,7 +39,6 @@
                             "qname": "province",
                             "text": "ON",
                             "tail": null,
-                            "ns_map": {},
                             "children": [],
                             "attributes": {}
                         },
@@ -56,7 +46,6 @@
                             "qname": "currency",
                             "text": "CDN",
                             "tail": null,
-                            "ns_map": {},
                             "children": [],
                             "attributes": {}
                         },
@@ -64,7 +53,6 @@
                             "qname": "postal",
                             "text": "M1V4K9",
                             "tail": null,
-                            "ns_map": {},
                             "children": [],
                             "attributes": {}
                         }
@@ -86,7 +74,6 @@
                             "qname": "province",
                             "text": "ON",
                             "tail": null,
-                            "ns_map": {},
                             "children": [],
                             "attributes": {}
                         },
@@ -94,7 +81,6 @@
                             "qname": "currency",
                             "text": "CDN",
                             "tail": null,
-                            "ns_map": {},
                             "children": [],
                             "attributes": {}
                         },
@@ -102,7 +88,6 @@
                             "qname": "postal",
                             "text": "L3S3H6",
                             "tail": null,
-                            "ns_map": {},
                             "children": [],
                             "attributes": {}
                         }
@@ -120,7 +105,6 @@
                             "qname": "province",
                             "text": "ON",
                             "tail": null,
-                            "ns_map": {},
                             "children": [],
                             "attributes": {}
                         },
@@ -128,7 +112,6 @@
                             "qname": "currency",
                             "text": "CDN",
                             "tail": null,
-                            "ns_map": {},
                             "children": [],
                             "attributes": {}
                         },
@@ -136,7 +119,6 @@
                             "qname": "postal",
                             "text": "M3F2W5",
                             "tail": null,
-                            "ns_map": {},
                             "children": [],
                             "attributes": {}
                         }

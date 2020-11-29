@@ -3,16 +3,11 @@
         "qname": null,
         "text": null,
         "tail": null,
-        "ns_map": {},
         "children": [
             {
                 "qname": "{AttrGroup/attrWCard}elementWithAttr",
                 "text": null,
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "td": "AttrGroup/attrWCard"
-                },
                 "children": [],
                 "attributes": {
                     "number": "157"
@@ -22,10 +17,6 @@
                 "qname": "{AttrGroup/attrWCard}elementWithAttr",
                 "text": null,
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "td": "AttrGroup/attrWCard"
-                },
                 "children": [],
                 "attributes": {
                     "notDefined": "wood"

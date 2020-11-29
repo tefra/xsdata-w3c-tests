@@ -3,10 +3,6 @@
         "qname": "{NISTSchema-SV-IV-atomic-ID-minLength-5-NS}NISTSchema-SV-IV-atomic-ID-minLength-5",
         "text": "_degree_resides-environments-the-software_infrastructure.use-app",
         "tail": null,
-        "ns_map": {
-            "null": "NISTSchema-SV-IV-atomic-ID-minLength-5-NS",
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
         "children": [],
         "attributes": {}
     }

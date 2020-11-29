@@ -11,12 +11,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element with more than one ID attribute",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -24,12 +18,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Element with more than one ID attribute",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -226,12 +214,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element with more than one ID attribute, one being a wildcard",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -239,12 +221,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Element with more than one ID attribute, one being a wildcard",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -441,12 +417,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element with more than one ID attribute, one being a wildcard, plus ID children",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -454,12 +424,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Element with more than one ID attribute, one being a wildcard, plus ID children",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -656,12 +620,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element with list-of-ID attributes and list-of-ID children",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -669,12 +627,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Element with list-of-ID attributes and list-of-ID children",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -871,12 +823,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element with list-of-IDREF attributes and list-of-IDREF children",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -884,12 +830,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Element with list-of-IDREF attributes and list-of-IDREF children",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1086,12 +1026,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element with list-of-maybe-IDREF attributes and list-of-maybe-IDREF children",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1099,12 +1033,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Element with list-of-maybe-IDREF attributes and list-of-maybe-IDREF children",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1301,12 +1229,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "A highly devious test in which we define a list type whose items may be either IDs or IDREFs",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1314,12 +1236,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "A highly devious test in which we define a list type whose items may be either IDs or IDREFs",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1516,12 +1432,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "A complex type with simple ID/IDREF content",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1529,12 +1439,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "A complex type with simple ID/IDREF content at one time imposed \n                     no uniqueness or referential constraints, but this has been clarified.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1775,12 +1679,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Nillable ID/IDREF elements",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1788,12 +1686,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Nillable ID/IDREF elements",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1908,12 +1800,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "ID attribute with default value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1921,12 +1807,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "ID attribute with default value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2123,12 +2003,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "ID attribute with fixed value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2136,12 +2010,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "ID attribute with fixed value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2338,12 +2206,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "ID attribute with default value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2351,12 +2213,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "ID attribute with default value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2553,12 +2409,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "ID attribute with fixed value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2566,12 +2416,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "ID attribute with fixed value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2768,12 +2612,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "ID element with default value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2781,12 +2619,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "ID element with default value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2983,12 +2815,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "ID element with fixed value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2996,12 +2822,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "ID element with fixed value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3198,12 +3018,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "IDREF attribute with default value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3211,12 +3025,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "IDREF attribute with default value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3454,12 +3262,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "ENTITY attribute with default value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3467,12 +3269,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "ENTITY attribute with default value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3669,12 +3465,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "ENTITIES attribute with default value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3682,12 +3472,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "ENTITIES attribute with default value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3966,12 +3750,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Union of ENTITY and integer attribute with default value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3979,12 +3757,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Union of ENTITY and integer attribute with default value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4222,12 +3994,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element of type xs:ENTITY with default value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4235,12 +4001,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Element of type xs:ENTITY with default value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4519,12 +4279,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element of type xs:ENTITIES with default value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4532,12 +4286,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Element of type xs:ENTITIES with default value",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4775,12 +4523,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Atomic value equal to singleton list",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4788,12 +4530,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Value of a key is atomic; value of keyref is a list; they can be equal",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4949,12 +4685,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Unique constraint using ref attribute",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4962,12 +4692,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Unique constraint refers to another unique constraint using ref attribute",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5164,12 +4888,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Unique constraint using ref attribute, points to wrong kind of constraint",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5177,12 +4895,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Key constraint refers to a unique constraint using ref attribute",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5255,12 +4967,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Unique constraint using ref attribute, points nowhere",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5268,12 +4974,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Key constraint refers to a nonexistent constraint using ref attribute",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5346,12 +5046,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Key constraint using ref attribute",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5359,12 +5053,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Key constraint refers to another key constraint using ref attribute",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5561,12 +5249,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Keyref constraint using ref attribute",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5574,12 +5256,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Keyref constraint refers to another keyref constraint using ref attribute",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5776,12 +5452,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Unique constraint using xpathDefaultNamespace",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5789,12 +5459,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Use XPathDefaultNamespace on the selector and field elements",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5950,12 +5614,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Key constraint using xpathDefaultNamespace",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5963,12 +5621,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Use XPathDefaultNamespace on the xs:schema element",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6124,12 +5776,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Key constraint using xpathDefaultNamespace",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6137,12 +5783,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Use XPathDefaultNamespace on the xs:schema element",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6298,12 +5938,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Key constraint using xpathDefaultNamespace",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6311,12 +5945,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Use XPathDefaultNamespace=##targetNamespace on the local element",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6472,12 +6100,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Keyref constraint using xpathDefaultNamespace",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6485,12 +6107,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Use XPathDefaultNamespace=##local on the local element and the xs:schema element",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }

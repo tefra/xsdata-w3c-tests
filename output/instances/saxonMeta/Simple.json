@@ -11,11 +11,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "+INF allowed in xs:double lexical space",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -23,11 +18,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "+INF allowed in xs:double lexical space in XSD 1.1",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -222,11 +212,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "+INF allowed in xs:float lexical space",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -234,11 +219,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "+INF allowed in xs:float lexical space in XSD 1.1",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -433,11 +413,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test that simpleType/@final = extension is allowed",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -445,11 +420,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Depends on resolution of spec bug 2074",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -562,11 +532,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test that simpleType/@final = extension is allowed, and works",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -574,11 +539,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Depends on resolution of spec bug 2074",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -663,11 +623,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test simpleType/@final = extension defaulted from finalDefault, and works",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -675,11 +630,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Depends on resolution of spec bug 2074",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -764,11 +714,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "List type with a missing item type",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -776,11 +721,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Marked invalid here, though one could argue for \"valid\" under\n                section 5.3, missing components",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -859,11 +799,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Type X is substitutable for union(X,Y)",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -871,11 +806,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Union is substitutable by one of the member types",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1070,11 +1000,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Union(X,Y) is not validly derived from Union(X,Y,Z)",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1082,11 +1007,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Doesn't make much sense, but that's what the spec says.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1157,11 +1077,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Type X is substitutable for union(X,Y) when X is itself a union type",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1169,11 +1084,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Union is substitutable by one of the member types when that member type is a union",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1409,11 +1319,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Type D is substitutable for union(X,DT) when DT is union (D,T)",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1421,11 +1326,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Tests substitutability of transitive membership of the union",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1620,11 +1520,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Member of a union is not substitutable if the union is derived by restriction",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1632,11 +1527,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Tests substitutability of transitive membership of the union",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1707,11 +1597,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Member of a union is not substitutable if the union is derived by restriction",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1719,11 +1604,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Tests substitutability of transitive membership of the union",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1794,11 +1674,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xsi:type OK to select a member of a union only if there are no restriction facets",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1806,11 +1681,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "xsi:type OK to select a member of a union only if there are no restriction facets",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1964,11 +1834,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "The transitive membership of a union type must not contain the union itself",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1976,11 +1841,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "The transitive membership of a union type must not contain the union itself",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2065,11 +1925,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "The transitive membership of a union type must not contain a type derived from the union",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2077,11 +1932,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "The transitive membership of a union type must not contain a type derived from the union",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2166,11 +2016,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "The transitive membership of a union type must not contain a type constructed from the union",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2178,11 +2023,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "The transitive membership of a union type must not contain a type constructed from the union",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2267,11 +2107,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "The transitive membership of a union type must not contain a type constructed from the union",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2279,11 +2114,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "The transitive membership of a union type must not contain a type constructed from the union",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2368,11 +2198,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "The string \"[^]\" is not a valid regex",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2380,11 +2205,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "The string \"[^]\" is not a valid regex",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2463,11 +2283,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Enumeration value OK if \"equal or identical\", so NaN is accepted. See bug 9196",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2475,11 +2290,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Enumeration value OK if \"equal or identical\", so NaN is accepted. See bug 9196",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2709,11 +2519,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Hyphens in regular expressions",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2721,11 +2526,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Tests use of hyphens in regular expressions",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2920,11 +2720,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Hyphens in regular expressions",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2932,11 +2727,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Tests use of hyphens in regular expressions",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3021,11 +2811,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Hyphens in regular expressions",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3033,11 +2818,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Tests use of hyphens in regular expressions",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3122,11 +2902,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Hyphens in regular expressions",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3134,11 +2909,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Tests use of hyphens in regular expressions",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3231,11 +3001,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Hyphens in regular expressions",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3243,11 +3008,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Tests use of hyphens in regular expressions",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3415,11 +3175,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Hyphens in regular expressions",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3427,11 +3182,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Tests use of hyphens in regular expressions",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3599,11 +3349,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Hyphens in regular expressions",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3611,11 +3356,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Tests use of hyphens in regular expressions",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3783,11 +3523,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Use of xs:anyAtomicType",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3795,11 +3530,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Tests use of xs:anyAtomicType as the type of an element declaration",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4090,11 +3820,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Use of xs:anyAtomicType",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4102,11 +3827,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Cannot use xs:anyAtomicType as the base type of a restriction",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4191,11 +3911,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Use of xs:anyAtomicType",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4203,11 +3918,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Tests use of xs:anyAtomicType as the item type of a list.\n                This has been disallowed in consequence of the resolution of bug 11103",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4292,11 +4002,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Use of xs:anyAtomicType",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4304,11 +4009,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Tests use of xs:anyAtomicType as the member type of a union.\n                Union of xs:anyAtomicType is not allowed, as a consequence of the resolution of bug 11103",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4393,11 +4093,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xsi:type must resolve",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4405,11 +4100,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "xsi:type isn't one of the member type of a union, in fact it doesn't exist",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4536,11 +4226,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Selector in identity constraint mistakenly identifies an element with a simple type",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4548,11 +4233,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Not an error in the schema, though Saxon gives a warning: it causes all instances to be invalid.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4673,11 +4353,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4685,11 +4360,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4768,11 +4438,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4780,11 +4445,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4863,11 +4523,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4875,11 +4530,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4958,11 +4608,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4970,11 +4615,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5053,11 +4693,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5065,11 +4700,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5148,11 +4778,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5160,11 +4785,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5243,11 +4863,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5255,11 +4870,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5338,11 +4948,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5350,11 +4955,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5433,11 +5033,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5445,11 +5040,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5528,11 +5118,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5540,11 +5125,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5623,11 +5203,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5635,11 +5210,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5718,11 +5288,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5730,11 +5295,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5813,11 +5373,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5825,11 +5380,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5908,11 +5458,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5920,11 +5465,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6003,11 +5543,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6015,11 +5550,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6098,11 +5628,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6110,11 +5635,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6193,11 +5713,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6205,11 +5720,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6288,11 +5798,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6300,11 +5805,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6383,11 +5883,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6395,11 +5890,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6478,11 +5968,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6490,11 +5975,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6573,11 +6053,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6585,11 +6060,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6668,11 +6138,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6680,11 +6145,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6763,11 +6223,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6775,11 +6230,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6858,11 +6308,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6870,11 +6315,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6953,11 +6393,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6965,11 +6400,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Facet must not appear more than once",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -7048,11 +6478,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Union derived by restriction with a pattern facet",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -7060,11 +6485,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Pattern facet applies after doing whitespace processing defined\n                             in the member type against which validation succeeded\n                ",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }

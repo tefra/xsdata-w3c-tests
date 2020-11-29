@@ -3,10 +3,6 @@
         "qname": "{NISTSchema-SV-IV-atomic-ID-minLength-4-NS}NISTSchema-SV-IV-atomic-ID-minLength-4",
         "text": "tis-be",
         "tail": null,
-        "ns_map": {
-            "null": "NISTSchema-SV-IV-atomic-ID-minLength-4-NS",
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
         "children": [],
         "attributes": {}
     }

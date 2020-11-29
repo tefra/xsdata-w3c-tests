@@ -3,15 +3,11 @@
         "qname": null,
         "text": null,
         "tail": null,
-        "ns_map": {},
         "children": [
             {
                 "qname": "{http://open.com/}extra",
                 "text": "1",
                 "tail": null,
-                "ns_map": {
-                    "null": "http://open.com/"
-                },
                 "children": [],
                 "attributes": {}
             },
@@ -19,9 +15,6 @@
                 "qname": "{http://open.com/}extra",
                 "text": "1",
                 "tail": null,
-                "ns_map": {
-                    "null": "http://open.com/"
-                },
                 "children": [],
                 "attributes": {}
             }

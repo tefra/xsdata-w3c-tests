@@ -6,7 +6,6 @@
                     "qname": "foo",
                     "text": "testing",
                     "tail": null,
-                    "ns_map": {},
                     "children": [],
                     "attributes": {}
                 }

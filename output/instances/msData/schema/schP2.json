@@ -4,10 +4,6 @@
             "qname": "{ns-a}e1",
             "text": "1234",
             "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "a": "ns-a"
-            },
             "children": [],
             "attributes": {}
         },
@@ -15,10 +11,6 @@
             "qname": "{ns-a}b-e1",
             "text": "abcd",
             "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "a": "ns-a"
-            },
             "children": [],
             "attributes": {}
         }

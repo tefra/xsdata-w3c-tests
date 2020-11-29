@@ -6,9 +6,6 @@
         "qname": "{http://local.com/}extra",
         "text": "42",
         "tail": null,
-        "ns_map": {
-            "null": "http://local.com/"
-        },
         "children": [],
         "attributes": {}
     }

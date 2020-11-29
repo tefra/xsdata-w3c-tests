@@ -4,17 +4,11 @@
             "qname": "foo",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "f": "http://foo.com"
-            },
             "children": [
                 {
                     "qname": "this",
                     "text": null,
                     "tail": null,
-                    "ns_map": {
-                        "f": "http://foo.com"
-                    },
                     "children": [],
                     "attributes": {}
                 },
@@ -22,9 +16,6 @@
                     "qname": "contents",
                     "text": null,
                     "tail": "\n\t\tshould not be\n\t\tvalidated\n\t\t",
-                    "ns_map": {
-                        "f": "http://foo.com"
-                    },
                     "children": [],
                     "attributes": {}
                 },
@@ -32,9 +23,6 @@
                     "qname": "because",
                     "text": null,
                     "tail": null,
-                    "ns_map": {
-                        "f": "http://foo.com"
-                    },
                     "children": [],
                     "attributes": {
                         "it": "is ur-type"
@@ -51,25 +39,16 @@
             "qname": "zot",
             "text": "\n\t\twhen using ",
             "tail": null,
-            "ns_map": {
-                "f": "http://foo.com"
-            },
             "children": [
                 {
                     "qname": "ur",
                     "text": null,
                     "tail": null,
-                    "ns_map": {
-                        "f": "http://foo.com"
-                    },
                     "children": [
                         {
                             "qname": "type",
                             "text": null,
                             "tail": null,
-                            "ns_map": {
-                                "f": "http://foo.com"
-                            },
                             "children": [],
                             "attributes": {}
                         }

@@ -3,7 +3,6 @@
         "qname": "item",
         "text": null,
         "tail": null,
-        "ns_map": {},
         "children": [],
         "attributes": {
             "SOMITEM_DATATYPE_ID": " id "

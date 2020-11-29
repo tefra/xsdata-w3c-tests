@@ -11,11 +11,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Simple assertion on an attribute value, ignored under XSD 1.0",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -23,11 +18,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Simple assertion on an attribute value, ignored under XSD 1.0",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -190,11 +180,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Equivalent schemas with different formulations under XSD 1.0 and XSD 1.1",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -202,11 +187,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Equivalent schemas with different formulations under XSD 1.0 and XSD 1.1",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -360,11 +340,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test a hypothetical 5.0 feature ignored under XSD 1.1",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -372,11 +347,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Test a hypothetical 5.0 feature ignored under XSD 1.1",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -491,11 +461,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Use of version conditionals in an included schema document",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -503,11 +468,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Use of version conditionals in an included schema document",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -622,11 +582,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Use of version conditionals to ignore an (otherwise invalid) xs:include",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -634,11 +589,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Use of version conditionals to ignore an (otherwise invalid) xs:include",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -753,11 +703,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Use of version conditionals to make a schema document empty",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -765,11 +710,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Use of version conditionals to make a schema document empty",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -884,11 +824,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Include a schema document made empty by version control attributes",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -896,11 +831,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Include a schema document made empty by version control attributes",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1056,11 +986,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Empty vc:xx[un]available attributes have no effect",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1068,11 +993,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Empty vc:xx[un]available attributes have no effect",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1228,11 +1148,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Misspelt vc: attribute has no effect",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1240,11 +1155,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Misspelt vc: attribute has no effect",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1400,11 +1310,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "vc:typeAvailable with a known type",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1412,11 +1317,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "vc:typeAvailable with a known type",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1531,11 +1431,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "vc:typeUnavailable with a known type",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1543,11 +1438,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "vc:typeUnavailable with a known type",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1662,11 +1552,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "vc:typeAvailable with a mix of known and unknown types",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1674,11 +1559,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "vc:typeAvailable with a mix of known and unknown types",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1793,11 +1673,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "vc:typeUnavailable with a mix of known and unknown types",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1805,11 +1680,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "vc:typeUnavailable with a mix of known and unknown types",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1924,11 +1794,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Conditional use of xs:error controlled by vc:typeAvailable",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1936,11 +1801,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Conditional use of xs:error controlled by vc:typeAvailable",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2097,11 +1957,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "vc:facetAvailable with a known facet",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2109,11 +1964,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "vc:facetAvailable with a known facet",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2228,11 +2078,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "vc:facetUnavailable with a known facet",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2240,11 +2085,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "vc:facetUnavailable with a known facet",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2359,11 +2199,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "vc:facetAvailable with a mix of known and unknown facets",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2371,11 +2206,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "vc:facetAvailable with a mix of known and unknown facets",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2490,11 +2320,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "vc:facetUnavailable with a mix of known and unknown facet",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2502,11 +2327,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "vc:facetUnavailable with a mix of known and unknown facets",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2621,11 +2441,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Simple assertion on an attribute value, ignored under XSD 1.0",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2633,11 +2448,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Simple assertion on an attribute value, ignored under XSD 1.0",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2803,11 +2613,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Bad schema, invalid vc:minVersion",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2815,11 +2620,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Bad schema, invalid vc:minVersion",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2892,11 +2692,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Invalid vc:maxVersion, not detected in XSD 1.0",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2904,11 +2699,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Invalid vc:maxVersion, not detected in XSD 1.0",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3003,11 +2793,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Bad schema, invalid vc:maxVersion",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3015,11 +2800,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Bad schema, invalid vc:maxVersion",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3114,11 +2894,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Bad schema, invalid QName in vc:typeAvailable",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3126,11 +2901,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Bad schema, invalid QName in vc:typeAvailable",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3203,11 +2973,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Bad schema, invalid QName in vc:typeUnavailable",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3215,11 +2980,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Bad schema, invalid QName in vc:typeUnavailable",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }

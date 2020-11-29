@@ -5,10 +5,6 @@
                 "qname": "{foo}a",
                 "text": null,
                 "tail": null,
-                "ns_map": {
-                    "null": "foo",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
                 "children": [],
                 "attributes": {}
             },
@@ -16,10 +12,6 @@
                 "qname": "{bar}d",
                 "text": null,
                 "tail": null,
-                "ns_map": {
-                    "null": "bar",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
                 "children": [],
                 "attributes": {}
             }

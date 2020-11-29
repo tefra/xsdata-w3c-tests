@@ -11,11 +11,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Attribute is declared in attribute group by reference with QName. (valid schema)",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -23,11 +18,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Attribute Use should has proper namespace prefix in the ref value \n                                 to be resolved to its declaration.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -120,11 +110,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Attribute is declared in attribute group by reference with QName. (invalid schema)",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -132,11 +117,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Attribute Use should has proper namespace prefix in the ref value \n                                 to be resolved to its declaration.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -201,11 +181,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Attribute wildcard is declared in attribute group.  (valid schema)",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -213,11 +188,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "According to declared attribute wildcard content of the attributes in the \n                                 document should not be processed.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -310,11 +280,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Attribute group declaration. (valid schema)",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -322,11 +287,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Attribute Group use should has proper ref value to be resolved to its declaration.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -419,11 +379,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Attribute group declaration. (invalid schema)",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -431,11 +386,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Attribute Group use should has proper ref value to be resolved to its declaration.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -500,11 +450,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Attribute group reference with QName. (valid schema)",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -512,11 +457,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Attribute Group use should has proper namespace prefix in the ref value \n                                 to be resolved to its declaration.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -609,11 +549,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Attribute group reference with QName. (invalid schema)",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -621,11 +556,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Attribute Group use should has proper namespace prefix in the ref value \n                                 to be resolved to its declaration.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -690,11 +620,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "human-targeted  annotation for an attribute group definition (valid schema)",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -702,11 +627,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for an attribute group definition.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -799,11 +719,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "human-targeted double annotation for an attribute group definition (invalid schema)",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -811,11 +726,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for an attribute group definition.\n                             The annotation is specified twice.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -880,11 +790,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "human-targeted misplaced annotation for an attribute group definition (invalid schema)",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -892,11 +797,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for an attribute group definition.\n                             The annotation is misplaced.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -961,11 +861,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "machine-targeted  annotation for an attribute group definition (valid schema)",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -973,11 +868,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for an attribute group definition.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1070,11 +960,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "machine-targeted double annotation for an attribute group definition (invalid schema)",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1082,11 +967,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for an attribute group definition.\n                             The annotation is specified twice.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1151,11 +1031,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "machine-targeted misplaced annotation for an attribute group definition (invalid schema)",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1163,11 +1038,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for an attribute group definition.\n                             The annotation is misplaced.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }

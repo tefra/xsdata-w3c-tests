@@ -7,10 +7,6 @@
             "qname": "{a}a1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "b": "b"
-            },
             "children": [],
             "attributes": {}
         },
@@ -18,10 +14,6 @@
             "qname": "{a}a1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "b": "b"
-            },
             "children": [],
             "attributes": {}
         },
@@ -29,10 +21,6 @@
             "qname": "{a}a1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "b": "b"
-            },
             "children": [],
             "attributes": {}
         },
@@ -40,10 +28,6 @@
             "qname": "{a}a1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "b": "b"
-            },
             "children": [],
             "attributes": {}
         },
@@ -51,10 +35,6 @@
             "qname": "{a}a1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "b": "b"
-            },
             "children": [],
             "attributes": {}
         },
@@ -62,10 +42,6 @@
             "qname": "{a}a1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "b": "b"
-            },
             "children": [],
             "attributes": {}
         },
@@ -73,10 +49,6 @@
             "qname": "{a}a1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "b": "b"
-            },
             "children": [],
             "attributes": {}
         },
@@ -84,10 +56,6 @@
             "qname": "{a}a1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "b": "b"
-            },
             "children": [],
             "attributes": {}
         },
@@ -95,10 +63,6 @@
             "qname": "{a}a1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "b": "b"
-            },
             "children": [],
             "attributes": {}
         },
@@ -106,10 +70,6 @@
             "qname": "{a}a1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "b": "b"
-            },
             "children": [],
             "attributes": {}
         },
@@ -117,10 +77,6 @@
             "qname": "{a}a1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "b": "b"
-            },
             "children": [],
             "attributes": {}
         },
@@ -128,10 +84,6 @@
             "qname": "{a}a1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "b": "b"
-            },
             "children": [],
             "attributes": {}
         },
@@ -139,10 +91,6 @@
             "qname": "{a}a1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "b": "b"
-            },
             "children": [],
             "attributes": {}
         },
@@ -150,10 +98,6 @@
             "qname": "{a}a1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "b": "b"
-            },
             "children": [],
             "attributes": {}
         },
@@ -161,10 +105,6 @@
             "qname": "{a}a1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "b": "b"
-            },
             "children": [],
             "attributes": {}
         },
@@ -172,10 +112,6 @@
             "qname": "{a}a1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "b": "b"
-            },
             "children": [],
             "attributes": {}
         },
@@ -183,10 +119,6 @@
             "qname": "{a}a1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "b": "b"
-            },
             "children": [],
             "attributes": {}
         },
@@ -194,10 +126,6 @@
             "qname": "{a}a1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "b": "b"
-            },
             "children": [],
             "attributes": {}
         },
@@ -205,10 +133,6 @@
             "qname": "{a}a1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "b": "b"
-            },
             "children": [],
             "attributes": {}
         },
@@ -216,10 +140,6 @@
             "qname": "{a}a1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "b": "b"
-            },
             "children": [],
             "attributes": {}
         },
@@ -227,10 +147,6 @@
             "qname": "{a}a1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "b": "b"
-            },
             "children": [],
             "attributes": {}
         },
@@ -238,10 +154,6 @@
             "qname": "{a}a1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "b": "b"
-            },
             "children": [],
             "attributes": {}
         }

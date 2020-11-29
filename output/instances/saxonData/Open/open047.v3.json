@@ -10,13 +10,11 @@
         "qname": null,
         "text": null,
         "tail": null,
-        "ns_map": {},
         "children": [
             {
                 "qname": "x",
                 "text": null,
                 "tail": null,
-                "ns_map": {},
                 "children": [],
                 "attributes": {}
             },
@@ -24,7 +22,6 @@
                 "qname": "b",
                 "text": "not-a-number",
                 "tail": null,
-                "ns_map": {},
                 "children": [],
                 "attributes": {}
             }

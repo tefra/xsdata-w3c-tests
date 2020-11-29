@@ -3,10 +3,6 @@
         "qname": "e",
         "text": "123",
         "tail": null,
-        "ns_map": {
-            "f": "foo",
-            "b": "bar"
-        },
         "children": [],
         "attributes": {}
     }

@@ -8,9 +8,6 @@
             "qname": "disk",
             "text": "Seagate",
             "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-            },
             "children": [],
             "attributes": {}
         },
@@ -18,9 +15,6 @@
             "qname": "mouse",
             "text": "USB",
             "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-            },
             "children": [],
             "attributes": {}
         }

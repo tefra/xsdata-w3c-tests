@@ -4,7 +4,6 @@
             "qname": "a",
             "text": "",
             "tail": null,
-            "ns_map": {},
             "children": [],
             "attributes": {}
         },
@@ -12,7 +11,6 @@
             "qname": "b",
             "text": "",
             "tail": null,
-            "ns_map": {},
             "children": [],
             "attributes": {}
         },
@@ -20,7 +18,6 @@
             "qname": "d",
             "text": "",
             "tail": null,
-            "ns_map": {},
             "children": [],
             "attributes": {}
         },
@@ -28,7 +25,6 @@
             "qname": "c",
             "text": "",
             "tail": null,
-            "ns_map": {},
             "children": [],
             "attributes": {}
         },
@@ -36,7 +32,6 @@
             "qname": "a",
             "text": "",
             "tail": null,
-            "ns_map": {},
             "children": [],
             "attributes": {}
         },
@@ -45,7 +40,6 @@
             "qname": "c",
             "text": "",
             "tail": null,
-            "ns_map": {},
             "children": [],
             "attributes": {}
         },
@@ -53,7 +47,6 @@
             "qname": "c",
             "text": "",
             "tail": null,
-            "ns_map": {},
             "children": [],
             "attributes": {}
         },
@@ -61,7 +54,6 @@
             "qname": "a",
             "text": "",
             "tail": null,
-            "ns_map": {},
             "children": [],
             "attributes": {}
         },
@@ -69,7 +61,6 @@
             "qname": "a",
             "text": "",
             "tail": null,
-            "ns_map": {},
             "children": [],
             "attributes": {}
         },
@@ -77,7 +68,6 @@
             "qname": "b",
             "text": "",
             "tail": null,
-            "ns_map": {},
             "children": [],
             "attributes": {}
         }

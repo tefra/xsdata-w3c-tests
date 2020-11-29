@@ -3,10 +3,6 @@
         "qname": "{NISTSchema-SV-IV-atomic-ID-minLength-1-NS}NISTSchema-SV-IV-atomic-ID-minLength-1",
         "text": "fand-and-development-build-widely.only_systems-these_for_stan",
         "tail": null,
-        "ns_map": {
-            "null": "NISTSchema-SV-IV-atomic-ID-minLength-1-NS",
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
         "children": [],
         "attributes": {}
     }

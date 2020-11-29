@@ -3,11 +3,6 @@
         "qname": "{ns_test1}date",
         "text": "2002-04-29",
         "tail": null,
-        "ns_map": {
-            "test": "nsConstraint",
-            "test1": "ns_test1",
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
         "children": [],
         "attributes": {}
     }

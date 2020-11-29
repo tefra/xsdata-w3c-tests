@@ -15,9 +15,6 @@
                             "qname": null,
                             "text": null,
                             "tail": " mi ",
-                            "ns_map": {
-                                "null": "foo"
-                            },
                             "children": [],
                             "attributes": {}
                         }
@@ -30,9 +27,6 @@
                             "qname": null,
                             "text": null,
                             "tail": " xed ",
-                            "ns_map": {
-                                "null": "foo"
-                            },
                             "children": [],
                             "attributes": {}
                         }
@@ -45,9 +39,6 @@
                             "qname": null,
                             "text": null,
                             "tail": " content\n\t",
-                            "ns_map": {
-                                "null": "foo"
-                            },
                             "children": [],
                             "attributes": {}
                         }

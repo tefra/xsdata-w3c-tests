@@ -4,12 +4,6 @@
             "qname": "{http://xsdtesting}foo",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "a": "http://xsdtesting",
-                "xsd": "http://www.w3.org/2001/XMLSchema",
-                "imp": "http://importedXSD"
-            },
             "children": [],
             "attributes": {}
         }

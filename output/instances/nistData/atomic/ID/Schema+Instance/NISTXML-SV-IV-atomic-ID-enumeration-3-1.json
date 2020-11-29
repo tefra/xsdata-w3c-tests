@@ -3,10 +3,6 @@
         "qname": "{NISTSchema-SV-IV-atomic-ID-enumeration-3-NS}NISTSchema-SV-IV-atomic-ID-enumeration-3",
         "text": "wto-to.the_and.appr",
         "tail": null,
-        "ns_map": {
-            "null": "NISTSchema-SV-IV-atomic-ID-enumeration-3-NS",
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
         "children": [],
         "attributes": {}
     }

@@ -3,10 +3,6 @@
         "qname": "{NISTSchema-SV-IV-atomic-ID-whiteSpace-1-NS}NISTSchema-SV-IV-atomic-ID-whiteSpace-1",
         "text": "rorganization.cooperation-to.of-under.in-the.in-app",
         "tail": null,
-        "ns_map": {
-            "null": "NISTSchema-SV-IV-atomic-ID-whiteSpace-1-NS",
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
         "children": [],
         "attributes": {}
     }

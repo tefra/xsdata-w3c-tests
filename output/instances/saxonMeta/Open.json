@@ -8,12 +8,6 @@
                             "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                             "text": "Tests for XSD 1.1 open content models",
                             "tail": null,
-                            "ns_map": {
-                                "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                "xlink": "http://www.w3.org/1999/xlink",
-                                "saxon": "http://saxon.sf.net/"
-                            },
                             "children": [],
                             "attributes": {}
                         },
@@ -21,12 +15,6 @@
                             "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                             "text": "A number of tests, both valid and invalid, demonstrating use of the new\n                XSD 1.1 feature for open content models.",
                             "tail": null,
-                            "ns_map": {
-                                "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                "xlink": "http://www.w3.org/1999/xlink",
-                                "saxon": "http://saxon.sf.net/"
-                            },
                             "children": [],
                             "attributes": {}
                         }
@@ -50,12 +38,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Basic suffixed open content",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -63,12 +45,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allows any element in specified namespace at end of content",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -441,12 +417,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Suffixed open content defined by defaultOpenContent element",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -454,12 +424,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Same as open001 except for the schema.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -826,12 +790,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Explicit open content takes precedence over default open content",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -839,12 +797,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Different namespaces for the local open content and default open content wildcards.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1000,12 +952,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "mode=\"none\" takes precedence over default open content",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1013,12 +959,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Open content not allowed.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1174,12 +1114,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Basic interleaved open content",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1187,12 +1121,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allows any element in specified namespace anywhere in content",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1553,12 +1481,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Basic interleaved open content using defaultOpenContent definition",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1566,12 +1488,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allows any element in specified namespace anywhere in content.\n                Same as open005 except for the schema.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1932,12 +1848,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Interleaved open content within a counting content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1945,12 +1855,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Designed to test that counting still works correctly.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2188,12 +2092,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Interleaved open content in an xs:all group",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2201,12 +2099,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allows any element in specified namespace anywhere in xs:all content",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2526,12 +2418,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Suffix open content in an xs:all group",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2539,12 +2425,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allows any element in specified namespace at end of xs:all content",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2788,12 +2668,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Open content in an (otherwise) empty content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2801,12 +2675,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allows any element in specified namespace",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3050,12 +2918,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Open content in an (otherwise) empty content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3063,12 +2925,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Defined by defaultOpenContent with appliesToEmpty=true. Uses\n                            same instances as open010.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3312,12 +3168,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Schema defines default open content but not applying to an empty content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3325,12 +3175,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Defined by defaultOpenContent with appliesToEmpty=false. ",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3574,12 +3418,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Schema defines default open content not applying to an empty content model -\n                       but it does apply to a mixed content model with an empty particle",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3587,12 +3425,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Defined by defaultOpenContent with appliesToEmpty=false. ",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3719,12 +3551,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "A valid restriction",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3732,12 +3558,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Base type has open content, restricted type does not",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3893,12 +3713,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "A valid restriction",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3906,12 +3720,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Base type has open content, restricted type has identical open content",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4067,12 +3875,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Open content: no effect on complex types with simple content",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4080,12 +3882,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Default open content ignored on a CT-with-SC",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4241,12 +4037,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "An invalid restriction",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4254,12 +4044,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Restricted type has open content, base does not",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4332,12 +4116,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "An invalid restriction",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4345,12 +4123,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Restricted type has more permissive wildcard than base",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4423,12 +4195,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "An invalid restriction",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4436,12 +4202,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Restricted type has more permissive wildcard processContents than base",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4514,12 +4274,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "An invalid restriction",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4527,12 +4281,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Restricted type allows interleaved open content, base only allows suffixed",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4605,12 +4353,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "A valid restriction",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4618,12 +4360,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Base type has suffixed open content, restricted type has interleaved open content,\n                but it's OK because the restricted type is otherwise empty.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4738,12 +4474,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "A valid restriction",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4751,12 +4481,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Base type has suffixed open content, restricted type has interleaved open content,\n                but it's OK because the restricted type is otherwise empty (well, \"mixed empty\").",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4877,12 +4601,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "A valid restriction (though Saxon can't yet handle it)",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4890,12 +4608,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Base type has an explicit wildcard, restricted type has interleaved open content,\n                all instances of the restricted type are valid against the base type.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5010,12 +4722,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "A valid restriction",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5023,12 +4729,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Open content in base type allows more namespaces than open content in derived type",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5143,12 +4843,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "A valid restriction",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5156,12 +4850,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Open content in base type has weaker processContents than open content in derived type",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5276,12 +4964,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Open content and regular content match the same instances",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5289,12 +4971,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Show that regular particles take precedence",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5450,12 +5126,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "A valid extension",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5463,12 +5133,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Base type has suffix open content, extended type does not",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5706,12 +5370,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "A valid extension",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5719,12 +5377,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Derived type has suffix open content, base type does not",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5962,12 +5614,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "A valid extension",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5975,12 +5621,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "complex type extension: derived type takes openContent from the default open content\n                             of the schema in preference to that of the base type. This makes the extension invalid.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6053,12 +5693,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "A valid extension",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6066,12 +5700,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "complex type extension: derived type takes openContent from the base type ignoring\n                      the defaultOpenContent when the type is empty and default open content does not apply to empty\n                ",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6356,12 +5984,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "An invalid extension",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6369,12 +5991,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Base type has interleaved open content, extension has suffix open content",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6447,12 +6063,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Valid content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6460,12 +6070,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Valid open content: it's not an error for open content to \n                             compete with ordinary wildcards",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6538,12 +6142,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test defaultAttributesApply on an anonymous complex type",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6551,12 +6149,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Attribute is allowed on both named and unnamed types",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6753,12 +6345,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "An invalid restriction",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6766,12 +6352,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Spec bug 7069 - openContent mode=\"none\" with a wildcard child",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6844,12 +6424,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Two annotation children",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6857,12 +6431,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "You're not allowed two annotation children, for some reason",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6935,12 +6503,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Two annotation children",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6948,12 +6510,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "You're not allowed two opencontent elements with the same ID",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -7026,12 +6582,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Two annotation children",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -7039,12 +6589,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "You're not allowed two opencontent elements with the same ID",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -7117,12 +6661,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "defaultOpenContent is scoped to a schema document",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -7130,12 +6668,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "defaultOpenContent does not apply to types included from a different schema document",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -7291,12 +6823,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "defaultOpenContent is scoped to a schema document",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -7304,12 +6830,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "defaultOpenContent does not apply to types included from a different schema document",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -7465,12 +6985,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "defaultOpenContent applies to types defined within xs:redefine",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -7478,12 +6992,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "defaultOpenContent applies to types defined within xs:redefine",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -7680,12 +7188,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "For types defined within xs:override, the relevant defaultOpenContent is the one in the overridden schema document",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -7693,12 +7195,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "For types defined within xs:override, the relevant defaultOpenContent is the one in the overridden schema document.\n                Test revised 2011-10-10 in response to bug 13458.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -7895,12 +7391,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "defaultAttributes applies to types defined within xs:redefine",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -7908,12 +7398,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "defaultAttributes applies to types defined within xs:redefine",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -8116,12 +7600,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "defaultAttributes does not apply to types defined within xs:override",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -8129,12 +7607,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "defaultAttributes does not apply to types defined within xs:override.\n                Test rewritten 2011-10-10 to reflect the fact that for a complexType defined within xs:override,\n                the defaultAttributes that apply are those defined within the overridden schema document, not the\n                overriding schema document.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -8337,12 +7809,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "A valid extension",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -8350,12 +7816,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "complex type extension: derived type takes openContent from the base type ignoring\n                      the defaultOpenContent when the type is empty and default open content does not apply to empty.\n                      This test was formerly open031 and was believed to be valid; see bug 13459.\n                ",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -8434,12 +7894,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "A valid extension",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -8447,12 +7901,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "complex type extension: derived type's open content allows the union of the wildcards\n                specified for the base type and for the extension.\n                ",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -8690,12 +8138,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "maxOccurs not allowed on xs:any within xs:openContent",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -8703,12 +8145,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Was open042, unintended error reported in bug 15618",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -8781,12 +8217,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Valid content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -8794,12 +8224,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Basic test of defaultAttributes",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -8955,12 +8379,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Valid content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -8968,12 +8386,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Basic test of defaultAttributes with defaultAttributesApply=false",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -9129,12 +8541,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Unresolved reference",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -9142,12 +8548,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Unresolved reference to default attribute group",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -9220,12 +8620,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Unresolved reference",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -9233,12 +8627,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Default attribute group in unimported namespace",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -9311,12 +8699,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Valid content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -9324,12 +8706,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "defaultAttributes in an imported namespace",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }

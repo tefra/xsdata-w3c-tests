@@ -3,19 +3,11 @@
         "qname": "localElement1",
         "text": null,
         "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-            "a": "http://www.tempuri.org"
-        },
         "children": [
             {
                 "qname": "{http://www.tempuri.org}testContent",
                 "text": "123",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "a": "http://www.tempuri.org"
-                },
                 "children": [],
                 "attributes": {}
             }
@@ -28,19 +20,11 @@
         "qname": "localElement2",
         "text": null,
         "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-            "a": "http://www.tempuri.org"
-        },
         "children": [
             {
                 "qname": "testContent",
                 "text": "any text",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "a": "http://www.tempuri.org"
-                },
                 "children": [],
                 "attributes": {}
             },
@@ -48,10 +32,6 @@
                 "qname": "{http://www.tempuri.org}testContent",
                 "text": "456",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "a": "http://www.tempuri.org"
-                },
                 "children": [],
                 "attributes": {}
             }

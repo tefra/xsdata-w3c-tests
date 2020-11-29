@@ -3,19 +3,11 @@
         "qname": "{http://xsdtesting}myelem",
         "text": null,
         "tail": null,
-        "ns_map": {
-            "x": "http://xsdtesting",
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
         "children": [
             {
                 "qname": "a",
                 "text": "hello",
                 "tail": null,
-                "ns_map": {
-                    "x": "http://xsdtesting",
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                },
                 "children": [],
                 "attributes": {}
             }

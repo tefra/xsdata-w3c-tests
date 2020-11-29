@@ -6,7 +6,6 @@
             "qname": "a",
             "text": "",
             "tail": null,
-            "ns_map": {},
             "children": [],
             "attributes": {}
         },
@@ -14,7 +13,6 @@
             "qname": "b",
             "text": "",
             "tail": null,
-            "ns_map": {},
             "children": [],
             "attributes": {}
         }

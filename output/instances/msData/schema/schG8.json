@@ -4,21 +4,11 @@
             "qname": "{ns-a}e1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "a": "ns-a",
-                "c": "ns-c"
-            },
             "children": [
                 {
                     "qname": "a1",
                     "text": "123",
                     "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "ns-a",
-                        "c": "ns-c"
-                    },
                     "children": [],
                     "attributes": {}
                 },
@@ -26,11 +16,6 @@
                     "qname": "a2",
                     "text": "true",
                     "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "ns-a",
-                        "c": "ns-c"
-                    },
                     "children": [],
                     "attributes": {}
                 }
@@ -41,21 +26,11 @@
             "qname": "{ns-c}e1",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "a": "ns-a",
-                "c": "ns-c"
-            },
             "children": [
                 {
                     "qname": "a1",
                     "text": "123\t",
                     "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "ns-a",
-                        "c": "ns-c"
-                    },
                     "children": [],
                     "attributes": {}
                 },
@@ -63,11 +38,6 @@
                     "qname": "a2",
                     "text": "123",
                     "tail": null,
-                    "ns_map": {
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                        "a": "ns-a",
-                        "c": "ns-c"
-                    },
                     "children": [],
                     "attributes": {}
                 }
@@ -78,11 +48,6 @@
             "qname": "{ns-c}foo",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "a": "ns-a",
-                "c": "ns-c"
-            },
             "children": [],
             "attributes": {}
         }

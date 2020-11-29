@@ -8,21 +8,11 @@
                             "qname": "{http://www.w3.org/1999/xhtml}div",
                             "text": null,
                             "tail": null,
-                            "ns_map": {
-                                "null": "http://www.w3.org/1999/xhtml",
-                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                "xlink": "http://www.w3.org/1999/xlink"
-                            },
                             "children": [
                                 {
                                     "qname": "{http://www.w3.org/1999/xhtml}p",
                                     "text": "A set of tests on changes to substition-group behavior,\n     constructed by hand, as a contribution to the XML Schema 1.1\n     test suite.\n    ",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/1999/xhtml",
-                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -30,11 +20,6 @@
                                     "qname": "{http://www.w3.org/1999/xhtml}p",
                                     "text": "Revisions:",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/1999/xhtml",
-                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -42,31 +27,16 @@
                                     "qname": "{http://www.w3.org/1999/xhtml}ul",
                                     "text": null,
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/1999/xhtml",
-                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [
                                         {
                                             "qname": "{http://www.w3.org/1999/xhtml}li",
                                             "text": "2010-06-17 : CMSMcQ : add test groups \n      ",
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [
                                                 {
                                                     "qname": "{http://www.w3.org/1999/xhtml}a",
                                                     "text": "sg-abstract-upa",
                                                     "tail": " etc. for\n      checking the changes defining abstract elements as members\n      of substitution groups.\n     ",
-                                                    "ns_map": {
-                                                        "null": "http://www.w3.org/1999/xhtml",
-                                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                                        "xlink": "http://www.w3.org/1999/xlink"
-                                                    },
                                                     "children": [],
                                                     "attributes": {
                                                         "href": "#sg-abstract-upa"
@@ -79,11 +49,6 @@
                                             "qname": "{http://www.w3.org/1999/xhtml}li",
                                             "text": "2010-06-16 : CMSMcQ : correct error in test of content \n      model competition:  the negative wildcard does compete\n      with n, but the element wins (UPA has been weakened in 1.1).\n     ",
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [],
                                             "attributes": {}
                                         },
@@ -91,11 +56,6 @@
                                             "qname": "{http://www.w3.org/1999/xhtml}li",
                                             "text": "2010-06-16 : CMSMcQ : move this catalog into \n      the dev.w3.org directory structure in directory wgMeta.  Change\n      locations of DTD, stylesheet, etc. accordingly.\n     ",
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [],
                                             "attributes": {}
                                         },
@@ -103,11 +63,6 @@
                                             "qname": "{http://www.w3.org/1999/xhtml}li",
                                             "text": "2010-06-10 : CMSMcQ : create this test catalog,\n                               using XHTML modularization driver.\n     ",
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [],
                                             "attributes": {}
                                         }
@@ -137,31 +92,16 @@
                                     "qname": "{http://www.w3.org/1999/xhtml}div",
                                     "text": null,
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/1999/xhtml",
-                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [
                                         {
                                             "qname": "{http://www.w3.org/1999/xhtml}p",
                                             "text": "\n      In section ",
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [
                                                 {
                                                     "qname": "{http://www.w3.org/1999/xhtml}a",
                                                     "text": "G.1.3 Changes to content models",
                                                     "tail": ", XSD 1.1 says\n      (in list item 3):\n     ",
-                                                    "ns_map": {
-                                                        "null": "http://www.w3.org/1999/xhtml",
-                                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                                        "xlink": "http://www.w3.org/1999/xlink"
-                                                    },
                                                     "children": [],
                                                     "attributes": {
                                                         "href": "http://www.w3.org/TR/xmlschema11-1/#ch_models"
@@ -174,21 +114,11 @@
                                             "qname": "{http://www.w3.org/1999/xhtml}blockquote",
                                             "text": null,
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [
                                                 {
                                                     "qname": "{http://www.w3.org/1999/xhtml}p",
                                                     "text": "Finally, the keyword ##definedSibling can be used to exclude\n       all elements explicitly mentioned in a content model (and all\n       elements substitutable for those elements).",
                                                     "tail": null,
-                                                    "ns_map": {
-                                                        "null": "http://www.w3.org/1999/xhtml",
-                                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                                        "xlink": "http://www.w3.org/1999/xlink"
-                                                    },
                                                     "children": [],
                                                     "attributes": {}
                                                 }
@@ -199,21 +129,11 @@
                                             "qname": "{http://www.w3.org/1999/xhtml}p",
                                             "text": "   \n      So we test the following interactions of definedSibling\n      and substitution groups, in schemas with some subset of\n      elements e, s, n, s1, n1, s2, n2, with s1 substitutable \n      ('s') for s, and s2 for s1, but n1 and n2 ",
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [
                                                 {
                                                     "qname": "{http://www.w3.org/1999/xhtml}em",
                                                     "text": "not",
                                                     "tail": "\n      substitutable for n (or anything else).  Elements n and s are\n      siblings, together with a negative wildcard (no positive \n      wildcard is possible) which has the keyword #definedSibling.\n     ",
-                                                    "ns_map": {
-                                                        "null": "http://www.w3.org/1999/xhtml",
-                                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                                        "xlink": "http://www.w3.org/1999/xlink"
-                                                    },
                                                     "children": [],
                                                     "attributes": {}
                                                 }
@@ -224,21 +144,11 @@
                                             "qname": "{http://www.w3.org/1999/xhtml}ol",
                                             "text": null,
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [
                                                 {
                                                     "qname": "{http://www.w3.org/1999/xhtml}li",
                                                     "text": "A negative wildcard excludes s1 but not n1.",
                                                     "tail": null,
-                                                    "ns_map": {
-                                                        "null": "http://www.w3.org/1999/xhtml",
-                                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                                        "xlink": "http://www.w3.org/1999/xlink"
-                                                    },
                                                     "children": [],
                                                     "attributes": {}
                                                 },
@@ -246,11 +156,6 @@
                                                     "qname": "{http://www.w3.org/1999/xhtml}li",
                                                     "text": "A negative wildcard competes with n but not s,\n       but the result is the same in either case, since\n       when elements and wildcards compete, the element\n       wins.",
                                                     "tail": null,
-                                                    "ns_map": {
-                                                        "null": "http://www.w3.org/1999/xhtml",
-                                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                                        "xlink": "http://www.w3.org/1999/xlink"
-                                                    },
                                                     "children": [],
                                                     "attributes": {}
                                                 }
@@ -276,21 +181,11 @@
                                     "qname": "{http://www.w3.org/1999/xhtml}div",
                                     "text": null,
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/1999/xhtml",
-                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [
                                         {
                                             "qname": "{http://www.w3.org/1999/xhtml}p",
                                             "text": "\n      In this test set, we exercise the fact that a\n      negative wildcard excludes s1 but not n1.\n     ",
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [],
                                             "attributes": {}
                                         }
@@ -547,21 +442,11 @@
                                     "qname": "{http://www.w3.org/1999/xhtml}div",
                                     "text": null,
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/1999/xhtml",
-                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [
                                         {
                                             "qname": "{http://www.w3.org/1999/xhtml}p",
                                             "text": "\n      Negative wildcard excludes s1 but not n1.\n      (Second time around).\n     ",
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [],
                                             "attributes": {}
                                         }
@@ -751,21 +636,11 @@
                                     "qname": "{http://www.w3.org/1999/xhtml}div",
                                     "text": null,
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/1999/xhtml",
-                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [
                                         {
                                             "qname": "{http://www.w3.org/1999/xhtml}p",
                                             "text": "A negative wildcard competes with n, but not s.",
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [],
                                             "attributes": {}
                                         },
@@ -773,11 +648,6 @@
                                             "qname": "{http://www.w3.org/1999/xhtml}p",
                                             "text": "But elements outrank wildcards, so there's no conflict \n      in either case.",
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [],
                                             "attributes": {}
                                         },
@@ -785,11 +655,6 @@
                                             "qname": "{http://www.w3.org/1999/xhtml}p",
                                             "text": "This test defines a content model beginning with s, n\n      and continuing with any of (negative-wildcard, a),\n      (s, b), or (n, c).  \n      The instance tests have element sequences beginning\n      with s and n, continuing with one of s1, n1, e,\n      and ending with one of a, b, c.  \n      The sequences with s1 test the processor's handling\n      of the competition between s1 and the negative wildcard.\n      The other tests are present primarily for symmetry.\n     ",
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [],
                                             "attributes": {}
                                         }
@@ -1071,31 +936,16 @@
                                     "qname": "{http://www.w3.org/1999/xhtml}div",
                                     "text": null,
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/1999/xhtml",
-                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [
                                         {
                                             "qname": "{http://www.w3.org/1999/xhtml}p",
                                             "text": "\n      In section ",
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [
                                                 {
                                                     "qname": "{http://www.w3.org/1999/xhtml}a",
                                                     "text": "G.1.9 Element declarations",
                                                     "tail": ", XSD 1.1 says\n      (in list item 3):\n     ",
-                                                    "ns_map": {
-                                                        "null": "http://www.w3.org/1999/xhtml",
-                                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                                        "xlink": "http://www.w3.org/1999/xlink"
-                                                    },
                                                     "children": [],
                                                     "attributes": {
                                                         "href": "http://www.w3.org/TR/xmlschema11-1/#ch_elemdecl"
@@ -1108,21 +958,11 @@
                                             "qname": "{http://www.w3.org/1999/xhtml}blockquote",
                                             "text": null,
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [
                                                 {
                                                     "qname": "{http://www.w3.org/1999/xhtml}p",
                                                     "text": "Abstract elements may now appear in substitution groups.",
                                                     "tail": null,
-                                                    "ns_map": {
-                                                        "null": "http://www.w3.org/1999/xhtml",
-                                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                                        "xlink": "http://www.w3.org/1999/xlink"
-                                                    },
                                                     "children": [],
                                                     "attributes": {}
                                                 }
@@ -1133,21 +973,11 @@
                                             "qname": "{http://www.w3.org/1999/xhtml}p",
                                             "text": "This change was adopted to resolve bug \n      ",
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [
                                                 {
                                                     "qname": "{http://www.w3.org/1999/xhtml}a",
                                                     "text": "4337 \n       Substitution group and abstract",
                                                     "tail": ", which pointed out some\n      uncertainty about whether particular content models did or did\n      not violate the UPA and EDC constraints.",
-                                                    "ns_map": {
-                                                        "null": "http://www.w3.org/1999/xhtml",
-                                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                                        "xlink": "http://www.w3.org/1999/xlink"
-                                                    },
                                                     "children": [],
                                                     "attributes": {
                                                         "href": "http://www.w3.org/Bugs/Public/show_bug.cgi?id=4337"
@@ -1160,11 +990,6 @@
                                             "qname": "{http://www.w3.org/1999/xhtml}p",
                                             "text": "Because no element in a document instance is locally valid\n      against an abstract element declaration, this change does not\n      mean that abstract elements can now be instantiated in a valid\n      instance document.  Instead, the effect is to make clear that\n      abstract element declarations are considered when deciding\n      whether a content model violates constraints defined in terms of\n      elements' substitution groups.\n     ",
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [],
                                             "attributes": {}
                                         },
@@ -1172,11 +997,6 @@
                                             "qname": "{http://www.w3.org/1999/xhtml}p",
                                             "text": "This test group illustrates the violation of the Unique\n      Particle Attribution constraint by a competition between a\n      local element declaration and an abstract global element\n      declaration which is substitutable for another.\n     ",
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [],
                                             "attributes": {}
                                         }
@@ -1332,31 +1152,16 @@
                                     "qname": "{http://www.w3.org/1999/xhtml}div",
                                     "text": null,
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/1999/xhtml",
-                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [
                                         {
                                             "qname": "{http://www.w3.org/1999/xhtml}p",
                                             "text": "For context see test group\n      ",
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [
                                                 {
                                                     "qname": "{http://www.w3.org/1999/xhtml}a",
                                                     "text": "sg-abstract-upa",
                                                     "tail": " above.\n     ",
-                                                    "ns_map": {
-                                                        "null": "http://www.w3.org/1999/xhtml",
-                                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                                        "xlink": "http://www.w3.org/1999/xlink"
-                                                    },
                                                     "children": [],
                                                     "attributes": {
                                                         "href": "#sg-abstact-upa"
@@ -1369,21 +1174,11 @@
                                             "qname": "{http://www.w3.org/1999/xhtml}p",
                                             "text": "Like ",
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [
                                                 {
                                                     "qname": "{http://www.w3.org/1999/xhtml}a",
                                                     "text": "sg-abstract-upa",
                                                     "tail": ",\n      this test group illustrates the violation of the Unique\n      Particle Attribution constraint by a competition between a\n      local element declaration and an abstract global element\n      declaration which is substitutable for another.\n     ",
-                                                    "ns_map": {
-                                                        "null": "http://www.w3.org/1999/xhtml",
-                                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                                        "xlink": "http://www.w3.org/1999/xlink"
-                                                    },
                                                     "children": [],
                                                     "attributes": {
                                                         "href": "#sg-abstact-upa"
@@ -1396,21 +1191,11 @@
                                             "qname": "{http://www.w3.org/1999/xhtml}p",
                                             "text": "In this case, however, the top-level ",
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [
                                                 {
                                                     "qname": "{http://www.w3.org/1999/xhtml}tt",
                                                     "text": "e1",
                                                     "tail": "\n      and the local ",
-                                                    "ns_map": {
-                                                        "null": "http://www.w3.org/1999/xhtml",
-                                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                                        "xlink": "http://www.w3.org/1999/xlink"
-                                                    },
                                                     "children": [],
                                                     "attributes": {}
                                                 },
@@ -1418,11 +1203,6 @@
                                                     "qname": "{http://www.w3.org/1999/xhtml}tt",
                                                     "text": "e1",
                                                     "tail": " have different types.\n      If a 1.0 processor ignores the global ",
-                                                    "ns_map": {
-                                                        "null": "http://www.w3.org/1999/xhtml",
-                                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                                        "xlink": "http://www.w3.org/1999/xlink"
-                                                    },
                                                     "children": [],
                                                     "attributes": {}
                                                 },
@@ -1430,11 +1210,6 @@
                                                     "qname": "{http://www.w3.org/1999/xhtml}tt",
                                                     "text": "e1",
                                                     "tail": " on\n      the grounds that it's not a member of the actual\n      substitution group of ",
-                                                    "ns_map": {
-                                                        "null": "http://www.w3.org/1999/xhtml",
-                                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                                        "xlink": "http://www.w3.org/1999/xlink"
-                                                    },
                                                     "children": [],
                                                     "attributes": {}
                                                 },
@@ -1442,11 +1217,6 @@
                                                     "qname": "{http://www.w3.org/1999/xhtml}tt",
                                                     "text": "e",
                                                     "tail": ", then it will accept\n      this schema, and validate the instances as shown.\n      A 1.1 processor must reject the schema; it violates\n      both UPA and EDC.\n     ",
-                                                    "ns_map": {
-                                                        "null": "http://www.w3.org/1999/xhtml",
-                                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                                        "xlink": "http://www.w3.org/1999/xlink"
-                                                    },
                                                     "children": [],
                                                     "attributes": {}
                                                 }
@@ -1634,31 +1404,16 @@
                                     "qname": "{http://www.w3.org/1999/xhtml}div",
                                     "text": null,
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/1999/xhtml",
-                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                        "xlink": "http://www.w3.org/1999/xlink"
-                                    },
                                     "children": [
                                         {
                                             "qname": "{http://www.w3.org/1999/xhtml}p",
                                             "text": "For context see test group\n      ",
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [
                                                 {
                                                     "qname": "{http://www.w3.org/1999/xhtml}a",
                                                     "text": "sg-abstract-upa",
                                                     "tail": " above.\n     ",
-                                                    "ns_map": {
-                                                        "null": "http://www.w3.org/1999/xhtml",
-                                                        "xs": "http://www.w3.org/2001/XMLSchema",
-                                                        "xlink": "http://www.w3.org/1999/xlink"
-                                                    },
                                                     "children": [],
                                                     "attributes": {
                                                         "href": "#sg-abstact-upa"
@@ -1671,11 +1426,6 @@
                                             "qname": "{http://www.w3.org/1999/xhtml}p",
                                             "text": "The schema in this test group illustrates the violation of\n      the Element Declarations Consistent constraint by an abstract\n      top-level element.  XSD 1.0 processors which treat abstract\n      elements as not part of any actual substitution group will\n      accept the schema and validate the instances accordingly.\n     ",
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [],
                                             "attributes": {}
                                         },
@@ -1683,11 +1433,6 @@
                                             "qname": "{http://www.w3.org/1999/xhtml}p",
                                             "text": "XSD 1.1 processors must reject the schema.",
                                             "tail": null,
-                                            "ns_map": {
-                                                "null": "http://www.w3.org/1999/xhtml",
-                                                "xs": "http://www.w3.org/2001/XMLSchema",
-                                                "xlink": "http://www.w3.org/1999/xlink"
-                                            },
                                             "children": [],
                                             "attributes": {}
                                         }

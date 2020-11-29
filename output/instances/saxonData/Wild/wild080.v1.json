@@ -4,7 +4,6 @@
         "qname": "a",
         "text": "42",
         "tail": null,
-        "ns_map": {},
         "children": [],
         "attributes": {}
     }

@@ -3,10 +3,6 @@
         "qname": "{NISTSchema-SV-IV-atomic-ID-minLength-3-NS}NISTSchema-SV-IV-atomic-ID-minLength-3",
         "text": "_business-oriented.generation-related-industry-browsers_dev",
         "tail": null,
-        "ns_map": {
-            "null": "NISTSchema-SV-IV-atomic-ID-minLength-3-NS",
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
         "children": [],
         "attributes": {}
     }

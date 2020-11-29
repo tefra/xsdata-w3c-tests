@@ -5,15 +5,11 @@
         "qname": null,
         "text": null,
         "tail": null,
-        "ns_map": {},
         "children": [
             {
                 "qname": "c",
                 "text": "12:00:00",
                 "tail": null,
-                "ns_map": {
-                    "d": "http://other.ns/"
-                },
                 "children": [],
                 "attributes": {}
             },
@@ -21,9 +17,6 @@
                 "qname": "{http://other.ns/}d",
                 "text": "banana",
                 "tail": null,
-                "ns_map": {
-                    "d": "http://other.ns/"
-                },
                 "children": [],
                 "attributes": {}
             }

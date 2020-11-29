@@ -1,9 +1,6 @@
-import pytest
-
 from tests.utils import assert_bindings
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_3(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 64.
@@ -17,7 +14,6 @@ def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_4(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 64.
@@ -31,7 +27,6 @@ def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_5(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 64.
@@ -45,7 +40,6 @@ def test_atomic_name_length_4_nistxml_sv_iv_atomic_name_length_5_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_1(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 6.
@@ -59,7 +53,6 @@ def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_2(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 6.
@@ -73,7 +66,6 @@ def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_3(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 6.
@@ -87,7 +79,6 @@ def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_4(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 6.
@@ -101,7 +92,6 @@ def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_5(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 6.
@@ -115,7 +105,6 @@ def test_atomic_name_length_3_nistxml_sv_iv_atomic_name_length_4_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_1(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 60.
@@ -129,7 +118,6 @@ def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_2(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 60.
@@ -143,7 +131,6 @@ def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_3(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 60.
@@ -157,7 +144,6 @@ def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_4(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 60.
@@ -171,7 +157,6 @@ def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_5(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 60.
@@ -185,7 +170,6 @@ def test_atomic_name_length_2_nistxml_sv_iv_atomic_name_length_3_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_1(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 8.
@@ -199,7 +183,6 @@ def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_2(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 8.
@@ -213,7 +196,6 @@ def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_3(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 8.
@@ -227,7 +209,6 @@ def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_4(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 8.
@@ -241,7 +222,6 @@ def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_5(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 8.
@@ -255,7 +235,6 @@ def test_atomic_name_length_1_nistxml_sv_iv_atomic_name_length_2_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_1(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 1.
@@ -269,7 +248,6 @@ def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_2(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 1.
@@ -283,7 +261,6 @@ def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_3(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 1.
@@ -297,7 +274,6 @@ def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_4(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 1.
@@ -311,7 +287,6 @@ def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_5(save_xml):
     """
     Type atomic/Name is restricted by facet length with value 1.
@@ -325,7 +300,6 @@ def test_atomic_name_length_nistxml_sv_iv_atomic_name_length_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_1(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 64.
@@ -339,7 +313,6 @@ def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_2(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 64.
@@ -353,7 +326,6 @@ def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_3(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 64.
@@ -367,7 +339,6 @@ def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_4(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 64.
@@ -381,7 +352,6 @@ def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_5(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 64.
@@ -395,7 +365,6 @@ def test_atomic_name_min_length_4_nistxml_sv_iv_atomic_name_min_length_5_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_1(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 54.
@@ -409,7 +378,6 @@ def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_2(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 54.
@@ -423,7 +391,6 @@ def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_3(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 54.
@@ -437,7 +404,6 @@ def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_4(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 54.
@@ -451,7 +417,6 @@ def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_5(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 54.
@@ -465,7 +430,6 @@ def test_atomic_name_min_length_3_nistxml_sv_iv_atomic_name_min_length_4_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_1(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 28.
@@ -479,7 +443,6 @@ def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_2(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 28.
@@ -493,7 +456,6 @@ def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_3(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 28.
@@ -507,7 +469,6 @@ def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_4(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 28.
@@ -521,7 +482,6 @@ def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_5(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 28.
@@ -535,7 +495,6 @@ def test_atomic_name_min_length_2_nistxml_sv_iv_atomic_name_min_length_3_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_1(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 63.
@@ -549,7 +508,6 @@ def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_2(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 63.
@@ -563,7 +521,6 @@ def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_3(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 63.
@@ -577,7 +534,6 @@ def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_4(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 63.
@@ -591,7 +547,6 @@ def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_5(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 63.
@@ -605,7 +560,6 @@ def test_atomic_name_min_length_1_nistxml_sv_iv_atomic_name_min_length_2_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_1(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 1.
@@ -619,7 +573,6 @@ def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_2(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 1.
@@ -633,7 +586,6 @@ def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_3(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 1.
@@ -647,7 +599,6 @@ def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_4(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 1.
@@ -661,7 +612,6 @@ def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_5(save_xml):
     """
     Type atomic/Name is restricted by facet minLength with value 1.
@@ -675,7 +625,6 @@ def test_atomic_name_min_length_nistxml_sv_iv_atomic_name_min_length_1_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_1(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 64.
@@ -689,7 +638,6 @@ def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_2(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 64.
@@ -703,7 +651,6 @@ def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_3(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 64.
@@ -717,7 +664,6 @@ def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_4(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 64.
@@ -731,7 +677,6 @@ def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_5(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 64.
@@ -745,7 +690,6 @@ def test_atomic_name_max_length_4_nistxml_sv_iv_atomic_name_max_length_5_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_1(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 24.
@@ -759,7 +703,6 @@ def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_2(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 24.
@@ -773,7 +716,6 @@ def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_3(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 24.
@@ -787,7 +729,6 @@ def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_4(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 24.
@@ -801,7 +742,6 @@ def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_5(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 24.
@@ -815,7 +755,6 @@ def test_atomic_name_max_length_3_nistxml_sv_iv_atomic_name_max_length_4_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_1(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 11.
@@ -829,7 +768,6 @@ def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_2(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 11.
@@ -843,7 +781,6 @@ def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_3(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 11.
@@ -857,7 +794,6 @@ def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_4(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 11.
@@ -871,7 +807,6 @@ def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_5(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 11.
@@ -885,7 +820,6 @@ def test_atomic_name_max_length_2_nistxml_sv_iv_atomic_name_max_length_3_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_1(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 2.
@@ -899,7 +833,6 @@ def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_2(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 2.
@@ -913,7 +846,6 @@ def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_3(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 2.
@@ -927,7 +859,6 @@ def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_4(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 2.
@@ -941,7 +872,6 @@ def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_5(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 2.
@@ -955,7 +885,6 @@ def test_atomic_name_max_length_1_nistxml_sv_iv_atomic_name_max_length_2_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_1(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 1.
@@ -969,7 +898,6 @@ def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_2(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 1.
@@ -983,7 +911,6 @@ def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_3(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 1.
@@ -997,7 +924,6 @@ def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_4(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 1.
@@ -1011,7 +937,6 @@ def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_5(save_xml):
     """
     Type atomic/Name is restricted by facet maxLength with value 1.
@@ -1025,7 +950,6 @@ def test_atomic_name_max_length_nistxml_sv_iv_atomic_name_max_length_1_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_1(save_xml):
     """
     Type atomic/token is restricted by facet whiteSpace with value
@@ -1040,7 +964,6 @@ def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_2(save_xml):
     """
     Type atomic/token is restricted by facet whiteSpace with value
@@ -1055,7 +978,6 @@ def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_3(save_xml):
     """
     Type atomic/token is restricted by facet whiteSpace with value
@@ -1070,7 +992,6 @@ def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_4(save_xml):
     """
     Type atomic/token is restricted by facet whiteSpace with value
@@ -1085,7 +1006,6 @@ def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_5(save_xml):
     """
     Type atomic/token is restricted by facet whiteSpace with value
@@ -1100,7 +1020,6 @@ def test_atomic_token_white_space_nistxml_sv_iv_atomic_token_white_space_1_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_1(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1114,7 +1033,6 @@ def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_1(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_2(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1128,7 +1046,6 @@ def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_2(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_3(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1142,7 +1059,6 @@ def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_3(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_4(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1156,7 +1072,6 @@ def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_4(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_5(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1170,7 +1085,6 @@ def test_atomic_token_enumeration_4_nistxml_sv_iv_atomic_token_enumeration_5_5(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_1(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1184,7 +1098,6 @@ def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_1(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_2(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1198,7 +1111,6 @@ def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_2(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_3(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1212,7 +1124,6 @@ def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_3(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_4(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1226,7 +1137,6 @@ def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_4(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_5(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1240,7 +1150,6 @@ def test_atomic_token_enumeration_3_nistxml_sv_iv_atomic_token_enumeration_4_5(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_1(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1254,7 +1163,6 @@ def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_1(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_2(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1268,7 +1176,6 @@ def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_2(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_3(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1282,7 +1189,6 @@ def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_3(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_4(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1296,7 +1202,6 @@ def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_4(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_5(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1310,7 +1215,6 @@ def test_atomic_token_enumeration_2_nistxml_sv_iv_atomic_token_enumeration_3_5(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_1(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1324,7 +1228,6 @@ def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_1(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_2(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1338,7 +1241,6 @@ def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_2(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_3(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1352,7 +1254,6 @@ def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_3(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_4(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1366,7 +1267,6 @@ def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_4(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_5(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1380,7 +1280,6 @@ def test_atomic_token_enumeration_1_nistxml_sv_iv_atomic_token_enumeration_2_5(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_1(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1394,7 +1293,6 @@ def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_2(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1408,7 +1306,6 @@ def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_3(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1422,7 +1319,6 @@ def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_4(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1436,7 +1332,6 @@ def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_5(save_xml):
     """
     Type atomic/token is restricted by facet enumeration.
@@ -1450,7 +1345,6 @@ def test_atomic_token_enumeration_nistxml_sv_iv_atomic_token_enumeration_1_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_1(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1466,7 +1360,6 @@ def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_2(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1482,7 +1375,6 @@ def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_3(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1498,7 +1390,6 @@ def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_4(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1514,7 +1405,6 @@ def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_5(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1530,7 +1420,6 @@ def test_atomic_token_pattern_4_nistxml_sv_iv_atomic_token_pattern_5_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_1(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1546,7 +1435,6 @@ def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_2(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1562,7 +1450,6 @@ def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_3(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1578,7 +1465,6 @@ def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_4(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1594,7 +1480,6 @@ def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_5(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1610,7 +1495,6 @@ def test_atomic_token_pattern_3_nistxml_sv_iv_atomic_token_pattern_4_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_1(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1626,7 +1510,6 @@ def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_2(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1642,7 +1525,6 @@ def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_3(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1658,7 +1540,6 @@ def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_4(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1674,7 +1555,6 @@ def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_5(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1690,7 +1570,6 @@ def test_atomic_token_pattern_2_nistxml_sv_iv_atomic_token_pattern_3_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_1(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1706,7 +1585,6 @@ def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_2(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1722,7 +1600,6 @@ def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_3(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1738,7 +1615,6 @@ def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_4(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1754,7 +1630,6 @@ def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_5(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1770,7 +1645,6 @@ def test_atomic_token_pattern_1_nistxml_sv_iv_atomic_token_pattern_2_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_1(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1786,7 +1660,6 @@ def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_2(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1802,7 +1675,6 @@ def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_3(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1818,7 +1690,6 @@ def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_4(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1834,7 +1705,6 @@ def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_5(save_xml):
     r"""
     Type atomic/token is restricted by facet pattern with value \d{1,5}\s(
@@ -1850,7 +1720,6 @@ def test_atomic_token_pattern_nistxml_sv_iv_atomic_token_pattern_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_1(save_xml):
     """
     Type atomic/token is restricted by facet length with value 1000.
@@ -1864,7 +1733,6 @@ def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_2(save_xml):
     """
     Type atomic/token is restricted by facet length with value 1000.
@@ -1878,7 +1746,6 @@ def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_3(save_xml):
     """
     Type atomic/token is restricted by facet length with value 1000.
@@ -1892,7 +1759,6 @@ def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_4(save_xml):
     """
     Type atomic/token is restricted by facet length with value 1000.
@@ -1906,7 +1772,6 @@ def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_5(save_xml):
     """
     Type atomic/token is restricted by facet length with value 1000.
@@ -1920,7 +1785,6 @@ def test_atomic_token_length_4_nistxml_sv_iv_atomic_token_length_5_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_1(save_xml):
     """
     Type atomic/token is restricted by facet length with value 979.
@@ -1934,7 +1798,6 @@ def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_2(save_xml):
     """
     Type atomic/token is restricted by facet length with value 979.
@@ -1948,7 +1811,6 @@ def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_3(save_xml):
     """
     Type atomic/token is restricted by facet length with value 979.
@@ -1962,7 +1824,6 @@ def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_4(save_xml):
     """
     Type atomic/token is restricted by facet length with value 979.
@@ -1976,7 +1837,6 @@ def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_5(save_xml):
     """
     Type atomic/token is restricted by facet length with value 979.
@@ -1990,7 +1850,6 @@ def test_atomic_token_length_3_nistxml_sv_iv_atomic_token_length_4_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_1(save_xml):
     """
     Type atomic/token is restricted by facet length with value 662.
@@ -2004,7 +1863,6 @@ def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_2(save_xml):
     """
     Type atomic/token is restricted by facet length with value 662.
@@ -2018,7 +1876,6 @@ def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_3(save_xml):
     """
     Type atomic/token is restricted by facet length with value 662.
@@ -2032,7 +1889,6 @@ def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_4(save_xml):
     """
     Type atomic/token is restricted by facet length with value 662.
@@ -2046,7 +1902,6 @@ def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_5(save_xml):
     """
     Type atomic/token is restricted by facet length with value 662.
@@ -2060,7 +1915,6 @@ def test_atomic_token_length_2_nistxml_sv_iv_atomic_token_length_3_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_1(save_xml):
     """
     Type atomic/token is restricted by facet length with value 295.
@@ -2074,7 +1928,6 @@ def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_2(save_xml):
     """
     Type atomic/token is restricted by facet length with value 295.
@@ -2088,7 +1941,6 @@ def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_3(save_xml):
     """
     Type atomic/token is restricted by facet length with value 295.
@@ -2102,7 +1954,6 @@ def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_4(save_xml):
     """
     Type atomic/token is restricted by facet length with value 295.
@@ -2116,7 +1967,6 @@ def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_5(save_xml):
     """
     Type atomic/token is restricted by facet length with value 295.
@@ -2130,7 +1980,6 @@ def test_atomic_token_length_1_nistxml_sv_iv_atomic_token_length_2_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_1(save_xml):
     """
     Type atomic/token is restricted by facet length with value 0.
@@ -2144,7 +1993,6 @@ def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_2(save_xml):
     """
     Type atomic/token is restricted by facet length with value 0.
@@ -2158,7 +2006,6 @@ def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_3(save_xml):
     """
     Type atomic/token is restricted by facet length with value 0.
@@ -2172,7 +2019,6 @@ def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_4(save_xml):
     """
     Type atomic/token is restricted by facet length with value 0.
@@ -2186,7 +2032,6 @@ def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_5(save_xml):
     """
     Type atomic/token is restricted by facet length with value 0.
@@ -2200,7 +2045,6 @@ def test_atomic_token_length_nistxml_sv_iv_atomic_token_length_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_1(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 1000.
@@ -2214,7 +2058,6 @@ def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_2(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 1000.
@@ -2228,7 +2071,6 @@ def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_3(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 1000.
@@ -2242,7 +2084,6 @@ def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_4(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 1000.
@@ -2256,7 +2097,6 @@ def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_5(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 1000.
@@ -2270,7 +2110,6 @@ def test_atomic_token_min_length_4_nistxml_sv_iv_atomic_token_min_length_5_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_1(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 202.
@@ -2284,7 +2123,6 @@ def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_2(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 202.
@@ -2298,7 +2136,6 @@ def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_3(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 202.
@@ -2312,7 +2149,6 @@ def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_4(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 202.
@@ -2326,7 +2162,6 @@ def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_5(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 202.
@@ -2340,7 +2175,6 @@ def test_atomic_token_min_length_3_nistxml_sv_iv_atomic_token_min_length_4_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_1(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 39.
@@ -2354,7 +2188,6 @@ def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_2(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 39.
@@ -2368,7 +2201,6 @@ def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_3(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 39.
@@ -2382,7 +2214,6 @@ def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_4(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 39.
@@ -2396,7 +2227,6 @@ def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_5(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 39.
@@ -2410,7 +2240,6 @@ def test_atomic_token_min_length_2_nistxml_sv_iv_atomic_token_min_length_3_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_1(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 305.
@@ -2424,7 +2253,6 @@ def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_2(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 305.
@@ -2438,7 +2266,6 @@ def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_3(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 305.
@@ -2452,7 +2279,6 @@ def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_4(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 305.
@@ -2466,7 +2292,6 @@ def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_5(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 305.
@@ -2480,7 +2305,6 @@ def test_atomic_token_min_length_1_nistxml_sv_iv_atomic_token_min_length_2_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_1(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 0.
@@ -2494,7 +2318,6 @@ def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_2(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 0.
@@ -2508,7 +2331,6 @@ def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_3(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 0.
@@ -2522,7 +2344,6 @@ def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_4(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 0.
@@ -2536,7 +2357,6 @@ def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_5(save_xml):
     """
     Type atomic/token is restricted by facet minLength with value 0.
@@ -2550,7 +2370,6 @@ def test_atomic_token_min_length_nistxml_sv_iv_atomic_token_min_length_1_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_1(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 1000.
@@ -2564,7 +2383,6 @@ def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_2(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 1000.
@@ -2578,7 +2396,6 @@ def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_3(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 1000.
@@ -2592,7 +2409,6 @@ def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_4(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 1000.
@@ -2606,7 +2422,6 @@ def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_5(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 1000.
@@ -2620,7 +2435,6 @@ def test_atomic_token_max_length_4_nistxml_sv_iv_atomic_token_max_length_5_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_1(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 670.
@@ -2634,7 +2448,6 @@ def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_2(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 670.
@@ -2648,7 +2461,6 @@ def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_3(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 670.
@@ -2662,7 +2474,6 @@ def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_4(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 670.
@@ -2676,7 +2487,6 @@ def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_5(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 670.
@@ -2690,7 +2500,6 @@ def test_atomic_token_max_length_3_nistxml_sv_iv_atomic_token_max_length_4_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_1(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 834.
@@ -2704,7 +2513,6 @@ def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_2(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 834.
@@ -2718,7 +2526,6 @@ def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_3(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 834.
@@ -2732,7 +2539,6 @@ def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_4(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 834.
@@ -2746,7 +2552,6 @@ def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_5(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 834.
@@ -2760,7 +2565,6 @@ def test_atomic_token_max_length_2_nistxml_sv_iv_atomic_token_max_length_3_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_1(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 919.
@@ -2774,7 +2578,6 @@ def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_2(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 919.
@@ -2788,7 +2591,6 @@ def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_3(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 919.
@@ -2802,7 +2604,6 @@ def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_4(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 919.
@@ -2816,7 +2617,6 @@ def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_5(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 919.
@@ -2830,7 +2630,6 @@ def test_atomic_token_max_length_1_nistxml_sv_iv_atomic_token_max_length_2_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_1(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 0.
@@ -2844,7 +2643,6 @@ def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_2(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 0.
@@ -2858,7 +2656,6 @@ def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_3(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 0.
@@ -2872,7 +2669,6 @@ def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_4(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 0.
@@ -2886,7 +2682,6 @@ def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_5(save_xml):
     """
     Type atomic/token is restricted by facet maxLength with value 0.
@@ -2900,7 +2695,6 @@ def test_atomic_token_max_length_nistxml_sv_iv_atomic_token_max_length_1_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_string_white_space_2_1(save_xml):
     """
     Type atomic/normalizedString is restricted by facet whiteSpace with
@@ -2915,7 +2709,6 @@ def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_string_white_space_2_2(save_xml):
     """
     Type atomic/normalizedString is restricted by facet whiteSpace with
@@ -2930,7 +2723,6 @@ def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_string_white_space_2_3(save_xml):
     """
     Type atomic/normalizedString is restricted by facet whiteSpace with
@@ -2945,7 +2737,6 @@ def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_string_white_space_2_4(save_xml):
     """
     Type atomic/normalizedString is restricted by facet whiteSpace with
@@ -2960,7 +2751,6 @@ def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_string_white_space_2_5(save_xml):
     """
     Type atomic/normalizedString is restricted by facet whiteSpace with
@@ -2975,7 +2765,6 @@ def test_atomic_normalized_string_white_space_1_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_string_white_space_1_1(save_xml):
     """
     Type atomic/normalizedString is restricted by facet whiteSpace with
@@ -2990,7 +2779,6 @@ def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_st
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_string_white_space_1_2(save_xml):
     """
     Type atomic/normalizedString is restricted by facet whiteSpace with
@@ -3005,7 +2793,6 @@ def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_st
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_string_white_space_1_3(save_xml):
     """
     Type atomic/normalizedString is restricted by facet whiteSpace with
@@ -3020,7 +2807,6 @@ def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_st
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_string_white_space_1_4(save_xml):
     """
     Type atomic/normalizedString is restricted by facet whiteSpace with
@@ -3035,7 +2821,6 @@ def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_st
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_string_white_space_1_5(save_xml):
     """
     Type atomic/normalizedString is restricted by facet whiteSpace with
@@ -3050,7 +2835,6 @@ def test_atomic_normalized_string_white_space_nistxml_sv_iv_atomic_normalized_st
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_string_enumeration_5_1(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3064,7 +2848,6 @@ def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_string_enumeration_5_2(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3078,7 +2861,6 @@ def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_string_enumeration_5_3(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3092,7 +2874,6 @@ def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_string_enumeration_5_4(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3106,7 +2887,6 @@ def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_string_enumeration_5_5(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3120,7 +2900,6 @@ def test_atomic_normalized_string_enumeration_4_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_string_enumeration_4_1(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3134,7 +2913,6 @@ def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_string_enumeration_4_2(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3148,7 +2926,6 @@ def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_string_enumeration_4_3(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3162,7 +2939,6 @@ def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_string_enumeration_4_4(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3176,7 +2952,6 @@ def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_string_enumeration_4_5(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3190,7 +2965,6 @@ def test_atomic_normalized_string_enumeration_3_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_string_enumeration_3_1(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3204,7 +2978,6 @@ def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_string_enumeration_3_2(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3218,7 +2991,6 @@ def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_string_enumeration_3_3(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3232,7 +3004,6 @@ def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_string_enumeration_3_4(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3246,7 +3017,6 @@ def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_string_enumeration_3_5(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3260,7 +3030,6 @@ def test_atomic_normalized_string_enumeration_2_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_string_enumeration_2_1(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3274,7 +3043,6 @@ def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_string_enumeration_2_2(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3288,7 +3056,6 @@ def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_string_enumeration_2_3(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3302,7 +3069,6 @@ def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_string_enumeration_2_4(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3316,7 +3082,6 @@ def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_string_enumeration_2_5(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3330,7 +3095,6 @@ def test_atomic_normalized_string_enumeration_1_nistxml_sv_iv_atomic_normalized_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_string_enumeration_1_1(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3344,7 +3108,6 @@ def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_st
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_string_enumeration_1_2(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3358,7 +3121,6 @@ def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_st
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_string_enumeration_1_3(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3372,7 +3134,6 @@ def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_st
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_string_enumeration_1_4(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3386,7 +3147,6 @@ def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_st
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_string_enumeration_1_5(save_xml):
     """
     Type atomic/normalizedString is restricted by facet enumeration.
@@ -3400,7 +3160,6 @@ def test_atomic_normalized_string_enumeration_nistxml_sv_iv_atomic_normalized_st
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_string_pattern_5_1(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3416,7 +3175,6 @@ def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_string_pattern_5_2(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3432,7 +3190,6 @@ def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_string_pattern_5_3(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3448,7 +3205,6 @@ def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_string_pattern_5_4(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3464,7 +3220,6 @@ def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_string_pattern_5_5(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3480,7 +3235,6 @@ def test_atomic_normalized_string_pattern_4_nistxml_sv_iv_atomic_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_string_pattern_4_1(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3496,7 +3250,6 @@ def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_string_pattern_4_2(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3512,7 +3265,6 @@ def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_string_pattern_4_3(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3528,7 +3280,6 @@ def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_string_pattern_4_4(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3544,7 +3295,6 @@ def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_string_pattern_4_5(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3560,7 +3310,6 @@ def test_atomic_normalized_string_pattern_3_nistxml_sv_iv_atomic_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_string_pattern_3_1(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3576,7 +3325,6 @@ def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_string_pattern_3_2(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3592,7 +3340,6 @@ def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_string_pattern_3_3(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3608,7 +3355,6 @@ def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_string_pattern_3_4(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3624,7 +3370,6 @@ def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_string_pattern_3_5(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3640,7 +3385,6 @@ def test_atomic_normalized_string_pattern_2_nistxml_sv_iv_atomic_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_string_pattern_2_1(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3656,7 +3400,6 @@ def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_string_pattern_2_2(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3672,7 +3415,6 @@ def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_string_pattern_2_3(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3688,7 +3430,6 @@ def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_string_pattern_2_4(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3704,7 +3445,6 @@ def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_string_pattern_2_5(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3720,7 +3460,6 @@ def test_atomic_normalized_string_pattern_1_nistxml_sv_iv_atomic_normalized_stri
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string_pattern_1_1(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3736,7 +3475,6 @@ def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string_pattern_1_2(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3752,7 +3490,6 @@ def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string_pattern_1_3(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3768,7 +3505,6 @@ def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string_pattern_1_4(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3784,7 +3520,6 @@ def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string_pattern_1_5(save_xml):
     r"""
     Type atomic/normalizedString is restricted by facet pattern with value
@@ -3800,7 +3535,6 @@ def test_atomic_normalized_string_pattern_nistxml_sv_iv_atomic_normalized_string
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_string_length_5_1(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -3815,7 +3549,6 @@ def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_strin
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_string_length_5_2(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -3830,7 +3563,6 @@ def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_strin
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_string_length_5_3(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -3845,7 +3577,6 @@ def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_strin
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_string_length_5_4(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -3860,7 +3591,6 @@ def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_strin
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_string_length_5_5(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -3875,7 +3605,6 @@ def test_atomic_normalized_string_length_4_nistxml_sv_iv_atomic_normalized_strin
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_string_length_4_1(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -3890,7 +3619,6 @@ def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_strin
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_string_length_4_2(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -3905,7 +3633,6 @@ def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_strin
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_string_length_4_3(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -3920,7 +3647,6 @@ def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_strin
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_string_length_4_4(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -3935,7 +3661,6 @@ def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_strin
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_string_length_4_5(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -3950,7 +3675,6 @@ def test_atomic_normalized_string_length_3_nistxml_sv_iv_atomic_normalized_strin
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_string_length_3_1(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -3965,7 +3689,6 @@ def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_strin
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_string_length_3_2(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -3980,7 +3703,6 @@ def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_strin
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_string_length_3_3(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -3995,7 +3717,6 @@ def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_strin
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_string_length_3_4(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -4010,7 +3731,6 @@ def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_strin
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_string_length_3_5(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -4025,7 +3745,6 @@ def test_atomic_normalized_string_length_2_nistxml_sv_iv_atomic_normalized_strin
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_string_length_2_1(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -4040,7 +3759,6 @@ def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_strin
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_string_length_2_2(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -4055,7 +3773,6 @@ def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_strin
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_string_length_2_3(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -4070,7 +3787,6 @@ def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_strin
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_string_length_2_4(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -4085,7 +3801,6 @@ def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_strin
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_string_length_2_5(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -4100,7 +3815,6 @@ def test_atomic_normalized_string_length_1_nistxml_sv_iv_atomic_normalized_strin
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_length_1_1(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -4115,7 +3829,6 @@ def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_length_1_2(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -4130,7 +3843,6 @@ def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_length_1_3(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -4145,7 +3857,6 @@ def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_length_1_4(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -4160,7 +3871,6 @@ def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_length_1_5(save_xml):
     """
     Type atomic/normalizedString is restricted by facet length with value
@@ -4175,7 +3885,6 @@ def test_atomic_normalized_string_length_nistxml_sv_iv_atomic_normalized_string_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_string_min_length_5_1(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4190,7 +3899,6 @@ def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_string_min_length_5_2(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4205,7 +3913,6 @@ def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_string_min_length_5_3(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4220,7 +3927,6 @@ def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_string_min_length_5_4(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4235,7 +3941,6 @@ def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_string_min_length_5_5(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4250,7 +3955,6 @@ def test_atomic_normalized_string_min_length_4_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_string_min_length_4_1(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4265,7 +3969,6 @@ def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_string_min_length_4_2(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4280,7 +3983,6 @@ def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_string_min_length_4_3(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4295,7 +3997,6 @@ def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_string_min_length_4_4(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4310,7 +4011,6 @@ def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_string_min_length_4_5(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4325,7 +4025,6 @@ def test_atomic_normalized_string_min_length_3_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_string_min_length_3_1(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4340,7 +4039,6 @@ def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_string_min_length_3_2(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4355,7 +4053,6 @@ def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_string_min_length_3_3(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4370,7 +4067,6 @@ def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_string_min_length_3_4(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4385,7 +4081,6 @@ def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_string_min_length_3_5(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4400,7 +4095,6 @@ def test_atomic_normalized_string_min_length_2_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_string_min_length_2_1(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4415,7 +4109,6 @@ def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_string_min_length_2_2(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4430,7 +4123,6 @@ def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_string_min_length_2_3(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4445,7 +4137,6 @@ def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_string_min_length_2_4(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4460,7 +4151,6 @@ def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_string_min_length_2_5(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4475,7 +4165,6 @@ def test_atomic_normalized_string_min_length_1_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_string_min_length_1_1(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4490,7 +4179,6 @@ def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_str
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_string_min_length_1_2(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4505,7 +4193,6 @@ def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_str
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_string_min_length_1_3(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4520,7 +4207,6 @@ def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_str
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_string_min_length_1_4(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4535,7 +4221,6 @@ def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_str
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_string_min_length_1_5(save_xml):
     """
     Type atomic/normalizedString is restricted by facet minLength with
@@ -4550,7 +4235,6 @@ def test_atomic_normalized_string_min_length_nistxml_sv_iv_atomic_normalized_str
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_string_max_length_5_1(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4565,7 +4249,6 @@ def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_string_max_length_5_2(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4580,7 +4263,6 @@ def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_string_max_length_5_3(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4595,7 +4277,6 @@ def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_string_max_length_5_4(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4610,7 +4291,6 @@ def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_string_max_length_5_5(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4625,7 +4305,6 @@ def test_atomic_normalized_string_max_length_4_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_string_max_length_4_1(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4640,7 +4319,6 @@ def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_string_max_length_4_2(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4655,7 +4333,6 @@ def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_string_max_length_4_3(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4670,7 +4347,6 @@ def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_string_max_length_4_4(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4685,7 +4361,6 @@ def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_string_max_length_4_5(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4700,7 +4375,6 @@ def test_atomic_normalized_string_max_length_3_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_string_max_length_3_1(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4715,7 +4389,6 @@ def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_string_max_length_3_2(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4730,7 +4403,6 @@ def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_string_max_length_3_3(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4745,7 +4417,6 @@ def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_string_max_length_3_4(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4760,7 +4431,6 @@ def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_string_max_length_3_5(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4775,7 +4445,6 @@ def test_atomic_normalized_string_max_length_2_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_string_max_length_2_1(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4790,7 +4459,6 @@ def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_string_max_length_2_2(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4805,7 +4473,6 @@ def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_string_max_length_2_3(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4820,7 +4487,6 @@ def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_string_max_length_2_4(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4835,7 +4501,6 @@ def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_string_max_length_2_5(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4850,7 +4515,6 @@ def test_atomic_normalized_string_max_length_1_nistxml_sv_iv_atomic_normalized_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_string_max_length_1_1(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4865,7 +4529,6 @@ def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_str
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_string_max_length_1_2(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4880,7 +4543,6 @@ def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_str
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_string_max_length_1_3(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4895,7 +4557,6 @@ def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_str
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_string_max_length_1_4(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4910,7 +4571,6 @@ def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_str
     )
 
 
-@pytest.mark.schema11
 def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_string_max_length_1_5(save_xml):
     """
     Type atomic/normalizedString is restricted by facet maxLength with
@@ -4925,7 +4585,6 @@ def test_atomic_normalized_string_max_length_nistxml_sv_iv_atomic_normalized_str
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_1(save_xml):
     """
     Type atomic/string is restricted by facet whiteSpace with value
@@ -4940,7 +4599,6 @@ def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_1
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_2(save_xml):
     """
     Type atomic/string is restricted by facet whiteSpace with value
@@ -4955,7 +4613,6 @@ def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_3(save_xml):
     """
     Type atomic/string is restricted by facet whiteSpace with value
@@ -4970,7 +4627,6 @@ def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_4(save_xml):
     """
     Type atomic/string is restricted by facet whiteSpace with value
@@ -4985,7 +4641,6 @@ def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_5(save_xml):
     """
     Type atomic/string is restricted by facet whiteSpace with value
@@ -5000,7 +4655,6 @@ def test_atomic_string_white_space_2_nistxml_sv_iv_atomic_string_white_space_3_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_1(save_xml):
     """
     Type atomic/string is restricted by facet whiteSpace with value
@@ -5015,7 +4669,6 @@ def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_1
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_2(save_xml):
     """
     Type atomic/string is restricted by facet whiteSpace with value
@@ -5030,7 +4683,6 @@ def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_3(save_xml):
     """
     Type atomic/string is restricted by facet whiteSpace with value
@@ -5045,7 +4697,6 @@ def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_4(save_xml):
     """
     Type atomic/string is restricted by facet whiteSpace with value
@@ -5060,7 +4711,6 @@ def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_5(save_xml):
     """
     Type atomic/string is restricted by facet whiteSpace with value
@@ -5075,7 +4725,6 @@ def test_atomic_string_white_space_1_nistxml_sv_iv_atomic_string_white_space_2_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_1(save_xml):
     """
     Type atomic/string is restricted by facet whiteSpace with value
@@ -5090,7 +4739,6 @@ def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_1(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_2(save_xml):
     """
     Type atomic/string is restricted by facet whiteSpace with value
@@ -5105,7 +4753,6 @@ def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_2(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_3(save_xml):
     """
     Type atomic/string is restricted by facet whiteSpace with value
@@ -5120,7 +4767,6 @@ def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_3(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_4(save_xml):
     """
     Type atomic/string is restricted by facet whiteSpace with value
@@ -5135,7 +4781,6 @@ def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_4(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_5(save_xml):
     """
     Type atomic/string is restricted by facet whiteSpace with value
@@ -5150,7 +4795,6 @@ def test_atomic_string_white_space_nistxml_sv_iv_atomic_string_white_space_1_5(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_1(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5164,7 +4808,6 @@ def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_1
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_2(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5178,7 +4821,6 @@ def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_3(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5192,7 +4834,6 @@ def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_4(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5206,7 +4847,6 @@ def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_5(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5220,7 +4860,6 @@ def test_atomic_string_enumeration_4_nistxml_sv_iv_atomic_string_enumeration_5_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_1(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5234,7 +4873,6 @@ def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_1
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_2(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5248,7 +4886,6 @@ def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_3(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5262,7 +4899,6 @@ def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_4(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5276,7 +4912,6 @@ def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_5(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5290,7 +4925,6 @@ def test_atomic_string_enumeration_3_nistxml_sv_iv_atomic_string_enumeration_4_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_1(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5304,7 +4938,6 @@ def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_1
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_2(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5318,7 +4951,6 @@ def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_3(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5332,7 +4964,6 @@ def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_4(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5346,7 +4977,6 @@ def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_5(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5360,7 +4990,6 @@ def test_atomic_string_enumeration_2_nistxml_sv_iv_atomic_string_enumeration_3_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_1(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5374,7 +5003,6 @@ def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_1
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_2(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5388,7 +5016,6 @@ def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_3(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5402,7 +5029,6 @@ def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_4(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5416,7 +5042,6 @@ def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_5(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5430,7 +5055,6 @@ def test_atomic_string_enumeration_1_nistxml_sv_iv_atomic_string_enumeration_2_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_1(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5444,7 +5068,6 @@ def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_1(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_2(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5458,7 +5081,6 @@ def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_2(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_3(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5472,7 +5094,6 @@ def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_3(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_4(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5486,7 +5107,6 @@ def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_4(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_5(save_xml):
     """
     Type atomic/string is restricted by facet enumeration.
@@ -5500,7 +5120,6 @@ def test_atomic_string_enumeration_nistxml_sv_iv_atomic_string_enumeration_1_5(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_1(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5516,7 +5135,6 @@ def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_2(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5532,7 +5150,6 @@ def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_3(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5548,7 +5165,6 @@ def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_4(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5564,7 +5180,6 @@ def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_5(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5580,7 +5195,6 @@ def test_atomic_string_pattern_4_nistxml_sv_iv_atomic_string_pattern_5_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_1(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5596,7 +5210,6 @@ def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_2(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5612,7 +5225,6 @@ def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_3(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5628,7 +5240,6 @@ def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_4(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5644,7 +5255,6 @@ def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_5(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5660,7 +5270,6 @@ def test_atomic_string_pattern_3_nistxml_sv_iv_atomic_string_pattern_4_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_1(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5676,7 +5285,6 @@ def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_2(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5692,7 +5300,6 @@ def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_3(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5708,7 +5315,6 @@ def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_4(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5724,7 +5330,6 @@ def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_5(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5740,7 +5345,6 @@ def test_atomic_string_pattern_2_nistxml_sv_iv_atomic_string_pattern_3_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_1(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5756,7 +5360,6 @@ def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_2(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5772,7 +5375,6 @@ def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_3(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5788,7 +5390,6 @@ def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_4(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5804,7 +5405,6 @@ def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_5(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5820,7 +5420,6 @@ def test_atomic_string_pattern_1_nistxml_sv_iv_atomic_string_pattern_2_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_1(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5836,7 +5435,6 @@ def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_2(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5852,7 +5450,6 @@ def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_3(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5868,7 +5465,6 @@ def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_4(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5884,7 +5480,6 @@ def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_5(save_xml):
     r"""
     Type atomic/string is restricted by facet pattern with value \d{1,5}\s
@@ -5900,7 +5495,6 @@ def test_atomic_string_pattern_nistxml_sv_iv_atomic_string_pattern_1_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_1(save_xml):
     """
     Type atomic/string is restricted by facet length with value 1000.
@@ -5914,7 +5508,6 @@ def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_2(save_xml):
     """
     Type atomic/string is restricted by facet length with value 1000.
@@ -5928,7 +5521,6 @@ def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_3(save_xml):
     """
     Type atomic/string is restricted by facet length with value 1000.
@@ -5942,7 +5534,6 @@ def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_4(save_xml):
     """
     Type atomic/string is restricted by facet length with value 1000.
@@ -5956,7 +5547,6 @@ def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_5(save_xml):
     """
     Type atomic/string is restricted by facet length with value 1000.
@@ -5970,7 +5560,6 @@ def test_atomic_string_length_4_nistxml_sv_iv_atomic_string_length_5_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_1(save_xml):
     """
     Type atomic/string is restricted by facet length with value 243.
@@ -5984,7 +5573,6 @@ def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_2(save_xml):
     """
     Type atomic/string is restricted by facet length with value 243.
@@ -5998,7 +5586,6 @@ def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_3(save_xml):
     """
     Type atomic/string is restricted by facet length with value 243.
@@ -6012,7 +5599,6 @@ def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_4(save_xml):
     """
     Type atomic/string is restricted by facet length with value 243.
@@ -6026,7 +5612,6 @@ def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_5(save_xml):
     """
     Type atomic/string is restricted by facet length with value 243.
@@ -6040,7 +5625,6 @@ def test_atomic_string_length_3_nistxml_sv_iv_atomic_string_length_4_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_1(save_xml):
     """
     Type atomic/string is restricted by facet length with value 713.
@@ -6054,7 +5638,6 @@ def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_2(save_xml):
     """
     Type atomic/string is restricted by facet length with value 713.
@@ -6068,7 +5651,6 @@ def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_3(save_xml):
     """
     Type atomic/string is restricted by facet length with value 713.
@@ -6082,7 +5664,6 @@ def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_4(save_xml):
     """
     Type atomic/string is restricted by facet length with value 713.
@@ -6096,7 +5677,6 @@ def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_5(save_xml):
     """
     Type atomic/string is restricted by facet length with value 713.
@@ -6110,7 +5690,6 @@ def test_atomic_string_length_2_nistxml_sv_iv_atomic_string_length_3_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_1(save_xml):
     """
     Type atomic/string is restricted by facet length with value 925.
@@ -6124,7 +5703,6 @@ def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_2(save_xml):
     """
     Type atomic/string is restricted by facet length with value 925.
@@ -6138,7 +5716,6 @@ def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_3(save_xml):
     """
     Type atomic/string is restricted by facet length with value 925.
@@ -6152,7 +5729,6 @@ def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_4(save_xml):
     """
     Type atomic/string is restricted by facet length with value 925.
@@ -6166,7 +5742,6 @@ def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_5(save_xml):
     """
     Type atomic/string is restricted by facet length with value 925.
@@ -6180,7 +5755,6 @@ def test_atomic_string_length_1_nistxml_sv_iv_atomic_string_length_2_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_1(save_xml):
     """
     Type atomic/string is restricted by facet length with value 0.
@@ -6194,7 +5768,6 @@ def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_2(save_xml):
     """
     Type atomic/string is restricted by facet length with value 0.
@@ -6208,7 +5781,6 @@ def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_3(save_xml):
     """
     Type atomic/string is restricted by facet length with value 0.
@@ -6222,7 +5794,6 @@ def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_4(save_xml):
     """
     Type atomic/string is restricted by facet length with value 0.
@@ -6236,7 +5807,6 @@ def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_5(save_xml):
     """
     Type atomic/string is restricted by facet length with value 0.
@@ -6250,7 +5820,6 @@ def test_atomic_string_length_nistxml_sv_iv_atomic_string_length_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_1(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 1000.
@@ -6264,7 +5833,6 @@ def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_1(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_2(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 1000.
@@ -6278,7 +5846,6 @@ def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_2(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_3(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 1000.
@@ -6292,7 +5859,6 @@ def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_3(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_4(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 1000.
@@ -6306,7 +5872,6 @@ def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_4(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_5(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 1000.
@@ -6320,7 +5885,6 @@ def test_atomic_string_min_length_4_nistxml_sv_iv_atomic_string_min_length_5_5(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_1(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 946.
@@ -6334,7 +5898,6 @@ def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_1(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_2(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 946.
@@ -6348,7 +5911,6 @@ def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_2(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_3(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 946.
@@ -6362,7 +5924,6 @@ def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_3(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_4(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 946.
@@ -6376,7 +5937,6 @@ def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_4(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_5(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 946.
@@ -6390,7 +5950,6 @@ def test_atomic_string_min_length_3_nistxml_sv_iv_atomic_string_min_length_4_5(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_1(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 90.
@@ -6404,7 +5963,6 @@ def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_1(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_2(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 90.
@@ -6418,7 +5976,6 @@ def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_2(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_3(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 90.
@@ -6432,7 +5989,6 @@ def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_3(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_4(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 90.
@@ -6446,7 +6002,6 @@ def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_4(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_5(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 90.
@@ -6460,7 +6015,6 @@ def test_atomic_string_min_length_2_nistxml_sv_iv_atomic_string_min_length_3_5(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_1(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 657.
@@ -6474,7 +6028,6 @@ def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_1(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_2(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 657.
@@ -6488,7 +6041,6 @@ def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_2(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_3(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 657.
@@ -6502,7 +6054,6 @@ def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_3(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_4(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 657.
@@ -6516,7 +6067,6 @@ def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_4(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_5(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 657.
@@ -6530,7 +6080,6 @@ def test_atomic_string_min_length_1_nistxml_sv_iv_atomic_string_min_length_2_5(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_1(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 0.
@@ -6544,7 +6093,6 @@ def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_2(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 0.
@@ -6558,7 +6106,6 @@ def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_3(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 0.
@@ -6572,7 +6119,6 @@ def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_4(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 0.
@@ -6586,7 +6132,6 @@ def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_5(save_xml):
     """
     Type atomic/string is restricted by facet minLength with value 0.
@@ -6600,7 +6145,6 @@ def test_atomic_string_min_length_nistxml_sv_iv_atomic_string_min_length_1_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_1(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 1000.
@@ -6614,7 +6158,6 @@ def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_1(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_2(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 1000.
@@ -6628,7 +6171,6 @@ def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_2(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_3(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 1000.
@@ -6642,7 +6184,6 @@ def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_3(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_4(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 1000.
@@ -6656,7 +6197,6 @@ def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_4(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_5(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 1000.
@@ -6670,7 +6210,6 @@ def test_atomic_string_max_length_4_nistxml_sv_iv_atomic_string_max_length_5_5(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_1(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 205.
@@ -6684,7 +6223,6 @@ def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_1(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_2(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 205.
@@ -6698,7 +6236,6 @@ def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_2(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_3(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 205.
@@ -6712,7 +6249,6 @@ def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_3(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_4(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 205.
@@ -6726,7 +6262,6 @@ def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_4(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_5(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 205.
@@ -6740,7 +6275,6 @@ def test_atomic_string_max_length_3_nistxml_sv_iv_atomic_string_max_length_4_5(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_1(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 913.
@@ -6754,7 +6288,6 @@ def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_1(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_2(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 913.
@@ -6768,7 +6301,6 @@ def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_2(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_3(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 913.
@@ -6782,7 +6314,6 @@ def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_3(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_4(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 913.
@@ -6796,7 +6327,6 @@ def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_4(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_5(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 913.
@@ -6810,7 +6340,6 @@ def test_atomic_string_max_length_2_nistxml_sv_iv_atomic_string_max_length_3_5(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_1(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 969.
@@ -6824,7 +6353,6 @@ def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_1(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_2(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 969.
@@ -6838,7 +6366,6 @@ def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_2(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_3(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 969.
@@ -6852,7 +6379,6 @@ def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_3(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_4(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 969.
@@ -6866,7 +6392,6 @@ def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_4(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_5(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 969.
@@ -6880,7 +6405,6 @@ def test_atomic_string_max_length_1_nistxml_sv_iv_atomic_string_max_length_2_5(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_1(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 0.
@@ -6894,7 +6418,6 @@ def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_2(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 0.
@@ -6908,7 +6431,6 @@ def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_3(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 0.
@@ -6922,7 +6444,6 @@ def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_4(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 0.
@@ -6936,7 +6457,6 @@ def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_5(save_xml):
     """
     Type atomic/string is restricted by facet maxLength with value 0.
@@ -6950,7 +6470,6 @@ def test_atomic_string_max_length_nistxml_sv_iv_atomic_string_max_length_1_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet whiteSpace with value
@@ -6965,7 +6484,6 @@ def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_1
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet whiteSpace with value
@@ -6980,7 +6498,6 @@ def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet whiteSpace with value
@@ -6995,7 +6512,6 @@ def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet whiteSpace with value
@@ -7010,7 +6526,6 @@ def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet whiteSpace with value
@@ -7025,7 +6540,6 @@ def test_atomic_g_month_white_space_nistxml_sv_iv_atomic_g_month_white_space_1_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7039,7 +6553,6 @@ def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7053,7 +6566,6 @@ def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7067,7 +6579,6 @@ def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7081,7 +6592,6 @@ def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7095,7 +6605,6 @@ def test_atomic_g_month_enumeration_4_nistxml_sv_iv_atomic_g_month_enumeration_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7109,7 +6618,6 @@ def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7123,7 +6631,6 @@ def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7137,7 +6644,6 @@ def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7151,7 +6657,6 @@ def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7165,7 +6670,6 @@ def test_atomic_g_month_enumeration_3_nistxml_sv_iv_atomic_g_month_enumeration_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7179,7 +6683,6 @@ def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7193,7 +6696,6 @@ def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7207,7 +6709,6 @@ def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7221,7 +6722,6 @@ def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7235,7 +6735,6 @@ def test_atomic_g_month_enumeration_2_nistxml_sv_iv_atomic_g_month_enumeration_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7249,7 +6748,6 @@ def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7263,7 +6761,6 @@ def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7277,7 +6774,6 @@ def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7291,7 +6787,6 @@ def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7305,7 +6800,6 @@ def test_atomic_g_month_enumeration_1_nistxml_sv_iv_atomic_g_month_enumeration_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7319,7 +6813,6 @@ def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_1
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7333,7 +6826,6 @@ def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7347,7 +6839,6 @@ def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7361,7 +6852,6 @@ def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet enumeration.
@@ -7375,7 +6865,6 @@ def test_atomic_g_month_enumeration_nistxml_sv_iv_atomic_g_month_enumeration_1_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_1(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --0\d.
@@ -7389,7 +6878,6 @@ def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_2(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --0\d.
@@ -7403,7 +6891,6 @@ def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_3(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --0\d.
@@ -7417,7 +6904,6 @@ def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_4(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --0\d.
@@ -7431,7 +6917,6 @@ def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_5(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --0\d.
@@ -7445,7 +6930,6 @@ def test_atomic_g_month_pattern_4_nistxml_sv_iv_atomic_g_month_pattern_5_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_1(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d6.
@@ -7459,7 +6943,6 @@ def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_2(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d6.
@@ -7473,7 +6956,6 @@ def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_3(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d6.
@@ -7487,7 +6969,6 @@ def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_4(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d6.
@@ -7501,7 +6982,6 @@ def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_5(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d6.
@@ -7515,7 +6995,6 @@ def test_atomic_g_month_pattern_3_nistxml_sv_iv_atomic_g_month_pattern_4_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_1(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d9.
@@ -7529,7 +7008,6 @@ def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_2(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d9.
@@ -7543,7 +7021,6 @@ def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_3(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d9.
@@ -7557,7 +7034,6 @@ def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_4(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d9.
@@ -7571,7 +7047,6 @@ def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_5(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d9.
@@ -7585,7 +7060,6 @@ def test_atomic_g_month_pattern_2_nistxml_sv_iv_atomic_g_month_pattern_3_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_1(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d2.
@@ -7599,7 +7073,6 @@ def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_1(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_2(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d2.
@@ -7613,7 +7086,6 @@ def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_2(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_3(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d2.
@@ -7627,7 +7099,6 @@ def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_3(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_4(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d2.
@@ -7641,7 +7112,6 @@ def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_4(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_5(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --\d2.
@@ -7655,7 +7125,6 @@ def test_atomic_g_month_pattern_1_nistxml_sv_iv_atomic_g_month_pattern_2_5(save_
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_1(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --1\d.
@@ -7669,7 +7138,6 @@ def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_2(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --1\d.
@@ -7683,7 +7151,6 @@ def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_3(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --1\d.
@@ -7697,7 +7164,6 @@ def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_4(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --1\d.
@@ -7711,7 +7177,6 @@ def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_5(save_xml):
     r"""
     Type atomic/gMonth is restricted by facet pattern with value --1\d.
@@ -7725,7 +7190,6 @@ def test_atomic_g_month_pattern_nistxml_sv_iv_atomic_g_month_pattern_1_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusive_5_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -7740,7 +7204,6 @@ def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusive_5_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -7755,7 +7218,6 @@ def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusive_5_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -7770,7 +7232,6 @@ def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusive_5_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -7785,7 +7246,6 @@ def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusive_5_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -7800,7 +7260,6 @@ def test_atomic_g_month_max_inclusive_4_nistxml_sv_iv_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusive_4_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -7815,7 +7274,6 @@ def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusive_4_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -7830,7 +7288,6 @@ def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusive_4_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -7845,7 +7302,6 @@ def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusive_4_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -7860,7 +7316,6 @@ def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusive_4_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -7875,7 +7330,6 @@ def test_atomic_g_month_max_inclusive_3_nistxml_sv_iv_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusive_3_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -7890,7 +7344,6 @@ def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusive_3_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -7905,7 +7358,6 @@ def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusive_3_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -7920,7 +7372,6 @@ def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusive_3_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -7935,7 +7386,6 @@ def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusive_3_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -7950,7 +7400,6 @@ def test_atomic_g_month_max_inclusive_2_nistxml_sv_iv_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusive_2_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -7965,7 +7414,6 @@ def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusive_2_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -7980,7 +7428,6 @@ def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusive_2_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -7995,7 +7442,6 @@ def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusive_2_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -8010,7 +7456,6 @@ def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusive_2_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -8025,7 +7470,6 @@ def test_atomic_g_month_max_inclusive_1_nistxml_sv_iv_atomic_g_month_max_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_inclusive_nistxml_sv_iv_atomic_g_month_max_inclusive_1_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxInclusive with value
@@ -8040,7 +7484,6 @@ def test_atomic_g_month_max_inclusive_nistxml_sv_iv_atomic_g_month_max_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusive_5_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
@@ -8055,7 +7498,6 @@ def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusive_5_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
@@ -8070,7 +7512,6 @@ def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusive_5_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
@@ -8085,7 +7526,6 @@ def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusive_5_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
@@ -8100,7 +7540,6 @@ def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusive_5_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
@@ -8115,7 +7554,6 @@ def test_atomic_g_month_max_exclusive_4_nistxml_sv_iv_atomic_g_month_max_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusive_4_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
@@ -8130,7 +7568,6 @@ def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusive_4_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
@@ -8145,7 +7582,6 @@ def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusive_4_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
@@ -8160,7 +7596,6 @@ def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusive_4_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
@@ -8175,7 +7610,6 @@ def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusive_4_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
@@ -8190,7 +7624,6 @@ def test_atomic_g_month_max_exclusive_3_nistxml_sv_iv_atomic_g_month_max_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusive_3_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
@@ -8205,7 +7638,6 @@ def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusive_3_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
@@ -8220,7 +7652,6 @@ def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusive_3_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
@@ -8235,7 +7666,6 @@ def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusive_3_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
@@ -8250,7 +7680,6 @@ def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusive_3_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
@@ -8265,7 +7694,6 @@ def test_atomic_g_month_max_exclusive_2_nistxml_sv_iv_atomic_g_month_max_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_exclusive_1_nistxml_sv_iv_atomic_g_month_max_exclusive_2_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
@@ -8280,7 +7708,6 @@ def test_atomic_g_month_max_exclusive_1_nistxml_sv_iv_atomic_g_month_max_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_max_exclusive_nistxml_sv_iv_atomic_g_month_max_exclusive_1_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet maxExclusive with value
@@ -8295,7 +7722,6 @@ def test_atomic_g_month_max_exclusive_nistxml_sv_iv_atomic_g_month_max_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_4_nistxml_sv_iv_atomic_g_month_min_inclusive_5_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -8310,7 +7736,6 @@ def test_atomic_g_month_min_inclusive_4_nistxml_sv_iv_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusive_4_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -8325,7 +7750,6 @@ def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusive_4_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -8340,7 +7764,6 @@ def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusive_4_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -8355,7 +7778,6 @@ def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusive_4_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -8370,7 +7792,6 @@ def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusive_4_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -8385,7 +7806,6 @@ def test_atomic_g_month_min_inclusive_3_nistxml_sv_iv_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusive_3_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -8400,7 +7820,6 @@ def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusive_3_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -8415,7 +7834,6 @@ def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusive_3_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -8430,7 +7848,6 @@ def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusive_3_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -8445,7 +7862,6 @@ def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusive_3_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -8460,7 +7876,6 @@ def test_atomic_g_month_min_inclusive_2_nistxml_sv_iv_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusive_2_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -8475,7 +7890,6 @@ def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusive_2_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -8490,7 +7904,6 @@ def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusive_2_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -8505,7 +7918,6 @@ def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusive_2_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -8520,7 +7932,6 @@ def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusive_2_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -8535,7 +7946,6 @@ def test_atomic_g_month_min_inclusive_1_nistxml_sv_iv_atomic_g_month_min_inclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive_1_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -8550,7 +7960,6 @@ def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive_1_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -8565,7 +7974,6 @@ def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive_1_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -8580,7 +7988,6 @@ def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive_1_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -8595,7 +8002,6 @@ def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive_1_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet minInclusive with value
@@ -8610,7 +8016,6 @@ def test_atomic_g_month_min_inclusive_nistxml_sv_iv_atomic_g_month_min_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_exclusive_4_nistxml_sv_iv_atomic_g_month_min_exclusive_5_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
@@ -8625,7 +8030,6 @@ def test_atomic_g_month_min_exclusive_4_nistxml_sv_iv_atomic_g_month_min_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusive_4_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
@@ -8640,7 +8044,6 @@ def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusive_4_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
@@ -8655,7 +8058,6 @@ def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusive_4_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
@@ -8670,7 +8072,6 @@ def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusive_4_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
@@ -8685,7 +8086,6 @@ def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusive_4_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
@@ -8700,7 +8100,6 @@ def test_atomic_g_month_min_exclusive_3_nistxml_sv_iv_atomic_g_month_min_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusive_3_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
@@ -8715,7 +8114,6 @@ def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusive_3_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
@@ -8730,7 +8128,6 @@ def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusive_3_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
@@ -8745,7 +8142,6 @@ def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusive_3_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
@@ -8760,7 +8156,6 @@ def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusive_3_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
@@ -8775,7 +8170,6 @@ def test_atomic_g_month_min_exclusive_2_nistxml_sv_iv_atomic_g_month_min_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusive_2_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
@@ -8790,7 +8184,6 @@ def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusive_2_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
@@ -8805,7 +8198,6 @@ def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusive_2_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
@@ -8820,7 +8212,6 @@ def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusive_2_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
@@ -8835,7 +8226,6 @@ def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusive_2_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
@@ -8850,7 +8240,6 @@ def test_atomic_g_month_min_exclusive_1_nistxml_sv_iv_atomic_g_month_min_exclusi
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive_1_1(save_xml):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
@@ -8865,7 +8254,6 @@ def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive_1_2(save_xml):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
@@ -8880,7 +8268,6 @@ def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive_1_3(save_xml):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
@@ -8895,7 +8282,6 @@ def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive_1_4(save_xml):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
@@ -8910,7 +8296,6 @@ def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive_1_5(save_xml):
     """
     Type atomic/gMonth is restricted by facet minExclusive with value
@@ -8925,7 +8310,6 @@ def test_atomic_g_month_min_exclusive_nistxml_sv_iv_atomic_g_month_min_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_1(save_xml):
     """
     Type atomic/gDay is restricted by facet whiteSpace with value
@@ -8940,7 +8324,6 @@ def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_2(save_xml):
     """
     Type atomic/gDay is restricted by facet whiteSpace with value
@@ -8955,7 +8338,6 @@ def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_3(save_xml):
     """
     Type atomic/gDay is restricted by facet whiteSpace with value
@@ -8970,7 +8352,6 @@ def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_4(save_xml):
     """
     Type atomic/gDay is restricted by facet whiteSpace with value
@@ -8985,7 +8366,6 @@ def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_5(save_xml):
     """
     Type atomic/gDay is restricted by facet whiteSpace with value
@@ -9000,7 +8380,6 @@ def test_atomic_g_day_white_space_nistxml_sv_iv_atomic_g_day_white_space_1_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_1(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9014,7 +8393,6 @@ def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_1(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_2(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9028,7 +8406,6 @@ def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_2(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_3(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9042,7 +8419,6 @@ def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_3(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_4(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9056,7 +8432,6 @@ def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_4(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_5(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9070,7 +8445,6 @@ def test_atomic_g_day_enumeration_4_nistxml_sv_iv_atomic_g_day_enumeration_5_5(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_1(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9084,7 +8458,6 @@ def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_1(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_2(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9098,7 +8471,6 @@ def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_2(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_3(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9112,7 +8484,6 @@ def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_3(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_4(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9126,7 +8497,6 @@ def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_4(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_5(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9140,7 +8510,6 @@ def test_atomic_g_day_enumeration_3_nistxml_sv_iv_atomic_g_day_enumeration_4_5(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_1(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9154,7 +8523,6 @@ def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_1(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_2(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9168,7 +8536,6 @@ def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_2(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_3(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9182,7 +8549,6 @@ def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_3(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_4(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9196,7 +8562,6 @@ def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_4(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_5(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9210,7 +8575,6 @@ def test_atomic_g_day_enumeration_2_nistxml_sv_iv_atomic_g_day_enumeration_3_5(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_1(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9224,7 +8588,6 @@ def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_1(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_2(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9238,7 +8601,6 @@ def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_2(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_3(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9252,7 +8614,6 @@ def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_3(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_4(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9266,7 +8627,6 @@ def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_4(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_5(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9280,7 +8640,6 @@ def test_atomic_g_day_enumeration_1_nistxml_sv_iv_atomic_g_day_enumeration_2_5(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_1(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9294,7 +8653,6 @@ def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_1(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_2(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9308,7 +8666,6 @@ def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_2(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_3(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9322,7 +8679,6 @@ def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_3(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_4(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9336,7 +8692,6 @@ def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_4(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_5(save_xml):
     """
     Type atomic/gDay is restricted by facet enumeration.
@@ -9350,7 +8705,6 @@ def test_atomic_g_day_enumeration_nistxml_sv_iv_atomic_g_day_enumeration_1_5(sav
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_1(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---1\d.
@@ -9364,7 +8718,6 @@ def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_2(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---1\d.
@@ -9378,7 +8731,6 @@ def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_3(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---1\d.
@@ -9392,7 +8744,6 @@ def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_4(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---1\d.
@@ -9406,7 +8757,6 @@ def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_5(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---1\d.
@@ -9420,7 +8770,6 @@ def test_atomic_g_day_pattern_4_nistxml_sv_iv_atomic_g_day_pattern_5_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_1(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d2.
@@ -9434,7 +8783,6 @@ def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_2(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d2.
@@ -9448,7 +8796,6 @@ def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_3(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d2.
@@ -9462,7 +8809,6 @@ def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_4(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d2.
@@ -9476,7 +8822,6 @@ def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_5(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d2.
@@ -9490,7 +8835,6 @@ def test_atomic_g_day_pattern_3_nistxml_sv_iv_atomic_g_day_pattern_4_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_1(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---0\d.
@@ -9504,7 +8848,6 @@ def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_2(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---0\d.
@@ -9518,7 +8861,6 @@ def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_3(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---0\d.
@@ -9532,7 +8874,6 @@ def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_4(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---0\d.
@@ -9546,7 +8887,6 @@ def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_5(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---0\d.
@@ -9560,7 +8900,6 @@ def test_atomic_g_day_pattern_2_nistxml_sv_iv_atomic_g_day_pattern_3_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_1(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d5.
@@ -9574,7 +8913,6 @@ def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_2(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d5.
@@ -9588,7 +8926,6 @@ def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_3(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d5.
@@ -9602,7 +8939,6 @@ def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_4(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d5.
@@ -9616,7 +8952,6 @@ def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_5(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d5.
@@ -9630,7 +8965,6 @@ def test_atomic_g_day_pattern_1_nistxml_sv_iv_atomic_g_day_pattern_2_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_1(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d5.
@@ -9644,7 +8978,6 @@ def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_1(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_2(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d5.
@@ -9658,7 +8991,6 @@ def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_2(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_3(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d5.
@@ -9672,7 +9004,6 @@ def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_3(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_4(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d5.
@@ -9686,7 +9017,6 @@ def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_4(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_5(save_xml):
     r"""
     Type atomic/gDay is restricted by facet pattern with value ---\d5.
@@ -9700,7 +9030,6 @@ def test_atomic_g_day_pattern_nistxml_sv_iv_atomic_g_day_pattern_1_5(save_xml):
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5_1(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---31.
@@ -9714,7 +9043,6 @@ def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5_2(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---31.
@@ -9728,7 +9056,6 @@ def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5_3(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---31.
@@ -9742,7 +9069,6 @@ def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5_4(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---31.
@@ -9756,7 +9082,6 @@ def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5_5(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---31.
@@ -9770,7 +9095,6 @@ def test_atomic_g_day_max_inclusive_4_nistxml_sv_iv_atomic_g_day_max_inclusive_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4_1(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---10.
@@ -9784,7 +9108,6 @@ def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4_2(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---10.
@@ -9798,7 +9121,6 @@ def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4_3(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---10.
@@ -9812,7 +9134,6 @@ def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4_4(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---10.
@@ -9826,7 +9147,6 @@ def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4_5(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---10.
@@ -9840,7 +9160,6 @@ def test_atomic_g_day_max_inclusive_3_nistxml_sv_iv_atomic_g_day_max_inclusive_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_2_nistxml_sv_iv_atomic_g_day_max_inclusive_3_1(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---01.
@@ -9854,7 +9173,6 @@ def test_atomic_g_day_max_inclusive_2_nistxml_sv_iv_atomic_g_day_max_inclusive_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2_1(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---07.
@@ -9868,7 +9186,6 @@ def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2_2(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---07.
@@ -9882,7 +9199,6 @@ def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2_3(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---07.
@@ -9896,7 +9212,6 @@ def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2_4(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---07.
@@ -9910,7 +9225,6 @@ def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2_5(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---07.
@@ -9924,7 +9238,6 @@ def test_atomic_g_day_max_inclusive_1_nistxml_sv_iv_atomic_g_day_max_inclusive_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_inclusive_nistxml_sv_iv_atomic_g_day_max_inclusive_1_1(save_xml):
     """
     Type atomic/gDay is restricted by facet maxInclusive with value ---01.
@@ -9938,7 +9251,6 @@ def test_atomic_g_day_max_inclusive_nistxml_sv_iv_atomic_g_day_max_inclusive_1_1
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5_1(save_xml):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---31.
@@ -9952,7 +9264,6 @@ def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5_2(save_xml):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---31.
@@ -9966,7 +9277,6 @@ def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5_3(save_xml):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---31.
@@ -9980,7 +9290,6 @@ def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5_4(save_xml):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---31.
@@ -9994,7 +9303,6 @@ def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5_5(save_xml):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---31.
@@ -10008,7 +9316,6 @@ def test_atomic_g_day_max_exclusive_4_nistxml_sv_iv_atomic_g_day_max_exclusive_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4_1(save_xml):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---15.
@@ -10022,7 +9329,6 @@ def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4_2(save_xml):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---15.
@@ -10036,7 +9342,6 @@ def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4_3(save_xml):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---15.
@@ -10050,7 +9355,6 @@ def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4_4(save_xml):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---15.
@@ -10064,7 +9368,6 @@ def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4_5(save_xml):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---15.
@@ -10078,7 +9381,6 @@ def test_atomic_g_day_max_exclusive_3_nistxml_sv_iv_atomic_g_day_max_exclusive_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3_1(save_xml):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---30.
@@ -10092,7 +9394,6 @@ def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3_2(save_xml):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---30.
@@ -10106,7 +9407,6 @@ def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3_3(save_xml):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---30.
@@ -10120,7 +9420,6 @@ def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3_4(save_xml):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---30.
@@ -10134,7 +9433,6 @@ def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3_5(save_xml):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---30.
@@ -10148,7 +9446,6 @@ def test_atomic_g_day_max_exclusive_2_nistxml_sv_iv_atomic_g_day_max_exclusive_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2_1(save_xml):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---25.
@@ -10162,7 +9459,6 @@ def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2_2(save_xml):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---25.
@@ -10176,7 +9472,6 @@ def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2_3(save_xml):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---25.
@@ -10190,7 +9485,6 @@ def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2_4(save_xml):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---25.
@@ -10204,7 +9498,6 @@ def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2_5(save_xml):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---25.
@@ -10218,7 +9511,6 @@ def test_atomic_g_day_max_exclusive_1_nistxml_sv_iv_atomic_g_day_max_exclusive_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_max_exclusive_nistxml_sv_iv_atomic_g_day_max_exclusive_1_1(save_xml):
     """
     Type atomic/gDay is restricted by facet maxExclusive with value ---02.
@@ -10232,7 +9524,6 @@ def test_atomic_g_day_max_exclusive_nistxml_sv_iv_atomic_g_day_max_exclusive_1_1
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_4_nistxml_sv_iv_atomic_g_day_min_inclusive_5_1(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---31.
@@ -10246,7 +9537,6 @@ def test_atomic_g_day_min_inclusive_4_nistxml_sv_iv_atomic_g_day_min_inclusive_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4_1(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---08.
@@ -10260,7 +9550,6 @@ def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4_2(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---08.
@@ -10274,7 +9563,6 @@ def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4_3(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---08.
@@ -10288,7 +9576,6 @@ def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4_4(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---08.
@@ -10302,7 +9589,6 @@ def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4_5(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---08.
@@ -10316,7 +9602,6 @@ def test_atomic_g_day_min_inclusive_3_nistxml_sv_iv_atomic_g_day_min_inclusive_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3_1(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---24.
@@ -10330,7 +9615,6 @@ def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3_2(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---24.
@@ -10344,7 +9628,6 @@ def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3_3(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---24.
@@ -10358,7 +9641,6 @@ def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3_4(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---24.
@@ -10372,7 +9654,6 @@ def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3_5(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---24.
@@ -10386,7 +9667,6 @@ def test_atomic_g_day_min_inclusive_2_nistxml_sv_iv_atomic_g_day_min_inclusive_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2_1(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---16.
@@ -10400,7 +9680,6 @@ def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2_2(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---16.
@@ -10414,7 +9693,6 @@ def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2_3(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---16.
@@ -10428,7 +9706,6 @@ def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2_4(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---16.
@@ -10442,7 +9719,6 @@ def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2_5(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---16.
@@ -10456,7 +9732,6 @@ def test_atomic_g_day_min_inclusive_1_nistxml_sv_iv_atomic_g_day_min_inclusive_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_1(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---01.
@@ -10470,7 +9745,6 @@ def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_1
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_2(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---01.
@@ -10484,7 +9758,6 @@ def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_3(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---01.
@@ -10498,7 +9771,6 @@ def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_4(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---01.
@@ -10512,7 +9784,6 @@ def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_5(save_xml):
     """
     Type atomic/gDay is restricted by facet minInclusive with value ---01.
@@ -10526,7 +9797,6 @@ def test_atomic_g_day_min_inclusive_nistxml_sv_iv_atomic_g_day_min_inclusive_1_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_exclusive_4_nistxml_sv_iv_atomic_g_day_min_exclusive_5_1(save_xml):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---30.
@@ -10540,7 +9810,6 @@ def test_atomic_g_day_min_exclusive_4_nistxml_sv_iv_atomic_g_day_min_exclusive_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4_1(save_xml):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---04.
@@ -10554,7 +9823,6 @@ def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4_2(save_xml):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---04.
@@ -10568,7 +9836,6 @@ def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4_3(save_xml):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---04.
@@ -10582,7 +9849,6 @@ def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4_4(save_xml):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---04.
@@ -10596,7 +9862,6 @@ def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4_5(save_xml):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---04.
@@ -10610,7 +9875,6 @@ def test_atomic_g_day_min_exclusive_3_nistxml_sv_iv_atomic_g_day_min_exclusive_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3_1(save_xml):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---04.
@@ -10624,7 +9888,6 @@ def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3_2(save_xml):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---04.
@@ -10638,7 +9901,6 @@ def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3_3(save_xml):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---04.
@@ -10652,7 +9914,6 @@ def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3_4(save_xml):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---04.
@@ -10666,7 +9927,6 @@ def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3_5(save_xml):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---04.
@@ -10680,7 +9940,6 @@ def test_atomic_g_day_min_exclusive_2_nistxml_sv_iv_atomic_g_day_min_exclusive_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2_1(save_xml):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---20.
@@ -10694,7 +9953,6 @@ def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2_2(save_xml):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---20.
@@ -10708,7 +9966,6 @@ def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2_3(save_xml):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---20.
@@ -10722,7 +9979,6 @@ def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2_4(save_xml):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---20.
@@ -10736,7 +9992,6 @@ def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2_5(save_xml):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---20.
@@ -10750,7 +10005,6 @@ def test_atomic_g_day_min_exclusive_1_nistxml_sv_iv_atomic_g_day_min_exclusive_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_1(save_xml):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---01.
@@ -10764,7 +10018,6 @@ def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_1
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_2(save_xml):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---01.
@@ -10778,7 +10031,6 @@ def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_3(save_xml):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---01.
@@ -10792,7 +10044,6 @@ def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_4(save_xml):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---01.
@@ -10806,7 +10057,6 @@ def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_5(save_xml):
     """
     Type atomic/gDay is restricted by facet minExclusive with value ---01.
@@ -10820,7 +10070,6 @@ def test_atomic_g_day_min_exclusive_nistxml_sv_iv_atomic_g_day_min_exclusive_1_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_space_1_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet whiteSpace with value
@@ -10835,7 +10084,6 @@ def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_space_1_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet whiteSpace with value
@@ -10850,7 +10098,6 @@ def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_space_1_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet whiteSpace with value
@@ -10865,7 +10112,6 @@ def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_space_1_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet whiteSpace with value
@@ -10880,7 +10126,6 @@ def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_space_1_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet whiteSpace with value
@@ -10895,7 +10140,6 @@ def test_atomic_g_month_day_white_space_nistxml_sv_iv_atomic_g_month_day_white_s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enumeration_5_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -10909,7 +10153,6 @@ def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enume
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enumeration_5_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -10923,7 +10166,6 @@ def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enume
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enumeration_5_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -10937,7 +10179,6 @@ def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enume
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enumeration_5_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -10951,7 +10192,6 @@ def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enume
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enumeration_5_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -10965,7 +10205,6 @@ def test_atomic_g_month_day_enumeration_4_nistxml_sv_iv_atomic_g_month_day_enume
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enumeration_4_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -10979,7 +10218,6 @@ def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enume
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enumeration_4_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -10993,7 +10231,6 @@ def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enume
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enumeration_4_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -11007,7 +10244,6 @@ def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enume
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enumeration_4_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -11021,7 +10257,6 @@ def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enume
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enumeration_4_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -11035,7 +10270,6 @@ def test_atomic_g_month_day_enumeration_3_nistxml_sv_iv_atomic_g_month_day_enume
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enumeration_3_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -11049,7 +10283,6 @@ def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enume
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enumeration_3_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -11063,7 +10296,6 @@ def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enume
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enumeration_3_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -11077,7 +10309,6 @@ def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enume
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enumeration_3_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -11091,7 +10322,6 @@ def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enume
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enumeration_3_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -11105,7 +10335,6 @@ def test_atomic_g_month_day_enumeration_2_nistxml_sv_iv_atomic_g_month_day_enume
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enumeration_2_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -11119,7 +10348,6 @@ def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enume
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enumeration_2_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -11133,7 +10361,6 @@ def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enume
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enumeration_2_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -11147,7 +10374,6 @@ def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enume
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enumeration_2_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -11161,7 +10387,6 @@ def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enume
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enumeration_2_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -11175,7 +10400,6 @@ def test_atomic_g_month_day_enumeration_1_nistxml_sv_iv_atomic_g_month_day_enume
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumeration_1_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -11189,7 +10413,6 @@ def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumera
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumeration_1_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -11203,7 +10426,6 @@ def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumera
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumeration_1_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -11217,7 +10439,6 @@ def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumera
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumeration_1_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -11231,7 +10452,6 @@ def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumera
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumeration_1_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet enumeration.
@@ -11245,7 +10465,6 @@ def test_atomic_g_month_day_enumeration_nistxml_sv_iv_atomic_g_month_day_enumera
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5_1(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11260,7 +10479,6 @@ def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5_2(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11275,7 +10493,6 @@ def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5_3(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11290,7 +10507,6 @@ def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5_4(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11305,7 +10521,6 @@ def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5_5(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11320,7 +10535,6 @@ def test_atomic_g_month_day_pattern_4_nistxml_sv_iv_atomic_g_month_day_pattern_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4_1(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11335,7 +10549,6 @@ def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4_2(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11350,7 +10563,6 @@ def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4_3(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11365,7 +10577,6 @@ def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4_4(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11380,7 +10591,6 @@ def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4_5(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11395,7 +10605,6 @@ def test_atomic_g_month_day_pattern_3_nistxml_sv_iv_atomic_g_month_day_pattern_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3_1(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11410,7 +10619,6 @@ def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3_2(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11425,7 +10633,6 @@ def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3_3(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11440,7 +10647,6 @@ def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3_4(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11455,7 +10661,6 @@ def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3_5(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11470,7 +10675,6 @@ def test_atomic_g_month_day_pattern_2_nistxml_sv_iv_atomic_g_month_day_pattern_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2_1(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11485,7 +10689,6 @@ def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2_2(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11500,7 +10703,6 @@ def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2_3(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11515,7 +10717,6 @@ def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2_4(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11530,7 +10731,6 @@ def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2_5(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11545,7 +10745,6 @@ def test_atomic_g_month_day_pattern_1_nistxml_sv_iv_atomic_g_month_day_pattern_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_1(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11560,7 +10759,6 @@ def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_1
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_2(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11575,7 +10773,6 @@ def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_3(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11590,7 +10787,6 @@ def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_4(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11605,7 +10801,6 @@ def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_5(save_xml):
     r"""
     Type atomic/gMonthDay is restricted by facet pattern with value
@@ -11620,7 +10815,6 @@ def test_atomic_g_month_day_pattern_nistxml_sv_iv_atomic_g_month_day_pattern_1_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max_inclusive_5_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -11635,7 +10829,6 @@ def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max_inclusive_5_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -11650,7 +10843,6 @@ def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max_inclusive_5_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -11665,7 +10857,6 @@ def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max_inclusive_5_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -11680,7 +10871,6 @@ def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max_inclusive_5_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -11695,7 +10885,6 @@ def test_atomic_g_month_day_max_inclusive_4_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max_inclusive_4_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -11710,7 +10899,6 @@ def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max_inclusive_4_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -11725,7 +10913,6 @@ def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max_inclusive_4_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -11740,7 +10927,6 @@ def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max_inclusive_4_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -11755,7 +10941,6 @@ def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max_inclusive_4_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -11770,7 +10955,6 @@ def test_atomic_g_month_day_max_inclusive_3_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max_inclusive_3_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -11785,7 +10969,6 @@ def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max_inclusive_3_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -11800,7 +10983,6 @@ def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max_inclusive_3_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -11815,7 +10997,6 @@ def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max_inclusive_3_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -11830,7 +11011,6 @@ def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max_inclusive_3_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -11845,7 +11025,6 @@ def test_atomic_g_month_day_max_inclusive_2_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max_inclusive_2_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -11860,7 +11039,6 @@ def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max_inclusive_2_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -11875,7 +11053,6 @@ def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max_inclusive_2_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -11890,7 +11067,6 @@ def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max_inclusive_2_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -11905,7 +11081,6 @@ def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max_inclusive_2_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -11920,7 +11095,6 @@ def test_atomic_g_month_day_max_inclusive_1_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_inclusive_nistxml_sv_iv_atomic_g_month_day_max_inclusive_1_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxInclusive with value
@@ -11935,7 +11109,6 @@ def test_atomic_g_month_day_max_inclusive_nistxml_sv_iv_atomic_g_month_day_max_i
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max_exclusive_5_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
@@ -11950,7 +11123,6 @@ def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max_exclusive_5_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
@@ -11965,7 +11137,6 @@ def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max_exclusive_5_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
@@ -11980,7 +11151,6 @@ def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max_exclusive_5_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
@@ -11995,7 +11165,6 @@ def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max_exclusive_5_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
@@ -12010,7 +11179,6 @@ def test_atomic_g_month_day_max_exclusive_4_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max_exclusive_4_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
@@ -12025,7 +11193,6 @@ def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max_exclusive_4_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
@@ -12040,7 +11207,6 @@ def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max_exclusive_4_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
@@ -12055,7 +11221,6 @@ def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max_exclusive_4_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
@@ -12070,7 +11235,6 @@ def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max_exclusive_4_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
@@ -12085,7 +11249,6 @@ def test_atomic_g_month_day_max_exclusive_3_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max_exclusive_3_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
@@ -12100,7 +11263,6 @@ def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max_exclusive_3_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
@@ -12115,7 +11277,6 @@ def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max_exclusive_3_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
@@ -12130,7 +11291,6 @@ def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max_exclusive_3_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
@@ -12145,7 +11305,6 @@ def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max_exclusive_3_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
@@ -12160,7 +11319,6 @@ def test_atomic_g_month_day_max_exclusive_2_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max_exclusive_2_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
@@ -12175,7 +11333,6 @@ def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max_exclusive_2_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
@@ -12190,7 +11347,6 @@ def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max_exclusive_2_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
@@ -12205,7 +11361,6 @@ def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max_exclusive_2_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
@@ -12220,7 +11375,6 @@ def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max_exclusive_2_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
@@ -12235,7 +11389,6 @@ def test_atomic_g_month_day_max_exclusive_1_nistxml_sv_iv_atomic_g_month_day_max
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_max_exclusive_nistxml_sv_iv_atomic_g_month_day_max_exclusive_1_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet maxExclusive with value
@@ -12250,7 +11403,6 @@ def test_atomic_g_month_day_max_exclusive_nistxml_sv_iv_atomic_g_month_day_max_e
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_4_nistxml_sv_iv_atomic_g_month_day_min_inclusive_5_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -12265,7 +11417,6 @@ def test_atomic_g_month_day_min_inclusive_4_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min_inclusive_4_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -12280,7 +11431,6 @@ def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min_inclusive_4_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -12295,7 +11445,6 @@ def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min_inclusive_4_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -12310,7 +11459,6 @@ def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min_inclusive_4_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -12325,7 +11473,6 @@ def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min_inclusive_4_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -12340,7 +11487,6 @@ def test_atomic_g_month_day_min_inclusive_3_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min_inclusive_3_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -12355,7 +11501,6 @@ def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min_inclusive_3_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -12370,7 +11515,6 @@ def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min_inclusive_3_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -12385,7 +11529,6 @@ def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min_inclusive_3_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -12400,7 +11543,6 @@ def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min_inclusive_3_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -12415,7 +11557,6 @@ def test_atomic_g_month_day_min_inclusive_2_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min_inclusive_2_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -12430,7 +11571,6 @@ def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min_inclusive_2_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -12445,7 +11585,6 @@ def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min_inclusive_2_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -12460,7 +11599,6 @@ def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min_inclusive_2_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -12475,7 +11613,6 @@ def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min_inclusive_2_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -12490,7 +11627,6 @@ def test_atomic_g_month_day_min_inclusive_1_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_inclusive_1_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -12505,7 +11641,6 @@ def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_i
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_inclusive_1_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -12520,7 +11655,6 @@ def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_i
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_inclusive_1_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -12535,7 +11669,6 @@ def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_i
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_inclusive_1_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -12550,7 +11683,6 @@ def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_i
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_inclusive_1_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minInclusive with value
@@ -12565,7 +11697,6 @@ def test_atomic_g_month_day_min_inclusive_nistxml_sv_iv_atomic_g_month_day_min_i
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_exclusive_4_nistxml_sv_iv_atomic_g_month_day_min_exclusive_5_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
@@ -12580,7 +11711,6 @@ def test_atomic_g_month_day_min_exclusive_4_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min_exclusive_4_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
@@ -12595,7 +11725,6 @@ def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min_exclusive_4_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
@@ -12610,7 +11739,6 @@ def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min_exclusive_4_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
@@ -12625,7 +11753,6 @@ def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min_exclusive_4_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
@@ -12640,7 +11767,6 @@ def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min_exclusive_4_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
@@ -12655,7 +11781,6 @@ def test_atomic_g_month_day_min_exclusive_3_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min_exclusive_3_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
@@ -12670,7 +11795,6 @@ def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min_exclusive_3_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
@@ -12685,7 +11809,6 @@ def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min_exclusive_3_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
@@ -12700,7 +11823,6 @@ def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min_exclusive_3_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
@@ -12715,7 +11837,6 @@ def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min_exclusive_3_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
@@ -12730,7 +11851,6 @@ def test_atomic_g_month_day_min_exclusive_2_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min_exclusive_2_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
@@ -12745,7 +11865,6 @@ def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min_exclusive_2_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
@@ -12760,7 +11879,6 @@ def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min_exclusive_2_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
@@ -12775,7 +11893,6 @@ def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min_exclusive_2_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
@@ -12790,7 +11907,6 @@ def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min_exclusive_2_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
@@ -12805,7 +11921,6 @@ def test_atomic_g_month_day_min_exclusive_1_nistxml_sv_iv_atomic_g_month_day_min
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_exclusive_1_1(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
@@ -12820,7 +11935,6 @@ def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_e
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_exclusive_1_2(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
@@ -12835,7 +11949,6 @@ def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_e
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_exclusive_1_3(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
@@ -12850,7 +11963,6 @@ def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_e
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_exclusive_1_4(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
@@ -12865,7 +11977,6 @@ def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_e
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_exclusive_1_5(save_xml):
     """
     Type atomic/gMonthDay is restricted by facet minExclusive with value
@@ -12880,7 +11991,6 @@ def test_atomic_g_month_day_min_exclusive_nistxml_sv_iv_atomic_g_month_day_min_e
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_1(save_xml):
     """
     Type atomic/gYear is restricted by facet whiteSpace with value
@@ -12895,7 +12005,6 @@ def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_1(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_2(save_xml):
     """
     Type atomic/gYear is restricted by facet whiteSpace with value
@@ -12910,7 +12019,6 @@ def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_2(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_3(save_xml):
     """
     Type atomic/gYear is restricted by facet whiteSpace with value
@@ -12925,7 +12033,6 @@ def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_3(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_4(save_xml):
     """
     Type atomic/gYear is restricted by facet whiteSpace with value
@@ -12940,7 +12047,6 @@ def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_4(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_5(save_xml):
     """
     Type atomic/gYear is restricted by facet whiteSpace with value
@@ -12955,7 +12061,6 @@ def test_atomic_g_year_white_space_nistxml_sv_iv_atomic_g_year_white_space_1_5(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_1(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -12969,7 +12074,6 @@ def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_1
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_2(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -12983,7 +12087,6 @@ def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_3(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -12997,7 +12100,6 @@ def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_4(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13011,7 +12113,6 @@ def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_5(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13025,7 +12126,6 @@ def test_atomic_g_year_enumeration_4_nistxml_sv_iv_atomic_g_year_enumeration_5_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_1(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13039,7 +12139,6 @@ def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_1
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_2(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13053,7 +12152,6 @@ def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_3(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13067,7 +12165,6 @@ def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_4(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13081,7 +12178,6 @@ def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_5(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13095,7 +12191,6 @@ def test_atomic_g_year_enumeration_3_nistxml_sv_iv_atomic_g_year_enumeration_4_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_1(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13109,7 +12204,6 @@ def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_1
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_2(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13123,7 +12217,6 @@ def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_3(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13137,7 +12230,6 @@ def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_4(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13151,7 +12243,6 @@ def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_5(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13165,7 +12256,6 @@ def test_atomic_g_year_enumeration_2_nistxml_sv_iv_atomic_g_year_enumeration_3_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_1(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13179,7 +12269,6 @@ def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_1
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_2(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13193,7 +12282,6 @@ def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_2
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_3(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13207,7 +12295,6 @@ def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_3
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_4(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13221,7 +12308,6 @@ def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_4
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_5(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13235,7 +12321,6 @@ def test_atomic_g_year_enumeration_1_nistxml_sv_iv_atomic_g_year_enumeration_2_5
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_1(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13249,7 +12334,6 @@ def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_1(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_2(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13263,7 +12347,6 @@ def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_2(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_3(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13277,7 +12360,6 @@ def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_3(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_4(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13291,7 +12373,6 @@ def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_4(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_5(save_xml):
     """
     Type atomic/gYear is restricted by facet enumeration.
@@ -13305,7 +12386,6 @@ def test_atomic_g_year_enumeration_nistxml_sv_iv_atomic_g_year_enumeration_1_5(s
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_1(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d21.
@@ -13319,7 +12399,6 @@ def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_2(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d21.
@@ -13333,7 +12412,6 @@ def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_3(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d21.
@@ -13347,7 +12425,6 @@ def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_4(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d21.
@@ -13361,7 +12438,6 @@ def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_5(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d21.
@@ -13375,7 +12451,6 @@ def test_atomic_g_year_pattern_4_nistxml_sv_iv_atomic_g_year_pattern_5_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_1(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d14.
@@ -13389,7 +12464,6 @@ def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_2(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d14.
@@ -13403,7 +12477,6 @@ def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_3(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d14.
@@ -13417,7 +12490,6 @@ def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_4(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d14.
@@ -13431,7 +12503,6 @@ def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_5(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d14.
@@ -13445,7 +12516,6 @@ def test_atomic_g_year_pattern_3_nistxml_sv_iv_atomic_g_year_pattern_4_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_1(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d86.
@@ -13459,7 +12529,6 @@ def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_2(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d86.
@@ -13473,7 +12542,6 @@ def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_3(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d86.
@@ -13487,7 +12555,6 @@ def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_4(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d86.
@@ -13501,7 +12568,6 @@ def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_5(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d86.
@@ -13515,7 +12581,6 @@ def test_atomic_g_year_pattern_2_nistxml_sv_iv_atomic_g_year_pattern_3_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_1(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d61.
@@ -13529,7 +12594,6 @@ def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_1(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_2(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d61.
@@ -13543,7 +12607,6 @@ def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_2(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_3(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d61.
@@ -13557,7 +12620,6 @@ def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_3(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_4(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d61.
@@ -13571,7 +12633,6 @@ def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_4(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_5(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d61.
@@ -13585,7 +12646,6 @@ def test_atomic_g_year_pattern_1_nistxml_sv_iv_atomic_g_year_pattern_2_5(save_xm
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_1(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d47.
@@ -13599,7 +12659,6 @@ def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_1(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_2(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d47.
@@ -13613,7 +12672,6 @@ def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_2(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_3(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d47.
@@ -13627,7 +12685,6 @@ def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_3(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_4(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d47.
@@ -13641,7 +12698,6 @@ def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_4(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_5(save_xml):
     r"""
     Type atomic/gYear is restricted by facet pattern with value \d\d47.
@@ -13655,7 +12711,6 @@ def test_atomic_g_year_pattern_nistxml_sv_iv_atomic_g_year_pattern_1_5(save_xml)
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive_5_1(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 2030.
@@ -13669,7 +12724,6 @@ def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive_5_2(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 2030.
@@ -13683,7 +12737,6 @@ def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive_5_3(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 2030.
@@ -13697,7 +12750,6 @@ def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive_5_4(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 2030.
@@ -13711,7 +12763,6 @@ def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive_5_5(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 2030.
@@ -13725,7 +12776,6 @@ def test_atomic_g_year_max_inclusive_4_nistxml_sv_iv_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive_4_1(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1998.
@@ -13739,7 +12789,6 @@ def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive_4_2(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1998.
@@ -13753,7 +12802,6 @@ def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive_4_3(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1998.
@@ -13767,7 +12815,6 @@ def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive_4_4(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1998.
@@ -13781,7 +12828,6 @@ def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive_4_5(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1998.
@@ -13795,7 +12841,6 @@ def test_atomic_g_year_max_inclusive_3_nistxml_sv_iv_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive_3_1(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 2019.
@@ -13809,7 +12854,6 @@ def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive_3_2(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 2019.
@@ -13823,7 +12867,6 @@ def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive_3_3(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 2019.
@@ -13837,7 +12880,6 @@ def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive_3_4(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 2019.
@@ -13851,7 +12893,6 @@ def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive_3_5(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 2019.
@@ -13865,7 +12906,6 @@ def test_atomic_g_year_max_inclusive_2_nistxml_sv_iv_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive_2_1(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1975.
@@ -13879,7 +12919,6 @@ def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive_2_2(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1975.
@@ -13893,7 +12932,6 @@ def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive_2_3(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1975.
@@ -13907,7 +12945,6 @@ def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive_2_4(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1975.
@@ -13921,7 +12958,6 @@ def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive_2_5(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1975.
@@ -13935,7 +12971,6 @@ def test_atomic_g_year_max_inclusive_1_nistxml_sv_iv_atomic_g_year_max_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_inclusive_nistxml_sv_iv_atomic_g_year_max_inclusive_1_1(save_xml):
     """
     Type atomic/gYear is restricted by facet maxInclusive with value 1970.
@@ -13949,7 +12984,6 @@ def test_atomic_g_year_max_inclusive_nistxml_sv_iv_atomic_g_year_max_inclusive_1
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive_5_1(save_xml):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2030.
@@ -13963,7 +12997,6 @@ def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive_5_2(save_xml):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2030.
@@ -13977,7 +13010,6 @@ def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive_5_3(save_xml):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2030.
@@ -13991,7 +13023,6 @@ def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive_5_4(save_xml):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2030.
@@ -14005,7 +13036,6 @@ def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive_5_5(save_xml):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2030.
@@ -14019,7 +13049,6 @@ def test_atomic_g_year_max_exclusive_4_nistxml_sv_iv_atomic_g_year_max_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive_4_1(save_xml):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2005.
@@ -14033,7 +13062,6 @@ def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive_4_2(save_xml):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2005.
@@ -14047,7 +13075,6 @@ def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive_4_3(save_xml):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2005.
@@ -14061,7 +13088,6 @@ def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive_4_4(save_xml):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2005.
@@ -14075,7 +13101,6 @@ def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive_4_5(save_xml):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2005.
@@ -14089,7 +13114,6 @@ def test_atomic_g_year_max_exclusive_3_nistxml_sv_iv_atomic_g_year_max_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive_3_1(save_xml):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2003.
@@ -14103,7 +13127,6 @@ def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive_3_2(save_xml):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2003.
@@ -14117,7 +13140,6 @@ def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive_3_3(save_xml):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2003.
@@ -14131,7 +13153,6 @@ def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive_3_4(save_xml):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2003.
@@ -14145,7 +13166,6 @@ def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive_3_5(save_xml):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2003.
@@ -14159,7 +13179,6 @@ def test_atomic_g_year_max_exclusive_2_nistxml_sv_iv_atomic_g_year_max_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive_2_1(save_xml):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2022.
@@ -14173,7 +13192,6 @@ def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive_2_2(save_xml):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2022.
@@ -14187,7 +13205,6 @@ def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive_2_3(save_xml):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2022.
@@ -14201,7 +13218,6 @@ def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive_2_4(save_xml):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2022.
@@ -14215,7 +13231,6 @@ def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive_2_5(save_xml):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 2022.
@@ -14229,7 +13244,6 @@ def test_atomic_g_year_max_exclusive_1_nistxml_sv_iv_atomic_g_year_max_exclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_max_exclusive_nistxml_sv_iv_atomic_g_year_max_exclusive_1_1(save_xml):
     """
     Type atomic/gYear is restricted by facet maxExclusive with value 1971.
@@ -14243,7 +13257,6 @@ def test_atomic_g_year_max_exclusive_nistxml_sv_iv_atomic_g_year_max_exclusive_1
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_4_nistxml_sv_iv_atomic_g_year_min_inclusive_5_1(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2030.
@@ -14257,7 +13270,6 @@ def test_atomic_g_year_min_inclusive_4_nistxml_sv_iv_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive_4_1(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1997.
@@ -14271,7 +13283,6 @@ def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive_4_2(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1997.
@@ -14285,7 +13296,6 @@ def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive_4_3(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1997.
@@ -14299,7 +13309,6 @@ def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive_4_4(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1997.
@@ -14313,7 +13322,6 @@ def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive_4_5(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1997.
@@ -14327,7 +13335,6 @@ def test_atomic_g_year_min_inclusive_3_nistxml_sv_iv_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive_3_1(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1974.
@@ -14341,7 +13348,6 @@ def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive_3_2(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1974.
@@ -14355,7 +13361,6 @@ def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive_3_3(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1974.
@@ -14369,7 +13374,6 @@ def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive_3_4(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1974.
@@ -14383,7 +13387,6 @@ def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive_3_5(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 1974.
@@ -14397,7 +13400,6 @@ def test_atomic_g_year_min_inclusive_2_nistxml_sv_iv_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive_2_1(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2010.
@@ -14411,7 +13413,6 @@ def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive_2_2(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2010.
@@ -14425,7 +13426,6 @@ def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive_2_3(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2010.
@@ -14439,7 +13439,6 @@ def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive_2_4(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2010.
@@ -14453,7 +13452,6 @@ def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive
     )
 
 
-@pytest.mark.schema11
 def test_atomic_g_year_min_inclusive_1_nistxml_sv_iv_atomic_g_year_min_inclusive_2_5(save_xml):
     """
     Type atomic/gYear is restricted by facet minInclusive with value 2010.

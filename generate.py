@@ -127,8 +127,6 @@ def render_test_cases(test_file, cases: List[TestCase]) -> str:
         names[name] += 1
 
         markers = []
-        if case.version == "1.1":
-            markers.append("@pytest.mark.schema11")
         if xfails.get(f"{test_file}::test_{name}"):
             markers.append("@pytest.mark.xfail")
         if not case.schema_path:
@@ -238,7 +236,7 @@ def pick_version(versions: List):
 
 def make_docstring(group: TestGroup) -> str:
     raw = "\n".join(
-        element.text or "" if isinstance(element, AnyElement) else element
+        element.text or "" if isinstance(element, AnyElement) else str(element)
         for annotation in group.annotation
         for documentation in annotation.documentation
         for element in documentation.any_element

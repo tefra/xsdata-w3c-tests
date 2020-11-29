@@ -9,9 +9,6 @@
                     "qname": "{http://open.com/}extra",
                     "text": null,
                     "tail": null,
-                    "ns_map": {
-                        "null": "http://open.com/"
-                    },
                     "children": [],
                     "attributes": {}
                 }
@@ -21,7 +18,6 @@
             "qname": "b",
             "text": "",
             "tail": null,
-            "ns_map": {},
             "children": [],
             "attributes": {}
         }

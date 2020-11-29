@@ -8,12 +8,6 @@
                             "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                             "text": "Tests for XSD 1.1 wildcard extensions",
                             "tail": null,
-                            "ns_map": {
-                                "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                "xlink": "http://www.w3.org/1999/xlink",
-                                "saxon": "http://saxon.sf.net/"
-                            },
                             "children": [],
                             "attributes": {}
                         },
@@ -21,12 +15,6 @@
                             "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                             "text": "A number of tests, both valid and invalid, demonstrating use of the new\n                XSD 1.1 features for wildcards, for example the notNamespace and notQName attributes.",
                             "tail": null,
-                            "ns_map": {
-                                "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                "xlink": "http://www.w3.org/1999/xlink",
-                                "saxon": "http://saxon.sf.net/"
-                            },
                             "children": [],
                             "attributes": {}
                         }
@@ -50,12 +38,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Basic test of xs:anyAttribute with notNamespace attribute",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -63,12 +45,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allows any attribute except for two designated namespaces",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -306,12 +282,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Basic test of xs:anyAttribute with notNamespace attribute",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -319,12 +289,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allows any attribute except for two designated namespaces",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -562,12 +526,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Basic test of xs:anyAttribute with notNamespace = ##local",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -575,12 +533,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allows any attribute so long as it's in a namespace",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -777,12 +729,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Basic test of xs:any with notNamespace = ##local",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -790,12 +736,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allows any child so long as it's in a namespace",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -992,12 +932,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Basic test of xs:anyAttribute with notNamespace = ##targetNamespace in a no-namespace schema",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1005,12 +939,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allows any attribute so long as it's in a namespace",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1207,12 +1135,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Basic test of xs:any with notNamespace = ##targetNamespace in a no-namespace schema",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1220,12 +1142,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allows any child so long as it's in a namespace",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1422,12 +1338,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Cannot mix namespace and notNamespace attributes within anyAttribute",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1435,12 +1345,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Invalid schema",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1513,12 +1417,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Cannot mix namespace and notNamespace attributes within xs:any",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1526,12 +1424,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Invalid schema",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1604,12 +1496,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test of xs:anyAttribute with notNamespace = ##targetNamespace in a namespaced schema",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1617,12 +1503,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allows any attribute so long as it's in a namespace other than target",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1860,12 +1740,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test of xs:any with notNamespace = ##targetNamespace in a namespaced schema",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1873,12 +1747,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allows any child so long as it's in a namespace other than target",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2116,12 +1984,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test of xs:anyAttribute with notNamespace = ##targetNamespace in a chameleon schema",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2129,12 +1991,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allows any attribute so long as it's in a namespace other than target",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2372,12 +2228,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test of xs:any with notNamespace = ##targetNamespace in a namespaced schema",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2385,12 +2235,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allows any child so long as it's in a namespace other than target",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2628,12 +2472,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Union of two wildcards using notNamespace",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2641,12 +2479,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "The union allows anything",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2761,12 +2593,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Union of two wildcards using notNamespace",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2774,12 +2600,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "The union allows abel but not cain",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2935,12 +2755,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Union of two wildcards using namespace and notNamespace respectively",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2948,12 +2762,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "The union allows adam, eve, and abel but not cain",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3109,12 +2917,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Union of two wildcards using namespace and notNamespace respectively",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3122,12 +2924,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "The union allows adam, eve, and abel but not cain.\n                             Inversion of wild015.xsd.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3283,12 +3079,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Valid restriction of wildcards",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3296,12 +3086,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Restricted type disallows more namespaces than the base type disallows",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3539,12 +3323,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Valid restriction of wildcards",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3552,12 +3330,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Restricted type disallows more namespaces than the base type disallows",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3795,12 +3567,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Valid restriction of wildcards",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3808,12 +3574,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Restricted type disallows more namespaces than the base type disallows",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4051,12 +3811,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Invalid restriction of wildcards",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4064,12 +3818,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Restricted type allows more namespaces than base type",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4142,12 +3890,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Invalid restriction of wildcards",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4155,12 +3897,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Restricted type allows more namespaces than base type",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4233,12 +3969,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Invalid restriction of wildcards",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4246,12 +3976,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Restricted type allows more namespaces than base type",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4324,12 +4048,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Wildcard intersection",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4337,12 +4055,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Type allows anything allowed by all the attribute wildcards",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4539,12 +4251,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Wildcard intersection",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4552,12 +4258,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Type allows anything allowed by all the attribute wildcards",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4754,12 +4454,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Wildcard intersection",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4767,12 +4461,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Type allows anything allowed by all the attribute wildcards",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5051,12 +4739,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Wildcard intersection",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5064,12 +4746,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Type allows anything allowed by all the attribute wildcards",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5348,12 +5024,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Basic test of xs:anyAttribute with notQName attribute",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5361,12 +5031,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allows any attribute except for xml:space or xml:id",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5563,12 +5227,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Basic test of xs:any with notQName attribute",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5576,12 +5234,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allows any child element except for xml:space or xml:id",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5778,12 +5430,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test of xs:any with notQName attribute in an xs:sequence model group",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5791,12 +5437,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allows any child element except for a",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5993,12 +5633,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Example from the spec: restricting away a child element that overlaps a wildcard",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6006,12 +5640,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "No speaker element allowed on the subtype",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6208,12 +5836,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Name in notQName is a name that would not be allowed anyway",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6221,12 +5843,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Violates rule 4 of 3.10.6.1 Wildcard Properties Correct",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6299,12 +5915,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Name in notQName is a name that would not be allowed anyway",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6312,12 +5922,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Violates rule 4 of 3.10.6.1 Wildcard Properties Correct",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6390,12 +5994,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Name in notQName is a name that would not be allowed anyway",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6403,12 +6001,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Violates rule 4 of 3.10.6.1 Wildcard Properties Correct",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6481,12 +6073,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Name in notQName is a name that would not be allowed anyway",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6494,12 +6080,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Violates rule 4 of 3.10.6.1 Wildcard Properties Correct",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6572,12 +6152,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Name in notQName is a name that would not be allowed anyway",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6585,12 +6159,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Violates rule 4 of 3.10.6.1 Wildcard Properties Correct",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6663,12 +6231,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Undeclared prefix in QName",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6676,12 +6238,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "invalid QName in notQName attribute",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6754,12 +6310,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Invalid QName in notQName",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6767,12 +6317,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "invalid QName in notQName attribute",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6845,12 +6389,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Invalid QName in notQName",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6858,12 +6396,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "invalid QName in notQName attribute",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6936,12 +6468,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Invalid QName in notQName",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6949,12 +6475,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "invalid QName in notQName attribute",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -7027,12 +6547,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Banning xsi attributes has no effect",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -7040,12 +6554,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "xsi:type is validated without reference to attribute uses or wildcards",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -7201,12 +6709,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Explicit attribute in xsi namespace is not allowed",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -7214,12 +6716,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Error: see 3.2.6.4 xsi: not allowed",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -7292,12 +6788,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xsi attribute wildcards are allowed",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -7305,12 +6795,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "There's no rule to stop non-standard attributes in the xsi namespace being\n                introduced by wildcard",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -7466,12 +6950,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Wildcard intersection with notQName",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -7479,12 +6957,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "disallows the union of the disallowed QNames",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -7722,12 +7194,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Wildcard intersection with notQName",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -7735,12 +7201,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "disallows the union of the disallowed QNames",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -7937,12 +7397,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Wildcard union with notQName",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -7950,12 +7404,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "disallows the intersection of the disallowed QNames",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -8193,12 +7641,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Wildcard union with notQName and notNamespace",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -8206,12 +7648,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "disallows the intersection of the disallowed QNames",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -8449,12 +7885,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element Wildcard union with notQName and notNamespace",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -8462,12 +7892,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "disallows the intersection of the disallowed QNames",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -8623,12 +8047,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Complex type restriction using wildcard particles",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -8636,12 +8054,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Base type disallows QNames that the restricted type does not disallow",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -8714,12 +8126,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Complex type restriction using wildcard particles",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -8727,12 +8133,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Restricted type disallows all QNames that the base type disallows",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -8805,12 +8205,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Complex type restriction using wildcard particles",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -8818,12 +8212,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Restricted type disallows all QNames that the base type disallows",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -8896,12 +8284,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Complex type restriction using wildcard particles",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -8909,12 +8291,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Restricted type does not disallow all QNames that the base type disallows",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -8987,12 +8363,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element Wildcard with notQName=##defined",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -9000,12 +8370,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Basic test of ##defined",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -9243,12 +8607,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element Wildcard with notQName=##defined",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -9256,12 +8614,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Basic test of ##defined with multiple namespaces",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -9499,12 +8851,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Attribute Wildcard with notQName=##defined",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -9512,12 +8858,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Basic test of ##defined",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -9755,12 +9095,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Attribute Wildcard with notQName=##defined",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -9768,12 +9102,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Valid restriction of wildcard",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -10011,12 +9339,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Attribute Wildcard with notQName=##defined",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -10024,12 +9346,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Valid restriction of wildcard",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -10267,12 +9583,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Attribute Wildcard with notQName=##defined",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -10280,12 +9590,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Invalid restriction of wildcard",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -10358,12 +9662,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Attribute Wildcard intersection with notQName=##defined",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -10371,12 +9669,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Both wildcards specify notQName=\"##defined\"",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -10573,12 +9865,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Attribute Wildcard intersection with notQName=##defined",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -10586,12 +9872,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "One wildcard specifies notQName=\"##defined\"",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -10788,12 +10068,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Attribute Wildcard union with notQName=##defined",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -10801,12 +10075,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Both wildcards specify notQName=\"##defined\" so union is expressible",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -11003,12 +10271,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element fails \"dynamic EDC\" test - governing type not substitutable for context-determined type",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -11016,12 +10278,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Schema is valid, instance is not",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -11136,12 +10392,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element fails \"dynamic EDC\" test - lax wildcard",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -11149,12 +10399,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Schema is valid, instance is not",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -11392,12 +10636,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element fails \"dynamic EDC\" test - lax wildcard",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -11405,12 +10643,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Schema is valid, instance is not",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -11648,12 +10880,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element fails \"dynamic EDC\" test - lax wildcard",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -11661,12 +10887,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Schema is valid, instance is not",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -11863,12 +11083,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element fails \"dynamic EDC\" test - lax wildcard",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -11876,12 +11090,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Schema is valid, instance is not",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -12037,12 +11245,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element fails \"dynamic EDC\" test - lax wildcard",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -12050,12 +11252,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Substitutability involving a union",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -12170,12 +11366,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element fails \"dynamic EDC\" test - lax wildcard",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -12183,12 +11373,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Substitutability involving a union",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -12303,12 +11487,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element fails \"dynamic EDC\" test - lax wildcard",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -12316,12 +11494,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Context determined type comes from base type of restriction",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -12436,12 +11608,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element fails \"dynamic EDC\" test - lax wildcard - xs:all content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -12449,12 +11615,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Context determined type comes from base type of restriction",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -12527,12 +11687,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Basic test of notQName=##definedSibling",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -12540,12 +11694,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "notQName=##definedSibling in a sequence content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -12742,12 +11890,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Basic test of notQName=##definedSibling with substitution groups",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -12755,12 +11897,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "notQName=##definedSibling in a sequence content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -12957,12 +12093,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test of notQName=##definedSibling with substitution groups in xs:all content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -12970,12 +12100,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "notQName=##definedSibling in an xs:all content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -13172,12 +12296,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test of wildcards and substitution groups in xs:all content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -13185,12 +12303,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Variant of wild072 without the ##definedSibling, for comparison",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -13387,12 +12499,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Test of openContent wildcards and substitution groups in xs:sequence content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -13400,12 +12506,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Open Content with ##definedSibling",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -13602,12 +12702,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Consistency of governing type declarations between locally-declared elements and wildcards in a content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -13615,12 +12709,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Violation of Element Locally Valid (Complex Type) Rule 5",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -13776,12 +12864,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Consistency of governing type declarations between locally-declared elements and wildcards in a content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -13789,12 +12871,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Violation of Element Locally Valid (Complex Type) Rule 5",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -13950,12 +13026,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Consistency of governing type declarations between locally-declared elements and wildcards in a content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -13963,12 +13033,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Violation of Element Locally Valid (Complex Type) Rule 5, not a problem with a skip wildcard",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -14124,12 +13188,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Consistency of governing type declarations between locally-declared elements and strict wildcards in a content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -14137,12 +13195,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Violation of Element Declarations Consistent (type tables differ)",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -14215,12 +13267,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Consistency of governing type declarations between locally-declared elements and lax wildcards in a content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -14228,12 +13274,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Violation of Element Declarations Consistent",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -14306,12 +13346,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Consistency of governing type declarations between locally-declared elements and lax  wildcards in a content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -14319,12 +13353,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "No violation of Element Declarations Consistent with a skip wildcard",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -14439,12 +13467,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Consistency of governing type declarations between locally-declared elements and strict wildcards in a content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -14452,12 +13474,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Violation of Element Declarations Consistent (type tables differ)",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -14530,12 +13546,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Consistency of governing type declarations between locally-declared elements in a content model",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -14543,12 +13553,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "No violation of Element Declarations Consistent because the type tables are \"the same\"",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -14663,12 +13667,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element Wildcard union with notQName=\"##defined\"",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -14676,12 +13674,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Tests the spec note:\n                Note: When one of the wildcards has defined in {disallowed names} and the other does not, \n                then defined is not included in the union. This may allow QNames that are not allowed by \n                either wildcard. This is to ensure that all unions are expressible. If defined is intended \n                to be included, then it is necessary to have it in both wildcards.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -14837,12 +13829,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Element Wildcard union with notQName=\"##defined\"",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -14850,12 +13836,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": null,
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }

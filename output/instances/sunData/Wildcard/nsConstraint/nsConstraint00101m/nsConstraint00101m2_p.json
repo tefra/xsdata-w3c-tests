@@ -3,10 +3,6 @@
         "qname": "time",
         "text": "14:25:00",
         "tail": null,
-        "ns_map": {
-            "test": "nsConstraint",
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
         "children": [],
         "attributes": {}
     }

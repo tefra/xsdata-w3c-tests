@@ -6,10 +6,6 @@
                 "qname": null,
                 "text": "abc",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "xs": "http://www.w3.org/2001/XMLSchema"
-                },
                 "children": [],
                 "attributes": {}
             }
@@ -19,10 +15,6 @@
                 "qname": null,
                 "text": "abc",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "xs": "http://www.w3.org/2001/XMLSchema"
-                },
                 "children": [],
                 "attributes": {
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}anySimpleType"

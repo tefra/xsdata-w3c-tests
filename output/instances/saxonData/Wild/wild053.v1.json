@@ -4,9 +4,6 @@
         "qname": "zhang",
         "text": null,
         "tail": null,
-        "ns_map": {
-            "z": "http://wild053.org/"
-        },
         "children": [],
         "attributes": {}
     }

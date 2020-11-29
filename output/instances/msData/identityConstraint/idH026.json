@@ -5,11 +5,6 @@
                 "qname": "{fooNS.tempuri.org}a",
                 "text": "1",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "myNS": "myNS.tempuri.org",
-                    "fooNS": "fooNS.tempuri.org"
-                },
                 "children": [],
                 "attributes": {}
             }
@@ -19,11 +14,6 @@
                 "qname": "{fooNS.tempuri.org}a",
                 "text": "11",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "myNS": "myNS.tempuri.org",
-                    "fooNS": "fooNS.tempuri.org"
-                },
                 "children": [],
                 "attributes": {}
             }
@@ -33,11 +23,6 @@
                 "qname": "{fooNS.tempuri.org}a",
                 "text": "111",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "myNS": "myNS.tempuri.org",
-                    "fooNS": "fooNS.tempuri.org"
-                },
                 "children": [],
                 "attributes": {}
             }
@@ -47,11 +32,6 @@
                 "qname": "{fooNS.tempuri.org}a",
                 "text": "11.0",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "myNS": "myNS.tempuri.org",
-                    "fooNS": "fooNS.tempuri.org"
-                },
                 "children": [],
                 "attributes": {}
             }

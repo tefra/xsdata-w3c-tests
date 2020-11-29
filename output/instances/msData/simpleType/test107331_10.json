@@ -22,10 +22,6 @@
                 "qname": null,
                 "text": "abc",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "xs": "http://www.w3.org/2001/XMLSchema"
-                },
                 "children": [],
                 "attributes": {}
             }
@@ -35,10 +31,6 @@
                 "qname": null,
                 "text": "123",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "xs": "http://www.w3.org/2001/XMLSchema"
-                },
                 "children": [],
                 "attributes": {
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}int"
@@ -50,10 +42,6 @@
                 "qname": null,
                 "text": "4.56",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "xs": "http://www.w3.org/2001/XMLSchema"
-                },
                 "children": [],
                 "attributes": {
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}float"
@@ -65,10 +53,6 @@
                 "qname": null,
                 "text": "this is a string",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "xs": "http://www.w3.org/2001/XMLSchema"
-                },
                 "children": [],
                 "attributes": {
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}string"
@@ -80,10 +64,6 @@
                 "qname": null,
                 "text": "false",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "xs": "http://www.w3.org/2001/XMLSchema"
-                },
                 "children": [],
                 "attributes": {
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}boolean"
@@ -95,10 +75,6 @@
                 "qname": null,
                 "text": "45",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "xs": "http://www.w3.org/2001/XMLSchema"
-                },
                 "children": [],
                 "attributes": {
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}decimal"
@@ -110,10 +86,6 @@
                 "qname": null,
                 "text": "P1347Y",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "xs": "http://www.w3.org/2001/XMLSchema"
-                },
                 "children": [],
                 "attributes": {
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}duration"
@@ -125,10 +97,6 @@
                 "qname": null,
                 "text": "1999-05-31T13:20:00-05:00",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "xs": "http://www.w3.org/2001/XMLSchema"
-                },
                 "children": [],
                 "attributes": {
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}dateTime"
@@ -140,10 +108,6 @@
                 "qname": null,
                 "text": "13:20:00-05:00",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "xs": "http://www.w3.org/2001/XMLSchema"
-                },
                 "children": [],
                 "attributes": {
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}time"
@@ -155,10 +119,6 @@
                 "qname": null,
                 "text": "1999-05-31",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "xs": "http://www.w3.org/2001/XMLSchema"
-                },
                 "children": [],
                 "attributes": {
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}date"
@@ -170,10 +130,6 @@
                 "qname": null,
                 "text": "1999",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "xs": "http://www.w3.org/2001/XMLSchema"
-                },
                 "children": [],
                 "attributes": {
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}gYear"
@@ -185,10 +141,6 @@
                 "qname": null,
                 "text": "--02-13",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "xs": "http://www.w3.org/2001/XMLSchema"
-                },
                 "children": [],
                 "attributes": {
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}gMonthDay"
@@ -200,10 +152,6 @@
                 "qname": null,
                 "text": "abcd",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "xs": "http://www.w3.org/2001/XMLSchema"
-                },
                 "children": [],
                 "attributes": {
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}hexBinary"
@@ -215,10 +163,6 @@
                 "qname": null,
                 "text": "http://tempuri",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "xs": "http://www.w3.org/2001/XMLSchema"
-                },
                 "children": [],
                 "attributes": {
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}anyURI"
@@ -230,10 +174,6 @@
                 "qname": null,
                 "text": "123",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "xs": "http://www.w3.org/2001/XMLSchema"
-                },
                 "children": [],
                 "attributes": {
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}anySimpleType"
@@ -245,10 +185,6 @@
                 "qname": null,
                 "text": "123",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "xs": "http://www.w3.org/2001/XMLSchema"
-                },
                 "children": [],
                 "attributes": {
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}anyType"

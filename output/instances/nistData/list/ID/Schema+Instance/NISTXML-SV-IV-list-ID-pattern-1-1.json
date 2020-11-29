@@ -3,10 +3,6 @@
         "qname": "{NISTSchema-SV-IV-list-ID-pattern-1-NS}NISTSchema-SV-IV-list-ID-pattern-1",
         "text": "yof tlack.capabilities.computer-via_own-implementation-specifi _technical-influence.joint-mecha tsuch. dboth_infra sfor.projector_a_the-that.recent.information-who kspecifications_specif",
         "tail": null,
-        "ns_map": {
-            "null": "NISTSchema-SV-IV-list-ID-pattern-1-NS",
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
         "children": [],
         "attributes": {}
     }

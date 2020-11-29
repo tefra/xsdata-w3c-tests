@@ -4,11 +4,6 @@
             "qname": "{a}b",
             "text": "test",
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "tns": "http://xsdtesting"
-            },
             "children": [],
             "attributes": {}
         },
@@ -16,11 +11,6 @@
             "qname": "{b}b",
             "text": "test",
             "tail": null,
-            "ns_map": {
-                "a": "b",
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "tns": "http://xsdtesting"
-            },
             "children": [],
             "attributes": {}
         },
@@ -28,11 +18,6 @@
             "qname": "{http://xsdtesting}bar",
             "text": "test",
             "tail": null,
-            "ns_map": {
-                "a": "http://xsdtesting",
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "tns": "http://xsdtesting"
-            },
             "children": [],
             "attributes": {}
         },
@@ -40,10 +25,6 @@
             "qname": "local",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "tns": "http://xsdtesting"
-            },
             "children": [],
             "attributes": {}
         },
@@ -51,11 +32,6 @@
             "qname": "{a}b",
             "text": "test",
             "tail": null,
-            "ns_map": {
-                "a": "a",
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "tns": "http://xsdtesting"
-            },
             "children": [],
             "attributes": {}
         },
@@ -63,11 +39,6 @@
             "qname": "{b}b",
             "text": "test",
             "tail": null,
-            "ns_map": {
-                "a": "b",
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "tns": "http://xsdtesting"
-            },
             "children": [],
             "attributes": {}
         },
@@ -75,11 +46,6 @@
             "qname": "{http://xsdtesting}bar",
             "text": "test",
             "tail": null,
-            "ns_map": {
-                "a": "http://xsdtesting",
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "tns": "http://xsdtesting"
-            },
             "children": [],
             "attributes": {}
         },
@@ -87,10 +53,6 @@
             "qname": "local",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                "tns": "http://xsdtesting"
-            },
             "children": [],
             "attributes": {}
         }

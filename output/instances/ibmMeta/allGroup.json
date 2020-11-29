@@ -8,11 +8,6 @@
                             "qname": "Description",
                             "text": "Test set for All Group Limited",
                             "tail": null,
-                            "ns_map": {
-                                "ts": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                "xlink": "http://www.w3.org/1999/xlink"
-                            },
                             "children": [],
                             "attributes": {}
                         }

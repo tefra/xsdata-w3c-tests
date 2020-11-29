@@ -3,10 +3,6 @@
         "qname": "{NISTSchema-SV-IV-list-ID-minLength-5-NS}NISTSchema-SV-IV-list-ID-minLength-5",
         "text": "_subject.p cthe_led.a _approach_ _applicati sprovided- aunderstan irepositor wrepositor dbenefits. nand_trans",
         "tail": null,
-        "ns_map": {
-            "null": "NISTSchema-SV-IV-list-ID-minLength-5-NS",
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
         "children": [],
         "attributes": {}
     }

@@ -4,7 +4,6 @@
             "qname": "{urn:test}A",
             "text": "",
             "tail": null,
-            "ns_map": {},
             "children": [],
             "attributes": {}
         }

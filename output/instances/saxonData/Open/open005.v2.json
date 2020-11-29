@@ -3,15 +3,11 @@
         "qname": null,
         "text": null,
         "tail": null,
-        "ns_map": {},
         "children": [
             {
                 "qname": "{http://open.com/}extra",
                 "text": "42",
                 "tail": null,
-                "ns_map": {
-                    "null": "http://open.com/"
-                },
                 "children": [],
                 "attributes": {}
             },
@@ -19,9 +15,6 @@
                 "qname": "{http://open.com/}extra",
                 "text": "43",
                 "tail": null,
-                "ns_map": {
-                    "null": "http://open.com/"
-                },
                 "children": [],
                 "attributes": {}
             },
@@ -29,9 +22,6 @@
                 "qname": "{http://open.com/}extra",
                 "text": "44",
                 "tail": null,
-                "ns_map": {
-                    "null": "http://open.com/"
-                },
                 "children": [],
                 "attributes": {}
             },
@@ -39,9 +29,6 @@
                 "qname": "{http://open.com/}extra",
                 "text": "45",
                 "tail": null,
-                "ns_map": {
-                    "null": "http://open.com/"
-                },
                 "children": [],
                 "attributes": {}
             },
@@ -49,9 +36,6 @@
                 "qname": "{http://open.com/}extra",
                 "text": "46",
                 "tail": null,
-                "ns_map": {
-                    "null": "http://open.com/"
-                },
                 "children": [],
                 "attributes": {}
             },
@@ -59,9 +43,6 @@
                 "qname": "{http://open.com/}extra",
                 "text": "47",
                 "tail": null,
-                "ns_map": {
-                    "null": "http://open.com/"
-                },
                 "children": [],
                 "attributes": {}
             }

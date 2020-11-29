@@ -3,10 +3,6 @@
         "qname": "{NISTSchema-SV-IV-atomic-ID-length-2-NS}NISTSchema-SV-IV-atomic-ID-length-2",
         "text": "msolutions-and.sense_mechanism_a-of-this.need-gain_used.w",
         "tail": null,
-        "ns_map": {
-            "null": "NISTSchema-SV-IV-atomic-ID-length-2-NS",
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
         "children": [],
         "attributes": {}
     }

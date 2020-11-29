@@ -3,10 +3,6 @@
         "qname": "{NISTSchema-SV-IV-list-ID-minLength-1-NS}NISTSchema-SV-IV-list-ID-minLength-1",
         "text": "nfor_standardi _and.by_for.al pmust_retrieva dand.to-a-filt oas_process.ne efollowing_rev na-distributed",
         "tail": null,
-        "ns_map": {
-            "null": "NISTSchema-SV-IV-list-ID-minLength-1-NS",
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
         "children": [],
         "attributes": {}
     }

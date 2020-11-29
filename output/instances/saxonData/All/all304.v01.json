@@ -7,10 +7,6 @@
             "qname": "{http://one.com/}one",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "n1": "http://one.com/",
-                "n2": "http://two.com/"
-            },
             "children": [],
             "attributes": {}
         },
@@ -18,10 +14,6 @@
             "qname": "{http://one.com/}three",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "n1": "http://one.com/",
-                "n2": "http://two.com/"
-            },
             "children": [],
             "attributes": {}
         }
@@ -33,10 +25,6 @@
             "qname": "{http://two.com/}two",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "n1": "http://one.com/",
-                "n2": "http://two.com/"
-            },
             "children": [],
             "attributes": {}
         },
@@ -44,10 +32,6 @@
             "qname": "{http://two.com/}four",
             "text": null,
             "tail": null,
-            "ns_map": {
-                "n1": "http://one.com/",
-                "n2": "http://two.com/"
-            },
             "children": [],
             "attributes": {}
         }

@@ -3,10 +3,6 @@
         "qname": "{NISTSchema-SV-IV-atomic-ID-pattern-4-NS}NISTSchema-SV-IV-atomic-ID-pattern-4",
         "text": "kvertical-for.al",
         "tail": null,
-        "ns_map": {
-            "null": "NISTSchema-SV-IV-atomic-ID-pattern-4-NS",
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
         "children": [],
         "attributes": {}
     }

@@ -11,12 +11,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "All model group with extended minOccurs and maxOccurs values",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -24,12 +18,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "All model group with extended minOccurs and maxOccurs values",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -267,12 +255,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "All model group with substitution groups",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -280,12 +262,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "All model group with extended minOccurs and maxOccurs values",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -523,12 +499,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "All model group with mixed content with extended minOccurs and maxOccurs values",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -536,12 +506,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "All model group with mixed content with extended minOccurs and maxOccurs values",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -738,12 +702,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "All model group with nillable=\"true\"",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -751,12 +709,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Test cases involving xsi:nil=\"true\" or \"false\"",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -994,12 +946,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "All model group with two xs:any wildcards",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1007,12 +953,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Test cases matching and non-matching wildcards",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1332,12 +1272,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "All model group, test on children",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1345,12 +1279,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Test that each child of an all group is validated against the right type",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1629,12 +1557,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "All model group with a nested xs:group reference",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1642,12 +1564,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "All model group with with a nested xs:group reference (otherwise same as all001)",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1885,12 +1801,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "All model group with an incorrect nested xs:group reference",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1898,12 +1808,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "All model group with with an incorrect nested xs:group reference",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -1976,12 +1880,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "All model group with an incorrect nested xs:group reference",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -1989,12 +1887,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "All model group with with an incorrect nested xs:group reference",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2067,12 +1959,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "All model group with an incorrect nested xs:group reference",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2080,12 +1966,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "All model group with with an incorrect nested xs:group reference",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2158,12 +2038,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "All model group with an incorrect nested xs:group reference",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2171,12 +2045,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "All model group with with an incorrect nested xs:group reference",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2249,12 +2117,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:all",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2262,12 +2124,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Simple valid all:all subsumption",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2340,12 +2196,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:all",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2353,12 +2203,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Simple invalid all:all subsumption",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2431,12 +2275,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:all",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2444,12 +2282,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Simple invalid all:all subsumption",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2522,12 +2354,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:all",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2535,12 +2361,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Simple invalid all:all subsumption",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2613,12 +2433,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:all",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2626,12 +2440,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Simple invalid all:all subsumption",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2704,12 +2512,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:all",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2717,12 +2519,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Valid all:all subsumption using named model groups",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2801,12 +2597,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:sequence",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2814,12 +2604,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Simple valid all:sequence subsumption",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2898,12 +2682,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:sequence",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -2911,12 +2689,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Simple invalid all:sequence subsumption",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -2995,12 +2767,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:sequence",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3008,12 +2774,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Simple invalid all:sequence subsumption",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3092,12 +2852,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:sequence",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3105,12 +2859,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Simple invalid all:sequence subsumption",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3189,12 +2937,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:sequence",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3202,12 +2944,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Simple invalid all:sequence subsumption",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3286,12 +3022,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:sequence",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3299,12 +3029,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Valid all:sequence subsumption; one element appears twice in sequence",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3383,12 +3107,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:sequence",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3396,12 +3114,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Valid all:sequence subsumption; derived sequence is a single element particle",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3480,12 +3192,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:sequence",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3493,12 +3199,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Valid all:sequence subsumption; derived sequence is a single wildcard particle",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3577,12 +3277,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:all",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3590,12 +3284,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Valid all:all subsumption involving substitution group",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3668,12 +3356,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:all",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3681,12 +3363,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Valid all:all subsumption involving substitution group",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3759,12 +3435,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:all",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3772,12 +3442,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Invalid all:all subsumption involving substitution group",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3850,12 +3514,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:all",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3863,12 +3521,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Invalid all:all subsumption involving substitution group",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -3941,12 +3593,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:all",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -3954,12 +3600,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Valid all:all subsumption involving substitution group",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4032,12 +3672,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:all",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4045,12 +3679,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Valid all:all subsumption involving apparent substitution group",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4123,12 +3751,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:all",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4136,12 +3758,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Invalid all:all subsumption, child element type wrong",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4214,12 +3830,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:all",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4227,12 +3837,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Valid all:all subsumption involving two wildcards",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4311,12 +3915,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:all",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4324,12 +3922,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Invalid all:all subsumption involving two wildcards",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4408,12 +4000,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:all",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4421,12 +4007,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Valid all:all subsumption; one wildcard in the base type covers two in the derived type",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4505,12 +4085,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:choice",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4518,12 +4092,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Valid all:choice subsumption",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4602,12 +4170,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:choice",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4615,12 +4177,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Valid all:choice subsumption",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4699,12 +4255,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:choice - invalid",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4712,12 +4262,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Invalid all:choice subsumption in third branch",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4796,12 +4340,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:sequence/choice - valid but difficult",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4809,12 +4347,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Valid all:sequence/choice subsumption",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4887,12 +4419,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:all",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4900,12 +4426,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Invalid all:all subsumption; one wildcard in the base type covers two in the derived type,\n                 but the maxOccurs is too small",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -4984,12 +4504,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:all",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -4997,12 +4511,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Invalid all:all subsumption; one wildcard in the base type covers two in the derived type,\n                 but the minOccurs is too large",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5081,12 +4589,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:all",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5094,12 +4596,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Valid all:all subsumption; pathologically overlapping wildcards",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5178,12 +4674,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:all",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5191,12 +4681,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Valid all:all subsumption; pathologically overlapping wildcards",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5275,12 +4759,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:all UPA violation: two elements with same name",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5288,12 +4766,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "UPA violation: two elements with same name",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5360,12 +4832,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:all UPA violation: one element in substitution group of another",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5373,12 +4839,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "UPA violation: one element in substitution group of another",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5445,12 +4905,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:all UPA violation: one element in substitution group of two others",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5458,12 +4912,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "UPA violation: one element in substitution group of two others",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5530,12 +4978,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:all UPA violation: two overlapping wildcards",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5543,12 +4985,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "xs:all UPA violation: two overlapping wildcards",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5621,12 +5057,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Subsumption - all:all",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5634,12 +5064,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Invalid all:all subsumption; pathologically overlapping wildcards",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5718,12 +5142,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "All model group derived by extension from another all model group",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5731,12 +5149,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allowed in 1.1",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -5974,12 +5386,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:all invalid extension, overlapping particles",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -5987,12 +5393,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "xs:all UPA violation: two overlapping element particles",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6065,12 +5465,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:all invalid extension, overlappping particles",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6078,12 +5472,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "xs:all UPA violation: two element particles have overlapping substitution groups",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6156,12 +5544,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "All model group derived by extension from another all model group",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6169,12 +5551,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allowed in 1.1",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6453,12 +5829,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:all invalid extension, overlappping wildcard particles",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6466,12 +5836,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "xs:all UPA violation: two wildcard particles have overlapping namespaces",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6544,12 +5908,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "All model group derived by extension from another all model group;\n                      mixed=\"true\" in extension.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6557,12 +5915,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allowed in 1.1",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6677,12 +6029,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "All model group derived by extension from another all model group;\n                      mixed=\"false\" in extension.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6690,12 +6036,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allowed in 1.1",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6810,12 +6150,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "xs:all extension of \"mixed empty\" content",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6823,12 +6157,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Currently invalid, but see bug 6202 against the spec.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6901,12 +6229,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Even in 1.1, xs:all cannot extend xs:sequence",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -6914,12 +6236,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Result of extension is invalid",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -6992,12 +6308,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Even in 1.1, xs:sequence cannot extend xs:all",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -7005,12 +6315,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Result of extension is invalid",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -7083,12 +6387,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Even in 1.1, xs:sequence cannot extend xs:all, even if the xs:all is a singleton",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -7096,12 +6394,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Result of extension is invalid",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -7174,12 +6466,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "Even in 1.1, xs:sequence cannot extend xs:all, even if the xs:all is a singleton",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -7187,12 +6473,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Result of extension is invalid",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -7265,12 +6545,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "When xs:all extends xs:all, the minOccurs must be the same.",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -7278,12 +6552,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Result of extension is invalid. Test case from Priscilla Walmsley",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }
@@ -7356,12 +6624,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
                                     "text": "All model group derived by extension from another all model group, both minOccurs=\"0\"",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 },
@@ -7369,12 +6631,6 @@
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     "text": "Allowed in 1.1. Test case from Priscilla Walmsley",
                                     "tail": null,
-                                    "ns_map": {
-                                        "null": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
-                                        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                                        "xlink": "http://www.w3.org/1999/xlink",
-                                        "saxon": "http://saxon.sf.net/"
-                                    },
                                     "children": [],
                                     "attributes": {}
                                 }

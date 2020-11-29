@@ -4,10 +4,6 @@
             "qname": null,
             "text": "1",
             "tail": null,
-            "ns_map": {
-                "test": "ElemDecl/scope",
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-            },
             "children": [],
             "attributes": {}
         }

@@ -6,11 +6,6 @@
                     "qname": "{b}test",
                     "text": null,
                     "tail": null,
-                    "ns_map": {
-                        "a": "a",
-                        "b": "b",
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                    },
                     "children": [],
                     "attributes": {
                         "b1": "a"
@@ -22,11 +17,6 @@
                     "qname": "{b}test",
                     "text": null,
                     "tail": null,
-                    "ns_map": {
-                        "a": "a",
-                        "b": "b",
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                    },
                     "children": [],
                     "attributes": {
                         "b1": "a"
@@ -38,12 +28,6 @@
                     "qname": "{other}anyOtherGarbage",
                     "text": null,
                     "tail": null,
-                    "ns_map": {
-                        "null": "other",
-                        "a": "a",
-                        "b": "b",
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                    },
                     "children": [],
                     "attributes": {}
                 }
@@ -55,11 +39,6 @@
                     "qname": "{b}test",
                     "text": null,
                     "tail": null,
-                    "ns_map": {
-                        "a": "a",
-                        "b": "b",
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                    },
                     "children": [],
                     "attributes": {
                         "b1": "a"
@@ -71,12 +50,6 @@
                     "qname": "{other}anyOtherGarbage",
                     "text": null,
                     "tail": null,
-                    "ns_map": {
-                        "null": "other",
-                        "a": "a",
-                        "b": "b",
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                    },
                     "children": [],
                     "attributes": {}
                 }
@@ -86,12 +59,6 @@
                     "qname": "{other}anyOtherGarbage",
                     "text": null,
                     "tail": null,
-                    "ns_map": {
-                        "null": "other",
-                        "a": "a",
-                        "b": "b",
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                    },
                     "children": [],
                     "attributes": {}
                 }
@@ -103,11 +70,6 @@
                     "qname": "{b}test",
                     "text": null,
                     "tail": null,
-                    "ns_map": {
-                        "a": "a",
-                        "b": "b",
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                    },
                     "children": [],
                     "attributes": {
                         "b1": "a"
@@ -119,11 +81,6 @@
                     "qname": "{b}test",
                     "text": null,
                     "tail": null,
-                    "ns_map": {
-                        "a": "a",
-                        "b": "b",
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                    },
                     "children": [],
                     "attributes": {
                         "b1": "a"
@@ -135,11 +92,6 @@
                     "qname": "{b}test",
                     "text": null,
                     "tail": null,
-                    "ns_map": {
-                        "a": "a",
-                        "b": "b",
-                        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-                    },
                     "children": [],
                     "attributes": {}
                 }

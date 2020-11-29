@@ -5,10 +5,6 @@
                 "qname": null,
                 "text": "1",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "xsd": "http://www.w3.org/2001/XMLSchema"
-                },
                 "children": [],
                 "attributes": {
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}boolean"
@@ -20,10 +16,6 @@
                 "qname": null,
                 "text": "1",
                 "tail": null,
-                "ns_map": {
-                    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-                    "xsd": "http://www.w3.org/2001/XMLSchema"
-                },
                 "children": [],
                 "attributes": {
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}decimal"

@@ -3,13 +3,11 @@
         "qname": null,
         "text": null,
         "tail": null,
-        "ns_map": {},
         "children": [
             {
                 "qname": "j",
                 "text": "banana",
                 "tail": null,
-                "ns_map": {},
                 "children": [],
                 "attributes": {}
             },
@@ -17,7 +15,6 @@
                 "qname": "a",
                 "text": "17",
                 "tail": null,
-                "ns_map": {},
                 "children": [],
                 "attributes": {}
             }

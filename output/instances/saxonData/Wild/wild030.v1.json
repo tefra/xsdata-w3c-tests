@@ -8,7 +8,6 @@
             "qname": "disk",
             "text": "Seagate",
             "tail": null,
-            "ns_map": {},
             "children": [],
             "attributes": {}
         },
@@ -16,7 +15,6 @@
             "qname": "mouse",
             "text": "USB",
             "tail": null,
-            "ns_map": {},
             "children": [],
             "attributes": {}
         }

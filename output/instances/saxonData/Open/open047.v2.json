@@ -10,9 +10,6 @@
         "qname": "{http://closed.com/}x",
         "text": null,
         "tail": null,
-        "ns_map": {
-            "null": "http://closed.com/"
-        },
         "children": [],
         "attributes": {}
     }

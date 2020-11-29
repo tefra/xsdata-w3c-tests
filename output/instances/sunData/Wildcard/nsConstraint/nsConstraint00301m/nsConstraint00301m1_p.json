@@ -4,12 +4,6 @@
             "qname": "{ns_test1}date",
             "text": "2002-04-29",
             "tail": null,
-            "ns_map": {
-                "test": "nsConstraint",
-                "test1": "ns_test1",
-                "test2": "ns_test2",
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-            },
             "children": [],
             "attributes": {}
         },
@@ -17,12 +11,6 @@
             "qname": "{ns_test2}time",
             "text": "15:15:00",
             "tail": null,
-            "ns_map": {
-                "test": "nsConstraint",
-                "test1": "ns_test1",
-                "test2": "ns_test2",
-                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-            },
             "children": [],
             "attributes": {}
         }

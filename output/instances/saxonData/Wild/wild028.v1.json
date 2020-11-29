@@ -4,9 +4,6 @@
             "qname": "adam",
             "text": "m",
             "tail": null,
-            "ns_map": {
-                "c": "http://genesis.com/"
-            },
             "children": [],
             "attributes": {}
         },
@@ -14,10 +11,6 @@
             "qname": "{http://devil.com/}eve",
             "text": "f",
             "tail": null,
-            "ns_map": {
-                "evil": "http://devil.com/",
-                "c": "http://genesis.com/"
-            },
             "children": [],
             "attributes": {}
         },
@@ -25,9 +18,6 @@
             "qname": "{http://genesis.com/}cain",
             "text": "m",
             "tail": null,
-            "ns_map": {
-                "c": "http://genesis.com/"
-            },
             "children": [],
             "attributes": {}
         },
@@ -35,9 +25,6 @@
             "qname": "{http://genesis.com/}abel",
             "text": "m",
             "tail": null,
-            "ns_map": {
-                "c": "http://genesis.com/"
-            },
             "children": [],
             "attributes": {}
         }

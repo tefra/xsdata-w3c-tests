@@ -3,10 +3,6 @@
         "qname": "bar",
         "text": "foo bar",
         "tail": null,
-        "ns_map": {
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-            "target": "http://www.w3.org/1999/xhtml"
-        },
         "children": [],
         "attributes": {}
     }

@@ -3,10 +3,6 @@
         "qname": "{NISTSchema-SV-IV-atomic-ID-maxLength-3-NS}NISTSchema-SV-IV-atomic-ID-maxLength-3",
         "text": "dthat_known-a.been-enable_wor",
         "tail": null,
-        "ns_map": {
-            "null": "NISTSchema-SV-IV-atomic-ID-maxLength-3-NS",
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
         "children": [],
         "attributes": {}
     }

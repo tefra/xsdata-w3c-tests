@@ -3,10 +3,6 @@
         "qname": "{NISTSchema-SV-IV-atomic-ID-pattern-2-NS}NISTSchema-SV-IV-atomic-ID-pattern-2",
         "text": "iversions.visibly_and.languages-use.the-versions-tools.c",
         "tail": null,
-        "ns_map": {
-            "null": "NISTSchema-SV-IV-atomic-ID-pattern-2-NS",
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
         "children": [],
         "attributes": {}
     }

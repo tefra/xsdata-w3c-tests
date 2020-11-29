@@ -3,10 +3,6 @@
         "qname": "{a}xx",
         "text": "2",
         "tail": null,
-        "ns_map": {
-            "null": "a",
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
         "children": [],
         "attributes": {}
     }

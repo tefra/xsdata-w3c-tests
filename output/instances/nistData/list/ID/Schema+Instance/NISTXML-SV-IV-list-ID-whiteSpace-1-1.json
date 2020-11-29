@@ -3,10 +3,6 @@
         "qname": "{NISTSchema-SV-IV-list-ID-whiteSpace-1-NS}NISTSchema-SV-IV-list-ID-whiteSpace-1",
         "text": "klaunching nof-simpli bdraft_of. lunbiased- gsensors_s _unambiguo",
         "tail": null,
-        "ns_map": {
-            "null": "NISTSchema-SV-IV-list-ID-whiteSpace-1-NS",
-            "xsi": "http://www.w3.org/2001/XMLSchema-instance"
-        },
         "children": [],
         "attributes": {}
     }

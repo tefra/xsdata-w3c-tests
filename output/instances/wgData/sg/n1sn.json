@@ -3,9 +3,6 @@
         "qname": "{http://www.w3.org/XML/2008/xsdl-exx/ns1}n1",
         "text": "Test case for interaction of substitution groups and \n   #definedSibling.",
         "tail": null,
-        "ns_map": {
-            "sg": "http://www.w3.org/XML/2008/xsdl-exx/ns1"
-        },
         "children": [],
         "attributes": {}
     },

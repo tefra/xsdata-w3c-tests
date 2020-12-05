@@ -14,9 +14,32 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - { name: Python 3.7, python: 3.7, os: ubuntu }
-          - { name: Python 3.8, python: 3.8, os: ubuntu }
-          - { name: Python 3.9, python: 3.9-dev, os: ubuntu }
+          - { name: Python 3.7 XML Bindings, python: 3.7, os: ubuntu, env: "py37-xml" }
+          - {
+              name: Python 3.7 JSON Roundtrips,
+              python: 3.7,
+              os: ubuntu,
+              env: "py37-json",
+            }
+          - { name: Python 3.8 XML Bindings, python: 3.8, os: ubuntu, env: "py38-xml" }
+          - {
+              name: Python 3.8 JSON Roundtrips,
+              python: 3.8,
+              os: ubuntu,
+              env: "py38-json",
+            }
+          - {
+              name: Python 3.9 XML Bindings,
+              python: 3.9-dev,
+              os: ubuntu,
+              env: "py39-xml",
+            }
+          - {
+              name: Python 3.9 JSON Roundtrips,
+              python: 3.9-dev,
+              os: ubuntu,
+              env: "py39-json",
+            }
     steps:
       - uses: actions/checkout@v2
         with:
@@ -25,13 +48,9 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: ${{ matrix.python }}
-      - name: Install libxml2
-        if: matrix.python ==  '3.9-dev'
-        run: |
-          sudo apt-get install libxml2-dev libxslt-dev
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip setuptools tox
       - name: Test
         run: |
-          tox -e py
+          tox -e ${{ matrix.env}}

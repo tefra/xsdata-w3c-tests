@@ -9,7 +9,8 @@ class Root:
     """
     :ivar ely_mdunion_a:
     :ivar ely_mdunion_b:
-    :ivar ely_mdunion_c: Tests the simpleType yearMonthDuration used in a unions
+    :ivar ely_mdunion_c: Tests the simpleType yearMonthDuration used in a
+        unions
     """
     class Meta:
         name = "root"

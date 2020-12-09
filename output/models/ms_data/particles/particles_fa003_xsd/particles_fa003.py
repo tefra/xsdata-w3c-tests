@@ -28,7 +28,9 @@ class B:
 
 @dataclass
 class Base:
-    """documentation documentation bar."""
+    """
+    documentation documentation bar.
+    """
     class Meta:
         name = "base"
 

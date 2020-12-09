@@ -115,8 +115,8 @@ class LocatorType:
     :ivar href:
     :ivar role:
     :ivar title_attribute:
-    :ivar label: label is not required, but locators have no particular
-         XLink function if they are not labeled.
+    :ivar label: label is not required, but locators have no particular XLink
+        function if they are not labeled.
     """
     class Meta:
         name = "locatorType"
@@ -218,8 +218,10 @@ class ResourceType:
 
 @dataclass
 class Simple:
-    """Intended for use as the type of user-declared elements to make them simple
-    links."""
+    """
+    Intended for use as the type of user-declared elements to make them simple
+    links.
+    """
     class Meta:
         name = "simple"
 
@@ -290,9 +292,9 @@ class TitleEltType:
     """
     :ivar any_element:
     :ivar type:
-    :ivar lang: xml:lang is not required, but provides much of the
-         motivation for title elements in addition to attributes, and so
-         is provided here for convenience.
+    :ivar lang: xml:lang is not required, but provides much of the motivation
+        for title elements in addition to attributes, and so is provided here
+        for convenience.
     """
     class Meta:
         name = "titleEltType"
@@ -353,12 +355,12 @@ class Title(TitleEltType):
 
 @dataclass
 class Extended:
-    """Intended for use as the type of user-declared elements to make them extended
-    links.
+    """Intended for use as the type of user-declared elements to make them
+    extended links.
 
-    Note that the elements referenced in the content model are all abstract.
-    The intention is that by simply declaring elements with these as their
-    substitutionGroup, all the right things will happen.
+    Note that the elements referenced in the content model are all
+    abstract. The intention is that by simply declaring elements with
+    these as their substitutionGroup, all the right things will happen.
     """
     class Meta:
         name = "extended"

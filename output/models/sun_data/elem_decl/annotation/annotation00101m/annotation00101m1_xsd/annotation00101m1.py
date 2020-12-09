@@ -6,7 +6,9 @@ __NAMESPACE__ = "ElemDecl/annotation"
 
 @dataclass
 class Test:
-    """This is an element declaration."""
+    """
+    This is an element declaration.
+    """
     class Meta:
         namespace = "ElemDecl/annotation"
 

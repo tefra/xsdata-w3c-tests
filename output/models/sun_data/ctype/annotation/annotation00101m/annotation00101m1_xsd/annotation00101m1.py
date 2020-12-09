@@ -6,7 +6,9 @@ __NAMESPACE__ = "annotation"
 
 @dataclass
 class Test:
-    """This is a complex type definition."""
+    """
+    This is a complex type definition.
+    """
 
 
 @dataclass

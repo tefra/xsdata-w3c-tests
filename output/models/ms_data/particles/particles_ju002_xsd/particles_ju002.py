@@ -11,7 +11,9 @@ class B:
         default_factory=list,
         metadata={
             "type": "Wildcard",
-            "namespace": "##local foo ##targetNamespace http://importedXSD bar",
+            "namespace": (
+                "##local foo ##targetNamespace http://importedXSD bar"
+            ),
             "min_occurs": 1,
             "max_occurs": 10,
         }

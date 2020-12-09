@@ -3,7 +3,9 @@ from dataclasses import dataclass
 
 @dataclass
 class FooType:
-    """Annotation information."""
+    """
+    Annotation information.
+    """
     class Meta:
         name = "fooType"
 

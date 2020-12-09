@@ -24,7 +24,9 @@ class Complex21:
 
 @dataclass
 class SubstHead:
-    """This is defined to be of type 'xsd:anyType'."""
+    """
+    This is defined to be of type 'xsd:anyType'.
+    """
     class Meta:
         name = "substHead"
 

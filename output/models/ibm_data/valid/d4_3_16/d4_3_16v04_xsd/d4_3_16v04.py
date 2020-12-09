@@ -9,7 +9,8 @@ class Root:
     """
     :ivar eld_time_union_a:
     :ivar eld_time_union_b:
-    :ivar eld_time_union_c: Tests the simpleType dateTime, explicitTimezone used in a unions
+    :ivar eld_time_union_c: Tests the simpleType dateTime, explicitTimezone
+        used in a unions
     """
     class Meta:
         name = "root"

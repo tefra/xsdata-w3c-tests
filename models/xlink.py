@@ -115,8 +115,8 @@ class LocatorType:
     :ivar href:
     :ivar role:
     :ivar title_attribute:
-    :ivar label: label is not required, but locators have no particular XLink
-        function if they are not labeled.
+    :ivar label: label is not required, but locators have no particular
+        XLink function if they are not labeled.
     """
     class Meta:
         name = "locatorType"
@@ -292,9 +292,9 @@ class TitleEltType:
     """
     :ivar any_element:
     :ivar type:
-    :ivar lang: xml:lang is not required, but provides much of the motivation
-        for title elements in addition to attributes, and so is provided here
-        for convenience.
+    :ivar lang: xml:lang is not required, but provides much of the
+        motivation for title elements in addition to attributes, and so
+        is provided here for convenience.
     """
     class Meta:
         name = "titleEltType"

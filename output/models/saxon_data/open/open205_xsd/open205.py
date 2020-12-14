@@ -55,7 +55,7 @@ class Doc:
             "required": True,
         }
     )
-    b: Optional[str] = field(
+    b: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",

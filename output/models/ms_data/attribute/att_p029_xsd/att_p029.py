@@ -16,7 +16,7 @@ class Doc:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional[str] = field(
+    elem: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",

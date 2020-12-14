@@ -6,7 +6,7 @@ __NAMESPACE__ = "foo"
 
 @dataclass
 class B:
-    foo: Optional[str] = field(
+    foo: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -18,7 +18,7 @@ class B:
 
 @dataclass
 class Dr:
-    foo: Optional[str] = field(
+    foo: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -30,7 +30,7 @@ class Dr:
 
 @dataclass
 class Drr:
-    foo: Optional[str] = field(
+    foo: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -87,7 +87,7 @@ class Dee(De):
 
 @dataclass
 class Der(De):
-    foo: Optional[str] = field(
+    foo: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",

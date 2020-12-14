@@ -28,7 +28,7 @@ class Doc:
             "type": "Attribute",
         }
     )
-    a: Optional[str] = field(
+    a: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",

@@ -36,7 +36,7 @@ class Doc:
             "namespace": "http://www.w3.org/XML/1998/namespace",
         }
     )
-    a: Optional[str] = field(
+    a: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",

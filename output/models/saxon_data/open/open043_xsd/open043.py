@@ -13,7 +13,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    a: Optional[str] = field(
+    a: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -21,7 +21,7 @@ class Doc:
             "required": True,
         }
     )
-    b: Optional[str] = field(
+    b: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",

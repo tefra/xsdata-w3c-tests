@@ -22,7 +22,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    a: Optional[str] = field(
+    a: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",

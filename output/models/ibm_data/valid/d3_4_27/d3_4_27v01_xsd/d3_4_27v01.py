@@ -8,8 +8,8 @@ __NAMESPACE__ = "http://xstest-tns/schema11_D3_4_27_v01"
 class YMdenumeration(Enum):
     P2_D = "P2D"
     PT54_H3_M2_3_S = "PT54H3M2.3S"
-    P5_DT3_S = "-P5DT3S"
-    PT43_M4_2_S = "-PT43M4.2S"
+    VALUE_P5_DT3_S = "-P5DT3S"
+    VALUE_PT43_M4_2_S = "-PT43M4.2S"
 
 
 @dataclass

@@ -1,9 +1,9 @@
 from output.models.nist_data.list_pkg.qname.schema_instance.nistschema_sv_iv_list_qname_enumeration_1_xsd.nistschema_sv_iv_list_qname_enumeration_1 import (
     NistschemaSvIvListQnameEnumeration1,
     NistschemaSvIvListQnameEnumeration1Type,
-    TypeFromAnRe,
-    TypeIsAllowFourAsToImp,
-    TypeUsedF,
+    FromAnRe,
+    IsAllowFourAsToImp,
+    UsedF,
     AapproachInformationForMetrologyJointFileTheseI,
     AasTheInformationRetrievalOnlyImplementationTech,
     Asolutions,

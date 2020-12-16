@@ -19,7 +19,7 @@ class NistschemaSvIvListQnameEnumeration5Type(Enum):
 
 
 @dataclass
-class TypeAndThe:
+class AndThe:
     class Meta:
         name = "_and.the"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
@@ -33,7 +33,7 @@ class TypeAndThe:
 
 
 @dataclass
-class TypeBackParticipatingFactFactTheUsedRecentOfferOnlyI:
+class BackParticipatingFactFactTheUsedRecentOfferOnlyI:
     class Meta:
         name = "_back.participating.fact_fact_the_used-recent.offer-only_i"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
@@ -47,7 +47,7 @@ class TypeBackParticipatingFactFactTheUsedRecentOfferOnlyI:
 
 
 @dataclass
-class TypeOrganizationsAndWebAndWillDocumentsManipulateFineCanU:
+class OrganizationsAndWebAndWillDocumentsManipulateFineCanU:
     class Meta:
         name = "_organizations-and-web.and-will.documents-manipulate.fine-can-u"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
@@ -61,7 +61,7 @@ class TypeOrganizationsAndWebAndWillDocumentsManipulateFineCanU:
 
 
 @dataclass
-class TypeRevolution:
+class Revolution:
     class Meta:
         name = "_revolution"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
@@ -75,7 +75,7 @@ class TypeRevolution:
 
 
 @dataclass
-class TypeSimulat:
+class Simulat:
     class Meta:
         name = "_simulat"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
@@ -89,7 +89,7 @@ class TypeSimulat:
 
 
 @dataclass
-class TypeTestAnyAndTheToComputingThoseDocumentsTheMe:
+class TestAnyAndTheToComputingThoseDocumentsTheMe:
     class Meta:
         name = "_test_any-and-the_to_computing_those.documents_the.me"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"
@@ -103,7 +103,7 @@ class TypeTestAnyAndTheToComputingThoseDocumentsTheMe:
 
 
 @dataclass
-class TypeWillIncludedOfNewConsortiumTheResourcesHelpAreFor:
+class WillIncludedOfNewConsortiumTheResourcesHelpAreFor:
     class Meta:
         name = "_will.included_of_new.consortium.the-resources-help.are.for_"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-5-NS"

@@ -3,7 +3,7 @@ from typing import Optional
 
 
 @dataclass
-class TypeFoo:
+class Foo:
     class Meta:
         name = "_foo"
 
@@ -20,6 +20,6 @@ class TypeFoo:
 
 
 @dataclass
-class Root(TypeFoo):
+class Root(Foo):
     class Meta:
         name = "root"

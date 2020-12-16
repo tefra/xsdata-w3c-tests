@@ -20,7 +20,7 @@ class FooType:
     class Foo(Enum):
         VALUE_MINUS_1 = -1
         VALUE_0 = 0
-        VALUE_1 = 1
+        VALUE_1_1 = 1
 
 
 @dataclass

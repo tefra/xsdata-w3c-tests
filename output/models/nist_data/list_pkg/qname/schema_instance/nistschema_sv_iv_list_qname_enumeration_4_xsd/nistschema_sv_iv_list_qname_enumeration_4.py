@@ -15,7 +15,7 @@ class NistschemaSvIvListQnameEnumeration4Type(Enum):
 
 
 @dataclass
-class TypeAllThemSemanticsAndToolReferenceAndTheIncludeImprove:
+class AllThemSemanticsAndToolReferenceAndTheIncludeImprove:
     class Meta:
         name = "_all-them-semantics.and_tool-reference.and.the_include-improve"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
@@ -29,7 +29,7 @@ class TypeAllThemSemanticsAndToolReferenceAndTheIncludeImprove:
 
 
 @dataclass
-class TypeAndAddressingPartnershipsAAndDataTool:
+class AndAddressingPartnershipsAAndDataTool:
     class Meta:
         name = "_and-addressing_partnerships.a_and_data_tool"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
@@ -43,7 +43,7 @@ class TypeAndAddressingPartnershipsAAndDataTool:
 
 
 @dataclass
-class TypeContainingUsedVisiblyTestConsortiumsThisSecurityProf:
+class ContainingUsedVisiblyTestConsortiumsThisSecurityProf:
     class Meta:
         name = "_containing_used-visibly_test.consortiums_this-security.prof"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
@@ -57,7 +57,7 @@ class TypeContainingUsedVisiblyTestConsortiumsThisSecurityProf:
 
 
 @dataclass
-class TypeHamperedOnHasBackMeasureAndBrowsersInvestigatio:
+class HamperedOnHasBackMeasureAndBrowsersInvestigatio:
     class Meta:
         name = "_hampered_on_has-back_measure_and_browsers-investigatio"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
@@ -71,7 +71,7 @@ class TypeHamperedOnHasBackMeasureAndBrowsersInvestigatio:
 
 
 @dataclass
-class TypeOfMustInLiesTheRequestingStructureSyst:
+class OfMustInLiesTheRequestingStructureSyst:
     class Meta:
         name = "_of_must_in.lies.the.requesting-structure-syst"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
@@ -85,7 +85,7 @@ class TypeOfMustInLiesTheRequestingStructureSyst:
 
 
 @dataclass
-class TypeSpecificationCalledCorrectio:
+class SpecificationCalledCorrectio:
     class Meta:
         name = "_specification_called.correctio"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"
@@ -99,7 +99,7 @@ class TypeSpecificationCalledCorrectio:
 
 
 @dataclass
-class TypeTestFrameworksTechnicalWirel:
+class TestFrameworksTechnicalWirel:
     class Meta:
         name = "_test-frameworks.technical_wirel"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-4-NS"

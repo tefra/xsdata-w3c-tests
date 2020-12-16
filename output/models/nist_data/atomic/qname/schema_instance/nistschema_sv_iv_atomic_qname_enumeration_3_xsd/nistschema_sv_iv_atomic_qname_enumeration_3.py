@@ -18,7 +18,7 @@ class NistschemaSvIvAtomicQnameEnumeration3Type(Enum):
 
 
 @dataclass
-class TypeLanguagesAndTransformingTechnologiesIsImpa:
+class LanguagesAndTransformingTechnologiesIsImpa:
     class Meta:
         name = "_languages-and-transforming.technologies.is_impa"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-3-NS"

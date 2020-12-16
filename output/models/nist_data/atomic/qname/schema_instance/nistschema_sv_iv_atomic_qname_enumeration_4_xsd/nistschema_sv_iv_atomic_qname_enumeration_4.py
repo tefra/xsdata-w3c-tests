@@ -19,7 +19,7 @@ class NistschemaSvIvAtomicQnameEnumeration4Type(Enum):
 
 
 @dataclass
-class TypeInteroperabilitySLedAlsoSpecificationsProvideWithIsThu:
+class InteroperabilitySLedAlsoSpecificationsProvideWithIsThu:
     class Meta:
         name = "_interoperability.s.led_also-specifications_provide_with.is.thu"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-4-NS"

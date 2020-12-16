@@ -17,7 +17,7 @@ class NistschemaSvIvListQnameEnumeration2Type(Enum):
 
 
 @dataclass
-class TypeFourAn:
+class FourAn:
     class Meta:
         name = "_four_an"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -31,7 +31,7 @@ class TypeFourAn:
 
 
 @dataclass
-class TypeThatRegist:
+class ThatRegist:
     class Meta:
         name = "_that.regist"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -45,7 +45,7 @@ class TypeThatRegist:
 
 
 @dataclass
-class TypeUponOfCalledEnableOf:
+class UponOfCalledEnableOf:
     class Meta:
         name = "_upon.of-called-enable-of"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -59,7 +59,7 @@ class TypeUponOfCalledEnableOf:
 
 
 @dataclass
-class TypeUsingTheTheRepositoryAdCanTheComputingOfAutomatedMak:
+class UsingTheTheRepositoryAdCanTheComputingOfAutomatedMak:
     class Meta:
         name = "_using.the.the-repository.ad_can.the_computing-of_automated.mak"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"
@@ -73,7 +73,7 @@ class TypeUsingTheTheRepositoryAdCanTheComputingOfAutomatedMak:
 
 
 @dataclass
-class TypeWithFedWi:
+class WithFedWi:
     class Meta:
         name = "_with.fed_wi"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-2-NS"

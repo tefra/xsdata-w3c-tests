@@ -16,7 +16,7 @@ class NistschemaSvIvListQnameEnumeration3Type(Enum):
 
 
 @dataclass
-class TypeCompetenceCommerceSeriesOfC:
+class CompetenceCommerceSeriesOfC:
     class Meta:
         name = "_competence-commerce.series_of.c"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
@@ -30,7 +30,7 @@ class TypeCompetenceCommerceSeriesOfC:
 
 
 @dataclass
-class TypeCorrectnessOfInteroperabilityBrowsersOfNetworksAsA:
+class CorrectnessOfInteroperabilityBrowsersOfNetworksAsA:
     class Meta:
         name = "_correctness_of-interoperability-browsers_of_networks_as_a"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
@@ -44,7 +44,7 @@ class TypeCorrectnessOfInteroperabilityBrowsersOfNetworksAsA:
 
 
 @dataclass
-class TypeFileFilterAReviewedThoseCreationWellFor:
+class FileFilterAReviewedThoseCreationWellFor:
     class Meta:
         name = "_file-filter-a_reviewed.those.creation_well-for"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
@@ -58,7 +58,7 @@ class TypeFileFilterAReviewedThoseCreationWellFor:
 
 
 @dataclass
-class TypeThemSemanticsProblemsVirtuallyWideTheToolsTesti:
+class ThemSemanticsProblemsVirtuallyWideTheToolsTesti:
     class Meta:
         name = "_them.semantics_problems.virtually.wide_the.tools_testi"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
@@ -72,7 +72,7 @@ class TypeThemSemanticsProblemsVirtuallyWideTheToolsTesti:
 
 
 @dataclass
-class TypeToInTheVirtuall:
+class ToInTheVirtuall:
     class Meta:
         name = "_to_in_the-virtuall"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"
@@ -86,7 +86,7 @@ class TypeToInTheVirtuall:
 
 
 @dataclass
-class TypeWillRepositoryEffectivelyObjectBuildWirelessMetrol:
+class WillRepositoryEffectivelyObjectBuildWirelessMetrol:
     class Meta:
         name = "_will.repository_effectively-object-build-wireless-metrol"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-3-NS"

@@ -17,7 +17,7 @@ class NistschemaSvIvListQnameEnumeration1Type(Enum):
 
 
 @dataclass
-class TypeFromAnRe:
+class FromAnRe:
     class Meta:
         name = "_from-an.re"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
@@ -31,7 +31,7 @@ class TypeFromAnRe:
 
 
 @dataclass
-class TypeIsAllowFourAsToImp:
+class IsAllowFourAsToImp:
     class Meta:
         name = "_is-allow.four-as_to-imp"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"
@@ -45,7 +45,7 @@ class TypeIsAllowFourAsToImp:
 
 
 @dataclass
-class TypeUsedF:
+class UsedF:
     class Meta:
         name = "_used.f"
         namespace = "NISTSchema-SV-IV-list-QName-enumeration-1-NS"

@@ -16,7 +16,7 @@ class NistschemaSvIvAtomicQnameEnumeration5Type(Enum):
 
 
 @dataclass
-class TypeForFilesSupplyForToMustMeasur:
+class ForFilesSupplyForToMustMeasur:
     class Meta:
         name = "_for-files.supply.for.to-must_measur"
         namespace = "NISTSchema-SV-IV-atomic-QName-enumeration-5-NS"

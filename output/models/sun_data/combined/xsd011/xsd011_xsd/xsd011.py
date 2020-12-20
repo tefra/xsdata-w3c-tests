@@ -73,6 +73,7 @@ class Root:
                 {
                     "name": "nillable2",
                     "type": List[int],
+                    "default_factory": list,
                     "min_length": 2,
                     "nillable": True,
                     "tokens": True,

@@ -18,6 +18,7 @@ class Root:
                 {
                     "name": "child1",
                     "type": List[str],
+                    "default_factory": list,
                     "min_length": 5,
                     "tokens": True,
                 },

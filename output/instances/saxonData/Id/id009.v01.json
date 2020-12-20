@@ -2,10 +2,7 @@
     "node": [
         {
             "node_or_id_or_idref": [
-                {
-                    "qname": "id",
-                    "value": "aaa"
-                },
+                "aaa",
                 {
                     "qname": "idref",
                     "value": "ccc"
@@ -14,10 +11,7 @@
         },
         {
             "node_or_id_or_idref": [
-                {
-                    "qname": "id",
-                    "value": "bbb"
-                },
+                "bbb",
                 {
                     "qname": "idref",
                     "value": "aaa"
@@ -26,10 +20,7 @@
         },
         {
             "node_or_id_or_idref": [
-                {
-                    "qname": "id",
-                    "value": "ccc"
-                },
+                "ccc",
                 {
                     "qname": "idref",
                     "value": "bbb"
@@ -38,10 +29,7 @@
         },
         {
             "node_or_id_or_idref": [
-                {
-                    "qname": "id",
-                    "value": null
-                },
+                "",
                 {
                     "qname": "idref",
                     "value": null

@@ -29,6 +29,7 @@ class Root:
                     "name": "ElementRefs",
                     "type": List[str],
                     "namespace": "",
+                    "default_factory": list,
                     "tokens": True,
                 },
             ),

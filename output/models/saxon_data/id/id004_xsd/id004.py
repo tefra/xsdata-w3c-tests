@@ -19,6 +19,7 @@ class Node:
                 {
                     "name": "id",
                     "type": List[str],
+                    "default_factory": list,
                     "tokens": True,
                 },
             ),

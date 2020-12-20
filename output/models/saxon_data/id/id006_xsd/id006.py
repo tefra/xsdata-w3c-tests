@@ -19,11 +19,13 @@ class Node:
                 {
                     "name": "id",
                     "type": List[Union[str, int]],
+                    "default_factory": list,
                     "tokens": True,
                 },
                 {
                     "name": "idrefs",
                     "type": List[Union[str, int]],
+                    "default_factory": list,
                     "tokens": True,
                 },
             ),

@@ -28,11 +28,13 @@ class Root:
                         "name": "Group2_Element1",
                         "type": str,
                         "namespace": "",
+                        "default": "a",
                     },
                     {
                         "name": "Group2_Element2",
                         "type": str,
                         "namespace": "",
+                        "default": "b",
                     },
                 ),
             }

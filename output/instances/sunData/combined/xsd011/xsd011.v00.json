@@ -9,17 +9,11 @@
         {
             "x": null
         },
-        {
-            "qname": "{foo}nillable2",
-            "value": [
-                51,
-                32,
-                59
-            ]
-        },
-        {
-            "qname": "{foo}nillable2",
-            "value": null
-        }
+        [
+            51,
+            32,
+            59
+        ],
+        []
     ]
 }

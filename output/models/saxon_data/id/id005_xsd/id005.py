@@ -19,11 +19,13 @@ class Node:
                 {
                     "name": "id",
                     "type": List[str],
+                    "default_factory": list,
                     "tokens": True,
                 },
                 {
                     "name": "idrefs",
                     "type": List[str],
+                    "default_factory": list,
                     "tokens": True,
                 },
             ),

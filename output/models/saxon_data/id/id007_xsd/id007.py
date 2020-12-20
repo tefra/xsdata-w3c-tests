@@ -19,11 +19,13 @@ class Node:
                 {
                     "name": "mixedA",
                     "type": List[str],
+                    "default_factory": list,
                     "tokens": True,
                 },
                 {
                     "name": "mixedB",
                     "type": List[str],
+                    "default_factory": list,
                     "tokens": True,
                 },
             ),

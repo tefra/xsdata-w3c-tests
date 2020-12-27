@@ -24,8 +24,8 @@ class ElementWithAttr:
         default=None,
         metadata={
             "type": "Attribute",
-            "min_exclusive": 0.0,
-            "max_exclusive": 13.0,
+            "min_exclusive": Decimal("0.0"),
+            "max_exclusive": Decimal("13.0"),
         }
     )
 

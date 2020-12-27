@@ -15,6 +15,6 @@ class NistschemaSvIvAtomicDecimalMaxExclusive5:
         default=None,
         metadata={
             "required": True,
-            "max_exclusive": 999999999999999999,
+            "max_exclusive": Decimal("999999999999999999"),
         }
     )

@@ -15,6 +15,6 @@ class NistschemaSvIvAtomicDecimalMinExclusive2:
         default=None,
         metadata={
             "required": True,
-            "min_exclusive": 631308414640570968,
+            "min_exclusive": Decimal("631308414640570968"),
         }
     )

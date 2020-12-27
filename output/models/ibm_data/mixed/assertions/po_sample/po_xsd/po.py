@@ -160,7 +160,7 @@ class Order1(PoBusinessRules):
             "type": "Element",
             "namespace": "",
             "required": True,
-            "min_inclusive": 0,
+            "min_inclusive": Decimal("0"),
         }
     )
     bill_amount: Optional[Decimal] = field(
@@ -170,7 +170,7 @@ class Order1(PoBusinessRules):
             "type": "Element",
             "namespace": "",
             "required": True,
-            "min_inclusive": 0,
+            "min_inclusive": Decimal("0"),
         }
     )
     currency: Optional[str] = field(

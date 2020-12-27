@@ -14,7 +14,7 @@ class FooType:
             "type": "Element",
             "namespace": "",
             "required": True,
-            "min_exclusive": 1.1,
+            "min_exclusive": Decimal("1.1"),
         }
     )
 

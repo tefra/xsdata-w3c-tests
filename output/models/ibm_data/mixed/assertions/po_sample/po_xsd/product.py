@@ -18,7 +18,7 @@ class Item:
         default=None,
         metadata={
             "type": "Attribute",
-            "min_inclusive": 0,
+            "min_inclusive": Decimal("0"),
         }
     )
 

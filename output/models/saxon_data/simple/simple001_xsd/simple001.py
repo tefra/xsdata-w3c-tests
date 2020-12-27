@@ -25,14 +25,14 @@ class Chap:
             default=None,
         )
         nr: Decimal = field(
-            default=Decimal('Infinity'),
+            default=Decimal("Infinity"),
             metadata={
                 "type": "Attribute",
             }
         )
         ref: Decimal = field(
             init=False,
-            default=Decimal('Infinity'),
+            default=Decimal("Infinity"),
             metadata={
                 "type": "Attribute",
             }

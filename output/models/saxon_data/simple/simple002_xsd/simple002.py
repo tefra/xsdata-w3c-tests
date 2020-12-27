@@ -24,14 +24,14 @@ class Chap:
             default=None,
         )
         nr: float = field(
-            default=float('inf'),
+            default=float("inf"),
             metadata={
                 "type": "Attribute",
             }
         )
         ref: float = field(
             init=False,
-            default=float('inf'),
+            default=float("inf"),
             metadata={
                 "type": "Attribute",
             }

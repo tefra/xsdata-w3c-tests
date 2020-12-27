@@ -6,7 +6,7 @@ __NAMESPACE__ = "a"
 
 
 class Num1(Enum):
-    INF = float('inf')
+    INF = float("inf")
     VALUE_1_1 = 1.1
 
 

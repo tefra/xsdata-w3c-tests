@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from datetime import datetime
+from typing import List, Optional, Union
 
 
 @dataclass
@@ -7,7 +8,7 @@ class Event:
     class Meta:
         name = "event"
 
-    when: Optional[str] = field(
+    when: Optional[Union[str, datetime]] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -27,7 +28,7 @@ class When:
     class Meta:
         name = "when"
 
-    value: Optional[str] = field(
+    value: Optional[Union[str, datetime]] = field(
         default=None,
         metadata={
             "required": True,

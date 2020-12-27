@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+from datetime import datetime
 from typing import Optional
 
 
@@ -7,13 +8,13 @@ class FooType:
     class Meta:
         name = "fooType"
 
-    foo: Optional[str] = field(
+    foo: Optional[datetime] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-            "min_inclusive": "1981-03-12T10:30:00",
+            "min_inclusive": datetime(1981, 3, 12, 10, 30),
         }
     )
 

@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+from datetime import datetime
 from typing import Optional
 
 
@@ -7,7 +8,7 @@ class Para:
     class Meta:
         name = "para"
 
-    value: Optional[str] = field(
+    value: Optional[datetime] = field(
         default=None,
         metadata={
             "required": True,

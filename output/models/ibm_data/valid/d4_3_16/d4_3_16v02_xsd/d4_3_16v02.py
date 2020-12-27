@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+from datetime import datetime
 from typing import Optional
 
 __NAMESPACE__ = "http://xstest-tns/schema11_F4_3_16_v02"
@@ -13,14 +14,14 @@ class Root:
     value: Optional[str] = field(
         default=None,
     )
-    attr_dtime_type: Optional[str] = field(
+    attr_dtime_type: Optional[datetime] = field(
         default=None,
         metadata={
             "name": "attrDTimeType",
             "type": "Attribute",
         }
     )
-    attr_dtime_type_et: Optional[str] = field(
+    attr_dtime_type_et: Optional[datetime] = field(
         default=None,
         metadata={
             "name": "attrDTimeTypeET",
@@ -28,7 +29,7 @@ class Root:
             "explicit_timezone": "optional",
         }
     )
-    attr_dtetprohibited: Optional[str] = field(
+    attr_dtetprohibited: Optional[datetime] = field(
         default=None,
         metadata={
             "name": "attrDTETProhibited",
@@ -36,7 +37,7 @@ class Root:
             "explicit_timezone": "prohibited",
         }
     )
-    attr_dtetrequired: Optional[str] = field(
+    attr_dtetrequired: Optional[datetime] = field(
         default=None,
         metadata={
             "name": "attrDTETRequired",
@@ -44,7 +45,7 @@ class Root:
             "explicit_timezone": "required",
         }
     )
-    attr_dtetoptional: Optional[str] = field(
+    attr_dtetoptional: Optional[datetime] = field(
         default=None,
         metadata={
             "name": "attrDTETOptional",

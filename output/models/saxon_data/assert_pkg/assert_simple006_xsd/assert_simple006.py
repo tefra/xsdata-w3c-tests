@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from datetime import datetime
+from typing import List, Optional, Union
 
 
 @dataclass
@@ -7,7 +8,7 @@ class Outer:
     class Meta:
         name = "outer"
 
-    value: List[str] = field(
+    value: List[Union[str, datetime]] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -21,6 +22,6 @@ class Value:
     class Meta:
         name = "value"
 
-    value: Optional[str] = field(
+    value: Optional[Union[str, datetime]] = field(
         default=None,
     )

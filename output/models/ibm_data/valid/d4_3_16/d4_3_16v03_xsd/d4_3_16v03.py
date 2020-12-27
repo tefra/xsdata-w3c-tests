@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+from datetime import datetime
 from typing import List, Optional
 
 __NAMESPACE__ = "http://xstest-tns/schema11_F4_3_16_v03"
@@ -9,7 +10,7 @@ class DTimeRoot:
     class Meta:
         name = "dTimeRoot"
 
-    el_dtime_et: Optional[str] = field(
+    el_dtime_et: Optional[datetime] = field(
         default=None,
         metadata={
             "name": "elDTimeET",
@@ -19,7 +20,7 @@ class DTimeRoot:
             "explicit_timezone": "required",
         }
     )
-    el_dtime_list_required: List[str] = field(
+    el_dtime_list_required: List[datetime] = field(
         default_factory=list,
         metadata={
             "name": "elDTimeListRequired",
@@ -30,7 +31,7 @@ class DTimeRoot:
             "tokens": True,
         }
     )
-    el_dtime_list_prohibited: List[str] = field(
+    el_dtime_list_prohibited: List[datetime] = field(
         default_factory=list,
         metadata={
             "name": "elDTimeListProhibited",
@@ -41,7 +42,7 @@ class DTimeRoot:
             "tokens": True,
         }
     )
-    el_dtime_list_optional: List[str] = field(
+    el_dtime_list_optional: List[datetime] = field(
         default_factory=list,
         metadata={
             "name": "elDTimeListOptional",
@@ -60,7 +61,7 @@ class ElDtimeListOptional:
         name = "elDTimeListOptional"
         namespace = "http://xstest-tns/schema11_F4_3_16_v03"
 
-    value: List[str] = field(
+    value: List[datetime] = field(
         default_factory=list,
         metadata={
             "explicit_timezone": "optional",
@@ -75,7 +76,7 @@ class ElDtimeListProhibited:
         name = "elDTimeListProhibited"
         namespace = "http://xstest-tns/schema11_F4_3_16_v03"
 
-    value: List[str] = field(
+    value: List[datetime] = field(
         default_factory=list,
         metadata={
             "explicit_timezone": "prohibited",
@@ -90,7 +91,7 @@ class ElDtimeListRequired:
         name = "elDTimeListRequired"
         namespace = "http://xstest-tns/schema11_F4_3_16_v03"
 
-    value: List[str] = field(
+    value: List[datetime] = field(
         default_factory=list,
         metadata={
             "explicit_timezone": "required",

@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+from datetime import datetime
 from enum import Enum
 from typing import Optional
 
@@ -18,7 +19,7 @@ class FooType:
     )
 
     class Foo(Enum):
-        VALUE_1985_04_12_T10_30_00 = "1985-04-12T10:30:00"
+        VALUE_1985_04_12_T10_30_00 = datetime(1985, 4, 12, 10, 30)
 
 
 @dataclass

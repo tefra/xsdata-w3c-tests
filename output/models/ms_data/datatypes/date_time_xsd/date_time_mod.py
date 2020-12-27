@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+from datetime import datetime
 from typing import Optional
 
 
@@ -7,7 +8,7 @@ class ComplexfooType:
     class Meta:
         name = "complexfooType"
 
-    comp_foo: Optional[str] = field(
+    comp_foo: Optional[datetime] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -22,7 +23,7 @@ class SimpleTest:
     class Meta:
         name = "simpleTest"
 
-    value: Optional[str] = field(
+    value: Optional[datetime] = field(
         default=None,
         metadata={
             "required": True,
@@ -49,7 +50,7 @@ class Root:
             "required": True,
         }
     )
-    simple_test: Optional[str] = field(
+    simple_test: Optional[datetime] = field(
         default=None,
         metadata={
             "name": "simpleTest",

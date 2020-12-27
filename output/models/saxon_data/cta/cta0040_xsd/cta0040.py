@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from datetime import datetime
+from typing import List, Optional, Union
 
 
 @dataclass
@@ -23,7 +24,7 @@ class Chap:
     class Meta:
         name = "chap"
 
-    value: Optional[str] = field(
+    value: Optional[Union[str, datetime]] = field(
         default=None,
     )
     type: Optional[str] = field(

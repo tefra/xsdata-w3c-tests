@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+from datetime import datetime
 from typing import List, Optional
 
 
@@ -10,7 +11,7 @@ class DatedEvent:
     value: Optional[str] = field(
         default=None,
     )
-    event: Optional[str] = field(
+    event: Optional[datetime] = field(
         default=None,
         metadata={
             "type": "Attribute",

@@ -1,8 +1,8 @@
 {
     "value": null,
-    "attrd_time_stamp_type": "2000-01-01T12:00:00.123Z",
+    "attrd_time_stamp_type": "2000-01-01T12:00:00.123000Z",
     "attrd_time_stamp_enumeration": "2002-01-01T12:00:00.990-08:00",
     "attrd_time_stamp_pattern": "2003-01-01T01:00:00-08:00",
-    "attrd_time_stamp_min_max_inclusive": "2003-01-01T12:00:00.990-08:00",
+    "attrd_time_stamp_min_max_inclusive": "2003-01-01T12:00:00.990000-08:00",
     "attrd_time_stamp_min_max_exclusive": "1999-01-01T11:59:59Z"
 }

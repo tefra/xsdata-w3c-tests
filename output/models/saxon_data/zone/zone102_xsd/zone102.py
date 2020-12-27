@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+from datetime import datetime, timezone
 from typing import Optional
 
 
@@ -7,11 +8,11 @@ class Doc:
     class Meta:
         name = "doc"
 
-    value: Optional[str] = field(
+    value: Optional[datetime] = field(
         default=None,
         metadata={
             "required": True,
-            "min_inclusive": "2000-01-01T00:00:00Z",
-            "max_inclusive": "2999-12-31T23:59:59Z",
+            "min_inclusive": datetime(2000, 1, 1, 0, 0, tzinfo=timezone.utc),
+            "max_inclusive": datetime(2999, 12, 31, 23, 59, 59, tzinfo=timezone.utc),
         }
     )

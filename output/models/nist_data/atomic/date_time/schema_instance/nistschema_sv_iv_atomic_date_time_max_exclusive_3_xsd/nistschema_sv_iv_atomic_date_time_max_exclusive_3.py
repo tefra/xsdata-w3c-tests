@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+from datetime import datetime
 from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-dateTime-maxExclusive-3-NS"
@@ -10,10 +11,10 @@ class NistschemaSvIvAtomicDateTimeMaxExclusive3:
         name = "NISTSchema-SV-IV-atomic-dateTime-maxExclusive-3"
         namespace = "NISTSchema-SV-IV-atomic-dateTime-maxExclusive-3-NS"
 
-    value: Optional[str] = field(
+    value: Optional[datetime] = field(
         default=None,
         metadata={
             "required": True,
-            "max_exclusive": "1996-08-13T00:44:39",
+            "max_exclusive": datetime(1996, 8, 13, 0, 44, 39),
         }
     )

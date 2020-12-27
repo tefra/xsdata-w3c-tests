@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+from datetime import datetime
 from typing import List
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-dateTime-maxLength-2-NS"
@@ -10,7 +11,7 @@ class NistschemaSvIvListDateTimeMaxLength2:
         name = "NISTSchema-SV-IV-list-dateTime-maxLength-2"
         namespace = "NISTSchema-SV-IV-list-dateTime-maxLength-2-NS"
 
-    value: List[str] = field(
+    value: List[datetime] = field(
         default_factory=list,
         metadata={
             "required": True,

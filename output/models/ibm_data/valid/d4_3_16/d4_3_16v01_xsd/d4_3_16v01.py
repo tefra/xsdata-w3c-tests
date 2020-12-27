@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+from datetime import datetime
 from typing import List
 
 __NAMESPACE__ = "http://xstest-tns/schema11_F4_3_16_v01"
@@ -10,7 +11,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_F4_3_16_v01"
 
-    el_dtime_type: List[str] = field(
+    el_dtime_type: List[datetime] = field(
         default_factory=list,
         metadata={
             "name": "elDTimeType",
@@ -18,7 +19,7 @@ class Root:
             "namespace": "",
         }
     )
-    el_dtime_etprohibited: List[str] = field(
+    el_dtime_etprohibited: List[datetime] = field(
         default_factory=list,
         metadata={
             "name": "elDTimeETProhibited",
@@ -28,7 +29,7 @@ class Root:
             "explicit_timezone": "prohibited",
         }
     )
-    el_dtime_etrequired: List[str] = field(
+    el_dtime_etrequired: List[datetime] = field(
         default_factory=list,
         metadata={
             "name": "elDTimeETRequired",
@@ -38,7 +39,7 @@ class Root:
             "explicit_timezone": "required",
         }
     )
-    el_dtime_etoptional: List[str] = field(
+    el_dtime_etoptional: List[datetime] = field(
         default_factory=list,
         metadata={
             "name": "elDTimeETOptional",

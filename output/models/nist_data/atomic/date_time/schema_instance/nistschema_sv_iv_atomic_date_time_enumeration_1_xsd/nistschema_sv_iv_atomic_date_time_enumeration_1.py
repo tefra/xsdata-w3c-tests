@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+from datetime import datetime
 from enum import Enum
 from typing import Optional
 
@@ -6,12 +7,12 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-dateTime-enumeration-1-NS"
 
 
 class NistschemaSvIvAtomicDateTimeEnumeration1Type(Enum):
-    VALUE_2010_02_12_T03_22_00 = "2010-02-12T03:22:00"
-    VALUE_1972_11_27_T20_41_04 = "1972-11-27T20:41:04"
-    VALUE_2015_08_04_T06_44_16 = "2015-08-04T06:44:16"
-    VALUE_2011_05_07_T03_49_38 = "2011-05-07T03:49:38"
-    VALUE_2029_12_13_T21_03_46 = "2029-12-13T21:03:46"
-    VALUE_2029_04_19_T14_21_30 = "2029-04-19T14:21:30"
+    VALUE_2010_02_12_T03_22_00 = datetime(2010, 2, 12, 3, 22)
+    VALUE_1972_11_27_T20_41_04 = datetime(1972, 11, 27, 20, 41, 4)
+    VALUE_2015_08_04_T06_44_16 = datetime(2015, 8, 4, 6, 44, 16)
+    VALUE_2011_05_07_T03_49_38 = datetime(2011, 5, 7, 3, 49, 38)
+    VALUE_2029_12_13_T21_03_46 = datetime(2029, 12, 13, 21, 3, 46)
+    VALUE_2029_04_19_T14_21_30 = datetime(2029, 4, 19, 14, 21, 30)
 
 
 @dataclass

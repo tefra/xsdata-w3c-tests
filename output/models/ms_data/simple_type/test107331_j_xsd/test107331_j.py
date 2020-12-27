@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+from datetime import datetime
 from decimal import Decimal
 from typing import List, Optional
 
@@ -47,7 +48,7 @@ class DatetimeType:
     class Meta:
         name = "datetime"
 
-    value: Optional[str] = field(
+    value: Optional[datetime] = field(
         default=None,
         metadata={
             "required": True,
@@ -307,7 +308,7 @@ class Root:
             "min_occurs": 1,
         }
     )
-    datetime_value: List[str] = field(
+    datetime_value: List[datetime] = field(
         default_factory=list,
         metadata={
             "name": "datetime",

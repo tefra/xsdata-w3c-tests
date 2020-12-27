@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dv:root xmlns:dv="http://xstest-tns/schema11_F4_3_16_v01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <elDTimeType>1999-11-23T12:00:00.123Z</elDTimeType>
+  <elDTimeType>1999-11-23T12:00:00.123000Z</elDTimeType>
   <elDTimeETProhibited>2000-11-23T12:00:00</elDTimeETProhibited>
   <elDTimeETRequired>2001-11-23T12:00:00Z</elDTimeETRequired>
   <elDTimeETRequired>2002-11-23T12:00:00-05:00</elDTimeETRequired>

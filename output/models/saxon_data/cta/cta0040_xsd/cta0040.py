@@ -8,7 +8,7 @@ class Appendix:
     class Meta:
         name = "appendix"
 
-    value: Optional[str] = field(
+    value: Optional[Union[datetime, str]] = field(
         default=None,
     )
     type: Optional[str] = field(
@@ -24,7 +24,7 @@ class Chap:
     class Meta:
         name = "chap"
 
-    value: Optional[Union[str, datetime]] = field(
+    value: Optional[Union[datetime, str]] = field(
         default=None,
     )
     type: Optional[str] = field(

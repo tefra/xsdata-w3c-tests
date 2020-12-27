@@ -43,7 +43,7 @@ class Date:
 
 
 @dataclass
-class Datetime:
+class DatetimeType:
     class Meta:
         name = "datetime"
 
@@ -266,9 +266,10 @@ class Root:
             "min_occurs": 1,
         }
     )
-    datetime: List[str] = field(
+    datetime_value: List[str] = field(
         default_factory=list,
         metadata={
+            "name": "datetime",
             "type": "Element",
             "min_occurs": 1,
         }

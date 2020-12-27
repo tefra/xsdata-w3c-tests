@@ -15,6 +15,6 @@ class Test:
         default=None,
         metadata={
             "required": True,
-            "max_inclusive": 100.0,
+            "max_inclusive": Decimal("100.0"),
         }
     )

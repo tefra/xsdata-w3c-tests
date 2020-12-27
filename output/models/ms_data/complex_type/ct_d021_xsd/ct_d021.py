@@ -12,6 +12,6 @@ class Root:
         default=None,
         metadata={
             "required": True,
-            "min_inclusive": 5,
+            "min_inclusive": Decimal("5"),
         }
     )

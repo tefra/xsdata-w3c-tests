@@ -19,7 +19,7 @@ class FooType:
     )
 
     class Foo(Enum):
-        VALUE_1_1 = Decimal('1.1')
+        VALUE_1_1 = Decimal("1.1")
 
 
 @dataclass

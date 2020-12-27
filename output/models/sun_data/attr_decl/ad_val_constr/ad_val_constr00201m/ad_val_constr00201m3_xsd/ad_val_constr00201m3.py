@@ -19,7 +19,7 @@ class ElementWithAttr:
         }
     )
     price: Decimal = field(
-        default=Decimal('12.3'),
+        default=Decimal("12.3"),
         metadata={
             "type": "Attribute",
         }

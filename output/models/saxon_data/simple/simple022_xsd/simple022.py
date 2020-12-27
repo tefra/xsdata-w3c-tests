@@ -17,5 +17,5 @@ class Price:
     )
 
     class Value(Enum):
-        VALUE_9_99 = Decimal('9.99')
-        NA_N = Decimal('NaN')
+        VALUE_9_99 = Decimal("9.99")
+        NA_N = Decimal("NaN")

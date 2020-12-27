@@ -19,9 +19,9 @@ class FooType:
     )
 
     class Foo(Enum):
-        VALUE_1_1 = Decimal('1.1')
-        VALUE_3_14 = Decimal('3.14')
-        VALUE_2_718 = Decimal('2.718')
+        VALUE_1_1 = Decimal("1.1")
+        VALUE_3_14 = Decimal("3.14")
+        VALUE_2_718 = Decimal("2.718")
 
 
 @dataclass

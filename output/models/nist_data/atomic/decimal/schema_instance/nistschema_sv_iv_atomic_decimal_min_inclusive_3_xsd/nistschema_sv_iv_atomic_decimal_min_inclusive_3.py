@@ -15,6 +15,6 @@ class NistschemaSvIvAtomicDecimalMinInclusive3:
         default=None,
         metadata={
             "required": True,
-            "min_inclusive": -785368448026986020,
+            "min_inclusive": Decimal("-785368448026986020"),
         }
     )

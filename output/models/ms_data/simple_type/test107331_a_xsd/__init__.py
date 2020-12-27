@@ -2,7 +2,7 @@ from output.models.ms_data.simple_type.test107331_a_xsd.test107331_a import (
     Anyuri,
     BoolType,
     Date,
-    Datetime,
+    DatetimeType,
     Day,
     Decimal,
     Double,

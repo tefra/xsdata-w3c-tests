@@ -7,8 +7,8 @@ __NAMESPACE__ = "a"
 
 
 class Num1(Enum):
-    INF = Decimal('Infinity')
-    VALUE_1_1 = Decimal('1.1')
+    INF = Decimal("Infinity")
+    VALUE_1_1 = Decimal("1.1")
 
 
 @dataclass

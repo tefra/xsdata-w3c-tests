@@ -14,7 +14,7 @@ class FooType:
             "type": "Element",
             "namespace": "",
             "required": True,
-            "max_inclusive": 1.1,
+            "max_inclusive": Decimal("1.1"),
         }
     )
 

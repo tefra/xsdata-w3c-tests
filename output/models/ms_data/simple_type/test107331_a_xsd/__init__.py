@@ -16,6 +16,6 @@ from output.models.ms_data.simple_type.test107331_a_xsd.test107331_a import (
     Monthday,
     Root,
     String,
-    Time,
+    TimeType,
     Year,
 )

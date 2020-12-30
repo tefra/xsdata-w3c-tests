@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from datetime import time
+from typing import Optional, Union
 
 
 @dataclass
@@ -20,7 +21,7 @@ class Zing:
     class Meta:
         name = "zing"
 
-    e: Optional[str] = field(
+    e: Optional[Union[str, time]] = field(
         default=None,
         metadata={
             "type": "Element",

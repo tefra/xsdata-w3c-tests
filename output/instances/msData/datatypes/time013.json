@@ -1,6 +1,6 @@
 {
     "complex_test": {
-        "comp_foo": "13:20:00.34"
+        "comp_foo": "13:20:00.340"
     },
-    "simple_test": "13:20:00.34"
+    "simple_test": "13:20:00.340"
 }

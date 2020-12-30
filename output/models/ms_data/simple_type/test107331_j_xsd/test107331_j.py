@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from datetime import datetime
+from datetime import datetime, time
 from decimal import Decimal
 from typing import List, Optional
 from xsdata.models.datatype import Duration
@@ -216,11 +216,11 @@ class String:
 
 
 @dataclass
-class Time:
+class TimeType:
     class Meta:
         name = "time"
 
-    value: Optional[str] = field(
+    value: Optional[time] = field(
         default=None,
         metadata={
             "required": True,
@@ -302,9 +302,10 @@ class Root:
             "min_occurs": 1,
         }
     )
-    time: List[str] = field(
+    time_value: List[time] = field(
         default_factory=list,
         metadata={
+            "name": "time",
             "type": "Element",
             "min_occurs": 1,
         }

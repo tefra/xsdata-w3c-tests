@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+from datetime import time
 from typing import Optional
 
 __NAMESPACE__ = "compositor"
@@ -17,9 +18,10 @@ class A:
             "namespace": "",
         }
     )
-    time: Optional[str] = field(
+    time_value: Optional[time] = field(
         default=None,
         metadata={
+            "name": "time",
             "type": "Element",
             "namespace": "",
         }

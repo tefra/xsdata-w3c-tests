@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from datetime import datetime
+from datetime import datetime, time
 from typing import List, Optional, Union
 
 __NAMESPACE__ = "http://cta023.com/ns"
@@ -11,7 +11,7 @@ class Event:
         name = "event"
         namespace = "http://cta023.com/ns"
 
-    when: Optional[Union[str, datetime]] = field(
+    when: Optional[Union[str, time, datetime]] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -32,7 +32,7 @@ class When:
         name = "when"
         namespace = "http://cta023.com/ns"
 
-    value: Optional[Union[str, datetime]] = field(
+    value: Optional[Union[str, time, datetime]] = field(
         default=None,
         metadata={
             "required": True,

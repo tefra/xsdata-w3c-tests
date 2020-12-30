@@ -27,19 +27,13 @@
     "datetime_value": [
         "1999-05-31T13:20:00-05:00"
     ],
-    "duration": [
+    "duration_value": [
         "P1347Y"
     ],
-    "decimal": [
-        {
-            "value": "56"
-        },
-        {
-            "value": "-56"
-        },
-        {
-            "value": "-562135"
-        }
+    "decimal_value": [
+        "56",
+        "-56",
+        "-562135"
     ],
     "double": [],
     "float_value": [

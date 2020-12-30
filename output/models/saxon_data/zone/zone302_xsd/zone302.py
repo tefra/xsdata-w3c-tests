@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
+from xsdata.models.datatype import Duration
 
 
 @dataclass
@@ -7,14 +8,14 @@ class Doc:
     class Meta:
         name = "doc"
 
-    target: Optional[str] = field(
+    target: Optional[Duration] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
         }
     )
-    equiv: List[str] = field(
+    equiv: List[Duration] = field(
         default_factory=list,
         metadata={
             "type": "Element",

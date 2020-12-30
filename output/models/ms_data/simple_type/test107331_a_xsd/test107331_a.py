@@ -2,6 +2,7 @@ from dataclasses import dataclass, field
 from datetime import datetime
 from decimal import Decimal
 from typing import List, Optional
+from xsdata.models.datatype import Duration
 
 
 @dataclass
@@ -70,7 +71,7 @@ class Day:
 
 
 @dataclass
-class Decimal:
+class DecimalType:
     class Meta:
         name = "decimal"
 
@@ -96,11 +97,11 @@ class Double:
 
 
 @dataclass
-class Duration:
+class DurationType:
     class Meta:
         name = "duration"
 
-    value: Optional[str] = field(
+    value: Optional[Duration] = field(
         default=None,
         metadata={
             "required": True,
@@ -275,16 +276,18 @@ class Root:
             "min_occurs": 1,
         }
     )
-    duration: List[str] = field(
+    duration_value: List[Duration] = field(
         default_factory=list,
         metadata={
+            "name": "duration",
             "type": "Element",
             "min_occurs": 1,
         }
     )
-    decimal: List[Decimal] = field(
+    decimal_value: List[Decimal] = field(
         default_factory=list,
         metadata={
+            "name": "decimal",
             "type": "Element",
             "min_occurs": 1,
         }

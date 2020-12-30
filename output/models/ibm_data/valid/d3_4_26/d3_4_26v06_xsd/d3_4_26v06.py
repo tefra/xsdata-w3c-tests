@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List
+from xsdata.models.datatype import Duration
 
 __NAMESPACE__ = "http://xstest-tns/schema11_D3_4_26_v06"
 
@@ -10,7 +11,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_D3_4_26_v06"
 
-    el_duration: List[str] = field(
+    el_duration: List[Duration] = field(
         default_factory=list,
         metadata={
             "name": "elDuration",

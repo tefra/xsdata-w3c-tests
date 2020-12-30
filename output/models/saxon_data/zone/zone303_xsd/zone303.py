@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
+from xsdata.models.datatype import Duration
 
 
 @dataclass
@@ -7,10 +8,10 @@ class Doc:
     class Meta:
         name = "doc"
 
-    value: Optional[str] = field(
+    value: Optional[Duration] = field(
         default=None,
         metadata={
-            "min_inclusive": "-P3D",
-            "max_inclusive": "P3D",
+            "min_inclusive": Duration("-P3D"),
+            "max_inclusive": Duration("P3D"),
         }
     )

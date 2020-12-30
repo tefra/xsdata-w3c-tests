@@ -1,11 +1,11 @@
 {
     "timer": [
         {
-            "time": 30,
+            "time_value": 30,
             "iterations": null
         },
         {
-            "time": null,
+            "time_value": null,
             "iterations": 15
         }
     ],

@@ -18,9 +18,10 @@ class MyDateTime:
             "required": True,
         }
     )
-    time: Optional[str] = field(
+    time_value: Optional[str] = field(
         default=None,
         metadata={
+            "name": "time",
             "type": "Element",
             "namespace": "",
             "required": True,
@@ -50,9 +51,10 @@ class MySmallDateTime:
             "required": True,
         }
     )
-    time: Optional[str] = field(
+    time_value: Optional[str] = field(
         default=None,
         metadata={
+            "name": "time",
             "type": "Element",
             "namespace": "",
             "required": True,

@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+from datetime import time
 from typing import Optional
 
 
@@ -20,7 +21,7 @@ class A:
     class Meta:
         name = "a"
 
-    value: Optional[str] = field(
+    value: Optional[time] = field(
         default=None,
         metadata={
             "required": True,
@@ -33,7 +34,7 @@ class B:
     class Meta:
         name = "b"
 
-    value: Optional[str] = field(
+    value: Optional[time] = field(
         default=None,
         metadata={
             "required": True,
@@ -46,7 +47,7 @@ class C1:
     class Meta:
         name = "c"
 
-    value: Optional[str] = field(
+    value: Optional[time] = field(
         default=None,
         metadata={
             "required": True,
@@ -66,7 +67,7 @@ class Doc:
             "required": True,
         }
     )
-    b: Optional[str] = field(
+    b: Optional[time] = field(
         default=None,
         metadata={
             "type": "Element",

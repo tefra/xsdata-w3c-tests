@@ -52,9 +52,10 @@ class ParentType:
 
 @dataclass
 class TimerType:
-    time: Optional[int] = field(
+    time_value: Optional[int] = field(
         default=None,
         metadata={
+            "name": "time",
             "type": "Attribute",
         }
     )

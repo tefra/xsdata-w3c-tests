@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from datetime import datetime
+from datetime import datetime, time
 from typing import List, Union
 
 __NAMESPACE__ = "http://simple016.ly/"
@@ -10,7 +10,7 @@ class DocType:
     class Meta:
         name = "doc-type"
 
-    chap: List[Union[str, datetime]] = field(
+    chap: List[Union[str, datetime, time]] = field(
         default_factory=list,
         metadata={
             "type": "Element",

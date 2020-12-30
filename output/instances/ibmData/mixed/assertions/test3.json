@@ -1,6 +1,6 @@
 {
     "timer": {
-        "time": 30,
+        "time_value": 30,
         "iterations": null
     },
     "parent": {

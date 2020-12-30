@@ -35,7 +35,7 @@ class MessageType:
         BASE64 = "base64"
         BINARY = "binary"
         DATE = "date"
-        TIME = "time"
+        TIME_VALUE = "time"
         XML = "xml"
         XML_1 = "XML"
 
@@ -72,7 +72,7 @@ class MessageTypeXml:
         BASE64 = "base64"
         BINARY = "binary"
         DATE = "date"
-        TIME = "time"
+        TIME_VALUE = "time"
         XML = "xml"
         XML_1 = "XML"
 

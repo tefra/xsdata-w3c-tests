@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+from datetime import time
 from decimal import Decimal
 from typing import List, Optional, Union
 from xml.etree.ElementTree import QName
@@ -72,7 +73,7 @@ class MessageType:
             "type": "Attribute",
         }
     )
-    value: Optional[Union[Decimal, int, str, QName]] = field(
+    value: Optional[Union[Decimal, int, str, time, QName]] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -129,7 +130,7 @@ class TimeMessageType:
             "type": "Attribute",
         }
     )
-    value: Optional[str] = field(
+    value: Optional[time] = field(
         default=None,
         metadata={
             "type": "Attribute",

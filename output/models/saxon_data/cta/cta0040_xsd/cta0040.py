@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from datetime import datetime
+from datetime import datetime, time
 from typing import List, Optional, Union
 
 
@@ -8,7 +8,7 @@ class Appendix:
     class Meta:
         name = "appendix"
 
-    value: Optional[Union[str, datetime]] = field(
+    value: Optional[Union[datetime, time, str]] = field(
         default=None,
     )
     type: Optional[str] = field(
@@ -24,7 +24,7 @@ class Chap:
     class Meta:
         name = "chap"
 
-    value: Optional[Union[str, datetime]] = field(
+    value: Optional[Union[time, str, datetime]] = field(
         default=None,
     )
     type: Optional[str] = field(

@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional, Union
+from xsdata.models.datatype import Period
 
 
 @dataclass
@@ -7,7 +8,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    root: Optional[Union[str, int]] = field(
+    root: Optional[Union[Period, str, int]] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -21,6 +22,6 @@ class Root:
     class Meta:
         name = "root"
 
-    value: Optional[Union[str, int]] = field(
+    value: Optional[Union[Period, str, int]] = field(
         default=None,
     )

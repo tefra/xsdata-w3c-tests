@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
+from xsdata.models.datatype import Period
 
 __NAMESPACE__ = "ElemDecl/substGroupAffilation"
 
@@ -37,7 +38,7 @@ class BookType(PublicationType):
 
 @dataclass
 class MagazineType(PublicationType):
-    date: Optional[str] = field(
+    date: Optional[Period] = field(
         default=None,
         metadata={
             "name": "Date",

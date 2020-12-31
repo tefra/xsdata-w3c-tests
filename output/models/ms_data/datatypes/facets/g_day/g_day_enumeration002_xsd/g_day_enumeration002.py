@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 from enum import Enum
 from typing import Optional
+from xsdata.models.datatype import Period
 
 
 @dataclass
@@ -18,7 +19,7 @@ class FooType:
     )
 
     class Foo(Enum):
-        VALUE_15 = "---15"
+        VALUE_15 = Period("---15")
 
 
 @dataclass

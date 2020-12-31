@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Optional, Union
+from xsdata.models.datatype import Period
 
 
 @dataclass
@@ -19,7 +20,7 @@ class PublicationType:
             "type": "Element",
         }
     )
-    date: Optional[str] = field(
+    date: Optional[Period] = field(
         default=None,
         metadata={
             "name": "Date",

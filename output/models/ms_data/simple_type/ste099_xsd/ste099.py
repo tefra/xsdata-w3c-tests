@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
-from typing import List
+from typing import List, Union
+from xsdata.models.datatype import Period
 
 
 @dataclass
@@ -7,7 +8,7 @@ class Root:
     class Meta:
         name = "root"
 
-    value: List[str] = field(
+    value: List[Union[Period, str]] = field(
         default_factory=list,
         metadata={
             "tokens": True,

@@ -2,7 +2,7 @@ from dataclasses import dataclass, field
 from datetime import datetime, time
 from decimal import Decimal
 from typing import List, Optional
-from xsdata.models.datatype import Duration
+from xsdata.models.datatype import Duration, Period
 
 
 @dataclass
@@ -62,7 +62,7 @@ class Day:
     class Meta:
         name = "day"
 
-    value: Optional[str] = field(
+    value: Optional[Period] = field(
         default=None,
         metadata={
             "required": True,
@@ -181,7 +181,7 @@ class Month:
     class Meta:
         name = "month"
 
-    value: Optional[str] = field(
+    value: Optional[Period] = field(
         default=None,
         metadata={
             "required": True,
@@ -194,7 +194,7 @@ class Monthday:
     class Meta:
         name = "monthday"
 
-    value: Optional[str] = field(
+    value: Optional[Period] = field(
         default=None,
         metadata={
             "required": True,
@@ -233,7 +233,7 @@ class Year:
     class Meta:
         name = "year"
 
-    value: Optional[str] = field(
+    value: Optional[Period] = field(
         default=None,
         metadata={
             "required": True,
@@ -267,28 +267,28 @@ class Root:
             "min_occurs": 1,
         }
     )
-    month: List[str] = field(
+    month: List[Period] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
         }
     )
-    day: List[str] = field(
+    day: List[Period] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
         }
     )
-    monthday: List[str] = field(
+    monthday: List[Period] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
         }
     )
-    year: List[str] = field(
+    year: List[Period] = field(
         default_factory=list,
         metadata={
             "type": "Element",

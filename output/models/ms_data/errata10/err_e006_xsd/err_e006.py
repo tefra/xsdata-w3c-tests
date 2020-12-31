@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
+from xsdata.models.datatype import Period
 
 __NAMESPACE__ = "http://www.tempuri.org"
 
@@ -19,7 +20,7 @@ class Root:
             "max_occurs": 2,
         }
     )
-    test_gyear_month: List[str] = field(
+    test_gyear_month: List[Period] = field(
         default_factory=list,
         metadata={
             "name": "testGYearMonth",
@@ -28,7 +29,7 @@ class Root:
             "max_occurs": 2,
         }
     )
-    test_gmonth_day: List[str] = field(
+    test_gmonth_day: List[Period] = field(
         default_factory=list,
         metadata={
             "name": "testGMonthDay",
@@ -37,7 +38,7 @@ class Root:
             "max_occurs": 2,
         }
     )
-    test_gday: List[str] = field(
+    test_gday: List[Period] = field(
         default_factory=list,
         metadata={
             "name": "testGDay",
@@ -46,7 +47,7 @@ class Root:
             "max_occurs": 2,
         }
     )
-    test_gmonth: List[str] = field(
+    test_gmonth: List[Period] = field(
         default_factory=list,
         metadata={
             "name": "testGMonth",
@@ -55,7 +56,7 @@ class Root:
             "max_occurs": 2,
         }
     )
-    test_gyear: List[str] = field(
+    test_gyear: List[Period] = field(
         default_factory=list,
         metadata={
             "name": "testGYear",
@@ -86,7 +87,7 @@ class TestGday:
         name = "testGDay"
         namespace = "http://www.tempuri.org"
 
-    value: Optional[str] = field(
+    value: Optional[Period] = field(
         default=None,
         metadata={
             "required": True,
@@ -100,7 +101,7 @@ class TestGmonth:
         name = "testGMonth"
         namespace = "http://www.tempuri.org"
 
-    value: Optional[str] = field(
+    value: Optional[Period] = field(
         default=None,
         metadata={
             "required": True,
@@ -114,7 +115,7 @@ class TestGmonthDay:
         name = "testGMonthDay"
         namespace = "http://www.tempuri.org"
 
-    value: Optional[str] = field(
+    value: Optional[Period] = field(
         default=None,
         metadata={
             "required": True,
@@ -128,7 +129,7 @@ class TestGyear:
         name = "testGYear"
         namespace = "http://www.tempuri.org"
 
-    value: Optional[str] = field(
+    value: Optional[Period] = field(
         default=None,
         metadata={
             "required": True,
@@ -142,7 +143,7 @@ class TestGyearMonth:
         name = "testGYearMonth"
         namespace = "http://www.tempuri.org"
 
-    value: Optional[str] = field(
+    value: Optional[Period] = field(
         default=None,
         metadata={
             "required": True,

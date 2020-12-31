@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 from datetime import datetime, time
 from typing import List, Optional, Union
+from xsdata.models.datatype import Period
 
 __NAMESPACE__ = "http://cta023.com/ns"
 
@@ -11,7 +12,7 @@ class Event:
         name = "event"
         namespace = "http://cta023.com/ns"
 
-    when: Optional[Union[str, time, datetime]] = field(
+    when: Optional[Union[str, time, datetime, Period]] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -32,7 +33,7 @@ class When:
         name = "when"
         namespace = "http://cta023.com/ns"
 
-    value: Optional[Union[str, time, datetime]] = field(
+    value: Optional[Union[str, time, datetime, Period]] = field(
         default=None,
         metadata={
             "required": True,

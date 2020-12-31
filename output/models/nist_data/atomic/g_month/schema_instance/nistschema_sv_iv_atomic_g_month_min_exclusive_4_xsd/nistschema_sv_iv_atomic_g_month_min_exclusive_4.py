@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
+from xsdata.models.datatype import Period
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-gMonth-minExclusive-4-NS"
 
@@ -10,10 +11,10 @@ class NistschemaSvIvAtomicGMonthMinExclusive4:
         name = "NISTSchema-SV-IV-atomic-gMonth-minExclusive-4"
         namespace = "NISTSchema-SV-IV-atomic-gMonth-minExclusive-4-NS"
 
-    value: Optional[str] = field(
+    value: Optional[Period] = field(
         default=None,
         metadata={
             "required": True,
-            "min_exclusive": "--04",
+            "min_exclusive": Period("--04"),
         }
     )

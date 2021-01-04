@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Union
+from xml.etree.ElementTree import QName
 from xsdata.models.datatype import Period
 
 
@@ -8,7 +9,7 @@ class Root:
     class Meta:
         name = "root"
 
-    value: Union[Period, int, str] = field(
+    value: Union[Period, int, QName] = field(
         init=False,
         default=1200,
     )

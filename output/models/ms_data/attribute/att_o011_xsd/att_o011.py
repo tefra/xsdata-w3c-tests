@@ -21,7 +21,11 @@ class Doc:
     class Elem:
         att: List[str] = field(
             init=False,
-            default_factory=lambda: ["X", "Y", "Z"],
+            default_factory=lambda: [
+                "X",
+                "Y",
+                "Z",
+            ],
             metadata={
                 "type": "Attribute",
                 "namespace": "http://xsdtesting",

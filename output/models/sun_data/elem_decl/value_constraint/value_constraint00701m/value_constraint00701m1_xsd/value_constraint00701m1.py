@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List
 
 __NAMESPACE__ = "ElemDecl/valueConstraint"
 
@@ -25,8 +25,9 @@ class Root:
             "namespace": "",
         }
     )
-    attr: Optional[str] = field(
-        default=None,
+    attr: str = field(
+        init=False,
+        default="part1 part2",
         metadata={
             "type": "Attribute",
         }

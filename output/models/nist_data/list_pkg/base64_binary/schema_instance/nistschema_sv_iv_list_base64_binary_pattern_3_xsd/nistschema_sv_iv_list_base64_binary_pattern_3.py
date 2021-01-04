@@ -16,5 +16,6 @@ class NistschemaSvIvListBase64BinaryPattern3:
             "required": True,
             "pattern": r"[a-zA-Z0-9+/]{12} [a-zA-Z0-9+/]{52} [a-zA-Z0-9+/]{28} [a-zA-Z0-9+/]{60} [a-zA-Z0-9+/]{20} [a-zA-Z0-9+/]{20} [a-zA-Z0-9+/]{48} [a-zA-Z0-9+/]{24} [a-zA-Z0-9+/]{72}",
             "tokens": True,
+            "format": "base64",
         }
     )

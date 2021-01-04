@@ -9,7 +9,8 @@ class Root:
         name = "root"
 
     value: List[Union[Period, int]] = field(
-        default_factory=list,
+        init=False,
+        default_factory=lambda: [1, 2, 3, 4, 20, 100],
         metadata={
             "tokens": True,
         }

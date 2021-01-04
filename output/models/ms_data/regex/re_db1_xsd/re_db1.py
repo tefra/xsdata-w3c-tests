@@ -9,6 +9,7 @@ class Regex:
         metadata={
             "type": "Attribute",
             "pattern": r"([0-1]{4}|(0|1){8})",
+            "format": "base64",
         }
     )
 

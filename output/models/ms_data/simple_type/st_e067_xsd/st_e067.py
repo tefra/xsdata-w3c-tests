@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional, Union
+from typing import Union
 from xsdata.models.datatype import Period
 
 
@@ -9,6 +9,7 @@ class Root:
     class Meta:
         name = "root"
 
-    value: Optional[Union[Period, str, Decimal]] = field(
-        default=None,
+    value: Union[Period, str, Decimal] = field(
+        init=False,
+        default="name",
     )

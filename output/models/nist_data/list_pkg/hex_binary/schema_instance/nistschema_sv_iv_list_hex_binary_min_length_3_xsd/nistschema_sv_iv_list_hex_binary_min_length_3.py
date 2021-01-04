@@ -10,11 +10,12 @@ class NistschemaSvIvListHexBinaryMinLength3:
         name = "NISTSchema-SV-IV-list-hexBinary-minLength-3"
         namespace = "NISTSchema-SV-IV-list-hexBinary-minLength-3-NS"
 
-    value: List[str] = field(
+    value: List[bytes] = field(
         default_factory=list,
         metadata={
             "required": True,
             "min_length": 7,
             "tokens": True,
+            "format": "base16",
         }
     )

@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List, Optional
+from typing import Optional
 
 
 @dataclass
@@ -22,12 +22,11 @@ class FooType:
         value: Optional[str] = field(
             default=None,
         )
-        attr_test: List["FooType.Foo.AttrTest"] = field(
-            default_factory=list,
+        attr_test: Optional["FooType.Foo.AttrTest"] = field(
+            default=None,
             metadata={
                 "name": "attrTest",
                 "type": "Attribute",
-                "tokens": True,
             }
         )
 

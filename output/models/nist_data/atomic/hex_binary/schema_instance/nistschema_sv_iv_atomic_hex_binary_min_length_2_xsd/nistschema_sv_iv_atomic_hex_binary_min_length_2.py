@@ -10,10 +10,11 @@ class NistschemaSvIvAtomicHexBinaryMinLength2:
         name = "NISTSchema-SV-IV-atomic-hexBinary-minLength-2"
         namespace = "NISTSchema-SV-IV-atomic-hexBinary-minLength-2-NS"
 
-    value: Optional[str] = field(
+    value: Optional[bytes] = field(
         default=None,
         metadata={
             "required": True,
             "min_length": 28,
+            "format": "base16",
         }
     )

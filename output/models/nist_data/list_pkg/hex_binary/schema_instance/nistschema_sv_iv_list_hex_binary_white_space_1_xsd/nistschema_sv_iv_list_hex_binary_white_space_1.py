@@ -10,11 +10,12 @@ class NistschemaSvIvListHexBinaryWhiteSpace1:
         name = "NISTSchema-SV-IV-list-hexBinary-whiteSpace-1"
         namespace = "NISTSchema-SV-IV-list-hexBinary-whiteSpace-1-NS"
 
-    value: List[str] = field(
+    value: List[bytes] = field(
         default_factory=list,
         metadata={
             "required": True,
             "white_space": "collapse",
             "tokens": True,
+            "format": "base16",
         }
     )

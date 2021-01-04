@@ -7,8 +7,8 @@ class FooTest:
     class Meta:
         name = "fooTest"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        default="Hello",
     )
 
 

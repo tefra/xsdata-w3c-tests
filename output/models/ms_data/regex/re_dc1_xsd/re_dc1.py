@@ -13,5 +13,6 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "pattern": r"AF01D1",
+            "format": "base16",
         }
     )

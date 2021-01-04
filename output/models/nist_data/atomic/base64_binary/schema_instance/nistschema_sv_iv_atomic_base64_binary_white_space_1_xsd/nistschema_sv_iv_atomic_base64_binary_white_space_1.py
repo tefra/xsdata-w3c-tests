@@ -10,10 +10,11 @@ class NistschemaSvIvAtomicBase64BinaryWhiteSpace1:
         name = "NISTSchema-SV-IV-atomic-base64Binary-whiteSpace-1"
         namespace = "NISTSchema-SV-IV-atomic-base64Binary-whiteSpace-1-NS"
 
-    value: Optional[str] = field(
+    value: Optional[bytes] = field(
         default=None,
         metadata={
             "required": True,
             "white_space": "collapse",
+            "format": "base64",
         }
     )

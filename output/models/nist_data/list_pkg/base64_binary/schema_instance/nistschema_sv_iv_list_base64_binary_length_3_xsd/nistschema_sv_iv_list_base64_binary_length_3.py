@@ -10,11 +10,12 @@ class NistschemaSvIvListBase64BinaryLength3:
         name = "NISTSchema-SV-IV-list-base64Binary-length-3"
         namespace = "NISTSchema-SV-IV-list-base64Binary-length-3-NS"
 
-    value: List[str] = field(
+    value: List[bytes] = field(
         default_factory=list,
         metadata={
             "required": True,
             "length": 7,
             "tokens": True,
+            "format": "base64",
         }
     )

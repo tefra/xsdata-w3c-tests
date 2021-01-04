@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 from enum import Enum
 from typing import Optional
+from xml.etree.ElementTree import QName
 
 __NAMESPACE__ = "targetNS"
 
@@ -15,7 +16,7 @@ class Picture:
     )
 
     class Type(Enum):
-        TEST_PNG = "test:png"
+        TEST_PNG = QName("{tck_test}png")
 
 
 @dataclass

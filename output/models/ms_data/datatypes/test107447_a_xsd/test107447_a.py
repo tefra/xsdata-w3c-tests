@@ -57,7 +57,9 @@ class Root:
     )
     idrefs: List[str] = field(
         init=False,
-        default_factory=lambda: ["John"],
+        default_factory=lambda: [
+            "John",
+        ],
         metadata={
             "type": "Element",
             "required": True,
@@ -74,7 +76,9 @@ class Root:
     )
     nmtokens: List[str] = field(
         init=False,
-        default_factory=lambda: ["John"],
+        default_factory=lambda: [
+            "John",
+        ],
         metadata={
             "type": "Element",
             "required": True,

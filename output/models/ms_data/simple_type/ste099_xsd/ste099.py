@@ -10,7 +10,9 @@ class Root:
 
     value: List[Union[Period, bytes]] = field(
         init=False,
-        default_factory=lambda: [b"i\xb7\x1dy\xf6\x9b"],
+        default_factory=lambda: [
+            b"i\xb7\x1dy\xf6\x9b",
+        ],
         metadata={
             "tokens": True,
             "format": "base64",

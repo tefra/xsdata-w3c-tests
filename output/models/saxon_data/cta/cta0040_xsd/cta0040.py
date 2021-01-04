@@ -24,7 +24,7 @@ class Chap:
     class Meta:
         name = "chap"
 
-    value: Optional[Union[str, time, datetime]] = field(
+    value: Optional[Union[str, datetime, time]] = field(
         default=None,
     )
     type: Optional[str] = field(

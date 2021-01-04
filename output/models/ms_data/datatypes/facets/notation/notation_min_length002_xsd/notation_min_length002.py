@@ -1,12 +1,13 @@
 from dataclasses import dataclass, field
 from enum import Enum
 from typing import Optional
+from xml.etree.ElementTree import QName
 
 
 class BuildNotation(Enum):
-    JPEG = "jpeg"
-    MPEG = "mpeg"
-    G = "g"
+    JPEG = QName("jpeg")
+    MPEG = QName("mpeg")
+    G = QName("g")
 
 
 @dataclass

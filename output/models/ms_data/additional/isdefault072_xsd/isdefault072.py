@@ -29,7 +29,9 @@ class Array:
         }
     )
     dimensions: List[int] = field(
-        default_factory=lambda: [1],
+        default_factory=lambda: [
+            1,
+        ],
         metadata={
             "name": "Dimensions",
             "type": "Attribute",
@@ -38,7 +40,9 @@ class Array:
         }
     )
     lower_bounds: List[int] = field(
-        default_factory=lambda: [0],
+        default_factory=lambda: [
+            0,
+        ],
         metadata={
             "name": "LowerBounds",
             "type": "Attribute",

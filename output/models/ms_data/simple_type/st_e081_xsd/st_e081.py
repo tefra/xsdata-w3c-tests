@@ -10,7 +10,14 @@ class Root:
 
     value: List[Union[Period, bool, str]] = field(
         init=False,
-        default_factory=lambda: ["a", "b", "c", "d", "e", "f"],
+        default_factory=lambda: [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+        ],
         metadata={
             "tokens": True,
         }

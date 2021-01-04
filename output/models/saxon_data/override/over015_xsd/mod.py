@@ -1,12 +1,13 @@
 from dataclasses import dataclass, field
 from enum import Enum
 from typing import List, Optional
+from xml.etree.ElementTree import QName
 
 
 class NotaFooBar(Enum):
-    FOO = "foo"
-    BAR = "bar"
-    BEZ = "bez"
+    FOO = QName("foo")
+    BAR = QName("bar")
+    BEZ = QName("bez")
 
 
 @dataclass
@@ -59,7 +60,7 @@ class Doc:
                 },
                 {
                     "name": "bezzle",
-                    "type": str,
+                    "type": QName,
                 },
             ),
         }

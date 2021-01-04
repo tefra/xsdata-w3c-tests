@@ -10,7 +10,11 @@ class Root:
 
     value: List[Period] = field(
         init=False,
-        default_factory=lambda: [Period("2004"), Period("---04"), Period("--05")],
+        default_factory=lambda: [
+            Period("2004"),
+            Period("---04"),
+            Period("--05"),
+        ],
         metadata={
             "tokens": True,
         }

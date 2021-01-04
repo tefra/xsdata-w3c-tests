@@ -8,7 +8,8 @@ class Root:
         name = "root"
 
     value: List[Union[bool, int, str]] = field(
-        default_factory=list,
+        init=False,
+        default_factory=lambda: [True, True, "abcdef", False, 10000],
         metadata={
             "tokens": True,
         }

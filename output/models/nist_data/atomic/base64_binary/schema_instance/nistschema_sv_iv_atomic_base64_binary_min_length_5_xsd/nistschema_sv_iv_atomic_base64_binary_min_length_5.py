@@ -10,10 +10,11 @@ class NistschemaSvIvAtomicBase64BinaryMinLength5:
         name = "NISTSchema-SV-IV-atomic-base64Binary-minLength-5"
         namespace = "NISTSchema-SV-IV-atomic-base64Binary-minLength-5-NS"
 
-    value: Optional[str] = field(
+    value: Optional[bytes] = field(
         default=None,
         metadata={
             "required": True,
             "min_length": 74,
+            "format": "base64",
         }
     )

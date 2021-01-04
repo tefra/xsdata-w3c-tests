@@ -7,13 +7,14 @@ class ComplexfooType:
     class Meta:
         name = "complexfooType"
 
-    comp_foo: List[str] = field(
+    comp_foo: List[bytes] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
             "tokens": True,
+            "format": "base64",
         }
     )
 
@@ -23,11 +24,12 @@ class SimpleTest:
     class Meta:
         name = "simpleTest"
 
-    value: List[str] = field(
+    value: List[bytes] = field(
         default_factory=list,
         metadata={
             "required": True,
             "tokens": True,
+            "format": "base64",
         }
     )
 
@@ -51,12 +53,13 @@ class Root:
             "required": True,
         }
     )
-    simple_test: List[str] = field(
+    simple_test: List[bytes] = field(
         default_factory=list,
         metadata={
             "name": "simpleTest",
             "type": "Element",
             "required": True,
             "tokens": True,
+            "format": "base64",
         }
     )

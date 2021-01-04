@@ -14,11 +14,12 @@ class FooType:
             "type": "Element",
             "namespace": "",
             "required": True,
+            "format": "base64",
         }
     )
 
     class Foo(Enum):
-        MS0Y_LTM = "MS0yLTM="
+        MS0Y_LTM = b"1-2-3"
 
 
 @dataclass

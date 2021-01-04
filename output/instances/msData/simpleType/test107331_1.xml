@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <anyuri>http://tempuri</anyuri>
-  <hexbinary>abcd</hexbinary>
+  <hexbinary>ABCD</hexbinary>
   <month>--12</month>
   <day>---15</day>
   <monthday>--02-13</monthday>

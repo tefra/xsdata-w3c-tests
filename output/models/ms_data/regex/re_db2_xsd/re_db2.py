@@ -13,5 +13,6 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "pattern": r"([0-1]{4}|(0|1){8})",
+            "format": "base64",
         }
     )

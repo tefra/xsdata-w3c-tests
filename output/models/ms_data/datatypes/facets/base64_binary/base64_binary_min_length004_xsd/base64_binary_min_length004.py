@@ -7,7 +7,7 @@ class FooType:
     class Meta:
         name = "fooType"
 
-    foo: Optional[str] = field(
+    foo: Optional[bytes] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -15,6 +15,7 @@ class FooType:
             "required": True,
             "min_length": 4,
             "max_length": 6,
+            "format": "base64",
         }
     )
 

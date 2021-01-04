@@ -10,10 +10,11 @@ class NistschemaSvIvAtomicBase64BinaryMaxLength4:
         name = "NISTSchema-SV-IV-atomic-base64Binary-maxLength-4"
         namespace = "NISTSchema-SV-IV-atomic-base64Binary-maxLength-4-NS"
 
-    value: Optional[str] = field(
+    value: Optional[bytes] = field(
         default=None,
         metadata={
             "required": True,
             "max_length": 61,
+            "format": "base64",
         }
     )

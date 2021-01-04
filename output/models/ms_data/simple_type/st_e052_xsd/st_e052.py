@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional, Union
+from typing import Union
 
 
 @dataclass
@@ -7,6 +7,7 @@ class Root:
     class Meta:
         name = "root"
 
-    value: Optional[Union[bool, int, str]] = field(
-        default=None,
+    value: Union[bool, int, str] = field(
+        init=False,
+        default="abcdefg",
     )

@@ -22,6 +22,7 @@ class Root:
     class Meta:
         name = "root"
 
-    value: Optional[Union[Period, str, int]] = field(
-        default=None,
+    value: Union[Period, str, int] = field(
+        init=False,
+        default="a",
     )

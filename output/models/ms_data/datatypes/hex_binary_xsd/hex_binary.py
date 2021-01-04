@@ -7,12 +7,13 @@ class ComplexfooType:
     class Meta:
         name = "complexfooType"
 
-    comp_foo: Optional[str] = field(
+    comp_foo: Optional[bytes] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
+            "format": "base16",
         }
     )
 
@@ -22,10 +23,11 @@ class SimpleTest:
     class Meta:
         name = "simpleTest"
 
-    value: Optional[str] = field(
+    value: Optional[bytes] = field(
         default=None,
         metadata={
             "required": True,
+            "format": "base16",
         }
     )
 
@@ -49,11 +51,12 @@ class Root:
             "required": True,
         }
     )
-    simple_test: Optional[str] = field(
+    simple_test: Optional[bytes] = field(
         default=None,
         metadata={
             "name": "simpleTest",
             "type": "Element",
             "required": True,
+            "format": "base16",
         }
     )

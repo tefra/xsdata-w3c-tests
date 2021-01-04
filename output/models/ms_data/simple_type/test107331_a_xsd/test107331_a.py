@@ -140,10 +140,11 @@ class Hexbinary:
     class Meta:
         name = "hexbinary"
 
-    value: Optional[str] = field(
+    value: Optional[bytes] = field(
         default=None,
         metadata={
             "required": True,
+            "format": "base16",
         }
     )
 
@@ -219,11 +220,12 @@ class Root:
             "min_occurs": 1,
         }
     )
-    hexbinary: List[str] = field(
+    hexbinary: List[bytes] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
+            "format": "base16",
         }
     )
     month: List[Period] = field(

@@ -10,10 +10,11 @@ class NistschemaSvIvAtomicHexBinaryLength4:
         name = "NISTSchema-SV-IV-atomic-hexBinary-length-4"
         namespace = "NISTSchema-SV-IV-atomic-hexBinary-length-4-NS"
 
-    value: Optional[str] = field(
+    value: Optional[bytes] = field(
         default=None,
         metadata={
             "required": True,
             "length": 68,
+            "format": "base16",
         }
     )

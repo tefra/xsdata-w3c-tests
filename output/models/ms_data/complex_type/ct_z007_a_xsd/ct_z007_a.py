@@ -36,8 +36,9 @@ class State:
     class Meta:
         namespace = "urn:xmlns:25hoursaday-com:address"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        init=False,
+        default="WA",
         metadata={
             "required": True,
         }

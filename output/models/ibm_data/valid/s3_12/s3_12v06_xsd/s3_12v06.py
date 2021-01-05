@@ -115,7 +115,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns"
 
-    person: List[Union[CtAlt1, CtAlt2, CtBase]] = field(
+    person: List[Union[CtBase, CtAlt1, CtAlt2]] = field(
         default_factory=list,
         metadata={
             "type": "Element",

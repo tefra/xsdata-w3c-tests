@@ -56,7 +56,7 @@ class Poitems:
     class Meta:
         name = "POITEMS"
 
-    item: List[Union[Item, LongItemDefn, ShortItemDefn]] = field(
+    item: List[Union[Item, ShortItemDefn, LongItemDefn]] = field(
         default_factory=list,
         metadata={
             "type": "Element",

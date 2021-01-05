@@ -10,8 +10,9 @@ class Id:
         name = "ID"
         namespace = "ElemDecl/valueConstraint"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        init=False,
+        default="alpha",
         metadata={
             "required": True,
         }

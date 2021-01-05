@@ -1,6 +1,5 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
 
 
 class Mylist(Enum):
@@ -13,8 +12,8 @@ class Root:
     class Meta:
         name = "root"
 
-    value: Optional[Mylist] = field(
-        default=None,
+    value: Mylist = field(
+        default=Mylist.VALUE_1,
         metadata={
             "required": True,
         }

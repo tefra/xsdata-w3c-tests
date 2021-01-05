@@ -59,7 +59,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns"
 
-    elem1: List[Union[AnySimpleType, DoubleType, FloatType]] = field(
+    elem1: List[Union[AnySimpleType, FloatType, DoubleType]] = field(
         default_factory=list,
         metadata={
             "type": "Element",

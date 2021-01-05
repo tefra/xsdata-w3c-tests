@@ -24,8 +24,9 @@ class Root2:
         name = "root2"
         namespace = "ElemDecl/name"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        init=False,
+        default="No",
         metadata={
             "required": True,
         }

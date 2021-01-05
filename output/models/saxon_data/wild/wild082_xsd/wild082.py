@@ -41,7 +41,7 @@ class Zing:
     class Meta:
         name = "zing"
 
-    a: Optional[Union[Zz, ZzDouble, ZzInteger]] = field(
+    a: Optional[Union[Zz, ZzInteger, ZzDouble]] = field(
         default=None,
         metadata={
             "type": "Element",

@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List
+from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-date-maxLength-3-NS"
 
@@ -10,7 +11,7 @@ class NistschemaSvIvListDateMaxLength3:
         name = "NISTSchema-SV-IV-list-date-maxLength-3"
         namespace = "NISTSchema-SV-IV-list-date-maxLength-3-NS"
 
-    value: List[str] = field(
+    value: List[XmlDate] = field(
         default_factory=list,
         metadata={
             "required": True,

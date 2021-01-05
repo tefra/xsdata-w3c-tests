@@ -2,6 +2,7 @@ from dataclasses import dataclass, field
 from decimal import Decimal
 from enum import Enum
 from typing import List, Optional
+from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "http://www.example.com/IPO"
 
@@ -107,7 +108,7 @@ class ItemsType:
                 "max_occurs": 2,
             }
         )
-        ship_date: Optional[str] = field(
+        ship_date: Optional[XmlDate] = field(
             default=None,
             metadata={
                 "name": "shipDate",
@@ -252,7 +253,7 @@ class PurchaseOrderType:
             "required": True,
         }
     )
-    order_date: Optional[str] = field(
+    order_date: Optional[XmlDate] = field(
         default=None,
         metadata={
             "name": "orderDate",

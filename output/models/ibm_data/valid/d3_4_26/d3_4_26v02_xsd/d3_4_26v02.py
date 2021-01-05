@@ -1,16 +1,16 @@
 from dataclasses import dataclass, field
 from enum import Enum
 from typing import Optional
-from xsdata.models.datatype import Duration
+from xsdata.models.datatype import XmlDuration
 
 __NAMESPACE__ = "http://xstest-tns/schema11_D3_4_26_v02"
 
 
 class YMdenumeration(Enum):
-    P1_Y = Duration("P1Y")
-    P1_Y3_M = Duration("P1Y3M")
-    VALUE_P34_Y233_M = Duration("-P34Y233M")
-    P45_M = Duration("P45M")
+    P1_Y = XmlDuration("P1Y")
+    P1_Y3_M = XmlDuration("P1Y3M")
+    VALUE_P34_Y233_M = XmlDuration("-P34Y233M")
+    P45_M = XmlDuration("P45M")
 
 
 @dataclass
@@ -22,7 +22,7 @@ class Root:
     value: Optional[str] = field(
         default=None,
     )
-    ay_mdtype: Optional[Duration] = field(
+    ay_mdtype: Optional[XmlDuration] = field(
         default=None,
         metadata={
             "name": "ayMDType",
@@ -36,21 +36,21 @@ class Root:
             "type": "Attribute",
         }
     )
-    ay_mdmin_max_inclusive: Optional[Duration] = field(
+    ay_mdmin_max_inclusive: Optional[XmlDuration] = field(
         default=None,
         metadata={
             "name": "ayMDMinMaxInclusive",
             "type": "Attribute",
-            "min_inclusive": Duration("-P2Y"),
-            "max_inclusive": Duration("P30Y23M"),
+            "min_inclusive": XmlDuration("-P2Y"),
+            "max_inclusive": XmlDuration("P30Y23M"),
         }
     )
-    ay_mdmin_max_exclusive: Optional[Duration] = field(
+    ay_mdmin_max_exclusive: Optional[XmlDuration] = field(
         default=None,
         metadata={
             "name": "ayMDMinMaxExclusive",
             "type": "Attribute",
-            "min_exclusive": Duration("-P2Y"),
-            "max_exclusive": Duration("P30Y23M"),
+            "min_exclusive": XmlDuration("-P2Y"),
+            "max_exclusive": XmlDuration("P30Y23M"),
         }
     )

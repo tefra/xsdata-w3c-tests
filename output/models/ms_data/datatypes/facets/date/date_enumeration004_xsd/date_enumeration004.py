@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 from enum import Enum
 from typing import Optional
+from xsdata.models.datatype import XmlDate
 
 
 @dataclass
@@ -18,9 +19,9 @@ class FooType:
     )
 
     class Foo(Enum):
-        VALUE_1999_05_31 = "1999-05-31"
-        VALUE_1999_07_31 = "1999-07-31"
-        VALUE_2000_03_10 = "2000-03-10"
+        VALUE_1999_05_31 = XmlDate(1999, 5, 31)
+        VALUE_1999_07_31 = XmlDate(1999, 7, 31)
+        VALUE_2000_03_10 = XmlDate(2000, 3, 10)
 
 
 @dataclass

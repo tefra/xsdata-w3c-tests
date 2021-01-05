@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
+from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "attributeUses"
 
@@ -18,7 +19,7 @@ class A1:
             "type": "Attribute",
         }
     )
-    attr2: Optional[str] = field(
+    attr2: Optional[XmlDate] = field(
         default=None,
         metadata={
             "type": "Attribute",

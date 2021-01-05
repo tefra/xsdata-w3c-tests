@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
-from datetime import datetime
 from typing import Optional
+from xsdata.models.datatype import XmlDate, XmlDateTime
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-dateTime-maxInclusive-3-NS"
 
@@ -11,10 +11,10 @@ class NistschemaSvIvAtomicDateTimeMaxInclusive3:
         name = "NISTSchema-SV-IV-atomic-dateTime-maxInclusive-3"
         namespace = "NISTSchema-SV-IV-atomic-dateTime-maxInclusive-3-NS"
 
-    value: Optional[datetime] = field(
+    value: Optional[XmlDateTime] = field(
         default=None,
         metadata={
             "required": True,
-            "max_inclusive": datetime(2003, 3, 9, 2, 0, 23),
+            "max_inclusive": XmlDateTime(2003, 3, 9, 2, 0, 23),
         }
     )

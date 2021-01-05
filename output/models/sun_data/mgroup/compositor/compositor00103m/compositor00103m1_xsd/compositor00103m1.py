@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
-from datetime import time
 from typing import Optional
+from xsdata.models.datatype import XmlDate, XmlTime
 
 __NAMESPACE__ = "compositor"
 
@@ -11,7 +11,7 @@ class A:
         name = "a"
         namespace = "compositor"
 
-    date: Optional[str] = field(
+    date: Optional[XmlDate] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -19,10 +19,9 @@ class A:
             "required": True,
         }
     )
-    time_value: Optional[time] = field(
+    time: Optional[XmlTime] = field(
         default=None,
         metadata={
-            "name": "time",
             "type": "Element",
             "namespace": "",
             "required": True,

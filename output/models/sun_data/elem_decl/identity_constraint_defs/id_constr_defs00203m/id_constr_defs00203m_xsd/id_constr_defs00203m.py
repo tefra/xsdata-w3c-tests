@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
+from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "ElemDecl/identityConstraintDefs"
 
@@ -24,7 +25,7 @@ class Root:
         value: Optional[str] = field(
             default=None,
         )
-        birthday: Optional[str] = field(
+        birthday: Optional[XmlDate] = field(
             default=None,
             metadata={
                 "type": "Attribute",

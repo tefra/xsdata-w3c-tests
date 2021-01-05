@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
+from xsdata.models.datatype import XmlTime
 
 
 @dataclass
@@ -7,13 +8,13 @@ class FooType:
     class Meta:
         name = "fooType"
 
-    foo: Optional[str] = field(
+    foo: Optional[XmlTime] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-            "max_inclusive": "10:21:00-05:00",
+            "max_inclusive": XmlTime(10, 21, 0, 0, -300),
         }
     )
 

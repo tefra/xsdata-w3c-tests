@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
-from datetime import datetime, time
 from typing import List, Optional, Union
+from xsdata.models.datatype import XmlDate, XmlDateTime, XmlTime
 
 
 @dataclass
@@ -8,7 +8,7 @@ class Appendix:
     class Meta:
         name = "appendix"
 
-    value: Optional[Union[str, datetime, time]] = field(
+    value: Optional[Union[XmlDateTime, XmlTime, XmlDate]] = field(
         default=None,
     )
     type: Optional[str] = field(
@@ -24,7 +24,7 @@ class Chap:
     class Meta:
         name = "chap"
 
-    value: Optional[Union[str, datetime, time]] = field(
+    value: Optional[Union[XmlDateTime, XmlTime, XmlDate]] = field(
         default=None,
     )
     type: Optional[str] = field(

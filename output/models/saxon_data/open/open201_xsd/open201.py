@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
 from typing import Optional
+from xsdata.models.datatype import XmlDate
 
 
 @dataclass
@@ -15,7 +16,7 @@ class AType:
             "type": "Attribute",
         }
     )
-    extra_date: Optional[str] = field(
+    extra_date: Optional[XmlDate] = field(
         default=None,
         metadata={
             "name": "extra-date",
@@ -36,7 +37,7 @@ class Doc:
             "type": "Attribute",
         }
     )
-    extra_date: Optional[str] = field(
+    extra_date: Optional[XmlDate] = field(
         default=None,
         metadata={
             "name": "extra-date",

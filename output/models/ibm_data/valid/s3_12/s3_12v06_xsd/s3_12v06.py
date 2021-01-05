@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Optional, Union
+from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "http://xstest-tns"
 
@@ -35,7 +36,7 @@ class ChildTypeDerived:
             "type": "Attribute",
         }
     )
-    dob: Optional[str] = field(
+    dob: Optional[XmlDate] = field(
         default=None,
         metadata={
             "name": "DOB",

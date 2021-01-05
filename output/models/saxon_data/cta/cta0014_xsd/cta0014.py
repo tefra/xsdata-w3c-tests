@@ -1,7 +1,6 @@
 from dataclasses import dataclass, field
-from datetime import datetime, time
 from typing import List, Optional, Union
-from xsdata.models.datatype import Period
+from xsdata.models.datatype import XmlDate, XmlDateTime, XmlPeriod, XmlTime
 
 
 @dataclass
@@ -9,7 +8,7 @@ class Event:
     class Meta:
         name = "event"
 
-    when: Optional[Union[str, time, datetime, Period]] = field(
+    when: Optional[Union[XmlDate, XmlTime, XmlDateTime, XmlPeriod]] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -29,7 +28,7 @@ class When:
     class Meta:
         name = "when"
 
-    value: Optional[Union[str, time, datetime, Period]] = field(
+    value: Optional[Union[XmlDate, XmlTime, XmlDateTime, XmlPeriod]] = field(
         default=None,
         metadata={
             "required": True,

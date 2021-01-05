@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List
+from xsdata.models.datatype import XmlTime
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-time-minLength-3-NS"
 
@@ -10,7 +11,7 @@ class NistschemaSvIvListTimeMinLength3:
         name = "NISTSchema-SV-IV-list-time-minLength-3"
         namespace = "NISTSchema-SV-IV-list-time-minLength-3-NS"
 
-    value: List[str] = field(
+    value: List[XmlTime] = field(
         default_factory=list,
         metadata={
             "required": True,

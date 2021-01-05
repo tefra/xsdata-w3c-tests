@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
+from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "IdConstrDefs/fields"
 
@@ -30,7 +31,7 @@ class People:
                 "type": "Attribute",
             }
         )
-        birthday: Optional[str] = field(
+        birthday: Optional[XmlDate] = field(
             default=None,
             metadata={
                 "type": "Attribute",

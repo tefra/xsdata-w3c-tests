@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
-from datetime import time
 from typing import Optional
+from xsdata.models.datatype import XmlDate, XmlTime
 
 
 @dataclass
@@ -8,7 +8,7 @@ class E:
     class Meta:
         name = "e"
 
-    value: Optional[time] = field(
+    value: Optional[XmlTime] = field(
         default=None,
         metadata={
             "required": True,
@@ -21,7 +21,7 @@ class Zing:
     class Meta:
         name = "zing"
 
-    e: Optional[str] = field(
+    e: Optional[XmlDate] = field(
         default=None,
         metadata={
             "type": "Element",

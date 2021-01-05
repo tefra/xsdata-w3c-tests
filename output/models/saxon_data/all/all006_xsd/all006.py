@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
-from datetime import time
 from typing import Optional
+from xsdata.models.datatype import XmlDate, XmlTime
 
 
 @dataclass
@@ -21,7 +21,7 @@ class A:
     class Meta:
         name = "a"
 
-    value: Optional[time] = field(
+    value: Optional[XmlTime] = field(
         default=None,
         metadata={
             "required": True,
@@ -34,7 +34,7 @@ class B:
     class Meta:
         name = "b"
 
-    value: Optional[time] = field(
+    value: Optional[XmlTime] = field(
         default=None,
         metadata={
             "required": True,
@@ -47,7 +47,7 @@ class C1:
     class Meta:
         name = "c"
 
-    value: Optional[time] = field(
+    value: Optional[XmlTime] = field(
         default=None,
         metadata={
             "required": True,
@@ -60,14 +60,14 @@ class Doc:
     class Meta:
         name = "doc"
 
-    a: Optional[str] = field(
+    a: Optional[XmlDate] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
         }
     )
-    b: Optional[time] = field(
+    b: Optional[XmlTime] = field(
         default=None,
         metadata={
             "type": "Element",

@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
-from datetime import datetime
 from typing import Optional
+from xsdata.models.datatype import XmlDate, XmlDateTime
 
 
 @dataclass
@@ -8,13 +8,13 @@ class FooType:
     class Meta:
         name = "fooType"
 
-    foo: Optional[datetime] = field(
+    foo: Optional[XmlDateTime] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-            "max_exclusive": datetime(1999, 5, 12, 10, 31),
+            "max_exclusive": XmlDateTime(1999, 5, 12, 10, 31, 0),
         }
     )
 

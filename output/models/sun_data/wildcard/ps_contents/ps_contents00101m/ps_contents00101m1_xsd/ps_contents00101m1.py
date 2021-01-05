@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
+from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "psContents"
 
@@ -26,7 +27,7 @@ class Date:
         name = "date"
         namespace = "psContents"
 
-    value: Optional[str] = field(
+    value: Optional[XmlDate] = field(
         default=None,
         metadata={
             "required": True,

@@ -1,17 +1,17 @@
 from dataclasses import dataclass, field
 from enum import Enum
 from typing import Optional
-from xsdata.models.datatype import Period
+from xsdata.models.datatype import XmlPeriod
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-gMonth-enumeration-1-NS"
 
 
 class NistschemaSvIvAtomicGMonthEnumeration1Type(Enum):
-    VALUE_01 = Period("--01")
-    VALUE_08 = Period("--08")
-    VALUE_02 = Period("--02")
-    VALUE_05 = Period("--05")
-    VALUE_04 = Period("--04")
+    VALUE_01 = XmlPeriod("--01")
+    VALUE_08 = XmlPeriod("--08")
+    VALUE_02 = XmlPeriod("--02")
+    VALUE_05 = XmlPeriod("--05")
+    VALUE_04 = XmlPeriod("--04")
 
 
 @dataclass

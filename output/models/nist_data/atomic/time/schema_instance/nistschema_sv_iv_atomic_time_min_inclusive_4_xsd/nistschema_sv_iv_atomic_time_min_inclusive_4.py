@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
+from xsdata.models.datatype import XmlTime
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-time-minInclusive-4-NS"
 
@@ -10,10 +11,10 @@ class NistschemaSvIvAtomicTimeMinInclusive4:
         name = "NISTSchema-SV-IV-atomic-time-minInclusive-4"
         namespace = "NISTSchema-SV-IV-atomic-time-minInclusive-4-NS"
 
-    value: Optional[str] = field(
+    value: Optional[XmlTime] = field(
         default=None,
         metadata={
             "required": True,
-            "min_inclusive": "19:31:35",
+            "min_inclusive": XmlTime(19, 31, 35, 0),
         }
     )

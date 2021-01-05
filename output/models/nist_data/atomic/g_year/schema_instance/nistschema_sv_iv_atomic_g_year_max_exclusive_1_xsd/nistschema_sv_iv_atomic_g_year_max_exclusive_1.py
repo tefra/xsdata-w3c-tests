@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
-from xsdata.models.datatype import Period
+from xsdata.models.datatype import XmlPeriod
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-gYear-maxExclusive-1-NS"
 
@@ -11,10 +11,10 @@ class NistschemaSvIvAtomicGYearMaxExclusive1:
         name = "NISTSchema-SV-IV-atomic-gYear-maxExclusive-1"
         namespace = "NISTSchema-SV-IV-atomic-gYear-maxExclusive-1-NS"
 
-    value: Optional[Period] = field(
+    value: Optional[XmlPeriod] = field(
         default=None,
         metadata={
             "required": True,
-            "max_exclusive": Period("1971"),
+            "max_exclusive": XmlPeriod("1971"),
         }
     )

@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
+from xsdata.models.datatype import XmlDate
 
 
 @dataclass
@@ -27,7 +28,7 @@ class ParentType:
                 "type": "Attribute",
             }
         )
-        dob: Optional[str] = field(
+        dob: Optional[XmlDate] = field(
             default=None,
             metadata={
                 "type": "Attribute",
@@ -42,7 +43,7 @@ class ParentType:
                 "type": "Attribute",
             }
         )
-        dob: Optional[str] = field(
+        dob: Optional[XmlDate] = field(
             default=None,
             metadata={
                 "type": "Attribute",
@@ -52,10 +53,9 @@ class ParentType:
 
 @dataclass
 class TimerType:
-    time_value: Optional[int] = field(
+    time: Optional[int] = field(
         default=None,
         metadata={
-            "name": "time",
             "type": "Attribute",
         }
     )

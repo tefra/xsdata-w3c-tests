@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
-from datetime import time
 from typing import Optional
+from xsdata.models.datatype import XmlTime
 
 
 @dataclass
@@ -8,7 +8,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    value: Optional[time] = field(
+    value: Optional[XmlTime] = field(
         default=None,
         metadata={
             "explicit_timezone": "optional",

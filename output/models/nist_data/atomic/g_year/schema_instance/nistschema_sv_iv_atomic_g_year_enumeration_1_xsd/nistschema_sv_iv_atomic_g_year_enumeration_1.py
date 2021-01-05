@@ -1,20 +1,20 @@
 from dataclasses import dataclass, field
 from enum import Enum
 from typing import Optional
-from xsdata.models.datatype import Period
+from xsdata.models.datatype import XmlPeriod
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-gYear-enumeration-1-NS"
 
 
 class NistschemaSvIvAtomicGYearEnumeration1Type(Enum):
-    VALUE_2028 = Period("2028")
-    VALUE_1999 = Period("1999")
-    VALUE_1998 = Period("1998")
-    VALUE_1995 = Period("1995")
-    VALUE_2021 = Period("2021")
-    VALUE_2006 = Period("2006")
-    VALUE_2007 = Period("2007")
-    VALUE_2015 = Period("2015")
+    VALUE_2028 = XmlPeriod("2028")
+    VALUE_1999 = XmlPeriod("1999")
+    VALUE_1998 = XmlPeriod("1998")
+    VALUE_1995 = XmlPeriod("1995")
+    VALUE_2021 = XmlPeriod("2021")
+    VALUE_2006 = XmlPeriod("2006")
+    VALUE_2007 = XmlPeriod("2007")
+    VALUE_2015 = XmlPeriod("2015")
 
 
 @dataclass

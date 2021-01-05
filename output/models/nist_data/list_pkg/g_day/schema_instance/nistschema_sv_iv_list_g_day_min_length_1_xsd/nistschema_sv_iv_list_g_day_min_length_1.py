@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List
-from xsdata.models.datatype import Period
+from xsdata.models.datatype import XmlPeriod
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-gDay-minLength-1-NS"
 
@@ -11,7 +11,7 @@ class NistschemaSvIvListGDayMinLength1:
         name = "NISTSchema-SV-IV-list-gDay-minLength-1"
         namespace = "NISTSchema-SV-IV-list-gDay-minLength-1-NS"
 
-    value: List[Period] = field(
+    value: List[XmlPeriod] = field(
         default_factory=list,
         metadata={
             "required": True,

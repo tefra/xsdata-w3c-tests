@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
 from typing import List, Optional
+from xsdata.models.datatype import XmlDate
 
 
 @dataclass
@@ -48,7 +49,7 @@ class Items:
                 "type": "Element",
             }
         )
-        ship_date: Optional[str] = field(
+        ship_date: Optional[XmlDate] = field(
             default=None,
             metadata={
                 "name": "shipDate",
@@ -168,7 +169,7 @@ class PurchaseOrderType:
             "required": True,
         }
     )
-    order_date: Optional[str] = field(
+    order_date: Optional[XmlDate] = field(
         default=None,
         metadata={
             "name": "orderDate",

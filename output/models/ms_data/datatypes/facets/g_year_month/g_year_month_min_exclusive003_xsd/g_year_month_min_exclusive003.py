@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
-from xsdata.models.datatype import Period
+from xsdata.models.datatype import XmlPeriod
 
 
 @dataclass
@@ -8,13 +8,13 @@ class FooType:
     class Meta:
         name = "fooType"
 
-    foo: Optional[Period] = field(
+    foo: Optional[XmlPeriod] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-            "min_exclusive": Period("2000-12"),
+            "min_exclusive": XmlPeriod("2000-12"),
         }
     )
 

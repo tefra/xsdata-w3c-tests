@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
+from xsdata.models.datatype import XmlDate
 
 
 @dataclass
@@ -20,7 +21,7 @@ class T:
             "min_occurs": 1,
         }
     )
-    d: List[str] = field(
+    d: List[XmlDate] = field(
         default_factory=list,
         metadata={
             "type": "Element",

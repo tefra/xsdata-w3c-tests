@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
 from typing import List, Optional
+from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "urn:myxsdschema"
 
@@ -10,7 +11,7 @@ class MyDateTime:
     class Meta:
         name = "myDateTime"
 
-    date: Optional[str] = field(
+    date: Optional[XmlDate] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -18,10 +19,9 @@ class MyDateTime:
             "required": True,
         }
     )
-    time_value: Optional[str] = field(
+    time: Optional[str] = field(
         default=None,
         metadata={
-            "name": "time",
             "type": "Element",
             "namespace": "",
             "required": True,
@@ -43,7 +43,7 @@ class MySmallDateTime:
     class Meta:
         name = "mySmallDateTime"
 
-    date: Optional[str] = field(
+    date: Optional[XmlDate] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -51,10 +51,9 @@ class MySmallDateTime:
             "required": True,
         }
     )
-    time_value: Optional[str] = field(
+    time: Optional[str] = field(
         default=None,
         metadata={
-            "name": "time",
             "type": "Element",
             "namespace": "",
             "required": True,

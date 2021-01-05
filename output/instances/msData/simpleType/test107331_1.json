@@ -21,13 +21,13 @@
     "date": [
         "1999-05-31"
     ],
-    "time_value": [
+    "time": [
         "13:20:00-05:00"
     ],
-    "datetime_value": [
+    "datetime": [
         "1999-05-31T13:20:00-05:00"
     ],
-    "duration_value": [
+    "duration": [
         "P1347Y"
     ],
     "decimal_value": [

@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from enum import Enum
 from typing import Optional
-from xsdata.models.datatype import Period
+from xsdata.models.datatype import XmlPeriod
 
 
 @dataclass
@@ -19,7 +19,7 @@ class FooType:
     )
 
     class Foo(Enum):
-        VALUE_2000 = Period("2000")
+        VALUE_2000 = XmlPeriod("2000")
 
 
 @dataclass

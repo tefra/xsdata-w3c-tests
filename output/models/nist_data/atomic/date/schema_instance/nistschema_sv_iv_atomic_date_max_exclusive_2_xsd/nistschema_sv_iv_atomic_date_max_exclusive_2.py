@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
+from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-date-maxExclusive-2-NS"
 
@@ -10,10 +11,10 @@ class NistschemaSvIvAtomicDateMaxExclusive2:
         name = "NISTSchema-SV-IV-atomic-date-maxExclusive-2"
         namespace = "NISTSchema-SV-IV-atomic-date-maxExclusive-2-NS"
 
-    value: Optional[str] = field(
+    value: Optional[XmlDate] = field(
         default=None,
         metadata={
             "required": True,
-            "max_exclusive": "2016-09-05",
+            "max_exclusive": XmlDate(2016, 9, 5),
         }
     )

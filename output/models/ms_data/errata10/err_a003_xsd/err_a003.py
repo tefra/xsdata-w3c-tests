@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
-from xsdata.models.datatype import Period
+from xsdata.models.datatype import XmlPeriod
 
 __NAMESPACE__ = "http://www.tempuri.org"
 
@@ -10,7 +10,7 @@ class RootType:
     class Meta:
         name = "rootType"
 
-    test_element: Optional[Period] = field(
+    test_element: Optional[XmlPeriod] = field(
         default=None,
         metadata={
             "name": "testElement",
@@ -27,7 +27,7 @@ class TestElement:
         name = "testElement"
         namespace = "http://www.tempuri.org"
 
-    value: Optional[Period] = field(
+    value: Optional[XmlPeriod] = field(
         default=None,
         metadata={
             "required": True,

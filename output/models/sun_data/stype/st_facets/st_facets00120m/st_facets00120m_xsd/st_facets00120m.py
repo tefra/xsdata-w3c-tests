@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
-from xsdata.models.datatype import Period
+from xsdata.models.datatype import XmlPeriod
 
 __NAMESPACE__ = "ST_facets"
 
@@ -11,10 +11,10 @@ class Test:
         name = "test"
         namespace = "ST_facets"
 
-    value: Optional[Period] = field(
+    value: Optional[XmlPeriod] = field(
         default=None,
         metadata={
             "required": True,
-            "max_inclusive": Period("2002"),
+            "max_inclusive": XmlPeriod("2002"),
         }
     )

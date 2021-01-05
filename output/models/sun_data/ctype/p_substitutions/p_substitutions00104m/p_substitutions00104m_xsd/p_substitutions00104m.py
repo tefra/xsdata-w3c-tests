@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
+from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "pSubstitutions"
 
@@ -32,7 +33,7 @@ class C:
 
 @dataclass
 class B(A):
-    d: Optional[str] = field(
+    d: Optional[XmlDate] = field(
         default=None,
         metadata={
             "type": "Element",

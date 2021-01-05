@@ -1,18 +1,19 @@
 from dataclasses import dataclass, field
 from enum import Enum
 from typing import Optional
+from xsdata.models.datatype import XmlTime
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-time-enumeration-5-NS"
 
 
 class NistschemaSvIvAtomicTimeEnumeration5Type(Enum):
-    VALUE_06_18_04 = "06:18:04"
-    VALUE_07_45_10 = "07:45:10"
-    VALUE_12_06_46 = "12:06:46"
-    VALUE_21_01_58 = "21:01:58"
-    VALUE_05_34_33 = "05:34:33"
-    VALUE_22_22_06 = "22:22:06"
-    VALUE_12_17_04 = "12:17:04"
+    VALUE_06_18_04 = XmlTime(6, 18, 4, 0)
+    VALUE_07_45_10 = XmlTime(7, 45, 10, 0)
+    VALUE_12_06_46 = XmlTime(12, 6, 46, 0)
+    VALUE_21_01_58 = XmlTime(21, 1, 58, 0)
+    VALUE_05_34_33 = XmlTime(5, 34, 33, 0)
+    VALUE_22_22_06 = XmlTime(22, 22, 6, 0)
+    VALUE_12_17_04 = XmlTime(12, 17, 4, 0)
 
 
 @dataclass

@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
+from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "http://example.com/over019"
 
@@ -10,7 +11,7 @@ class Doc:
         name = "doc"
         namespace = "http://example.com/over019"
 
-    value: Optional[str] = field(
+    value: Optional[XmlDate] = field(
         default=None,
         metadata={
             "required": True,

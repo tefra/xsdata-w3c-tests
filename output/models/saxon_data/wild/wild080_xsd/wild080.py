@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
+from xsdata.models.datatype import XmlDate
 
 
 @dataclass
@@ -13,7 +14,7 @@ class Zing:
     class Meta:
         name = "zing"
 
-    a: Optional[str] = field(
+    a: Optional[XmlDate] = field(
         default=None,
         metadata={
             "type": "Element",

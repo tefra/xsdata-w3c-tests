@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
+from xsdata.models.datatype import XmlDate
 
 
 @dataclass
@@ -14,7 +15,7 @@ class Doc:
             "min_occurs": 1,
         }
     )
-    code: Optional[str] = field(
+    code: Optional[XmlDate] = field(
         default=None,
         metadata={
             "type": "Attribute",

@@ -1,8 +1,7 @@
 from dataclasses import dataclass, field
-from datetime import datetime, time
 from decimal import Decimal
 from typing import List, Optional
-from xsdata.models.datatype import Duration, Period
+from xsdata.models.datatype import XmlDate, XmlDateTime, XmlDuration, XmlPeriod, XmlTime
 
 
 @dataclass
@@ -36,7 +35,7 @@ class Date:
     class Meta:
         name = "date"
 
-    value: Optional[str] = field(
+    value: Optional[XmlDate] = field(
         default=None,
         metadata={
             "required": True,
@@ -45,11 +44,11 @@ class Date:
 
 
 @dataclass
-class DatetimeType:
+class Datetime:
     class Meta:
         name = "datetime"
 
-    value: Optional[datetime] = field(
+    value: Optional[XmlDateTime] = field(
         default=None,
         metadata={
             "required": True,
@@ -62,7 +61,7 @@ class Day:
     class Meta:
         name = "day"
 
-    value: Optional[Period] = field(
+    value: Optional[XmlPeriod] = field(
         default=None,
         metadata={
             "required": True,
@@ -97,11 +96,11 @@ class Double:
 
 
 @dataclass
-class DurationType:
+class Duration:
     class Meta:
         name = "duration"
 
-    value: Optional[Duration] = field(
+    value: Optional[XmlDuration] = field(
         default=None,
         metadata={
             "required": True,
@@ -182,7 +181,7 @@ class Month:
     class Meta:
         name = "month"
 
-    value: Optional[Period] = field(
+    value: Optional[XmlPeriod] = field(
         default=None,
         metadata={
             "required": True,
@@ -195,7 +194,7 @@ class Monthday:
     class Meta:
         name = "monthday"
 
-    value: Optional[Period] = field(
+    value: Optional[XmlPeriod] = field(
         default=None,
         metadata={
             "required": True,
@@ -217,11 +216,11 @@ class String:
 
 
 @dataclass
-class TimeType:
+class Time:
     class Meta:
         name = "time"
 
-    value: Optional[time] = field(
+    value: Optional[XmlTime] = field(
         default=None,
         metadata={
             "required": True,
@@ -234,7 +233,7 @@ class Year:
     class Meta:
         name = "year"
 
-    value: Optional[Period] = field(
+    value: Optional[XmlPeriod] = field(
         default=None,
         metadata={
             "required": True,
@@ -269,61 +268,58 @@ class Root:
             "format": "base16",
         }
     )
-    month: List[Period] = field(
+    month: List[XmlPeriod] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
         }
     )
-    day: List[Period] = field(
+    day: List[XmlPeriod] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
         }
     )
-    monthday: List[Period] = field(
+    monthday: List[XmlPeriod] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
         }
     )
-    year: List[Period] = field(
+    year: List[XmlPeriod] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
         }
     )
-    date: List[str] = field(
+    date: List[XmlDate] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
         }
     )
-    time_value: List[time] = field(
+    time: List[XmlTime] = field(
         default_factory=list,
         metadata={
-            "name": "time",
             "type": "Element",
             "min_occurs": 1,
         }
     )
-    datetime_value: List[datetime] = field(
+    datetime: List[XmlDateTime] = field(
         default_factory=list,
         metadata={
-            "name": "datetime",
             "type": "Element",
             "min_occurs": 1,
         }
     )
-    duration_value: List[Duration] = field(
+    duration: List[XmlDuration] = field(
         default_factory=list,
         metadata={
-            "name": "duration",
             "type": "Element",
             "min_occurs": 1,
         }

@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
-from datetime import datetime
 from typing import List, Optional
+from xsdata.models.datatype import XmlDate, XmlDateTime
 
 __NAMESPACE__ = "http://xstest-tns/schema11_D3_4_28_v03"
 
@@ -20,7 +20,7 @@ class DTimeStampRoot:
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
         }
     )
-    eld_time_stamp_list_a: List[List[datetime]] = field(
+    eld_time_stamp_list_a: List[List[XmlDateTime]] = field(
         default_factory=list,
         metadata={
             "name": "eldTimeStampListA",

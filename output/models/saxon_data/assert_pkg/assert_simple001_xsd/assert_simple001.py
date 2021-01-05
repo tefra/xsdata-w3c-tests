@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
+from xsdata.models.datatype import XmlDate
 
 
 @dataclass
@@ -7,7 +8,7 @@ class Date:
     class Meta:
         name = "date"
 
-    value: Optional[str] = field(
+    value: Optional[XmlDate] = field(
         default=None,
     )
 
@@ -17,7 +18,7 @@ class Outer:
     class Meta:
         name = "outer"
 
-    date: List[str] = field(
+    date: List[XmlDate] = field(
         default_factory=list,
         metadata={
             "type": "Element",

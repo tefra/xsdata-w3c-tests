@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
-from xsdata.models.datatype import Period
+from xsdata.models.datatype import XmlDate, XmlPeriod
 
 __NAMESPACE__ = "http://www.tempuri.org"
 
@@ -11,7 +11,7 @@ class Root:
         name = "root"
         namespace = "http://www.tempuri.org"
 
-    test_date: List[str] = field(
+    test_date: List[XmlDate] = field(
         default_factory=list,
         metadata={
             "name": "testDate",
@@ -20,7 +20,7 @@ class Root:
             "max_occurs": 2,
         }
     )
-    test_gyear_month: List[Period] = field(
+    test_gyear_month: List[XmlPeriod] = field(
         default_factory=list,
         metadata={
             "name": "testGYearMonth",
@@ -29,7 +29,7 @@ class Root:
             "max_occurs": 2,
         }
     )
-    test_gmonth_day: List[Period] = field(
+    test_gmonth_day: List[XmlPeriod] = field(
         default_factory=list,
         metadata={
             "name": "testGMonthDay",
@@ -38,7 +38,7 @@ class Root:
             "max_occurs": 2,
         }
     )
-    test_gday: List[Period] = field(
+    test_gday: List[XmlPeriod] = field(
         default_factory=list,
         metadata={
             "name": "testGDay",
@@ -47,7 +47,7 @@ class Root:
             "max_occurs": 2,
         }
     )
-    test_gmonth: List[Period] = field(
+    test_gmonth: List[XmlPeriod] = field(
         default_factory=list,
         metadata={
             "name": "testGMonth",
@@ -56,7 +56,7 @@ class Root:
             "max_occurs": 2,
         }
     )
-    test_gyear: List[Period] = field(
+    test_gyear: List[XmlPeriod] = field(
         default_factory=list,
         metadata={
             "name": "testGYear",
@@ -73,7 +73,7 @@ class TestDate:
         name = "testDate"
         namespace = "http://www.tempuri.org"
 
-    value: Optional[str] = field(
+    value: Optional[XmlDate] = field(
         default=None,
         metadata={
             "required": True,
@@ -87,7 +87,7 @@ class TestGday:
         name = "testGDay"
         namespace = "http://www.tempuri.org"
 
-    value: Optional[Period] = field(
+    value: Optional[XmlPeriod] = field(
         default=None,
         metadata={
             "required": True,
@@ -101,7 +101,7 @@ class TestGmonth:
         name = "testGMonth"
         namespace = "http://www.tempuri.org"
 
-    value: Optional[Period] = field(
+    value: Optional[XmlPeriod] = field(
         default=None,
         metadata={
             "required": True,
@@ -115,7 +115,7 @@ class TestGmonthDay:
         name = "testGMonthDay"
         namespace = "http://www.tempuri.org"
 
-    value: Optional[Period] = field(
+    value: Optional[XmlPeriod] = field(
         default=None,
         metadata={
             "required": True,
@@ -129,7 +129,7 @@ class TestGyear:
         name = "testGYear"
         namespace = "http://www.tempuri.org"
 
-    value: Optional[Period] = field(
+    value: Optional[XmlPeriod] = field(
         default=None,
         metadata={
             "required": True,
@@ -143,7 +143,7 @@ class TestGyearMonth:
         name = "testGYearMonth"
         namespace = "http://www.tempuri.org"
 
-    value: Optional[Period] = field(
+    value: Optional[XmlPeriod] = field(
         default=None,
         metadata={
             "required": True,

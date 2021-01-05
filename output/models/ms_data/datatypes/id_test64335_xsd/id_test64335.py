@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
 from typing import List, Optional
+from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "urn:products"
 
@@ -81,7 +82,7 @@ class Book(MediaItem):
             "required": True,
         }
     )
-    publish_date: Optional[str] = field(
+    publish_date: Optional[XmlDate] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -104,7 +105,7 @@ class Cd(MediaItem):
             "required": True,
         }
     )
-    release_date: Optional[str] = field(
+    release_date: Optional[XmlDate] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -127,7 +128,7 @@ class Dvd(MediaItem):
             "required": True,
         }
     )
-    release_date: Optional[str] = field(
+    release_date: Optional[XmlDate] = field(
         default=None,
         metadata={
             "type": "Element",

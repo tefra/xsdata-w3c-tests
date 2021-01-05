@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
-from datetime import datetime
 from typing import List, Optional
+from xsdata.models.datatype import XmlDate, XmlDateTime
 
 
 @dataclass
@@ -8,10 +8,10 @@ class DatedEvent:
     class Meta:
         name = "datedEvent"
 
-    value: Optional[str] = field(
+    value: Optional[XmlDate] = field(
         default=None,
     )
-    event: Optional[datetime] = field(
+    event: Optional[XmlDateTime] = field(
         default=None,
         metadata={
             "type": "Attribute",

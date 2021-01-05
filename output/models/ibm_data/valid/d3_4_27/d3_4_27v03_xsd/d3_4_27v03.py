@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Union
-from xsdata.models.datatype import Duration
+from xsdata.models.datatype import XmlDuration
 
 __NAMESPACE__ = "http://xstest-tns/schema11_D3_4_27_v03"
 
@@ -17,7 +17,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_D3_4_27_v03"
 
-    ely_mdunion_a: List[Union[Duration, str]] = field(
+    ely_mdunion_a: List[Union[XmlDuration, str]] = field(
         default_factory=list,
         metadata={
             "name": "elyMDUnionA",
@@ -26,7 +26,7 @@ class Root:
             "min_occurs": 1,
         }
     )
-    ely_mdunion_b: List[Union[Duration, int]] = field(
+    ely_mdunion_b: List[Union[XmlDuration, int]] = field(
         default_factory=list,
         metadata={
             "name": "elyMDUnionB",
@@ -35,7 +35,7 @@ class Root:
             "min_occurs": 1,
         }
     )
-    ely_mdunion_c: List[Union[Duration, str, int]] = field(
+    ely_mdunion_c: List[Union[XmlDuration, str, int]] = field(
         default_factory=list,
         metadata={
             "name": "elyMDUnionC",

@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
 from typing import List, Optional
+from xsdata.models.datatype import XmlDate
 from output.models.ms_data.additional.ipo_s1_xsd.ipo_s1_address import Address
 
 __NAMESPACE__ = "http://www.example.com/IPO"
@@ -52,7 +53,7 @@ class Items:
                 "namespace": "http://www.example.com/IPO",
             }
         )
-        ship_date: Optional[str] = field(
+        ship_date: Optional[XmlDate] = field(
             default=None,
             metadata={
                 "name": "shipDate",
@@ -118,7 +119,7 @@ class PurchaseOrderType:
             "namespace": "",
         }
     )
-    order_date: Optional[str] = field(
+    order_date: Optional[XmlDate] = field(
         default=None,
         metadata={
             "name": "orderDate",

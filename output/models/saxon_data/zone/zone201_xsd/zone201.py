@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
-from datetime import datetime
 from typing import Optional
+from xsdata.models.datatype import XmlDate, XmlDateTime
 
 
 @dataclass
@@ -8,9 +8,9 @@ class Doc:
     class Meta:
         name = "doc"
 
-    value: Optional[datetime] = field(
+    value: Optional[XmlDateTime] = field(
         default=None,
         metadata={
-            "min_inclusive": "0000-01-01T12:00:00",
+            "min_inclusive": XmlDateTime(0, 1, 1, 12, 0, 0),
         }
     )

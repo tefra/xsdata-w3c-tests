@@ -2,6 +2,7 @@ from dataclasses import dataclass, field
 from decimal import Decimal
 from enum import Enum
 from typing import Dict, List, Optional, Union
+from xsdata.models.datatype import XmlDate
 from output.models.common.xsts_xsd.xlink import TypeType
 
 __NAMESPACE__ = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
@@ -753,7 +754,7 @@ class StatusEntry:
             "required": True,
         }
     )
-    date: Optional[str] = field(
+    date: Optional[XmlDate] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -1060,7 +1061,7 @@ class TestSuiteResults:
             "required": True,
         }
     )
-    submit_date: Optional[str] = field(
+    submit_date: Optional[XmlDate] = field(
         default=None,
         metadata={
             "name": "submitDate",
@@ -1516,7 +1517,7 @@ class TestSuite:
             "required": True,
         }
     )
-    release_date: Optional[str] = field(
+    release_date: Optional[XmlDate] = field(
         default=None,
         metadata={
             "name": "releaseDate",

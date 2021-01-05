@@ -29,9 +29,9 @@
                     "type": "shipping",
                     "country": "us",
                     "content": [],
-                    "province": null,
+                    "state": null,
                     "currency": null,
-                    "postal": null
+                    "zip": null
                 },
                 {
                     "any_element": [
@@ -60,9 +60,9 @@
                     "type": "billing",
                     "country": "can",
                     "content": [],
-                    "province": null,
+                    "state": null,
                     "currency": null,
-                    "postal": null
+                    "zip": null
                 }
             ]
         },
@@ -95,9 +95,9 @@
                     "type": "shipping",
                     "country": "can",
                     "content": [],
-                    "province": null,
+                    "state": null,
                     "currency": null,
-                    "postal": null
+                    "zip": null
                 },
                 {
                     "any_element": [
@@ -126,9 +126,9 @@
                     "type": "billing",
                     "country": "can",
                     "content": [],
-                    "province": null,
+                    "state": null,
                     "currency": null,
-                    "postal": null
+                    "zip": null
                 }
             ]
         }

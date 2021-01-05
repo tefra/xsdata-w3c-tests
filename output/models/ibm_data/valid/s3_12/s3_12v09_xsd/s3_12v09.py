@@ -125,7 +125,7 @@ class ItemType:
     class Meta:
         name = "itemType"
 
-    address: List[Union[AddressType, CanaddressType, UsaddressType]] = field(
+    address: List[Union[AddressType, UsaddressType, CanaddressType]] = field(
         default_factory=list,
         metadata={
             "type": "Element",

@@ -9,8 +9,9 @@ class E:
     class Meta:
         namespace = "ElemDecl/valueConstraint"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        init=False,
+        default="true",
         metadata={
             "required": True,
             "pattern": r"true",

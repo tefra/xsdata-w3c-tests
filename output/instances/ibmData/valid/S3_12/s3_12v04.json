@@ -1,11 +1,11 @@
 {
     "elem1": [
         {
-            "value": "1E+104",
+            "value": 1e+104,
             "type": "float"
         },
         {
-            "value": "1E+971",
+            "value": Infinity,
             "type": "double"
         }
     ]

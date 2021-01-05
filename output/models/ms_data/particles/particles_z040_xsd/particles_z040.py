@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List
 
 
 @dataclass
@@ -7,8 +7,9 @@ class A:
     class Meta:
         name = "a"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        init=False,
+        default="e1",
         metadata={
             "required": True,
         }
@@ -20,8 +21,9 @@ class B:
     class Meta:
         name = "b"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        init=False,
+        default="e1",
         metadata={
             "required": True,
         }
@@ -66,8 +68,9 @@ class E:
     class Meta:
         name = "e"
 
-    value: Optional[str] = field(
-        default=None,
+    value: str = field(
+        init=False,
+        default="e1",
         metadata={
             "required": True,
         }

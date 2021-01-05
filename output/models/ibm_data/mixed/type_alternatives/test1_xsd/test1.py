@@ -54,7 +54,7 @@ class Shapes:
     class Meta:
         name = "shapes"
 
-    polygon: List[Union[Quadrilateral, Triangular]] = field(
+    polygon: List[Union[Triangular, Quadrilateral]] = field(
         default_factory=list,
         metadata={
             "type": "Element",

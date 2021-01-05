@@ -35,7 +35,7 @@ class Zing:
     class Meta:
         name = "zing"
 
-    a: List[Union[Zz, ZzDouble, ZzInteger]] = field(
+    a: List[Union[Zz, ZzInteger, ZzDouble]] = field(
         default_factory=list,
         metadata={
             "type": "Element",

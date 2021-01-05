@@ -56,7 +56,7 @@ class XString:
 
 @dataclass
 class Example:
-    x: List[Union[XDecimal, XInt, XString]] = field(
+    x: List[Union[XInt, XDecimal, XString]] = field(
         default_factory=list,
         metadata={
             "type": "Element",

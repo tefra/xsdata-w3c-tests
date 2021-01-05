@@ -22,7 +22,7 @@ class Root:
 
     @dataclass
     class Meeting:
-        beverage: Optional[Union[int, str]] = field(
+        beverage: Optional[Union[str, int]] = field(
             default=None,
             metadata={
                 "type": "Element",

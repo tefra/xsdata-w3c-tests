@@ -31,7 +31,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns"
 
-    title: List[Union[int, str, TitleType]] = field(
+    title: List[Union[TitleType, int, str]] = field(
         default_factory=list,
         metadata={
             "type": "Element",

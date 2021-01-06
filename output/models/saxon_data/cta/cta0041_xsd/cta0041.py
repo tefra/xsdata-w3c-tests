@@ -24,7 +24,7 @@ class Chap:
     class Meta:
         name = "chap"
 
-    value: Optional[Union[XmlDateTime, XmlDate, XmlTime]] = field(
+    value: Optional[Union[XmlDate, XmlDateTime, XmlTime]] = field(
         default=None,
     )
     type: Optional[str] = field(

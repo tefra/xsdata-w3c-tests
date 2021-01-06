@@ -8,7 +8,7 @@ class Appendix:
     class Meta:
         name = "appendix"
 
-    value: Optional[Union[XmlDateTime, XmlDate, XmlTime]] = field(
+    value: Optional[Union[XmlDate, XmlDateTime, XmlTime]] = field(
         default=None,
     )
     type: Optional[str] = field(

@@ -30,147 +30,6 @@ class TypeType(Enum):
 
 
 @dataclass
-class ArcType:
-    """
-    :ivar title:
-    :ivar type:
-    :ivar arcrole:
-    :ivar title_attribute:
-    :ivar show:
-    :ivar actuate:
-    :ivar from_value:
-    :ivar to: from and to have default behavior when values are missing
-    """
-    class Meta:
-        name = "arcType"
-
-    title: List[str] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.w3.org/1999/xlink",
-        }
-    )
-    type: TypeType = field(
-        init=False,
-        default=TypeType.ARC,
-        metadata={
-            "type": "Attribute",
-            "namespace": "http://www.w3.org/1999/xlink",
-            "required": True,
-        }
-    )
-    arcrole: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "namespace": "http://www.w3.org/1999/xlink",
-            "min_length": 1,
-        }
-    )
-    title_attribute: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "title",
-            "type": "Attribute",
-            "namespace": "http://www.w3.org/1999/xlink",
-        }
-    )
-    show: Optional[ShowType] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "namespace": "http://www.w3.org/1999/xlink",
-        }
-    )
-    actuate: Optional[ActuateType] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "namespace": "http://www.w3.org/1999/xlink",
-        }
-    )
-    from_value: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "from",
-            "type": "Attribute",
-            "namespace": "http://www.w3.org/1999/xlink",
-        }
-    )
-    to: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "namespace": "http://www.w3.org/1999/xlink",
-        }
-    )
-
-
-@dataclass
-class LocatorType:
-    """
-    :ivar title:
-    :ivar type:
-    :ivar href:
-    :ivar role:
-    :ivar title_attribute:
-    :ivar label: label is not required, but locators have no particular
-        XLink function if they are not labeled.
-    """
-    class Meta:
-        name = "locatorType"
-
-    title: List[str] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.w3.org/1999/xlink",
-        }
-    )
-    type: TypeType = field(
-        init=False,
-        default=TypeType.LOCATOR,
-        metadata={
-            "type": "Attribute",
-            "namespace": "http://www.w3.org/1999/xlink",
-            "required": True,
-        }
-    )
-    href: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "namespace": "http://www.w3.org/1999/xlink",
-            "required": True,
-        }
-    )
-    role: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "namespace": "http://www.w3.org/1999/xlink",
-            "min_length": 1,
-        }
-    )
-    title_attribute: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "title",
-            "type": "Attribute",
-            "namespace": "http://www.w3.org/1999/xlink",
-        }
-    )
-    label: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "namespace": "http://www.w3.org/1999/xlink",
-        }
-    )
-
-
-@dataclass
 class ResourceType:
     class Meta:
         name = "resourceType"
@@ -326,20 +185,6 @@ class TitleEltType:
 
 
 @dataclass
-class Arc(ArcType):
-    class Meta:
-        name = "arc"
-        namespace = "http://www.w3.org/1999/xlink"
-
-
-@dataclass
-class Locator(LocatorType):
-    class Meta:
-        name = "locator"
-        namespace = "http://www.w3.org/1999/xlink"
-
-
-@dataclass
 class Resource(ResourceType):
     class Meta:
         name = "resource"
@@ -350,6 +195,161 @@ class Resource(ResourceType):
 class Title(TitleEltType):
     class Meta:
         name = "title"
+        namespace = "http://www.w3.org/1999/xlink"
+
+
+@dataclass
+class ArcType:
+    """
+    :ivar title:
+    :ivar type:
+    :ivar arcrole:
+    :ivar title_attribute:
+    :ivar show:
+    :ivar actuate:
+    :ivar from_value:
+    :ivar to: from and to have default behavior when values are missing
+    """
+    class Meta:
+        name = "arcType"
+
+    title: List[Title] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
+    )
+    type: TypeType = field(
+        init=False,
+        default=TypeType.ARC,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+            "required": True,
+        }
+    )
+    arcrole: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+            "min_length": 1,
+        }
+    )
+    title_attribute: Optional[str] = field(
+        default=None,
+        metadata={
+            "name": "title",
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
+    )
+    show: Optional[ShowType] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
+    )
+    actuate: Optional[ActuateType] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
+    )
+    from_value: Optional[str] = field(
+        default=None,
+        metadata={
+            "name": "from",
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
+    )
+    to: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
+    )
+
+
+@dataclass
+class LocatorType:
+    """
+    :ivar title:
+    :ivar type:
+    :ivar href:
+    :ivar role:
+    :ivar title_attribute:
+    :ivar label: label is not required, but locators have no particular
+        XLink function if they are not labeled.
+    """
+    class Meta:
+        name = "locatorType"
+
+    title: List[Title] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
+    )
+    type: TypeType = field(
+        init=False,
+        default=TypeType.LOCATOR,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+            "required": True,
+        }
+    )
+    href: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+            "required": True,
+        }
+    )
+    role: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+            "min_length": 1,
+        }
+    )
+    title_attribute: Optional[str] = field(
+        default=None,
+        metadata={
+            "name": "title",
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
+    )
+    label: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/1999/xlink",
+        }
+    )
+
+
+@dataclass
+class Arc(ArcType):
+    class Meta:
+        name = "arc"
+        namespace = "http://www.w3.org/1999/xlink"
+
+
+@dataclass
+class Locator(LocatorType):
+    class Meta:
+        name = "locator"
         namespace = "http://www.w3.org/1999/xlink"
 
 
@@ -372,7 +372,7 @@ class Extended:
             "choices": (
                 {
                     "name": "title",
-                    "type": str,
+                    "type": Title,
                     "namespace": "http://www.w3.org/1999/xlink",
                 },
                 {

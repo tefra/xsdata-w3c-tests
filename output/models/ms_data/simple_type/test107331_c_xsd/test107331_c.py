@@ -208,20 +208,24 @@ class Root:
             "min_occurs": 1,
         }
     )
-    b: List[B1] = field(
+    b: List[str] = field(
         default_factory=list,
         metadata={
             "name": "B",
             "type": "Element",
             "min_occurs": 1,
+            "min_length": 0,
+            "max_length": 10,
         }
     )
-    a: List[A1] = field(
+    a: List[int] = field(
         default_factory=list,
         metadata={
             "name": "A",
             "type": "Element",
             "min_occurs": 1,
+            "min_exclusive": 0,
+            "max_inclusive": 10,
         }
     )
     item: List[object] = field(

@@ -10,7 +10,7 @@ class Ct1:
     class Meta:
         name = "CT1"
 
-    att1: Optional[Union[bool, float, int, "Ct1.Value"]] = field(
+    att1: Optional[Union[bool, float, int, "Ct1.Att1"]] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -18,7 +18,7 @@ class Ct1:
         }
     )
 
-    class Value(Enum):
+    class Att1(Enum):
         X = "x"
         Y = "y"
 
@@ -90,7 +90,7 @@ class Root:
                 },
                 {
                     "name": "E1",
-                    "type": Union[bool, float, int, "Root.Value"],
+                    "type": Union[bool, float, int, "Root.E1"],
                 },
                 {
                     "name": "E3",
@@ -100,6 +100,6 @@ class Root:
         }
     )
 
-    class Value(Enum):
+    class E1(Enum):
         X = "x"
         Y = "y"

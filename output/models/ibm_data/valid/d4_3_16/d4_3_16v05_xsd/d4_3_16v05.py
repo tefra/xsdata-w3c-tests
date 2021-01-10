@@ -58,7 +58,7 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_F4_3_16_v05"
 
-    el_enumeration_a: List["Root.Value"] = field(
+    el_enumeration_a: List["Root.ElEnumerationA"] = field(
         default_factory=list,
         metadata={
             "name": "elEnumerationA",
@@ -67,7 +67,7 @@ class Root:
             "max_occurs": 4,
         }
     )
-    el_enumeration_b: List["Root.Value"] = field(
+    el_enumeration_b: List["Root.ElEnumerationB"] = field(
         default_factory=list,
         metadata={
             "name": "elEnumerationB",
@@ -76,7 +76,7 @@ class Root:
             "max_occurs": 3,
         }
     )
-    el_enumeration_c: List["Root.Value"] = field(
+    el_enumeration_c: List["Root.ElEnumerationC"] = field(
         default_factory=list,
         metadata={
             "name": "elEnumerationC",
@@ -86,8 +86,16 @@ class Root:
         }
     )
 
-    class Value(Enum):
+    class ElEnumerationA(Enum):
         VALUE_1999_01_01_T01_01_00_Z = "1999-01-01T01:01:00Z"
         VALUE_2000_01_01_T01_01_00_01_00 = "2000-01-01T01:01:00-01:00"
         VALUE_2001_01_01_T01_01_00_01_00 = "2001-01-01T01:01:00+01:00"
         VALUE_2002_01_01_T01_01_00 = "2002-01-01T01:01:00"
+
+    class ElEnumerationB(Enum):
+        VALUE_2003_01_01_T01_01_00 = "2003-01-01T01:01:00"
+
+    class ElEnumerationC(Enum):
+        VALUE_1994_01_01_T01_01_00_Z = "1994-01-01T01:01:00Z"
+        VALUE_2005_01_01_T01_01_00_01_00 = "2005-01-01T01:01:00-01:00"
+        VALUE_2006_01_01_T01_01_00_01_00 = "2006-01-01T01:01:00+01:00"

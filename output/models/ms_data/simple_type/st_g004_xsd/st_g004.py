@@ -26,7 +26,7 @@ class Root:
     class Meta:
         name = "root"
 
-    foo_test: List[Union[int, "Root.Value"]] = field(
+    foo_test: List[Union[int, "Root.FooTest"]] = field(
         default_factory=list,
         metadata={
             "name": "fooTest",
@@ -36,6 +36,6 @@ class Root:
         }
     )
 
-    class Value(Enum):
+    class FooTest(Enum):
         WA = "WA"
         OR_VALUE = "OR"

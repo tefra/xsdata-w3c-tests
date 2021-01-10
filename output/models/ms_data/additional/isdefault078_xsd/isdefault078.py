@@ -8,7 +8,7 @@ class Root:
     class Meta:
         name = "root"
 
-    space: Optional["Root.Value"] = field(
+    space: Optional["Root.Space"] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -16,6 +16,6 @@ class Root:
         }
     )
 
-    class Value(Enum):
+    class Space(Enum):
         DEFAULT = "default"
         PRESERVE = "preserve"

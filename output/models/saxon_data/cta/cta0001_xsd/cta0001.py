@@ -53,7 +53,7 @@ class MessageTypeXml:
             "required": True,
         }
     )
-    kind: Optional["MessageTypeXml.Value"] = field(
+    kind: Optional["MessageTypeXml.Kind"] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -67,7 +67,7 @@ class MessageTypeXml:
         }
     )
 
-    class Value(Enum):
+    class Kind(Enum):
         STRING = "string"
         BASE64 = "base64"
         BINARY = "binary"

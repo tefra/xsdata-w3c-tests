@@ -28,7 +28,7 @@ class Root:
     class Meta:
         name = "root"
 
-    foo_test: Optional[Union[int, "Root.Value"]] = field(
+    foo_test: Optional[Union[int, "Root.FooTest"]] = field(
         default=None,
         metadata={
             "name": "fooTest",
@@ -39,7 +39,7 @@ class Root:
         }
     )
 
-    class Value(Enum):
+    class FooTest(Enum):
         WA = "WA"
         OR_VALUE = "OR"
         CA = "CA"

@@ -3,17 +3,23 @@
         {
             "value": null,
             "id_one": "aaa",
-            "id_two": "bbb"
+            "any_attributes": {
+                "id-two": "bbb"
+            }
         },
         {
             "value": null,
             "id_one": "ccc",
-            "id_two": "ddd"
+            "any_attributes": {
+                "id-two": "ddd"
+            }
         },
         {
             "value": null,
             "id_one": "eee",
-            "id_two": "eee"
+            "any_attributes": {
+                "id-two": "eee"
+            }
         }
     ]
 }

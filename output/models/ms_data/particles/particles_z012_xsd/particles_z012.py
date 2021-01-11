@@ -6,24 +6,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 
 @dataclass
-class Ct1:
-    class Meta:
-        name = "CT1"
-
-    att1: Optional[Union[bool, float, int, "Ct1.Att1"]] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "namespace": "http://xsdtesting",
-        }
-    )
-
-    class Att1(Enum):
-        X = "x"
-        Y = "y"
-
-
-@dataclass
 class Ct2:
     class Meta:
         name = "CT2"
@@ -38,28 +20,43 @@ class Ct2:
 
 
 @dataclass
-class E1:
+class E2:
     class Meta:
         namespace = "http://xsdtesting"
 
-    value: Optional[Union[bool, float, int, "E1.Value"]] = field(
+    value: Optional[int] = field(
         default=None,
         metadata={
             "required": True,
         }
     )
 
-    class Value(Enum):
-        X = "x"
-        Y = "y"
+
+class MyType10Value(Enum):
+    X = "x"
+    Y = "y"
 
 
 @dataclass
-class E2:
+class Ct1:
+    class Meta:
+        name = "CT1"
+
+    att1: Optional[Union[bool, float, int, MyType10Value]] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://xsdtesting",
+        }
+    )
+
+
+@dataclass
+class E1:
     class Meta:
         namespace = "http://xsdtesting"
 
-    value: Optional[int] = field(
+    value: Optional[Union[bool, float, int, MyType10Value]] = field(
         default=None,
         metadata={
             "required": True,
@@ -90,7 +87,7 @@ class Root:
                 },
                 {
                     "name": "E1",
-                    "type": Union[bool, float, int, "Root.E1"],
+                    "type": Union[bool, float, int, MyType10Value],
                 },
                 {
                     "name": "E3",
@@ -99,7 +96,3 @@ class Root:
             ),
         }
     )
-
-    class E1(Enum):
-        X = "x"
-        Y = "y"

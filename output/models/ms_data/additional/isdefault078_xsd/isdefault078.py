@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
-from enum import Enum
 from typing import Optional
+from output.models.ms_data.additional.isdefault078_xsd.xml import SpaceValue
 
 
 @dataclass
@@ -8,14 +8,10 @@ class Root:
     class Meta:
         name = "root"
 
-    space: Optional["Root.Space"] = field(
+    space: Optional[SpaceValue] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/XML/1998/namespace",
         }
     )
-
-    class Space(Enum):
-        DEFAULT = "default"
-        PRESERVE = "preserve"

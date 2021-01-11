@@ -3,12 +3,16 @@ from enum import Enum
 from typing import Optional
 
 
+class FooTypeFoo(Enum):
+    VALUE_1_1 = 1.1
+
+
 @dataclass
 class FooType:
     class Meta:
         name = "fooType"
 
-    foo: Optional["FooType.Foo"] = field(
+    foo: Optional[FooTypeFoo] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -16,9 +20,6 @@ class FooType:
             "required": True,
         }
     )
-
-    class Foo(Enum):
-        VALUE_1_1 = 1.1
 
 
 @dataclass

@@ -4,8 +4,59 @@ from enum import Enum
 from typing import List, Optional
 from xsdata.models.datatype import XmlDate
 from output.models.boeing_data.ipo5.ipo_xsd.address import AddressType
+from output.models.boeing_data.ipo5.ipo_xsd.itematt import ItemDeliveryShipBy
 
 __NAMESPACE__ = "http://www.example.com/IPO"
+
+
+class Usstate(Enum):
+    AK = "AK"
+    AL = "AL"
+    AR = "AR"
+    CA = "CA"
+    PA = "PA"
+
+
+@dataclass
+class Comment:
+    class Meta:
+        name = "comment"
+        namespace = "http://www.example.com/IPO"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata={
+            "required": True,
+        }
+    )
+
+
+@dataclass
+class CustomerComment:
+    class Meta:
+        name = "customerComment"
+        namespace = "http://www.example.com/IPO"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata={
+            "required": True,
+        }
+    )
+
+
+@dataclass
+class ShipComment:
+    class Meta:
+        name = "shipComment"
+        namespace = "http://www.example.com/IPO"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata={
+            "required": True,
+        }
+    )
 
 
 @dataclass
@@ -105,7 +156,7 @@ class ItemsType:
                 "type": "Attribute",
             }
         )
-        ship_by: Optional["ItemsType.Item.ShipBy"] = field(
+        ship_by: Optional[ItemDeliveryShipBy] = field(
             default=None,
             metadata={
                 "name": "shipBy",
@@ -113,57 +164,49 @@ class ItemsType:
             }
         )
 
-        class ShipBy(Enum):
-            AIR = "air"
-            LAND = "land"
-            ANY = "any"
-
-
-class Usstate(Enum):
-    AK = "AK"
-    AL = "AL"
-    AR = "AR"
-    CA = "CA"
-    PA = "PA"
-
 
 @dataclass
-class Comment:
+class Ukaddress(AddressType):
     class Meta:
-        name = "comment"
-        namespace = "http://www.example.com/IPO"
+        name = "UKAddress"
 
-    value: Optional[str] = field(
+    postcode: Optional[str] = field(
         default=None,
         metadata={
+            "type": "Element",
+            "namespace": "http://www.example.com/IPO",
             "required": True,
+            "pattern": r"[A-Z]{2}\d\s\d[A-Z]{2}",
+        }
+    )
+    export_code: int = field(
+        init=False,
+        default=1,
+        metadata={
+            "name": "exportCode",
+            "type": "Attribute",
         }
     )
 
 
 @dataclass
-class CustomerComment:
+class Usaddress(AddressType):
     class Meta:
-        name = "customerComment"
-        namespace = "http://www.example.com/IPO"
+        name = "USAddress"
 
-    value: Optional[str] = field(
+    state: Optional[Usstate] = field(
         default=None,
         metadata={
+            "type": "Element",
+            "namespace": "http://www.example.com/IPO",
             "required": True,
         }
     )
-
-
-@dataclass
-class ShipComment:
-    class Meta:
-        name = "shipComment"
-        namespace = "http://www.example.com/IPO"
-
-    value: Optional[str] = field(
+    zip: Optional[int] = field(
         default=None,
         metadata={
+            "type": "Element",
+            "namespace": "http://www.example.com/IPO",
             "required": True,
         }
     )
@@ -231,53 +274,6 @@ class PurchaseOrderType:
         metadata={
             "name": "orderDate",
             "type": "Attribute",
-        }
-    )
-
-
-@dataclass
-class Ukaddress(AddressType):
-    class Meta:
-        name = "UKAddress"
-
-    postcode: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.example.com/IPO",
-            "required": True,
-            "pattern": r"[A-Z]{2}\d\s\d[A-Z]{2}",
-        }
-    )
-    export_code: int = field(
-        init=False,
-        default=1,
-        metadata={
-            "name": "exportCode",
-            "type": "Attribute",
-        }
-    )
-
-
-@dataclass
-class Usaddress(AddressType):
-    class Meta:
-        name = "USAddress"
-
-    state: Optional[Usstate] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.example.com/IPO",
-            "required": True,
-        }
-    )
-    zip: Optional[int] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.example.com/IPO",
-            "required": True,
         }
     )
 

@@ -92,13 +92,17 @@ class Default:
     )
 
 
+class OverrideA(Enum):
+    FIXED = "fixed"
+
+
 @dataclass
-class Override:
+class Prohibit:
     class Meta:
-        name = "override"
+        name = "prohibit"
         namespace = "urn:foo"
 
-    a: Optional["Override.A"] = field(
+    a: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -117,17 +121,14 @@ class Override:
         }
     )
 
-    class A(Enum):
-        FIXED = "fixed"
-
 
 @dataclass
-class Prohibit:
+class Override:
     class Meta:
-        name = "prohibit"
+        name = "override"
         namespace = "urn:foo"
 
-    a: Optional[str] = field(
+    a: Optional[OverrideA] = field(
         default=None,
         metadata={
             "type": "Attribute",

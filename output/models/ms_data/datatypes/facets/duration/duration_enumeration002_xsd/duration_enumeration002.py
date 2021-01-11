@@ -4,12 +4,16 @@ from typing import Optional
 from xsdata.models.datatype import XmlDuration
 
 
+class FooTypeFoo(Enum):
+    P1347_Y = XmlDuration("P1347Y")
+
+
 @dataclass
 class FooType:
     class Meta:
         name = "fooType"
 
-    foo: Optional["FooType.Foo"] = field(
+    foo: Optional[FooTypeFoo] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -17,9 +21,6 @@ class FooType:
             "required": True,
         }
     )
-
-    class Foo(Enum):
-        P1347_Y = XmlDuration("P1347Y")
 
 
 @dataclass

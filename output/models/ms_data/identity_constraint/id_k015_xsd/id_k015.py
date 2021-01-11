@@ -3,12 +3,18 @@ from enum import Enum
 from typing import List, Optional
 
 
+class UidValue(Enum):
+    SMALL = "small"
+    MEDIUM = "medium"
+    LARGE = "large"
+
+
 @dataclass
 class Uid:
     class Meta:
         name = "uid"
 
-    pid: List["Uid.Value"] = field(
+    pid: List[UidValue] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -28,11 +34,6 @@ class Uid:
             "type": "Attribute",
         }
     )
-
-    class Value(Enum):
-        SMALL = "small"
-        MEDIUM = "medium"
-        LARGE = "large"
 
 
 @dataclass

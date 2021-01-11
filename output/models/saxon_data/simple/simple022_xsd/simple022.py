@@ -6,16 +6,17 @@ from typing import Optional
 __NAMESPACE__ = "http://simple022.ly/"
 
 
+class PriceValue(Enum):
+    VALUE_9_99 = Decimal("9.99")
+    NA_N = Decimal("NaN")
+
+
 @dataclass
 class Price:
     class Meta:
         name = "price"
         namespace = "http://simple022.ly/"
 
-    value: Optional["Price.Value"] = field(
+    value: Optional[PriceValue] = field(
         default=None,
     )
-
-    class Value(Enum):
-        VALUE_9_99 = Decimal("9.99")
-        NA_N = Decimal("NaN")

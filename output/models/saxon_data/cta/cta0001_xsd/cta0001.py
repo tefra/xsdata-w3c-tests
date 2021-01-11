@@ -3,6 +3,16 @@ from enum import Enum
 from typing import Dict, List, Optional
 
 
+class MessageTypeValue(Enum):
+    STRING = "string"
+    BASE64 = "base64"
+    BINARY = "binary"
+    DATE = "date"
+    TIME = "time"
+    XML = "xml"
+    XML_1 = "XML"
+
+
 @dataclass
 class MessageType:
     class Meta:
@@ -16,7 +26,7 @@ class MessageType:
             "mixed": True,
         }
     )
-    kind: Optional["MessageType.Value"] = field(
+    kind: Optional[MessageTypeValue] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -29,15 +39,6 @@ class MessageType:
             "namespace": "##any",
         }
     )
-
-    class Value(Enum):
-        STRING = "string"
-        BASE64 = "base64"
-        BINARY = "binary"
-        DATE = "date"
-        TIME = "time"
-        XML = "xml"
-        XML_1 = "XML"
 
 
 @dataclass
@@ -53,7 +54,7 @@ class MessageTypeXml:
             "required": True,
         }
     )
-    kind: Optional["MessageTypeXml.Kind"] = field(
+    kind: Optional[MessageTypeValue] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -66,15 +67,6 @@ class MessageTypeXml:
             "namespace": "##any",
         }
     )
-
-    class Kind(Enum):
-        STRING = "string"
-        BASE64 = "base64"
-        BINARY = "binary"
-        DATE = "date"
-        TIME = "time"
-        XML = "xml"
-        XML_1 = "XML"
 
 
 @dataclass

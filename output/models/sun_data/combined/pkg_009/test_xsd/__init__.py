@@ -3,5 +3,6 @@ from output.models.sun_data.combined.pkg_009.test_xsd.test import (
     Base,
     Default,
     Override,
+    OverrideA,
     Prohibit,
 )

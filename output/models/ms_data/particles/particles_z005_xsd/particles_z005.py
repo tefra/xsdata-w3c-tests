@@ -3,6 +3,11 @@ from enum import Enum
 from typing import List
 
 
+class U1Value(Enum):
+    X = "x"
+    Y = "y"
+
+
 class U3(Enum):
     X = "x"
     Y = "y"

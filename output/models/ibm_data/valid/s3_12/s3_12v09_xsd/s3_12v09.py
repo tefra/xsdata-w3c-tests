@@ -5,6 +5,11 @@ from typing import List, Optional, Union
 __NAMESPACE__ = "tns"
 
 
+class AddressTypeType(Enum):
+    BILLING = "billing"
+    SHIPPING = "shipping"
+
+
 class CountryType(Enum):
     US = "us"
     CAN = "can"
@@ -23,7 +28,7 @@ class AddressType:
             "mixed": True,
         }
     )
-    type: Optional["AddressType.Type"] = field(
+    type: Optional[AddressTypeType] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -35,10 +40,6 @@ class AddressType:
             "type": "Attribute",
         }
     )
-
-    class Type(Enum):
-        BILLING = "billing"
-        SHIPPING = "shipping"
 
 
 @dataclass

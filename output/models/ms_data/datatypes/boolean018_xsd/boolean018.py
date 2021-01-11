@@ -3,23 +3,9 @@ from enum import Enum
 from typing import Optional
 
 
-@dataclass
-class ComplexfooType:
-    class Meta:
-        name = "complexfooType"
-
-    comp_foo: Optional["ComplexfooType.CompFoo"] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
-
-    class CompFoo(Enum):
-        VALUE_0 = "0"
-        VALUE_1 = "1"
+class ComplexfooTypeCompFoo(Enum):
+    VALUE_0 = "0"
+    VALUE_1 = "1"
 
 
 class SimplefooType(Enum):
@@ -28,9 +14,18 @@ class SimplefooType(Enum):
 
 
 @dataclass
-class ComplexTest(ComplexfooType):
+class ComplexfooType:
     class Meta:
-        name = "complexTest"
+        name = "complexfooType"
+
+    comp_foo: Optional[ComplexfooTypeCompFoo] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
+    )
 
 
 @dataclass
@@ -44,6 +39,12 @@ class SimpleTest:
             "required": True,
         }
     )
+
+
+@dataclass
+class ComplexTest(ComplexfooType):
+    class Meta:
+        name = "complexTest"
 
 
 @dataclass

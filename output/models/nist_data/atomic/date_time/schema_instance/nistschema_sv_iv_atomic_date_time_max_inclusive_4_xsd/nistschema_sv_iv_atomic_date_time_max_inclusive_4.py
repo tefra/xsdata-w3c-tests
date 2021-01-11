@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Optional
-from xsdata.models.datatype import XmlDate, XmlDateTime
+from xsdata.models.datatype import XmlDateTime
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-dateTime-maxInclusive-4-NS"
 

@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List
-from xsdata.models.datatype import XmlDate, XmlDateTime
+from xsdata.models.datatype import XmlDateTime
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-dateTime-minLength-5-NS"
 

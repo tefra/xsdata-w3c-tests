@@ -3,12 +3,18 @@ from enum import Enum
 from typing import Optional
 
 
+class FooIdrefsAttr(Enum):
+    FOO = "foo"
+    FOO123 = "foo123"
+    FU1 = "fu1"
+
+
 @dataclass
 class Foo:
     class Meta:
         name = "foo"
 
-    idrefs_attr: Optional["Foo.IdrefsAttr"] = field(
+    idrefs_attr: Optional[FooIdrefsAttr] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -20,11 +26,6 @@ class Foo:
             "type": "Attribute",
         }
     )
-
-    class IdrefsAttr(Enum):
-        FOO = "foo"
-        FOO123 = "foo123"
-        FU1 = "fu1"
 
 
 @dataclass

@@ -43,6 +43,25 @@ class Ct3:
     )
 
 
+class Ct4State(Enum):
+    VALUE_0 = 0
+    VALUE_1 = 1
+    VALUE_2 = 2
+
+
+@dataclass
+class Item:
+    class Meta:
+        name = "item"
+
+    value: Optional[object] = field(
+        default=None,
+        metadata={
+            "required": True,
+        }
+    )
+
+
 @dataclass
 class Ct4:
     class Meta:
@@ -65,28 +84,10 @@ class Ct4:
             "required": True,
         }
     )
-    state: Optional["Ct4.State"] = field(
+    state: Optional[Ct4State] = field(
         default=None,
         metadata={
             "type": "Attribute",
-            "required": True,
-        }
-    )
-
-    class State(Enum):
-        VALUE_0 = 0
-        VALUE_1 = 1
-        VALUE_2 = 2
-
-
-@dataclass
-class Item:
-    class Meta:
-        name = "item"
-
-    value: Optional[object] = field(
-        default=None,
-        metadata={
             "required": True,
         }
     )

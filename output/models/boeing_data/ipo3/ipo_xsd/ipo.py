@@ -1,11 +1,53 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from enum import Enum
 from typing import List, Optional
 from xsdata.models.datatype import XmlDate
 from output.models.boeing_data.ipo3.ipo_xsd.address import AddressType
+from output.models.boeing_data.ipo3.ipo_xsd.itematt import ItemDeliveryShipBy
 
 __NAMESPACE__ = "http://www.example.com/IPO"
+
+
+@dataclass
+class Comment:
+    class Meta:
+        name = "comment"
+        namespace = "http://www.example.com/IPO"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata={
+            "required": True,
+        }
+    )
+
+
+@dataclass
+class CustomerComment:
+    class Meta:
+        name = "customerComment"
+        namespace = "http://www.example.com/IPO"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata={
+            "required": True,
+        }
+    )
+
+
+@dataclass
+class ShipComment:
+    class Meta:
+        name = "shipComment"
+        namespace = "http://www.example.com/IPO"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata={
+            "required": True,
+        }
+    )
 
 
 @dataclass
@@ -105,60 +147,13 @@ class ItemsType:
                 "type": "Attribute",
             }
         )
-        ship_by: Optional["ItemsType.Item.ShipBy"] = field(
+        ship_by: Optional[ItemDeliveryShipBy] = field(
             default=None,
             metadata={
                 "name": "shipBy",
                 "type": "Attribute",
             }
         )
-
-        class ShipBy(Enum):
-            AIR = "air"
-            LAND = "land"
-            ANY = "any"
-
-
-@dataclass
-class Comment:
-    class Meta:
-        name = "comment"
-        namespace = "http://www.example.com/IPO"
-
-    value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
-    )
-
-
-@dataclass
-class CustomerComment:
-    class Meta:
-        name = "customerComment"
-        namespace = "http://www.example.com/IPO"
-
-    value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
-    )
-
-
-@dataclass
-class ShipComment:
-    class Meta:
-        name = "shipComment"
-        namespace = "http://www.example.com/IPO"
-
-    value: Optional[str] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
-    )
 
 
 @dataclass

@@ -4,12 +4,18 @@ from typing import Optional
 from xsdata.models.datatype import XmlPeriod
 
 
+class FooTypeFoo(Enum):
+    VALUE_15 = XmlPeriod("---15")
+    VALUE_01 = XmlPeriod("---01")
+    VALUE_30 = XmlPeriod("---30")
+
+
 @dataclass
 class FooType:
     class Meta:
         name = "fooType"
 
-    foo: Optional["FooType.Foo"] = field(
+    foo: Optional[FooTypeFoo] = field(
         default=None,
         metadata={
             "type": "Element",
@@ -17,11 +23,6 @@ class FooType:
             "required": True,
         }
     )
-
-    class Foo(Enum):
-        VALUE_15 = XmlPeriod("---15")
-        VALUE_01 = XmlPeriod("---01")
-        VALUE_30 = XmlPeriod("---30")
 
 
 @dataclass

@@ -3,12 +3,18 @@ from enum import Enum
 from typing import Optional, Union
 
 
+class FooTypeValue(Enum):
+    WA = "WA"
+    OR_VALUE = "OR"
+    CA = "CA"
+
+
 @dataclass
 class FooTest:
     class Meta:
         name = "fooTest"
 
-    value: Optional[Union[int, "FooTest.Value"]] = field(
+    value: Optional[Union[int, FooTypeValue]] = field(
         default=None,
         metadata={
             "required": True,
@@ -17,18 +23,13 @@ class FooTest:
         }
     )
 
-    class Value(Enum):
-        WA = "WA"
-        OR_VALUE = "OR"
-        CA = "CA"
-
 
 @dataclass
 class Root:
     class Meta:
         name = "root"
 
-    foo_test: Optional[Union[int, "Root.FooTest"]] = field(
+    foo_test: Optional[Union[int, FooTypeValue]] = field(
         default=None,
         metadata={
             "name": "fooTest",
@@ -38,8 +39,3 @@ class Root:
             "max_inclusive": 200,
         }
     )
-
-    class FooTest(Enum):
-        WA = "WA"
-        OR_VALUE = "OR"
-        CA = "CA"

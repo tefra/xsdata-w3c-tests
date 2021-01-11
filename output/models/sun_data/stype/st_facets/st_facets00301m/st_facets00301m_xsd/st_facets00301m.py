@@ -5,16 +5,17 @@ from typing import Optional
 __NAMESPACE__ = "SType/ST_facets"
 
 
+class TestValue(Enum):
+    VALUE_3_14 = "3.14"
+    INT_VALUE = "int"
+
+
 @dataclass
 class Test:
     class Meta:
         name = "test"
         namespace = "SType/ST_facets"
 
-    value: Optional["Test.Value"] = field(
+    value: Optional[TestValue] = field(
         default=None,
     )
-
-    class Value(Enum):
-        VALUE_3_14 = "3.14"
-        INT_VALUE = "int"

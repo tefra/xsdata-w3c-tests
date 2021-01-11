@@ -3,6 +3,12 @@ from enum import Enum
 from typing import Optional
 
 
+class FooAttrTest(Enum):
+    FOO = "foo"
+    FOO123 = "foo123"
+    FU1 = "fu1"
+
+
 @dataclass
 class FooType:
     class Meta:
@@ -22,7 +28,7 @@ class FooType:
         value: Optional[str] = field(
             default=None,
         )
-        attr_test: Optional["FooType.Foo.AttrTest"] = field(
+        attr_test: Optional[FooAttrTest] = field(
             default=None,
             metadata={
                 "name": "attrTest",
@@ -35,11 +41,6 @@ class FooType:
                 "type": "Attribute",
             }
         )
-
-        class AttrTest(Enum):
-            FOO = "foo"
-            FOO123 = "foo123"
-            FU1 = "fu1"
 
 
 @dataclass

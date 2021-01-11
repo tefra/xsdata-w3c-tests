@@ -3,12 +3,17 @@ from enum import Enum
 from typing import List, Union
 
 
+class MyUnionValue(Enum):
+    WA = "WA"
+    OR_VALUE = "OR"
+
+
 @dataclass
 class FooTest:
     class Meta:
         name = "fooTest"
 
-    value: List[Union[int, "FooTest.Value"]] = field(
+    value: List[Union[int, MyUnionValue]] = field(
         default_factory=list,
         metadata={
             "required": True,
@@ -16,17 +21,13 @@ class FooTest:
         }
     )
 
-    class Value(Enum):
-        WA = "WA"
-        OR_VALUE = "OR"
-
 
 @dataclass
 class Root:
     class Meta:
         name = "root"
 
-    foo_test: List[Union[int, "Root.FooTest"]] = field(
+    foo_test: List[Union[int, MyUnionValue]] = field(
         default_factory=list,
         metadata={
             "name": "fooTest",
@@ -35,7 +36,3 @@ class Root:
             "tokens": True,
         }
     )
-
-    class FooTest(Enum):
-        WA = "WA"
-        OR_VALUE = "OR"

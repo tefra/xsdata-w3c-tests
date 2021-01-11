@@ -18,6 +18,11 @@ class FooTest:
     )
 
 
+class MyListValue(Enum):
+    VALUE_1 = 1
+    VALUE_2 = 2
+
+
 class MyUnion(Enum):
     VALUE_1 = "1"
     VALUE_2 = "2"

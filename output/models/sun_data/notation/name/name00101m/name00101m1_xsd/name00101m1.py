@@ -6,17 +6,8 @@ from xml.etree.ElementTree import QName
 __NAMESPACE__ = "name"
 
 
-@dataclass
-class Picture:
-    type: Optional["Picture.Type"] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-
-    class Type(Enum):
-        PNG = QName("{name}png")
+class PictureType(Enum):
+    PNG = QName("{name}png")
 
 
 @dataclass
@@ -29,5 +20,15 @@ class A:
         default=None,
         metadata={
             "required": True,
+        }
+    )
+
+
+@dataclass
+class Picture:
+    type: Optional[PictureType] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
         }
     )

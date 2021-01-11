@@ -6,6 +6,11 @@ from typing import List, Optional
 __NAMESPACE__ = "http://cta0002/"
 
 
+class TMin(Enum):
+    VALUE_0 = 0
+    VALUE_1 = 1
+
+
 @dataclass
 class T:
     class Meta:
@@ -18,17 +23,13 @@ class T:
             "namespace": "http://cta0002/",
         }
     )
-    min: Optional["T.Min"] = field(
+    min: Optional[TMin] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://cta0002/",
         }
     )
-
-    class Min(Enum):
-        VALUE_0 = 0
-        VALUE_1 = 1
 
 
 @dataclass
@@ -44,17 +45,13 @@ class Treq:
             "min_occurs": 1,
         }
     )
-    min: Optional["Treq.Min"] = field(
+    min: Optional[TMin] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://cta0002/",
         }
     )
-
-    class Min(Enum):
-        VALUE_0 = 0
-        VALUE_1 = 1
 
 
 @dataclass

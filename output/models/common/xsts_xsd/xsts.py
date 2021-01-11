@@ -419,6 +419,11 @@ class TestOutcome(Enum):
     RUNTIME_SCHEMA_ERROR = "runtime-schema-error"
 
 
+class TestSuiteResultsPublicationPermission(Enum):
+    W3_C_MEMBERS = "W3C members"
+    PUBLIC = "public"
+
+
 class UnicodeVersions(Enum):
     """<div>
 
@@ -1069,7 +1074,7 @@ class TestSuiteResults:
             "required": True,
         }
     )
-    publication_permission: Optional["TestSuiteResults.PublicationPermission"] = field(
+    publication_permission: Optional[TestSuiteResultsPublicationPermission] = field(
         default=None,
         metadata={
             "name": "publicationPermission",
@@ -1083,10 +1088,6 @@ class TestSuiteResults:
             "namespace": "##other",
         }
     )
-
-    class PublicationPermission(Enum):
-        W3_C_MEMBERS = "W3C members"
-        PUBLIC = "public"
 
 
 @dataclass

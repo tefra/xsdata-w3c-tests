@@ -13,6 +13,10 @@ from output.models.common.xsts_xsd.xlink import (
     TitleEltType,
     TypeType,
 )
+from output.models.common.xsts_xsd.xml import (
+    LangValue,
+    SpaceValue,
+)
 from output.models.common.xsts_xsd.xsts import (
     XdmFiltering,
     Annotation,
@@ -40,6 +44,7 @@ from output.models.common.xsts_xsd.xsts import (
     TestSetRef,
     TestSuite,
     TestSuiteResults,
+    TestSuiteResultsPublicationPermission,
     UnicodeVersions,
     XmlSubstrate,
     XpathInCta,

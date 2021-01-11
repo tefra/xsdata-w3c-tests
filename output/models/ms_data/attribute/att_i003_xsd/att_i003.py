@@ -3,12 +3,18 @@ from enum import Enum
 from typing import Optional
 
 
+class AttRefAtt1(Enum):
+    AK = "AK"
+    AL = "AL"
+    AR = "AR"
+
+
 @dataclass
 class AttRef:
     class Meta:
         name = "attRef"
 
-    att1: Optional["AttRef.Att1"] = field(
+    att1: Optional[AttRefAtt1] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -20,11 +26,6 @@ class AttRef:
             "type": "Attribute",
         }
     )
-
-    class Att1(Enum):
-        AK = "AK"
-        AL = "AL"
-        AR = "AR"
 
 
 @dataclass

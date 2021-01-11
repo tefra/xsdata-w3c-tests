@@ -3,6 +3,12 @@ from enum import Enum
 from typing import Optional
 
 
+class ListOfStatesValue(Enum):
+    CA = "CA"
+    OR_VALUE = "OR"
+    WA = "WA"
+
+
 class FooType(Enum):
     CA = "CA"
 

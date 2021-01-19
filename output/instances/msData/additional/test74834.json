@@ -116,31 +116,31 @@
                 "qname": "smallmoney",
                 "value": "121212.1112"
             },
-            {
-                "qname": "float",
-                "value": "-1.79E+308"
-            },
-            {
-                "qname": "float",
-                "value": "-1.79"
-            },
-            {
-                "qname": "float",
-                "value": "0"
-            },
-            {
-                "qname": "float",
-                "value": "1.79"
-            },
-            {
-                "qname": "float",
-                "value": "1.79E+308"
-            },
-            -3.4e+38,
-            2.79e+38,
+            -1.79e+308,
+            -1.79,
             0.0,
-            2.79e+38,
-            3.4e+38,
+            1.79,
+            1.79e+308,
+            {
+                "qname": "real",
+                "value": -3.4e+38
+            },
+            {
+                "qname": "real",
+                "value": 2.79e+38
+            },
+            {
+                "qname": "real",
+                "value": 0.0
+            },
+            {
+                "qname": "real",
+                "value": 2.79e+38
+            },
+            {
+                "qname": "real",
+                "value": 3.4e+38
+            },
             {
                 "date": "2000-10-10",
                 "time": "12:54:00.000",

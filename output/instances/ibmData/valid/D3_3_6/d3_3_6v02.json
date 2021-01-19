@@ -1,8 +1,8 @@
 {
     "number1": [
-        "INF"
+        Infinity
     ],
     "number2": [
-        "2"
+        2.0
     ]
 }

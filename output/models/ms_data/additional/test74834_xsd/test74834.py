@@ -154,10 +154,10 @@ class Datafile:
                     },
                     {
                         "name": "float",
-                        "type": Decimal,
+                        "type": float,
                         "namespace": "",
-                        "min_inclusive": Decimal("-1.79E+308"),
-                        "max_inclusive": Decimal("1.79E+308"),
+                        "min_inclusive": -1.79e+308,
+                        "max_inclusive": 1.79e+308,
                     },
                     {
                         "name": "real",

@@ -87,7 +87,7 @@ class Double:
     class Meta:
         name = "double"
 
-    value: Optional[Decimal] = field(
+    value: Optional[float] = field(
         default=None,
         metadata={
             "required": True,
@@ -291,7 +291,7 @@ class Root:
             "min_occurs": 1,
         }
     )
-    double: List[Decimal] = field(
+    double: List[float] = field(
         default_factory=list,
         metadata={
             "type": "Element",

@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from decimal import Decimal
 from typing import Optional
 
 __NAMESPACE__ = "NISTSchema-SV-IV-atomic-double-whiteSpace-1-NS"
@@ -11,7 +10,7 @@ class NistschemaSvIvAtomicDoubleWhiteSpace1:
         name = "NISTSchema-SV-IV-atomic-double-whiteSpace-1"
         namespace = "NISTSchema-SV-IV-atomic-double-whiteSpace-1-NS"
 
-    value: Optional[Decimal] = field(
+    value: Optional[float] = field(
         default=None,
         metadata={
             "required": True,

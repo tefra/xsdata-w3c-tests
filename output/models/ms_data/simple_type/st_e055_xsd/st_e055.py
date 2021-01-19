@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from decimal import Decimal
 from typing import Union
 
 
@@ -8,7 +7,7 @@ class Root:
     class Meta:
         name = "root"
 
-    value: Union[bool, float, Decimal, str] = field(
+    value: Union[bool, float, str] = field(
         init=False,
         default=1.0,
     )

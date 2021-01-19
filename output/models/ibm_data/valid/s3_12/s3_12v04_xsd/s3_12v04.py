@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from decimal import Decimal
 from typing import List, Optional, Union
 
 __NAMESPACE__ = "http://xstest-tns"
@@ -26,7 +25,7 @@ class DoubleType:
     class Meta:
         name = "doubleType"
 
-    value: Optional[Decimal] = field(
+    value: Optional[float] = field(
         default=None,
     )
     type: Optional[str] = field(

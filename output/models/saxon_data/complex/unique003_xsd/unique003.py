@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from decimal import Decimal
 from typing import List, Optional
 
 
@@ -18,7 +17,7 @@ class Root:
 
     @dataclass
     class Sub:
-        idelt: Optional[Decimal] = field(
+        idelt: Optional[float] = field(
             default=None,
             metadata={
                 "type": "Element",

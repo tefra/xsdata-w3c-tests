@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from decimal import Decimal
 from typing import Optional
 
 __NAMESPACE__ = "ST_facets"
@@ -11,10 +10,10 @@ class Test:
         name = "test"
         namespace = "ST_facets"
 
-    value: Optional[Decimal] = field(
+    value: Optional[float] = field(
         default=None,
         metadata={
             "required": True,
-            "max_inclusive": Decimal("100.0"),
+            "max_inclusive": 100.0,
         }
     )

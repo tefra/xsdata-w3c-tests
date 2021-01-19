@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from decimal import Decimal
 from typing import List, Optional
 
 
@@ -8,7 +7,7 @@ class ComplexfooType:
     class Meta:
         name = "complexfooType"
 
-    comp_foo: List[Decimal] = field(
+    comp_foo: List[float] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -23,7 +22,7 @@ class SimpleTest:
     class Meta:
         name = "simpleTest"
 
-    value: Optional[Decimal] = field(
+    value: Optional[float] = field(
         default=None,
         metadata={
             "required": True,
@@ -50,7 +49,7 @@ class Root:
             "min_occurs": 1,
         }
     )
-    simple_test: List[Decimal] = field(
+    simple_test: List[float] = field(
         default_factory=list,
         metadata={
             "name": "simpleTest",

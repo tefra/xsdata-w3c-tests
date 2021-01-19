@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from decimal import Decimal
 from typing import List
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-double-maxLength-2-NS"
@@ -11,7 +10,7 @@ class NistschemaSvIvListDoubleMaxLength2:
         name = "NISTSchema-SV-IV-list-double-maxLength-2"
         namespace = "NISTSchema-SV-IV-list-double-maxLength-2-NS"
 
-    value: List[Decimal] = field(
+    value: List[float] = field(
         default_factory=list,
         metadata={
             "required": True,

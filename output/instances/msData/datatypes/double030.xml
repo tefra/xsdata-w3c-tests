@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <complexTest>
-    <comp_foo>1</comp_foo>
+    <comp_foo>1.0</comp_foo>
   </complexTest>
-  <simpleTest>-8.9884656743115785407263711865852E+307</simpleTest>
-  <simpleTest>-2.2250738585072011360574097967091E-308</simpleTest>
-  <simpleTest>2.2250738585072011360574097967091E-308</simpleTest>
-  <simpleTest>8.9884656743115785407263711865852E+307</simpleTest>
+  <simpleTest>-8.988465674311579E+307</simpleTest>
+  <simpleTest>-2.225073858507201E-308</simpleTest>
+  <simpleTest>2.225073858507201E-308</simpleTest>
+  <simpleTest>8.988465674311579E+307</simpleTest>
   <simpleTest>NaN</simpleTest>
   <simpleTest>-INF</simpleTest>
   <simpleTest>INF</simpleTest>
-  <simpleTest>0</simpleTest>
-  <simpleTest>-0</simpleTest>
+  <simpleTest>0.0</simpleTest>
+  <simpleTest>-0.0</simpleTest>
 </root>

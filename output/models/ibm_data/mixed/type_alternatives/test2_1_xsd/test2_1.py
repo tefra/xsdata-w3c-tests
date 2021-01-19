@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from decimal import Decimal
 from typing import List, Optional, Union
 
 
@@ -29,7 +28,7 @@ class Example:
 
     @dataclass
     class KindPrice:
-        value: Optional[Decimal] = field(
+        value: Optional[float] = field(
             default=None,
         )
         kind: Optional[str] = field(

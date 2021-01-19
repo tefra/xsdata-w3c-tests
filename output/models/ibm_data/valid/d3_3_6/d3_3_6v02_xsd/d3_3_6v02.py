@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from decimal import Decimal
 from enum import Enum
 from typing import List
 
@@ -7,8 +6,8 @@ __NAMESPACE__ = "a"
 
 
 class Num1(Enum):
-    INF = Decimal("Infinity")
-    VALUE_1_1 = Decimal("1.1")
+    INF = float("inf")
+    VALUE_1_1 = 1.1
 
 
 @dataclass
@@ -25,7 +24,7 @@ class Root:
             "min_occurs": 1,
         }
     )
-    number2: List[Decimal] = field(
+    number2: List[float] = field(
         default_factory=list,
         metadata={
             "name": "Number2",

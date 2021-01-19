@@ -4,23 +4,23 @@
             "section": [
                 {
                     "value": null,
-                    "nr": "1",
-                    "ref": "INF"
+                    "nr": 1.0,
+                    "ref": Infinity
                 },
                 {
                     "value": null,
-                    "nr": "2",
-                    "ref": "INF"
+                    "nr": 2.0,
+                    "ref": Infinity
                 },
                 {
                     "value": null,
-                    "nr": "INF",
-                    "ref": "INF"
+                    "nr": Infinity,
+                    "ref": Infinity
                 },
                 {
                     "value": null,
-                    "nr": "INF",
-                    "ref": "INF"
+                    "nr": Infinity,
+                    "ref": Infinity
                 }
             ]
         },
@@ -30,23 +30,23 @@
                 "section": [
                     {
                         "value": null,
-                        "nr": "1",
-                        "ref": "INF"
+                        "nr": 1.0,
+                        "ref": Infinity
                     },
                     {
                         "value": null,
-                        "nr": "2",
-                        "ref": "INF"
+                        "nr": 2.0,
+                        "ref": Infinity
                     },
                     {
                         "value": null,
-                        "nr": "INF",
-                        "ref": "INF"
+                        "nr": Infinity,
+                        "ref": Infinity
                     },
                     {
                         "value": null,
-                        "nr": "INF",
-                        "ref": "INF"
+                        "nr": Infinity,
+                        "ref": Infinity
                     }
                 ]
             }

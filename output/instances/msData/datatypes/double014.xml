@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <complexTest>
-    <comp_foo>1</comp_foo>
+    <comp_foo>1.0</comp_foo>
   </complexTest>
-  <simpleTest>1</simpleTest>
+  <simpleTest>1.0</simpleTest>
 </root>

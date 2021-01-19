@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from decimal import Decimal
 from typing import List, Optional, Union
 
 
@@ -21,7 +20,7 @@ class B:
     class Meta:
         name = "b"
 
-    value: Optional[Decimal] = field(
+    value: Optional[float] = field(
         default=None,
         metadata={
             "required": True,
@@ -34,7 +33,7 @@ class C:
     class Meta:
         name = "c"
 
-    value: List[Decimal] = field(
+    value: List[float] = field(
         default_factory=list,
         metadata={
             "required": True,
@@ -48,7 +47,7 @@ class D:
     class Meta:
         name = "d"
 
-    value: List[Union[Decimal, int, bool]] = field(
+    value: List[Union[float, int, bool]] = field(
         default_factory=list,
         metadata={
             "required": True,
@@ -75,7 +74,7 @@ class Root:
     class Meta:
         name = "root"
 
-    d: List[List[Union[Decimal, int, bool]]] = field(
+    d: List[List[Union[float, int, bool]]] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -83,7 +82,7 @@ class Root:
             "tokens": True,
         }
     )
-    c: List[List[Decimal]] = field(
+    c: List[List[float]] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -91,7 +90,7 @@ class Root:
             "tokens": True,
         }
     )
-    b: List[Decimal] = field(
+    b: List[float] = field(
         default_factory=list,
         metadata={
             "type": "Element",

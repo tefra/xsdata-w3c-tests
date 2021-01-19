@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from decimal import Decimal
 from typing import List, Optional
 
 __NAMESPACE__ = "http://simple001.ly/"
@@ -24,15 +23,15 @@ class Chap:
         value: Optional[str] = field(
             default=None,
         )
-        nr: Decimal = field(
-            default=Decimal("Infinity"),
+        nr: float = field(
+            default=float("inf"),
             metadata={
                 "type": "Attribute",
             }
         )
-        ref: Decimal = field(
+        ref: float = field(
             init=False,
-            default=Decimal("Infinity"),
+            default=float("inf"),
             metadata={
                 "type": "Attribute",
             }

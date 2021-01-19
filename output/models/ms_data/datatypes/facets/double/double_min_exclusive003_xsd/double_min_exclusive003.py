@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from decimal import Decimal
 from typing import Optional
 
 
@@ -8,13 +7,13 @@ class FooType:
     class Meta:
         name = "fooType"
 
-    foo: Optional[Decimal] = field(
+    foo: Optional[float] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
             "required": True,
-            "min_exclusive": Decimal("1.1"),
+            "min_exclusive": 1.1,
         }
     )
 

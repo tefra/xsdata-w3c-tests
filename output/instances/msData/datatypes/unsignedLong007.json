@@ -1,10 +1,10 @@
 {
-    "complex_test": {
+    "complexTest": {
         "comp_foo": [
             1844674407370955161
         ]
     },
-    "simple_test": [
+    "simpleTest": [
         1844674407370955161
     ]
 }

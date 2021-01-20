@@ -1,6 +1,6 @@
 {
-    "complex_test": {
+    "complexTest": {
         "comp_foo": "mailto:davebrow@microsoft.com"
     },
-    "simple_test": "mailto:davebrow@microsoft.com"
+    "simpleTest": "mailto:davebrow@microsoft.com"
 }

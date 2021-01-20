@@ -3,6 +3,6 @@
     "any_attributes": {
         "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctD030.xsd"
     },
-    "my_attr": "test",
-    "my_attr2": "second attribute"
+    "myAttr": "test",
+    "myAttr2": "second attribute"
 }

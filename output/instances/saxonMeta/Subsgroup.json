@@ -1,6 +1,6 @@
 {
     "annotation": [],
-    "test_group": [
+    "testGroup": [
         {
             "annotation": [
                 {
@@ -30,7 +30,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -44,9 +44,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -73,7 +73,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -90,7 +90,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Subsgroup/subsgroup001.v1.xml",
@@ -131,7 +131,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Subsgroup/subsgroup001.n1.xml",
@@ -192,7 +192,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -206,9 +206,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -235,7 +235,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -252,7 +252,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Subsgroup/subsgroup001.v1.xml",
@@ -293,7 +293,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Subsgroup/subsgroup001.n1.xml",
@@ -354,7 +354,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -368,9 +368,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -409,7 +409,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -426,7 +426,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Subsgroup/subsgroup003.xml",
@@ -485,7 +485,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -499,9 +499,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -528,7 +528,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "subsgroup901",
             "version": [],
             "other_attributes": {}
@@ -562,7 +562,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -576,9 +576,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -605,7 +605,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "subsgroup902",
             "version": [
                 "1.1"
@@ -641,7 +641,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -655,9 +655,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -684,7 +684,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "subsgroup903",
             "version": [
                 "1.1"

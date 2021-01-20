@@ -1,6 +1,6 @@
 {
     "annotation": [],
-    "test_group": [
+    "testGroup": [
         {
             "annotation": [
                 {
@@ -30,7 +30,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -38,9 +38,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -67,10 +67,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_annotation/ST_annotation00101m/ST_annotation00101m1_p.xml",
@@ -129,7 +129,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -137,9 +137,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -166,10 +166,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_annotation/ST_annotation00101m/ST_annotation00101m2_p.xml",
@@ -228,7 +228,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -236,9 +236,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -265,10 +265,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_baseTD/ST_baseTD00101m/ST_baseTD00101m1_p.xml",
@@ -295,7 +295,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_baseTD/ST_baseTD00101m/ST_baseTD00101m1_n.xml",
@@ -322,7 +322,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_baseTD/ST_baseTD00101m/ST_baseTD00101m2_p.xml",
@@ -381,7 +381,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -389,9 +389,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -418,10 +418,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_baseTD/ST_baseTD00201m/ST_baseTD00201m1_p.xml",
@@ -448,7 +448,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_baseTD/ST_baseTD00201m/ST_baseTD00201m1_n.xml",
@@ -507,7 +507,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -515,9 +515,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -544,10 +544,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_baseTD/ST_baseTD00301m/ST_baseTD00301m1_p.xml",
@@ -574,7 +574,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_baseTD/ST_baseTD00301m/ST_baseTD00301m1_n.xml",
@@ -633,7 +633,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -641,9 +641,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -670,10 +670,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_baseTD/ST_baseTD00302m/ST_baseTD00302m1_p.xml",
@@ -700,7 +700,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_baseTD/ST_baseTD00302m/ST_baseTD00302m1_n.xml",
@@ -727,7 +727,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_baseTD/ST_baseTD00302m/ST_baseTD00302m2_p.xml",
@@ -754,7 +754,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_baseTD/ST_baseTD00302m/ST_baseTD00302m2_n.xml",
@@ -781,7 +781,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_baseTD/ST_baseTD00302m/ST_baseTD00302m3_n.xml",
@@ -840,7 +840,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -848,9 +848,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -877,10 +877,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00101m/ST_facets00101m1_p.xml",
@@ -907,7 +907,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00101m/ST_facets00101m1_n.xml",
@@ -934,7 +934,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00101m/ST_facets00101m2_p.xml",
@@ -961,7 +961,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00101m/ST_facets00101m3_p.xml",
@@ -1020,7 +1020,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1028,9 +1028,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1057,10 +1057,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00102m/ST_facets00102m1_p.xml",
@@ -1087,7 +1087,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00102m/ST_facets00102m1_n.xml",
@@ -1146,7 +1146,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1154,9 +1154,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1183,10 +1183,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00103m/ST_facets00103m1_p.xml",
@@ -1213,7 +1213,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00103m/ST_facets00103m1_n.xml",
@@ -1272,7 +1272,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1280,9 +1280,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1309,10 +1309,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00104m/ST_facets00104m1_p.xml",
@@ -1339,7 +1339,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00104m/ST_facets00104m1_n.xml",
@@ -1398,7 +1398,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1406,9 +1406,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1435,10 +1435,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00105m/ST_facets00105m1_p.xml",
@@ -1465,7 +1465,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00105m/ST_facets00105m1_n.xml",
@@ -1524,7 +1524,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1532,9 +1532,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1561,10 +1561,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00106m/ST_facets00106m1_p.xml",
@@ -1591,7 +1591,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00106m/ST_facets00106m1_n.xml",
@@ -1650,7 +1650,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1658,9 +1658,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1687,10 +1687,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00107m/ST_facets00107m1_p.xml",
@@ -1717,7 +1717,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00107m/ST_facets00107m1_n.xml",
@@ -1776,7 +1776,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1784,9 +1784,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1813,10 +1813,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00108m/ST_facets00108m1_p.xml",
@@ -1843,7 +1843,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00108m/ST_facets00108m1_n.xml",
@@ -1902,7 +1902,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1910,9 +1910,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1939,10 +1939,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00109m/ST_facets00109m1_p.xml",
@@ -1969,7 +1969,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00109m/ST_facets00109m1_n.xml",
@@ -2028,7 +2028,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2036,9 +2036,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2065,10 +2065,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00110m/ST_facets00110m1_p.xml",
@@ -2095,7 +2095,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00110m/ST_facets00110m1_n.xml",
@@ -2154,7 +2154,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2162,9 +2162,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2191,10 +2191,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00111m/ST_facets00111m1_p.xml",
@@ -2221,7 +2221,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00111m/ST_facets00111m1_n.xml",
@@ -2280,7 +2280,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2288,9 +2288,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2317,10 +2317,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00112m/ST_facets00112m1_p.xml",
@@ -2347,7 +2347,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00112m/ST_facets00112m1_n.xml",
@@ -2406,7 +2406,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2414,9 +2414,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2443,10 +2443,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00113m/ST_facets00113m1_p.xml",
@@ -2473,7 +2473,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00113m/ST_facets00113m1_n.xml",
@@ -2532,7 +2532,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2540,9 +2540,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2569,10 +2569,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00114m/ST_facets00114m1_p.xml",
@@ -2599,7 +2599,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00114m/ST_facets00114m1_n.xml",
@@ -2658,7 +2658,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2666,9 +2666,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2695,10 +2695,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00115m/ST_facets00115m1_p.xml",
@@ -2725,7 +2725,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00115m/ST_facets00115m1_n.xml",
@@ -2784,7 +2784,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2792,9 +2792,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2821,10 +2821,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00116m/ST_facets00116m1_p.xml",
@@ -2851,7 +2851,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00116m/ST_facets00116m1_n.xml",
@@ -2910,7 +2910,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2918,9 +2918,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2947,10 +2947,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00117m/ST_facets00117m1_p.xml",
@@ -2977,7 +2977,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00117m/ST_facets00117m1_n.xml",
@@ -3036,7 +3036,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3044,9 +3044,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3073,10 +3073,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00118m/ST_facets00118m1_p.xml",
@@ -3103,7 +3103,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00118m/ST_facets00118m1_n.xml",
@@ -3162,7 +3162,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3170,9 +3170,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3228,10 +3228,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00119m/ST_facets00119m1_p.xml",
@@ -3258,7 +3258,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00119m/ST_facets00119m1_n.xml",
@@ -3317,7 +3317,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3325,9 +3325,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3354,10 +3354,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00120m/ST_facets00120m1_p.xml",
@@ -3384,7 +3384,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00120m/ST_facets00120m1_n.xml",
@@ -3443,7 +3443,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3451,9 +3451,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3480,10 +3480,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00121m/ST_facets00121m1_p.xml",
@@ -3510,7 +3510,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00121m/ST_facets00121m1_n.xml",
@@ -3569,7 +3569,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3577,9 +3577,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3606,10 +3606,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00122m/ST_facets00122m1_p.xml",
@@ -3636,7 +3636,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00122m/ST_facets00122m1_n.xml",
@@ -3695,7 +3695,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3703,9 +3703,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3732,10 +3732,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00123m/ST_facets00123m1_p.xml",
@@ -3762,7 +3762,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00123m/ST_facets00123m1_n.xml",
@@ -3821,7 +3821,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3829,9 +3829,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3858,10 +3858,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00124m/ST_facets00124m1_p.xml",
@@ -3888,7 +3888,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00124m/ST_facets00124m1_n.xml",
@@ -3947,7 +3947,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3955,9 +3955,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3984,10 +3984,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m1_p.xml",
@@ -4014,7 +4014,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m1_n.xml",
@@ -4073,7 +4073,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4081,9 +4081,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4110,10 +4110,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m10_p.xml",
@@ -4140,7 +4140,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m10_n.xml",
@@ -4199,7 +4199,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4207,9 +4207,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4236,10 +4236,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m11_p.xml",
@@ -4266,7 +4266,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m11_n.xml",
@@ -4325,7 +4325,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4333,9 +4333,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4362,10 +4362,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m12_p.xml",
@@ -4392,7 +4392,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m12_n.xml",
@@ -4451,7 +4451,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4459,9 +4459,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4488,10 +4488,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m13_p.xml",
@@ -4518,7 +4518,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m13_n.xml",
@@ -4577,7 +4577,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4585,9 +4585,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4614,10 +4614,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m14_p.xml",
@@ -4644,7 +4644,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m14_n.xml",
@@ -4703,7 +4703,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4711,9 +4711,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4740,10 +4740,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m15_p.xml",
@@ -4770,7 +4770,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m15_n.xml",
@@ -4829,7 +4829,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4837,9 +4837,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4866,10 +4866,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m16_p.xml",
@@ -4896,7 +4896,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m16_n.xml",
@@ -4955,7 +4955,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4963,9 +4963,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4992,10 +4992,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m2_p.xml",
@@ -5022,7 +5022,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m2_n.xml",
@@ -5081,7 +5081,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5089,9 +5089,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5118,10 +5118,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m3_p.xml",
@@ -5148,7 +5148,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m3_n.xml",
@@ -5207,7 +5207,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5215,9 +5215,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5244,10 +5244,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m4_p.xml",
@@ -5274,7 +5274,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m4_n.xml",
@@ -5333,7 +5333,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5341,9 +5341,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5370,10 +5370,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m5_p.xml",
@@ -5400,7 +5400,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m5_n.xml",
@@ -5459,7 +5459,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5467,9 +5467,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5496,10 +5496,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m6_p.xml",
@@ -5526,7 +5526,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m6_n.xml",
@@ -5585,7 +5585,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5593,9 +5593,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5622,10 +5622,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m7_p.xml",
@@ -5652,7 +5652,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m7_n.xml",
@@ -5711,7 +5711,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5719,9 +5719,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5748,10 +5748,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m8_p.xml",
@@ -5778,7 +5778,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m8_n.xml",
@@ -5837,7 +5837,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5845,9 +5845,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5874,10 +5874,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m9_p.xml",
@@ -5904,7 +5904,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00201m/ST_facets00201m9_n.xml",
@@ -5963,7 +5963,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5971,9 +5971,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -6000,10 +6000,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00301m/ST_facets00301m1_p.xml",
@@ -6030,7 +6030,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00301m/ST_facets00301m1_n.xml",
@@ -6089,7 +6089,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -6097,9 +6097,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -6126,10 +6126,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m1_p.xml",
@@ -6188,7 +6188,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -6196,9 +6196,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -6225,10 +6225,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m10_p.xml",
@@ -6287,7 +6287,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -6295,9 +6295,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -6324,10 +6324,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m11_p.xml",
@@ -6386,7 +6386,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -6394,9 +6394,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -6423,10 +6423,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m12_p.xml",
@@ -6485,7 +6485,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -6493,9 +6493,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -6522,10 +6522,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m13_p.xml",
@@ -6584,7 +6584,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -6592,9 +6592,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -6621,10 +6621,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m14_p.xml",
@@ -6683,7 +6683,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -6691,9 +6691,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -6720,10 +6720,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m15_p.xml",
@@ -6782,7 +6782,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -6790,9 +6790,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -6819,10 +6819,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m16_p.xml",
@@ -6881,7 +6881,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -6889,9 +6889,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -6918,10 +6918,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m17_p.xml",
@@ -6980,7 +6980,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -6988,9 +6988,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -7017,10 +7017,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m18_p.xml",
@@ -7079,7 +7079,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -7087,9 +7087,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -7116,10 +7116,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m19_p.xml",
@@ -7178,7 +7178,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -7186,9 +7186,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -7215,10 +7215,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m2_p.xml",
@@ -7277,7 +7277,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -7285,9 +7285,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -7314,10 +7314,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m20_p.xml",
@@ -7376,7 +7376,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -7384,9 +7384,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -7413,10 +7413,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m21_p.xml",
@@ -7475,7 +7475,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -7483,9 +7483,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -7512,10 +7512,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m3_p.xml",
@@ -7574,7 +7574,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -7582,9 +7582,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -7611,10 +7611,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m4_p.xml",
@@ -7673,7 +7673,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -7681,9 +7681,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -7710,10 +7710,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m5_p.xml",
@@ -7772,7 +7772,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -7780,9 +7780,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -7809,10 +7809,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m6_p.xml",
@@ -7871,7 +7871,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -7879,9 +7879,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -7908,10 +7908,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m7_p.xml",
@@ -7970,7 +7970,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -7978,9 +7978,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -8007,10 +8007,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m8_p.xml",
@@ -8069,7 +8069,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -8077,9 +8077,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -8106,10 +8106,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00401m/ST_facets00401m9_p.xml",
@@ -8168,7 +8168,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -8176,9 +8176,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -8205,10 +8205,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00402m/ST_facets00402m1_p.xml",
@@ -8267,7 +8267,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -8275,9 +8275,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -8304,10 +8304,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00403m/ST_facets00403m1_p.xml",
@@ -8366,7 +8366,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -8374,9 +8374,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -8403,10 +8403,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m1_p.xml",
@@ -8465,7 +8465,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -8473,9 +8473,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -8502,10 +8502,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m10_p.xml",
@@ -8564,7 +8564,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -8572,9 +8572,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -8601,10 +8601,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m11_p.xml",
@@ -8663,7 +8663,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -8671,9 +8671,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -8700,10 +8700,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m12_p.xml",
@@ -8762,7 +8762,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -8770,9 +8770,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -8799,10 +8799,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m13_p.xml",
@@ -8861,7 +8861,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -8869,9 +8869,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -8898,10 +8898,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m14_p.xml",
@@ -8960,7 +8960,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -8968,9 +8968,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -8997,10 +8997,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m15_p.xml",
@@ -9059,7 +9059,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -9067,9 +9067,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -9096,10 +9096,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m16_p.xml",
@@ -9158,7 +9158,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -9166,9 +9166,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -9195,10 +9195,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m17_p.xml",
@@ -9257,7 +9257,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -9265,9 +9265,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -9294,10 +9294,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m18_p.xml",
@@ -9356,7 +9356,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -9364,9 +9364,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -9393,10 +9393,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m19_p.xml",
@@ -9455,7 +9455,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -9463,9 +9463,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -9492,10 +9492,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m2_p.xml",
@@ -9554,7 +9554,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -9562,9 +9562,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -9591,10 +9591,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m20_p.xml",
@@ -9653,7 +9653,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -9661,9 +9661,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -9690,10 +9690,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m21_p.xml",
@@ -9752,7 +9752,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -9760,9 +9760,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -9789,10 +9789,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m3_p.xml",
@@ -9851,7 +9851,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -9859,9 +9859,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -9888,10 +9888,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m4_p.xml",
@@ -9950,7 +9950,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -9958,9 +9958,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -9987,10 +9987,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m5_p.xml",
@@ -10049,7 +10049,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -10057,9 +10057,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -10086,10 +10086,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m6_p.xml",
@@ -10148,7 +10148,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -10156,9 +10156,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -10185,10 +10185,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m7_p.xml",
@@ -10247,7 +10247,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -10255,9 +10255,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -10284,10 +10284,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m8_p.xml",
@@ -10346,7 +10346,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -10354,9 +10354,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -10383,10 +10383,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00501m/ST_facets00501m9_p.xml",
@@ -10445,7 +10445,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -10453,9 +10453,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -10482,10 +10482,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00502m/ST_facets00502m1_p.xml",
@@ -10544,7 +10544,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -10552,9 +10552,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -10581,10 +10581,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00503m/ST_facets00503m1_p.xml",
@@ -10643,7 +10643,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -10651,9 +10651,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -10680,10 +10680,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00504m/ST_facets00504m1_p.xml",
@@ -10742,7 +10742,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -10750,9 +10750,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -10779,10 +10779,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00504m/ST_facets00504m2_p.xml",
@@ -10841,7 +10841,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -10849,9 +10849,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -10878,10 +10878,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m1_p.xml",
@@ -10940,7 +10940,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -10948,9 +10948,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -10977,10 +10977,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m10_p.xml",
@@ -11039,7 +11039,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -11047,9 +11047,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -11076,10 +11076,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m2_p.xml",
@@ -11138,7 +11138,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -11146,9 +11146,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -11175,10 +11175,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m3_p.xml",
@@ -11237,7 +11237,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -11245,9 +11245,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -11274,10 +11274,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m4_p.xml",
@@ -11336,7 +11336,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -11344,9 +11344,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -11373,10 +11373,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m5_p.xml",
@@ -11435,7 +11435,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -11443,9 +11443,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -11472,10 +11472,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m6_p.xml",
@@ -11534,7 +11534,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -11542,9 +11542,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -11571,10 +11571,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m7_p.xml",
@@ -11633,7 +11633,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -11641,9 +11641,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -11670,10 +11670,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m8_p.xml",
@@ -11732,7 +11732,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -11740,9 +11740,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -11769,10 +11769,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00505m/ST_facets00505m9_p.xml",
@@ -11831,7 +11831,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -11839,9 +11839,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -11868,10 +11868,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00506m/ST_facets00506m1_p.xml",
@@ -11930,7 +11930,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -11938,9 +11938,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -11967,10 +11967,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00506m/ST_facets00506m2_p.xml",
@@ -12029,7 +12029,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -12037,9 +12037,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -12066,10 +12066,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00601/ST_facets00601_p.xml",
@@ -12128,7 +12128,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -12136,9 +12136,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -12165,10 +12165,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00602/ST_facets00602_p.xml",
@@ -12227,7 +12227,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -12235,9 +12235,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -12264,10 +12264,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00603/ST_facets00603_p.xml",
@@ -12326,7 +12326,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -12334,9 +12334,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -12363,10 +12363,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00604/ST_facets00604_p.xml",
@@ -12425,7 +12425,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -12433,9 +12433,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -12462,10 +12462,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00605/ST_facets00605_p.xml",
@@ -12524,7 +12524,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -12532,9 +12532,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -12561,10 +12561,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_facets/ST_facets00608/ST_facets00608_p.xml",
@@ -12623,7 +12623,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -12631,9 +12631,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -12660,7 +12660,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "st_final00101m1",
             "version": [],
             "other_attributes": {}
@@ -12694,7 +12694,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -12702,9 +12702,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -12731,10 +12731,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00101m/ST_final00101m2_p.xml",
@@ -12761,7 +12761,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00101m/ST_final00101m2_n.xml",
@@ -12820,7 +12820,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -12828,9 +12828,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -12857,10 +12857,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00101m/ST_final00101m3_p.xml",
@@ -12887,7 +12887,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00101m/ST_final00101m3_n.xml",
@@ -12946,7 +12946,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -12954,9 +12954,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -12983,10 +12983,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00101m/ST_final00101m4_p.xml",
@@ -13013,7 +13013,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00101m/ST_final00101m4_n.xml",
@@ -13072,7 +13072,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -13080,9 +13080,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -13109,10 +13109,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00101m/ST_final00101m5_p.xml",
@@ -13139,7 +13139,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00101m/ST_final00101m5_n.xml",
@@ -13198,7 +13198,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -13206,9 +13206,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -13235,10 +13235,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00101m/ST_final00101m6_p.xml",
@@ -13265,7 +13265,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00101m/ST_final00101m6_n.xml",
@@ -13324,7 +13324,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -13332,9 +13332,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -13361,7 +13361,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "st_final00102m1",
             "version": [],
             "other_attributes": {}
@@ -13395,7 +13395,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -13403,9 +13403,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -13432,10 +13432,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00102m/ST_final00102m2_p.xml",
@@ -13462,7 +13462,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00102m/ST_final00102m2_n.xml",
@@ -13521,7 +13521,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -13529,9 +13529,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -13558,10 +13558,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00102m/ST_final00102m3_p.xml",
@@ -13588,7 +13588,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00102m/ST_final00102m3_n.xml",
@@ -13647,7 +13647,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -13655,9 +13655,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -13684,10 +13684,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00102m/ST_final00102m4_p.xml",
@@ -13714,7 +13714,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00102m/ST_final00102m4_n.xml",
@@ -13773,7 +13773,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -13781,9 +13781,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -13810,10 +13810,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00102m/ST_final00102m5_p.xml",
@@ -13840,7 +13840,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00102m/ST_final00102m5_n.xml",
@@ -13899,7 +13899,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -13907,9 +13907,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -13936,10 +13936,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00102m/ST_final00102m6_p.xml",
@@ -13966,7 +13966,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00102m/ST_final00102m6_n.xml",
@@ -14025,7 +14025,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -14033,9 +14033,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -14062,7 +14062,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "st_final00103m1",
             "version": [],
             "other_attributes": {}
@@ -14096,7 +14096,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -14104,9 +14104,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -14133,10 +14133,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00103m/ST_final00103m2_p.xml",
@@ -14163,7 +14163,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00103m/ST_final00103m2_n.xml",
@@ -14222,7 +14222,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -14230,9 +14230,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -14259,10 +14259,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00103m/ST_final00103m3_p.xml",
@@ -14289,7 +14289,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_final/ST_final00103m/ST_final00103m3_n.xml",
@@ -14348,7 +14348,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -14356,9 +14356,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -14385,10 +14385,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_name/ST_name00101m/ST_name00101m1_p.xml",
@@ -14415,7 +14415,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_name/ST_name00101m/ST_name00101m1_n.xml",
@@ -14474,7 +14474,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -14482,9 +14482,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -14511,7 +14511,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "st_name00201m",
             "version": [],
             "other_attributes": {}
@@ -14545,7 +14545,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -14553,9 +14553,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -14582,7 +14582,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "st_name00301m",
             "version": [],
             "other_attributes": {}
@@ -14616,7 +14616,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -14624,9 +14624,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -14653,10 +14653,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_name/ST_name00401m/ST_name00401m1_p.xml",
@@ -14715,7 +14715,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -14723,9 +14723,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -14752,10 +14752,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_targetNS/ST_targetNS00101m/ST_targetNS00101m1_p.xml",
@@ -14782,7 +14782,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_targetNS/ST_targetNS00101m/ST_targetNS00101m1_n.xml",
@@ -14809,7 +14809,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_targetNS/ST_targetNS00101m/ST_targetNS00101m2_p.xml",
@@ -14836,7 +14836,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_targetNS/ST_targetNS00101m/ST_targetNS00101m2_n.xml",
@@ -14895,7 +14895,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -14903,9 +14903,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -14932,10 +14932,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_targetNS/ST_targetNS00201m/ST_targetNS00201m1_p.xml",
@@ -14994,7 +14994,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -15002,9 +15002,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -15031,10 +15031,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_variety/ST_variety00101m/ST_variety00101m1_p.xml",
@@ -15061,7 +15061,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_variety/ST_variety00101m/ST_variety00101m1_n.xml",
@@ -15120,7 +15120,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -15128,9 +15128,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -15157,10 +15157,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_variety/ST_variety00101m/ST_variety00101m2_p.xml",
@@ -15187,7 +15187,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/SType/ST_variety/ST_variety00101m/ST_variety00101m2_n.xml",
@@ -15246,7 +15246,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -15254,9 +15254,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -15283,7 +15283,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "st_variety00201m1",
             "version": [],
             "other_attributes": {}
@@ -15317,7 +15317,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -15325,9 +15325,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -15354,7 +15354,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "st_variety00201m2",
             "version": [],
             "other_attributes": {}

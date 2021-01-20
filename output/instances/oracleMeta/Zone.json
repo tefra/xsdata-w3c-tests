@@ -1,6 +1,6 @@
 {
     "annotation": [],
-    "test_group": [
+    "testGroup": [
         {
             "annotation": [
                 {
@@ -30,7 +30,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -44,9 +44,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -73,7 +73,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -90,7 +90,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../oracleData/Zone/zone401.v1.xml",
@@ -131,7 +131,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../oracleData/Zone/zone401.v2.xml",
@@ -172,7 +172,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../oracleData/Zone/zone401.v3.xml",
@@ -213,7 +213,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../oracleData/Zone/zone401.n1.xml",
@@ -254,7 +254,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../oracleData/Zone/zone401.n2.xml",
@@ -315,7 +315,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -329,9 +329,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -358,7 +358,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -375,7 +375,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../oracleData/Zone/zone402.n1.xml",
@@ -416,7 +416,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../oracleData/Zone/zone402.n2.xml",
@@ -457,7 +457,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../oracleData/Zone/zone402.v1.xml",
@@ -518,7 +518,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -532,9 +532,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -561,7 +561,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -578,7 +578,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../oracleData/Zone/zone403.v1.xml",
@@ -619,7 +619,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../oracleData/Zone/zone403.v2.xml",
@@ -660,7 +660,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../oracleData/Zone/zone403.n1.xml",
@@ -721,7 +721,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -735,9 +735,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -764,7 +764,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -781,7 +781,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../oracleData/Zone/zone404.v1.xml",
@@ -822,7 +822,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../oracleData/Zone/zone404.n1.xml",
@@ -863,7 +863,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../oracleData/Zone/zone404.n2.xml",
@@ -924,7 +924,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -938,9 +938,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -989,7 +989,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -1006,7 +1006,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../oracleData/Zone/zone405.v1.xml",
@@ -1047,7 +1047,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../oracleData/Zone/zone405.v2.xml",
@@ -1088,7 +1088,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../oracleData/Zone/zone405.v3.xml",
@@ -1149,7 +1149,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1163,9 +1163,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1192,7 +1192,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "zone406",
             "version": [
                 "1.1"
@@ -1228,7 +1228,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1242,9 +1242,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1271,7 +1271,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "zone407",
             "version": [
                 "1.1"
@@ -1307,7 +1307,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1321,9 +1321,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1350,7 +1350,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "zone408",
             "version": [
                 "1.1"
@@ -1386,7 +1386,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1400,9 +1400,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1429,7 +1429,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "zone409",
             "version": [
                 "1.1"

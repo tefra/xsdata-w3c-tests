@@ -1,14 +1,13 @@
 {
     "elem": {
-        "foo": "",
-        "any_element": [],
-        "foo_foo": [
+        "foo": [
             {
                 "any_element": null
             },
             {
                 "any_element": null
             }
-        ]
+        ],
+        "any_element": []
     }
 }

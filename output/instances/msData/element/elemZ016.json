@@ -1,15 +1,15 @@
 {
-    "data_types": [
+    "DataTypes": [
         {
-            "id": [
+            "ID": [
                 "Address",
                 "Address"
             ],
-            "idref": [
+            "IDREF": [
                 "Address",
                 "Address"
             ],
-            "idrefs": [
+            "IDREFS": [
                 [
                     "Address"
                 ],

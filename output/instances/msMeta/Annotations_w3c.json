@@ -1,6 +1,6 @@
 {
     "annotation": [],
-    "test_group": [
+    "testGroup": [
         {
             "annotation": [
                 {
@@ -17,7 +17,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -25,9 +25,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -54,7 +54,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA001",
             "version": [],
             "other_attributes": {}
@@ -75,7 +75,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -83,9 +83,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -112,7 +112,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA002",
             "version": [],
             "other_attributes": {}
@@ -133,7 +133,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -141,9 +141,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -170,7 +170,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA003",
             "version": [],
             "other_attributes": {}
@@ -191,7 +191,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -199,9 +199,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -228,7 +228,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA004",
             "version": [],
             "other_attributes": {}
@@ -249,7 +249,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -257,9 +257,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -286,7 +286,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA005",
             "version": [],
             "other_attributes": {}
@@ -307,7 +307,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -315,9 +315,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -344,7 +344,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA006",
             "version": [],
             "other_attributes": {}
@@ -365,7 +365,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -373,9 +373,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -402,7 +402,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA007",
             "version": [],
             "other_attributes": {}
@@ -423,7 +423,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -431,9 +431,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -460,7 +460,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA008",
             "version": [],
             "other_attributes": {}
@@ -481,7 +481,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -489,9 +489,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -518,7 +518,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA009",
             "version": [],
             "other_attributes": {}
@@ -539,7 +539,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -547,9 +547,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -576,7 +576,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA010",
             "version": [],
             "other_attributes": {}
@@ -597,7 +597,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -605,9 +605,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -634,7 +634,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA011",
             "version": [],
             "other_attributes": {}
@@ -655,7 +655,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -663,9 +663,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -692,7 +692,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA012",
             "version": [],
             "other_attributes": {}
@@ -713,7 +713,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -721,9 +721,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -750,7 +750,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA013",
             "version": [],
             "other_attributes": {}
@@ -771,7 +771,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -779,9 +779,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -808,7 +808,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA014",
             "version": [],
             "other_attributes": {}
@@ -829,7 +829,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -837,9 +837,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -866,7 +866,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA015",
             "version": [],
             "other_attributes": {}
@@ -887,7 +887,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -895,9 +895,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -924,7 +924,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA016",
             "version": [],
             "other_attributes": {}
@@ -945,7 +945,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -953,9 +953,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -982,7 +982,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA017",
             "version": [],
             "other_attributes": {}
@@ -1003,7 +1003,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1011,9 +1011,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1040,7 +1040,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA018",
             "version": [],
             "other_attributes": {}
@@ -1061,7 +1061,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1069,9 +1069,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1098,7 +1098,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA019",
             "version": [],
             "other_attributes": {}
@@ -1119,7 +1119,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1127,9 +1127,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1156,7 +1156,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA020",
             "version": [],
             "other_attributes": {}
@@ -1177,7 +1177,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1185,9 +1185,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1214,7 +1214,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA021",
             "version": [],
             "other_attributes": {}
@@ -1235,7 +1235,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1243,9 +1243,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1272,7 +1272,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA022",
             "version": [],
             "other_attributes": {}
@@ -1293,7 +1293,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1301,9 +1301,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1330,7 +1330,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotA023",
             "version": [],
             "other_attributes": {}
@@ -1351,7 +1351,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1359,9 +1359,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1388,7 +1388,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB001",
             "version": [],
             "other_attributes": {}
@@ -1409,7 +1409,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1417,9 +1417,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1446,7 +1446,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB002",
             "version": [],
             "other_attributes": {}
@@ -1467,7 +1467,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1475,9 +1475,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1504,7 +1504,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB003",
             "version": [],
             "other_attributes": {}
@@ -1525,7 +1525,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1533,9 +1533,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1562,7 +1562,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB004",
             "version": [],
             "other_attributes": {}
@@ -1583,7 +1583,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1591,9 +1591,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1620,7 +1620,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB005",
             "version": [],
             "other_attributes": {}
@@ -1641,7 +1641,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1649,9 +1649,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1678,7 +1678,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB006",
             "version": [],
             "other_attributes": {}
@@ -1699,7 +1699,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1707,9 +1707,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1736,7 +1736,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB007",
             "version": [],
             "other_attributes": {}
@@ -1757,7 +1757,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1765,9 +1765,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1794,7 +1794,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB008",
             "version": [],
             "other_attributes": {}
@@ -1815,7 +1815,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1823,9 +1823,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1852,7 +1852,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB009",
             "version": [],
             "other_attributes": {}
@@ -1873,7 +1873,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1881,9 +1881,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1910,7 +1910,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB010",
             "version": [],
             "other_attributes": {}
@@ -1931,7 +1931,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1939,9 +1939,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1968,7 +1968,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB011",
             "version": [],
             "other_attributes": {}
@@ -1989,7 +1989,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1997,9 +1997,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2026,7 +2026,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB012",
             "version": [],
             "other_attributes": {}
@@ -2047,7 +2047,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2055,9 +2055,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2084,7 +2084,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB013",
             "version": [],
             "other_attributes": {}
@@ -2105,7 +2105,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2113,9 +2113,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2142,7 +2142,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB014",
             "version": [],
             "other_attributes": {}
@@ -2163,7 +2163,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2171,9 +2171,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2200,7 +2200,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB015",
             "version": [],
             "other_attributes": {}
@@ -2221,7 +2221,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2229,9 +2229,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2258,7 +2258,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB016",
             "version": [],
             "other_attributes": {}
@@ -2279,7 +2279,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2287,9 +2287,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2316,7 +2316,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB017",
             "version": [],
             "other_attributes": {}
@@ -2337,7 +2337,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2345,9 +2345,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2374,7 +2374,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB018",
             "version": [],
             "other_attributes": {}
@@ -2395,7 +2395,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2403,9 +2403,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2432,7 +2432,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB019",
             "version": [],
             "other_attributes": {}
@@ -2453,7 +2453,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2461,9 +2461,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2490,7 +2490,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB020",
             "version": [],
             "other_attributes": {}
@@ -2511,7 +2511,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2519,9 +2519,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2548,7 +2548,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB021",
             "version": [],
             "other_attributes": {}
@@ -2569,7 +2569,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2577,9 +2577,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2606,7 +2606,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB022",
             "version": [],
             "other_attributes": {}
@@ -2627,7 +2627,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2635,9 +2635,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2664,7 +2664,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB023",
             "version": [],
             "other_attributes": {}
@@ -2685,7 +2685,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2693,9 +2693,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2722,7 +2722,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB024",
             "version": [],
             "other_attributes": {}
@@ -2751,7 +2751,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2759,9 +2759,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2803,7 +2803,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB025",
             "version": [],
             "other_attributes": {}
@@ -2824,7 +2824,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2832,9 +2832,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2861,7 +2861,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB026",
             "version": [],
             "other_attributes": {}
@@ -2882,7 +2882,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2890,9 +2890,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2919,7 +2919,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB027",
             "version": [],
             "other_attributes": {}
@@ -2940,7 +2940,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2948,9 +2948,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2977,7 +2977,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB028",
             "version": [],
             "other_attributes": {}
@@ -2998,7 +2998,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3006,9 +3006,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3035,7 +3035,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB029",
             "version": [],
             "other_attributes": {}
@@ -3056,7 +3056,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3064,9 +3064,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3093,7 +3093,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB030",
             "version": [],
             "other_attributes": {}
@@ -3114,7 +3114,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3122,9 +3122,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3151,7 +3151,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB031",
             "version": [],
             "other_attributes": {}
@@ -3172,7 +3172,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3180,9 +3180,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3209,7 +3209,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB032",
             "version": [],
             "other_attributes": {}
@@ -3230,7 +3230,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3238,9 +3238,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3267,7 +3267,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotB033",
             "version": [],
             "other_attributes": {}
@@ -3288,7 +3288,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3296,9 +3296,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3325,7 +3325,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotC001",
             "version": [],
             "other_attributes": {}
@@ -3346,7 +3346,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3354,9 +3354,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3383,7 +3383,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotC002",
             "version": [],
             "other_attributes": {}
@@ -3404,7 +3404,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3412,9 +3412,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3441,7 +3441,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotC003",
             "version": [],
             "other_attributes": {}
@@ -3462,7 +3462,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3470,9 +3470,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3499,7 +3499,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotC004",
             "version": [],
             "other_attributes": {}
@@ -3520,7 +3520,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3528,9 +3528,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3557,7 +3557,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotC005",
             "version": [],
             "other_attributes": {}
@@ -3578,7 +3578,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3586,9 +3586,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3615,7 +3615,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotD001",
             "version": [],
             "other_attributes": {}
@@ -3636,7 +3636,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3644,9 +3644,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3673,7 +3673,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotD002",
             "version": [],
             "other_attributes": {}
@@ -3694,7 +3694,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3702,9 +3702,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3731,7 +3731,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotD003",
             "version": [],
             "other_attributes": {}
@@ -3752,7 +3752,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3760,9 +3760,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3789,7 +3789,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotD004",
             "version": [],
             "other_attributes": {}
@@ -3810,7 +3810,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3818,9 +3818,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3847,7 +3847,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotD005",
             "version": [],
             "other_attributes": {}
@@ -3868,7 +3868,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3876,9 +3876,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3905,7 +3905,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotE001",
             "version": [],
             "other_attributes": {}
@@ -3926,7 +3926,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3934,9 +3934,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3963,7 +3963,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotE002",
             "version": [],
             "other_attributes": {}
@@ -3984,7 +3984,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3992,9 +3992,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4021,7 +4021,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotF001",
             "version": [],
             "other_attributes": {}
@@ -4042,7 +4042,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4050,9 +4050,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4079,7 +4079,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotF002",
             "version": [],
             "other_attributes": {}
@@ -4100,7 +4100,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4108,9 +4108,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4137,7 +4137,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotF003",
             "version": [],
             "other_attributes": {}
@@ -4158,7 +4158,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4166,9 +4166,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4195,7 +4195,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotF004",
             "version": [],
             "other_attributes": {}
@@ -4216,7 +4216,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4224,9 +4224,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4253,7 +4253,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotF005",
             "version": [],
             "other_attributes": {}
@@ -4274,7 +4274,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4282,9 +4282,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4311,7 +4311,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotF006",
             "version": [],
             "other_attributes": {}
@@ -4332,7 +4332,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4340,9 +4340,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4369,7 +4369,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotF007",
             "version": [],
             "other_attributes": {}
@@ -4390,7 +4390,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4398,9 +4398,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4427,7 +4427,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotF008",
             "version": [],
             "other_attributes": {}
@@ -4448,7 +4448,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4456,9 +4456,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4485,7 +4485,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotF009",
             "version": [],
             "other_attributes": {}
@@ -4506,7 +4506,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4514,9 +4514,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4543,7 +4543,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotZ001",
             "version": [],
             "other_attributes": {}
@@ -4564,7 +4564,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4572,9 +4572,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4601,7 +4601,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotZ002",
             "version": [],
             "other_attributes": {}
@@ -4622,7 +4622,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4630,9 +4630,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4659,7 +4659,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotZ004",
             "version": [],
             "other_attributes": {}

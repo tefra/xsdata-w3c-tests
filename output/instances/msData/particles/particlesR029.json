@@ -2,7 +2,7 @@
     "elem": {
         "foo": "",
         "foo_bar_element": null,
-        "imp_elem1": {
+        "impElem1": {
             "any_element": null
         }
     }

@@ -1,10 +1,10 @@
 {
-    "complex_test": {
+    "complexTest": {
         "comp_foo": [
             "AQID"
         ]
     },
-    "simple_test": [
+    "simpleTest": [
         "AQID"
     ]
 }

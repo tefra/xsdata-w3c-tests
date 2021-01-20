@@ -9,7 +9,7 @@
         "",
         ""
     ],
-    "c_element": [
+    "C": [
         {
             "any_element": null
         },
@@ -22,7 +22,7 @@
             "any_element": null
         }
     ],
-    "d_element": {
+    "D": {
         "any_element": null
     },
     "d": null

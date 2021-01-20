@@ -1,14 +1,14 @@
 {
-    "member1": [
+    "Member1": [
         {
-            "ear": "",
-            "eye": ""
+            "Ear": "",
+            "Eye": ""
         }
     ],
-    "head": [
+    "Head": [
         {
-            "ear": "",
-            "eye": ""
+            "Ear": "",
+            "Eye": ""
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "annotation": [],
-    "test_group": [
+    "testGroup": [
         {
             "annotation": [
                 {
@@ -17,7 +17,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -25,9 +25,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -54,10 +54,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../msData/errata10/errA001.xml",
@@ -103,7 +103,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -111,9 +111,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -152,10 +152,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../msData/errata10/errA002.xml",
@@ -201,7 +201,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -209,9 +209,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -238,10 +238,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../msData/errata10/errA003.xml",
@@ -287,7 +287,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -295,9 +295,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -324,10 +324,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../msData/errata10/errC001.xml",
@@ -373,7 +373,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -381,9 +381,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -410,7 +410,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "errC002",
             "version": [],
             "other_attributes": {}
@@ -431,7 +431,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -439,9 +439,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -468,7 +468,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "errC003",
             "version": [],
             "other_attributes": {}
@@ -489,7 +489,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -497,9 +497,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -526,7 +526,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "errC004",
             "version": [],
             "other_attributes": {}
@@ -547,7 +547,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -555,9 +555,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -584,7 +584,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "errC005",
             "version": [],
             "other_attributes": {}
@@ -605,7 +605,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -613,9 +613,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -642,7 +642,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "errC006",
             "version": [],
             "other_attributes": {}
@@ -663,7 +663,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -671,9 +671,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -700,10 +700,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../msData/errata10/errC007.xml",
@@ -749,7 +749,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -757,9 +757,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -786,7 +786,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "errC008",
             "version": [],
             "other_attributes": {}
@@ -807,7 +807,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -815,9 +815,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -844,7 +844,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "errC009",
             "version": [],
             "other_attributes": {}
@@ -865,7 +865,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -873,9 +873,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -902,10 +902,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../msData/errata10/errE001.xml",
@@ -951,7 +951,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -959,9 +959,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -988,10 +988,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../msData/errata10/errE002.xml",
@@ -1037,7 +1037,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1045,9 +1045,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1074,10 +1074,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../msData/errata10/errE003.xml",
@@ -1123,7 +1123,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1131,9 +1131,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1160,10 +1160,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../msData/errata10/errE004.xml",
@@ -1209,7 +1209,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1217,9 +1217,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1240,10 +1240,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../msData/errata10/errE006.xml",
@@ -1297,7 +1297,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1305,9 +1305,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1334,10 +1334,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../msData/errata10/errE008.xml",
@@ -1383,7 +1383,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1391,9 +1391,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1428,10 +1428,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../msData/errata10/errF001.xml",

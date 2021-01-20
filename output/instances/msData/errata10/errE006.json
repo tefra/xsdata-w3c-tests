@@ -1,25 +1,25 @@
 {
-    "test_date": [
+    "testDate": [
         "2002-12-31-05:00",
         "2002-12-31Z"
     ],
-    "test_gyear_month": [
+    "testGYearMonth": [
         "2002-12-05:00",
         "2002-12Z"
     ],
-    "test_gmonth_day": [
+    "testGMonthDay": [
         "--12-31-05:00",
         "--12-31Z"
     ],
-    "test_gday": [
+    "testGDay": [
         "---31-05:00",
         "---31Z"
     ],
-    "test_gmonth": [
+    "testGMonth": [
         "--12-05:00",
         "--12Z"
     ],
-    "test_gyear": [
+    "testGYear": [
         "2002-05:00",
         "2002Z"
     ]

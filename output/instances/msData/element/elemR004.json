@@ -1,10 +1,10 @@
 {
-    "ship_to": {
+    "shipTo": {
         "name": "Alice Smith",
         "street": "123 Maple Street",
         "country": "US"
     },
-    "bill_to": {
+    "billTo": {
         "name": "Robert Smith",
         "street": "8 Oak Avenue",
         "country": "US"

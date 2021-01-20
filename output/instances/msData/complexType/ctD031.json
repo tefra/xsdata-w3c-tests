@@ -3,5 +3,5 @@
     "any_attributes": {
         "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctD031.xsd"
     },
-    "my_attr": "group attribute"
+    "myAttr": "group attribute"
 }

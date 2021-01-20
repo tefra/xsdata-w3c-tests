@@ -1,17 +1,17 @@
 {
-    "magazine": [
+    "Magazine": [
         {
-            "title": "Men's Health",
-            "date": "2002"
+            "Title": "Men's Health",
+            "Date": "2002"
         }
     ],
-    "book": [
+    "Book": [
         {
-            "title": "The Old Man and the Sea",
-            "author": [
+            "Title": "The Old Man and the Sea",
+            "Author": [
                 "Ernest Hemingway"
             ]
         }
     ],
-    "publication": []
+    "Publication": []
 }

@@ -1,16 +1,16 @@
 {
-    "super_element": [
+    "SuperElement": [
         {
             "any_element": null
         }
     ],
-    "super_super_element": [
+    "SuperSuperElement": [
         {
             "any_element": null
         }
     ],
-    "separator": "",
-    "element": [
+    "Separator": "",
+    "Element": [
         {
             "any_element": null
         },

@@ -1,8 +1,8 @@
 {
     "elem": {
         "att": "37",
-        "red_att": "37",
-        "inc_att": "37",
-        "imp_att": "37"
+        "redAtt": "37",
+        "incAtt": "37",
+        "impAtt": "37"
     }
 }

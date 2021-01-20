@@ -1,6 +1,6 @@
 {
     "annotation": [],
-    "test_group": [
+    "testGroup": [
         {
             "annotation": [
                 {
@@ -30,7 +30,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -38,9 +38,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -67,10 +67,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/abstract/abstract00101m/abstract00101m1_p.xml",
@@ -97,7 +97,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/abstract/abstract00101m/abstract00101m1_n.xml",
@@ -156,7 +156,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -164,9 +164,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -193,10 +193,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/abstract/abstract00101m/abstract00101m2_n.xml",
@@ -255,7 +255,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -263,9 +263,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -292,10 +292,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/annotation/annotation00101m/annotation00101m1_p.xml",
@@ -354,7 +354,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -362,9 +362,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -391,10 +391,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/annotation/annotation00101m/annotation00101m2_p.xml",
@@ -453,7 +453,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -461,9 +461,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -490,7 +490,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotation00101m3",
             "version": [],
             "other_attributes": {}
@@ -524,7 +524,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -532,9 +532,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -561,7 +561,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "annotation00101m4",
             "version": [],
             "other_attributes": {}
@@ -595,7 +595,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -603,9 +603,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -632,10 +632,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/attrWildcard/attrWildcard00101m/attrWildcard00101m1_p.xml",
@@ -694,7 +694,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -702,9 +702,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -731,10 +731,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/attributeUses/attributeUses00101m/attributeUses00101m1_p.xml",
@@ -761,7 +761,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/attributeUses/attributeUses00101m/attributeUses00101m1_n.xml",
@@ -820,7 +820,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -828,9 +828,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -857,10 +857,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/baseTD/baseTD00101m/baseTD00101m1_p.xml",
@@ -887,7 +887,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/baseTD/baseTD00101m/baseTD00101m1_n.xml",
@@ -946,7 +946,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -954,9 +954,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -983,10 +983,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/baseTD/baseTD00101m/baseTD00101m2_p.xml",
@@ -1013,7 +1013,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/baseTD/baseTD00101m/baseTD00101m2_n.xml",
@@ -1072,7 +1072,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1080,9 +1080,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1109,10 +1109,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/baseTD/baseTD00101m/baseTD00101m3_p.xml",
@@ -1139,7 +1139,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/baseTD/baseTD00101m/baseTD00101m3_n.xml",
@@ -1198,7 +1198,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1206,9 +1206,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1235,10 +1235,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/baseTD/baseTD00101m/baseTD00101m4_p.xml",
@@ -1265,7 +1265,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/baseTD/baseTD00101m/baseTD00101m4_n.xml",
@@ -1324,7 +1324,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1332,9 +1332,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1361,10 +1361,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/contentType/contentType00101m/contentType00101m1_p.xml",
@@ -1391,7 +1391,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/contentType/contentType00101m/contentType00101m1_n.xml",
@@ -1450,7 +1450,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1458,9 +1458,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1487,10 +1487,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/contentType/contentType00201m/contentType00201m1_p.xml",
@@ -1517,7 +1517,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/contentType/contentType00201m/contentType00201m1_n.xml",
@@ -1576,7 +1576,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1584,9 +1584,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1613,10 +1613,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/contentType/contentType00301m/contentType00301m1_p.xml",
@@ -1643,7 +1643,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/contentType/contentType00301m/contentType00301m1_n.xml",
@@ -1702,7 +1702,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1710,9 +1710,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1739,10 +1739,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/contentType/contentType00401m/contentType00401m1_p.xml",
@@ -1769,7 +1769,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/contentType/contentType00401m/contentType00401m1_n.xml",
@@ -1828,7 +1828,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1836,9 +1836,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1865,10 +1865,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/derivationMethod/derivationMethod00101m/derivationMethod00101m1_p.xml",
@@ -1895,7 +1895,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/derivationMethod/derivationMethod00101m/derivationMethod00101m1_n.xml",
@@ -1954,7 +1954,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1962,9 +1962,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1991,10 +1991,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/derivationMethod/derivationMethod00101m/derivationMethod00101m2_p.xml",
@@ -2021,7 +2021,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/derivationMethod/derivationMethod00101m/derivationMethod00101m2_n.xml",
@@ -2080,7 +2080,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2088,9 +2088,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2117,10 +2117,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/derivationMethod/derivationMethod00102m/derivationMethod00102m1_p.xml",
@@ -2147,7 +2147,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/derivationMethod/derivationMethod00102m/derivationMethod00102m1_n.xml",
@@ -2206,7 +2206,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2214,9 +2214,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2243,10 +2243,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/derivationMethod/derivationMethod00102m/derivationMethod00102m2_p.xml",
@@ -2273,7 +2273,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/derivationMethod/derivationMethod00102m/derivationMethod00102m2_n.xml",
@@ -2332,7 +2332,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2340,9 +2340,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2369,7 +2369,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "final00101m2",
             "version": [],
             "other_attributes": {}
@@ -2403,7 +2403,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2411,9 +2411,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2440,10 +2440,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/final/final00101m/final00101m3_p.xml",
@@ -2470,7 +2470,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/final/final00101m/final00101m3_n.xml",
@@ -2529,7 +2529,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2537,9 +2537,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2566,7 +2566,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "final00101m4",
             "version": [],
             "other_attributes": {}
@@ -2600,7 +2600,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2608,9 +2608,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2637,7 +2637,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "final00101m5",
             "version": [],
             "other_attributes": {}
@@ -2671,7 +2671,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2679,9 +2679,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2708,7 +2708,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "final00101m6",
             "version": [],
             "other_attributes": {}
@@ -2742,7 +2742,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2750,9 +2750,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2779,10 +2779,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/name/name00101m/name00101m1_p.xml",
@@ -2809,7 +2809,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/name/name00101m/name00101m1_n.xml",
@@ -2868,7 +2868,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2876,9 +2876,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2905,10 +2905,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/pSubstitutions/pSubstitutions00101m/pSubstitutions00101m1_p.xml",
@@ -2935,7 +2935,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/pSubstitutions/pSubstitutions00101m/pSubstitutions00101m1_n.xml",
@@ -2962,7 +2962,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/pSubstitutions/pSubstitutions00101m/pSubstitutions00101m2_p.xml",
@@ -2989,7 +2989,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/pSubstitutions/pSubstitutions00101m/pSubstitutions00101m2_n.xml",
@@ -3048,7 +3048,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3056,9 +3056,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3085,10 +3085,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/pSubstitutions/pSubstitutions00102m/pSubstitutions00102m1_p.xml",
@@ -3115,7 +3115,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/pSubstitutions/pSubstitutions00102m/pSubstitutions00102m1_n.xml",
@@ -3142,7 +3142,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/pSubstitutions/pSubstitutions00102m/pSubstitutions00102m2_p.xml",
@@ -3169,7 +3169,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/pSubstitutions/pSubstitutions00102m/pSubstitutions00102m2_n.xml",
@@ -3228,7 +3228,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3236,9 +3236,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3265,10 +3265,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/pSubstitutions/pSubstitutions00103m/pSubstitutions00103m1_p.xml",
@@ -3295,7 +3295,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/pSubstitutions/pSubstitutions00103m/pSubstitutions00103m1_n.xml",
@@ -3322,7 +3322,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/pSubstitutions/pSubstitutions00103m/pSubstitutions00103m2_p.xml",
@@ -3349,7 +3349,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/pSubstitutions/pSubstitutions00103m/pSubstitutions00103m2_n.xml",
@@ -3408,7 +3408,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3416,9 +3416,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3445,10 +3445,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/pSubstitutions/pSubstitutions00104m/pSubstitutions00104m1_p.xml",
@@ -3475,7 +3475,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/pSubstitutions/pSubstitutions00104m/pSubstitutions00104m1_n.xml",
@@ -3502,7 +3502,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/pSubstitutions/pSubstitutions00104m/pSubstitutions00104m2_p.xml",
@@ -3529,7 +3529,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/pSubstitutions/pSubstitutions00104m/pSubstitutions00104m2_n.xml",
@@ -3588,7 +3588,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3596,9 +3596,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3625,10 +3625,10 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/targetNS/targetNS00101m/targetNS00101m1_p.xml",
@@ -3655,7 +3655,7 @@
                 },
                 {
                     "annotation": [],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../sunData/CType/targetNS/targetNS00101m/targetNS00101m1_n.xml",

@@ -1,6 +1,6 @@
 {
-    "complex_test": {
+    "complexTest": {
         "comp_foo": -9223372036854775808
     },
-    "simple_test": -9223372036854775808
+    "simpleTest": -9223372036854775808
 }

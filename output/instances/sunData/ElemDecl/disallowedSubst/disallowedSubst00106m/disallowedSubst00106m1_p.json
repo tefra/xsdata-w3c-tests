@@ -1,15 +1,15 @@
 {
-    "member3": [
+    "Member3": [
         {
-            "ear": "",
-            "eye": "",
-            "nose": ""
+            "Ear": "",
+            "Eye": "",
+            "Nose": ""
         }
     ],
-    "head": [
+    "Head": [
         {
-            "ear": "",
-            "eye": ""
+            "Ear": "",
+            "Eye": ""
         }
     ]
 }

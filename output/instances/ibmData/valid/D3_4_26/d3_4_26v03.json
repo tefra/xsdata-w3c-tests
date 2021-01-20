@@ -1,13 +1,13 @@
 {
-    "ely_mdunion_a": [
+    "elyMDUnionA": [
         "Computer",
         "P12Y34M"
     ],
-    "ely_mdunion_b": [
+    "elyMDUnionB": [
         "-P45Y23M",
         7
     ],
-    "ely_mdunion_c": [
+    "elyMDUnionC": [
         "P35Y3M",
         1,
         "once"

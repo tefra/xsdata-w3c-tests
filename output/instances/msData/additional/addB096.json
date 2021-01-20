@@ -1,7 +1,7 @@
 {
     "elem": {
         "att1": "123",
-        "group_elem": "",
+        "groupElem": "",
         "att2": "abc",
         "att3": "abc"
     }

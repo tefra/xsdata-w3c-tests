@@ -1,7 +1,7 @@
 {
     "elem": {
         "foo_imported_xsd_bar_element": [],
-        "imp_elem1": [
+        "impElem1": [
             {
                 "any_element": {
                     "qname": null,

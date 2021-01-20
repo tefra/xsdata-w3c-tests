@@ -1,6 +1,6 @@
 {
-    "attr_test1": "first attribute",
-    "attr_test2": "test attribute",
-    "attr_test3": "second group attribute",
-    "attr_test4": "more 2nd attribute"
+    "attrTest1": "first attribute",
+    "attrTest2": "test attribute",
+    "attrTest3": "second group attribute",
+    "attrTest4": "more 2nd attribute"
 }

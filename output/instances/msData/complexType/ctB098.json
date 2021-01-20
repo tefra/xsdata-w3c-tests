@@ -1,5 +1,5 @@
 {
-    "attr_test": "nonGroup attribute",
+    "attrTest": "nonGroup attribute",
     "any_attributes": {
         "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctB098.xsd",
         "attrTest1": "test attribute"

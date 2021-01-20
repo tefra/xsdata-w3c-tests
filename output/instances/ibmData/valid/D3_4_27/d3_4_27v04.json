@@ -1,17 +1,17 @@
 {
-    "ely_mdmin_inclusive_min_inclusive": [
+    "elyMDMinInclusive_MinInclusive": [
         "P2D",
         "P1DT535.4S"
     ],
-    "ely_mdmin_inclusive_min_exclusive": [
+    "elyMDMinInclusive_MinExclusive": [
         "P3D",
         "P2DT1S"
     ],
-    "ely_mdmin_inclusive_max_inclusive": [
+    "elyMDMinInclusive_MaxInclusive": [
         "P3452DT2H",
         "P1D"
     ],
-    "ely_mdmin_inclusive_max_exclusive": [
+    "elyMDMinInclusive_MaxExclusive": [
         "P43DT42M10.1S",
         "P1D"
     ]

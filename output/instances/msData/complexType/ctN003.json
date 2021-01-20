@@ -1,11 +1,11 @@
 {
-    "my_ele1": "string data",
-    "my_ele2": null,
-    "my_ele3": null,
+    "myEle1": "string data",
+    "myEle2": null,
+    "myEle3": null,
     "local_attributes": {
         "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctN003.xsd",
         "local": "extended attribute"
     },
-    "my_ele4": "string data",
+    "myEle4": "string data",
     "any_attributes": {}
 }

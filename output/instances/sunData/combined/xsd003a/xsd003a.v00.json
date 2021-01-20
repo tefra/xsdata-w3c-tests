@@ -2,20 +2,20 @@
     "root": [
         {
             "root": [],
-            "g_att": null
+            "gAtt": null
         },
         {
             "root": [],
-            "g_att": null
+            "gAtt": null
         },
         {
             "root": [],
-            "g_att": null
+            "gAtt": null
         },
         {
             "root": [],
-            "g_att": null
+            "gAtt": null
         }
     ],
-    "g_att": "anything"
+    "gAtt": "anything"
 }

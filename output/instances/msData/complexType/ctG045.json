@@ -1,9 +1,9 @@
 {
-    "my_element1": "test data",
-    "my_element2": null,
-    "my_element3": null,
+    "myElement1": "test data",
+    "myElement2": null,
+    "myElement3": null,
     "any_attributes": {
         "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctG045.xsd"
     },
-    "my_attr": "test attribute"
+    "myAttr": "test attribute"
 }

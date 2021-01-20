@@ -2,18 +2,18 @@
     "para": [
         {
             "value": null,
-            "id_one": "aaa",
-            "id_two": "bbb"
+            "id-one": "aaa",
+            "id-two": "bbb"
         },
         {
             "value": null,
-            "id_one": "ccc",
-            "id_two": "ddd"
+            "id-one": "ccc",
+            "id-two": "ddd"
         },
         {
             "value": null,
-            "id_one": "eee",
-            "id_two": "eee"
+            "id-one": "eee",
+            "id-two": "eee"
         }
     ]
 }

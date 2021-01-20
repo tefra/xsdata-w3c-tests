@@ -1,6 +1,6 @@
 {
     "elem": {
-        "foo": "",
+        "foo": [],
         "local_element": [
             {
                 "qname": "foo",
@@ -16,7 +16,6 @@
                 "children": [],
                 "attributes": {}
             }
-        ],
-        "xsdtesting_foo": []
+        ]
     }
 }

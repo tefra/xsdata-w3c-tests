@@ -4,27 +4,27 @@
             "child": [
                 {
                     "name": "C1",
-                    "dob": "2007-10-10"
+                    "DOB": "2007-10-10"
                 },
                 {
                     "name": "C2",
-                    "dob": "2003-01-02"
+                    "DOB": "2003-01-02"
                 }
             ],
-            "number_of_children": 2
+            "numberOfChildren": 2
         },
         {
             "child": [
                 {
                     "name": "C1",
-                    "dob": "2000-01-01"
+                    "DOB": "2000-01-01"
                 }
             ],
-            "number_of_children": 7
+            "numberOfChildren": 7
         },
         {
             "child": [],
-            "number_of_children": -5
+            "numberOfChildren": -5
         }
     ]
 }

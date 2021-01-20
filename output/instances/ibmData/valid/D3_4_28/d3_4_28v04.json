@@ -1,13 +1,13 @@
 {
-    "eld_time_stamp_union_a": [
+    "eldTimeStampUnionA": [
         "Computer",
         "1999-02-02T02:00:00.123Z"
     ],
-    "eld_time_stamp_union_b": [
+    "eldTimeStampUnionB": [
         "1999-02-02T02:00:00.123Z",
         7
     ],
-    "eld_time_stamp_union_c": [
+    "eldTimeStampUnionC": [
         "2000-02-02T02:00:00.123Z",
         "1",
         "once"

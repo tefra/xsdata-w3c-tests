@@ -1,7 +1,7 @@
 {
-    "global_value": true,
-    "global_pre_defined_type": "true",
-    "local": "1.1",
-    "local_pre_defined_type": "1",
-    "local_inline": "false"
+    "Global": true,
+    "GlobalPreDefinedType": "true",
+    "Local": "1.1",
+    "LocalPreDefinedType": "1",
+    "LocalInline": "false"
 }

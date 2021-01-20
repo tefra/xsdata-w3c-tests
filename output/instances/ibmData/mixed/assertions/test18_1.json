@@ -5,7 +5,7 @@
                 "aaa",
                 "aaa.."
             ],
-            "a_count": 2
+            "aCount": 2
         },
         "b": "world",
         "c": null,
@@ -17,7 +17,7 @@
                 "aaa",
                 "aaa.."
             ],
-            "a_count": 2
+            "aCount": 2
         },
         "b": "world",
         "c": "hello..",

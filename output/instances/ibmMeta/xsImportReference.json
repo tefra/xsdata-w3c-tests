@@ -16,7 +16,7 @@
             "other_attributes": {}
         }
     ],
-    "test_group": [
+    "testGroup": [
         {
             "annotation": [
                 {
@@ -33,7 +33,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -47,9 +47,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -82,7 +82,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "s4_2_6si01",
             "version": [
                 "1.1"

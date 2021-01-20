@@ -1,5 +1,5 @@
 {
-    "global_value": {
+    "Global": {
         "any_element": {
             "qname": null,
             "text": "1",
@@ -8,5 +8,5 @@
             "attributes": {}
         }
     },
-    "local": "2"
+    "Local": "2"
 }

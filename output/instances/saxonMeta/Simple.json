@@ -1,6 +1,6 @@
 {
     "annotation": [],
-    "test_group": [
+    "testGroup": [
         {
             "annotation": [
                 {
@@ -30,7 +30,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -44,9 +44,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -73,7 +73,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -90,7 +90,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple001.v01.xml",
@@ -131,7 +131,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple001.n01.xml",
@@ -172,7 +172,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple001.n02.xml",
@@ -231,7 +231,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -245,9 +245,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -274,7 +274,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -291,7 +291,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple001.v01.xml",
@@ -332,7 +332,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple001.n01.xml",
@@ -373,7 +373,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple001.n02.xml",
@@ -432,7 +432,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -446,9 +446,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -475,7 +475,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -492,7 +492,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple003.v01.xml",
@@ -551,7 +551,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -565,7 +565,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -581,7 +581,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -608,7 +608,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple004",
             "version": [],
             "other_attributes": {}
@@ -642,7 +642,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -656,7 +656,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -672,7 +672,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -699,7 +699,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple005",
             "version": [],
             "other_attributes": {}
@@ -733,7 +733,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -741,7 +741,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -757,7 +757,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -784,7 +784,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple006",
             "version": [],
             "other_attributes": {}
@@ -818,7 +818,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -832,9 +832,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -861,7 +861,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -878,7 +878,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple010.v01.xml",
@@ -919,7 +919,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple010.n01.xml",
@@ -960,7 +960,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple010.n02.xml",
@@ -1019,7 +1019,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1033,9 +1033,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1062,7 +1062,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple011",
             "version": [],
             "other_attributes": {}
@@ -1096,7 +1096,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1110,9 +1110,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1139,7 +1139,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -1156,7 +1156,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple012.v01.xml",
@@ -1197,7 +1197,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple012.v02.xml",
@@ -1238,7 +1238,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple012.n01.xml",
@@ -1279,7 +1279,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple012.n02.xml",
@@ -1338,7 +1338,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1352,9 +1352,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1381,7 +1381,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -1398,7 +1398,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple013.v01.xml",
@@ -1439,7 +1439,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple013.n01.xml",
@@ -1480,7 +1480,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple013.n02.xml",
@@ -1539,7 +1539,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1553,9 +1553,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1582,7 +1582,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple014",
             "version": [],
             "other_attributes": {}
@@ -1616,7 +1616,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1630,9 +1630,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1659,7 +1659,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple015",
             "version": [],
             "other_attributes": {}
@@ -1693,7 +1693,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1707,9 +1707,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1736,7 +1736,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -1753,7 +1753,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple016.v01.xml",
@@ -1794,7 +1794,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple016.n01.xml",
@@ -1853,7 +1853,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1867,7 +1867,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -1883,7 +1883,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1910,7 +1910,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple017",
             "version": [],
             "other_attributes": {}
@@ -1944,7 +1944,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1958,7 +1958,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -1974,7 +1974,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2001,7 +2001,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple018",
             "version": [],
             "other_attributes": {}
@@ -2035,7 +2035,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2049,7 +2049,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -2065,7 +2065,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2092,7 +2092,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple019",
             "version": [],
             "other_attributes": {}
@@ -2126,7 +2126,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2140,7 +2140,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -2156,7 +2156,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2183,7 +2183,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple020",
             "version": [],
             "other_attributes": {}
@@ -2217,7 +2217,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2225,7 +2225,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -2241,7 +2241,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2268,7 +2268,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple021",
             "version": [],
             "other_attributes": {}
@@ -2302,7 +2302,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2310,9 +2310,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2339,7 +2339,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -2356,7 +2356,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple022.v01.xml",
@@ -2397,7 +2397,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple022.v02.xml",
@@ -2438,7 +2438,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple022.v03.xml",
@@ -2479,7 +2479,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple022.n01.xml",
@@ -2538,7 +2538,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2552,9 +2552,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2581,7 +2581,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -2598,7 +2598,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple040.v01.xml",
@@ -2639,7 +2639,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple040.n01.xml",
@@ -2680,7 +2680,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple040.n02.xml",
@@ -2739,7 +2739,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2753,7 +2753,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -2769,7 +2769,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2796,7 +2796,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple041",
             "version": [],
             "other_attributes": {}
@@ -2830,7 +2830,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2844,7 +2844,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -2860,7 +2860,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2887,7 +2887,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple042",
             "version": [],
             "other_attributes": {}
@@ -2921,7 +2921,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2935,7 +2935,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -2951,7 +2951,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2986,7 +2986,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple043",
             "version": [],
             "other_attributes": {}
@@ -3020,7 +3020,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3034,7 +3034,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -3050,7 +3050,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3077,7 +3077,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -3094,7 +3094,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple044.v01.xml",
@@ -3135,7 +3135,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple044.n01.xml",
@@ -3194,7 +3194,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3208,7 +3208,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -3224,7 +3224,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3251,7 +3251,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -3268,7 +3268,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple045.v01.xml",
@@ -3309,7 +3309,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple045.n01.xml",
@@ -3368,7 +3368,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3382,7 +3382,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -3398,7 +3398,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3425,7 +3425,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -3442,7 +3442,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple046.v01.xml",
@@ -3483,7 +3483,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple046.n01.xml",
@@ -3542,7 +3542,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3556,7 +3556,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -3572,7 +3572,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3599,7 +3599,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -3616,7 +3616,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple050.v01.xml",
@@ -3657,7 +3657,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple050.v02.xml",
@@ -3698,7 +3698,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple050.n01.xml",
@@ -3739,7 +3739,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple050.n02.xml",
@@ -3780,7 +3780,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple050.n03.xml",
@@ -3839,7 +3839,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3853,7 +3853,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -3869,7 +3869,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3896,7 +3896,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple051",
             "version": [],
             "other_attributes": {}
@@ -3930,7 +3930,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3944,7 +3944,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -3960,7 +3960,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3987,7 +3987,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple052",
             "version": [],
             "other_attributes": {}
@@ -4021,7 +4021,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4035,7 +4035,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -4051,7 +4051,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4078,7 +4078,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple053",
             "version": [],
             "other_attributes": {}
@@ -4112,7 +4112,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4126,7 +4126,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -4142,7 +4142,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4169,7 +4169,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -4186,7 +4186,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple054.n01.xml",
@@ -4245,7 +4245,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4253,7 +4253,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -4269,7 +4269,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4296,7 +4296,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -4313,7 +4313,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple055.n01.xml",
@@ -4372,7 +4372,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4380,7 +4380,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -4396,7 +4396,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4423,7 +4423,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple060",
             "version": [],
             "other_attributes": {}
@@ -4457,7 +4457,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4465,7 +4465,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -4481,7 +4481,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4508,7 +4508,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple061",
             "version": [],
             "other_attributes": {}
@@ -4542,7 +4542,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4550,7 +4550,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -4566,7 +4566,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4593,7 +4593,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple062",
             "version": [],
             "other_attributes": {}
@@ -4627,7 +4627,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4635,7 +4635,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -4651,7 +4651,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4678,7 +4678,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple063",
             "version": [],
             "other_attributes": {}
@@ -4712,7 +4712,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4720,7 +4720,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -4736,7 +4736,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4763,7 +4763,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple064",
             "version": [],
             "other_attributes": {}
@@ -4797,7 +4797,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4805,7 +4805,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -4821,7 +4821,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4848,7 +4848,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple065",
             "version": [],
             "other_attributes": {}
@@ -4882,7 +4882,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4890,7 +4890,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -4906,7 +4906,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4933,7 +4933,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple066",
             "version": [],
             "other_attributes": {}
@@ -4967,7 +4967,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4975,7 +4975,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -4991,7 +4991,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5018,7 +5018,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple067",
             "version": [],
             "other_attributes": {}
@@ -5052,7 +5052,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5060,7 +5060,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -5076,7 +5076,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5103,7 +5103,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple068",
             "version": [],
             "other_attributes": {}
@@ -5137,7 +5137,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5145,7 +5145,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -5161,7 +5161,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5188,7 +5188,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple069",
             "version": [],
             "other_attributes": {}
@@ -5222,7 +5222,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5230,7 +5230,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -5246,7 +5246,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5273,7 +5273,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple070",
             "version": [],
             "other_attributes": {}
@@ -5307,7 +5307,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5315,7 +5315,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -5331,7 +5331,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5358,7 +5358,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple071",
             "version": [],
             "other_attributes": {}
@@ -5392,7 +5392,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5400,7 +5400,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -5416,7 +5416,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5443,7 +5443,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple072",
             "version": [],
             "other_attributes": {}
@@ -5477,7 +5477,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5485,7 +5485,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -5501,7 +5501,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5528,7 +5528,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple073",
             "version": [],
             "other_attributes": {}
@@ -5562,7 +5562,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5570,7 +5570,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -5586,7 +5586,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5613,7 +5613,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple074",
             "version": [],
             "other_attributes": {}
@@ -5647,7 +5647,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5655,7 +5655,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -5671,7 +5671,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5698,7 +5698,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple075",
             "version": [],
             "other_attributes": {}
@@ -5732,7 +5732,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5740,7 +5740,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -5756,7 +5756,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5783,7 +5783,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple076",
             "version": [],
             "other_attributes": {}
@@ -5817,7 +5817,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5825,7 +5825,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -5841,7 +5841,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5868,7 +5868,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple077",
             "version": [],
             "other_attributes": {}
@@ -5902,7 +5902,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5910,7 +5910,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -5926,7 +5926,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5953,7 +5953,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple078",
             "version": [],
             "other_attributes": {}
@@ -5987,7 +5987,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5995,7 +5995,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -6011,7 +6011,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -6038,7 +6038,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple079",
             "version": [],
             "other_attributes": {}
@@ -6072,7 +6072,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -6080,7 +6080,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -6096,7 +6096,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -6123,7 +6123,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple080",
             "version": [],
             "other_attributes": {}
@@ -6157,7 +6157,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -6165,7 +6165,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -6181,7 +6181,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -6208,7 +6208,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple081",
             "version": [],
             "other_attributes": {}
@@ -6242,7 +6242,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -6250,7 +6250,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -6266,7 +6266,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -6293,7 +6293,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple082",
             "version": [],
             "other_attributes": {}
@@ -6327,7 +6327,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -6335,7 +6335,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -6351,7 +6351,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -6378,7 +6378,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple083",
             "version": [],
             "other_attributes": {}
@@ -6412,7 +6412,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -6420,7 +6420,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -6436,7 +6436,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -6463,7 +6463,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "simple084",
             "version": [],
             "other_attributes": {}
@@ -6497,7 +6497,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -6505,7 +6505,7 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [
                     {
                         "appinfo_or_documentation": [
@@ -6521,7 +6521,7 @@
                         "other_attributes": {}
                     }
                 ],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -6548,7 +6548,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -6565,7 +6565,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Simple/simple085.v01.xml",

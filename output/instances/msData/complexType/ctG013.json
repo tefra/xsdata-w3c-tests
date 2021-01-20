@@ -1,6 +1,6 @@
 {
-    "my_element1": "test data",
-    "my_element2": null,
-    "my_element3": null,
-    "my_attr": "test attribute"
+    "myElement1": "test data",
+    "myElement2": null,
+    "myElement3": null,
+    "myAttr": "test attribute"
 }

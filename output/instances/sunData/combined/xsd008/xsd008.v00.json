@@ -1,6 +1,6 @@
 {
     "generic": {
-        "int_value": [
+        "int": [
             {
                 "annotation": null,
                 "value": 52
@@ -20,7 +20,7 @@
                 "value": -55555
             }
         ],
-        "yes_no": [
+        "yesNo": [
             {
                 "annotation": null,
                 "value": true
@@ -33,7 +33,7 @@
         "facet": []
     },
     "restricted": {
-        "int_value": [
+        "int": [
             {
                 "annotation": null,
                 "value": 52

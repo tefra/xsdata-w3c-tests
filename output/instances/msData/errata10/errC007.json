@@ -1,5 +1,5 @@
 {
-    "local_element1": {
+    "localElement1": {
         "qname": "localElement1",
         "text": null,
         "tail": null,
@@ -16,7 +16,7 @@
             "attr": "testValue"
         }
     },
-    "local_element2": {
+    "localElement2": {
         "qname": "localElement2",
         "text": null,
         "tail": null,

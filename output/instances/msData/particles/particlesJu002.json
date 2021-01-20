@@ -1,7 +1,7 @@
 {
     "elem": {
         "local_foo_target_namespace_imported_xsd_bar_element": [],
-        "imp_elem1": [
+        "impElem1": [
             {
                 "any_element": null
             },

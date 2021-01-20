@@ -1,5 +1,5 @@
 {
     "any_element": null,
-    "my_attr": "test attribute",
-    "my_element": "test data"
+    "myAttr": "test attribute",
+    "myElement": "test data"
 }

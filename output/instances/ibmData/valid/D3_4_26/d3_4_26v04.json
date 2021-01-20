@@ -1,17 +1,17 @@
 {
-    "ely_mdmin_inclusive_min_inclusive": [
+    "elyMDMinInclusive_MinInclusive": [
         "P2M",
         "P3M"
     ],
-    "ely_mdmin_inclusive_min_exclusive": [
+    "elyMDMinInclusive_MinExclusive": [
         "P3M",
         "P1Y"
     ],
-    "ely_mdmin_inclusive_max_inclusive": [
+    "elyMDMinInclusive_MaxInclusive": [
         "P3452Y2M",
         "P1M"
     ],
-    "ely_mdmin_inclusive_max_exclusive": [
+    "elyMDMinInclusive_MaxExclusive": [
         "P23Y1M",
         "P1M"
     ]

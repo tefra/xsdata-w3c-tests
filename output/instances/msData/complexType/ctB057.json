@@ -1,5 +1,5 @@
 {
-    "my_element": "all field",
+    "myElement": "all field",
     "any_attributes": {
         "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctB057.xsd",
         "attrTest": "any attribute"

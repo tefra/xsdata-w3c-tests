@@ -1,5 +1,5 @@
 {
-    "my_element": "field data",
-    "attr_test": "test attribute",
-    "attr_test2": "second test attribute"
+    "myElement": "field data",
+    "attrTest": "test attribute",
+    "attrTest2": "second test attribute"
 }

@@ -1,12 +1,12 @@
 {
-    "complex_test": [
+    "complexTest": [
         {
             "comp_foo": [
                 1.0
             ]
         }
     ],
-    "simple_test": [
+    "simpleTest": [
         -8.988465674311579e+307,
         -2.225073858507201e-308,
         2.225073858507201e-308,

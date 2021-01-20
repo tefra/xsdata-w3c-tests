@@ -5,14 +5,14 @@
                 "zzz",
                 {
                     "node_or_id": [],
-                    "id_one": "ccc",
+                    "id-one": "ccc",
                     "any_attributes": {
                         "id-two": "ddd"
                     }
                 },
                 {
                     "node_or_id": [],
-                    "id_one": "eee",
+                    "id-one": "eee",
                     "any_attributes": {
                         "id-two": "eee"
                     }
@@ -20,7 +20,7 @@
                 "zzz",
                 "aaa"
             ],
-            "id_one": "aaa",
+            "id-one": "aaa",
             "any_attributes": {
                 "id-two": "bbb"
             }

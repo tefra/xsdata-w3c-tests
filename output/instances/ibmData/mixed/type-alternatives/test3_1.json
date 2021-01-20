@@ -1,6 +1,6 @@
 {
-    "a": {
-        "b": 11
+    "A": {
+        "B": 11
     },
-    "a_attribute": false
+    "a": false
 }

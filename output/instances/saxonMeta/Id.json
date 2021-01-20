@@ -1,6 +1,6 @@
 {
     "annotation": [],
-    "test_group": [
+    "testGroup": [
         {
             "annotation": [
                 {
@@ -30,7 +30,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -44,9 +44,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -73,7 +73,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -90,7 +90,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id001.v01.xml",
@@ -131,7 +131,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id001.n01.xml",
@@ -172,7 +172,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id001.n02.xml",
@@ -233,7 +233,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -247,9 +247,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -276,7 +276,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -293,7 +293,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id001.v01.xml",
@@ -334,7 +334,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id001.n01.xml",
@@ -375,7 +375,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id001.n02.xml",
@@ -436,7 +436,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -450,9 +450,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -479,7 +479,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -496,7 +496,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id003.v01.xml",
@@ -537,7 +537,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id003.n01.xml",
@@ -578,7 +578,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id003.n02.xml",
@@ -639,7 +639,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -653,9 +653,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -682,7 +682,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -699,7 +699,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id004.v01.xml",
@@ -740,7 +740,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id004.n01.xml",
@@ -781,7 +781,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id004.n02.xml",
@@ -842,7 +842,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -856,9 +856,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -885,7 +885,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -902,7 +902,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id005.v01.xml",
@@ -943,7 +943,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id005.n01.xml",
@@ -984,7 +984,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id005.n02.xml",
@@ -1045,7 +1045,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1059,9 +1059,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1088,7 +1088,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -1105,7 +1105,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id006.v01.xml",
@@ -1146,7 +1146,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id006.n01.xml",
@@ -1187,7 +1187,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id006.n02.xml",
@@ -1248,7 +1248,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1262,9 +1262,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1291,7 +1291,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -1308,7 +1308,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id007.v01.xml",
@@ -1349,7 +1349,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id007.n01.xml",
@@ -1390,7 +1390,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id007.n02.xml",
@@ -1451,7 +1451,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1465,9 +1465,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1494,7 +1494,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -1511,7 +1511,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id008.v01.xml",
@@ -1552,7 +1552,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id008.v02.xml",
@@ -1615,7 +1615,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id008.v03.xml",
@@ -1698,7 +1698,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1712,9 +1712,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1741,7 +1741,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -1758,7 +1758,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id009.v01.xml",
@@ -1819,7 +1819,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -1833,9 +1833,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -1862,7 +1862,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -1879,7 +1879,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id010.v01.xml",
@@ -1920,7 +1920,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id010.n01.xml",
@@ -1961,7 +1961,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id010.n02.xml",
@@ -2022,7 +2022,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2036,9 +2036,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2065,7 +2065,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -2082,7 +2082,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id011.v01.xml",
@@ -2123,7 +2123,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id011.n01.xml",
@@ -2164,7 +2164,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id011.n02.xml",
@@ -2225,7 +2225,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2239,9 +2239,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2268,7 +2268,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -2285,7 +2285,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id010.v01.xml",
@@ -2326,7 +2326,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id010.n01.xml",
@@ -2367,7 +2367,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id010.n02.xml",
@@ -2428,7 +2428,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2442,9 +2442,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2471,7 +2471,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -2488,7 +2488,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id011.v01.xml",
@@ -2529,7 +2529,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id011.n01.xml",
@@ -2570,7 +2570,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id011.n02.xml",
@@ -2631,7 +2631,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2645,9 +2645,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2674,7 +2674,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -2691,7 +2691,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id014.v01.xml",
@@ -2732,7 +2732,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id014.n01.xml",
@@ -2773,7 +2773,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id014.n02.xml",
@@ -2834,7 +2834,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -2848,9 +2848,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -2877,7 +2877,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -2894,7 +2894,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id015.v01.xml",
@@ -2935,7 +2935,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id015.n01.xml",
@@ -2976,7 +2976,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id015.n02.xml",
@@ -3037,7 +3037,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3051,9 +3051,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3080,7 +3080,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -3097,7 +3097,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id016.v01.xml",
@@ -3138,7 +3138,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id016.v02.xml",
@@ -3179,7 +3179,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id016.n01.xml",
@@ -3220,7 +3220,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id016.n02.xml",
@@ -3281,7 +3281,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3295,9 +3295,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3324,7 +3324,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -3341,7 +3341,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id017.v01.xml",
@@ -3382,7 +3382,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id017.v02.xml",
@@ -3423,7 +3423,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id017.n01.xml",
@@ -3484,7 +3484,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3498,9 +3498,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3527,7 +3527,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -3544,7 +3544,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id018.v01.xml",
@@ -3585,7 +3585,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id018.v02.xml",
@@ -3626,7 +3626,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id018.v03.xml",
@@ -3667,7 +3667,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id018.n01.xml",
@@ -3708,7 +3708,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id018.n02.xml",
@@ -3769,7 +3769,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -3783,9 +3783,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -3812,7 +3812,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -3829,7 +3829,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id019.v01.xml",
@@ -3870,7 +3870,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id019.v02.xml",
@@ -3911,7 +3911,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id019.n01.xml",
@@ -3952,7 +3952,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id019.n02.xml",
@@ -4013,7 +4013,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4027,9 +4027,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4056,7 +4056,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -4073,7 +4073,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id020.v01.xml",
@@ -4114,7 +4114,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id020.v02.xml",
@@ -4155,7 +4155,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id020.v03.xml",
@@ -4196,7 +4196,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id020.n01.xml",
@@ -4237,7 +4237,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id020.n02.xml",
@@ -4298,7 +4298,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4312,9 +4312,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4341,7 +4341,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -4358,7 +4358,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id021.v01.xml",
@@ -4399,7 +4399,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id021.v02.xml",
@@ -4440,7 +4440,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id021.n01.xml",
@@ -4481,7 +4481,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id021.n02.xml",
@@ -4542,7 +4542,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4556,9 +4556,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4585,7 +4585,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -4602,7 +4602,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id022.v01.xml",
@@ -4643,7 +4643,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id022.n01.xml",
@@ -4704,7 +4704,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4718,9 +4718,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4747,7 +4747,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -4764,7 +4764,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id040.v01.xml",
@@ -4805,7 +4805,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id040.n01.xml",
@@ -4846,7 +4846,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id040.n02.xml",
@@ -4907,7 +4907,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -4921,9 +4921,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -4950,7 +4950,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "id041",
             "version": [
                 "1.1"
@@ -4986,7 +4986,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5000,9 +5000,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5029,7 +5029,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [],
+            "instanceTest": [],
             "name": "id042",
             "version": [
                 "1.1"
@@ -5065,7 +5065,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5079,9 +5079,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5108,7 +5108,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -5125,7 +5125,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id043.v01.xml",
@@ -5166,7 +5166,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id043.n01.xml",
@@ -5207,7 +5207,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id043.n02.xml",
@@ -5268,7 +5268,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5282,9 +5282,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5311,7 +5311,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -5328,7 +5328,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id044.v01.xml",
@@ -5369,7 +5369,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id044.n01.xml",
@@ -5410,7 +5410,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id044.n02.xml",
@@ -5471,7 +5471,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5485,9 +5485,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5514,7 +5514,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -5531,7 +5531,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id050.v01.xml",
@@ -5572,7 +5572,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id050.n01.xml",
@@ -5633,7 +5633,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5647,9 +5647,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5676,7 +5676,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -5693,7 +5693,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id050.v01.xml",
@@ -5734,7 +5734,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id050.n01.xml",
@@ -5795,7 +5795,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5809,9 +5809,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -5838,7 +5838,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -5855,7 +5855,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id050.v01.xml",
@@ -5896,7 +5896,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id050.n01.xml",
@@ -5957,7 +5957,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -5971,9 +5971,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -6000,7 +6000,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -6017,7 +6017,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id050.v01.xml",
@@ -6058,7 +6058,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id050.n01.xml",
@@ -6119,7 +6119,7 @@
                     "other_attributes": {}
                 }
             ],
-            "documentation_reference": [
+            "documentationReference": [
                 {
                     "annotation": [],
                     "type": "locator",
@@ -6133,9 +6133,9 @@
                     "other_attributes": {}
                 }
             ],
-            "schema_test": {
+            "schemaTest": {
                 "annotation": [],
-                "schema_document": [
+                "schemaDocument": [
                     {
                         "annotation": [],
                         "type": "locator",
@@ -6162,7 +6162,7 @@
                 "version": [],
                 "other_attributes": {}
             },
-            "instance_test": [
+            "instanceTest": [
                 {
                     "annotation": [
                         {
@@ -6179,7 +6179,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id054.v01.xml",
@@ -6220,7 +6220,7 @@
                             "other_attributes": {}
                         }
                     ],
-                    "instance_document": {
+                    "instanceDocument": {
                         "annotation": [],
                         "type": "locator",
                         "href": "../saxonData/Id/id054.n01.xml",

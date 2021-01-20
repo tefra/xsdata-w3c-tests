@@ -1,5 +1,5 @@
 {
-    "str_value": "abc",
+    "str": "abc",
     "number": 123,
-    "bool_value": true
+    "bool": true
 }

@@ -2,8 +2,8 @@
     "elem": {
         "foo": "",
         "any_element": [],
-        "imp_elem1": null,
-        "imp_elem2": {
+        "impElem1": null,
+        "impElem2": {
             "any_element": null
         }
     }

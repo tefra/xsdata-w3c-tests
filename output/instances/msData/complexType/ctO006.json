@@ -1,7 +1,7 @@
 {
-    "my_ele1": "string data",
-    "my_ele2": 132456,
-    "my_ele3": null,
+    "myEle1": "string data",
+    "myEle2": 132456,
+    "myEle3": null,
     "any_attributes": {
         "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctO006.xsd",
         "{http://tempuri.org/xmlschema}myAttr": "restriction attribute"

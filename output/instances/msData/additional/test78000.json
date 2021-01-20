@@ -1,7 +1,7 @@
 {
-    "root_container": [
+    "RootContainer": [
         {
-            "strict_container": {
+            "StrictContainer": {
                 "other_element": {
                     "qname": "{b}test",
                     "text": null,
@@ -12,7 +12,7 @@
                     }
                 }
             },
-            "lax_container": {
+            "LaxContainer": {
                 "other_element": {
                     "qname": "{b}test",
                     "text": null,
@@ -23,7 +23,7 @@
                     }
                 }
             },
-            "skip_container": {
+            "SkipContainer": {
                 "other_element": {
                     "qname": "{other}anyOtherGarbage",
                     "text": null,
@@ -34,7 +34,7 @@
             }
         },
         {
-            "strict_container": {
+            "StrictContainer": {
                 "other_element": {
                     "qname": "{b}test",
                     "text": null,
@@ -45,7 +45,7 @@
                     }
                 }
             },
-            "lax_container": {
+            "LaxContainer": {
                 "other_element": {
                     "qname": "{other}anyOtherGarbage",
                     "text": null,
@@ -54,7 +54,7 @@
                     "attributes": {}
                 }
             },
-            "skip_container": {
+            "SkipContainer": {
                 "other_element": {
                     "qname": "{other}anyOtherGarbage",
                     "text": null,
@@ -65,7 +65,7 @@
             }
         },
         {
-            "strict_container": {
+            "StrictContainer": {
                 "other_element": {
                     "qname": "{b}test",
                     "text": null,
@@ -76,7 +76,7 @@
                     }
                 }
             },
-            "lax_container": {
+            "LaxContainer": {
                 "other_element": {
                     "qname": "{b}test",
                     "text": null,
@@ -87,7 +87,7 @@
                     }
                 }
             },
-            "skip_container": {
+            "SkipContainer": {
                 "other_element": {
                     "qname": "{b}test",
                     "text": null,

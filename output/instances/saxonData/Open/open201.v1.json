@@ -1,9 +1,9 @@
 {
-    "extra_number": "1.234",
-    "extra_date": "2008-03-12",
+    "extra-number": "1.234",
+    "extra-date": "2008-03-12",
     "a": {
-        "extra_number": "1.456",
-        "extra_date": null
+        "extra-number": "1.456",
+        "extra-date": null
     },
     "b": null,
     "c": null

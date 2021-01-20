@@ -1,7 +1,7 @@
 {
-    "my_element": "test data",
-    "my_element2": null,
-    "my_attr": "test attribute",
-    "my_element3": "first sequence data",
-    "my_element4": "second sequence data"
+    "myElement": "test data",
+    "myElement2": null,
+    "myAttr": "test attribute",
+    "myElement3": "first sequence data",
+    "myElement4": "second sequence data"
 }

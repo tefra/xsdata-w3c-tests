@@ -1,6 +1,6 @@
 {
-    "complex_test": {
+    "complexTest": {
         "comp_foo": "en"
     },
-    "simple_test": "en"
+    "simpleTest": "en"
 }

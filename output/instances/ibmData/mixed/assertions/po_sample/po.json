@@ -1,11 +1,11 @@
 {
     "buyer": {
-        "f_name": "Jimmy",
-        "middl_name": null,
-        "l_name": "Nice",
-        "establishment": null
+        "fName": "Jimmy",
+        "middlName": null,
+        "lName": "Nice",
+        "Establishment": null
     },
-    "billing_address": {
+    "billing-address": {
         "street1": "XYZ Street1",
         "street2": "Near Leapord Market",
         "city": "ABC",
@@ -13,7 +13,7 @@
         "state": "PQR",
         "country": "my country"
     },
-    "shipping_address": {
+    "shipping-address": {
         "street1": null,
         "street2": null,
         "city": null,
@@ -37,7 +37,7 @@
         ]
     },
     "tax": "10.81",
-    "bill_amount": "118.91",
+    "bill-amount": "118.91",
     "currency": "USD",
     "id": "100"
 }

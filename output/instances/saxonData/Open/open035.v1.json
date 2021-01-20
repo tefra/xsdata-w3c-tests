@@ -1,12 +1,12 @@
 {
-    "book": [
+    "Book": [
         {
             "id": "b1",
-            "title": "T",
-            "author": "A",
-            "date": "date",
-            "isbn": "is",
-            "publisher": "Pub"
+            "Title": "T",
+            "Author": "A",
+            "Date": "date",
+            "ISBN": "is",
+            "Publisher": "Pub"
         }
     ]
 }

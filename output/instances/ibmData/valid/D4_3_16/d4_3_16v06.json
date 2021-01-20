@@ -1,27 +1,27 @@
 {
-    "eld_time_pattern": [
+    "eldTimePattern": [
         "2000-12-28T12:00:00"
     ],
-    "eld_time_etrequired": [
+    "eldTimeETRequired": [
         "2001-12-28T12:00:00Z",
         "2002-12-28T12:00:00+02:00",
         "2003-12-28T12:00:00-02:00"
     ],
-    "eld_time_etoptional": [
+    "eldTimeETOptional": [
         "2003-12-28T12:00:00+02:00",
         "2004-12-28T12:00:00",
         "2005-12-28T12:00:00-02:00",
         "2003-12-28T12:00:00Z"
     ],
-    "eld_time_etprohibited": [
+    "eldTimeETProhibited": [
         "2005-12-28T12:00:00"
     ],
-    "d_time_etoptional_der_req": [
+    "dTimeETOptionalDerReq": [
         "2000-12-28T12:00:00Z",
         "2001-12-28T12:00:00-02:00",
         "2002-12-28T12:00:00+02:00"
     ],
-    "d_time_etoptional_der_pro": [
+    "dTimeETOptionalDerPro": [
         "2003-12-28T12:00:00"
     ]
 }

@@ -2,16 +2,16 @@
     "node": [
         {
             "node_or_mixed_a_or_mixed_b": [],
-            "mixed_a": [
+            "mixedA": [
                 "A001",
                 "B001"
             ],
-            "mixed_b": []
+            "mixedB": []
         },
         {
             "node_or_mixed_a_or_mixed_b": [],
-            "mixed_a": [],
-            "mixed_b": [
+            "mixedA": [],
+            "mixedB": [
                 "A001",
                 "B001"
             ]
@@ -23,8 +23,8 @@
                     "B002"
                 ]
             ],
-            "mixed_a": [],
-            "mixed_b": []
+            "mixedA": [],
+            "mixedB": []
         },
         {
             "node_or_mixed_a_or_mixed_b": [
@@ -36,8 +36,8 @@
                     ]
                 }
             ],
-            "mixed_a": [],
-            "mixed_b": []
+            "mixedA": [],
+            "mixedB": []
         }
     ]
 }

@@ -1,11 +1,11 @@
 {
-    "str00_a": "a",
-    "str10": "b",
-    "str20": "c",
-    "str01_a": "a",
-    "str02_a": "a",
-    "str12": "b",
-    "str22": "c",
-    "str03_a": "a",
-    "str04_a": "a"
+    "str00A\u20d0": "a",
+    "str10-\u20d6": "b",
+    "str20\u20dc": "c",
+    "str01A\u20e1": "a",
+    "str02A\u302a": "a",
+    "str12-\u302c": "b",
+    "str22\u302f": "c",
+    "str03A\u3099": "a",
+    "str04A\u309a": "a"
 }

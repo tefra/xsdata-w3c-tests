@@ -1,7 +1,7 @@
 {
-    "base_ely": [
+    "baseEly": [
         ""
     ],
-    "base_attr": "present",
-    "derived_attr": "present"
+    "baseAttr": "present",
+    "derivedAttr": "present"
 }

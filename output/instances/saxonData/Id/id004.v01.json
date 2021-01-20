@@ -4,7 +4,7 @@
             "node_or_id": [
                 {
                     "node_or_id": [],
-                    "id_one": [
+                    "id-one": [
                         "ccc",
                         "ccc"
                     ],
@@ -14,7 +14,7 @@
                 },
                 {
                     "node_or_id": [],
-                    "id_one": [
+                    "id-one": [
                         "eee"
                     ],
                     "any_attributes": {
@@ -31,7 +31,7 @@
                     "bbb"
                 ]
             ],
-            "id_one": [],
+            "id-one": [],
             "any_attributes": {
                 "id": "aaa bbb"
             }

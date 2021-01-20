@@ -1,6 +1,6 @@
 {
-    "complex_test": {
+    "complexTest": {
         "comp_foo": "gopher://spinaltap.micro.umn.edu/00/Weather/California/Los%20Angeles"
     },
-    "simple_test": "gopher://spinaltap.micro.umn.edu/00/Weather/California/Los%20Angeles"
+    "simpleTest": "gopher://spinaltap.micro.umn.edu/00/Weather/California/Los%20Angeles"
 }

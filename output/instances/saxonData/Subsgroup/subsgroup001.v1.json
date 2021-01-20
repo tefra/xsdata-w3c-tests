@@ -4,13 +4,13 @@
             "one",
             "two"
         ],
-        "chap_content": []
+        "chapContent": []
     },
     "back": {
         "para": [
             "one",
             "two"
         ],
-        "appendix_content": []
+        "appendixContent": []
     }
 }

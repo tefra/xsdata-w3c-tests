@@ -1,7 +1,7 @@
 {
-    "foo_test": {
-        "my_elem_1": "string test",
-        "my_elem_2": 1234567890123456789,
-        "my_attr": "AA"
+    "fooTest": {
+        "myElem_1": "string test",
+        "myElem_2": 1234567890123456789,
+        "myAttr": "AA"
     }
 }

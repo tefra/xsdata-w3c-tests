@@ -1,6 +1,6 @@
 {
-    "complex_test": {
+    "complexTest": {
         "comp_foo": "http://www.w3.org/1999/XMLSchema"
     },
-    "simple_test": "http://www.w3.org/1999/XMLSchema"
+    "simpleTest": "http://www.w3.org/1999/XMLSchema"
 }

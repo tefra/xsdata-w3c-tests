@@ -1,7 +1,7 @@
 {
-    "my_element": "field data",
-    "attr_test": "test attribute",
-    "attr_test2": "second test attribute",
-    "attr_test3": "third attribute",
-    "attr_test4": "fourth attribute"
+    "myElement": "field data",
+    "attrTest": "test attribute",
+    "attrTest2": "second test attribute",
+    "attrTest3": "third attribute",
+    "attrTest4": "fourth attribute"
 }

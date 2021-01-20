@@ -1,10 +1,10 @@
 {
     "t1_or_t2": [
         {
-            "id": "foo"
+            "Id": "foo"
         },
         {
-            "id": "foo"
+            "Id": "foo"
         }
     ]
 }

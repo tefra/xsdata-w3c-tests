@@ -10,11 +10,11 @@
     "time": [],
     "datetime": [],
     "duration": [],
-    "decimal_value": [],
+    "decimal": [],
     "double": [],
-    "float_value": [],
-    "bool_value": [],
-    "int_value": [],
+    "float": [],
+    "bool": [],
+    "int": [],
     "string": [],
     "item": [
         {

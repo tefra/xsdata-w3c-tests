@@ -1,5 +1,5 @@
 {
-    "item": [
+    "Item": [
         {
             "qname": "Item",
             "text": null,
@@ -28,11 +28,11 @@
             }
         }
     ],
-    "item_type": "{http://tempuri.org/Suites/Serialization}Callbacks.ColorClassHolder",
-    "dimensions": [
+    "ItemType": "{http://tempuri.org/Suites/Serialization}Callbacks.ColorClassHolder",
+    "Dimensions": [
         1
     ],
-    "lower_bounds": [
+    "LowerBounds": [
         0
     ]
 }

@@ -1,25 +1,25 @@
 {
-    "book": [
+    "Book": [
         {
-            "title": "My Life and Times",
-            "author": "Paul McCartney",
-            "date": "1998",
-            "isbn": "94303-12021-43892",
-            "publisher": "McMillin Publishing"
+            "Title": "My Life and Times",
+            "Author": "Paul McCartney",
+            "Date": "1998",
+            "ISBN": "94303-12021-43892",
+            "Publisher": "McMillin Publishing"
         },
         {
-            "title": "Illusions The Adventures of a Reluctant Messiah",
-            "author": "Richard Bach",
-            "date": "1977",
-            "isbn": "0-440-34319-4",
-            "publisher": "Dell Publishing Co."
+            "Title": "Illusions The Adventures of a Reluctant Messiah",
+            "Author": "Richard Bach",
+            "Date": "1977",
+            "ISBN": "0-440-34319-4",
+            "Publisher": "Dell Publishing Co."
         },
         {
-            "title": "The First and Last Freedom",
-            "author": "J. Krishnamurti",
-            "date": "1954",
-            "isbn": "0-06-064831-7",
-            "publisher": "Harper & Row"
+            "Title": "The First and Last Freedom",
+            "Author": "J. Krishnamurti",
+            "Date": "1954",
+            "ISBN": "0-06-064831-7",
+            "Publisher": "Harper & Row"
         }
     ]
 }

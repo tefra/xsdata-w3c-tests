@@ -3,6 +3,6 @@
     "any_attributes": {
         "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctD032.xsd"
     },
-    "my_attr": "group attribute",
-    "my_attr1": "second group attribute"
+    "myAttr": "group attribute",
+    "myAttr1": "second group attribute"
 }

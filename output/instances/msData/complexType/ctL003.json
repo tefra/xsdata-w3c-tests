@@ -1,6 +1,6 @@
 {
-    "foo_test": {
+    "fooTest": {
         "value": "\n\t",
-        "my_attr": "test Attribute"
+        "myAttr": "test Attribute"
     }
 }

@@ -1,13 +1,13 @@
 {
-    "account": [
+    "Account": [
         "johnsm",
         "annabr"
     ],
-    "name": [
+    "Name": [
         "John Smith",
         "Anna Brown"
     ],
-    "manager": [
+    "Manager": [
         "johnsm",
         "johnsm"
     ]

@@ -1,6 +1,6 @@
 {
-    "any_type_element": {
+    "AnyTypeElement": {
         "any_element": null
     },
-    "default_type_element": null
+    "DefaultTypeElement": null
 }

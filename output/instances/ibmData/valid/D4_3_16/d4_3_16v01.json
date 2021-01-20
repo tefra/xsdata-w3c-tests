@@ -1,16 +1,16 @@
 {
-    "el_dtime_type": [
+    "elDTimeType": [
         "1999-11-23T12:00:00.123Z"
     ],
-    "el_dtime_etprohibited": [
+    "elDTimeETProhibited": [
         "2000-11-23T12:00:00"
     ],
-    "el_dtime_etrequired": [
+    "elDTimeETRequired": [
         "2001-11-23T12:00:00Z",
         "2002-11-23T12:00:00-05:00",
         "2003-11-23T12:00:00+05:00"
     ],
-    "el_dtime_etoptional": [
+    "elDTimeETOptional": [
         "2004-11-23T12:00:00Z",
         "2005-11-23T12:00:00-05:00",
         "2006-11-23T12:00:00+05:00",

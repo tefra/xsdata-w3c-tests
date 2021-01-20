@@ -1,5 +1,5 @@
 {
-    "schema": [
+    "Schema": [
         {
             "any_element": [
                 {
@@ -77,12 +77,12 @@
                     "attributes": {}
                 }
             ],
-            "id": "Schema3",
-            "namespace": "http://www.mydefaultnamespace.com/SAP",
-            "schema_ref": null
+            "ID": "Schema3",
+            "Namespace": "http://www.mydefaultnamespace.com/SAP",
+            "SchemaRef": null
         }
     ],
-    "hide_inactive_list_border": "false",
-    "selection_namespaces": "http://foo",
-    "hide_single_mapped_cell_border": "true"
+    "HideInactiveListBorder": "false",
+    "SelectionNamespaces": "http://foo",
+    "HideSingleMappedCellBorder": "true"
 }

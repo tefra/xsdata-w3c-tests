@@ -1,6 +1,6 @@
 {
-    "complex_test": {
+    "complexTest": {
         "comp_foo": "fo:fo_124-.s:da3"
     },
-    "simple_test": "fo:fo_124-.s:da3"
+    "simpleTest": "fo:fo_124-.s:da3"
 }

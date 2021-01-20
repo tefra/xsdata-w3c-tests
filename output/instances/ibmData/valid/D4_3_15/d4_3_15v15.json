@@ -1,16 +1,16 @@
 {
     "ele1": [
         {
-            "sub_element1": [
+            "subElement1": [
                 {
                     "ele1": [],
                     "ele2": [
                         {
-                            "sub_element2": [
+                            "subElement2": [
                                 {
                                     "ele1": [
                                         {
-                                            "sub_element1": [],
+                                            "subElement1": [],
                                             "attr1": "2"
                                         }
                                     ],

@@ -2,6 +2,6 @@
     "body": [
         "test message.."
     ],
-    "must_understand": "YES",
+    "mustUnderstand": "YES",
     "attr1": "test value.."
 }

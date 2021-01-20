@@ -1,16 +1,16 @@
 {
-    "element": [
+    "Element": [
         {
-            "id": "e001",
-            "idref": "e001",
-            "idrefs": [
+            "ID": "e001",
+            "IDREF": "e001",
+            "IDREFS": [
                 "e001"
             ]
         },
         {
-            "id": "e002",
-            "idref": "e001",
-            "idrefs": [
+            "ID": "e002",
+            "IDREF": "e001",
+            "IDREFS": [
                 "e001",
                 "e002"
             ]

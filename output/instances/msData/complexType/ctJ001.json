@@ -1,7 +1,7 @@
 {
-    "my_element1": "string data",
-    "my_element2": "string data",
-    "my_element3": "string data",
-    "my_attr": "test attribute",
-    "my_element4": "string data"
+    "myElement1": "string data",
+    "myElement2": "string data",
+    "myElement3": "string data",
+    "myAttr": "test attribute",
+    "myElement4": "string data"
 }

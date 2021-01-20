@@ -1,10 +1,10 @@
 {
-    "complex_test": {
+    "complexTest": {
         "comp_foo": [
             "P2000Y2M29DT10H30M"
         ]
     },
-    "simple_test": [
+    "simpleTest": [
         "P2000Y2M29DT10H30M"
     ]
 }

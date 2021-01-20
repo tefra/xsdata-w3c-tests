@@ -1,6 +1,6 @@
 {
-    "complex_test": {
+    "complexTest": {
         "comp_foo": "PT2153.5S"
     },
-    "simple_test": "PT2153.5S"
+    "simpleTest": "PT2153.5S"
 }

@@ -1,6 +1,6 @@
 {
-    "attr_test1": "first group attribute",
-    "attr_test2": "test attribute",
+    "attrTest1": "first group attribute",
+    "attrTest2": "test attribute",
     "any_attributes": {
         "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctB111.xsd",
         "attrTest3": "second group attribute"

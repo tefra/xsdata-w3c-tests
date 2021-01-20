@@ -2,18 +2,7 @@
     "elem": {
         "foo": "",
         "target_namespace_foo_bar_element": [],
-        "e2": [
-            {
-                "any_element": null
-            },
-            {
-                "any_element": null
-            }
-        ],
-        "e2_1": {
-            "any_element": null
-        },
-        "e2_2": {
+        "e2": {
             "any_element": null
         }
     }

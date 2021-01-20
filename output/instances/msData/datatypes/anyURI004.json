@@ -1,6 +1,6 @@
 {
-    "complex_test": {
+    "complexTest": {
         "comp_foo": "http://www.w3.org/XML/Group/xmlschema-current/datatypes/datatypes.html#uriReference"
     },
-    "simple_test": "http://www.w3.org/XML/Group/xmlschema-current/datatypes/datatypes.html#uriReference"
+    "simpleTest": "http://www.w3.org/XML/Group/xmlschema-current/datatypes/datatypes.html#uriReference"
 }

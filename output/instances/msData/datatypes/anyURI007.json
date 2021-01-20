@@ -1,6 +1,6 @@
 {
-    "complex_test": {
+    "complexTest": {
         "comp_foo": "news:comp.infosystems.www.servers.unix"
     },
-    "simple_test": "news:comp.infosystems.www.servers.unix"
+    "simpleTest": "news:comp.infosystems.www.servers.unix"
 }

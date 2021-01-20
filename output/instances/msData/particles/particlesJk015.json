@@ -1,7 +1,7 @@
 {
     "elem": {
         "other_element": null,
-        "imp_elem1": {
+        "impElem1": {
             "any_element": {
                 "qname": null,
                 "text": "testing",

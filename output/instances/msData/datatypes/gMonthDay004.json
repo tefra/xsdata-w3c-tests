@@ -1,6 +1,6 @@
 {
-    "complex_test": {
+    "complexTest": {
         "comp_foo": "--02-29"
     },
-    "simple_test": "--02-29"
+    "simpleTest": "--02-29"
 }

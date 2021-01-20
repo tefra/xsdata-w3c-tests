@@ -30,22 +30,22 @@
     "duration": [
         "P1347Y"
     ],
-    "decimal_value": [
+    "decimal": [
         "56",
         "-56",
         "-562135"
     ],
     "double": [],
-    "float_value": [
+    "float": [
         1.2,
         5.24276,
         5.24276
     ],
-    "bool_value": [
+    "bool": [
         true,
         false
     ],
-    "int_value": [
+    "int": [
         123,
         -123
     ],

@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 from enum import Enum
 from typing import Dict, List, Optional
+from xsdata.models.datatype import XmlDate, XmlTime
 
 
 class MessageTypeValue(Enum):
@@ -73,6 +74,49 @@ class MessageTypeXml:
 class Message(MessageType):
     class Meta:
         name = "message"
+
+
+@dataclass
+class MessageTypeBase64(MessageType):
+    class Meta:
+        name = "messageTypeBase64"
+
+    value: Optional[bytes] = field(
+        default=None,
+        metadata={
+            "format": "base64",
+        }
+    )
+
+
+@dataclass
+class MessageTypeDate(MessageType):
+    class Meta:
+        name = "messageTypeDate"
+
+    value: Optional[XmlDate] = field(
+        default=None,
+    )
+
+
+@dataclass
+class MessageTypeString(MessageType):
+    class Meta:
+        name = "messageTypeString"
+
+    value: Optional[str] = field(
+        default=None,
+    )
+
+
+@dataclass
+class MessageTypeTime(MessageType):
+    class Meta:
+        name = "messageTypeTime"
+
+    value: Optional[XmlTime] = field(
+        default=None,
+    )
 
 
 @dataclass

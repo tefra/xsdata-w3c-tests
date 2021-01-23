@@ -26,12 +26,22 @@ class TitleType:
 
 
 @dataclass
+class MixedTitleType(TitleType):
+    class Meta:
+        name = "mixedTitleType"
+
+    value: Optional[Union[int, str]] = field(
+        default=None,
+    )
+
+
+@dataclass
 class Root:
     class Meta:
         name = "root"
         namespace = "http://xstest-tns"
 
-    title: List[Union[TitleType, int, str]] = field(
+    title: List[Union[TitleType, MixedTitleType, "Root.TypeText", "Root.TypeNumber"]] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -40,3 +50,15 @@ class Root:
             "max_occurs": 5,
         }
     )
+
+    @dataclass
+    class TypeText(TitleType):
+        value: Optional[str] = field(
+            default=None,
+        )
+
+    @dataclass
+    class TypeNumber(TitleType):
+        value: Optional[int] = field(
+            default=None,
+        )

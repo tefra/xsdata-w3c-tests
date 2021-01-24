@@ -32,25 +32,21 @@ class Foo:
             "type": "Elements",
             "choices": (
                 {
-                    "name": "a_element",
                     "wildcard": True,
                     "type": object,
                     "namespace": "a",
                 },
                 {
-                    "name": "b_element",
                     "wildcard": True,
                     "type": object,
                     "namespace": "b",
                 },
                 {
-                    "name": "targetNamespace_element",
                     "wildcard": True,
                     "type": object,
                     "namespace": "##targetNamespace",
                 },
                 {
-                    "name": "local_element",
                     "wildcard": True,
                     "type": object,
                     "namespace": "##local",

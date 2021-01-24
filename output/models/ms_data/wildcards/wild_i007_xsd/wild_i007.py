@@ -32,13 +32,11 @@ class Foo:
             "type": "Elements",
             "choices": (
                 {
-                    "name": "other_element",
                     "wildcard": True,
                     "type": object,
                     "namespace": "##other",
                 },
                 {
-                    "name": "targetNamespace_element",
                     "wildcard": True,
                     "type": object,
                     "namespace": "##targetNamespace",

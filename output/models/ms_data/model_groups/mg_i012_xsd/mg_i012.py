@@ -20,7 +20,6 @@ class Foo:
             "type": "Elements",
             "choices": (
                 {
-                    "name": "w3_org/1999/xhtml_element",
                     "wildcard": True,
                     "type": object,
                     "namespace": "http://www.w3.org/1999/xhtml",

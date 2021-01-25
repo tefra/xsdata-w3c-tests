@@ -43,34 +43,6 @@ class MessageType:
 
 
 @dataclass
-class MessageTypeXml:
-    class Meta:
-        name = "messageTypeXML"
-
-    any_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-            "required": True,
-        }
-    )
-    kind: Optional[MessageTypeValue] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    any_attributes: Dict = field(
-        default_factory=dict,
-        metadata={
-            "type": "Attributes",
-            "namespace": "##any",
-        }
-    )
-
-
-@dataclass
 class Message(MessageType):
     class Meta:
         name = "message"
@@ -116,6 +88,21 @@ class MessageTypeTime(MessageType):
 
     value: Optional[XmlTime] = field(
         default=None,
+    )
+
+
+@dataclass
+class MessageTypeXml(MessageType):
+    class Meta:
+        name = "messageTypeXML"
+
+    any_element: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
     )
 
 

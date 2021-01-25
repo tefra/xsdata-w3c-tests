@@ -14,7 +14,7 @@ class B:
 
 
 @dataclass
-class R:
+class R(B):
     open_com_element: Optional[object] = field(
         default=None,
         metadata={

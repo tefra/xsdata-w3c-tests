@@ -35,36 +35,6 @@ class Base:
 
 
 @dataclass
-class Rst:
-    class Meta:
-        name = "rst"
-
-    a: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "foo",
-            "required": True,
-        }
-    )
-    b: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "foo",
-        }
-    )
-    c: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "foo",
-            "required": True,
-        }
-    )
-
-
-@dataclass
 class Ext(Base):
     class Meta:
         name = "ext"
@@ -98,5 +68,28 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
+        }
+    )
+
+
+@dataclass
+class Rst(Base):
+    class Meta:
+        name = "rst"
+
+    a: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
+        }
+    )
+    c: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
         }
     )

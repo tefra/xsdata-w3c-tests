@@ -1,7 +1,17 @@
 {
     "elem": {
-        "x1": "",
-        "x2": "",
+        "choice": [
+            {
+                "qname": "x1",
+                "value": null
+            },
+            {
+                "qname": "x2",
+                "value": null
+            }
+        ],
+        "x1": null,
+        "x2": null,
         "y1": null,
         "y2": null
     }

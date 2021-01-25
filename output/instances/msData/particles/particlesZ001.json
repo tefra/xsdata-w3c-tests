@@ -1,12 +1,24 @@
 {
     "elem": {
         "annotation": "",
-        "element": [
-            "",
-            "",
-            "",
-            ""
+        "element_or_any": [
+            {
+                "qname": "element",
+                "value": null
+            },
+            {
+                "qname": "element",
+                "value": null
+            },
+            {
+                "qname": "element",
+                "value": null
+            },
+            {
+                "qname": "element",
+                "value": null
+            }
         ],
-        "any": []
+        "element": []
     }
 }

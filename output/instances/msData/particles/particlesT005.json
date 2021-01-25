@@ -1,11 +1,16 @@
 {
     "elem": {
-        "c1": [
-            "",
-            ""
+        "c1_or_c2_or_c3": [
+            {
+                "qname": "c1",
+                "value": null
+            },
+            {
+                "qname": "c1",
+                "value": null
+            }
         ],
-        "c2": null,
-        "c3": null,
-        "foo": ""
+        "foo": "",
+        "c1": []
     }
 }

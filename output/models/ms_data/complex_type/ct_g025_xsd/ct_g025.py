@@ -3,9 +3,9 @@ from typing import Dict, Optional
 
 
 @dataclass
-class FooType:
+class MyType:
     class Meta:
-        name = "fooType"
+        name = "myType"
 
     my_element1: Optional[str] = field(
         default=None,
@@ -41,9 +41,9 @@ class FooType:
 
 
 @dataclass
-class MyType:
+class FooType(MyType):
     class Meta:
-        name = "myType"
+        name = "fooType"
 
     my_element1: Optional[str] = field(
         default=None,
@@ -51,29 +51,6 @@ class MyType:
             "name": "myElement1",
             "type": "Element",
             "namespace": "",
-        }
-    )
-    my_element2: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "myElement2",
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    my_element3: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "myElement3",
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    any_attributes: Dict = field(
-        default_factory=dict,
-        metadata={
-            "type": "Attributes",
-            "namespace": "##any",
         }
     )
 

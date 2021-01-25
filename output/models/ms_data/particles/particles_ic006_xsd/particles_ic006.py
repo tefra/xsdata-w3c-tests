@@ -1,9 +1,10 @@
 from dataclasses import dataclass, field
 from typing import List
+from output.models.ms_data.particles.particles_ic006_xsd.particles_ic006_imp import Base
 
 
 @dataclass
-class Testing:
+class Testing(Base):
     class Meta:
         name = "testing"
 

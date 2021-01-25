@@ -27,7 +27,7 @@ class Base:
 
 
 @dataclass
-class Doc:
+class Doc(Base):
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
@@ -37,11 +37,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
-    )
-    e2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
         }
     )

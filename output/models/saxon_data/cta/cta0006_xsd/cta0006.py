@@ -6,63 +6,6 @@ from xsdata.models.datatype import XmlDate, XmlTime
 
 
 @dataclass
-class DateMessageType:
-    class Meta:
-        name = "dateMessageType"
-
-    kind: Optional[QName] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    value: Optional[XmlDate] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-
-
-@dataclass
-class DecimalMessageType:
-    class Meta:
-        name = "decimalMessageType"
-
-    kind: Optional[QName] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    value: Optional[Decimal] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-
-
-@dataclass
-class IntMessageType:
-    class Meta:
-        name = "intMessageType"
-
-    kind: Optional[QName] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    value: Optional[int] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-
-
-@dataclass
 class MessageType:
     class Meta:
         name = "messageType"
@@ -82,17 +25,11 @@ class MessageType:
 
 
 @dataclass
-class QNameMessageType:
+class DateMessageType(MessageType):
     class Meta:
-        name = "qNameMessageType"
+        name = "dateMessageType"
 
-    kind: Optional[QName] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    value: Optional[QName] = field(
+    value: Optional[XmlDate] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -101,17 +38,11 @@ class QNameMessageType:
 
 
 @dataclass
-class StringMessageType:
+class DecimalMessageType(MessageType):
     class Meta:
-        name = "stringMessageType"
+        name = "decimalMessageType"
 
-    kind: Optional[QName] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    value: Optional[str] = field(
+    value: Optional[Decimal] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -120,17 +51,11 @@ class StringMessageType:
 
 
 @dataclass
-class TimeMessageType:
+class IntMessageType(MessageType):
     class Meta:
-        name = "timeMessageType"
+        name = "intMessageType"
 
-    kind: Optional[QName] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    value: Optional[XmlTime] = field(
+    value: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
@@ -142,6 +67,45 @@ class TimeMessageType:
 class Message(MessageType):
     class Meta:
         name = "message"
+
+
+@dataclass
+class QNameMessageType(MessageType):
+    class Meta:
+        name = "qNameMessageType"
+
+    value: Optional[QName] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+        }
+    )
+
+
+@dataclass
+class StringMessageType(MessageType):
+    class Meta:
+        name = "stringMessageType"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+        }
+    )
+
+
+@dataclass
+class TimeMessageType(MessageType):
+    class Meta:
+        name = "timeMessageType"
+
+    value: Optional[XmlTime] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+        }
+    )
 
 
 @dataclass

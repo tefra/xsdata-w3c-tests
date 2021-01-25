@@ -31,7 +31,7 @@ class Base:
 
 
 @dataclass
-class Testing:
+class Testing(Base):
     class Meta:
         name = "testing"
 

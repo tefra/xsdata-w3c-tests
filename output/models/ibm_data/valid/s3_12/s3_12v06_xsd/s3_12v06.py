@@ -68,9 +68,9 @@ class CtAlt1:
 
 
 @dataclass
-class CtAlt2:
+class CtBase:
     class Meta:
-        name = "ctAlt2"
+        name = "ctBase"
 
     child: List[ChildTypeBase] = field(
         default_factory=list,
@@ -89,17 +89,10 @@ class CtAlt2:
 
 
 @dataclass
-class CtBase:
+class CtAlt2(CtBase):
     class Meta:
-        name = "ctBase"
+        name = "ctAlt2"
 
-    child: List[ChildTypeBase] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
     number_of_children: Optional[int] = field(
         default=None,
         metadata={

@@ -9,11 +9,11 @@
     <prefix:a/>
     <prefix:c/>
   </prefix:item>
-  <prefix:item>
+  <prefix:item xsi:type="prefix:rst">
     <prefix:a/>
     <prefix:c/>
   </prefix:item>
-  <prefix:item>
+  <prefix:item xsi:type="prefix:rst">
     <prefix:a/>
     <prefix:c/>
   </prefix:item>

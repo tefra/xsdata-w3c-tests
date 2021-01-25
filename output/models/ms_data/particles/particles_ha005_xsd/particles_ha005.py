@@ -21,7 +21,7 @@ class Base:
 
 
 @dataclass
-class Doc:
+class Doc(Base):
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"

@@ -16,17 +16,6 @@ class B:
 
 
 @dataclass
-class R:
-    local_foo_bar_target_namespace_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##local foo bar ##targetNamespace",
-        }
-    )
-
-
-@dataclass
 class Foo:
     class Meta:
         name = "foo"
@@ -38,6 +27,17 @@ class Foo:
             "type": "Wildcard",
             "namespace": "##any",
             "required": True,
+        }
+    )
+
+
+@dataclass
+class R(B):
+    local_foo_bar_target_namespace_element: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##local foo bar ##targetNamespace",
         }
     )
 

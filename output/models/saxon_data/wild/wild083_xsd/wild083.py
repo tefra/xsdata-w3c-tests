@@ -14,7 +14,7 @@ class B:
 
 
 @dataclass
-class E1:
+class E1(B):
     class Meta:
         name = "E"
 

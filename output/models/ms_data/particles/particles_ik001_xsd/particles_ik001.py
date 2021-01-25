@@ -23,7 +23,7 @@ class B:
 
 
 @dataclass
-class R:
+class R(B):
     c1: Optional[str] = field(
         default=None,
         metadata={

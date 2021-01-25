@@ -40,7 +40,7 @@ class B:
 
 
 @dataclass
-class R:
+class R(B):
     c1_or_c2_or_c3: List[object] = field(
         default_factory=list,
         metadata={

@@ -38,7 +38,7 @@ class B:
 
 
 @dataclass
-class R:
+class R(B):
     c1: Optional[object] = field(
         default=None,
         metadata={
@@ -47,13 +47,6 @@ class R:
         }
     )
     c2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    c3: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",

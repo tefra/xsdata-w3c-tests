@@ -35,13 +35,6 @@ class Foo:
                 "required": True,
             }
         )
-        bar: Optional["Foo.Bar"] = field(
-            default=None,
-            metadata={
-                "type": "Element",
-                "namespace": "",
-            }
-        )
 
 
 @dataclass

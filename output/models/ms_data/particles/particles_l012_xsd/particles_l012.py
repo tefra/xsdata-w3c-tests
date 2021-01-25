@@ -27,28 +27,6 @@ class Mixed:
 
 
 @dataclass
-class NotMixed:
-    class Meta:
-        name = "not_mixed"
-
-    content: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-            "mixed": True,
-        }
-    )
-    foo: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-
-
-@dataclass
 class B:
     c1: Optional[Mixed] = field(
         default=None,
@@ -72,6 +50,20 @@ class B:
         }
     )
     d2: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
+    )
+
+
+@dataclass
+class NotMixed(Mixed):
+    class Meta:
+        name = "not_mixed"
+
+    foo: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",

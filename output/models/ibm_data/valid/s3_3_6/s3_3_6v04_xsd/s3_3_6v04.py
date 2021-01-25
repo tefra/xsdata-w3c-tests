@@ -29,7 +29,21 @@ class C:
 
 
 @dataclass
-class D:
+class Root:
+    class Meta:
+        name = "root"
+        namespace = "a"
+
+    value: Optional[int] = field(
+        default=None,
+        metadata={
+            "required": True,
+        }
+    )
+
+
+@dataclass
+class D(C):
     class Meta:
         name = "d"
 
@@ -46,20 +60,6 @@ class D:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "required": True,
-        }
-    )
-
-
-@dataclass
-class Root:
-    class Meta:
-        name = "root"
-        namespace = "a"
-
-    value: Optional[int] = field(
-        default=None,
-        metadata={
             "required": True,
         }
     )

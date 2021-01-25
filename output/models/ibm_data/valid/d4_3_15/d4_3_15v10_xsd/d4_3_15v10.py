@@ -24,7 +24,7 @@ class BaseType:
 
 
 @dataclass
-class DerivedType:
+class DerivedType(BaseType):
     class Meta:
         name = "derivedType"
 

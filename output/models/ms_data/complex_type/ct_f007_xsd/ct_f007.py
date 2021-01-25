@@ -3,9 +3,9 @@ from typing import Optional
 
 
 @dataclass
-class FooType:
+class MyType:
     class Meta:
-        name = "fooType"
+        name = "myType"
 
     my_element: Optional[str] = field(
         default=None,
@@ -33,31 +33,16 @@ class FooType:
 
 
 @dataclass
-class MyType:
+class FooType(MyType):
     class Meta:
-        name = "myType"
+        name = "fooType"
 
-    my_element: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "myElement",
-            "type": "Element",
-            "namespace": "",
-        }
-    )
     my_element2: Optional[str] = field(
         default=None,
         metadata={
             "name": "myElement2",
             "type": "Element",
             "namespace": "",
-        }
-    )
-    my_attr: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "myAttr",
-            "type": "Attribute",
         }
     )
 

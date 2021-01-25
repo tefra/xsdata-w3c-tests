@@ -33,17 +33,10 @@ class Base:
 
 
 @dataclass
-class Testing:
+class Testing(Base):
     class Meta:
         name = "testing"
 
-    e0: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
     e1: Optional[object] = field(
         default=None,
         metadata={

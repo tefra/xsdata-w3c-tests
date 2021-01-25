@@ -5,32 +5,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 
 @dataclass
-class Bar:
-    class Meta:
-        name = "bar"
-
-    f1_or_f2: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "f1",
-                    "type": object,
-                    "namespace": "http://xsdtesting",
-                },
-                {
-                    "name": "f2",
-                    "type": object,
-                    "namespace": "http://xsdtesting",
-                },
-            ),
-            "max_occurs": 4,
-        }
-    )
-
-
-@dataclass
 class Foo:
     class Meta:
         name = "foo"
@@ -57,6 +31,32 @@ class Foo:
 
 
 @dataclass
+class Bar(Foo):
+    class Meta:
+        name = "bar"
+
+    f1_or_f2: List[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "f1",
+                    "type": object,
+                    "namespace": "http://xsdtesting",
+                },
+                {
+                    "name": "f2",
+                    "type": object,
+                    "namespace": "http://xsdtesting",
+                },
+            ),
+            "max_occurs": 4,
+        }
+    )
+
+
+@dataclass
 class B:
     c1: Optional[Bar] = field(
         default=None,
@@ -75,7 +75,7 @@ class B:
 
 
 @dataclass
-class R:
+class R(B):
     c1: Optional[Bar] = field(
         default=None,
         metadata={

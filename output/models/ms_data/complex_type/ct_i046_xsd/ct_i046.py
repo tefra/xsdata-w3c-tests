@@ -43,7 +43,13 @@ class FooType:
 
 
 @dataclass
-class MyType:
+class FooTest(FooType):
+    class Meta:
+        name = "fooTest"
+
+
+@dataclass
+class MyType(FooType):
     class Meta:
         name = "myType"
 
@@ -66,27 +72,6 @@ class MyType:
             "required": True,
         }
     )
-    foo_ele3: Optional[bool] = field(
-        default=None,
-        metadata={
-            "name": "fooEle3",
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    other_attributes: Dict = field(
-        default_factory=dict,
-        metadata={
-            "type": "Attributes",
-            "namespace": "##other",
-        }
-    )
-
-
-@dataclass
-class FooTest(FooType):
-    class Meta:
-        name = "fooTest"
 
 
 @dataclass

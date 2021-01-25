@@ -8,6 +8,10 @@ class A:
     class Meta:
         name = "a"
 
+    value: Optional[int] = field(
+        default=None,
+    )
+
 
 @dataclass
 class Zing:

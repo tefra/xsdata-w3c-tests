@@ -31,7 +31,7 @@ class B:
 
 
 @dataclass
-class R:
+class R(B):
     e: Optional[object] = field(
         default=None,
         metadata={
@@ -44,14 +44,6 @@ class R:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
-    )
-    type: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "namespace": "http://www.w3.org/2001/XMLSchema-instance",
-            "required": True,
         }
     )
 

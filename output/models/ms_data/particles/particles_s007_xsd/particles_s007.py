@@ -72,7 +72,7 @@ class B:
 
 
 @dataclass
-class R:
+class R(B):
     e1: Optional[object] = field(
         default=None,
         metadata={

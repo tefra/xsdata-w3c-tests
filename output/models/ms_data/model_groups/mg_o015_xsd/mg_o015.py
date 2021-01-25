@@ -18,7 +18,7 @@ class Bar:
 
 
 @dataclass
-class Foo:
+class Foo(Bar):
     class Meta:
         name = "foo"
 

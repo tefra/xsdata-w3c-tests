@@ -41,7 +41,7 @@ class B:
 
 
 @dataclass
-class R:
+class R(B):
     c1_or_c2: List[object] = field(
         default_factory=list,
         metadata={
@@ -59,13 +59,6 @@ class R:
                 },
             ),
             "max_occurs": 3,
-        }
-    )
-    c3: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
         }
     )
     foo: Optional[object] = field(

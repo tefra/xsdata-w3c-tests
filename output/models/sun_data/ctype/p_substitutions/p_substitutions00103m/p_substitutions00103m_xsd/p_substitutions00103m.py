@@ -19,19 +19,6 @@ class A:
 
 
 @dataclass
-class C:
-    c: List[int] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "min_occurs": 1,
-            "max_occurs": 2,
-        }
-    )
-
-
-@dataclass
 class B(A):
     d: Optional[XmlDate] = field(
         default=None,
@@ -39,6 +26,19 @@ class B(A):
             "type": "Element",
             "namespace": "",
             "required": True,
+        }
+    )
+
+
+@dataclass
+class C(A):
+    c: List[int] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "max_occurs": 2,
         }
     )
 

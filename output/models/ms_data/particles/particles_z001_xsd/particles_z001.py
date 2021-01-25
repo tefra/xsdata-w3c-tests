@@ -34,7 +34,7 @@ class Base:
 
 
 @dataclass
-class Derived:
+class Derived(Base):
     annotation: Optional[object] = field(
         default=None,
         metadata={
@@ -43,13 +43,6 @@ class Derived:
         }
     )
     element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    any: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",

@@ -1,3 +1,11 @@
 {
-    "value": "lapplications.recognition.te xhighly-among.commerce-designed-technolog tthe oas-lacki qthat_in-wireless-transact-and-as-set-lacking.hardware-b yfiles:_that-is-high.support-ways.collaborate_information- _conformanc:sspecifications_which.of_industry_from.the-be"
+    "value": [
+        "{NISTSchema-SV-IV-list-QName-enumeration-5-NS}lapplications.recognition.te",
+        "{NISTSchema-SV-IV-list-QName-enumeration-5-NS}xhighly-among.commerce-designed-technolog",
+        "{NISTSchema-SV-IV-list-QName-enumeration-5-NS}tthe",
+        "{NISTSchema-SV-IV-list-QName-enumeration-5-NS}oas-lacki",
+        "{NISTSchema-SV-IV-list-QName-enumeration-5-NS}qthat_in-wireless-transact-and-as-set-lacking.hardware-b",
+        "{http://www.nist.gov/xsdNS}_that-is-high.support-ways.collaborate_information-",
+        "{http://www.nist.gov/xsdNS}sspecifications_which.of_industry_from.the-be"
+    ]
 }

@@ -1,3 +1,11 @@
 {
-    "value": "dof_investigation_pervasive_hardware.the_objects ureviewed-the.back-resource.a.performance.use_resou iset.software_stakeholders_co n20-including_f wdevelopment_and-with_manipulation.these.th _ric:ben _organizations-and-web.and-will.documents-manipulate.fine-can-u"
+    "value": [
+        "{NISTSchema-SV-IV-list-QName-enumeration-5-NS}dof_investigation_pervasive_hardware.the_objects",
+        "{NISTSchema-SV-IV-list-QName-enumeration-5-NS}ureviewed-the.back-resource.a.performance.use_resou",
+        "{NISTSchema-SV-IV-list-QName-enumeration-5-NS}iset.software_stakeholders_co",
+        "{NISTSchema-SV-IV-list-QName-enumeration-5-NS}n20-including_f",
+        "{NISTSchema-SV-IV-list-QName-enumeration-5-NS}wdevelopment_and-with_manipulation.these.th",
+        "{http://www.nist.gov/xsdNS}ben",
+        "{NISTSchema-SV-IV-list-QName-enumeration-5-NS}_organizations-and-web.and-will.documents-manipulate.fine-can-u"
+    ]
 }

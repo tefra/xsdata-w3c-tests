@@ -6,12 +6,12 @@ __NAMESPACE__ = "NISTSchema-SV-IV-union-short-gYear-enumeration-2-NS"
 
 
 class NistschemaSvIvUnionShortGYearEnumeration2Type(Enum):
-    VALUE_MINUS_3830 = "-3830"
-    VALUE_1970 = "1970"
-    VALUE_MINUS_37 = "-37"
-    VALUE_MINUS_205 = "-205"
-    VALUE_MINUS_8 = "-8"
-    VALUE_MINUS_4097 = "-4097"
+    VALUE_MINUS_3830 = -3830
+    VALUE_1970 = 1970
+    VALUE_MINUS_37 = -37
+    VALUE_MINUS_205 = -205
+    VALUE_MINUS_8 = -8
+    VALUE_MINUS_4097 = -4097
 
 
 @dataclass

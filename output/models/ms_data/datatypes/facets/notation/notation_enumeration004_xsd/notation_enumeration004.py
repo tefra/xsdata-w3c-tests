@@ -11,9 +11,8 @@ class BuildNotation(Enum):
 
 
 class FooAttrTest(Enum):
-    JPEG = QName("jpeg")
-    MPEG = "mpeg"
-    G = "g"
+    MPEG = QName("mpeg")
+    G = QName("g")
 
 
 @dataclass

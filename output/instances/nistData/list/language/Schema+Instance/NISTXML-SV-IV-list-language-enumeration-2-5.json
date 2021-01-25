@@ -1,3 +1,11 @@
 {
-    "value": "SG SH SI SK SL SM SN"
+    "value": [
+        "SG",
+        "SH",
+        "SI",
+        "SK",
+        "SL",
+        "SM",
+        "SN"
+    ]
 }

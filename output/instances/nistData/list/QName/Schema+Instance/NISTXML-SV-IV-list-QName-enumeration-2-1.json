@@ -1,3 +1,13 @@
 {
-    "value": "kand-pervasive.and.has-related.to-a-t uinterc:_made-computer_by.supply_the_pico- mincluding_gain_the.a-or _netwo:ein.and_recommendation _that.regist ecolla:fdocuments.service_use.compatibility sto-of_known.a-enterpr y:t ewas-the-to-necessary_t"
+    "value": [
+        "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}kand-pervasive.and.has-related.to-a-t",
+        "{http://www.nist.gov/xsdNS}_made-computer_by.supply_the_pico-",
+        "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}mincluding_gain_the.a-or",
+        "{http://www.nist.gov/xsdNS}ein.and_recommendation",
+        "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}_that.regist",
+        "{http://www.nist.gov/xsdNS}fdocuments.service_use.compatibility",
+        "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}sto-of_known.a-enterpr",
+        "{http://www.nist.gov/xsdNS}t",
+        "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}ewas-the-to-necessary_t"
+    ]
 }

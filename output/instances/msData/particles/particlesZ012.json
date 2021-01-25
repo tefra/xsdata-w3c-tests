@@ -2,7 +2,7 @@
     "e2_or_e1_or_e3": [
         {
             "qname": "{http://xsdtesting}E1",
-            "value": true
+            "value": 1
         },
         {
             "qname": "{http://xsdtesting}E1",

@@ -11,7 +11,7 @@ class U1Value(Enum):
 class U3(Enum):
     X = "x"
     Y = "y"
-    VALUE_1 = "1"
+    VALUE_1 = 1
 
 
 @dataclass

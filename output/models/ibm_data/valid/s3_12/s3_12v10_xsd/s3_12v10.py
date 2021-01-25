@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from enum import Enum
 from typing import List, Optional, Union
 
 __NAMESPACE__ = "tns"
@@ -27,12 +26,50 @@ class DimType:
     )
 
 
-class RectType(Enum):
-    LRECTANGLE = "lrectangle"
+@dataclass
+class RectType:
+    class Meta:
+        name = "rectType"
+
+    value: str = field(
+        init=False,
+        default="lrectangle",
+    )
+    length: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+        }
+    )
+    width: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+        }
+    )
 
 
-class SquareType(Enum):
-    SQUARE = "square"
+@dataclass
+class SquareType:
+    class Meta:
+        name = "squareType"
+
+    value: str = field(
+        init=False,
+        default="square",
+    )
+    length: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+        }
+    )
+    width: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+        }
+    )
 
 
 @dataclass

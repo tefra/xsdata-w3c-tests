@@ -3,10 +3,10 @@
   <complexTest>
     <comp_foo>1.0</comp_foo>
   </complexTest>
-  <simpleTest>-8.988465674311579E+307</simpleTest>
+  <simpleTest>-8.988465674311579E307</simpleTest>
   <simpleTest>-2.225073858507201E-308</simpleTest>
   <simpleTest>2.225073858507201E-308</simpleTest>
-  <simpleTest>8.988465674311579E+307</simpleTest>
+  <simpleTest>8.988465674311579E307</simpleTest>
   <simpleTest>NaN</simpleTest>
   <simpleTest>-INF</simpleTest>
   <simpleTest>INF</simpleTest>

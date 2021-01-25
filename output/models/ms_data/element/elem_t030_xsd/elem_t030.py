@@ -4,10 +4,10 @@ from typing import List, Optional
 
 
 class A(Enum):
-    VALUE_1 = "1"
-    VALUE_2 = "2"
-    VALUE_3 = "3"
-    VALUE_4 = "4"
+    VALUE_1 = 1
+    VALUE_2 = 2
+    VALUE_3 = 3
+    VALUE_4 = 4
 
 
 class B(Enum):
@@ -39,10 +39,8 @@ class Ca:
 
 
 class RA(Enum):
-    VALUE_1 = "1"
-    VALUE_2 = "2"
-    VALUE_3 = "3"
-    VALUE_4 = "4"
+    VALUE_1 = 1
+    VALUE_2 = 2
 
 
 @dataclass
@@ -68,17 +66,17 @@ class RCa:
 
 
 class UnionA(Enum):
-    VALUE_1 = "1"
-    VALUE_2 = "2"
-    VALUE_3 = "3"
-    VALUE_4 = "4"
+    VALUE_1 = 1
+    VALUE_2 = 2
+    VALUE_3 = 3
+    VALUE_4 = 4
 
 
 class UnionAb(Enum):
-    VALUE_1 = "1"
-    VALUE_2 = "2"
-    VALUE_3 = "3"
-    VALUE_4 = "4"
+    VALUE_1 = 1
+    VALUE_2 = 2
+    VALUE_3 = 3
+    VALUE_4 = 4
     A = "a"
     B = "b"
     C123456789 = "c123456789"

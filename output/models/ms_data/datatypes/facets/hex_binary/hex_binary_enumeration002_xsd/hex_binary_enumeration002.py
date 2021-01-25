@@ -4,7 +4,7 @@ from typing import Optional
 
 
 class FooTypeFoo(Enum):
-    ADF789 = "adf789"
+    ADF789 = b"\xad\xf7\x89"
 
 
 @dataclass
@@ -18,6 +18,7 @@ class FooType:
             "type": "Element",
             "namespace": "",
             "required": True,
+            "format": "base16",
         }
     )
 

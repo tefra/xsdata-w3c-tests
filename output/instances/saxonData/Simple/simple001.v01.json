@@ -5,22 +5,22 @@
                 {
                     "value": null,
                     "nr": 1.0,
-                    "ref": Infinity
+                    "ref": "+INF"
                 },
                 {
                     "value": null,
                     "nr": 2.0,
-                    "ref": Infinity
+                    "ref": "+INF"
                 },
                 {
                     "value": null,
                     "nr": Infinity,
-                    "ref": Infinity
+                    "ref": "+INF"
                 },
                 {
                     "value": null,
                     "nr": Infinity,
-                    "ref": Infinity
+                    "ref": "+INF"
                 }
             ]
         },
@@ -31,22 +31,22 @@
                     {
                         "value": null,
                         "nr": 1.0,
-                        "ref": Infinity
+                        "ref": "+INF"
                     },
                     {
                         "value": null,
                         "nr": 2.0,
-                        "ref": Infinity
+                        "ref": "+INF"
                     },
                     {
                         "value": null,
                         "nr": Infinity,
-                        "ref": Infinity
+                        "ref": "+INF"
                     },
                     {
                         "value": null,
                         "nr": Infinity,
-                        "ref": Infinity
+                        "ref": "+INF"
                     }
                 ]
             }

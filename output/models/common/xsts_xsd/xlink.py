@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List, Optional
+from typing import List, Optional, Union
+from output.models.common.xsts_xsd.xml import LangValue
 
 __NAMESPACE__ = "http://www.w3.org/1999/xlink"
 
@@ -175,7 +176,7 @@ class TitleEltType:
             "required": True,
         }
     )
-    lang: Optional[str] = field(
+    lang: Optional[Union[str, LangValue]] = field(
         default=None,
         metadata={
             "type": "Attribute",

@@ -1,25 +1,26 @@
 from dataclasses import dataclass, field
 from enum import Enum
 from typing import List, Optional
+from xsdata.models.datatype import XmlDateTime
 
 __NAMESPACE__ = "http://xstest-tns/schema11_F4_3_16_v05"
 
 
 class ElEnumerationAValue(Enum):
-    VALUE_1999_01_01_T01_01_00_Z = "1999-01-01T01:01:00Z"
-    VALUE_2000_01_01_T01_01_00_01_00 = "2000-01-01T01:01:00-01:00"
-    VALUE_2001_01_01_T01_01_00_01_00 = "2001-01-01T01:01:00+01:00"
-    VALUE_2002_01_01_T01_01_00 = "2002-01-01T01:01:00"
+    VALUE_1999_01_01_T01_01_00_Z = XmlDateTime(1999, 1, 1, 1, 1, 0, 0, 0)
+    VALUE_2000_01_01_T01_01_00_01_00 = XmlDateTime(2000, 1, 1, 1, 1, 0, 0, -60)
+    VALUE_2001_01_01_T01_01_00_01_00 = XmlDateTime(2001, 1, 1, 1, 1, 0, 0, 60)
+    VALUE_2002_01_01_T01_01_00 = XmlDateTime(2002, 1, 1, 1, 1, 0)
 
 
 class ElEnumerationBValue(Enum):
-    VALUE_2003_01_01_T01_01_00 = "2003-01-01T01:01:00"
+    VALUE_2003_01_01_T01_01_00 = XmlDateTime(2003, 1, 1, 1, 1, 0)
 
 
 class ElEnumerationCValue(Enum):
-    VALUE_1994_01_01_T01_01_00_Z = "1994-01-01T01:01:00Z"
-    VALUE_2005_01_01_T01_01_00_01_00 = "2005-01-01T01:01:00-01:00"
-    VALUE_2006_01_01_T01_01_00_01_00 = "2006-01-01T01:01:00+01:00"
+    VALUE_1994_01_01_T01_01_00_Z = XmlDateTime(1994, 1, 1, 1, 1, 0, 0, 0)
+    VALUE_2005_01_01_T01_01_00_01_00 = XmlDateTime(2005, 1, 1, 1, 1, 0, 0, -60)
+    VALUE_2006_01_01_T01_01_00_01_00 = XmlDateTime(2006, 1, 1, 1, 1, 0, 0, 60)
 
 
 @dataclass

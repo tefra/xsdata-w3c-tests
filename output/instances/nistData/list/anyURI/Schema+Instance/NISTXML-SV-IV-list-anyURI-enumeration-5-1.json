@@ -1,3 +1,11 @@
 {
-    "value": "ftp://ftp.aprovidedth.Microsy.org gopher://j.edu ftp://ftp.registryand.olveinvers.onsthetheso.org telnet://gforthepart.cularlydoc.mentsThew.com gopher://andisrelate.theseinc.com http://www.notandcreat.dsecuritybu.gov http://www.ofanddataTh.retrieveca.bothdefine.avingwellf.om.edu"
+    "value": [
+        "ftp://ftp.aprovidedth.Microsy.org",
+        "gopher://j.edu",
+        "ftp://ftp.registryand.olveinvers.onsthetheso.org",
+        "telnet://gforthepart.cularlydoc.mentsThew.com",
+        "gopher://andisrelate.theseinc.com",
+        "http://www.notandcreat.dsecuritybu.gov",
+        "http://www.ofanddataTh.retrieveca.bothdefine.avingwellf.om.edu"
+    ]
 }

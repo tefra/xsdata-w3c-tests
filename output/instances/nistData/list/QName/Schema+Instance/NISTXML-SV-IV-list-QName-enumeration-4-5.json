@@ -1,3 +1,10 @@
 {
-    "value": "_data.comm:oand-to.as_and-s _each_do-repository.spe:krelated_discovery.confor rdi:_the. iis_desktop_information_in _filte:yprofiles_specifications.is_ass iproc:xfile-and_"
+    "value": [
+        "{http://www.nist.gov/xsdNS}oand-to.as_and-s",
+        "{http://www.nist.gov/xsdNS}krelated_discovery.confor",
+        "{http://www.nist.gov/xsdNS}_the.",
+        "{NISTSchema-SV-IV-list-QName-enumeration-4-NS}iis_desktop_information_in",
+        "{http://www.nist.gov/xsdNS}yprofiles_specifications.is_ass",
+        "{http://www.nist.gov/xsdNS}xfile-and_"
+    ]
 }

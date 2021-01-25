@@ -1,3 +1,13 @@
 {
-    "value": "vtech:hwill.reviewed_creat bcreation.pervasive_complex-and-wir lto-and_ambiguities.shift_international-test_its-first- reliminated_possibl:xand.any_tools_and.the.promises-registry_a- _using.the.the-repository.ad_can.the_computing-of_automated.mak qof.help_as.as_focusing-exer saddressing-creating.the-organizations.computing_standards_fo qthe_of-conformance.a_of-a.business.dependability.adoptio _upon.of-called-enable-of"
+    "value": [
+        "{http://www.nist.gov/xsdNS}hwill.reviewed_creat",
+        "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}bcreation.pervasive_complex-and-wir",
+        "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}lto-and_ambiguities.shift_international-test_its-first-",
+        "{http://www.nist.gov/xsdNS}xand.any_tools_and.the.promises-registry_a-",
+        "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}_using.the.the-repository.ad_can.the_computing-of_automated.mak",
+        "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}qof.help_as.as_focusing-exer",
+        "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}saddressing-creating.the-organizations.computing_standards_fo",
+        "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}qthe_of-conformance.a_of-a.business.dependability.adoptio",
+        "{NISTSchema-SV-IV-list-QName-enumeration-2-NS}_upon.of-called-enable-of"
+    ]
 }

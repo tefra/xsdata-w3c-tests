@@ -3,8 +3,8 @@ from enum import Enum
 
 
 class Mylist(Enum):
-    VALUE_1 = "1"
-    VALUE_2 = "2"
+    VALUE_1 = 1
+    VALUE_2 = 2
 
 
 @dataclass

@@ -8,7 +8,7 @@ class Root:
     class Meta:
         name = "root"
 
-    value: List[Union[float, str, int, QName]] = field(
+    value: List[Union[float, bytes, int, QName]] = field(
         init=False,
         default_factory=lambda: [
             12,

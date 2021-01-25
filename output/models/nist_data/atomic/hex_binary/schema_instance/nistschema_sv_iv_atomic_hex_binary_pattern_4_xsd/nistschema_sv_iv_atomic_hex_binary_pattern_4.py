@@ -15,6 +15,5 @@ class NistschemaSvIvAtomicHexBinaryPattern4:
         metadata={
             "required": True,
             "pattern": r"[0-9A-F]{46}",
-            "format": "base16",
         }
     )

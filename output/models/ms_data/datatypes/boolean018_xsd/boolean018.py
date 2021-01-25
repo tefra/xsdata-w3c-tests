@@ -4,13 +4,13 @@ from typing import Optional
 
 
 class ComplexfooTypeCompFoo(Enum):
-    VALUE_0 = "0"
-    VALUE_1 = "1"
+    VALUE_0 = False
+    VALUE_1 = True
 
 
 class SimplefooType(Enum):
-    TRUE_VALUE = "true"
-    FALSE_VALUE = "false"
+    TRUE_VALUE = True
+    FALSE_VALUE = False
 
 
 @dataclass

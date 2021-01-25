@@ -1,3 +1,13 @@
 {
-    "value": "MR MS MT MY NA NE NL NO OC"
+    "value": [
+        "MR",
+        "MS",
+        "MT",
+        "MY",
+        "NA",
+        "NE",
+        "NL",
+        "NO",
+        "OC"
+    ]
 }

@@ -14,10 +14,8 @@ class BdTimeStampEnumeration(Enum):
 
 
 class DTimeStampEnumeration(Enum):
-    VALUE_1998_01_01_T12_00_00_Z = "1998-01-01T12:00:00Z"
-    VALUE_2000_01_01_T12_00_00_123_Z = XmlDateTime(2000, 1, 1, 12, 0, 0, 123000, 0)
-    VALUE_2001_01_01_T12_00_00_08_00 = XmlDateTime(2001, 1, 1, 12, 0, 0, 0, 480)
-    VALUE_2002_01_01_T12_00_00_990_08_00 = "2002-01-01T12:00:00.990-08:00"
+    VALUE_1998_01_01_T12_00_00_Z = XmlDateTime(1998, 1, 1, 12, 0, 0, 0, 0)
+    VALUE_2002_01_01_T12_00_00_990_08_00 = XmlDateTime(2002, 1, 1, 12, 0, 0, 990000, -480)
 
 
 @dataclass

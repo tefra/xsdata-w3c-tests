@@ -1,3 +1,13 @@
 {
-    "value": "_test_any-and-the_to_computing_those.documents_the.me ymethods-location-to.led-user-number.this-as_re jdivisions_its_in.for_such-and-tools- icommun:kresult.and_next-with_build-via.con kand-emerging-this_file_of.w hlocalized kthe.docum:cthe_establish.will.and_supply_used rbe.specific:wsignatures.each_additionally-can-between- gthese_using-2000-industry.manufacturers."
+    "value": [
+        "{NISTSchema-SV-IV-list-QName-enumeration-5-NS}_test_any-and-the_to_computing_those.documents_the.me",
+        "{NISTSchema-SV-IV-list-QName-enumeration-5-NS}ymethods-location-to.led-user-number.this-as_re",
+        "{NISTSchema-SV-IV-list-QName-enumeration-5-NS}jdivisions_its_in.for_such-and-tools-",
+        "{http://www.nist.gov/xsdNS}kresult.and_next-with_build-via.con",
+        "{NISTSchema-SV-IV-list-QName-enumeration-5-NS}kand-emerging-this_file_of.w",
+        "{NISTSchema-SV-IV-list-QName-enumeration-5-NS}hlocalized",
+        "{http://www.nist.gov/xsdNS}cthe_establish.will.and_supply_used",
+        "{http://www.nist.gov/xsdNS}wsignatures.each_additionally-can-between-",
+        "{NISTSchema-SV-IV-list-QName-enumeration-5-NS}gthese_using-2000-industry.manufacturers."
+    ]
 }

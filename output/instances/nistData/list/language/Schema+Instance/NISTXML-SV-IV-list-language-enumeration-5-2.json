@@ -1,3 +1,10 @@
 {
-    "value": "SR SS ST SU SV SW"
+    "value": [
+        "SR",
+        "SS",
+        "ST",
+        "SU",
+        "SV",
+        "SW"
+    ]
 }

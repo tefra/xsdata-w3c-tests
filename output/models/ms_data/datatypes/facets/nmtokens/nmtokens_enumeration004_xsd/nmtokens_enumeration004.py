@@ -7,7 +7,10 @@ class FooAttrTest(Enum):
     FOO = "foo"
     FOO123 = "foo123"
     FU1 = "fu1"
-    FOO_FU1 = "foo fu1"
+    FOO_FU1 = (
+            "foo",
+            "fu1",
+        )
 
 
 @dataclass

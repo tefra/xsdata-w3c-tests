@@ -16,6 +16,5 @@ class NistschemaSvIvListHexBinaryPattern1:
             "required": True,
             "pattern": r"[0-9A-F]{22} [0-9A-F]{70} [0-9A-F]{66} [0-9A-F]{2} [0-9A-F]{30} [0-9A-F]{38}",
             "tokens": True,
-            "format": "base16",
         }
     )

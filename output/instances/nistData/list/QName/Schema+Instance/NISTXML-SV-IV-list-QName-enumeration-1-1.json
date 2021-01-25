@@ -1,3 +1,10 @@
 {
-    "value": "_used.f eprocess_the-newcomer q ito.these-been.utilities.models-data-bottlenecks_to_infor gto_more:yis.not_mult aof_r:khas_virtually-accessible-including.allows_su"
+    "value": [
+        "{NISTSchema-SV-IV-list-QName-enumeration-1-NS}_used.f",
+        "{NISTSchema-SV-IV-list-QName-enumeration-1-NS}eprocess_the-newcomer",
+        "{NISTSchema-SV-IV-list-QName-enumeration-1-NS}q",
+        "{NISTSchema-SV-IV-list-QName-enumeration-1-NS}ito.these-been.utilities.models-data-bottlenecks_to_infor",
+        "{http://www.nist.gov/xsdNS}yis.not_mult",
+        "{http://www.nist.gov/xsdNS}khas_virtually-accessible-including.allows_su"
+    ]
 }

@@ -4,9 +4,9 @@ from typing import Optional
 
 
 class FooTypeFoo(Enum):
-    ADF789 = "adf789"
-    ABCEDF = "abcedf"
-    VALUE_0123456789 = "0123456789"
+    ADF789 = b"\xad\xf7\x89"
+    ABCEDF = b"\xab\xce\xdf"
+    VALUE_0123456789 = b"\x01#Eg\x89"
 
 
 @dataclass
@@ -20,6 +20,7 @@ class FooType:
             "type": "Element",
             "namespace": "",
             "required": True,
+            "format": "base16",
         }
     )
 

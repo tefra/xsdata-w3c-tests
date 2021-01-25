@@ -15,6 +15,5 @@ class NistschemaSvIvAtomicBase64BinaryPattern2:
         metadata={
             "required": True,
             "pattern": r"[a-zA-Z0-9+/]{68}",
-            "format": "base64",
         }
     )

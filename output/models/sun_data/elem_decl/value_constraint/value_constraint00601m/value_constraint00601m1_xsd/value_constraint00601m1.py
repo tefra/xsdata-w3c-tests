@@ -9,9 +9,9 @@ class Root:
         name = "root"
         namespace = "ElemDecl/valueConstraint"
 
-    value: float = field(
+    value: str = field(
         init=False,
-        default=0.01,
+        default="1.0e-2",
         metadata={
             "required": True,
         }

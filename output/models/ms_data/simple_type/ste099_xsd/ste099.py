@@ -1,6 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Union
-from xsdata.models.datatype import XmlPeriod
+from typing import List
 
 
 @dataclass
@@ -8,13 +7,12 @@ class Root:
     class Meta:
         name = "root"
 
-    value: List[Union[XmlPeriod, bytes]] = field(
+    value: List[str] = field(
         init=False,
         default_factory=lambda: [
-            b"i\xb7\x1dy\xf6\x9b",
+            "abcdefab",
         ],
         metadata={
             "tokens": True,
-            "format": "base64",
         }
     )

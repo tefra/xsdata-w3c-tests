@@ -1,3 +1,11 @@
 {
-    "value": "_will_four_t:ohas_a-back-identify vinfl:yfor-the.a-information.and_a wvirtually_devices-contribute_for_partnerships-ensure.ensu vbusiness.and_for.creation_and_information-ai _is-allow.four-as_to-imp missues_e_industry-from_def qto.:_re"
+    "value": [
+        "{http://www.nist.gov/xsdNS}ohas_a-back-identify",
+        "{http://www.nist.gov/xsdNS}yfor-the.a-information.and_a",
+        "{NISTSchema-SV-IV-list-QName-enumeration-1-NS}wvirtually_devices-contribute_for_partnerships-ensure.ensu",
+        "{NISTSchema-SV-IV-list-QName-enumeration-1-NS}vbusiness.and_for.creation_and_information-ai",
+        "{NISTSchema-SV-IV-list-QName-enumeration-1-NS}_is-allow.four-as_to-imp",
+        "{NISTSchema-SV-IV-list-QName-enumeration-1-NS}missues_e_industry-from_def",
+        "{http://www.nist.gov/xsdNS}_re"
+    ]
 }

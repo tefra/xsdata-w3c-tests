@@ -1,16 +1,61 @@
 from dataclasses import dataclass, field
 from enum import Enum
 from typing import Optional
+from xsdata.models.datatype import XmlPeriod
 
 __NAMESPACE__ = "NISTSchema-SV-IV-list-gDay-enumeration-2-NS"
 
 
 class NistschemaSvIvListGDayEnumeration2Type(Enum):
-    VALUE_25_19_22_06_06_20_04 = "---25 ---19 ---22 ---06 ---06 ---20 ---04"
-    VALUE_25_05_15_08_06_09_26_10_12_15 = "---25 ---05 ---15 ---08 ---06 ---09 ---26 ---10 ---12 ---15"
-    VALUE_20_15_03_11_06_27_12_18 = "---20 ---15 ---03 ---11 ---06 ---27 ---12 ---18"
-    VALUE_25_01_05_06_14_11_24_19 = "---25 ---01 ---05 ---06 ---14 ---11 ---24 ---19"
-    VALUE_29_29_20_16_19_26 = "---29 ---29 ---20 ---16 ---19 ---26"
+    VALUE_25_19_22_06_06_20_04 = (
+            XmlPeriod("---25"),
+            XmlPeriod("---19"),
+            XmlPeriod("---22"),
+            XmlPeriod("---06"),
+            XmlPeriod("---06"),
+            XmlPeriod("---20"),
+            XmlPeriod("---04"),
+        )
+    VALUE_25_05_15_08_06_09_26_10_12_15 = (
+            XmlPeriod("---25"),
+            XmlPeriod("---05"),
+            XmlPeriod("---15"),
+            XmlPeriod("---08"),
+            XmlPeriod("---06"),
+            XmlPeriod("---09"),
+            XmlPeriod("---26"),
+            XmlPeriod("---10"),
+            XmlPeriod("---12"),
+            XmlPeriod("---15"),
+        )
+    VALUE_20_15_03_11_06_27_12_18 = (
+            XmlPeriod("---20"),
+            XmlPeriod("---15"),
+            XmlPeriod("---03"),
+            XmlPeriod("---11"),
+            XmlPeriod("---06"),
+            XmlPeriod("---27"),
+            XmlPeriod("---12"),
+            XmlPeriod("---18"),
+        )
+    VALUE_25_01_05_06_14_11_24_19 = (
+            XmlPeriod("---25"),
+            XmlPeriod("---01"),
+            XmlPeriod("---05"),
+            XmlPeriod("---06"),
+            XmlPeriod("---14"),
+            XmlPeriod("---11"),
+            XmlPeriod("---24"),
+            XmlPeriod("---19"),
+        )
+    VALUE_29_29_20_16_19_26 = (
+            XmlPeriod("---29"),
+            XmlPeriod("---29"),
+            XmlPeriod("---20"),
+            XmlPeriod("---16"),
+            XmlPeriod("---19"),
+            XmlPeriod("---26"),
+        )
 
 
 @dataclass

@@ -1,3 +1,12 @@
 {
-    "value": "qdesign.and.software-and_and.the_was_ _them.semantics_problems.virtually.wide_the.tools_testi xand.retrieve-stan wis.n _competence-commerce.series_of.c rear:vfor-be-computing- aand-prototypes-web.work.contribute.has.th _b:ucomplete_other.c"
+    "value": [
+        "{NISTSchema-SV-IV-list-QName-enumeration-3-NS}qdesign.and.software-and_and.the_was_",
+        "{NISTSchema-SV-IV-list-QName-enumeration-3-NS}_them.semantics_problems.virtually.wide_the.tools_testi",
+        "{NISTSchema-SV-IV-list-QName-enumeration-3-NS}xand.retrieve-stan",
+        "{NISTSchema-SV-IV-list-QName-enumeration-3-NS}wis.n",
+        "{NISTSchema-SV-IV-list-QName-enumeration-3-NS}_competence-commerce.series_of.c",
+        "{http://www.nist.gov/xsdNS}vfor-be-computing-",
+        "{NISTSchema-SV-IV-list-QName-enumeration-3-NS}aand-prototypes-web.work.contribute.has.th",
+        "{http://www.nist.gov/xsdNS}ucomplete_other.c"
+    ]
 }

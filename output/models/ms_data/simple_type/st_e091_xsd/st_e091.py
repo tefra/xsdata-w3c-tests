@@ -10,7 +10,7 @@ class Root:
     value: List[Union[bool, int, str]] = field(
         init=False,
         default_factory=lambda: [
-            True,
+            1,
             True,
             "abcdef",
             False,

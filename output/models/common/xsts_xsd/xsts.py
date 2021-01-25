@@ -4,6 +4,7 @@ from enum import Enum
 from typing import Dict, List, Optional, Union
 from xsdata.models.datatype import XmlDate
 from output.models.common.xsts_xsd.xlink import TypeType
+from output.models.common.xsts_xsd.xml import LangValue
 
 __NAMESPACE__ = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
@@ -66,42 +67,6 @@ class Appinfo:
         default=None,
         metadata={
             "type": "Attribute",
-        }
-    )
-    other_attributes: Dict = field(
-        default_factory=dict,
-        metadata={
-            "type": "Attributes",
-            "namespace": "##other",
-        }
-    )
-
-
-@dataclass
-class Documentation:
-    class Meta:
-        name = "documentation"
-        namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
-
-    any_element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-            "mixed": True,
-        }
-    )
-    source: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    lang: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "namespace": "http://www.w3.org/XML/1998/namespace",
         }
     )
     other_attributes: Dict = field(
@@ -563,32 +528,30 @@ class Xsd10Editions(Enum):
 
 
 @dataclass
-class Annotation:
-    """<div>
-
-    <p> This is an exact copy of the <tt>annotation</tt> element defined
-    in the Schema Recommendation. It is duplicated here in order to
-    replicate the functionality of the <tt>xsd:annotation</tt> element
-    and because the Schema for Schemas cannot be imported. </p> </div>
-    """
+class Documentation:
     class Meta:
-        name = "annotation"
+        name = "documentation"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    appinfo_or_documentation: List[object] = field(
+    any_element: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "appinfo",
-                    "type": Appinfo,
-                },
-                {
-                    "name": "documentation",
-                    "type": Documentation,
-                },
-            ),
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
+        }
+    )
+    source: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+        }
+    )
+    lang: Optional[Union[str, LangValue]] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://www.w3.org/XML/1998/namespace",
         }
     )
     other_attributes: Dict = field(
@@ -694,6 +657,44 @@ class Expected:
         metadata={
             "type": "Attribute",
             "tokens": True,
+        }
+    )
+    other_attributes: Dict = field(
+        default_factory=dict,
+        metadata={
+            "type": "Attributes",
+            "namespace": "##other",
+        }
+    )
+
+
+@dataclass
+class Annotation:
+    """<div>
+
+    <p> This is an exact copy of the <tt>annotation</tt> element defined
+    in the Schema Recommendation. It is duplicated here in order to
+    replicate the functionality of the <tt>xsd:annotation</tt> element
+    and because the Schema for Schemas cannot be imported. </p> </div>
+    """
+    class Meta:
+        name = "annotation"
+        namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
+
+    appinfo_or_documentation: List[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "appinfo",
+                    "type": Appinfo,
+                },
+                {
+                    "name": "documentation",
+                    "type": Documentation,
+                },
+            ),
         }
     )
     other_attributes: Dict = field(

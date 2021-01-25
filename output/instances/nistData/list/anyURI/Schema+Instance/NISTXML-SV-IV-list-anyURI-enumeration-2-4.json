@@ -1,3 +1,12 @@
 {
-    "value": "telnet://forandallne.traldocume.tsthefilea.propriated.vi.com ftp://ftp.t.net news://meetindic.org ftp://ftp.XSLorganiz.edu http://torelatedre.pec.gov http://i.com http://toolsappli.edu telnet://standardsin.orporatedt.alreadysco.m.org"
+    "value": [
+        "telnet://forandallne.traldocume.tsthefilea.propriated.vi.com",
+        "ftp://ftp.t.net",
+        "news://meetindic.org",
+        "ftp://ftp.XSLorganiz.edu",
+        "http://torelatedre.pec.gov",
+        "http://i.com",
+        "http://toolsappli.edu",
+        "telnet://standardsin.orporatedt.alreadysco.m.org"
+    ]
 }

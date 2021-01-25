@@ -1,3 +1,13 @@
 {
-    "value": "ftp://whotoolsobj.ctwithsu.com ftp://ftp.supplyhelpc.nsortiumst.earecomput.ngw.org ftp://Consequentl.offerbodyt.wouldthepa.ticularlya.net ftp://ftp.testingdepe.dsautomati.allytoolsc.com ftp://ftp.x.edu ftp://softwareeff.rtestablis.individual.asisdefine.ppr.gov telnet://semanticsEX.STStandard.industr.edu http://www.andbeandiss.esfactsign.turescompu.ingAportabl.gov ftp://ftp.madetheRefe.enceforfro.prominent.gov"
+    "value": [
+        "ftp://whotoolsobj.ctwithsu.com",
+        "ftp://ftp.supplyhelpc.nsortiumst.earecomput.ngw.org",
+        "ftp://Consequentl.offerbodyt.wouldthepa.ticularlya.net",
+        "ftp://ftp.testingdepe.dsautomati.allytoolsc.com",
+        "ftp://ftp.x.edu",
+        "ftp://softwareeff.rtestablis.individual.asisdefine.ppr.gov",
+        "telnet://semanticsEX.STStandard.industr.edu",
+        "http://www.andbeandiss.esfactsign.turescompu.ingAportabl.gov",
+        "ftp://ftp.madetheRefe.enceforfro.prominent.gov"
+    ]
 }

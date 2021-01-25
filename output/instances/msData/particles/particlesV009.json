@@ -1,9 +1,15 @@
 {
     "elem": {
-        "e1": [
-            "",
-            ""
+        "e1_or_e2_or_e3": [
+            {
+                "qname": "e1",
+                "value": null
+            },
+            {
+                "qname": "e1",
+                "value": null
+            }
         ],
-        "e2_or_e3": []
+        "e1": []
     }
 }

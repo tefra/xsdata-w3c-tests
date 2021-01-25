@@ -41,7 +41,7 @@ class X:
 
 
 @dataclass
-class Y:
+class Y(X):
     a: Optional[str] = field(
         default=None,
         metadata={
@@ -56,26 +56,6 @@ class Y:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
-    )
-    c: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    d: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    minimal: Optional[bool] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
         }
     )
 

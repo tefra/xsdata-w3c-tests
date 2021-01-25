@@ -1,4 +1,9 @@
 {
-    "e1": "",
-    "e2_or_e3": []
+    "e1_or_e2_or_e3": [
+        {
+            "qname": "{http://xsdtesting}e1",
+            "value": null
+        }
+    ],
+    "e1": null
 }

@@ -5,29 +5,6 @@ __NAMESPACE__ = "ns-a"
 
 
 @dataclass
-class MyType:
-    class Meta:
-        name = "myType"
-
-    x: List[str] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "min_occurs": 1,
-            "max_occurs": 2,
-        }
-    )
-    y: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-
-
-@dataclass
 class NsAAft:
     class Meta:
         name = "ns-a-aft"
@@ -51,16 +28,32 @@ class NsAAft:
 
 
 @dataclass
-class Abc(MyType):
+class Aft(NsAAft):
     class Meta:
-        name = "abc"
+        name = "aft"
         namespace = "ns-a"
 
 
 @dataclass
-class Aft(NsAAft):
+class MyType(NsAAft):
     class Meta:
-        name = "aft"
+        name = "myType"
+
+    x: List[str] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "max_occurs": 2,
+        }
+    )
+
+
+@dataclass
+class Abc(MyType):
+    class Meta:
+        name = "abc"
         namespace = "ns-a"
 
 

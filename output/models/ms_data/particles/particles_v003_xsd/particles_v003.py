@@ -29,7 +29,7 @@ class B:
 
 
 @dataclass
-class R:
+class R(B):
     e1: List[object] = field(
         default_factory=list,
         metadata={

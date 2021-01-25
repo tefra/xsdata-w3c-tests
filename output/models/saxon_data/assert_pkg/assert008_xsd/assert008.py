@@ -29,7 +29,7 @@ class T1:
 
 
 @dataclass
-class T2:
+class T2(T1):
     class Meta:
         name = "t2"
 

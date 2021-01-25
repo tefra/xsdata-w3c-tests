@@ -19,7 +19,7 @@ class TestV2:
 
 
 @dataclass
-class Test:
+class Test(TestV2):
     class Meta:
         name = "test"
 

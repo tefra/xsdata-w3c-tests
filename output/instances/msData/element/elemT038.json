@@ -3,9 +3,7 @@
     "test": null,
     "test2": null,
     "test3": {
-        "x": [
-            ""
-        ],
+        "x": "",
         "y": null
     }
 }

@@ -41,7 +41,7 @@ class Foo:
 
 
 @dataclass
-class FooType:
+class FooType(Foo):
     class Meta:
         name = "fooType"
 
@@ -61,21 +61,6 @@ class FooType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
-    )
-    my_ele3: Optional[int] = field(
-        default=None,
-        metadata={
-            "name": "myEle3",
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    any_attributes: Dict = field(
-        default_factory=dict,
-        metadata={
-            "type": "Attributes",
-            "namespace": "##any",
         }
     )
     other_attributes: Dict = field(

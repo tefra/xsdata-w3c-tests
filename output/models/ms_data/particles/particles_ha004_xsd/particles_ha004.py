@@ -30,18 +30,11 @@ class Base:
 
 
 @dataclass
-class Doc:
+class Doc(Base):
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    e2: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "max_occurs": 2,
-        }
-    )
     e3: Optional[object] = field(
         default=None,
         metadata={

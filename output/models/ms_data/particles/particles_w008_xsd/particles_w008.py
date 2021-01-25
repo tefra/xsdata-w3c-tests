@@ -34,29 +34,13 @@ class B:
 
 
 @dataclass
-class R:
+class R(B):
     e1: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "",
             "min_occurs": 2,
-            "max_occurs": 3,
-        }
-    )
-    e2: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "max_occurs": 3,
-        }
-    )
-    e3: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
             "max_occurs": 3,
         }
     )

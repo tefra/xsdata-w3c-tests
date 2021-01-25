@@ -1,9 +1,15 @@
 {
     "elem": {
-        "c1": [
-            "",
-            ""
+        "choice": [
+            {
+                "qname": "c1",
+                "value": null
+            },
+            {
+                "qname": "c1",
+                "value": null
+            }
         ],
-        "c2_or_d1_or_d2": []
+        "c1": []
     }
 }

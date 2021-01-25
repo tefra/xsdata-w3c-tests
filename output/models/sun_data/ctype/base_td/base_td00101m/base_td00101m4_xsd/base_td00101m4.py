@@ -5,18 +5,6 @@ __NAMESPACE__ = "baseTD"
 
 
 @dataclass
-class Test:
-    abc: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
-
-
-@dataclass
 class Test1:
     abc: List[str] = field(
         default_factory=list,
@@ -25,6 +13,18 @@ class Test1:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 2,
+        }
+    )
+
+
+@dataclass
+class Test(Test1):
+    abc: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
         }
     )
 

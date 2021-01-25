@@ -40,7 +40,7 @@ class ComplexType:
 
 
 @dataclass
-class Elem:
+class Elem(ComplexType):
     class Meta:
         name = "elem"
 
@@ -58,20 +58,6 @@ class Elem:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
-    )
-    r3: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    r4: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
         }
     )
 

@@ -43,28 +43,6 @@ class RA(Enum):
     VALUE_2 = 2
 
 
-@dataclass
-class RCa:
-    class Meta:
-        name = "R-CA"
-
-    x: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
-    y: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-
-
 class UnionA(Enum):
     VALUE_1 = 1
     VALUE_2 = 2
@@ -118,6 +96,21 @@ class ECa(Ca):
         name = "E-CA"
 
     z: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
+    )
+
+
+@dataclass
+class RCa(Ca):
+    class Meta:
+        name = "R-CA"
+
+    x: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",

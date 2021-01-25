@@ -33,7 +33,14 @@ class T:
 
 
 @dataclass
-class Treq:
+class Message(T):
+    class Meta:
+        name = "message"
+        namespace = "http://cta0002/"
+
+
+@dataclass
+class Treq(T):
     class Meta:
         name = "treq"
 
@@ -45,20 +52,6 @@ class Treq:
             "min_occurs": 1,
         }
     )
-    min: Optional[TMin] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "namespace": "http://cta0002/",
-        }
-    )
-
-
-@dataclass
-class Message(T):
-    class Meta:
-        name = "message"
-        namespace = "http://cta0002/"
 
 
 @dataclass

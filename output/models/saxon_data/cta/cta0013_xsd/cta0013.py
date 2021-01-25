@@ -7,6 +7,9 @@ class Chap:
     class Meta:
         name = "chap"
 
+    value: Optional[str] = field(
+        default=None,
+    )
     de: Optional[object] = field(
         default=None,
         metadata={

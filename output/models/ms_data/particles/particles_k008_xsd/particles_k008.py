@@ -33,14 +33,7 @@ class B:
 
 
 @dataclass
-class R:
-    a0: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
+class R(B):
     imp_elem1: Optional[ImpElem1] = field(
         default=None,
         metadata={
@@ -48,13 +41,6 @@ class R:
             "type": "Element",
             "namespace": "http://importedXSD",
             "required": True,
-        }
-    )
-    a2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
         }
     )
 

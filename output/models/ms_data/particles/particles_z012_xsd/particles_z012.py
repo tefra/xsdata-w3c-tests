@@ -6,20 +6,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 
 @dataclass
-class Ct2:
-    class Meta:
-        name = "CT2"
-
-    att1: Optional[int] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "namespace": "http://xsdtesting",
-        }
-    )
-
-
-@dataclass
 class E2:
     class Meta:
         namespace = "http://xsdtesting"
@@ -60,6 +46,20 @@ class E1:
         default=None,
         metadata={
             "required": True,
+        }
+    )
+
+
+@dataclass
+class Ct2(Ct1):
+    class Meta:
+        name = "CT2"
+
+    att1: Optional[int] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://xsdtesting",
         }
     )
 

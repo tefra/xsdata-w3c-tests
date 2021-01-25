@@ -14,7 +14,7 @@ class B:
 
 
 @dataclass
-class E:
+class E(B):
     any_attributes: Dict = field(
         default_factory=dict,
         metadata={

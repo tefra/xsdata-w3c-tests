@@ -5,6 +5,27 @@ __NAMESPACE__ = "http://xstest-tns"
 
 
 @dataclass
+class TitleType:
+    class Meta:
+        name = "titleType"
+
+    content: List[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "mixed": True,
+        }
+    )
+    type: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+        }
+    )
+
+
+@dataclass
 class Root:
     class Meta:
         name = "root"
@@ -55,7 +76,7 @@ class Root:
         )
 
     @dataclass
-    class Id4:
+    class Id4(TitleType):
         content: List[object] = field(
             default_factory=list,
             metadata={
@@ -70,24 +91,3 @@ class Root:
                 "type": "Attribute",
             }
         )
-
-
-@dataclass
-class TitleType:
-    class Meta:
-        name = "titleType"
-
-    content: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-            "mixed": True,
-        }
-    )
-    type: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )

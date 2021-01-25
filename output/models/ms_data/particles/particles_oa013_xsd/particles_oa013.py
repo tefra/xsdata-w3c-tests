@@ -17,18 +17,6 @@ class B:
 
 
 @dataclass
-class R:
-    any_element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-            "max_occurs": 3,
-        }
-    )
-
-
-@dataclass
 class Foo:
     class Meta:
         name = "foo"
@@ -40,6 +28,18 @@ class Foo:
             "type": "Wildcard",
             "namespace": "##any",
             "required": True,
+        }
+    )
+
+
+@dataclass
+class R(B):
+    any_element: List[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "max_occurs": 3,
         }
     )
 

@@ -1,14 +1,26 @@
 {
     "elem": {
-        "c1": [
-            "",
-            "testing"
+        "c1_or_c2": [
+            {
+                "qname": "c1",
+                "value": null
+            },
+            {
+                "qname": "c1",
+                "value": "testing"
+            }
         ],
-        "c2": [],
-        "d1": [
-            "testing",
-            "testing"
+        "d1_or_d2": [
+            {
+                "qname": "d1",
+                "value": "testing"
+            },
+            {
+                "qname": "d1",
+                "value": "testing"
+            }
         ],
-        "d2": []
+        "c1": [],
+        "d1": []
     }
 }

@@ -32,7 +32,7 @@ class DatedEvent:
 
 
 @dataclass
-class Temp:
+class Temp(DatedEvent):
     class Meta:
         name = "temp"
 

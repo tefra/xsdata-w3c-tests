@@ -3,6 +3,7 @@
         {
             "chap": [
                 {
+                    "value": null,
                     "de": "",
                     "lang": null,
                     "fr": null
@@ -13,6 +14,7 @@
         {
             "chap": [
                 {
+                    "value": null,
                     "de": null,
                     "lang": "fr",
                     "fr": ""

@@ -38,17 +38,17 @@ class AType:
 
 
 @dataclass
-class ATypeF:
+class A(AType):
+    class Meta:
+        name = "a"
+        namespace = "abc"
+
+
+@dataclass
+class ATypeF(AType):
     class Meta:
         name = "aType_f"
 
-    t: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "abc",
-        }
-    )
     f: Optional[str] = field(
         default=None,
         metadata={
@@ -63,16 +63,10 @@ class ATypeF:
             "type": "Attribute",
         }
     )
-    r: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
 
 
 @dataclass
-class ATypeT:
+class ATypeT(AType):
     class Meta:
         name = "aType_t"
 
@@ -84,13 +78,6 @@ class ATypeT:
             "required": True,
         }
     )
-    f: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "abc",
-        }
-    )
     switch: Optional[str] = field(
         default=None,
         metadata={
@@ -103,13 +90,6 @@ class ATypeT:
             "type": "Attribute",
         }
     )
-
-
-@dataclass
-class A(AType):
-    class Meta:
-        name = "a"
-        namespace = "abc"
 
 
 @dataclass

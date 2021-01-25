@@ -16,7 +16,7 @@ class B:
 
 
 @dataclass
-class R:
+class R(B):
     other_element: Optional[object] = field(
         default=None,
         metadata={

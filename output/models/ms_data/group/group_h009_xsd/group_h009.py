@@ -35,7 +35,7 @@ class A:
 
 
 @dataclass
-class Elem:
+class Elem(A):
     class Meta:
         name = "elem"
 

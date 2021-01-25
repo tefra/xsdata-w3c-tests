@@ -17,7 +17,7 @@ class PersonName:
 
 
 @dataclass
-class SimpleName:
+class SimpleName(PersonName):
     class Meta:
         name = "simpleName"
 

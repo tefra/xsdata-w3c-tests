@@ -29,30 +29,6 @@ class Address:
 
 
 @dataclass
-class Address1:
-    class Meta:
-        name = "address1"
-
-    street: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "min_occurs": 1,
-            "max_occurs": 2,
-        }
-    )
-    zip: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
-
-
-@dataclass
 class E3:
     class Meta:
         name = "e3"
@@ -79,6 +55,30 @@ class B:
         }
     )
     e2: Optional[Address] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
+    )
+
+
+@dataclass
+class Address1(Address):
+    class Meta:
+        name = "address1"
+
+    street: List[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+            "max_occurs": 2,
+        }
+    )
+    zip: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",

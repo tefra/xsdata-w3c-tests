@@ -36,18 +36,10 @@ class C:
 
 
 @dataclass
-class D:
+class D(C):
     class Meta:
         name = "d"
 
-    any_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-            "required": True,
-        }
-    )
     x: Optional[int] = field(
         default=None,
         metadata={

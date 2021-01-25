@@ -52,30 +52,6 @@ class Ct2:
 
 
 @dataclass
-class Ct3:
-    class Meta:
-        name = "ct3"
-
-    foo: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "min_occurs": 3,
-            "max_occurs": 3,
-        }
-    )
-    bar: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-            "required": True,
-        }
-    )
-
-
-@dataclass
 class B:
     e1: List[Ct1] = field(
         default_factory=list,
@@ -105,6 +81,30 @@ class B:
             "min_occurs": 1,
             "max_occurs": 9,
             "sequential": True,
+        }
+    )
+
+
+@dataclass
+class Ct3(Ct1):
+    class Meta:
+        name = "ct3"
+
+    foo: List[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 3,
+            "max_occurs": 3,
+        }
+    )
+    bar: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "http://xsdtesting",
+            "required": True,
         }
     )
 

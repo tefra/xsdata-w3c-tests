@@ -71,7 +71,7 @@ class B:
 
 
 @dataclass
-class R:
+class R(B):
     e1: Optional[object] = field(
         default=None,
         metadata={
@@ -86,13 +86,6 @@ class R:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
-    )
-    e3: Optional[E3] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
         }
     )
 

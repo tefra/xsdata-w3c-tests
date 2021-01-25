@@ -31,7 +31,7 @@ class Base:
 
 
 @dataclass
-class Doc:
+class Doc(Base):
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
@@ -41,12 +41,5 @@ class Doc:
         metadata={
             "type": "Element",
             "max_occurs": 2,
-        }
-    )
-    foo1: List[bool] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "max_occurs": 6,
         }
     )

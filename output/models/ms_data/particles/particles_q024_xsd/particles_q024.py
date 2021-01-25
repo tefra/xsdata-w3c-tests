@@ -25,21 +25,13 @@ class B:
 
 
 @dataclass
-class R:
+class R(B):
     foo: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
             "max_occurs": 3,
-        }
-    )
-    target_namespace_element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##targetNamespace",
-            "max_occurs": 4,
         }
     )
 

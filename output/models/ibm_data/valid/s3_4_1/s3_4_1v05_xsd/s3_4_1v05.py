@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import Optional
 
 __NAMESPACE__ = "a"
 
@@ -56,13 +56,12 @@ class D:
             "required": True,
         }
     )
-    any_element: List[object] = field(
-        default_factory=list,
+    any_element: Optional[object] = field(
+        default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-            "min_occurs": 1,
-            "max_occurs": 2,
+            "required": True,
         }
     )
 

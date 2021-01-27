@@ -2,15 +2,13 @@
     "p": {
         "x": 1,
         "y": 2,
-        "any_element": [
-            {
-                "qname": "z",
-                "text": "sdf9873",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            }
-        ]
+        "any_element": {
+            "qname": "z",
+            "text": "sdf9873",
+            "tail": null,
+            "children": [],
+            "attributes": {}
+        }
     },
     "any_element": null
 }

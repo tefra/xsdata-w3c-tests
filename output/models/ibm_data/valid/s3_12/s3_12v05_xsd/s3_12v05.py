@@ -93,14 +93,6 @@ class CtAlt2(CtBase):
     class Meta:
         name = "ctAlt2"
 
-    number_of_children: Optional[int] = field(
-        default=None,
-        metadata={
-            "name": "numberOfChildren",
-            "type": "Attribute",
-        }
-    )
-
 
 @dataclass
 class Root:

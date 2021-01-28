@@ -36,14 +36,6 @@ class Temp(DatedEvent):
     class Meta:
         name = "temp"
 
-    event: Optional[D] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "required": True,
-        }
-    )
-
 
 @dataclass
 class Doc:

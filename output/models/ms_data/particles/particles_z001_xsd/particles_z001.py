@@ -35,13 +35,6 @@ class Base:
 
 @dataclass
 class Derived(Base):
-    annotation: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
     element: List[object] = field(
         default_factory=list,
         metadata={

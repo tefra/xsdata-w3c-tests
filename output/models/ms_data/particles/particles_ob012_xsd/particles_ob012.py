@@ -17,13 +17,7 @@ class B:
 
 @dataclass
 class R(B):
-    other_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##other",
-        }
-    )
+    pass
 
 
 @dataclass

@@ -34,25 +34,6 @@ class Testing(Base):
     class Meta:
         name = "testing"
 
-    e1_or_e2: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "e1",
-                    "type": object,
-                    "namespace": "http://xsdtesting",
-                },
-                {
-                    "name": "e2",
-                    "type": object,
-                    "namespace": "http://xsdtesting",
-                },
-            ),
-        }
-    )
-
 
 @dataclass
 class Doc(Testing):

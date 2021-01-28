@@ -76,20 +76,3 @@ class Root:
 class Rst(Base):
     class Meta:
         name = "rst"
-
-    a: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "foo",
-            "required": True,
-        }
-    )
-    c: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "foo",
-            "required": True,
-        }
-    )

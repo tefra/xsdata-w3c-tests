@@ -26,14 +26,6 @@ class B:
 
 @dataclass
 class R(B):
-    foo: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
     e1: List[object] = field(
         default_factory=list,
         metadata={

@@ -35,26 +35,6 @@ class Bar(Foo):
     class Meta:
         name = "bar"
 
-    f1_or_f2: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "f1",
-                    "type": object,
-                    "namespace": "http://xsdtesting",
-                },
-                {
-                    "name": "f2",
-                    "type": object,
-                    "namespace": "http://xsdtesting",
-                },
-            ),
-            "max_occurs": 4,
-        }
-    )
-
 
 @dataclass
 class B:
@@ -76,20 +56,7 @@ class B:
 
 @dataclass
 class R(B):
-    c1: Optional[Bar] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
-    c2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
+    pass
 
 
 @dataclass

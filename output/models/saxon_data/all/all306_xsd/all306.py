@@ -42,14 +42,6 @@ class Ext(B):
     class Meta:
         name = "ext"
 
-    content: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-            "mixed": True,
-        }
-    )
     d: Optional[object] = field(
         default=None,
         metadata={

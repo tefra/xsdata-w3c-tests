@@ -73,30 +73,7 @@ class B:
 
 @dataclass
 class R(B):
-    e1: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
-    e2: Optional[Address] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
-    e3: Optional[E3] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-            "required": True,
-        }
-    )
+    pass
 
 
 @dataclass

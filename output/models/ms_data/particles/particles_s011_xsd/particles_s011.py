@@ -78,14 +78,6 @@ class Address1(Address):
             "max_occurs": 2,
         }
     )
-    zip: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
 
 
 @dataclass

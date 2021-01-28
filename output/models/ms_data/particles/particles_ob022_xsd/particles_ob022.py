@@ -17,13 +17,7 @@ class B:
 
 @dataclass
 class R(B):
-    local_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##local",
-        }
-    )
+    pass
 
 
 @dataclass

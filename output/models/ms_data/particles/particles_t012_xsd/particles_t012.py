@@ -98,14 +98,6 @@ class R(B):
             ),
         }
     )
-    foo: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
 
 
 @dataclass

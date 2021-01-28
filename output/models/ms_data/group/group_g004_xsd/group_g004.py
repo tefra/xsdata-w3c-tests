@@ -40,36 +40,6 @@ class Elem(A):
     class Meta:
         name = "elem"
 
-    choice: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "x1",
-                    "type": object,
-                    "namespace": "",
-                },
-                {
-                    "name": "x2",
-                    "type": object,
-                    "namespace": "",
-                },
-                {
-                    "name": "y1",
-                    "type": object,
-                    "namespace": "",
-                },
-                {
-                    "name": "y2",
-                    "type": object,
-                    "namespace": "",
-                },
-            ),
-            "max_occurs": 3,
-        }
-    )
-
 
 @dataclass
 class Doc:

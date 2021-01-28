@@ -57,12 +57,6 @@ class ATypeF(AType):
             "required": True,
         }
     )
-    switch: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
 
 
 @dataclass
@@ -76,18 +70,6 @@ class ATypeT(AType):
             "type": "Element",
             "namespace": "abc",
             "required": True,
-        }
-    )
-    switch: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    r: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
         }
     )
 

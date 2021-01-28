@@ -28,14 +28,6 @@ class Ctype2(Ctype):
     class Meta:
         name = "ctype2"
 
-    content: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-            "mixed": True,
-        }
-    )
     val2: Optional[str] = field(
         default=None,
         metadata={

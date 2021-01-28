@@ -22,14 +22,6 @@ class Temp(DatedEvent):
     class Meta:
         name = "temp"
 
-    d: Optional[XmlDate] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "required": True,
-        }
-    )
-
 
 @dataclass
 class Doc:

@@ -37,28 +37,6 @@ class Testing(Base):
     class Meta:
         name = "testing"
 
-    e2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
-    e3: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
-    e4: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
-
 
 @dataclass
 class Doc(Testing):

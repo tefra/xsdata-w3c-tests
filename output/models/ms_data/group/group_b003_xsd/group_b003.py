@@ -44,23 +44,6 @@ class Elem(ComplexType):
     class Meta:
         name = "elem"
 
-    r1: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
-    r2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
-
 
 @dataclass
 class Doc:

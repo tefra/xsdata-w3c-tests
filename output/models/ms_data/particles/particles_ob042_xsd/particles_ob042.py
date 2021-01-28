@@ -17,13 +17,7 @@ class B:
 
 @dataclass
 class R(B):
-    foo_bar_element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "foo bar",
-        }
-    )
+    pass
 
 
 @dataclass

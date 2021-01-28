@@ -33,13 +33,7 @@ class Foo:
 
 @dataclass
 class R(B):
-    any_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-        }
-    )
+    pass
 
 
 @dataclass

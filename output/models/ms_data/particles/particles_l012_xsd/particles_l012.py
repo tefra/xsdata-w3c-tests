@@ -63,14 +63,6 @@ class NotMixed(Mixed):
     class Meta:
         name = "not_mixed"
 
-    foo: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-
 
 @dataclass
 class R:

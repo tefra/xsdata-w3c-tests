@@ -15,13 +15,7 @@ class B:
 
 @dataclass
 class R(B):
-    any_attributes: Dict = field(
-        default_factory=dict,
-        metadata={
-            "type": "Attributes",
-            "namespace": "##any",
-        }
-    )
+    pass
 
 
 @dataclass

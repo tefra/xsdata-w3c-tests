@@ -77,17 +77,4 @@ class Root:
 
     @dataclass
     class Id4(TitleType):
-        content: List[object] = field(
-            default_factory=list,
-            metadata={
-                "type": "Wildcard",
-                "namespace": "##any",
-                "mixed": True,
-            }
-        )
-        type: Optional[object] = field(
-            default=None,
-            metadata={
-                "type": "Attribute",
-            }
-        )
+        pass

@@ -5212,7 +5212,6 @@ def test_vc_007_vc_007_2(json_360, save_output):
     )
 
 
-@pytest.mark.xfail
 def test_vc_007_vc_007_3(json_360, save_output):
 
     assert_bindings(

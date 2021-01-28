@@ -28,21 +28,6 @@ class DerivedType(BaseType):
     class Meta:
         name = "derivedType"
 
-    body: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    must_understand: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "mustUnderstand",
-            "type": "Attribute",
-        }
-    )
-
 
 @dataclass
 class Message(DerivedType):

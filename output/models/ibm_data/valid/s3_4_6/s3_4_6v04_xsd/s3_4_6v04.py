@@ -45,20 +45,3 @@ class Root:
 class D(C):
     class Meta:
         name = "d"
-
-    a: Optional[int] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
-    any_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-            "required": True,
-        }
-    )

@@ -5,8 +5,6 @@
                 "qname": "{http://xsdtesting}c1",
                 "value": 1
             }
-        ],
-        "c1": null,
-        "c2": null
+        ]
     }
 }

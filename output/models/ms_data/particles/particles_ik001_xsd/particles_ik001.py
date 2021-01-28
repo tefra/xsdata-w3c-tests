@@ -24,20 +24,7 @@ class B:
 
 @dataclass
 class R(B):
-    c1: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
-    c2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
+    pass
 
 
 @dataclass

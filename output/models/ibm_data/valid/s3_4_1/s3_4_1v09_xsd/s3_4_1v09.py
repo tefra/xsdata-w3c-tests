@@ -40,23 +40,6 @@ class D(C):
     class Meta:
         name = "d"
 
-    x: Optional[int] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
-    y: Optional[int] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
-
 
 @dataclass
 class Root:

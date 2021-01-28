@@ -27,14 +27,6 @@ class B:
 
 @dataclass
 class R(B):
-    foo: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-            "required": True,
-        }
-    )
     bar: List[Bar] = field(
         default_factory=list,
         metadata={

@@ -99,14 +99,6 @@ class Ct3(Ct1):
             "max_occurs": 3,
         }
     )
-    bar: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-            "required": True,
-        }
-    )
 
 
 @dataclass

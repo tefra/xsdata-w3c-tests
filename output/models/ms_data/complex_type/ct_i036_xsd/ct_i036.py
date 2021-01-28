@@ -63,15 +63,6 @@ class MyType(FooType):
             "max_length": 4,
         }
     )
-    foo_ele2: Optional[int] = field(
-        default=None,
-        metadata={
-            "name": "fooEle2",
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
 
 
 @dataclass

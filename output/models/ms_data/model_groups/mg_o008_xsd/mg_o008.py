@@ -30,23 +30,6 @@ class Foo(Bar):
     class Meta:
         name = "foo"
 
-    e1: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
-    e2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
-
 
 @dataclass
 class Doc(Foo):

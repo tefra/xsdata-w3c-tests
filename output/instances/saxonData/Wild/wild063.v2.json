@@ -6,6 +6,8 @@
         "text": "3",
         "tail": null,
         "children": [],
-        "attributes": {}
+        "attributes": {
+            "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}byte"
+        }
     }
 }

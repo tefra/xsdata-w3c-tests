@@ -2,7 +2,7 @@
     "name": "",
     "any_element": {
         "qname": "name",
-        "text": "",
+        "text": null,
         "tail": null,
         "children": [],
         "attributes": {}

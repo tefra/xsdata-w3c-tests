@@ -2,5 +2,5 @@
 <doc xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <e>-12</e>
   <f>42</f>
-  <f>3</f>
+  <f xsi:type="xs:byte">3</f>
 </doc>

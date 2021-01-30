@@ -147,7 +147,10 @@ def generate_models(xsd: str, package: str, class_name: str, ns_struct: bool):
     if result.exception:
         return result.exception
 
-    return load_class(result.output, class_name)
+    try:
+        return load_class(result.output, class_name)
+    except ModuleNotFoundError:
+        return None
 
 
 @functools.lru_cache(maxsize=5)

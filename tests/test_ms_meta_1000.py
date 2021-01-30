@@ -1428,7 +1428,6 @@ def test_add_b188_add_b188_i(json_360, save_output):
     )
 
 
-@pytest.mark.xfail
 def test_add_b187_add_b187_v(json_360, save_output):
     """
     TEST :Adhoc XSD: : XSD: Support user specified schema for

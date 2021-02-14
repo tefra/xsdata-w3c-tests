@@ -18,7 +18,8 @@
                             "children": [],
                             "attributes": {}
                         }
-                    }
+                    },
+                    "substituted": false
                 },
                 {
                     "qname": "{foo}b",
@@ -30,7 +31,8 @@
                             "children": [],
                             "attributes": {}
                         }
-                    }
+                    },
+                    "substituted": false
                 },
                 {
                     "qname": "{foo}c",
@@ -42,7 +44,8 @@
                             "children": [],
                             "attributes": {}
                         }
-                    }
+                    },
+                    "substituted": false
                 }
             ],
             "a_or_b_or_c": []

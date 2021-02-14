@@ -3,39 +3,48 @@
         "b1_or_b2": [
             {
                 "qname": "b1",
-                "value": null
+                "value": null,
+                "substituted": false
             },
             {
                 "qname": "b1",
-                "value": null
+                "value": null,
+                "substituted": false
             },
             {
                 "qname": "b1",
-                "value": null
+                "value": null,
+                "substituted": false
             },
             {
                 "qname": "b1",
-                "value": null
+                "value": null,
+                "substituted": false
             },
             {
                 "qname": "b1",
-                "value": null
+                "value": null,
+                "substituted": false
             },
             {
                 "qname": "b1",
-                "value": null
+                "value": null,
+                "substituted": false
             },
             {
                 "qname": "b1",
-                "value": null
+                "value": null,
+                "substituted": false
             },
             {
                 "qname": "b1",
-                "value": null
+                "value": null,
+                "substituted": false
             },
             {
                 "qname": "b1",
-                "value": null
+                "value": null,
+                "substituted": false
             }
         ]
     }

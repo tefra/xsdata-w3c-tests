@@ -3,21 +3,25 @@
         "c1_or_c2": [
             {
                 "qname": "c1",
-                "value": null
+                "value": null,
+                "substituted": false
             },
             {
                 "qname": "c1",
-                "value": "testing"
+                "value": "testing",
+                "substituted": false
             }
         ],
         "d1_or_d2": [
             {
                 "qname": "d1",
-                "value": "testing"
+                "value": "testing",
+                "substituted": false
             },
             {
                 "qname": "d1",
-                "value": "testing"
+                "value": "testing",
+                "substituted": false
             }
         ],
         "c1": [],

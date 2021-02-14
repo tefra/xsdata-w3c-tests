@@ -33,7 +33,8 @@
                     "value": [
                         "A002",
                         "B002"
-                    ]
+                    ],
+                    "substituted": false
                 }
             ],
             "mixedA": [],

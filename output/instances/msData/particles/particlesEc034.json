@@ -2,15 +2,18 @@
     "a_or_b": [
         {
             "qname": "{http://xsdtesting}b",
-            "value": null
+            "value": null,
+            "substituted": false
         },
         {
             "qname": "{http://xsdtesting}a",
-            "value": null
+            "value": null,
+            "substituted": false
         },
         {
             "qname": "{http://xsdtesting}b",
-            "value": null
+            "value": null,
+            "substituted": false
         }
     ]
 }

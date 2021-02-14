@@ -26,7 +26,8 @@
                     "partNum": "777-AB",
                     "weightKg": "4.5",
                     "shipBy": "air"
-                }
+                },
+                "substituted": false
             }
         ],
         "item": []

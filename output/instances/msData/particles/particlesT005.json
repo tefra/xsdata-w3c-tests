@@ -3,11 +3,13 @@
         "c1_or_c2_or_c3": [
             {
                 "qname": "c1",
-                "value": null
+                "value": null,
+                "substituted": false
             },
             {
                 "qname": "c1",
-                "value": null
+                "value": null,
+                "substituted": false
             }
         ],
         "foo": ""

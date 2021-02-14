@@ -2,5 +2,6 @@
     "qname": "{ST_targetNS}test",
     "value": {
         "value": "1"
-    }
+    },
+    "substituted": false
 }

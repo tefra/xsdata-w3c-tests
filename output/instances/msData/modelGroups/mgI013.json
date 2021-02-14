@@ -2,7 +2,8 @@
     "choice": [
         {
             "qname": "d",
-            "value": null
+            "value": null,
+            "substituted": false
         }
     ],
     "c": null

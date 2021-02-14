@@ -2,27 +2,33 @@
     "foo_or_bar_or_zot": [
         {
             "qname": "foo",
-            "value": null
+            "value": null,
+            "substituted": false
         },
         {
             "qname": "{http://foo.com}bar",
-            "value": null
+            "value": null,
+            "substituted": false
         },
         {
             "qname": "zot",
-            "value": null
+            "value": null,
+            "substituted": false
         },
         {
             "qname": "foo",
-            "value": null
+            "value": null,
+            "substituted": false
         },
         {
             "qname": "{http://foo.com}bar",
-            "value": null
+            "value": null,
+            "substituted": false
         },
         {
             "qname": "zot",
-            "value": null
+            "value": null,
+            "substituted": false
         }
     ]
 }

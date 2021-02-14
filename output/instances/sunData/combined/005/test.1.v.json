@@ -28,25 +28,29 @@
             "qname": "{foo}item2",
             "value": {
                 "foo": ""
-            }
+            },
+            "substituted": false
         },
         {
             "qname": "{foo}item2",
             "value": {
                 "foo": ""
-            }
+            },
+            "substituted": false
         },
         {
             "qname": "{foo}item2",
             "value": {
                 "foo": ""
-            }
+            },
+            "substituted": false
         },
         {
             "qname": "{foo}item2",
             "value": {
                 "foo": ""
-            }
+            },
+            "substituted": false
         }
     ]
 }

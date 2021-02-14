@@ -18,7 +18,8 @@
                             "value": [
                                 "aaa",
                                 "ddd"
-                            ]
+                            ],
+                            "substituted": false
                         }
                     ],
                     "id": [

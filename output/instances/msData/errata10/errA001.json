@@ -3,51 +3,63 @@
         -100,
         {
             "qname": "testUnsignedByte",
-            "value": 100
+            "value": 100,
+            "substituted": false
         },
         {
             "qname": "testInteger",
-            "value": -32000
+            "value": -32000,
+            "substituted": false
         },
         {
             "qname": "testPositiveInteger",
-            "value": 50000
+            "value": 50000,
+            "substituted": false
         },
         {
             "qname": "testNegativeInteger",
-            "value": -50000
+            "value": -50000,
+            "substituted": false
         },
         {
             "qname": "testNonNegativeInteger",
-            "value": 50000
+            "value": 50000,
+            "substituted": false
         },
         {
             "qname": "testNonPositiveInteger",
-            "value": -50000
+            "value": -50000,
+            "substituted": false
         },
         {
             "qname": "testInt",
-            "value": -32000
+            "value": -32000,
+            "substituted": false
         },
         {
             "qname": "testUnsignedInt",
-            "value": 50000
+            "value": 50000,
+            "substituted": false
         },
         {
             "qname": "testLong",
-            "value": -123456789012345
+            "value": -123456789012345,
+            "substituted": false
         },
         {
             "qname": "testUnsignedLong",
-            "value": 12345789012345
+            "value": 12345789012345,
+            "substituted": false
         },
         {
             "qname": "testShort",
-            "value": -12345
+            "value": -12345,
+            "substituted": false
         },
         {
             "qname": "testUnsignedShort",
-            "value": 12345
+            "value": 12345,
+            "substituted": false
         },
         "123456789.12345"
     ]

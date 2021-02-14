@@ -33,7 +33,8 @@
         },
         {
             "qname": "{http://foo.com}bar",
-            "value": null
+            "value": null,
+            "substituted": false
         },
         {
             "qname": "zot",

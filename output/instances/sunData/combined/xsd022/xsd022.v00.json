@@ -7,27 +7,33 @@
         ],
         {
             "qname": "{http://foo.com}child2",
-            "value": true
+            "value": true,
+            "substituted": false
         },
         {
             "qname": "{http://foo.com}child2",
-            "value": false
+            "value": false,
+            "substituted": false
         },
         {
             "qname": "{http://foo.com}child2",
-            "value": false
+            "value": false,
+            "substituted": false
         },
         {
             "qname": "{http://foo.com}child2",
-            "value": true
+            "value": true,
+            "substituted": false
         },
         {
             "qname": "{http://foo.com}child2",
-            "value": "abcdef"
+            "value": "abcdef",
+            "substituted": false
         },
         {
             "qname": "{http://foo.com}child2",
-            "value": "xxxxxxxx"
+            "value": "xxxxxxxx",
+            "substituted": false
         }
     ]
 }

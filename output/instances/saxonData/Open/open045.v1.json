@@ -11,7 +11,8 @@
             "qname": "b",
             "value": {
                 "w3_org_xml_1998_namespace_attributes": {}
-            }
+            },
+            "substituted": false
         }
     ],
     "w3_org_xml_1998_namespace_attributes": {},

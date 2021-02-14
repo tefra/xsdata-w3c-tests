@@ -36,7 +36,8 @@
                     "partNum": "777-BA",
                     "weightKg": "4.5",
                     "shipBy": "air"
-                }
+                },
+                "substituted": false
             },
             {
                 "qname": "item",
@@ -53,7 +54,8 @@
                     "partNum": "833-AA",
                     "weightKg": "2.5",
                     "shipBy": "air"
-                }
+                },
+                "substituted": false
             }
         ],
         "item": []

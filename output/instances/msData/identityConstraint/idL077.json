@@ -8,14 +8,16 @@
                     "value": {
                         "value": "a",
                         "x": "1"
-                    }
+                    },
+                    "substituted": false
                 },
                 {
                     "qname": "{myNS.tempuri.org}ref",
                     "value": {
                         "value": "a",
                         "y": "1"
-                    }
+                    },
+                    "substituted": false
                 }
             ],
             "row": [],
@@ -30,14 +32,16 @@
                     "value": {
                         "value": "c",
                         "x": "1"
-                    }
+                    },
+                    "substituted": false
                 },
                 {
                     "qname": "{myNS.tempuri.org}ref",
                     "value": {
                         "value": "b",
                         "y": "1"
-                    }
+                    },
+                    "substituted": false
                 }
             ],
             "row": [],
@@ -52,14 +56,16 @@
                     "value": {
                         "value": "b",
                         "x": "1"
-                    }
+                    },
+                    "substituted": false
                 },
                 {
                     "qname": "{myNS.tempuri.org}ref",
                     "value": {
                         "value": "c",
                         "y": "1"
-                    }
+                    },
+                    "substituted": false
                 }
             ],
             "row": [],

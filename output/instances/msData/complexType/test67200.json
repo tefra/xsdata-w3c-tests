@@ -2,5 +2,6 @@
     "qname": "elt1",
     "value": {
         "elt2": ""
-    }
+    },
+    "substituted": false
 }

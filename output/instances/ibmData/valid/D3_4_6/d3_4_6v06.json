@@ -2,7 +2,8 @@
     "choice": [
         {
             "qname": "{a}_-",
-            "value": "_-"
+            "value": "_-",
+            "substituted": false
         }
     ]
 }

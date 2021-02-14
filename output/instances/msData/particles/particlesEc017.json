@@ -2,7 +2,8 @@
     "a_or_b": [
         {
             "qname": "{http://xsdtesting}b",
-            "value": null
+            "value": null,
+            "substituted": false
         }
     ]
 }

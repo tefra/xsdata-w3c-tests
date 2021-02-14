@@ -3,7 +3,8 @@
         "joe",
         {
             "qname": "{foo}ref",
-            "value": "joe"
+            "value": "joe",
+            "substituted": false
         }
     ]
 }

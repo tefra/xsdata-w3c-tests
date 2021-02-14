@@ -4,7 +4,8 @@
         "a1_or_a2": [
             {
                 "qname": "A1",
-                "value": null
+                "value": null,
+                "substituted": false
             }
         ]
     }

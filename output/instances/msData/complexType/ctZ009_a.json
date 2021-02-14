@@ -2,35 +2,43 @@
     "foo_or_sg": [
         {
             "qname": "foo",
-            "value": null
+            "value": null,
+            "substituted": false
         },
         {
             "qname": "foo",
-            "value": null
+            "value": null,
+            "substituted": false
         },
         {
             "qname": "foo",
-            "value": null
+            "value": null,
+            "substituted": false
         },
         {
             "qname": "foo",
-            "value": null
+            "value": null,
+            "substituted": false
         },
         {
             "qname": "foo",
-            "value": null
+            "value": null,
+            "substituted": false
         },
         {
             "qname": "foo",
-            "value": null
+            "value": null,
+            "substituted": false
         },
         {
             "qname": "foo",
-            "value": null
+            "value": null,
+            "substituted": false
         },
         {
             "qname": "foo",
-            "value": null
+            "value": null,
+            "substituted": false
         }
     ]
 }

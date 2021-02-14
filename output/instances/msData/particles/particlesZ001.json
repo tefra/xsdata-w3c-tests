@@ -4,19 +4,23 @@
         "element_or_any": [
             {
                 "qname": "element",
-                "value": null
+                "value": null,
+                "substituted": false
             },
             {
                 "qname": "element",
-                "value": null
+                "value": null,
+                "substituted": false
             },
             {
                 "qname": "element",
-                "value": null
+                "value": null,
+                "substituted": false
             },
             {
                 "qname": "element",
-                "value": null
+                "value": null,
+                "substituted": false
             }
         ],
         "element": []

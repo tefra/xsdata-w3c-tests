@@ -3,11 +3,13 @@
         "choice": [
             {
                 "qname": "y1",
-                "value": null
+                "value": null,
+                "substituted": false
             },
             {
                 "qname": "y2",
-                "value": null
+                "value": null,
+                "substituted": false
             }
         ]
     }

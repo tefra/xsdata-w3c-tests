@@ -3,27 +3,33 @@
         "r1_or_r2": [
             {
                 "qname": "r2",
-                "value": null
+                "value": null,
+                "substituted": false
             },
             {
                 "qname": "r2",
-                "value": null
+                "value": null,
+                "substituted": false
             },
             {
                 "qname": "r2",
-                "value": null
+                "value": null,
+                "substituted": false
             },
             {
                 "qname": "r2",
-                "value": null
+                "value": null,
+                "substituted": false
             },
             {
                 "qname": "r2",
-                "value": null
+                "value": null,
+                "substituted": false
             },
             {
                 "qname": "r2",
-                "value": null
+                "value": null,
+                "substituted": false
             }
         ]
     }

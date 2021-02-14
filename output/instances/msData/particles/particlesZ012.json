@@ -2,23 +2,28 @@
     "e2_or_e1_or_e3": [
         {
             "qname": "{http://xsdtesting}E1",
-            "value": 1
+            "value": 1,
+            "substituted": false
         },
         {
             "qname": "{http://xsdtesting}E1",
-            "value": true
+            "value": true,
+            "substituted": false
         },
         {
             "qname": "{http://xsdtesting}E1",
-            "value": false
+            "value": false,
+            "substituted": false
         },
         {
             "qname": "{http://xsdtesting}E1",
-            "value": "x"
+            "value": "x",
+            "substituted": false
         },
         {
             "qname": "{http://xsdtesting}E1",
-            "value": "y"
+            "value": "y",
+            "substituted": false
         },
         1,
         {

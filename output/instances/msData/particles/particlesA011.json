@@ -3,15 +3,18 @@
         "e1_or_e2": [
             {
                 "qname": "e2",
-                "value": null
+                "value": null,
+                "substituted": false
             },
             {
                 "qname": "e2",
-                "value": null
+                "value": null,
+                "substituted": false
             },
             {
                 "qname": "e2",
-                "value": " test "
+                "value": " test ",
+                "substituted": false
             }
         ]
     }

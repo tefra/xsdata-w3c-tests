@@ -1,19 +1,9 @@
 {
     "any_element": {
         "qname": "{http://xsdtesting}myelem",
-        "text": null,
-        "tail": null,
-        "children": [
-            {
-                "qname": "a",
-                "text": "hello",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            }
-        ],
-        "attributes": {
-            "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://xsdtesting}ctype_foo"
-        }
+        "value": {
+            "a": "hello"
+        },
+        "substituted": true
     }
 }

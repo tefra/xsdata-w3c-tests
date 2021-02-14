@@ -3,11 +3,7 @@
     "f": 42,
     "local_element": {
         "qname": "e",
-        "text": "93",
-        "tail": null,
-        "children": [],
-        "attributes": {
-            "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}int"
-        }
+        "value": 93,
+        "substituted": false
     }
 }

@@ -3,13 +3,17 @@
         "choice": [
             {
                 "qname": "d2",
-                "value": null,
-                "substituted": false
+                "text": null,
+                "tail": null,
+                "children": [],
+                "attributes": {}
             },
             {
                 "qname": "d2",
-                "value": null,
-                "substituted": false
+                "text": null,
+                "tail": null,
+                "children": [],
+                "attributes": {}
             }
         ],
         "d2": []

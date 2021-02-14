@@ -3,12 +3,11 @@
         "***",
         {
             "qname": "e",
-            "text": "",
-            "tail": null,
+            "text": null,
+            "tail": "***",
             "children": [],
             "attributes": {}
-        },
-        "***"
+        }
     ],
     "e": null
 }

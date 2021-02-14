@@ -2,28 +2,25 @@
     "content": [
         {
             "qname": "b",
-            "text": "",
-            "tail": null,
+            "text": null,
+            "tail": "text",
             "children": [],
             "attributes": {}
         },
-        "text",
         {
             "qname": "a",
-            "text": "",
-            "tail": null,
+            "text": null,
+            "tail": "text",
             "children": [],
             "attributes": {}
         },
-        "text",
         {
             "qname": "d",
-            "text": "",
-            "tail": null,
+            "text": null,
+            "tail": "text",
             "children": [],
             "attributes": {}
         },
-        "text",
         {
             "qname": "a",
             "text": "",

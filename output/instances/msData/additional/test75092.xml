@@ -2,5 +2,5 @@
 <foo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <a/>
   <b xsi:type="xsd:string">abc</b>
-  <c xsi:type="xsd:int">123</c>
+  <c xsi:type="xsd:short">123</c>
 </foo>

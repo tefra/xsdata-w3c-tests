@@ -2,8 +2,10 @@
     "choice": [
         {
             "qname": "d",
-            "value": null,
-            "substituted": false
+            "text": null,
+            "tail": null,
+            "children": [],
+            "attributes": {}
         }
     ],
     "c": null

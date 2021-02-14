@@ -36,21 +36,21 @@
             "value": {
                 "foo": ""
             },
-            "substituted": false
+            "substituted": true
         },
         {
             "qname": "{foo}item2",
             "value": {
                 "foo": ""
             },
-            "substituted": false
+            "substituted": true
         },
         {
             "qname": "{foo}item2",
             "value": {
                 "foo": ""
             },
-            "substituted": false
+            "substituted": true
         }
     ]
 }

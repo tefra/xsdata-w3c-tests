@@ -2,5 +2,5 @@
 <doc xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <e>-12</e>
   <f>42</f>
-  <e xsi:type="xs:int">93</e>
+  <e xsi:type="xs:short">93</e>
 </doc>

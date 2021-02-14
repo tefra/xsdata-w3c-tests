@@ -4,23 +4,31 @@
         "element_or_any": [
             {
                 "qname": "element",
-                "value": null,
-                "substituted": false
+                "text": null,
+                "tail": null,
+                "children": [],
+                "attributes": {}
             },
             {
                 "qname": "element",
-                "value": null,
-                "substituted": false
+                "text": null,
+                "tail": null,
+                "children": [],
+                "attributes": {}
             },
             {
                 "qname": "element",
-                "value": null,
-                "substituted": false
+                "text": null,
+                "tail": null,
+                "children": [],
+                "attributes": {}
             },
             {
                 "qname": "element",
-                "value": null,
-                "substituted": false
+                "text": null,
+                "tail": null,
+                "children": [],
+                "attributes": {}
             }
         ],
         "element": []

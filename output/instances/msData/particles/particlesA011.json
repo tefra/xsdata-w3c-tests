@@ -3,18 +3,24 @@
         "e1_or_e2": [
             {
                 "qname": "e2",
-                "value": null,
-                "substituted": false
+                "text": null,
+                "tail": null,
+                "children": [],
+                "attributes": {}
             },
             {
                 "qname": "e2",
-                "value": null,
-                "substituted": false
+                "text": null,
+                "tail": null,
+                "children": [],
+                "attributes": {}
             },
             {
                 "qname": "e2",
-                "value": " test ",
-                "substituted": false
+                "text": " test ",
+                "tail": null,
+                "children": [],
+                "attributes": {}
             }
         ]
     }

@@ -4,23 +4,31 @@
             "f1_or_f2": [
                 {
                     "qname": "{http://xsdtesting}f1",
-                    "value": "\n\t\ttest\n\t",
-                    "substituted": false
+                    "text": "\n\t\ttest\n\t",
+                    "tail": null,
+                    "children": [],
+                    "attributes": {}
                 },
                 {
                     "qname": "{http://xsdtesting}f1",
-                    "value": null,
-                    "substituted": false
+                    "text": null,
+                    "tail": null,
+                    "children": [],
+                    "attributes": {}
                 },
                 {
                     "qname": "{http://xsdtesting}f1",
-                    "value": null,
-                    "substituted": false
+                    "text": null,
+                    "tail": null,
+                    "children": [],
+                    "attributes": {}
                 },
                 {
                     "qname": "{http://xsdtesting}f1",
-                    "value": null,
-                    "substituted": false
+                    "text": null,
+                    "tail": null,
+                    "children": [],
+                    "attributes": {}
                 }
             ]
         },

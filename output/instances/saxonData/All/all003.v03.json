@@ -2,36 +2,32 @@
     "content": [
         {
             "qname": "a",
-            "text": "",
-            "tail": null,
+            "text": null,
+            "tail": "banana",
             "children": [],
             "attributes": {}
         },
-        "banana",
         {
             "qname": "b",
-            "text": "",
-            "tail": null,
+            "text": null,
+            "tail": "custard",
             "children": [],
             "attributes": {}
         },
-        "custard",
         {
             "qname": "c",
-            "text": "",
-            "tail": null,
+            "text": null,
+            "tail": "mango",
             "children": [],
             "attributes": {}
         },
-        "mango",
         {
             "qname": "d",
-            "text": "",
-            "tail": null,
+            "text": null,
+            "tail": "pineapples and cream",
             "children": [],
             "attributes": {}
-        },
-        "pineapples and cream"
+        }
     ],
     "a": [],
     "b": [],

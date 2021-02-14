@@ -3,8 +3,10 @@
         "a1_or_a2": [
             {
                 "qname": "a2",
-                "value": null,
-                "substituted": false
+                "text": null,
+                "tail": null,
+                "children": [],
+                "attributes": {}
             }
         ]
     }

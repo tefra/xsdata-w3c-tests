@@ -4,13 +4,17 @@
             "f1_or_f2": [
                 {
                     "qname": "{http://xsdtesting}f1",
-                    "value": "\n\t\t\t",
-                    "substituted": false
+                    "text": null,
+                    "tail": null,
+                    "children": [],
+                    "attributes": {}
                 },
                 {
                     "qname": "{http://xsdtesting}f1",
-                    "value": null,
-                    "substituted": false
+                    "text": null,
+                    "tail": null,
+                    "children": [],
+                    "attributes": {}
                 }
             ]
         },

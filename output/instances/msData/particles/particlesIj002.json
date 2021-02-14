@@ -4,7 +4,7 @@
             "f1_or_f2": [
                 {
                     "qname": "{http://xsdtesting}f1",
-                    "text": null,
+                    "text": "\n\t\t\t",
                     "tail": null,
                     "children": [],
                     "attributes": {}

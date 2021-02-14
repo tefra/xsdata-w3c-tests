@@ -2,7 +2,7 @@
     "target_namespace_foo_element": [
         {
             "qname": "{foo}elem",
-            "text": null,
+            "text": "\n\t",
             "tail": null,
             "children": [],
             "attributes": {}

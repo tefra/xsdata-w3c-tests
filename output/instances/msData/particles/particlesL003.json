@@ -3,25 +3,33 @@
         "c1_or_c2": [
             {
                 "qname": "c1",
-                "value": null,
-                "substituted": false
+                "text": null,
+                "tail": null,
+                "children": [],
+                "attributes": {}
             },
             {
                 "qname": "c1",
-                "value": "testing",
-                "substituted": false
+                "text": "testing",
+                "tail": null,
+                "children": [],
+                "attributes": {}
             }
         ],
         "d1_or_d2": [
             {
                 "qname": "d1",
-                "value": "testing",
-                "substituted": false
+                "text": "testing",
+                "tail": null,
+                "children": [],
+                "attributes": {}
             },
             {
                 "qname": "d1",
-                "value": "testing",
-                "substituted": false
+                "text": "testing",
+                "tail": null,
+                "children": [],
+                "attributes": {}
             }
         ],
         "c1": [],

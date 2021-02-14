@@ -3,21 +3,13 @@
     "any_element": [
         {
             "qname": "b",
-            "text": "abc",
-            "tail": null,
-            "children": [],
-            "attributes": {
-                "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}string"
-            }
+            "value": "abc",
+            "substituted": false
         },
         {
             "qname": "c",
-            "text": "123",
-            "tail": null,
-            "children": [],
-            "attributes": {
-                "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}int"
-            }
+            "value": 123,
+            "substituted": false
         }
     ]
 }

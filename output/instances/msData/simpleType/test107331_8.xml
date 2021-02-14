@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <item>abc</item>
-  <item>5</item>
-  <item/>
-  <item>1234567890</item>
+  <item xsi:type="base-A">5</item>
+  <item xsi:type="base-B"/>
+  <item xsi:type="base-B">1234567890</item>
   <item xsi:type="A">1</item>
   <item xsi:type="A">2</item>
   <item xsi:type="A">3</item>
@@ -11,12 +11,12 @@
   <item xsi:type="B">a</item>
   <item xsi:type="B">c123456789</item>
   <item xsi:type="B">b</item>
-  <item>1</item>
-  <item>4</item>
-  <item>c123456789</item>
-  <item>4</item>
-  <item>1 2 3 4</item>
-  <item>1 c123456789 b 4</item>
-  <item>1</item>
-  <item>2</item>
+  <item xsi:type="Union-A">1</item>
+  <item xsi:type="Union-A">4</item>
+  <item xsi:type="Union-AB">c123456789</item>
+  <item xsi:type="Union-AB">4</item>
+  <item xsi:type="List-AB">1 2 3 4</item>
+  <item xsi:type="List-AB">1 c123456789 b 4</item>
+  <item xsi:type="R-A">1</item>
+  <item xsi:type="R-A">2</item>
 </root>

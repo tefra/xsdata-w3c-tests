@@ -2,23 +2,31 @@
     "a_or_b": [
         {
             "qname": "{http://xsdtesting}b",
-            "value": null,
-            "substituted": false
+            "text": null,
+            "tail": null,
+            "children": [],
+            "attributes": {}
         },
         {
             "qname": "{http://xsdtesting}b",
-            "value": null,
-            "substituted": false
+            "text": null,
+            "tail": null,
+            "children": [],
+            "attributes": {}
         },
         {
             "qname": "{http://xsdtesting}b",
-            "value": null,
-            "substituted": false
+            "text": null,
+            "tail": null,
+            "children": [],
+            "attributes": {}
         },
         {
             "qname": "{http://xsdtesting}b",
-            "value": null,
-            "substituted": false
+            "text": null,
+            "tail": null,
+            "children": [],
+            "attributes": {}
         }
     ]
 }

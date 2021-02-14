@@ -2,8 +2,10 @@
     "e1_or_e2": [
         {
             "qname": "{http://xsdtesting}e1",
-            "value": null,
-            "substituted": false
+            "text": null,
+            "tail": null,
+            "children": [],
+            "attributes": {}
         }
     ]
 }

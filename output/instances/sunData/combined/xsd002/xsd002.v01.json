@@ -33,8 +33,10 @@
         },
         {
             "qname": "{http://foo.com}bar",
-            "value": null,
-            "substituted": false
+            "text": null,
+            "tail": null,
+            "children": [],
+            "attributes": {}
         },
         {
             "qname": "zot",

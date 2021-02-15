@@ -3,7 +3,7 @@
         "\n  (",
         {
             "qname": "{http://open.com/}extra",
-            "text": null,
+            "text": "",
             "tail": ")\n",
             "children": [],
             "attributes": {}

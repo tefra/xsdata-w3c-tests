@@ -21,7 +21,7 @@
         },
         {
             "qname": "item",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {

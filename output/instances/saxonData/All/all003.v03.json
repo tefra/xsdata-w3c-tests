@@ -2,28 +2,28 @@
     "content": [
         {
             "qname": "a",
-            "text": null,
+            "text": "",
             "tail": "banana",
             "children": [],
             "attributes": {}
         },
         {
             "qname": "b",
-            "text": null,
+            "text": "",
             "tail": "custard",
             "children": [],
             "attributes": {}
         },
         {
             "qname": "c",
-            "text": null,
+            "text": "",
             "tail": "mango",
             "children": [],
             "attributes": {}
         },
         {
             "qname": "d",
-            "text": null,
+            "text": "",
             "tail": "pineapples and cream",
             "children": [],
             "attributes": {}

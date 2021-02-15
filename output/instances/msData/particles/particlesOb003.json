@@ -3,28 +3,28 @@
         "any_element": [
             {
                 "qname": "{http://other}other",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [],
                 "attributes": {}
             },
             {
                 "qname": "{http://other}other",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [],
                 "attributes": {}
             },
             {
                 "qname": "{http://other}other",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [],
                 "attributes": {}
             },
             {
                 "qname": "{http://other}other",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [],
                 "attributes": {}

@@ -3,7 +3,7 @@
         "\nXML Schema: Structures specifies the XML Schema definition language, \nwhich offers facilities for describing the structure and constraining \nthe contents of XML 1.0 documents, including those which exploit the \nXML Namespace facility\n\n",
         {
             "qname": "dot",
-            "text": null,
+            "text": "",
             "tail": "\n\n\nThe schema language, which is itself represented in XML 1.0 and uses \nnamespaces, substantially reconstructs and considerably extends the \ncapabilities found in XML 1.0 document type definitions (DTDs) ...\n",
             "children": [],
             "attributes": {}

@@ -6,21 +6,21 @@
     "other_element": [
         {
             "qname": "{urn:bar}elem",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}
         },
         {
             "qname": "{urn:bar}elem",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}
         },
         {
             "qname": "{urn:bar}elem",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}

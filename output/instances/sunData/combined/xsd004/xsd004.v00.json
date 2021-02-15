@@ -4,24 +4,24 @@
             "any_element": [
                 {
                     "qname": "{foo}root",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
                             "qname": "{foo}child",
-                            "text": null,
+                            "text": "",
                             "tail": null,
                             "children": [],
                             "attributes": {}
                         },
                         {
                             "qname": "{bar}nocheck",
-                            "text": null,
+                            "text": "",
                             "tail": "\n\t\t\tmixed is also allowed?\n\t\t",
                             "children": [
                                 {
                                     "qname": "{zot}nocheck",
-                                    "text": null,
+                                    "text": "",
                                     "tail": null,
                                     "children": [],
                                     "attributes": {}
@@ -38,19 +38,19 @@
             "any_element": [
                 {
                     "qname": "{foo}undeclared",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
                             "qname": "{bar}a",
-                            "text": null,
+                            "text": "",
                             "tail": null,
                             "children": [],
                             "attributes": {}
                         },
                         {
                             "qname": "undefined",
-                            "text": null,
+                            "text": "",
                             "tail": null,
                             "children": [],
                             "attributes": {}
@@ -64,21 +64,21 @@
             "any_element": [
                 {
                     "qname": "{bar}c",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
                 },
                 {
                     "qname": "{zot}b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
                 },
                 {
                     "qname": "{zot}c",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
@@ -89,33 +89,33 @@
             "other_element": [
                 {
                     "qname": "{bob}undeclared",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
                 },
                 {
                     "qname": "{nowhere}anyThing",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
                 },
                 {
                     "qname": "{other1}asLongAsInOtherNS",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
                 },
                 {
                     "qname": "{zot}a",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
                             "qname": "{zot}a",
-                            "text": null,
+                            "text": "",
                             "tail": null,
                             "children": [],
                             "attributes": {}
@@ -129,14 +129,14 @@
             "local_element": [
                 {
                     "qname": "undeclaredOnly",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
                 },
                 {
                     "qname": "butLaxlyValidated",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
@@ -147,21 +147,21 @@
             "target_namespace_element": [
                 {
                     "qname": "{foo}root",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
                 },
                 {
                     "qname": "{foo}root",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
                 },
                 {
                     "qname": "{foo}root",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
@@ -172,33 +172,33 @@
             "bar_element": [
                 {
                     "qname": "{bar}everything",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
                 },
                 {
                     "qname": "{bar}in",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
                 },
                 {
                     "qname": "{bar}bar",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
                 },
                 {
                     "qname": "{bar}a",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
                             "qname": "{bar}ignore",
-                            "text": null,
+                            "text": "",
                             "tail": null,
                             "children": [],
                             "attributes": {}

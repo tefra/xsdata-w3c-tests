@@ -4,7 +4,7 @@
             "StrictContainer": {
                 "other_element": {
                     "qname": "{b}test",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {
@@ -15,7 +15,7 @@
             "LaxContainer": {
                 "other_element": {
                     "qname": "{b}test",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {
@@ -26,7 +26,7 @@
             "SkipContainer": {
                 "other_element": {
                     "qname": "{other}anyOtherGarbage",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
@@ -37,7 +37,7 @@
             "StrictContainer": {
                 "other_element": {
                     "qname": "{b}test",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {
@@ -48,7 +48,7 @@
             "LaxContainer": {
                 "other_element": {
                     "qname": "{other}anyOtherGarbage",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
@@ -57,7 +57,7 @@
             "SkipContainer": {
                 "other_element": {
                     "qname": "{other}anyOtherGarbage",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
@@ -68,7 +68,7 @@
             "StrictContainer": {
                 "other_element": {
                     "qname": "{b}test",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {
@@ -79,7 +79,7 @@
             "LaxContainer": {
                 "other_element": {
                     "qname": "{b}test",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {
@@ -90,7 +90,7 @@
             "SkipContainer": {
                 "other_element": {
                     "qname": "{b}test",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}

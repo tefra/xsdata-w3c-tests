@@ -4,7 +4,7 @@
             "any_element": [
                 {
                     "qname": "a",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {
@@ -15,12 +15,12 @@
                 },
                 {
                     "qname": "{foo}foo",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
                             "qname": "{bar}bar",
-                            "text": null,
+                            "text": "",
                             "tail": null,
                             "children": [],
                             "attributes": {}
@@ -38,12 +38,12 @@
             "target_namespace_element": [
                 {
                     "qname": "{main}notDeclared",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
                             "qname": "{foo}foo",
-                            "text": null,
+                            "text": "",
                             "tail": null,
                             "children": [],
                             "attributes": {}
@@ -61,7 +61,7 @@
             "foo_bar_element": [
                 {
                     "qname": "{foo}x",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {
@@ -70,14 +70,14 @@
                 },
                 {
                     "qname": "{bar}x",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
                 },
                 {
                     "qname": "{foo}x",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
@@ -90,31 +90,31 @@
             "target_namespace_foo_element": [
                 {
                     "qname": "{foo}x",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
                 },
                 {
                     "qname": "{foo}x",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
                 },
                 {
                     "qname": "{main}a",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
                             "qname": "{main}b",
-                            "text": null,
+                            "text": "",
                             "tail": null,
                             "children": [
                                 {
                                     "qname": "{main}c",
-                                    "text": null,
+                                    "text": "",
                                     "tail": null,
                                     "children": [],
                                     "attributes": {

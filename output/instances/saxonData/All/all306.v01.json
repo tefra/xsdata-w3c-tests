@@ -2,21 +2,21 @@
     "content": [
         {
             "qname": "b",
-            "text": null,
+            "text": "",
             "tail": "text",
             "children": [],
             "attributes": {}
         },
         {
             "qname": "a",
-            "text": null,
+            "text": "",
             "tail": "text",
             "children": [],
             "attributes": {}
         },
         {
             "qname": "d",
-            "text": null,
+            "text": "",
             "tail": "text",
             "children": [],
             "attributes": {}

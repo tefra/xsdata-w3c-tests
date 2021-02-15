@@ -3,28 +3,28 @@
         "choice": [
             {
                 "qname": "x1",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [],
                 "attributes": {}
             },
             {
                 "qname": "x2",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [],
                 "attributes": {}
             },
             {
                 "qname": "x1",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [],
                 "attributes": {}
             },
             {
                 "qname": "x2",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [],
                 "attributes": {}

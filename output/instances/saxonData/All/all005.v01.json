@@ -2,42 +2,42 @@
     "a_ns_element": [
         {
             "qname": "{http://a.ns/}wasp",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}
         },
         {
             "qname": "{http://b.ns/}bee",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}
         },
         {
             "qname": "{http://a.ns/}ant",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}
         },
         {
             "qname": "{http://b.ns/}beetle",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}
         },
         {
             "qname": "{http://a.ns/}earwig",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}
         },
         {
             "qname": "{http://b.ns/}maybug",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}

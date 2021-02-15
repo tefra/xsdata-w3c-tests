@@ -4,19 +4,19 @@
             "any_element": [
                 {
                     "qname": "{http://xsdtesting}foo",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
                             "qname": "abc",
-                            "text": null,
+                            "text": "",
                             "tail": null,
                             "children": [],
                             "attributes": {}
                         },
                         {
                             "qname": "{http://xsdtesting}doc",
-                            "text": null,
+                            "text": "",
                             "tail": null,
                             "children": [],
                             "attributes": {}

@@ -8,14 +8,14 @@
     "any_element": [
         {
             "qname": "d",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}
         },
         {
             "qname": "e",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}

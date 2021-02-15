@@ -2,26 +2,26 @@
     "foo_or_bar_or_zot": [
         {
             "qname": "foo",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
                     "qname": "this",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
                 },
                 {
                     "qname": "contents",
-                    "text": null,
+                    "text": "",
                     "tail": "\n\t\tshould not be\n\t\tvalidated\n\t\t",
                     "children": [],
                     "attributes": {}
                 },
                 {
                     "qname": "because",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {
@@ -33,7 +33,7 @@
         },
         {
             "qname": "{http://foo.com}bar",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}
@@ -45,12 +45,12 @@
             "children": [
                 {
                     "qname": "ur",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
                             "qname": "type",
-                            "text": null,
+                            "text": "",
                             "tail": null,
                             "children": [],
                             "attributes": {}

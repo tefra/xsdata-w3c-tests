@@ -3,12 +3,12 @@
         "local_foo_bar_target_namespace_element": [
             {
                 "qname": "a",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [
                     {
                         "qname": "e1",
-                        "text": null,
+                        "text": "",
                         "tail": null,
                         "children": [],
                         "attributes": {}

@@ -4,7 +4,7 @@
             "other_element": [
                 {
                     "qname": "{bar}a",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}

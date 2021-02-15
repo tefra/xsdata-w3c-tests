@@ -1,7 +1,7 @@
 {
     "open_com_element": {
         "qname": "{http://open.com/}x",
-        "text": null,
+        "text": "",
         "tail": null,
         "children": [],
         "attributes": {}

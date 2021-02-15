@@ -30,7 +30,7 @@
         },
         {
             "qname": "a",
-            "text": null,
+            "text": "",
             "tail": "strawberries\n  ",
             "children": [],
             "attributes": {}

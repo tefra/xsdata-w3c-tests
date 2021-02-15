@@ -9,7 +9,7 @@
     ],
     "any_element": {
         "qname": "{http://www.w3.org/XML/2008/xsdl-exx/ns1}e",
-        "text": null,
+        "text": "",
         "tail": null,
         "children": [],
         "attributes": {}

@@ -2,7 +2,7 @@
     "any_element": [
         {
             "qname": "{ns-a}e1",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
@@ -24,7 +24,7 @@
         },
         {
             "qname": "{ns-a}e2",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
@@ -46,7 +46,7 @@
         },
         {
             "qname": "{ns-a}e3",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
@@ -68,7 +68,7 @@
         },
         {
             "qname": "{ns-a}e1",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
@@ -90,7 +90,7 @@
         },
         {
             "qname": "{ns-a}a-e2",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
@@ -112,7 +112,7 @@
         },
         {
             "qname": "{ns-a}a-e3",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
@@ -134,7 +134,7 @@
         },
         {
             "qname": "{ns-a}b-e1",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
@@ -156,7 +156,7 @@
         },
         {
             "qname": "{ns-a}a-e2",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
@@ -178,7 +178,7 @@
         },
         {
             "qname": "{ns-a}b-e3",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
@@ -200,7 +200,7 @@
         },
         {
             "qname": "{ns-a}c-e1",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
@@ -222,7 +222,7 @@
         },
         {
             "qname": "{ns-a}c-e2",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
@@ -244,7 +244,7 @@
         },
         {
             "qname": "{ns-a}e3",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {

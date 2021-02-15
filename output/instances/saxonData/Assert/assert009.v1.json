@@ -2,12 +2,12 @@
     "any_element": [
         {
             "qname": "a",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
@@ -25,12 +25,12 @@
         },
         {
             "qname": "a",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
@@ -48,12 +48,12 @@
         },
         {
             "qname": "a",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
@@ -71,12 +71,12 @@
         },
         {
             "qname": "a",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
@@ -94,12 +94,12 @@
         },
         {
             "qname": "a",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
@@ -117,22 +117,22 @@
         },
         {
             "qname": "a",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
                             "qname": "c",
-                            "text": null,
+                            "text": "",
                             "tail": null,
                             "children": [
                                 {
                                     "qname": "allowed",
-                                    "text": null,
+                                    "text": "",
                                     "tail": null,
                                     "children": [],
                                     "attributes": {}
@@ -148,12 +148,12 @@
         },
         {
             "qname": "a",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
@@ -171,12 +171,12 @@
         },
         {
             "qname": "a",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
@@ -194,12 +194,12 @@
         },
         {
             "qname": "a",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
@@ -217,12 +217,12 @@
         },
         {
             "qname": "a",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
@@ -240,12 +240,12 @@
         },
         {
             "qname": "a",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
@@ -263,22 +263,22 @@
         },
         {
             "qname": "a",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
                             "qname": "c",
-                            "text": null,
+                            "text": "",
                             "tail": null,
                             "children": [
                                 {
                                     "qname": "allowed",
-                                    "text": null,
+                                    "text": "",
                                     "tail": null,
                                     "children": [],
                                     "attributes": {}
@@ -294,12 +294,12 @@
         },
         {
             "qname": "a",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
@@ -317,12 +317,12 @@
         },
         {
             "qname": "a",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
@@ -340,12 +340,12 @@
         },
         {
             "qname": "a",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
@@ -363,12 +363,12 @@
         },
         {
             "qname": "a",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
@@ -386,12 +386,12 @@
         },
         {
             "qname": "a",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
@@ -409,22 +409,22 @@
         },
         {
             "qname": "a",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
                             "qname": "c",
-                            "text": null,
+                            "text": "",
                             "tail": null,
                             "children": [
                                 {
                                     "qname": "allowed",
-                                    "text": null,
+                                    "text": "",
                                     "tail": null,
                                     "children": [],
                                     "attributes": {}

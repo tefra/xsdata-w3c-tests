@@ -9,7 +9,7 @@
             "any_element": [
                 {
                     "qname": "foo",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {
@@ -26,12 +26,12 @@
                 },
                 {
                     "qname": "bar",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
                             "qname": "foo",
-                            "text": null,
+                            "text": "",
                             "tail": null,
                             "children": [],
                             "attributes": {
@@ -51,17 +51,17 @@
                 },
                 {
                     "qname": "foo",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
                             "qname": "bar",
-                            "text": null,
+                            "text": "",
                             "tail": null,
                             "children": [
                                 {
                                     "qname": "foo",
-                                    "text": null,
+                                    "text": "",
                                     "tail": null,
                                     "children": [],
                                     "attributes": {
@@ -84,27 +84,27 @@
                 },
                 {
                     "qname": "foo",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
                             "qname": "bar",
-                            "text": null,
+                            "text": "",
                             "tail": null,
                             "children": [
                                 {
                                     "qname": "foo",
-                                    "text": null,
+                                    "text": "",
                                     "tail": null,
                                     "children": [
                                         {
                                             "qname": "bar",
-                                            "text": null,
+                                            "text": "",
                                             "tail": null,
                                             "children": [
                                                 {
                                                     "qname": "foo",
-                                                    "text": null,
+                                                    "text": "",
                                                     "tail": null,
                                                     "children": [],
                                                     "attributes": {
@@ -133,47 +133,47 @@
                 },
                 {
                     "qname": "foo",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
                             "qname": "bar",
-                            "text": null,
+                            "text": "",
                             "tail": null,
                             "children": [
                                 {
                                     "qname": "foo",
-                                    "text": null,
+                                    "text": "",
                                     "tail": null,
                                     "children": [
                                         {
                                             "qname": "bar",
-                                            "text": null,
+                                            "text": "",
                                             "tail": null,
                                             "children": [
                                                 {
                                                     "qname": "foo",
-                                                    "text": null,
+                                                    "text": "",
                                                     "tail": null,
                                                     "children": [
                                                         {
                                                             "qname": "bar",
-                                                            "text": null,
+                                                            "text": "",
                                                             "tail": null,
                                                             "children": [
                                                                 {
                                                                     "qname": "foo",
-                                                                    "text": null,
+                                                                    "text": "",
                                                                     "tail": null,
                                                                     "children": [
                                                                         {
                                                                             "qname": "bar",
-                                                                            "text": null,
+                                                                            "text": "",
                                                                             "tail": null,
                                                                             "children": [
                                                                                 {
                                                                                     "qname": "foo",
-                                                                                    "text": null,
+                                                                                    "text": "",
                                                                                     "tail": null,
                                                                                     "children": [],
                                                                                     "attributes": {
@@ -241,7 +241,7 @@
                 },
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {

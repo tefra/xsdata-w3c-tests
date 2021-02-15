@@ -4,14 +4,14 @@
         "any_element": [
             {
                 "qname": "foo",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [],
                 "attributes": {}
             },
             {
                 "qname": "foo",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [],
                 "attributes": {}

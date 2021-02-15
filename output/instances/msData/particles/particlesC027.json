@@ -4,14 +4,14 @@
             "local_element": [
                 {
                     "qname": "a",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
                 },
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}

@@ -4,7 +4,7 @@
             "foo_bar_target_namespace_element": [
                 {
                     "qname": "{http://xsdtesting}foo",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}

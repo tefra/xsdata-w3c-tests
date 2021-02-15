@@ -4,7 +4,7 @@
         "a1_or_a2": [
             {
                 "qname": "A1",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [],
                 "attributes": {}

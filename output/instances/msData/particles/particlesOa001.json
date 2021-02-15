@@ -2,17 +2,17 @@
     "elem": {
         "any_element": {
             "qname": "{http://xsdtesting}doc",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
                     "qname": "elem",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
                             "qname": "{http://xsdtesting}foo",
-                            "text": null,
+                            "text": "",
                             "tail": null,
                             "children": [],
                             "attributes": {}

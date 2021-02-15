@@ -2,7 +2,7 @@
     "elem": {
         "foo_bar_element": {
             "qname": "{bar}e1",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}

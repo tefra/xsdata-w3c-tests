@@ -2,7 +2,7 @@
     "any_element": [
         {
             "qname": "e1",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
@@ -24,7 +24,7 @@
         },
         {
             "qname": "e2",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {

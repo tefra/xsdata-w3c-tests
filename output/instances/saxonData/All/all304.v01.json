@@ -5,14 +5,14 @@
     "one_com_element": [
         {
             "qname": "{http://one.com/}one",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}
         },
         {
             "qname": "{http://one.com/}three",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}
@@ -23,14 +23,14 @@
     "two_com_element": [
         {
             "qname": "{http://two.com/}two",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}
         },
         {
             "qname": "{http://two.com/}four",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}

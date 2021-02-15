@@ -2,21 +2,21 @@
     "any_element": [
         {
             "qname": "{ns-a}foo_a",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}
         },
         {
             "qname": "{ns-b}foo_b",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}
         },
         {
             "qname": "{ns-b}foo_c",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}

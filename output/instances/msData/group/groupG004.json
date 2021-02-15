@@ -3,14 +3,14 @@
         "choice": [
             {
                 "qname": "y1",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [],
                 "attributes": {}
             },
             {
                 "qname": "y2",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [],
                 "attributes": {}

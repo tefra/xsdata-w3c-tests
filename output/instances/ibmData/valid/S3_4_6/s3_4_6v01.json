@@ -17,7 +17,7 @@
         },
         {
             "qname": "wildcard3",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {

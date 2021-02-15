@@ -3,17 +3,17 @@
         {
             "target_namespace_imported_xsd_element": {
                 "qname": "{http://importedXSD}doc1",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [
                     {
                         "qname": "{http://importedXSD}elem1",
-                        "text": null,
+                        "text": "",
                         "tail": null,
                         "children": [
                             {
                                 "qname": "{http://importedXSD}bbb",
-                                "text": null,
+                                "text": "",
                                 "tail": null,
                                 "children": [],
                                 "attributes": {}
@@ -23,12 +23,12 @@
                     },
                     {
                         "qname": "{http://importedXSD}elem2",
-                        "text": null,
+                        "text": "",
                         "tail": null,
                         "children": [
                             {
                                 "qname": "{http://importedXSD}bbb",
-                                "text": null,
+                                "text": "",
                                 "tail": null,
                                 "children": [],
                                 "attributes": {}

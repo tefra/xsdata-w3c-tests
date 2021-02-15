@@ -13,6 +13,10 @@ from models.xlink import (
     TitleEltType,
     TypeType,
 )
+from models.xml import (
+    LangValue,
+    SpaceValue,
+)
 from models.xsts import (
     XdmFiltering,
     Annotation,
@@ -40,6 +44,7 @@ from models.xsts import (
     TestSetRef,
     TestSuite,
     TestSuiteResults,
+    TestSuiteResultsPublicationPermission,
     UnicodeVersions,
     XmlSubstrate,
     XpathInCta,

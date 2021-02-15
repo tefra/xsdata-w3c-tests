@@ -4,21 +4,21 @@
         "a1_or_a2": [
             {
                 "qname": "A1",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [],
                 "attributes": {}
             },
             {
                 "qname": "A2",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [],
                 "attributes": {}
             },
             {
                 "qname": "A1",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [],
                 "attributes": {}

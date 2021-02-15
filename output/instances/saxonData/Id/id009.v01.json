@@ -32,7 +32,7 @@
         },
         {
             "node_or_id_or_idref": [
-                "",
+                null,
                 {
                     "qname": "idref",
                     "value": null,

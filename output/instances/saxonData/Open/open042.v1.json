@@ -14,7 +14,7 @@
             "value": {
                 "other_element": {
                     "qname": "{http://open.com/}extra",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}

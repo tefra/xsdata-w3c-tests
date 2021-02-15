@@ -2,28 +2,28 @@
     "a_or_b": [
         {
             "qname": "{http://xsdtesting}b",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}
         },
         {
             "qname": "{http://xsdtesting}b",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}
         },
         {
             "qname": "{http://xsdtesting}b",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}
         },
         {
             "qname": "{http://xsdtesting}b",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}

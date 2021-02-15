@@ -6,19 +6,19 @@
         "children": [
             {
                 "qname": "foo",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [
                     {
                         "qname": "e1",
-                        "text": null,
+                        "text": "",
                         "tail": null,
                         "children": [],
                         "attributes": {}
                     },
                     {
                         "qname": "e2",
-                        "text": null,
+                        "text": "",
                         "tail": null,
                         "children": [],
                         "attributes": {}
@@ -28,7 +28,7 @@
             },
             {
                 "qname": "global",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [],
                 "attributes": {}

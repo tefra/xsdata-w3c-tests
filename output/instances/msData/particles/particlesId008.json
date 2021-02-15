@@ -2,14 +2,14 @@
     "e1_or_e2": [
         {
             "qname": "{http://xsdtesting}e1",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}
         },
         {
             "qname": "{http://xsdtesting}e1",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}

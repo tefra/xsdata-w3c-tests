@@ -6,7 +6,7 @@
     ],
     "any_element": {
         "qname": "b",
-        "text": null,
+        "text": "",
         "tail": null,
         "children": [],
         "attributes": {}

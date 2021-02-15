@@ -4,7 +4,7 @@
             "foo_target_namespace_bar_local_element": [
                 {
                     "qname": "{foo}foo",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}

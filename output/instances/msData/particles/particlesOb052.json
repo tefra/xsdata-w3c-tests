@@ -2,7 +2,7 @@
     "elem": {
         "local_foo_bar_target_namespace_element": {
             "qname": "e1",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}

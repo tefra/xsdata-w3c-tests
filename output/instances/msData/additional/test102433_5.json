@@ -1,7 +1,7 @@
 {
     "any_element": {
         "qname": "{ns}baz",
-        "text": null,
+        "text": "",
         "tail": null,
         "children": [],
         "attributes": {}

@@ -8,7 +8,7 @@
     "n3_element": null,
     "n4_element": {
         "qname": "{http://n4}foo",
-        "text": null,
+        "text": "",
         "tail": null,
         "children": [],
         "attributes": {}

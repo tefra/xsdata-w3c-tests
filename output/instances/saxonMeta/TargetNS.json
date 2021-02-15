@@ -260,7 +260,7 @@
                                 },
                                 {
                                     "qname": "{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentationReference",
-                                    "text": null,
+                                    "text": "",
                                     "tail": null,
                                     "children": [],
                                     "attributes": {

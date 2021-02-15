@@ -1,7 +1,7 @@
 {
     "any_element": {
         "qname": "{AttrUse/attrDecl}elementWithAttr",
-        "text": null,
+        "text": "",
         "tail": null,
         "children": [],
         "attributes": {

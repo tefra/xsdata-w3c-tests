@@ -4,12 +4,12 @@
             "foo_bar_element": [
                 {
                     "qname": "{foo}foo",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
                             "qname": "{just_testing_should_pass}bar",
-                            "text": null,
+                            "text": "",
                             "tail": null,
                             "children": [],
                             "attributes": {}
@@ -19,7 +19,7 @@
                 },
                 {
                     "qname": "{foo}foo",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}

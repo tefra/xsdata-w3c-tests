@@ -1,17 +1,17 @@
 {
     "any_element": {
         "qname": "{foo}bar",
-        "text": null,
+        "text": "",
         "tail": null,
         "children": [
             {
                 "qname": "{foo1}foo1",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [
                     {
                         "qname": "{foo}bar",
-                        "text": null,
+                        "text": "",
                         "tail": null,
                         "children": [],
                         "attributes": {}

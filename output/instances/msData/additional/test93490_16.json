@@ -4,12 +4,12 @@
             "any_element": [
                 {
                     "qname": "{http://www.w3.org/2001/XMLSchema}schema",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [
                         {
                             "qname": "{http://www.w3.org/2001/XMLSchema}import",
-                            "text": null,
+                            "text": "",
                             "tail": null,
                             "children": [],
                             "attributes": {
@@ -19,22 +19,22 @@
                         },
                         {
                             "qname": "{http://www.w3.org/2001/XMLSchema}element",
-                            "text": null,
+                            "text": "",
                             "tail": null,
                             "children": [
                                 {
                                     "qname": "{http://www.w3.org/2001/XMLSchema}complexType",
-                                    "text": null,
+                                    "text": "",
                                     "tail": null,
                                     "children": [
                                         {
                                             "qname": "{http://www.w3.org/2001/XMLSchema}all",
-                                            "text": null,
+                                            "text": "",
                                             "tail": null,
                                             "children": [
                                                 {
                                                     "qname": "{http://www.w3.org/2001/XMLSchema}element",
-                                                    "text": null,
+                                                    "text": "",
                                                     "tail": null,
                                                     "children": [],
                                                     "attributes": {
@@ -44,7 +44,7 @@
                                                 },
                                                 {
                                                     "qname": "{http://www.w3.org/2001/XMLSchema}element",
-                                                    "text": null,
+                                                    "text": "",
                                                     "tail": null,
                                                     "children": [],
                                                     "attributes": {
@@ -71,7 +71,7 @@
                 },
                 {
                     "qname": "a",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}

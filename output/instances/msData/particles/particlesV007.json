@@ -3,7 +3,7 @@
         "e1_or_e2": [
             {
                 "qname": "e1",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [],
                 "attributes": {}

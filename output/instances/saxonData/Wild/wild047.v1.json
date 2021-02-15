@@ -2,7 +2,7 @@
     "name": "mine",
     "local_element": {
         "qname": "f",
-        "text": null,
+        "text": "",
         "tail": null,
         "children": [],
         "attributes": {}

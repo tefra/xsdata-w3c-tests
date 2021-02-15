@@ -2,7 +2,7 @@
     "choice": [
         {
             "qname": "{http://www.w3.org/1999/xhtml}html",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {

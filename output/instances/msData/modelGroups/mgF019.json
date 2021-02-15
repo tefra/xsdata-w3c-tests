@@ -2,28 +2,28 @@
     "any_element": [
         {
             "qname": "{http://n1}foo",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}
         },
         {
             "qname": "{http://n2}foo",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}
         },
         {
             "qname": "{http://n3}foo",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}
         },
         {
             "qname": "{http://n4}foo",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}

@@ -8,7 +8,7 @@
     "d": "",
     "any_element": {
         "qname": "{http://closed.com/}x",
-        "text": null,
+        "text": "",
         "tail": null,
         "children": [],
         "attributes": {}

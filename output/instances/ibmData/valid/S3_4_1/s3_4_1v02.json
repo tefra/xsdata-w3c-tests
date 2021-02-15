@@ -13,7 +13,7 @@
     "q": {
         "any_element": {
             "qname": "wer",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {

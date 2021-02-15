@@ -1,7 +1,7 @@
 {
     "any_element": {
         "qname": "{http://eve.com/}eve",
-        "text": null,
+        "text": "",
         "tail": null,
         "children": [],
         "attributes": {}

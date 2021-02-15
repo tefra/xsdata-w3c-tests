@@ -2,7 +2,7 @@
     "foo_element": [
         {
             "qname": "{foo}test",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [],
             "attributes": {}

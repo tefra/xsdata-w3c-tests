@@ -2,12 +2,12 @@
     "elem": {
         "any_element": {
             "qname": "{bar}bar",
-            "text": null,
+            "text": "",
             "tail": null,
             "children": [
                 {
                     "qname": "{bar}e1",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}

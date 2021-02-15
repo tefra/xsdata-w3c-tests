@@ -6,7 +6,7 @@
         "children": [
             {
                 "qname": "{AttrGroup/attrWCard}elementWithAttr",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [],
                 "attributes": {
@@ -15,7 +15,7 @@
             },
             {
                 "qname": "{AttrGroup/attrWCard}elementWithAttr",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [],
                 "attributes": {

@@ -2,7 +2,7 @@
     "name": "",
     "local_target_namespace_element": {
         "qname": "{http://wild053.org/}wang",
-        "text": null,
+        "text": "",
         "tail": null,
         "children": [],
         "attributes": {}

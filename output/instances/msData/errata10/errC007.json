@@ -1,7 +1,7 @@
 {
     "localElement1": {
         "qname": "localElement1",
-        "text": null,
+        "text": "",
         "tail": null,
         "children": [
             {
@@ -18,7 +18,7 @@
     },
     "localElement2": {
         "qname": "localElement2",
-        "text": null,
+        "text": "",
         "tail": null,
         "children": [
             {

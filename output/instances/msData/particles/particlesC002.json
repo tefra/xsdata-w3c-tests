@@ -3,7 +3,7 @@
         {
             "any_element": {
                 "qname": "{http://xsdtesting}a",
-                "text": null,
+                "text": "",
                 "tail": null,
                 "children": [],
                 "attributes": {}

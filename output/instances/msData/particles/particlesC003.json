@@ -4,35 +4,35 @@
             "any_element": [
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
                 },
                 {
                     "qname": "{http://foo}b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
                 },
                 {
                     "qname": "{xmlns}b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
                 },
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}
                 },
                 {
                     "qname": "b",
-                    "text": null,
+                    "text": "",
                     "tail": null,
                     "children": [],
                     "attributes": {}

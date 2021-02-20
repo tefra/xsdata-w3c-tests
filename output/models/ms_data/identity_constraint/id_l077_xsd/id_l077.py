@@ -49,6 +49,9 @@ class Ttype:
     class Row:
         value: Optional[str] = field(
             default=None,
+            metadata={
+                "required": True,
+            }
         )
         x: Optional[str] = field(
             default=None,
@@ -62,6 +65,9 @@ class Ttype:
     class Ref:
         value: Optional[str] = field(
             default=None,
+            metadata={
+                "required": True,
+            }
         )
         y: Optional[str] = field(
             default=None,

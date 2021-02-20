@@ -14,7 +14,6 @@ class NistschemaSvIvListGYearMonthLength5:
     value: List[XmlPeriod] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "length": 10,
             "tokens": True,
         }

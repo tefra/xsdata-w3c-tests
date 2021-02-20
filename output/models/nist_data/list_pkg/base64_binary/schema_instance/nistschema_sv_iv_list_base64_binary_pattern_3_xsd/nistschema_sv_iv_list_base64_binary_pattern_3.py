@@ -13,7 +13,6 @@ class NistschemaSvIvListBase64BinaryPattern3:
     value: List[str] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "pattern": r"[a-zA-Z0-9+/]{12} [a-zA-Z0-9+/]{52} [a-zA-Z0-9+/]{28} [a-zA-Z0-9+/]{60} [a-zA-Z0-9+/]{20} [a-zA-Z0-9+/]{20} [a-zA-Z0-9+/]{48} [a-zA-Z0-9+/]{24} [a-zA-Z0-9+/]{72}",
             "tokens": True,
         }

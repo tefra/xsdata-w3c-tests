@@ -13,7 +13,6 @@ class NistschemaSvIvListBase64BinaryWhiteSpace1:
     value: List[bytes] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "white_space": "collapse",
             "tokens": True,
             "format": "base64",

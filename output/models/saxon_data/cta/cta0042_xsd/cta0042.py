@@ -9,6 +9,9 @@ class Zz:
 
     value: Optional[str] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     type: Optional[int] = field(
         default=None,

@@ -26,7 +26,6 @@ class DTimeRoot:
             "name": "elDTimeListRequired",
             "type": "Element",
             "namespace": "http://xstest-tns/schema11_F4_3_16_v03",
-            "required": True,
             "explicit_timezone": "required",
             "tokens": True,
         }
@@ -37,7 +36,6 @@ class DTimeRoot:
             "name": "elDTimeListProhibited",
             "type": "Element",
             "namespace": "http://xstest-tns/schema11_F4_3_16_v03",
-            "required": True,
             "explicit_timezone": "prohibited",
             "tokens": True,
         }
@@ -48,7 +46,6 @@ class DTimeRoot:
             "name": "elDTimeListOptional",
             "type": "Element",
             "namespace": "http://xstest-tns/schema11_F4_3_16_v03",
-            "required": True,
             "explicit_timezone": "optional",
             "tokens": True,
         }

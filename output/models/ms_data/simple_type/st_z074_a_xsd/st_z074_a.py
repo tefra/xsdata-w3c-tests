@@ -14,7 +14,6 @@ class Root:
     value: List[Union[str, List2]] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "max_length": 4,
             "tokens": True,
         }

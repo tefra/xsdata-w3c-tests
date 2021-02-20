@@ -9,6 +9,9 @@ class Para:
 
     value: Optional[str] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     id_one: Optional[str] = field(
         default=None,

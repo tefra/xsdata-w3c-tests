@@ -12,7 +12,6 @@ class Zing:
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-            "required": True,
         }
     )
     local_attributes: Dict = field(
@@ -20,6 +19,5 @@ class Zing:
         metadata={
             "type": "Attributes",
             "namespace": "##local",
-            "required": True,
         }
     )

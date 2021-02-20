@@ -12,7 +12,6 @@ class ComplexfooType:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
             "tokens": True,
             "format": "base16",
         }
@@ -27,7 +26,6 @@ class SimpleTest:
     value: List[bytes] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "tokens": True,
             "format": "base16",
         }
@@ -58,7 +56,6 @@ class Root:
         metadata={
             "name": "simpleTest",
             "type": "Element",
-            "required": True,
             "tokens": True,
             "format": "base16",
         }

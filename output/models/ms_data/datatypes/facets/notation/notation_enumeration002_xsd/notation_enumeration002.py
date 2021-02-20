@@ -32,6 +32,9 @@ class FooType:
     class Foo:
         value: Optional[str] = field(
             default=None,
+            metadata={
+                "required": True,
+            }
         )
         attr_test: Optional[FooAttrTest] = field(
             default=None,

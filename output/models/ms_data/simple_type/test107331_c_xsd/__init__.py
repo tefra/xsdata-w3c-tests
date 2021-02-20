@@ -3,7 +3,7 @@ from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import (
     A2,
     B1,
     B2,
-    RA,
+    RA1,
     UnionA,
     UnionAb,
     A3,

@@ -47,21 +47,18 @@ class Base:
         default=None,
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     b: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
     c: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
 

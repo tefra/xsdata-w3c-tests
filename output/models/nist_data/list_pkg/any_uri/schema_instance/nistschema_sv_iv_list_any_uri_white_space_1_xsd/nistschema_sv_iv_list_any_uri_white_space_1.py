@@ -13,7 +13,6 @@ class NistschemaSvIvListAnyUriWhiteSpace1:
     value: List[str] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "white_space": "collapse",
             "tokens": True,
         }

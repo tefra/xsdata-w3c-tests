@@ -26,6 +26,9 @@ class Root:
 
     value: Optional[str] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     attrd_time_stamp_type: Optional[XmlDateTime] = field(
         default=None,

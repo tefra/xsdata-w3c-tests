@@ -12,6 +12,5 @@ class Zing:
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-            "required": True,
         }
     )

@@ -36,7 +36,6 @@ class DTimeStampRoot:
             "name": "eldTimeStampListB",
             "type": "Element",
             "namespace": "",
-            "required": True,
             "tokens": True,
         }
     )
@@ -46,7 +45,6 @@ class DTimeStampRoot:
             "name": "eldTimeStampListC",
             "type": "Element",
             "namespace": "http://xstest-tns/schema11_D3_4_28_v03",
-            "required": True,
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
             "tokens": True,
         }

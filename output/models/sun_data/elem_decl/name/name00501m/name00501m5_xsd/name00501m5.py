@@ -17,7 +17,6 @@ class GlobalType:
             "name": "Local",
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

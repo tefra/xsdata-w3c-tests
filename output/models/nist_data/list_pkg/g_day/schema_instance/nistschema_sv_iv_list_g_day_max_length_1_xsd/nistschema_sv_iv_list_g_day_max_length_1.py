@@ -14,7 +14,6 @@ class NistschemaSvIvListGDayMaxLength1:
     value: List[XmlPeriod] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "max_length": 5,
             "tokens": True,
         }

@@ -17,6 +17,9 @@ class Example:
     class KindQuantity:
         value: Optional[int] = field(
             default=None,
+            metadata={
+                "required": True,
+            }
         )
         kind: Optional[str] = field(
             default=None,
@@ -30,6 +33,9 @@ class Example:
     class KindPrice:
         value: Optional[float] = field(
             default=None,
+            metadata={
+                "required": True,
+            }
         )
         kind: Optional[str] = field(
             default=None,
@@ -43,6 +49,9 @@ class Example:
     class KindMesg:
         value: Optional[str] = field(
             default=None,
+            metadata={
+                "required": True,
+            }
         )
         kind: Optional[str] = field(
             default=None,

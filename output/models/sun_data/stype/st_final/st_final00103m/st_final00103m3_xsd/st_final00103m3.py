@@ -13,7 +13,6 @@ class Test:
     value: List[str] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "pattern": r"1|2",
             "tokens": True,
         }

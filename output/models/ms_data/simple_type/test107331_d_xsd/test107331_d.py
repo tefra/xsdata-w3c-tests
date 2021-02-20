@@ -36,7 +36,6 @@ class C:
     value: List[float] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "tokens": True,
         }
     )
@@ -50,7 +49,6 @@ class D:
     value: List[Union[float, int, bool]] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "tokens": True,
         }
     )

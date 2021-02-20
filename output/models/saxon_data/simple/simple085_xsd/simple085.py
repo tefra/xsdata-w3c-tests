@@ -10,6 +10,7 @@ class Elem:
     value: Optional[str] = field(
         default=None,
         metadata={
+            "required": True,
             "white_space": "collapse",
             "pattern": r"Hello world",
         }

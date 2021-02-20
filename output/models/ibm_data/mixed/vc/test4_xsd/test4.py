@@ -9,6 +9,9 @@ class TestV2:
 
     value: Optional[int] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     v2: Optional[bool] = field(
         default=None,
@@ -22,10 +25,3 @@ class TestV2:
 class Test(TestV2):
     class Meta:
         name = "test"
-
-    value: Optional[int] = field(
-        default=None,
-        metadata={
-            "required": True,
-        }
-    )

@@ -9,6 +9,9 @@ class Chap:
 
     value: Optional[str] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     de: Optional[object] = field(
         default=None,

@@ -69,6 +69,9 @@ class Ct4:
 
     value: Optional[str] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     name: Optional[str] = field(
         default=None,

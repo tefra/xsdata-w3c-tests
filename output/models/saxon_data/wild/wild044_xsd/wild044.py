@@ -12,7 +12,6 @@ class Computer:
         metadata={
             "type": "Attributes",
             "namespace": "##local http://apple.com/",
-            "required": True,
         }
     )
     local_orange_com_attributes: Dict = field(
@@ -20,6 +19,5 @@ class Computer:
         metadata={
             "type": "Attributes",
             "namespace": "##local http://orange.com/",
-            "required": True,
         }
     )

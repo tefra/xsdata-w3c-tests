@@ -13,7 +13,6 @@ class Root:
         init=False,
         default="1.0E-2",
         metadata={
-            "required": True,
             "pattern": r"...E..",
         }
     )

@@ -14,7 +14,6 @@ class NistschemaSvIvListTimeWhiteSpace1:
     value: List[XmlTime] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "white_space": "collapse",
             "tokens": True,
         }

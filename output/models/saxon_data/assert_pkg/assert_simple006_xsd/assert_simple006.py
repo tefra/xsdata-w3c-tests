@@ -24,4 +24,7 @@ class Value:
 
     value: Optional[Union[XmlDate, XmlDateTime]] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )

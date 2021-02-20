@@ -20,7 +20,6 @@ class BCt:
         default="bar",
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
 

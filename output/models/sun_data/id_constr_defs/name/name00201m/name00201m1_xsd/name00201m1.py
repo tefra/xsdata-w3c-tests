@@ -23,6 +23,9 @@ class Name:
     class Name:
         value: Optional[str] = field(
             default=None,
+            metadata={
+                "required": True,
+            }
         )
         name: Optional[str] = field(
             default=None,

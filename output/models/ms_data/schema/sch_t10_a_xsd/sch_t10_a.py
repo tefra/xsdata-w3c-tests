@@ -20,7 +20,6 @@ class ACt:
         default="bar",
         metadata={
             "type": "Attribute",
-            "required": True,
         }
     )
 

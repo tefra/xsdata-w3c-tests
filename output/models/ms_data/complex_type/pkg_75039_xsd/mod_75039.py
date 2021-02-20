@@ -12,6 +12,7 @@ class Complex11:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "required": True,
         }
     )
 

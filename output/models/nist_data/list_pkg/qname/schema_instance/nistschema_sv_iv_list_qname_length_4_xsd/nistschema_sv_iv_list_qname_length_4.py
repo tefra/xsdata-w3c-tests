@@ -14,7 +14,6 @@ class NistschemaSvIvListQnameLength4:
     value: List[QName] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "length": 8,
             "tokens": True,
         }

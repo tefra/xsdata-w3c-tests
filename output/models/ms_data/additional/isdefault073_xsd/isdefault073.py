@@ -11,7 +11,6 @@ class Ct:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
     b: object = field(
@@ -20,7 +19,6 @@ class Ct:
         metadata={
             "type": "Element",
             "namespace": "",
-            "required": True,
         }
     )
 

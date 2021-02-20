@@ -9,7 +9,4 @@ class Root:
     value: str = field(
         init=False,
         default="abc",
-        metadata={
-            "required": True,
-        }
     )

@@ -12,9 +12,6 @@ class E:
     value: object = field(
         init=False,
         default="alpha",
-        metadata={
-            "required": True,
-        }
     )
 
 

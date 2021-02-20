@@ -19,6 +19,9 @@ class A:
     class Part:
         value: Optional[str] = field(
             default=None,
+            metadata={
+                "required": True,
+            }
         )
         number: Optional[int] = field(
             default=None,

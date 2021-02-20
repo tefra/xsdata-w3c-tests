@@ -18,4 +18,7 @@ class Price:
 
     value: Optional[PriceValue] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )

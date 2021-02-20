@@ -11,6 +11,9 @@ class Ttype:
 
     value: Optional[bool] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     row: Optional[str] = field(
         default=None,
@@ -28,6 +31,9 @@ class Utype:
 
     value: Optional[int] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     row: Optional[str] = field(
         default=None,

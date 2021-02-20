@@ -11,7 +11,4 @@ class Root:
 
     value: float = field(
         default=0.01,
-        metadata={
-            "required": True,
-        }
     )

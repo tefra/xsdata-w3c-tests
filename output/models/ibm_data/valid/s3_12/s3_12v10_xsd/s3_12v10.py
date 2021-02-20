@@ -11,6 +11,9 @@ class DimType:
 
     value: Optional[str] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     length: Optional[object] = field(
         default=None,

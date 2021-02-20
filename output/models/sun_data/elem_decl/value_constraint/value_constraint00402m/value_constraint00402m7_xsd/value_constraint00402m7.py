@@ -13,7 +13,6 @@ class E:
         init=False,
         default="true",
         metadata={
-            "required": True,
             "pattern": r"true",
         }
     )

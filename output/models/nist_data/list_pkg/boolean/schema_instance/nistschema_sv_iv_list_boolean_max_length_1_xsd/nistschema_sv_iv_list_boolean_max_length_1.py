@@ -13,7 +13,6 @@ class NistschemaSvIvListBooleanMaxLength1:
     value: List[bool] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "max_length": 5,
             "tokens": True,
         }

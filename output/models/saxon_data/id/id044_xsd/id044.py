@@ -23,6 +23,9 @@ class Chap:
     class Section:
         value: Optional[str] = field(
             default=None,
+            metadata={
+                "required": True,
+            }
         )
         nr: Optional[Decimal] = field(
             default=None,

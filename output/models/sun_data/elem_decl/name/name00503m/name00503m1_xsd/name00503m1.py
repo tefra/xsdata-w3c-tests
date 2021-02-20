@@ -12,6 +12,7 @@ class Global1:
     value: Optional[str] = field(
         default=None,
         metadata={
+            "required": True,
             "pattern": r"false",
         }
     )
@@ -25,6 +26,7 @@ class Global2:
     value: Optional[str] = field(
         default=None,
         metadata={
+            "required": True,
             "pattern": r"false",
         }
     )

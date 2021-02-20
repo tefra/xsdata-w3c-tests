@@ -14,7 +14,4 @@ class Root:
 
     value: Mylist = field(
         default=Mylist.VALUE_1,
-        metadata={
-            "required": True,
-        }
     )

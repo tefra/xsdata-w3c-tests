@@ -14,7 +14,6 @@ class NistschemaSvIvListDateTimeMinLength1:
     value: List[XmlDateTime] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "min_length": 5,
             "tokens": True,
         }

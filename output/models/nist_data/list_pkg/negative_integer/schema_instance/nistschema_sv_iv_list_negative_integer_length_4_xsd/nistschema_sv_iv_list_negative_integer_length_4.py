@@ -13,7 +13,6 @@ class NistschemaSvIvListNegativeIntegerLength4:
     value: List[int] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "length": 8,
             "tokens": True,
         }

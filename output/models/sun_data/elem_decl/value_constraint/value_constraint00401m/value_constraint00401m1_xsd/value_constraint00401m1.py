@@ -11,9 +11,6 @@ class E:
 
     value: bool = field(
         default=True,
-        metadata={
-            "required": True,
-        }
     )
 
 

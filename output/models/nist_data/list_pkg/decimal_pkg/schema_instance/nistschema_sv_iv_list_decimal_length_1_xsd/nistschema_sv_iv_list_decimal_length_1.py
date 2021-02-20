@@ -14,7 +14,6 @@ class NistschemaSvIvListDecimalLength1:
     value: List[Decimal] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "length": 5,
             "tokens": True,
         }

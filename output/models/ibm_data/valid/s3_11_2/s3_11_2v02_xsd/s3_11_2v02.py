@@ -11,6 +11,9 @@ class Numtype:
 
     value: Optional[int] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     id_1: Optional[int] = field(
         default=None,

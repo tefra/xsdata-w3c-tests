@@ -13,7 +13,6 @@ class NistschemaSvIvListHexBinaryPattern3:
     value: List[str] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "pattern": r"[0-9A-F]{42} [0-9A-F]{32} [0-9A-F]{2} [0-9A-F]{34} [0-9A-F]{68}",
             "tokens": True,
         }

@@ -12,6 +12,5 @@ class Computer:
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-            "required": True,
         }
     )

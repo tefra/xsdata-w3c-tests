@@ -13,7 +13,6 @@ class NistschemaSvIvListBooleanWhiteSpace1:
     value: List[bool] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "white_space": "collapse",
             "tokens": True,
         }

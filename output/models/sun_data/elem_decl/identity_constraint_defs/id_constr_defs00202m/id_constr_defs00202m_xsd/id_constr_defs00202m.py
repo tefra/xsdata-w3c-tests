@@ -24,6 +24,9 @@ class Root:
     class Person:
         value: Optional[str] = field(
             default=None,
+            metadata={
+                "required": True,
+            }
         )
         birthday: Optional[XmlDate] = field(
             default=None,

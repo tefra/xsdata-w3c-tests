@@ -7,4 +7,7 @@ from xsdata.models.datatype import XmlDate
 class Example:
     value: Optional[Union[int, XmlDate]] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )

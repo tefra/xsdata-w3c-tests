@@ -12,6 +12,9 @@ class A1:
 
     value: Optional[int] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     attr1: Optional[str] = field(
         default=None,

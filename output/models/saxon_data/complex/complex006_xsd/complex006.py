@@ -11,6 +11,9 @@ class Root:
 
     value: Optional[Decimal] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     nil: str = field(
         default="true",

@@ -17,7 +17,6 @@ class FooTest:
     value: List[Union[ListOfStatesValue, str]] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "tokens": True,
         }
     )
@@ -33,7 +32,6 @@ class Root:
         metadata={
             "name": "fooTest",
             "type": "Element",
-            "required": True,
             "tokens": True,
         }
     )

@@ -12,6 +12,9 @@ class Foo:
 
     value: Optional[str] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     local_w3_org_1999_xhtml_attributes: Dict = field(
         default_factory=dict,

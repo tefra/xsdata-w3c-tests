@@ -10,7 +10,6 @@ class FooTest:
     value: List[int] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "max_length": 3,
             "tokens": True,
         }
@@ -27,7 +26,6 @@ class Root:
         metadata={
             "name": "fooTest",
             "type": "Element",
-            "required": True,
             "max_length": 3,
             "tokens": True,
         }

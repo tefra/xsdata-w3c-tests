@@ -22,6 +22,9 @@ class Chap:
     class Section:
         value: Optional[str] = field(
             default=None,
+            metadata={
+                "required": True,
+            }
         )
         nr: float = field(
             default=float("inf"),

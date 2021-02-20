@@ -13,7 +13,6 @@ class NistschemaSvIvListIdPattern1:
     value: List[str] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "pattern": r"[\i-[:]][\c-[:]]{2} [\i-[:]][\c-[:]]{57} [\i-[:]][\c-[:]]{31} [\i-[:]][\c-[:]]{5} [\i-[:]][\c-[:]]{10} [\i-[:]][\c-[:]]{47} [\i-[:]][\c-[:]]{21}",
             "tokens": True,
         }

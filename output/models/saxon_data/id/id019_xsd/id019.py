@@ -9,6 +9,9 @@ class Para:
 
     value: Optional[str] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     entity: Union[str, int] = field(
         default="entity1",

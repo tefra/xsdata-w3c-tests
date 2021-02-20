@@ -14,7 +14,6 @@ class NistschemaSvIvListTimeLength4:
     value: List[XmlTime] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "length": 8,
             "tokens": True,
         }

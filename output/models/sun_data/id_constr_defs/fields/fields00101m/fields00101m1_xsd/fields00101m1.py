@@ -24,6 +24,9 @@ class People:
     class Person:
         value: Optional[str] = field(
             default=None,
+            metadata={
+                "required": True,
+            }
         )
         parent: Optional[str] = field(
             default=None,

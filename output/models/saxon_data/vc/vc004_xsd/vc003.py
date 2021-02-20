@@ -10,4 +10,7 @@ class Temp:
 
     value: Optional[XmlDate] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )

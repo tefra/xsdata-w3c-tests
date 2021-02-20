@@ -18,4 +18,7 @@ class Test:
 
     value: Optional[TestValue] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )

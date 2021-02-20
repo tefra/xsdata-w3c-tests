@@ -13,7 +13,6 @@ class NistschemaSvIvListDatePattern1:
     value: List[str] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "pattern": r"19\d\d-\d9-\d4 \d\d40-\d7-1\d 18\d\d-0\d-1\d \d\d05-\d4-\d5 \d\d91-0\d-2\d \d\d84-\d7-\d6 \d\d01-\d0-\d2 19\d\d-\d2-\d7 \d\d87-0\d-1\d",
             "tokens": True,
         }

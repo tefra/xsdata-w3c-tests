@@ -9,6 +9,9 @@ class PseudoId:
 
     value: Optional[str] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     a: Optional[str] = field(
         default=None,
@@ -25,6 +28,9 @@ class PseudoIdref:
 
     value: Optional[str] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     a: Optional[str] = field(
         default=None,

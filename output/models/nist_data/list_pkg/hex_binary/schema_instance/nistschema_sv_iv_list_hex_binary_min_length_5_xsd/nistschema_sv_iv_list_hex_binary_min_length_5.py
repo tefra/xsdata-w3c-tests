@@ -13,7 +13,6 @@ class NistschemaSvIvListHexBinaryMinLength5:
     value: List[bytes] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "min_length": 10,
             "tokens": True,
             "format": "base16",

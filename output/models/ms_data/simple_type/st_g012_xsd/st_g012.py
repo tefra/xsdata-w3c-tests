@@ -10,7 +10,6 @@ class FooTest:
     value: List[str] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "pattern": r"[A-C]{0,2}",
             "tokens": True,
         }
@@ -27,7 +26,6 @@ class Root:
         metadata={
             "name": "fooTest",
             "type": "Element",
-            "required": True,
             "pattern": r"[A-C]{0,2}",
             "tokens": True,
         }

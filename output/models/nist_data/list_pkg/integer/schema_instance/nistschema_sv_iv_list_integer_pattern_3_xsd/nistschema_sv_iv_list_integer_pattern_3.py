@@ -13,7 +13,6 @@ class NistschemaSvIvListIntegerPattern3:
     value: List[str] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "pattern": r"\-\d{18} \-\d{9} \-\d{5} \-\d{1} \d{3} \d{7} \d{18}",
             "tokens": True,
         }

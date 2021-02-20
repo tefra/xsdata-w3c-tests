@@ -9,6 +9,9 @@ class XType:
 
     value: Optional[int] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     a: Optional[int] = field(
         default=None,

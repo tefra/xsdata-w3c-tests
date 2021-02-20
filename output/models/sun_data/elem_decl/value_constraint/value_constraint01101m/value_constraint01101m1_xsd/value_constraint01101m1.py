@@ -16,7 +16,6 @@ class Root:
             "name": "Element",
             "type": "Element",
             "namespace": "",
-            "required": True,
             "max_inclusive": 0.0,
         }
     )

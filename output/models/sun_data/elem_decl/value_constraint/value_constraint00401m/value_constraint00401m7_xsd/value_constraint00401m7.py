@@ -12,7 +12,6 @@ class E:
     value: str = field(
         default="true",
         metadata={
-            "required": True,
             "pattern": r"true",
         }
     )

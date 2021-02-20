@@ -21,6 +21,9 @@ class Root:
 
     value: Optional[str] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     ay_mdtype: Optional[XmlDuration] = field(
         default=None,

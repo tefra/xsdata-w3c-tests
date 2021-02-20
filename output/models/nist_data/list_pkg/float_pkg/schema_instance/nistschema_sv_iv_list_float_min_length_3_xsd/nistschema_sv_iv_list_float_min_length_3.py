@@ -13,7 +13,6 @@ class NistschemaSvIvListFloatMinLength3:
     value: List[float] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "min_length": 7,
             "tokens": True,
         }

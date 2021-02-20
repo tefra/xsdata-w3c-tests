@@ -49,7 +49,6 @@ class ResourceType:
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-            "required": True,
         }
     )
     role: Optional[str] = field(
@@ -173,7 +172,6 @@ class TitleEltType:
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-            "required": True,
         }
     )
     lang: Optional[Union[str, LangValue]] = field(
@@ -227,7 +225,6 @@ class ArcType:
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-            "required": True,
         }
     )
     arcrole: Optional[str] = field(
@@ -304,7 +301,6 @@ class LocatorType:
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-            "required": True,
         }
     )
     href: Optional[str] = field(
@@ -400,7 +396,6 @@ class Extended:
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-            "required": True,
         }
     )
     role: Optional[str] = field(

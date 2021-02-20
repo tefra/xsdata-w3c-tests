@@ -13,7 +13,6 @@ class NistschemaSvIvListGMonthDayPattern5:
     value: List[str] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "pattern": r"--0\d-1\d --\d3-1\d --0\d-\d3 --\d5-\d7 --\d2-2\d --0\d-0\d --0\d-1\d --\d1-\d9 --0\d-2\d",
             "tokens": True,
         }

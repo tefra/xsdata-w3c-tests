@@ -14,7 +14,6 @@ class NistschemaSvIvListGYearWhiteSpace1:
     value: List[XmlPeriod] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "white_space": "collapse",
             "tokens": True,
         }

@@ -82,6 +82,9 @@ class EA:
 
     value: Optional[A] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     att: Optional[int] = field(
         default=None,

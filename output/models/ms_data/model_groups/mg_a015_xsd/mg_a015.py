@@ -12,6 +12,7 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "required": True,
         }
     )
     e1: Optional[object] = field(

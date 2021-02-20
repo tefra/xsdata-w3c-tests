@@ -27,6 +27,7 @@ class Cs:
     value: Optional[str] = field(
         default=None,
         metadata={
+            "required": True,
             "min_length": 1,
             "max_length": 4,
         }

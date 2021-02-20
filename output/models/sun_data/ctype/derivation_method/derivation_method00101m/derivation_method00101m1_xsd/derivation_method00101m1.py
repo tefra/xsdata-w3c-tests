@@ -11,6 +11,9 @@ class B1:
 
     value: Optional[str] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     q: Optional[int] = field(
         default=None,

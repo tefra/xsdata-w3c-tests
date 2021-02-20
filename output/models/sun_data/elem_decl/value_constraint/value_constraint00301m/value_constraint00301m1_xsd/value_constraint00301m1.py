@@ -11,7 +11,4 @@ class Root:
 
     value: str = field(
         default="0",
-        metadata={
-            "required": True,
-        }
     )

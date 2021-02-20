@@ -15,7 +15,6 @@ class AttRef:
         metadata={
             "type": "Attribute",
             "namespace": "http://xsdtesting",
-            "required": True,
         }
     )
 

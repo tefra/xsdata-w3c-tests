@@ -13,7 +13,6 @@ class NistschemaSvIvListBase64BinaryMaxLength3:
     value: List[bytes] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "max_length": 7,
             "tokens": True,
             "format": "base64",

@@ -13,7 +13,6 @@ class NistschemaSvIvListQnamePattern1:
     value: List[str] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "pattern": r"([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{45} ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{60} ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{30} ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{46} ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{37} ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{55} ([\i-[:]][\c-[:]]*:)?[\i-[:]][\c-[:]]{54}",
             "tokens": True,
         }

@@ -9,6 +9,9 @@ class FooType:
 
     value: Optional[str] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     my_attr: Optional[str] = field(
         default=None,

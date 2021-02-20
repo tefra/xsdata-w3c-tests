@@ -14,7 +14,6 @@ class NistschemaSvIvListGMonthMinLength4:
     value: List[XmlPeriod] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "min_length": 8,
             "tokens": True,
         }

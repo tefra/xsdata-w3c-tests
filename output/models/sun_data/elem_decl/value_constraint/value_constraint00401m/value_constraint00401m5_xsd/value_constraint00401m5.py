@@ -11,6 +11,9 @@ class Answer:
 
     value: Optional[bool] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     certainty: Optional[str] = field(
         default=None,

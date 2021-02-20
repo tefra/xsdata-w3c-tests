@@ -13,7 +13,6 @@ class NistschemaSvIvListDoubleWhiteSpace1:
     value: List[float] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "white_space": "collapse",
             "tokens": True,
         }

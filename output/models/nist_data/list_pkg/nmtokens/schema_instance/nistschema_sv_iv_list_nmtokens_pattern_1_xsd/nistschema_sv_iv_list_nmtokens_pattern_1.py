@@ -13,7 +13,6 @@ class NistschemaSvIvListNmtokensPattern1:
     value: List[str] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "pattern": r"\c{16} \c{9} \c{44} \c{34} \c{46} \c{6}",
             "tokens": True,
         }

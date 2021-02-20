@@ -13,7 +13,6 @@ class NistschemaSvIvListGYearPattern4:
     value: List[str] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "pattern": r"19\d\d \d\d48 \d\d53 18\d\d \d\d43 19\d\d \d\d10 \d\d46",
             "tokens": True,
         }

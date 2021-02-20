@@ -23,6 +23,9 @@ class Root:
     class Person:
         value: Optional[str] = field(
             default=None,
+            metadata={
+                "required": True,
+            }
         )
         ssn: Optional[str] = field(
             default=None,

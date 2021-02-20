@@ -13,7 +13,6 @@ class NistschemaSvIvListBooleanPattern3:
     value: List[str] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "pattern": r"[1]{1} false [1]{1} true [1]{1}",
             "tokens": True,
         }

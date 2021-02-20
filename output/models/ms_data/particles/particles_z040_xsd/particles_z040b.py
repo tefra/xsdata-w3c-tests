@@ -11,9 +11,6 @@ class B1:
 
     value: str = field(
         default="b1",
-        metadata={
-            "required": True,
-        }
     )
 
 
@@ -26,7 +23,4 @@ class B2:
     value: str = field(
         init=False,
         default="b2",
-        metadata={
-            "required": True,
-        }
     )

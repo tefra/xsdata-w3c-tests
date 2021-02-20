@@ -13,7 +13,6 @@ class NistschemaSvIvListUnsignedShortLength3:
     value: List[int] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "length": 7,
             "tokens": True,
         }

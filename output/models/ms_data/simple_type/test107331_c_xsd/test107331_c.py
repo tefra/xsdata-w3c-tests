@@ -46,7 +46,7 @@ class B2:
     )
 
 
-class RA(Enum):
+class RA1(Enum):
     VALUE_1 = 1
     VALUE_2 = 2
 
@@ -115,7 +115,6 @@ class La:
     value: List[A1] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "tokens": True,
         }
     )
@@ -129,7 +128,6 @@ class Lab:
     value: List[UnionAb] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "tokens": True,
         }
     )
@@ -140,7 +138,7 @@ class Ra:
     class Meta:
         name = "ra"
 
-    value: Optional[RA] = field(
+    value: Optional[RA1] = field(
         default=None,
         metadata={
             "required": True,
@@ -153,7 +151,7 @@ class Root:
     class Meta:
         name = "root"
 
-    ra: List[RA] = field(
+    ra: List[RA1] = field(
         default_factory=list,
         metadata={
             "type": "Element",

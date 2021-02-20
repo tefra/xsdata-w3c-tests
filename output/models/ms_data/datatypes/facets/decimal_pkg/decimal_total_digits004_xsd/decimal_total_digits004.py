@@ -12,7 +12,6 @@ class T1:
         default=None,
         metadata={
             "type": "Attribute",
-            "required": True,
             "total_digits": 5,
             "fraction_digits": 5,
         }

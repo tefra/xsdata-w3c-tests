@@ -13,6 +13,7 @@ class Root:
     value: Optional[str] = field(
         default=None,
         metadata={
+            "required": True,
             "pattern": r"[01]+",
         }
     )

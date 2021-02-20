@@ -12,7 +12,4 @@ class Root:
 
     value: Decimal = field(
         default=Decimal("12"),
-        metadata={
-            "required": True,
-        }
     )

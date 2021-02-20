@@ -14,7 +14,6 @@ class NistschemaSvIvListTimeMaxLength3:
     value: List[XmlTime] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "max_length": 7,
             "tokens": True,
         }

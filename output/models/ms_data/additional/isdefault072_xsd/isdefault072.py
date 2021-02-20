@@ -25,7 +25,6 @@ class Array:
             "name": "ItemType",
             "type": "Attribute",
             "namespace": "http://schemas.microsoft.com/2003/10/Serialization/",
-            "required": True,
         }
     )
     dimensions: List[int] = field(
@@ -35,7 +34,6 @@ class Array:
         metadata={
             "name": "Dimensions",
             "type": "Attribute",
-            "required": True,
             "tokens": True,
         }
     )
@@ -46,7 +44,6 @@ class Array:
         metadata={
             "name": "LowerBounds",
             "type": "Attribute",
-            "required": True,
             "tokens": True,
         }
     )

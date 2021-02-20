@@ -9,6 +9,9 @@ class Para:
 
     value: Optional[str] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     entity: str = field(
         default="entity1 entity2",

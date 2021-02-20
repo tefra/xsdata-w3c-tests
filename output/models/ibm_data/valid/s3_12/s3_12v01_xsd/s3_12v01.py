@@ -32,6 +32,9 @@ class IntegerTitleType(TitleType):
 
     value: Optional[int] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -42,6 +45,9 @@ class MixedTitleType(TitleType):
 
     value: Optional[Union[int, str]] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 
@@ -52,6 +58,9 @@ class StringTitleType(TitleType):
 
     value: Optional[str] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
 
 

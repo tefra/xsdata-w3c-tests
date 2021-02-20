@@ -12,6 +12,9 @@ class Foo:
 
     value: Optional[str] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
     other_attributes: Dict = field(
         default_factory=dict,

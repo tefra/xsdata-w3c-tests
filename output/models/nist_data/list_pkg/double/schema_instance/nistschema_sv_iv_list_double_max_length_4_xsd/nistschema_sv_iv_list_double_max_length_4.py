@@ -13,7 +13,6 @@ class NistschemaSvIvListDoubleMaxLength4:
     value: List[float] = field(
         default_factory=list,
         metadata={
-            "required": True,
             "max_length": 8,
             "tokens": True,
         }

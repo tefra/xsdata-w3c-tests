@@ -6,67 +6,9 @@ __NAMESPACE__ = "urn:foo"
 
 
 @dataclass
-class Add:
-    class Meta:
-        name = "add"
-        namespace = "urn:foo"
-
-    a: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    b: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    c: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    d: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-
-
-@dataclass
 class Base:
     class Meta:
         name = "base"
-        namespace = "urn:foo"
-
-    a: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    b: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    c: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-
-
-@dataclass
-class Default:
-    class Meta:
-        name = "default"
         namespace = "urn:foo"
 
     a: Optional[str] = field(
@@ -94,29 +36,24 @@ class OverrideA(Enum):
 
 
 @dataclass
-class Prohibit:
+class Add(Base):
     class Meta:
-        name = "prohibit"
+        name = "add"
         namespace = "urn:foo"
 
-    a: Optional[str] = field(
+    d: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
         }
     )
-    b: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-    c: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
+
+
+@dataclass
+class Default(Base):
+    class Meta:
+        name = "default"
+        namespace = "urn:foo"
 
 
 @dataclass
@@ -143,3 +80,10 @@ class Override:
             "type": "Attribute",
         }
     )
+
+
+@dataclass
+class Prohibit(Base):
+    class Meta:
+        name = "prohibit"
+        namespace = "urn:foo"

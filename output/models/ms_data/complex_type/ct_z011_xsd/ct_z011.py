@@ -18,6 +18,21 @@ class A:
 
 
 @dataclass
+class A1:
+    class Meta:
+        name = "a"
+
+    any_element: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##any",
+            "required": True,
+        }
+    )
+
+
+@dataclass
 class B:
     class Meta:
         name = "b"

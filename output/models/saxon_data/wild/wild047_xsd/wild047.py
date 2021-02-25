@@ -3,7 +3,38 @@ from typing import List, Optional
 
 
 @dataclass
-class RestrictedComputer:
+class Computer1:
+    class Meta:
+        name = "computer"
+
+    name: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
+    )
+    local_element: List[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Wildcard",
+            "namespace": "##local",
+            "max_occurs": 2,
+        }
+    )
+    extra_com_element: List[object] = field(
+        default_factory=list,
+        metadata={
+            "type": "Wildcard",
+            "namespace": "http://extra.com/",
+            "max_occurs": 2,
+        }
+    )
+
+
+@dataclass
+class RestrictedComputer(Computer1):
     class Meta:
         name = "restrictedComputer"
 
@@ -21,14 +52,6 @@ class RestrictedComputer:
             "type": "Wildcard",
             "namespace": "##local",
             "required": True,
-        }
-    )
-    extra_com_element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "http://extra.com/",
-            "max_occurs": 2,
         }
     )
 

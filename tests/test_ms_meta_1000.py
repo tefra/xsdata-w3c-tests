@@ -2032,6 +2032,7 @@ def test_add_b134_add_b134_v(json_360, save_output):
     )
 
 
+@pytest.mark.xfail
 def test_add_b132_add_b132_v(json_360, save_output):
     """
     TEST :Adhoc XSD: : id="66745" description="xsd validation:xsd

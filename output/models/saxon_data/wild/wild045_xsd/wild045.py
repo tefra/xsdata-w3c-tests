@@ -3,9 +3,9 @@ from typing import Dict
 
 
 @dataclass
-class ExtendedComputer:
+class Computer1:
     class Meta:
-        name = "extendedComputer"
+        name = "computer"
 
     local_attributes: Dict = field(
         default_factory=dict,
@@ -14,6 +14,12 @@ class ExtendedComputer:
             "namespace": "##local",
         }
     )
+
+
+@dataclass
+class ExtendedComputer(Computer1):
+    class Meta:
+        name = "extendedComputer"
 
 
 @dataclass

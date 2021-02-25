@@ -3,9 +3,9 @@ from typing import Dict
 
 
 @dataclass
-class ExtendedZing:
+class Zing1:
     class Meta:
-        name = "extendedZing"
+        name = "zing"
 
     any_attributes: Dict = field(
         default_factory=dict,
@@ -14,6 +14,13 @@ class ExtendedZing:
             "namespace": "##any",
         }
     )
+
+
+@dataclass
+class ExtendedZing(Zing1):
+    class Meta:
+        name = "extendedZing"
+
     local_attributes: Dict = field(
         default_factory=dict,
         metadata={

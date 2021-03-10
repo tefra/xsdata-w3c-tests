@@ -9,10 +9,11 @@ def pytest_addoption(parser):
         help="Save xsdata serialized documents.",
     )
     parser.addoption(
-        "--json-360",
-        action="store_true",
-        default=False,
-        help="Run json 360 tests",
+        "--mode",
+        action="store",
+        default="xsd",
+        choices=["xsd", "xml", "json"],
+        help="Mode",
     )
 
 
@@ -22,11 +23,11 @@ def save_output(request):
 
 
 @pytest.fixture
-def json_360(request):
-    return request.config.getoption("--json-360")
+def mode(request):
+    return request.config.getoption("--mode")
 
 
 @pytest.hookimpl
 def pytest_sessionfinish(session, exitstatus):
-    if session.config.getoption("--json-360") and session.testsfailed <= 120:
+    if session.config.getoption("mode") == "json" and session.testsfailed <= 120:
         session.exitstatus = 0

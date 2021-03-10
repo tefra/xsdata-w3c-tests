@@ -36,7 +36,7 @@ def assert_bindings(
     instance: str,
     class_name: str,
     version: str,
-    json_360: bool,
+    mode: str,
     save_output: bool,
     ns_struct: bool = False,
 ):
@@ -63,7 +63,7 @@ def assert_bindings(
         save_path = output.joinpath(instance)
         save_path.parent.mkdir(parents=True, exist_ok=True)
 
-    if json_360:
+    if mode == "json":
         assert_json_bindings(obj, save_path)
     else:
         assert_xml_bindings(

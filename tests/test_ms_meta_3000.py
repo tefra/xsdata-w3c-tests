@@ -3,7 +3,7 @@ import pytest
 from tests.utils import assert_bindings
 
 
-def test_group_n005v_group_n005v_v(json_360, save_output):
+def test_group_n005v_group_n005v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: elements in
     instant XML=1, minOccurs=0, maxOccurs=1
@@ -13,12 +13,12 @@ def test_group_n005v_group_n005v_v(json_360, save_output):
         instance="msData/group/groupN005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_n004v_group_n004v_v(json_360, save_output):
+def test_group_n004v_group_n004v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: elements in
     instant XML=0, minOccurs=0, maxOccurs=1
@@ -28,13 +28,13 @@ def test_group_n004v_group_n004v_v(json_360, save_output):
         instance="msData/group/groupN004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_n003v_group_n003v_i(json_360, save_output):
+def test_group_n003v_group_n003v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: elements in
     instant XML=2, minOccurs=0, maxOccurs=absent
@@ -44,12 +44,12 @@ def test_group_n003v_group_n003v_i(json_360, save_output):
         instance="msData/group/groupN003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_n002v_group_n002v_v(json_360, save_output):
+def test_group_n002v_group_n002v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: elements in
     instant XML=1, minOccurs=0, maxOccurs=absent
@@ -59,12 +59,12 @@ def test_group_n002v_group_n002v_v(json_360, save_output):
         instance="msData/group/groupN002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_n001v_group_n001v_v(json_360, save_output):
+def test_group_n001v_group_n001v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: elements in
     instant XML=0, minOccurs=0, maxOccurs=absent
@@ -74,13 +74,13 @@ def test_group_n001v_group_n001v_v(json_360, save_output):
         instance="msData/group/groupN001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_m005v_group_m005v_i(json_360, save_output):
+def test_group_m005v_group_m005v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: check that
     maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent,
@@ -91,12 +91,12 @@ def test_group_m005v_group_m005v_i(json_360, save_output):
         instance="msData/group/groupM005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_m004v_group_m004v_v(json_360, save_output):
+def test_group_m004v_group_m004v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: check that
     minOccurs default is 1, elements in instant XML = 1, minOccurs=absent,
@@ -107,13 +107,13 @@ def test_group_m004v_group_m004v_v(json_360, save_output):
         instance="msData/group/groupM004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_m003v_group_m003v_i(json_360, save_output):
+def test_group_m003v_group_m003v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is complexType: check that
     minOccurs default is 1, elements in instant XML = 0, minOccurs=absent,
@@ -124,12 +124,12 @@ def test_group_m003v_group_m003v_i(json_360, save_output):
         instance="msData/group/groupM003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_l021v_group_l021v_v(json_360, save_output):
+def test_group_l021v_group_l021v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=3, maxOccurs=unbounded
@@ -139,13 +139,13 @@ def test_group_l021v_group_l021v_v(json_360, save_output):
         instance="msData/group/groupL021.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_l019v_group_l019v_i(json_360, save_output):
+def test_group_l019v_group_l019v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=3, minOccurs=1, maxOccurs=2
@@ -155,12 +155,12 @@ def test_group_l019v_group_l019v_i(json_360, save_output):
         instance="msData/group/groupL019.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_l018v_group_l018v_v(json_360, save_output):
+def test_group_l018v_group_l018v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=2, minOccurs=1, maxOccurs=2
@@ -170,12 +170,12 @@ def test_group_l018v_group_l018v_v(json_360, save_output):
         instance="msData/group/groupL018.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_l017v_group_l017v_v(json_360, save_output):
+def test_group_l017v_group_l017v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=1, minOccurs=1, maxOccurs=2
@@ -185,13 +185,13 @@ def test_group_l017v_group_l017v_v(json_360, save_output):
         instance="msData/group/groupL017.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_l016v_group_l016v_i(json_360, save_output):
+def test_group_l016v_group_l016v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=0, minOccurs=1, maxOccurs=2
@@ -201,13 +201,13 @@ def test_group_l016v_group_l016v_i(json_360, save_output):
         instance="msData/group/groupL016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_l015v_group_l015v_i(json_360, save_output):
+def test_group_l015v_group_l015v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=2, minOccurs=1, maxOccurs=1
@@ -217,12 +217,12 @@ def test_group_l015v_group_l015v_i(json_360, save_output):
         instance="msData/group/groupL015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_l014v_group_l014v_v(json_360, save_output):
+def test_group_l014v_group_l014v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=1, minOccurs=1, maxOccurs=1
@@ -232,13 +232,13 @@ def test_group_l014v_group_l014v_v(json_360, save_output):
         instance="msData/group/groupL014.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_l013v_group_l013v_i(json_360, save_output):
+def test_group_l013v_group_l013v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=0, minOccurs=1, maxOccurs=1
@@ -248,13 +248,13 @@ def test_group_l013v_group_l013v_i(json_360, save_output):
         instance="msData/group/groupL013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_l012v_group_l012v_i(json_360, save_output):
+def test_group_l012v_group_l012v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=2, minOccurs=1, maxOccurs=absent
@@ -264,12 +264,12 @@ def test_group_l012v_group_l012v_i(json_360, save_output):
         instance="msData/group/groupL012.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_l011v_group_l011v_v(json_360, save_output):
+def test_group_l011v_group_l011v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=1, minOccurs=1, maxOccurs=absent
@@ -279,13 +279,13 @@ def test_group_l011v_group_l011v_v(json_360, save_output):
         instance="msData/group/groupL011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_l010v_group_l010v_i(json_360, save_output):
+def test_group_l010v_group_l010v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=0, minOccurs=1, maxOccurs=absent
@@ -295,12 +295,12 @@ def test_group_l010v_group_l010v_i(json_360, save_output):
         instance="msData/group/groupL010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_l009v_group_l009v_v(json_360, save_output):
+def test_group_l009v_group_l009v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=0, minOccurs=0, maxOccurs=999999999
@@ -310,13 +310,13 @@ def test_group_l009v_group_l009v_v(json_360, save_output):
         instance="msData/group/groupL009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_l008v_group_l008v_i(json_360, save_output):
+def test_group_l008v_group_l008v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=1, minOccurs=0, maxOccurs=0
@@ -326,12 +326,12 @@ def test_group_l008v_group_l008v_i(json_360, save_output):
         instance="msData/group/groupL008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_l007_group_l007_v(json_360, save_output):
+def test_group_l007_group_l007_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=0, minOccurs=0, maxOccurs=0
@@ -341,13 +341,13 @@ def test_group_l007_group_l007_v(json_360, save_output):
         instance="msData/group/groupL007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_l006v_group_l006v_i(json_360, save_output):
+def test_group_l006v_group_l006v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=2, minOccurs=0, maxOccurs=1
@@ -357,12 +357,12 @@ def test_group_l006v_group_l006v_i(json_360, save_output):
         instance="msData/group/groupL006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_l005v_group_l005v_v(json_360, save_output):
+def test_group_l005v_group_l005v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=1, minOccurs=0, maxOccurs=1
@@ -372,12 +372,12 @@ def test_group_l005v_group_l005v_v(json_360, save_output):
         instance="msData/group/groupL005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_l004v_group_l004v_v(json_360, save_output):
+def test_group_l004v_group_l004v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=0, minOccurs=0, maxOccurs=1
@@ -387,13 +387,13 @@ def test_group_l004v_group_l004v_v(json_360, save_output):
         instance="msData/group/groupL004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_l003v_group_l003v_i(json_360, save_output):
+def test_group_l003v_group_l003v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=2, minOccurs=0, maxOccurs=absent
@@ -403,12 +403,12 @@ def test_group_l003v_group_l003v_i(json_360, save_output):
         instance="msData/group/groupL003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_l002v_group_l002v_v(json_360, save_output):
+def test_group_l002v_group_l002v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=1, minOccurs=0, maxOccurs=absent
@@ -418,12 +418,12 @@ def test_group_l002v_group_l002v_v(json_360, save_output):
         instance="msData/group/groupL002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_l001v_group_l001v_v(json_360, save_output):
+def test_group_l001v_group_l001v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: elements in
     instant XML=0, minOccurs=0, maxOccurs=absent
@@ -433,13 +433,13 @@ def test_group_l001v_group_l001v_v(json_360, save_output):
         instance="msData/group/groupL001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_k005v_group_k005v_i(json_360, save_output):
+def test_group_k005v_group_k005v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: check that
     maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent,
@@ -450,12 +450,12 @@ def test_group_k005v_group_k005v_i(json_360, save_output):
         instance="msData/group/groupK005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_k004v_group_k004v_v(json_360, save_output):
+def test_group_k004v_group_k004v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: check that
     minOccurs default is 1, elements in instant XML = 1, minOccurs=absent,
@@ -466,13 +466,13 @@ def test_group_k004v_group_k004v_v(json_360, save_output):
         instance="msData/group/groupK004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_k003v_group_k003v_i(json_360, save_output):
+def test_group_k003v_group_k003v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is choice: check that
     minOccurs default is 1, elements in instant XML = 0, minOccurs=absent,
@@ -483,12 +483,12 @@ def test_group_k003v_group_k003v_i(json_360, save_output):
         instance="msData/group/groupK003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_j021v_group_j021v_v(json_360, save_output):
+def test_group_j021v_group_j021v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=3, maxOccurs=unbounded
@@ -498,13 +498,13 @@ def test_group_j021v_group_j021v_v(json_360, save_output):
         instance="msData/group/groupJ021.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_j019v_group_j019v_i(json_360, save_output):
+def test_group_j019v_group_j019v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=3, minOccurs=1, maxOccurs=2
@@ -514,12 +514,12 @@ def test_group_j019v_group_j019v_i(json_360, save_output):
         instance="msData/group/groupJ019.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_j018v_group_j018v_v(json_360, save_output):
+def test_group_j018v_group_j018v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=2, minOccurs=1, maxOccurs=2
@@ -529,12 +529,12 @@ def test_group_j018v_group_j018v_v(json_360, save_output):
         instance="msData/group/groupJ018.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_j017v_group_j017v_v(json_360, save_output):
+def test_group_j017v_group_j017v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=1, minOccurs=1, maxOccurs=2
@@ -544,13 +544,13 @@ def test_group_j017v_group_j017v_v(json_360, save_output):
         instance="msData/group/groupJ017.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_j016v_group_j016v_i(json_360, save_output):
+def test_group_j016v_group_j016v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=0, minOccurs=1, maxOccurs=2
@@ -560,13 +560,13 @@ def test_group_j016v_group_j016v_i(json_360, save_output):
         instance="msData/group/groupJ016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_j015v_group_j015v_i(json_360, save_output):
+def test_group_j015v_group_j015v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=2, minOccurs=1, maxOccurs=1
@@ -576,12 +576,12 @@ def test_group_j015v_group_j015v_i(json_360, save_output):
         instance="msData/group/groupJ015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_j014v_group_j014v_v(json_360, save_output):
+def test_group_j014v_group_j014v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=1, minOccurs=1, maxOccurs=1
@@ -591,13 +591,13 @@ def test_group_j014v_group_j014v_v(json_360, save_output):
         instance="msData/group/groupJ014.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_j013v_group_j013v_i(json_360, save_output):
+def test_group_j013v_group_j013v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=0, minOccurs=1, maxOccurs=1
@@ -607,13 +607,13 @@ def test_group_j013v_group_j013v_i(json_360, save_output):
         instance="msData/group/groupJ013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_j012v_group_j012v_i(json_360, save_output):
+def test_group_j012v_group_j012v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=2, minOccurs=1, maxOccurs=absent
@@ -623,12 +623,12 @@ def test_group_j012v_group_j012v_i(json_360, save_output):
         instance="msData/group/groupJ012.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_j011v_group_j011v_v(json_360, save_output):
+def test_group_j011v_group_j011v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=1, minOccurs=1, maxOccurs=absent
@@ -638,13 +638,13 @@ def test_group_j011v_group_j011v_v(json_360, save_output):
         instance="msData/group/groupJ011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_j010v_group_j010v_i(json_360, save_output):
+def test_group_j010v_group_j010v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=0, minOccurs=1, maxOccurs=absent
@@ -654,12 +654,12 @@ def test_group_j010v_group_j010v_i(json_360, save_output):
         instance="msData/group/groupJ010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_j009v_group_j009v_v(json_360, save_output):
+def test_group_j009v_group_j009v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=0, minOccurs=0, maxOccurs=99999999999
@@ -669,13 +669,13 @@ def test_group_j009v_group_j009v_v(json_360, save_output):
         instance="msData/group/groupJ009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_j008v_group_j008v_i(json_360, save_output):
+def test_group_j008v_group_j008v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=1, minOccurs=0, maxOccurs=0
@@ -685,12 +685,12 @@ def test_group_j008v_group_j008v_i(json_360, save_output):
         instance="msData/group/groupJ008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_j007v_group_j007v_v(json_360, save_output):
+def test_group_j007v_group_j007v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=0, minOccurs=0, maxOccurs=0
@@ -700,13 +700,13 @@ def test_group_j007v_group_j007v_v(json_360, save_output):
         instance="msData/group/groupJ007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_j006v_group_j006v_i(json_360, save_output):
+def test_group_j006v_group_j006v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=2, minOccurs=0, maxOccurs=1
@@ -716,12 +716,12 @@ def test_group_j006v_group_j006v_i(json_360, save_output):
         instance="msData/group/groupJ006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_j005v_group_j005v_v(json_360, save_output):
+def test_group_j005v_group_j005v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=1, minOccurs=0, maxOccurs=1
@@ -731,12 +731,12 @@ def test_group_j005v_group_j005v_v(json_360, save_output):
         instance="msData/group/groupJ005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_j004v_group_j004v_v(json_360, save_output):
+def test_group_j004v_group_j004v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=0, minOccurs=0, maxOccurs=1
@@ -746,13 +746,13 @@ def test_group_j004v_group_j004v_v(json_360, save_output):
         instance="msData/group/groupJ004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_j003v_group_j003v_i(json_360, save_output):
+def test_group_j003v_group_j003v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=2, minOccurs=0, maxOccurs=absent
@@ -762,12 +762,12 @@ def test_group_j003v_group_j003v_i(json_360, save_output):
         instance="msData/group/groupJ003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_j002v_group_j002v_v(json_360, save_output):
+def test_group_j002v_group_j002v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=1, minOccurs=0, maxOccurs=absent
@@ -777,12 +777,12 @@ def test_group_j002v_group_j002v_v(json_360, save_output):
         instance="msData/group/groupJ002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_j001v_group_j001v_v(json_360, save_output):
+def test_group_j001v_group_j001v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: elements in
     instant XML=0, minOccurs=0, maxOccurs=absent
@@ -792,13 +792,13 @@ def test_group_j001v_group_j001v_v(json_360, save_output):
         instance="msData/group/groupJ001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_i005v_group_i005v_i(json_360, save_output):
+def test_group_i005v_group_i005v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: check that
     maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent,
@@ -809,12 +809,12 @@ def test_group_i005v_group_i005v_i(json_360, save_output):
         instance="msData/group/groupI005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_i004v_group_i004v_v(json_360, save_output):
+def test_group_i004v_group_i004v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: check that
     minOccurs default is 1, elements in instant XML = 1, minOccurs=absent,
@@ -825,13 +825,13 @@ def test_group_i004v_group_i004v_v(json_360, save_output):
         instance="msData/group/groupI004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_i003v_group_i003v_i(json_360, save_output):
+def test_group_i003v_group_i003v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is sequence: check that
     minOccurs default is 1, elements in instant XML = 0, minOccurs=absent,
@@ -842,13 +842,13 @@ def test_group_i003v_group_i003v_i(json_360, save_output):
         instance="msData/group/groupI003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_h019v_group_h019v_i(json_360, save_output):
+def test_group_h019v_group_h019v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=3, minOccurs=1, maxOccurs=2
@@ -858,12 +858,12 @@ def test_group_h019v_group_h019v_i(json_360, save_output):
         instance="msData/group/groupH019.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_h018v_group_h018v_v(json_360, save_output):
+def test_group_h018v_group_h018v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=2, minOccurs=1, maxOccurs=2
@@ -873,12 +873,12 @@ def test_group_h018v_group_h018v_v(json_360, save_output):
         instance="msData/group/groupH018.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_h017v_group_h017v_v(json_360, save_output):
+def test_group_h017v_group_h017v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=1, minOccurs=1, maxOccurs=2
@@ -888,13 +888,13 @@ def test_group_h017v_group_h017v_v(json_360, save_output):
         instance="msData/group/groupH017.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_h016v_group_h016v_i(json_360, save_output):
+def test_group_h016v_group_h016v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=0, minOccurs=1, maxOccurs=2
@@ -904,13 +904,13 @@ def test_group_h016v_group_h016v_i(json_360, save_output):
         instance="msData/group/groupH016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_h015v_group_h015v_i(json_360, save_output):
+def test_group_h015v_group_h015v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=2, minOccurs=1, maxOccurs=1
@@ -920,12 +920,12 @@ def test_group_h015v_group_h015v_i(json_360, save_output):
         instance="msData/group/groupH015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_h014v_group_h014v_v(json_360, save_output):
+def test_group_h014v_group_h014v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=1, minOccurs=1, maxOccurs=1
@@ -935,13 +935,13 @@ def test_group_h014v_group_h014v_v(json_360, save_output):
         instance="msData/group/groupH014.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_h013v_group_h013v_i(json_360, save_output):
+def test_group_h013v_group_h013v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=0, minOccurs=1, maxOccurs=1
@@ -951,13 +951,13 @@ def test_group_h013v_group_h013v_i(json_360, save_output):
         instance="msData/group/groupH013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_h012v_group_h012v_i(json_360, save_output):
+def test_group_h012v_group_h012v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=2, minOccurs=1, maxOccurs=absent
@@ -967,12 +967,12 @@ def test_group_h012v_group_h012v_i(json_360, save_output):
         instance="msData/group/groupH012.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_h011v_group_h011v_v(json_360, save_output):
+def test_group_h011v_group_h011v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=1, minOccurs=1, maxOccurs=absent
@@ -982,13 +982,13 @@ def test_group_h011v_group_h011v_v(json_360, save_output):
         instance="msData/group/groupH011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_h010v_group_h010v_i(json_360, save_output):
+def test_group_h010v_group_h010v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=0, minOccurs=1, maxOccurs=absent
@@ -998,12 +998,12 @@ def test_group_h010v_group_h010v_i(json_360, save_output):
         instance="msData/group/groupH010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_h009v_group_h009v_v(json_360, save_output):
+def test_group_h009v_group_h009v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=0, minOccurs=0, maxOccurs=999999999999999
@@ -1013,13 +1013,13 @@ def test_group_h009v_group_h009v_v(json_360, save_output):
         instance="msData/group/groupH009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_h008v_group_h008v_i(json_360, save_output):
+def test_group_h008v_group_h008v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=1, minOccurs=0, maxOccurs=0
@@ -1029,13 +1029,13 @@ def test_group_h008v_group_h008v_i(json_360, save_output):
         instance="msData/group/groupH008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_h006v_group_h006v_i(json_360, save_output):
+def test_group_h006v_group_h006v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=2, minOccurs=0, maxOccurs=1
@@ -1045,12 +1045,12 @@ def test_group_h006v_group_h006v_i(json_360, save_output):
         instance="msData/group/groupH006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_h005v_group_h005v_v(json_360, save_output):
+def test_group_h005v_group_h005v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=1, minOccurs=0, maxOccurs=1
@@ -1060,12 +1060,12 @@ def test_group_h005v_group_h005v_v(json_360, save_output):
         instance="msData/group/groupH005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_h004v_group_h004v_v(json_360, save_output):
+def test_group_h004v_group_h004v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=0, minOccurs=0, maxOccurs=1
@@ -1075,13 +1075,13 @@ def test_group_h004v_group_h004v_v(json_360, save_output):
         instance="msData/group/groupH004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_h003v_group_h003v_i(json_360, save_output):
+def test_group_h003v_group_h003v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=2, minOccurs=0, maxOccurs=absent
@@ -1091,12 +1091,12 @@ def test_group_h003v_group_h003v_i(json_360, save_output):
         instance="msData/group/groupH003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_h002v_group_h002v_v(json_360, save_output):
+def test_group_h002v_group_h002v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=1, minOccurs=0, maxOccurs=absent
@@ -1106,12 +1106,12 @@ def test_group_h002v_group_h002v_v(json_360, save_output):
         instance="msData/group/groupH002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_h001v_group_h001v_v(json_360, save_output):
+def test_group_h001v_group_h001v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: elements in
     instant XML=0, minOccurs=0, maxOccurs=absent
@@ -1121,13 +1121,13 @@ def test_group_h001v_group_h001v_v(json_360, save_output):
         instance="msData/group/groupH001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_g005v_group_g005v_i(json_360, save_output):
+def test_group_g005v_group_g005v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: check that
     maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent,
@@ -1138,12 +1138,12 @@ def test_group_g005v_group_g005v_i(json_360, save_output):
         instance="msData/group/groupG005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_g004v_group_g004v_v(json_360, save_output):
+def test_group_g004v_group_g004v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: check that
     minOccurs default is 1, elements in instant XML = 1, minOccurs=absent,
@@ -1154,13 +1154,13 @@ def test_group_g004v_group_g004v_v(json_360, save_output):
         instance="msData/group/groupG004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_g003v_group_g003v_i(json_360, save_output):
+def test_group_g003v_group_g003v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is restriction: check that
     minOccurs default is 1, elements in instant XML = 0, minOccurs=absent,
@@ -1171,12 +1171,12 @@ def test_group_g003v_group_g003v_i(json_360, save_output):
         instance="msData/group/groupG003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_f021v_group_f021v_v(json_360, save_output):
+def test_group_f021v_group_f021v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=3, maxOccurs=unbounded
@@ -1186,13 +1186,13 @@ def test_group_f021v_group_f021v_v(json_360, save_output):
         instance="msData/group/groupF021.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_f019v_group_f019v_i(json_360, save_output):
+def test_group_f019v_group_f019v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=3, minOccurs=1, maxOccurs=2
@@ -1202,12 +1202,12 @@ def test_group_f019v_group_f019v_i(json_360, save_output):
         instance="msData/group/groupF019.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_f018v_group_f018v_v(json_360, save_output):
+def test_group_f018v_group_f018v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=2, minOccurs=1, maxOccurs=2
@@ -1217,12 +1217,12 @@ def test_group_f018v_group_f018v_v(json_360, save_output):
         instance="msData/group/groupF018.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_f017v_group_f017v_v(json_360, save_output):
+def test_group_f017v_group_f017v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=1, minOccurs=1, maxOccurs=2
@@ -1232,13 +1232,13 @@ def test_group_f017v_group_f017v_v(json_360, save_output):
         instance="msData/group/groupF017.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_f016v_group_f016v_i(json_360, save_output):
+def test_group_f016v_group_f016v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=0, minOccurs=1, maxOccurs=2
@@ -1248,13 +1248,13 @@ def test_group_f016v_group_f016v_i(json_360, save_output):
         instance="msData/group/groupF016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_f015v_group_f015v_i(json_360, save_output):
+def test_group_f015v_group_f015v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=2, minOccurs=1, maxOccurs=1
@@ -1264,12 +1264,12 @@ def test_group_f015v_group_f015v_i(json_360, save_output):
         instance="msData/group/groupF015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_f014v_group_f014v_v(json_360, save_output):
+def test_group_f014v_group_f014v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=1, minOccurs=1, maxOccurs=1
@@ -1279,13 +1279,13 @@ def test_group_f014v_group_f014v_v(json_360, save_output):
         instance="msData/group/groupF014.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_f013v_group_f013v_i(json_360, save_output):
+def test_group_f013v_group_f013v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=0, minOccurs=1, maxOccurs=1
@@ -1295,13 +1295,13 @@ def test_group_f013v_group_f013v_i(json_360, save_output):
         instance="msData/group/groupF013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_f012v_group_f012v_i(json_360, save_output):
+def test_group_f012v_group_f012v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=2, minOccurs=1, maxOccurs=absent
@@ -1311,12 +1311,12 @@ def test_group_f012v_group_f012v_i(json_360, save_output):
         instance="msData/group/groupF012.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_f011v_group_f011v_v(json_360, save_output):
+def test_group_f011v_group_f011v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=1, minOccurs=1, maxOccurs=absent
@@ -1326,13 +1326,13 @@ def test_group_f011v_group_f011v_v(json_360, save_output):
         instance="msData/group/groupF011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_f010v_group_f010v_i(json_360, save_output):
+def test_group_f010v_group_f010v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=0, minOccurs=1, maxOccurs=absent
@@ -1342,12 +1342,12 @@ def test_group_f010v_group_f010v_i(json_360, save_output):
         instance="msData/group/groupF010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_f009v_group_f009v_v(json_360, save_output):
+def test_group_f009v_group_f009v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=0, minOccurs=0, maxOccurs=999999999999999999999
@@ -1357,13 +1357,13 @@ def test_group_f009v_group_f009v_v(json_360, save_output):
         instance="msData/group/groupF009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_f008v_group_f008v_i(json_360, save_output):
+def test_group_f008v_group_f008v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=1, minOccurs=0, maxOccurs=0
@@ -1373,12 +1373,12 @@ def test_group_f008v_group_f008v_i(json_360, save_output):
         instance="msData/group/groupF008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_f007v_group_f007v_v(json_360, save_output):
+def test_group_f007v_group_f007v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=0, minOccurs=0, maxOccurs=0
@@ -1388,13 +1388,13 @@ def test_group_f007v_group_f007v_v(json_360, save_output):
         instance="msData/group/groupF007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_f006v_group_f006v_i(json_360, save_output):
+def test_group_f006v_group_f006v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=2, minOccurs=0, maxOccurs=1
@@ -1404,12 +1404,12 @@ def test_group_f006v_group_f006v_i(json_360, save_output):
         instance="msData/group/groupF006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_f005v_group_f005v_v(json_360, save_output):
+def test_group_f005v_group_f005v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=1, minOccurs=0, maxOccurs=1
@@ -1419,12 +1419,12 @@ def test_group_f005v_group_f005v_v(json_360, save_output):
         instance="msData/group/groupF005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_f004v_group_f004v_v(json_360, save_output):
+def test_group_f004v_group_f004v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=0, minOccurs=0, maxOccurs=1
@@ -1434,13 +1434,13 @@ def test_group_f004v_group_f004v_v(json_360, save_output):
         instance="msData/group/groupF004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_f003v_group_f003v_i(json_360, save_output):
+def test_group_f003v_group_f003v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=2, minOccurs=0, maxOccurs=absent
@@ -1450,12 +1450,12 @@ def test_group_f003v_group_f003v_i(json_360, save_output):
         instance="msData/group/groupF003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_f002v_group_f002v_v(json_360, save_output):
+def test_group_f002v_group_f002v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=1, minOccurs=0, maxOccurs=absent
@@ -1465,12 +1465,12 @@ def test_group_f002v_group_f002v_v(json_360, save_output):
         instance="msData/group/groupF002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_f001v_group_f001v_v(json_360, save_output):
+def test_group_f001v_group_f001v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: elements in
     instant XML=0, minOccurs=0, maxOccurs=absent
@@ -1480,13 +1480,13 @@ def test_group_f001v_group_f001v_v(json_360, save_output):
         instance="msData/group/groupF001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_e005v_group_e005v_i(json_360, save_output):
+def test_group_e005v_group_e005v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: check that
     maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent,
@@ -1497,12 +1497,12 @@ def test_group_e005v_group_e005v_i(json_360, save_output):
         instance="msData/group/groupE005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_e004v_group_e004v_v(json_360, save_output):
+def test_group_e004v_group_e004v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: check that
     minOccurs default is 1, elements in instant XML = 1, minOccurs=absent,
@@ -1513,13 +1513,13 @@ def test_group_e004v_group_e004v_v(json_360, save_output):
         instance="msData/group/groupE004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_group_e003v_group_e003v_i(json_360, save_output):
+def test_group_e003v_group_e003v_i(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : parent is extension: check that
     minOccurs default is 1, elements in instant XML = 0, minOccurs=absent,
@@ -1530,12 +1530,12 @@ def test_group_e003v_group_e003v_i(json_360, save_output):
         instance="msData/group/groupE003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_b010v_group_b010v_v(json_360, save_output):
+def test_group_b010v_group_b010v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : Test ref:, parent is extension,
     ref='global group from included xsd"
@@ -1545,12 +1545,12 @@ def test_group_b010v_group_b010v_v(json_360, save_output):
         instance="msData/group/groupB010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_b009v_group_b009v_v(json_360, save_output):
+def test_group_b009v_group_b009v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : Test ref:, parent is extension,
     ref='global group from imported xsd"
@@ -1560,12 +1560,12 @@ def test_group_b009v_group_b009v_v(json_360, save_output):
         instance="msData/group/groupB009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_b006v_group_b006v_v(json_360, save_output):
+def test_group_b006v_group_b006v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : Test ref:, parent is complexType,
     ref='global group'
@@ -1575,12 +1575,12 @@ def test_group_b006v_group_b006v_v(json_360, save_output):
         instance="msData/group/groupB006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_b005v_group_b005v_v(json_360, save_output):
+def test_group_b005v_group_b005v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : Test ref:, parent is choice,
     ref='global group'
@@ -1590,12 +1590,12 @@ def test_group_b005v_group_b005v_v(json_360, save_output):
         instance="msData/group/groupB005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_b004v_group_b004v_v(json_360, save_output):
+def test_group_b004v_group_b004v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : Test ref:, parent is sequence,
     ref='global group'
@@ -1605,12 +1605,12 @@ def test_group_b004v_group_b004v_v(json_360, save_output):
         instance="msData/group/groupB004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_b003v_group_b003v_v(json_360, save_output):
+def test_group_b003v_group_b003v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : Test ref:, parent is restriction,
     ref='global group'
@@ -1620,12 +1620,12 @@ def test_group_b003v_group_b003v_v(json_360, save_output):
         instance="msData/group/groupB003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_group_b002v_group_b002v_v(json_360, save_output):
+def test_group_b002v_group_b002v_v(mode, save_output):
     """
     TEST :Syntax Checking (id, ref) : Test ref:, parent is extension,
     ref='global group'
@@ -1635,13 +1635,13 @@ def test_group_b002v_group_b002v_v(json_360, save_output):
         instance="msData/group/groupB002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_z015_id_z015_i(json_360, save_output):
+def test_id_z015_id_z015_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : XSD: test
     Identity constraint field: evaluate to anyAttribute with lax or skip
@@ -1653,13 +1653,13 @@ def test_id_z015_id_z015_i(json_360, save_output):
         instance="msData/identityConstraint/idZ015.xml",
         class_name="Foo",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_z012_id_z012_i(json_360, save_output):
+def test_id_z012_id_z012_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : processing
     default/fixed xsd attributes typed IDREF/IDREFS in the instance
@@ -1670,13 +1670,13 @@ def test_id_z012_id_z012_i(json_360, save_output):
         instance="msData/identityConstraint/idZ012.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_z011_a_id_z011_a_i(json_360, save_output):
+def test_id_z011_a_id_z011_a_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : xsd: multiple
     instance of an element with attribute having xs:unique which has a
@@ -1687,13 +1687,13 @@ def test_id_z011_a_id_z011_a_i(json_360, save_output):
         instance="msData/identityConstraint/idZ011_a.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_z011_id_z011_i(json_360, save_output):
+def test_id_z011_id_z011_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : xsd: multiple
     instance of an element with attribute typed as xsd:ID and has a
@@ -1705,13 +1705,13 @@ def test_id_z011_id_z011_i(json_360, save_output):
         instance="msData/identityConstraint/idZ011.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_z010_id_z010_i(json_360, save_output):
+def test_id_z010_id_z010_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : xsd idendity
     constraint key/keyref is not resolving correctly, wrong namespace is
@@ -1722,13 +1722,13 @@ def test_id_z010_id_z010_i(json_360, save_output):
         instance="msData/identityConstraint/idZ010.xml",
         class_name="Root1",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_z008_id_z008_i(json_360, save_output):
+def test_id_z008_id_z008_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : xsd: test
     keyref with value that does not have a relative key defined.
@@ -1738,12 +1738,12 @@ def test_id_z008_id_z008_i(json_360, save_output):
         instance="msData/identityConstraint/idZ008.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_z007_id_z007_v(json_360, save_output):
+def test_id_z007_id_z007_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Values of
     simple types derived from built-in types should always be comparable
@@ -1753,12 +1753,12 @@ def test_id_z007_id_z007_v(json_360, save_output):
         instance="msData/identityConstraint/idZ007.xml",
         class_name="NewDataSet",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_z006_id_z006_v(json_360, save_output):
+def test_id_z006_id_z006_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : test
     Validation of keys when more than one key is defined
@@ -1768,12 +1768,12 @@ def test_id_z006_id_z006_v(json_360, save_output):
         instance="msData/identityConstraint/idZ006.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_z005_id_z005_v(json_360, save_output):
+def test_id_z005_id_z005_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : test
     Validation of keys when more than one key is defined
@@ -1783,13 +1783,13 @@ def test_id_z005_id_z005_v(json_360, save_output):
         instance="msData/identityConstraint/idZ005.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_z004_id_z004_i(json_360, save_output):
+def test_id_z004_id_z004_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : 71477 - XSD
     IdentityConstraint: placing IC on undeclared element in instance
@@ -1800,13 +1800,13 @@ def test_id_z004_id_z004_i(json_360, save_output):
         instance="msData/identityConstraint/idZ004.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_z002_id_z002_i(json_360, save_output):
+def test_id_z002_id_z002_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : 70981 -
     invalid line numbers in XPath validation errors
@@ -1816,13 +1816,13 @@ def test_id_z002_id_z002_i(json_360, save_output):
         instance="msData/identityConstraint/idZ002.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_z001_id_z001_i(json_360, save_output):
+def test_id_z001_id_z001_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : 70955 -
     identityConstraint : key attempting to validate missing element
@@ -1832,13 +1832,13 @@ def test_id_z001_id_z001_i(json_360, save_output):
         instance="msData/identityConstraint/idZ001.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l103_id_l103_i(json_360, save_output):
+def test_id_l103_id_l103_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
     | path of selector field xpath='@ncname:*' , selector contains qname |
@@ -1849,12 +1849,12 @@ def test_id_l103_id_l103_i(json_360, save_output):
         instance="msData/identityConstraint/idL103.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l102_id_l102_v(json_360, save_output):
+def test_id_l102_id_l102_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
     | path of selector field xpath='@ncname:*' , selector contains qname |
@@ -1865,13 +1865,13 @@ def test_id_l102_id_l102_v(json_360, save_output):
         instance="msData/identityConstraint/idL102.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l101_id_l101_i(json_360, save_output):
+def test_id_l101_id_l101_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
     | path of selector field xpath='@*' , selector contains qname | qname1
@@ -1881,13 +1881,13 @@ def test_id_l101_id_l101_i(json_360, save_output):
         instance="msData/identityConstraint/idL101.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l100_id_l100_v(json_360, save_output):
+def test_id_l100_id_l100_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
     | path of selector field xpath='@*' , selector contains qname | qname1
@@ -1898,13 +1898,13 @@ def test_id_l100_id_l100_v(json_360, save_output):
         instance="msData/identityConstraint/idL100.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l099_id_l099_i(json_360, save_output):
+def test_id_l099_id_l099_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
     | path of selector field xpath='@qname' , selector contains qname |
@@ -1915,12 +1915,12 @@ def test_id_l099_id_l099_i(json_360, save_output):
         instance="msData/identityConstraint/idL099.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l098_id_l098_v(json_360, save_output):
+def test_id_l098_id_l098_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
     | path of selector field xpath='@qname' , selector contains qname |
@@ -1931,13 +1931,13 @@ def test_id_l098_id_l098_v(json_360, save_output):
         instance="msData/identityConstraint/idL098.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l097_id_l097_i(json_360, save_output):
+def test_id_l097_id_l097_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
     | path of selector field xpath='ncname:*' , selector contains qname |
@@ -1948,12 +1948,12 @@ def test_id_l097_id_l097_i(json_360, save_output):
         instance="msData/identityConstraint/idL097.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l096_id_l096_v(json_360, save_output):
+def test_id_l096_id_l096_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
     | path of selector field xpath='ncname:*' , selector contains qname |
@@ -1964,13 +1964,13 @@ def test_id_l096_id_l096_v(json_360, save_output):
         instance="msData/identityConstraint/idL096.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l095_id_l095_i(json_360, save_output):
+def test_id_l095_id_l095_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
     | path of selector field xpath='*' , selector contains qname | qname1
@@ -1980,12 +1980,12 @@ def test_id_l095_id_l095_i(json_360, save_output):
         instance="msData/identityConstraint/idL095.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l094_id_l094_v(json_360, save_output):
+def test_id_l094_id_l094_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
     | path of selector field xpath='*' , selector contains qname | qname1
@@ -1995,13 +1995,13 @@ def test_id_l094_id_l094_v(json_360, save_output):
         instance="msData/identityConstraint/idL094.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l093_id_l093_i(json_360, save_output):
+def test_id_l093_id_l093_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
     | path of selector field xpath='qname' , selector contains qname |
@@ -2012,12 +2012,12 @@ def test_id_l093_id_l093_i(json_360, save_output):
         instance="msData/identityConstraint/idL093.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l092_id_l092_v(json_360, save_output):
+def test_id_l092_id_l092_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
     | path of selector field xpath='qname' , selector contains qname |
@@ -2028,13 +2028,13 @@ def test_id_l092_id_l092_v(json_360, save_output):
         instance="msData/identityConstraint/idL092.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l091_id_l091_i(json_360, save_output):
+def test_id_l091_id_l091_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
     | path of selector field xpath='.' , selector contains qname | qname1
@@ -2044,12 +2044,12 @@ def test_id_l091_id_l091_i(json_360, save_output):
         instance="msData/identityConstraint/idL091.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l090_id_l090_v(json_360, save_output):
+def test_id_l090_id_l090_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test for path
     | path of selector field xpath='.' , selector contains qname | qname1
@@ -2059,13 +2059,13 @@ def test_id_l090_id_l090_v(json_360, save_output):
         instance="msData/identityConstraint/idL090.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l089_id_l089_i(json_360, save_output):
+def test_id_l089_id_l089_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='@ncname:* ;qname' , selector contains *
@@ -2075,12 +2075,12 @@ def test_id_l089_id_l089_i(json_360, save_output):
         instance="msData/identityConstraint/idL089.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l088_id_l088_v(json_360, save_output):
+def test_id_l088_id_l088_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='@ncname:* ; qname' , selector contains *
@@ -2090,13 +2090,13 @@ def test_id_l088_id_l088_v(json_360, save_output):
         instance="msData/identityConstraint/idL088.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l087_id_l087_i(json_360, save_output):
+def test_id_l087_id_l087_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='@* ; qname' , selector contains *
@@ -2106,12 +2106,12 @@ def test_id_l087_id_l087_i(json_360, save_output):
         instance="msData/identityConstraint/idL087.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l086_id_l086_v(json_360, save_output):
+def test_id_l086_id_l086_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='@* ; qname' , selector contains *
@@ -2121,13 +2121,13 @@ def test_id_l086_id_l086_v(json_360, save_output):
         instance="msData/identityConstraint/idL086.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l085_id_l085_i(json_360, save_output):
+def test_id_l085_id_l085_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='@qname ; qname1' , selector contains *
@@ -2137,12 +2137,12 @@ def test_id_l085_id_l085_i(json_360, save_output):
         instance="msData/identityConstraint/idL085.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l084_id_l084_v(json_360, save_output):
+def test_id_l084_id_l084_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='@qname ; qname1' , selector contains *
@@ -2152,13 +2152,13 @@ def test_id_l084_id_l084_v(json_360, save_output):
         instance="msData/identityConstraint/idL084.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l083_id_l083_i(json_360, save_output):
+def test_id_l083_id_l083_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='ncname:* ; qname' , selector contains *
@@ -2168,12 +2168,12 @@ def test_id_l083_id_l083_i(json_360, save_output):
         instance="msData/identityConstraint/idL083.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l082_id_l082_v(json_360, save_output):
+def test_id_l082_id_l082_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='ncname:* ; qname' , selector contains *
@@ -2183,13 +2183,13 @@ def test_id_l082_id_l082_v(json_360, save_output):
         instance="msData/identityConstraint/idL082.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l081_id_l081_i(json_360, save_output):
+def test_id_l081_id_l081_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='* ; qname' , selector contains *
@@ -2199,13 +2199,13 @@ def test_id_l081_id_l081_i(json_360, save_output):
         instance="msData/identityConstraint/idL081.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l080_id_l080_i(json_360, save_output):
+def test_id_l080_id_l080_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='* ; qname' , selector contains *, keyref
@@ -2216,13 +2216,13 @@ def test_id_l080_id_l080_i(json_360, save_output):
         instance="msData/identityConstraint/idL080.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l079_id_l079_i(json_360, save_output):
+def test_id_l079_id_l079_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='qname ; qname1' , selector contains *
@@ -2232,12 +2232,12 @@ def test_id_l079_id_l079_i(json_360, save_output):
         instance="msData/identityConstraint/idL079.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l078_id_l078_v(json_360, save_output):
+def test_id_l078_id_l078_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='qname ; qname1' , selector contains *
@@ -2247,12 +2247,12 @@ def test_id_l078_id_l078_v(json_360, save_output):
         instance="msData/identityConstraint/idL078.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l077a_id_l077_v(json_360, save_output):
+def test_id_l077a_id_l077_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='. ; qname' , selector contains *
@@ -2263,12 +2263,12 @@ def test_id_l077a_id_l077_v(json_360, save_output):
         instance="msData/identityConstraint/idL077.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l077_id_l077_v(json_360, save_output):
+def test_id_l077_id_l077_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='. ; qname' , selector contains *
@@ -2279,12 +2279,12 @@ def test_id_l077_id_l077_v(json_360, save_output):
         instance="msData/identityConstraint/idL077.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l076a_id_l076_v(json_360, save_output):
+def test_id_l076a_id_l076_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='. ; qname' , selector contains *
@@ -2295,12 +2295,12 @@ def test_id_l076a_id_l076_v(json_360, save_output):
         instance="msData/identityConstraint/idL076.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l076_id_l076_v(json_360, save_output):
+def test_id_l076_id_l076_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test multiple
     field statements field xpath='. ; qname' , selector contains *
@@ -2311,13 +2311,13 @@ def test_id_l076_id_l076_v(json_360, save_output):
         instance="msData/identityConstraint/idL076.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l075_id_l075_i(json_360, save_output):
+def test_id_l075_id_l075_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for keyref definition, field xpath='@ncname:*' , selector contains
@@ -2328,12 +2328,12 @@ def test_id_l075_id_l075_i(json_360, save_output):
         instance="msData/identityConstraint/idL075.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l074_id_l074_v(json_360, save_output):
+def test_id_l074_id_l074_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='attribute::ncname:*' , selector
@@ -2344,12 +2344,12 @@ def test_id_l074_id_l074_v(json_360, save_output):
         instance="msData/identityConstraint/idL074.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l073_id_l073_v(json_360, save_output):
+def test_id_l073_id_l073_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='@ncname:*' , selector contains *
@@ -2359,13 +2359,13 @@ def test_id_l073_id_l073_v(json_360, save_output):
         instance="msData/identityConstraint/idL073.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l072_id_l072_i(json_360, save_output):
+def test_id_l072_id_l072_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for keyref definition, field xpath='@*' , selector contains *
@@ -2375,12 +2375,12 @@ def test_id_l072_id_l072_i(json_360, save_output):
         instance="msData/identityConstraint/idL072.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l071_id_l071_v(json_360, save_output):
+def test_id_l071_id_l071_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='attribute::*' , selector contains
@@ -2391,12 +2391,12 @@ def test_id_l071_id_l071_v(json_360, save_output):
         instance="msData/identityConstraint/idL071.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l070_id_l070_v(json_360, save_output):
+def test_id_l070_id_l070_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='@*' , selector contains *
@@ -2406,13 +2406,13 @@ def test_id_l070_id_l070_v(json_360, save_output):
         instance="msData/identityConstraint/idL070.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l069_id_l069_i(json_360, save_output):
+def test_id_l069_id_l069_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for keyref definition, field xpath='@qname' , selector contains *
@@ -2422,12 +2422,12 @@ def test_id_l069_id_l069_i(json_360, save_output):
         instance="msData/identityConstraint/idL069.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l068_id_l068_v(json_360, save_output):
+def test_id_l068_id_l068_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='attribute::qname' , selector
@@ -2438,12 +2438,12 @@ def test_id_l068_id_l068_v(json_360, save_output):
         instance="msData/identityConstraint/idL068.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l067_id_l067_v(json_360, save_output):
+def test_id_l067_id_l067_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='attribute::qname' , selector
@@ -2454,12 +2454,12 @@ def test_id_l067_id_l067_v(json_360, save_output):
         instance="msData/identityConstraint/idL067.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l066_id_l066_v(json_360, save_output):
+def test_id_l066_id_l066_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='@qname' , selector contains *
@@ -2469,13 +2469,13 @@ def test_id_l066_id_l066_v(json_360, save_output):
         instance="msData/identityConstraint/idL066.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l065_id_l065_i(json_360, save_output):
+def test_id_l065_id_l065_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for keyref definition, field xpath='ncname:*' , selector contains
@@ -2486,12 +2486,12 @@ def test_id_l065_id_l065_i(json_360, save_output):
         instance="msData/identityConstraint/idL065.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l064_id_l064_v(json_360, save_output):
+def test_id_l064_id_l064_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='child::ncname:*' , selector
@@ -2502,12 +2502,12 @@ def test_id_l064_id_l064_v(json_360, save_output):
         instance="msData/identityConstraint/idL064.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l063_id_l063_v(json_360, save_output):
+def test_id_l063_id_l063_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='ncname:*' , selector contains *
@@ -2517,13 +2517,13 @@ def test_id_l063_id_l063_v(json_360, save_output):
         instance="msData/identityConstraint/idL063.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l062_id_l062_i(json_360, save_output):
+def test_id_l062_id_l062_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for keyref definition, field xpath='*' , selector contains
@@ -2534,13 +2534,13 @@ def test_id_l062_id_l062_i(json_360, save_output):
         instance="msData/identityConstraint/idL062.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l061_id_l061_i(json_360, save_output):
+def test_id_l061_id_l061_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for keyref definition, field xpath='*' , selector contains *
@@ -2550,12 +2550,12 @@ def test_id_l061_id_l061_i(json_360, save_output):
         instance="msData/identityConstraint/idL061.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l060_id_l060_v(json_360, save_output):
+def test_id_l060_id_l060_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='child::*' , selector contains *
@@ -2565,12 +2565,12 @@ def test_id_l060_id_l060_v(json_360, save_output):
         instance="msData/identityConstraint/idL060.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l059_id_l059_v(json_360, save_output):
+def test_id_l059_id_l059_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='*' , selector contains .//qname
@@ -2580,12 +2580,12 @@ def test_id_l059_id_l059_v(json_360, save_output):
         instance="msData/identityConstraint/idL059.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l058_id_l058_v(json_360, save_output):
+def test_id_l058_id_l058_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='*' , selector contains *
@@ -2595,13 +2595,13 @@ def test_id_l058_id_l058_v(json_360, save_output):
         instance="msData/identityConstraint/idL058.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l057_id_l057_i(json_360, save_output):
+def test_id_l057_id_l057_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for keyref definition, field xpath='.//qname' , selector contains
@@ -2612,13 +2612,13 @@ def test_id_l057_id_l057_i(json_360, save_output):
         instance="msData/identityConstraint/idL057.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l056_id_l056_i(json_360, save_output):
+def test_id_l056_id_l056_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for keyref definition, field xpath='qname' , selector contains *
@@ -2628,12 +2628,12 @@ def test_id_l056_id_l056_i(json_360, save_output):
         instance="msData/identityConstraint/idL056.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l055_id_l055_v(json_360, save_output):
+def test_id_l055_id_l055_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='.//qname' , selector contains
@@ -2644,12 +2644,12 @@ def test_id_l055_id_l055_v(json_360, save_output):
         instance="msData/identityConstraint/idL055.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l054_id_l054_v(json_360, save_output):
+def test_id_l054_id_l054_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='child::qname' , selector contains
@@ -2660,12 +2660,12 @@ def test_id_l054_id_l054_v(json_360, save_output):
         instance="msData/identityConstraint/idL054.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l053_id_l053_v(json_360, save_output):
+def test_id_l053_id_l053_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='qname' , selector contains *
@@ -2675,13 +2675,13 @@ def test_id_l053_id_l053_v(json_360, save_output):
         instance="msData/identityConstraint/idL053.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l052_id_l052_i(json_360, save_output):
+def test_id_l052_id_l052_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for keyref definition, field xpath='.' , selector contains *
@@ -2691,12 +2691,12 @@ def test_id_l052_id_l052_i(json_360, save_output):
         instance="msData/identityConstraint/idL052.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l051_id_l051_v(json_360, save_output):
+def test_id_l051_id_l051_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for keyref definition, field xpath='.' , selector contains *
@@ -2706,13 +2706,13 @@ def test_id_l051_id_l051_v(json_360, save_output):
         instance="msData/identityConstraint/idL051.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l050_id_l050_i(json_360, save_output):
+def test_id_l050_id_l050_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for key definition, field xpath='@ncname:*' , selector contains *
@@ -2722,12 +2722,12 @@ def test_id_l050_id_l050_i(json_360, save_output):
         instance="msData/identityConstraint/idL050.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l049_id_l049_v(json_360, save_output):
+def test_id_l049_id_l049_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='attribute::ncname:*' , selector
@@ -2738,12 +2738,12 @@ def test_id_l049_id_l049_v(json_360, save_output):
         instance="msData/identityConstraint/idL049.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l048_id_l048_v(json_360, save_output):
+def test_id_l048_id_l048_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='@ncname:*' , selector contains *
@@ -2753,13 +2753,13 @@ def test_id_l048_id_l048_v(json_360, save_output):
         instance="msData/identityConstraint/idL048.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l047_id_l047_i(json_360, save_output):
+def test_id_l047_id_l047_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for key definition, field xpath='@*' , selector contains *
@@ -2769,12 +2769,12 @@ def test_id_l047_id_l047_i(json_360, save_output):
         instance="msData/identityConstraint/idL047.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l046_id_l046_v(json_360, save_output):
+def test_id_l046_id_l046_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='attribute::*' , selector contains *
@@ -2784,12 +2784,12 @@ def test_id_l046_id_l046_v(json_360, save_output):
         instance="msData/identityConstraint/idL046.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l045_id_l045_v(json_360, save_output):
+def test_id_l045_id_l045_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='@*' , selector contains *
@@ -2799,13 +2799,13 @@ def test_id_l045_id_l045_v(json_360, save_output):
         instance="msData/identityConstraint/idL045.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l044_id_l044_i(json_360, save_output):
+def test_id_l044_id_l044_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for key definition, field xpath='@qname' , selector contains *
@@ -2815,12 +2815,12 @@ def test_id_l044_id_l044_i(json_360, save_output):
         instance="msData/identityConstraint/idL044.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l043_id_l043_v(json_360, save_output):
+def test_id_l043_id_l043_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='attribute::qname' , selector contains
@@ -2831,12 +2831,12 @@ def test_id_l043_id_l043_v(json_360, save_output):
         instance="msData/identityConstraint/idL043.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l042_id_l042_v(json_360, save_output):
+def test_id_l042_id_l042_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='attribute::qname' , selector contains
@@ -2847,12 +2847,12 @@ def test_id_l042_id_l042_v(json_360, save_output):
         instance="msData/identityConstraint/idL042.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l041_id_l041_v(json_360, save_output):
+def test_id_l041_id_l041_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='@qname' , selector contains *
@@ -2862,13 +2862,13 @@ def test_id_l041_id_l041_v(json_360, save_output):
         instance="msData/identityConstraint/idL041.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l040_id_l040_i(json_360, save_output):
+def test_id_l040_id_l040_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for key definition, field xpath='ncname:*' , selector contains *
@@ -2878,12 +2878,12 @@ def test_id_l040_id_l040_i(json_360, save_output):
         instance="msData/identityConstraint/idL040.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l039_id_l039_v(json_360, save_output):
+def test_id_l039_id_l039_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='child::ncname:*' , selector contains
@@ -2894,12 +2894,12 @@ def test_id_l039_id_l039_v(json_360, save_output):
         instance="msData/identityConstraint/idL039.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l038_id_l038_v(json_360, save_output):
+def test_id_l038_id_l038_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='ncname:*' , selector contains *
@@ -2909,13 +2909,13 @@ def test_id_l038_id_l038_v(json_360, save_output):
         instance="msData/identityConstraint/idL038.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l037_id_l037_i(json_360, save_output):
+def test_id_l037_id_l037_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for key definition, field xpath='*' , selector contains .//qname
@@ -2925,13 +2925,13 @@ def test_id_l037_id_l037_i(json_360, save_output):
         instance="msData/identityConstraint/idL037.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l036_id_l036_i(json_360, save_output):
+def test_id_l036_id_l036_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for key definition, field xpath='*' , selector contains *
@@ -2941,12 +2941,12 @@ def test_id_l036_id_l036_i(json_360, save_output):
         instance="msData/identityConstraint/idL036.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l035_id_l035_v(json_360, save_output):
+def test_id_l035_id_l035_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='child::*' , selector contains *
@@ -2956,12 +2956,12 @@ def test_id_l035_id_l035_v(json_360, save_output):
         instance="msData/identityConstraint/idL035.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l034_id_l034_v(json_360, save_output):
+def test_id_l034_id_l034_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='*' , selector contains .//qname
@@ -2971,12 +2971,12 @@ def test_id_l034_id_l034_v(json_360, save_output):
         instance="msData/identityConstraint/idL034.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l033_id_l033_v(json_360, save_output):
+def test_id_l033_id_l033_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='*' , selector contains *
@@ -2986,13 +2986,13 @@ def test_id_l033_id_l033_v(json_360, save_output):
         instance="msData/identityConstraint/idL033.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l032_id_l032_i(json_360, save_output):
+def test_id_l032_id_l032_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for key definition, field xpath='.//qname' , selector contains
@@ -3003,13 +3003,13 @@ def test_id_l032_id_l032_i(json_360, save_output):
         instance="msData/identityConstraint/idL032.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l031_id_l031_i(json_360, save_output):
+def test_id_l031_id_l031_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for key definition, field xpath='qname' , selector contains *
@@ -3019,12 +3019,12 @@ def test_id_l031_id_l031_i(json_360, save_output):
         instance="msData/identityConstraint/idL031.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l030_id_l030_v(json_360, save_output):
+def test_id_l030_id_l030_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='.//qname' , selector contains qname1
@@ -3034,12 +3034,12 @@ def test_id_l030_id_l030_v(json_360, save_output):
         instance="msData/identityConstraint/idL030.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l029_id_l029_v(json_360, save_output):
+def test_id_l029_id_l029_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='child::qname' , selector contains *
@@ -3049,12 +3049,12 @@ def test_id_l029_id_l029_v(json_360, save_output):
         instance="msData/identityConstraint/idL029.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l028_id_l028_v(json_360, save_output):
+def test_id_l028_id_l028_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='qname' , selector contains *
@@ -3064,13 +3064,13 @@ def test_id_l028_id_l028_v(json_360, save_output):
         instance="msData/identityConstraint/idL028.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l027_id_l027_i(json_360, save_output):
+def test_id_l027_id_l027_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for key definition, field xpath='.' , selector contains *
@@ -3080,12 +3080,12 @@ def test_id_l027_id_l027_i(json_360, save_output):
         instance="msData/identityConstraint/idL027.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l026_id_l026_v(json_360, save_output):
+def test_id_l026_id_l026_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for key definition, field xpath='.' , selector contains *
@@ -3095,13 +3095,13 @@ def test_id_l026_id_l026_v(json_360, save_output):
         instance="msData/identityConstraint/idL026.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l025_id_l025_i(json_360, save_output):
+def test_id_l025_id_l025_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for unique definition, field xpath='@ncname:*' , selector contains
@@ -3112,12 +3112,12 @@ def test_id_l025_id_l025_i(json_360, save_output):
         instance="msData/identityConstraint/idL025.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l024_id_l024_v(json_360, save_output):
+def test_id_l024_id_l024_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='attribute::ncname:*' , selector
@@ -3128,12 +3128,12 @@ def test_id_l024_id_l024_v(json_360, save_output):
         instance="msData/identityConstraint/idL024.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l023_id_l023_v(json_360, save_output):
+def test_id_l023_id_l023_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='@ncname:*' , selector contains *
@@ -3143,13 +3143,13 @@ def test_id_l023_id_l023_v(json_360, save_output):
         instance="msData/identityConstraint/idL023.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l022_id_l022_i(json_360, save_output):
+def test_id_l022_id_l022_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for unique definition, field xpath='@*' , selector contains *
@@ -3159,12 +3159,12 @@ def test_id_l022_id_l022_i(json_360, save_output):
         instance="msData/identityConstraint/idL022.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l021_id_l021_v(json_360, save_output):
+def test_id_l021_id_l021_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='attribute::*' , selector contains
@@ -3175,12 +3175,12 @@ def test_id_l021_id_l021_v(json_360, save_output):
         instance="msData/identityConstraint/idL021.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l020_id_l020_v(json_360, save_output):
+def test_id_l020_id_l020_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='@*' , selector contains *
@@ -3190,13 +3190,13 @@ def test_id_l020_id_l020_v(json_360, save_output):
         instance="msData/identityConstraint/idL020.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l019_id_l019_i(json_360, save_output):
+def test_id_l019_id_l019_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for unique definition, field xpath='@qname' , selector contains *
@@ -3206,12 +3206,12 @@ def test_id_l019_id_l019_i(json_360, save_output):
         instance="msData/identityConstraint/idL019.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l018_id_l018_v(json_360, save_output):
+def test_id_l018_id_l018_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='attribute::qname' , selector
@@ -3222,12 +3222,12 @@ def test_id_l018_id_l018_v(json_360, save_output):
         instance="msData/identityConstraint/idL018.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l017_id_l017_v(json_360, save_output):
+def test_id_l017_id_l017_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='attribute::qname' , selector
@@ -3238,12 +3238,12 @@ def test_id_l017_id_l017_v(json_360, save_output):
         instance="msData/identityConstraint/idL017.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l016_id_l016_v(json_360, save_output):
+def test_id_l016_id_l016_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='@qname' , selector contains *
@@ -3253,13 +3253,13 @@ def test_id_l016_id_l016_v(json_360, save_output):
         instance="msData/identityConstraint/idL016.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l015_id_l015_i(json_360, save_output):
+def test_id_l015_id_l015_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for unique definition, field xpath='ncname:*' , selector contains
@@ -3270,12 +3270,12 @@ def test_id_l015_id_l015_i(json_360, save_output):
         instance="msData/identityConstraint/idL015.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l014_id_l014_v(json_360, save_output):
+def test_id_l014_id_l014_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='child::ncname:*' , selector
@@ -3286,12 +3286,12 @@ def test_id_l014_id_l014_v(json_360, save_output):
         instance="msData/identityConstraint/idL014.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l013_id_l013_v(json_360, save_output):
+def test_id_l013_id_l013_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='ncname:*' , selector contains *
@@ -3301,13 +3301,13 @@ def test_id_l013_id_l013_v(json_360, save_output):
         instance="msData/identityConstraint/idL013.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l012_id_l012_i(json_360, save_output):
+def test_id_l012_id_l012_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for unique definition, field xpath='*' , selector contains
@@ -3318,13 +3318,13 @@ def test_id_l012_id_l012_i(json_360, save_output):
         instance="msData/identityConstraint/idL012.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l011_id_l011_i(json_360, save_output):
+def test_id_l011_id_l011_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for unique definition, field xpath='*' , selector contains *
@@ -3334,12 +3334,12 @@ def test_id_l011_id_l011_i(json_360, save_output):
         instance="msData/identityConstraint/idL011.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l010_id_l010_v(json_360, save_output):
+def test_id_l010_id_l010_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='child::*' , selector contains *
@@ -3349,12 +3349,12 @@ def test_id_l010_id_l010_v(json_360, save_output):
         instance="msData/identityConstraint/idL010.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l009_id_l009_v(json_360, save_output):
+def test_id_l009_id_l009_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='*' , selector contains .//qname
@@ -3364,12 +3364,12 @@ def test_id_l009_id_l009_v(json_360, save_output):
         instance="msData/identityConstraint/idL009.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l008_id_l008_v(json_360, save_output):
+def test_id_l008_id_l008_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='*' , selector contains *
@@ -3379,13 +3379,13 @@ def test_id_l008_id_l008_v(json_360, save_output):
         instance="msData/identityConstraint/idL008.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l007_id_l007_i(json_360, save_output):
+def test_id_l007_id_l007_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for unique definition, field xpath='.//qname' , selector contains
@@ -3396,13 +3396,13 @@ def test_id_l007_id_l007_i(json_360, save_output):
         instance="msData/identityConstraint/idL007.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l006_id_l006_i(json_360, save_output):
+def test_id_l006_id_l006_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for unique definition, field xpath='qname' , selector contains *
@@ -3412,12 +3412,12 @@ def test_id_l006_id_l006_i(json_360, save_output):
         instance="msData/identityConstraint/idL006.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l005_id_l005_v(json_360, save_output):
+def test_id_l005_id_l005_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='.//qname' , selector contains
@@ -3428,12 +3428,12 @@ def test_id_l005_id_l005_v(json_360, save_output):
         instance="msData/identityConstraint/idL005.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l004_id_l004_v(json_360, save_output):
+def test_id_l004_id_l004_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='child::qname' , selector contains
@@ -3444,12 +3444,12 @@ def test_id_l004_id_l004_v(json_360, save_output):
         instance="msData/identityConstraint/idL004.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l003_id_l003_v(json_360, save_output):
+def test_id_l003_id_l003_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='qname' , selector contains *
@@ -3459,13 +3459,13 @@ def test_id_l003_id_l003_v(json_360, save_output):
         instance="msData/identityConstraint/idL003.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_l002_id_l002_i(json_360, save_output):
+def test_id_l002_id_l002_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test invalid
     XML for unique definition, field xpath='.' , selector contains *
@@ -3475,12 +3475,12 @@ def test_id_l002_id_l002_i(json_360, save_output):
         instance="msData/identityConstraint/idL002.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_l001_id_l001_v(json_360, save_output):
+def test_id_l001_id_l001_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : Test valid XML
     for unique definition, field xpath='.' , selector contains *
@@ -3490,12 +3490,12 @@ def test_id_l001_id_l001_v(json_360, save_output):
         instance="msData/identityConstraint/idL001.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_k017_id_k017_v(json_360, save_output):
+def test_id_k017_id_k017_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref defined
     locally within key scope
@@ -3505,12 +3505,12 @@ def test_id_k017_id_k017_v(json_360, save_output):
         instance="msData/identityConstraint/idK017.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_k015_id_k015_v(json_360, save_output):
+def test_id_k015_id_k015_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : constraint
     locating an element that is of simpleType/union
@@ -3520,12 +3520,12 @@ def test_id_k015_id_k015_v(json_360, save_output):
         instance="msData/identityConstraint/idK015.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_k014_id_k014_v(json_360, save_output):
+def test_id_k014_id_k014_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : constraint
     locating an element that is of simpleType/list
@@ -3535,12 +3535,12 @@ def test_id_k014_id_k014_v(json_360, save_output):
         instance="msData/identityConstraint/idK014.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_k013_id_k013_v(json_360, save_output):
+def test_id_k013_id_k013_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : constraint
     locating an element that is of simpleType/restriction
@@ -3550,13 +3550,13 @@ def test_id_k013_id_k013_v(json_360, save_output):
         instance="msData/identityConstraint/idK013.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_k012_id_k012_i(json_360, save_output):
+def test_id_k012_id_k012_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : constraint
     locating an element that is of complexType/complexContent
@@ -3566,12 +3566,12 @@ def test_id_k012_id_k012_i(json_360, save_output):
         instance="msData/identityConstraint/idK012.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_k011a_id_k011_v(json_360, save_output):
+def test_id_k011a_id_k011_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : constraint
     locating an element that is of complexType/simpleContent Resolution
@@ -3582,12 +3582,12 @@ def test_id_k011a_id_k011_v(json_360, save_output):
         instance="msData/identityConstraint/idK011.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_k011_id_k011_v(json_360, save_output):
+def test_id_k011_id_k011_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : constraint
     locating an element that is of complexType/simpleContent Resolution
@@ -3598,12 +3598,12 @@ def test_id_k011_id_k011_v(json_360, save_output):
         instance="msData/identityConstraint/idK011.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_k010_id_k010_v(json_360, save_output):
+def test_id_k010_id_k010_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref fields
     locating an element refers to a unique locating an element
@@ -3613,12 +3613,12 @@ def test_id_k010_id_k010_v(json_360, save_output):
         instance="msData/identityConstraint/idK010.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_k009_id_k009_v(json_360, save_output):
+def test_id_k009_id_k009_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref fields
     locating an element refers to a key locating an element
@@ -3628,12 +3628,12 @@ def test_id_k009_id_k009_v(json_360, save_output):
         instance="msData/identityConstraint/idK009.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_k008_id_k008_v(json_360, save_output):
+def test_id_k008_id_k008_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref fields
     locating an attribute refers to a unique locating an attribute
@@ -3643,12 +3643,12 @@ def test_id_k008_id_k008_v(json_360, save_output):
         instance="msData/identityConstraint/idK008.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_k007_id_k007_v(json_360, save_output):
+def test_id_k007_id_k007_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref fields
     locating an attribute refers to a key locating an attribute
@@ -3658,12 +3658,12 @@ def test_id_k007_id_k007_v(json_360, save_output):
         instance="msData/identityConstraint/idK007.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_k006_id_k006_v(json_360, save_output):
+def test_id_k006_id_k006_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref fields
     locating an element refers to a unique locating an attribute
@@ -3673,12 +3673,12 @@ def test_id_k006_id_k006_v(json_360, save_output):
         instance="msData/identityConstraint/idK006.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_k005_id_k005_v(json_360, save_output):
+def test_id_k005_id_k005_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref fields
     locating an element refers to a key locating an attribute
@@ -3688,12 +3688,12 @@ def test_id_k005_id_k005_v(json_360, save_output):
         instance="msData/identityConstraint/idK005.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_k004_id_k004_v(json_360, save_output):
+def test_id_k004_id_k004_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref fields
     locating an attribute subject to normalization refers to a key
@@ -3705,13 +3705,13 @@ def test_id_k004_id_k004_v(json_360, save_output):
         instance="msData/identityConstraint/idK004.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_k003_id_k003_i(json_360, save_output):
+def test_id_k003_id_k003_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref fields
     locating an attribute subject to normalization refers to a key
@@ -3723,12 +3723,12 @@ def test_id_k003_id_k003_i(json_360, save_output):
         instance="msData/identityConstraint/idK003.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_k002_id_k002_v(json_360, save_output):
+def test_id_k002_id_k002_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref fields
     locating an attribute refers to a unique locating an element
@@ -3738,12 +3738,12 @@ def test_id_k002_id_k002_v(json_360, save_output):
         instance="msData/identityConstraint/idK002.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_k001_id_k001_v(json_360, save_output):
+def test_id_k001_id_k001_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref fields
     locating an attribute refers to a key locating an element
@@ -3753,12 +3753,12 @@ def test_id_k001_id_k001_v(json_360, save_output):
         instance="msData/identityConstraint/idK001.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h034_id_h034_v(json_360, save_output):
+def test_id_h034_id_h034_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field points to attribute used only within xsi:type
@@ -3769,12 +3769,12 @@ def test_id_h034_id_h034_v(json_360, save_output):
         instance="msData/identityConstraint/idH034.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h032_id_h032_v(json_360, save_output):
+def test_id_h032_id_h032_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field points to attribute from redefined schema
@@ -3784,12 +3784,12 @@ def test_id_h032_id_h032_v(json_360, save_output):
         instance="msData/identityConstraint/idH032.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h031a_id_h031_v(json_360, save_output):
+def test_id_h031a_id_h031_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field points to attribute from imported schema Resolution
@@ -3800,12 +3800,12 @@ def test_id_h031a_id_h031_v(json_360, save_output):
         instance="msData/identityConstraint/idH031.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h031_id_h031_v(json_360, save_output):
+def test_id_h031_id_h031_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field points to attribute from imported schema Resolution
@@ -3816,12 +3816,12 @@ def test_id_h031_id_h031_v(json_360, save_output):
         instance="msData/identityConstraint/idH031.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h030_id_h030_v(json_360, save_output):
+def test_id_h030_id_h030_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field points to attribute within targetNamespace
@@ -3831,12 +3831,12 @@ def test_id_h030_id_h030_v(json_360, save_output):
         instance="msData/identityConstraint/idH030.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h029_id_h029_v(json_360, save_output):
+def test_id_h029_id_h029_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field points to element redefined by use of
@@ -3847,12 +3847,12 @@ def test_id_h029_id_h029_v(json_360, save_output):
         instance="msData/identityConstraint/idH029.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h028_id_h028_v(json_360, save_output):
+def test_id_h028_id_h028_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field points to element from redefined schema
@@ -3862,12 +3862,12 @@ def test_id_h028_id_h028_v(json_360, save_output):
         instance="msData/identityConstraint/idH028.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h027_id_h027_v(json_360, save_output):
+def test_id_h027_id_h027_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field points to element from imported schema
@@ -3877,12 +3877,12 @@ def test_id_h027_id_h027_v(json_360, save_output):
         instance="msData/identityConstraint/idH027.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h026_id_h026_v(json_360, save_output):
+def test_id_h026_id_h026_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field points to element outside targetNamespace in non-
@@ -3893,12 +3893,12 @@ def test_id_h026_id_h026_v(json_360, save_output):
         instance="msData/identityConstraint/idH026.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h025_id_h025_v(json_360, save_output):
+def test_id_h025_id_h025_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field points to element within targetNamespace
@@ -3908,12 +3908,12 @@ def test_id_h025_id_h025_v(json_360, save_output):
         instance="msData/identityConstraint/idH025.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h024_id_h024_v(json_360, save_output):
+def test_id_h024_id_h024_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, selector points to element redefined by use of
@@ -3924,12 +3924,12 @@ def test_id_h024_id_h024_v(json_360, save_output):
         instance="msData/identityConstraint/idH024.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h023_id_h023_v(json_360, save_output):
+def test_id_h023_id_h023_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, selector points to element from redefined schema
@@ -3939,12 +3939,12 @@ def test_id_h023_id_h023_v(json_360, save_output):
         instance="msData/identityConstraint/idH023.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h022_id_h022_v(json_360, save_output):
+def test_id_h022_id_h022_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, selector points to element from imported schema
@@ -3954,12 +3954,12 @@ def test_id_h022_id_h022_v(json_360, save_output):
         instance="msData/identityConstraint/idH022.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h021_id_h021_v(json_360, save_output):
+def test_id_h021_id_h021_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, selector points to element outside of targetNamespace in a
@@ -3970,12 +3970,12 @@ def test_id_h021_id_h021_v(json_360, save_output):
         instance="msData/identityConstraint/idH021.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h020_id_h020_v(json_360, save_output):
+def test_id_h020_id_h020_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, selector points to element within targetNamespace
@@ -3985,12 +3985,12 @@ def test_id_h020_id_h020_v(json_360, save_output):
         instance="msData/identityConstraint/idH020.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h019_id_h019_v(json_360, save_output):
+def test_id_h019_id_h019_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, qualified node set defined with the use of multiple field
@@ -4001,12 +4001,12 @@ def test_id_h019_id_h019_v(json_360, save_output):
         instance="msData/identityConstraint/idH019.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h018_id_h018_v(json_360, save_output):
+def test_id_h018_id_h018_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, qualified node set defined with the use of multiple field
@@ -4017,12 +4017,12 @@ def test_id_h018_id_h018_v(json_360, save_output):
         instance="msData/identityConstraint/idH018.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h017_id_h017_v(json_360, save_output):
+def test_id_h017_id_h017_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, qualified node set defined with the use of multiple field
@@ -4033,12 +4033,12 @@ def test_id_h017_id_h017_v(json_360, save_output):
         instance="msData/identityConstraint/idH017.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h016_id_h016_v(json_360, save_output):
+def test_id_h016_id_h016_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, instance member (a)=test, string; instance member (b)='',
@@ -4049,12 +4049,12 @@ def test_id_h016_id_h016_v(json_360, save_output):
         instance="msData/identityConstraint/idH016.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h015_id_h015_v(json_360, save_output):
+def test_id_h015_id_h015_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, instance member (a)=test, string; instance member (b)='',
@@ -4065,13 +4065,13 @@ def test_id_h015_id_h015_v(json_360, save_output):
         instance="msData/identityConstraint/idH015.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_h012_id_h012_i(json_360, save_output):
+def test_id_h012_id_h012_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, keyref fields are defined in a different order than referred
@@ -4082,13 +4082,13 @@ def test_id_h012_id_h012_i(json_360, save_output):
         instance="msData/identityConstraint/idH012.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_h010_id_h010_i(json_360, save_output):
+def test_id_h010_id_h010_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, keyref refers to unique element whose value is nil
@@ -4098,12 +4098,12 @@ def test_id_h010_id_h010_i(json_360, save_output):
         instance="msData/identityConstraint/idH010.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h009_id_h009_v(json_360, save_output):
+def test_id_h009_id_h009_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, keyref refers to unique element
@@ -4113,12 +4113,12 @@ def test_id_h009_id_h009_v(json_360, save_output):
         instance="msData/identityConstraint/idH009.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h008_id_h008_v(json_360, save_output):
+def test_id_h008_id_h008_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, keyref refers to existing key element defined post to keyref
@@ -4128,12 +4128,12 @@ def test_id_h008_id_h008_v(json_360, save_output):
         instance="msData/identityConstraint/idH008.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h007_id_h007_v(json_360, save_output):
+def test_id_h007_id_h007_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, keyref refers to existing key element defined prior to
@@ -4144,13 +4144,13 @@ def test_id_h007_id_h007_v(json_360, save_output):
         instance="msData/identityConstraint/idH007.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_h006_id_h006_i(json_360, save_output):
+def test_id_h006_id_h006_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field element evaluates to a node-set with a member that is
@@ -4161,13 +4161,13 @@ def test_id_h006_id_h006_i(json_360, save_output):
         instance="msData/identityConstraint/idH006.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_h005_id_h005_i(json_360, save_output):
+def test_id_h005_id_h005_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field element evaluates to a node-set with more than one
@@ -4178,12 +4178,12 @@ def test_id_h005_id_h005_i(json_360, save_output):
         instance="msData/identityConstraint/idH005.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h004_id_h004_v(json_360, save_output):
+def test_id_h004_id_h004_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field element evaluates to a node-set with only one member
@@ -4193,12 +4193,12 @@ def test_id_h004_id_h004_v(json_360, save_output):
         instance="msData/identityConstraint/idH004.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h003_id_h003_v(json_360, save_output):
+def test_id_h003_id_h003_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, field element evaluates to an empty-node set
@@ -4208,12 +4208,12 @@ def test_id_h003_id_h003_v(json_360, save_output):
         instance="msData/identityConstraint/idH003.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_h001_id_h001_v(json_360, save_output):
+def test_id_h001_id_h001_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : keyref
     category, selector element evaluates to a node-set
@@ -4223,12 +4223,12 @@ def test_id_h001_id_h001_v(json_360, save_output):
         instance="msData/identityConstraint/idH001.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_g030_id_g030_v(json_360, save_output):
+def test_id_g030_id_g030_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field points to attribute used only within xsi:type substitution
@@ -4238,12 +4238,12 @@ def test_id_g030_id_g030_v(json_360, save_output):
         instance="msData/identityConstraint/idG030.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_g029_id_g029_v(json_360, save_output):
+def test_id_g029_id_g029_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field points to attribute outside targetNamespace in non-imported
@@ -4254,12 +4254,12 @@ def test_id_g029_id_g029_v(json_360, save_output):
         instance="msData/identityConstraint/idG029.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_g028_id_g028_v(json_360, save_output):
+def test_id_g028_id_g028_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field points to attribute from redefined schema
@@ -4269,12 +4269,12 @@ def test_id_g028_id_g028_v(json_360, save_output):
         instance="msData/identityConstraint/idG028.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_g027_id_g027_v(json_360, save_output):
+def test_id_g027_id_g027_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field points to attribute from imported schema
@@ -4284,12 +4284,12 @@ def test_id_g027_id_g027_v(json_360, save_output):
         instance="msData/identityConstraint/idG027.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_g026_id_g026_v(json_360, save_output):
+def test_id_g026_id_g026_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field points to attribute within targetNamespace
@@ -4299,13 +4299,13 @@ def test_id_g026_id_g026_v(json_360, save_output):
         instance="msData/identityConstraint/idG026.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_g025_id_g025_i(json_360, save_output):
+def test_id_g025_id_g025_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field points to element redefined by use of substitutionGroup
@@ -4315,12 +4315,12 @@ def test_id_g025_id_g025_i(json_360, save_output):
         instance="msData/identityConstraint/idG025.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_g024_id_g024_v(json_360, save_output):
+def test_id_g024_id_g024_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field points to element from redefined schema
@@ -4330,12 +4330,12 @@ def test_id_g024_id_g024_v(json_360, save_output):
         instance="msData/identityConstraint/idG024.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_g023_id_g023_v(json_360, save_output):
+def test_id_g023_id_g023_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field points to element from imported schema
@@ -4345,12 +4345,12 @@ def test_id_g023_id_g023_v(json_360, save_output):
         instance="msData/identityConstraint/idG023.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_g022_id_g022_v(json_360, save_output):
+def test_id_g022_id_g022_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field points to element outside targetNamespace in non-imported schema
@@ -4360,12 +4360,12 @@ def test_id_g022_id_g022_v(json_360, save_output):
         instance="msData/identityConstraint/idG022.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_g021_id_g021_v(json_360, save_output):
+def test_id_g021_id_g021_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field points to element within targetNamespace
@@ -4375,13 +4375,13 @@ def test_id_g021_id_g021_v(json_360, save_output):
         instance="msData/identityConstraint/idG021.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_g020_id_g020_i(json_360, save_output):
+def test_id_g020_id_g020_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     selector points to element redefined by use of substitutionGroup
@@ -4391,12 +4391,12 @@ def test_id_g020_id_g020_i(json_360, save_output):
         instance="msData/identityConstraint/idG020.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_g019_id_g019_v(json_360, save_output):
+def test_id_g019_id_g019_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     selector points to element from redefined schema
@@ -4406,12 +4406,12 @@ def test_id_g019_id_g019_v(json_360, save_output):
         instance="msData/identityConstraint/idG019.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_g018_id_g018_v(json_360, save_output):
+def test_id_g018_id_g018_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     selector points to element from imported schema
@@ -4421,12 +4421,12 @@ def test_id_g018_id_g018_v(json_360, save_output):
         instance="msData/identityConstraint/idG018.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_g017_id_g017_v(json_360, save_output):
+def test_id_g017_id_g017_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     selector points to element outside of targetNamespace in a non-
@@ -4437,12 +4437,12 @@ def test_id_g017_id_g017_v(json_360, save_output):
         instance="msData/identityConstraint/idG017.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_g016_id_g016_v(json_360, save_output):
+def test_id_g016_id_g016_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     selector points to element within targetNamespace
@@ -4452,12 +4452,12 @@ def test_id_g016_id_g016_v(json_360, save_output):
         instance="msData/identityConstraint/idG016.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_g015_id_g015_v(json_360, save_output):
+def test_id_g015_id_g015_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     qualified node set defined with the use of multiple field schema
@@ -4468,12 +4468,12 @@ def test_id_g015_id_g015_v(json_360, save_output):
         instance="msData/identityConstraint/idG015.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_g014_id_g014_v(json_360, save_output):
+def test_id_g014_id_g014_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     qualified node set defined with the use of multiple field schema
@@ -4484,12 +4484,12 @@ def test_id_g014_id_g014_v(json_360, save_output):
         instance="msData/identityConstraint/idG014.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_g013_id_g013_v(json_360, save_output):
+def test_id_g013_id_g013_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     qualified node set defined with the use of multiple field schema
@@ -4500,13 +4500,13 @@ def test_id_g013_id_g013_v(json_360, save_output):
         instance="msData/identityConstraint/idG013.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_g012_id_g012_i(json_360, save_output):
+def test_id_g012_id_g012_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     instance member (a)=test, string; instance member (b)='', string
@@ -4517,13 +4517,13 @@ def test_id_g012_id_g012_i(json_360, save_output):
         instance="msData/identityConstraint/idG012.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_g011_id_g011_i(json_360, save_output):
+def test_id_g011_id_g011_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     instance member (a)=test, string; instance member (b)='', string
@@ -4534,13 +4534,13 @@ def test_id_g011_id_g011_i(json_360, save_output):
         instance="msData/identityConstraint/idG011.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_g010_id_g010_i(json_360, save_output):
+def test_id_g010_id_g010_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     qualified node set contains members are that are not unique.
@@ -4550,13 +4550,13 @@ def test_id_g010_id_g010_i(json_360, save_output):
         instance="msData/identityConstraint/idG010.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_g009_id_g009_i(json_360, save_output):
+def test_id_g009_id_g009_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     qualified node set contains members with an element declaration whose
@@ -4567,13 +4567,13 @@ def test_id_g009_id_g009_i(json_360, save_output):
         instance="msData/identityConstraint/idG009.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_g008_id_g008_i(json_360, save_output):
+def test_id_g008_id_g008_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     some target node set members do not exist in qualified node set
@@ -4583,12 +4583,12 @@ def test_id_g008_id_g008_i(json_360, save_output):
         instance="msData/identityConstraint/idG008.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_g007_id_g007_v(json_360, save_output):
+def test_id_g007_id_g007_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     all target node set members exist in qualified node set
@@ -4598,13 +4598,13 @@ def test_id_g007_id_g007_v(json_360, save_output):
         instance="msData/identityConstraint/idG007.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_g006_id_g006_i(json_360, save_output):
+def test_id_g006_id_g006_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field element evaluates to a node-set with a member that is not a
@@ -4615,13 +4615,13 @@ def test_id_g006_id_g006_i(json_360, save_output):
         instance="msData/identityConstraint/idG006.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_g005_id_g005_i(json_360, save_output):
+def test_id_g005_id_g005_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field element evaluates to a node-set with more than one member
@@ -4631,12 +4631,12 @@ def test_id_g005_id_g005_i(json_360, save_output):
         instance="msData/identityConstraint/idG005.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_g004_id_g004_v(json_360, save_output):
+def test_id_g004_id_g004_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field element evaluates to a node-set with only one member
@@ -4646,13 +4646,13 @@ def test_id_g004_id_g004_v(json_360, save_output):
         instance="msData/identityConstraint/idG004.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_g003_id_g003_i(json_360, save_output):
+def test_id_g003_id_g003_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     field element evaluates to an empty-node set
@@ -4662,12 +4662,12 @@ def test_id_g003_id_g003_i(json_360, save_output):
         instance="msData/identityConstraint/idG003.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_g001_id_g001_v(json_360, save_output):
+def test_id_g001_id_g001_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : key category,
     selector element evaluates to a node-set
@@ -4677,12 +4677,12 @@ def test_id_g001_id_g001_v(json_360, save_output):
         instance="msData/identityConstraint/idG001.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f036_id_f036_v(json_360, save_output):
+def test_id_f036_id_f036_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field points to attribute used only within xsi:type
@@ -4693,12 +4693,12 @@ def test_id_f036_id_f036_v(json_360, save_output):
         instance="msData/identityConstraint/idF036.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f035_id_f035_v(json_360, save_output):
+def test_id_f035_id_f035_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field points to attribute outside targetNamespace in non-
@@ -4709,12 +4709,12 @@ def test_id_f035_id_f035_v(json_360, save_output):
         instance="msData/identityConstraint/idF035.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f034_id_f034_v(json_360, save_output):
+def test_id_f034_id_f034_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field points to attribute from redefined schema
@@ -4724,12 +4724,12 @@ def test_id_f034_id_f034_v(json_360, save_output):
         instance="msData/identityConstraint/idF034.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f033_id_f033_v(json_360, save_output):
+def test_id_f033_id_f033_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field points to attribute from imported schema
@@ -4739,12 +4739,12 @@ def test_id_f033_id_f033_v(json_360, save_output):
         instance="msData/identityConstraint/idF033.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f032_id_f032_v(json_360, save_output):
+def test_id_f032_id_f032_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field points to attribute within targetNamespace
@@ -4754,12 +4754,12 @@ def test_id_f032_id_f032_v(json_360, save_output):
         instance="msData/identityConstraint/idF032.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f031_id_f031_v(json_360, save_output):
+def test_id_f031_id_f031_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field points to element redefined by use of
@@ -4770,12 +4770,12 @@ def test_id_f031_id_f031_v(json_360, save_output):
         instance="msData/identityConstraint/idF031.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f030_id_f030_v(json_360, save_output):
+def test_id_f030_id_f030_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field points to element from redefined schema
@@ -4785,12 +4785,12 @@ def test_id_f030_id_f030_v(json_360, save_output):
         instance="msData/identityConstraint/idF030.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f029_id_f029_v(json_360, save_output):
+def test_id_f029_id_f029_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field points to element from imported schema
@@ -4800,12 +4800,12 @@ def test_id_f029_id_f029_v(json_360, save_output):
         instance="msData/identityConstraint/idF029.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f028_id_f028_v(json_360, save_output):
+def test_id_f028_id_f028_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field points to element outside targetNamespace in non-
@@ -4816,12 +4816,12 @@ def test_id_f028_id_f028_v(json_360, save_output):
         instance="msData/identityConstraint/idF028.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f027_id_f027_v(json_360, save_output):
+def test_id_f027_id_f027_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field points to element within targetNamespace
@@ -4831,12 +4831,12 @@ def test_id_f027_id_f027_v(json_360, save_output):
         instance="msData/identityConstraint/idF027.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f026_id_f026_v(json_360, save_output):
+def test_id_f026_id_f026_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, selector points to element redefined by use of
@@ -4847,12 +4847,12 @@ def test_id_f026_id_f026_v(json_360, save_output):
         instance="msData/identityConstraint/idF026.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f025_id_f025_v(json_360, save_output):
+def test_id_f025_id_f025_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, selector points to element from redefined schema
@@ -4862,12 +4862,12 @@ def test_id_f025_id_f025_v(json_360, save_output):
         instance="msData/identityConstraint/idF025.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f024_id_f024_v(json_360, save_output):
+def test_id_f024_id_f024_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, selector points to element from imported schema
@@ -4877,12 +4877,12 @@ def test_id_f024_id_f024_v(json_360, save_output):
         instance="msData/identityConstraint/idF024.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f023_id_f023_v(json_360, save_output):
+def test_id_f023_id_f023_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, selector points to element outside of targetNamespace in a
@@ -4893,12 +4893,12 @@ def test_id_f023_id_f023_v(json_360, save_output):
         instance="msData/identityConstraint/idF023.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f022_id_f022_v(json_360, save_output):
+def test_id_f022_id_f022_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, selector points to element within targetNamespace
@@ -4908,12 +4908,12 @@ def test_id_f022_id_f022_v(json_360, save_output):
         instance="msData/identityConstraint/idF022.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f021_id_f021_v(json_360, save_output):
+def test_id_f021_id_f021_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, qualified node set defined with the use of multiple field
@@ -4924,12 +4924,12 @@ def test_id_f021_id_f021_v(json_360, save_output):
         instance="msData/identityConstraint/idF021.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f020_id_f020_v(json_360, save_output):
+def test_id_f020_id_f020_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, qualified node set defined with the use of multiple field
@@ -4940,12 +4940,12 @@ def test_id_f020_id_f020_v(json_360, save_output):
         instance="msData/identityConstraint/idF020.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f019_id_f019_v(json_360, save_output):
+def test_id_f019_id_f019_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, qualified node set defined with the use of multiple field
@@ -4956,13 +4956,13 @@ def test_id_f019_id_f019_v(json_360, save_output):
         instance="msData/identityConstraint/idF019.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_f018_id_f018_i(json_360, save_output):
+def test_id_f018_id_f018_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, instance member (a)=nil, string; instance member (b)=nil
@@ -4972,13 +4972,13 @@ def test_id_f018_id_f018_i(json_360, save_output):
         instance="msData/identityConstraint/idF018.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_f017_id_f017_i(json_360, save_output):
+def test_id_f017_id_f017_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, instance member (a)=test, string; instance member (b)='',
@@ -4989,13 +4989,13 @@ def test_id_f017_id_f017_i(json_360, save_output):
         instance="msData/identityConstraint/idF017.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_f016_id_f016_i(json_360, save_output):
+def test_id_f016_id_f016_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, instance member (a)=test, string; instance member (b)='',
@@ -5006,13 +5006,13 @@ def test_id_f016_id_f016_i(json_360, save_output):
         instance="msData/identityConstraint/idF016.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_f015_id_f015_i(json_360, save_output):
+def test_id_f015_id_f015_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, instance member (a)=1, decimal; instance member (b)=1,
@@ -5023,12 +5023,12 @@ def test_id_f015_id_f015_i(json_360, save_output):
         instance="msData/identityConstraint/idF015.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f014_id_f014_v(json_360, save_output):
+def test_id_f014_id_f014_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, instance member (a)=1, float; instance member (b)=1,
@@ -5039,12 +5039,12 @@ def test_id_f014_id_f014_v(json_360, save_output):
         instance="msData/identityConstraint/idF014.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f013_id_f013_v(json_360, save_output):
+def test_id_f013_id_f013_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, instance member (a)=1, float; instance member (b)=1, decimal
@@ -5054,12 +5054,12 @@ def test_id_f013_id_f013_v(json_360, save_output):
         instance="msData/identityConstraint/idF013.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f012_id_f012_v(json_360, save_output):
+def test_id_f012_id_f012_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, instance member (a)=1, boolean; instance member (b)=1,
@@ -5070,12 +5070,12 @@ def test_id_f012_id_f012_v(json_360, save_output):
         instance="msData/identityConstraint/idF012.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f011_id_f011_v(json_360, save_output):
+def test_id_f011_id_f011_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, instance member (a)=3.0, string; instance member (b)=3,
@@ -5086,13 +5086,13 @@ def test_id_f011_id_f011_v(json_360, save_output):
         instance="msData/identityConstraint/idF011.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_f010_id_f010_i(json_360, save_output):
+def test_id_f010_id_f010_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, instance member (a)=3.0, number; instance member (b)=3,
@@ -5103,12 +5103,12 @@ def test_id_f010_id_f010_i(json_360, save_output):
         instance="msData/identityConstraint/idF010.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f009_id_f009_v(json_360, save_output):
+def test_id_f009_id_f009_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, qualified node set contains members with an element
@@ -5119,13 +5119,13 @@ def test_id_f009_id_f009_v(json_360, save_output):
         instance="msData/identityConstraint/idF009.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_f008_id_f008_i(json_360, save_output):
+def test_id_f008_id_f008_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, not all qualified node set members are unique
@@ -5135,12 +5135,12 @@ def test_id_f008_id_f008_i(json_360, save_output):
         instance="msData/identityConstraint/idF008.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f007_id_f007_v(json_360, save_output):
+def test_id_f007_id_f007_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, all qualified node set members are unique
@@ -5150,13 +5150,13 @@ def test_id_f007_id_f007_v(json_360, save_output):
         instance="msData/identityConstraint/idF007.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_f006_id_f006_i(json_360, save_output):
+def test_id_f006_id_f006_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field element evaluates to a node-set with a member that is
@@ -5167,13 +5167,13 @@ def test_id_f006_id_f006_i(json_360, save_output):
         instance="msData/identityConstraint/idF006.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_id_f005_id_f005_i(json_360, save_output):
+def test_id_f005_id_f005_i(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field element evaluates to a node-set with more than one
@@ -5184,12 +5184,12 @@ def test_id_f005_id_f005_i(json_360, save_output):
         instance="msData/identityConstraint/idF005.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f004_id_f004_v(json_360, save_output):
+def test_id_f004_id_f004_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field element evaluates to a node-set with only one member
@@ -5199,12 +5199,12 @@ def test_id_f004_id_f004_v(json_360, save_output):
         instance="msData/identityConstraint/idF004.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f003_id_f003_v(json_360, save_output):
+def test_id_f003_id_f003_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, field element evaluates to an empty-node set
@@ -5214,12 +5214,12 @@ def test_id_f003_id_f003_v(json_360, save_output):
         instance="msData/identityConstraint/idF003.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_id_f001_id_f001_v(json_360, save_output):
+def test_id_f001_id_f001_v(mode, save_output):
     """
     TEST :Identity-constraint Definition Schema Component : unique
     category, selector element evaluates to a node-set
@@ -5229,12 +5229,12 @@ def test_id_f001_id_f001_v(json_360, save_output):
         instance="msData/identityConstraint/idF001.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_z004_mg_z004_v(json_360, save_output):
+def test_mg_z004_mg_z004_v(mode, save_output):
     """
     TEST :model groups (ALL) : test occurence range of xs:choice
     """
@@ -5243,12 +5243,12 @@ def test_mg_z004_mg_z004_v(json_360, save_output):
         instance="msData/modelGroups/mgZ004.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_z003_mg_z003_v(json_360, save_output):
+def test_mg_z003_mg_z003_v(mode, save_output):
     """
     TEST :model groups (ALL) : test derivation by ext. with all with
     base=empty content
@@ -5258,13 +5258,13 @@ def test_mg_z003_mg_z003_v(json_360, save_output):
         instance="msData/modelGroups/mgZ003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_z001_mg_z001_i(json_360, save_output):
+def test_mg_z001_mg_z001_i(mode, save_output):
     """
     TEST :model groups (ALL) : XSD: handling of ALL schema element when
     ALL has minOccurs=0
@@ -5274,12 +5274,12 @@ def test_mg_z001_mg_z001_i(json_360, save_output):
         instance="msData/modelGroups/mgZ001.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_q020_mg_q020_v(json_360, save_output):
+def test_mg_q020_mg_q020_v(mode, save_output):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), one under 'choice', one under 'sequence'
@@ -5290,12 +5290,12 @@ def test_mg_q020_mg_q020_v(json_360, save_output):
         instance="msData/modelGroups/mgQ020.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_q019_mg_q019_v(json_360, save_output):
+def test_mg_q019_mg_q019_v(mode, save_output):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), one under 'choice', one under 'choice'
@@ -5306,12 +5306,12 @@ def test_mg_q019_mg_q019_v(json_360, save_output):
         instance="msData/modelGroups/mgQ019.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_q018_mg_q018_v(json_360, save_output):
+def test_mg_q018_mg_q018_v(mode, save_output):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), one under 'choice', one under 'sequence'
@@ -5322,12 +5322,12 @@ def test_mg_q018_mg_q018_v(json_360, save_output):
         instance="msData/modelGroups/mgQ018.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_q017_mg_q017_v(json_360, save_output):
+def test_mg_q017_mg_q017_v(mode, save_output):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), one under 'sequence', one under 'choice'
@@ -5338,12 +5338,12 @@ def test_mg_q017_mg_q017_v(json_360, save_output):
         instance="msData/modelGroups/mgQ017.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_q016_mg_q016_v(json_360, save_output):
+def test_mg_q016_mg_q016_v(mode, save_output):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), one under 'sequence', one under 'sequence'
@@ -5354,12 +5354,12 @@ def test_mg_q016_mg_q016_v(json_360, save_output):
         instance="msData/modelGroups/mgQ016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_q015_mg_q015_v(json_360, save_output):
+def test_mg_q015_mg_q015_v(mode, save_output):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), one under 'sequence', one under 'choice'
@@ -5370,12 +5370,12 @@ def test_mg_q015_mg_q015_v(json_360, save_output):
         instance="msData/modelGroups/mgQ015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_q014_mg_q014_v(json_360, save_output):
+def test_mg_q014_mg_q014_v(mode, save_output):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), one under 'sequence', one under 'sequence'
@@ -5386,12 +5386,12 @@ def test_mg_q014_mg_q014_v(json_360, save_output):
         instance="msData/modelGroups/mgQ014.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_q009_mg_q009_v(json_360, save_output):
+def test_mg_q009_mg_q009_v(mode, save_output):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), one under 'choice', one under 'sequence'
@@ -5402,12 +5402,12 @@ def test_mg_q009_mg_q009_v(json_360, save_output):
         instance="msData/modelGroups/mgQ009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_q008_mg_q008_v(json_360, save_output):
+def test_mg_q008_mg_q008_v(mode, save_output):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), one under 'choice', one under 'choice'
@@ -5418,12 +5418,12 @@ def test_mg_q008_mg_q008_v(json_360, save_output):
         instance="msData/modelGroups/mgQ008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_q007_mg_q007_v(json_360, save_output):
+def test_mg_q007_mg_q007_v(mode, save_output):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), one under 'sequence', one under 'sequence'
@@ -5434,12 +5434,12 @@ def test_mg_q007_mg_q007_v(json_360, save_output):
         instance="msData/modelGroups/mgQ007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_q006_mg_q006_v(json_360, save_output):
+def test_mg_q006_mg_q006_v(mode, save_output):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), one under 'sequence', one under 'choice'
@@ -5450,12 +5450,12 @@ def test_mg_q006_mg_q006_v(json_360, save_output):
         instance="msData/modelGroups/mgQ006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_q003_mg_q003_v(json_360, save_output):
+def test_mg_q003_mg_q003_v(mode, save_output):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), both under choice
@@ -5465,12 +5465,12 @@ def test_mg_q003_mg_q003_v(json_360, save_output):
         instance="msData/modelGroups/mgQ003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_q002_mg_q002_v(json_360, save_output):
+def test_mg_q002_mg_q002_v(mode, save_output):
     """
     TEST :model groups (ALL) : 2 particles with idendical element
     declarations (same type), both under sequence
@@ -5480,12 +5480,12 @@ def test_mg_q002_mg_q002_v(json_360, save_output):
         instance="msData/modelGroups/mgQ002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_o038_mg_o038_v(json_360, save_output):
+def test_mg_o038_mg_o038_v(mode, save_output):
     """
     TEST :model groups (ALL) : group' with 'all', appear under 'choice'
     with maxOccurs=minOccurs=1 , which is part of a complexType
@@ -5495,12 +5495,12 @@ def test_mg_o038_mg_o038_v(json_360, save_output):
         instance="msData/modelGroups/mgO038.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_o037_mg_o037_v(json_360, save_output):
+def test_mg_o037_mg_o037_v(mode, save_output):
     """
     TEST :model groups (ALL) : group' with 'all', appear under 'sequence'
     with maxOccurs=minOccurs=1, which is part of a complexType
@@ -5510,12 +5510,12 @@ def test_mg_o037_mg_o037_v(json_360, save_output):
         instance="msData/modelGroups/mgO037.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_o036_mg_o036_v(json_360, save_output):
+def test_mg_o036_mg_o036_v(mode, save_output):
     """
     TEST :model groups (ALL) : group' with 'all', appear under
     'restriction', whiche is part of a complexType
@@ -5525,12 +5525,12 @@ def test_mg_o036_mg_o036_v(json_360, save_output):
         instance="msData/modelGroups/mgO036.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_o034_mg_o034_v(json_360, save_output):
+def test_mg_o034_mg_o034_v(mode, save_output):
     """
     TEST :model groups (ALL) : group' with 'all', appear under 'redefine',
     which is part of a complexType
@@ -5540,12 +5540,12 @@ def test_mg_o034_mg_o034_v(json_360, save_output):
         instance="msData/modelGroups/mgO034.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_o031_mg_o031_v(json_360, save_output):
+def test_mg_o031_mg_o031_v(mode, save_output):
     """
     TEST :model groups (ALL) : group' with 'all', appear under 'choice'
     with maxOccurs=minOccurs=1 , which is part of a complexType, and group
@@ -5556,12 +5556,12 @@ def test_mg_o031_mg_o031_v(json_360, save_output):
         instance="msData/modelGroups/mgO031.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_o030_mg_o030_v(json_360, save_output):
+def test_mg_o030_mg_o030_v(mode, save_output):
     """
     TEST :model groups (ALL) : 'all', and has minOccurs=0, maxOccurs=1
     """
@@ -5570,12 +5570,12 @@ def test_mg_o030_mg_o030_v(json_360, save_output):
         instance="msData/modelGroups/mgO030.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_o029_mg_o029_v(json_360, save_output):
+def test_mg_o029_mg_o029_v(mode, save_output):
     """
     TEST :model groups (ALL) : 'all', appear under 'restriction', which is
     part of a complexType, and has minOccurs=0, maxOccurs=1
@@ -5585,12 +5585,12 @@ def test_mg_o029_mg_o029_v(json_360, save_output):
         instance="msData/modelGroups/mgO029.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_o017_mg_o017_v(json_360, save_output):
+def test_mg_o017_mg_o017_v(mode, save_output):
     """
     TEST :model groups (ALL) : group' with 'all', appear under 'choice'
     with maxOccurs=minOccurs=1 , whiche is part of a complexType, and
@@ -5601,12 +5601,12 @@ def test_mg_o017_mg_o017_v(json_360, save_output):
         instance="msData/modelGroups/mgO017.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_o016_mg_o016_v(json_360, save_output):
+def test_mg_o016_mg_o016_v(mode, save_output):
     """
     TEST :model groups (ALL) : group' with 'all', appear under 'sequence'
     with maxOccurs=minOccurs=1, , whiche is part of a complexType, and
@@ -5617,12 +5617,12 @@ def test_mg_o016_mg_o016_v(json_360, save_output):
         instance="msData/modelGroups/mgO016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_o015_mg_o015_v(json_360, save_output):
+def test_mg_o015_mg_o015_v(mode, save_output):
     """
     TEST :model groups (ALL) : group' with 'all', appear under
     'restriction', whiche is part of a complexType, and particles in all
@@ -5633,12 +5633,12 @@ def test_mg_o015_mg_o015_v(json_360, save_output):
         instance="msData/modelGroups/mgO015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_o011_mg_o011_v(json_360, save_output):
+def test_mg_o011_mg_o011_v(mode, save_output):
     """
     TEST :model groups (ALL) : group' with 'all', appear under
     'complexType', whiche is part of a complexType, and particles in all
@@ -5649,12 +5649,12 @@ def test_mg_o011_mg_o011_v(json_360, save_output):
         instance="msData/modelGroups/mgO011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_o010_mg_o010_v(json_360, save_output):
+def test_mg_o010_mg_o010_v(mode, save_output):
     """
     TEST :model groups (ALL) : group' with 'all', appear under 'choice'
     which is part of a complexType
@@ -5664,12 +5664,12 @@ def test_mg_o010_mg_o010_v(json_360, save_output):
         instance="msData/modelGroups/mgO010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_o009_mg_o009_v(json_360, save_output):
+def test_mg_o009_mg_o009_v(mode, save_output):
     """
     TEST :model groups (ALL) : group' with 'all', appear under 'sequence'
     which is part of a complexType
@@ -5679,12 +5679,12 @@ def test_mg_o009_mg_o009_v(json_360, save_output):
         instance="msData/modelGroups/mgO009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_o008_mg_o008_v(json_360, save_output):
+def test_mg_o008_mg_o008_v(mode, save_output):
     """
     TEST :model groups (ALL) : group' with 'all', appear under
     'restriction', which is part of a complexType
@@ -5694,12 +5694,12 @@ def test_mg_o008_mg_o008_v(json_360, save_output):
         instance="msData/modelGroups/mgO008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_o006_mg_o006_v(json_360, save_output):
+def test_mg_o006_mg_o006_v(mode, save_output):
     """
     TEST :model groups (ALL) : group' with 'all', appear under 'redefine',
     which is part of a complexType
@@ -5709,12 +5709,12 @@ def test_mg_o006_mg_o006_v(json_360, save_output):
         instance="msData/modelGroups/mgO006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_o005_mg_o005_v(json_360, save_output):
+def test_mg_o005_mg_o005_v(mode, save_output):
     """
     TEST :model groups (ALL) : group' with 'all', appear under 'schema',
     which is part of a complexType and has maxOccurs=minOccurs (0 | 1)
@@ -5724,12 +5724,12 @@ def test_mg_o005_mg_o005_v(json_360, save_output):
         instance="msData/modelGroups/mgO005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_o004_mg_o004_v(json_360, save_output):
+def test_mg_o004_mg_o004_v(mode, save_output):
     """
     TEST :model groups (ALL) : all appear under 'complexType', which is
     part of a complexType, and particles in all has maxOccurs=minOccurs (0
@@ -5740,12 +5740,12 @@ def test_mg_o004_mg_o004_v(json_360, save_output):
         instance="msData/modelGroups/mgO004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_o002_mg_o002_v(json_360, save_output):
+def test_mg_o002_mg_o002_v(mode, save_output):
     """
     TEST :model groups (ALL) : all has particle with minOccurs=maxOccur =
     1
@@ -5755,13 +5755,13 @@ def test_mg_o002_mg_o002_v(json_360, save_output):
         instance="msData/modelGroups/mgO002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_n016_mg_n016_i(json_360, save_output):
+def test_mg_n016_mg_n016_i(mode, save_output):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2)
     (F1,F2), and 2 choice (C1 | C2) (D1 | D2), in the instant XML document
@@ -5772,13 +5772,13 @@ def test_mg_n016_mg_n016_i(json_360, save_output):
         instance="msData/modelGroups/mgN016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_n015_mg_n015_i(json_360, save_output):
+def test_mg_n015_mg_n015_i(mode, save_output):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2)
     (F1,F2), and 2 choice (C1 | C2) (D1 | D2), in the instant XML document
@@ -5789,13 +5789,13 @@ def test_mg_n015_mg_n015_i(json_360, save_output):
         instance="msData/modelGroups/mgN015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_n014_mg_n014_i(json_360, save_output):
+def test_mg_n014_mg_n014_i(mode, save_output):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2)
     (F1,F2), and 2 choice (C1 | C2) (D1 | D2), in the instant XML document
@@ -5806,13 +5806,13 @@ def test_mg_n014_mg_n014_i(json_360, save_output):
         instance="msData/modelGroups/mgN014.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_n013_mg_n013_i(json_360, save_output):
+def test_mg_n013_mg_n013_i(mode, save_output):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2)
     (F1,F2), and 2 choice (C1 | C2) (D1 | D2), in the instant XML document
@@ -5823,12 +5823,12 @@ def test_mg_n013_mg_n013_i(json_360, save_output):
         instance="msData/modelGroups/mgN013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_n012_mg_n012_v(json_360, save_output):
+def test_mg_n012_mg_n012_v(mode, save_output):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2)
     (F1,F2), and 2 choice (C1 | C2) (D1 | D2), in the instant XML document
@@ -5839,13 +5839,13 @@ def test_mg_n012_mg_n012_v(json_360, save_output):
         instance="msData/modelGroups/mgN012.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_n011_mg_n011_i(json_360, save_output):
+def test_mg_n011_mg_n011_i(mode, save_output):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence (E1, E2)
     (F1,F2), and 2 choice (C1 | C2) (C1 | C2), in the instant XML document
@@ -5856,13 +5856,13 @@ def test_mg_n011_mg_n011_i(json_360, save_output):
         instance="msData/modelGroups/mgN011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_n010_mg_n010_i(json_360, save_output):
+def test_mg_n010_mg_n010_i(mode, save_output):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence as child
     (E1,E2) (F1,F2), in the instant XML document, the sequence appear as
@@ -5873,13 +5873,13 @@ def test_mg_n010_mg_n010_i(json_360, save_output):
         instance="msData/modelGroups/mgN010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_n009_mg_n009_i(json_360, save_output):
+def test_mg_n009_mg_n009_i(mode, save_output):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence as child
     (E1,E2) (F1,F2), in the instant XML document, the sequence appear as
@@ -5890,13 +5890,13 @@ def test_mg_n009_mg_n009_i(json_360, save_output):
         instance="msData/modelGroups/mgN009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_n008_mg_n008_i(json_360, save_output):
+def test_mg_n008_mg_n008_i(mode, save_output):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence as child
     (E1,E2) (F1,F2), in the instant XML document, the sequence appear as
@@ -5907,13 +5907,13 @@ def test_mg_n008_mg_n008_i(json_360, save_output):
         instance="msData/modelGroups/mgN008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_n007_mg_n007_i(json_360, save_output):
+def test_mg_n007_mg_n007_i(mode, save_output):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence as child
     (E1,E2) (F1,F2), in the instant XML document, the sequence appear as
@@ -5924,13 +5924,13 @@ def test_mg_n007_mg_n007_i(json_360, save_output):
         instance="msData/modelGroups/mgN007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_n006_mg_n006_i(json_360, save_output):
+def test_mg_n006_mg_n006_i(mode, save_output):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence as child
     (E1,E2) (F1,F2), in the instant XML document, the sequence appear as
@@ -5941,12 +5941,12 @@ def test_mg_n006_mg_n006_i(json_360, save_output):
         instance="msData/modelGroups/mgN006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_n005_mg_n005_v(json_360, save_output):
+def test_mg_n005_mg_n005_v(mode, save_output):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence as child
     (E1,E2) (F1,F2), in the instant XML document, there is no element
@@ -5957,13 +5957,13 @@ def test_mg_n005_mg_n005_v(json_360, save_output):
         instance="msData/modelGroups/mgN005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_n004_mg_n004_i(json_360, save_output):
+def test_mg_n004_mg_n004_i(mode, save_output):
     """
     TEST :model groups (ALL) : parent is sequence, has 2 sequence as child
     ( no elements ), in the instant XML document, the sequence appear as
@@ -5974,13 +5974,13 @@ def test_mg_n004_mg_n004_i(json_360, save_output):
         instance="msData/modelGroups/mgN004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_n003_mg_n003_i(json_360, save_output):
+def test_mg_n003_mg_n003_i(mode, save_output):
     """
     TEST :model groups (ALL) : parent is sequence, the instant XML has
     element that are of same local name but different namespace URI than
@@ -5991,13 +5991,13 @@ def test_mg_n003_mg_n003_i(json_360, save_output):
         instance="msData/modelGroups/mgN003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_n002_mg_n002_i(json_360, save_output):
+def test_mg_n002_mg_n002_i(mode, save_output):
     """
     TEST :model groups (ALL) : parent is sequence, more than one child
     sequences, each of them again have more than one sequence child node,
@@ -6008,12 +6008,12 @@ def test_mg_n002_mg_n002_i(json_360, save_output):
         instance="msData/modelGroups/mgN002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_n001_mg_n001_v(json_360, save_output):
+def test_mg_n001_mg_n001_v(mode, save_output):
     """
     TEST :model groups (ALL) : parent is sequence, more than one child
     sequences, each of them again have more than one sequence child node,
@@ -6024,13 +6024,13 @@ def test_mg_n001_mg_n001_v(json_360, save_output):
         instance="msData/modelGroups/mgN001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_m014_mg_m014_i(json_360, save_output):
+def test_mg_m014_mg_m014_i(mode, save_output):
     """
     TEST :model groups (ALL) : all: with 2 elements instant doc has the
     same element twice.
@@ -6040,12 +6040,12 @@ def test_mg_m014_mg_m014_i(json_360, save_output):
         instance="msData/modelGroups/mgM014.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_m013_mg_m013_v(json_360, save_output):
+def test_mg_m013_mg_m013_v(mode, save_output):
     """
     TEST :model groups (ALL) : all: with 2 elements instant doc has a
     global element
@@ -6055,13 +6055,13 @@ def test_mg_m013_mg_m013_v(json_360, save_output):
         instance="msData/modelGroups/mgM013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_m012_mg_m012_i(json_360, save_output):
+def test_mg_m012_mg_m012_i(mode, save_output):
     """
     TEST :model groups (ALL) : all: with 2 elements instant doc has an
     element that is not local or global to the declaring element
@@ -6071,12 +6071,12 @@ def test_mg_m012_mg_m012_i(json_360, save_output):
         instance="msData/modelGroups/mgM012.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_m011_mg_m011_v(json_360, save_output):
+def test_mg_m011_mg_m011_v(mode, save_output):
     """
     TEST :model groups (ALL) : all: with 5 elements instant doc has all
     the element in reverse order
@@ -6086,13 +6086,13 @@ def test_mg_m011_mg_m011_v(json_360, save_output):
         instance="msData/modelGroups/mgM011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_m010_mg_m010_i(json_360, save_output):
+def test_mg_m010_mg_m010_i(mode, save_output):
     """
     TEST :model groups (ALL) : all: with 2 elements instant doc has all
     the element plus some other element from other namespace
@@ -6102,12 +6102,12 @@ def test_mg_m010_mg_m010_i(json_360, save_output):
         instance="msData/modelGroups/mgM010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_m009_mg_m009_v(json_360, save_output):
+def test_mg_m009_mg_m009_v(mode, save_output):
     """
     TEST :model groups (ALL) : all: with 2 elements 2 element in different
     order is in the instant XML doc
@@ -6117,12 +6117,12 @@ def test_mg_m009_mg_m009_v(json_360, save_output):
         instance="msData/modelGroups/mgM009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_m008_mg_m008_v(json_360, save_output):
+def test_mg_m008_mg_m008_v(mode, save_output):
     """
     TEST :model groups (ALL) : all: with 2 elements 2 element is in the
     instant XML doc
@@ -6132,13 +6132,13 @@ def test_mg_m008_mg_m008_v(json_360, save_output):
         instance="msData/modelGroups/mgM008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_m007_mg_m007_i(json_360, save_output):
+def test_mg_m007_mg_m007_i(mode, save_output):
     """
     TEST :model groups (ALL) : all: with 2 elements 1 element is in the
     instant XML doc
@@ -6148,13 +6148,13 @@ def test_mg_m007_mg_m007_i(json_360, save_output):
         instance="msData/modelGroups/mgM007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_m006_mg_m006_i(json_360, save_output):
+def test_mg_m006_mg_m006_i(mode, save_output):
     """
     TEST :model groups (ALL) : all: with 2 elements 0 element is in the
     instant XML doc
@@ -6164,13 +6164,13 @@ def test_mg_m006_mg_m006_i(json_360, save_output):
         instance="msData/modelGroups/mgM006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_m005_mg_m005_i(json_360, save_output):
+def test_mg_m005_mg_m005_i(mode, save_output):
     """
     TEST :model groups (ALL) : all: with 1 elements 2 element is in the
     instant XML doc
@@ -6180,12 +6180,12 @@ def test_mg_m005_mg_m005_i(json_360, save_output):
         instance="msData/modelGroups/mgM005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_m004_mg_m004_v(json_360, save_output):
+def test_mg_m004_mg_m004_v(mode, save_output):
     """
     TEST :model groups (ALL) : all: with 1 elements 1 element is in the
     instant XML doc
@@ -6195,13 +6195,13 @@ def test_mg_m004_mg_m004_v(json_360, save_output):
         instance="msData/modelGroups/mgM004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_m003_mg_m003_i(json_360, save_output):
+def test_mg_m003_mg_m003_i(mode, save_output):
     """
     TEST :model groups (ALL) : all: with 1 elements 0 element is in the
     instant XML doc
@@ -6211,13 +6211,13 @@ def test_mg_m003_mg_m003_i(json_360, save_output):
         instance="msData/modelGroups/mgM003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_m002_mg_m002_i(json_360, save_output):
+def test_mg_m002_mg_m002_i(mode, save_output):
     """
     TEST :model groups (ALL) : all: with no elements 1 element is in the
     instant XML doc
@@ -6227,13 +6227,13 @@ def test_mg_m002_mg_m002_i(json_360, save_output):
         instance="msData/modelGroups/mgM002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_l010_mg_l010_i(json_360, save_output):
+def test_mg_l010_mg_l010_i(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with 5 elements, an undefined
     element in the instant XML doc
@@ -6243,12 +6243,12 @@ def test_mg_l010_mg_l010_i(json_360, save_output):
         instance="msData/modelGroups/mgL010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_l009_mg_l009_v(json_360, save_output):
+def test_mg_l009_mg_l009_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with 5 elements, 1 element in the
     instant XML doc
@@ -6258,12 +6258,12 @@ def test_mg_l009_mg_l009_v(json_360, save_output):
         instance="msData/modelGroups/mgL009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_l008_mg_l008_v(json_360, save_output):
+def test_mg_l008_mg_l008_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with 5 elements, 0 element in the
     instant XML doc
@@ -6273,13 +6273,13 @@ def test_mg_l008_mg_l008_v(json_360, save_output):
         instance="msData/modelGroups/mgL008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_l007_mg_l007_i(json_360, save_output):
+def test_mg_l007_mg_l007_i(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with 2 elements, 2 element in the
     instant XML doc
@@ -6289,12 +6289,12 @@ def test_mg_l007_mg_l007_i(json_360, save_output):
         instance="msData/modelGroups/mgL007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_l006_mg_l006_v(json_360, save_output):
+def test_mg_l006_mg_l006_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with 2 elements, 1 element in the
     instant XML doc
@@ -6304,13 +6304,13 @@ def test_mg_l006_mg_l006_v(json_360, save_output):
         instance="msData/modelGroups/mgL006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_l005_mg_l005_i(json_360, save_output):
+def test_mg_l005_mg_l005_i(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with 1 elements, 2 element is in
     the instant XML doc
@@ -6320,12 +6320,12 @@ def test_mg_l005_mg_l005_i(json_360, save_output):
         instance="msData/modelGroups/mgL005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_l004_mg_l004_v(json_360, save_output):
+def test_mg_l004_mg_l004_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with 1 elements, 1 element is in
     the instant XML doc
@@ -6335,13 +6335,13 @@ def test_mg_l004_mg_l004_v(json_360, save_output):
         instance="msData/modelGroups/mgL004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_l003_mg_l003_i(json_360, save_output):
+def test_mg_l003_mg_l003_i(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with 1 elements, 0 element is in
     the instant XML doc
@@ -6351,13 +6351,13 @@ def test_mg_l003_mg_l003_i(json_360, save_output):
         instance="msData/modelGroups/mgL003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_l002_mg_l002_i(json_360, save_output):
+def test_mg_l002_mg_l002_i(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with NO elements, 1 element is in
     the instant XML doc
@@ -6367,12 +6367,12 @@ def test_mg_l002_mg_l002_i(json_360, save_output):
         instance="msData/modelGroups/mgL002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_l001_mg_l001_v(json_360, save_output):
+def test_mg_l001_mg_l001_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with NO elements (max=min=absent),
     0 element is in the instant XML doc
@@ -6382,13 +6382,13 @@ def test_mg_l001_mg_l001_v(json_360, save_output):
         instance="msData/modelGroups/mgL001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_k010_mg_k010_i(json_360, save_output):
+def test_mg_k010_mg_k010_i(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with 5 elements, the last 2
     elements are not in the defined order
@@ -6398,12 +6398,12 @@ def test_mg_k010_mg_k010_i(json_360, save_output):
         instance="msData/modelGroups/mgK010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_k009_mg_k009_v(json_360, save_output):
+def test_mg_k009_mg_k009_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with 5 elements, all elements
     appeared and are in defined order
@@ -6413,13 +6413,13 @@ def test_mg_k009_mg_k009_v(json_360, save_output):
         instance="msData/modelGroups/mgK009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_k008_mg_k008_i(json_360, save_output):
+def test_mg_k008_mg_k008_i(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with 2 elements, 3 elements is
     specified in the instant XML doc
@@ -6429,13 +6429,13 @@ def test_mg_k008_mg_k008_i(json_360, save_output):
         instance="msData/modelGroups/mgK008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_k007_mg_k007_i(json_360, save_output):
+def test_mg_k007_mg_k007_i(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with 2 elements, the elements are
     not in the defined order
@@ -6445,13 +6445,13 @@ def test_mg_k007_mg_k007_i(json_360, save_output):
         instance="msData/modelGroups/mgK007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_k006_mg_k006_i(json_360, save_output):
+def test_mg_k006_mg_k006_i(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with 2 elements, only the 1st
     element is specified in the instant XML doc
@@ -6461,13 +6461,13 @@ def test_mg_k006_mg_k006_i(json_360, save_output):
         instance="msData/modelGroups/mgK006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_k005_mg_k005_i(json_360, save_output):
+def test_mg_k005_mg_k005_i(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with 1 elements, 2 element is in
     the instant XML doc
@@ -6477,12 +6477,12 @@ def test_mg_k005_mg_k005_i(json_360, save_output):
         instance="msData/modelGroups/mgK005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_k004_mg_k004_v(json_360, save_output):
+def test_mg_k004_mg_k004_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with 1 elements, 1 element is in
     the instant XML doc
@@ -6492,13 +6492,13 @@ def test_mg_k004_mg_k004_v(json_360, save_output):
         instance="msData/modelGroups/mgK004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_k003_mg_k003_i(json_360, save_output):
+def test_mg_k003_mg_k003_i(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with 1 elements, 0 element is in
     the instant XML doc
@@ -6508,13 +6508,13 @@ def test_mg_k003_mg_k003_i(json_360, save_output):
         instance="msData/modelGroups/mgK003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_k002_mg_k002_i(json_360, save_output):
+def test_mg_k002_mg_k002_i(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with NO elements, 1 element is in
     the instant XML doc
@@ -6524,12 +6524,12 @@ def test_mg_k002_mg_k002_i(json_360, save_output):
         instance="msData/modelGroups/mgK002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_k001_mg_k001_v(json_360, save_output):
+def test_mg_k001_mg_k001_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with NO elements
     (max=min=absent), 0 element is in the instant XML doc
@@ -6539,12 +6539,12 @@ def test_mg_k001_mg_k001_v(json_360, save_output):
         instance="msData/modelGroups/mgK001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_j026_mg_j026_v(json_360, save_output):
+def test_mg_j026_mg_j026_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=3,
     maxOccurs=unbounded
@@ -6554,13 +6554,13 @@ def test_mg_j026_mg_j026_v(json_360, save_output):
         instance="msData/modelGroups/mgJ026.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_j024_mg_j024_i(json_360, save_output):
+def test_mg_j024_mg_j024_i(mode, save_output):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=3,
     minOccurs=1, maxOccurs=2
@@ -6570,12 +6570,12 @@ def test_mg_j024_mg_j024_i(json_360, save_output):
         instance="msData/modelGroups/mgJ024.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_j023_mg_j023_v(json_360, save_output):
+def test_mg_j023_mg_j023_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=2,
     minOccurs=1, maxOccurs=2
@@ -6585,12 +6585,12 @@ def test_mg_j023_mg_j023_v(json_360, save_output):
         instance="msData/modelGroups/mgJ023.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_j022_mg_j022_v(json_360, save_output):
+def test_mg_j022_mg_j022_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=1,
     minOccurs=1, maxOccurs=2
@@ -6600,13 +6600,13 @@ def test_mg_j022_mg_j022_v(json_360, save_output):
         instance="msData/modelGroups/mgJ022.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_j021_mg_j021_i(json_360, save_output):
+def test_mg_j021_mg_j021_i(mode, save_output):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=0,
     minOccurs=1, maxOccurs=2
@@ -6616,13 +6616,13 @@ def test_mg_j021_mg_j021_i(json_360, save_output):
         instance="msData/modelGroups/mgJ021.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_j020_mg_j020_i(json_360, save_output):
+def test_mg_j020_mg_j020_i(mode, save_output):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=2,
     minOccurs=1, maxOccurs=1
@@ -6632,12 +6632,12 @@ def test_mg_j020_mg_j020_i(json_360, save_output):
         instance="msData/modelGroups/mgJ020.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_j019_mg_j019_v(json_360, save_output):
+def test_mg_j019_mg_j019_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=1,
     minOccurs=1, maxOccurs=1
@@ -6647,13 +6647,13 @@ def test_mg_j019_mg_j019_v(json_360, save_output):
         instance="msData/modelGroups/mgJ019.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_j018_mg_j018_i(json_360, save_output):
+def test_mg_j018_mg_j018_i(mode, save_output):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=0,
     minOccurs=1, maxOccurs=1
@@ -6663,13 +6663,13 @@ def test_mg_j018_mg_j018_i(json_360, save_output):
         instance="msData/modelGroups/mgJ018.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_j017_mg_j017_i(json_360, save_output):
+def test_mg_j017_mg_j017_i(mode, save_output):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=2,
     minOccurs=1, maxOccurs=absent
@@ -6679,12 +6679,12 @@ def test_mg_j017_mg_j017_i(json_360, save_output):
         instance="msData/modelGroups/mgJ017.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_j016_mg_j016_v(json_360, save_output):
+def test_mg_j016_mg_j016_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=1,
     minOccurs=1, maxOccurs=absent
@@ -6694,13 +6694,13 @@ def test_mg_j016_mg_j016_v(json_360, save_output):
         instance="msData/modelGroups/mgJ016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_j015_mg_j015_i(json_360, save_output):
+def test_mg_j015_mg_j015_i(mode, save_output):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=0,
     minOccurs=1, maxOccurs=absent
@@ -6710,12 +6710,12 @@ def test_mg_j015_mg_j015_i(json_360, save_output):
         instance="msData/modelGroups/mgJ015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_j014_mg_j014_v(json_360, save_output):
+def test_mg_j014_mg_j014_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=0,
     minOccurs=0, maxOccurs=999999999
@@ -6725,13 +6725,13 @@ def test_mg_j014_mg_j014_v(json_360, save_output):
         instance="msData/modelGroups/mgJ014.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_j013_mg_j013_i(json_360, save_output):
+def test_mg_j013_mg_j013_i(mode, save_output):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=1,
     minOccurs=0, maxOccurs=0
@@ -6741,12 +6741,12 @@ def test_mg_j013_mg_j013_i(json_360, save_output):
         instance="msData/modelGroups/mgJ013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_j012_mg_j012_v(json_360, save_output):
+def test_mg_j012_mg_j012_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=0,
     minOccurs=0, maxOccurs=0
@@ -6756,13 +6756,13 @@ def test_mg_j012_mg_j012_v(json_360, save_output):
         instance="msData/modelGroups/mgJ012.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_j011_mg_j011_i(json_360, save_output):
+def test_mg_j011_mg_j011_i(mode, save_output):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=2,
     minOccurs=0, maxOccurs=1
@@ -6772,12 +6772,12 @@ def test_mg_j011_mg_j011_i(json_360, save_output):
         instance="msData/modelGroups/mgJ011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_j010_mg_j010_v(json_360, save_output):
+def test_mg_j010_mg_j010_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=1,
     minOccurs=0, maxOccurs=1
@@ -6787,12 +6787,12 @@ def test_mg_j010_mg_j010_v(json_360, save_output):
         instance="msData/modelGroups/mgJ010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_j009_mg_j009_v(json_360, save_output):
+def test_mg_j009_mg_j009_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=0,
     minOccurs=0, maxOccurs=1
@@ -6802,13 +6802,13 @@ def test_mg_j009_mg_j009_v(json_360, save_output):
         instance="msData/modelGroups/mgJ009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_j008_mg_j008_i(json_360, save_output):
+def test_mg_j008_mg_j008_i(mode, save_output):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=2,
     minOccurs=0, maxOccurs=absent
@@ -6818,12 +6818,12 @@ def test_mg_j008_mg_j008_i(json_360, save_output):
         instance="msData/modelGroups/mgJ008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_j007_mg_j007_v(json_360, save_output):
+def test_mg_j007_mg_j007_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=1,
     minOccurs=0, maxOccurs=absent
@@ -6833,12 +6833,12 @@ def test_mg_j007_mg_j007_v(json_360, save_output):
         instance="msData/modelGroups/mgJ007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_j006_mg_j006_v(json_360, save_output):
+def test_mg_j006_mg_j006_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: elements in instant XML=0,
     minOccurs=0, maxOccurs=absent
@@ -6848,13 +6848,13 @@ def test_mg_j006_mg_j006_v(json_360, save_output):
         instance="msData/modelGroups/mgJ006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_j005_mg_j005_i(json_360, save_output):
+def test_mg_j005_mg_j005_i(mode, save_output):
     """
     TEST :model groups (ALL) : choice: check that maxOccurs default is 1,
     elements in instant XML = 2, minOccurs=absent, maxOccurs=absent
@@ -6864,12 +6864,12 @@ def test_mg_j005_mg_j005_i(json_360, save_output):
         instance="msData/modelGroups/mgJ005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_j004_mg_j004_v(json_360, save_output):
+def test_mg_j004_mg_j004_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: check that minOccurs default is 1,
     elements in instant XML = 1, minOccurs=absent, maxOccurs=absent
@@ -6879,13 +6879,13 @@ def test_mg_j004_mg_j004_v(json_360, save_output):
         instance="msData/modelGroups/mgJ004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_j003_mg_j003_i(json_360, save_output):
+def test_mg_j003_mg_j003_i(mode, save_output):
     """
     TEST :model groups (ALL) : choice: check that minOccurs default is 1,
     elements in instant XML = 0, minOccurs=absent, maxOccurs=absent
@@ -6895,12 +6895,12 @@ def test_mg_j003_mg_j003_i(json_360, save_output):
         instance="msData/modelGroups/mgJ003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_i019_mg_i019_v(json_360, save_output):
+def test_mg_i019_mg_i019_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with children 4 any, 4 elements
     """
@@ -6909,12 +6909,12 @@ def test_mg_i019_mg_i019_v(json_360, save_output):
         instance="msData/modelGroups/mgI019.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_i018_mg_i018_v(json_360, save_output):
+def test_mg_i018_mg_i018_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with children 4 sequence, 4 any
     """
@@ -6923,12 +6923,12 @@ def test_mg_i018_mg_i018_v(json_360, save_output):
         instance="msData/modelGroups/mgI018.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_i017_mg_i017_v(json_360, save_output):
+def test_mg_i017_mg_i017_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with children 4 choice, 4 sequence
     """
@@ -6937,12 +6937,12 @@ def test_mg_i017_mg_i017_v(json_360, save_output):
         instance="msData/modelGroups/mgI017.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_i016_mg_i016_v(json_360, save_output):
+def test_mg_i016_mg_i016_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with children 4 groups, 4 choice
     """
@@ -6951,12 +6951,12 @@ def test_mg_i016_mg_i016_v(json_360, save_output):
         instance="msData/modelGroups/mgI016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_i015_mg_i015_v(json_360, save_output):
+def test_mg_i015_mg_i015_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with children 4 elements, 4 groups
     """
@@ -6965,12 +6965,12 @@ def test_mg_i015_mg_i015_v(json_360, save_output):
         instance="msData/modelGroups/mgI015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_i014_mg_i014_v(json_360, save_output):
+def test_mg_i014_mg_i014_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with children any, sequence, group,
     element, choice
@@ -6980,12 +6980,12 @@ def test_mg_i014_mg_i014_v(json_360, save_output):
         instance="msData/modelGroups/mgI014.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_i013_mg_i013_v(json_360, save_output):
+def test_mg_i013_mg_i013_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with children sequence, group,
     choice, element, any
@@ -6995,12 +6995,12 @@ def test_mg_i013_mg_i013_v(json_360, save_output):
         instance="msData/modelGroups/mgI013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_i012_mg_i012_v(json_360, save_output):
+def test_mg_i012_mg_i012_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with children choice, any, group,
     sequence, element
@@ -7010,12 +7010,12 @@ def test_mg_i012_mg_i012_v(json_360, save_output):
         instance="msData/modelGroups/mgI012.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_i011_mg_i011_v(json_360, save_output):
+def test_mg_i011_mg_i011_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with children group, any, choice,
     element, sequence
@@ -7025,12 +7025,12 @@ def test_mg_i011_mg_i011_v(json_360, save_output):
         instance="msData/modelGroups/mgI011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_i010_mg_i010_v(json_360, save_output):
+def test_mg_i010_mg_i010_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with children element, any,
     sequence, choice, group
@@ -7040,12 +7040,12 @@ def test_mg_i010_mg_i010_v(json_360, save_output):
         instance="msData/modelGroups/mgI010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_i009_mg_i009_v(json_360, save_output):
+def test_mg_i009_mg_i009_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with children annotation, element,
     group, choice, sequence, any
@@ -7055,12 +7055,12 @@ def test_mg_i009_mg_i009_v(json_360, save_output):
         instance="msData/modelGroups/mgI009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_i008_mg_i008_v(json_360, save_output):
+def test_mg_i008_mg_i008_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with children annotation, any
     """
@@ -7069,12 +7069,12 @@ def test_mg_i008_mg_i008_v(json_360, save_output):
         instance="msData/modelGroups/mgI008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_i007_mg_i007_v(json_360, save_output):
+def test_mg_i007_mg_i007_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with children annotation, sequence
     """
@@ -7083,12 +7083,12 @@ def test_mg_i007_mg_i007_v(json_360, save_output):
         instance="msData/modelGroups/mgI007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_i006_mg_i006_v(json_360, save_output):
+def test_mg_i006_mg_i006_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with children annotation, choice
     """
@@ -7097,12 +7097,12 @@ def test_mg_i006_mg_i006_v(json_360, save_output):
         instance="msData/modelGroups/mgI006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_i005_mg_i005_v(json_360, save_output):
+def test_mg_i005_mg_i005_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with children annotation, group
     """
@@ -7111,12 +7111,12 @@ def test_mg_i005_mg_i005_v(json_360, save_output):
         instance="msData/modelGroups/mgI005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_i004_mg_i004_v(json_360, save_output):
+def test_mg_i004_mg_i004_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with children annotation, element
     """
@@ -7125,12 +7125,12 @@ def test_mg_i004_mg_i004_v(json_360, save_output):
         instance="msData/modelGroups/mgI004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_i002_mg_i002_v(json_360, save_output):
+def test_mg_i002_mg_i002_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with one annotation only
     """
@@ -7139,12 +7139,12 @@ def test_mg_i002_mg_i002_v(json_360, save_output):
         instance="msData/modelGroups/mgI002.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_i001_mg_i001_v(json_360, save_output):
+def test_mg_i001_mg_i001_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with no child node
     """
@@ -7153,12 +7153,12 @@ def test_mg_i001_mg_i001_v(json_360, save_output):
         instance="msData/modelGroups/mgI001.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_hb005_mg_hb005_v(json_360, save_output):
+def test_mg_hb005_mg_hb005_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: maxOccurs = 5
     """
@@ -7167,12 +7167,12 @@ def test_mg_hb005_mg_hb005_v(json_360, save_output):
         instance="msData/modelGroups/mgHb005.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_hb004_mg_hb004_v(json_360, save_output):
+def test_mg_hb004_mg_hb004_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: maxOccurs = unbounded
     """
@@ -7181,12 +7181,12 @@ def test_mg_hb004_mg_hb004_v(json_360, save_output):
         instance="msData/modelGroups/mgHb004.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_h018_mg_h018_v(json_360, save_output):
+def test_mg_h018_mg_h018_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with parent sequence
     """
@@ -7195,12 +7195,12 @@ def test_mg_h018_mg_h018_v(json_360, save_output):
         instance="msData/modelGroups/mgH018.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_h017_mg_h017_v(json_360, save_output):
+def test_mg_h017_mg_h017_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with parent choice
     """
@@ -7209,12 +7209,12 @@ def test_mg_h017_mg_h017_v(json_360, save_output):
         instance="msData/modelGroups/mgH017.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_h016_mg_h016_v(json_360, save_output):
+def test_mg_h016_mg_h016_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with parent group
     """
@@ -7223,12 +7223,12 @@ def test_mg_h016_mg_h016_v(json_360, save_output):
         instance="msData/modelGroups/mgH016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_h015_mg_h015_v(json_360, save_output):
+def test_mg_h015_mg_h015_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with parent extension
     """
@@ -7237,12 +7237,12 @@ def test_mg_h015_mg_h015_v(json_360, save_output):
         instance="msData/modelGroups/mgH015.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_h014_mg_h014_v(json_360, save_output):
+def test_mg_h014_mg_h014_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with parent restriction
     """
@@ -7251,12 +7251,12 @@ def test_mg_h014_mg_h014_v(json_360, save_output):
         instance="msData/modelGroups/mgH014.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_h013_mg_h013_v(json_360, save_output):
+def test_mg_h013_mg_h013_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with parent complexType
     """
@@ -7265,12 +7265,12 @@ def test_mg_h013_mg_h013_v(json_360, save_output):
         instance="msData/modelGroups/mgH013.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_h001_mg_h001_v(json_360, save_output):
+def test_mg_h001_mg_h001_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: id, id="foo"
     """
@@ -7279,12 +7279,12 @@ def test_mg_h001_mg_h001_v(json_360, save_output):
         instance="msData/modelGroups/mgH001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_g026_mg_g026_v(json_360, save_output):
+def test_mg_g026_mg_g026_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=3,
     maxOccurs=unbounded
@@ -7294,13 +7294,13 @@ def test_mg_g026_mg_g026_v(json_360, save_output):
         instance="msData/modelGroups/mgG026.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_g024_mg_g024_i(json_360, save_output):
+def test_mg_g024_mg_g024_i(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=3,
     minOccurs=1, maxOccurs=2
@@ -7310,12 +7310,12 @@ def test_mg_g024_mg_g024_i(json_360, save_output):
         instance="msData/modelGroups/mgG024.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_g023_mg_g023_v(json_360, save_output):
+def test_mg_g023_mg_g023_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=2,
     minOccurs=1, maxOccurs=2
@@ -7325,12 +7325,12 @@ def test_mg_g023_mg_g023_v(json_360, save_output):
         instance="msData/modelGroups/mgG023.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_g022_mg_g022_v(json_360, save_output):
+def test_mg_g022_mg_g022_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=1,
     minOccurs=1, maxOccurs=2
@@ -7340,13 +7340,13 @@ def test_mg_g022_mg_g022_v(json_360, save_output):
         instance="msData/modelGroups/mgG022.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_g021_mg_g021_i(json_360, save_output):
+def test_mg_g021_mg_g021_i(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=0,
     minOccurs=1, maxOccurs=2
@@ -7356,13 +7356,13 @@ def test_mg_g021_mg_g021_i(json_360, save_output):
         instance="msData/modelGroups/mgG021.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_g020_mg_g020_i(json_360, save_output):
+def test_mg_g020_mg_g020_i(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=2,
     minOccurs=1, maxOccurs=1
@@ -7372,12 +7372,12 @@ def test_mg_g020_mg_g020_i(json_360, save_output):
         instance="msData/modelGroups/mgG020.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_g019_mg_g019_v(json_360, save_output):
+def test_mg_g019_mg_g019_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=1,
     minOccurs=1, maxOccurs=1
@@ -7387,13 +7387,13 @@ def test_mg_g019_mg_g019_v(json_360, save_output):
         instance="msData/modelGroups/mgG019.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_g018_mg_g018_i(json_360, save_output):
+def test_mg_g018_mg_g018_i(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=0,
     minOccurs=1, maxOccurs=1
@@ -7403,13 +7403,13 @@ def test_mg_g018_mg_g018_i(json_360, save_output):
         instance="msData/modelGroups/mgG018.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_g017_mg_g017_i(json_360, save_output):
+def test_mg_g017_mg_g017_i(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=2,
     minOccurs=1, maxOccurs=absent
@@ -7419,12 +7419,12 @@ def test_mg_g017_mg_g017_i(json_360, save_output):
         instance="msData/modelGroups/mgG017.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_g016_mg_g016_v(json_360, save_output):
+def test_mg_g016_mg_g016_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=1,
     minOccurs=1, maxOccurs=absent
@@ -7434,13 +7434,13 @@ def test_mg_g016_mg_g016_v(json_360, save_output):
         instance="msData/modelGroups/mgG016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_g015_mg_g015_i(json_360, save_output):
+def test_mg_g015_mg_g015_i(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=0,
     minOccurs=1, maxOccurs=absent
@@ -7450,12 +7450,12 @@ def test_mg_g015_mg_g015_i(json_360, save_output):
         instance="msData/modelGroups/mgG015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_g014_mg_g014_v(json_360, save_output):
+def test_mg_g014_mg_g014_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=0,
     minOccurs=0, maxOccurs=999999999
@@ -7465,13 +7465,13 @@ def test_mg_g014_mg_g014_v(json_360, save_output):
         instance="msData/modelGroups/mgG014.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_g013_mg_g013_i(json_360, save_output):
+def test_mg_g013_mg_g013_i(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=1,
     minOccurs=0, maxOccurs=0
@@ -7481,12 +7481,12 @@ def test_mg_g013_mg_g013_i(json_360, save_output):
         instance="msData/modelGroups/mgG013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_g012_mg_g012_v(json_360, save_output):
+def test_mg_g012_mg_g012_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=0,
     minOccurs=0, maxOccurs=0
@@ -7496,13 +7496,13 @@ def test_mg_g012_mg_g012_v(json_360, save_output):
         instance="msData/modelGroups/mgG012.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_g011_mg_g011_i(json_360, save_output):
+def test_mg_g011_mg_g011_i(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=2,
     minOccurs=0, maxOccurs=1
@@ -7512,12 +7512,12 @@ def test_mg_g011_mg_g011_i(json_360, save_output):
         instance="msData/modelGroups/mgG011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_g010_mg_g010_v(json_360, save_output):
+def test_mg_g010_mg_g010_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=1,
     minOccurs=0, maxOccurs=1
@@ -7527,12 +7527,12 @@ def test_mg_g010_mg_g010_v(json_360, save_output):
         instance="msData/modelGroups/mgG010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_g009_mg_g009_v(json_360, save_output):
+def test_mg_g009_mg_g009_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=0,
     minOccurs=0, maxOccurs=1
@@ -7542,13 +7542,13 @@ def test_mg_g009_mg_g009_v(json_360, save_output):
         instance="msData/modelGroups/mgG009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_g008_mg_g008_i(json_360, save_output):
+def test_mg_g008_mg_g008_i(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=2,
     minOccurs=0, maxOccurs=absent
@@ -7558,12 +7558,12 @@ def test_mg_g008_mg_g008_i(json_360, save_output):
         instance="msData/modelGroups/mgG008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_g007_mg_g007_v(json_360, save_output):
+def test_mg_g007_mg_g007_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=1,
     minOccurs=0, maxOccurs=absent
@@ -7573,12 +7573,12 @@ def test_mg_g007_mg_g007_v(json_360, save_output):
         instance="msData/modelGroups/mgG007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_g006_mg_g006_v(json_360, save_output):
+def test_mg_g006_mg_g006_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: elements in instant XML=0,
     minOccurs=0, maxOccurs=absent
@@ -7588,13 +7588,13 @@ def test_mg_g006_mg_g006_v(json_360, save_output):
         instance="msData/modelGroups/mgG006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_g005_mg_g005_i(json_360, save_output):
+def test_mg_g005_mg_g005_i(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: check that maxOccurs default is
     1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent
@@ -7604,12 +7604,12 @@ def test_mg_g005_mg_g005_i(json_360, save_output):
         instance="msData/modelGroups/mgG005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_g004_mg_g004_v(json_360, save_output):
+def test_mg_g004_mg_g004_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: check that minOccurs default is
     1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent
@@ -7619,13 +7619,13 @@ def test_mg_g004_mg_g004_v(json_360, save_output):
         instance="msData/modelGroups/mgG004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_g003_mg_g003_i(json_360, save_output):
+def test_mg_g003_mg_g003_i(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: check that minOccurs default is
     1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent
@@ -7635,12 +7635,12 @@ def test_mg_g003_mg_g003_i(json_360, save_output):
         instance="msData/modelGroups/mgG003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_f019_mg_f019_v(json_360, save_output):
+def test_mg_f019_mg_f019_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with children 4 any, 4 elements
     """
@@ -7649,12 +7649,12 @@ def test_mg_f019_mg_f019_v(json_360, save_output):
         instance="msData/modelGroups/mgF019.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_f018_mg_f018_v(json_360, save_output):
+def test_mg_f018_mg_f018_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with children 4 sequence, 4 any
     """
@@ -7663,12 +7663,12 @@ def test_mg_f018_mg_f018_v(json_360, save_output):
         instance="msData/modelGroups/mgF018.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_f017_mg_f017_v(json_360, save_output):
+def test_mg_f017_mg_f017_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with children 4 choice, 4
     sequence
@@ -7678,12 +7678,12 @@ def test_mg_f017_mg_f017_v(json_360, save_output):
         instance="msData/modelGroups/mgF017.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_f016_mg_f016_v(json_360, save_output):
+def test_mg_f016_mg_f016_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with children 4 groups, 4 choice
     """
@@ -7692,12 +7692,12 @@ def test_mg_f016_mg_f016_v(json_360, save_output):
         instance="msData/modelGroups/mgF016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_f015_mg_f015_v(json_360, save_output):
+def test_mg_f015_mg_f015_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with children 4 elements, 4
     groups
@@ -7707,12 +7707,12 @@ def test_mg_f015_mg_f015_v(json_360, save_output):
         instance="msData/modelGroups/mgF015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_f014_mg_f014_v(json_360, save_output):
+def test_mg_f014_mg_f014_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with children any, sequence,
     group, element, choice
@@ -7722,12 +7722,12 @@ def test_mg_f014_mg_f014_v(json_360, save_output):
         instance="msData/modelGroups/mgF014.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_f013_mg_f013_v(json_360, save_output):
+def test_mg_f013_mg_f013_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with children sequence, group,
     choice, element, any
@@ -7737,12 +7737,12 @@ def test_mg_f013_mg_f013_v(json_360, save_output):
         instance="msData/modelGroups/mgF013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_f012_mg_f012_v(json_360, save_output):
+def test_mg_f012_mg_f012_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with children choice, any, group,
     sequence, element
@@ -7752,12 +7752,12 @@ def test_mg_f012_mg_f012_v(json_360, save_output):
         instance="msData/modelGroups/mgF012.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_f011_mg_f011_v(json_360, save_output):
+def test_mg_f011_mg_f011_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with children group, any, choice,
     element, sequence
@@ -7767,12 +7767,12 @@ def test_mg_f011_mg_f011_v(json_360, save_output):
         instance="msData/modelGroups/mgF011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_f010_mg_f010_v(json_360, save_output):
+def test_mg_f010_mg_f010_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with children element, any,
     sequence, choice, group
@@ -7782,12 +7782,12 @@ def test_mg_f010_mg_f010_v(json_360, save_output):
         instance="msData/modelGroups/mgF010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_f009_mg_f009_v(json_360, save_output):
+def test_mg_f009_mg_f009_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with children annotation,
     element, group, choice, sequence, any
@@ -7797,12 +7797,12 @@ def test_mg_f009_mg_f009_v(json_360, save_output):
         instance="msData/modelGroups/mgF009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_f008_mg_f008_v(json_360, save_output):
+def test_mg_f008_mg_f008_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with children annotation, any
     """
@@ -7811,12 +7811,12 @@ def test_mg_f008_mg_f008_v(json_360, save_output):
         instance="msData/modelGroups/mgF008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_f007_mg_f007_v(json_360, save_output):
+def test_mg_f007_mg_f007_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with children annotation,
     sequence
@@ -7826,12 +7826,12 @@ def test_mg_f007_mg_f007_v(json_360, save_output):
         instance="msData/modelGroups/mgF007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_f006_mg_f006_v(json_360, save_output):
+def test_mg_f006_mg_f006_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with children annotation, choice
     """
@@ -7840,12 +7840,12 @@ def test_mg_f006_mg_f006_v(json_360, save_output):
         instance="msData/modelGroups/mgF006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_f005_mg_f005_v(json_360, save_output):
+def test_mg_f005_mg_f005_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with children annotation, group
     """
@@ -7854,12 +7854,12 @@ def test_mg_f005_mg_f005_v(json_360, save_output):
         instance="msData/modelGroups/mgF005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_f004_mg_f004_v(json_360, save_output):
+def test_mg_f004_mg_f004_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with children annotation, element
     """
@@ -7868,12 +7868,12 @@ def test_mg_f004_mg_f004_v(json_360, save_output):
         instance="msData/modelGroups/mgF004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_f002_mg_f002_v(json_360, save_output):
+def test_mg_f002_mg_f002_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with one annotation only
     """
@@ -7882,12 +7882,12 @@ def test_mg_f002_mg_f002_v(json_360, save_output):
         instance="msData/modelGroups/mgF002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_f001_mg_f001_v(json_360, save_output):
+def test_mg_f001_mg_f001_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with no child node
     """
@@ -7896,12 +7896,12 @@ def test_mg_f001_mg_f001_v(json_360, save_output):
         instance="msData/modelGroups/mgF001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_eb005_mg_eb005_v(json_360, save_output):
+def test_mg_eb005_mg_eb005_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: maxOccurs = 8
     """
@@ -7910,12 +7910,12 @@ def test_mg_eb005_mg_eb005_v(json_360, save_output):
         instance="msData/modelGroups/mgEb005.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_eb004_mg_eb004_v(json_360, save_output):
+def test_mg_eb004_mg_eb004_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: maxOccurs = unbounded
     """
@@ -7924,12 +7924,12 @@ def test_mg_eb004_mg_eb004_v(json_360, save_output):
         instance="msData/modelGroups/mgEb004.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_e018_mg_e018_v(json_360, save_output):
+def test_mg_e018_mg_e018_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with parent sequence
     """
@@ -7938,12 +7938,12 @@ def test_mg_e018_mg_e018_v(json_360, save_output):
         instance="msData/modelGroups/mgE018.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_e017_mg_e017_v(json_360, save_output):
+def test_mg_e017_mg_e017_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with parent choice
     """
@@ -7952,12 +7952,12 @@ def test_mg_e017_mg_e017_v(json_360, save_output):
         instance="msData/modelGroups/mgE017.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_e016_mg_e016_v(json_360, save_output):
+def test_mg_e016_mg_e016_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with parent group
     """
@@ -7966,12 +7966,12 @@ def test_mg_e016_mg_e016_v(json_360, save_output):
         instance="msData/modelGroups/mgE016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_e015_mg_e015_v(json_360, save_output):
+def test_mg_e015_mg_e015_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with parent extension
     """
@@ -7980,12 +7980,12 @@ def test_mg_e015_mg_e015_v(json_360, save_output):
         instance="msData/modelGroups/mgE015.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_e014_mg_e014_v(json_360, save_output):
+def test_mg_e014_mg_e014_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with parent restriction
     """
@@ -7994,12 +7994,12 @@ def test_mg_e014_mg_e014_v(json_360, save_output):
         instance="msData/modelGroups/mgE014.xml",
         class_name="Who",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_e013_mg_e013_v(json_360, save_output):
+def test_mg_e013_mg_e013_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with parent complexType
     """
@@ -8008,12 +8008,12 @@ def test_mg_e013_mg_e013_v(json_360, save_output):
         instance="msData/modelGroups/mgE013.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_e001_mg_e001_v(json_360, save_output):
+def test_mg_e001_mg_e001_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: id, id="foo"
     """
@@ -8022,12 +8022,12 @@ def test_mg_e001_mg_e001_v(json_360, save_output):
         instance="msData/modelGroups/mgE001.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_d013_mg_d013_v(json_360, save_output):
+def test_mg_d013_mg_d013_v(mode, save_output):
     """
     TEST :model groups (ALL) : test using of minOccurs=0 and allowing
     elements to not exists
@@ -8037,12 +8037,12 @@ def test_mg_d013_mg_d013_v(json_360, save_output):
         instance="msData/modelGroups/mgD013.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_d009_mg_d009_v(json_360, save_output):
+def test_mg_d009_mg_d009_v(mode, save_output):
     """
     TEST :model groups (ALL) : choice: with any attribute with no schema
     namespace
@@ -8052,12 +8052,12 @@ def test_mg_d009_mg_d009_v(json_360, save_output):
         instance="msData/modelGroups/mgD009.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_d005_mg_d005_v(json_360, save_output):
+def test_mg_d005_mg_d005_v(mode, save_output):
     """
     TEST :model groups (ALL) : sequence: with any attribute with no schema
     namespace
@@ -8067,12 +8067,12 @@ def test_mg_d005_mg_d005_v(json_360, save_output):
         instance="msData/modelGroups/mgD005.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_d001_mg_d001_v(json_360, save_output):
+def test_mg_d001_mg_d001_v(mode, save_output):
     """
     TEST :model groups (ALL) : all: with any attribute with no schema
     namespace
@@ -8082,12 +8082,12 @@ def test_mg_d001_mg_d001_v(json_360, save_output):
         instance="msData/modelGroups/mgD001.xml",
         class_name="Test",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_c014_mg_c014_v(json_360, save_output):
+def test_mg_c014_mg_c014_v(mode, save_output):
     """
     TEST :model groups (ALL) : all with default minOccurs and maxOccurs
     with optional element children
@@ -8097,13 +8097,13 @@ def test_mg_c014_mg_c014_v(json_360, save_output):
         instance="msData/modelGroups/mgC014.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_c012_mg_c012_i(json_360, save_output):
+def test_mg_c012_mg_c012_i(mode, save_output):
     """
     TEST :model groups (ALL) : all: elements in instant XML=2,
     minOccurs=absent, maxOccurs=1
@@ -8113,12 +8113,12 @@ def test_mg_c012_mg_c012_i(json_360, save_output):
         instance="msData/modelGroups/mgC012.xml",
         class_name="Test",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_c011_mg_c011_v(json_360, save_output):
+def test_mg_c011_mg_c011_v(mode, save_output):
     """
     TEST :model groups (ALL) : all: elements in instant XML=1,
     minOccurs=absent, maxOccurs=1
@@ -8128,13 +8128,13 @@ def test_mg_c011_mg_c011_v(json_360, save_output):
         instance="msData/modelGroups/mgC011.xml",
         class_name="Test",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_c010_mg_c010_i(json_360, save_output):
+def test_mg_c010_mg_c010_i(mode, save_output):
     """
     TEST :model groups (ALL) : all: elements in instant XML=0,
     minOccurs=absent, maxOccurs=1
@@ -8144,13 +8144,13 @@ def test_mg_c010_mg_c010_i(json_360, save_output):
         instance="msData/modelGroups/mgC010.xml",
         class_name="Test",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_c007_mg_c007_i(json_360, save_output):
+def test_mg_c007_mg_c007_i(mode, save_output):
     """
     TEST :model groups (ALL) : all: elements in instant XML=2,
     minOccurs=1, maxOccurs=absent
@@ -8160,12 +8160,12 @@ def test_mg_c007_mg_c007_i(json_360, save_output):
         instance="msData/modelGroups/mgC007.xml",
         class_name="Test",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_c006_mg_c006_v(json_360, save_output):
+def test_mg_c006_mg_c006_v(mode, save_output):
     """
     TEST :model groups (ALL) : all: elements in instant XML=1,
     minOccurs=1, maxOccurs=absent
@@ -8175,13 +8175,13 @@ def test_mg_c006_mg_c006_v(json_360, save_output):
         instance="msData/modelGroups/mgC006.xml",
         class_name="Test",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_c005_mg_c005_i(json_360, save_output):
+def test_mg_c005_mg_c005_i(mode, save_output):
     """
     TEST :model groups (ALL) : all: elements in instant XML=0,
     minOccurs=1, maxOccurs=absent
@@ -8191,12 +8191,12 @@ def test_mg_c005_mg_c005_i(json_360, save_output):
         instance="msData/modelGroups/mgC005.xml",
         class_name="Test",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_c004_mg_c004_v(json_360, save_output):
+def test_mg_c004_mg_c004_v(mode, save_output):
     """
     TEST :model groups (ALL) : all: minOccurs can have value of 0 or 1 max
     occurs can only have 1 as value, minOccurs=0, maxOccurs=absent
@@ -8206,13 +8206,13 @@ def test_mg_c004_mg_c004_v(json_360, save_output):
         instance="msData/modelGroups/mgC004.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_c003_mg_c003_i(json_360, save_output):
+def test_mg_c003_mg_c003_i(mode, save_output):
     """
     TEST :model groups (ALL) : all: check that maxOccurs default is 1,
     elements in instant XML = 2, minOccurs=absent, maxOccurs=absent
@@ -8222,12 +8222,12 @@ def test_mg_c003_mg_c003_i(json_360, save_output):
         instance="msData/modelGroups/mgC003.xml",
         class_name="Test",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_c002_mg_c002_v(json_360, save_output):
+def test_mg_c002_mg_c002_v(mode, save_output):
     """
     TEST :model groups (ALL) : all: check that minOccurs default is 1,
     elements in instant XML = 1, minOccurs=absent, maxOccurs=absent
@@ -8237,13 +8237,13 @@ def test_mg_c002_mg_c002_v(json_360, save_output):
         instance="msData/modelGroups/mgC002.xml",
         class_name="Test",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_mg_c001_mg_c001_i(json_360, save_output):
+def test_mg_c001_mg_c001_i(mode, save_output):
     """
     TEST :model groups (ALL) : all: check that minOccurs default is 1,
     elements in instant XML = 0, minOccurs=absent, maxOccurs=absent
@@ -8253,12 +8253,12 @@ def test_mg_c001_mg_c001_i(json_360, save_output):
         instance="msData/modelGroups/mgC001.xml",
         class_name="Test",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_b006_mg_b006_v(json_360, save_output):
+def test_mg_b006_mg_b006_v(mode, save_output):
     """
     TEST :model groups (ALL) : all: with one element only
     """
@@ -8267,12 +8267,12 @@ def test_mg_b006_mg_b006_v(json_360, save_output):
         instance="msData/modelGroups/mgB006.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_b004_mg_b004_v(json_360, save_output):
+def test_mg_b004_mg_b004_v(mode, save_output):
     """
     TEST :model groups (ALL) : all: with annotation follow by 1 element
     """
@@ -8281,12 +8281,12 @@ def test_mg_b004_mg_b004_v(json_360, save_output):
         instance="msData/modelGroups/mgB004.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_b002_mg_b002_v(json_360, save_output):
+def test_mg_b002_mg_b002_v(mode, save_output):
     """
     TEST :model groups (ALL) : all: with one annotation only
     """
@@ -8295,12 +8295,12 @@ def test_mg_b002_mg_b002_v(json_360, save_output):
         instance="msData/modelGroups/mgB002.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_b001_mg_b001_v(json_360, save_output):
+def test_mg_b001_mg_b001_v(mode, save_output):
     """
     TEST :model groups (ALL) : all: with no child node
     """
@@ -8309,12 +8309,12 @@ def test_mg_b001_mg_b001_v(json_360, save_output):
         instance="msData/modelGroups/mgB001.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_aa003_mg_aa003_v(json_360, save_output):
+def test_mg_aa003_mg_aa003_v(mode, save_output):
     """
     TEST :model groups (ALL) : all: minOccurs = 0
     """
@@ -8323,12 +8323,12 @@ def test_mg_aa003_mg_aa003_v(json_360, save_output):
         instance="msData/modelGroups/mgAa003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_a017_mg_a017_v(json_360, save_output):
+def test_mg_a017_mg_a017_v(mode, save_output):
     """
     TEST :model groups (ALL) : all: with parent group
     """
@@ -8337,12 +8337,12 @@ def test_mg_a017_mg_a017_v(json_360, save_output):
         instance="msData/modelGroups/mgA017.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_a015_mg_a015_v(json_360, save_output):
+def test_mg_a015_mg_a015_v(mode, save_output):
     """
     TEST :model groups (ALL) : all: with parent restriction
     """
@@ -8351,12 +8351,12 @@ def test_mg_a015_mg_a015_v(json_360, save_output):
         instance="msData/modelGroups/mgA015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_a014_mg_a014_v(json_360, save_output):
+def test_mg_a014_mg_a014_v(mode, save_output):
     """
     TEST :model groups (ALL) : all: with parent complexType
     """
@@ -8365,12 +8365,12 @@ def test_mg_a014_mg_a014_v(json_360, save_output):
         instance="msData/modelGroups/mgA014.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_mg_a001_mg_a001_v(json_360, save_output):
+def test_mg_a001_mg_a001_v(mode, save_output):
     """
     TEST :model groups (ALL) : all: id, id="foo"
     """
@@ -8379,13 +8379,13 @@ def test_mg_a001_mg_a001_v(json_360, save_output):
         instance="msData/modelGroups/mgA001.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_notat_h003_notat_h003_i(json_360, save_output):
+def test_notat_h003_notat_h003_i(mode, save_output):
     """
     TEST :Notations : Instance document with (Schema with 3 Notations and
     an attribute with type=NOTATION) and attribute contains two notation
@@ -8396,13 +8396,13 @@ def test_notat_h003_notat_h003_i(json_360, save_output):
         instance="msData/notations/notatH003.xml",
         class_name="Foo",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_notat_h002v_notat_h002v_i(json_360, save_output):
+def test_notat_h002v_notat_h002v_i(mode, save_output):
     """
     TEST :Notations : Instance document doesn't declare a notation type
     """
@@ -8411,12 +8411,12 @@ def test_notat_h002v_notat_h002v_i(json_360, save_output):
         instance="msData/notations/notatH002.xml",
         class_name="Foo",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_notat_h001v_notat_h001v_v(json_360, save_output):
+def test_notat_h001v_notat_h001v_v(mode, save_output):
     """
     TEST :Notations : Instance document declares a notation type
     """
@@ -8425,12 +8425,12 @@ def test_notat_h001v_notat_h001v_v(json_360, save_output):
         instance="msData/notations/notatH001.xml",
         class_name="Foo",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_z040_particles_z040_i(json_360, save_output):
+def test_particles_z040_particles_z040_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : XSD: validation on a sequence involving an
@@ -8441,12 +8441,12 @@ def test_particles_z040_particles_z040_i(json_360, save_output):
         instance="msData/particles/particlesZ040.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_z036_c_particles_z036_c_v(json_360, save_output):
+def test_particles_z036_c_particles_z036_c_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Schema validation engine validates as xs:any if
@@ -8459,12 +8459,12 @@ def test_particles_z036_c_particles_z036_c_v(json_360, save_output):
         instance="msData/particles/particlesZ036_c.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_z036_b2_particles_z036_b2_i(json_360, save_output):
+def test_particles_z036_b2_particles_z036_b2_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Schema validation engine validates as xs:any if
@@ -8477,12 +8477,12 @@ def test_particles_z036_b2_particles_z036_b2_i(json_360, save_output):
         instance="msData/particles/particlesZ036_b2.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_z036_b1_particles_z036_b1_i(json_360, save_output):
+def test_particles_z036_b1_particles_z036_b1_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Schema validation engine validates as xs:any if
@@ -8495,13 +8495,13 @@ def test_particles_z036_b1_particles_z036_b1_i(json_360, save_output):
         instance="msData/particles/particlesZ036_b1.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_z036_a_particles_z036_a_i(json_360, save_output):
+def test_particles_z036_a_particles_z036_a_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Schema validation engine validates as xs:any if
@@ -8514,13 +8514,13 @@ def test_particles_z036_a_particles_z036_a_i(json_360, save_output):
         instance="msData/particles/particlesZ036_a.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_z035_a_particles_z035_a_i(json_360, save_output):
+def test_particles_z035_a_particles_z035_a_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Schema validation engine validates as xs:any if
@@ -8531,13 +8531,13 @@ def test_particles_z035_a_particles_z035_a_i(json_360, save_output):
         instance="msData/particles/particlesZ035_a.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_z034_b_particles_z034_b_i(json_360, save_output):
+def test_particles_z034_b_particles_z034_b_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Schema validation engine validates as xs:any if
@@ -8548,13 +8548,13 @@ def test_particles_z034_b_particles_z034_b_i(json_360, save_output):
         instance="msData/particles/particlesZ034_b1.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_z034_a3_particles_z034_a3_i(json_360, save_output):
+def test_particles_z034_a3_particles_z034_a3_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Schema validation engine validates as xs:any if
@@ -8565,13 +8565,13 @@ def test_particles_z034_a3_particles_z034_a3_i(json_360, save_output):
         instance="msData/particles/particlesZ034_a3.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_z034_a2_particles_z034_a2_i(json_360, save_output):
+def test_particles_z034_a2_particles_z034_a2_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Schema validation engine validates as xs:any if
@@ -8582,13 +8582,13 @@ def test_particles_z034_a2_particles_z034_a2_i(json_360, save_output):
         instance="msData/particles/particlesZ034_a2.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.xfail
-def test_particles_z034_a1_particles_z034_a1_v(json_360, save_output):
+def test_particles_z034_a1_particles_z034_a1_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Schema validation engine validates as xs:any if
@@ -8599,13 +8599,13 @@ def test_particles_z034_a1_particles_z034_a1_v(json_360, save_output):
         instance="msData/particles/particlesZ034_a1.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid schema")
-def test_particles_z026_particles_z026_v(json_360, save_output):
+def test_particles_z026_particles_z026_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Substitution across namespaces(2) TSTF concluded
@@ -8617,13 +8617,13 @@ def test_particles_z026_particles_z026_v(json_360, save_output):
         instance="msData/particles/particlesZ026.xml",
         class_name="Sequence",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="No schema")
-def test_particles_z025_particles_z025_v(json_360, save_output):
+def test_particles_z025_particles_z025_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Substitution across namespaces
@@ -8633,13 +8633,13 @@ def test_particles_z025_particles_z025_v(json_360, save_output):
         instance="msData/particles/particlesZ025.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_z016_particles_z016_i(json_360, save_output):
+def test_particles_z016_particles_z016_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : id="86932" description="We should proceed to
@@ -8650,13 +8650,13 @@ def test_particles_z016_particles_z016_i(json_360, save_output):
         instance="msData/particles/particlesZ016.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_z015_particles_z015_i(json_360, save_output):
+def test_particles_z015_particles_z015_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : id="86379" description="xsd: derived attribute's
@@ -8667,12 +8667,12 @@ def test_particles_z015_particles_z015_i(json_360, save_output):
         instance="msData/particles/particlesZ015.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_z012_particles_z012_v(json_360, save_output):
+def test_particles_z012_particles_z012_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : id="86379" description="xsd: derived attribute's
@@ -8683,12 +8683,12 @@ def test_particles_z012_particles_z012_v(json_360, save_output):
         instance="msData/particles/particlesZ012.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_z008_particles_z008_v(json_360, save_output):
+def test_particles_z008_particles_z008_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Restriction of abstract classes with abstract
@@ -8699,13 +8699,13 @@ def test_particles_z008_particles_z008_v(json_360, save_output):
         instance="msData/particles/particlesZ008.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_z007_particles_z007_i(json_360, save_output):
+def test_particles_z007_particles_z007_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : xsd: test valid value in instance XML, whose xsd
@@ -8716,12 +8716,12 @@ def test_particles_z007_particles_z007_i(json_360, save_output):
         instance="msData/particles/particlesZ007.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_z005_particles_z005_v(json_360, save_output):
+def test_particles_z005_particles_z005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : xsd: test valid value in instance XML, whose xsd
@@ -8732,12 +8732,12 @@ def test_particles_z005_particles_z005_v(json_360, save_output):
         instance="msData/particles/particlesZ005.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_z003_particles_z003_v(json_360, save_output):
+def test_particles_z003_particles_z003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : xsd: should allow and recognize declaration of
@@ -8748,12 +8748,12 @@ def test_particles_z003_particles_z003_v(json_360, save_output):
         instance="msData/particles/particlesZ003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_z002_particles_z002_v(json_360, save_output):
+def test_particles_z002_particles_z002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Schema Component Constraint: Derivation Valid
@@ -8764,12 +8764,12 @@ def test_particles_z002_particles_z002_v(json_360, save_output):
         instance="msData/particles/particlesZ002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_z001_particles_z001_i(json_360, save_output):
+def test_particles_z001_particles_z001_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Schema Component Constraint: Particle Derivation
@@ -8781,12 +8781,12 @@ def test_particles_z001_particles_z001_i(json_360, save_output):
         instance="msData/particles/particlesZ001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_w016_particles_w016_v(json_360, save_output):
+def test_particles_w016_particles_w016_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Sequence -
@@ -8798,12 +8798,12 @@ def test_particles_w016_particles_w016_v(json_360, save_output):
         instance="msData/particles/particlesW016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_w011_particles_w011_v(json_360, save_output):
+def test_particles_w011_particles_w011_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Sequence -
@@ -8815,12 +8815,12 @@ def test_particles_w011_particles_w011_v(json_360, save_output):
         instance="msData/particles/particlesW011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_w008_particles_w008_v(json_360, save_output):
+def test_particles_w008_particles_w008_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Sequence -
@@ -8832,12 +8832,12 @@ def test_particles_w008_particles_w008_v(json_360, save_output):
         instance="msData/particles/particlesW008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_w003_particles_w003_v(json_360, save_output):
+def test_particles_w003_particles_w003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Sequence -
@@ -8849,12 +8849,12 @@ def test_particles_w003_particles_w003_v(json_360, save_output):
         instance="msData/particles/particlesW003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_w001_particles_w001_v(json_360, save_output):
+def test_particles_w001_particles_w001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Sequence -
@@ -8866,12 +8866,12 @@ def test_particles_w001_particles_w001_v(json_360, save_output):
         instance="msData/particles/particlesW001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_v015_particles_v015_v(json_360, save_output):
+def test_particles_v015_particles_v015_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -8883,12 +8883,12 @@ def test_particles_v015_particles_v015_v(json_360, save_output):
         instance="msData/particles/particlesV015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_v014_particles_v014_v(json_360, save_output):
+def test_particles_v014_particles_v014_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -8900,12 +8900,12 @@ def test_particles_v014_particles_v014_v(json_360, save_output):
         instance="msData/particles/particlesV014.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_v013_particles_v013_v(json_360, save_output):
+def test_particles_v013_particles_v013_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -8917,12 +8917,12 @@ def test_particles_v013_particles_v013_v(json_360, save_output):
         instance="msData/particles/particlesV013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_v012_particles_v012_v(json_360, save_output):
+def test_particles_v012_particles_v012_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -8934,12 +8934,12 @@ def test_particles_v012_particles_v012_v(json_360, save_output):
         instance="msData/particles/particlesV012.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_v011_particles_v011_v(json_360, save_output):
+def test_particles_v011_particles_v011_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -8951,12 +8951,12 @@ def test_particles_v011_particles_v011_v(json_360, save_output):
         instance="msData/particles/particlesV011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_v010_particles_v010_v(json_360, save_output):
+def test_particles_v010_particles_v010_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -8968,12 +8968,12 @@ def test_particles_v010_particles_v010_v(json_360, save_output):
         instance="msData/particles/particlesV010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_v009_particles_v009_v(json_360, save_output):
+def test_particles_v009_particles_v009_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -8985,12 +8985,12 @@ def test_particles_v009_particles_v009_v(json_360, save_output):
         instance="msData/particles/particlesV009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_v008_particles_v008_v(json_360, save_output):
+def test_particles_v008_particles_v008_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -9002,12 +9002,12 @@ def test_particles_v008_particles_v008_v(json_360, save_output):
         instance="msData/particles/particlesV008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_v007_particles_v007_v(json_360, save_output):
+def test_particles_v007_particles_v007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -9019,12 +9019,12 @@ def test_particles_v007_particles_v007_v(json_360, save_output):
         instance="msData/particles/particlesV007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_v006_particles_v006_v(json_360, save_output):
+def test_particles_v006_particles_v006_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -9036,12 +9036,12 @@ def test_particles_v006_particles_v006_v(json_360, save_output):
         instance="msData/particles/particlesV006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_v004_particles_v004_v(json_360, save_output):
+def test_particles_v004_particles_v004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -9053,12 +9053,12 @@ def test_particles_v004_particles_v004_v(json_360, save_output):
         instance="msData/particles/particlesV004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_v003_particles_v003_v(json_360, save_output):
+def test_particles_v003_particles_v003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Choice -
@@ -9070,12 +9070,12 @@ def test_particles_v003_particles_v003_v(json_360, save_output):
         instance="msData/particles/particlesV003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_u007_particles_u007_v(json_360, save_output):
+def test_particles_u007_particles_u007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:All -
@@ -9087,12 +9087,12 @@ def test_particles_u007_particles_u007_v(json_360, save_output):
         instance="msData/particles/particlesU007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_u005_particles_u005_v(json_360, save_output):
+def test_particles_u005_particles_u005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:All -
@@ -9104,12 +9104,12 @@ def test_particles_u005_particles_u005_v(json_360, save_output):
         instance="msData/particles/particlesU005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_u004_particles_u004_v(json_360, save_output):
+def test_particles_u004_particles_u004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:All -
@@ -9121,12 +9121,12 @@ def test_particles_u004_particles_u004_v(json_360, save_output):
         instance="msData/particles/particlesU004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_u003_particles_u003_v(json_360, save_output):
+def test_particles_u003_particles_u003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:All -
@@ -9138,13 +9138,13 @@ def test_particles_u003_particles_u003_v(json_360, save_output):
         instance="msData/particles/particlesU003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.xfail
-def test_particles_q032_particles_q032_v(json_360, save_output):
+def test_particles_q032_particles_q032_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -9157,12 +9157,12 @@ def test_particles_q032_particles_q032_v(json_360, save_output):
         instance="msData/particles/particlesQ032.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_q030_particles_q030_v(json_360, save_output):
+def test_particles_q030_particles_q030_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -9174,12 +9174,12 @@ def test_particles_q030_particles_q030_v(json_360, save_output):
         instance="msData/particles/particlesQ030.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_q029_particles_q029_v(json_360, save_output):
+def test_particles_q029_particles_q029_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -9191,12 +9191,12 @@ def test_particles_q029_particles_q029_v(json_360, save_output):
         instance="msData/particles/particlesQ029.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_q024_particles_q024_v(json_360, save_output):
+def test_particles_q024_particles_q024_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -9209,12 +9209,12 @@ def test_particles_q024_particles_q024_v(json_360, save_output):
         instance="msData/particles/particlesQ024.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_q022_particles_q022_v(json_360, save_output):
+def test_particles_q022_particles_q022_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -9226,12 +9226,12 @@ def test_particles_q022_particles_q022_v(json_360, save_output):
         instance="msData/particles/particlesQ022.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_q020_particles_q020_v(json_360, save_output):
+def test_particles_q020_particles_q020_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -9243,12 +9243,12 @@ def test_particles_q020_particles_q020_v(json_360, save_output):
         instance="msData/particles/particlesQ020.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_q017_particles_q017_v(json_360, save_output):
+def test_particles_q017_particles_q017_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -9260,12 +9260,12 @@ def test_particles_q017_particles_q017_v(json_360, save_output):
         instance="msData/particles/particlesQ017.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_q016_particles_q016_v(json_360, save_output):
+def test_particles_q016_particles_q016_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -9277,13 +9277,13 @@ def test_particles_q016_particles_q016_v(json_360, save_output):
         instance="msData/particles/particlesQ016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.xfail
-def test_particles_q013_particles_q013_v(json_360, save_output):
+def test_particles_q013_particles_q013_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -9296,12 +9296,12 @@ def test_particles_q013_particles_q013_v(json_360, save_output):
         instance="msData/particles/particlesQ013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_q011_particles_q011_v(json_360, save_output):
+def test_particles_q011_particles_q011_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -9314,12 +9314,12 @@ def test_particles_q011_particles_q011_v(json_360, save_output):
         instance="msData/particles/particlesQ011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_q007_particles_q007_v(json_360, save_output):
+def test_particles_q007_particles_q007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -9332,12 +9332,12 @@ def test_particles_q007_particles_q007_v(json_360, save_output):
         instance="msData/particles/particlesQ007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_q005_particles_q005_v(json_360, save_output):
+def test_particles_q005_particles_q005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -9350,12 +9350,12 @@ def test_particles_q005_particles_q005_v(json_360, save_output):
         instance="msData/particles/particlesQ005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_q004_particles_q004_v(json_360, save_output):
+def test_particles_q004_particles_q004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -9368,12 +9368,12 @@ def test_particles_q004_particles_q004_v(json_360, save_output):
         instance="msData/particles/particlesQ004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_q003_particles_q003_v(json_360, save_output):
+def test_particles_q003_particles_q003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -9386,12 +9386,12 @@ def test_particles_q003_particles_q003_v(json_360, save_output):
         instance="msData/particles/particlesQ003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_q002_particles_q002_v(json_360, save_output):
+def test_particles_q002_particles_q002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -9404,12 +9404,12 @@ def test_particles_q002_particles_q002_v(json_360, save_output):
         instance="msData/particles/particlesQ002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_q001_particles_q001_v(json_360, save_output):
+def test_particles_q001_particles_q001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Sequence:Any -
@@ -9422,12 +9422,12 @@ def test_particles_q001_particles_q001_v(json_360, save_output):
         instance="msData/particles/particlesQ001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_t014_particles_t014_v(json_360, save_output):
+def test_particles_t014_particles_t014_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Choice -
@@ -9440,12 +9440,12 @@ def test_particles_t014_particles_t014_v(json_360, save_output):
         instance="msData/particles/particlesT014.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_t013_particles_t013_v(json_360, save_output):
+def test_particles_t013_particles_t013_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Choice -
@@ -9457,12 +9457,12 @@ def test_particles_t013_particles_t013_v(json_360, save_output):
         instance="msData/particles/particlesT013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_t012_particles_t012_v(json_360, save_output):
+def test_particles_t012_particles_t012_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Choice -
@@ -9475,12 +9475,12 @@ def test_particles_t012_particles_t012_v(json_360, save_output):
         instance="msData/particles/particlesT012.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_t007_particles_t007_v(json_360, save_output):
+def test_particles_t007_particles_t007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Choice -
@@ -9492,12 +9492,12 @@ def test_particles_t007_particles_t007_v(json_360, save_output):
         instance="msData/particles/particlesT007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_t006_particles_t006_v(json_360, save_output):
+def test_particles_t006_particles_t006_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Choice -
@@ -9509,12 +9509,12 @@ def test_particles_t006_particles_t006_v(json_360, save_output):
         instance="msData/particles/particlesT006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_t005_particles_t005_v(json_360, save_output):
+def test_particles_t005_particles_t005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Choice -
@@ -9526,12 +9526,12 @@ def test_particles_t005_particles_t005_v(json_360, save_output):
         instance="msData/particles/particlesT005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_t004_particles_t004_v(json_360, save_output):
+def test_particles_t004_particles_t004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Choice -
@@ -9543,12 +9543,12 @@ def test_particles_t004_particles_t004_v(json_360, save_output):
         instance="msData/particles/particlesT004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_t003_particles_t003_v(json_360, save_output):
+def test_particles_t003_particles_t003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Choice -
@@ -9560,12 +9560,12 @@ def test_particles_t003_particles_t003_v(json_360, save_output):
         instance="msData/particles/particlesT003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_t001_particles_t001_v(json_360, save_output):
+def test_particles_t001_particles_t001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Choice -
@@ -9577,12 +9577,12 @@ def test_particles_t001_particles_t001_v(json_360, save_output):
         instance="msData/particles/particlesT001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_r030_particles_r030_v(json_360, save_output):
+def test_particles_r030_particles_r030_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -9594,12 +9594,12 @@ def test_particles_r030_particles_r030_v(json_360, save_output):
         instance="msData/particles/particlesR030.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_r029_particles_r029_v(json_360, save_output):
+def test_particles_r029_particles_r029_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -9611,12 +9611,12 @@ def test_particles_r029_particles_r029_v(json_360, save_output):
         instance="msData/particles/particlesR029.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_r024_particles_r024_v(json_360, save_output):
+def test_particles_r024_particles_r024_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -9629,12 +9629,12 @@ def test_particles_r024_particles_r024_v(json_360, save_output):
         instance="msData/particles/particlesR024.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_r022_particles_r022_v(json_360, save_output):
+def test_particles_r022_particles_r022_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -9646,12 +9646,12 @@ def test_particles_r022_particles_r022_v(json_360, save_output):
         instance="msData/particles/particlesR022.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_r020_particles_r020_v(json_360, save_output):
+def test_particles_r020_particles_r020_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -9663,12 +9663,12 @@ def test_particles_r020_particles_r020_v(json_360, save_output):
         instance="msData/particles/particlesR020.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_r017_particles_r017_v(json_360, save_output):
+def test_particles_r017_particles_r017_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -9680,12 +9680,12 @@ def test_particles_r017_particles_r017_v(json_360, save_output):
         instance="msData/particles/particlesR017.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_r016_particles_r016_v(json_360, save_output):
+def test_particles_r016_particles_r016_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -9697,12 +9697,12 @@ def test_particles_r016_particles_r016_v(json_360, save_output):
         instance="msData/particles/particlesR016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_r015_particles_r015_v(json_360, save_output):
+def test_particles_r015_particles_r015_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -9714,12 +9714,12 @@ def test_particles_r015_particles_r015_v(json_360, save_output):
         instance="msData/particles/particlesR015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_r013_particles_r013_v(json_360, save_output):
+def test_particles_r013_particles_r013_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -9732,12 +9732,12 @@ def test_particles_r013_particles_r013_v(json_360, save_output):
         instance="msData/particles/particlesR013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_r012_particles_r012_v(json_360, save_output):
+def test_particles_r012_particles_r012_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -9750,12 +9750,12 @@ def test_particles_r012_particles_r012_v(json_360, save_output):
         instance="msData/particles/particlesR012.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_r011_particles_r011_v(json_360, save_output):
+def test_particles_r011_particles_r011_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -9768,12 +9768,12 @@ def test_particles_r011_particles_r011_v(json_360, save_output):
         instance="msData/particles/particlesR011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_r009_particles_r009_v(json_360, save_output):
+def test_particles_r009_particles_r009_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -9786,12 +9786,12 @@ def test_particles_r009_particles_r009_v(json_360, save_output):
         instance="msData/particles/particlesR009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_r008_particles_r008_v(json_360, save_output):
+def test_particles_r008_particles_r008_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -9804,12 +9804,12 @@ def test_particles_r008_particles_r008_v(json_360, save_output):
         instance="msData/particles/particlesR008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_r007_particles_r007_v(json_360, save_output):
+def test_particles_r007_particles_r007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -9822,12 +9822,12 @@ def test_particles_r007_particles_r007_v(json_360, save_output):
         instance="msData/particles/particlesR007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_r005_particles_r005_v(json_360, save_output):
+def test_particles_r005_particles_r005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -9840,12 +9840,12 @@ def test_particles_r005_particles_r005_v(json_360, save_output):
         instance="msData/particles/particlesR005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_r004_particles_r004_v(json_360, save_output):
+def test_particles_r004_particles_r004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -9858,12 +9858,12 @@ def test_particles_r004_particles_r004_v(json_360, save_output):
         instance="msData/particles/particlesR004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_r003_particles_r003_v(json_360, save_output):
+def test_particles_r003_particles_r003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -9876,12 +9876,12 @@ def test_particles_r003_particles_r003_v(json_360, save_output):
         instance="msData/particles/particlesR003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_r002_particles_r002_v(json_360, save_output):
+def test_particles_r002_particles_r002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -9894,12 +9894,12 @@ def test_particles_r002_particles_r002_v(json_360, save_output):
         instance="msData/particles/particlesR002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_r001_particles_r001_v(json_360, save_output):
+def test_particles_r001_particles_r001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Choice:Any -
@@ -9912,12 +9912,12 @@ def test_particles_r001_particles_r001_v(json_360, save_output):
         instance="msData/particles/particlesR001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_s011_particles_s011_v(json_360, save_output):
+def test_particles_s011_particles_s011_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (All:All - Recurse) (All)
@@ -9929,12 +9929,12 @@ def test_particles_s011_particles_s011_v(json_360, save_output):
         instance="msData/particles/particlesS011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_s007_particles_s007_v(json_360, save_output):
+def test_particles_s007_particles_s007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (All:All - Recurse) (All)
@@ -9946,12 +9946,12 @@ def test_particles_s007_particles_s007_v(json_360, save_output):
         instance="msData/particles/particlesS007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_s004_particles_s004_v(json_360, save_output):
+def test_particles_s004_particles_s004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (All:All - Recurse) (All)
@@ -9963,12 +9963,12 @@ def test_particles_s004_particles_s004_v(json_360, save_output):
         instance="msData/particles/particlesS004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_s003_particles_s003_v(json_360, save_output):
+def test_particles_s003_particles_s003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (All:All - Recurse) (All)
@@ -9980,12 +9980,12 @@ def test_particles_s003_particles_s003_v(json_360, save_output):
         instance="msData/particles/particlesS003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_s001_particles_s001_v(json_360, save_output):
+def test_particles_s001_particles_s001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (All:All - Recurse) (All)
@@ -9996,12 +9996,12 @@ def test_particles_s001_particles_s001_v(json_360, save_output):
         instance="msData/particles/particlesS001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_p002_particles_p002_v(json_360, save_output):
+def test_particles_p002_particles_p002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (All:Any -
@@ -10013,12 +10013,12 @@ def test_particles_p002_particles_p002_v(json_360, save_output):
         instance="msData/particles/particlesP002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ob060_particles_ob060_v(json_360, save_output):
+def test_particles_ob060_particles_ob060_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10031,12 +10031,12 @@ def test_particles_ob060_particles_ob060_v(json_360, save_output):
         instance="msData/particles/particlesOb060.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ob059_particles_ob059_v(json_360, save_output):
+def test_particles_ob059_particles_ob059_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10049,12 +10049,12 @@ def test_particles_ob059_particles_ob059_v(json_360, save_output):
         instance="msData/particles/particlesOb059.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ob057_particles_ob057_v(json_360, save_output):
+def test_particles_ob057_particles_ob057_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10067,12 +10067,12 @@ def test_particles_ob057_particles_ob057_v(json_360, save_output):
         instance="msData/particles/particlesOb057.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ob056_particles_ob056_v(json_360, save_output):
+def test_particles_ob056_particles_ob056_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10084,12 +10084,12 @@ def test_particles_ob056_particles_ob056_v(json_360, save_output):
         instance="msData/particles/particlesOb056.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ob055_particles_ob055_v(json_360, save_output):
+def test_particles_ob055_particles_ob055_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10102,12 +10102,12 @@ def test_particles_ob055_particles_ob055_v(json_360, save_output):
         instance="msData/particles/particlesOb055.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ob054_particles_ob054_v(json_360, save_output):
+def test_particles_ob054_particles_ob054_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10120,12 +10120,12 @@ def test_particles_ob054_particles_ob054_v(json_360, save_output):
         instance="msData/particles/particlesOb054.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ob053_particles_ob053_v(json_360, save_output):
+def test_particles_ob053_particles_ob053_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10137,12 +10137,12 @@ def test_particles_ob053_particles_ob053_v(json_360, save_output):
         instance="msData/particles/particlesOb053.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ob052_particles_ob052_v(json_360, save_output):
+def test_particles_ob052_particles_ob052_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10155,12 +10155,12 @@ def test_particles_ob052_particles_ob052_v(json_360, save_output):
         instance="msData/particles/particlesOb052.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ob048_particles_ob048_v(json_360, save_output):
+def test_particles_ob048_particles_ob048_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10173,12 +10173,12 @@ def test_particles_ob048_particles_ob048_v(json_360, save_output):
         instance="msData/particles/particlesOb048.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ob047_particles_ob047_v(json_360, save_output):
+def test_particles_ob047_particles_ob047_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10191,12 +10191,12 @@ def test_particles_ob047_particles_ob047_v(json_360, save_output):
         instance="msData/particles/particlesOb047.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ob042_particles_ob042_v(json_360, save_output):
+def test_particles_ob042_particles_ob042_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10209,12 +10209,12 @@ def test_particles_ob042_particles_ob042_v(json_360, save_output):
         instance="msData/particles/particlesOb042.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ob032_particles_ob032_v(json_360, save_output):
+def test_particles_ob032_particles_ob032_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10226,12 +10226,12 @@ def test_particles_ob032_particles_ob032_v(json_360, save_output):
         instance="msData/particles/particlesOb032.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ob022_particles_ob022_v(json_360, save_output):
+def test_particles_ob022_particles_ob022_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10244,12 +10244,12 @@ def test_particles_ob022_particles_ob022_v(json_360, save_output):
         instance="msData/particles/particlesOb022.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ob015_particles_ob015_v(json_360, save_output):
+def test_particles_ob015_particles_ob015_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10262,12 +10262,12 @@ def test_particles_ob015_particles_ob015_v(json_360, save_output):
         instance="msData/particles/particlesOb015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ob012_particles_ob012_v(json_360, save_output):
+def test_particles_ob012_particles_ob012_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10280,12 +10280,12 @@ def test_particles_ob012_particles_ob012_v(json_360, save_output):
         instance="msData/particles/particlesOb012.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ob007_particles_ob007_v(json_360, save_output):
+def test_particles_ob007_particles_ob007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10298,12 +10298,12 @@ def test_particles_ob007_particles_ob007_v(json_360, save_output):
         instance="msData/particles/particlesOb007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ob006_particles_ob006_v(json_360, save_output):
+def test_particles_ob006_particles_ob006_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10316,12 +10316,12 @@ def test_particles_ob006_particles_ob006_v(json_360, save_output):
         instance="msData/particles/particlesOb006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ob005_particles_ob005_v(json_360, save_output):
+def test_particles_ob005_particles_ob005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10333,12 +10333,12 @@ def test_particles_ob005_particles_ob005_v(json_360, save_output):
         instance="msData/particles/particlesOb005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ob003_particles_ob003_v(json_360, save_output):
+def test_particles_ob003_particles_ob003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10351,12 +10351,12 @@ def test_particles_ob003_particles_ob003_v(json_360, save_output):
         instance="msData/particles/particlesOb003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_oa014_particles_oa014_v(json_360, save_output):
+def test_particles_oa014_particles_oa014_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10368,12 +10368,12 @@ def test_particles_oa014_particles_oa014_v(json_360, save_output):
         instance="msData/particles/particlesOa014.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_oa013_particles_oa013_v(json_360, save_output):
+def test_particles_oa013_particles_oa013_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10385,12 +10385,12 @@ def test_particles_oa013_particles_oa013_v(json_360, save_output):
         instance="msData/particles/particlesOa013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_oa012_particles_oa012_v(json_360, save_output):
+def test_particles_oa012_particles_oa012_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10402,12 +10402,12 @@ def test_particles_oa012_particles_oa012_v(json_360, save_output):
         instance="msData/particles/particlesOa012.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_oa011_particles_oa011_v(json_360, save_output):
+def test_particles_oa011_particles_oa011_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10419,12 +10419,12 @@ def test_particles_oa011_particles_oa011_v(json_360, save_output):
         instance="msData/particles/particlesOa011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_oa006_particles_oa006_v(json_360, save_output):
+def test_particles_oa006_particles_oa006_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10436,12 +10436,12 @@ def test_particles_oa006_particles_oa006_v(json_360, save_output):
         instance="msData/particles/particlesOa006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_oa003_particles_oa003_v(json_360, save_output):
+def test_particles_oa003_particles_oa003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10453,12 +10453,12 @@ def test_particles_oa003_particles_oa003_v(json_360, save_output):
         instance="msData/particles/particlesOa003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_oa001_particles_oa001_v(json_360, save_output):
+def test_particles_oa001_particles_oa001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Any:Any- NSSubset) (any)
@@ -10470,12 +10470,12 @@ def test_particles_oa001_particles_oa001_v(json_360, save_output):
         instance="msData/particles/particlesOa001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_m035_particles_m035_v(json_360, save_output):
+def test_particles_m035_particles_m035_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Sequence -
@@ -10487,12 +10487,12 @@ def test_particles_m035_particles_m035_v(json_360, save_output):
         instance="msData/particles/particlesM035.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_m003_particles_m003_v(json_360, save_output):
+def test_particles_m003_particles_m003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Sequence -
@@ -10504,12 +10504,12 @@ def test_particles_m003_particles_m003_v(json_360, save_output):
         instance="msData/particles/particlesM003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_m002_particles_m002_v(json_360, save_output):
+def test_particles_m002_particles_m002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Sequence -
@@ -10521,12 +10521,12 @@ def test_particles_m002_particles_m002_v(json_360, save_output):
         instance="msData/particles/particlesM002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_l029_particles_l029_v(json_360, save_output):
+def test_particles_l029_particles_l029_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -10539,12 +10539,12 @@ def test_particles_l029_particles_l029_v(json_360, save_output):
         instance="msData/particles/particlesL029.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_l028_particles_l028_v(json_360, save_output):
+def test_particles_l028_particles_l028_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -10557,12 +10557,12 @@ def test_particles_l028_particles_l028_v(json_360, save_output):
         instance="msData/particles/particlesL028.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_l025_particles_l025_v(json_360, save_output):
+def test_particles_l025_particles_l025_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -10575,12 +10575,12 @@ def test_particles_l025_particles_l025_v(json_360, save_output):
         instance="msData/particles/particlesL025.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_l023_particles_l023_v(json_360, save_output):
+def test_particles_l023_particles_l023_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -10593,12 +10593,12 @@ def test_particles_l023_particles_l023_v(json_360, save_output):
         instance="msData/particles/particlesL023.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_l021_particles_l021_v(json_360, save_output):
+def test_particles_l021_particles_l021_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -10611,12 +10611,12 @@ def test_particles_l021_particles_l021_v(json_360, save_output):
         instance="msData/particles/particlesL021.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_l018_particles_l018_v(json_360, save_output):
+def test_particles_l018_particles_l018_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -10629,12 +10629,12 @@ def test_particles_l018_particles_l018_v(json_360, save_output):
         instance="msData/particles/particlesL018.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_l017_particles_l017_v(json_360, save_output):
+def test_particles_l017_particles_l017_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -10647,12 +10647,12 @@ def test_particles_l017_particles_l017_v(json_360, save_output):
         instance="msData/particles/particlesL017.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_l013_particles_l013_v(json_360, save_output):
+def test_particles_l013_particles_l013_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -10665,12 +10665,12 @@ def test_particles_l013_particles_l013_v(json_360, save_output):
         instance="msData/particles/particlesL013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_l012_particles_l012_v(json_360, save_output):
+def test_particles_l012_particles_l012_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -10683,12 +10683,12 @@ def test_particles_l012_particles_l012_v(json_360, save_output):
         instance="msData/particles/particlesL012.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_l007_particles_l007_v(json_360, save_output):
+def test_particles_l007_particles_l007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -10701,12 +10701,12 @@ def test_particles_l007_particles_l007_v(json_360, save_output):
         instance="msData/particles/particlesL007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_l006_particles_l006_v(json_360, save_output):
+def test_particles_l006_particles_l006_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -10719,12 +10719,12 @@ def test_particles_l006_particles_l006_v(json_360, save_output):
         instance="msData/particles/particlesL006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_l003_particles_l003_v(json_360, save_output):
+def test_particles_l003_particles_l003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:Choice -
@@ -10736,12 +10736,12 @@ def test_particles_l003_particles_l003_v(json_360, save_output):
         instance="msData/particles/particlesL003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_k008_particles_k008_v(json_360, save_output):
+def test_particles_k008_particles_k008_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:All -
@@ -10754,12 +10754,12 @@ def test_particles_k008_particles_k008_v(json_360, save_output):
         instance="msData/particles/particlesK008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_k005_particles_k005_v(json_360, save_output):
+def test_particles_k005_particles_k005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:All -
@@ -10771,12 +10771,12 @@ def test_particles_k005_particles_k005_v(json_360, save_output):
         instance="msData/particles/particlesK005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_k003_particles_k003_v(json_360, save_output):
+def test_particles_k003_particles_k003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:All -
@@ -10789,12 +10789,12 @@ def test_particles_k003_particles_k003_v(json_360, save_output):
         instance="msData/particles/particlesK003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_k002_particles_k002_v(json_360, save_output):
+def test_particles_k002_particles_k002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:All -
@@ -10807,12 +10807,12 @@ def test_particles_k002_particles_k002_v(json_360, save_output):
         instance="msData/particles/particlesK002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_k001_particles_k001_v(json_360, save_output):
+def test_particles_k001_particles_k001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (Elt:All -
@@ -10824,12 +10824,12 @@ def test_particles_k001_particles_k001_v(json_360, save_output):
         instance="msData/particles/particlesK001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ju003_particles_ju003_v(json_360, save_output):
+def test_particles_ju003_particles_ju003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -10843,12 +10843,12 @@ def test_particles_ju003_particles_ju003_v(json_360, save_output):
         instance="msData/particles/particlesJu003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ju002_particles_ju002_v(json_360, save_output):
+def test_particles_ju002_particles_ju002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -10861,12 +10861,12 @@ def test_particles_ju002_particles_ju002_v(json_360, save_output):
         instance="msData/particles/particlesJu002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ju001_particles_ju001_v(json_360, save_output):
+def test_particles_ju001_particles_ju001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -10880,12 +10880,12 @@ def test_particles_ju001_particles_ju001_v(json_360, save_output):
         instance="msData/particles/particlesJu001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_js001_particles_js001_v(json_360, save_output):
+def test_particles_js001_particles_js001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -10897,12 +10897,12 @@ def test_particles_js001_particles_js001_v(json_360, save_output):
         instance="msData/particles/particlesJs001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jq010_particles_jq010_v(json_360, save_output):
+def test_particles_jq010_particles_jq010_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -10915,12 +10915,12 @@ def test_particles_jq010_particles_jq010_v(json_360, save_output):
         instance="msData/particles/particlesJq010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jq008_particles_jq008_v(json_360, save_output):
+def test_particles_jq008_particles_jq008_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -10933,12 +10933,12 @@ def test_particles_jq008_particles_jq008_v(json_360, save_output):
         instance="msData/particles/particlesJq008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jq007_particles_jq007_v(json_360, save_output):
+def test_particles_jq007_particles_jq007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -10951,12 +10951,12 @@ def test_particles_jq007_particles_jq007_v(json_360, save_output):
         instance="msData/particles/particlesJq007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jp005_particles_jp005_v(json_360, save_output):
+def test_particles_jp005_particles_jp005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -10969,12 +10969,12 @@ def test_particles_jp005_particles_jp005_v(json_360, save_output):
         instance="msData/particles/particlesJp005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jp004_particles_jp004_v(json_360, save_output):
+def test_particles_jp004_particles_jp004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -10987,12 +10987,12 @@ def test_particles_jp004_particles_jp004_v(json_360, save_output):
         instance="msData/particles/particlesJp004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jn010_particles_jn010_v(json_360, save_output):
+def test_particles_jn010_particles_jn010_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11005,12 +11005,12 @@ def test_particles_jn010_particles_jn010_v(json_360, save_output):
         instance="msData/particles/particlesJn010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jn008_particles_jn008_v(json_360, save_output):
+def test_particles_jn008_particles_jn008_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11023,12 +11023,12 @@ def test_particles_jn008_particles_jn008_v(json_360, save_output):
         instance="msData/particles/particlesJn008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jn007_particles_jn007_v(json_360, save_output):
+def test_particles_jn007_particles_jn007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11041,12 +11041,12 @@ def test_particles_jn007_particles_jn007_v(json_360, save_output):
         instance="msData/particles/particlesJn007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jm005_particles_jm005_v(json_360, save_output):
+def test_particles_jm005_particles_jm005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11059,12 +11059,12 @@ def test_particles_jm005_particles_jm005_v(json_360, save_output):
         instance="msData/particles/particlesJm005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jm004_particles_jm004_v(json_360, save_output):
+def test_particles_jm004_particles_jm004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11077,12 +11077,12 @@ def test_particles_jm004_particles_jm004_v(json_360, save_output):
         instance="msData/particles/particlesJm004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jl001_particles_jl001_v(json_360, save_output):
+def test_particles_jl001_particles_jl001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11094,12 +11094,12 @@ def test_particles_jl001_particles_jl001_v(json_360, save_output):
         instance="msData/particles/particlesJl001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jk016_particles_jk016_v(json_360, save_output):
+def test_particles_jk016_particles_jk016_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11111,12 +11111,12 @@ def test_particles_jk016_particles_jk016_v(json_360, save_output):
         instance="msData/particles/particlesJk016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jk015_particles_jk015_v(json_360, save_output):
+def test_particles_jk015_particles_jk015_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11129,12 +11129,12 @@ def test_particles_jk015_particles_jk015_v(json_360, save_output):
         instance="msData/particles/particlesJk015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jk013_particles_jk013_v(json_360, save_output):
+def test_particles_jk013_particles_jk013_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11147,12 +11147,12 @@ def test_particles_jk013_particles_jk013_v(json_360, save_output):
         instance="msData/particles/particlesJk013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jk011_particles_jk011_v(json_360, save_output):
+def test_particles_jk011_particles_jk011_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11165,12 +11165,12 @@ def test_particles_jk011_particles_jk011_v(json_360, save_output):
         instance="msData/particles/particlesJk011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jk010_particles_jk010_v(json_360, save_output):
+def test_particles_jk010_particles_jk010_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11183,12 +11183,12 @@ def test_particles_jk010_particles_jk010_v(json_360, save_output):
         instance="msData/particles/particlesJk010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jk008_particles_jk008_v(json_360, save_output):
+def test_particles_jk008_particles_jk008_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11201,12 +11201,12 @@ def test_particles_jk008_particles_jk008_v(json_360, save_output):
         instance="msData/particles/particlesJk008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jk007_particles_jk007_v(json_360, save_output):
+def test_particles_jk007_particles_jk007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11219,12 +11219,12 @@ def test_particles_jk007_particles_jk007_v(json_360, save_output):
         instance="msData/particles/particlesJk007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jk005_particles_jk005_v(json_360, save_output):
+def test_particles_jk005_particles_jk005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11237,12 +11237,12 @@ def test_particles_jk005_particles_jk005_v(json_360, save_output):
         instance="msData/particles/particlesJk005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jk004_particles_jk004_v(json_360, save_output):
+def test_particles_jk004_particles_jk004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11255,12 +11255,12 @@ def test_particles_jk004_particles_jk004_v(json_360, save_output):
         instance="msData/particles/particlesJk004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jk003_particles_jk003_v(json_360, save_output):
+def test_particles_jk003_particles_jk003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11273,12 +11273,12 @@ def test_particles_jk003_particles_jk003_v(json_360, save_output):
         instance="msData/particles/particlesJk003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jk002_particles_jk002_v(json_360, save_output):
+def test_particles_jk002_particles_jk002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11291,12 +11291,12 @@ def test_particles_jk002_particles_jk002_v(json_360, save_output):
         instance="msData/particles/particlesJk002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jk001_particles_jk001_v(json_360, save_output):
+def test_particles_jk001_particles_jk001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11309,12 +11309,12 @@ def test_particles_jk001_particles_jk001_v(json_360, save_output):
         instance="msData/particles/particlesJk001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jj011_particles_jj011_v(json_360, save_output):
+def test_particles_jj011_particles_jj011_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11327,12 +11327,12 @@ def test_particles_jj011_particles_jj011_v(json_360, save_output):
         instance="msData/particles/particlesJj011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jj010_particles_jj010_v(json_360, save_output):
+def test_particles_jj010_particles_jj010_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11345,12 +11345,12 @@ def test_particles_jj010_particles_jj010_v(json_360, save_output):
         instance="msData/particles/particlesJj010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jj009_particles_jj009_v(json_360, save_output):
+def test_particles_jj009_particles_jj009_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11363,12 +11363,12 @@ def test_particles_jj009_particles_jj009_v(json_360, save_output):
         instance="msData/particles/particlesJj009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jj008_particles_jj008_v(json_360, save_output):
+def test_particles_jj008_particles_jj008_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11381,12 +11381,12 @@ def test_particles_jj008_particles_jj008_v(json_360, save_output):
         instance="msData/particles/particlesJj008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jj007_particles_jj007_v(json_360, save_output):
+def test_particles_jj007_particles_jj007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11399,12 +11399,12 @@ def test_particles_jj007_particles_jj007_v(json_360, save_output):
         instance="msData/particles/particlesJj007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jj005_particles_jj005_v(json_360, save_output):
+def test_particles_jj005_particles_jj005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11417,12 +11417,12 @@ def test_particles_jj005_particles_jj005_v(json_360, save_output):
         instance="msData/particles/particlesJj005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jj004_particles_jj004_v(json_360, save_output):
+def test_particles_jj004_particles_jj004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11435,12 +11435,12 @@ def test_particles_jj004_particles_jj004_v(json_360, save_output):
         instance="msData/particles/particlesJj004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jj002_particles_jj002_v(json_360, save_output):
+def test_particles_jj002_particles_jj002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11453,12 +11453,12 @@ def test_particles_jj002_particles_jj002_v(json_360, save_output):
         instance="msData/particles/particlesJj002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jj001_particles_jj001_v(json_360, save_output):
+def test_particles_jj001_particles_jj001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11471,12 +11471,12 @@ def test_particles_jj001_particles_jj001_v(json_360, save_output):
         instance="msData/particles/particlesJj001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jf016_particles_jf016_v(json_360, save_output):
+def test_particles_jf016_particles_jf016_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11489,12 +11489,12 @@ def test_particles_jf016_particles_jf016_v(json_360, save_output):
         instance="msData/particles/particlesJf016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jf015_particles_jf015_v(json_360, save_output):
+def test_particles_jf015_particles_jf015_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11507,12 +11507,12 @@ def test_particles_jf015_particles_jf015_v(json_360, save_output):
         instance="msData/particles/particlesJf015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jf013_particles_jf013_v(json_360, save_output):
+def test_particles_jf013_particles_jf013_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11525,12 +11525,12 @@ def test_particles_jf013_particles_jf013_v(json_360, save_output):
         instance="msData/particles/particlesJf013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jf011_particles_jf011_v(json_360, save_output):
+def test_particles_jf011_particles_jf011_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11543,12 +11543,12 @@ def test_particles_jf011_particles_jf011_v(json_360, save_output):
         instance="msData/particles/particlesJf011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jf010_particles_jf010_v(json_360, save_output):
+def test_particles_jf010_particles_jf010_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11561,12 +11561,12 @@ def test_particles_jf010_particles_jf010_v(json_360, save_output):
         instance="msData/particles/particlesJf010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jf008_particles_jf008_v(json_360, save_output):
+def test_particles_jf008_particles_jf008_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11579,12 +11579,12 @@ def test_particles_jf008_particles_jf008_v(json_360, save_output):
         instance="msData/particles/particlesJf008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jf007_particles_jf007_v(json_360, save_output):
+def test_particles_jf007_particles_jf007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11597,12 +11597,12 @@ def test_particles_jf007_particles_jf007_v(json_360, save_output):
         instance="msData/particles/particlesJf007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jf005_particles_jf005_v(json_360, save_output):
+def test_particles_jf005_particles_jf005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11615,12 +11615,12 @@ def test_particles_jf005_particles_jf005_v(json_360, save_output):
         instance="msData/particles/particlesJf005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jf004_particles_jf004_v(json_360, save_output):
+def test_particles_jf004_particles_jf004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11633,12 +11633,12 @@ def test_particles_jf004_particles_jf004_v(json_360, save_output):
         instance="msData/particles/particlesJf004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jf003_particles_jf003_v(json_360, save_output):
+def test_particles_jf003_particles_jf003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11651,12 +11651,12 @@ def test_particles_jf003_particles_jf003_v(json_360, save_output):
         instance="msData/particles/particlesJf003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jf002_particles_jf002_v(json_360, save_output):
+def test_particles_jf002_particles_jf002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11669,12 +11669,12 @@ def test_particles_jf002_particles_jf002_v(json_360, save_output):
         instance="msData/particles/particlesJf002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jf001_particles_jf001_v(json_360, save_output):
+def test_particles_jf001_particles_jf001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11687,12 +11687,12 @@ def test_particles_jf001_particles_jf001_v(json_360, save_output):
         instance="msData/particles/particlesJf001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_je011_particles_je011_v(json_360, save_output):
+def test_particles_je011_particles_je011_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11705,12 +11705,12 @@ def test_particles_je011_particles_je011_v(json_360, save_output):
         instance="msData/particles/particlesJe011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_je010_particles_je010_v(json_360, save_output):
+def test_particles_je010_particles_je010_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11723,12 +11723,12 @@ def test_particles_je010_particles_je010_v(json_360, save_output):
         instance="msData/particles/particlesJe010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_je009_particles_je009_v(json_360, save_output):
+def test_particles_je009_particles_je009_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11741,12 +11741,12 @@ def test_particles_je009_particles_je009_v(json_360, save_output):
         instance="msData/particles/particlesJe009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_je008_particles_je008_v(json_360, save_output):
+def test_particles_je008_particles_je008_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11759,12 +11759,12 @@ def test_particles_je008_particles_je008_v(json_360, save_output):
         instance="msData/particles/particlesJe008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_je007_particles_je007_v(json_360, save_output):
+def test_particles_je007_particles_je007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11777,12 +11777,12 @@ def test_particles_je007_particles_je007_v(json_360, save_output):
         instance="msData/particles/particlesJe007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_je005_particles_je005_v(json_360, save_output):
+def test_particles_je005_particles_je005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11795,12 +11795,12 @@ def test_particles_je005_particles_je005_v(json_360, save_output):
         instance="msData/particles/particlesJe005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_je004_particles_je004_v(json_360, save_output):
+def test_particles_je004_particles_je004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11813,12 +11813,12 @@ def test_particles_je004_particles_je004_v(json_360, save_output):
         instance="msData/particles/particlesJe004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_je002_particles_je002_v(json_360, save_output):
+def test_particles_je002_particles_je002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11831,12 +11831,12 @@ def test_particles_je002_particles_je002_v(json_360, save_output):
         instance="msData/particles/particlesJe002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_je001_particles_je001_v(json_360, save_output):
+def test_particles_je001_particles_je001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11849,12 +11849,12 @@ def test_particles_je001_particles_je001_v(json_360, save_output):
         instance="msData/particles/particlesJe001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jd016_particles_jd016_v(json_360, save_output):
+def test_particles_jd016_particles_jd016_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11866,12 +11866,12 @@ def test_particles_jd016_particles_jd016_v(json_360, save_output):
         instance="msData/particles/particlesJd016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jd015_particles_jd015_v(json_360, save_output):
+def test_particles_jd015_particles_jd015_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11883,12 +11883,12 @@ def test_particles_jd015_particles_jd015_v(json_360, save_output):
         instance="msData/particles/particlesJd015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jd013_particles_jd013_v(json_360, save_output):
+def test_particles_jd013_particles_jd013_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11900,12 +11900,12 @@ def test_particles_jd013_particles_jd013_v(json_360, save_output):
         instance="msData/particles/particlesJd013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jd011_particles_jd011_v(json_360, save_output):
+def test_particles_jd011_particles_jd011_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11917,12 +11917,12 @@ def test_particles_jd011_particles_jd011_v(json_360, save_output):
         instance="msData/particles/particlesJd011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jd010_particles_jd010_v(json_360, save_output):
+def test_particles_jd010_particles_jd010_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11934,12 +11934,12 @@ def test_particles_jd010_particles_jd010_v(json_360, save_output):
         instance="msData/particles/particlesJd010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jd008_particles_jd008_v(json_360, save_output):
+def test_particles_jd008_particles_jd008_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11951,12 +11951,12 @@ def test_particles_jd008_particles_jd008_v(json_360, save_output):
         instance="msData/particles/particlesJd008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jd007_particles_jd007_v(json_360, save_output):
+def test_particles_jd007_particles_jd007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11968,12 +11968,12 @@ def test_particles_jd007_particles_jd007_v(json_360, save_output):
         instance="msData/particles/particlesJd007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jd005_particles_jd005_v(json_360, save_output):
+def test_particles_jd005_particles_jd005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -11985,12 +11985,12 @@ def test_particles_jd005_particles_jd005_v(json_360, save_output):
         instance="msData/particles/particlesJd005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jd004_particles_jd004_v(json_360, save_output):
+def test_particles_jd004_particles_jd004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12002,12 +12002,12 @@ def test_particles_jd004_particles_jd004_v(json_360, save_output):
         instance="msData/particles/particlesJd004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jd003_particles_jd003_v(json_360, save_output):
+def test_particles_jd003_particles_jd003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12019,12 +12019,12 @@ def test_particles_jd003_particles_jd003_v(json_360, save_output):
         instance="msData/particles/particlesJd003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jd002_particles_jd002_v(json_360, save_output):
+def test_particles_jd002_particles_jd002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12036,12 +12036,12 @@ def test_particles_jd002_particles_jd002_v(json_360, save_output):
         instance="msData/particles/particlesJd002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jd001_particles_jd001_v(json_360, save_output):
+def test_particles_jd001_particles_jd001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12053,12 +12053,12 @@ def test_particles_jd001_particles_jd001_v(json_360, save_output):
         instance="msData/particles/particlesJd001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jc011_particles_jc011_v(json_360, save_output):
+def test_particles_jc011_particles_jc011_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12070,12 +12070,12 @@ def test_particles_jc011_particles_jc011_v(json_360, save_output):
         instance="msData/particles/particlesJc011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jc010_particles_jc010_v(json_360, save_output):
+def test_particles_jc010_particles_jc010_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12087,12 +12087,12 @@ def test_particles_jc010_particles_jc010_v(json_360, save_output):
         instance="msData/particles/particlesJc010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jc009_particles_jc009_v(json_360, save_output):
+def test_particles_jc009_particles_jc009_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12104,12 +12104,12 @@ def test_particles_jc009_particles_jc009_v(json_360, save_output):
         instance="msData/particles/particlesJc009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jc008_particles_jc008_v(json_360, save_output):
+def test_particles_jc008_particles_jc008_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12121,12 +12121,12 @@ def test_particles_jc008_particles_jc008_v(json_360, save_output):
         instance="msData/particles/particlesJc008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jc007_particles_jc007_v(json_360, save_output):
+def test_particles_jc007_particles_jc007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12138,12 +12138,12 @@ def test_particles_jc007_particles_jc007_v(json_360, save_output):
         instance="msData/particles/particlesJc007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jc005_particles_jc005_v(json_360, save_output):
+def test_particles_jc005_particles_jc005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12155,12 +12155,12 @@ def test_particles_jc005_particles_jc005_v(json_360, save_output):
         instance="msData/particles/particlesJc005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jc004_particles_jc004_v(json_360, save_output):
+def test_particles_jc004_particles_jc004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12172,12 +12172,12 @@ def test_particles_jc004_particles_jc004_v(json_360, save_output):
         instance="msData/particles/particlesJc004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jc002_particles_jc002_v(json_360, save_output):
+def test_particles_jc002_particles_jc002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12189,12 +12189,12 @@ def test_particles_jc002_particles_jc002_v(json_360, save_output):
         instance="msData/particles/particlesJc002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jc001_particles_jc001_v(json_360, save_output):
+def test_particles_jc001_particles_jc001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12206,12 +12206,12 @@ def test_particles_jc001_particles_jc001_v(json_360, save_output):
         instance="msData/particles/particlesJc001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jb016_particles_jb016_v(json_360, save_output):
+def test_particles_jb016_particles_jb016_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12223,12 +12223,12 @@ def test_particles_jb016_particles_jb016_v(json_360, save_output):
         instance="msData/particles/particlesJb016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jb015_particles_jb015_v(json_360, save_output):
+def test_particles_jb015_particles_jb015_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12240,12 +12240,12 @@ def test_particles_jb015_particles_jb015_v(json_360, save_output):
         instance="msData/particles/particlesJb015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jb013_particles_jb013_v(json_360, save_output):
+def test_particles_jb013_particles_jb013_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12257,12 +12257,12 @@ def test_particles_jb013_particles_jb013_v(json_360, save_output):
         instance="msData/particles/particlesJb013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jb011_particles_jb011_v(json_360, save_output):
+def test_particles_jb011_particles_jb011_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12274,12 +12274,12 @@ def test_particles_jb011_particles_jb011_v(json_360, save_output):
         instance="msData/particles/particlesJb011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jb010_particles_jb010_v(json_360, save_output):
+def test_particles_jb010_particles_jb010_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12291,12 +12291,12 @@ def test_particles_jb010_particles_jb010_v(json_360, save_output):
         instance="msData/particles/particlesJb010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jb008_particles_jb008_v(json_360, save_output):
+def test_particles_jb008_particles_jb008_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12308,12 +12308,12 @@ def test_particles_jb008_particles_jb008_v(json_360, save_output):
         instance="msData/particles/particlesJb008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jb007_particles_jb007_v(json_360, save_output):
+def test_particles_jb007_particles_jb007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12325,12 +12325,12 @@ def test_particles_jb007_particles_jb007_v(json_360, save_output):
         instance="msData/particles/particlesJb007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jb005_particles_jb005_v(json_360, save_output):
+def test_particles_jb005_particles_jb005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12342,12 +12342,12 @@ def test_particles_jb005_particles_jb005_v(json_360, save_output):
         instance="msData/particles/particlesJb005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jb004_particles_jb004_v(json_360, save_output):
+def test_particles_jb004_particles_jb004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12359,12 +12359,12 @@ def test_particles_jb004_particles_jb004_v(json_360, save_output):
         instance="msData/particles/particlesJb004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jb003_particles_jb003_v(json_360, save_output):
+def test_particles_jb003_particles_jb003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12376,12 +12376,12 @@ def test_particles_jb003_particles_jb003_v(json_360, save_output):
         instance="msData/particles/particlesJb003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jb002_particles_jb002_v(json_360, save_output):
+def test_particles_jb002_particles_jb002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12393,12 +12393,12 @@ def test_particles_jb002_particles_jb002_v(json_360, save_output):
         instance="msData/particles/particlesJb002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_jb001_particles_jb001_v(json_360, save_output):
+def test_particles_jb001_particles_jb001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12410,12 +12410,12 @@ def test_particles_jb001_particles_jb001_v(json_360, save_output):
         instance="msData/particles/particlesJb001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ja011_particles_ja011_v(json_360, save_output):
+def test_particles_ja011_particles_ja011_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12427,12 +12427,12 @@ def test_particles_ja011_particles_ja011_v(json_360, save_output):
         instance="msData/particles/particlesJa011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ja010_particles_ja010_v(json_360, save_output):
+def test_particles_ja010_particles_ja010_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12444,12 +12444,12 @@ def test_particles_ja010_particles_ja010_v(json_360, save_output):
         instance="msData/particles/particlesJa010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ja009_particles_ja009_v(json_360, save_output):
+def test_particles_ja009_particles_ja009_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12461,12 +12461,12 @@ def test_particles_ja009_particles_ja009_v(json_360, save_output):
         instance="msData/particles/particlesJa009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ja008_particles_ja008_v(json_360, save_output):
+def test_particles_ja008_particles_ja008_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12478,12 +12478,12 @@ def test_particles_ja008_particles_ja008_v(json_360, save_output):
         instance="msData/particles/particlesJa008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ja007_particles_ja007_v(json_360, save_output):
+def test_particles_ja007_particles_ja007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12495,12 +12495,12 @@ def test_particles_ja007_particles_ja007_v(json_360, save_output):
         instance="msData/particles/particlesJa007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ja005_particles_ja005_v(json_360, save_output):
+def test_particles_ja005_particles_ja005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12512,12 +12512,12 @@ def test_particles_ja005_particles_ja005_v(json_360, save_output):
         instance="msData/particles/particlesJa005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ja004_particles_ja004_v(json_360, save_output):
+def test_particles_ja004_particles_ja004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12529,12 +12529,12 @@ def test_particles_ja004_particles_ja004_v(json_360, save_output):
         instance="msData/particles/particlesJa004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ja002_particles_ja002_v(json_360, save_output):
+def test_particles_ja002_particles_ja002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12546,12 +12546,12 @@ def test_particles_ja002_particles_ja002_v(json_360, save_output):
         instance="msData/particles/particlesJa002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ja001_particles_ja001_v(json_360, save_output):
+def test_particles_ja001_particles_ja001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Particle Derivation OK (elt:Any) element R
@@ -12563,12 +12563,12 @@ def test_particles_ja001_particles_ja001_v(json_360, save_output):
         instance="msData/particles/particlesJa001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ik026_particles_ik026_v(json_360, save_output):
+def test_particles_ik026_particles_ik026_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12580,12 +12580,12 @@ def test_particles_ik026_particles_ik026_v(json_360, save_output):
         instance="msData/particles/particlesIk026.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ik012_particles_ik012_v(json_360, save_output):
+def test_particles_ik012_particles_ik012_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12597,12 +12597,12 @@ def test_particles_ik012_particles_ik012_v(json_360, save_output):
         instance="msData/particles/particlesIk012.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ik004_particles_ik004_v(json_360, save_output):
+def test_particles_ik004_particles_ik004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12614,12 +12614,12 @@ def test_particles_ik004_particles_ik004_v(json_360, save_output):
         instance="msData/particles/particlesIk004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ik001_particles_ik001_v(json_360, save_output):
+def test_particles_ik001_particles_ik001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12631,12 +12631,12 @@ def test_particles_ik001_particles_ik001_v(json_360, save_output):
         instance="msData/particles/particlesIk001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ij006_particles_ij006_v(json_360, save_output):
+def test_particles_ij006_particles_ij006_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12649,12 +12649,12 @@ def test_particles_ij006_particles_ij006_v(json_360, save_output):
         instance="msData/particles/particlesIj006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ij005_particles_ij005_v(json_360, save_output):
+def test_particles_ij005_particles_ij005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12666,12 +12666,12 @@ def test_particles_ij005_particles_ij005_v(json_360, save_output):
         instance="msData/particles/particlesIj005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ij002_particles_ij002_v(json_360, save_output):
+def test_particles_ij002_particles_ij002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12683,12 +12683,12 @@ def test_particles_ij002_particles_ij002_v(json_360, save_output):
         instance="msData/particles/particlesIj002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ij001_particles_ij001_v(json_360, save_output):
+def test_particles_ij001_particles_ij001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12699,12 +12699,12 @@ def test_particles_ij001_particles_ij001_v(json_360, save_output):
         instance="msData/particles/particlesIj001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ig015_particles_ig015_v(json_360, save_output):
+def test_particles_ig015_particles_ig015_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12716,12 +12716,12 @@ def test_particles_ig015_particles_ig015_v(json_360, save_output):
         instance="msData/particles/particlesIg015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ig014_particles_ig014_v(json_360, save_output):
+def test_particles_ig014_particles_ig014_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12733,12 +12733,12 @@ def test_particles_ig014_particles_ig014_v(json_360, save_output):
         instance="msData/particles/particlesIg014.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ig012_particles_ig012_v(json_360, save_output):
+def test_particles_ig012_particles_ig012_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12750,12 +12750,12 @@ def test_particles_ig012_particles_ig012_v(json_360, save_output):
         instance="msData/particles/particlesIg012.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ig011_particles_ig011_v(json_360, save_output):
+def test_particles_ig011_particles_ig011_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12767,12 +12767,12 @@ def test_particles_ig011_particles_ig011_v(json_360, save_output):
         instance="msData/particles/particlesIg011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ig005_particles_ig005_v(json_360, save_output):
+def test_particles_ig005_particles_ig005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12784,13 +12784,13 @@ def test_particles_ig005_particles_ig005_v(json_360, save_output):
         instance="msData/particles/particlesIg005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ig003_particles_ig003_v(json_360, save_output):
+def test_particles_ig003_particles_ig003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12802,12 +12802,12 @@ def test_particles_ig003_particles_ig003_v(json_360, save_output):
         instance="msData/particles/particlesIg003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ig002_particles_ig002_v(json_360, save_output):
+def test_particles_ig002_particles_ig002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12819,12 +12819,12 @@ def test_particles_ig002_particles_ig002_v(json_360, save_output):
         instance="msData/particles/particlesIg002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ig001_particles_ig001_v(json_360, save_output):
+def test_particles_ig001_particles_ig001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12836,12 +12836,12 @@ def test_particles_ig001_particles_ig001_v(json_360, save_output):
         instance="msData/particles/particlesIg001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_if006_particles_if006_v(json_360, save_output):
+def test_particles_if006_particles_if006_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12852,12 +12852,12 @@ def test_particles_if006_particles_if006_v(json_360, save_output):
         instance="msData/particles/particlesIf006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_if005_particles_if005_v(json_360, save_output):
+def test_particles_if005_particles_if005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12868,12 +12868,12 @@ def test_particles_if005_particles_if005_v(json_360, save_output):
         instance="msData/particles/particlesIf005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_if004_particles_if004_v(json_360, save_output):
+def test_particles_if004_particles_if004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12884,12 +12884,12 @@ def test_particles_if004_particles_if004_v(json_360, save_output):
         instance="msData/particles/particlesIf004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_if003_particles_if003_v(json_360, save_output):
+def test_particles_if003_particles_if003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12900,12 +12900,12 @@ def test_particles_if003_particles_if003_v(json_360, save_output):
         instance="msData/particles/particlesIf003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_if002_particles_if002_v(json_360, save_output):
+def test_particles_if002_particles_if002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12916,12 +12916,12 @@ def test_particles_if002_particles_if002_v(json_360, save_output):
         instance="msData/particles/particlesIf002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_if001_particles_if001_v(json_360, save_output):
+def test_particles_if001_particles_if001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12932,12 +12932,12 @@ def test_particles_if001_particles_if001_v(json_360, save_output):
         instance="msData/particles/particlesIf001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ie016_particles_ie016_v(json_360, save_output):
+def test_particles_ie016_particles_ie016_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12948,12 +12948,12 @@ def test_particles_ie016_particles_ie016_v(json_360, save_output):
         instance="msData/particles/particlesIe016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ie015_particles_ie015_v(json_360, save_output):
+def test_particles_ie015_particles_ie015_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12964,12 +12964,12 @@ def test_particles_ie015_particles_ie015_v(json_360, save_output):
         instance="msData/particles/particlesIe015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ie013_particles_ie013_v(json_360, save_output):
+def test_particles_ie013_particles_ie013_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12980,12 +12980,12 @@ def test_particles_ie013_particles_ie013_v(json_360, save_output):
         instance="msData/particles/particlesIe013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ie011_particles_ie011_v(json_360, save_output):
+def test_particles_ie011_particles_ie011_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -12996,12 +12996,12 @@ def test_particles_ie011_particles_ie011_v(json_360, save_output):
         instance="msData/particles/particlesIe011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ie010_particles_ie010_v(json_360, save_output):
+def test_particles_ie010_particles_ie010_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13012,12 +13012,12 @@ def test_particles_ie010_particles_ie010_v(json_360, save_output):
         instance="msData/particles/particlesIe010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ie008_particles_ie008_v(json_360, save_output):
+def test_particles_ie008_particles_ie008_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13028,12 +13028,12 @@ def test_particles_ie008_particles_ie008_v(json_360, save_output):
         instance="msData/particles/particlesIe008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ie007_particles_ie007_v(json_360, save_output):
+def test_particles_ie007_particles_ie007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13044,12 +13044,12 @@ def test_particles_ie007_particles_ie007_v(json_360, save_output):
         instance="msData/particles/particlesIe007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ie005_particles_ie005_v(json_360, save_output):
+def test_particles_ie005_particles_ie005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13060,12 +13060,12 @@ def test_particles_ie005_particles_ie005_v(json_360, save_output):
         instance="msData/particles/particlesIe005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ie004_particles_ie004_v(json_360, save_output):
+def test_particles_ie004_particles_ie004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13076,12 +13076,12 @@ def test_particles_ie004_particles_ie004_v(json_360, save_output):
         instance="msData/particles/particlesIe004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ie003_particles_ie003_v(json_360, save_output):
+def test_particles_ie003_particles_ie003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13092,12 +13092,12 @@ def test_particles_ie003_particles_ie003_v(json_360, save_output):
         instance="msData/particles/particlesIe003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ie002_particles_ie002_v(json_360, save_output):
+def test_particles_ie002_particles_ie002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13108,12 +13108,12 @@ def test_particles_ie002_particles_ie002_v(json_360, save_output):
         instance="msData/particles/particlesIe002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ie001_particles_ie001_v(json_360, save_output):
+def test_particles_ie001_particles_ie001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13124,12 +13124,12 @@ def test_particles_ie001_particles_ie001_v(json_360, save_output):
         instance="msData/particles/particlesIe001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_id011_particles_id011_v(json_360, save_output):
+def test_particles_id011_particles_id011_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13140,12 +13140,12 @@ def test_particles_id011_particles_id011_v(json_360, save_output):
         instance="msData/particles/particlesId011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_id010_particles_id010_v(json_360, save_output):
+def test_particles_id010_particles_id010_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13156,12 +13156,12 @@ def test_particles_id010_particles_id010_v(json_360, save_output):
         instance="msData/particles/particlesId010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_id009_particles_id009_v(json_360, save_output):
+def test_particles_id009_particles_id009_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13172,12 +13172,12 @@ def test_particles_id009_particles_id009_v(json_360, save_output):
         instance="msData/particles/particlesId009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_id008_particles_id008_v(json_360, save_output):
+def test_particles_id008_particles_id008_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13188,12 +13188,12 @@ def test_particles_id008_particles_id008_v(json_360, save_output):
         instance="msData/particles/particlesId008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_id007_particles_id007_v(json_360, save_output):
+def test_particles_id007_particles_id007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13204,12 +13204,12 @@ def test_particles_id007_particles_id007_v(json_360, save_output):
         instance="msData/particles/particlesId007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_id005_particles_id005_v(json_360, save_output):
+def test_particles_id005_particles_id005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13220,12 +13220,12 @@ def test_particles_id005_particles_id005_v(json_360, save_output):
         instance="msData/particles/particlesId005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_id004_particles_id004_v(json_360, save_output):
+def test_particles_id004_particles_id004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13236,12 +13236,12 @@ def test_particles_id004_particles_id004_v(json_360, save_output):
         instance="msData/particles/particlesId004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_id002_particles_id002_v(json_360, save_output):
+def test_particles_id002_particles_id002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13252,12 +13252,12 @@ def test_particles_id002_particles_id002_v(json_360, save_output):
         instance="msData/particles/particlesId002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_id001_particles_id001_v(json_360, save_output):
+def test_particles_id001_particles_id001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13268,12 +13268,12 @@ def test_particles_id001_particles_id001_v(json_360, save_output):
         instance="msData/particles/particlesId001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ic007_particles_ic007_v(json_360, save_output):
+def test_particles_ic007_particles_ic007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13285,12 +13285,12 @@ def test_particles_ic007_particles_ic007_v(json_360, save_output):
         instance="msData/particles/particlesIc007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ic006_particles_ic006_v(json_360, save_output):
+def test_particles_ic006_particles_ic006_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13302,12 +13302,12 @@ def test_particles_ic006_particles_ic006_v(json_360, save_output):
         instance="msData/particles/particlesIc006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ic005_particles_ic005_v(json_360, save_output):
+def test_particles_ic005_particles_ic005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13319,12 +13319,12 @@ def test_particles_ic005_particles_ic005_v(json_360, save_output):
         instance="msData/particles/particlesIc005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ic001_particles_ic001_v(json_360, save_output):
+def test_particles_ic001_particles_ic001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13336,12 +13336,12 @@ def test_particles_ic001_particles_ic001_v(json_360, save_output):
         instance="msData/particles/particlesIc001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ib005_particles_ib005_v(json_360, save_output):
+def test_particles_ib005_particles_ib005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13353,12 +13353,12 @@ def test_particles_ib005_particles_ib005_v(json_360, save_output):
         instance="msData/particles/particlesIb005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ib003_particles_ib003_v(json_360, save_output):
+def test_particles_ib003_particles_ib003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13369,12 +13369,12 @@ def test_particles_ib003_particles_ib003_v(json_360, save_output):
         instance="msData/particles/particlesIb003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ib001_particles_ib001_v(json_360, save_output):
+def test_particles_ib001_particles_ib001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13385,12 +13385,12 @@ def test_particles_ib001_particles_ib001_v(json_360, save_output):
         instance="msData/particles/particlesIb001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ia005_particles_ia005_v(json_360, save_output):
+def test_particles_ia005_particles_ia005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13401,12 +13401,12 @@ def test_particles_ia005_particles_ia005_v(json_360, save_output):
         instance="msData/particles/particlesIa005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ia004_particles_ia004_v(json_360, save_output):
+def test_particles_ia004_particles_ia004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13417,12 +13417,12 @@ def test_particles_ia004_particles_ia004_v(json_360, save_output):
         instance="msData/particles/particlesIa004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ia003_particles_ia003_v(json_360, save_output):
+def test_particles_ia003_particles_ia003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13433,12 +13433,12 @@ def test_particles_ia003_particles_ia003_v(json_360, save_output):
         instance="msData/particles/particlesIa003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ia002_particles_ia002_v(json_360, save_output):
+def test_particles_ia002_particles_ia002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13449,12 +13449,12 @@ def test_particles_ia002_particles_ia002_v(json_360, save_output):
         instance="msData/particles/particlesIa002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ia001_particles_ia001_v(json_360, save_output):
+def test_particles_ia001_particles_ia001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : NameAndTypedOK (elt:elt ) element R drived by
@@ -13465,12 +13465,12 @@ def test_particles_ia001_particles_ia001_v(json_360, save_output):
         instance="msData/particles/particlesIa001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ha018_particles_ha018_v(json_360, save_output):
+def test_particles_ha018_particles_ha018_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of particles: All
@@ -13481,12 +13481,12 @@ def test_particles_ha018_particles_ha018_v(json_360, save_output):
         instance="msData/particles/particlesHa018.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ha017_particles_ha017_v(json_360, save_output):
+def test_particles_ha017_particles_ha017_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of particles: All is
@@ -13497,12 +13497,12 @@ def test_particles_ha017_particles_ha017_v(json_360, save_output):
         instance="msData/particles/particlesHa017.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ha016_particles_ha016_v(json_360, save_output):
+def test_particles_ha016_particles_ha016_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'choice' : choice
@@ -13514,12 +13514,12 @@ def test_particles_ha016_particles_ha016_v(json_360, save_output):
         instance="msData/particles/particlesHa016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ha015_particles_ha015_v(json_360, save_output):
+def test_particles_ha015_particles_ha015_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'choice' : choice
@@ -13531,12 +13531,12 @@ def test_particles_ha015_particles_ha015_v(json_360, save_output):
         instance="msData/particles/particlesHa015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ha014_particles_ha014_v(json_360, save_output):
+def test_particles_ha014_particles_ha014_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'choice' : choice
@@ -13548,12 +13548,12 @@ def test_particles_ha014_particles_ha014_v(json_360, save_output):
         instance="msData/particles/particlesHa014.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ha013_particles_ha013_v(json_360, save_output):
+def test_particles_ha013_particles_ha013_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'choice' : choice
@@ -13565,12 +13565,12 @@ def test_particles_ha013_particles_ha013_v(json_360, save_output):
         instance="msData/particles/particlesHa013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ha012_particles_ha012_v(json_360, save_output):
+def test_particles_ha012_particles_ha012_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'choice' : choice
@@ -13582,12 +13582,12 @@ def test_particles_ha012_particles_ha012_v(json_360, save_output):
         instance="msData/particles/particlesHa012.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ha011_particles_ha011_v(json_360, save_output):
+def test_particles_ha011_particles_ha011_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'choice' : choice
@@ -13599,12 +13599,12 @@ def test_particles_ha011_particles_ha011_v(json_360, save_output):
         instance="msData/particles/particlesHa011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ha010_particles_ha010_v(json_360, save_output):
+def test_particles_ha010_particles_ha010_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'choice' : choice
@@ -13616,12 +13616,12 @@ def test_particles_ha010_particles_ha010_v(json_360, save_output):
         instance="msData/particles/particlesHa010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ha009_particles_ha009_v(json_360, save_output):
+def test_particles_ha009_particles_ha009_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'choice' : choice
@@ -13633,12 +13633,12 @@ def test_particles_ha009_particles_ha009_v(json_360, save_output):
         instance="msData/particles/particlesHa009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ha007_particles_ha007_v(json_360, save_output):
+def test_particles_ha007_particles_ha007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'sequence' :
@@ -13651,12 +13651,12 @@ def test_particles_ha007_particles_ha007_v(json_360, save_output):
         instance="msData/particles/particlesHa007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ha006_particles_ha006_v(json_360, save_output):
+def test_particles_ha006_particles_ha006_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'sequence' :
@@ -13668,12 +13668,12 @@ def test_particles_ha006_particles_ha006_v(json_360, save_output):
         instance="msData/particles/particlesHa006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ha005_particles_ha005_v(json_360, save_output):
+def test_particles_ha005_particles_ha005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'sequence' :
@@ -13686,12 +13686,12 @@ def test_particles_ha005_particles_ha005_v(json_360, save_output):
         instance="msData/particles/particlesHa005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ha004_particles_ha004_v(json_360, save_output):
+def test_particles_ha004_particles_ha004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'sequence' :
@@ -13703,12 +13703,12 @@ def test_particles_ha004_particles_ha004_v(json_360, save_output):
         instance="msData/particles/particlesHa004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ha003_particles_ha003_v(json_360, save_output):
+def test_particles_ha003_particles_ha003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'sequence' :
@@ -13720,12 +13720,12 @@ def test_particles_ha003_particles_ha003_v(json_360, save_output):
         instance="msData/particles/particlesHa003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ha002_particles_ha002_v(json_360, save_output):
+def test_particles_ha002_particles_ha002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'sequence' :
@@ -13737,12 +13737,12 @@ def test_particles_ha002_particles_ha002_v(json_360, save_output):
         instance="msData/particles/particlesHa002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ha001_particles_ha001_v(json_360, save_output):
+def test_particles_ha001_particles_ha001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : ignore pointless occurences of 'sequence'
@@ -13753,12 +13753,12 @@ def test_particles_ha001_particles_ha001_v(json_360, save_output):
         instance="msData/particles/particlesHa001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_fb004_particles_fb004_v(json_360, save_output):
+def test_particles_fb004_particles_fb004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : E drived by extension from B, B=group,
@@ -13769,12 +13769,12 @@ def test_particles_fb004_particles_fb004_v(json_360, save_output):
         instance="msData/particles/particlesFb004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_fb001_particles_fb001_v(json_360, save_output):
+def test_particles_fb001_particles_fb001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : E drived by extension from B, B=choice,
@@ -13785,12 +13785,12 @@ def test_particles_fb001_particles_fb001_v(json_360, save_output):
         instance="msData/particles/particlesFb001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_fa005_particles_fa005_v(json_360, save_output):
+def test_particles_fa005_particles_fa005_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : E drived by extension from B, B= 'any', E=same
@@ -13801,12 +13801,12 @@ def test_particles_fa005_particles_fa005_v(json_360, save_output):
         instance="msData/particles/particlesFa005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_fa004_particles_fa004_v(json_360, save_output):
+def test_particles_fa004_particles_fa004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : E drived by extension from B, B= group, E=same
@@ -13817,12 +13817,12 @@ def test_particles_fa004_particles_fa004_v(json_360, save_output):
         instance="msData/particles/particlesFa004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_fa003_particles_fa003_v(json_360, save_output):
+def test_particles_fa003_particles_fa003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : E drived by extension from B, B= 'choice',
@@ -13833,12 +13833,12 @@ def test_particles_fa003_particles_fa003_v(json_360, save_output):
         instance="msData/particles/particlesFa003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_fa002_particles_fa002_v(json_360, save_output):
+def test_particles_fa002_particles_fa002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : E drived by extension from B, B= 'sequence',
@@ -13849,13 +13849,13 @@ def test_particles_fa002_particles_fa002_v(json_360, save_output):
         instance="msData/particles/particlesFa002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ec041_particles_ec041_i(json_360, save_output):
+def test_particles_ec041_particles_ec041_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -13866,13 +13866,13 @@ def test_particles_ec041_particles_ec041_i(json_360, save_output):
         instance="msData/particles/particlesEc041.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ec040_particles_ec040_i(json_360, save_output):
+def test_particles_ec040_particles_ec040_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -13883,13 +13883,13 @@ def test_particles_ec040_particles_ec040_i(json_360, save_output):
         instance="msData/particles/particlesEc040.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ec039_particles_ec039_i(json_360, save_output):
+def test_particles_ec039_particles_ec039_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -13900,13 +13900,13 @@ def test_particles_ec039_particles_ec039_i(json_360, save_output):
         instance="msData/particles/particlesEc039.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ec038_particles_ec038_i(json_360, save_output):
+def test_particles_ec038_particles_ec038_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -13917,12 +13917,12 @@ def test_particles_ec038_particles_ec038_i(json_360, save_output):
         instance="msData/particles/particlesEc038.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ec037_particles_ec037_v(json_360, save_output):
+def test_particles_ec037_particles_ec037_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -13933,12 +13933,12 @@ def test_particles_ec037_particles_ec037_v(json_360, save_output):
         instance="msData/particles/particlesEc037.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ec036_particles_ec036_v(json_360, save_output):
+def test_particles_ec036_particles_ec036_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -13949,12 +13949,12 @@ def test_particles_ec036_particles_ec036_v(json_360, save_output):
         instance="msData/particles/particlesEc036.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ec035_particles_ec035_v(json_360, save_output):
+def test_particles_ec035_particles_ec035_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -13965,12 +13965,12 @@ def test_particles_ec035_particles_ec035_v(json_360, save_output):
         instance="msData/particles/particlesEc035.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ec034_particles_ec034_v(json_360, save_output):
+def test_particles_ec034_particles_ec034_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -13981,12 +13981,12 @@ def test_particles_ec034_particles_ec034_v(json_360, save_output):
         instance="msData/particles/particlesEc034.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ec033_particles_ec033_v(json_360, save_output):
+def test_particles_ec033_particles_ec033_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -13997,12 +13997,12 @@ def test_particles_ec033_particles_ec033_v(json_360, save_output):
         instance="msData/particles/particlesEc033.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ec032_particles_ec032_v(json_360, save_output):
+def test_particles_ec032_particles_ec032_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -14013,12 +14013,12 @@ def test_particles_ec032_particles_ec032_v(json_360, save_output):
         instance="msData/particles/particlesEc032.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ec031_particles_ec031_v(json_360, save_output):
+def test_particles_ec031_particles_ec031_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -14029,12 +14029,12 @@ def test_particles_ec031_particles_ec031_v(json_360, save_output):
         instance="msData/particles/particlesEc031.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ec030_particles_ec030_v(json_360, save_output):
+def test_particles_ec030_particles_ec030_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -14045,12 +14045,12 @@ def test_particles_ec030_particles_ec030_v(json_360, save_output):
         instance="msData/particles/particlesEc030.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ec029_particles_ec029_v(json_360, save_output):
+def test_particles_ec029_particles_ec029_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -14061,13 +14061,13 @@ def test_particles_ec029_particles_ec029_v(json_360, save_output):
         instance="msData/particles/particlesEc029.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ec028_particles_ec028_i(json_360, save_output):
+def test_particles_ec028_particles_ec028_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -14078,13 +14078,13 @@ def test_particles_ec028_particles_ec028_i(json_360, save_output):
         instance="msData/particles/particlesEc028.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ec027_particles_ec027_i(json_360, save_output):
+def test_particles_ec027_particles_ec027_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -14095,13 +14095,13 @@ def test_particles_ec027_particles_ec027_i(json_360, save_output):
         instance="msData/particles/particlesEc027.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ec026_particles_ec026_i(json_360, save_output):
+def test_particles_ec026_particles_ec026_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -14112,13 +14112,13 @@ def test_particles_ec026_particles_ec026_i(json_360, save_output):
         instance="msData/particles/particlesEc026.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ec025_particles_ec025_i(json_360, save_output):
+def test_particles_ec025_particles_ec025_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14130,13 +14130,13 @@ def test_particles_ec025_particles_ec025_i(json_360, save_output):
         instance="msData/particles/particlesEc025.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ec024_particles_ec024_i(json_360, save_output):
+def test_particles_ec024_particles_ec024_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14148,13 +14148,13 @@ def test_particles_ec024_particles_ec024_i(json_360, save_output):
         instance="msData/particles/particlesEc024.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ec023_particles_ec023_i(json_360, save_output):
+def test_particles_ec023_particles_ec023_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14166,13 +14166,13 @@ def test_particles_ec023_particles_ec023_i(json_360, save_output):
         instance="msData/particles/particlesEc023.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ec022_particles_ec022_i(json_360, save_output):
+def test_particles_ec022_particles_ec022_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14184,12 +14184,12 @@ def test_particles_ec022_particles_ec022_i(json_360, save_output):
         instance="msData/particles/particlesEc022.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ec021_particles_ec021_v(json_360, save_output):
+def test_particles_ec021_particles_ec021_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14201,12 +14201,12 @@ def test_particles_ec021_particles_ec021_v(json_360, save_output):
         instance="msData/particles/particlesEc021.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ec020_particles_ec020_v(json_360, save_output):
+def test_particles_ec020_particles_ec020_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14218,12 +14218,12 @@ def test_particles_ec020_particles_ec020_v(json_360, save_output):
         instance="msData/particles/particlesEc020.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ec019_particles_ec019_v(json_360, save_output):
+def test_particles_ec019_particles_ec019_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14235,12 +14235,12 @@ def test_particles_ec019_particles_ec019_v(json_360, save_output):
         instance="msData/particles/particlesEc019.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ec018_particles_ec018_v(json_360, save_output):
+def test_particles_ec018_particles_ec018_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14252,12 +14252,12 @@ def test_particles_ec018_particles_ec018_v(json_360, save_output):
         instance="msData/particles/particlesEc018.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ec017_particles_ec017_v(json_360, save_output):
+def test_particles_ec017_particles_ec017_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14269,12 +14269,12 @@ def test_particles_ec017_particles_ec017_v(json_360, save_output):
         instance="msData/particles/particlesEc017.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ec016_particles_ec016_v(json_360, save_output):
+def test_particles_ec016_particles_ec016_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14286,13 +14286,13 @@ def test_particles_ec016_particles_ec016_v(json_360, save_output):
         instance="msData/particles/particlesEc016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ec015_particles_ec015_i(json_360, save_output):
+def test_particles_ec015_particles_ec015_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14304,13 +14304,13 @@ def test_particles_ec015_particles_ec015_i(json_360, save_output):
         instance="msData/particles/particlesEc015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ec014_particles_ec014_i(json_360, save_output):
+def test_particles_ec014_particles_ec014_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14322,13 +14322,13 @@ def test_particles_ec014_particles_ec014_i(json_360, save_output):
         instance="msData/particles/particlesEc014.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ec013_particles_ec013_i(json_360, save_output):
+def test_particles_ec013_particles_ec013_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14340,12 +14340,12 @@ def test_particles_ec013_particles_ec013_i(json_360, save_output):
         instance="msData/particles/particlesEc013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ec012_particles_ec012_v(json_360, save_output):
+def test_particles_ec012_particles_ec012_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14357,13 +14357,13 @@ def test_particles_ec012_particles_ec012_v(json_360, save_output):
         instance="msData/particles/particlesEc012.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ec011_particles_ec011_i(json_360, save_output):
+def test_particles_ec011_particles_ec011_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14375,13 +14375,13 @@ def test_particles_ec011_particles_ec011_i(json_360, save_output):
         instance="msData/particles/particlesEc011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ec008_particles_ec008_i(json_360, save_output):
+def test_particles_ec008_particles_ec008_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -14392,13 +14392,13 @@ def test_particles_ec008_particles_ec008_i(json_360, save_output):
         instance="msData/particles/particlesEc008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ec007_particles_ec007_i(json_360, save_output):
+def test_particles_ec007_particles_ec007_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -14409,12 +14409,12 @@ def test_particles_ec007_particles_ec007_i(json_360, save_output):
         instance="msData/particles/particlesEc007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ec006_particles_ec006_v(json_360, save_output):
+def test_particles_ec006_particles_ec006_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -14425,13 +14425,13 @@ def test_particles_ec006_particles_ec006_v(json_360, save_output):
         instance="msData/particles/particlesEc006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ec005_particles_ec005_i(json_360, save_output):
+def test_particles_ec005_particles_ec005_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -14443,13 +14443,13 @@ def test_particles_ec005_particles_ec005_i(json_360, save_output):
         instance="msData/particles/particlesEc005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ec004_particles_ec004_i(json_360, save_output):
+def test_particles_ec004_particles_ec004_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=0,
@@ -14460,13 +14460,13 @@ def test_particles_ec004_particles_ec004_i(json_360, save_output):
         instance="msData/particles/particlesEc004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ec003_particles_ec003_i(json_360, save_output):
+def test_particles_ec003_particles_ec003_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=0,
@@ -14477,12 +14477,12 @@ def test_particles_ec003_particles_ec003_i(json_360, save_output):
         instance="msData/particles/particlesEc003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ec002_particles_ec002_v(json_360, save_output):
+def test_particles_ec002_particles_ec002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=0,
@@ -14493,12 +14493,12 @@ def test_particles_ec002_particles_ec002_v(json_360, save_output):
         instance="msData/particles/particlesEc002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ec001_particles_ec001_v(json_360, save_output):
+def test_particles_ec001_particles_ec001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=0,
@@ -14510,12 +14510,12 @@ def test_particles_ec001_particles_ec001_v(json_360, save_output):
         instance="msData/particles/particlesEc001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_eb041_particles_eb041_v(json_360, save_output):
+def test_particles_eb041_particles_eb041_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : Valid restriction of a content model from within
@@ -14526,13 +14526,13 @@ def test_particles_eb041_particles_eb041_v(json_360, save_output):
         instance="msData/particles/particlesEb041.xml",
         class_name="Root",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb039_particles_eb039_i(json_360, save_output):
+def test_particles_eb039_particles_eb039_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -14543,12 +14543,12 @@ def test_particles_eb039_particles_eb039_i(json_360, save_output):
         instance="msData/particles/particlesEb039.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_eb038_particles_eb038_v(json_360, save_output):
+def test_particles_eb038_particles_eb038_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -14560,13 +14560,13 @@ def test_particles_eb038_particles_eb038_v(json_360, save_output):
         instance="msData/particles/particlesEb038.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb037_particles_eb037_i(json_360, save_output):
+def test_particles_eb037_particles_eb037_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -14578,12 +14578,12 @@ def test_particles_eb037_particles_eb037_i(json_360, save_output):
         instance="msData/particles/particlesEb037.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_eb036_particles_eb036_v(json_360, save_output):
+def test_particles_eb036_particles_eb036_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -14594,13 +14594,13 @@ def test_particles_eb036_particles_eb036_v(json_360, save_output):
         instance="msData/particles/particlesEb036.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb035_particles_eb035_i(json_360, save_output):
+def test_particles_eb035_particles_eb035_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -14611,13 +14611,13 @@ def test_particles_eb035_particles_eb035_i(json_360, save_output):
         instance="msData/particles/particlesEb035.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb034_particles_eb034_i(json_360, save_output):
+def test_particles_eb034_particles_eb034_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -14628,13 +14628,13 @@ def test_particles_eb034_particles_eb034_i(json_360, save_output):
         instance="msData/particles/particlesEb034.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb033_particles_eb033_i(json_360, save_output):
+def test_particles_eb033_particles_eb033_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -14645,13 +14645,13 @@ def test_particles_eb033_particles_eb033_i(json_360, save_output):
         instance="msData/particles/particlesEb033.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb032_particles_eb032_i(json_360, save_output):
+def test_particles_eb032_particles_eb032_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=2,
@@ -14663,13 +14663,13 @@ def test_particles_eb032_particles_eb032_i(json_360, save_output):
         instance="msData/particles/particlesEb032.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb031_particles_eb031_i(json_360, save_output):
+def test_particles_eb031_particles_eb031_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14681,13 +14681,13 @@ def test_particles_eb031_particles_eb031_i(json_360, save_output):
         instance="msData/particles/particlesEb031.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb030_particles_eb030_i(json_360, save_output):
+def test_particles_eb030_particles_eb030_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14699,13 +14699,13 @@ def test_particles_eb030_particles_eb030_i(json_360, save_output):
         instance="msData/particles/particlesEb030.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb029_particles_eb029_i(json_360, save_output):
+def test_particles_eb029_particles_eb029_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14717,13 +14717,13 @@ def test_particles_eb029_particles_eb029_i(json_360, save_output):
         instance="msData/particles/particlesEb029.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb028_particles_eb028_i(json_360, save_output):
+def test_particles_eb028_particles_eb028_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14735,12 +14735,12 @@ def test_particles_eb028_particles_eb028_i(json_360, save_output):
         instance="msData/particles/particlesEb028.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_eb027_particles_eb027_v(json_360, save_output):
+def test_particles_eb027_particles_eb027_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14752,12 +14752,12 @@ def test_particles_eb027_particles_eb027_v(json_360, save_output):
         instance="msData/particles/particlesEb027.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_eb026_particles_eb026_v(json_360, save_output):
+def test_particles_eb026_particles_eb026_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14769,13 +14769,13 @@ def test_particles_eb026_particles_eb026_v(json_360, save_output):
         instance="msData/particles/particlesEb026.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb025_particles_eb025_i(json_360, save_output):
+def test_particles_eb025_particles_eb025_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14787,13 +14787,13 @@ def test_particles_eb025_particles_eb025_i(json_360, save_output):
         instance="msData/particles/particlesEb025.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb024_particles_eb024_i(json_360, save_output):
+def test_particles_eb024_particles_eb024_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14805,13 +14805,13 @@ def test_particles_eb024_particles_eb024_i(json_360, save_output):
         instance="msData/particles/particlesEb024.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb023_particles_eb023_i(json_360, save_output):
+def test_particles_eb023_particles_eb023_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14823,13 +14823,13 @@ def test_particles_eb023_particles_eb023_i(json_360, save_output):
         instance="msData/particles/particlesEb023.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb022_particles_eb022_i(json_360, save_output):
+def test_particles_eb022_particles_eb022_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14841,13 +14841,13 @@ def test_particles_eb022_particles_eb022_i(json_360, save_output):
         instance="msData/particles/particlesEb022.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb021_particles_eb021_i(json_360, save_output):
+def test_particles_eb021_particles_eb021_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14859,13 +14859,13 @@ def test_particles_eb021_particles_eb021_i(json_360, save_output):
         instance="msData/particles/particlesEb021.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb020_particles_eb020_i(json_360, save_output):
+def test_particles_eb020_particles_eb020_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14877,12 +14877,12 @@ def test_particles_eb020_particles_eb020_i(json_360, save_output):
         instance="msData/particles/particlesEb020.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_eb019_particles_eb019_v(json_360, save_output):
+def test_particles_eb019_particles_eb019_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14894,13 +14894,13 @@ def test_particles_eb019_particles_eb019_v(json_360, save_output):
         instance="msData/particles/particlesEb019.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb018_particles_eb018_i(json_360, save_output):
+def test_particles_eb018_particles_eb018_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14912,13 +14912,13 @@ def test_particles_eb018_particles_eb018_i(json_360, save_output):
         instance="msData/particles/particlesEb018.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb017_particles_eb017_i(json_360, save_output):
+def test_particles_eb017_particles_eb017_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -14930,13 +14930,13 @@ def test_particles_eb017_particles_eb017_i(json_360, save_output):
         instance="msData/particles/particlesEb017.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb014_particles_eb014_i(json_360, save_output):
+def test_particles_eb014_particles_eb014_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -14948,13 +14948,13 @@ def test_particles_eb014_particles_eb014_i(json_360, save_output):
         instance="msData/particles/particlesEb014.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb013_particles_eb013_i(json_360, save_output):
+def test_particles_eb013_particles_eb013_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -14966,13 +14966,13 @@ def test_particles_eb013_particles_eb013_i(json_360, save_output):
         instance="msData/particles/particlesEb013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb012_particles_eb012_i(json_360, save_output):
+def test_particles_eb012_particles_eb012_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -14984,13 +14984,13 @@ def test_particles_eb012_particles_eb012_i(json_360, save_output):
         instance="msData/particles/particlesEb012.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb011_particles_eb011_i(json_360, save_output):
+def test_particles_eb011_particles_eb011_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -15002,12 +15002,12 @@ def test_particles_eb011_particles_eb011_i(json_360, save_output):
         instance="msData/particles/particlesEb011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_eb010_particles_eb010_v(json_360, save_output):
+def test_particles_eb010_particles_eb010_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -15019,13 +15019,13 @@ def test_particles_eb010_particles_eb010_v(json_360, save_output):
         instance="msData/particles/particlesEb010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb009_particles_eb009_i(json_360, save_output):
+def test_particles_eb009_particles_eb009_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -15036,13 +15036,13 @@ def test_particles_eb009_particles_eb009_i(json_360, save_output):
         instance="msData/particles/particlesEb009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb008_particles_eb008_i(json_360, save_output):
+def test_particles_eb008_particles_eb008_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -15054,13 +15054,13 @@ def test_particles_eb008_particles_eb008_i(json_360, save_output):
         instance="msData/particles/particlesEb008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb007_particles_eb007_i(json_360, save_output):
+def test_particles_eb007_particles_eb007_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=0,
@@ -15071,13 +15071,13 @@ def test_particles_eb007_particles_eb007_i(json_360, save_output):
         instance="msData/particles/particlesEb007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb006_particles_eb006_i(json_360, save_output):
+def test_particles_eb006_particles_eb006_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=0,
@@ -15089,13 +15089,13 @@ def test_particles_eb006_particles_eb006_i(json_360, save_output):
         instance="msData/particles/particlesEb006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb005_particles_eb005_i(json_360, save_output):
+def test_particles_eb005_particles_eb005_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=0,
@@ -15107,13 +15107,13 @@ def test_particles_eb005_particles_eb005_i(json_360, save_output):
         instance="msData/particles/particlesEb005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb004_particles_eb004_i(json_360, save_output):
+def test_particles_eb004_particles_eb004_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=0,
@@ -15125,12 +15125,12 @@ def test_particles_eb004_particles_eb004_i(json_360, save_output):
         instance="msData/particles/particlesEb004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_eb003_particles_eb003_v(json_360, save_output):
+def test_particles_eb003_particles_eb003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=0,
@@ -15142,13 +15142,13 @@ def test_particles_eb003_particles_eb003_v(json_360, save_output):
         instance="msData/particles/particlesEb003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_eb002_particles_eb002_i(json_360, save_output):
+def test_particles_eb002_particles_eb002_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=0,
@@ -15159,12 +15159,12 @@ def test_particles_eb002_particles_eb002_i(json_360, save_output):
         instance="msData/particles/particlesEb002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_eb001_particles_eb001_v(json_360, save_output):
+def test_particles_eb001_particles_eb001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=0,
@@ -15176,13 +15176,13 @@ def test_particles_eb001_particles_eb001_v(json_360, save_output):
         instance="msData/particles/particlesEb001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ea021_particles_ea021_i(json_360, save_output):
+def test_particles_ea021_particles_ea021_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -15194,13 +15194,13 @@ def test_particles_ea021_particles_ea021_i(json_360, save_output):
         instance="msData/particles/particlesEa021.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ea020_particles_ea020_i(json_360, save_output):
+def test_particles_ea020_particles_ea020_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -15212,13 +15212,13 @@ def test_particles_ea020_particles_ea020_i(json_360, save_output):
         instance="msData/particles/particlesEa020.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ea019_particles_ea019_i(json_360, save_output):
+def test_particles_ea019_particles_ea019_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -15230,12 +15230,12 @@ def test_particles_ea019_particles_ea019_i(json_360, save_output):
         instance="msData/particles/particlesEa019.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ea018_particles_ea018_v(json_360, save_output):
+def test_particles_ea018_particles_ea018_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -15247,12 +15247,12 @@ def test_particles_ea018_particles_ea018_v(json_360, save_output):
         instance="msData/particles/particlesEa018.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ea017_particles_ea017_v(json_360, save_output):
+def test_particles_ea017_particles_ea017_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -15264,13 +15264,13 @@ def test_particles_ea017_particles_ea017_v(json_360, save_output):
         instance="msData/particles/particlesEa017.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ea016_particles_ea016_i(json_360, save_output):
+def test_particles_ea016_particles_ea016_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -15282,12 +15282,12 @@ def test_particles_ea016_particles_ea016_i(json_360, save_output):
         instance="msData/particles/particlesEa016.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ea015_particles_ea015_v(json_360, save_output):
+def test_particles_ea015_particles_ea015_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -15299,13 +15299,13 @@ def test_particles_ea015_particles_ea015_v(json_360, save_output):
         instance="msData/particles/particlesEa015.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ea014_particles_ea014_i(json_360, save_output):
+def test_particles_ea014_particles_ea014_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -15316,13 +15316,13 @@ def test_particles_ea014_particles_ea014_i(json_360, save_output):
         instance="msData/particles/particlesEa014.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ea013_particles_ea013_i(json_360, save_output):
+def test_particles_ea013_particles_ea013_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -15333,13 +15333,13 @@ def test_particles_ea013_particles_ea013_i(json_360, save_output):
         instance="msData/particles/particlesEa013.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ea012_particles_ea012_i(json_360, save_output):
+def test_particles_ea012_particles_ea012_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -15350,12 +15350,12 @@ def test_particles_ea012_particles_ea012_i(json_360, save_output):
         instance="msData/particles/particlesEa012.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ea011_particles_ea011_v(json_360, save_output):
+def test_particles_ea011_particles_ea011_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -15366,12 +15366,12 @@ def test_particles_ea011_particles_ea011_v(json_360, save_output):
         instance="msData/particles/particlesEa011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ea010_particles_ea010_v(json_360, save_output):
+def test_particles_ea010_particles_ea010_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -15382,13 +15382,13 @@ def test_particles_ea010_particles_ea010_v(json_360, save_output):
         instance="msData/particles/particlesEa010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ea009_particles_ea009_i(json_360, save_output):
+def test_particles_ea009_particles_ea009_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -15399,12 +15399,12 @@ def test_particles_ea009_particles_ea009_i(json_360, save_output):
         instance="msData/particles/particlesEa009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ea008_particles_ea008_v(json_360, save_output):
+def test_particles_ea008_particles_ea008_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with minOccurs=1,
@@ -15416,13 +15416,13 @@ def test_particles_ea008_particles_ea008_v(json_360, save_output):
         instance="msData/particles/particlesEa008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ea007_particles_ea007_i(json_360, save_output):
+def test_particles_ea007_particles_ea007_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -15434,13 +15434,13 @@ def test_particles_ea007_particles_ea007_i(json_360, save_output):
         instance="msData/particles/particlesEa007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ea006_particles_ea006_i(json_360, save_output):
+def test_particles_ea006_particles_ea006_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -15452,13 +15452,13 @@ def test_particles_ea006_particles_ea006_i(json_360, save_output):
         instance="msData/particles/particlesEa006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ea005_particles_ea005_i(json_360, save_output):
+def test_particles_ea005_particles_ea005_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -15470,12 +15470,12 @@ def test_particles_ea005_particles_ea005_i(json_360, save_output):
         instance="msData/particles/particlesEa005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ea004_particles_ea004_v(json_360, save_output):
+def test_particles_ea004_particles_ea004_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -15487,12 +15487,12 @@ def test_particles_ea004_particles_ea004_v(json_360, save_output):
         instance="msData/particles/particlesEa004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ea003_particles_ea003_v(json_360, save_output):
+def test_particles_ea003_particles_ea003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -15504,13 +15504,13 @@ def test_particles_ea003_particles_ea003_v(json_360, save_output):
         instance="msData/particles/particlesEa003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_ea002_particles_ea002_i(json_360, save_output):
+def test_particles_ea002_particles_ea002_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -15522,12 +15522,12 @@ def test_particles_ea002_particles_ea002_i(json_360, save_output):
         instance="msData/particles/particlesEa002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_ea001_particles_ea001_v(json_360, save_output):
+def test_particles_ea001_particles_ea001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is a model group with
@@ -15539,13 +15539,13 @@ def test_particles_ea001_particles_ea001_v(json_360, save_output):
         instance="msData/particles/particlesEa001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_dc009_particles_dc009_i(json_360, save_output):
+def test_particles_dc009_particles_dc009_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -15558,13 +15558,13 @@ def test_particles_dc009_particles_dc009_i(json_360, save_output):
         instance="msData/particles/particlesDc009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_dc008_particles_dc008_i(json_360, save_output):
+def test_particles_dc008_particles_dc008_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -15576,12 +15576,12 @@ def test_particles_dc008_particles_dc008_i(json_360, save_output):
         instance="msData/particles/particlesDc008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_dc007_particles_dc007_v(json_360, save_output):
+def test_particles_dc007_particles_dc007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -15593,13 +15593,13 @@ def test_particles_dc007_particles_dc007_v(json_360, save_output):
         instance="msData/particles/particlesDc007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_dc006_particles_dc006_i(json_360, save_output):
+def test_particles_dc006_particles_dc006_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -15611,13 +15611,13 @@ def test_particles_dc006_particles_dc006_i(json_360, save_output):
         instance="msData/particles/particlesDc006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_dc005_particles_dc005_i(json_360, save_output):
+def test_particles_dc005_particles_dc005_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -15629,13 +15629,13 @@ def test_particles_dc005_particles_dc005_i(json_360, save_output):
         instance="msData/particles/particlesDc005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_dc004_particles_dc004_i(json_360, save_output):
+def test_particles_dc004_particles_dc004_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -15647,12 +15647,12 @@ def test_particles_dc004_particles_dc004_i(json_360, save_output):
         instance="msData/particles/particlesDc004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_dc003_particles_dc003_v(json_360, save_output):
+def test_particles_dc003_particles_dc003_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -15664,12 +15664,12 @@ def test_particles_dc003_particles_dc003_v(json_360, save_output):
         instance="msData/particles/particlesDc003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_dc002_particles_dc002_v(json_360, save_output):
+def test_particles_dc002_particles_dc002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -15681,12 +15681,12 @@ def test_particles_dc002_particles_dc002_v(json_360, save_output):
         instance="msData/particles/particlesDc002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_dc001_particles_dc001_v(json_360, save_output):
+def test_particles_dc001_particles_dc001_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -15698,13 +15698,13 @@ def test_particles_dc001_particles_dc001_v(json_360, save_output):
         instance="msData/particles/particlesDc001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_db011_particles_db011_i(json_360, save_output):
+def test_particles_db011_particles_db011_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -15715,13 +15715,13 @@ def test_particles_db011_particles_db011_i(json_360, save_output):
         instance="msData/particles/particlesDb011.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_db010_particles_db010_i(json_360, save_output):
+def test_particles_db010_particles_db010_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -15733,13 +15733,13 @@ def test_particles_db010_particles_db010_i(json_360, save_output):
         instance="msData/particles/particlesDb010.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_db009_particles_db009_i(json_360, save_output):
+def test_particles_db009_particles_db009_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -15750,13 +15750,13 @@ def test_particles_db009_particles_db009_i(json_360, save_output):
         instance="msData/particles/particlesDb009.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_db008_particles_db008_i(json_360, save_output):
+def test_particles_db008_particles_db008_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -15767,12 +15767,12 @@ def test_particles_db008_particles_db008_i(json_360, save_output):
         instance="msData/particles/particlesDb008.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_db007_particles_db007_v(json_360, save_output):
+def test_particles_db007_particles_db007_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -15783,13 +15783,13 @@ def test_particles_db007_particles_db007_v(json_360, save_output):
         instance="msData/particles/particlesDb007.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_db006_particles_db006_i(json_360, save_output):
+def test_particles_db006_particles_db006_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -15801,13 +15801,13 @@ def test_particles_db006_particles_db006_i(json_360, save_output):
         instance="msData/particles/particlesDb006.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_db005_particles_db005_i(json_360, save_output):
+def test_particles_db005_particles_db005_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -15818,13 +15818,13 @@ def test_particles_db005_particles_db005_i(json_360, save_output):
         instance="msData/particles/particlesDb005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_db004_particles_db004_i(json_360, save_output):
+def test_particles_db004_particles_db004_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -15835,13 +15835,13 @@ def test_particles_db004_particles_db004_i(json_360, save_output):
         instance="msData/particles/particlesDb004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_db003_particles_db003_i(json_360, save_output):
+def test_particles_db003_particles_db003_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -15852,12 +15852,12 @@ def test_particles_db003_particles_db003_i(json_360, save_output):
         instance="msData/particles/particlesDb003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_db002_particles_db002_v(json_360, save_output):
+def test_particles_db002_particles_db002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -15868,13 +15868,13 @@ def test_particles_db002_particles_db002_v(json_360, save_output):
         instance="msData/particles/particlesDb002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_db001_particles_db001_i(json_360, save_output):
+def test_particles_db001_particles_db001_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=global,
@@ -15886,13 +15886,13 @@ def test_particles_db001_particles_db001_i(json_360, save_output):
         instance="msData/particles/particlesDb001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_da005_particles_da005_i(json_360, save_output):
+def test_particles_da005_particles_da005_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=local,
@@ -15904,13 +15904,13 @@ def test_particles_da005_particles_da005_i(json_360, save_output):
         instance="msData/particles/particlesDa005.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_da004_particles_da004_i(json_360, save_output):
+def test_particles_da004_particles_da004_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=local,
@@ -15921,13 +15921,13 @@ def test_particles_da004_particles_da004_i(json_360, save_output):
         instance="msData/particles/particlesDa004.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_da003_particles_da003_i(json_360, save_output):
+def test_particles_da003_particles_da003_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=local,
@@ -15938,12 +15938,12 @@ def test_particles_da003_particles_da003_i(json_360, save_output):
         instance="msData/particles/particlesDa003.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_da002_particles_da002_v(json_360, save_output):
+def test_particles_da002_particles_da002_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=local,
@@ -15954,13 +15954,13 @@ def test_particles_da002_particles_da002_v(json_360, save_output):
         instance="msData/particles/particlesDa002.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_da001_particles_da001_i(json_360, save_output):
+def test_particles_da001_particles_da001_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'element' with scope=local,
@@ -15972,13 +15972,13 @@ def test_particles_da001_particles_da001_i(json_360, save_output):
         instance="msData/particles/particlesDa001.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c048_particles_c048_i(json_360, save_output):
+def test_particles_c048_particles_c048_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo
@@ -15989,13 +15989,13 @@ def test_particles_c048_particles_c048_i(json_360, save_output):
         instance="msData/particles/particlesC048.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c047_particles_c047_i(json_360, save_output):
+def test_particles_c047_particles_c047_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo
@@ -16008,12 +16008,12 @@ def test_particles_c047_particles_c047_i(json_360, save_output):
         instance="msData/particles/particlesC047.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_c046_particles_c046_v(json_360, save_output):
+def test_particles_c046_particles_c046_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo
@@ -16025,12 +16025,12 @@ def test_particles_c046_particles_c046_v(json_360, save_output):
         instance="msData/particles/particlesC046.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_c045_particles_c045_v(json_360, save_output):
+def test_particles_c045_particles_c045_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo
@@ -16042,12 +16042,12 @@ def test_particles_c045_particles_c045_v(json_360, save_output):
         instance="msData/particles/particlesC045.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_c044_particles_c044_v(json_360, save_output):
+def test_particles_c044_particles_c044_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo
@@ -16058,12 +16058,12 @@ def test_particles_c044_particles_c044_v(json_360, save_output):
         instance="msData/particles/particlesC044.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_c043_particles_c043_v(json_360, save_output):
+def test_particles_c043_particles_c043_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo
@@ -16074,13 +16074,13 @@ def test_particles_c043_particles_c043_v(json_360, save_output):
         instance="msData/particles/particlesC043.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c042_particles_c042_i(json_360, save_output):
+def test_particles_c042_particles_c042_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=
@@ -16093,12 +16093,12 @@ def test_particles_c042_particles_c042_i(json_360, save_output):
         instance="msData/particles/particlesC042.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_c041_particles_c041_v(json_360, save_output):
+def test_particles_c041_particles_c041_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=
@@ -16110,12 +16110,12 @@ def test_particles_c041_particles_c041_v(json_360, save_output):
         instance="msData/particles/particlesC041.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_c040_particles_c040_v(json_360, save_output):
+def test_particles_c040_particles_c040_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=
@@ -16127,13 +16127,13 @@ def test_particles_c040_particles_c040_v(json_360, save_output):
         instance="msData/particles/particlesC040.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c039_particles_c039_i(json_360, save_output):
+def test_particles_c039_particles_c039_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace=
@@ -16144,13 +16144,13 @@ def test_particles_c039_particles_c039_i(json_360, save_output):
         instance="msData/particles/particlesC039.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c038_particles_c038_i(json_360, save_output):
+def test_particles_c038_particles_c038_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo
@@ -16162,12 +16162,12 @@ def test_particles_c038_particles_c038_i(json_360, save_output):
         instance="msData/particles/particlesC038.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_c037_particles_c037_v(json_360, save_output):
+def test_particles_c037_particles_c037_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo
@@ -16178,13 +16178,13 @@ def test_particles_c037_particles_c037_v(json_360, save_output):
         instance="msData/particles/particlesC037.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c036_particles_c036_i(json_360, save_output):
+def test_particles_c036_particles_c036_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo
@@ -16195,13 +16195,13 @@ def test_particles_c036_particles_c036_i(json_360, save_output):
         instance="msData/particles/particlesC036.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c035_particles_c035_i(json_360, save_output):
+def test_particles_c035_particles_c035_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo
@@ -16212,12 +16212,12 @@ def test_particles_c035_particles_c035_i(json_360, save_output):
         instance="msData/particles/particlesC035.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_c034_particles_c034_v(json_360, save_output):
+def test_particles_c034_particles_c034_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo
@@ -16228,13 +16228,13 @@ def test_particles_c034_particles_c034_v(json_360, save_output):
         instance="msData/particles/particlesC034.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c033_particles_c033_i(json_360, save_output):
+def test_particles_c033_particles_c033_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo bar
@@ -16246,13 +16246,13 @@ def test_particles_c033_particles_c033_i(json_360, save_output):
         instance="msData/particles/particlesC033.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c032_particles_c032_i(json_360, save_output):
+def test_particles_c032_particles_c032_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo bar
@@ -16263,13 +16263,13 @@ def test_particles_c032_particles_c032_i(json_360, save_output):
         instance="msData/particles/particlesC032.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
 @pytest.mark.skip(reason="Invalid instance")
-def test_particles_c031_particles_c031_i(json_360, save_output):
+def test_particles_c031_particles_c031_i(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo bar
@@ -16280,12 +16280,12 @@ def test_particles_c031_particles_c031_i(json_360, save_output):
         instance="msData/particles/particlesC031.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )
 
 
-def test_particles_c030_particles_c030_v(json_360, save_output):
+def test_particles_c030_particles_c030_v(mode, save_output):
     """
     TEST :3.9.1 The Particle Schema Component [ check length of element
     information items ] : The {term} is 'any' with namespace= 'foo bar
@@ -16296,6 +16296,6 @@ def test_particles_c030_particles_c030_v(json_360, save_output):
         instance="msData/particles/particlesC030.xml",
         class_name="Doc",
         version="1.1",
-        json_360=json_360,
+        mode=mode,
         save_output=save_output,
     )

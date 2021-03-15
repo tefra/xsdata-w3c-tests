@@ -42,17 +42,25 @@ def assert_bindings(
 ):
     __tracebackhide__ = True
 
-    schema_path = Path(schema)
-    pck_arr = list(map(text.snake_case, schema_path.parts))
-    package = f"output.models.{'.'.join(pck_arr)}"
-    schema_path = w3c.joinpath(schema)
-    clazz = generate_models(str(schema_path), package, class_name, ns_struct)
+    if mode == "xml":
+        instance_path = Path(instance)
+        pck_arr = list(map(text.snake_case, instance_path.parts))
+        package = f"output.xml_models.{'.'.join(pck_arr)}"
+        instance_path = w3c.joinpath(instance_path)
+        clazz = generate_models(str(instance_path), package, class_name, False)
+    else:
+        schema_path = Path(schema)
+        pck_arr = list(map(text.snake_case, schema_path.parts))
+        package = f"output.models.{'.'.join(pck_arr)}"
+        schema_path = w3c.joinpath(schema)
+        clazz = generate_models(str(schema_path), package, class_name, ns_struct)
 
     if isinstance(clazz, Exception):
         raise clazz
 
     try:
         instance_path = w3c.joinpath(instance)
+        schema_path = w3c.joinpath(schema)
         parser = XmlParser()
         obj = parser.from_path(instance_path, clazz)
     except Exception as e:

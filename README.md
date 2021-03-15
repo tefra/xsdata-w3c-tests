@@ -7,13 +7,13 @@ suite.
 
 The invalid schema tests are ignored (~12k tests) as xsdata is not really a validator.
 
-# XML Mode
+# XSD Mode
 
 Each test case will generate the models for the schema document, parse the xml instance
 document and serialize it back to xml checking that the output is still valid.
 
 ```terminal
-$ pytest -n 4 --runxfail --save-output
+$ pytest -n 4  --mode xsd --runxfail --save-output
 ```
 
 Results: **10** failed, **14576** passed, **89** skipped, **16** warnings
@@ -29,10 +29,20 @@ document and serialize it to json, parse the json document and compare the initi
 python object to the object after the roundtrip conversion.
 
 ```terminal
-$ pytest -n 4 --json-360 --runxfail --save-output
+$ pytest -n 4 --mode json --runxfail --save-output
 ```
 
 Results: **114** failed, **14561** passed, **25** warnings
 
 Most of the failures involve test cases with complex instances with wildcards and
 derived types.
+
+# XML Mode
+
+Each test case will generate the models directly from the xml instance documents, parse
+the xml instance document and serialize it back to xml checking that the output is still
+valid.
+
+```terminal
+$ pytest -n 4 --mode xml --runxfail
+```

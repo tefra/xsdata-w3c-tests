@@ -9,10 +9,13 @@ from typing import Iterator
 from typing import List
 from typing import Union
 
+from lxml import etree
 from xsdata.formats.dataclass.models.generics import AnyElement
 from xsdata.formats.dataclass.parsers import XmlParser
+from xsdata.formats.dataclass.utils import safe_snake
 from xsdata.utils import text
-from xsdata.utils.testing import read_root_name
+from xsdata.utils.namespaces import local_name
+from xsdata.utils.text import pascal_case
 
 from models.xsts import Expected
 from models.xsts import ExpectedOutcome
@@ -251,6 +254,17 @@ def make_docstring(group: TestGroup) -> str:
         return textwrap.indent(f'{raw}"""\n{documentation}\n"""', "    ")
 
     return ""
+
+
+def read_root_name(path: Path) -> str:
+    try:
+        recovering_parser = etree.XMLParser(
+            recover=True, resolve_entities=False, no_network=True
+        )
+        tree = etree.parse(str(path), parser=recovering_parser)  # nosec
+        return pascal_case(safe_snake(local_name(tree.getroot().tag), "Type"))
+    except Exception:
+        return ""
 
 
 if __name__ == "__main__":

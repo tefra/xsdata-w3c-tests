@@ -55,6 +55,9 @@ def assert_bindings(
         schema_path = w3c.joinpath(schema)
         clazz = generate_models(str(schema_path), package, class_name, ns_struct)
 
+    if mode == "build":
+        return
+
     if isinstance(clazz, Exception):
         raise clazz
 

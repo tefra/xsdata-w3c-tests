@@ -12,7 +12,7 @@ def pytest_addoption(parser):
         "--mode",
         action="store",
         default="xsd",
-        choices=["xsd", "xml", "json"],
+        choices=["xsd", "xml", "json", "build"],
         help="Mode",
     )
 

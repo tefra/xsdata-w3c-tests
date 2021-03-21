@@ -4,8 +4,8 @@ from typing import Optional
 
 
 class ComplexfooTypeCompFoo(Enum):
-    VALUE_0 = False
-    VALUE_1 = True
+    VALUE_0 = "0"
+    VALUE_1 = "1"
 
 
 class SimplefooType(Enum):

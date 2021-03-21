@@ -9,13 +9,13 @@ class Root:
         name = "root"
         namespace = "ElemDecl/valueConstraint"
 
-    element: float = field(
+    element: str = field(
         init=False,
-        default=0.0,
+        default="0",
         metadata={
             "name": "Element",
             "type": "Element",
             "namespace": "",
-            "max_inclusive": 0.0,
+            "max_inclusive": "0",
         }
     )

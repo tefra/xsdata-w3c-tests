@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List
 
 
 @dataclass
@@ -7,45 +7,39 @@ class Foo:
     class Meta:
         name = "foo"
 
-    any_element: List[object] = field(
+    choice: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-            "min_occurs": 1,
-            "max_occurs": 4,
-        }
-    )
-    e1: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
-    e2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
-    e3: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
-    e4: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
+            "type": "Elements",
+            "choices": (
+                {
+                    "wildcard": True,
+                    "type": object,
+                    "namespace": "##any",
+                },
+                {
+                    "name": "e1",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "e2",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "e3",
+                    "type": object,
+                    "namespace": "",
+                },
+                {
+                    "name": "e4",
+                    "type": object,
+                    "namespace": "",
+                },
+            ),
+            "min_occurs": 5,
+            "max_occurs": 8,
         }
     )
 

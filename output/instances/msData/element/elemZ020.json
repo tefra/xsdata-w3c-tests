@@ -1,5 +1,5 @@
 {
-    "foo_or_e1_or_foo": [
+    "choice": [
         true,
         123,
         true,

@@ -258,7 +258,6 @@ def test_sg_and_defined_sibling_3_sns1a(mode, save_output):
     )
 
 
-@pytest.mark.xfail
 def test_sg_and_defined_sibling_3_sns1b(mode, save_output):
 
     assert_bindings(

@@ -51,20 +51,23 @@ class Ct3:
     class Meta:
         name = "ct3"
 
-    element1: List[object] = field(
+    element1_or_any_element: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "min_occurs": 1,
-            "max_occurs": 2,
-        }
-    )
-    any_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-            "required": True,
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "element1",
+                    "type": object,
+                },
+                {
+                    "wildcard": True,
+                    "type": object,
+                    "namespace": "##any",
+                },
+            ),
+            "min_occurs": 2,
+            "max_occurs": 3,
         }
     )
 
@@ -74,20 +77,23 @@ class Ct4:
     class Meta:
         name = "ct4"
 
-    any_element: List[object] = field(
+    any_element_or_element1: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-            "min_occurs": 1,
-            "max_occurs": 2,
-        }
-    )
-    element1: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "required": True,
+            "type": "Elements",
+            "choices": (
+                {
+                    "wildcard": True,
+                    "type": object,
+                    "namespace": "##any",
+                },
+                {
+                    "name": "element1",
+                    "type": object,
+                },
+            ),
+            "min_occurs": 2,
+            "max_occurs": 3,
         }
     )
 

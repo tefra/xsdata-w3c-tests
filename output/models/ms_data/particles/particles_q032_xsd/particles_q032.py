@@ -60,28 +60,28 @@ class R:
             "max_occurs": 4,
         }
     )
-    e2: List[ParticlesQ032ImpE2] = field(
+    choice: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "foo",
-            "max_occurs": 2,
-        }
-    )
-    e2_1: Optional[E2] = field(
-        default=None,
-        metadata={
-            "name": "e2",
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
-    e2_2: Optional[ParticlesQ032Imp2E2] = field(
-        default=None,
-        metadata={
-            "name": "e2",
-            "type": "Element",
-            "namespace": "bar",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "e2",
+                    "type": ParticlesQ032ImpE2,
+                    "namespace": "foo",
+                },
+                {
+                    "name": "e2",
+                    "type": E2,
+                    "namespace": "http://xsdtesting",
+                },
+                {
+                    "name": "e2",
+                    "type": ParticlesQ032Imp2E2,
+                    "namespace": "bar",
+                },
+            ),
+            "max_occurs": 4,
         }
     )
 

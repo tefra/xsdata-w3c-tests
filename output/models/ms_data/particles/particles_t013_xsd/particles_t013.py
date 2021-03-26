@@ -40,7 +40,7 @@ class Bar(Foo):
 
 @dataclass
 class B:
-    c1_or_c2_or_c3: List[object] = field(
+    choice: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -60,15 +60,13 @@ class B:
                     "type": Bar,
                     "namespace": "",
                 },
+                {
+                    "name": "foo",
+                    "type": object,
+                    "namespace": "",
+                },
             ),
-        }
-    )
-    foo: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
+            "min_occurs": 1,
         }
     )
 

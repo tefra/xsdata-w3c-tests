@@ -25,17 +25,14 @@
     ],
     "e3": [
         {
-            "element1": [
-                "",
-                "",
-                ""
-            ],
-            "any_element": null
-        }
-    ],
-    "e4": [
-        {
-            "any_element": [
+            "element1_or_any_element": [
+                {
+                    "qname": "element1",
+                    "text": "",
+                    "tail": null,
+                    "children": [],
+                    "attributes": {}
+                },
                 {
                     "qname": "element1",
                     "text": "",
@@ -50,8 +47,34 @@
                     "children": [],
                     "attributes": {}
                 }
-            ],
-            "element1": ""
+            ]
+        }
+    ],
+    "e4": [
+        {
+            "any_element_or_element1": [
+                {
+                    "qname": "element1",
+                    "text": "",
+                    "tail": null,
+                    "children": [],
+                    "attributes": {}
+                },
+                {
+                    "qname": "element1",
+                    "text": "",
+                    "tail": null,
+                    "children": [],
+                    "attributes": {}
+                },
+                {
+                    "qname": "element1",
+                    "text": "",
+                    "tail": null,
+                    "children": [],
+                    "attributes": {}
+                }
+            ]
         }
     ],
     "e5": [

@@ -1,16 +1,26 @@
 {
-    "s1": [],
-    "s": [
-        "Test case for interaction of substitution groups and \n   #definedSibling."
-    ],
-    "n1": [
-        ""
-    ],
-    "n": [
-        ""
-    ],
-    "any_element": null,
-    "a": null,
-    "b": null,
-    "c": ""
+    "choice": [
+        {
+            "qname": "{http://www.w3.org/XML/2008/xsdl-exx/ns1}s",
+            "value": "Test case for interaction of substitution groups and \n   #definedSibling.",
+            "substituted": false
+        },
+        {
+            "qname": "{http://www.w3.org/XML/2008/xsdl-exx/ns1}n",
+            "value": "",
+            "substituted": false
+        },
+        {
+            "qname": "{http://www.w3.org/XML/2008/xsdl-exx/ns1}n1",
+            "value": "",
+            "substituted": false
+        },
+        {
+            "qname": "{http://www.w3.org/XML/2008/xsdl-exx/ns1}c",
+            "text": "",
+            "tail": null,
+            "children": [],
+            "attributes": {}
+        }
+    ]
 }

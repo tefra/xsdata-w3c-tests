@@ -16,7 +16,7 @@ document and serialize it back to xml checking that the output is still valid.
 $ pytest -n 4  --mode xsd --runxfail --save-output
 ```
 
-Results: **10** failed, **14576** passed, **89** skipped, **16** warnings
+Results: **7** failed, **14579** passed, **89** skipped, **16** warnings
 
 The save output option will store the output xml document. The xml mode's drawback is
 that it doesn't do any quality checks that all elements and values actually match the
@@ -32,7 +32,7 @@ python object to the object after the roundtrip conversion.
 $ pytest -n 4 --mode json --runxfail --save-output
 ```
 
-Results: **114** failed, **14561** passed, **25** warnings
+Results: **113** failed, **14562** passed, **1** warnings
 
 Most of the failures involve test cases with complex instances with wildcards and
 derived types.
@@ -42,6 +42,8 @@ derived types.
 Each test case will generate the models directly from the xml instance documents, parse
 the xml instance document and serialize it back to xml checking that the output is still
 valid.
+
+Results: **3** failed, **14582** passed, **90** skipped, **15** warnings
 
 ```terminal
 $ pytest -n 4 --mode xml --runxfail

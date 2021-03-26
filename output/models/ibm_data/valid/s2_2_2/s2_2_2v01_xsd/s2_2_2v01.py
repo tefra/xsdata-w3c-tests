@@ -65,40 +65,34 @@ class RootType:
     class Meta:
         name = "rootType"
 
-    elem3: List[str] = field(
+    choice: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "http://xstest-tns/ibms3_3_6_v04",
-            "min_occurs": 1,
-            "max_occurs": 2,
-            "sequential": True,
-        }
-    )
-    elem2: List[str] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xstest-tns/ibms3_3_6_v04",
-            "min_occurs": 1,
-            "max_occurs": 2,
-            "sequential": True,
-        }
-    )
-    elem0: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xstest-tns/ibms3_3_6_v04",
-            "required": True,
-        }
-    )
-    elem1: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xstest-tns/ibms3_3_6_v04",
-            "required": True,
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "elem3",
+                    "type": str,
+                    "namespace": "http://xstest-tns/ibms3_3_6_v04",
+                },
+                {
+                    "name": "elem2",
+                    "type": str,
+                    "namespace": "http://xstest-tns/ibms3_3_6_v04",
+                },
+                {
+                    "name": "elem0",
+                    "type": str,
+                    "namespace": "http://xstest-tns/ibms3_3_6_v04",
+                },
+                {
+                    "name": "elem1",
+                    "type": str,
+                    "namespace": "http://xstest-tns/ibms3_3_6_v04",
+                },
+            ),
+            "min_occurs": 4,
+            "max_occurs": 6,
         }
     )
 

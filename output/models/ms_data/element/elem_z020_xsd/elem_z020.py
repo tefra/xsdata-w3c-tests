@@ -6,7 +6,7 @@ __NAMESPACE__ = "foo"
 
 @dataclass
 class B:
-    foo_or_e1_or_foo: List[object] = field(
+    choice: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

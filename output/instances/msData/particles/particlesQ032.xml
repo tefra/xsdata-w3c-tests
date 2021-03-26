@@ -3,8 +3,8 @@
   <elem>
     <foo/>
     <f:e2/>
-    <f:e2/>
     <a:e2/>
+    <f:e2/>
     <b:e2/>
   </elem>
 </a:doc>

@@ -1,9 +1,6 @@
 {
-    "elem3": [
+    "choice": [
         "Tests abstract substitution group",
         "hello"
-    ],
-    "elem2": [],
-    "elem0": null,
-    "elem1": null
+    ]
 }

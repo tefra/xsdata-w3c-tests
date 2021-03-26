@@ -6,68 +6,53 @@ __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
 @dataclass
 class T:
-    s1: List[str] = field(
+    choice: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Element",
-            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            "max_occurs": 2,
-            "sequential": True,
-        }
-    )
-    s: List[str] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            "max_occurs": 2,
-            "sequential": True,
-        }
-    )
-    n1: List[str] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            "max_occurs": 2,
-            "sequential": True,
-        }
-    )
-    n: List[str] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-            "max_occurs": 2,
-            "sequential": True,
-        }
-    )
-    any_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-        }
-    )
-    a: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-        }
-    )
-    b: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-        }
-    )
-    c: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+            "type": "Elements",
+            "choices": (
+                {
+                    "name": "s1",
+                    "type": str,
+                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                },
+                {
+                    "name": "s",
+                    "type": str,
+                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                },
+                {
+                    "name": "n1",
+                    "type": str,
+                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                },
+                {
+                    "name": "n",
+                    "type": str,
+                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                },
+                {
+                    "wildcard": True,
+                    "type": object,
+                    "namespace": "##any",
+                },
+                {
+                    "name": "a",
+                    "type": str,
+                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                },
+                {
+                    "name": "b",
+                    "type": str,
+                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                },
+                {
+                    "name": "c",
+                    "type": str,
+                    "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
+                },
+            ),
+            "max_occurs": 12,
         }
     )
 

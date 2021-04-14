@@ -2,3 +2,8 @@ from output.models.sun_data.elem_decl.type_def.type_def00401m.type_def00401m_xsd
     GlobalType,
     Root,
 )
+
+__all__ = [
+    "GlobalType",
+    "Root",
+]

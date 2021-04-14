@@ -18,3 +18,24 @@ from output.models.ms_data.element.elem_t066_xsd.elem_t066 import (
     Test4,
     Test5,
 )
+
+__all__ = [
+    "A",
+    "B",
+    "Ca",
+    "EA",
+    "ECa",
+    "RA",
+    "RCa",
+    "UnionA",
+    "UnionAb",
+    "Root",
+    "Sa1",
+    "Sa2",
+    "Sa3",
+    "Test1",
+    "Test2",
+    "Test3",
+    "Test4",
+    "Test5",
+]

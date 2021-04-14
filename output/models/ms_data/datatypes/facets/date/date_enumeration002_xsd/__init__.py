@@ -3,3 +3,9 @@ from output.models.ms_data.datatypes.facets.date.date_enumeration002_xsd.date_en
     FooTypeFoo,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "FooTypeFoo",
+    "Test",
+]

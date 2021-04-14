@@ -4,3 +4,10 @@ from output.models.ms_data.element.elem_t007_xsd.elem_t007 import (
     MyType,
     Root,
 )
+
+__all__ = [
+    "FooTest",
+    "FooType",
+    "MyType",
+    "Root",
+]

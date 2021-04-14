@@ -2,3 +2,8 @@ from output.models.nist_data.list_pkg.nmtoken.schema_instance.nistschema_sv_iv_l
     NistschemaSvIvListNmtokenEnumeration2,
     NistschemaSvIvListNmtokenEnumeration2Type,
 )
+
+__all__ = [
+    "NistschemaSvIvListNmtokenEnumeration2",
+    "NistschemaSvIvListNmtokenEnumeration2Type",
+]

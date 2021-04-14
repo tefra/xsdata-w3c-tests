@@ -3,3 +3,9 @@ from output.models.sun_data.elem_decl.name.name008.name00802.name00802_xsd.name0
     A123456,
     Root,
 )
+
+__all__ = [
+    "A123456",
+    "A123456",
+    "Root",
+]

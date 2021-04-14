@@ -2,3 +2,8 @@ from output.models.sun_data.mgroup.annotation.annotation00101m.annotation00101m4
     Root,
     TheType,
 )
+
+__all__ = [
+    "Root",
+    "TheType",
+]

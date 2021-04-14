@@ -7,3 +7,11 @@ from output.models.ms_data.particles.particles_jk010_xsd.particles_jk010_imp imp
     B as ImpB,
     ImpElem1,
 )
+
+__all__ = [
+    "B",
+    "R",
+    "Doc",
+    "ImpB",
+    "ImpElem1",
+]

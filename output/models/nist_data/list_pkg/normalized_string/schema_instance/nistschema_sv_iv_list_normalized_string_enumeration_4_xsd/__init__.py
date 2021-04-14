@@ -2,3 +2,8 @@ from output.models.nist_data.list_pkg.normalized_string.schema_instance.nistsche
     NistschemaSvIvListNormalizedStringEnumeration4,
     NistschemaSvIvListNormalizedStringEnumeration4Type,
 )
+
+__all__ = [
+    "NistschemaSvIvListNormalizedStringEnumeration4",
+    "NistschemaSvIvListNormalizedStringEnumeration4Type",
+]

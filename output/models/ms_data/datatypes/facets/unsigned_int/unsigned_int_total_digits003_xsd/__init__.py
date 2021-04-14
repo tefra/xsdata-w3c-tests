@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.unsigned_int.unsigned_int_total_digi
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

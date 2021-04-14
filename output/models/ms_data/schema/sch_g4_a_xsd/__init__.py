@@ -12,3 +12,14 @@ from output.models.ms_data.schema.sch_g4_a_xsd.sch_g4_c import (
     E1 as CE1,
     Foo,
 )
+
+__all__ = [
+    "CtA",
+    "E1",
+    "Root",
+    "BCtA",
+    "BE1",
+    "CCtA",
+    "CE1",
+    "Foo",
+]

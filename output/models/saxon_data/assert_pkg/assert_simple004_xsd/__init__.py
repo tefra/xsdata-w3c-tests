@@ -2,3 +2,8 @@ from output.models.saxon_data.assert_pkg.assert_simple004_xsd.assert_simple004 i
     N,
     Outer,
 )
+
+__all__ = [
+    "N",
+    "Outer",
+]

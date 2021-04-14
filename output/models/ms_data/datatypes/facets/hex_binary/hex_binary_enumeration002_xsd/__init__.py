@@ -3,3 +3,9 @@ from output.models.ms_data.datatypes.facets.hex_binary.hex_binary_enumeration002
     FooTypeFoo,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "FooTypeFoo",
+    "Test",
+]

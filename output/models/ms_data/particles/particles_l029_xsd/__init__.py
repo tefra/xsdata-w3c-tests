@@ -4,3 +4,10 @@ from output.models.ms_data.particles.particles_l029_xsd.particles_l029 import (
     Doc,
     Foo,
 )
+
+__all__ = [
+    "B",
+    "R",
+    "Doc",
+    "Foo",
+]

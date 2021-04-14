@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.integer.integer_pattern001_xsd.integ
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

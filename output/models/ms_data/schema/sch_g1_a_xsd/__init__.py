@@ -11,3 +11,13 @@ from output.models.ms_data.schema.sch_g1_a_xsd.sch_g1_c import (
     CtA as CCtA,
     E1 as CE1,
 )
+
+__all__ = [
+    "CtA",
+    "E1",
+    "Root",
+    "BCtA",
+    "BE1",
+    "CCtA",
+    "CE1",
+]

@@ -2,3 +2,8 @@ from output.models.sun_data.agroup_def.ag_name.ag_name00101m.ag_name00101m1_p_xs
     ElementWithAttr,
     Root,
 )
+
+__all__ = [
+    "ElementWithAttr",
+    "Root",
+]

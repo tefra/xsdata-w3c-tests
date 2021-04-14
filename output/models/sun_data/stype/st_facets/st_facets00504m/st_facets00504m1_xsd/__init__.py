@@ -2,3 +2,8 @@ from output.models.sun_data.stype.st_facets.st_facets00504m.st_facets00504m1_xsd
     S,
     Root,
 )
+
+__all__ = [
+    "S",
+    "Root",
+]

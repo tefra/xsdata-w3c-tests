@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.unsigned_long.unsigned_long_pattern0
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

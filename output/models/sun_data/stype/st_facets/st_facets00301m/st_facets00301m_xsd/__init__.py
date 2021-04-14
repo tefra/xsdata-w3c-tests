@@ -2,3 +2,8 @@ from output.models.sun_data.stype.st_facets.st_facets00301m.st_facets00301m_xsd.
     Test,
     TestValue,
 )
+
+__all__ = [
+    "Test",
+    "TestValue",
+]

@@ -2,3 +2,8 @@ from output.models.nist_data.list_pkg.base64_binary.schema_instance.nistschema_s
     NistschemaSvIvListBase64BinaryEnumeration3,
     NistschemaSvIvListBase64BinaryEnumeration3Type,
 )
+
+__all__ = [
+    "NistschemaSvIvListBase64BinaryEnumeration3",
+    "NistschemaSvIvListBase64BinaryEnumeration3Type",
+]

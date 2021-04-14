@@ -2,3 +2,8 @@ from output.models.nist_data.atomic.string.schema_instance.nistschema_sv_iv_atom
     NistschemaSvIvAtomicStringEnumeration2,
     NistschemaSvIvAtomicStringEnumeration2Type,
 )
+
+__all__ = [
+    "NistschemaSvIvAtomicStringEnumeration2",
+    "NistschemaSvIvAtomicStringEnumeration2Type",
+]

@@ -3,3 +3,9 @@ from output.models.ms_data.datatypes.facets.float_pkg.float_enumeration004_xsd.f
     FooTypeFoo,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "FooTypeFoo",
+    "Test",
+]

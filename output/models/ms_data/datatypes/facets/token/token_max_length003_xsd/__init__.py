@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.token.token_max_length003_xsd.token_
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

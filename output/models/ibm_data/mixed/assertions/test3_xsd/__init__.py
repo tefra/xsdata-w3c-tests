@@ -3,3 +3,9 @@ from output.models.ibm_data.mixed.assertions.test3_xsd.test3 import (
     TimerType,
     Data,
 )
+
+__all__ = [
+    "ParentType",
+    "TimerType",
+    "Data",
+]

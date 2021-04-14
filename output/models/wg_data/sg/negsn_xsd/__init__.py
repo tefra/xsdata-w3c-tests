@@ -7,3 +7,13 @@ from output.models.wg_data.sg.negsn_xsd.negsn import (
     S1,
     Test,
 )
+
+__all__ = [
+    "T",
+    "E",
+    "N",
+    "N1",
+    "S",
+    "S1",
+    "Test",
+]

@@ -2,3 +2,8 @@ from output.models.ms_data.regex.re_f45_xsd.re_f45 import (
     Regex,
     Doc,
 )
+
+__all__ = [
+    "Regex",
+    "Doc",
+]

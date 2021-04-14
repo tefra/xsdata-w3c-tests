@@ -1,1 +1,5 @@
 from output.models.nist_data.atomic.unsigned_byte.schema_instance.nistschema_sv_iv_atomic_unsigned_byte_total_digits_1_xsd.nistschema_sv_iv_atomic_unsigned_byte_total_digits_1 import NistschemaSvIvAtomicUnsignedByteTotalDigits1
+
+__all__ = [
+    "NistschemaSvIvAtomicUnsignedByteTotalDigits1",
+]

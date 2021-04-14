@@ -13,3 +13,17 @@ from output.models.boeing_data.ipo2.ipo_xsd.ipo import (
     PurchaseOrder,
     ShipComment,
 )
+
+__all__ = [
+    "AddressType",
+    "Ukaddress",
+    "Usaddress",
+    "Usstate",
+    "ItemDeliveryShipBy",
+    "ItemsType",
+    "PurchaseOrderType",
+    "Comment",
+    "CustomerComment",
+    "PurchaseOrder",
+    "ShipComment",
+]

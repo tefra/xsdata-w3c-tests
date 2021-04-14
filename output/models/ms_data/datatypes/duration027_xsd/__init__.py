@@ -4,3 +4,10 @@ from output.models.ms_data.datatypes.duration027_xsd.duration027 import (
     Root,
     SimpleTest,
 )
+
+__all__ = [
+    "ComplexTest",
+    "ComplexfooType",
+    "Root",
+    "SimpleTest",
+]

@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.decimal_pkg.decimal_total_digits003_
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

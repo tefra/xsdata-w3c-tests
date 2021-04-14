@@ -2,3 +2,8 @@ from output.models.nist_data.list_pkg.hex_binary.schema_instance.nistschema_sv_i
     NistschemaSvIvListHexBinaryEnumeration2,
     NistschemaSvIvListHexBinaryEnumeration2Type,
 )
+
+__all__ = [
+    "NistschemaSvIvListHexBinaryEnumeration2",
+    "NistschemaSvIvListHexBinaryEnumeration2Type",
+]

@@ -1,1 +1,5 @@
 from output.models.saxon_data.assert_pkg.assert006_xsd.assert006 import Outer
+
+__all__ = [
+    "Outer",
+]

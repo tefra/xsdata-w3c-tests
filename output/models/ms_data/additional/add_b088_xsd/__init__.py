@@ -8,3 +8,12 @@ from output.models.ms_data.additional.add_b088_xsd.add_b088_imp import (
     Doc1,
     Imp,
 )
+
+__all__ = [
+    "Any",
+    "Doc",
+    "Foo",
+    "Any1",
+    "Doc1",
+    "Imp",
+]

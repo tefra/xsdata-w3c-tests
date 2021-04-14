@@ -3,3 +3,9 @@ from output.models.ms_data.particles.particles_jd003_xsd.particles_jd003 import 
     R,
     Doc,
 )
+
+__all__ = [
+    "B",
+    "R",
+    "Doc",
+]

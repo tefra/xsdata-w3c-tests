@@ -3,3 +3,9 @@ from output.models.ms_data.datatypes.facets.token.token_enumeration004_xsd.token
     FooTypeFoo,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "FooTypeFoo",
+    "Test",
+]

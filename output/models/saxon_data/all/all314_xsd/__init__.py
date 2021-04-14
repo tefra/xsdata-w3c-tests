@@ -3,3 +3,9 @@ from output.models.saxon_data.all.all314_xsd.all314 import (
     ProductType,
     Product,
 )
+
+__all__ = [
+    "ExtendedProductType",
+    "ProductType",
+    "Product",
+]

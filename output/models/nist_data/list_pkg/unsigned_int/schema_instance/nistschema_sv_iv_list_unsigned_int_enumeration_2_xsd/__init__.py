@@ -2,3 +2,8 @@ from output.models.nist_data.list_pkg.unsigned_int.schema_instance.nistschema_sv
     NistschemaSvIvListUnsignedIntEnumeration2,
     NistschemaSvIvListUnsignedIntEnumeration2Type,
 )
+
+__all__ = [
+    "NistschemaSvIvListUnsignedIntEnumeration2",
+    "NistschemaSvIvListUnsignedIntEnumeration2Type",
+]

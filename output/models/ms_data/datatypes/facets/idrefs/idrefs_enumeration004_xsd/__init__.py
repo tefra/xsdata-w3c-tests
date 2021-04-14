@@ -4,3 +4,10 @@ from output.models.ms_data.datatypes.facets.idrefs.idrefs_enumeration004_xsd.idr
     FooIdrefsAttr,
     Test,
 )
+
+__all__ = [
+    "Foo",
+    "FooType",
+    "FooIdrefsAttr",
+    "Test",
+]

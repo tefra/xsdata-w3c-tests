@@ -4,3 +4,10 @@ from output.models.sun_data.combined.xsd005.xsd005_xsd.xsd005 import (
     Root,
     Rst,
 )
+
+__all__ = [
+    "Base",
+    "Ext",
+    "Root",
+    "Rst",
+]

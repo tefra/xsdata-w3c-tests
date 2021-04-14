@@ -3,3 +3,9 @@ from output.models.sun_data.elem_decl.type_def.type_def00501m.type_def00501m1_xs
     Type,
     Root,
 )
+
+__all__ = [
+    "GlobalType",
+    "Type",
+    "Root",
+]

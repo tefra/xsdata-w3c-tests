@@ -2,3 +2,8 @@ from output.models.nist_data.atomic.long.schema_instance.nistschema_sv_iv_atomic
     NistschemaSvIvAtomicLongEnumeration4,
     NistschemaSvIvAtomicLongEnumeration4Type,
 )
+
+__all__ = [
+    "NistschemaSvIvAtomicLongEnumeration4",
+    "NistschemaSvIvAtomicLongEnumeration4Type",
+]

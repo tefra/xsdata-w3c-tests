@@ -2,3 +2,8 @@ from output.models.ms_data.particles.particles_z034_a_xsd.particles_z034_a impor
     Doc,
     FooType,
 )
+
+__all__ = [
+    "Doc",
+    "FooType",
+]

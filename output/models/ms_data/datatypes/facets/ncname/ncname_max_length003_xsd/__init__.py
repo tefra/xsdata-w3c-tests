@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.ncname.ncname_max_length003_xsd.ncna
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

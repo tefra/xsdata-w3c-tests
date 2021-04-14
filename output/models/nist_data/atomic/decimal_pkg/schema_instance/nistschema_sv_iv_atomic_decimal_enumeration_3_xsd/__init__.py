@@ -2,3 +2,8 @@ from output.models.nist_data.atomic.decimal_pkg.schema_instance.nistschema_sv_iv
     NistschemaSvIvAtomicDecimalEnumeration3,
     NistschemaSvIvAtomicDecimalEnumeration3Type,
 )
+
+__all__ = [
+    "NistschemaSvIvAtomicDecimalEnumeration3",
+    "NistschemaSvIvAtomicDecimalEnumeration3Type",
+]

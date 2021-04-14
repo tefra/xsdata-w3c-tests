@@ -7,3 +7,11 @@ from output.models.ms_data.particles.particles_r020_xsd.particles_r020_imp impor
     ImpElem1,
     ImpElem2,
 )
+
+__all__ = [
+    "B",
+    "R",
+    "Doc",
+    "ImpElem1",
+    "ImpElem2",
+]

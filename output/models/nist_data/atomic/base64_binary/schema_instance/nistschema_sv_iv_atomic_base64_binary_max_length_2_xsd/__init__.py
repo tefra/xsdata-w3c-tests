@@ -1,1 +1,5 @@
 from output.models.nist_data.atomic.base64_binary.schema_instance.nistschema_sv_iv_atomic_base64_binary_max_length_2_xsd.nistschema_sv_iv_atomic_base64_binary_max_length_2 import NistschemaSvIvAtomicBase64BinaryMaxLength2
+
+__all__ = [
+    "NistschemaSvIvAtomicBase64BinaryMaxLength2",
+]

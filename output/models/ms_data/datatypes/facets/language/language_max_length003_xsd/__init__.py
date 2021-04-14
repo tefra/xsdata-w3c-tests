@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.language.language_max_length003_xsd.
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

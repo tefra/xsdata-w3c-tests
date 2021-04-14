@@ -2,3 +2,8 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
     NistschemaSvIvAtomicNmtokenEnumeration4,
     NistschemaSvIvAtomicNmtokenEnumeration4Type,
 )
+
+__all__ = [
+    "NistschemaSvIvAtomicNmtokenEnumeration4",
+    "NistschemaSvIvAtomicNmtokenEnumeration4Type",
+]

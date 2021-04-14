@@ -6,3 +6,10 @@ from output.models.sun_data.mgroup_def.target_ns.target_ns00101m.target_ns00101m
     A1 as A1,
     A as A,
 )
+
+__all__ = [
+    "Ns00101M1A1",
+    "Ns00101M1A",
+    "A1",
+    "A",
+]

@@ -2,3 +2,8 @@ from output.models.sun_data.mgroup.compositor.compositor00202m.compositor00202m1
     A,
     B,
 )
+
+__all__ = [
+    "A",
+    "B",
+]

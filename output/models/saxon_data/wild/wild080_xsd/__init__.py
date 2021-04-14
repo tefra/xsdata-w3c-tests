@@ -3,3 +3,9 @@ from output.models.saxon_data.wild.wild080_xsd.wild080 import (
     Root,
     Zing,
 )
+
+__all__ = [
+    "A",
+    "Root",
+    "Zing",
+]

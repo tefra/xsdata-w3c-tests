@@ -2,3 +2,8 @@ from output.models.nist_data.union.any_uri_float.schema_instance.nistschema_sv_i
     NistschemaSvIvUnionAnyUriFloatEnumeration2,
     NistschemaSvIvUnionAnyUriFloatEnumeration2Type,
 )
+
+__all__ = [
+    "NistschemaSvIvUnionAnyUriFloatEnumeration2",
+    "NistschemaSvIvUnionAnyUriFloatEnumeration2Type",
+]

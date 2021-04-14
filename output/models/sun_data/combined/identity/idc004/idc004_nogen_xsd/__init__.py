@@ -4,3 +4,10 @@ from output.models.sun_data.combined.identity.idc004.idc004_nogen_xsd.idc004_nog
     State,
     Vehicle,
 )
+
+__all__ = [
+    "Person",
+    "Root",
+    "State",
+    "Vehicle",
+]

@@ -2,3 +2,8 @@ from output.models.nist_data.list_pkg.integer.schema_instance.nistschema_sv_iv_l
     NistschemaSvIvListIntegerEnumeration3,
     NistschemaSvIvListIntegerEnumeration3Type,
 )
+
+__all__ = [
+    "NistschemaSvIvListIntegerEnumeration3",
+    "NistschemaSvIvListIntegerEnumeration3Type",
+]

@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.g_year_month.g_year_month_min_exclus
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

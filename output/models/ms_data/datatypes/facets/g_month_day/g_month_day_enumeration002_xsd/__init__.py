@@ -3,3 +3,9 @@ from output.models.ms_data.datatypes.facets.g_month_day.g_month_day_enumeration0
     FooTypeFoo,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "FooTypeFoo",
+    "Test",
+]

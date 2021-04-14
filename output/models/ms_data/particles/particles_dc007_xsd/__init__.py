@@ -4,3 +4,10 @@ from output.models.ms_data.particles.particles_dc007_xsd.particles_dc007 import 
     Elem2,
     Elem3,
 )
+
+__all__ = [
+    "Doc",
+    "Elem1",
+    "Elem2",
+    "Elem3",
+]

@@ -3,3 +3,9 @@ from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00501m.di
     Member1,
     Root,
 )
+
+__all__ = [
+    "Head",
+    "Member1",
+    "Root",
+]

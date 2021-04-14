@@ -2,3 +2,8 @@ from output.models.sun_data.elem_decl.type_def.type_def01301m.type_def01301m1_xs
     Inline,
     Root,
 )
+
+__all__ = [
+    "Inline",
+    "Root",
+]

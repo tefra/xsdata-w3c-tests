@@ -2,3 +2,8 @@ from output.models.sun_data.elem_decl.max_occurs.max_occurs00201m.max_occurs0020
     Local,
     Root,
 )
+
+__all__ = [
+    "Local",
+    "Root",
+]

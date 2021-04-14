@@ -2,3 +2,8 @@ from output.models.nist_data.atomic.non_positive_integer.schema_instance.nistsch
     NistschemaSvIvAtomicNonPositiveIntegerEnumeration5,
     NistschemaSvIvAtomicNonPositiveIntegerEnumeration5Type,
 )
+
+__all__ = [
+    "NistschemaSvIvAtomicNonPositiveIntegerEnumeration5",
+    "NistschemaSvIvAtomicNonPositiveIntegerEnumeration5Type",
+]

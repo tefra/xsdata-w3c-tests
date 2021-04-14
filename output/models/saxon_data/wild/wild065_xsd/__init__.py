@@ -4,3 +4,10 @@ from output.models.saxon_data.wild.wild065_xsd.wild065 import (
     G,
     Zing,
 )
+
+__all__ = [
+    "Doc",
+    "E",
+    "G",
+    "Zing",
+]

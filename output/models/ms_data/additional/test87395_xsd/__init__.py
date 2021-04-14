@@ -3,3 +3,9 @@ from output.models.ms_data.additional.test87395_xsd.test87395 import (
     Doc,
     St,
 )
+
+__all__ = [
+    "A",
+    "Doc",
+    "St",
+]

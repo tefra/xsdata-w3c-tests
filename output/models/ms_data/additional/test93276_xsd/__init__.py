@@ -8,3 +8,12 @@ from output.models.ms_data.additional.test93276_xsd.test93276_types import (
     GlobalSimpleStatusType,
     GlobalYesNoType,
 )
+
+__all__ = [
+    "T0020V1Type",
+    "Root",
+    "GlobalAddressTypeValues",
+    "GlobalNameTypeValues",
+    "GlobalSimpleStatusType",
+    "GlobalYesNoType",
+]

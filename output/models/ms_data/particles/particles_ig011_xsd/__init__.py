@@ -3,3 +3,9 @@ from output.models.ms_data.particles.particles_ig011_xsd.particles_ig011 import 
     Doc,
     Testing,
 )
+
+__all__ = [
+    "Base",
+    "Doc",
+    "Testing",
+]

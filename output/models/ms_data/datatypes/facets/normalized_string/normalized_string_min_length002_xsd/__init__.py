@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.normalized_string.normalized_string_
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

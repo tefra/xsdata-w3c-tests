@@ -3,3 +3,9 @@ from output.models.ms_data.attribute.att_i003_xsd.att_i003 import (
     AttRefAtt1,
     Doc,
 )
+
+__all__ = [
+    "AttRef",
+    "AttRefAtt1",
+    "Doc",
+]

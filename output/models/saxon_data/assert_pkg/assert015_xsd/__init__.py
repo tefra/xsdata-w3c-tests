@@ -3,3 +3,9 @@ from output.models.saxon_data.assert_pkg.assert015_xsd.assert015 import (
     Doc,
     Temp,
 )
+
+__all__ = [
+    "DatedEvent",
+    "Doc",
+    "Temp",
+]

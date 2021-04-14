@@ -9,3 +9,13 @@ from output.models.sun_data.combined.xsd004.xsd004_xsd.xsd004b_xsdmod import (
     B as Xsd004BB,
     C as Xsd004BC,
 )
+
+__all__ = [
+    "Root",
+    "Xsd004AA",
+    "Xsd004AB",
+    "Xsd004AC",
+    "Xsd004BA",
+    "Xsd004BB",
+    "Xsd004BC",
+]

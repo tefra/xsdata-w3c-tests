@@ -4,3 +4,10 @@ from output.models.ms_data.complex_type.ct_i047_xsd.ct_i047 import (
     MyType,
     Root,
 )
+
+__all__ = [
+    "FooTest",
+    "FooType",
+    "MyType",
+    "Root",
+]

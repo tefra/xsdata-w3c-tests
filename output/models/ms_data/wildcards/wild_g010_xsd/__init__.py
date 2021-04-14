@@ -7,3 +7,11 @@ from output.models.ms_data.wildcards.wild_g010_xsd.wild_g010b_imp import (
     B as G010BImpB,
     Foo as G010BImpFoo,
 )
+
+__all__ = [
+    "B",
+    "Foo",
+    "Bar",
+    "G010BImpB",
+    "G010BImpFoo",
+]

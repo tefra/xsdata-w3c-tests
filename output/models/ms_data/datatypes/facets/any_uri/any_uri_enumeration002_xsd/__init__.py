@@ -3,3 +3,9 @@ from output.models.ms_data.datatypes.facets.any_uri.any_uri_enumeration002_xsd.a
     FooTypeFoo,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "FooTypeFoo",
+    "Test",
+]

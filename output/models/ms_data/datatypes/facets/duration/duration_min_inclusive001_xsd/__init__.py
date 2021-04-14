@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.duration.duration_min_inclusive001_x
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

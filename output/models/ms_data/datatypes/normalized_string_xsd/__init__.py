@@ -4,3 +4,10 @@ from output.models.ms_data.datatypes.normalized_string_xsd.normalized_string imp
     Root,
     SimpleTest,
 )
+
+__all__ = [
+    "ComplexTest",
+    "ComplexfooType",
+    "Root",
+    "SimpleTest",
+]

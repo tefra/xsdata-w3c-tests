@@ -3,3 +3,9 @@ from output.models.ms_data.identity_constraint.id_k005_xsd.id_k005 import (
     Root,
     Uid,
 )
+
+__all__ = [
+    "Kid",
+    "Root",
+    "Uid",
+]

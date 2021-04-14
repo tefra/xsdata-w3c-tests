@@ -7,3 +7,11 @@ from output.models.ms_data.schema.sch_f2_a_xsd.sch_f2_b import (
     CtA as BCtA,
     E1 as BE1,
 )
+
+__all__ = [
+    "CtA",
+    "E1",
+    "Root",
+    "BCtA",
+    "BE1",
+]

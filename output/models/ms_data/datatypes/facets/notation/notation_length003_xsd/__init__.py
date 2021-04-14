@@ -3,3 +3,9 @@ from output.models.ms_data.datatypes.facets.notation.notation_length003_xsd.nota
     FooType,
     Test,
 )
+
+__all__ = [
+    "BuildNotation",
+    "FooType",
+    "Test",
+]

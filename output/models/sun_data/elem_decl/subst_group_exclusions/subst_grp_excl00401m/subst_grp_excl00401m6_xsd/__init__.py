@@ -3,3 +3,9 @@ from output.models.sun_data.elem_decl.subst_group_exclusions.subst_grp_excl00401
     HeadType,
     Root,
 )
+
+__all__ = [
+    "Head",
+    "HeadType",
+    "Root",
+]

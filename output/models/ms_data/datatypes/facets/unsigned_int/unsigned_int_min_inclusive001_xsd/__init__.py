@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.unsigned_int.unsigned_int_min_inclus
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

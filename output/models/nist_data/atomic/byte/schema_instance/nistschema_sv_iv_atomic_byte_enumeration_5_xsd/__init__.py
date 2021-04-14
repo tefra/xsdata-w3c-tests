@@ -2,3 +2,8 @@ from output.models.nist_data.atomic.byte.schema_instance.nistschema_sv_iv_atomic
     NistschemaSvIvAtomicByteEnumeration5,
     NistschemaSvIvAtomicByteEnumeration5Type,
 )
+
+__all__ = [
+    "NistschemaSvIvAtomicByteEnumeration5",
+    "NistschemaSvIvAtomicByteEnumeration5Type",
+]

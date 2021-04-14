@@ -2,3 +2,8 @@ from output.models.sun_data.mgroup_def.model_group.model_group00101m.model_group
     A1,
     A,
 )
+
+__all__ = [
+    "A1",
+    "A",
+]

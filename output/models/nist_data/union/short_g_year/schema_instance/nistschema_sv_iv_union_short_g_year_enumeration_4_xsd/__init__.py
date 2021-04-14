@@ -2,3 +2,8 @@ from output.models.nist_data.union.short_g_year.schema_instance.nistschema_sv_iv
     NistschemaSvIvUnionShortGYearEnumeration4,
     NistschemaSvIvUnionShortGYearEnumeration4Type,
 )
+
+__all__ = [
+    "NistschemaSvIvUnionShortGYearEnumeration4",
+    "NistschemaSvIvUnionShortGYearEnumeration4Type",
+]

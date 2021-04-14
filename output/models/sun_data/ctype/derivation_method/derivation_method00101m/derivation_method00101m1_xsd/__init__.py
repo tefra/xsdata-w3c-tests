@@ -2,3 +2,8 @@ from output.models.sun_data.ctype.derivation_method.derivation_method00101m.deri
     B1,
     B,
 )
+
+__all__ = [
+    "B1",
+    "B",
+]

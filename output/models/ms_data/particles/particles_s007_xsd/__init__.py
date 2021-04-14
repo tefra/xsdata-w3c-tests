@@ -5,3 +5,11 @@ from output.models.ms_data.particles.particles_s007_xsd.particles_s007 import (
     Doc,
     E3,
 )
+
+__all__ = [
+    "B",
+    "R",
+    "Address",
+    "Doc",
+    "E3",
+]

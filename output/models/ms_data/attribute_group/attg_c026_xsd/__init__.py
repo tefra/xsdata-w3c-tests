@@ -4,3 +4,10 @@ from output.models.ms_data.attribute_group.attg_c026_xsd.attg_c026 import (
     Foo,
     TestElem,
 )
+
+__all__ = [
+    "Doc",
+    "DocElem",
+    "Foo",
+    "TestElem",
+]

@@ -7,3 +7,13 @@ from output.models.wg_data.sg.snneg_xsd.snneg import (
     S1,
     Test,
 )
+
+__all__ = [
+    "T",
+    "E",
+    "N",
+    "N1",
+    "S",
+    "S1",
+    "Test",
+]

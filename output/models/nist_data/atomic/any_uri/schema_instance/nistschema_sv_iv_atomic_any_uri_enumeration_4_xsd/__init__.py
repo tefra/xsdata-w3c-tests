@@ -2,3 +2,8 @@ from output.models.nist_data.atomic.any_uri.schema_instance.nistschema_sv_iv_ato
     NistschemaSvIvAtomicAnyUriEnumeration4,
     NistschemaSvIvAtomicAnyUriEnumeration4Type,
 )
+
+__all__ = [
+    "NistschemaSvIvAtomicAnyUriEnumeration4",
+    "NistschemaSvIvAtomicAnyUriEnumeration4Type",
+]

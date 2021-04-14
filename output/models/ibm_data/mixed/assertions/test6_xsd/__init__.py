@@ -3,3 +3,9 @@ from output.models.ibm_data.mixed.assertions.test6_xsd.test6 import (
     DerivedType,
     Message,
 )
+
+__all__ = [
+    "BaseType",
+    "DerivedType",
+    "Message",
+]

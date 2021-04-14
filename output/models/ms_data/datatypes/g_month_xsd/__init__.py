@@ -4,3 +4,10 @@ from output.models.ms_data.datatypes.g_month_xsd.g_month import (
     Root,
     SimpleTest,
 )
+
+__all__ = [
+    "ComplexTest",
+    "ComplexfooType",
+    "Root",
+    "SimpleTest",
+]

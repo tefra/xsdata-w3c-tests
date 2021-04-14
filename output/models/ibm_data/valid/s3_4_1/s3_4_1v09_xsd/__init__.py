@@ -3,3 +3,9 @@ from output.models.ibm_data.valid.s3_4_1.s3_4_1v09_xsd.s3_4_1v09 import (
     D,
     Root,
 )
+
+__all__ = [
+    "C",
+    "D",
+    "Root",
+]

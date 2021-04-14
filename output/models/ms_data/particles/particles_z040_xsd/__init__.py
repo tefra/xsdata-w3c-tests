@@ -12,3 +12,14 @@ from output.models.ms_data.particles.particles_z040_xsd.particles_z040b import (
     B1,
     B2,
 )
+
+__all__ = [
+    "A",
+    "B",
+    "Doc",
+    "E",
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+]

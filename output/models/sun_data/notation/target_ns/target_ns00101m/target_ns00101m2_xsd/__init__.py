@@ -4,3 +4,10 @@ from output.models.sun_data.notation.target_ns.target_ns00101m.target_ns00101m2_
     PictureType,
     A as A,
 )
+
+__all__ = [
+    "Ns00101M1A",
+    "Picture",
+    "PictureType",
+    "A",
+]

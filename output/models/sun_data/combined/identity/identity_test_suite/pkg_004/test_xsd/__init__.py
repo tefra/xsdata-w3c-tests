@@ -2,3 +2,8 @@ from output.models.sun_data.combined.identity.identity_test_suite.pkg_004.test_x
     Root,
     Scope,
 )
+
+__all__ = [
+    "Root",
+    "Scope",
+]

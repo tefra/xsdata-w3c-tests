@@ -3,3 +3,9 @@ from output.models.saxon_data.wild.wild014_xsd.wild014 import (
     E,
     Eden,
 )
+
+__all__ = [
+    "B",
+    "E",
+    "Eden",
+]

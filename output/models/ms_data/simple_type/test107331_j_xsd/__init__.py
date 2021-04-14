@@ -19,3 +19,25 @@ from output.models.ms_data.simple_type.test107331_j_xsd.test107331_j import (
     Time,
     Year,
 )
+
+__all__ = [
+    "Anyuri",
+    "BoolType",
+    "Date",
+    "Datetime",
+    "Day",
+    "DecimalType",
+    "Double",
+    "Duration",
+    "Entity",
+    "FloatType",
+    "Hexbinary",
+    "IntType",
+    "Item",
+    "Month",
+    "Monthday",
+    "Root",
+    "String",
+    "Time",
+    "Year",
+]

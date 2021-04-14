@@ -13,3 +13,17 @@ from output.models.boeing_data.ipo4.ipo_xsd.ipo import (
     ShipComment,
 )
 from output.models.boeing_data.ipo4.ipo_xsd.itematt import ItemDeliveryShipBy
+
+__all__ = [
+    "Ukaddress",
+    "Usaddress",
+    "Usstate",
+    "AddressType",
+    "ItemsType",
+    "PurchaseOrderType",
+    "Comment",
+    "CustomerComment",
+    "PurchaseOrder",
+    "ShipComment",
+    "ItemDeliveryShipBy",
+]

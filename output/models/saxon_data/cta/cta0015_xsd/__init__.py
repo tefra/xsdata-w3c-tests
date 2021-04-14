@@ -3,3 +3,9 @@ from output.models.saxon_data.cta.cta0015_xsd.cta0015 import (
     Event,
     When,
 )
+
+__all__ = [
+    "Doc",
+    "Event",
+    "When",
+]

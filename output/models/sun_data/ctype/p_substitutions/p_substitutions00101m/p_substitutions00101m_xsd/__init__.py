@@ -4,3 +4,10 @@ from output.models.sun_data.ctype.p_substitutions.p_substitutions00101m.p_substi
     C,
     E,
 )
+
+__all__ = [
+    "A",
+    "B",
+    "C",
+    "E",
+]

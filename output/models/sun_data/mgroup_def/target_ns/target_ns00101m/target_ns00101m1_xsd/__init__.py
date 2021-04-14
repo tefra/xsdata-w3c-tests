@@ -2,3 +2,8 @@ from output.models.sun_data.mgroup_def.target_ns.target_ns00101m.target_ns00101m
     A1,
     A,
 )
+
+__all__ = [
+    "A1",
+    "A",
+]

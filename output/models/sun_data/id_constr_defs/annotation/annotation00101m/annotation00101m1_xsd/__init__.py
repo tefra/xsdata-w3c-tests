@@ -2,3 +2,8 @@ from output.models.sun_data.id_constr_defs.annotation.annotation00101m.annotatio
     People,
     Root,
 )
+
+__all__ = [
+    "People",
+    "Root",
+]

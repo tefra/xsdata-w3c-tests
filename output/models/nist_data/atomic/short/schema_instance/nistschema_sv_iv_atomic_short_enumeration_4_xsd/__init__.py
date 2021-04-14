@@ -2,3 +2,8 @@ from output.models.nist_data.atomic.short.schema_instance.nistschema_sv_iv_atomi
     NistschemaSvIvAtomicShortEnumeration4,
     NistschemaSvIvAtomicShortEnumeration4Type,
 )
+
+__all__ = [
+    "NistschemaSvIvAtomicShortEnumeration4",
+    "NistschemaSvIvAtomicShortEnumeration4Type",
+]

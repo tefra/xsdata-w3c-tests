@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.byte.byte_pattern001_xsd.byte_patter
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

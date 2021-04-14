@@ -2,3 +2,8 @@ from output.models.nist_data.list_pkg.positive_integer.schema_instance.nistschem
     NistschemaSvIvListPositiveIntegerEnumeration4,
     NistschemaSvIvListPositiveIntegerEnumeration4Type,
 )
+
+__all__ = [
+    "NistschemaSvIvListPositiveIntegerEnumeration4",
+    "NistschemaSvIvListPositiveIntegerEnumeration4Type",
+]

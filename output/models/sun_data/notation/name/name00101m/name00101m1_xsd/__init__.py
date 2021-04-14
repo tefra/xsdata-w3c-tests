@@ -3,3 +3,9 @@ from output.models.sun_data.notation.name.name00101m.name00101m1_xsd.name00101m1
     PictureType,
     A,
 )
+
+__all__ = [
+    "Picture",
+    "PictureType",
+    "A",
+]

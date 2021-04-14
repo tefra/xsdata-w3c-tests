@@ -2,3 +2,8 @@ from output.models.nist_data.atomic.duration.schema_instance.nistschema_sv_iv_at
     NistschemaSvIvAtomicDurationEnumeration3,
     NistschemaSvIvAtomicDurationEnumeration3Type,
 )
+
+__all__ = [
+    "NistschemaSvIvAtomicDurationEnumeration3",
+    "NistschemaSvIvAtomicDurationEnumeration3Type",
+]

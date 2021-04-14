@@ -4,3 +4,10 @@ from output.models.ms_data.datatypes.name_xsd.name import (
     Root,
     SimpleTest,
 )
+
+__all__ = [
+    "ComplexTest",
+    "ComplexfooType",
+    "Root",
+    "SimpleTest",
+]

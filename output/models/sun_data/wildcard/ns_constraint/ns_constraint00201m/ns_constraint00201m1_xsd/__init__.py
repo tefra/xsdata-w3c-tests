@@ -2,3 +2,8 @@ from output.models.sun_data.wildcard.ns_constraint.ns_constraint00201m.ns_constr
     A,
     Date,
 )
+
+__all__ = [
+    "A",
+    "Date",
+]

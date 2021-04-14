@@ -2,3 +2,8 @@ from output.models.nist_data.list_pkg.double.schema_instance.nistschema_sv_iv_li
     NistschemaSvIvListDoubleEnumeration2,
     NistschemaSvIvListDoubleEnumeration2Type,
 )
+
+__all__ = [
+    "NistschemaSvIvListDoubleEnumeration2",
+    "NistschemaSvIvListDoubleEnumeration2Type",
+]

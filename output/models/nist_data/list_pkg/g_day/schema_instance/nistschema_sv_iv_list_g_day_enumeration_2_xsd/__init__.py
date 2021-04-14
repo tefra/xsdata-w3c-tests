@@ -2,3 +2,8 @@ from output.models.nist_data.list_pkg.g_day.schema_instance.nistschema_sv_iv_lis
     NistschemaSvIvListGDayEnumeration2,
     NistschemaSvIvListGDayEnumeration2Type,
 )
+
+__all__ = [
+    "NistschemaSvIvListGDayEnumeration2",
+    "NistschemaSvIvListGDayEnumeration2Type",
+]

@@ -1,1 +1,5 @@
 from output.models.nist_data.atomic.g_year.schema_instance.nistschema_sv_iv_atomic_g_year_pattern_4_xsd.nistschema_sv_iv_atomic_g_year_pattern_4 import NistschemaSvIvAtomicGYearPattern4
+
+__all__ = [
+    "NistschemaSvIvAtomicGYearPattern4",
+]

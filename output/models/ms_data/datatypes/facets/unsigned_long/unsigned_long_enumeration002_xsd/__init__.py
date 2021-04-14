@@ -3,3 +3,9 @@ from output.models.ms_data.datatypes.facets.unsigned_long.unsigned_long_enumerat
     FooTypeFoo,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "FooTypeFoo",
+    "Test",
+]

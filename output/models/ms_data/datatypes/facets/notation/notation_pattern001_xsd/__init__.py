@@ -3,3 +3,9 @@ from output.models.ms_data.datatypes.facets.notation.notation_pattern001_xsd.not
     FooType,
     Test,
 )
+
+__all__ = [
+    "BuildNotation",
+    "FooType",
+    "Test",
+]

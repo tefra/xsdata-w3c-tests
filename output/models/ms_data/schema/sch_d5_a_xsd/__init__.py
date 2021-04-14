@@ -13,3 +13,19 @@ from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import (
     E3,
     Root,
 )
+
+__all__ = [
+    "AE2",
+    "AE3",
+    "BE1",
+    "BE3",
+    "CE1",
+    "CE2",
+    "CtA",
+    "CtB",
+    "CtC",
+    "E1",
+    "E2",
+    "E3",
+    "Root",
+]

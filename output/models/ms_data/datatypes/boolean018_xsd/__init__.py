@@ -6,3 +6,12 @@ from output.models.ms_data.datatypes.boolean018_xsd.boolean018 import (
     SimpleTest,
     SimplefooType,
 )
+
+__all__ = [
+    "ComplexTest",
+    "ComplexfooType",
+    "ComplexfooTypeCompFoo",
+    "Root",
+    "SimpleTest",
+    "SimplefooType",
+]

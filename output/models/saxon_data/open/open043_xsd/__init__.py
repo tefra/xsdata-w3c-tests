@@ -3,3 +3,9 @@ from output.models.saxon_data.open.open043_xsd.open043 import (
     Doc,
 )
 from output.models.saxon_data.open.open043_xsd.open043x import Alpha
+
+__all__ = [
+    "Beta",
+    "Doc",
+    "Alpha",
+]

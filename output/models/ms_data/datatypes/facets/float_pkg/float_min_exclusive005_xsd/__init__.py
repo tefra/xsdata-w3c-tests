@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.float_pkg.float_min_exclusive005_xsd
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

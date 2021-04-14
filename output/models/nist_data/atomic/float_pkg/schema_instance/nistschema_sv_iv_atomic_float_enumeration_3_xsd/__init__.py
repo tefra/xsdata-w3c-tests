@@ -2,3 +2,8 @@ from output.models.nist_data.atomic.float_pkg.schema_instance.nistschema_sv_iv_a
     NistschemaSvIvAtomicFloatEnumeration3,
     NistschemaSvIvAtomicFloatEnumeration3Type,
 )
+
+__all__ = [
+    "NistschemaSvIvAtomicFloatEnumeration3",
+    "NistschemaSvIvAtomicFloatEnumeration3Type",
+]

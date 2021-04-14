@@ -3,3 +3,9 @@ from output.models.ms_data.complex_type.test67200_xsd.test67200 import (
     TypeA,
     TypeAbstract,
 )
+
+__all__ = [
+    "Elt1",
+    "TypeA",
+    "TypeAbstract",
+]

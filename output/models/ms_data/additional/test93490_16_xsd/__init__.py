@@ -5,3 +5,11 @@ from output.models.ms_data.additional.test93490_16_xsd.test93490_16 import (
     SchemaType,
     TruefalseType,
 )
+
+__all__ = [
+    "MapInfo",
+    "MapInfoType",
+    "MapInfoTypeHideInactiveListBorder",
+    "SchemaType",
+    "TruefalseType",
+]

@@ -18,3 +18,24 @@ from output.models.ms_data.wildcards.test328873_xsd.test328873 import (
     Sub5,
     Sub6,
 )
+
+__all__ = [
+    "Base",
+    "Base2",
+    "Base3",
+    "Base4",
+    "Derived",
+    "Derived2",
+    "Derived3",
+    "Derived4",
+    "Derived5",
+    "Doc",
+    "Intersection1",
+    "Intersection2",
+    "Sub",
+    "Sub2",
+    "Sub3",
+    "Sub4",
+    "Sub5",
+    "Sub6",
+]

@@ -3,3 +3,9 @@ from output.models.ms_data.datatypes.facets.g_year.g_year_enumeration004_xsd.g_y
     FooTypeFoo,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "FooTypeFoo",
+    "Test",
+]

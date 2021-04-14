@@ -4,3 +4,10 @@ from output.models.sun_data.elem_decl.abstract.abstract00101m.abstract00101m_xsd
     Member1,
     Root,
 )
+
+__all__ = [
+    "Head",
+    "HeadType",
+    "Member1",
+    "Root",
+]

@@ -3,3 +3,9 @@ from output.models.ms_data.particles.particles_c037_xsd.particles_c037 import (
     Doc,
     Foo,
 )
+
+__all__ = [
+    "Any",
+    "Doc",
+    "Foo",
+]

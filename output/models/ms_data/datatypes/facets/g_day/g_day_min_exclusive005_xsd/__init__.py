@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.g_day.g_day_min_exclusive005_xsd.g_d
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

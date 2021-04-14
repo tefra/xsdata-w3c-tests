@@ -3,3 +3,9 @@ from output.models.ms_data.attribute.att_z015_xsd.att_z015 import (
     Derived,
     Doc,
 )
+
+__all__ = [
+    "Base",
+    "Derived",
+    "Doc",
+]

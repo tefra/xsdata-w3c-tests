@@ -2,3 +2,8 @@ from output.models.sun_data.wildcard.ps_contents.ps_contents00301m.ps_contents00
     A,
     Date,
 )
+
+__all__ = [
+    "A",
+    "Date",
+]

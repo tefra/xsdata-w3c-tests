@@ -2,3 +2,8 @@ from output.models.sun_data.elem_decl.annotation.annotation00101m.annotation0010
     Test,
     Root,
 )
+
+__all__ = [
+    "Test",
+    "Root",
+]

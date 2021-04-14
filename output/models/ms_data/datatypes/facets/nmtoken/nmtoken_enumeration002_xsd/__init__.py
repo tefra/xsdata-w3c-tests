@@ -3,3 +3,9 @@ from output.models.ms_data.datatypes.facets.nmtoken.nmtoken_enumeration002_xsd.n
     FooAttrTest,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "FooAttrTest",
+    "Test",
+]

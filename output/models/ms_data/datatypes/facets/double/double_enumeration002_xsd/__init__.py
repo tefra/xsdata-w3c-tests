@@ -3,3 +3,9 @@ from output.models.ms_data.datatypes.facets.double.double_enumeration002_xsd.dou
     FooTypeFoo,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "FooTypeFoo",
+    "Test",
+]

@@ -2,3 +2,8 @@ from output.models.sun_data.attr_decl.ad_name.ad_name00101m.ad_name00101m4_xsd.a
     ElementWithAttr,
     Root,
 )
+
+__all__ = [
+    "ElementWithAttr",
+    "Root",
+]

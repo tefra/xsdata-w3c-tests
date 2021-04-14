@@ -3,3 +3,9 @@ from output.models.sun_data.elem_decl.type_def.type_def00205m.type_def00205m_xsd
     DefaultTypeElement,
     Root,
 )
+
+__all__ = [
+    "AnyTypeElement",
+    "DefaultTypeElement",
+    "Root",
+]

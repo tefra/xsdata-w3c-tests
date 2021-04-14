@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.short.short_min_inclusive004_xsd.sho
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

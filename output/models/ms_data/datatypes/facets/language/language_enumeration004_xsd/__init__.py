@@ -3,3 +3,9 @@ from output.models.ms_data.datatypes.facets.language.language_enumeration004_xsd
     FooTypeFoo,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "FooTypeFoo",
+    "Test",
+]

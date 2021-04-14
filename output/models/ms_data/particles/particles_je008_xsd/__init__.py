@@ -9,3 +9,13 @@ from output.models.ms_data.particles.particles_je008_xsd.particles_je008_imp imp
     ImpElem1,
     ImpElem2,
 )
+
+__all__ = [
+    "B",
+    "R",
+    "Doc",
+    "ImpB",
+    "ExtRefType",
+    "ImpElem1",
+    "ImpElem2",
+]

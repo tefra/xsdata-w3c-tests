@@ -2,3 +2,8 @@ from output.models.sun_data.ctype.attribute_uses.attribute_uses00101m.attribute_
     A1,
     A,
 )
+
+__all__ = [
+    "A1",
+    "A",
+]

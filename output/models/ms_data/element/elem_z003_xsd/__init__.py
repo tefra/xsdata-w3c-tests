@@ -16,3 +16,22 @@ from output.models.ms_data.element.elem_z003_xsd.elem_z003 import (
     F,
     G,
 )
+
+__all__ = [
+    "AType",
+    "BType",
+    "Container1",
+    "CType",
+    "DType",
+    "EType",
+    "FType",
+    "GType",
+    "A",
+    "B",
+    "C",
+    "Container",
+    "D",
+    "E",
+    "F",
+    "G",
+]

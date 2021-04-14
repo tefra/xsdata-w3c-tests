@@ -4,3 +4,10 @@ from output.models.ms_data.datatypes.facets.notation.notation_enumeration002_xsd
     FooAttrTest,
     Test,
 )
+
+__all__ = [
+    "BuildNotation",
+    "FooType",
+    "FooAttrTest",
+    "Test",
+]

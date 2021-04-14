@@ -8,3 +8,14 @@ from output.models.sun_data.elem_decl.subst_group_affilation.subst_grp_affil0010
     Publication,
     PublicationType,
 )
+
+__all__ = [
+    "Article",
+    "Book",
+    "BookStore",
+    "BookType",
+    "Magazine",
+    "MagazineType",
+    "Publication",
+    "PublicationType",
+]

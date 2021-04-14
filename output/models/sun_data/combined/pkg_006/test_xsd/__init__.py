@@ -16,3 +16,22 @@ from output.models.sun_data.combined.pkg_006.test_xsd.test import (
     Empty,
     Root,
 )
+
+__all__ = [
+    "B",
+    "De",
+    "Dee",
+    "Der",
+    "Dr",
+    "Dre",
+    "Drr",
+    "EB",
+    "EDe",
+    "EDee",
+    "EDer",
+    "EDr",
+    "EDre",
+    "EDrr",
+    "Empty",
+    "Root",
+]

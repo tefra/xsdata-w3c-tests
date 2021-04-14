@@ -13,3 +13,19 @@ from output.models.ms_data.element.elem_t043_xsd.elem_t043 import (
     Test2,
     Test3,
 )
+
+__all__ = [
+    "A",
+    "B",
+    "Ca",
+    "ECa",
+    "RA",
+    "RCa",
+    "UnionA",
+    "UnionAb",
+    "Root",
+    "SA",
+    "Test",
+    "Test2",
+    "Test3",
+]

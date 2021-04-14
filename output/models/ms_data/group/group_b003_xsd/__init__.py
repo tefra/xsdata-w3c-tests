@@ -3,3 +3,9 @@ from output.models.ms_data.group.group_b003_xsd.group_b003 import (
     Doc,
     Elem,
 )
+
+__all__ = [
+    "ComplexType",
+    "Doc",
+    "Elem",
+]

@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.double.double_min_inclusive004_xsd.d
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

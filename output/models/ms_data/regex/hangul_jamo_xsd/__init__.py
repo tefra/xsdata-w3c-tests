@@ -1,1 +1,5 @@
 from output.models.ms_data.regex.hangul_jamo_xsd.hangul_jamo import Doc
+
+__all__ = [
+    "Doc",
+]

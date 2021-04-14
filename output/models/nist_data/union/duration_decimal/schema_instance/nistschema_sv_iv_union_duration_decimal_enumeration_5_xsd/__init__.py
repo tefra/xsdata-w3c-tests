@@ -2,3 +2,8 @@ from output.models.nist_data.union.duration_decimal.schema_instance.nistschema_s
     NistschemaSvIvUnionDurationDecimalEnumeration5,
     NistschemaSvIvUnionDurationDecimalEnumeration5Type,
 )
+
+__all__ = [
+    "NistschemaSvIvUnionDurationDecimalEnumeration5",
+    "NistschemaSvIvUnionDurationDecimalEnumeration5Type",
+]

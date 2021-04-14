@@ -3,3 +3,9 @@ from output.models.ms_data.datatypes.facets.time.time_enumeration002_xsd.time_en
     FooTypeFoo,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "FooTypeFoo",
+    "Test",
+]

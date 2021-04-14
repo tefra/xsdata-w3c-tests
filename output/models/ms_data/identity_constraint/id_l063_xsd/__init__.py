@@ -3,3 +3,9 @@ from output.models.ms_data.identity_constraint.id_l063_xsd.id_l063 import (
     T,
     Ttype,
 )
+
+__all__ = [
+    "Root",
+    "T",
+    "Ttype",
+]

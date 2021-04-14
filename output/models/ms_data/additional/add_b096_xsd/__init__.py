@@ -3,3 +3,9 @@ from output.models.ms_data.additional.add_b096_xsd.add_b096 import (
     Doc,
     Elem,
 )
+
+__all__ = [
+    "ComplexType",
+    "Doc",
+    "Elem",
+]

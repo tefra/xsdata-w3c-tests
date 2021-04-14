@@ -2,3 +2,8 @@ from output.models.nist_data.list_pkg.byte.schema_instance.nistschema_sv_iv_list
     NistschemaSvIvListByteEnumeration3,
     NistschemaSvIvListByteEnumeration3Type,
 )
+
+__all__ = [
+    "NistschemaSvIvListByteEnumeration3",
+    "NistschemaSvIvListByteEnumeration3Type",
+]

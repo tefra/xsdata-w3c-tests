@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.long.long_min_exclusive003_xsd.long_
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

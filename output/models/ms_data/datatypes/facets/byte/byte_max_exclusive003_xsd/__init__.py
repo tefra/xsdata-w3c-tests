@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.byte.byte_max_exclusive003_xsd.byte_
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

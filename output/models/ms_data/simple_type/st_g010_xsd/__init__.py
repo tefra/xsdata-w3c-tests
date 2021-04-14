@@ -3,3 +3,9 @@ from output.models.ms_data.simple_type.st_g010_xsd.st_g010 import (
     FooType,
     Root,
 )
+
+__all__ = [
+    "FooTest",
+    "FooType",
+    "Root",
+]

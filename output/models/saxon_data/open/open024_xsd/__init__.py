@@ -3,3 +3,9 @@ from output.models.saxon_data.open.open024_xsd.open024 import (
     R,
     Doc,
 )
+
+__all__ = [
+    "B",
+    "R",
+    "Doc",
+]

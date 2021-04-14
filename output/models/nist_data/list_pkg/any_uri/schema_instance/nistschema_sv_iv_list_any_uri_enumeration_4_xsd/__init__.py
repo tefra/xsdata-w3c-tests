@@ -2,3 +2,8 @@ from output.models.nist_data.list_pkg.any_uri.schema_instance.nistschema_sv_iv_l
     NistschemaSvIvListAnyUriEnumeration4,
     NistschemaSvIvListAnyUriEnumeration4Type,
 )
+
+__all__ = [
+    "NistschemaSvIvListAnyUriEnumeration4",
+    "NistschemaSvIvListAnyUriEnumeration4Type",
+]

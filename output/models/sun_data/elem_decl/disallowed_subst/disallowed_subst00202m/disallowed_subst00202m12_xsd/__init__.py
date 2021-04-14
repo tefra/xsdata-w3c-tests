@@ -14,3 +14,20 @@ from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00202m.di
     HeadType,
     Root,
 )
+
+__all__ = [
+    "Element0",
+    "Element1",
+    "Element10",
+    "Element2",
+    "Element3",
+    "Element4",
+    "Element5",
+    "Element6",
+    "Element7",
+    "Element8",
+    "Element9",
+    "Head",
+    "HeadType",
+    "Root",
+]

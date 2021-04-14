@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.unsigned_byte.unsigned_byte_total_di
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

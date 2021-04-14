@@ -8,3 +8,14 @@ from output.models.sun_data.elem_decl.name.name008.name00801.name00801_xsd.name0
     GG,
     Root,
 )
+
+__all__ = [
+    "AA",
+    "BB",
+    "CC",
+    "DD",
+    "EE",
+    "FF",
+    "GG",
+    "Root",
+]

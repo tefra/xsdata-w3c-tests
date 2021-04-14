@@ -2,3 +2,8 @@ from output.models.nist_data.list_pkg.g_year.schema_instance.nistschema_sv_iv_li
     NistschemaSvIvListGYearEnumeration4,
     NistschemaSvIvListGYearEnumeration4Type,
 )
+
+__all__ = [
+    "NistschemaSvIvListGYearEnumeration4",
+    "NistschemaSvIvListGYearEnumeration4Type",
+]

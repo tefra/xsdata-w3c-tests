@@ -2,3 +2,8 @@ from output.models.nist_data.atomic.g_year.schema_instance.nistschema_sv_iv_atom
     NistschemaSvIvAtomicGYearEnumeration1,
     NistschemaSvIvAtomicGYearEnumeration1Type,
 )
+
+__all__ = [
+    "NistschemaSvIvAtomicGYearEnumeration1",
+    "NistschemaSvIvAtomicGYearEnumeration1Type",
+]

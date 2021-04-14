@@ -3,3 +3,9 @@ from output.models.ms_data.additional.isdefault078_xsd.xml import (
     LangValue,
     SpaceValue,
 )
+
+__all__ = [
+    "Root",
+    "LangValue",
+    "SpaceValue",
+]

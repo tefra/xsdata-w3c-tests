@@ -2,3 +2,8 @@ from output.models.nist_data.atomic.base64_binary.schema_instance.nistschema_sv_
     NistschemaSvIvAtomicBase64BinaryEnumeration4,
     NistschemaSvIvAtomicBase64BinaryEnumeration4Type,
 )
+
+__all__ = [
+    "NistschemaSvIvAtomicBase64BinaryEnumeration4",
+    "NistschemaSvIvAtomicBase64BinaryEnumeration4Type",
+]

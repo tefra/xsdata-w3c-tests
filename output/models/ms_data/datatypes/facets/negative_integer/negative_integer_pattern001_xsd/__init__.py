@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.negative_integer.negative_integer_pa
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

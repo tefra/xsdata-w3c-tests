@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.qname.qname_min_length002_xsd.qname_
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

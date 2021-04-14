@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.idref.idref_max_length003_xsd.idref_
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

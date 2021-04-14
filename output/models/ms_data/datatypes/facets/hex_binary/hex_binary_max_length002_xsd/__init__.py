@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.hex_binary.hex_binary_max_length002_
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

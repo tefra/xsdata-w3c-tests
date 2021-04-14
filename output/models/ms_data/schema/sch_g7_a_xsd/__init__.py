@@ -17,3 +17,17 @@ from output.models.ms_data.schema.sch_g7_a_xsd.sch_g7_d import (
     E1 as DE1,
     Foo as DFoo,
 )
+
+__all__ = [
+    "CtA",
+    "E1",
+    "Root",
+    "BCtA",
+    "BE1",
+    "CCtA",
+    "CE1",
+    "CFoo",
+    "DCtA",
+    "DE1",
+    "DFoo",
+]

@@ -16,3 +16,22 @@ from output.models.ms_data.additional.add_b122_xsd.add_b122 import (
     M6,
     Root,
 )
+
+__all__ = [
+    "Att1",
+    "Att2",
+    "Ct1",
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "M3",
+    "M4",
+    "M5",
+    "M6",
+    "Root",
+]

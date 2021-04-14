@@ -3,3 +3,9 @@ from output.models.ms_data.group.group_h001_xsd.group_h001 import (
     Doc,
     Elem,
 )
+
+__all__ = [
+    "A",
+    "Doc",
+    "Elem",
+]

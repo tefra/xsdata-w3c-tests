@@ -5,3 +5,11 @@ from output.models.saxon_data.cta.cta0004_xsd.cta0004 import (
     TMin,
     Treq,
 )
+
+__all__ = [
+    "Message",
+    "Messages",
+    "T",
+    "TMin",
+    "Treq",
+]

@@ -16,3 +16,22 @@ from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import (
     Ua,
     Uab,
 )
+
+__all__ = [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "RA1",
+    "UnionA",
+    "UnionAb",
+    "A3",
+    "B3",
+    "Item",
+    "La",
+    "Lab",
+    "Ra",
+    "Root",
+    "Ua",
+    "Uab",
+]

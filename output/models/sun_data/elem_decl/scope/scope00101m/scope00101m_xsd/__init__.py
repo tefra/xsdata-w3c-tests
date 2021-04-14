@@ -2,3 +2,8 @@ from output.models.sun_data.elem_decl.scope.scope00101m.scope00101m_xsd.scope001
     GlobalType,
     Root,
 )
+
+__all__ = [
+    "GlobalType",
+    "Root",
+]

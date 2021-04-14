@@ -2,3 +2,8 @@ from output.models.ms_data.datatypes.facets.name.name_pattern001_xsd.name_patter
     FooType,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "Test",
+]

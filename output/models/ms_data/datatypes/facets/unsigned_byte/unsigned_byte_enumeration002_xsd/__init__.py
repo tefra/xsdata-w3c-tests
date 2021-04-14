@@ -3,3 +3,9 @@ from output.models.ms_data.datatypes.facets.unsigned_byte.unsigned_byte_enumerat
     FooTypeFoo,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "FooTypeFoo",
+    "Test",
+]

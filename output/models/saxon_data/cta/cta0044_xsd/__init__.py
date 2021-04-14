@@ -5,3 +5,11 @@ from output.models.saxon_data.cta.cta0044_xsd.cta0044 import (
     ATypeT,
     Top,
 )
+
+__all__ = [
+    "A",
+    "AType",
+    "ATypeF",
+    "ATypeT",
+    "Top",
+]

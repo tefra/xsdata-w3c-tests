@@ -3,3 +3,9 @@ from output.models.sun_data.ctype.abstract.abstract00101m.abstract00101m1_xsd.ab
     B1,
     B,
 )
+
+__all__ = [
+    "A",
+    "B1",
+    "B",
+]

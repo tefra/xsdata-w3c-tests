@@ -3,3 +3,9 @@ from output.models.ms_data.datatypes.facets.integer.integer_enumeration002_xsd.i
     FooTypeFoo,
     Test,
 )
+
+__all__ = [
+    "FooType",
+    "FooTypeFoo",
+    "Test",
+]

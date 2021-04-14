@@ -3,3 +3,9 @@ from output.models.saxon_data.cta.cta0013_xsd.cta0013 import (
     Doc,
     Part,
 )
+
+__all__ = [
+    "Chap",
+    "Doc",
+    "Part",
+]

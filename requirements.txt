@@ -1,5 +1,5 @@
 pytest
 pytest-xdist
 xmlschema
-git+https://github.com/tefra/xsdata@issue-448#egg=xsdata[cli,lxml]
+git+https://github.com/tefra/xsdata@typing-tweaks#egg=xsdata[cli,lxml]
 pre-commit

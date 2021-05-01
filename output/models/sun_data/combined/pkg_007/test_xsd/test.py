@@ -10,14 +10,14 @@ class Emptywc:
         name = "emptywc"
         namespace = "urn:foo"
 
-    a_attributes: Dict = field(
+    a_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "urn:a",
         }
     )
-    b_attributes: Dict = field(
+    b_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -32,14 +32,14 @@ class JustA:
         name = "justA"
         namespace = "urn:foo"
 
-    a_attributes: Dict = field(
+    a_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "urn:a",
         }
     )
-    a_b_c_attributes: Dict = field(
+    a_b_c_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

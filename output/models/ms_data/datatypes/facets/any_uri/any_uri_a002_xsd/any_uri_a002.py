@@ -11,7 +11,7 @@ class Foo:
         name = "foo"
         namespace = "あ"
 
-    attributes: Dict = field(
+    attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

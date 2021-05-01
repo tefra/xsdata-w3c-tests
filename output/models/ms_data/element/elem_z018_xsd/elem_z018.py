@@ -378,7 +378,7 @@ class Root:
             "required": True,
         }
     )
-    w3_org_xml_1998_namespace_attributes: Dict = field(
+    w3_org_xml_1998_namespace_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

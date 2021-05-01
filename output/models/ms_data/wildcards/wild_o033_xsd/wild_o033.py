@@ -10,7 +10,7 @@ class Foo:
         name = "foo"
         namespace = "http://foobar"
 
-    local_foobar_attributes: Dict = field(
+    local_foobar_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

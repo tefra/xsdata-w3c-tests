@@ -9,7 +9,7 @@ class Base:
     class Meta:
         name = "base"
 
-    a_b_attributes: Dict = field(
+    a_b_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -31,7 +31,7 @@ class Extension(Base):
         name = "extension"
         namespace = "urn:foo"
 
-    c_attributes: Dict = field(
+    c_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -46,7 +46,7 @@ class Restriction(Base):
         name = "restriction"
         namespace = "urn:foo"
 
-    a_attributes: Dict = field(
+    a_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

@@ -10,7 +10,7 @@ class Foo:
         name = "foo"
         namespace = "http://foobar"
 
-    local_w3_org_1999_xhtml_attributes: Dict = field(
+    local_w3_org_1999_xhtml_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

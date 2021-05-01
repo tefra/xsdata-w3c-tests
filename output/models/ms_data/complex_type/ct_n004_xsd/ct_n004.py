@@ -31,7 +31,7 @@ class Foo:
             "namespace": "",
         }
     )
-    any_attributes: Dict = field(
+    any_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -54,7 +54,7 @@ class FooType(Foo):
             "required": True,
         }
     )
-    local_attributes: Dict = field(
+    local_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

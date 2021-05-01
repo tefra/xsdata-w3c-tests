@@ -44,7 +44,7 @@ class T:
 
     @dataclass
     class E1:
-        other_attributes: Dict = field(
+        other_attributes: Dict[str, str] = field(
             default_factory=dict,
             metadata={
                 "type": "Attributes",
@@ -54,7 +54,7 @@ class T:
 
     @dataclass
     class E2:
-        target_namespace_attributes: Dict = field(
+        target_namespace_attributes: Dict[str, str] = field(
             default_factory=dict,
             metadata={
                 "type": "Attributes",
@@ -64,7 +64,7 @@ class T:
 
     @dataclass
     class E3:
-        local_attributes: Dict = field(
+        local_attributes: Dict[str, str] = field(
             default_factory=dict,
             metadata={
                 "type": "Attributes",
@@ -74,7 +74,7 @@ class T:
 
     @dataclass
     class E4:
-        any_attributes: Dict = field(
+        any_attributes: Dict[str, str] = field(
             default_factory=dict,
             metadata={
                 "type": "Attributes",

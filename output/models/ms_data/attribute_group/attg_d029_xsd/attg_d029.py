@@ -16,7 +16,7 @@ class AttRef:
             "namespace": "http://xsdtesting",
         }
     )
-    target_namespace_attributes: Dict = field(
+    target_namespace_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

@@ -10,7 +10,7 @@ class A:
         name = "a"
         namespace = "nsConstraint"
 
-    ns_test1_ns_test2_attributes: Dict = field(
+    ns_test1_ns_test2_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

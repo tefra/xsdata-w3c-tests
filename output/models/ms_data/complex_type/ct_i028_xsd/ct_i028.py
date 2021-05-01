@@ -33,7 +33,7 @@ class FooType:
             "namespace": "",
         }
     )
-    other_attributes: Dict = field(
+    other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

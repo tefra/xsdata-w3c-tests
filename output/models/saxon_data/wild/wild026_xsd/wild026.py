@@ -4,14 +4,14 @@ from typing import Dict
 
 @dataclass
 class T:
-    any_attributes: Dict = field(
+    any_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##any",
         }
     )
-    adam_com_eve_com_attributes: Dict = field(
+    adam_com_eve_com_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

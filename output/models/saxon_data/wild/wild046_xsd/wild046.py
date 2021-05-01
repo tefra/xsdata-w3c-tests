@@ -7,7 +7,7 @@ class Computer1:
     class Meta:
         name = "computer"
 
-    local_attributes: Dict = field(
+    local_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -21,7 +21,7 @@ class ExtendedComputer(Computer1):
     class Meta:
         name = "extendedComputer"
 
-    any_attributes: Dict = field(
+    any_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

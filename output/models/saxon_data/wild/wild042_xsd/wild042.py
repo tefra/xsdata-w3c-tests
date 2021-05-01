@@ -7,7 +7,7 @@ class Computer:
     class Meta:
         name = "computer"
 
-    w3_org_2001_xmlschema_instance_attributes: Dict = field(
+    w3_org_2001_xmlschema_instance_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

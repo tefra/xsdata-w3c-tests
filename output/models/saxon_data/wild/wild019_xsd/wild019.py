@@ -4,7 +4,7 @@ from typing import Dict
 
 @dataclass
 class B:
-    any_attributes: Dict = field(
+    any_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -15,7 +15,7 @@ class B:
 
 @dataclass
 class R(B):
-    eve_com_attributes: Dict = field(
+    eve_com_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

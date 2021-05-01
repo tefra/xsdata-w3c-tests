@@ -53,7 +53,7 @@ class Root:
 
     @dataclass
     class SkipAny:
-        any_attributes: Dict = field(
+        any_attributes: Dict[str, str] = field(
             default_factory=dict,
             metadata={
                 "type": "Attributes",
@@ -63,7 +63,7 @@ class Root:
 
     @dataclass
     class LaxAny:
-        any_attributes: Dict = field(
+        any_attributes: Dict[str, str] = field(
             default_factory=dict,
             metadata={
                 "type": "Attributes",
@@ -73,7 +73,7 @@ class Root:
 
     @dataclass
     class StrictAny:
-        any_attributes: Dict = field(
+        any_attributes: Dict[str, str] = field(
             default_factory=dict,
             metadata={
                 "type": "Attributes",
@@ -83,7 +83,7 @@ class Root:
 
     @dataclass
     class SkipOther:
-        other_attributes: Dict = field(
+        other_attributes: Dict[str, str] = field(
             default_factory=dict,
             metadata={
                 "type": "Attributes",
@@ -93,7 +93,7 @@ class Root:
 
     @dataclass
     class LaxLocal:
-        local_attributes: Dict = field(
+        local_attributes: Dict[str, str] = field(
             default_factory=dict,
             metadata={
                 "type": "Attributes",
@@ -103,7 +103,7 @@ class Root:
 
     @dataclass
     class StrictLocal:
-        local_attributes: Dict = field(
+        local_attributes: Dict[str, str] = field(
             default_factory=dict,
             metadata={
                 "type": "Attributes",
@@ -113,7 +113,7 @@ class Root:
 
     @dataclass
     class StrictTarget:
-        target_namespace_attributes: Dict = field(
+        target_namespace_attributes: Dict[str, str] = field(
             default_factory=dict,
             metadata={
                 "type": "Attributes",
@@ -123,7 +123,7 @@ class Root:
 
     @dataclass
     class SkipBar:
-        bar_attributes: Dict = field(
+        bar_attributes: Dict[str, str] = field(
             default_factory=dict,
             metadata={
                 "type": "Attributes",

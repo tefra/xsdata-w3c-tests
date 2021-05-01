@@ -16,7 +16,7 @@ class Foo:
             "required": True,
         }
     )
-    local_attributes: Dict = field(
+    local_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

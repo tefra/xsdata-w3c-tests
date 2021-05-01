@@ -7,14 +7,14 @@ class Beta:
     class Meta:
         name = "beta"
 
-    other_attributes: Dict = field(
+    other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
         }
     )
-    w3_org_xml_1998_namespace_attributes: Dict = field(
+    w3_org_xml_1998_namespace_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -36,7 +36,7 @@ class Doc:
             "mixed": True,
         }
     )
-    w3_org_xml_1998_namespace_attributes: Dict = field(
+    w3_org_xml_1998_namespace_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

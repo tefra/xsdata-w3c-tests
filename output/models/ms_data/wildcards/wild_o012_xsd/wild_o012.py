@@ -16,7 +16,7 @@ class Foo:
             "required": True,
         }
     )
-    target_namespace_w3_org_1999_xhtml_attributes: Dict = field(
+    target_namespace_w3_org_1999_xhtml_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

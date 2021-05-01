@@ -69,7 +69,7 @@ class Appinfo:
             "type": "Attribute",
         }
     )
-    other_attributes: Dict = field(
+    other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -554,7 +554,7 @@ class Documentation:
             "namespace": "http://www.w3.org/XML/1998/namespace",
         }
     )
-    other_attributes: Dict = field(
+    other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -659,7 +659,7 @@ class Expected:
             "tokens": True,
         }
     )
-    other_attributes: Dict = field(
+    other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -697,7 +697,7 @@ class Annotation:
             ),
         }
     )
-    other_attributes: Dict = field(
+    other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -732,7 +732,7 @@ class Ref:
             "namespace": "http://www.w3.org/1999/xlink",
         }
     )
-    other_attributes: Dict = field(
+    other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -774,7 +774,7 @@ class StatusEntry:
             "pattern": r"http://www\.w3\.org/Bugs/Public/show_bug\.cgi\?id=[0-9]*",
         }
     )
-    other_attributes: Dict = field(
+    other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -887,7 +887,7 @@ class TestResult:
             "type": "Attribute",
         }
     )
-    other_attributes: Dict = field(
+    other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -1082,7 +1082,7 @@ class TestSuiteResults:
             "type": "Attribute",
         }
     )
-    other_attributes: Dict = field(
+    other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -1247,7 +1247,7 @@ class InstanceTest:
             "tokens": True,
         }
     )
-    other_attributes: Dict = field(
+    other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -1415,7 +1415,7 @@ class SchemaTest:
             "tokens": True,
         }
     )
-    other_attributes: Dict = field(
+    other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -1542,7 +1542,7 @@ class TestSuite:
             "tokens": True,
         }
     )
-    other_attributes: Dict = field(
+    other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -1715,7 +1715,7 @@ class TestGroup:
             "tokens": True,
         }
     )
-    other_attributes: Dict = field(
+    other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
@@ -1836,7 +1836,7 @@ class TestSet:
             "tokens": True,
         }
     )
-    other_attributes: Dict = field(
+    other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",

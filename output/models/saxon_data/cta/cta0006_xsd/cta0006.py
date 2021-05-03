@@ -29,38 +29,17 @@ class DateMessageType(MessageType):
     class Meta:
         name = "dateMessageType"
 
-    value: Optional[XmlDate] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-
 
 @dataclass
 class DecimalMessageType(MessageType):
     class Meta:
         name = "decimalMessageType"
 
-    value: Optional[Decimal] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-
 
 @dataclass
 class IntMessageType(MessageType):
     class Meta:
         name = "intMessageType"
-
-    value: Optional[int] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
 
 
 @dataclass
@@ -74,38 +53,17 @@ class QNameMessageType(MessageType):
     class Meta:
         name = "qNameMessageType"
 
-    value: Optional[QName] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-
 
 @dataclass
 class StringMessageType(MessageType):
     class Meta:
         name = "stringMessageType"
 
-    value: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
-
 
 @dataclass
 class TimeMessageType(MessageType):
     class Meta:
         name = "timeMessageType"
-
-    value: Optional[XmlTime] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-        }
-    )
 
 
 @dataclass

@@ -78,11 +78,4 @@ class Dee(De):
 
 @dataclass
 class Der(De):
-    foo: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "foo",
-            "required": True,
-        }
-    )
+    pass

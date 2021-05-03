@@ -55,14 +55,6 @@ class Ct2(Ct1):
     class Meta:
         name = "CT2"
 
-    att1: Optional[int] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "namespace": "http://xsdtesting",
-        }
-    )
-
 
 @dataclass
 class E3(Ct2):

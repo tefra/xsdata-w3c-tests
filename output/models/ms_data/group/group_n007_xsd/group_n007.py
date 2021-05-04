@@ -15,41 +15,6 @@ class Elem:
             "mixed": True,
         }
     )
-    a1: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    a2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    a3: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    a4: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    a5: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
 
 
 @dataclass

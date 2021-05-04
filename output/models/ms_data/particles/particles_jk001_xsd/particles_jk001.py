@@ -1,6 +1,5 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
-from output.models.ms_data.particles.particles_jk001_xsd.particles_jk001_imp import ImpElem1
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -18,14 +17,7 @@ class B:
 
 @dataclass
 class R(B):
-    imp_elem1: Optional[ImpElem1] = field(
-        default=None,
-        metadata={
-            "name": "impElem1",
-            "type": "Element",
-            "namespace": "http://importedXSD",
-        }
-    )
+    pass
 
 
 @dataclass

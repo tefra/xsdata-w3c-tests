@@ -1,5 +1,4 @@
-from dataclasses import dataclass, field
-from typing import Optional
+from dataclasses import dataclass
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -8,21 +7,6 @@ __NAMESPACE__ = "http://xsdtesting"
 class Base:
     class Meta:
         name = "base"
-
-    e1: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
-    e2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
 
 
 @dataclass

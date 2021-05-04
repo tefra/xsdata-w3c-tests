@@ -33,13 +33,7 @@ class Foo:
 
 @dataclass
 class R(B):
-    foo: Optional[Foo] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-        }
-    )
+    pass
 
 
 @dataclass

@@ -1,19 +1,10 @@
-from dataclasses import dataclass, field
-from typing import Optional
+from dataclasses import dataclass
 
 
 @dataclass
 class Foo:
     class Meta:
         name = "foo"
-
-    e1: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
 
 
 @dataclass

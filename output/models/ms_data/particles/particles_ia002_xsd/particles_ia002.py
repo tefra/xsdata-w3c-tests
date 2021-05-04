@@ -58,21 +58,3 @@ class Doc(Base):
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
-
-    e1: List[T1] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "min_occurs": 2,
-            "max_occurs": 2,
-            "nillable": True,
-        }
-    )
-    e2: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "min_occurs": 3,
-            "max_occurs": 5,
-        }
-    )

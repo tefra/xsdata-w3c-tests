@@ -90,16 +90,6 @@ class Ct3(Ct1):
     class Meta:
         name = "ct3"
 
-    foo: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "min_occurs": 3,
-            "max_occurs": 3,
-        }
-    )
-
 
 @dataclass
 class R:

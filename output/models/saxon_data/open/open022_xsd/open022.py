@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List
 
 
 @dataclass
@@ -15,14 +15,7 @@ class B:
 
 @dataclass
 class R(B):
-    open_com_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "http://open.com/",
-            "required": True,
-        }
-    )
+    pass
 
 
 @dataclass

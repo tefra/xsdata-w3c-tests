@@ -39,16 +39,6 @@ class MyType(NsAAft):
     class Meta:
         name = "myType"
 
-    x: List[str] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "min_occurs": 1,
-            "max_occurs": 2,
-        }
-    )
-
 
 @dataclass
 class Abc(MyType):

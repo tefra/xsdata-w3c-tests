@@ -49,29 +49,11 @@ class ATypeF(AType):
     class Meta:
         name = "aType_f"
 
-    f: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "abc",
-            "required": True,
-        }
-    )
-
 
 @dataclass
 class ATypeT(AType):
     class Meta:
         name = "aType_t"
-
-    t: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "abc",
-            "required": True,
-        }
-    )
 
 
 @dataclass

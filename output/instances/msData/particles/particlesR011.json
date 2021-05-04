@@ -2,6 +2,6 @@
     "elem": {
         "foo": "",
         "any_element": [],
-        "e1_or_e2": []
+        "e1": []
     }
 }

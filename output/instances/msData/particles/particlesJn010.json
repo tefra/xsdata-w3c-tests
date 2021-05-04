@@ -1,6 +1,5 @@
 {
     "elem": {
-        "foo_imported_xsd_bar_element": null,
-        "impElem1": null
+        "foo_imported_xsd_bar_element": null
     }
 }

@@ -15,20 +15,6 @@ class Elem:
             "mixed": True,
         }
     )
-    b1: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    b2: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
 
 
 @dataclass

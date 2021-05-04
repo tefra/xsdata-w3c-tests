@@ -6,13 +6,6 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class B:
-    any_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-        }
-    )
     e2: Optional[object] = field(
         default=None,
         metadata={
@@ -24,29 +17,8 @@ class B:
 
 
 @dataclass
-class R:
-    any_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-        }
-    )
-    e1: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-    e2: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
+class R(B):
+    pass
 
 
 @dataclass

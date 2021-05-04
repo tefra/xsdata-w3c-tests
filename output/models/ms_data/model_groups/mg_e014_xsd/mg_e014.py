@@ -21,14 +21,6 @@ class SimpleName(PersonName):
     class Meta:
         name = "simpleName"
 
-    title: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-
 
 @dataclass
 class Who(SimpleName):

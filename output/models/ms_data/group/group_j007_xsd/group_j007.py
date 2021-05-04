@@ -3,28 +3,20 @@ from typing import Optional
 
 
 @dataclass
-class Elem:
-    class Meta:
-        name = "elem"
-
-    b1: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
-
-
-@dataclass
 class Doc:
     class Meta:
         name = "doc"
 
-    elem: Optional[Elem] = field(
+    elem: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
         }
     )
+
+
+@dataclass
+class Elem:
+    class Meta:
+        name = "elem"

@@ -15,13 +15,6 @@ class Foo:
             "required": True,
         }
     )
-    e1: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
 
 
 @dataclass

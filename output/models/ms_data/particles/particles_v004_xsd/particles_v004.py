@@ -29,24 +29,7 @@ class B:
 
 @dataclass
 class R(B):
-    e1: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "min_occurs": 1,
-            "max_occurs": 3,
-        }
-    )
-    e2: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "min_occurs": 1,
-            "max_occurs": 3,
-        }
-    )
+    pass
 
 
 @dataclass

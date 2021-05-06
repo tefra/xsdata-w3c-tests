@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<a:sub3 xmlns:a="a" xmlns:b="b" xmlns:x="x" a:att1="abc" att2="bc" b:att3="foo" x:att4="val" att="a"/>
+<a:sub3 xmlns:a="a" xmlns:b="b" xmlns:x="x" att2="bc" b:att3="foo" x:att4="val" att="a"/>

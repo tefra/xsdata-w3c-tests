@@ -1,6 +1,5 @@
 {
     "foobar_attributes": {
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://foobar wildO031.xsd",
         "{http://foobar}name": "bar"
     }
 }

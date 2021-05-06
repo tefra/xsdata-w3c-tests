@@ -52,7 +52,5 @@
             }
         }
     },
-    "w3_org_xml_1998_namespace_attributes": {
-        "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "elemZ018.xsd"
-    }
+    "w3_org_xml_1998_namespace_attributes": {}
 }

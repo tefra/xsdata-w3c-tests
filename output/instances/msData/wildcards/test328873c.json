@@ -1,6 +1,5 @@
 {
     "other_attributes": {
-        "{a}att1": "abc",
         "att2": "bc",
         "{b}att3": "foo",
         "{x}att4": "val",

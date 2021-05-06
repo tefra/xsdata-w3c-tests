@@ -1,22 +1,7 @@
 {
     "elem": {
-        "e1_or_e2_or_e3": [
-            {
-                "qname": "e1",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            },
-            {
-                "qname": "e2",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            }
-        ],
-        "e1": null,
-        "e2": null
+        "e1_or_e2_or_e3": [],
+        "e1": "",
+        "e2": ""
     }
 }

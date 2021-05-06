@@ -1,8 +1,9 @@
 {
     "abel_com_adam_com_attributes": {
         "{http://abel.com/}abel": "abel",
-        "{http://adam.com/}adam": "adam",
-        "{http://eve.com/}eve": "eve"
+        "{http://adam.com/}adam": "adam"
     },
-    "any_attributes": {}
+    "any_attributes": {
+        "{http://eve.com/}eve": "eve"
+    }
 }

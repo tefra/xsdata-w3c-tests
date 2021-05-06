@@ -3,10 +3,11 @@
     "myElement2": "test data",
     "myElement3": "test data",
     "local_attributes": {
-        "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctH011.xsd",
-        "myAttr": "test attribute",
-        "{http://tempuri.org/xmlschema}myAttr1": "another attribute"
+        "myAttr": "test attribute"
     },
     "myElement": "test data",
-    "other_attributes": {}
+    "other_attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctH011.xsd",
+        "{http://tempuri.org/xmlschema}myAttr1": "another attribute"
+    }
 }

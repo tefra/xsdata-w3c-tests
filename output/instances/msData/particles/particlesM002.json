@@ -1,21 +1,9 @@
 {
     "elem": {
-        "choice": [
-            {
-                "qname": "c1",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            },
-            {
-                "qname": "c1",
-                "text": "",
-                "tail": null,
-                "children": [],
-                "attributes": {}
-            }
-        ],
-        "c1": []
+        "choice": [],
+        "c1": [
+            "",
+            ""
+        ]
     }
 }

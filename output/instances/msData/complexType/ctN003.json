@@ -3,9 +3,10 @@
     "myEle2": null,
     "myEle3": null,
     "local_attributes": {
-        "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctN003.xsd",
         "local": "extended attribute"
     },
     "myEle4": "string data",
-    "any_attributes": {}
+    "any_attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctN003.xsd"
+    }
 }

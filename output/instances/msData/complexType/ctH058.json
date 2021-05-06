@@ -3,9 +3,10 @@
     "myElement2": "test data",
     "myElement3": null,
     "local_attributes": {
-        "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctH058.xsd",
         "local": "extension local attribute"
     },
     "myAttr": "extension attribute",
-    "local_target_namespace_attributes": {}
+    "local_target_namespace_attributes": {
+        "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctH058.xsd"
+    }
 }

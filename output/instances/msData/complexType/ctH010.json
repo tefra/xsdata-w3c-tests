@@ -3,7 +3,6 @@
     "myElement2": "test data",
     "myElement3": "test data",
     "local_attributes": {
-        "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctH010.xsd",
         "myAttr": "test attribute"
     },
     "myElement": "test data",

@@ -1,7 +1,6 @@
 {
     "value": null,
     "local_w3_org_1999_xhtml_attributes": {
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://foobar wildO010.xsd http://www.w3.org/1999/xhtml wildO010a.xsd",
         "{http://www.w3.org/1999/xhtml}href": "bar"
     }
 }

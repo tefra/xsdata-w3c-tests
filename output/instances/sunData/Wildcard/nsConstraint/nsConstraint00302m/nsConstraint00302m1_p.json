@@ -1,6 +1,5 @@
 {
     "ns_test1_ns_test2_attributes": {
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "nsConstraint nsConstraint00302m1.xsd",
         "{ns_test1}date": "2002-04-29",
         "{ns_test2}time": "15:15:00"
     }

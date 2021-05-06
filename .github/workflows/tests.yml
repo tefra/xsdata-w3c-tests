@@ -23,6 +23,24 @@ jobs:
           - { name: Python 3.9 XSD, python: 3.9, os: ubuntu, env: "py39-xsd" }
           - { name: Python 3.9 XML, python: 3.9, os: ubuntu, env: "py39-xml" }
           - { name: Python 3.9 JSON, python: 3.9, os: ubuntu, env: "py39-json" }
+          - {
+              name: Python 3.10 XSD,
+              python: 3.10.0-beta - 3.10,
+              os: ubuntu,
+              env: "py310-xsd",
+            }
+          - {
+              name: Python 3.10 XML,
+              python: 3.10.0-beta - 3.10,
+              os: ubuntu,
+              env: "py310-xml",
+            }
+          - {
+              name: Python 3.10 JSON,
+              python: 3.10.0-beta - 3.10,
+              os: ubuntu,
+              env: "py310-json",
+            }
     steps:
       - uses: actions/checkout@v2
         with:
@@ -31,6 +49,10 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: ${{ matrix.python }}
+      - name: Install libxml2
+        if: startsWith(matrix.python, 'pypy') || startsWith(matrix.python, '3.10')
+        run: |
+          sudo apt-get install libxml2-dev libxslt-dev
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip setuptools tox

@@ -10,6 +10,7 @@ def test_introspection_introspect_test_set_introspection_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -22,6 +23,7 @@ def test_introspection_introspect_test_set_nist2004_01_14_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -34,6 +36,7 @@ def test_introspection_introspect_test_set_suntest_3(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -46,6 +49,7 @@ def test_introspection_introspect_test_set_agroup_def_4(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -58,6 +62,7 @@ def test_introspection_introspect_test_set_attr_decl_5(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -70,6 +75,7 @@ def test_introspection_introspect_test_set_attr_use_6(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -82,6 +88,7 @@ def test_introspection_introspect_test_set_ctype_7(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -94,6 +101,7 @@ def test_introspection_introspect_test_set_elem_decl_8(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -106,6 +114,7 @@ def test_introspection_introspect_test_set_id_constr_defs_9(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -118,6 +127,7 @@ def test_introspection_introspect_test_set_mgroup_10(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -130,6 +140,7 @@ def test_introspection_introspect_test_set_mgroup_def_11(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -142,6 +153,7 @@ def test_introspection_introspect_test_set_notation_12(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -154,6 +166,7 @@ def test_introspection_introspect_test_set_stype_13(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -166,6 +179,7 @@ def test_introspection_introspect_test_set_schema_14(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -178,6 +192,7 @@ def test_introspection_introspect_test_set_wildcard_15(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -190,6 +205,7 @@ def test_introspection_introspect_test_set_ms_additional2006_07_15_16(mode, save
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -202,6 +218,7 @@ def test_introspection_introspect_test_set_ms_annotations2006_07_15_17(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -214,6 +231,7 @@ def test_introspection_introspect_test_set_ms_attribute_group2006_07_15_18(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -226,6 +244,7 @@ def test_introspection_introspect_test_set_ms_attribute2006_07_15_19(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -238,6 +257,7 @@ def test_introspection_introspect_test_set_ms_complex_type2006_07_15_20(mode, sa
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -250,6 +270,7 @@ def test_introspection_introspect_test_set_ms_data_types2006_07_15_21(mode, save
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -262,6 +283,7 @@ def test_introspection_introspect_test_set_ms_element2006_07_15_22(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -274,6 +296,7 @@ def test_introspection_introspect_test_set_ms_errata102006_07_15_23(mode, save_o
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -286,6 +309,7 @@ def test_introspection_introspect_test_set_ms_group2006_07_15_24(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -298,6 +322,7 @@ def test_introspection_introspect_test_set_ms_identity_constraint2006_07_15_25(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -310,6 +335,7 @@ def test_introspection_introspect_test_set_ms_model_groups2006_07_15_26(mode, sa
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -322,6 +348,7 @@ def test_introspection_introspect_test_set_ms_notations2006_07_15_27(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -334,6 +361,7 @@ def test_introspection_introspect_test_set_ms_particles2006_07_15_28(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -346,6 +374,7 @@ def test_introspection_introspect_test_set_ms_regex2006_07_15_29(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -358,6 +387,7 @@ def test_introspection_introspect_test_set_ms_schema2006_07_15_30(mode, save_out
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -370,6 +400,7 @@ def test_introspection_introspect_test_set_ms_simple_type2006_07_15_31(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -382,6 +413,7 @@ def test_introspection_introspect_test_set_ms_wildcards2006_07_15_32(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -394,6 +426,7 @@ def test_introspection_introspect_test_set_boeing_xsdtest_cases_33(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -406,6 +439,7 @@ def test_introspection_introspect_test_set_all_34(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -418,6 +452,7 @@ def test_introspection_introspect_test_set_assert_35(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -430,6 +465,7 @@ def test_introspection_introspect_test_set_complex_36(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -442,6 +478,7 @@ def test_introspection_introspect_test_set_cta_37(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -454,6 +491,7 @@ def test_introspection_introspect_test_set_id_38(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -466,6 +504,7 @@ def test_introspection_introspect_test_set_open_39(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -478,6 +517,7 @@ def test_introspection_introspect_test_set_override_40(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -490,6 +530,7 @@ def test_introspection_introspect_test_set_simple_41(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -502,6 +543,7 @@ def test_introspection_introspect_test_set_subsgroup_42(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -514,6 +556,7 @@ def test_introspection_introspect_test_set_target_ns_43(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -526,6 +569,7 @@ def test_introspection_introspect_test_set_vc_44(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -538,6 +582,7 @@ def test_introspection_introspect_test_set_wild_45(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -550,6 +595,7 @@ def test_introspection_introspect_test_set_xml_versions_46(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -562,6 +608,7 @@ def test_introspection_introspect_test_set_zone_47(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -574,6 +621,7 @@ def test_introspection_introspect_test_set_zone_48(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -586,6 +634,7 @@ def test_introspection_introspect_test_set_substitution_groups_49(mode, save_out
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -598,6 +647,7 @@ def test_introspection_introspect_test_set_all_group_50(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -610,6 +660,7 @@ def test_introspection_introspect_test_set_any_attribute_51(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -622,6 +673,7 @@ def test_introspection_introspect_test_set_assert_52(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -634,6 +686,7 @@ def test_introspection_introspect_test_set_assertion_53(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -646,6 +699,7 @@ def test_introspection_introspect_test_set_conditional_inclusion_54(mode, save_o
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -658,6 +712,7 @@ def test_introspection_introspect_test_set_constraints_on_attribute_55(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -670,6 +725,7 @@ def test_introspection_introspect_test_set_cyclic_dependencies_redefine_include_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -682,6 +738,7 @@ def test_introspection_introspect_test_set_date_57(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -694,6 +751,7 @@ def test_introspection_introspect_test_set_date_time_stamp_58(mode, save_output)
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -706,6 +764,7 @@ def test_introspection_introspect_test_set_day_time_duration_59(mode, save_outpu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -718,6 +777,7 @@ def test_introspection_introspect_test_set_default_attributes_apply_60(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -730,6 +790,7 @@ def test_introspection_introspect_test_set_default_fixed_61(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -742,6 +803,7 @@ def test_introspection_introspect_test_set_double_62(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -754,6 +816,7 @@ def test_introspection_introspect_test_set_edcwildcard_63(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -766,6 +829,7 @@ def test_introspection_introspect_test_set_explicit_timezone_64(mode, save_outpu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -778,6 +842,7 @@ def test_introspection_introspect_test_set_float_65(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -790,6 +855,7 @@ def test_introspection_introspect_test_set_g_year_month_66(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -802,6 +868,7 @@ def test_introspection_introspect_test_set_g_year_67(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -814,6 +881,7 @@ def test_introspection_introspect_test_set_g_month_day_68(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -826,6 +894,7 @@ def test_introspection_introspect_test_set_g_day_69(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -838,6 +907,7 @@ def test_introspection_introspect_test_set_g_month_70(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -850,6 +920,7 @@ def test_introspection_introspect_test_set_id_idref_71(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -862,6 +933,7 @@ def test_introspection_introspect_test_set_identity_constraint_72(mode, save_out
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -874,6 +946,7 @@ def test_introspection_introspect_test_set_list_73(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -886,6 +959,7 @@ def test_introspection_introspect_test_set_popen_content_74(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -898,6 +972,7 @@ def test_introspection_introspect_test_set_regular_expression_75(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -910,6 +985,7 @@ def test_introspection_introspect_test_set_restriction_of_complex_types_76(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -922,6 +998,7 @@ def test_introspection_introspect_test_set_rf_white_space_77(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -934,6 +1011,7 @@ def test_introspection_introspect_test_set_substitution_group_78(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -946,6 +1024,7 @@ def test_introspection_introspect_test_set_target_ns_79(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -958,6 +1037,7 @@ def test_introspection_introspect_test_set_time_80(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -970,6 +1050,7 @@ def test_introspection_introspect_test_set_type_alternative_tests_81(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -982,6 +1063,7 @@ def test_introspection_introspect_test_set_cta_82(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -994,6 +1076,7 @@ def test_introspection_introspect_test_set_union_83(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1006,6 +1089,7 @@ def test_introspection_introspect_test_set_units_length_84(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1018,6 +1102,7 @@ def test_introspection_introspect_test_set_unsigned_integers_85(mode, save_outpu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1030,6 +1115,7 @@ def test_introspection_introspect_test_set_vc_86(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1042,6 +1128,7 @@ def test_introspection_introspect_test_set_wildcard_87(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1054,6 +1141,7 @@ def test_introspection_introspect_test_set_xml11_support_88(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1066,6 +1154,7 @@ def test_introspection_introspect_test_set_xpath_default_nson_key_key_ref_unique
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1078,6 +1167,7 @@ def test_introspection_introspect_test_set_xsimport_reference_90(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1090,4 +1180,5 @@ def test_introspection_introspect_test_set_year_month_duration_91(mode, save_out
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )

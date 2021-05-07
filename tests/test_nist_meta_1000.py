@@ -15,6 +15,7 @@ def test_union_short_g_year_enumeration_9_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -30,6 +31,7 @@ def test_union_short_g_year_enumeration_9_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -45,6 +47,7 @@ def test_union_short_g_year_enumeration_9_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -60,6 +63,7 @@ def test_union_short_g_year_enumeration_9_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -75,6 +79,7 @@ def test_union_short_g_year_enumeration_9_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -90,6 +95,7 @@ def test_union_short_g_year_enumeration_8_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -105,6 +111,7 @@ def test_union_short_g_year_enumeration_8_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -120,6 +127,7 @@ def test_union_short_g_year_enumeration_8_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -135,6 +143,7 @@ def test_union_short_g_year_enumeration_8_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -150,6 +159,7 @@ def test_union_short_g_year_enumeration_8_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -165,6 +175,7 @@ def test_union_short_g_year_enumeration_7_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -180,6 +191,7 @@ def test_union_short_g_year_enumeration_7_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -195,6 +207,7 @@ def test_union_short_g_year_enumeration_7_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -210,6 +223,7 @@ def test_union_short_g_year_enumeration_7_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -225,6 +239,7 @@ def test_union_short_g_year_enumeration_7_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -240,6 +255,7 @@ def test_union_short_g_year_enumeration_6_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -255,6 +271,7 @@ def test_union_short_g_year_enumeration_6_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -270,6 +287,7 @@ def test_union_short_g_year_enumeration_6_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -285,6 +303,7 @@ def test_union_short_g_year_enumeration_6_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -300,6 +319,7 @@ def test_union_short_g_year_enumeration_6_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -315,6 +335,7 @@ def test_union_short_g_year_enumeration_5_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -330,6 +351,7 @@ def test_union_short_g_year_enumeration_5_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -345,6 +367,7 @@ def test_union_short_g_year_enumeration_5_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -360,6 +383,7 @@ def test_union_short_g_year_enumeration_5_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -375,6 +399,7 @@ def test_union_short_g_year_enumeration_5_nistxml_sv_ii_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -391,6 +416,7 @@ def test_union_short_g_year_pattern_9_nistxml_sv_ii_union_short_g_year_pattern_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -407,6 +433,7 @@ def test_union_short_g_year_pattern_9_nistxml_sv_ii_union_short_g_year_pattern_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -423,6 +450,7 @@ def test_union_short_g_year_pattern_9_nistxml_sv_ii_union_short_g_year_pattern_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -439,6 +467,7 @@ def test_union_short_g_year_pattern_9_nistxml_sv_ii_union_short_g_year_pattern_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -455,6 +484,7 @@ def test_union_short_g_year_pattern_9_nistxml_sv_ii_union_short_g_year_pattern_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -471,6 +501,7 @@ def test_union_short_g_year_pattern_8_nistxml_sv_ii_union_short_g_year_pattern_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -487,6 +518,7 @@ def test_union_short_g_year_pattern_8_nistxml_sv_ii_union_short_g_year_pattern_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -503,6 +535,7 @@ def test_union_short_g_year_pattern_8_nistxml_sv_ii_union_short_g_year_pattern_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -519,6 +552,7 @@ def test_union_short_g_year_pattern_8_nistxml_sv_ii_union_short_g_year_pattern_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -535,6 +569,7 @@ def test_union_short_g_year_pattern_8_nistxml_sv_ii_union_short_g_year_pattern_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -551,6 +586,7 @@ def test_union_short_g_year_pattern_7_nistxml_sv_ii_union_short_g_year_pattern_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -567,6 +603,7 @@ def test_union_short_g_year_pattern_7_nistxml_sv_ii_union_short_g_year_pattern_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -583,6 +620,7 @@ def test_union_short_g_year_pattern_7_nistxml_sv_ii_union_short_g_year_pattern_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -599,6 +637,7 @@ def test_union_short_g_year_pattern_7_nistxml_sv_ii_union_short_g_year_pattern_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -615,6 +654,7 @@ def test_union_short_g_year_pattern_7_nistxml_sv_ii_union_short_g_year_pattern_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -631,6 +671,7 @@ def test_union_short_g_year_pattern_6_nistxml_sv_ii_union_short_g_year_pattern_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -647,6 +688,7 @@ def test_union_short_g_year_pattern_6_nistxml_sv_ii_union_short_g_year_pattern_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -663,6 +705,7 @@ def test_union_short_g_year_pattern_6_nistxml_sv_ii_union_short_g_year_pattern_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -679,6 +722,7 @@ def test_union_short_g_year_pattern_6_nistxml_sv_ii_union_short_g_year_pattern_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -695,6 +739,7 @@ def test_union_short_g_year_pattern_6_nistxml_sv_ii_union_short_g_year_pattern_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -711,6 +756,7 @@ def test_union_short_g_year_pattern_5_nistxml_sv_ii_union_short_g_year_pattern_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -727,6 +773,7 @@ def test_union_short_g_year_pattern_5_nistxml_sv_ii_union_short_g_year_pattern_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -743,6 +790,7 @@ def test_union_short_g_year_pattern_5_nistxml_sv_ii_union_short_g_year_pattern_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -759,6 +807,7 @@ def test_union_short_g_year_pattern_5_nistxml_sv_ii_union_short_g_year_pattern_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -775,6 +824,7 @@ def test_union_short_g_year_pattern_5_nistxml_sv_ii_union_short_g_year_pattern_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -790,6 +840,7 @@ def test_union_g_month_day_g_year_month_enumeration_9_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -805,6 +856,7 @@ def test_union_g_month_day_g_year_month_enumeration_9_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -820,6 +872,7 @@ def test_union_g_month_day_g_year_month_enumeration_9_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -835,6 +888,7 @@ def test_union_g_month_day_g_year_month_enumeration_9_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -850,6 +904,7 @@ def test_union_g_month_day_g_year_month_enumeration_9_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -865,6 +920,7 @@ def test_union_g_month_day_g_year_month_enumeration_8_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -880,6 +936,7 @@ def test_union_g_month_day_g_year_month_enumeration_8_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -895,6 +952,7 @@ def test_union_g_month_day_g_year_month_enumeration_8_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -910,6 +968,7 @@ def test_union_g_month_day_g_year_month_enumeration_8_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -925,6 +984,7 @@ def test_union_g_month_day_g_year_month_enumeration_8_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -940,6 +1000,7 @@ def test_union_g_month_day_g_year_month_enumeration_7_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -955,6 +1016,7 @@ def test_union_g_month_day_g_year_month_enumeration_7_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -970,6 +1032,7 @@ def test_union_g_month_day_g_year_month_enumeration_7_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -985,6 +1048,7 @@ def test_union_g_month_day_g_year_month_enumeration_7_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1000,6 +1064,7 @@ def test_union_g_month_day_g_year_month_enumeration_7_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1015,6 +1080,7 @@ def test_union_g_month_day_g_year_month_enumeration_6_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1030,6 +1096,7 @@ def test_union_g_month_day_g_year_month_enumeration_6_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1045,6 +1112,7 @@ def test_union_g_month_day_g_year_month_enumeration_6_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1060,6 +1128,7 @@ def test_union_g_month_day_g_year_month_enumeration_6_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1075,6 +1144,7 @@ def test_union_g_month_day_g_year_month_enumeration_6_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1090,6 +1160,7 @@ def test_union_g_month_day_g_year_month_enumeration_5_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1105,6 +1176,7 @@ def test_union_g_month_day_g_year_month_enumeration_5_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1120,6 +1192,7 @@ def test_union_g_month_day_g_year_month_enumeration_5_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1135,6 +1208,7 @@ def test_union_g_month_day_g_year_month_enumeration_5_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1150,6 +1224,7 @@ def test_union_g_month_day_g_year_month_enumeration_5_nistxml_sv_ii_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1166,6 +1241,7 @@ def test_union_g_month_day_g_year_month_pattern_9_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1182,6 +1258,7 @@ def test_union_g_month_day_g_year_month_pattern_9_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1198,6 +1275,7 @@ def test_union_g_month_day_g_year_month_pattern_9_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1214,6 +1292,7 @@ def test_union_g_month_day_g_year_month_pattern_9_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1230,6 +1309,7 @@ def test_union_g_month_day_g_year_month_pattern_9_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1246,6 +1326,7 @@ def test_union_g_month_day_g_year_month_pattern_8_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1262,6 +1343,7 @@ def test_union_g_month_day_g_year_month_pattern_8_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1278,6 +1360,7 @@ def test_union_g_month_day_g_year_month_pattern_8_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1294,6 +1377,7 @@ def test_union_g_month_day_g_year_month_pattern_8_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1310,6 +1394,7 @@ def test_union_g_month_day_g_year_month_pattern_8_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1326,6 +1411,7 @@ def test_union_g_month_day_g_year_month_pattern_7_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1342,6 +1428,7 @@ def test_union_g_month_day_g_year_month_pattern_7_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1358,6 +1445,7 @@ def test_union_g_month_day_g_year_month_pattern_7_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1374,6 +1462,7 @@ def test_union_g_month_day_g_year_month_pattern_7_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1390,6 +1479,7 @@ def test_union_g_month_day_g_year_month_pattern_7_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1406,6 +1496,7 @@ def test_union_g_month_day_g_year_month_pattern_6_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1422,6 +1513,7 @@ def test_union_g_month_day_g_year_month_pattern_6_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1438,6 +1530,7 @@ def test_union_g_month_day_g_year_month_pattern_6_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1454,6 +1547,7 @@ def test_union_g_month_day_g_year_month_pattern_6_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1470,6 +1564,7 @@ def test_union_g_month_day_g_year_month_pattern_6_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1486,6 +1581,7 @@ def test_union_g_month_day_g_year_month_pattern_5_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1502,6 +1598,7 @@ def test_union_g_month_day_g_year_month_pattern_5_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1518,6 +1615,7 @@ def test_union_g_month_day_g_year_month_pattern_5_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1534,6 +1632,7 @@ def test_union_g_month_day_g_year_month_pattern_5_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1550,6 +1649,7 @@ def test_union_g_month_day_g_year_month_pattern_5_nistxml_sv_ii_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1565,6 +1665,7 @@ def test_union_any_uri_float_enumeration_9_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1580,6 +1681,7 @@ def test_union_any_uri_float_enumeration_9_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1595,6 +1697,7 @@ def test_union_any_uri_float_enumeration_9_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1610,6 +1713,7 @@ def test_union_any_uri_float_enumeration_9_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1625,6 +1729,7 @@ def test_union_any_uri_float_enumeration_9_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1640,6 +1745,7 @@ def test_union_any_uri_float_enumeration_8_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1655,6 +1761,7 @@ def test_union_any_uri_float_enumeration_8_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1670,6 +1777,7 @@ def test_union_any_uri_float_enumeration_8_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1685,6 +1793,7 @@ def test_union_any_uri_float_enumeration_8_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1700,6 +1809,7 @@ def test_union_any_uri_float_enumeration_8_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1715,6 +1825,7 @@ def test_union_any_uri_float_enumeration_7_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1730,6 +1841,7 @@ def test_union_any_uri_float_enumeration_7_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1745,6 +1857,7 @@ def test_union_any_uri_float_enumeration_7_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1760,6 +1873,7 @@ def test_union_any_uri_float_enumeration_7_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1775,6 +1889,7 @@ def test_union_any_uri_float_enumeration_7_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1790,6 +1905,7 @@ def test_union_any_uri_float_enumeration_6_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1805,6 +1921,7 @@ def test_union_any_uri_float_enumeration_6_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1820,6 +1937,7 @@ def test_union_any_uri_float_enumeration_6_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1835,6 +1953,7 @@ def test_union_any_uri_float_enumeration_6_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1850,6 +1969,7 @@ def test_union_any_uri_float_enumeration_6_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1865,6 +1985,7 @@ def test_union_any_uri_float_enumeration_5_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1880,6 +2001,7 @@ def test_union_any_uri_float_enumeration_5_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1895,6 +2017,7 @@ def test_union_any_uri_float_enumeration_5_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1910,6 +2033,7 @@ def test_union_any_uri_float_enumeration_5_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1925,6 +2049,7 @@ def test_union_any_uri_float_enumeration_5_nistxml_sv_ii_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1941,6 +2066,7 @@ def test_union_any_uri_float_pattern_9_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1957,6 +2083,7 @@ def test_union_any_uri_float_pattern_9_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1973,6 +2100,7 @@ def test_union_any_uri_float_pattern_9_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1989,6 +2117,7 @@ def test_union_any_uri_float_pattern_9_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2005,6 +2134,7 @@ def test_union_any_uri_float_pattern_9_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2021,6 +2151,7 @@ def test_union_any_uri_float_pattern_8_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2037,6 +2168,7 @@ def test_union_any_uri_float_pattern_8_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2053,6 +2185,7 @@ def test_union_any_uri_float_pattern_8_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2069,6 +2202,7 @@ def test_union_any_uri_float_pattern_8_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2085,6 +2219,7 @@ def test_union_any_uri_float_pattern_8_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2101,6 +2236,7 @@ def test_union_any_uri_float_pattern_7_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2117,6 +2253,7 @@ def test_union_any_uri_float_pattern_7_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2133,6 +2270,7 @@ def test_union_any_uri_float_pattern_7_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2149,6 +2287,7 @@ def test_union_any_uri_float_pattern_7_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2165,6 +2304,7 @@ def test_union_any_uri_float_pattern_7_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2181,6 +2321,7 @@ def test_union_any_uri_float_pattern_6_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2197,6 +2338,7 @@ def test_union_any_uri_float_pattern_6_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2213,6 +2355,7 @@ def test_union_any_uri_float_pattern_6_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2229,6 +2372,7 @@ def test_union_any_uri_float_pattern_6_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2245,6 +2389,7 @@ def test_union_any_uri_float_pattern_6_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2261,6 +2406,7 @@ def test_union_any_uri_float_pattern_5_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2277,6 +2423,7 @@ def test_union_any_uri_float_pattern_5_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2293,6 +2440,7 @@ def test_union_any_uri_float_pattern_5_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2309,6 +2457,7 @@ def test_union_any_uri_float_pattern_5_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2325,6 +2474,7 @@ def test_union_any_uri_float_pattern_5_nistxml_sv_ii_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2340,6 +2490,7 @@ def test_union_duration_decimal_enumeration_9_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2355,6 +2506,7 @@ def test_union_duration_decimal_enumeration_9_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2370,6 +2522,7 @@ def test_union_duration_decimal_enumeration_9_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2385,6 +2538,7 @@ def test_union_duration_decimal_enumeration_9_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2400,6 +2554,7 @@ def test_union_duration_decimal_enumeration_9_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2415,6 +2570,7 @@ def test_union_duration_decimal_enumeration_8_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2430,6 +2586,7 @@ def test_union_duration_decimal_enumeration_8_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2445,6 +2602,7 @@ def test_union_duration_decimal_enumeration_8_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2460,6 +2618,7 @@ def test_union_duration_decimal_enumeration_8_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2475,6 +2634,7 @@ def test_union_duration_decimal_enumeration_8_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2490,6 +2650,7 @@ def test_union_duration_decimal_enumeration_7_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2505,6 +2666,7 @@ def test_union_duration_decimal_enumeration_7_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2520,6 +2682,7 @@ def test_union_duration_decimal_enumeration_7_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2535,6 +2698,7 @@ def test_union_duration_decimal_enumeration_7_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2550,6 +2714,7 @@ def test_union_duration_decimal_enumeration_7_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2565,6 +2730,7 @@ def test_union_duration_decimal_enumeration_6_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2580,6 +2746,7 @@ def test_union_duration_decimal_enumeration_6_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2595,6 +2762,7 @@ def test_union_duration_decimal_enumeration_6_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2610,6 +2778,7 @@ def test_union_duration_decimal_enumeration_6_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2625,6 +2794,7 @@ def test_union_duration_decimal_enumeration_6_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2640,6 +2810,7 @@ def test_union_duration_decimal_enumeration_5_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2655,6 +2826,7 @@ def test_union_duration_decimal_enumeration_5_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2670,6 +2842,7 @@ def test_union_duration_decimal_enumeration_5_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2685,6 +2858,7 @@ def test_union_duration_decimal_enumeration_5_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2700,6 +2874,7 @@ def test_union_duration_decimal_enumeration_5_nistxml_sv_ii_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2716,6 +2891,7 @@ def test_union_duration_decimal_pattern_9_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2732,6 +2908,7 @@ def test_union_duration_decimal_pattern_9_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2748,6 +2925,7 @@ def test_union_duration_decimal_pattern_9_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2764,6 +2942,7 @@ def test_union_duration_decimal_pattern_9_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2780,6 +2959,7 @@ def test_union_duration_decimal_pattern_9_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2796,6 +2976,7 @@ def test_union_duration_decimal_pattern_8_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2812,6 +2993,7 @@ def test_union_duration_decimal_pattern_8_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2828,6 +3010,7 @@ def test_union_duration_decimal_pattern_8_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2844,6 +3027,7 @@ def test_union_duration_decimal_pattern_8_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2860,6 +3044,7 @@ def test_union_duration_decimal_pattern_8_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2876,6 +3061,7 @@ def test_union_duration_decimal_pattern_7_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2892,6 +3078,7 @@ def test_union_duration_decimal_pattern_7_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2908,6 +3095,7 @@ def test_union_duration_decimal_pattern_7_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2924,6 +3112,7 @@ def test_union_duration_decimal_pattern_7_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2940,6 +3129,7 @@ def test_union_duration_decimal_pattern_7_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2956,6 +3146,7 @@ def test_union_duration_decimal_pattern_6_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2972,6 +3163,7 @@ def test_union_duration_decimal_pattern_6_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2988,6 +3180,7 @@ def test_union_duration_decimal_pattern_6_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3004,6 +3197,7 @@ def test_union_duration_decimal_pattern_6_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3020,6 +3214,7 @@ def test_union_duration_decimal_pattern_6_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3036,6 +3231,7 @@ def test_union_duration_decimal_pattern_5_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3052,6 +3248,7 @@ def test_union_duration_decimal_pattern_5_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3068,6 +3265,7 @@ def test_union_duration_decimal_pattern_5_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3084,6 +3282,7 @@ def test_union_duration_decimal_pattern_5_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3100,6 +3299,7 @@ def test_union_duration_decimal_pattern_5_nistxml_sv_ii_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3114,6 +3314,7 @@ def test_union_short_g_year_enumeration_4_nistxml_sv_iv_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3128,6 +3329,7 @@ def test_union_short_g_year_enumeration_4_nistxml_sv_iv_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3142,6 +3344,7 @@ def test_union_short_g_year_enumeration_4_nistxml_sv_iv_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3156,6 +3359,7 @@ def test_union_short_g_year_enumeration_4_nistxml_sv_iv_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3170,6 +3374,7 @@ def test_union_short_g_year_enumeration_4_nistxml_sv_iv_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3184,6 +3389,7 @@ def test_union_short_g_year_enumeration_3_nistxml_sv_iv_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3198,6 +3404,7 @@ def test_union_short_g_year_enumeration_3_nistxml_sv_iv_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3212,6 +3419,7 @@ def test_union_short_g_year_enumeration_3_nistxml_sv_iv_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3226,6 +3434,7 @@ def test_union_short_g_year_enumeration_3_nistxml_sv_iv_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3240,6 +3449,7 @@ def test_union_short_g_year_enumeration_3_nistxml_sv_iv_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3254,6 +3464,7 @@ def test_union_short_g_year_enumeration_2_nistxml_sv_iv_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3268,6 +3479,7 @@ def test_union_short_g_year_enumeration_2_nistxml_sv_iv_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3282,6 +3494,7 @@ def test_union_short_g_year_enumeration_2_nistxml_sv_iv_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3296,6 +3509,7 @@ def test_union_short_g_year_enumeration_2_nistxml_sv_iv_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3310,6 +3524,7 @@ def test_union_short_g_year_enumeration_2_nistxml_sv_iv_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3324,6 +3539,7 @@ def test_union_short_g_year_enumeration_1_nistxml_sv_iv_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3338,6 +3554,7 @@ def test_union_short_g_year_enumeration_1_nistxml_sv_iv_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3352,6 +3569,7 @@ def test_union_short_g_year_enumeration_1_nistxml_sv_iv_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3366,6 +3584,7 @@ def test_union_short_g_year_enumeration_1_nistxml_sv_iv_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3380,6 +3599,7 @@ def test_union_short_g_year_enumeration_1_nistxml_sv_iv_union_short_g_year_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3394,6 +3614,7 @@ def test_union_short_g_year_enumeration_nistxml_sv_iv_union_short_g_year_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3408,6 +3629,7 @@ def test_union_short_g_year_enumeration_nistxml_sv_iv_union_short_g_year_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3422,6 +3644,7 @@ def test_union_short_g_year_enumeration_nistxml_sv_iv_union_short_g_year_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3436,6 +3659,7 @@ def test_union_short_g_year_enumeration_nistxml_sv_iv_union_short_g_year_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3450,6 +3674,7 @@ def test_union_short_g_year_enumeration_nistxml_sv_iv_union_short_g_year_enumera
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3465,6 +3690,7 @@ def test_union_short_g_year_pattern_4_nistxml_sv_iv_union_short_g_year_pattern_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3480,6 +3706,7 @@ def test_union_short_g_year_pattern_4_nistxml_sv_iv_union_short_g_year_pattern_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3495,6 +3722,7 @@ def test_union_short_g_year_pattern_4_nistxml_sv_iv_union_short_g_year_pattern_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3510,6 +3738,7 @@ def test_union_short_g_year_pattern_4_nistxml_sv_iv_union_short_g_year_pattern_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3525,6 +3754,7 @@ def test_union_short_g_year_pattern_4_nistxml_sv_iv_union_short_g_year_pattern_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3540,6 +3770,7 @@ def test_union_short_g_year_pattern_3_nistxml_sv_iv_union_short_g_year_pattern_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3555,6 +3786,7 @@ def test_union_short_g_year_pattern_3_nistxml_sv_iv_union_short_g_year_pattern_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3570,6 +3802,7 @@ def test_union_short_g_year_pattern_3_nistxml_sv_iv_union_short_g_year_pattern_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3585,6 +3818,7 @@ def test_union_short_g_year_pattern_3_nistxml_sv_iv_union_short_g_year_pattern_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3600,6 +3834,7 @@ def test_union_short_g_year_pattern_3_nistxml_sv_iv_union_short_g_year_pattern_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3615,6 +3850,7 @@ def test_union_short_g_year_pattern_2_nistxml_sv_iv_union_short_g_year_pattern_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3630,6 +3866,7 @@ def test_union_short_g_year_pattern_2_nistxml_sv_iv_union_short_g_year_pattern_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3645,6 +3882,7 @@ def test_union_short_g_year_pattern_2_nistxml_sv_iv_union_short_g_year_pattern_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3660,6 +3898,7 @@ def test_union_short_g_year_pattern_2_nistxml_sv_iv_union_short_g_year_pattern_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3675,6 +3914,7 @@ def test_union_short_g_year_pattern_2_nistxml_sv_iv_union_short_g_year_pattern_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3690,6 +3930,7 @@ def test_union_short_g_year_pattern_1_nistxml_sv_iv_union_short_g_year_pattern_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3705,6 +3946,7 @@ def test_union_short_g_year_pattern_1_nistxml_sv_iv_union_short_g_year_pattern_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3720,6 +3962,7 @@ def test_union_short_g_year_pattern_1_nistxml_sv_iv_union_short_g_year_pattern_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3735,6 +3978,7 @@ def test_union_short_g_year_pattern_1_nistxml_sv_iv_union_short_g_year_pattern_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3750,6 +3994,7 @@ def test_union_short_g_year_pattern_1_nistxml_sv_iv_union_short_g_year_pattern_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3765,6 +4010,7 @@ def test_union_short_g_year_pattern_nistxml_sv_iv_union_short_g_year_pattern_1_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3780,6 +4026,7 @@ def test_union_short_g_year_pattern_nistxml_sv_iv_union_short_g_year_pattern_1_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3795,6 +4042,7 @@ def test_union_short_g_year_pattern_nistxml_sv_iv_union_short_g_year_pattern_1_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3810,6 +4058,7 @@ def test_union_short_g_year_pattern_nistxml_sv_iv_union_short_g_year_pattern_1_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3825,6 +4074,7 @@ def test_union_short_g_year_pattern_nistxml_sv_iv_union_short_g_year_pattern_1_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3839,6 +4089,7 @@ def test_union_g_month_day_g_year_month_enumeration_4_nistxml_sv_iv_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3853,6 +4104,7 @@ def test_union_g_month_day_g_year_month_enumeration_4_nistxml_sv_iv_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3867,6 +4119,7 @@ def test_union_g_month_day_g_year_month_enumeration_4_nistxml_sv_iv_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3881,6 +4134,7 @@ def test_union_g_month_day_g_year_month_enumeration_4_nistxml_sv_iv_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3895,6 +4149,7 @@ def test_union_g_month_day_g_year_month_enumeration_4_nistxml_sv_iv_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3909,6 +4164,7 @@ def test_union_g_month_day_g_year_month_enumeration_3_nistxml_sv_iv_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3923,6 +4179,7 @@ def test_union_g_month_day_g_year_month_enumeration_3_nistxml_sv_iv_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3937,6 +4194,7 @@ def test_union_g_month_day_g_year_month_enumeration_3_nistxml_sv_iv_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3951,6 +4209,7 @@ def test_union_g_month_day_g_year_month_enumeration_3_nistxml_sv_iv_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3965,6 +4224,7 @@ def test_union_g_month_day_g_year_month_enumeration_3_nistxml_sv_iv_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3979,6 +4239,7 @@ def test_union_g_month_day_g_year_month_enumeration_2_nistxml_sv_iv_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3993,6 +4254,7 @@ def test_union_g_month_day_g_year_month_enumeration_2_nistxml_sv_iv_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4007,6 +4269,7 @@ def test_union_g_month_day_g_year_month_enumeration_2_nistxml_sv_iv_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4021,6 +4284,7 @@ def test_union_g_month_day_g_year_month_enumeration_2_nistxml_sv_iv_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4035,6 +4299,7 @@ def test_union_g_month_day_g_year_month_enumeration_2_nistxml_sv_iv_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4049,6 +4314,7 @@ def test_union_g_month_day_g_year_month_enumeration_1_nistxml_sv_iv_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4063,6 +4329,7 @@ def test_union_g_month_day_g_year_month_enumeration_1_nistxml_sv_iv_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4077,6 +4344,7 @@ def test_union_g_month_day_g_year_month_enumeration_1_nistxml_sv_iv_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4091,6 +4359,7 @@ def test_union_g_month_day_g_year_month_enumeration_1_nistxml_sv_iv_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4105,6 +4374,7 @@ def test_union_g_month_day_g_year_month_enumeration_1_nistxml_sv_iv_union_g_mont
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4119,6 +4389,7 @@ def test_union_g_month_day_g_year_month_enumeration_nistxml_sv_iv_union_g_month_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4133,6 +4404,7 @@ def test_union_g_month_day_g_year_month_enumeration_nistxml_sv_iv_union_g_month_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4147,6 +4419,7 @@ def test_union_g_month_day_g_year_month_enumeration_nistxml_sv_iv_union_g_month_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4161,6 +4434,7 @@ def test_union_g_month_day_g_year_month_enumeration_nistxml_sv_iv_union_g_month_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4175,6 +4449,7 @@ def test_union_g_month_day_g_year_month_enumeration_nistxml_sv_iv_union_g_month_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4190,6 +4465,7 @@ def test_union_g_month_day_g_year_month_pattern_4_nistxml_sv_iv_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4205,6 +4481,7 @@ def test_union_g_month_day_g_year_month_pattern_4_nistxml_sv_iv_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4220,6 +4497,7 @@ def test_union_g_month_day_g_year_month_pattern_4_nistxml_sv_iv_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4235,6 +4513,7 @@ def test_union_g_month_day_g_year_month_pattern_4_nistxml_sv_iv_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4250,6 +4529,7 @@ def test_union_g_month_day_g_year_month_pattern_4_nistxml_sv_iv_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4265,6 +4545,7 @@ def test_union_g_month_day_g_year_month_pattern_3_nistxml_sv_iv_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4280,6 +4561,7 @@ def test_union_g_month_day_g_year_month_pattern_3_nistxml_sv_iv_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4295,6 +4577,7 @@ def test_union_g_month_day_g_year_month_pattern_3_nistxml_sv_iv_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4310,6 +4593,7 @@ def test_union_g_month_day_g_year_month_pattern_3_nistxml_sv_iv_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4325,6 +4609,7 @@ def test_union_g_month_day_g_year_month_pattern_3_nistxml_sv_iv_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4340,6 +4625,7 @@ def test_union_g_month_day_g_year_month_pattern_2_nistxml_sv_iv_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4355,6 +4641,7 @@ def test_union_g_month_day_g_year_month_pattern_2_nistxml_sv_iv_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4370,6 +4657,7 @@ def test_union_g_month_day_g_year_month_pattern_2_nistxml_sv_iv_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4385,6 +4673,7 @@ def test_union_g_month_day_g_year_month_pattern_2_nistxml_sv_iv_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4400,6 +4689,7 @@ def test_union_g_month_day_g_year_month_pattern_2_nistxml_sv_iv_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4415,6 +4705,7 @@ def test_union_g_month_day_g_year_month_pattern_1_nistxml_sv_iv_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4430,6 +4721,7 @@ def test_union_g_month_day_g_year_month_pattern_1_nistxml_sv_iv_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4445,6 +4737,7 @@ def test_union_g_month_day_g_year_month_pattern_1_nistxml_sv_iv_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4460,6 +4753,7 @@ def test_union_g_month_day_g_year_month_pattern_1_nistxml_sv_iv_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4475,6 +4769,7 @@ def test_union_g_month_day_g_year_month_pattern_1_nistxml_sv_iv_union_g_month_da
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4490,6 +4785,7 @@ def test_union_g_month_day_g_year_month_pattern_nistxml_sv_iv_union_g_month_day_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4505,6 +4801,7 @@ def test_union_g_month_day_g_year_month_pattern_nistxml_sv_iv_union_g_month_day_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4520,6 +4817,7 @@ def test_union_g_month_day_g_year_month_pattern_nistxml_sv_iv_union_g_month_day_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4535,6 +4833,7 @@ def test_union_g_month_day_g_year_month_pattern_nistxml_sv_iv_union_g_month_day_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4550,6 +4849,7 @@ def test_union_g_month_day_g_year_month_pattern_nistxml_sv_iv_union_g_month_day_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4564,6 +4864,7 @@ def test_union_any_uri_float_enumeration_4_nistxml_sv_iv_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4578,6 +4879,7 @@ def test_union_any_uri_float_enumeration_4_nistxml_sv_iv_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4592,6 +4894,7 @@ def test_union_any_uri_float_enumeration_4_nistxml_sv_iv_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4606,6 +4909,7 @@ def test_union_any_uri_float_enumeration_4_nistxml_sv_iv_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4620,6 +4924,7 @@ def test_union_any_uri_float_enumeration_4_nistxml_sv_iv_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4634,6 +4939,7 @@ def test_union_any_uri_float_enumeration_3_nistxml_sv_iv_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4648,6 +4954,7 @@ def test_union_any_uri_float_enumeration_3_nistxml_sv_iv_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4662,6 +4969,7 @@ def test_union_any_uri_float_enumeration_3_nistxml_sv_iv_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4676,6 +4984,7 @@ def test_union_any_uri_float_enumeration_3_nistxml_sv_iv_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4690,6 +4999,7 @@ def test_union_any_uri_float_enumeration_3_nistxml_sv_iv_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4704,6 +5014,7 @@ def test_union_any_uri_float_enumeration_2_nistxml_sv_iv_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4718,6 +5029,7 @@ def test_union_any_uri_float_enumeration_2_nistxml_sv_iv_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4732,6 +5044,7 @@ def test_union_any_uri_float_enumeration_2_nistxml_sv_iv_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4746,6 +5059,7 @@ def test_union_any_uri_float_enumeration_2_nistxml_sv_iv_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4760,6 +5074,7 @@ def test_union_any_uri_float_enumeration_2_nistxml_sv_iv_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4774,6 +5089,7 @@ def test_union_any_uri_float_enumeration_1_nistxml_sv_iv_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4788,6 +5104,7 @@ def test_union_any_uri_float_enumeration_1_nistxml_sv_iv_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4802,6 +5119,7 @@ def test_union_any_uri_float_enumeration_1_nistxml_sv_iv_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4816,6 +5134,7 @@ def test_union_any_uri_float_enumeration_1_nistxml_sv_iv_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4830,6 +5149,7 @@ def test_union_any_uri_float_enumeration_1_nistxml_sv_iv_union_any_uri_float_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4844,6 +5164,7 @@ def test_union_any_uri_float_enumeration_nistxml_sv_iv_union_any_uri_float_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4858,6 +5179,7 @@ def test_union_any_uri_float_enumeration_nistxml_sv_iv_union_any_uri_float_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4872,6 +5194,7 @@ def test_union_any_uri_float_enumeration_nistxml_sv_iv_union_any_uri_float_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4886,6 +5209,7 @@ def test_union_any_uri_float_enumeration_nistxml_sv_iv_union_any_uri_float_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4900,6 +5224,7 @@ def test_union_any_uri_float_enumeration_nistxml_sv_iv_union_any_uri_float_enume
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4915,6 +5240,7 @@ def test_union_any_uri_float_pattern_4_nistxml_sv_iv_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4930,6 +5256,7 @@ def test_union_any_uri_float_pattern_4_nistxml_sv_iv_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4945,6 +5272,7 @@ def test_union_any_uri_float_pattern_4_nistxml_sv_iv_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4960,6 +5288,7 @@ def test_union_any_uri_float_pattern_4_nistxml_sv_iv_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4975,6 +5304,7 @@ def test_union_any_uri_float_pattern_4_nistxml_sv_iv_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4990,6 +5320,7 @@ def test_union_any_uri_float_pattern_3_nistxml_sv_iv_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5005,6 +5336,7 @@ def test_union_any_uri_float_pattern_3_nistxml_sv_iv_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5020,6 +5352,7 @@ def test_union_any_uri_float_pattern_3_nistxml_sv_iv_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5035,6 +5368,7 @@ def test_union_any_uri_float_pattern_3_nistxml_sv_iv_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5050,6 +5384,7 @@ def test_union_any_uri_float_pattern_3_nistxml_sv_iv_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5065,6 +5400,7 @@ def test_union_any_uri_float_pattern_2_nistxml_sv_iv_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5080,6 +5416,7 @@ def test_union_any_uri_float_pattern_2_nistxml_sv_iv_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5095,6 +5432,7 @@ def test_union_any_uri_float_pattern_2_nistxml_sv_iv_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5110,6 +5448,7 @@ def test_union_any_uri_float_pattern_2_nistxml_sv_iv_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5125,6 +5464,7 @@ def test_union_any_uri_float_pattern_2_nistxml_sv_iv_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5140,6 +5480,7 @@ def test_union_any_uri_float_pattern_1_nistxml_sv_iv_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5155,6 +5496,7 @@ def test_union_any_uri_float_pattern_1_nistxml_sv_iv_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5170,6 +5512,7 @@ def test_union_any_uri_float_pattern_1_nistxml_sv_iv_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5185,6 +5528,7 @@ def test_union_any_uri_float_pattern_1_nistxml_sv_iv_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5200,6 +5544,7 @@ def test_union_any_uri_float_pattern_1_nistxml_sv_iv_union_any_uri_float_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5215,6 +5560,7 @@ def test_union_any_uri_float_pattern_nistxml_sv_iv_union_any_uri_float_pattern_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5230,6 +5576,7 @@ def test_union_any_uri_float_pattern_nistxml_sv_iv_union_any_uri_float_pattern_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5245,6 +5592,7 @@ def test_union_any_uri_float_pattern_nistxml_sv_iv_union_any_uri_float_pattern_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5260,6 +5608,7 @@ def test_union_any_uri_float_pattern_nistxml_sv_iv_union_any_uri_float_pattern_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5275,6 +5624,7 @@ def test_union_any_uri_float_pattern_nistxml_sv_iv_union_any_uri_float_pattern_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5289,6 +5639,7 @@ def test_union_duration_decimal_enumeration_4_nistxml_sv_iv_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5303,6 +5654,7 @@ def test_union_duration_decimal_enumeration_4_nistxml_sv_iv_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5317,6 +5669,7 @@ def test_union_duration_decimal_enumeration_4_nistxml_sv_iv_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5331,6 +5684,7 @@ def test_union_duration_decimal_enumeration_4_nistxml_sv_iv_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5345,6 +5699,7 @@ def test_union_duration_decimal_enumeration_4_nistxml_sv_iv_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5359,6 +5714,7 @@ def test_union_duration_decimal_enumeration_3_nistxml_sv_iv_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5373,6 +5729,7 @@ def test_union_duration_decimal_enumeration_3_nistxml_sv_iv_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5387,6 +5744,7 @@ def test_union_duration_decimal_enumeration_3_nistxml_sv_iv_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5401,6 +5759,7 @@ def test_union_duration_decimal_enumeration_3_nistxml_sv_iv_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5415,6 +5774,7 @@ def test_union_duration_decimal_enumeration_3_nistxml_sv_iv_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5429,6 +5789,7 @@ def test_union_duration_decimal_enumeration_2_nistxml_sv_iv_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5443,6 +5804,7 @@ def test_union_duration_decimal_enumeration_2_nistxml_sv_iv_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5457,6 +5819,7 @@ def test_union_duration_decimal_enumeration_2_nistxml_sv_iv_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5471,6 +5834,7 @@ def test_union_duration_decimal_enumeration_2_nistxml_sv_iv_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5485,6 +5849,7 @@ def test_union_duration_decimal_enumeration_2_nistxml_sv_iv_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5499,6 +5864,7 @@ def test_union_duration_decimal_enumeration_1_nistxml_sv_iv_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5513,6 +5879,7 @@ def test_union_duration_decimal_enumeration_1_nistxml_sv_iv_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5527,6 +5894,7 @@ def test_union_duration_decimal_enumeration_1_nistxml_sv_iv_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5541,6 +5909,7 @@ def test_union_duration_decimal_enumeration_1_nistxml_sv_iv_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5555,6 +5924,7 @@ def test_union_duration_decimal_enumeration_1_nistxml_sv_iv_union_duration_decim
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5569,6 +5939,7 @@ def test_union_duration_decimal_enumeration_nistxml_sv_iv_union_duration_decimal
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5583,6 +5954,7 @@ def test_union_duration_decimal_enumeration_nistxml_sv_iv_union_duration_decimal
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5597,6 +5969,7 @@ def test_union_duration_decimal_enumeration_nistxml_sv_iv_union_duration_decimal
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5611,6 +5984,7 @@ def test_union_duration_decimal_enumeration_nistxml_sv_iv_union_duration_decimal
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5625,6 +5999,7 @@ def test_union_duration_decimal_enumeration_nistxml_sv_iv_union_duration_decimal
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5640,6 +6015,7 @@ def test_union_duration_decimal_pattern_4_nistxml_sv_iv_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5655,6 +6031,7 @@ def test_union_duration_decimal_pattern_4_nistxml_sv_iv_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5670,6 +6047,7 @@ def test_union_duration_decimal_pattern_4_nistxml_sv_iv_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5685,6 +6063,7 @@ def test_union_duration_decimal_pattern_4_nistxml_sv_iv_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5700,6 +6079,7 @@ def test_union_duration_decimal_pattern_4_nistxml_sv_iv_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5715,6 +6095,7 @@ def test_union_duration_decimal_pattern_3_nistxml_sv_iv_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5730,6 +6111,7 @@ def test_union_duration_decimal_pattern_3_nistxml_sv_iv_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5745,6 +6127,7 @@ def test_union_duration_decimal_pattern_3_nistxml_sv_iv_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5760,6 +6143,7 @@ def test_union_duration_decimal_pattern_3_nistxml_sv_iv_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5775,6 +6159,7 @@ def test_union_duration_decimal_pattern_3_nistxml_sv_iv_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5790,6 +6175,7 @@ def test_union_duration_decimal_pattern_2_nistxml_sv_iv_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5805,6 +6191,7 @@ def test_union_duration_decimal_pattern_2_nistxml_sv_iv_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5820,6 +6207,7 @@ def test_union_duration_decimal_pattern_2_nistxml_sv_iv_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5835,6 +6223,7 @@ def test_union_duration_decimal_pattern_2_nistxml_sv_iv_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5850,6 +6239,7 @@ def test_union_duration_decimal_pattern_2_nistxml_sv_iv_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5865,6 +6255,7 @@ def test_union_duration_decimal_pattern_1_nistxml_sv_iv_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5880,6 +6271,7 @@ def test_union_duration_decimal_pattern_1_nistxml_sv_iv_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5895,6 +6287,7 @@ def test_union_duration_decimal_pattern_1_nistxml_sv_iv_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5910,6 +6303,7 @@ def test_union_duration_decimal_pattern_1_nistxml_sv_iv_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5925,6 +6319,7 @@ def test_union_duration_decimal_pattern_1_nistxml_sv_iv_union_duration_decimal_p
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5940,6 +6335,7 @@ def test_union_duration_decimal_pattern_nistxml_sv_iv_union_duration_decimal_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5955,6 +6351,7 @@ def test_union_duration_decimal_pattern_nistxml_sv_iv_union_duration_decimal_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5970,6 +6367,7 @@ def test_union_duration_decimal_pattern_nistxml_sv_iv_union_duration_decimal_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5985,6 +6383,7 @@ def test_union_duration_decimal_pattern_nistxml_sv_iv_union_duration_decimal_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6000,6 +6399,7 @@ def test_union_duration_decimal_pattern_nistxml_sv_iv_union_duration_decimal_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6015,6 +6415,7 @@ def test_list_qname_length_9_nistxml_sv_ii_list_qname_length_5_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6030,6 +6431,7 @@ def test_list_qname_length_9_nistxml_sv_ii_list_qname_length_5_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6045,6 +6447,7 @@ def test_list_qname_length_9_nistxml_sv_ii_list_qname_length_5_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6060,6 +6463,7 @@ def test_list_qname_length_9_nistxml_sv_ii_list_qname_length_5_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6075,6 +6479,7 @@ def test_list_qname_length_9_nistxml_sv_ii_list_qname_length_5_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6090,6 +6495,7 @@ def test_list_qname_length_8_nistxml_sv_ii_list_qname_length_4_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6105,6 +6511,7 @@ def test_list_qname_length_8_nistxml_sv_ii_list_qname_length_4_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6120,6 +6527,7 @@ def test_list_qname_length_8_nistxml_sv_ii_list_qname_length_4_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6135,6 +6543,7 @@ def test_list_qname_length_8_nistxml_sv_ii_list_qname_length_4_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6150,6 +6559,7 @@ def test_list_qname_length_8_nistxml_sv_ii_list_qname_length_4_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6165,6 +6575,7 @@ def test_list_qname_length_7_nistxml_sv_ii_list_qname_length_3_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6180,6 +6591,7 @@ def test_list_qname_length_7_nistxml_sv_ii_list_qname_length_3_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6195,6 +6607,7 @@ def test_list_qname_length_7_nistxml_sv_ii_list_qname_length_3_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6210,6 +6623,7 @@ def test_list_qname_length_7_nistxml_sv_ii_list_qname_length_3_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6225,6 +6639,7 @@ def test_list_qname_length_7_nistxml_sv_ii_list_qname_length_3_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6240,6 +6655,7 @@ def test_list_qname_length_6_nistxml_sv_ii_list_qname_length_2_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6255,6 +6671,7 @@ def test_list_qname_length_6_nistxml_sv_ii_list_qname_length_2_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6270,6 +6687,7 @@ def test_list_qname_length_6_nistxml_sv_ii_list_qname_length_2_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6285,6 +6703,7 @@ def test_list_qname_length_6_nistxml_sv_ii_list_qname_length_2_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6300,6 +6719,7 @@ def test_list_qname_length_6_nistxml_sv_ii_list_qname_length_2_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6315,6 +6735,7 @@ def test_list_qname_length_5_nistxml_sv_ii_list_qname_length_1_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6330,6 +6751,7 @@ def test_list_qname_length_5_nistxml_sv_ii_list_qname_length_1_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6345,6 +6767,7 @@ def test_list_qname_length_5_nistxml_sv_ii_list_qname_length_1_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6360,6 +6783,7 @@ def test_list_qname_length_5_nistxml_sv_ii_list_qname_length_1_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6375,6 +6799,7 @@ def test_list_qname_length_5_nistxml_sv_ii_list_qname_length_1_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6390,6 +6815,7 @@ def test_list_qname_min_length_9_nistxml_sv_ii_list_qname_min_length_5_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6405,6 +6831,7 @@ def test_list_qname_min_length_9_nistxml_sv_ii_list_qname_min_length_5_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6420,6 +6847,7 @@ def test_list_qname_min_length_9_nistxml_sv_ii_list_qname_min_length_5_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6435,6 +6863,7 @@ def test_list_qname_min_length_9_nistxml_sv_ii_list_qname_min_length_5_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6450,6 +6879,7 @@ def test_list_qname_min_length_9_nistxml_sv_ii_list_qname_min_length_5_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6465,6 +6895,7 @@ def test_list_qname_min_length_8_nistxml_sv_ii_list_qname_min_length_4_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6480,6 +6911,7 @@ def test_list_qname_min_length_8_nistxml_sv_ii_list_qname_min_length_4_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6495,6 +6927,7 @@ def test_list_qname_min_length_8_nistxml_sv_ii_list_qname_min_length_4_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6510,6 +6943,7 @@ def test_list_qname_min_length_8_nistxml_sv_ii_list_qname_min_length_4_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6525,6 +6959,7 @@ def test_list_qname_min_length_8_nistxml_sv_ii_list_qname_min_length_4_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6540,6 +6975,7 @@ def test_list_qname_min_length_7_nistxml_sv_ii_list_qname_min_length_3_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6555,6 +6991,7 @@ def test_list_qname_min_length_7_nistxml_sv_ii_list_qname_min_length_3_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6570,6 +7007,7 @@ def test_list_qname_min_length_7_nistxml_sv_ii_list_qname_min_length_3_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6585,6 +7023,7 @@ def test_list_qname_min_length_7_nistxml_sv_ii_list_qname_min_length_3_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6600,6 +7039,7 @@ def test_list_qname_min_length_7_nistxml_sv_ii_list_qname_min_length_3_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6615,6 +7055,7 @@ def test_list_qname_min_length_6_nistxml_sv_ii_list_qname_min_length_2_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6630,6 +7071,7 @@ def test_list_qname_min_length_6_nistxml_sv_ii_list_qname_min_length_2_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6645,6 +7087,7 @@ def test_list_qname_min_length_6_nistxml_sv_ii_list_qname_min_length_2_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6660,6 +7103,7 @@ def test_list_qname_min_length_6_nistxml_sv_ii_list_qname_min_length_2_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6675,6 +7119,7 @@ def test_list_qname_min_length_6_nistxml_sv_ii_list_qname_min_length_2_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6690,6 +7135,7 @@ def test_list_qname_min_length_5_nistxml_sv_ii_list_qname_min_length_1_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6705,6 +7151,7 @@ def test_list_qname_min_length_5_nistxml_sv_ii_list_qname_min_length_1_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6720,6 +7167,7 @@ def test_list_qname_min_length_5_nistxml_sv_ii_list_qname_min_length_1_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6735,6 +7183,7 @@ def test_list_qname_min_length_5_nistxml_sv_ii_list_qname_min_length_1_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6750,6 +7199,7 @@ def test_list_qname_min_length_5_nistxml_sv_ii_list_qname_min_length_1_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6765,6 +7215,7 @@ def test_list_qname_max_length_9_nistxml_sv_ii_list_qname_max_length_5_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6780,6 +7231,7 @@ def test_list_qname_max_length_9_nistxml_sv_ii_list_qname_max_length_5_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6795,6 +7247,7 @@ def test_list_qname_max_length_9_nistxml_sv_ii_list_qname_max_length_5_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6810,6 +7263,7 @@ def test_list_qname_max_length_9_nistxml_sv_ii_list_qname_max_length_5_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6825,6 +7279,7 @@ def test_list_qname_max_length_9_nistxml_sv_ii_list_qname_max_length_5_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6840,6 +7295,7 @@ def test_list_qname_max_length_8_nistxml_sv_ii_list_qname_max_length_4_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6855,6 +7311,7 @@ def test_list_qname_max_length_8_nistxml_sv_ii_list_qname_max_length_4_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6870,6 +7327,7 @@ def test_list_qname_max_length_8_nistxml_sv_ii_list_qname_max_length_4_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6885,6 +7343,7 @@ def test_list_qname_max_length_8_nistxml_sv_ii_list_qname_max_length_4_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6900,6 +7359,7 @@ def test_list_qname_max_length_8_nistxml_sv_ii_list_qname_max_length_4_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6915,6 +7375,7 @@ def test_list_qname_max_length_7_nistxml_sv_ii_list_qname_max_length_3_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6930,6 +7391,7 @@ def test_list_qname_max_length_7_nistxml_sv_ii_list_qname_max_length_3_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6945,6 +7407,7 @@ def test_list_qname_max_length_7_nistxml_sv_ii_list_qname_max_length_3_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6960,6 +7423,7 @@ def test_list_qname_max_length_7_nistxml_sv_ii_list_qname_max_length_3_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6975,6 +7439,7 @@ def test_list_qname_max_length_7_nistxml_sv_ii_list_qname_max_length_3_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6990,6 +7455,7 @@ def test_list_qname_max_length_6_nistxml_sv_ii_list_qname_max_length_2_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7005,6 +7471,7 @@ def test_list_qname_max_length_6_nistxml_sv_ii_list_qname_max_length_2_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7020,6 +7487,7 @@ def test_list_qname_max_length_6_nistxml_sv_ii_list_qname_max_length_2_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7035,6 +7503,7 @@ def test_list_qname_max_length_6_nistxml_sv_ii_list_qname_max_length_2_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7050,6 +7519,7 @@ def test_list_qname_max_length_6_nistxml_sv_ii_list_qname_max_length_2_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7065,6 +7535,7 @@ def test_list_qname_max_length_5_nistxml_sv_ii_list_qname_max_length_1_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7080,6 +7551,7 @@ def test_list_qname_max_length_5_nistxml_sv_ii_list_qname_max_length_1_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7095,6 +7567,7 @@ def test_list_qname_max_length_5_nistxml_sv_ii_list_qname_max_length_1_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7110,6 +7583,7 @@ def test_list_qname_max_length_5_nistxml_sv_ii_list_qname_max_length_1_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7125,6 +7599,7 @@ def test_list_qname_max_length_5_nistxml_sv_ii_list_qname_max_length_1_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7140,6 +7615,7 @@ def test_list_language_length_9_nistxml_sv_ii_list_language_length_5_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7155,6 +7631,7 @@ def test_list_language_length_9_nistxml_sv_ii_list_language_length_5_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7170,6 +7647,7 @@ def test_list_language_length_9_nistxml_sv_ii_list_language_length_5_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7185,6 +7663,7 @@ def test_list_language_length_9_nistxml_sv_ii_list_language_length_5_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7200,6 +7679,7 @@ def test_list_language_length_9_nistxml_sv_ii_list_language_length_5_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7215,6 +7695,7 @@ def test_list_language_length_8_nistxml_sv_ii_list_language_length_4_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7230,6 +7711,7 @@ def test_list_language_length_8_nistxml_sv_ii_list_language_length_4_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7245,6 +7727,7 @@ def test_list_language_length_8_nistxml_sv_ii_list_language_length_4_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7260,6 +7743,7 @@ def test_list_language_length_8_nistxml_sv_ii_list_language_length_4_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7275,6 +7759,7 @@ def test_list_language_length_8_nistxml_sv_ii_list_language_length_4_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7290,6 +7775,7 @@ def test_list_language_length_7_nistxml_sv_ii_list_language_length_3_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7305,6 +7791,7 @@ def test_list_language_length_7_nistxml_sv_ii_list_language_length_3_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7320,6 +7807,7 @@ def test_list_language_length_7_nistxml_sv_ii_list_language_length_3_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7335,6 +7823,7 @@ def test_list_language_length_7_nistxml_sv_ii_list_language_length_3_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7350,6 +7839,7 @@ def test_list_language_length_7_nistxml_sv_ii_list_language_length_3_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7365,6 +7855,7 @@ def test_list_language_length_6_nistxml_sv_ii_list_language_length_2_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7380,6 +7871,7 @@ def test_list_language_length_6_nistxml_sv_ii_list_language_length_2_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7395,6 +7887,7 @@ def test_list_language_length_6_nistxml_sv_ii_list_language_length_2_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7410,6 +7903,7 @@ def test_list_language_length_6_nistxml_sv_ii_list_language_length_2_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7425,6 +7919,7 @@ def test_list_language_length_6_nistxml_sv_ii_list_language_length_2_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7440,6 +7935,7 @@ def test_list_language_length_5_nistxml_sv_ii_list_language_length_1_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7455,6 +7951,7 @@ def test_list_language_length_5_nistxml_sv_ii_list_language_length_1_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7470,6 +7967,7 @@ def test_list_language_length_5_nistxml_sv_ii_list_language_length_1_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7485,6 +7983,7 @@ def test_list_language_length_5_nistxml_sv_ii_list_language_length_1_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7500,6 +7999,7 @@ def test_list_language_length_5_nistxml_sv_ii_list_language_length_1_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7515,6 +8015,7 @@ def test_list_language_min_length_9_nistxml_sv_ii_list_language_min_length_5_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7530,6 +8031,7 @@ def test_list_language_min_length_9_nistxml_sv_ii_list_language_min_length_5_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7545,6 +8047,7 @@ def test_list_language_min_length_9_nistxml_sv_ii_list_language_min_length_5_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7560,6 +8063,7 @@ def test_list_language_min_length_9_nistxml_sv_ii_list_language_min_length_5_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7575,6 +8079,7 @@ def test_list_language_min_length_9_nistxml_sv_ii_list_language_min_length_5_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7590,6 +8095,7 @@ def test_list_language_min_length_8_nistxml_sv_ii_list_language_min_length_4_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7605,6 +8111,7 @@ def test_list_language_min_length_8_nistxml_sv_ii_list_language_min_length_4_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7620,6 +8127,7 @@ def test_list_language_min_length_8_nistxml_sv_ii_list_language_min_length_4_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7635,6 +8143,7 @@ def test_list_language_min_length_8_nistxml_sv_ii_list_language_min_length_4_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7650,6 +8159,7 @@ def test_list_language_min_length_8_nistxml_sv_ii_list_language_min_length_4_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7665,6 +8175,7 @@ def test_list_language_min_length_7_nistxml_sv_ii_list_language_min_length_3_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7680,6 +8191,7 @@ def test_list_language_min_length_7_nistxml_sv_ii_list_language_min_length_3_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7695,6 +8207,7 @@ def test_list_language_min_length_7_nistxml_sv_ii_list_language_min_length_3_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7710,6 +8223,7 @@ def test_list_language_min_length_7_nistxml_sv_ii_list_language_min_length_3_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7725,6 +8239,7 @@ def test_list_language_min_length_7_nistxml_sv_ii_list_language_min_length_3_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7740,6 +8255,7 @@ def test_list_language_min_length_6_nistxml_sv_ii_list_language_min_length_2_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7755,6 +8271,7 @@ def test_list_language_min_length_6_nistxml_sv_ii_list_language_min_length_2_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7770,6 +8287,7 @@ def test_list_language_min_length_6_nistxml_sv_ii_list_language_min_length_2_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7785,6 +8303,7 @@ def test_list_language_min_length_6_nistxml_sv_ii_list_language_min_length_2_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7800,6 +8319,7 @@ def test_list_language_min_length_6_nistxml_sv_ii_list_language_min_length_2_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7815,6 +8335,7 @@ def test_list_language_min_length_5_nistxml_sv_ii_list_language_min_length_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7830,6 +8351,7 @@ def test_list_language_min_length_5_nistxml_sv_ii_list_language_min_length_1_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7845,6 +8367,7 @@ def test_list_language_min_length_5_nistxml_sv_ii_list_language_min_length_1_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7860,6 +8383,7 @@ def test_list_language_min_length_5_nistxml_sv_ii_list_language_min_length_1_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7875,6 +8399,7 @@ def test_list_language_min_length_5_nistxml_sv_ii_list_language_min_length_1_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7890,6 +8415,7 @@ def test_list_language_max_length_9_nistxml_sv_ii_list_language_max_length_5_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7905,6 +8431,7 @@ def test_list_language_max_length_9_nistxml_sv_ii_list_language_max_length_5_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7920,6 +8447,7 @@ def test_list_language_max_length_9_nistxml_sv_ii_list_language_max_length_5_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7935,6 +8463,7 @@ def test_list_language_max_length_9_nistxml_sv_ii_list_language_max_length_5_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7950,6 +8479,7 @@ def test_list_language_max_length_9_nistxml_sv_ii_list_language_max_length_5_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7965,6 +8495,7 @@ def test_list_language_max_length_8_nistxml_sv_ii_list_language_max_length_4_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7980,6 +8511,7 @@ def test_list_language_max_length_8_nistxml_sv_ii_list_language_max_length_4_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7995,6 +8527,7 @@ def test_list_language_max_length_8_nistxml_sv_ii_list_language_max_length_4_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8010,6 +8543,7 @@ def test_list_language_max_length_8_nistxml_sv_ii_list_language_max_length_4_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8025,6 +8559,7 @@ def test_list_language_max_length_8_nistxml_sv_ii_list_language_max_length_4_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8040,6 +8575,7 @@ def test_list_language_max_length_7_nistxml_sv_ii_list_language_max_length_3_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8055,6 +8591,7 @@ def test_list_language_max_length_7_nistxml_sv_ii_list_language_max_length_3_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8070,6 +8607,7 @@ def test_list_language_max_length_7_nistxml_sv_ii_list_language_max_length_3_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8085,6 +8623,7 @@ def test_list_language_max_length_7_nistxml_sv_ii_list_language_max_length_3_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8100,6 +8639,7 @@ def test_list_language_max_length_7_nistxml_sv_ii_list_language_max_length_3_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8115,6 +8655,7 @@ def test_list_language_max_length_6_nistxml_sv_ii_list_language_max_length_2_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8130,6 +8671,7 @@ def test_list_language_max_length_6_nistxml_sv_ii_list_language_max_length_2_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8145,6 +8687,7 @@ def test_list_language_max_length_6_nistxml_sv_ii_list_language_max_length_2_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8160,6 +8703,7 @@ def test_list_language_max_length_6_nistxml_sv_ii_list_language_max_length_2_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8175,6 +8719,7 @@ def test_list_language_max_length_6_nistxml_sv_ii_list_language_max_length_2_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8190,6 +8735,7 @@ def test_list_language_max_length_5_nistxml_sv_ii_list_language_max_length_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8205,6 +8751,7 @@ def test_list_language_max_length_5_nistxml_sv_ii_list_language_max_length_1_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8220,6 +8767,7 @@ def test_list_language_max_length_5_nistxml_sv_ii_list_language_max_length_1_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8235,6 +8783,7 @@ def test_list_language_max_length_5_nistxml_sv_ii_list_language_max_length_1_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8250,6 +8799,7 @@ def test_list_language_max_length_5_nistxml_sv_ii_list_language_max_length_1_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8265,6 +8815,7 @@ def test_list_id_length_9_nistxml_sv_ii_list_id_length_5_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8280,6 +8831,7 @@ def test_list_id_length_9_nistxml_sv_ii_list_id_length_5_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8295,6 +8847,7 @@ def test_list_id_length_9_nistxml_sv_ii_list_id_length_5_3(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8310,6 +8863,7 @@ def test_list_id_length_9_nistxml_sv_ii_list_id_length_5_4(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8325,6 +8879,7 @@ def test_list_id_length_9_nistxml_sv_ii_list_id_length_5_5(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8340,6 +8895,7 @@ def test_list_id_length_8_nistxml_sv_ii_list_id_length_4_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8355,6 +8911,7 @@ def test_list_id_length_8_nistxml_sv_ii_list_id_length_4_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8370,6 +8927,7 @@ def test_list_id_length_8_nistxml_sv_ii_list_id_length_4_3(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8385,6 +8943,7 @@ def test_list_id_length_8_nistxml_sv_ii_list_id_length_4_4(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8400,6 +8959,7 @@ def test_list_id_length_8_nistxml_sv_ii_list_id_length_4_5(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8415,6 +8975,7 @@ def test_list_id_length_7_nistxml_sv_ii_list_id_length_3_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8430,6 +8991,7 @@ def test_list_id_length_7_nistxml_sv_ii_list_id_length_3_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8445,6 +9007,7 @@ def test_list_id_length_7_nistxml_sv_ii_list_id_length_3_3(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8460,6 +9023,7 @@ def test_list_id_length_7_nistxml_sv_ii_list_id_length_3_4(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8475,6 +9039,7 @@ def test_list_id_length_7_nistxml_sv_ii_list_id_length_3_5(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8490,6 +9055,7 @@ def test_list_id_length_6_nistxml_sv_ii_list_id_length_2_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8505,6 +9071,7 @@ def test_list_id_length_6_nistxml_sv_ii_list_id_length_2_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8520,6 +9087,7 @@ def test_list_id_length_6_nistxml_sv_ii_list_id_length_2_3(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8535,6 +9103,7 @@ def test_list_id_length_6_nistxml_sv_ii_list_id_length_2_4(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8550,6 +9119,7 @@ def test_list_id_length_6_nistxml_sv_ii_list_id_length_2_5(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8565,6 +9135,7 @@ def test_list_id_length_5_nistxml_sv_ii_list_id_length_1_1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8580,6 +9151,7 @@ def test_list_id_length_5_nistxml_sv_ii_list_id_length_1_2(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8595,6 +9167,7 @@ def test_list_id_length_5_nistxml_sv_ii_list_id_length_1_3(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8610,6 +9183,7 @@ def test_list_id_length_5_nistxml_sv_ii_list_id_length_1_4(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8625,6 +9199,7 @@ def test_list_id_length_5_nistxml_sv_ii_list_id_length_1_5(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8640,6 +9215,7 @@ def test_list_id_min_length_9_nistxml_sv_ii_list_id_min_length_5_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8655,6 +9231,7 @@ def test_list_id_min_length_9_nistxml_sv_ii_list_id_min_length_5_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8670,6 +9247,7 @@ def test_list_id_min_length_9_nistxml_sv_ii_list_id_min_length_5_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8685,6 +9263,7 @@ def test_list_id_min_length_9_nistxml_sv_ii_list_id_min_length_5_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8700,6 +9279,7 @@ def test_list_id_min_length_9_nistxml_sv_ii_list_id_min_length_5_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8715,6 +9295,7 @@ def test_list_id_min_length_8_nistxml_sv_ii_list_id_min_length_4_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8730,6 +9311,7 @@ def test_list_id_min_length_8_nistxml_sv_ii_list_id_min_length_4_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8745,6 +9327,7 @@ def test_list_id_min_length_8_nistxml_sv_ii_list_id_min_length_4_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8760,6 +9343,7 @@ def test_list_id_min_length_8_nistxml_sv_ii_list_id_min_length_4_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8775,6 +9359,7 @@ def test_list_id_min_length_8_nistxml_sv_ii_list_id_min_length_4_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8790,6 +9375,7 @@ def test_list_id_min_length_7_nistxml_sv_ii_list_id_min_length_3_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8805,6 +9391,7 @@ def test_list_id_min_length_7_nistxml_sv_ii_list_id_min_length_3_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8820,6 +9407,7 @@ def test_list_id_min_length_7_nistxml_sv_ii_list_id_min_length_3_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8835,6 +9423,7 @@ def test_list_id_min_length_7_nistxml_sv_ii_list_id_min_length_3_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8850,6 +9439,7 @@ def test_list_id_min_length_7_nistxml_sv_ii_list_id_min_length_3_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8865,6 +9455,7 @@ def test_list_id_min_length_6_nistxml_sv_ii_list_id_min_length_2_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8880,6 +9471,7 @@ def test_list_id_min_length_6_nistxml_sv_ii_list_id_min_length_2_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8895,6 +9487,7 @@ def test_list_id_min_length_6_nistxml_sv_ii_list_id_min_length_2_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8910,6 +9503,7 @@ def test_list_id_min_length_6_nistxml_sv_ii_list_id_min_length_2_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8925,6 +9519,7 @@ def test_list_id_min_length_6_nistxml_sv_ii_list_id_min_length_2_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8940,6 +9535,7 @@ def test_list_id_min_length_5_nistxml_sv_ii_list_id_min_length_1_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8955,6 +9551,7 @@ def test_list_id_min_length_5_nistxml_sv_ii_list_id_min_length_1_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8970,6 +9567,7 @@ def test_list_id_min_length_5_nistxml_sv_ii_list_id_min_length_1_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8985,6 +9583,7 @@ def test_list_id_min_length_5_nistxml_sv_ii_list_id_min_length_1_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9000,6 +9599,7 @@ def test_list_id_min_length_5_nistxml_sv_ii_list_id_min_length_1_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9015,6 +9615,7 @@ def test_list_id_max_length_9_nistxml_sv_ii_list_id_max_length_5_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9030,6 +9631,7 @@ def test_list_id_max_length_9_nistxml_sv_ii_list_id_max_length_5_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9045,6 +9647,7 @@ def test_list_id_max_length_9_nistxml_sv_ii_list_id_max_length_5_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9060,6 +9663,7 @@ def test_list_id_max_length_9_nistxml_sv_ii_list_id_max_length_5_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9075,6 +9679,7 @@ def test_list_id_max_length_9_nistxml_sv_ii_list_id_max_length_5_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9090,6 +9695,7 @@ def test_list_id_max_length_8_nistxml_sv_ii_list_id_max_length_4_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9105,6 +9711,7 @@ def test_list_id_max_length_8_nistxml_sv_ii_list_id_max_length_4_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9120,6 +9727,7 @@ def test_list_id_max_length_8_nistxml_sv_ii_list_id_max_length_4_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9135,6 +9743,7 @@ def test_list_id_max_length_8_nistxml_sv_ii_list_id_max_length_4_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9150,6 +9759,7 @@ def test_list_id_max_length_8_nistxml_sv_ii_list_id_max_length_4_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9165,6 +9775,7 @@ def test_list_id_max_length_7_nistxml_sv_ii_list_id_max_length_3_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9180,6 +9791,7 @@ def test_list_id_max_length_7_nistxml_sv_ii_list_id_max_length_3_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9195,6 +9807,7 @@ def test_list_id_max_length_7_nistxml_sv_ii_list_id_max_length_3_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9210,6 +9823,7 @@ def test_list_id_max_length_7_nistxml_sv_ii_list_id_max_length_3_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9225,6 +9839,7 @@ def test_list_id_max_length_7_nistxml_sv_ii_list_id_max_length_3_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9240,6 +9855,7 @@ def test_list_id_max_length_6_nistxml_sv_ii_list_id_max_length_2_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9255,6 +9871,7 @@ def test_list_id_max_length_6_nistxml_sv_ii_list_id_max_length_2_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9270,6 +9887,7 @@ def test_list_id_max_length_6_nistxml_sv_ii_list_id_max_length_2_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9285,6 +9903,7 @@ def test_list_id_max_length_6_nistxml_sv_ii_list_id_max_length_2_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9300,6 +9919,7 @@ def test_list_id_max_length_6_nistxml_sv_ii_list_id_max_length_2_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9315,6 +9935,7 @@ def test_list_id_max_length_5_nistxml_sv_ii_list_id_max_length_1_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9330,6 +9951,7 @@ def test_list_id_max_length_5_nistxml_sv_ii_list_id_max_length_1_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9345,6 +9967,7 @@ def test_list_id_max_length_5_nistxml_sv_ii_list_id_max_length_1_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9360,6 +9983,7 @@ def test_list_id_max_length_5_nistxml_sv_ii_list_id_max_length_1_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9375,6 +9999,7 @@ def test_list_id_max_length_5_nistxml_sv_ii_list_id_max_length_1_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9390,6 +10015,7 @@ def test_list_ncname_length_9_nistxml_sv_ii_list_ncname_length_5_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9405,6 +10031,7 @@ def test_list_ncname_length_9_nistxml_sv_ii_list_ncname_length_5_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9420,6 +10047,7 @@ def test_list_ncname_length_9_nistxml_sv_ii_list_ncname_length_5_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9435,6 +10063,7 @@ def test_list_ncname_length_9_nistxml_sv_ii_list_ncname_length_5_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9450,6 +10079,7 @@ def test_list_ncname_length_9_nistxml_sv_ii_list_ncname_length_5_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9465,6 +10095,7 @@ def test_list_ncname_length_8_nistxml_sv_ii_list_ncname_length_4_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9480,6 +10111,7 @@ def test_list_ncname_length_8_nistxml_sv_ii_list_ncname_length_4_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9495,6 +10127,7 @@ def test_list_ncname_length_8_nistxml_sv_ii_list_ncname_length_4_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9510,6 +10143,7 @@ def test_list_ncname_length_8_nistxml_sv_ii_list_ncname_length_4_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9525,6 +10159,7 @@ def test_list_ncname_length_8_nistxml_sv_ii_list_ncname_length_4_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9540,6 +10175,7 @@ def test_list_ncname_length_7_nistxml_sv_ii_list_ncname_length_3_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9555,6 +10191,7 @@ def test_list_ncname_length_7_nistxml_sv_ii_list_ncname_length_3_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9570,6 +10207,7 @@ def test_list_ncname_length_7_nistxml_sv_ii_list_ncname_length_3_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9585,6 +10223,7 @@ def test_list_ncname_length_7_nistxml_sv_ii_list_ncname_length_3_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9600,6 +10239,7 @@ def test_list_ncname_length_7_nistxml_sv_ii_list_ncname_length_3_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9615,6 +10255,7 @@ def test_list_ncname_length_6_nistxml_sv_ii_list_ncname_length_2_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9630,6 +10271,7 @@ def test_list_ncname_length_6_nistxml_sv_ii_list_ncname_length_2_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9645,6 +10287,7 @@ def test_list_ncname_length_6_nistxml_sv_ii_list_ncname_length_2_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9660,6 +10303,7 @@ def test_list_ncname_length_6_nistxml_sv_ii_list_ncname_length_2_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9675,6 +10319,7 @@ def test_list_ncname_length_6_nistxml_sv_ii_list_ncname_length_2_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9690,6 +10335,7 @@ def test_list_ncname_length_5_nistxml_sv_ii_list_ncname_length_1_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9705,6 +10351,7 @@ def test_list_ncname_length_5_nistxml_sv_ii_list_ncname_length_1_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9720,6 +10367,7 @@ def test_list_ncname_length_5_nistxml_sv_ii_list_ncname_length_1_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9735,6 +10383,7 @@ def test_list_ncname_length_5_nistxml_sv_ii_list_ncname_length_1_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9750,6 +10399,7 @@ def test_list_ncname_length_5_nistxml_sv_ii_list_ncname_length_1_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9765,6 +10415,7 @@ def test_list_ncname_min_length_9_nistxml_sv_ii_list_ncname_min_length_5_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9780,6 +10431,7 @@ def test_list_ncname_min_length_9_nistxml_sv_ii_list_ncname_min_length_5_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9795,6 +10447,7 @@ def test_list_ncname_min_length_9_nistxml_sv_ii_list_ncname_min_length_5_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9810,6 +10463,7 @@ def test_list_ncname_min_length_9_nistxml_sv_ii_list_ncname_min_length_5_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9825,6 +10479,7 @@ def test_list_ncname_min_length_9_nistxml_sv_ii_list_ncname_min_length_5_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9840,6 +10495,7 @@ def test_list_ncname_min_length_8_nistxml_sv_ii_list_ncname_min_length_4_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9855,6 +10511,7 @@ def test_list_ncname_min_length_8_nistxml_sv_ii_list_ncname_min_length_4_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9870,6 +10527,7 @@ def test_list_ncname_min_length_8_nistxml_sv_ii_list_ncname_min_length_4_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9885,6 +10543,7 @@ def test_list_ncname_min_length_8_nistxml_sv_ii_list_ncname_min_length_4_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9900,6 +10559,7 @@ def test_list_ncname_min_length_8_nistxml_sv_ii_list_ncname_min_length_4_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9915,6 +10575,7 @@ def test_list_ncname_min_length_7_nistxml_sv_ii_list_ncname_min_length_3_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9930,6 +10591,7 @@ def test_list_ncname_min_length_7_nistxml_sv_ii_list_ncname_min_length_3_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9945,6 +10607,7 @@ def test_list_ncname_min_length_7_nistxml_sv_ii_list_ncname_min_length_3_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9960,6 +10623,7 @@ def test_list_ncname_min_length_7_nistxml_sv_ii_list_ncname_min_length_3_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9975,6 +10639,7 @@ def test_list_ncname_min_length_7_nistxml_sv_ii_list_ncname_min_length_3_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9990,6 +10655,7 @@ def test_list_ncname_min_length_6_nistxml_sv_ii_list_ncname_min_length_2_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10005,6 +10671,7 @@ def test_list_ncname_min_length_6_nistxml_sv_ii_list_ncname_min_length_2_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10020,6 +10687,7 @@ def test_list_ncname_min_length_6_nistxml_sv_ii_list_ncname_min_length_2_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10035,6 +10703,7 @@ def test_list_ncname_min_length_6_nistxml_sv_ii_list_ncname_min_length_2_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10050,6 +10719,7 @@ def test_list_ncname_min_length_6_nistxml_sv_ii_list_ncname_min_length_2_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10065,6 +10735,7 @@ def test_list_ncname_min_length_5_nistxml_sv_ii_list_ncname_min_length_1_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10080,6 +10751,7 @@ def test_list_ncname_min_length_5_nistxml_sv_ii_list_ncname_min_length_1_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10095,6 +10767,7 @@ def test_list_ncname_min_length_5_nistxml_sv_ii_list_ncname_min_length_1_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10110,6 +10783,7 @@ def test_list_ncname_min_length_5_nistxml_sv_ii_list_ncname_min_length_1_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10125,6 +10799,7 @@ def test_list_ncname_min_length_5_nistxml_sv_ii_list_ncname_min_length_1_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10140,6 +10815,7 @@ def test_list_ncname_max_length_9_nistxml_sv_ii_list_ncname_max_length_5_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10155,6 +10831,7 @@ def test_list_ncname_max_length_9_nistxml_sv_ii_list_ncname_max_length_5_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10170,6 +10847,7 @@ def test_list_ncname_max_length_9_nistxml_sv_ii_list_ncname_max_length_5_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10185,6 +10863,7 @@ def test_list_ncname_max_length_9_nistxml_sv_ii_list_ncname_max_length_5_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10200,6 +10879,7 @@ def test_list_ncname_max_length_9_nistxml_sv_ii_list_ncname_max_length_5_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10215,6 +10895,7 @@ def test_list_ncname_max_length_8_nistxml_sv_ii_list_ncname_max_length_4_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10230,6 +10911,7 @@ def test_list_ncname_max_length_8_nistxml_sv_ii_list_ncname_max_length_4_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10245,6 +10927,7 @@ def test_list_ncname_max_length_8_nistxml_sv_ii_list_ncname_max_length_4_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10260,6 +10943,7 @@ def test_list_ncname_max_length_8_nistxml_sv_ii_list_ncname_max_length_4_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10275,6 +10959,7 @@ def test_list_ncname_max_length_8_nistxml_sv_ii_list_ncname_max_length_4_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10290,6 +10975,7 @@ def test_list_ncname_max_length_7_nistxml_sv_ii_list_ncname_max_length_3_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10305,6 +10991,7 @@ def test_list_ncname_max_length_7_nistxml_sv_ii_list_ncname_max_length_3_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10320,6 +11007,7 @@ def test_list_ncname_max_length_7_nistxml_sv_ii_list_ncname_max_length_3_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10335,6 +11023,7 @@ def test_list_ncname_max_length_7_nistxml_sv_ii_list_ncname_max_length_3_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10350,6 +11039,7 @@ def test_list_ncname_max_length_7_nistxml_sv_ii_list_ncname_max_length_3_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10365,6 +11055,7 @@ def test_list_ncname_max_length_6_nistxml_sv_ii_list_ncname_max_length_2_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10380,6 +11071,7 @@ def test_list_ncname_max_length_6_nistxml_sv_ii_list_ncname_max_length_2_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10395,6 +11087,7 @@ def test_list_ncname_max_length_6_nistxml_sv_ii_list_ncname_max_length_2_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10410,6 +11103,7 @@ def test_list_ncname_max_length_6_nistxml_sv_ii_list_ncname_max_length_2_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10425,6 +11119,7 @@ def test_list_ncname_max_length_6_nistxml_sv_ii_list_ncname_max_length_2_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10440,6 +11135,7 @@ def test_list_ncname_max_length_5_nistxml_sv_ii_list_ncname_max_length_1_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10455,6 +11151,7 @@ def test_list_ncname_max_length_5_nistxml_sv_ii_list_ncname_max_length_1_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10470,6 +11167,7 @@ def test_list_ncname_max_length_5_nistxml_sv_ii_list_ncname_max_length_1_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10485,6 +11183,7 @@ def test_list_ncname_max_length_5_nistxml_sv_ii_list_ncname_max_length_1_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10500,6 +11199,7 @@ def test_list_ncname_max_length_5_nistxml_sv_ii_list_ncname_max_length_1_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10515,6 +11215,7 @@ def test_list_nmtokens_length_9_nistxml_sv_ii_list_nmtokens_length_5_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10530,6 +11231,7 @@ def test_list_nmtokens_length_9_nistxml_sv_ii_list_nmtokens_length_5_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10545,6 +11247,7 @@ def test_list_nmtokens_length_9_nistxml_sv_ii_list_nmtokens_length_5_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10560,6 +11263,7 @@ def test_list_nmtokens_length_9_nistxml_sv_ii_list_nmtokens_length_5_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10575,6 +11279,7 @@ def test_list_nmtokens_length_9_nistxml_sv_ii_list_nmtokens_length_5_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10590,6 +11295,7 @@ def test_list_nmtokens_length_8_nistxml_sv_ii_list_nmtokens_length_4_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10605,6 +11311,7 @@ def test_list_nmtokens_length_8_nistxml_sv_ii_list_nmtokens_length_4_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10620,6 +11327,7 @@ def test_list_nmtokens_length_8_nistxml_sv_ii_list_nmtokens_length_4_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10635,6 +11343,7 @@ def test_list_nmtokens_length_8_nistxml_sv_ii_list_nmtokens_length_4_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10650,6 +11359,7 @@ def test_list_nmtokens_length_8_nistxml_sv_ii_list_nmtokens_length_4_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10665,6 +11375,7 @@ def test_list_nmtokens_length_7_nistxml_sv_ii_list_nmtokens_length_3_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10680,6 +11391,7 @@ def test_list_nmtokens_length_7_nistxml_sv_ii_list_nmtokens_length_3_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10695,6 +11407,7 @@ def test_list_nmtokens_length_7_nistxml_sv_ii_list_nmtokens_length_3_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10710,6 +11423,7 @@ def test_list_nmtokens_length_7_nistxml_sv_ii_list_nmtokens_length_3_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10725,6 +11439,7 @@ def test_list_nmtokens_length_7_nistxml_sv_ii_list_nmtokens_length_3_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10740,6 +11455,7 @@ def test_list_nmtokens_length_6_nistxml_sv_ii_list_nmtokens_length_2_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10755,6 +11471,7 @@ def test_list_nmtokens_length_6_nistxml_sv_ii_list_nmtokens_length_2_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10770,6 +11487,7 @@ def test_list_nmtokens_length_6_nistxml_sv_ii_list_nmtokens_length_2_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10785,6 +11503,7 @@ def test_list_nmtokens_length_6_nistxml_sv_ii_list_nmtokens_length_2_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10800,6 +11519,7 @@ def test_list_nmtokens_length_6_nistxml_sv_ii_list_nmtokens_length_2_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10815,6 +11535,7 @@ def test_list_nmtokens_length_5_nistxml_sv_ii_list_nmtokens_length_1_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10830,6 +11551,7 @@ def test_list_nmtokens_length_5_nistxml_sv_ii_list_nmtokens_length_1_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10845,6 +11567,7 @@ def test_list_nmtokens_length_5_nistxml_sv_ii_list_nmtokens_length_1_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10860,6 +11583,7 @@ def test_list_nmtokens_length_5_nistxml_sv_ii_list_nmtokens_length_1_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10875,6 +11599,7 @@ def test_list_nmtokens_length_5_nistxml_sv_ii_list_nmtokens_length_1_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10890,6 +11615,7 @@ def test_list_nmtokens_min_length_9_nistxml_sv_ii_list_nmtokens_min_length_5_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10905,6 +11631,7 @@ def test_list_nmtokens_min_length_9_nistxml_sv_ii_list_nmtokens_min_length_5_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10920,6 +11647,7 @@ def test_list_nmtokens_min_length_9_nistxml_sv_ii_list_nmtokens_min_length_5_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10935,6 +11663,7 @@ def test_list_nmtokens_min_length_9_nistxml_sv_ii_list_nmtokens_min_length_5_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10950,6 +11679,7 @@ def test_list_nmtokens_min_length_9_nistxml_sv_ii_list_nmtokens_min_length_5_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10965,6 +11695,7 @@ def test_list_nmtokens_min_length_8_nistxml_sv_ii_list_nmtokens_min_length_4_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10980,6 +11711,7 @@ def test_list_nmtokens_min_length_8_nistxml_sv_ii_list_nmtokens_min_length_4_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10995,6 +11727,7 @@ def test_list_nmtokens_min_length_8_nistxml_sv_ii_list_nmtokens_min_length_4_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11010,6 +11743,7 @@ def test_list_nmtokens_min_length_8_nistxml_sv_ii_list_nmtokens_min_length_4_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11025,6 +11759,7 @@ def test_list_nmtokens_min_length_8_nistxml_sv_ii_list_nmtokens_min_length_4_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11040,6 +11775,7 @@ def test_list_nmtokens_min_length_7_nistxml_sv_ii_list_nmtokens_min_length_3_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11055,6 +11791,7 @@ def test_list_nmtokens_min_length_7_nistxml_sv_ii_list_nmtokens_min_length_3_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11070,6 +11807,7 @@ def test_list_nmtokens_min_length_7_nistxml_sv_ii_list_nmtokens_min_length_3_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11085,6 +11823,7 @@ def test_list_nmtokens_min_length_7_nistxml_sv_ii_list_nmtokens_min_length_3_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11100,6 +11839,7 @@ def test_list_nmtokens_min_length_7_nistxml_sv_ii_list_nmtokens_min_length_3_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11115,6 +11855,7 @@ def test_list_nmtokens_min_length_6_nistxml_sv_ii_list_nmtokens_min_length_2_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11130,6 +11871,7 @@ def test_list_nmtokens_min_length_6_nistxml_sv_ii_list_nmtokens_min_length_2_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11145,6 +11887,7 @@ def test_list_nmtokens_min_length_6_nistxml_sv_ii_list_nmtokens_min_length_2_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11160,6 +11903,7 @@ def test_list_nmtokens_min_length_6_nistxml_sv_ii_list_nmtokens_min_length_2_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11175,6 +11919,7 @@ def test_list_nmtokens_min_length_6_nistxml_sv_ii_list_nmtokens_min_length_2_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11190,6 +11935,7 @@ def test_list_nmtokens_min_length_5_nistxml_sv_ii_list_nmtokens_min_length_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11205,6 +11951,7 @@ def test_list_nmtokens_min_length_5_nistxml_sv_ii_list_nmtokens_min_length_1_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11220,6 +11967,7 @@ def test_list_nmtokens_min_length_5_nistxml_sv_ii_list_nmtokens_min_length_1_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11235,6 +11983,7 @@ def test_list_nmtokens_min_length_5_nistxml_sv_ii_list_nmtokens_min_length_1_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11250,6 +11999,7 @@ def test_list_nmtokens_min_length_5_nistxml_sv_ii_list_nmtokens_min_length_1_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11265,6 +12015,7 @@ def test_list_nmtokens_max_length_9_nistxml_sv_ii_list_nmtokens_max_length_5_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11280,6 +12031,7 @@ def test_list_nmtokens_max_length_9_nistxml_sv_ii_list_nmtokens_max_length_5_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11295,6 +12047,7 @@ def test_list_nmtokens_max_length_9_nistxml_sv_ii_list_nmtokens_max_length_5_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11310,6 +12063,7 @@ def test_list_nmtokens_max_length_9_nistxml_sv_ii_list_nmtokens_max_length_5_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11325,6 +12079,7 @@ def test_list_nmtokens_max_length_9_nistxml_sv_ii_list_nmtokens_max_length_5_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11340,6 +12095,7 @@ def test_list_nmtokens_max_length_8_nistxml_sv_ii_list_nmtokens_max_length_4_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11355,6 +12111,7 @@ def test_list_nmtokens_max_length_8_nistxml_sv_ii_list_nmtokens_max_length_4_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11370,6 +12127,7 @@ def test_list_nmtokens_max_length_8_nistxml_sv_ii_list_nmtokens_max_length_4_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11385,6 +12143,7 @@ def test_list_nmtokens_max_length_8_nistxml_sv_ii_list_nmtokens_max_length_4_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11400,6 +12159,7 @@ def test_list_nmtokens_max_length_8_nistxml_sv_ii_list_nmtokens_max_length_4_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11415,6 +12175,7 @@ def test_list_nmtokens_max_length_7_nistxml_sv_ii_list_nmtokens_max_length_3_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11430,6 +12191,7 @@ def test_list_nmtokens_max_length_7_nistxml_sv_ii_list_nmtokens_max_length_3_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11445,6 +12207,7 @@ def test_list_nmtokens_max_length_7_nistxml_sv_ii_list_nmtokens_max_length_3_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11460,6 +12223,7 @@ def test_list_nmtokens_max_length_7_nistxml_sv_ii_list_nmtokens_max_length_3_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11475,6 +12239,7 @@ def test_list_nmtokens_max_length_7_nistxml_sv_ii_list_nmtokens_max_length_3_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11490,6 +12255,7 @@ def test_list_nmtokens_max_length_6_nistxml_sv_ii_list_nmtokens_max_length_2_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11505,6 +12271,7 @@ def test_list_nmtokens_max_length_6_nistxml_sv_ii_list_nmtokens_max_length_2_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11520,6 +12287,7 @@ def test_list_nmtokens_max_length_6_nistxml_sv_ii_list_nmtokens_max_length_2_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11535,6 +12303,7 @@ def test_list_nmtokens_max_length_6_nistxml_sv_ii_list_nmtokens_max_length_2_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11550,6 +12319,7 @@ def test_list_nmtokens_max_length_6_nistxml_sv_ii_list_nmtokens_max_length_2_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11565,6 +12335,7 @@ def test_list_nmtokens_max_length_5_nistxml_sv_ii_list_nmtokens_max_length_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11580,6 +12351,7 @@ def test_list_nmtokens_max_length_5_nistxml_sv_ii_list_nmtokens_max_length_1_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11595,6 +12367,7 @@ def test_list_nmtokens_max_length_5_nistxml_sv_ii_list_nmtokens_max_length_1_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11610,6 +12383,7 @@ def test_list_nmtokens_max_length_5_nistxml_sv_ii_list_nmtokens_max_length_1_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11625,6 +12399,7 @@ def test_list_nmtokens_max_length_5_nistxml_sv_ii_list_nmtokens_max_length_1_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11640,6 +12415,7 @@ def test_list_nmtoken_length_9_nistxml_sv_ii_list_nmtoken_length_5_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11655,6 +12431,7 @@ def test_list_nmtoken_length_9_nistxml_sv_ii_list_nmtoken_length_5_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11670,6 +12447,7 @@ def test_list_nmtoken_length_9_nistxml_sv_ii_list_nmtoken_length_5_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11685,6 +12463,7 @@ def test_list_nmtoken_length_9_nistxml_sv_ii_list_nmtoken_length_5_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11700,6 +12479,7 @@ def test_list_nmtoken_length_9_nistxml_sv_ii_list_nmtoken_length_5_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11715,6 +12495,7 @@ def test_list_nmtoken_length_8_nistxml_sv_ii_list_nmtoken_length_4_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11730,6 +12511,7 @@ def test_list_nmtoken_length_8_nistxml_sv_ii_list_nmtoken_length_4_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11745,6 +12527,7 @@ def test_list_nmtoken_length_8_nistxml_sv_ii_list_nmtoken_length_4_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11760,6 +12543,7 @@ def test_list_nmtoken_length_8_nistxml_sv_ii_list_nmtoken_length_4_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11775,6 +12559,7 @@ def test_list_nmtoken_length_8_nistxml_sv_ii_list_nmtoken_length_4_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11790,6 +12575,7 @@ def test_list_nmtoken_length_7_nistxml_sv_ii_list_nmtoken_length_3_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11805,6 +12591,7 @@ def test_list_nmtoken_length_7_nistxml_sv_ii_list_nmtoken_length_3_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11820,6 +12607,7 @@ def test_list_nmtoken_length_7_nistxml_sv_ii_list_nmtoken_length_3_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11835,6 +12623,7 @@ def test_list_nmtoken_length_7_nistxml_sv_ii_list_nmtoken_length_3_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11850,6 +12639,7 @@ def test_list_nmtoken_length_7_nistxml_sv_ii_list_nmtoken_length_3_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11865,6 +12655,7 @@ def test_list_nmtoken_length_6_nistxml_sv_ii_list_nmtoken_length_2_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11880,6 +12671,7 @@ def test_list_nmtoken_length_6_nistxml_sv_ii_list_nmtoken_length_2_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11895,6 +12687,7 @@ def test_list_nmtoken_length_6_nistxml_sv_ii_list_nmtoken_length_2_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11910,6 +12703,7 @@ def test_list_nmtoken_length_6_nistxml_sv_ii_list_nmtoken_length_2_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11925,6 +12719,7 @@ def test_list_nmtoken_length_6_nistxml_sv_ii_list_nmtoken_length_2_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11940,6 +12735,7 @@ def test_list_nmtoken_length_5_nistxml_sv_ii_list_nmtoken_length_1_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11955,6 +12751,7 @@ def test_list_nmtoken_length_5_nistxml_sv_ii_list_nmtoken_length_1_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11970,6 +12767,7 @@ def test_list_nmtoken_length_5_nistxml_sv_ii_list_nmtoken_length_1_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11985,6 +12783,7 @@ def test_list_nmtoken_length_5_nistxml_sv_ii_list_nmtoken_length_1_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12000,6 +12799,7 @@ def test_list_nmtoken_length_5_nistxml_sv_ii_list_nmtoken_length_1_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12015,6 +12815,7 @@ def test_list_nmtoken_min_length_9_nistxml_sv_ii_list_nmtoken_min_length_5_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12030,6 +12831,7 @@ def test_list_nmtoken_min_length_9_nistxml_sv_ii_list_nmtoken_min_length_5_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12045,6 +12847,7 @@ def test_list_nmtoken_min_length_9_nistxml_sv_ii_list_nmtoken_min_length_5_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12060,6 +12863,7 @@ def test_list_nmtoken_min_length_9_nistxml_sv_ii_list_nmtoken_min_length_5_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12075,6 +12879,7 @@ def test_list_nmtoken_min_length_9_nistxml_sv_ii_list_nmtoken_min_length_5_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12090,6 +12895,7 @@ def test_list_nmtoken_min_length_8_nistxml_sv_ii_list_nmtoken_min_length_4_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12105,6 +12911,7 @@ def test_list_nmtoken_min_length_8_nistxml_sv_ii_list_nmtoken_min_length_4_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12120,6 +12927,7 @@ def test_list_nmtoken_min_length_8_nistxml_sv_ii_list_nmtoken_min_length_4_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12135,6 +12943,7 @@ def test_list_nmtoken_min_length_8_nistxml_sv_ii_list_nmtoken_min_length_4_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12150,6 +12959,7 @@ def test_list_nmtoken_min_length_8_nistxml_sv_ii_list_nmtoken_min_length_4_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12165,6 +12975,7 @@ def test_list_nmtoken_min_length_7_nistxml_sv_ii_list_nmtoken_min_length_3_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12180,6 +12991,7 @@ def test_list_nmtoken_min_length_7_nistxml_sv_ii_list_nmtoken_min_length_3_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12195,6 +13007,7 @@ def test_list_nmtoken_min_length_7_nistxml_sv_ii_list_nmtoken_min_length_3_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12210,6 +13023,7 @@ def test_list_nmtoken_min_length_7_nistxml_sv_ii_list_nmtoken_min_length_3_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12225,6 +13039,7 @@ def test_list_nmtoken_min_length_7_nistxml_sv_ii_list_nmtoken_min_length_3_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12240,6 +13055,7 @@ def test_list_nmtoken_min_length_6_nistxml_sv_ii_list_nmtoken_min_length_2_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12255,6 +13071,7 @@ def test_list_nmtoken_min_length_6_nistxml_sv_ii_list_nmtoken_min_length_2_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12270,6 +13087,7 @@ def test_list_nmtoken_min_length_6_nistxml_sv_ii_list_nmtoken_min_length_2_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12285,6 +13103,7 @@ def test_list_nmtoken_min_length_6_nistxml_sv_ii_list_nmtoken_min_length_2_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12300,6 +13119,7 @@ def test_list_nmtoken_min_length_6_nistxml_sv_ii_list_nmtoken_min_length_2_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12315,6 +13135,7 @@ def test_list_nmtoken_min_length_5_nistxml_sv_ii_list_nmtoken_min_length_1_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12330,6 +13151,7 @@ def test_list_nmtoken_min_length_5_nistxml_sv_ii_list_nmtoken_min_length_1_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12345,6 +13167,7 @@ def test_list_nmtoken_min_length_5_nistxml_sv_ii_list_nmtoken_min_length_1_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12360,6 +13183,7 @@ def test_list_nmtoken_min_length_5_nistxml_sv_ii_list_nmtoken_min_length_1_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12375,6 +13199,7 @@ def test_list_nmtoken_min_length_5_nistxml_sv_ii_list_nmtoken_min_length_1_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12390,6 +13215,7 @@ def test_list_nmtoken_max_length_9_nistxml_sv_ii_list_nmtoken_max_length_5_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12405,6 +13231,7 @@ def test_list_nmtoken_max_length_9_nistxml_sv_ii_list_nmtoken_max_length_5_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12420,6 +13247,7 @@ def test_list_nmtoken_max_length_9_nistxml_sv_ii_list_nmtoken_max_length_5_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12435,6 +13263,7 @@ def test_list_nmtoken_max_length_9_nistxml_sv_ii_list_nmtoken_max_length_5_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12450,6 +13279,7 @@ def test_list_nmtoken_max_length_9_nistxml_sv_ii_list_nmtoken_max_length_5_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12465,6 +13295,7 @@ def test_list_nmtoken_max_length_8_nistxml_sv_ii_list_nmtoken_max_length_4_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12480,6 +13311,7 @@ def test_list_nmtoken_max_length_8_nistxml_sv_ii_list_nmtoken_max_length_4_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12495,6 +13327,7 @@ def test_list_nmtoken_max_length_8_nistxml_sv_ii_list_nmtoken_max_length_4_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12510,6 +13343,7 @@ def test_list_nmtoken_max_length_8_nistxml_sv_ii_list_nmtoken_max_length_4_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12525,6 +13359,7 @@ def test_list_nmtoken_max_length_8_nistxml_sv_ii_list_nmtoken_max_length_4_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12540,6 +13375,7 @@ def test_list_nmtoken_max_length_7_nistxml_sv_ii_list_nmtoken_max_length_3_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12555,6 +13391,7 @@ def test_list_nmtoken_max_length_7_nistxml_sv_ii_list_nmtoken_max_length_3_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12570,6 +13407,7 @@ def test_list_nmtoken_max_length_7_nistxml_sv_ii_list_nmtoken_max_length_3_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12585,6 +13423,7 @@ def test_list_nmtoken_max_length_7_nistxml_sv_ii_list_nmtoken_max_length_3_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12600,6 +13439,7 @@ def test_list_nmtoken_max_length_7_nistxml_sv_ii_list_nmtoken_max_length_3_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12615,6 +13455,7 @@ def test_list_nmtoken_max_length_6_nistxml_sv_ii_list_nmtoken_max_length_2_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12630,6 +13471,7 @@ def test_list_nmtoken_max_length_6_nistxml_sv_ii_list_nmtoken_max_length_2_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12645,6 +13487,7 @@ def test_list_nmtoken_max_length_6_nistxml_sv_ii_list_nmtoken_max_length_2_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12660,6 +13503,7 @@ def test_list_nmtoken_max_length_6_nistxml_sv_ii_list_nmtoken_max_length_2_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12675,6 +13519,7 @@ def test_list_nmtoken_max_length_6_nistxml_sv_ii_list_nmtoken_max_length_2_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12690,6 +13535,7 @@ def test_list_nmtoken_max_length_5_nistxml_sv_ii_list_nmtoken_max_length_1_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12705,6 +13551,7 @@ def test_list_nmtoken_max_length_5_nistxml_sv_ii_list_nmtoken_max_length_1_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12720,6 +13567,7 @@ def test_list_nmtoken_max_length_5_nistxml_sv_ii_list_nmtoken_max_length_1_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12735,6 +13583,7 @@ def test_list_nmtoken_max_length_5_nistxml_sv_ii_list_nmtoken_max_length_1_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12750,6 +13599,7 @@ def test_list_nmtoken_max_length_5_nistxml_sv_ii_list_nmtoken_max_length_1_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12765,6 +13615,7 @@ def test_list_name_length_9_nistxml_sv_ii_list_name_length_5_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12780,6 +13631,7 @@ def test_list_name_length_9_nistxml_sv_ii_list_name_length_5_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12795,6 +13647,7 @@ def test_list_name_length_9_nistxml_sv_ii_list_name_length_5_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12810,6 +13663,7 @@ def test_list_name_length_9_nistxml_sv_ii_list_name_length_5_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12825,6 +13679,7 @@ def test_list_name_length_9_nistxml_sv_ii_list_name_length_5_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12840,6 +13695,7 @@ def test_list_name_length_8_nistxml_sv_ii_list_name_length_4_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12855,6 +13711,7 @@ def test_list_name_length_8_nistxml_sv_ii_list_name_length_4_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12870,6 +13727,7 @@ def test_list_name_length_8_nistxml_sv_ii_list_name_length_4_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12885,6 +13743,7 @@ def test_list_name_length_8_nistxml_sv_ii_list_name_length_4_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12900,6 +13759,7 @@ def test_list_name_length_8_nistxml_sv_ii_list_name_length_4_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12915,6 +13775,7 @@ def test_list_name_length_7_nistxml_sv_ii_list_name_length_3_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12930,6 +13791,7 @@ def test_list_name_length_7_nistxml_sv_ii_list_name_length_3_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12945,6 +13807,7 @@ def test_list_name_length_7_nistxml_sv_ii_list_name_length_3_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12960,6 +13823,7 @@ def test_list_name_length_7_nistxml_sv_ii_list_name_length_3_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12975,6 +13839,7 @@ def test_list_name_length_7_nistxml_sv_ii_list_name_length_3_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12990,6 +13855,7 @@ def test_list_name_length_6_nistxml_sv_ii_list_name_length_2_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13005,6 +13871,7 @@ def test_list_name_length_6_nistxml_sv_ii_list_name_length_2_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13020,6 +13887,7 @@ def test_list_name_length_6_nistxml_sv_ii_list_name_length_2_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13035,6 +13903,7 @@ def test_list_name_length_6_nistxml_sv_ii_list_name_length_2_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13050,6 +13919,7 @@ def test_list_name_length_6_nistxml_sv_ii_list_name_length_2_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13065,6 +13935,7 @@ def test_list_name_length_5_nistxml_sv_ii_list_name_length_1_1(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13080,6 +13951,7 @@ def test_list_name_length_5_nistxml_sv_ii_list_name_length_1_2(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13095,6 +13967,7 @@ def test_list_name_length_5_nistxml_sv_ii_list_name_length_1_3(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13110,6 +13983,7 @@ def test_list_name_length_5_nistxml_sv_ii_list_name_length_1_4(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13125,6 +13999,7 @@ def test_list_name_length_5_nistxml_sv_ii_list_name_length_1_5(mode, save_output
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13140,6 +14015,7 @@ def test_list_name_min_length_9_nistxml_sv_ii_list_name_min_length_5_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13155,6 +14031,7 @@ def test_list_name_min_length_9_nistxml_sv_ii_list_name_min_length_5_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13170,6 +14047,7 @@ def test_list_name_min_length_9_nistxml_sv_ii_list_name_min_length_5_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13185,6 +14063,7 @@ def test_list_name_min_length_9_nistxml_sv_ii_list_name_min_length_5_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13200,6 +14079,7 @@ def test_list_name_min_length_9_nistxml_sv_ii_list_name_min_length_5_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13215,6 +14095,7 @@ def test_list_name_min_length_8_nistxml_sv_ii_list_name_min_length_4_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13230,6 +14111,7 @@ def test_list_name_min_length_8_nistxml_sv_ii_list_name_min_length_4_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13245,6 +14127,7 @@ def test_list_name_min_length_8_nistxml_sv_ii_list_name_min_length_4_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13260,6 +14143,7 @@ def test_list_name_min_length_8_nistxml_sv_ii_list_name_min_length_4_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13275,6 +14159,7 @@ def test_list_name_min_length_8_nistxml_sv_ii_list_name_min_length_4_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13290,6 +14175,7 @@ def test_list_name_min_length_7_nistxml_sv_ii_list_name_min_length_3_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13305,6 +14191,7 @@ def test_list_name_min_length_7_nistxml_sv_ii_list_name_min_length_3_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13320,6 +14207,7 @@ def test_list_name_min_length_7_nistxml_sv_ii_list_name_min_length_3_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13335,6 +14223,7 @@ def test_list_name_min_length_7_nistxml_sv_ii_list_name_min_length_3_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13350,6 +14239,7 @@ def test_list_name_min_length_7_nistxml_sv_ii_list_name_min_length_3_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13365,6 +14255,7 @@ def test_list_name_min_length_6_nistxml_sv_ii_list_name_min_length_2_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13380,6 +14271,7 @@ def test_list_name_min_length_6_nistxml_sv_ii_list_name_min_length_2_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13395,6 +14287,7 @@ def test_list_name_min_length_6_nistxml_sv_ii_list_name_min_length_2_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13410,6 +14303,7 @@ def test_list_name_min_length_6_nistxml_sv_ii_list_name_min_length_2_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13425,6 +14319,7 @@ def test_list_name_min_length_6_nistxml_sv_ii_list_name_min_length_2_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13440,6 +14335,7 @@ def test_list_name_min_length_5_nistxml_sv_ii_list_name_min_length_1_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13455,6 +14351,7 @@ def test_list_name_min_length_5_nistxml_sv_ii_list_name_min_length_1_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13470,6 +14367,7 @@ def test_list_name_min_length_5_nistxml_sv_ii_list_name_min_length_1_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13485,6 +14383,7 @@ def test_list_name_min_length_5_nistxml_sv_ii_list_name_min_length_1_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13500,6 +14399,7 @@ def test_list_name_min_length_5_nistxml_sv_ii_list_name_min_length_1_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13515,6 +14415,7 @@ def test_list_name_max_length_9_nistxml_sv_ii_list_name_max_length_5_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13530,6 +14431,7 @@ def test_list_name_max_length_9_nistxml_sv_ii_list_name_max_length_5_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13545,6 +14447,7 @@ def test_list_name_max_length_9_nistxml_sv_ii_list_name_max_length_5_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13560,6 +14463,7 @@ def test_list_name_max_length_9_nistxml_sv_ii_list_name_max_length_5_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13575,6 +14479,7 @@ def test_list_name_max_length_9_nistxml_sv_ii_list_name_max_length_5_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13590,6 +14495,7 @@ def test_list_name_max_length_8_nistxml_sv_ii_list_name_max_length_4_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13605,6 +14511,7 @@ def test_list_name_max_length_8_nistxml_sv_ii_list_name_max_length_4_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13620,6 +14527,7 @@ def test_list_name_max_length_8_nistxml_sv_ii_list_name_max_length_4_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13635,6 +14543,7 @@ def test_list_name_max_length_8_nistxml_sv_ii_list_name_max_length_4_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13650,6 +14559,7 @@ def test_list_name_max_length_8_nistxml_sv_ii_list_name_max_length_4_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13665,6 +14575,7 @@ def test_list_name_max_length_7_nistxml_sv_ii_list_name_max_length_3_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13680,6 +14591,7 @@ def test_list_name_max_length_7_nistxml_sv_ii_list_name_max_length_3_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13695,6 +14607,7 @@ def test_list_name_max_length_7_nistxml_sv_ii_list_name_max_length_3_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13710,6 +14623,7 @@ def test_list_name_max_length_7_nistxml_sv_ii_list_name_max_length_3_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13725,6 +14639,7 @@ def test_list_name_max_length_7_nistxml_sv_ii_list_name_max_length_3_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13740,6 +14655,7 @@ def test_list_name_max_length_6_nistxml_sv_ii_list_name_max_length_2_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13755,6 +14671,7 @@ def test_list_name_max_length_6_nistxml_sv_ii_list_name_max_length_2_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13770,6 +14687,7 @@ def test_list_name_max_length_6_nistxml_sv_ii_list_name_max_length_2_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13785,6 +14703,7 @@ def test_list_name_max_length_6_nistxml_sv_ii_list_name_max_length_2_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13800,6 +14719,7 @@ def test_list_name_max_length_6_nistxml_sv_ii_list_name_max_length_2_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13815,6 +14735,7 @@ def test_list_name_max_length_5_nistxml_sv_ii_list_name_max_length_1_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13830,6 +14751,7 @@ def test_list_name_max_length_5_nistxml_sv_ii_list_name_max_length_1_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13845,6 +14767,7 @@ def test_list_name_max_length_5_nistxml_sv_ii_list_name_max_length_1_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13860,6 +14783,7 @@ def test_list_name_max_length_5_nistxml_sv_ii_list_name_max_length_1_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13875,6 +14799,7 @@ def test_list_name_max_length_5_nistxml_sv_ii_list_name_max_length_1_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13890,6 +14815,7 @@ def test_list_token_length_9_nistxml_sv_ii_list_token_length_5_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13905,6 +14831,7 @@ def test_list_token_length_9_nistxml_sv_ii_list_token_length_5_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13920,6 +14847,7 @@ def test_list_token_length_9_nistxml_sv_ii_list_token_length_5_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13935,6 +14863,7 @@ def test_list_token_length_9_nistxml_sv_ii_list_token_length_5_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13950,6 +14879,7 @@ def test_list_token_length_9_nistxml_sv_ii_list_token_length_5_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13965,6 +14895,7 @@ def test_list_token_length_8_nistxml_sv_ii_list_token_length_4_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13980,6 +14911,7 @@ def test_list_token_length_8_nistxml_sv_ii_list_token_length_4_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13995,6 +14927,7 @@ def test_list_token_length_8_nistxml_sv_ii_list_token_length_4_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14010,6 +14943,7 @@ def test_list_token_length_8_nistxml_sv_ii_list_token_length_4_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14025,6 +14959,7 @@ def test_list_token_length_8_nistxml_sv_ii_list_token_length_4_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14040,6 +14975,7 @@ def test_list_token_length_7_nistxml_sv_ii_list_token_length_3_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14055,6 +14991,7 @@ def test_list_token_length_7_nistxml_sv_ii_list_token_length_3_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14070,6 +15007,7 @@ def test_list_token_length_7_nistxml_sv_ii_list_token_length_3_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14085,6 +15023,7 @@ def test_list_token_length_7_nistxml_sv_ii_list_token_length_3_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14100,6 +15039,7 @@ def test_list_token_length_7_nistxml_sv_ii_list_token_length_3_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14115,6 +15055,7 @@ def test_list_token_length_6_nistxml_sv_ii_list_token_length_2_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14130,6 +15071,7 @@ def test_list_token_length_6_nistxml_sv_ii_list_token_length_2_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14145,6 +15087,7 @@ def test_list_token_length_6_nistxml_sv_ii_list_token_length_2_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14160,6 +15103,7 @@ def test_list_token_length_6_nistxml_sv_ii_list_token_length_2_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14175,6 +15119,7 @@ def test_list_token_length_6_nistxml_sv_ii_list_token_length_2_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14190,6 +15135,7 @@ def test_list_token_length_5_nistxml_sv_ii_list_token_length_1_1(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14205,6 +15151,7 @@ def test_list_token_length_5_nistxml_sv_ii_list_token_length_1_2(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14220,6 +15167,7 @@ def test_list_token_length_5_nistxml_sv_ii_list_token_length_1_3(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14235,6 +15183,7 @@ def test_list_token_length_5_nistxml_sv_ii_list_token_length_1_4(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14250,6 +15199,7 @@ def test_list_token_length_5_nistxml_sv_ii_list_token_length_1_5(mode, save_outp
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14265,6 +15215,7 @@ def test_list_token_min_length_9_nistxml_sv_ii_list_token_min_length_5_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14280,6 +15231,7 @@ def test_list_token_min_length_9_nistxml_sv_ii_list_token_min_length_5_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14295,6 +15247,7 @@ def test_list_token_min_length_9_nistxml_sv_ii_list_token_min_length_5_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14310,6 +15263,7 @@ def test_list_token_min_length_9_nistxml_sv_ii_list_token_min_length_5_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14325,6 +15279,7 @@ def test_list_token_min_length_9_nistxml_sv_ii_list_token_min_length_5_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14340,6 +15295,7 @@ def test_list_token_min_length_8_nistxml_sv_ii_list_token_min_length_4_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14355,6 +15311,7 @@ def test_list_token_min_length_8_nistxml_sv_ii_list_token_min_length_4_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14370,6 +15327,7 @@ def test_list_token_min_length_8_nistxml_sv_ii_list_token_min_length_4_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14385,6 +15343,7 @@ def test_list_token_min_length_8_nistxml_sv_ii_list_token_min_length_4_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14400,6 +15359,7 @@ def test_list_token_min_length_8_nistxml_sv_ii_list_token_min_length_4_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14415,6 +15375,7 @@ def test_list_token_min_length_7_nistxml_sv_ii_list_token_min_length_3_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14430,6 +15391,7 @@ def test_list_token_min_length_7_nistxml_sv_ii_list_token_min_length_3_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14445,6 +15407,7 @@ def test_list_token_min_length_7_nistxml_sv_ii_list_token_min_length_3_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14460,6 +15423,7 @@ def test_list_token_min_length_7_nistxml_sv_ii_list_token_min_length_3_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14475,6 +15439,7 @@ def test_list_token_min_length_7_nistxml_sv_ii_list_token_min_length_3_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14490,6 +15455,7 @@ def test_list_token_min_length_6_nistxml_sv_ii_list_token_min_length_2_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14505,6 +15471,7 @@ def test_list_token_min_length_6_nistxml_sv_ii_list_token_min_length_2_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14520,6 +15487,7 @@ def test_list_token_min_length_6_nistxml_sv_ii_list_token_min_length_2_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14535,6 +15503,7 @@ def test_list_token_min_length_6_nistxml_sv_ii_list_token_min_length_2_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14550,6 +15519,7 @@ def test_list_token_min_length_6_nistxml_sv_ii_list_token_min_length_2_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14565,6 +15535,7 @@ def test_list_token_min_length_5_nistxml_sv_ii_list_token_min_length_1_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14580,6 +15551,7 @@ def test_list_token_min_length_5_nistxml_sv_ii_list_token_min_length_1_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14595,6 +15567,7 @@ def test_list_token_min_length_5_nistxml_sv_ii_list_token_min_length_1_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14610,6 +15583,7 @@ def test_list_token_min_length_5_nistxml_sv_ii_list_token_min_length_1_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14625,6 +15599,7 @@ def test_list_token_min_length_5_nistxml_sv_ii_list_token_min_length_1_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14640,6 +15615,7 @@ def test_list_token_max_length_9_nistxml_sv_ii_list_token_max_length_5_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14655,6 +15631,7 @@ def test_list_token_max_length_9_nistxml_sv_ii_list_token_max_length_5_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14670,6 +15647,7 @@ def test_list_token_max_length_9_nistxml_sv_ii_list_token_max_length_5_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14685,6 +15663,7 @@ def test_list_token_max_length_9_nistxml_sv_ii_list_token_max_length_5_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14700,6 +15679,7 @@ def test_list_token_max_length_9_nistxml_sv_ii_list_token_max_length_5_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14715,6 +15695,7 @@ def test_list_token_max_length_8_nistxml_sv_ii_list_token_max_length_4_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14730,6 +15711,7 @@ def test_list_token_max_length_8_nistxml_sv_ii_list_token_max_length_4_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14745,6 +15727,7 @@ def test_list_token_max_length_8_nistxml_sv_ii_list_token_max_length_4_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14760,6 +15743,7 @@ def test_list_token_max_length_8_nistxml_sv_ii_list_token_max_length_4_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14775,6 +15759,7 @@ def test_list_token_max_length_8_nistxml_sv_ii_list_token_max_length_4_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14790,6 +15775,7 @@ def test_list_token_max_length_7_nistxml_sv_ii_list_token_max_length_3_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14805,6 +15791,7 @@ def test_list_token_max_length_7_nistxml_sv_ii_list_token_max_length_3_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14820,6 +15807,7 @@ def test_list_token_max_length_7_nistxml_sv_ii_list_token_max_length_3_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14835,6 +15823,7 @@ def test_list_token_max_length_7_nistxml_sv_ii_list_token_max_length_3_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14850,6 +15839,7 @@ def test_list_token_max_length_7_nistxml_sv_ii_list_token_max_length_3_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14865,6 +15855,7 @@ def test_list_token_max_length_6_nistxml_sv_ii_list_token_max_length_2_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14880,6 +15871,7 @@ def test_list_token_max_length_6_nistxml_sv_ii_list_token_max_length_2_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14895,6 +15887,7 @@ def test_list_token_max_length_6_nistxml_sv_ii_list_token_max_length_2_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14910,6 +15903,7 @@ def test_list_token_max_length_6_nistxml_sv_ii_list_token_max_length_2_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14925,6 +15919,7 @@ def test_list_token_max_length_6_nistxml_sv_ii_list_token_max_length_2_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14940,6 +15935,7 @@ def test_list_token_max_length_5_nistxml_sv_ii_list_token_max_length_1_1(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14955,6 +15951,7 @@ def test_list_token_max_length_5_nistxml_sv_ii_list_token_max_length_1_2(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14970,6 +15967,7 @@ def test_list_token_max_length_5_nistxml_sv_ii_list_token_max_length_1_3(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14985,6 +15983,7 @@ def test_list_token_max_length_5_nistxml_sv_ii_list_token_max_length_1_4(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15000,4 +15999,5 @@ def test_list_token_max_length_5_nistxml_sv_ii_list_token_max_length_1_5(mode, s
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )

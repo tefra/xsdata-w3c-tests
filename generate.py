@@ -7,7 +7,6 @@ from pathlib import Path
 from typing import Dict
 from typing import Iterator
 from typing import List
-from typing import Union
 
 from lxml import etree
 from xsdata.formats.dataclass.models.generics import AnyElement
@@ -15,7 +14,6 @@ from xsdata.formats.dataclass.parsers import XmlParser
 from xsdata.formats.dataclass.utils import safe_snake
 from xsdata.utils import text
 from xsdata.utils.namespaces import local_name
-from xsdata.utils.text import pascal_case
 
 from models.xsts import Expected
 from models.xsts import ExpectedOutcome
@@ -41,20 +39,7 @@ def test_{name}(mode, save_output):
         version="{test.version}",
         mode=mode,
         save_output=save_output,
-    )
-"""
-
-test_ns_struct_case_tpl = """{decorators}
-def test_{name}(mode, save_output):
-{test.documentation}
-    assert_bindings(
-        schema="{test.schema_path}",
-        instance="{test.instance_path}",
-        class_name="{test.class_name}",
-        version="{test.version}",
-        ns_struct=True,
-        mode=mode,
-        save_output=save_output,
+        structure_style="{test.structure_style}",
     )
 """
 
@@ -72,13 +57,13 @@ class TestCase:
     version: str
     documentation: str
     schema_name: str
-    schema_path: Union[Path, str]
+    schema_path: str
     schema_is_valid: bool
     instance_name: str
-    instance_path: Path
+    instance_path: str
     instance_is_valid: bool
     class_name: str
-    ns_struct: bool
+    structure_style: str
 
 
 def generate():
@@ -132,9 +117,12 @@ def render_test_cases(test_file, cases: List[TestCase]) -> str:
         names[name] += 1
 
         markers = []
-        if xfails.get(f"{test_file}::test_{name}"):
+
+        if case.schema_path.endswith("attgD003.xsd"):
+            markers.append('@pytest.mark.skip(reason="Stack abuse")')
+        elif xfails.get(f"{test_file}::test_{name}"):
             markers.append("@pytest.mark.xfail")
-        if not case.schema_path:
+        elif not case.schema_path:
             markers.append('@pytest.mark.skip(reason="No schema")')
         elif not case.schema_is_valid:
             markers.append('@pytest.mark.skip(reason="Invalid schema")')
@@ -145,8 +133,7 @@ def render_test_cases(test_file, cases: List[TestCase]) -> str:
             markers.insert(0, "")
 
         decorators = "\n".join(markers)
-        template = test_ns_struct_case_tpl if case.ns_struct else test_case_tpl
-        output.append(template.format(name=name, decorators=decorators, test=case))
+        output.append(test_case_tpl.format(name=name, decorators=decorators, test=case))
 
     return test_module_tpl.format("\n".join(output))
 
@@ -168,7 +155,6 @@ def fetch_test_cases() -> Iterator[TestCase]:
 def make_test_cases(path: Path, group: TestGroup):
     schema_href = None
     schema_is_valid = False
-    ns_struct = False
 
     if (
         group.schema_test
@@ -191,8 +177,11 @@ def make_test_cases(path: Path, group: TestGroup):
     schema_name = text.snake_case(group.name)
     documentation = make_docstring(group)
 
+    structure_style = "filenames"
     if group.name in ("schD5", "schD7", "xsd003b", "over015"):
-        ns_struct = True
+        structure_style = "namespaces"
+    elif group.name in ("addB132", "ctZ007"):
+        structure_style = "single-package"
 
     for instance in group.instance_test:
         if not instance.instance_document or not instance.instance_document.href:
@@ -209,13 +198,13 @@ def make_test_cases(path: Path, group: TestGroup):
             version=version,
             documentation=documentation,
             schema_name=schema_name,
-            schema_path=schema_href or "",
+            schema_path=str(schema_href) or "",
             schema_is_valid=schema_is_valid,
             instance_name=text.snake_case(instance.name),
-            instance_path=instance_href,
+            instance_path=str(instance_href),
             instance_is_valid=instance_validity.validity == ExpectedOutcome.VALID,
             class_name=class_name,
-            ns_struct=ns_struct,
+            structure_style=structure_style,
         )
 
 
@@ -262,7 +251,7 @@ def read_root_name(path: Path) -> str:
             recover=True, resolve_entities=False, no_network=True
         )
         tree = etree.parse(str(path), parser=recovering_parser)  # nosec
-        return pascal_case(safe_snake(local_name(tree.getroot().tag), "Type"))
+        return text.pascal_case(safe_snake(local_name(tree.getroot().tag), "Type"))
     except Exception:
         return ""
 

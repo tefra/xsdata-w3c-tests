@@ -16,7 +16,7 @@ document and serialize it back to xml checking that the output is still valid.
 $ pytest -n 4  --mode xsd --runxfail --save-output
 ```
 
-Results: **7** failed, **14579** passed, **89** skipped, **16** warnings
+Results: **5** failed, **14580** passed, **89** skipped, **16** warnings
 
 The save output option will store the output xml document. The xml mode's drawback is
 that it doesn't do any quality checks that all elements and values actually match the

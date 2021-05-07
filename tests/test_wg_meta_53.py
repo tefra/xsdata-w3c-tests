@@ -13,6 +13,7 @@ def test_sg_abstract_edc_ee1s_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -26,6 +27,7 @@ def test_sg_abstract_edc_ee1t_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -38,6 +40,7 @@ def test_sg_abstract_edc_ee1i_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -51,6 +54,7 @@ def test_sg_abstract_edc_e1se1s_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -64,6 +68,7 @@ def test_sg_abstract_edc_e1se1t_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -77,6 +82,7 @@ def test_sg_abstract_edc_e1se1i_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -90,6 +96,7 @@ def test_sg_abstract_edc_e1ite1s_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -103,6 +110,7 @@ def test_sg_abstract_edc_e1ite1t_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -116,6 +124,7 @@ def test_sg_abstract_edc_e1ite1i_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -129,6 +138,7 @@ def test_sg_abstract_edc_e1ie1s_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -142,6 +152,7 @@ def test_sg_abstract_edc_e1ie1t_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -155,6 +166,7 @@ def test_sg_abstract_edc_e1ie1i_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -168,6 +180,7 @@ def test_sg_abstract_upa2_e1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -180,6 +193,7 @@ def test_sg_abstract_upa2_e1bis_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -193,6 +207,7 @@ def test_sg_abstract_upa2_e1token_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -205,6 +220,7 @@ def test_sg_abstract_upa2_e1short_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -217,6 +233,7 @@ def test_sg_abstract_upa_e1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -229,6 +246,7 @@ def test_sg_abstract_upa_e1token_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -242,6 +260,7 @@ def test_sg_abstract_upa_e1short_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -255,6 +274,7 @@ def test_sg_and_defined_sibling_3_sns1a(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -267,6 +287,7 @@ def test_sg_and_defined_sibling_3_sns1b(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -280,6 +301,7 @@ def test_sg_and_defined_sibling_3_sns1c(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -293,6 +315,7 @@ def test_sg_and_defined_sibling_3_snn1a(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -306,6 +329,7 @@ def test_sg_and_defined_sibling_3_snn1b(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -318,6 +342,7 @@ def test_sg_and_defined_sibling_3_snn1c(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -330,6 +355,7 @@ def test_sg_and_defined_sibling_3_snea(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -343,6 +369,7 @@ def test_sg_and_defined_sibling_3_sneb(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -356,6 +383,7 @@ def test_sg_and_defined_sibling_3_snec(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -368,6 +396,7 @@ def test_sg_and_defined_sibling_2_esn(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -381,6 +410,7 @@ def test_sg_and_defined_sibling_2_nsn(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -394,6 +424,7 @@ def test_sg_and_defined_sibling_2_ssn(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -406,6 +437,7 @@ def test_sg_and_defined_sibling_2_n1sn(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -419,6 +451,7 @@ def test_sg_and_defined_sibling_2_s1sn(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -431,6 +464,7 @@ def test_sg_and_defined_sibling_1_sn(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -443,6 +477,7 @@ def test_sg_and_defined_sibling_1_s1n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -456,6 +491,7 @@ def test_sg_and_defined_sibling_1_sn1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -468,6 +504,7 @@ def test_sg_and_defined_sibling_1_sne(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -481,6 +518,7 @@ def test_sg_and_defined_sibling_1_snn(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -494,6 +532,7 @@ def test_sg_and_defined_sibling_1_sns(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -506,6 +545,7 @@ def test_sg_and_defined_sibling_1_snn1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -519,6 +559,7 @@ def test_sg_and_defined_sibling_1_sns1(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -531,6 +572,7 @@ def test_iri_001_uri_3986_valid_001(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -543,6 +585,7 @@ def test_iri_001_uri_3986_valid_002(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -555,6 +598,7 @@ def test_iri_001_uri_3986_valid_003(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -568,6 +612,7 @@ def test_iri_001_uri_3986_invalid_001(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -581,6 +626,7 @@ def test_iri_001_uri_3986_invalid_002(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -594,6 +640,7 @@ def test_iri_001_uri_3986_invalid_003(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -606,6 +653,7 @@ def test_iri_001_absolute_uri_3986_valid_001(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -618,6 +666,7 @@ def test_iri_001_absolute_uri_3986_valid_002(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -630,6 +679,7 @@ def test_iri_001_absolute_uri_3986_valid_003(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -643,6 +693,7 @@ def test_iri_001_absolute_uri_3986_invalid_001(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -656,6 +707,7 @@ def test_iri_001_absolute_uri_3986_invalid_002(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -669,4 +721,5 @@ def test_iri_001_absolute_uri_3986_invalid_003(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )

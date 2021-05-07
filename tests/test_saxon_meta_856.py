@@ -15,6 +15,7 @@ def test_all314_all314_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -30,6 +31,7 @@ def test_all314_all314_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -45,6 +47,7 @@ def test_all314_all314_v05_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -61,6 +64,7 @@ def test_all314_all314_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -77,6 +81,7 @@ def test_all314_all314_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -93,6 +98,7 @@ def test_all314_all314_n03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -109,6 +115,7 @@ def test_all314_all314_n04_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -125,6 +132,7 @@ def test_all307_all307_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -140,6 +148,7 @@ def test_all306_all306_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -155,6 +164,7 @@ def test_all304_all304_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -171,6 +181,7 @@ def test_all304_all304_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -187,6 +198,7 @@ def test_all304_all304_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -203,6 +215,7 @@ def test_all304_all304_n03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -219,6 +232,7 @@ def test_all304_all304_n04_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -234,6 +248,7 @@ def test_all301_all301_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -250,6 +265,7 @@ def test_all301_all301_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -266,6 +282,7 @@ def test_all301_all301_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -282,6 +299,7 @@ def test_all301_all301_n03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -297,6 +315,7 @@ def test_all007_all007_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -313,6 +332,7 @@ def test_all007_all007_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -329,6 +349,7 @@ def test_all007_all007_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -345,6 +366,7 @@ def test_all007_all007_n03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -360,6 +382,7 @@ def test_all006_all006_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -376,6 +399,7 @@ def test_all006_all006_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -392,6 +416,7 @@ def test_all006_all006_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -408,6 +433,7 @@ def test_all006_all006_n03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -424,6 +450,7 @@ def test_all006_all006_n04_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -439,6 +466,7 @@ def test_all005_all005_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -455,6 +483,7 @@ def test_all005_all005_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -471,6 +500,7 @@ def test_all005_all005_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -487,6 +517,7 @@ def test_all005_all005_n03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -503,6 +534,7 @@ def test_all005_all005_n04_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -519,6 +551,7 @@ def test_all005_all005_n05_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -534,6 +567,7 @@ def test_all004_all004_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -549,6 +583,7 @@ def test_all004_all004_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -565,6 +600,7 @@ def test_all004_all004_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -581,6 +617,7 @@ def test_all004_all004_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -597,6 +634,7 @@ def test_all003_all003_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -613,6 +651,7 @@ def test_all003_all003_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -629,6 +668,7 @@ def test_all003_all003_v03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -644,6 +684,7 @@ def test_all002_all002_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -660,6 +701,7 @@ def test_all002_all002_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -676,6 +718,7 @@ def test_all002_all002_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -692,6 +735,7 @@ def test_all002_all002_n03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -707,6 +751,7 @@ def test_all001_all001_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -723,6 +768,7 @@ def test_all001_all001_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -739,6 +785,7 @@ def test_all001_all001_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -755,6 +802,7 @@ def test_all001_all001_n03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -771,6 +819,7 @@ def test_assert_simple010_assert_simple007_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -787,6 +836,7 @@ def test_assert_simple009_assert_simple007_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -803,6 +853,7 @@ def test_assert_simple008_assert_simple007_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -819,6 +870,7 @@ def test_assert_simple007_assert_simple007_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -834,6 +886,7 @@ def test_assert_simple006_assert_simple006_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -850,6 +903,7 @@ def test_assert_simple006_assert_simple006_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -865,6 +919,7 @@ def test_assert_simple005_assert_simple005_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -881,6 +936,7 @@ def test_assert_simple005_assert_simple005_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -897,6 +953,7 @@ def test_assert_simple004_assert_simple004_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -914,6 +971,7 @@ def test_assert_simple004_assert_simple004_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -929,6 +987,7 @@ def test_assert_simple003_assert_simple003_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -945,6 +1004,7 @@ def test_assert_simple003_assert_simple003_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -960,6 +1020,7 @@ def test_assert_simple001_assert_simple001_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -976,6 +1037,7 @@ def test_assert_simple001_assert_simple001_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -991,6 +1053,7 @@ def test_assert024_assert024_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1007,6 +1070,7 @@ def test_assert023_assert023_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1023,6 +1087,7 @@ def test_assert023_assert023_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1038,6 +1103,7 @@ def test_assert022_assert022_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1053,6 +1119,7 @@ def test_assert021_assert021_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1069,6 +1136,7 @@ def test_assert021_assert021_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1084,6 +1152,7 @@ def test_assert020_assert020_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1100,6 +1169,7 @@ def test_assert020_assert020_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1115,6 +1185,7 @@ def test_assert019_assert019_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1130,6 +1201,7 @@ def test_assert018_assert018_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1145,6 +1217,7 @@ def test_assert017_assert017_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1160,6 +1233,7 @@ def test_assert016_assert016_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1175,6 +1249,7 @@ def test_assert015_assert015_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1189,6 +1264,7 @@ def test_assert014_assert014_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1203,6 +1279,7 @@ def test_assert013_assert013_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1219,6 +1296,7 @@ def test_assert012_assert012_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1237,6 +1315,7 @@ def test_assert011_assert011_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1255,6 +1334,7 @@ def test_assert011_assert011_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1270,6 +1350,7 @@ def test_assert010_assert010_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1286,6 +1367,7 @@ def test_assert010_assert010_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1301,6 +1383,7 @@ def test_assert009_assert009_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1317,6 +1400,7 @@ def test_assert009_assert009_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1332,6 +1416,7 @@ def test_assert008a_assert008a_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1348,6 +1433,7 @@ def test_assert008a_assert008a_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1364,6 +1450,7 @@ def test_assert008a_assert008a_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1380,6 +1467,7 @@ def test_assert008a_assert008a_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1395,6 +1483,7 @@ def test_assert008_assert008_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1411,6 +1500,7 @@ def test_assert008_assert008_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1427,6 +1517,7 @@ def test_assert008_assert008_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1443,6 +1534,7 @@ def test_assert008_assert008_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1459,6 +1551,7 @@ def test_assert007_assert007_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1476,6 +1569,7 @@ def test_assert007_assert007_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1493,6 +1587,7 @@ def test_assert007_assert007_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1510,6 +1605,7 @@ def test_assert007_assert007_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1526,6 +1622,7 @@ def test_assert006_assert006_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1543,6 +1640,7 @@ def test_assert006_assert006_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1560,6 +1658,7 @@ def test_assert006_assert006_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1577,6 +1676,7 @@ def test_assert005_assert005_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1594,6 +1694,7 @@ def test_assert005_assert005_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1612,6 +1713,7 @@ def test_assert005_assert005_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1630,6 +1732,7 @@ def test_assert005_assert005_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1646,6 +1749,7 @@ def test_assert004_assert004_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1662,6 +1766,7 @@ def test_assert004_assert004_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1679,6 +1784,7 @@ def test_assert004_assert004_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1696,6 +1802,7 @@ def test_assert004_assert004_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1712,6 +1819,7 @@ def test_assert003_assert003_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1728,6 +1836,7 @@ def test_assert003_assert003_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1745,6 +1854,7 @@ def test_assert003_assert003_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1762,6 +1872,7 @@ def test_assert003_assert003_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1777,6 +1888,7 @@ def test_assert002_assert002_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1793,6 +1905,7 @@ def test_assert002_assert002_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1808,6 +1921,7 @@ def test_assert001_assert001_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1824,6 +1938,7 @@ def test_assert001_assert001_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1841,6 +1956,7 @@ def test_unique003_unique003_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1858,6 +1974,7 @@ def test_unique003_unique003_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1876,6 +1993,7 @@ def test_unique003_unique003_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1894,6 +2012,7 @@ def test_unique003_unique003_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1911,6 +2030,7 @@ def test_unique002_unique002_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1928,6 +2048,7 @@ def test_unique001_unique001_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1946,6 +2067,7 @@ def test_unique001_unique001_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1964,6 +2086,7 @@ def test_complex022_complex022_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1982,6 +2105,7 @@ def test_complex022_complex022_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1998,6 +2122,7 @@ def test_complex021_complex021_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2014,6 +2139,7 @@ def test_complex015_complex015_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2030,6 +2156,7 @@ def test_complex014_complex014_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2046,6 +2173,7 @@ def test_complex014_complex014_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2063,6 +2191,7 @@ def test_complex014_complex014_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2080,6 +2209,7 @@ def test_complex014_complex014_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2095,6 +2225,7 @@ def test_complex013_complex013_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2110,6 +2241,7 @@ def test_complex013_complex013_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2126,6 +2258,7 @@ def test_complex013_complex013_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2142,6 +2275,7 @@ def test_complex013_complex013_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2157,6 +2291,7 @@ def test_complex012_complex012_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2172,6 +2307,7 @@ def test_complex012_complex012_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2187,6 +2323,7 @@ def test_complex012_complex012_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2202,6 +2339,7 @@ def test_complex012_complex012_v4_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2217,6 +2355,7 @@ def test_complex012_complex012_v5_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2232,6 +2371,7 @@ def test_complex012_complex012_v6_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2248,6 +2388,7 @@ def test_complex012_complex012_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2264,6 +2405,7 @@ def test_complex012_complex012_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2280,6 +2422,7 @@ def test_complex012_complex012_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2295,6 +2438,7 @@ def test_complex011_complex011_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2310,6 +2454,7 @@ def test_complex011_complex011_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2326,6 +2471,7 @@ def test_complex011_complex011_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2342,6 +2488,7 @@ def test_complex011_complex011_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2358,6 +2505,7 @@ def test_complex011_complex011_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2373,6 +2521,7 @@ def test_complex010_complex010_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2389,6 +2538,7 @@ def test_complex010_complex010_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2404,6 +2554,7 @@ def test_complex009_complex009_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2419,6 +2570,7 @@ def test_complex009_complex009_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2435,6 +2587,7 @@ def test_complex009_complex009_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2451,6 +2604,7 @@ def test_complex009_complex009_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2466,6 +2620,7 @@ def test_complex008_complex008_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2481,6 +2636,7 @@ def test_complex008_complex008_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2496,6 +2652,7 @@ def test_complex008_complex008_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2511,6 +2668,7 @@ def test_complex008_complex008_n4_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2526,6 +2684,7 @@ def test_complex007_complex007_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2541,6 +2700,7 @@ def test_complex007_complex007_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2557,6 +2717,7 @@ def test_complex007_complex007_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2573,6 +2734,7 @@ def test_complex007_complex007_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2589,6 +2751,7 @@ def test_complex007_complex007_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2603,6 +2766,7 @@ def test_complex006_complex006_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2617,6 +2781,7 @@ def test_complex006_complex006_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2632,6 +2797,7 @@ def test_complex006_complex006_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2647,6 +2813,7 @@ def test_complex006_complex006_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2662,6 +2829,7 @@ def test_complex006_complex006_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2677,6 +2845,7 @@ def test_complex005_complex005_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2693,6 +2862,7 @@ def test_complex005_complex005_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2709,6 +2879,7 @@ def test_complex005_complex005_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2725,6 +2896,7 @@ def test_complex005_complex005_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2739,6 +2911,7 @@ def test_complex004_complex004_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2754,6 +2927,7 @@ def test_complex004_complex004_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2768,6 +2942,7 @@ def test_complex004_complex004_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2782,6 +2957,7 @@ def test_complex003_complex003_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2797,6 +2973,7 @@ def test_complex003_complex003_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2812,6 +2989,7 @@ def test_cta0044_cta0044_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2828,6 +3006,7 @@ def test_cta0044_cta0044_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2843,6 +3022,7 @@ def test_cta0042_cta0042_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2859,6 +3039,7 @@ def test_cta0041_cta0041_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2876,6 +3057,7 @@ def test_cta0041_cta0041_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2891,6 +3073,7 @@ def test_cta0040_cta0040_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2907,6 +3090,7 @@ def test_cta0040_cta0040_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2922,6 +3106,7 @@ def test_cta0028_cta0028_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2937,6 +3122,7 @@ def test_cta0027_cta0027_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2952,6 +3138,7 @@ def test_cta0026_cta0026_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2967,6 +3154,7 @@ def test_cta0025_cta0025_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2982,6 +3170,7 @@ def test_cta0024_cta0024_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2997,6 +3186,7 @@ def test_cta0023_cta0023_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3012,6 +3202,7 @@ def test_cta0022_cta0022_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3027,6 +3218,7 @@ def test_cta0021_cta0021_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3043,6 +3235,7 @@ def test_cta0021_cta0021_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3058,6 +3251,7 @@ def test_cta0020_cta0020_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3073,6 +3267,7 @@ def test_cta0019_cta0019_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3088,6 +3283,7 @@ def test_cta0018_cta0018_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3103,6 +3299,7 @@ def test_cta0017_cta0017_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3118,6 +3315,7 @@ def test_cta0016_cta0016_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3133,6 +3331,7 @@ def test_cta0016_cta0016_v02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3149,6 +3348,7 @@ def test_cta0016_cta0016_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3165,6 +3365,7 @@ def test_cta0016_cta0016_n02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3180,6 +3381,7 @@ def test_cta0015_cta0015_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3195,6 +3397,7 @@ def test_cta0015_cta0015_v02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3211,6 +3414,7 @@ def test_cta0015_cta0015_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3227,6 +3431,7 @@ def test_cta0015_cta0015_n02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3242,6 +3447,7 @@ def test_cta0014_cta0014_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3257,6 +3463,7 @@ def test_cta0014_cta0014_v02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3273,6 +3480,7 @@ def test_cta0014_cta0014_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3289,6 +3497,7 @@ def test_cta0014_cta0014_n02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3304,6 +3513,7 @@ def test_cta0013_cta0013_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3319,6 +3529,7 @@ def test_cta0013_cta0013_v02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3335,6 +3546,7 @@ def test_cta0013_cta0013_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3351,6 +3563,7 @@ def test_cta0013_cta0013_n02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3366,6 +3579,7 @@ def test_cta0012_cta0012_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3382,6 +3596,7 @@ def test_cta0012_cta0012_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3397,6 +3612,7 @@ def test_cta0011_cta0011_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3412,6 +3628,7 @@ def test_cta0011_cta0011_v02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3428,6 +3645,7 @@ def test_cta0011_cta0011_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3444,6 +3662,7 @@ def test_cta0011_cta0011_n02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3459,6 +3678,7 @@ def test_cta0010_cta0010_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3474,6 +3694,7 @@ def test_cta0010_cta0010_v02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3490,6 +3711,7 @@ def test_cta0010_cta0010_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3506,6 +3728,7 @@ def test_cta0010_cta0010_n02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3521,6 +3744,7 @@ def test_cta0009_cta0009_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3536,6 +3760,7 @@ def test_cta0009_cta0009_v02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3552,6 +3777,7 @@ def test_cta0009_cta0009_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3568,6 +3794,7 @@ def test_cta0009_cta0009_n02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3583,6 +3810,7 @@ def test_cta0008_cta0008_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3599,6 +3827,7 @@ def test_cta0008_cta0008_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3615,6 +3844,7 @@ def test_cta0007_cta0007_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3631,6 +3861,7 @@ def test_cta0006_cta0006_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3648,6 +3879,7 @@ def test_cta0006_cta0006_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3665,6 +3897,7 @@ def test_cta0006_cta0006_n02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3680,6 +3913,7 @@ def test_cta0005_cta0005_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3696,6 +3930,7 @@ def test_cta0005_cta0005_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3711,6 +3946,7 @@ def test_cta0004_cta0004_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3727,6 +3963,7 @@ def test_cta0004_cta0004_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3742,6 +3979,7 @@ def test_cta0003_cta0003_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3758,6 +3996,7 @@ def test_cta0003_cta0003_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3773,6 +4012,7 @@ def test_cta0002_cta0002_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3789,6 +4029,7 @@ def test_cta0002_cta0002_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3804,6 +4045,7 @@ def test_cta0001_cta0001_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3819,6 +4061,7 @@ def test_cta0001_cta0001_v02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3834,6 +4077,7 @@ def test_cta0001_cta0001_v03(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3850,6 +4094,7 @@ def test_cta0001_cta0001_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3866,6 +4111,7 @@ def test_cta0001_cta0001_n02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3882,6 +4128,7 @@ def test_id054_id054_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3899,6 +4146,7 @@ def test_id054_id054_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3914,6 +4162,7 @@ def test_id053_id053_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3930,6 +4179,7 @@ def test_id053_id053_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3945,6 +4195,7 @@ def test_id052_id052_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3961,6 +4212,7 @@ def test_id052_id052_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3976,6 +4228,7 @@ def test_id051_id051_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3992,6 +4245,7 @@ def test_id051_id051_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4007,6 +4261,7 @@ def test_id050_id050_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4023,6 +4278,7 @@ def test_id050_id050_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4038,6 +4294,7 @@ def test_id044_id044_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4054,6 +4311,7 @@ def test_id044_id044_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4070,6 +4328,7 @@ def test_id044_id044_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4085,6 +4344,7 @@ def test_id043_id043_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4101,6 +4361,7 @@ def test_id043_id043_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4117,6 +4378,7 @@ def test_id043_id043_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4132,6 +4394,7 @@ def test_id040_id040_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4148,6 +4411,7 @@ def test_id040_id040_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4164,6 +4428,7 @@ def test_id040_id040_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4179,6 +4444,7 @@ def test_id022_id022_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4195,6 +4461,7 @@ def test_id022_id022_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4210,6 +4477,7 @@ def test_id021_id021_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4225,6 +4493,7 @@ def test_id021_id021_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4241,6 +4510,7 @@ def test_id021_id021_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4257,6 +4527,7 @@ def test_id021_id021_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4272,6 +4543,7 @@ def test_id020_id020_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4287,6 +4559,7 @@ def test_id020_id020_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4302,6 +4575,7 @@ def test_id020_id020_v03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4318,6 +4592,7 @@ def test_id020_id020_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4334,6 +4609,7 @@ def test_id020_id020_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4349,6 +4625,7 @@ def test_id019_id019_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4364,6 +4641,7 @@ def test_id019_id019_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4380,6 +4658,7 @@ def test_id019_id019_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4396,6 +4675,7 @@ def test_id019_id019_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4411,6 +4691,7 @@ def test_id018_id018_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4426,6 +4707,7 @@ def test_id018_id018_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4441,6 +4723,7 @@ def test_id018_id018_v03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4457,6 +4740,7 @@ def test_id018_id018_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4473,6 +4757,7 @@ def test_id018_id018_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4488,6 +4773,7 @@ def test_id017_id017_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4503,6 +4789,7 @@ def test_id017_id017_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4519,6 +4806,7 @@ def test_id017_id017_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4533,6 +4821,7 @@ def test_id016_id016_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4547,6 +4836,7 @@ def test_id016_id016_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4562,6 +4852,7 @@ def test_id016_id016_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4577,6 +4868,7 @@ def test_id016_id016_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4591,6 +4883,7 @@ def test_id015_id015_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4606,6 +4899,7 @@ def test_id015_id015_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4621,6 +4915,7 @@ def test_id015_id015_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4635,6 +4930,7 @@ def test_id014_id014_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4650,6 +4946,7 @@ def test_id014_id014_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4665,6 +4962,7 @@ def test_id014_id014_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4679,6 +4977,7 @@ def test_id013_id013_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4694,6 +4993,7 @@ def test_id013_id013_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4709,6 +5009,7 @@ def test_id013_id013_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4723,6 +5024,7 @@ def test_id012_id012_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4738,6 +5040,7 @@ def test_id012_id012_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4753,6 +5056,7 @@ def test_id012_id012_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4767,6 +5071,7 @@ def test_id011_id011_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4782,6 +5087,7 @@ def test_id011_id011_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4797,6 +5103,7 @@ def test_id011_id011_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4811,6 +5118,7 @@ def test_id010_id010_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4826,6 +5134,7 @@ def test_id010_id010_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4841,6 +5150,7 @@ def test_id010_id010_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4855,6 +5165,7 @@ def test_id009_id009_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4871,6 +5182,7 @@ def test_id008_id008_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4888,6 +5200,7 @@ def test_id008_id008_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4905,6 +5218,7 @@ def test_id008_id008_n03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4921,6 +5235,7 @@ def test_id007_id007_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4938,6 +5253,7 @@ def test_id007_id007_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4955,6 +5271,7 @@ def test_id007_id007_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4971,6 +5288,7 @@ def test_id006_id006_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4988,6 +5306,7 @@ def test_id006_id006_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5005,6 +5324,7 @@ def test_id006_id006_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5020,6 +5340,7 @@ def test_id005_id005_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5036,6 +5357,7 @@ def test_id005_id005_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5052,6 +5374,7 @@ def test_id005_id005_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5067,6 +5390,7 @@ def test_id004_id004_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5083,6 +5407,7 @@ def test_id004_id004_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5099,6 +5424,7 @@ def test_id004_id004_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5115,6 +5441,7 @@ def test_id003_id003_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5132,6 +5459,7 @@ def test_id003_id003_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5149,6 +5477,7 @@ def test_id003_id003_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5164,6 +5493,7 @@ def test_id002_id002_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5180,6 +5510,7 @@ def test_id002_id002_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5196,6 +5527,7 @@ def test_id002_id002_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5211,6 +5543,7 @@ def test_id001_id001_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5227,6 +5560,7 @@ def test_id001_id001_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5243,6 +5577,7 @@ def test_id001_id001_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5258,6 +5593,7 @@ def test_missing006_missing006_v1_xml(mode, save_output):
         version="1.0",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5274,6 +5610,7 @@ def test_missing006_missing006_n1_xml(mode, save_output):
         version="1.0",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5289,6 +5626,7 @@ def test_missing003_missing003_v1_xml(mode, save_output):
         version="1.0",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5305,6 +5643,7 @@ def test_missing003_missing003_n1_xml(mode, save_output):
         version="1.0",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5320,6 +5659,7 @@ def test_missing002_missing001_v1_xml(mode, save_output):
         version="1.0",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5335,6 +5675,7 @@ def test_missing002_missing001_n1_xml(mode, save_output):
         version="1.0",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5350,6 +5691,7 @@ def test_missing001_missing001_v1_xml(mode, save_output):
         version="1.0",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5366,6 +5708,7 @@ def test_missing001_missing001_n1_xml(mode, save_output):
         version="1.0",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5380,6 +5723,7 @@ def test_open205_open205_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5395,6 +5739,7 @@ def test_open205_open205_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5410,6 +5755,7 @@ def test_open202_open202_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5426,6 +5772,7 @@ def test_open202_open202_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5440,6 +5787,7 @@ def test_open201_open201_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5454,6 +5802,7 @@ def test_open201_open201_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5470,6 +5819,7 @@ def test_open047_open047_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5486,6 +5836,7 @@ def test_open047_open047_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5502,6 +5853,7 @@ def test_open047_open047_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5519,6 +5871,7 @@ def test_open047_open047_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5538,6 +5891,7 @@ def test_open045_open045_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5558,6 +5912,7 @@ def test_open045_open045_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5578,6 +5933,7 @@ def test_open045_open045_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5593,6 +5949,7 @@ def test_open044_open044_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5609,6 +5966,7 @@ def test_open044_open044_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5625,6 +5983,7 @@ def test_open044_open044_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5643,6 +6002,7 @@ def test_open043_open043_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5662,6 +6022,7 @@ def test_open043_open043_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5681,6 +6042,7 @@ def test_open043_open043_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5696,6 +6058,7 @@ def test_open042_open042_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5712,6 +6075,7 @@ def test_open042_open042_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5728,6 +6092,7 @@ def test_open042_open042_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5743,6 +6108,7 @@ def test_open041_open041_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5759,6 +6125,7 @@ def test_open041_open041_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5774,6 +6141,7 @@ def test_open040_open040_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5790,6 +6158,7 @@ def test_open040_open040_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5805,6 +6174,7 @@ def test_open035_open035_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5821,6 +6191,7 @@ def test_open035_open035_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5837,6 +6208,7 @@ def test_open035_open035_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5853,6 +6225,7 @@ def test_open031_open031_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5869,6 +6242,7 @@ def test_open031_open031_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5885,6 +6259,7 @@ def test_open031_open031_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5901,6 +6276,7 @@ def test_open031_open031_v4_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5918,6 +6294,7 @@ def test_open031_open031_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5933,6 +6310,7 @@ def test_open028_open028_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5948,6 +6326,7 @@ def test_open028_open028_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5963,6 +6342,7 @@ def test_open028_open028_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5979,6 +6359,7 @@ def test_open028_open028_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5994,6 +6375,7 @@ def test_open027_open027_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6009,6 +6391,7 @@ def test_open027_open027_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6024,6 +6407,7 @@ def test_open027_open027_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6040,6 +6424,7 @@ def test_open027_open027_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6055,6 +6440,7 @@ def test_open025_open025_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6071,6 +6457,7 @@ def test_open025_open025_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6086,6 +6473,7 @@ def test_open024_open024_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6101,6 +6489,7 @@ def test_open023_open023_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6117,6 +6506,7 @@ def test_open022_open022_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6133,6 +6523,7 @@ def test_open021_open021_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6149,6 +6540,7 @@ def test_open020_open020_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6164,6 +6556,7 @@ def test_open016_open016_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6180,6 +6573,7 @@ def test_open016_open016_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6195,6 +6589,7 @@ def test_open015_open015_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6211,6 +6606,7 @@ def test_open015_open015_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6226,6 +6622,7 @@ def test_open014_open014_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6242,6 +6639,7 @@ def test_open014_open014_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6258,6 +6656,7 @@ def test_open013_open013_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6273,6 +6672,7 @@ def test_open012_open012_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6289,6 +6689,7 @@ def test_open012_open012_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6305,6 +6706,7 @@ def test_open012_open012_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6321,6 +6723,7 @@ def test_open012_open012_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6337,6 +6740,7 @@ def test_open011_open011_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6353,6 +6757,7 @@ def test_open011_open011_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6370,6 +6775,7 @@ def test_open011_open011_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6387,6 +6793,7 @@ def test_open011_open011_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6402,6 +6809,7 @@ def test_open010_open010_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6417,6 +6825,7 @@ def test_open010_open010_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6433,6 +6842,7 @@ def test_open010_open010_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6449,6 +6859,7 @@ def test_open010_open010_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6464,6 +6875,7 @@ def test_open009_open009_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6479,6 +6891,7 @@ def test_open009_open009_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6495,6 +6908,7 @@ def test_open009_open009_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6511,6 +6925,7 @@ def test_open009_open009_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6526,6 +6941,7 @@ def test_open008_open008_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6541,6 +6957,7 @@ def test_open008_open008_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6556,6 +6973,7 @@ def test_open008_open008_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6572,6 +6990,7 @@ def test_open008_open008_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6588,6 +7007,7 @@ def test_open008_open008_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6604,6 +7024,7 @@ def test_open008_open008_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6619,6 +7040,7 @@ def test_open007_open007_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6634,6 +7056,7 @@ def test_open007_open007_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6650,6 +7073,7 @@ def test_open007_open007_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6666,6 +7090,7 @@ def test_open007_open007_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6682,6 +7107,7 @@ def test_open006_open006_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6698,6 +7124,7 @@ def test_open006_open006_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6714,6 +7141,7 @@ def test_open006_open006_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6730,6 +7158,7 @@ def test_open006_open006_v4_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6747,6 +7176,7 @@ def test_open006_open006_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6764,6 +7194,7 @@ def test_open006_open006_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6781,6 +7212,7 @@ def test_open006_open006_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6796,6 +7228,7 @@ def test_open005_open005_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6811,6 +7244,7 @@ def test_open005_open005_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6826,6 +7260,7 @@ def test_open005_open005_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6841,6 +7276,7 @@ def test_open005_open005_v4_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6857,6 +7293,7 @@ def test_open005_open005_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6873,6 +7310,7 @@ def test_open005_open005_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6889,6 +7327,7 @@ def test_open005_open005_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6904,6 +7343,7 @@ def test_open004_open004_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6920,6 +7360,7 @@ def test_open004_open004_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6936,6 +7377,7 @@ def test_open003_open003_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6953,6 +7395,7 @@ def test_open003_open003_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6968,6 +7411,7 @@ def test_open002_open002_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6983,6 +7427,7 @@ def test_open002_open002_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6998,6 +7443,7 @@ def test_open002_open002_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7014,6 +7460,7 @@ def test_open002_open002_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7030,6 +7477,7 @@ def test_open002_open002_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7046,6 +7494,7 @@ def test_open002_open002_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7062,6 +7511,7 @@ def test_open002_open002_n4_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7077,6 +7527,7 @@ def test_open001_open001_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7092,6 +7543,7 @@ def test_open001_open001_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7107,6 +7559,7 @@ def test_open001_open001_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7123,6 +7576,7 @@ def test_open001_open001_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7139,6 +7593,7 @@ def test_open001_open001_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7155,6 +7610,7 @@ def test_open001_open001_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7171,6 +7627,7 @@ def test_open001_open001_n4_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7186,6 +7643,7 @@ def test_over030_over030_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7204,6 +7662,7 @@ def test_over029_over029_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7221,6 +7680,7 @@ def test_over029_over029_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7237,6 +7697,7 @@ def test_over028_over028_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7252,6 +7713,7 @@ def test_over028_over028_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7267,6 +7729,7 @@ def test_over027_over027_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7282,6 +7745,7 @@ def test_over023_over023_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7298,6 +7762,7 @@ def test_over023_over023_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7314,6 +7779,7 @@ def test_over023_over023_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7329,6 +7795,7 @@ def test_over020_over020_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7345,6 +7812,7 @@ def test_over020_over020_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7361,6 +7829,7 @@ def test_over020_over020_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7375,6 +7844,7 @@ def test_over019_over019_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7390,6 +7860,7 @@ def test_over019_over019_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7405,6 +7876,7 @@ def test_over019_over019_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7420,6 +7892,7 @@ def test_over018_over018_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7436,6 +7909,7 @@ def test_over018_over018_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7452,6 +7926,7 @@ def test_over018_over018_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7464,9 +7939,9 @@ def test_over015_over015_v01_xml(mode, save_output):
         instance="saxonData/Override/over015.v01.xml",
         class_name="Doc",
         version="1.1",
-        ns_struct=True,
         mode=mode,
         save_output=save_output,
+        structure_style="namespaces",
     )
 
 
@@ -7480,9 +7955,9 @@ def test_over015_over015_v02_xml(mode, save_output):
         instance="saxonData/Override/over015.v02.xml",
         class_name="Doc",
         version="1.1",
-        ns_struct=True,
         mode=mode,
         save_output=save_output,
+        structure_style="namespaces",
     )
 
 
@@ -7496,9 +7971,9 @@ def test_over015_over015_n01_xml(mode, save_output):
         instance="saxonData/Override/over015.n01.xml",
         class_name="Doc",
         version="1.1",
-        ns_struct=True,
         mode=mode,
         save_output=save_output,
+        structure_style="namespaces",
     )
 
 
@@ -7512,9 +7987,9 @@ def test_over015_over015_n02_xml(mode, save_output):
         instance="saxonData/Override/over015.n02.xml",
         class_name="Doc",
         version="1.1",
-        ns_struct=True,
         mode=mode,
         save_output=save_output,
+        structure_style="namespaces",
     )
 
 
@@ -7529,6 +8004,7 @@ def test_over012_over012_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7544,6 +8020,7 @@ def test_over012_over012_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7559,6 +8036,7 @@ def test_over012_over012_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7573,6 +8051,7 @@ def test_over010_over010_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7588,6 +8067,7 @@ def test_over010_over010_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7603,6 +8083,7 @@ def test_over010_over010_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7618,6 +8099,7 @@ def test_over009_over009_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7634,6 +8116,7 @@ def test_over009_over009_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7650,6 +8133,7 @@ def test_over009_over009_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7665,6 +8149,7 @@ def test_over008_over008_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7681,6 +8166,7 @@ def test_over008_over008_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7697,6 +8183,7 @@ def test_over008_over008_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7712,6 +8199,7 @@ def test_over007_over007_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7728,6 +8216,7 @@ def test_over007_over007_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7744,6 +8233,7 @@ def test_over007_over007_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7759,6 +8249,7 @@ def test_over006_over006_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7775,6 +8266,7 @@ def test_over006_over006_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7791,6 +8283,7 @@ def test_over006_over006_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7806,6 +8299,7 @@ def test_over005_over005_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7822,6 +8316,7 @@ def test_over005_over005_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7838,6 +8333,7 @@ def test_over005_over005_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7853,6 +8349,7 @@ def test_over004_over004_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7869,6 +8366,7 @@ def test_over004_over004_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7885,6 +8383,7 @@ def test_over004_over004_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7901,6 +8400,7 @@ def test_over003_over003_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7918,6 +8418,7 @@ def test_over003_over003_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7935,6 +8436,7 @@ def test_over003_over003_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7951,6 +8453,7 @@ def test_over002_over002_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7968,6 +8471,7 @@ def test_over002_over002_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7985,6 +8489,7 @@ def test_over002_over002_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8000,6 +8505,7 @@ def test_over001_over001_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8016,6 +8522,7 @@ def test_over001_over001_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8032,6 +8539,7 @@ def test_over001_over001_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8048,6 +8556,7 @@ def test_simple085_simple085_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8065,6 +8574,7 @@ def test_simple055_simple055_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8081,6 +8591,7 @@ def test_simple054_simple053_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8096,6 +8607,7 @@ def test_simple050_simple050_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8111,6 +8623,7 @@ def test_simple050_simple050_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8127,6 +8640,7 @@ def test_simple050_simple050_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8143,6 +8657,7 @@ def test_simple050_simple050_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8159,6 +8674,7 @@ def test_simple050_simple050_n03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8174,6 +8690,7 @@ def test_simple046_simple046_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8190,6 +8707,7 @@ def test_simple046_simple046_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8205,6 +8723,7 @@ def test_simple045_simple045_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8221,6 +8740,7 @@ def test_simple045_simple045_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8236,6 +8756,7 @@ def test_simple044_simple044_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8252,6 +8773,7 @@ def test_simple044_simple044_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8267,6 +8789,7 @@ def test_simple040_simple040_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8283,6 +8806,7 @@ def test_simple040_simple040_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8299,6 +8823,7 @@ def test_simple040_simple040_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8315,6 +8840,7 @@ def test_simple022_simple022_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8331,6 +8857,7 @@ def test_simple022_simple022_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8347,6 +8874,7 @@ def test_simple022_simple022_v03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8364,6 +8892,7 @@ def test_simple022_simple016_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8380,6 +8909,7 @@ def test_simple016_simple016_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8397,6 +8927,7 @@ def test_simple016_simple016_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8412,6 +8943,7 @@ def test_simple013_simple013_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8428,6 +8960,7 @@ def test_simple013_simple013_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8444,6 +8977,7 @@ def test_simple013_simple013_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8460,6 +8994,7 @@ def test_simple012_simple012_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8476,6 +9011,7 @@ def test_simple012_simple012_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8493,6 +9029,7 @@ def test_simple012_simple012_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8510,6 +9047,7 @@ def test_simple012_simple012_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8525,6 +9063,7 @@ def test_simple010_simple010_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8541,6 +9080,7 @@ def test_simple010_simple010_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8557,6 +9097,7 @@ def test_simple010_simple010_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8572,6 +9113,7 @@ def test_simple003_simple003_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8587,6 +9129,7 @@ def test_simple002_simple002_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8603,6 +9146,7 @@ def test_simple002_simple002_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8619,6 +9163,7 @@ def test_simple002_simple002_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8634,6 +9179,7 @@ def test_simple001_simple001_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8650,6 +9196,7 @@ def test_simple001_simple001_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8666,6 +9213,7 @@ def test_simple001_simple001_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8685,6 +9233,7 @@ def test_subsgroup003_subsgroup003_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8701,6 +9250,7 @@ def test_subsgroup002_subsgroup002_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8718,6 +9268,7 @@ def test_subsgroup002_subsgroup002_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8734,6 +9285,7 @@ def test_subsgroup001_subsgroup001_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8751,6 +9303,7 @@ def test_subsgroup001_subsgroup001_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8766,6 +9319,7 @@ def test_target003_target003_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8782,6 +9336,7 @@ def test_target003_target003_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8798,6 +9353,7 @@ def test_target003_target003_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8813,6 +9369,7 @@ def test_target001_target001_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8829,6 +9386,7 @@ def test_target001_target001_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8844,6 +9402,7 @@ def test_vc024_11_vc024_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8859,6 +9418,7 @@ def test_vc024_11_vc024_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8874,6 +9434,7 @@ def test_vc023_vc023_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8890,6 +9451,7 @@ def test_vc022_vc022_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8906,6 +9468,7 @@ def test_vc021_vc021_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8921,6 +9484,7 @@ def test_vc020_vc020_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8936,6 +9500,7 @@ def test_vc014_vc014_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8952,6 +9517,7 @@ def test_vc014_vc014_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8967,6 +9533,7 @@ def test_vc013_vc013_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8983,6 +9550,7 @@ def test_vc012_vc012_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8999,6 +9567,7 @@ def test_vc011_vc011_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9013,6 +9582,7 @@ def test_vc010_vc010_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9028,6 +9598,7 @@ def test_vc009_vc009_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9044,6 +9615,7 @@ def test_vc009_vc009_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9059,6 +9631,7 @@ def test_vc008_vc008_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9075,6 +9648,7 @@ def test_vc008_vc008_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9090,6 +9664,7 @@ def test_vc007_vc007_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9106,6 +9681,7 @@ def test_vc007_vc007_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9122,6 +9698,7 @@ def test_vc006_vc006_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9138,6 +9715,7 @@ def test_vc005_vc005_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9153,6 +9731,7 @@ def test_vc004_vc004_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9168,6 +9747,7 @@ def test_vc003_vc003_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9184,6 +9764,7 @@ def test_vc002_vc002_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9201,6 +9782,7 @@ def test_vc002_vc002_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9216,6 +9798,7 @@ def test_vc001_vc001_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9231,6 +9814,7 @@ def test_vc001_vc001_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9246,6 +9830,7 @@ def test_wild084_wild084_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9265,6 +9850,7 @@ def test_wild083_wild083_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9285,6 +9871,7 @@ def test_wild083_wild047_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9301,6 +9888,7 @@ def test_wild082_wild082_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9317,6 +9905,7 @@ def test_wild080_wild080_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9333,6 +9922,7 @@ def test_wild077_wild077_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9349,6 +9939,7 @@ def test_wild077_wild077_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9365,6 +9956,7 @@ def test_wild076_wild076_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9382,6 +9974,7 @@ def test_wild076_wild076_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9398,6 +9991,7 @@ def test_wild075_wild075_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9415,6 +10009,7 @@ def test_wild075_wild075_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9430,6 +10025,7 @@ def test_wild074_wild074_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9446,6 +10042,7 @@ def test_wild074_wild074_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9462,6 +10059,7 @@ def test_wild074_wild074_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9477,6 +10075,7 @@ def test_wild073_wild073_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9492,6 +10091,7 @@ def test_wild073_wild073_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9507,6 +10107,7 @@ def test_wild073_wild073_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9522,6 +10123,7 @@ def test_wild072_wild072_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9538,6 +10140,7 @@ def test_wild072_wild072_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9554,6 +10157,7 @@ def test_wild072_wild072_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9569,6 +10173,7 @@ def test_wild071_wild071_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9585,6 +10190,7 @@ def test_wild071_wild071_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9601,6 +10207,7 @@ def test_wild071_wild071_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9616,6 +10223,7 @@ def test_wild070_wild070_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9632,6 +10240,7 @@ def test_wild070_wild070_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9648,6 +10257,7 @@ def test_wild070_wild070_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9664,6 +10274,7 @@ def test_wild068_wild068_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9680,6 +10291,7 @@ def test_wild067_wild067_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9695,6 +10307,7 @@ def test_wild066_wild066_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9711,6 +10324,7 @@ def test_wild065_wild065_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9727,6 +10341,7 @@ def test_wild065_wild065_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9742,6 +10357,7 @@ def test_wild064_wild064_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9757,6 +10373,7 @@ def test_wild064_wild064_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9773,6 +10390,7 @@ def test_wild064_wild064_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9788,6 +10406,7 @@ def test_wild063_wild063_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9803,6 +10422,7 @@ def test_wild063_wild063_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9819,6 +10439,7 @@ def test_wild063_wild063_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9835,6 +10456,7 @@ def test_wild063_wild063_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9850,6 +10472,7 @@ def test_wild062_wild062_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9866,6 +10489,7 @@ def test_wild062_wild062_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9882,6 +10506,7 @@ def test_wild062_wild062_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9898,6 +10523,7 @@ def test_wild062_wild062_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9914,6 +10540,7 @@ def test_wild061_wild061_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9929,6 +10556,7 @@ def test_wild060_wild060_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9944,6 +10572,7 @@ def test_wild060_wild060_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9960,6 +10589,7 @@ def test_wild060_wild060_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9975,6 +10605,7 @@ def test_wild059_wild059_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9991,6 +10622,7 @@ def test_wild059_wild059_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10007,6 +10639,7 @@ def test_wild059_wild059_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10022,6 +10655,7 @@ def test_wild058_wild058_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10038,6 +10672,7 @@ def test_wild058_wild058_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10054,6 +10689,7 @@ def test_wild058_wild058_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10069,6 +10705,7 @@ def test_wild056_wild056_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10085,6 +10722,7 @@ def test_wild056_wild056_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10101,6 +10739,7 @@ def test_wild056_wild056_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10117,6 +10756,7 @@ def test_wild056_wild056_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10132,6 +10772,7 @@ def test_wild055_wild055_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10148,6 +10789,7 @@ def test_wild055_wild055_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10164,6 +10806,7 @@ def test_wild055_wild055_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10180,6 +10823,7 @@ def test_wild055_wild055_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10194,6 +10838,7 @@ def test_wild054_wild054_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10208,6 +10853,7 @@ def test_wild054_wild054_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10223,6 +10869,7 @@ def test_wild054_wild054_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10238,6 +10885,7 @@ def test_wild054_wild054_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10253,6 +10901,7 @@ def test_wild053_wild053_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10268,6 +10917,7 @@ def test_wild053_wild053_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10284,6 +10934,7 @@ def test_wild053_wild053_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10300,6 +10951,7 @@ def test_wild053_wild053_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10314,6 +10966,7 @@ def test_wild052_wild052_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10328,6 +10981,7 @@ def test_wild052_wild052_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10343,6 +10997,7 @@ def test_wild052_wild052_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10358,6 +11013,7 @@ def test_wild052_wild052_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10373,6 +11029,7 @@ def test_wild047_wild047_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10389,6 +11046,7 @@ def test_wild047_wild047_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10404,6 +11062,7 @@ def test_wild046_wild046_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10419,6 +11078,7 @@ def test_wild046_wild046_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10435,6 +11095,7 @@ def test_wild046_wild046_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10451,6 +11112,7 @@ def test_wild046_wild046_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10466,6 +11128,7 @@ def test_wild045_wild045_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10481,6 +11144,7 @@ def test_wild045_wild045_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10497,6 +11161,7 @@ def test_wild045_wild045_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10513,6 +11178,7 @@ def test_wild045_wild045_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10528,6 +11194,7 @@ def test_wild044_wild044_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10544,6 +11211,7 @@ def test_wild044_wild044_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10560,6 +11228,7 @@ def test_wild044_wild044_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10575,6 +11244,7 @@ def test_wild043_wild043_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10591,6 +11261,7 @@ def test_wild043_wild043_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10607,6 +11278,7 @@ def test_wild043_wild043_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10623,6 +11295,7 @@ def test_wild043_wild043_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10638,6 +11311,7 @@ def test_wild042_wild042_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10654,6 +11328,7 @@ def test_wild042_wild042_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10669,6 +11344,7 @@ def test_wild040_wild040_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10685,6 +11361,7 @@ def test_wild040_wild040_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10700,6 +11377,7 @@ def test_wild030_wild030_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10715,6 +11393,7 @@ def test_wild030_wild030_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10731,6 +11410,7 @@ def test_wild030_wild030_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10746,6 +11426,7 @@ def test_wild029_wild029_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10762,6 +11443,7 @@ def test_wild029_wild029_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10778,6 +11460,7 @@ def test_wild029_wild029_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10793,6 +11476,7 @@ def test_wild028_wild028_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10809,6 +11493,7 @@ def test_wild028_wild028_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10825,6 +11510,7 @@ def test_wild028_wild028_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10840,6 +11526,7 @@ def test_wild027_wild027_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10856,6 +11543,7 @@ def test_wild027_wild027_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10872,6 +11560,7 @@ def test_wild027_wild027_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10887,6 +11576,7 @@ def test_wild026_wild026_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10903,6 +11593,7 @@ def test_wild026_wild026_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10919,6 +11610,7 @@ def test_wild026_wild026_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10935,6 +11627,7 @@ def test_wild026_wild026_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10951,6 +11644,7 @@ def test_wild026_wild026_n4_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10966,6 +11660,7 @@ def test_wild025_wild025_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10982,6 +11677,7 @@ def test_wild025_wild025_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10998,6 +11694,7 @@ def test_wild025_wild025_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11014,6 +11711,7 @@ def test_wild025_wild025_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11030,6 +11728,7 @@ def test_wild025_wild025_n4_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11045,6 +11744,7 @@ def test_wild024_wild024_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11060,6 +11760,7 @@ def test_wild024_wild024_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11076,6 +11777,7 @@ def test_wild024_wild024_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11091,6 +11793,7 @@ def test_wild023_wild023_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11107,6 +11810,7 @@ def test_wild023_wild023_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11123,6 +11827,7 @@ def test_wild023_wild023_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11138,6 +11843,7 @@ def test_wild019_wild019_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11154,6 +11860,7 @@ def test_wild019_wild019_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11170,6 +11877,7 @@ def test_wild019_wild019_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11186,6 +11894,7 @@ def test_wild019_wild019_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11201,6 +11910,7 @@ def test_wild018_wild018_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11217,6 +11927,7 @@ def test_wild018_wild018_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11233,6 +11944,7 @@ def test_wild018_wild018_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11249,6 +11961,7 @@ def test_wild018_wild018_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11264,6 +11977,7 @@ def test_wild017_wild017_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11280,6 +11994,7 @@ def test_wild017_wild017_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11296,6 +12011,7 @@ def test_wild017_wild017_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11312,6 +12028,7 @@ def test_wild017_wild017_n3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11328,6 +12045,7 @@ def test_wild016_wild016_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11345,6 +12063,7 @@ def test_wild016_wild016_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11360,6 +12079,7 @@ def test_wild015_wild015_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11376,6 +12096,7 @@ def test_wild015_wild015_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11391,6 +12112,7 @@ def test_wild014_wild014_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11407,6 +12129,7 @@ def test_wild014_wild014_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11421,6 +12144,7 @@ def test_wild013_wild013_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11437,6 +12161,7 @@ def test_wild012_wild012_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11453,6 +12178,7 @@ def test_wild012_wild012_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11470,6 +12196,7 @@ def test_wild012_wild012_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11487,6 +12214,7 @@ def test_wild012_wild012_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11503,6 +12231,7 @@ def test_wild011_wild011_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11519,6 +12248,7 @@ def test_wild011_wild011_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11536,6 +12266,7 @@ def test_wild011_wild011_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11553,6 +12284,7 @@ def test_wild011_wild011_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11569,6 +12301,7 @@ def test_wild010_wild010_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11585,6 +12318,7 @@ def test_wild010_wild010_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11602,6 +12336,7 @@ def test_wild010_wild010_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11619,6 +12354,7 @@ def test_wild010_wild010_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11635,6 +12371,7 @@ def test_wild009_wild009_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11651,6 +12388,7 @@ def test_wild009_wild009_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11668,6 +12406,7 @@ def test_wild009_wild009_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11685,6 +12424,7 @@ def test_wild009_wild009_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11700,6 +12440,7 @@ def test_wild006_wild006_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11715,6 +12456,7 @@ def test_wild006_wild006_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11731,6 +12473,7 @@ def test_wild006_wild006_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11747,6 +12490,7 @@ def test_wild005_wild005_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11763,6 +12507,7 @@ def test_wild005_wild005_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11780,6 +12525,7 @@ def test_wild005_wild005_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11795,6 +12541,7 @@ def test_wild004_wild004_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11810,6 +12557,7 @@ def test_wild004_wild004_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11826,6 +12574,7 @@ def test_wild004_wild004_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11841,6 +12590,7 @@ def test_wild003_wild003_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11856,6 +12606,7 @@ def test_wild003_wild003_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11872,6 +12623,7 @@ def test_wild003_wild003_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11887,6 +12639,7 @@ def test_wild002_wild002_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11902,6 +12655,7 @@ def test_wild002_wild002_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11918,6 +12672,7 @@ def test_wild002_wild002_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11934,6 +12689,7 @@ def test_wild002_wild002_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11949,6 +12705,7 @@ def test_wild001_wild001_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11964,6 +12721,7 @@ def test_wild001_wild001_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11980,6 +12738,7 @@ def test_wild001_wild001_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11996,6 +12755,7 @@ def test_wild001_wild001_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12012,6 +12772,7 @@ def test_xv100notc_xv100notc_i_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12028,6 +12789,7 @@ def test_xv100notc_xv100notc_c_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12044,6 +12806,7 @@ def test_xv100notc_xv100notc_noti_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12059,6 +12822,7 @@ def test_xv100notc_xv100notc_notc_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12075,6 +12839,7 @@ def test_xv100noti_xv100noti_i_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12091,6 +12856,7 @@ def test_xv100noti_xv100noti_c_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12106,6 +12872,7 @@ def test_xv100noti_xv100noti_noti_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12121,6 +12888,7 @@ def test_xv100noti_xv100noti_notc_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12136,6 +12904,7 @@ def test_xv100c_xv100c_i_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12151,6 +12920,7 @@ def test_xv100c_xv100c_c_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12167,6 +12937,7 @@ def test_xv100c_xv100c_noti_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12183,6 +12954,7 @@ def test_xv100c_xv100c_notc_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12198,6 +12970,7 @@ def test_xv100i_xv100i_i_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12214,6 +12987,7 @@ def test_xv100i_xv100i_c_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12230,6 +13004,7 @@ def test_xv100i_xv100i_noti_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12246,6 +13021,7 @@ def test_xv100i_xv100i_notc_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12261,6 +13037,7 @@ def test_xv009_xv009_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12276,6 +13053,7 @@ def test_xv009_xv009_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12292,6 +13070,7 @@ def test_xv009_xv009_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12308,6 +13087,7 @@ def test_xv009_xv009_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12324,6 +13104,7 @@ def test_xv009_xv009_n03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12339,6 +13120,7 @@ def test_xv008_xv008_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12355,6 +13137,7 @@ def test_xv008_xv008_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12371,6 +13154,7 @@ def test_xv008_xv008_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12386,6 +13170,7 @@ def test_xv007_xv007_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12402,6 +13187,7 @@ def test_xv007_xv007_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12418,6 +13204,7 @@ def test_xv007_xv007_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12433,6 +13220,7 @@ def test_xv006_xv006_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12449,6 +13237,7 @@ def test_xv006_xv006_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12465,6 +13254,7 @@ def test_xv006_xv006_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12481,6 +13271,7 @@ def test_xv006_xv006_n03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12496,6 +13287,7 @@ def test_xv005_xv005_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12512,6 +13304,7 @@ def test_xv005_xv005_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12528,6 +13321,7 @@ def test_xv005_xv005_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12543,6 +13337,7 @@ def test_xv004_xv004_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12558,6 +13353,7 @@ def test_xv003_xv003_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12573,6 +13369,7 @@ def test_xv002_xv002_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12590,6 +13387,7 @@ def test_xv001_xv001_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12605,6 +13403,7 @@ def test_zone304_zone304_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12620,6 +13419,7 @@ def test_zone304_zone304_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12635,6 +13435,7 @@ def test_zone304_zone304_v03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12651,6 +13452,7 @@ def test_zone304_zone304_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12667,6 +13469,7 @@ def test_zone304_zone304_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12682,6 +13485,7 @@ def test_zone303_zone303_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12697,6 +13501,7 @@ def test_zone303_zone303_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12712,6 +13517,7 @@ def test_zone303_zone303_v03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12728,6 +13534,7 @@ def test_zone303_zone303_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12744,6 +13551,7 @@ def test_zone303_zone303_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12759,6 +13567,7 @@ def test_zone302_zone302_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12775,6 +13584,7 @@ def test_zone302_zone302_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12790,6 +13600,7 @@ def test_zone301_zone301_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12806,6 +13617,7 @@ def test_zone301_zone301_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12821,6 +13633,7 @@ def test_zone206_zone206_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12836,6 +13649,7 @@ def test_zone206_zone206_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12852,6 +13666,7 @@ def test_zone206_zone206_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12868,6 +13683,7 @@ def test_zone206_zone206_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12883,6 +13699,7 @@ def test_zone205_zone205_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12898,6 +13715,7 @@ def test_zone205_zone205_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12913,6 +13731,7 @@ def test_zone205_zone205_v03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12929,6 +13748,7 @@ def test_zone205_zone205_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12945,6 +13765,7 @@ def test_zone205_zone205_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12961,6 +13782,7 @@ def test_zone204_zone204_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12976,6 +13798,7 @@ def test_zone203_zone203_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12991,6 +13814,7 @@ def test_zone203_zone203_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13006,6 +13830,7 @@ def test_zone203_zone203_v03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13022,6 +13847,7 @@ def test_zone203_zone203_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13038,6 +13864,7 @@ def test_zone203_zone203_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13053,6 +13880,7 @@ def test_zone202_zone202_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13068,6 +13896,7 @@ def test_zone202_zone202_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13083,6 +13912,7 @@ def test_zone202_zone202_v03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13099,6 +13929,7 @@ def test_zone202_zone202_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13115,6 +13946,7 @@ def test_zone202_zone202_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13131,6 +13963,7 @@ def test_zone202_zone202_n03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13146,6 +13979,7 @@ def test_zone201_zone201_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13161,6 +13995,7 @@ def test_zone201_zone201_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13177,6 +14012,7 @@ def test_zone201_zone201_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13191,6 +14027,7 @@ def test_zone102_zone102_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13205,6 +14042,7 @@ def test_zone102_zone102_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13220,6 +14058,7 @@ def test_zone102_zone102_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13235,6 +14074,7 @@ def test_zone102_zone102_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13250,6 +14090,7 @@ def test_zone101_zone101_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13265,6 +14106,7 @@ def test_zone101_zone101_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13281,6 +14123,7 @@ def test_zone101_zone101_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13296,6 +14139,7 @@ def test_zone003_zone003_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13311,6 +14155,7 @@ def test_zone003_zone003_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13326,6 +14171,7 @@ def test_zone003_zone003_v03_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13342,6 +14188,7 @@ def test_zone002_zone002_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13358,6 +14205,7 @@ def test_zone002_zone002_n02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13373,6 +14221,7 @@ def test_zone002_zone002_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13388,6 +14237,7 @@ def test_zone001_zone001_v01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13403,6 +14253,7 @@ def test_zone001_zone001_v02_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13419,4 +14270,5 @@ def test_zone001_zone001_n01_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )

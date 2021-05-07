@@ -1,0 +1,15 @@
+{
+    "MyCustomer": [
+        {
+            "FirstName": "Dare",
+            "LastName": "Obasanjo",
+            "customerID": 12345,
+            "PhoneNumber": "425-555-1234",
+            "Address": "2001",
+            "City": "Redmond",
+            "State": "WA",
+            "Zip": "98052"
+        }
+    ],
+    "Customer": []
+}

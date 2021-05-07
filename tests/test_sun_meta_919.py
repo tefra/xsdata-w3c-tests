@@ -14,6 +14,7 @@ def test_xsd024_xsd024_v00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -29,6 +30,7 @@ def test_xsd022_xsd022_n00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -43,6 +45,7 @@ def test_xsd022_xsd022_v00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -58,6 +61,7 @@ def test_xsd021_xsd021_n00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -73,6 +77,7 @@ def test_xsd021_xsd021_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -88,6 +93,7 @@ def test_xsd021_xsd021_n02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -103,6 +109,7 @@ def test_xsd021_xsd021_n03(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -118,6 +125,7 @@ def test_xsd021_xsd021_n04(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -133,6 +141,7 @@ def test_xsd021_xsd021_n05(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -148,6 +157,7 @@ def test_xsd021_xsd021_n06(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -163,6 +173,7 @@ def test_xsd021_xsd021_n07(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -178,6 +189,7 @@ def test_xsd021_xsd021_n08(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -193,6 +205,7 @@ def test_xsd021_xsd021_n09(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -208,6 +221,7 @@ def test_xsd021_xsd021_n10(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -223,6 +237,7 @@ def test_xsd021_xsd021_n11(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -237,6 +252,7 @@ def test_xsd021_xsd021_v00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -252,6 +268,7 @@ def test_xsd012_xsd012_n00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -266,6 +283,7 @@ def test_xsd012_xsd012_v00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -281,6 +299,7 @@ def test_xsd011_xsd011_n00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -296,6 +315,7 @@ def test_xsd011_xsd011_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -311,6 +331,7 @@ def test_xsd011_xsd011_n02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -326,6 +347,7 @@ def test_xsd011_xsd011_n03(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -341,6 +363,7 @@ def test_xsd011_xsd011_n04(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -355,6 +378,7 @@ def test_xsd011_xsd011_v00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -370,6 +394,7 @@ def test_xsd008_xsd008_n00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -385,6 +410,7 @@ def test_xsd008_xsd008_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -400,6 +426,7 @@ def test_xsd008_xsd008_n02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -414,6 +441,7 @@ def test_xsd008_xsd008_v00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -429,6 +457,7 @@ def test_xsd006_xsd006_n00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -444,6 +473,7 @@ def test_xsd006_xsd006_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -459,6 +489,7 @@ def test_xsd006_xsd006_n02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -474,6 +505,7 @@ def test_xsd006_xsd006_n03(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -489,6 +521,7 @@ def test_xsd006_xsd006_n04(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -504,6 +537,7 @@ def test_xsd006_xsd006_n05(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -519,6 +553,7 @@ def test_xsd006_xsd006_n06(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -534,6 +569,7 @@ def test_xsd006_xsd006_n07(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -549,6 +585,7 @@ def test_xsd006_xsd006_n08(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -564,6 +601,7 @@ def test_xsd006_xsd006_n09(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -579,6 +617,7 @@ def test_xsd006_xsd006_n10(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -594,6 +633,7 @@ def test_xsd006_xsd006_n11(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -608,6 +648,7 @@ def test_xsd006_xsd006_v00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -623,6 +664,7 @@ def test_xsd005_xsd005_n00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -638,6 +680,7 @@ def test_xsd005_xsd005_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -653,6 +696,7 @@ def test_xsd005_xsd005_n02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -668,6 +712,7 @@ def test_xsd005_xsd005_n03(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -683,6 +728,7 @@ def test_xsd005_xsd005_n04(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -698,6 +744,7 @@ def test_xsd005_xsd005_n05(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -713,6 +760,7 @@ def test_xsd005_xsd005_n06(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -727,6 +775,7 @@ def test_xsd005_xsd005_v00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -743,6 +792,7 @@ def test_xsd004_xsd004_n00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -759,6 +809,7 @@ def test_xsd004_xsd004_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -775,6 +826,7 @@ def test_xsd004_xsd004_n02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -791,6 +843,7 @@ def test_xsd004_xsd004_n03(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -807,6 +860,7 @@ def test_xsd004_xsd004_n04(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -823,6 +877,7 @@ def test_xsd004_xsd004_n05(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -839,6 +894,7 @@ def test_xsd004_xsd004_n06(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -855,6 +911,7 @@ def test_xsd004_xsd004_n07(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -871,6 +928,7 @@ def test_xsd004_xsd004_n08(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -887,6 +945,7 @@ def test_xsd004_xsd004_n09(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -903,6 +962,7 @@ def test_xsd004_xsd004_n10(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -919,6 +979,7 @@ def test_xsd004_xsd004_n11(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -935,6 +996,7 @@ def test_xsd004_xsd004_n12(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -950,6 +1012,7 @@ def test_xsd004_xsd004_v00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -964,9 +1027,9 @@ def test_xsd003b_xsd003b_n00(mode, save_output):
         instance="sunData/combined/xsd003b/xsd003b.n00.xml",
         class_name="Root",
         version="1.1",
-        ns_struct=True,
         mode=mode,
         save_output=save_output,
+        structure_style="namespaces",
     )
 
 
@@ -981,9 +1044,9 @@ def test_xsd003b_xsd003b_n01(mode, save_output):
         instance="sunData/combined/xsd003b/xsd003b.n01.xml",
         class_name="Root",
         version="1.1",
-        ns_struct=True,
         mode=mode,
         save_output=save_output,
+        structure_style="namespaces",
     )
 
 
@@ -997,9 +1060,9 @@ def test_xsd003b_xsd003b_v00(mode, save_output):
         instance="sunData/combined/xsd003b/xsd003b.v00.xml",
         class_name="Root",
         version="1.1",
-        ns_struct=True,
         mode=mode,
         save_output=save_output,
+        structure_style="namespaces",
     )
 
 
@@ -1013,9 +1076,9 @@ def test_xsd003b_xsd003b_v01(mode, save_output):
         instance="sunData/combined/xsd003b/xsd003b.v01.xml",
         class_name="Root",
         version="1.1",
-        ns_struct=True,
         mode=mode,
         save_output=save_output,
+        structure_style="namespaces",
     )
 
 
@@ -1030,6 +1093,7 @@ def test_xsd003a_xsd003a_v00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1047,6 +1111,7 @@ def test_xsd002_xsd002_n00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1064,6 +1129,7 @@ def test_xsd002_xsd002_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1081,6 +1147,7 @@ def test_xsd002_xsd002_n02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1097,6 +1164,7 @@ def test_xsd002_xsd002_v00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1113,6 +1181,7 @@ def test_xsd002_xsd002_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1130,6 +1199,7 @@ def test_xsd001_xsd001_n00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1147,6 +1217,7 @@ def test_xsd001_xsd001_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1164,6 +1235,7 @@ def test_xsd001_xsd001_n02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1181,6 +1253,7 @@ def test_xsd001_xsd001_n03(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1198,6 +1271,7 @@ def test_xsd001_xsd001_n04(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1215,6 +1289,7 @@ def test_xsd001_xsd001_n05(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1232,6 +1307,7 @@ def test_xsd001_xsd001_n06(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1249,6 +1325,7 @@ def test_xsd001_xsd001_n07(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1265,6 +1342,7 @@ def test_xsd001_xsd001_v00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1281,6 +1359,7 @@ def test_xsd001_xsd001_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1297,6 +1376,7 @@ def test_xsd001_xsd001_v02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1313,6 +1393,7 @@ def test_xsd001_xsd001_v03(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1329,6 +1410,7 @@ def test_idc006_nogen_idc006_nogen_n00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1345,6 +1427,7 @@ def test_idc006_nogen_idc006_nogen_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1360,6 +1443,7 @@ def test_idc006_nogen_idc006_nogen_v00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1375,6 +1459,7 @@ def test_idc005_nogen_idc005_nogen_n00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1390,6 +1475,7 @@ def test_idc005_nogen_idc005_nogen_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1404,6 +1490,7 @@ def test_idc005_nogen_idc005_nogen_v00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1419,6 +1506,7 @@ def test_idc004_nogen_idc004_nogen_n00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1434,6 +1522,7 @@ def test_idc004_nogen_idc004_nogen_n01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1449,6 +1538,7 @@ def test_idc004_nogen_idc004_nogen_n02(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1464,6 +1554,7 @@ def test_idc004_nogen_idc004_nogen_n03(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1478,6 +1569,7 @@ def test_idc004_nogen_idc004_nogen_v00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1493,6 +1585,7 @@ def test_idc001_nogen_idc001_nogen_n00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1507,6 +1600,7 @@ def test_idc001_nogen_idc001_nogen_v00(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1521,6 +1615,7 @@ def test_idc001_nogen_idc001_nogen_v01(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1535,6 +1630,7 @@ def test_identitytestsuitetest004_test_1_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1550,6 +1646,7 @@ def test_identitytestsuitetest004_test_2_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1565,6 +1662,7 @@ def test_identitytestsuitetest004_test_3_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1579,6 +1677,7 @@ def test_identitytestsuitetest003_test_1_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1593,6 +1692,7 @@ def test_identitytestsuitetest003_test_2_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1608,6 +1708,7 @@ def test_identitytestsuitetest003_test_3_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1622,6 +1723,7 @@ def test_identitytestsuitetest002_test_1_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1636,6 +1738,7 @@ def test_identitytestsuitetest002_test_2_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1651,6 +1754,7 @@ def test_identitytestsuitetest002_test_3_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1665,6 +1769,7 @@ def test_identitytestsuitetest001_test_1_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1680,6 +1785,7 @@ def test_identitytestsuitetest001_test_2_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1695,6 +1801,7 @@ def test_test009_test_13_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1710,6 +1817,7 @@ def test_test009_test_8_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1724,6 +1832,7 @@ def test_test009_test_1_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1738,6 +1847,7 @@ def test_test009_test_10_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1752,6 +1862,7 @@ def test_test009_test_11_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1766,6 +1877,7 @@ def test_test009_test_12_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1780,6 +1892,7 @@ def test_test009_test_2_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1794,6 +1907,7 @@ def test_test009_test_3_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1808,6 +1922,7 @@ def test_test009_test_4_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1822,6 +1937,7 @@ def test_test009_test_5_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1836,6 +1952,7 @@ def test_test009_test_6_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1850,6 +1967,7 @@ def test_test009_test_7_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1864,6 +1982,7 @@ def test_test009_test_9_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1879,6 +1998,7 @@ def test_test008_test_1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1894,6 +2014,7 @@ def test_test008_test_10_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1909,6 +2030,7 @@ def test_test008_test_11_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1924,6 +2046,7 @@ def test_test008_test_12_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1939,6 +2062,7 @@ def test_test008_test_5_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1954,6 +2078,7 @@ def test_test008_test_7_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1969,6 +2094,7 @@ def test_test008_test_8_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1984,6 +2110,7 @@ def test_test008_test_9_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1998,6 +2125,7 @@ def test_test008_test_2_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2012,6 +2140,7 @@ def test_test008_test_3_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2026,6 +2155,7 @@ def test_test008_test_4_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2040,6 +2170,7 @@ def test_test008_test_6_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2054,6 +2185,7 @@ def test_test007_test_1_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2068,6 +2200,7 @@ def test_test007_test_6_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2083,6 +2216,7 @@ def test_test007_test_2_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2098,6 +2232,7 @@ def test_test007_test_3_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2113,6 +2248,7 @@ def test_test007_test_4_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2128,6 +2264,7 @@ def test_test007_test_5_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2143,6 +2280,7 @@ def test_test007_test_7_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2158,6 +2296,7 @@ def test_test007_test_8_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2172,6 +2311,7 @@ def test_test006_test_1_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2187,6 +2327,7 @@ def test_test006_test_10_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2202,6 +2343,7 @@ def test_test006_test_11_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2217,6 +2359,7 @@ def test_test006_test_12_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2232,6 +2375,7 @@ def test_test006_test_13_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2247,6 +2391,7 @@ def test_test006_test_14_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2262,6 +2407,7 @@ def test_test006_test_15_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2277,6 +2423,7 @@ def test_test006_test_16_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2292,6 +2439,7 @@ def test_test006_test_17_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2307,6 +2455,7 @@ def test_test006_test_18_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2322,6 +2471,7 @@ def test_test006_test_19_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2336,6 +2486,7 @@ def test_test006_test_2_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2351,6 +2502,7 @@ def test_test006_test_20_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2366,6 +2518,7 @@ def test_test006_test_21_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2381,6 +2534,7 @@ def test_test006_test_22_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2396,6 +2550,7 @@ def test_test006_test_23_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2411,6 +2566,7 @@ def test_test006_test_24_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2426,6 +2582,7 @@ def test_test006_test_25_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2441,6 +2598,7 @@ def test_test006_test_26_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2456,6 +2614,7 @@ def test_test006_test_27_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2471,6 +2630,7 @@ def test_test006_test_28_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2486,6 +2646,7 @@ def test_test006_test_29_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2501,6 +2662,7 @@ def test_test006_test_3_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2516,6 +2678,7 @@ def test_test006_test_30_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2531,6 +2694,7 @@ def test_test006_test_31_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2546,6 +2710,7 @@ def test_test006_test_32_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2561,6 +2726,7 @@ def test_test006_test_33_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2576,6 +2742,7 @@ def test_test006_test_34_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2591,6 +2758,7 @@ def test_test006_test_4_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2606,6 +2774,7 @@ def test_test006_test_5_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2621,6 +2790,7 @@ def test_test006_test_6_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2636,6 +2806,7 @@ def test_test006_test_7_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2651,6 +2822,7 @@ def test_test006_test_8_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2666,6 +2838,7 @@ def test_test006_test_9_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2680,6 +2853,7 @@ def test_test005_test_1_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2695,6 +2869,7 @@ def test_test005_test_2_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2710,6 +2885,7 @@ def test_test005_test_3_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2725,6 +2901,7 @@ def test_test005_test_4_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2740,6 +2917,7 @@ def test_test005_test_5_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2754,6 +2932,7 @@ def test_test004_test_1_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2769,6 +2948,7 @@ def test_test004_test_2_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2784,6 +2964,7 @@ def test_test004_test_3_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2799,6 +2980,7 @@ def test_test004_test_4_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2814,6 +2996,7 @@ def test_test004_test_5_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2828,6 +3011,7 @@ def test_test003_test_1_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2843,6 +3027,7 @@ def test_test003_test_2_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2858,6 +3043,7 @@ def test_test003_test_3_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2873,6 +3059,7 @@ def test_test003_test_4_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2888,6 +3075,7 @@ def test_test003_test_5_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2902,6 +3090,7 @@ def test_test002_test_1_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2917,6 +3106,7 @@ def test_test002_test_2_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2932,6 +3122,7 @@ def test_test002_test_3_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2947,6 +3138,7 @@ def test_test002_test_4_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2962,6 +3154,7 @@ def test_test002_test_5_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2976,6 +3169,7 @@ def test_test001_test_1_v(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2991,6 +3185,7 @@ def test_test001_test_2_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3008,6 +3203,7 @@ def test_annotation00101m4_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3025,6 +3221,7 @@ def test_annotation00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3041,6 +3238,7 @@ def test_ag_targetns00101m1_p_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3056,6 +3254,7 @@ def test_ag_name00101m1_p_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3072,6 +3271,7 @@ def test_ag_attrwcard00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3088,6 +3288,7 @@ def test_ag_attrusens00101m1_p_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3104,6 +3305,7 @@ def test_ad_valconstr00201m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3120,6 +3322,7 @@ def test_ad_valconstr00101m_ad_val_constr00101m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3137,6 +3340,7 @@ def test_ad_valconstr00101m_ad_val_constr00101m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3153,6 +3357,7 @@ def test_ad_valconstr00101m_ad_val_constr00101m2_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3170,6 +3375,7 @@ def test_ad_valconstr00101m_ad_val_constr00101m2_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3186,6 +3392,7 @@ def test_ad_type00102m_ad_type00102m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3203,6 +3410,7 @@ def test_ad_type00102m_ad_type00102m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3219,6 +3427,7 @@ def test_ad_type00102m_ad_type00102m2_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3236,6 +3445,7 @@ def test_ad_type00102m_ad_type00102m2_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3252,6 +3462,7 @@ def test_ad_type00101m_ad_type00101m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3269,6 +3480,7 @@ def test_ad_type00101m_ad_type00101m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3285,6 +3497,7 @@ def test_ad_type00101m_ad_type00101m2_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3302,6 +3515,7 @@ def test_ad_type00101m_ad_type00101m2_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3317,6 +3531,7 @@ def test_ad_targetns00101m_ad_target_ns00101m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3333,6 +3548,7 @@ def test_ad_targetns00101m_ad_target_ns00101m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3349,6 +3565,7 @@ def test_ad_targetns00101m_ad_target_ns00101m2_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3364,6 +3581,7 @@ def test_ad_targetns00101m_ad_target_ns00101m3_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3380,6 +3598,7 @@ def test_ad_targetns00101m_ad_target_ns00101m3_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3395,6 +3614,7 @@ def test_ad_scope00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3412,6 +3632,7 @@ def test_ad_name00118_ad_name00118_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3429,6 +3650,7 @@ def test_ad_name00115_ad_name00115_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3451,6 +3673,7 @@ def test_ad_name00114_ad_name00114_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3468,6 +3691,7 @@ def test_ad_name00113_ad_name00113_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3490,6 +3714,7 @@ def test_ad_name00112_ad_name00112_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3511,6 +3736,7 @@ def test_ad_name00111_ad_name00111_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3533,6 +3759,7 @@ def test_ad_name00110m9_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3555,6 +3782,7 @@ def test_ad_name00110m8_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3579,6 +3807,7 @@ def test_ad_name00110m7_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3603,6 +3832,7 @@ def test_ad_name00110m6_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3626,6 +3856,7 @@ def test_ad_name00110m5_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3648,6 +3879,7 @@ def test_ad_name00110m4_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3670,6 +3902,7 @@ def test_ad_name00110m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3693,6 +3926,7 @@ def test_ad_name00110m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3712,6 +3946,7 @@ def test_ad_name00110m10_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3735,6 +3970,7 @@ def test_ad_name00110m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3755,6 +3991,7 @@ def test_ad_name00109m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3779,6 +4016,7 @@ def test_ad_name00109m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3802,6 +4040,7 @@ def test_ad_name00108m9_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3825,6 +4064,7 @@ def test_ad_name00108m8_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3849,6 +4089,7 @@ def test_ad_name00108m7_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3872,6 +4113,7 @@ def test_ad_name00108m6_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3896,6 +4138,7 @@ def test_ad_name00108m5_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3920,6 +4163,7 @@ def test_ad_name00108m4_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3943,6 +4187,7 @@ def test_ad_name00108m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3965,6 +4210,7 @@ def test_ad_name00108m21_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3988,6 +4234,7 @@ def test_ad_name00108m20_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4012,6 +4259,7 @@ def test_ad_name00108m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4034,6 +4282,7 @@ def test_ad_name00108m19_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4055,6 +4304,7 @@ def test_ad_name00108m18_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4076,6 +4326,7 @@ def test_ad_name00108m17_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4097,6 +4348,7 @@ def test_ad_name00108m16_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4119,6 +4371,7 @@ def test_ad_name00108m15_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4141,6 +4394,7 @@ def test_ad_name00108m14_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4164,6 +4418,7 @@ def test_ad_name00108m13_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4188,6 +4443,7 @@ def test_ad_name00108m12_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4212,6 +4468,7 @@ def test_ad_name00108m11_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4236,6 +4493,7 @@ def test_ad_name00108m10_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4260,6 +4518,7 @@ def test_ad_name00108m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4279,6 +4538,7 @@ def test_ad_name00107m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4297,6 +4557,7 @@ def test_ad_name00106m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4314,6 +4575,7 @@ def test_ad_name00105m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4337,6 +4599,7 @@ def test_ad_name00104m9_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4360,6 +4623,7 @@ def test_ad_name00104m8_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4384,6 +4648,7 @@ def test_ad_name00104m7_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4407,6 +4672,7 @@ def test_ad_name00104m6_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4431,6 +4697,7 @@ def test_ad_name00104m5_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4455,6 +4722,7 @@ def test_ad_name00104m4_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4478,6 +4746,7 @@ def test_ad_name00104m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4500,6 +4769,7 @@ def test_ad_name00104m21_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4523,6 +4793,7 @@ def test_ad_name00104m20_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4547,6 +4818,7 @@ def test_ad_name00104m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4569,6 +4841,7 @@ def test_ad_name00104m19_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4590,6 +4863,7 @@ def test_ad_name00104m18_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4611,6 +4885,7 @@ def test_ad_name00104m17_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4632,6 +4907,7 @@ def test_ad_name00104m16_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4654,6 +4930,7 @@ def test_ad_name00104m15_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4676,6 +4953,7 @@ def test_ad_name00104m14_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4699,6 +4977,7 @@ def test_ad_name00104m13_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4723,6 +5002,7 @@ def test_ad_name00104m12_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4747,6 +5027,7 @@ def test_ad_name00104m11_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4771,6 +5052,7 @@ def test_ad_name00104m10_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4795,6 +5077,7 @@ def test_ad_name00104m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4813,6 +5096,7 @@ def test_ad_name00103m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4833,6 +5117,7 @@ def test_ad_name00103m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4852,6 +5137,7 @@ def test_ad_name00102m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4868,6 +5154,7 @@ def test_ad_name00101m4_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4885,6 +5172,7 @@ def test_ad_name00101m4_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4901,6 +5189,7 @@ def test_ad_name00101m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4918,6 +5207,7 @@ def test_ad_name00101m3_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4934,6 +5224,7 @@ def test_ad_name00101m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4951,6 +5242,7 @@ def test_ad_name00101m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4967,6 +5259,7 @@ def test_ad_name00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4984,6 +5277,7 @@ def test_ad_name00101m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5000,6 +5294,7 @@ def test_ad_annotation00101m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5016,6 +5311,7 @@ def test_ad_annotation00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5032,6 +5328,7 @@ def test_au_valconstr00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5049,6 +5346,7 @@ def test_au_valconstr00101m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5064,6 +5362,7 @@ def test_au_required00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5080,6 +5379,7 @@ def test_au_required00101m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5096,6 +5396,7 @@ def test_au_attrdecl00101m1_p_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5112,6 +5413,7 @@ def test_targetns00101m_target_ns00101m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5129,6 +5431,7 @@ def test_targetns00101m_target_ns00101m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5146,6 +5449,7 @@ def test_psubstitutions00104m_p_substitutions00104m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5164,6 +5468,7 @@ def test_psubstitutions00104m_p_substitutions00104m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5181,6 +5486,7 @@ def test_psubstitutions00104m_p_substitutions00104m2_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5199,6 +5505,7 @@ def test_psubstitutions00104m_p_substitutions00104m2_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5216,6 +5523,7 @@ def test_psubstitutions00103m_p_substitutions00103m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5234,6 +5542,7 @@ def test_psubstitutions00103m_p_substitutions00103m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5251,6 +5560,7 @@ def test_psubstitutions00103m_p_substitutions00103m2_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5269,6 +5579,7 @@ def test_psubstitutions00103m_p_substitutions00103m2_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5286,6 +5597,7 @@ def test_psubstitutions00102m_p_substitutions00102m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5304,6 +5616,7 @@ def test_psubstitutions00102m_p_substitutions00102m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5321,6 +5634,7 @@ def test_psubstitutions00102m_p_substitutions00102m2_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5339,6 +5653,7 @@ def test_psubstitutions00102m_p_substitutions00102m2_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5354,6 +5669,7 @@ def test_psubstitutions00101m_p_substitutions00101m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5370,6 +5686,7 @@ def test_psubstitutions00101m_p_substitutions00101m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5385,6 +5702,7 @@ def test_psubstitutions00101m_p_substitutions00101m2_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5401,6 +5719,7 @@ def test_psubstitutions00101m_p_substitutions00101m2_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5417,6 +5736,7 @@ def test_name00101m_name00101m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5434,6 +5754,7 @@ def test_name00101m_name00101m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5452,6 +5773,7 @@ def test_final00101m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5471,6 +5793,7 @@ def test_final00101m3_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5488,6 +5811,7 @@ def test_derivationmethod00102m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5506,6 +5830,7 @@ def test_derivationmethod00102m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5522,6 +5847,7 @@ def test_derivationmethod00102m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5539,6 +5865,7 @@ def test_derivationmethod00102m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5555,6 +5882,7 @@ def test_derivationmethod00101m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5572,6 +5900,7 @@ def test_derivationmethod00101m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5588,6 +5917,7 @@ def test_derivationmethod00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5605,6 +5935,7 @@ def test_derivationmethod00101m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5622,6 +5953,7 @@ def test_contenttype00401m_content_type00401m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5640,6 +5972,7 @@ def test_contenttype00401m_content_type00401m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5656,6 +5989,7 @@ def test_contenttype00301m_content_type00301m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5673,6 +6007,7 @@ def test_contenttype00301m_content_type00301m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5689,6 +6024,7 @@ def test_contenttype00201m_content_type00201m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5706,6 +6042,7 @@ def test_contenttype00201m_content_type00201m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5722,6 +6059,7 @@ def test_contenttype00101m_content_type00101m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5739,6 +6077,7 @@ def test_contenttype00101m_content_type00101m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5754,6 +6093,7 @@ def test_basetd00101m4_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5770,6 +6110,7 @@ def test_basetd00101m4_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5785,6 +6126,7 @@ def test_basetd00101m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5801,6 +6143,7 @@ def test_basetd00101m3_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5816,6 +6159,7 @@ def test_basetd00101m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5832,6 +6176,7 @@ def test_basetd00101m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5847,6 +6192,7 @@ def test_basetd00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5863,6 +6209,7 @@ def test_basetd00101m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5878,6 +6225,7 @@ def test_attributeuses00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5894,6 +6242,7 @@ def test_attributeuses00101m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5909,6 +6258,7 @@ def test_attrwildcard00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5925,6 +6275,7 @@ def test_annotation00101m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5941,6 +6292,7 @@ def test_annotation00101m1_positive_355(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5958,6 +6310,7 @@ def test_abstract00101m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5973,6 +6326,7 @@ def test_abstract00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5989,6 +6343,7 @@ def test_abstract00101m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6008,6 +6363,7 @@ def test_valueconstraint01101m4_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6025,6 +6381,7 @@ def test_valueconstraint01101m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6044,6 +6401,7 @@ def test_valueconstraint01101m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6061,6 +6419,7 @@ def test_valueconstraint01101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6077,6 +6436,7 @@ def test_valueconstraint01001m8_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6093,6 +6453,7 @@ def test_valueconstraint01001m7_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6109,6 +6470,7 @@ def test_valueconstraint01001m4_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6125,6 +6487,7 @@ def test_valueconstraint01001m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6143,6 +6506,7 @@ def test_valueconstraint00901m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6162,6 +6526,7 @@ def test_valueconstraint00901m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6180,6 +6545,7 @@ def test_valueconstraint00801m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6199,6 +6565,7 @@ def test_valueconstraint00801m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6215,6 +6582,7 @@ def test_valueconstraint00701m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6232,6 +6600,7 @@ def test_valueconstraint00701m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6250,6 +6619,7 @@ def test_valueconstraint00601m7_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6268,6 +6638,7 @@ def test_valueconstraint00601m5_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6286,6 +6657,7 @@ def test_valueconstraint00601m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6304,6 +6676,7 @@ def test_valueconstraint00601m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6325,6 +6698,7 @@ def test_valueconstraint00501m6_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6344,6 +6718,7 @@ def test_valueconstraint00501m5_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6363,6 +6738,7 @@ def test_valueconstraint00501m4_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6384,6 +6760,7 @@ def test_valueconstraint00501m3_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6403,6 +6780,7 @@ def test_valueconstraint00501m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6422,6 +6800,7 @@ def test_valueconstraint00501m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6438,6 +6817,7 @@ def test_valueconstraint00402m9_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6454,6 +6834,7 @@ def test_valueconstraint00402m7_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6471,6 +6852,7 @@ def test_valueconstraint00402m5_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6486,6 +6868,7 @@ def test_valueconstraint00402m4_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6501,6 +6884,7 @@ def test_valueconstraint00402m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6516,6 +6900,7 @@ def test_valueconstraint00402m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6532,6 +6917,7 @@ def test_valueconstraint00401m9_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6548,6 +6934,7 @@ def test_valueconstraint00401m7_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6565,6 +6952,7 @@ def test_valueconstraint00401m5_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6581,6 +6969,7 @@ def test_valueconstraint00401m4_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6596,6 +6985,7 @@ def test_valueconstraint00401m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6612,6 +7002,7 @@ def test_valueconstraint00401m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6627,6 +7018,7 @@ def test_valueconstraint00301m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6642,6 +7034,7 @@ def test_valueconstraint00301m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6658,6 +7051,7 @@ def test_valueconstraint00201m_value_constraint00201m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6675,6 +7069,7 @@ def test_valueconstraint00201m_value_constraint00201m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6691,6 +7086,7 @@ def test_valueconstraint00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6708,6 +7104,7 @@ def test_typedef01501m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6726,6 +7123,7 @@ def test_typedef01501m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6743,6 +7141,7 @@ def test_typedef01401m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6761,6 +7160,7 @@ def test_typedef01401m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6778,6 +7178,7 @@ def test_typedef01301m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6796,6 +7197,7 @@ def test_typedef01301m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6816,6 +7218,7 @@ def test_typedef01202m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6837,6 +7240,7 @@ def test_typedef01202m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6857,6 +7261,7 @@ def test_typedef01201m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6878,6 +7283,7 @@ def test_typedef01201m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6894,6 +7300,7 @@ def test_typedef01101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6911,6 +7318,7 @@ def test_typedef01101m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6928,6 +7336,7 @@ def test_typedef00901m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6946,6 +7355,7 @@ def test_typedef00901m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6964,6 +7374,7 @@ def test_typedef00802m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6982,6 +7393,7 @@ def test_typedef00802m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7001,6 +7413,7 @@ def test_typedef00802m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7020,6 +7433,7 @@ def test_typedef00801m3_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7039,6 +7453,7 @@ def test_typedef00801m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7058,6 +7473,7 @@ def test_typedef00801m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7074,6 +7490,7 @@ def test_typedef00701m_type_def00701m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7091,6 +7508,7 @@ def test_typedef00701m_type_def00701m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7107,6 +7525,7 @@ def test_typedef00601m_type_def00601m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7123,6 +7542,7 @@ def test_typedef00502m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7139,6 +7559,7 @@ def test_typedef00501m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7157,6 +7578,7 @@ def test_typedef00403m_type_def00403m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7174,6 +7596,7 @@ def test_typedef00402m_type_def00402m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7192,6 +7615,7 @@ def test_typedef00402m_type_def00402m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7208,6 +7632,7 @@ def test_typedef00401m_type_def00401m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7225,6 +7650,7 @@ def test_typedef00401m_type_def00401m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7242,6 +7668,7 @@ def test_typedef00301m_type_def00301m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7260,6 +7687,7 @@ def test_typedef00301m_type_def00301m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7277,6 +7705,7 @@ def test_typedef00205m_type_def00205m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7293,6 +7722,7 @@ def test_typedef00204m_type_def00204m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7310,6 +7740,7 @@ def test_typedef00204m_type_def00204m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7326,6 +7757,7 @@ def test_typedef00203m_type_def00203m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7343,6 +7775,7 @@ def test_typedef00203m_type_def00203m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7359,6 +7792,7 @@ def test_typedef00202m_type_def00202m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7376,6 +7810,7 @@ def test_typedef00202m_type_def00202m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7392,6 +7827,7 @@ def test_typedef00201m_type_def00201m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7409,6 +7845,7 @@ def test_typedef00201m_type_def00201m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7425,6 +7862,7 @@ def test_typedef00101m_type_def00101m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7442,6 +7880,7 @@ def test_typedef00101m_type_def00101m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7459,6 +7898,7 @@ def test_term00101m_term00101m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7477,6 +7917,7 @@ def test_term00101m_term00101m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7493,6 +7934,7 @@ def test_targetns00402m_target_ns00402m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7510,6 +7952,7 @@ def test_targetns00402m_target_ns00402m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7526,6 +7969,7 @@ def test_targetns00401m_target_ns00401m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7543,6 +7987,7 @@ def test_targetns00401m_target_ns00401m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7559,6 +8004,7 @@ def test_targetns00303m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7576,6 +8022,7 @@ def test_targetns00303m3_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7593,6 +8040,7 @@ def test_targetns00303m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7611,6 +8059,7 @@ def test_targetns00303m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7628,6 +8077,7 @@ def test_targetns00303m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7646,6 +8096,7 @@ def test_targetns00303m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7662,6 +8113,7 @@ def test_targetns00302m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7679,6 +8131,7 @@ def test_targetns00302m3_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7696,6 +8149,7 @@ def test_targetns00302m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7714,6 +8168,7 @@ def test_targetns00302m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7731,6 +8186,7 @@ def test_targetns00302m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7749,6 +8205,7 @@ def test_targetns00302m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7765,6 +8222,7 @@ def test_targetns00301m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7782,6 +8240,7 @@ def test_targetns00301m3_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7799,6 +8258,7 @@ def test_targetns00301m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7817,6 +8277,7 @@ def test_targetns00301m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7834,6 +8295,7 @@ def test_targetns00301m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7852,6 +8314,7 @@ def test_targetns00301m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7867,6 +8330,7 @@ def test_targetns00201m_target_ns00201m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7883,6 +8347,7 @@ def test_targetns00201m_target_ns00201m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7900,6 +8365,7 @@ def test_targetns00101m_target_ns00101m1_p_469(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7916,6 +8382,7 @@ def test_substgrpexcl00402m7_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7931,6 +8398,7 @@ def test_substgrpexcl00401m6_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7946,6 +8414,7 @@ def test_substgrpexcl00401m5_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7961,6 +8430,7 @@ def test_substgrpexcl00401m4_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7976,6 +8446,7 @@ def test_substgrpexcl00401m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7990,6 +8461,7 @@ def test_substgrpexcl00401m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8004,6 +8476,7 @@ def test_substgrpexcl00401m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8023,6 +8496,7 @@ def test_substgrpexcl00303m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8042,6 +8516,7 @@ def test_substgrpexcl00303m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8061,6 +8536,7 @@ def test_substgrpexcl00301m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8080,6 +8556,7 @@ def test_substgrpexcl00301m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8099,6 +8576,7 @@ def test_substgrpexcl00202m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8117,6 +8595,7 @@ def test_substgrpaffil00201m_subst_grp_affil00201m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8136,6 +8615,7 @@ def test_substgrpaffil00201m_subst_grp_affil00201m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8152,6 +8632,7 @@ def test_substgrpaffil00101m_subst_grp_affil00101m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8169,6 +8650,7 @@ def test_substgrpaffil00101m_subst_grp_affil00101m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8184,6 +8666,7 @@ def test_scope00301m_scope00301m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8199,6 +8682,7 @@ def test_scope00201m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8214,6 +8698,7 @@ def test_scope00101m_scope00101m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8230,6 +8715,7 @@ def test_nillable00401m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8246,6 +8732,7 @@ def test_nillable00401m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8263,6 +8750,7 @@ def test_nillable00302m_nillable00302m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8281,6 +8769,7 @@ def test_nillable00302m_nillable00302m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8297,6 +8786,7 @@ def test_nillable00301m_nillable00301m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8314,6 +8804,7 @@ def test_nillable00301m_nillable00301m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8330,6 +8821,7 @@ def test_nillable00201m_nillable00201m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8346,6 +8838,7 @@ def test_nillable00201m_nillable00201m2_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8361,6 +8854,7 @@ def test_nillable00201m_nillable00201m3_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8376,6 +8870,7 @@ def test_nillable00102m_nillable00102m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8392,6 +8887,7 @@ def test_nillable00102m_nillable00102m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8408,6 +8904,7 @@ def test_nillable00101m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8423,6 +8920,7 @@ def test_nillable00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8440,6 +8938,7 @@ def test_name00805_name00805_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8462,6 +8961,7 @@ def test_name00804_name00804_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8479,6 +8979,7 @@ def test_name00803_name00803_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8500,6 +9001,7 @@ def test_name00802_name00802_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8521,6 +9023,7 @@ def test_name00801_name00801_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8537,6 +9040,7 @@ def test_name00601m_name00601m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8554,6 +9058,7 @@ def test_name00601m_name00601m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8569,6 +9074,7 @@ def test_name00505m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8584,6 +9090,7 @@ def test_name00504m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8599,6 +9106,7 @@ def test_name00504m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8614,6 +9122,7 @@ def test_name00503m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8630,6 +9139,7 @@ def test_name00502m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8645,6 +9155,7 @@ def test_name00501m9_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8660,6 +9171,7 @@ def test_name00501m7_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8675,6 +9187,7 @@ def test_name00501m5_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8691,6 +9204,7 @@ def test_name00501m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8706,6 +9220,7 @@ def test_name00501m15_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8721,6 +9236,7 @@ def test_name00501m14_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8736,6 +9252,7 @@ def test_name00501m13_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8751,6 +9268,7 @@ def test_name00501m11_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8767,6 +9285,7 @@ def test_name00501m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8782,6 +9301,7 @@ def test_name00401m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8797,6 +9317,7 @@ def test_name00401m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8812,6 +9333,7 @@ def test_name00301m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8828,6 +9350,7 @@ def test_name00201m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8844,6 +9367,7 @@ def test_name00201m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8860,6 +9384,7 @@ def test_name00101m_name00101m1_p_528(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8877,6 +9402,7 @@ def test_name00101m_name00101m1_n_529(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8894,6 +9420,7 @@ def test_minoccurs00201m_min_occurs00201m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8912,6 +9439,7 @@ def test_minoccurs00201m_min_occurs00201m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8928,6 +9456,7 @@ def test_minoccurs00101m_min_occurs00101m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8945,6 +9474,7 @@ def test_minoccurs00101m_min_occurs00101m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8962,6 +9492,7 @@ def test_maxoccurs00201m_max_occurs00201m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8980,6 +9511,7 @@ def test_maxoccurs00201m_max_occurs00201m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8996,6 +9528,7 @@ def test_maxoccurs00101m_max_occurs00101m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9013,6 +9546,7 @@ def test_maxoccurs00101m_max_occurs00101m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9029,6 +9563,7 @@ def test_idconstrdefs00501m_id_constr_defs00501m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9046,6 +9581,7 @@ def test_idconstrdefs00501m_id_constr_defs00501m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9064,6 +9600,7 @@ def test_idconstrdefs00403m_id_constr_defs00403m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9083,6 +9620,7 @@ def test_idconstrdefs00403m_id_constr_defs00403m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9101,6 +9639,7 @@ def test_idconstrdefs00402m_id_constr_defs00402m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9120,6 +9659,7 @@ def test_idconstrdefs00402m_id_constr_defs00402m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9138,6 +9678,7 @@ def test_idconstrdefs00401m_id_constr_defs00401m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9153,6 +9694,7 @@ def test_idconstrdefs00302m_id_constr_defs00302m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9169,6 +9711,7 @@ def test_idconstrdefs00302m_id_constr_defs00302m2_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9185,6 +9728,7 @@ def test_idconstrdefs00302m_id_constr_defs00302m3_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9201,6 +9745,7 @@ def test_idconstrdefs00302m_id_constr_defs00302m4_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9216,6 +9761,7 @@ def test_idconstrdefs00301m_id_constr_defs00301m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9231,6 +9777,7 @@ def test_idconstrdefs00301m_id_constr_defs00301m2_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9247,6 +9794,7 @@ def test_idconstrdefs00301m_id_constr_defs00301m3_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9263,6 +9811,7 @@ def test_idconstrdefs00301m_id_constr_defs00301m4_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9279,6 +9828,7 @@ def test_idconstrdefs00204m_id_constr_defs00204m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9296,6 +9846,7 @@ def test_idconstrdefs00204m_id_constr_defs00204m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9312,6 +9863,7 @@ def test_idconstrdefs00203m_id_constr_defs00203m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9329,6 +9881,7 @@ def test_idconstrdefs00203m_id_constr_defs00203m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9345,6 +9898,7 @@ def test_idconstrdefs00202m_id_constr_defs00202m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9362,6 +9916,7 @@ def test_idconstrdefs00202m_id_constr_defs00202m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9378,6 +9933,7 @@ def test_idconstrdefs00201m_id_constr_defs00201m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9395,6 +9951,7 @@ def test_idconstrdefs00201m_id_constr_defs00201m2_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9412,6 +9969,7 @@ def test_idconstrdefs00201m_id_constr_defs00201m3_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9429,6 +9987,7 @@ def test_idconstrdefs00201m_id_constr_defs00201m4_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9444,6 +10003,7 @@ def test_idconstrdefs00101m_id_constr_defs00101m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9460,6 +10020,7 @@ def test_idconstrdefs00101m_id_constr_defs00101m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9479,6 +10040,7 @@ def test_disallowedsubst00503m5_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9499,6 +10061,7 @@ def test_disallowedsubst00503m4_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9519,6 +10082,7 @@ def test_disallowedsubst00503m3_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9537,6 +10101,7 @@ def test_disallowedsubst00503m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9555,6 +10120,7 @@ def test_disallowedsubst00503m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9574,6 +10140,7 @@ def test_disallowedsubst00502m4_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9593,6 +10160,7 @@ def test_disallowedsubst00502m3_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9611,6 +10179,7 @@ def test_disallowedsubst00502m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9629,6 +10198,7 @@ def test_disallowedsubst00502m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9648,6 +10218,7 @@ def test_disallowedsubst00501m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9665,6 +10236,7 @@ def test_disallowedsubst00501m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9683,6 +10255,7 @@ def test_disallowedsubst00401m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9700,6 +10273,7 @@ def test_disallowedsubst00401m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9718,6 +10292,7 @@ def test_disallowedsubst00301m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9735,6 +10310,7 @@ def test_disallowedsubst00301m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9750,6 +10326,7 @@ def test_disallowedsubst00202m12_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9769,6 +10346,7 @@ def test_disallowedsubst00106m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9787,6 +10365,7 @@ def test_disallowedsubst00106m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9804,6 +10383,7 @@ def test_disallowedsubst00105m_disallowed_subst00105m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9822,6 +10402,7 @@ def test_disallowedsubst00105m_disallowed_subst00105m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9840,6 +10421,7 @@ def test_disallowedsubst00102m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9857,6 +10439,7 @@ def test_disallowedsubst00102m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9874,6 +10457,7 @@ def test_disallowedsubst00101m_disallowed_subst00101m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9892,6 +10476,7 @@ def test_disallowedsubst00101m_disallowed_subst00101m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9909,6 +10494,7 @@ def test_annotation00101m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9926,6 +10512,7 @@ def test_annotation00101m1_positive_590(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9942,6 +10529,7 @@ def test_abstract00201m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9958,6 +10546,7 @@ def test_abstract00201m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9975,6 +10564,7 @@ def test_abstract00201m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9993,6 +10583,7 @@ def test_abstract00101m_abstract00101m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10012,6 +10603,7 @@ def test_abstract00101m_abstract00101m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10031,6 +10623,7 @@ def test_targetns00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10047,6 +10640,7 @@ def test_name00201m1_positive_597(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10064,6 +10658,7 @@ def test_name00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10085,6 +10680,7 @@ def test_fields00203m5_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10105,6 +10701,7 @@ def test_fields00203m4_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10126,6 +10723,7 @@ def test_fields00203m3_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10147,6 +10745,7 @@ def test_fields00203m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10167,6 +10766,7 @@ def test_fields00203m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10189,6 +10789,7 @@ def test_fields00202m5_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10210,6 +10811,7 @@ def test_fields00202m4_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10231,6 +10833,7 @@ def test_fields00202m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10252,6 +10855,7 @@ def test_fields00202m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10273,6 +10877,7 @@ def test_fields00202m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10294,6 +10899,7 @@ def test_fields00201m5_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10314,6 +10920,7 @@ def test_fields00201m4_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10335,6 +10942,7 @@ def test_fields00201m3_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10356,6 +10964,7 @@ def test_fields00201m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10376,6 +10985,7 @@ def test_fields00201m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10391,6 +11001,7 @@ def test_fields00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10408,6 +11019,7 @@ def test_annotation00101m4_positive_615(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10425,6 +11037,7 @@ def test_annotation00101m1_positive_616(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10440,6 +11053,7 @@ def test_particles00305m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10456,6 +11070,7 @@ def test_particles00305m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10471,6 +11086,7 @@ def test_particles00304m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10487,6 +11103,7 @@ def test_particles00304m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10502,6 +11119,7 @@ def test_particles00303m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10518,6 +11136,7 @@ def test_particles00303m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10533,6 +11152,7 @@ def test_particles00302m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10549,6 +11169,7 @@ def test_particles00302m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10564,6 +11185,7 @@ def test_particles00301m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10580,6 +11202,7 @@ def test_particles00301m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10595,6 +11218,7 @@ def test_particles00205m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10611,6 +11235,7 @@ def test_particles00205m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10626,6 +11251,7 @@ def test_particles00204m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10642,6 +11268,7 @@ def test_particles00204m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10657,6 +11284,7 @@ def test_particles00203m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10673,6 +11301,7 @@ def test_particles00203m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10688,6 +11317,7 @@ def test_particles00202m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10704,6 +11334,7 @@ def test_particles00202m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10719,6 +11350,7 @@ def test_particles00201m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10735,6 +11367,7 @@ def test_particles00201m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10750,6 +11383,7 @@ def test_particles00101m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10766,6 +11400,7 @@ def test_particles00101m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10781,6 +11416,7 @@ def test_particles00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10797,6 +11433,7 @@ def test_particles00101m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10812,6 +11449,7 @@ def test_compositor00203m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10827,6 +11465,7 @@ def test_compositor00202m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10842,6 +11481,7 @@ def test_compositor00201m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10857,6 +11497,7 @@ def test_compositor00103m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10873,6 +11514,7 @@ def test_compositor00103m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10888,6 +11530,7 @@ def test_compositor00102m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10904,6 +11547,7 @@ def test_compositor00102m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10920,6 +11564,7 @@ def test_compositor00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10937,6 +11582,7 @@ def test_compositor00101m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10954,6 +11600,7 @@ def test_annotation00101m7_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10971,6 +11618,7 @@ def test_annotation00101m4_positive_651(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10989,6 +11637,7 @@ def test_annotation00101m16_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11007,6 +11656,7 @@ def test_annotation00101m13_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11025,6 +11675,7 @@ def test_annotation00101m10_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11042,6 +11693,7 @@ def test_annotation00101m1_positive_655(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11059,6 +11711,7 @@ def test_targetns00101m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11077,6 +11730,7 @@ def test_targetns00101m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11094,6 +11748,7 @@ def test_targetns00101m1_positive_658(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11112,6 +11767,7 @@ def test_targetns00101m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11128,6 +11784,7 @@ def test_name00101m1_positive_660(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11145,6 +11802,7 @@ def test_name00101m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11161,6 +11819,7 @@ def test_modelgroup00101m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11178,6 +11837,7 @@ def test_modelgroup00101m3_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11194,6 +11854,7 @@ def test_modelgroup00101m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11211,6 +11872,7 @@ def test_modelgroup00101m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11227,6 +11889,7 @@ def test_modelgroup00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11244,6 +11907,7 @@ def test_modelgroup00101m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11261,6 +11925,7 @@ def test_annotation00101m4_positive_668(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11278,6 +11943,7 @@ def test_annotation00101m1_positive_669(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11294,6 +11960,7 @@ def test_targetns00101m2_positive_670(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11310,6 +11977,7 @@ def test_targetns00101m1_positive_671(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11325,6 +11993,7 @@ def test_systemid00201m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11341,6 +12010,7 @@ def test_systemid00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11357,6 +12027,7 @@ def test_publicid00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11374,6 +12045,7 @@ def test_name00101m1_positive_675(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11391,6 +12063,7 @@ def test_annotation00101m3_positive_676(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11408,6 +12081,7 @@ def test_annotation00101m1_positive_677(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11429,6 +12103,7 @@ def test_st_variety00101m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11451,6 +12126,7 @@ def test_st_variety00101m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11472,6 +12148,7 @@ def test_st_variety00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11494,6 +12171,7 @@ def test_st_variety00101m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11509,6 +12187,7 @@ def test_st_targetns00201m_st_target_ns00201m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11525,6 +12204,7 @@ def test_st_targetns00101m_st_target_ns00101m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11542,6 +12222,7 @@ def test_st_targetns00101m_st_target_ns00101m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11558,6 +12239,7 @@ def test_st_targetns00101m_st_target_ns00101m2_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11575,6 +12257,7 @@ def test_st_targetns00101m_st_target_ns00101m2_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11590,6 +12273,7 @@ def test_st_name00401m_st_name00401m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11606,6 +12290,7 @@ def test_st_name00101m_st_name00101m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11623,6 +12308,7 @@ def test_st_name00101m_st_name00101m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11638,6 +12324,7 @@ def test_st_final00103m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11654,6 +12341,7 @@ def test_st_final00103m3_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11669,6 +12357,7 @@ def test_st_final00103m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11685,6 +12374,7 @@ def test_st_final00103m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11700,6 +12390,7 @@ def test_st_final00102m6_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11716,6 +12407,7 @@ def test_st_final00102m6_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11731,6 +12423,7 @@ def test_st_final00102m5_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11747,6 +12440,7 @@ def test_st_final00102m5_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11762,6 +12456,7 @@ def test_st_final00102m4_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11778,6 +12473,7 @@ def test_st_final00102m4_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11793,6 +12489,7 @@ def test_st_final00102m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11809,6 +12506,7 @@ def test_st_final00102m3_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11824,6 +12522,7 @@ def test_st_final00102m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11840,6 +12539,7 @@ def test_st_final00102m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11855,6 +12555,7 @@ def test_st_final00101m6_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11871,6 +12572,7 @@ def test_st_final00101m6_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11886,6 +12588,7 @@ def test_st_final00101m5_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11902,6 +12605,7 @@ def test_st_final00101m5_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11917,6 +12621,7 @@ def test_st_final00101m4_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11933,6 +12638,7 @@ def test_st_final00101m4_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11948,6 +12654,7 @@ def test_st_final00101m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11964,6 +12671,7 @@ def test_st_final00101m3_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11979,6 +12687,7 @@ def test_st_final00101m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11995,6 +12704,7 @@ def test_st_final00101m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12013,6 +12723,7 @@ def test_st_facets00608_st_facets00608_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12030,6 +12741,7 @@ def test_st_facets00605_st_facets00605_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12053,6 +12765,7 @@ def test_st_facets00604_st_facets00604_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12070,6 +12783,7 @@ def test_st_facets00603_st_facets00603_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12088,6 +12802,7 @@ def test_st_facets00602_st_facets00602_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12108,6 +12823,7 @@ def test_st_facets00601_st_facets00601_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12126,6 +12842,7 @@ def test_st_facets00506m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12146,6 +12863,7 @@ def test_st_facets00506m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12168,6 +12886,7 @@ def test_st_facets00505m9_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12190,6 +12909,7 @@ def test_st_facets00505m8_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12214,6 +12934,7 @@ def test_st_facets00505m7_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12238,6 +12959,7 @@ def test_st_facets00505m6_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12261,6 +12983,7 @@ def test_st_facets00505m5_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12283,6 +13006,7 @@ def test_st_facets00505m4_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12305,6 +13029,7 @@ def test_st_facets00505m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12328,6 +13053,7 @@ def test_st_facets00505m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12347,6 +13073,7 @@ def test_st_facets00505m10_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12370,6 +13097,7 @@ def test_st_facets00505m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12390,6 +13118,7 @@ def test_st_facets00504m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12414,6 +13143,7 @@ def test_st_facets00504m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12431,6 +13161,7 @@ def test_st_facets00503m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12449,6 +13180,7 @@ def test_st_facets00502m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12472,6 +13204,7 @@ def test_st_facets00501m9_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12495,6 +13228,7 @@ def test_st_facets00501m8_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12519,6 +13253,7 @@ def test_st_facets00501m7_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12542,6 +13277,7 @@ def test_st_facets00501m6_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12566,6 +13302,7 @@ def test_st_facets00501m5_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12590,6 +13327,7 @@ def test_st_facets00501m4_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12613,6 +13351,7 @@ def test_st_facets00501m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12635,6 +13374,7 @@ def test_st_facets00501m21_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12658,6 +13398,7 @@ def test_st_facets00501m20_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12682,6 +13423,7 @@ def test_st_facets00501m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12704,6 +13446,7 @@ def test_st_facets00501m19_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12725,6 +13468,7 @@ def test_st_facets00501m18_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12746,6 +13490,7 @@ def test_st_facets00501m17_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12767,6 +13512,7 @@ def test_st_facets00501m16_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12789,6 +13535,7 @@ def test_st_facets00501m15_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12811,6 +13558,7 @@ def test_st_facets00501m14_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12834,6 +13582,7 @@ def test_st_facets00501m13_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12858,6 +13607,7 @@ def test_st_facets00501m12_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12882,6 +13632,7 @@ def test_st_facets00501m11_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12906,6 +13657,7 @@ def test_st_facets00501m10_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12930,6 +13682,7 @@ def test_st_facets00501m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12947,6 +13700,7 @@ def test_st_facets00403m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12965,6 +13719,7 @@ def test_st_facets00402m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12988,6 +13743,7 @@ def test_st_facets00401m9_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13011,6 +13767,7 @@ def test_st_facets00401m8_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13035,6 +13792,7 @@ def test_st_facets00401m7_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13058,6 +13816,7 @@ def test_st_facets00401m6_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13082,6 +13841,7 @@ def test_st_facets00401m5_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13106,6 +13866,7 @@ def test_st_facets00401m4_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13129,6 +13890,7 @@ def test_st_facets00401m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13151,6 +13913,7 @@ def test_st_facets00401m21_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13174,6 +13937,7 @@ def test_st_facets00401m20_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13198,6 +13962,7 @@ def test_st_facets00401m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13220,6 +13985,7 @@ def test_st_facets00401m19_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13241,6 +14007,7 @@ def test_st_facets00401m18_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13262,6 +14029,7 @@ def test_st_facets00401m17_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13283,6 +14051,7 @@ def test_st_facets00401m16_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13305,6 +14074,7 @@ def test_st_facets00401m15_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13327,6 +14097,7 @@ def test_st_facets00401m14_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13350,6 +14121,7 @@ def test_st_facets00401m13_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13374,6 +14146,7 @@ def test_st_facets00401m12_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13398,6 +14171,7 @@ def test_st_facets00401m11_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13422,6 +14196,7 @@ def test_st_facets00401m10_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13446,6 +14221,7 @@ def test_st_facets00401m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13462,6 +14238,7 @@ def test_st_facets00301m_st_facets00301m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13479,6 +14256,7 @@ def test_st_facets00301m_st_facets00301m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13495,6 +14273,7 @@ def test_st_facets00201m9_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13512,6 +14291,7 @@ def test_st_facets00201m9_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13528,6 +14308,7 @@ def test_st_facets00201m8_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13545,6 +14326,7 @@ def test_st_facets00201m8_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13561,6 +14343,7 @@ def test_st_facets00201m7_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13578,6 +14361,7 @@ def test_st_facets00201m7_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13594,6 +14378,7 @@ def test_st_facets00201m6_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13611,6 +14396,7 @@ def test_st_facets00201m6_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13627,6 +14413,7 @@ def test_st_facets00201m5_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13644,6 +14431,7 @@ def test_st_facets00201m5_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13660,6 +14448,7 @@ def test_st_facets00201m4_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13677,6 +14466,7 @@ def test_st_facets00201m4_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13693,6 +14483,7 @@ def test_st_facets00201m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13710,6 +14501,7 @@ def test_st_facets00201m3_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13726,6 +14518,7 @@ def test_st_facets00201m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13743,6 +14536,7 @@ def test_st_facets00201m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13759,6 +14553,7 @@ def test_st_facets00201m16_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13776,6 +14571,7 @@ def test_st_facets00201m16_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13792,6 +14588,7 @@ def test_st_facets00201m15_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13809,6 +14606,7 @@ def test_st_facets00201m15_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13825,6 +14623,7 @@ def test_st_facets00201m14_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13842,6 +14641,7 @@ def test_st_facets00201m14_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13858,6 +14658,7 @@ def test_st_facets00201m13_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13875,6 +14676,7 @@ def test_st_facets00201m13_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13891,6 +14693,7 @@ def test_st_facets00201m12_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13908,6 +14711,7 @@ def test_st_facets00201m12_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13924,6 +14728,7 @@ def test_st_facets00201m11_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13941,6 +14746,7 @@ def test_st_facets00201m11_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13957,6 +14763,7 @@ def test_st_facets00201m10_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13974,6 +14781,7 @@ def test_st_facets00201m10_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13990,6 +14798,7 @@ def test_st_facets00201m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14007,6 +14816,7 @@ def test_st_facets00201m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14023,6 +14833,7 @@ def test_st_facets00124m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14040,6 +14851,7 @@ def test_st_facets00124m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14055,6 +14867,7 @@ def test_st_facets00123m_st_facets00123m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14071,6 +14884,7 @@ def test_st_facets00123m_st_facets00123m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14086,6 +14900,7 @@ def test_st_facets00122m_st_facets00122m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14102,6 +14917,7 @@ def test_st_facets00122m_st_facets00122m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14117,6 +14933,7 @@ def test_st_facets00121m_st_facets00121m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14133,6 +14950,7 @@ def test_st_facets00121m_st_facets00121m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14148,6 +14966,7 @@ def test_st_facets00120m_st_facets00120m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14164,6 +14983,7 @@ def test_st_facets00120m_st_facets00120m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14179,6 +14999,7 @@ def test_st_facets00119m_st_facets00119m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14195,6 +15016,7 @@ def test_st_facets00119m_st_facets00119m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14210,6 +15032,7 @@ def test_st_facets00118m_st_facets00118m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14226,6 +15049,7 @@ def test_st_facets00118m_st_facets00118m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14241,6 +15065,7 @@ def test_st_facets00117m_st_facets00117m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14257,6 +15082,7 @@ def test_st_facets00117m_st_facets00117m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14272,6 +15098,7 @@ def test_st_facets00116m_st_facets00116m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14288,6 +15115,7 @@ def test_st_facets00116m_st_facets00116m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14303,6 +15131,7 @@ def test_st_facets00115m_st_facets00115m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14319,6 +15148,7 @@ def test_st_facets00115m_st_facets00115m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14334,6 +15164,7 @@ def test_st_facets00114m_st_facets00114m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14350,6 +15181,7 @@ def test_st_facets00114m_st_facets00114m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14365,6 +15197,7 @@ def test_st_facets00113m_st_facets00113m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14381,6 +15214,7 @@ def test_st_facets00113m_st_facets00113m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14396,6 +15230,7 @@ def test_st_facets00112m_st_facets00112m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14412,6 +15247,7 @@ def test_st_facets00112m_st_facets00112m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14427,6 +15263,7 @@ def test_st_facets00111m_st_facets00111m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14443,6 +15280,7 @@ def test_st_facets00111m_st_facets00111m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14458,6 +15296,7 @@ def test_st_facets00110m_st_facets00110m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14474,6 +15313,7 @@ def test_st_facets00110m_st_facets00110m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14489,6 +15329,7 @@ def test_st_facets00109m_st_facets00109m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14505,6 +15346,7 @@ def test_st_facets00109m_st_facets00109m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14520,6 +15362,7 @@ def test_st_facets00108m_st_facets00108m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14536,6 +15379,7 @@ def test_st_facets00108m_st_facets00108m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14551,6 +15395,7 @@ def test_st_facets00107m_st_facets00107m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14567,6 +15412,7 @@ def test_st_facets00107m_st_facets00107m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14582,6 +15428,7 @@ def test_st_facets00106m_st_facets00106m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14598,6 +15445,7 @@ def test_st_facets00106m_st_facets00106m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14613,6 +15461,7 @@ def test_st_facets00105m_st_facets00105m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14629,6 +15478,7 @@ def test_st_facets00105m_st_facets00105m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14644,6 +15494,7 @@ def test_st_facets00104m_st_facets00104m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14660,6 +15511,7 @@ def test_st_facets00104m_st_facets00104m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14675,6 +15527,7 @@ def test_st_facets00103m_st_facets00103m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14691,6 +15544,7 @@ def test_st_facets00103m_st_facets00103m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14706,6 +15560,7 @@ def test_st_facets00102m_st_facets00102m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14722,6 +15577,7 @@ def test_st_facets00102m_st_facets00102m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14737,6 +15593,7 @@ def test_st_facets00101m_st_facets00101m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14753,6 +15610,7 @@ def test_st_facets00101m_st_facets00101m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14768,6 +15626,7 @@ def test_st_facets00101m_st_facets00101m2_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14783,6 +15642,7 @@ def test_st_facets00101m_st_facets00101m3_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14798,6 +15658,7 @@ def test_st_basetd00302m_st_base_td00302m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14814,6 +15675,7 @@ def test_st_basetd00302m_st_base_td00302m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14829,6 +15691,7 @@ def test_st_basetd00302m_st_base_td00302m2_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14845,6 +15708,7 @@ def test_st_basetd00302m_st_base_td00302m2_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14861,6 +15725,7 @@ def test_st_basetd00302m_st_base_td00302m3_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14876,6 +15741,7 @@ def test_st_basetd00301m_st_base_td00301m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14892,6 +15758,7 @@ def test_st_basetd00301m_st_base_td00301m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14909,6 +15776,7 @@ def test_st_basetd00201m_st_base_td00201m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14927,6 +15795,7 @@ def test_st_basetd00201m_st_base_td00201m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14944,6 +15813,7 @@ def test_st_basetd00101m_st_base_td00101m1_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14962,6 +15832,7 @@ def test_st_basetd00101m_st_base_td00101m1_n(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14979,6 +15850,7 @@ def test_st_basetd00101m_st_base_td00101m2_p(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14994,6 +15866,7 @@ def test_st_annotation00101m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15009,6 +15882,7 @@ def test_st_annotation00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15027,6 +15901,7 @@ def test_annotations00101m6_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15045,6 +15920,7 @@ def test_annotations00101m5_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15062,6 +15938,7 @@ def test_annotations00101m4_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15080,6 +15957,7 @@ def test_annotations00101m3_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15097,6 +15975,7 @@ def test_annotations00101m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15114,6 +15993,7 @@ def test_annotations00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15134,6 +16014,7 @@ def test_pscontents00302m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15155,6 +16036,7 @@ def test_pscontents00302m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15175,6 +16057,7 @@ def test_pscontents00302m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15196,6 +16079,7 @@ def test_pscontents00302m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15216,6 +16100,7 @@ def test_pscontents00301m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15237,6 +16122,7 @@ def test_pscontents00301m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15257,6 +16143,7 @@ def test_pscontents00301m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15278,6 +16165,7 @@ def test_pscontents00301m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15295,6 +16183,7 @@ def test_pscontents00202m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15312,6 +16201,7 @@ def test_pscontents00201m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15330,6 +16220,7 @@ def test_pscontents00201m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15349,6 +16240,7 @@ def test_pscontents00102m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15367,6 +16259,7 @@ def test_pscontents00102m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15386,6 +16279,7 @@ def test_pscontents00102m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15405,6 +16299,7 @@ def test_pscontents00101m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15423,6 +16318,7 @@ def test_pscontents00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15442,6 +16338,7 @@ def test_pscontents00101m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15460,6 +16357,7 @@ def test_nsconstraint00302m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15479,6 +16377,7 @@ def test_nsconstraint00302m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15497,6 +16396,7 @@ def test_nsconstraint00301m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15516,6 +16416,7 @@ def test_nsconstraint00301m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15533,6 +16434,7 @@ def test_nsconstraint00202m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15551,6 +16453,7 @@ def test_nsconstraint00202m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15568,6 +16471,7 @@ def test_nsconstraint00201m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15586,6 +16490,7 @@ def test_nsconstraint00201m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15602,6 +16507,7 @@ def test_nsconstraint00102m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15618,6 +16524,7 @@ def test_nsconstraint00102m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15634,6 +16541,7 @@ def test_nsconstraint00101m2_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15651,6 +16559,7 @@ def test_nsconstraint00101m2_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15667,6 +16576,7 @@ def test_nsconstraint00101m1_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15684,6 +16594,7 @@ def test_nsconstraint00101m1_negative(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15701,6 +16612,7 @@ def test_annotation00101m7_positive_915(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15718,6 +16630,7 @@ def test_annotation00101m5_positive(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15736,6 +16649,7 @@ def test_annotation00101m3_positive_917(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15754,4 +16668,5 @@ def test_annotation00101m1_positive_918(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )

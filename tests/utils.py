@@ -38,7 +38,7 @@ def assert_bindings(
     version: str,
     mode: str,
     save_output: bool,
-    ns_struct: bool = False,
+    structure_style: str,
 ):
     __tracebackhide__ = True
 
@@ -47,13 +47,15 @@ def assert_bindings(
         pck_arr = list(map(text.snake_case, instance_path.parts))
         package = f"output.xml_models.{'.'.join(pck_arr)}"
         instance_path = w3c.joinpath(instance_path)
-        clazz = generate_models(str(instance_path), package, class_name, False)
+        clazz = generate_models(
+            str(instance_path), package, class_name, structure_style
+        )
     else:
         schema_path = Path(schema)
         pck_arr = list(map(text.snake_case, schema_path.parts))
         package = f"output.models.{'.'.join(pck_arr)}"
         schema_path = w3c.joinpath(schema)
-        clazz = generate_models(str(schema_path), package, class_name, ns_struct)
+        clazz = generate_models(str(schema_path), package, class_name, structure_style)
 
     if mode == "build":
         return
@@ -147,13 +149,9 @@ def assert_valid(validator, tree):
 
 
 @functools.lru_cache(maxsize=5)
-def generate_models(xsd: str, package: str, class_name: str, ns_struct: bool):
+def generate_models(xsd: str, package: str, class_name: str, structure_style: str):
     runner = CliRunner()
-    args = [xsd, "--package", package, "--compound-fields"]
-    if ns_struct:
-        args.append("--ns-struct")
-
-    result = runner.invoke(cli, args)
+    result = runner.invoke(cli, [xsd, "-ss", structure_style, "-p", package, "-cf"])
 
     if result.exception:
         return result.exception

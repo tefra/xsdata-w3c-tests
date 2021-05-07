@@ -1,6 +1,5 @@
 from dataclasses import dataclass, field
 from typing import List, Optional, Type
-from output.models.ms_data.additional.test66745_a_xsd.test66745_a import Foo1
 
 __NAMESPACE__ = "foo"
 
@@ -17,6 +16,20 @@ class Foo:
             "type": "Wildcard",
             "namespace": "##any",
             "required": True,
+        }
+    )
+
+
+@dataclass
+class Foo1(Foo):
+    class Meta:
+        name = "foo1"
+        namespace = "foo1"
+
+    x: Optional[int] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
         }
     )
 

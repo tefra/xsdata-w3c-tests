@@ -15,6 +15,7 @@ def test_atomic_positive_integer_enumeration_7_nistxml_sv_ii_atomic_positive_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -30,6 +31,7 @@ def test_atomic_positive_integer_enumeration_7_nistxml_sv_ii_atomic_positive_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -45,6 +47,7 @@ def test_atomic_positive_integer_enumeration_7_nistxml_sv_ii_atomic_positive_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -60,6 +63,7 @@ def test_atomic_positive_integer_enumeration_7_nistxml_sv_ii_atomic_positive_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -75,6 +79,7 @@ def test_atomic_positive_integer_enumeration_6_nistxml_sv_ii_atomic_positive_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -90,6 +95,7 @@ def test_atomic_positive_integer_enumeration_6_nistxml_sv_ii_atomic_positive_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -105,6 +111,7 @@ def test_atomic_positive_integer_enumeration_6_nistxml_sv_ii_atomic_positive_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -120,6 +127,7 @@ def test_atomic_positive_integer_enumeration_6_nistxml_sv_ii_atomic_positive_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -135,6 +143,7 @@ def test_atomic_positive_integer_enumeration_6_nistxml_sv_ii_atomic_positive_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -150,6 +159,7 @@ def test_atomic_positive_integer_enumeration_5_nistxml_sv_ii_atomic_positive_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -165,6 +175,7 @@ def test_atomic_positive_integer_enumeration_5_nistxml_sv_ii_atomic_positive_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -180,6 +191,7 @@ def test_atomic_positive_integer_enumeration_5_nistxml_sv_ii_atomic_positive_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -195,6 +207,7 @@ def test_atomic_positive_integer_enumeration_5_nistxml_sv_ii_atomic_positive_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -210,6 +223,7 @@ def test_atomic_positive_integer_enumeration_5_nistxml_sv_ii_atomic_positive_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -226,6 +240,7 @@ def test_atomic_positive_integer_pattern_9_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -242,6 +257,7 @@ def test_atomic_positive_integer_pattern_9_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -258,6 +274,7 @@ def test_atomic_positive_integer_pattern_9_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -274,6 +291,7 @@ def test_atomic_positive_integer_pattern_9_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -290,6 +308,7 @@ def test_atomic_positive_integer_pattern_9_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -306,6 +325,7 @@ def test_atomic_positive_integer_pattern_8_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -322,6 +342,7 @@ def test_atomic_positive_integer_pattern_8_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -338,6 +359,7 @@ def test_atomic_positive_integer_pattern_8_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -354,6 +376,7 @@ def test_atomic_positive_integer_pattern_8_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -370,6 +393,7 @@ def test_atomic_positive_integer_pattern_8_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -386,6 +410,7 @@ def test_atomic_positive_integer_pattern_7_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -402,6 +427,7 @@ def test_atomic_positive_integer_pattern_7_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -418,6 +444,7 @@ def test_atomic_positive_integer_pattern_7_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -434,6 +461,7 @@ def test_atomic_positive_integer_pattern_7_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -450,6 +478,7 @@ def test_atomic_positive_integer_pattern_7_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -466,6 +495,7 @@ def test_atomic_positive_integer_pattern_6_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -482,6 +512,7 @@ def test_atomic_positive_integer_pattern_6_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -498,6 +529,7 @@ def test_atomic_positive_integer_pattern_6_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -514,6 +546,7 @@ def test_atomic_positive_integer_pattern_6_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -530,6 +563,7 @@ def test_atomic_positive_integer_pattern_6_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -546,6 +580,7 @@ def test_atomic_positive_integer_pattern_5_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -562,6 +597,7 @@ def test_atomic_positive_integer_pattern_5_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -578,6 +614,7 @@ def test_atomic_positive_integer_pattern_5_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -594,6 +631,7 @@ def test_atomic_positive_integer_pattern_5_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -610,6 +648,7 @@ def test_atomic_positive_integer_pattern_5_nistxml_sv_ii_atomic_positive_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -626,6 +665,7 @@ def test_atomic_positive_integer_max_exclusive_9_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -642,6 +682,7 @@ def test_atomic_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -658,6 +699,7 @@ def test_atomic_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -674,6 +716,7 @@ def test_atomic_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -690,6 +733,7 @@ def test_atomic_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -706,6 +750,7 @@ def test_atomic_positive_integer_max_exclusive_8_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -722,6 +767,7 @@ def test_atomic_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -738,6 +784,7 @@ def test_atomic_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -754,6 +801,7 @@ def test_atomic_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -770,6 +818,7 @@ def test_atomic_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -786,6 +835,7 @@ def test_atomic_positive_integer_max_exclusive_7_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -802,6 +852,7 @@ def test_atomic_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -818,6 +869,7 @@ def test_atomic_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -834,6 +886,7 @@ def test_atomic_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -850,6 +903,7 @@ def test_atomic_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -866,6 +920,7 @@ def test_atomic_positive_integer_max_exclusive_6_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -882,6 +937,7 @@ def test_atomic_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -898,6 +954,7 @@ def test_atomic_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -914,6 +971,7 @@ def test_atomic_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -930,6 +988,7 @@ def test_atomic_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -946,6 +1005,7 @@ def test_atomic_positive_integer_max_exclusive_5_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -962,6 +1022,7 @@ def test_atomic_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -978,6 +1039,7 @@ def test_atomic_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -994,6 +1056,7 @@ def test_atomic_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1010,6 +1073,7 @@ def test_atomic_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1026,6 +1090,7 @@ def test_atomic_positive_integer_min_exclusive_9_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1042,6 +1107,7 @@ def test_atomic_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1058,6 +1124,7 @@ def test_atomic_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1074,6 +1141,7 @@ def test_atomic_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1090,6 +1158,7 @@ def test_atomic_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1106,6 +1175,7 @@ def test_atomic_positive_integer_min_exclusive_8_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1122,6 +1192,7 @@ def test_atomic_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1138,6 +1209,7 @@ def test_atomic_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1154,6 +1226,7 @@ def test_atomic_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1170,6 +1243,7 @@ def test_atomic_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1186,6 +1260,7 @@ def test_atomic_positive_integer_min_exclusive_7_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1202,6 +1277,7 @@ def test_atomic_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1218,6 +1294,7 @@ def test_atomic_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1234,6 +1311,7 @@ def test_atomic_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1250,6 +1328,7 @@ def test_atomic_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1266,6 +1345,7 @@ def test_atomic_positive_integer_min_exclusive_6_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1282,6 +1362,7 @@ def test_atomic_positive_integer_min_exclusive_5_nistxml_sv_ii_atomic_positive_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1297,6 +1378,7 @@ def test_atomic_unsigned_byte_enumeration_9_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1312,6 +1394,7 @@ def test_atomic_unsigned_byte_enumeration_9_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1327,6 +1410,7 @@ def test_atomic_unsigned_byte_enumeration_9_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1342,6 +1426,7 @@ def test_atomic_unsigned_byte_enumeration_9_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1357,6 +1442,7 @@ def test_atomic_unsigned_byte_enumeration_9_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1372,6 +1458,7 @@ def test_atomic_unsigned_byte_enumeration_8_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1387,6 +1474,7 @@ def test_atomic_unsigned_byte_enumeration_8_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1402,6 +1490,7 @@ def test_atomic_unsigned_byte_enumeration_8_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1417,6 +1506,7 @@ def test_atomic_unsigned_byte_enumeration_8_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1432,6 +1522,7 @@ def test_atomic_unsigned_byte_enumeration_8_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1447,6 +1538,7 @@ def test_atomic_unsigned_byte_enumeration_7_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1462,6 +1554,7 @@ def test_atomic_unsigned_byte_enumeration_7_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1477,6 +1570,7 @@ def test_atomic_unsigned_byte_enumeration_7_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1492,6 +1586,7 @@ def test_atomic_unsigned_byte_enumeration_7_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1507,6 +1602,7 @@ def test_atomic_unsigned_byte_enumeration_7_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1522,6 +1618,7 @@ def test_atomic_unsigned_byte_enumeration_6_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1537,6 +1634,7 @@ def test_atomic_unsigned_byte_enumeration_6_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1552,6 +1650,7 @@ def test_atomic_unsigned_byte_enumeration_6_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1567,6 +1666,7 @@ def test_atomic_unsigned_byte_enumeration_6_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1582,6 +1682,7 @@ def test_atomic_unsigned_byte_enumeration_6_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1597,6 +1698,7 @@ def test_atomic_unsigned_byte_enumeration_5_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1612,6 +1714,7 @@ def test_atomic_unsigned_byte_enumeration_5_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1627,6 +1730,7 @@ def test_atomic_unsigned_byte_enumeration_5_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1642,6 +1746,7 @@ def test_atomic_unsigned_byte_enumeration_5_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1657,6 +1762,7 @@ def test_atomic_unsigned_byte_enumeration_5_nistxml_sv_ii_atomic_unsigned_byte_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1673,6 +1779,7 @@ def test_atomic_unsigned_byte_pattern_9_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1689,6 +1796,7 @@ def test_atomic_unsigned_byte_pattern_9_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1705,6 +1813,7 @@ def test_atomic_unsigned_byte_pattern_9_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1721,6 +1830,7 @@ def test_atomic_unsigned_byte_pattern_9_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1737,6 +1847,7 @@ def test_atomic_unsigned_byte_pattern_9_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1753,6 +1864,7 @@ def test_atomic_unsigned_byte_pattern_8_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1769,6 +1881,7 @@ def test_atomic_unsigned_byte_pattern_8_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1785,6 +1898,7 @@ def test_atomic_unsigned_byte_pattern_8_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1801,6 +1915,7 @@ def test_atomic_unsigned_byte_pattern_8_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1817,6 +1932,7 @@ def test_atomic_unsigned_byte_pattern_8_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1833,6 +1949,7 @@ def test_atomic_unsigned_byte_pattern_7_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1849,6 +1966,7 @@ def test_atomic_unsigned_byte_pattern_7_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1865,6 +1983,7 @@ def test_atomic_unsigned_byte_pattern_7_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1881,6 +2000,7 @@ def test_atomic_unsigned_byte_pattern_7_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1897,6 +2017,7 @@ def test_atomic_unsigned_byte_pattern_7_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1913,6 +2034,7 @@ def test_atomic_unsigned_byte_pattern_6_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1929,6 +2051,7 @@ def test_atomic_unsigned_byte_pattern_6_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1945,6 +2068,7 @@ def test_atomic_unsigned_byte_pattern_6_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1961,6 +2085,7 @@ def test_atomic_unsigned_byte_pattern_6_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1977,6 +2102,7 @@ def test_atomic_unsigned_byte_pattern_6_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -1993,6 +2119,7 @@ def test_atomic_unsigned_byte_pattern_5_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2009,6 +2136,7 @@ def test_atomic_unsigned_byte_pattern_5_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2025,6 +2153,7 @@ def test_atomic_unsigned_byte_pattern_5_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2041,6 +2170,7 @@ def test_atomic_unsigned_byte_pattern_5_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2057,6 +2187,7 @@ def test_atomic_unsigned_byte_pattern_5_nistxml_sv_ii_atomic_unsigned_byte_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2073,6 +2204,7 @@ def test_atomic_unsigned_byte_max_exclusive_9_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2089,6 +2221,7 @@ def test_atomic_unsigned_byte_max_exclusive_8_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2105,6 +2238,7 @@ def test_atomic_unsigned_byte_max_exclusive_8_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2121,6 +2255,7 @@ def test_atomic_unsigned_byte_max_exclusive_8_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2137,6 +2272,7 @@ def test_atomic_unsigned_byte_max_exclusive_8_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2153,6 +2289,7 @@ def test_atomic_unsigned_byte_max_exclusive_8_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2169,6 +2306,7 @@ def test_atomic_unsigned_byte_max_exclusive_7_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2185,6 +2323,7 @@ def test_atomic_unsigned_byte_max_exclusive_7_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2201,6 +2340,7 @@ def test_atomic_unsigned_byte_max_exclusive_7_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2217,6 +2357,7 @@ def test_atomic_unsigned_byte_max_exclusive_7_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2233,6 +2374,7 @@ def test_atomic_unsigned_byte_max_exclusive_7_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2249,6 +2391,7 @@ def test_atomic_unsigned_byte_max_exclusive_6_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2265,6 +2408,7 @@ def test_atomic_unsigned_byte_max_exclusive_6_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2281,6 +2425,7 @@ def test_atomic_unsigned_byte_max_exclusive_6_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2297,6 +2442,7 @@ def test_atomic_unsigned_byte_max_exclusive_6_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2313,6 +2459,7 @@ def test_atomic_unsigned_byte_max_exclusive_6_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2329,6 +2476,7 @@ def test_atomic_unsigned_byte_max_exclusive_5_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2345,6 +2493,7 @@ def test_atomic_unsigned_byte_max_exclusive_5_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2361,6 +2510,7 @@ def test_atomic_unsigned_byte_max_exclusive_5_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2377,6 +2527,7 @@ def test_atomic_unsigned_byte_max_exclusive_5_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2393,6 +2544,7 @@ def test_atomic_unsigned_byte_max_exclusive_5_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2409,6 +2561,7 @@ def test_atomic_unsigned_byte_min_exclusive_9_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2425,6 +2578,7 @@ def test_atomic_unsigned_byte_min_exclusive_9_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2441,6 +2595,7 @@ def test_atomic_unsigned_byte_min_exclusive_9_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2457,6 +2612,7 @@ def test_atomic_unsigned_byte_min_exclusive_9_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2473,6 +2629,7 @@ def test_atomic_unsigned_byte_min_exclusive_9_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2489,6 +2646,7 @@ def test_atomic_unsigned_byte_min_exclusive_8_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2505,6 +2663,7 @@ def test_atomic_unsigned_byte_min_exclusive_8_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2521,6 +2680,7 @@ def test_atomic_unsigned_byte_min_exclusive_8_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2537,6 +2697,7 @@ def test_atomic_unsigned_byte_min_exclusive_8_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2553,6 +2714,7 @@ def test_atomic_unsigned_byte_min_exclusive_8_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2569,6 +2731,7 @@ def test_atomic_unsigned_byte_min_exclusive_7_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2585,6 +2748,7 @@ def test_atomic_unsigned_byte_min_exclusive_7_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2601,6 +2765,7 @@ def test_atomic_unsigned_byte_min_exclusive_7_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2617,6 +2782,7 @@ def test_atomic_unsigned_byte_min_exclusive_7_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2633,6 +2799,7 @@ def test_atomic_unsigned_byte_min_exclusive_7_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2649,6 +2816,7 @@ def test_atomic_unsigned_byte_min_exclusive_6_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2665,6 +2833,7 @@ def test_atomic_unsigned_byte_min_exclusive_6_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2681,6 +2850,7 @@ def test_atomic_unsigned_byte_min_exclusive_6_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2697,6 +2867,7 @@ def test_atomic_unsigned_byte_min_exclusive_6_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2713,6 +2884,7 @@ def test_atomic_unsigned_byte_min_exclusive_6_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2729,6 +2901,7 @@ def test_atomic_unsigned_byte_min_exclusive_5_nistxml_sv_ii_atomic_unsigned_byte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2744,6 +2917,7 @@ def test_atomic_unsigned_short_enumeration_9_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2759,6 +2933,7 @@ def test_atomic_unsigned_short_enumeration_9_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2774,6 +2949,7 @@ def test_atomic_unsigned_short_enumeration_9_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2789,6 +2965,7 @@ def test_atomic_unsigned_short_enumeration_9_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2804,6 +2981,7 @@ def test_atomic_unsigned_short_enumeration_9_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2819,6 +2997,7 @@ def test_atomic_unsigned_short_enumeration_8_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2834,6 +3013,7 @@ def test_atomic_unsigned_short_enumeration_8_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2849,6 +3029,7 @@ def test_atomic_unsigned_short_enumeration_8_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2864,6 +3045,7 @@ def test_atomic_unsigned_short_enumeration_8_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2879,6 +3061,7 @@ def test_atomic_unsigned_short_enumeration_8_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2894,6 +3077,7 @@ def test_atomic_unsigned_short_enumeration_7_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2909,6 +3093,7 @@ def test_atomic_unsigned_short_enumeration_7_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2924,6 +3109,7 @@ def test_atomic_unsigned_short_enumeration_7_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2939,6 +3125,7 @@ def test_atomic_unsigned_short_enumeration_7_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2954,6 +3141,7 @@ def test_atomic_unsigned_short_enumeration_7_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2969,6 +3157,7 @@ def test_atomic_unsigned_short_enumeration_6_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2984,6 +3173,7 @@ def test_atomic_unsigned_short_enumeration_6_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -2999,6 +3189,7 @@ def test_atomic_unsigned_short_enumeration_6_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3014,6 +3205,7 @@ def test_atomic_unsigned_short_enumeration_6_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3029,6 +3221,7 @@ def test_atomic_unsigned_short_enumeration_6_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3044,6 +3237,7 @@ def test_atomic_unsigned_short_enumeration_5_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3059,6 +3253,7 @@ def test_atomic_unsigned_short_enumeration_5_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3074,6 +3269,7 @@ def test_atomic_unsigned_short_enumeration_5_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3089,6 +3285,7 @@ def test_atomic_unsigned_short_enumeration_5_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3104,6 +3301,7 @@ def test_atomic_unsigned_short_enumeration_5_nistxml_sv_ii_atomic_unsigned_short
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3120,6 +3318,7 @@ def test_atomic_unsigned_short_pattern_9_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3136,6 +3335,7 @@ def test_atomic_unsigned_short_pattern_9_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3152,6 +3352,7 @@ def test_atomic_unsigned_short_pattern_9_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3168,6 +3369,7 @@ def test_atomic_unsigned_short_pattern_9_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3184,6 +3386,7 @@ def test_atomic_unsigned_short_pattern_9_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3200,6 +3403,7 @@ def test_atomic_unsigned_short_pattern_8_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3216,6 +3420,7 @@ def test_atomic_unsigned_short_pattern_8_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3232,6 +3437,7 @@ def test_atomic_unsigned_short_pattern_8_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3248,6 +3454,7 @@ def test_atomic_unsigned_short_pattern_8_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3264,6 +3471,7 @@ def test_atomic_unsigned_short_pattern_8_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3280,6 +3488,7 @@ def test_atomic_unsigned_short_pattern_7_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3296,6 +3505,7 @@ def test_atomic_unsigned_short_pattern_7_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3312,6 +3522,7 @@ def test_atomic_unsigned_short_pattern_7_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3328,6 +3539,7 @@ def test_atomic_unsigned_short_pattern_7_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3344,6 +3556,7 @@ def test_atomic_unsigned_short_pattern_7_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3360,6 +3573,7 @@ def test_atomic_unsigned_short_pattern_6_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3376,6 +3590,7 @@ def test_atomic_unsigned_short_pattern_6_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3392,6 +3607,7 @@ def test_atomic_unsigned_short_pattern_6_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3408,6 +3624,7 @@ def test_atomic_unsigned_short_pattern_6_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3424,6 +3641,7 @@ def test_atomic_unsigned_short_pattern_6_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3440,6 +3658,7 @@ def test_atomic_unsigned_short_pattern_5_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3456,6 +3675,7 @@ def test_atomic_unsigned_short_pattern_5_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3472,6 +3692,7 @@ def test_atomic_unsigned_short_pattern_5_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3488,6 +3709,7 @@ def test_atomic_unsigned_short_pattern_5_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3504,6 +3726,7 @@ def test_atomic_unsigned_short_pattern_5_nistxml_sv_ii_atomic_unsigned_short_pat
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3520,6 +3743,7 @@ def test_atomic_unsigned_short_max_exclusive_9_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3536,6 +3760,7 @@ def test_atomic_unsigned_short_max_exclusive_8_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3552,6 +3777,7 @@ def test_atomic_unsigned_short_max_exclusive_8_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3568,6 +3794,7 @@ def test_atomic_unsigned_short_max_exclusive_8_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3584,6 +3811,7 @@ def test_atomic_unsigned_short_max_exclusive_8_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3600,6 +3828,7 @@ def test_atomic_unsigned_short_max_exclusive_8_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3616,6 +3845,7 @@ def test_atomic_unsigned_short_max_exclusive_7_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3632,6 +3862,7 @@ def test_atomic_unsigned_short_max_exclusive_7_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3648,6 +3879,7 @@ def test_atomic_unsigned_short_max_exclusive_7_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3664,6 +3896,7 @@ def test_atomic_unsigned_short_max_exclusive_7_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3680,6 +3913,7 @@ def test_atomic_unsigned_short_max_exclusive_7_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3696,6 +3930,7 @@ def test_atomic_unsigned_short_max_exclusive_6_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3712,6 +3947,7 @@ def test_atomic_unsigned_short_max_exclusive_6_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3728,6 +3964,7 @@ def test_atomic_unsigned_short_max_exclusive_6_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3744,6 +3981,7 @@ def test_atomic_unsigned_short_max_exclusive_6_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3760,6 +3998,7 @@ def test_atomic_unsigned_short_max_exclusive_6_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3776,6 +4015,7 @@ def test_atomic_unsigned_short_max_exclusive_5_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3792,6 +4032,7 @@ def test_atomic_unsigned_short_max_exclusive_5_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3808,6 +4049,7 @@ def test_atomic_unsigned_short_max_exclusive_5_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3824,6 +4066,7 @@ def test_atomic_unsigned_short_max_exclusive_5_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3840,6 +4083,7 @@ def test_atomic_unsigned_short_max_exclusive_5_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3856,6 +4100,7 @@ def test_atomic_unsigned_short_min_exclusive_9_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3872,6 +4117,7 @@ def test_atomic_unsigned_short_min_exclusive_9_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3888,6 +4134,7 @@ def test_atomic_unsigned_short_min_exclusive_9_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3904,6 +4151,7 @@ def test_atomic_unsigned_short_min_exclusive_9_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3920,6 +4168,7 @@ def test_atomic_unsigned_short_min_exclusive_9_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3936,6 +4185,7 @@ def test_atomic_unsigned_short_min_exclusive_8_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3952,6 +4202,7 @@ def test_atomic_unsigned_short_min_exclusive_8_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3968,6 +4219,7 @@ def test_atomic_unsigned_short_min_exclusive_8_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -3984,6 +4236,7 @@ def test_atomic_unsigned_short_min_exclusive_8_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4000,6 +4253,7 @@ def test_atomic_unsigned_short_min_exclusive_8_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4016,6 +4270,7 @@ def test_atomic_unsigned_short_min_exclusive_7_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4032,6 +4287,7 @@ def test_atomic_unsigned_short_min_exclusive_7_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4048,6 +4304,7 @@ def test_atomic_unsigned_short_min_exclusive_7_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4064,6 +4321,7 @@ def test_atomic_unsigned_short_min_exclusive_7_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4080,6 +4338,7 @@ def test_atomic_unsigned_short_min_exclusive_7_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4096,6 +4355,7 @@ def test_atomic_unsigned_short_min_exclusive_6_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4112,6 +4372,7 @@ def test_atomic_unsigned_short_min_exclusive_6_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4128,6 +4389,7 @@ def test_atomic_unsigned_short_min_exclusive_6_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4144,6 +4406,7 @@ def test_atomic_unsigned_short_min_exclusive_6_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4160,6 +4423,7 @@ def test_atomic_unsigned_short_min_exclusive_6_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4176,6 +4440,7 @@ def test_atomic_unsigned_short_min_exclusive_5_nistxml_sv_ii_atomic_unsigned_sho
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4191,6 +4456,7 @@ def test_atomic_unsigned_int_enumeration_9_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4206,6 +4472,7 @@ def test_atomic_unsigned_int_enumeration_9_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4221,6 +4488,7 @@ def test_atomic_unsigned_int_enumeration_9_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4236,6 +4504,7 @@ def test_atomic_unsigned_int_enumeration_9_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4251,6 +4520,7 @@ def test_atomic_unsigned_int_enumeration_9_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4266,6 +4536,7 @@ def test_atomic_unsigned_int_enumeration_8_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4281,6 +4552,7 @@ def test_atomic_unsigned_int_enumeration_8_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4296,6 +4568,7 @@ def test_atomic_unsigned_int_enumeration_8_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4311,6 +4584,7 @@ def test_atomic_unsigned_int_enumeration_8_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4326,6 +4600,7 @@ def test_atomic_unsigned_int_enumeration_8_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4341,6 +4616,7 @@ def test_atomic_unsigned_int_enumeration_7_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4356,6 +4632,7 @@ def test_atomic_unsigned_int_enumeration_7_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4371,6 +4648,7 @@ def test_atomic_unsigned_int_enumeration_7_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4386,6 +4664,7 @@ def test_atomic_unsigned_int_enumeration_7_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4401,6 +4680,7 @@ def test_atomic_unsigned_int_enumeration_7_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4416,6 +4696,7 @@ def test_atomic_unsigned_int_enumeration_6_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4431,6 +4712,7 @@ def test_atomic_unsigned_int_enumeration_6_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4446,6 +4728,7 @@ def test_atomic_unsigned_int_enumeration_6_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4461,6 +4744,7 @@ def test_atomic_unsigned_int_enumeration_6_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4476,6 +4760,7 @@ def test_atomic_unsigned_int_enumeration_6_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4491,6 +4776,7 @@ def test_atomic_unsigned_int_enumeration_5_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4506,6 +4792,7 @@ def test_atomic_unsigned_int_enumeration_5_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4521,6 +4808,7 @@ def test_atomic_unsigned_int_enumeration_5_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4536,6 +4824,7 @@ def test_atomic_unsigned_int_enumeration_5_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4551,6 +4840,7 @@ def test_atomic_unsigned_int_enumeration_5_nistxml_sv_ii_atomic_unsigned_int_enu
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4567,6 +4857,7 @@ def test_atomic_unsigned_int_pattern_9_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4583,6 +4874,7 @@ def test_atomic_unsigned_int_pattern_9_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4599,6 +4891,7 @@ def test_atomic_unsigned_int_pattern_9_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4615,6 +4908,7 @@ def test_atomic_unsigned_int_pattern_9_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4631,6 +4925,7 @@ def test_atomic_unsigned_int_pattern_9_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4647,6 +4942,7 @@ def test_atomic_unsigned_int_pattern_8_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4663,6 +4959,7 @@ def test_atomic_unsigned_int_pattern_8_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4679,6 +4976,7 @@ def test_atomic_unsigned_int_pattern_8_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4695,6 +4993,7 @@ def test_atomic_unsigned_int_pattern_8_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4711,6 +5010,7 @@ def test_atomic_unsigned_int_pattern_8_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4727,6 +5027,7 @@ def test_atomic_unsigned_int_pattern_7_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4743,6 +5044,7 @@ def test_atomic_unsigned_int_pattern_7_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4759,6 +5061,7 @@ def test_atomic_unsigned_int_pattern_7_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4775,6 +5078,7 @@ def test_atomic_unsigned_int_pattern_7_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4791,6 +5095,7 @@ def test_atomic_unsigned_int_pattern_7_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4807,6 +5112,7 @@ def test_atomic_unsigned_int_pattern_6_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4823,6 +5129,7 @@ def test_atomic_unsigned_int_pattern_6_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4839,6 +5146,7 @@ def test_atomic_unsigned_int_pattern_6_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4855,6 +5163,7 @@ def test_atomic_unsigned_int_pattern_6_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4871,6 +5180,7 @@ def test_atomic_unsigned_int_pattern_6_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4887,6 +5197,7 @@ def test_atomic_unsigned_int_pattern_5_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4903,6 +5214,7 @@ def test_atomic_unsigned_int_pattern_5_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4919,6 +5231,7 @@ def test_atomic_unsigned_int_pattern_5_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4935,6 +5248,7 @@ def test_atomic_unsigned_int_pattern_5_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4951,6 +5265,7 @@ def test_atomic_unsigned_int_pattern_5_nistxml_sv_ii_atomic_unsigned_int_pattern
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4967,6 +5282,7 @@ def test_atomic_unsigned_int_max_exclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4983,6 +5299,7 @@ def test_atomic_unsigned_int_max_exclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -4999,6 +5316,7 @@ def test_atomic_unsigned_int_max_exclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5015,6 +5333,7 @@ def test_atomic_unsigned_int_max_exclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5031,6 +5350,7 @@ def test_atomic_unsigned_int_max_exclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5047,6 +5367,7 @@ def test_atomic_unsigned_int_max_exclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5063,6 +5384,7 @@ def test_atomic_unsigned_int_max_exclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5079,6 +5401,7 @@ def test_atomic_unsigned_int_max_exclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5095,6 +5418,7 @@ def test_atomic_unsigned_int_max_exclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5111,6 +5435,7 @@ def test_atomic_unsigned_int_max_exclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5127,6 +5452,7 @@ def test_atomic_unsigned_int_max_exclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5143,6 +5469,7 @@ def test_atomic_unsigned_int_max_exclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5159,6 +5486,7 @@ def test_atomic_unsigned_int_max_exclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5175,6 +5503,7 @@ def test_atomic_unsigned_int_max_exclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5191,6 +5520,7 @@ def test_atomic_unsigned_int_max_exclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5207,6 +5537,7 @@ def test_atomic_unsigned_int_max_exclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5223,6 +5554,7 @@ def test_atomic_unsigned_int_max_exclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5239,6 +5571,7 @@ def test_atomic_unsigned_int_max_exclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5255,6 +5588,7 @@ def test_atomic_unsigned_int_max_exclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5271,6 +5605,7 @@ def test_atomic_unsigned_int_max_exclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5287,6 +5622,7 @@ def test_atomic_unsigned_int_max_exclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5303,6 +5639,7 @@ def test_atomic_unsigned_int_min_exclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5319,6 +5656,7 @@ def test_atomic_unsigned_int_min_exclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5335,6 +5673,7 @@ def test_atomic_unsigned_int_min_exclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5351,6 +5690,7 @@ def test_atomic_unsigned_int_min_exclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5367,6 +5707,7 @@ def test_atomic_unsigned_int_min_exclusive_9_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5383,6 +5724,7 @@ def test_atomic_unsigned_int_min_exclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5399,6 +5741,7 @@ def test_atomic_unsigned_int_min_exclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5415,6 +5758,7 @@ def test_atomic_unsigned_int_min_exclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5431,6 +5775,7 @@ def test_atomic_unsigned_int_min_exclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5447,6 +5792,7 @@ def test_atomic_unsigned_int_min_exclusive_8_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5463,6 +5809,7 @@ def test_atomic_unsigned_int_min_exclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5479,6 +5826,7 @@ def test_atomic_unsigned_int_min_exclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5495,6 +5843,7 @@ def test_atomic_unsigned_int_min_exclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5511,6 +5860,7 @@ def test_atomic_unsigned_int_min_exclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5527,6 +5877,7 @@ def test_atomic_unsigned_int_min_exclusive_7_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5543,6 +5894,7 @@ def test_atomic_unsigned_int_min_exclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5559,6 +5911,7 @@ def test_atomic_unsigned_int_min_exclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5575,6 +5928,7 @@ def test_atomic_unsigned_int_min_exclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5591,6 +5945,7 @@ def test_atomic_unsigned_int_min_exclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5607,6 +5962,7 @@ def test_atomic_unsigned_int_min_exclusive_6_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5623,6 +5979,7 @@ def test_atomic_unsigned_int_min_exclusive_5_nistxml_sv_ii_atomic_unsigned_int_m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5638,6 +5995,7 @@ def test_atomic_unsigned_long_enumeration_9_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5653,6 +6011,7 @@ def test_atomic_unsigned_long_enumeration_9_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5668,6 +6027,7 @@ def test_atomic_unsigned_long_enumeration_9_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5683,6 +6043,7 @@ def test_atomic_unsigned_long_enumeration_9_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5698,6 +6059,7 @@ def test_atomic_unsigned_long_enumeration_9_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5713,6 +6075,7 @@ def test_atomic_unsigned_long_enumeration_8_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5728,6 +6091,7 @@ def test_atomic_unsigned_long_enumeration_8_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5743,6 +6107,7 @@ def test_atomic_unsigned_long_enumeration_8_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5758,6 +6123,7 @@ def test_atomic_unsigned_long_enumeration_8_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5773,6 +6139,7 @@ def test_atomic_unsigned_long_enumeration_8_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5788,6 +6155,7 @@ def test_atomic_unsigned_long_enumeration_7_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5803,6 +6171,7 @@ def test_atomic_unsigned_long_enumeration_7_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5818,6 +6187,7 @@ def test_atomic_unsigned_long_enumeration_7_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5833,6 +6203,7 @@ def test_atomic_unsigned_long_enumeration_7_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5848,6 +6219,7 @@ def test_atomic_unsigned_long_enumeration_7_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5863,6 +6235,7 @@ def test_atomic_unsigned_long_enumeration_6_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5878,6 +6251,7 @@ def test_atomic_unsigned_long_enumeration_6_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5893,6 +6267,7 @@ def test_atomic_unsigned_long_enumeration_6_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5908,6 +6283,7 @@ def test_atomic_unsigned_long_enumeration_6_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5923,6 +6299,7 @@ def test_atomic_unsigned_long_enumeration_6_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5938,6 +6315,7 @@ def test_atomic_unsigned_long_enumeration_5_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5953,6 +6331,7 @@ def test_atomic_unsigned_long_enumeration_5_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5968,6 +6347,7 @@ def test_atomic_unsigned_long_enumeration_5_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5983,6 +6363,7 @@ def test_atomic_unsigned_long_enumeration_5_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -5998,6 +6379,7 @@ def test_atomic_unsigned_long_enumeration_5_nistxml_sv_ii_atomic_unsigned_long_e
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6014,6 +6396,7 @@ def test_atomic_unsigned_long_pattern_9_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6030,6 +6413,7 @@ def test_atomic_unsigned_long_pattern_9_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6046,6 +6430,7 @@ def test_atomic_unsigned_long_pattern_9_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6062,6 +6447,7 @@ def test_atomic_unsigned_long_pattern_9_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6078,6 +6464,7 @@ def test_atomic_unsigned_long_pattern_9_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6094,6 +6481,7 @@ def test_atomic_unsigned_long_pattern_8_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6110,6 +6498,7 @@ def test_atomic_unsigned_long_pattern_8_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6126,6 +6515,7 @@ def test_atomic_unsigned_long_pattern_8_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6142,6 +6532,7 @@ def test_atomic_unsigned_long_pattern_8_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6158,6 +6549,7 @@ def test_atomic_unsigned_long_pattern_8_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6174,6 +6566,7 @@ def test_atomic_unsigned_long_pattern_7_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6190,6 +6583,7 @@ def test_atomic_unsigned_long_pattern_7_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6206,6 +6600,7 @@ def test_atomic_unsigned_long_pattern_7_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6222,6 +6617,7 @@ def test_atomic_unsigned_long_pattern_7_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6238,6 +6634,7 @@ def test_atomic_unsigned_long_pattern_7_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6254,6 +6651,7 @@ def test_atomic_unsigned_long_pattern_6_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6270,6 +6668,7 @@ def test_atomic_unsigned_long_pattern_6_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6286,6 +6685,7 @@ def test_atomic_unsigned_long_pattern_6_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6302,6 +6702,7 @@ def test_atomic_unsigned_long_pattern_6_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6318,6 +6719,7 @@ def test_atomic_unsigned_long_pattern_6_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6334,6 +6736,7 @@ def test_atomic_unsigned_long_pattern_5_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6350,6 +6753,7 @@ def test_atomic_unsigned_long_pattern_5_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6366,6 +6770,7 @@ def test_atomic_unsigned_long_pattern_5_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6382,6 +6787,7 @@ def test_atomic_unsigned_long_pattern_5_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6398,6 +6804,7 @@ def test_atomic_unsigned_long_pattern_5_nistxml_sv_ii_atomic_unsigned_long_patte
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6414,6 +6821,7 @@ def test_atomic_unsigned_long_max_exclusive_9_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6430,6 +6838,7 @@ def test_atomic_unsigned_long_max_exclusive_8_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6446,6 +6855,7 @@ def test_atomic_unsigned_long_max_exclusive_8_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6462,6 +6872,7 @@ def test_atomic_unsigned_long_max_exclusive_8_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6478,6 +6889,7 @@ def test_atomic_unsigned_long_max_exclusive_8_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6494,6 +6906,7 @@ def test_atomic_unsigned_long_max_exclusive_8_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6510,6 +6923,7 @@ def test_atomic_unsigned_long_max_exclusive_7_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6526,6 +6940,7 @@ def test_atomic_unsigned_long_max_exclusive_7_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6542,6 +6957,7 @@ def test_atomic_unsigned_long_max_exclusive_7_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6558,6 +6974,7 @@ def test_atomic_unsigned_long_max_exclusive_7_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6574,6 +6991,7 @@ def test_atomic_unsigned_long_max_exclusive_7_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6590,6 +7008,7 @@ def test_atomic_unsigned_long_max_exclusive_6_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6606,6 +7025,7 @@ def test_atomic_unsigned_long_max_exclusive_6_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6622,6 +7042,7 @@ def test_atomic_unsigned_long_max_exclusive_6_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6638,6 +7059,7 @@ def test_atomic_unsigned_long_max_exclusive_6_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6654,6 +7076,7 @@ def test_atomic_unsigned_long_max_exclusive_6_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6670,6 +7093,7 @@ def test_atomic_unsigned_long_max_exclusive_5_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6686,6 +7110,7 @@ def test_atomic_unsigned_long_max_exclusive_5_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6702,6 +7127,7 @@ def test_atomic_unsigned_long_max_exclusive_5_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6718,6 +7144,7 @@ def test_atomic_unsigned_long_max_exclusive_5_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6734,6 +7161,7 @@ def test_atomic_unsigned_long_max_exclusive_5_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6750,6 +7178,7 @@ def test_atomic_unsigned_long_min_exclusive_9_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6766,6 +7195,7 @@ def test_atomic_unsigned_long_min_exclusive_9_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6782,6 +7212,7 @@ def test_atomic_unsigned_long_min_exclusive_9_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6798,6 +7229,7 @@ def test_atomic_unsigned_long_min_exclusive_9_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6814,6 +7246,7 @@ def test_atomic_unsigned_long_min_exclusive_9_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6830,6 +7263,7 @@ def test_atomic_unsigned_long_min_exclusive_8_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6846,6 +7280,7 @@ def test_atomic_unsigned_long_min_exclusive_8_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6862,6 +7297,7 @@ def test_atomic_unsigned_long_min_exclusive_8_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6878,6 +7314,7 @@ def test_atomic_unsigned_long_min_exclusive_8_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6894,6 +7331,7 @@ def test_atomic_unsigned_long_min_exclusive_8_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6910,6 +7348,7 @@ def test_atomic_unsigned_long_min_exclusive_7_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6926,6 +7365,7 @@ def test_atomic_unsigned_long_min_exclusive_7_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6942,6 +7382,7 @@ def test_atomic_unsigned_long_min_exclusive_7_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6958,6 +7399,7 @@ def test_atomic_unsigned_long_min_exclusive_7_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6974,6 +7416,7 @@ def test_atomic_unsigned_long_min_exclusive_7_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -6990,6 +7433,7 @@ def test_atomic_unsigned_long_min_exclusive_6_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7006,6 +7450,7 @@ def test_atomic_unsigned_long_min_exclusive_6_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7022,6 +7467,7 @@ def test_atomic_unsigned_long_min_exclusive_6_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7038,6 +7484,7 @@ def test_atomic_unsigned_long_min_exclusive_6_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7054,6 +7501,7 @@ def test_atomic_unsigned_long_min_exclusive_6_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7070,6 +7518,7 @@ def test_atomic_unsigned_long_min_exclusive_5_nistxml_sv_ii_atomic_unsigned_long
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7085,6 +7534,7 @@ def test_atomic_non_negative_integer_enumeration_9_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7100,6 +7550,7 @@ def test_atomic_non_negative_integer_enumeration_9_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7115,6 +7566,7 @@ def test_atomic_non_negative_integer_enumeration_9_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7130,6 +7582,7 @@ def test_atomic_non_negative_integer_enumeration_9_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7145,6 +7598,7 @@ def test_atomic_non_negative_integer_enumeration_9_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7160,6 +7614,7 @@ def test_atomic_non_negative_integer_enumeration_8_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7175,6 +7630,7 @@ def test_atomic_non_negative_integer_enumeration_8_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7190,6 +7646,7 @@ def test_atomic_non_negative_integer_enumeration_8_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7205,6 +7662,7 @@ def test_atomic_non_negative_integer_enumeration_8_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7220,6 +7678,7 @@ def test_atomic_non_negative_integer_enumeration_8_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7235,6 +7694,7 @@ def test_atomic_non_negative_integer_enumeration_7_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7250,6 +7710,7 @@ def test_atomic_non_negative_integer_enumeration_7_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7265,6 +7726,7 @@ def test_atomic_non_negative_integer_enumeration_7_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7280,6 +7742,7 @@ def test_atomic_non_negative_integer_enumeration_7_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7295,6 +7758,7 @@ def test_atomic_non_negative_integer_enumeration_7_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7310,6 +7774,7 @@ def test_atomic_non_negative_integer_enumeration_6_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7325,6 +7790,7 @@ def test_atomic_non_negative_integer_enumeration_6_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7340,6 +7806,7 @@ def test_atomic_non_negative_integer_enumeration_6_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7355,6 +7822,7 @@ def test_atomic_non_negative_integer_enumeration_6_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7370,6 +7838,7 @@ def test_atomic_non_negative_integer_enumeration_6_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7385,6 +7854,7 @@ def test_atomic_non_negative_integer_enumeration_5_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7400,6 +7870,7 @@ def test_atomic_non_negative_integer_enumeration_5_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7415,6 +7886,7 @@ def test_atomic_non_negative_integer_enumeration_5_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7430,6 +7902,7 @@ def test_atomic_non_negative_integer_enumeration_5_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7445,6 +7918,7 @@ def test_atomic_non_negative_integer_enumeration_5_nistxml_sv_ii_atomic_non_nega
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7461,6 +7935,7 @@ def test_atomic_non_negative_integer_pattern_9_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7477,6 +7952,7 @@ def test_atomic_non_negative_integer_pattern_9_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7493,6 +7969,7 @@ def test_atomic_non_negative_integer_pattern_9_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7509,6 +7986,7 @@ def test_atomic_non_negative_integer_pattern_9_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7525,6 +8003,7 @@ def test_atomic_non_negative_integer_pattern_9_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7541,6 +8020,7 @@ def test_atomic_non_negative_integer_pattern_8_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7557,6 +8037,7 @@ def test_atomic_non_negative_integer_pattern_8_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7573,6 +8054,7 @@ def test_atomic_non_negative_integer_pattern_8_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7589,6 +8071,7 @@ def test_atomic_non_negative_integer_pattern_8_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7605,6 +8088,7 @@ def test_atomic_non_negative_integer_pattern_8_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7621,6 +8105,7 @@ def test_atomic_non_negative_integer_pattern_7_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7637,6 +8122,7 @@ def test_atomic_non_negative_integer_pattern_7_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7653,6 +8139,7 @@ def test_atomic_non_negative_integer_pattern_7_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7669,6 +8156,7 @@ def test_atomic_non_negative_integer_pattern_7_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7685,6 +8173,7 @@ def test_atomic_non_negative_integer_pattern_7_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7701,6 +8190,7 @@ def test_atomic_non_negative_integer_pattern_6_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7717,6 +8207,7 @@ def test_atomic_non_negative_integer_pattern_6_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7733,6 +8224,7 @@ def test_atomic_non_negative_integer_pattern_6_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7749,6 +8241,7 @@ def test_atomic_non_negative_integer_pattern_6_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7765,6 +8258,7 @@ def test_atomic_non_negative_integer_pattern_6_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7781,6 +8275,7 @@ def test_atomic_non_negative_integer_pattern_5_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7797,6 +8292,7 @@ def test_atomic_non_negative_integer_pattern_5_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7813,6 +8309,7 @@ def test_atomic_non_negative_integer_pattern_5_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7829,6 +8326,7 @@ def test_atomic_non_negative_integer_pattern_5_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7845,6 +8343,7 @@ def test_atomic_non_negative_integer_pattern_5_nistxml_sv_ii_atomic_non_negative
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7861,6 +8360,7 @@ def test_atomic_non_negative_integer_max_exclusive_9_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7877,6 +8377,7 @@ def test_atomic_non_negative_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7893,6 +8394,7 @@ def test_atomic_non_negative_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7909,6 +8411,7 @@ def test_atomic_non_negative_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7925,6 +8428,7 @@ def test_atomic_non_negative_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7941,6 +8445,7 @@ def test_atomic_non_negative_integer_max_exclusive_8_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7957,6 +8462,7 @@ def test_atomic_non_negative_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7973,6 +8479,7 @@ def test_atomic_non_negative_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -7989,6 +8496,7 @@ def test_atomic_non_negative_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8005,6 +8513,7 @@ def test_atomic_non_negative_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8021,6 +8530,7 @@ def test_atomic_non_negative_integer_max_exclusive_7_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8037,6 +8547,7 @@ def test_atomic_non_negative_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8053,6 +8564,7 @@ def test_atomic_non_negative_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8069,6 +8581,7 @@ def test_atomic_non_negative_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8085,6 +8598,7 @@ def test_atomic_non_negative_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8101,6 +8615,7 @@ def test_atomic_non_negative_integer_max_exclusive_6_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8117,6 +8632,7 @@ def test_atomic_non_negative_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8133,6 +8649,7 @@ def test_atomic_non_negative_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8149,6 +8666,7 @@ def test_atomic_non_negative_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8165,6 +8683,7 @@ def test_atomic_non_negative_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8181,6 +8700,7 @@ def test_atomic_non_negative_integer_max_exclusive_5_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8197,6 +8717,7 @@ def test_atomic_non_negative_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8213,6 +8734,7 @@ def test_atomic_non_negative_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8229,6 +8751,7 @@ def test_atomic_non_negative_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8245,6 +8768,7 @@ def test_atomic_non_negative_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8261,6 +8785,7 @@ def test_atomic_non_negative_integer_min_exclusive_9_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8277,6 +8802,7 @@ def test_atomic_non_negative_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8293,6 +8819,7 @@ def test_atomic_non_negative_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8309,6 +8836,7 @@ def test_atomic_non_negative_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8325,6 +8853,7 @@ def test_atomic_non_negative_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8341,6 +8870,7 @@ def test_atomic_non_negative_integer_min_exclusive_8_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8357,6 +8887,7 @@ def test_atomic_non_negative_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8373,6 +8904,7 @@ def test_atomic_non_negative_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8389,6 +8921,7 @@ def test_atomic_non_negative_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8405,6 +8938,7 @@ def test_atomic_non_negative_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8421,6 +8955,7 @@ def test_atomic_non_negative_integer_min_exclusive_7_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8437,6 +8972,7 @@ def test_atomic_non_negative_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8453,6 +8989,7 @@ def test_atomic_non_negative_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8469,6 +9006,7 @@ def test_atomic_non_negative_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8485,6 +9023,7 @@ def test_atomic_non_negative_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8501,6 +9040,7 @@ def test_atomic_non_negative_integer_min_exclusive_6_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8517,6 +9057,7 @@ def test_atomic_non_negative_integer_min_exclusive_5_nistxml_sv_ii_atomic_non_ne
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8532,6 +9073,7 @@ def test_atomic_byte_enumeration_9_nistxml_sv_ii_atomic_byte_enumeration_5_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8547,6 +9089,7 @@ def test_atomic_byte_enumeration_9_nistxml_sv_ii_atomic_byte_enumeration_5_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8562,6 +9105,7 @@ def test_atomic_byte_enumeration_9_nistxml_sv_ii_atomic_byte_enumeration_5_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8577,6 +9121,7 @@ def test_atomic_byte_enumeration_9_nistxml_sv_ii_atomic_byte_enumeration_5_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8592,6 +9137,7 @@ def test_atomic_byte_enumeration_9_nistxml_sv_ii_atomic_byte_enumeration_5_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8607,6 +9153,7 @@ def test_atomic_byte_enumeration_8_nistxml_sv_ii_atomic_byte_enumeration_4_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8622,6 +9169,7 @@ def test_atomic_byte_enumeration_8_nistxml_sv_ii_atomic_byte_enumeration_4_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8637,6 +9185,7 @@ def test_atomic_byte_enumeration_8_nistxml_sv_ii_atomic_byte_enumeration_4_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8652,6 +9201,7 @@ def test_atomic_byte_enumeration_8_nistxml_sv_ii_atomic_byte_enumeration_4_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8667,6 +9217,7 @@ def test_atomic_byte_enumeration_8_nistxml_sv_ii_atomic_byte_enumeration_4_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8682,6 +9233,7 @@ def test_atomic_byte_enumeration_7_nistxml_sv_ii_atomic_byte_enumeration_3_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8697,6 +9249,7 @@ def test_atomic_byte_enumeration_7_nistxml_sv_ii_atomic_byte_enumeration_3_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8712,6 +9265,7 @@ def test_atomic_byte_enumeration_7_nistxml_sv_ii_atomic_byte_enumeration_3_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8727,6 +9281,7 @@ def test_atomic_byte_enumeration_7_nistxml_sv_ii_atomic_byte_enumeration_3_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8742,6 +9297,7 @@ def test_atomic_byte_enumeration_7_nistxml_sv_ii_atomic_byte_enumeration_3_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8757,6 +9313,7 @@ def test_atomic_byte_enumeration_6_nistxml_sv_ii_atomic_byte_enumeration_2_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8772,6 +9329,7 @@ def test_atomic_byte_enumeration_6_nistxml_sv_ii_atomic_byte_enumeration_2_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8787,6 +9345,7 @@ def test_atomic_byte_enumeration_6_nistxml_sv_ii_atomic_byte_enumeration_2_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8802,6 +9361,7 @@ def test_atomic_byte_enumeration_6_nistxml_sv_ii_atomic_byte_enumeration_2_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8817,6 +9377,7 @@ def test_atomic_byte_enumeration_6_nistxml_sv_ii_atomic_byte_enumeration_2_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8832,6 +9393,7 @@ def test_atomic_byte_enumeration_5_nistxml_sv_ii_atomic_byte_enumeration_1_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8847,6 +9409,7 @@ def test_atomic_byte_enumeration_5_nistxml_sv_ii_atomic_byte_enumeration_1_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8862,6 +9425,7 @@ def test_atomic_byte_enumeration_5_nistxml_sv_ii_atomic_byte_enumeration_1_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8877,6 +9441,7 @@ def test_atomic_byte_enumeration_5_nistxml_sv_ii_atomic_byte_enumeration_1_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8892,6 +9457,7 @@ def test_atomic_byte_enumeration_5_nistxml_sv_ii_atomic_byte_enumeration_1_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8907,6 +9473,7 @@ def test_atomic_byte_pattern_9_nistxml_sv_ii_atomic_byte_pattern_5_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8922,6 +9489,7 @@ def test_atomic_byte_pattern_9_nistxml_sv_ii_atomic_byte_pattern_5_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8937,6 +9505,7 @@ def test_atomic_byte_pattern_9_nistxml_sv_ii_atomic_byte_pattern_5_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8952,6 +9521,7 @@ def test_atomic_byte_pattern_9_nistxml_sv_ii_atomic_byte_pattern_5_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8967,6 +9537,7 @@ def test_atomic_byte_pattern_9_nistxml_sv_ii_atomic_byte_pattern_5_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8982,6 +9553,7 @@ def test_atomic_byte_pattern_8_nistxml_sv_ii_atomic_byte_pattern_4_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -8997,6 +9569,7 @@ def test_atomic_byte_pattern_8_nistxml_sv_ii_atomic_byte_pattern_4_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9012,6 +9585,7 @@ def test_atomic_byte_pattern_8_nistxml_sv_ii_atomic_byte_pattern_4_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9027,6 +9601,7 @@ def test_atomic_byte_pattern_8_nistxml_sv_ii_atomic_byte_pattern_4_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9042,6 +9617,7 @@ def test_atomic_byte_pattern_8_nistxml_sv_ii_atomic_byte_pattern_4_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9057,6 +9633,7 @@ def test_atomic_byte_pattern_7_nistxml_sv_ii_atomic_byte_pattern_3_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9072,6 +9649,7 @@ def test_atomic_byte_pattern_7_nistxml_sv_ii_atomic_byte_pattern_3_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9087,6 +9665,7 @@ def test_atomic_byte_pattern_7_nistxml_sv_ii_atomic_byte_pattern_3_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9102,6 +9681,7 @@ def test_atomic_byte_pattern_7_nistxml_sv_ii_atomic_byte_pattern_3_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9117,6 +9697,7 @@ def test_atomic_byte_pattern_7_nistxml_sv_ii_atomic_byte_pattern_3_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9132,6 +9713,7 @@ def test_atomic_byte_pattern_6_nistxml_sv_ii_atomic_byte_pattern_2_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9147,6 +9729,7 @@ def test_atomic_byte_pattern_6_nistxml_sv_ii_atomic_byte_pattern_2_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9162,6 +9745,7 @@ def test_atomic_byte_pattern_6_nistxml_sv_ii_atomic_byte_pattern_2_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9177,6 +9761,7 @@ def test_atomic_byte_pattern_6_nistxml_sv_ii_atomic_byte_pattern_2_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9192,6 +9777,7 @@ def test_atomic_byte_pattern_6_nistxml_sv_ii_atomic_byte_pattern_2_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9207,6 +9793,7 @@ def test_atomic_byte_pattern_5_nistxml_sv_ii_atomic_byte_pattern_1_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9222,6 +9809,7 @@ def test_atomic_byte_pattern_5_nistxml_sv_ii_atomic_byte_pattern_1_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9237,6 +9825,7 @@ def test_atomic_byte_pattern_5_nistxml_sv_ii_atomic_byte_pattern_1_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9252,6 +9841,7 @@ def test_atomic_byte_pattern_5_nistxml_sv_ii_atomic_byte_pattern_1_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9267,6 +9857,7 @@ def test_atomic_byte_pattern_5_nistxml_sv_ii_atomic_byte_pattern_1_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9282,6 +9873,7 @@ def test_atomic_byte_max_exclusive_9_nistxml_sv_ii_atomic_byte_max_exclusive_5_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9297,6 +9889,7 @@ def test_atomic_byte_max_exclusive_8_nistxml_sv_ii_atomic_byte_max_exclusive_4_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9312,6 +9905,7 @@ def test_atomic_byte_max_exclusive_8_nistxml_sv_ii_atomic_byte_max_exclusive_4_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9327,6 +9921,7 @@ def test_atomic_byte_max_exclusive_8_nistxml_sv_ii_atomic_byte_max_exclusive_4_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9342,6 +9937,7 @@ def test_atomic_byte_max_exclusive_8_nistxml_sv_ii_atomic_byte_max_exclusive_4_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9357,6 +9953,7 @@ def test_atomic_byte_max_exclusive_8_nistxml_sv_ii_atomic_byte_max_exclusive_4_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9372,6 +9969,7 @@ def test_atomic_byte_max_exclusive_7_nistxml_sv_ii_atomic_byte_max_exclusive_3_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9387,6 +9985,7 @@ def test_atomic_byte_max_exclusive_7_nistxml_sv_ii_atomic_byte_max_exclusive_3_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9402,6 +10001,7 @@ def test_atomic_byte_max_exclusive_7_nistxml_sv_ii_atomic_byte_max_exclusive_3_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9417,6 +10017,7 @@ def test_atomic_byte_max_exclusive_7_nistxml_sv_ii_atomic_byte_max_exclusive_3_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9432,6 +10033,7 @@ def test_atomic_byte_max_exclusive_7_nistxml_sv_ii_atomic_byte_max_exclusive_3_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9447,6 +10049,7 @@ def test_atomic_byte_max_exclusive_6_nistxml_sv_ii_atomic_byte_max_exclusive_2_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9462,6 +10065,7 @@ def test_atomic_byte_max_exclusive_6_nistxml_sv_ii_atomic_byte_max_exclusive_2_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9477,6 +10081,7 @@ def test_atomic_byte_max_exclusive_6_nistxml_sv_ii_atomic_byte_max_exclusive_2_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9492,6 +10097,7 @@ def test_atomic_byte_max_exclusive_6_nistxml_sv_ii_atomic_byte_max_exclusive_2_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9507,6 +10113,7 @@ def test_atomic_byte_max_exclusive_6_nistxml_sv_ii_atomic_byte_max_exclusive_2_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9522,6 +10129,7 @@ def test_atomic_byte_max_exclusive_5_nistxml_sv_ii_atomic_byte_max_exclusive_1_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9537,6 +10145,7 @@ def test_atomic_byte_max_exclusive_5_nistxml_sv_ii_atomic_byte_max_exclusive_1_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9552,6 +10161,7 @@ def test_atomic_byte_max_exclusive_5_nistxml_sv_ii_atomic_byte_max_exclusive_1_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9567,6 +10177,7 @@ def test_atomic_byte_max_exclusive_5_nistxml_sv_ii_atomic_byte_max_exclusive_1_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9582,6 +10193,7 @@ def test_atomic_byte_max_exclusive_5_nistxml_sv_ii_atomic_byte_max_exclusive_1_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9597,6 +10209,7 @@ def test_atomic_byte_min_exclusive_9_nistxml_sv_ii_atomic_byte_min_exclusive_5_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9612,6 +10225,7 @@ def test_atomic_byte_min_exclusive_9_nistxml_sv_ii_atomic_byte_min_exclusive_5_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9627,6 +10241,7 @@ def test_atomic_byte_min_exclusive_9_nistxml_sv_ii_atomic_byte_min_exclusive_5_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9642,6 +10257,7 @@ def test_atomic_byte_min_exclusive_9_nistxml_sv_ii_atomic_byte_min_exclusive_5_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9657,6 +10273,7 @@ def test_atomic_byte_min_exclusive_9_nistxml_sv_ii_atomic_byte_min_exclusive_5_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9672,6 +10289,7 @@ def test_atomic_byte_min_exclusive_8_nistxml_sv_ii_atomic_byte_min_exclusive_4_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9687,6 +10305,7 @@ def test_atomic_byte_min_exclusive_8_nistxml_sv_ii_atomic_byte_min_exclusive_4_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9702,6 +10321,7 @@ def test_atomic_byte_min_exclusive_8_nistxml_sv_ii_atomic_byte_min_exclusive_4_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9717,6 +10337,7 @@ def test_atomic_byte_min_exclusive_8_nistxml_sv_ii_atomic_byte_min_exclusive_4_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9732,6 +10353,7 @@ def test_atomic_byte_min_exclusive_8_nistxml_sv_ii_atomic_byte_min_exclusive_4_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9747,6 +10369,7 @@ def test_atomic_byte_min_exclusive_7_nistxml_sv_ii_atomic_byte_min_exclusive_3_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9762,6 +10385,7 @@ def test_atomic_byte_min_exclusive_7_nistxml_sv_ii_atomic_byte_min_exclusive_3_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9777,6 +10401,7 @@ def test_atomic_byte_min_exclusive_7_nistxml_sv_ii_atomic_byte_min_exclusive_3_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9792,6 +10417,7 @@ def test_atomic_byte_min_exclusive_7_nistxml_sv_ii_atomic_byte_min_exclusive_3_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9807,6 +10433,7 @@ def test_atomic_byte_min_exclusive_7_nistxml_sv_ii_atomic_byte_min_exclusive_3_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9822,6 +10449,7 @@ def test_atomic_byte_min_exclusive_6_nistxml_sv_ii_atomic_byte_min_exclusive_2_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9837,6 +10465,7 @@ def test_atomic_byte_min_exclusive_6_nistxml_sv_ii_atomic_byte_min_exclusive_2_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9852,6 +10481,7 @@ def test_atomic_byte_min_exclusive_6_nistxml_sv_ii_atomic_byte_min_exclusive_2_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9867,6 +10497,7 @@ def test_atomic_byte_min_exclusive_6_nistxml_sv_ii_atomic_byte_min_exclusive_2_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9882,6 +10513,7 @@ def test_atomic_byte_min_exclusive_6_nistxml_sv_ii_atomic_byte_min_exclusive_2_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9897,6 +10529,7 @@ def test_atomic_byte_min_exclusive_5_nistxml_sv_ii_atomic_byte_min_exclusive_1_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9912,6 +10545,7 @@ def test_atomic_short_enumeration_9_nistxml_sv_ii_atomic_short_enumeration_5_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9927,6 +10561,7 @@ def test_atomic_short_enumeration_9_nistxml_sv_ii_atomic_short_enumeration_5_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9942,6 +10577,7 @@ def test_atomic_short_enumeration_9_nistxml_sv_ii_atomic_short_enumeration_5_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9957,6 +10593,7 @@ def test_atomic_short_enumeration_9_nistxml_sv_ii_atomic_short_enumeration_5_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9972,6 +10609,7 @@ def test_atomic_short_enumeration_9_nistxml_sv_ii_atomic_short_enumeration_5_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -9987,6 +10625,7 @@ def test_atomic_short_enumeration_8_nistxml_sv_ii_atomic_short_enumeration_4_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10002,6 +10641,7 @@ def test_atomic_short_enumeration_8_nistxml_sv_ii_atomic_short_enumeration_4_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10017,6 +10657,7 @@ def test_atomic_short_enumeration_8_nistxml_sv_ii_atomic_short_enumeration_4_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10032,6 +10673,7 @@ def test_atomic_short_enumeration_8_nistxml_sv_ii_atomic_short_enumeration_4_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10047,6 +10689,7 @@ def test_atomic_short_enumeration_8_nistxml_sv_ii_atomic_short_enumeration_4_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10062,6 +10705,7 @@ def test_atomic_short_enumeration_7_nistxml_sv_ii_atomic_short_enumeration_3_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10077,6 +10721,7 @@ def test_atomic_short_enumeration_7_nistxml_sv_ii_atomic_short_enumeration_3_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10092,6 +10737,7 @@ def test_atomic_short_enumeration_7_nistxml_sv_ii_atomic_short_enumeration_3_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10107,6 +10753,7 @@ def test_atomic_short_enumeration_7_nistxml_sv_ii_atomic_short_enumeration_3_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10122,6 +10769,7 @@ def test_atomic_short_enumeration_7_nistxml_sv_ii_atomic_short_enumeration_3_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10137,6 +10785,7 @@ def test_atomic_short_enumeration_6_nistxml_sv_ii_atomic_short_enumeration_2_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10152,6 +10801,7 @@ def test_atomic_short_enumeration_6_nistxml_sv_ii_atomic_short_enumeration_2_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10167,6 +10817,7 @@ def test_atomic_short_enumeration_6_nistxml_sv_ii_atomic_short_enumeration_2_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10182,6 +10833,7 @@ def test_atomic_short_enumeration_6_nistxml_sv_ii_atomic_short_enumeration_2_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10197,6 +10849,7 @@ def test_atomic_short_enumeration_6_nistxml_sv_ii_atomic_short_enumeration_2_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10212,6 +10865,7 @@ def test_atomic_short_enumeration_5_nistxml_sv_ii_atomic_short_enumeration_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10227,6 +10881,7 @@ def test_atomic_short_enumeration_5_nistxml_sv_ii_atomic_short_enumeration_1_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10242,6 +10897,7 @@ def test_atomic_short_enumeration_5_nistxml_sv_ii_atomic_short_enumeration_1_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10257,6 +10913,7 @@ def test_atomic_short_enumeration_5_nistxml_sv_ii_atomic_short_enumeration_1_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10272,6 +10929,7 @@ def test_atomic_short_enumeration_5_nistxml_sv_ii_atomic_short_enumeration_1_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10287,6 +10945,7 @@ def test_atomic_short_pattern_9_nistxml_sv_ii_atomic_short_pattern_5_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10302,6 +10961,7 @@ def test_atomic_short_pattern_9_nistxml_sv_ii_atomic_short_pattern_5_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10317,6 +10977,7 @@ def test_atomic_short_pattern_9_nistxml_sv_ii_atomic_short_pattern_5_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10332,6 +10993,7 @@ def test_atomic_short_pattern_9_nistxml_sv_ii_atomic_short_pattern_5_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10347,6 +11009,7 @@ def test_atomic_short_pattern_9_nistxml_sv_ii_atomic_short_pattern_5_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10362,6 +11025,7 @@ def test_atomic_short_pattern_8_nistxml_sv_ii_atomic_short_pattern_4_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10377,6 +11041,7 @@ def test_atomic_short_pattern_8_nistxml_sv_ii_atomic_short_pattern_4_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10392,6 +11057,7 @@ def test_atomic_short_pattern_8_nistxml_sv_ii_atomic_short_pattern_4_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10407,6 +11073,7 @@ def test_atomic_short_pattern_8_nistxml_sv_ii_atomic_short_pattern_4_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10422,6 +11089,7 @@ def test_atomic_short_pattern_8_nistxml_sv_ii_atomic_short_pattern_4_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10437,6 +11105,7 @@ def test_atomic_short_pattern_7_nistxml_sv_ii_atomic_short_pattern_3_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10452,6 +11121,7 @@ def test_atomic_short_pattern_7_nistxml_sv_ii_atomic_short_pattern_3_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10467,6 +11137,7 @@ def test_atomic_short_pattern_7_nistxml_sv_ii_atomic_short_pattern_3_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10482,6 +11153,7 @@ def test_atomic_short_pattern_7_nistxml_sv_ii_atomic_short_pattern_3_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10497,6 +11169,7 @@ def test_atomic_short_pattern_7_nistxml_sv_ii_atomic_short_pattern_3_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10512,6 +11185,7 @@ def test_atomic_short_pattern_6_nistxml_sv_ii_atomic_short_pattern_2_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10527,6 +11201,7 @@ def test_atomic_short_pattern_6_nistxml_sv_ii_atomic_short_pattern_2_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10542,6 +11217,7 @@ def test_atomic_short_pattern_6_nistxml_sv_ii_atomic_short_pattern_2_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10557,6 +11233,7 @@ def test_atomic_short_pattern_6_nistxml_sv_ii_atomic_short_pattern_2_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10572,6 +11249,7 @@ def test_atomic_short_pattern_6_nistxml_sv_ii_atomic_short_pattern_2_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10587,6 +11265,7 @@ def test_atomic_short_pattern_5_nistxml_sv_ii_atomic_short_pattern_1_1(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10602,6 +11281,7 @@ def test_atomic_short_pattern_5_nistxml_sv_ii_atomic_short_pattern_1_2(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10617,6 +11297,7 @@ def test_atomic_short_pattern_5_nistxml_sv_ii_atomic_short_pattern_1_3(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10632,6 +11313,7 @@ def test_atomic_short_pattern_5_nistxml_sv_ii_atomic_short_pattern_1_4(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10647,6 +11329,7 @@ def test_atomic_short_pattern_5_nistxml_sv_ii_atomic_short_pattern_1_5(mode, sav
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10663,6 +11346,7 @@ def test_atomic_short_max_exclusive_9_nistxml_sv_ii_atomic_short_max_exclusive_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10679,6 +11363,7 @@ def test_atomic_short_max_exclusive_8_nistxml_sv_ii_atomic_short_max_exclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10695,6 +11380,7 @@ def test_atomic_short_max_exclusive_8_nistxml_sv_ii_atomic_short_max_exclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10711,6 +11397,7 @@ def test_atomic_short_max_exclusive_8_nistxml_sv_ii_atomic_short_max_exclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10727,6 +11414,7 @@ def test_atomic_short_max_exclusive_8_nistxml_sv_ii_atomic_short_max_exclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10743,6 +11431,7 @@ def test_atomic_short_max_exclusive_8_nistxml_sv_ii_atomic_short_max_exclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10759,6 +11448,7 @@ def test_atomic_short_max_exclusive_7_nistxml_sv_ii_atomic_short_max_exclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10775,6 +11465,7 @@ def test_atomic_short_max_exclusive_7_nistxml_sv_ii_atomic_short_max_exclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10791,6 +11482,7 @@ def test_atomic_short_max_exclusive_7_nistxml_sv_ii_atomic_short_max_exclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10807,6 +11499,7 @@ def test_atomic_short_max_exclusive_7_nistxml_sv_ii_atomic_short_max_exclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10823,6 +11516,7 @@ def test_atomic_short_max_exclusive_7_nistxml_sv_ii_atomic_short_max_exclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10839,6 +11533,7 @@ def test_atomic_short_max_exclusive_6_nistxml_sv_ii_atomic_short_max_exclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10855,6 +11550,7 @@ def test_atomic_short_max_exclusive_6_nistxml_sv_ii_atomic_short_max_exclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10871,6 +11567,7 @@ def test_atomic_short_max_exclusive_6_nistxml_sv_ii_atomic_short_max_exclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10887,6 +11584,7 @@ def test_atomic_short_max_exclusive_6_nistxml_sv_ii_atomic_short_max_exclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10903,6 +11601,7 @@ def test_atomic_short_max_exclusive_6_nistxml_sv_ii_atomic_short_max_exclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10919,6 +11618,7 @@ def test_atomic_short_max_exclusive_5_nistxml_sv_ii_atomic_short_max_exclusive_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10935,6 +11635,7 @@ def test_atomic_short_max_exclusive_5_nistxml_sv_ii_atomic_short_max_exclusive_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10951,6 +11652,7 @@ def test_atomic_short_max_exclusive_5_nistxml_sv_ii_atomic_short_max_exclusive_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10967,6 +11669,7 @@ def test_atomic_short_max_exclusive_5_nistxml_sv_ii_atomic_short_max_exclusive_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10983,6 +11686,7 @@ def test_atomic_short_max_exclusive_5_nistxml_sv_ii_atomic_short_max_exclusive_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -10999,6 +11703,7 @@ def test_atomic_short_min_exclusive_9_nistxml_sv_ii_atomic_short_min_exclusive_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11015,6 +11720,7 @@ def test_atomic_short_min_exclusive_9_nistxml_sv_ii_atomic_short_min_exclusive_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11031,6 +11737,7 @@ def test_atomic_short_min_exclusive_9_nistxml_sv_ii_atomic_short_min_exclusive_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11047,6 +11754,7 @@ def test_atomic_short_min_exclusive_9_nistxml_sv_ii_atomic_short_min_exclusive_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11063,6 +11771,7 @@ def test_atomic_short_min_exclusive_9_nistxml_sv_ii_atomic_short_min_exclusive_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11079,6 +11788,7 @@ def test_atomic_short_min_exclusive_8_nistxml_sv_ii_atomic_short_min_exclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11095,6 +11805,7 @@ def test_atomic_short_min_exclusive_8_nistxml_sv_ii_atomic_short_min_exclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11111,6 +11822,7 @@ def test_atomic_short_min_exclusive_8_nistxml_sv_ii_atomic_short_min_exclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11127,6 +11839,7 @@ def test_atomic_short_min_exclusive_8_nistxml_sv_ii_atomic_short_min_exclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11143,6 +11856,7 @@ def test_atomic_short_min_exclusive_8_nistxml_sv_ii_atomic_short_min_exclusive_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11159,6 +11873,7 @@ def test_atomic_short_min_exclusive_7_nistxml_sv_ii_atomic_short_min_exclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11175,6 +11890,7 @@ def test_atomic_short_min_exclusive_7_nistxml_sv_ii_atomic_short_min_exclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11191,6 +11907,7 @@ def test_atomic_short_min_exclusive_7_nistxml_sv_ii_atomic_short_min_exclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11207,6 +11924,7 @@ def test_atomic_short_min_exclusive_7_nistxml_sv_ii_atomic_short_min_exclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11223,6 +11941,7 @@ def test_atomic_short_min_exclusive_7_nistxml_sv_ii_atomic_short_min_exclusive_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11239,6 +11958,7 @@ def test_atomic_short_min_exclusive_6_nistxml_sv_ii_atomic_short_min_exclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11255,6 +11975,7 @@ def test_atomic_short_min_exclusive_6_nistxml_sv_ii_atomic_short_min_exclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11271,6 +11992,7 @@ def test_atomic_short_min_exclusive_6_nistxml_sv_ii_atomic_short_min_exclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11287,6 +12009,7 @@ def test_atomic_short_min_exclusive_6_nistxml_sv_ii_atomic_short_min_exclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11303,6 +12026,7 @@ def test_atomic_short_min_exclusive_6_nistxml_sv_ii_atomic_short_min_exclusive_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11319,6 +12043,7 @@ def test_atomic_short_min_exclusive_5_nistxml_sv_ii_atomic_short_min_exclusive_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11334,6 +12059,7 @@ def test_atomic_int_enumeration_9_nistxml_sv_ii_atomic_int_enumeration_5_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11349,6 +12075,7 @@ def test_atomic_int_enumeration_9_nistxml_sv_ii_atomic_int_enumeration_5_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11364,6 +12091,7 @@ def test_atomic_int_enumeration_9_nistxml_sv_ii_atomic_int_enumeration_5_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11379,6 +12107,7 @@ def test_atomic_int_enumeration_9_nistxml_sv_ii_atomic_int_enumeration_5_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11394,6 +12123,7 @@ def test_atomic_int_enumeration_9_nistxml_sv_ii_atomic_int_enumeration_5_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11409,6 +12139,7 @@ def test_atomic_int_enumeration_8_nistxml_sv_ii_atomic_int_enumeration_4_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11424,6 +12155,7 @@ def test_atomic_int_enumeration_8_nistxml_sv_ii_atomic_int_enumeration_4_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11439,6 +12171,7 @@ def test_atomic_int_enumeration_8_nistxml_sv_ii_atomic_int_enumeration_4_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11454,6 +12187,7 @@ def test_atomic_int_enumeration_8_nistxml_sv_ii_atomic_int_enumeration_4_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11469,6 +12203,7 @@ def test_atomic_int_enumeration_8_nistxml_sv_ii_atomic_int_enumeration_4_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11484,6 +12219,7 @@ def test_atomic_int_enumeration_7_nistxml_sv_ii_atomic_int_enumeration_3_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11499,6 +12235,7 @@ def test_atomic_int_enumeration_7_nistxml_sv_ii_atomic_int_enumeration_3_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11514,6 +12251,7 @@ def test_atomic_int_enumeration_7_nistxml_sv_ii_atomic_int_enumeration_3_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11529,6 +12267,7 @@ def test_atomic_int_enumeration_7_nistxml_sv_ii_atomic_int_enumeration_3_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11544,6 +12283,7 @@ def test_atomic_int_enumeration_7_nistxml_sv_ii_atomic_int_enumeration_3_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11559,6 +12299,7 @@ def test_atomic_int_enumeration_6_nistxml_sv_ii_atomic_int_enumeration_2_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11574,6 +12315,7 @@ def test_atomic_int_enumeration_6_nistxml_sv_ii_atomic_int_enumeration_2_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11589,6 +12331,7 @@ def test_atomic_int_enumeration_6_nistxml_sv_ii_atomic_int_enumeration_2_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11604,6 +12347,7 @@ def test_atomic_int_enumeration_6_nistxml_sv_ii_atomic_int_enumeration_2_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11619,6 +12363,7 @@ def test_atomic_int_enumeration_6_nistxml_sv_ii_atomic_int_enumeration_2_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11634,6 +12379,7 @@ def test_atomic_int_enumeration_5_nistxml_sv_ii_atomic_int_enumeration_1_1(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11649,6 +12395,7 @@ def test_atomic_int_enumeration_5_nistxml_sv_ii_atomic_int_enumeration_1_2(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11664,6 +12411,7 @@ def test_atomic_int_enumeration_5_nistxml_sv_ii_atomic_int_enumeration_1_3(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11679,6 +12427,7 @@ def test_atomic_int_enumeration_5_nistxml_sv_ii_atomic_int_enumeration_1_4(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11694,6 +12443,7 @@ def test_atomic_int_enumeration_5_nistxml_sv_ii_atomic_int_enumeration_1_5(mode,
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11709,6 +12459,7 @@ def test_atomic_int_pattern_9_nistxml_sv_ii_atomic_int_pattern_5_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11724,6 +12475,7 @@ def test_atomic_int_pattern_9_nistxml_sv_ii_atomic_int_pattern_5_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11739,6 +12491,7 @@ def test_atomic_int_pattern_9_nistxml_sv_ii_atomic_int_pattern_5_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11754,6 +12507,7 @@ def test_atomic_int_pattern_9_nistxml_sv_ii_atomic_int_pattern_5_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11769,6 +12523,7 @@ def test_atomic_int_pattern_9_nistxml_sv_ii_atomic_int_pattern_5_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11784,6 +12539,7 @@ def test_atomic_int_pattern_8_nistxml_sv_ii_atomic_int_pattern_4_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11799,6 +12555,7 @@ def test_atomic_int_pattern_8_nistxml_sv_ii_atomic_int_pattern_4_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11814,6 +12571,7 @@ def test_atomic_int_pattern_8_nistxml_sv_ii_atomic_int_pattern_4_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11829,6 +12587,7 @@ def test_atomic_int_pattern_8_nistxml_sv_ii_atomic_int_pattern_4_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11844,6 +12603,7 @@ def test_atomic_int_pattern_8_nistxml_sv_ii_atomic_int_pattern_4_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11859,6 +12619,7 @@ def test_atomic_int_pattern_7_nistxml_sv_ii_atomic_int_pattern_3_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11874,6 +12635,7 @@ def test_atomic_int_pattern_7_nistxml_sv_ii_atomic_int_pattern_3_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11889,6 +12651,7 @@ def test_atomic_int_pattern_7_nistxml_sv_ii_atomic_int_pattern_3_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11904,6 +12667,7 @@ def test_atomic_int_pattern_7_nistxml_sv_ii_atomic_int_pattern_3_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11919,6 +12683,7 @@ def test_atomic_int_pattern_7_nistxml_sv_ii_atomic_int_pattern_3_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11934,6 +12699,7 @@ def test_atomic_int_pattern_6_nistxml_sv_ii_atomic_int_pattern_2_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11949,6 +12715,7 @@ def test_atomic_int_pattern_6_nistxml_sv_ii_atomic_int_pattern_2_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11964,6 +12731,7 @@ def test_atomic_int_pattern_6_nistxml_sv_ii_atomic_int_pattern_2_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11979,6 +12747,7 @@ def test_atomic_int_pattern_6_nistxml_sv_ii_atomic_int_pattern_2_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -11994,6 +12763,7 @@ def test_atomic_int_pattern_6_nistxml_sv_ii_atomic_int_pattern_2_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12009,6 +12779,7 @@ def test_atomic_int_pattern_5_nistxml_sv_ii_atomic_int_pattern_1_1(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12024,6 +12795,7 @@ def test_atomic_int_pattern_5_nistxml_sv_ii_atomic_int_pattern_1_2(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12039,6 +12811,7 @@ def test_atomic_int_pattern_5_nistxml_sv_ii_atomic_int_pattern_1_3(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12054,6 +12827,7 @@ def test_atomic_int_pattern_5_nistxml_sv_ii_atomic_int_pattern_1_4(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12069,6 +12843,7 @@ def test_atomic_int_pattern_5_nistxml_sv_ii_atomic_int_pattern_1_5(mode, save_ou
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12085,6 +12860,7 @@ def test_atomic_int_max_exclusive_9_nistxml_sv_ii_atomic_int_max_exclusive_5_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12101,6 +12877,7 @@ def test_atomic_int_max_exclusive_8_nistxml_sv_ii_atomic_int_max_exclusive_4_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12117,6 +12894,7 @@ def test_atomic_int_max_exclusive_8_nistxml_sv_ii_atomic_int_max_exclusive_4_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12133,6 +12911,7 @@ def test_atomic_int_max_exclusive_8_nistxml_sv_ii_atomic_int_max_exclusive_4_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12149,6 +12928,7 @@ def test_atomic_int_max_exclusive_8_nistxml_sv_ii_atomic_int_max_exclusive_4_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12165,6 +12945,7 @@ def test_atomic_int_max_exclusive_8_nistxml_sv_ii_atomic_int_max_exclusive_4_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12181,6 +12962,7 @@ def test_atomic_int_max_exclusive_7_nistxml_sv_ii_atomic_int_max_exclusive_3_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12197,6 +12979,7 @@ def test_atomic_int_max_exclusive_7_nistxml_sv_ii_atomic_int_max_exclusive_3_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12213,6 +12996,7 @@ def test_atomic_int_max_exclusive_7_nistxml_sv_ii_atomic_int_max_exclusive_3_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12229,6 +13013,7 @@ def test_atomic_int_max_exclusive_7_nistxml_sv_ii_atomic_int_max_exclusive_3_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12245,6 +13030,7 @@ def test_atomic_int_max_exclusive_7_nistxml_sv_ii_atomic_int_max_exclusive_3_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12261,6 +13047,7 @@ def test_atomic_int_max_exclusive_6_nistxml_sv_ii_atomic_int_max_exclusive_2_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12277,6 +13064,7 @@ def test_atomic_int_max_exclusive_6_nistxml_sv_ii_atomic_int_max_exclusive_2_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12293,6 +13081,7 @@ def test_atomic_int_max_exclusive_6_nistxml_sv_ii_atomic_int_max_exclusive_2_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12309,6 +13098,7 @@ def test_atomic_int_max_exclusive_6_nistxml_sv_ii_atomic_int_max_exclusive_2_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12325,6 +13115,7 @@ def test_atomic_int_max_exclusive_6_nistxml_sv_ii_atomic_int_max_exclusive_2_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12341,6 +13132,7 @@ def test_atomic_int_max_exclusive_5_nistxml_sv_ii_atomic_int_max_exclusive_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12357,6 +13149,7 @@ def test_atomic_int_max_exclusive_5_nistxml_sv_ii_atomic_int_max_exclusive_1_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12373,6 +13166,7 @@ def test_atomic_int_max_exclusive_5_nistxml_sv_ii_atomic_int_max_exclusive_1_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12389,6 +13183,7 @@ def test_atomic_int_max_exclusive_5_nistxml_sv_ii_atomic_int_max_exclusive_1_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12405,6 +13200,7 @@ def test_atomic_int_max_exclusive_5_nistxml_sv_ii_atomic_int_max_exclusive_1_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12421,6 +13217,7 @@ def test_atomic_int_min_exclusive_9_nistxml_sv_ii_atomic_int_min_exclusive_5_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12437,6 +13234,7 @@ def test_atomic_int_min_exclusive_9_nistxml_sv_ii_atomic_int_min_exclusive_5_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12453,6 +13251,7 @@ def test_atomic_int_min_exclusive_9_nistxml_sv_ii_atomic_int_min_exclusive_5_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12469,6 +13268,7 @@ def test_atomic_int_min_exclusive_9_nistxml_sv_ii_atomic_int_min_exclusive_5_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12485,6 +13285,7 @@ def test_atomic_int_min_exclusive_9_nistxml_sv_ii_atomic_int_min_exclusive_5_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12501,6 +13302,7 @@ def test_atomic_int_min_exclusive_8_nistxml_sv_ii_atomic_int_min_exclusive_4_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12517,6 +13319,7 @@ def test_atomic_int_min_exclusive_8_nistxml_sv_ii_atomic_int_min_exclusive_4_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12533,6 +13336,7 @@ def test_atomic_int_min_exclusive_8_nistxml_sv_ii_atomic_int_min_exclusive_4_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12549,6 +13353,7 @@ def test_atomic_int_min_exclusive_8_nistxml_sv_ii_atomic_int_min_exclusive_4_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12565,6 +13370,7 @@ def test_atomic_int_min_exclusive_8_nistxml_sv_ii_atomic_int_min_exclusive_4_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12581,6 +13387,7 @@ def test_atomic_int_min_exclusive_7_nistxml_sv_ii_atomic_int_min_exclusive_3_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12597,6 +13404,7 @@ def test_atomic_int_min_exclusive_7_nistxml_sv_ii_atomic_int_min_exclusive_3_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12613,6 +13421,7 @@ def test_atomic_int_min_exclusive_7_nistxml_sv_ii_atomic_int_min_exclusive_3_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12629,6 +13438,7 @@ def test_atomic_int_min_exclusive_7_nistxml_sv_ii_atomic_int_min_exclusive_3_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12645,6 +13455,7 @@ def test_atomic_int_min_exclusive_7_nistxml_sv_ii_atomic_int_min_exclusive_3_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12661,6 +13472,7 @@ def test_atomic_int_min_exclusive_6_nistxml_sv_ii_atomic_int_min_exclusive_2_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12677,6 +13489,7 @@ def test_atomic_int_min_exclusive_6_nistxml_sv_ii_atomic_int_min_exclusive_2_2(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12693,6 +13506,7 @@ def test_atomic_int_min_exclusive_6_nistxml_sv_ii_atomic_int_min_exclusive_2_3(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12709,6 +13523,7 @@ def test_atomic_int_min_exclusive_6_nistxml_sv_ii_atomic_int_min_exclusive_2_4(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12725,6 +13540,7 @@ def test_atomic_int_min_exclusive_6_nistxml_sv_ii_atomic_int_min_exclusive_2_5(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12741,6 +13557,7 @@ def test_atomic_int_min_exclusive_5_nistxml_sv_ii_atomic_int_min_exclusive_1_1(m
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12756,6 +13573,7 @@ def test_atomic_long_enumeration_9_nistxml_sv_ii_atomic_long_enumeration_5_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12771,6 +13589,7 @@ def test_atomic_long_enumeration_9_nistxml_sv_ii_atomic_long_enumeration_5_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12786,6 +13605,7 @@ def test_atomic_long_enumeration_9_nistxml_sv_ii_atomic_long_enumeration_5_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12801,6 +13621,7 @@ def test_atomic_long_enumeration_9_nistxml_sv_ii_atomic_long_enumeration_5_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12816,6 +13637,7 @@ def test_atomic_long_enumeration_9_nistxml_sv_ii_atomic_long_enumeration_5_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12831,6 +13653,7 @@ def test_atomic_long_enumeration_8_nistxml_sv_ii_atomic_long_enumeration_4_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12846,6 +13669,7 @@ def test_atomic_long_enumeration_8_nistxml_sv_ii_atomic_long_enumeration_4_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12861,6 +13685,7 @@ def test_atomic_long_enumeration_8_nistxml_sv_ii_atomic_long_enumeration_4_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12876,6 +13701,7 @@ def test_atomic_long_enumeration_8_nistxml_sv_ii_atomic_long_enumeration_4_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12891,6 +13717,7 @@ def test_atomic_long_enumeration_8_nistxml_sv_ii_atomic_long_enumeration_4_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12906,6 +13733,7 @@ def test_atomic_long_enumeration_7_nistxml_sv_ii_atomic_long_enumeration_3_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12921,6 +13749,7 @@ def test_atomic_long_enumeration_7_nistxml_sv_ii_atomic_long_enumeration_3_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12936,6 +13765,7 @@ def test_atomic_long_enumeration_7_nistxml_sv_ii_atomic_long_enumeration_3_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12951,6 +13781,7 @@ def test_atomic_long_enumeration_7_nistxml_sv_ii_atomic_long_enumeration_3_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12966,6 +13797,7 @@ def test_atomic_long_enumeration_7_nistxml_sv_ii_atomic_long_enumeration_3_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12981,6 +13813,7 @@ def test_atomic_long_enumeration_6_nistxml_sv_ii_atomic_long_enumeration_2_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -12996,6 +13829,7 @@ def test_atomic_long_enumeration_6_nistxml_sv_ii_atomic_long_enumeration_2_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13011,6 +13845,7 @@ def test_atomic_long_enumeration_6_nistxml_sv_ii_atomic_long_enumeration_2_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13026,6 +13861,7 @@ def test_atomic_long_enumeration_6_nistxml_sv_ii_atomic_long_enumeration_2_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13041,6 +13877,7 @@ def test_atomic_long_enumeration_6_nistxml_sv_ii_atomic_long_enumeration_2_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13056,6 +13893,7 @@ def test_atomic_long_enumeration_5_nistxml_sv_ii_atomic_long_enumeration_1_1(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13071,6 +13909,7 @@ def test_atomic_long_enumeration_5_nistxml_sv_ii_atomic_long_enumeration_1_2(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13086,6 +13925,7 @@ def test_atomic_long_enumeration_5_nistxml_sv_ii_atomic_long_enumeration_1_3(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13101,6 +13941,7 @@ def test_atomic_long_enumeration_5_nistxml_sv_ii_atomic_long_enumeration_1_4(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13116,6 +13957,7 @@ def test_atomic_long_enumeration_5_nistxml_sv_ii_atomic_long_enumeration_1_5(mod
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13131,6 +13973,7 @@ def test_atomic_long_pattern_9_nistxml_sv_ii_atomic_long_pattern_5_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13146,6 +13989,7 @@ def test_atomic_long_pattern_9_nistxml_sv_ii_atomic_long_pattern_5_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13161,6 +14005,7 @@ def test_atomic_long_pattern_9_nistxml_sv_ii_atomic_long_pattern_5_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13176,6 +14021,7 @@ def test_atomic_long_pattern_9_nistxml_sv_ii_atomic_long_pattern_5_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13191,6 +14037,7 @@ def test_atomic_long_pattern_9_nistxml_sv_ii_atomic_long_pattern_5_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13206,6 +14053,7 @@ def test_atomic_long_pattern_8_nistxml_sv_ii_atomic_long_pattern_4_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13221,6 +14069,7 @@ def test_atomic_long_pattern_8_nistxml_sv_ii_atomic_long_pattern_4_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13236,6 +14085,7 @@ def test_atomic_long_pattern_8_nistxml_sv_ii_atomic_long_pattern_4_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13251,6 +14101,7 @@ def test_atomic_long_pattern_8_nistxml_sv_ii_atomic_long_pattern_4_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13266,6 +14117,7 @@ def test_atomic_long_pattern_8_nistxml_sv_ii_atomic_long_pattern_4_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13281,6 +14133,7 @@ def test_atomic_long_pattern_7_nistxml_sv_ii_atomic_long_pattern_3_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13296,6 +14149,7 @@ def test_atomic_long_pattern_7_nistxml_sv_ii_atomic_long_pattern_3_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13311,6 +14165,7 @@ def test_atomic_long_pattern_7_nistxml_sv_ii_atomic_long_pattern_3_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13326,6 +14181,7 @@ def test_atomic_long_pattern_7_nistxml_sv_ii_atomic_long_pattern_3_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13341,6 +14197,7 @@ def test_atomic_long_pattern_7_nistxml_sv_ii_atomic_long_pattern_3_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13356,6 +14213,7 @@ def test_atomic_long_pattern_6_nistxml_sv_ii_atomic_long_pattern_2_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13371,6 +14229,7 @@ def test_atomic_long_pattern_6_nistxml_sv_ii_atomic_long_pattern_2_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13386,6 +14245,7 @@ def test_atomic_long_pattern_6_nistxml_sv_ii_atomic_long_pattern_2_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13401,6 +14261,7 @@ def test_atomic_long_pattern_6_nistxml_sv_ii_atomic_long_pattern_2_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13416,6 +14277,7 @@ def test_atomic_long_pattern_6_nistxml_sv_ii_atomic_long_pattern_2_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13431,6 +14293,7 @@ def test_atomic_long_pattern_5_nistxml_sv_ii_atomic_long_pattern_1_1(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13446,6 +14309,7 @@ def test_atomic_long_pattern_5_nistxml_sv_ii_atomic_long_pattern_1_2(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13461,6 +14325,7 @@ def test_atomic_long_pattern_5_nistxml_sv_ii_atomic_long_pattern_1_3(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13476,6 +14341,7 @@ def test_atomic_long_pattern_5_nistxml_sv_ii_atomic_long_pattern_1_4(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13491,6 +14357,7 @@ def test_atomic_long_pattern_5_nistxml_sv_ii_atomic_long_pattern_1_5(mode, save_
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13507,6 +14374,7 @@ def test_atomic_long_max_exclusive_9_nistxml_sv_ii_atomic_long_max_exclusive_5_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13523,6 +14391,7 @@ def test_atomic_long_max_exclusive_8_nistxml_sv_ii_atomic_long_max_exclusive_4_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13539,6 +14408,7 @@ def test_atomic_long_max_exclusive_8_nistxml_sv_ii_atomic_long_max_exclusive_4_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13555,6 +14425,7 @@ def test_atomic_long_max_exclusive_8_nistxml_sv_ii_atomic_long_max_exclusive_4_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13571,6 +14442,7 @@ def test_atomic_long_max_exclusive_8_nistxml_sv_ii_atomic_long_max_exclusive_4_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13587,6 +14459,7 @@ def test_atomic_long_max_exclusive_8_nistxml_sv_ii_atomic_long_max_exclusive_4_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13603,6 +14476,7 @@ def test_atomic_long_max_exclusive_7_nistxml_sv_ii_atomic_long_max_exclusive_3_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13619,6 +14493,7 @@ def test_atomic_long_max_exclusive_7_nistxml_sv_ii_atomic_long_max_exclusive_3_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13635,6 +14510,7 @@ def test_atomic_long_max_exclusive_7_nistxml_sv_ii_atomic_long_max_exclusive_3_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13651,6 +14527,7 @@ def test_atomic_long_max_exclusive_7_nistxml_sv_ii_atomic_long_max_exclusive_3_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13667,6 +14544,7 @@ def test_atomic_long_max_exclusive_7_nistxml_sv_ii_atomic_long_max_exclusive_3_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13683,6 +14561,7 @@ def test_atomic_long_max_exclusive_6_nistxml_sv_ii_atomic_long_max_exclusive_2_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13699,6 +14578,7 @@ def test_atomic_long_max_exclusive_6_nistxml_sv_ii_atomic_long_max_exclusive_2_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13715,6 +14595,7 @@ def test_atomic_long_max_exclusive_6_nistxml_sv_ii_atomic_long_max_exclusive_2_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13731,6 +14612,7 @@ def test_atomic_long_max_exclusive_6_nistxml_sv_ii_atomic_long_max_exclusive_2_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13747,6 +14629,7 @@ def test_atomic_long_max_exclusive_6_nistxml_sv_ii_atomic_long_max_exclusive_2_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13763,6 +14646,7 @@ def test_atomic_long_max_exclusive_5_nistxml_sv_ii_atomic_long_max_exclusive_1_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13779,6 +14663,7 @@ def test_atomic_long_max_exclusive_5_nistxml_sv_ii_atomic_long_max_exclusive_1_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13795,6 +14680,7 @@ def test_atomic_long_max_exclusive_5_nistxml_sv_ii_atomic_long_max_exclusive_1_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13811,6 +14697,7 @@ def test_atomic_long_max_exclusive_5_nistxml_sv_ii_atomic_long_max_exclusive_1_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13827,6 +14714,7 @@ def test_atomic_long_max_exclusive_5_nistxml_sv_ii_atomic_long_max_exclusive_1_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13843,6 +14731,7 @@ def test_atomic_long_min_exclusive_9_nistxml_sv_ii_atomic_long_min_exclusive_5_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13859,6 +14748,7 @@ def test_atomic_long_min_exclusive_9_nistxml_sv_ii_atomic_long_min_exclusive_5_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13875,6 +14765,7 @@ def test_atomic_long_min_exclusive_9_nistxml_sv_ii_atomic_long_min_exclusive_5_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13891,6 +14782,7 @@ def test_atomic_long_min_exclusive_9_nistxml_sv_ii_atomic_long_min_exclusive_5_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13907,6 +14799,7 @@ def test_atomic_long_min_exclusive_9_nistxml_sv_ii_atomic_long_min_exclusive_5_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13923,6 +14816,7 @@ def test_atomic_long_min_exclusive_8_nistxml_sv_ii_atomic_long_min_exclusive_4_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13939,6 +14833,7 @@ def test_atomic_long_min_exclusive_8_nistxml_sv_ii_atomic_long_min_exclusive_4_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13955,6 +14850,7 @@ def test_atomic_long_min_exclusive_8_nistxml_sv_ii_atomic_long_min_exclusive_4_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13971,6 +14867,7 @@ def test_atomic_long_min_exclusive_8_nistxml_sv_ii_atomic_long_min_exclusive_4_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -13987,6 +14884,7 @@ def test_atomic_long_min_exclusive_8_nistxml_sv_ii_atomic_long_min_exclusive_4_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14003,6 +14901,7 @@ def test_atomic_long_min_exclusive_7_nistxml_sv_ii_atomic_long_min_exclusive_3_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14019,6 +14918,7 @@ def test_atomic_long_min_exclusive_7_nistxml_sv_ii_atomic_long_min_exclusive_3_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14035,6 +14935,7 @@ def test_atomic_long_min_exclusive_7_nistxml_sv_ii_atomic_long_min_exclusive_3_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14051,6 +14952,7 @@ def test_atomic_long_min_exclusive_7_nistxml_sv_ii_atomic_long_min_exclusive_3_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14067,6 +14969,7 @@ def test_atomic_long_min_exclusive_7_nistxml_sv_ii_atomic_long_min_exclusive_3_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14083,6 +14986,7 @@ def test_atomic_long_min_exclusive_6_nistxml_sv_ii_atomic_long_min_exclusive_2_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14099,6 +15003,7 @@ def test_atomic_long_min_exclusive_6_nistxml_sv_ii_atomic_long_min_exclusive_2_2
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14115,6 +15020,7 @@ def test_atomic_long_min_exclusive_6_nistxml_sv_ii_atomic_long_min_exclusive_2_3
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14131,6 +15037,7 @@ def test_atomic_long_min_exclusive_6_nistxml_sv_ii_atomic_long_min_exclusive_2_4
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14147,6 +15054,7 @@ def test_atomic_long_min_exclusive_6_nistxml_sv_ii_atomic_long_min_exclusive_2_5
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14163,6 +15071,7 @@ def test_atomic_long_min_exclusive_5_nistxml_sv_ii_atomic_long_min_exclusive_1_1
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14178,6 +15087,7 @@ def test_atomic_negative_integer_enumeration_9_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14193,6 +15103,7 @@ def test_atomic_negative_integer_enumeration_9_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14208,6 +15119,7 @@ def test_atomic_negative_integer_enumeration_9_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14223,6 +15135,7 @@ def test_atomic_negative_integer_enumeration_9_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14238,6 +15151,7 @@ def test_atomic_negative_integer_enumeration_9_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14253,6 +15167,7 @@ def test_atomic_negative_integer_enumeration_8_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14268,6 +15183,7 @@ def test_atomic_negative_integer_enumeration_8_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14283,6 +15199,7 @@ def test_atomic_negative_integer_enumeration_8_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14298,6 +15215,7 @@ def test_atomic_negative_integer_enumeration_8_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14313,6 +15231,7 @@ def test_atomic_negative_integer_enumeration_8_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14328,6 +15247,7 @@ def test_atomic_negative_integer_enumeration_7_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14343,6 +15263,7 @@ def test_atomic_negative_integer_enumeration_7_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14358,6 +15279,7 @@ def test_atomic_negative_integer_enumeration_7_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14373,6 +15295,7 @@ def test_atomic_negative_integer_enumeration_7_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14388,6 +15311,7 @@ def test_atomic_negative_integer_enumeration_7_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14403,6 +15327,7 @@ def test_atomic_negative_integer_enumeration_6_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14418,6 +15343,7 @@ def test_atomic_negative_integer_enumeration_6_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14433,6 +15359,7 @@ def test_atomic_negative_integer_enumeration_6_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14448,6 +15375,7 @@ def test_atomic_negative_integer_enumeration_6_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14463,6 +15391,7 @@ def test_atomic_negative_integer_enumeration_6_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14478,6 +15407,7 @@ def test_atomic_negative_integer_enumeration_5_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14493,6 +15423,7 @@ def test_atomic_negative_integer_enumeration_5_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14508,6 +15439,7 @@ def test_atomic_negative_integer_enumeration_5_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14523,6 +15455,7 @@ def test_atomic_negative_integer_enumeration_5_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14538,6 +15471,7 @@ def test_atomic_negative_integer_enumeration_5_nistxml_sv_ii_atomic_negative_int
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14554,6 +15488,7 @@ def test_atomic_negative_integer_pattern_9_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14570,6 +15505,7 @@ def test_atomic_negative_integer_pattern_9_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14586,6 +15522,7 @@ def test_atomic_negative_integer_pattern_9_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14602,6 +15539,7 @@ def test_atomic_negative_integer_pattern_9_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14618,6 +15556,7 @@ def test_atomic_negative_integer_pattern_9_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14634,6 +15573,7 @@ def test_atomic_negative_integer_pattern_8_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14650,6 +15590,7 @@ def test_atomic_negative_integer_pattern_8_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14666,6 +15607,7 @@ def test_atomic_negative_integer_pattern_8_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14682,6 +15624,7 @@ def test_atomic_negative_integer_pattern_8_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14698,6 +15641,7 @@ def test_atomic_negative_integer_pattern_8_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14714,6 +15658,7 @@ def test_atomic_negative_integer_pattern_7_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14730,6 +15675,7 @@ def test_atomic_negative_integer_pattern_7_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14746,6 +15692,7 @@ def test_atomic_negative_integer_pattern_7_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14762,6 +15709,7 @@ def test_atomic_negative_integer_pattern_7_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14778,6 +15726,7 @@ def test_atomic_negative_integer_pattern_7_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14794,6 +15743,7 @@ def test_atomic_negative_integer_pattern_6_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14810,6 +15760,7 @@ def test_atomic_negative_integer_pattern_6_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14826,6 +15777,7 @@ def test_atomic_negative_integer_pattern_6_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14842,6 +15794,7 @@ def test_atomic_negative_integer_pattern_6_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14858,6 +15811,7 @@ def test_atomic_negative_integer_pattern_6_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14874,6 +15828,7 @@ def test_atomic_negative_integer_pattern_5_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14890,6 +15845,7 @@ def test_atomic_negative_integer_pattern_5_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14906,6 +15862,7 @@ def test_atomic_negative_integer_pattern_5_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14922,6 +15879,7 @@ def test_atomic_negative_integer_pattern_5_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14938,6 +15896,7 @@ def test_atomic_negative_integer_pattern_5_nistxml_sv_ii_atomic_negative_integer
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14954,6 +15913,7 @@ def test_atomic_negative_integer_max_exclusive_9_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14970,6 +15930,7 @@ def test_atomic_negative_integer_max_exclusive_8_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -14986,6 +15947,7 @@ def test_atomic_negative_integer_max_exclusive_8_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15002,6 +15964,7 @@ def test_atomic_negative_integer_max_exclusive_8_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15018,6 +15981,7 @@ def test_atomic_negative_integer_max_exclusive_8_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15034,6 +15998,7 @@ def test_atomic_negative_integer_max_exclusive_8_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15050,6 +16015,7 @@ def test_atomic_negative_integer_max_exclusive_7_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15066,6 +16032,7 @@ def test_atomic_negative_integer_max_exclusive_7_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15082,6 +16049,7 @@ def test_atomic_negative_integer_max_exclusive_7_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15098,6 +16066,7 @@ def test_atomic_negative_integer_max_exclusive_7_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15114,6 +16083,7 @@ def test_atomic_negative_integer_max_exclusive_7_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15130,6 +16100,7 @@ def test_atomic_negative_integer_max_exclusive_6_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15146,6 +16117,7 @@ def test_atomic_negative_integer_max_exclusive_6_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15162,6 +16134,7 @@ def test_atomic_negative_integer_max_exclusive_6_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15178,6 +16151,7 @@ def test_atomic_negative_integer_max_exclusive_6_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15194,6 +16168,7 @@ def test_atomic_negative_integer_max_exclusive_6_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15210,6 +16185,7 @@ def test_atomic_negative_integer_max_exclusive_5_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15226,6 +16202,7 @@ def test_atomic_negative_integer_max_exclusive_5_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15242,6 +16219,7 @@ def test_atomic_negative_integer_max_exclusive_5_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15258,6 +16236,7 @@ def test_atomic_negative_integer_max_exclusive_5_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15274,6 +16253,7 @@ def test_atomic_negative_integer_max_exclusive_5_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15290,6 +16270,7 @@ def test_atomic_negative_integer_min_exclusive_9_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15306,6 +16287,7 @@ def test_atomic_negative_integer_min_exclusive_9_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15322,6 +16304,7 @@ def test_atomic_negative_integer_min_exclusive_9_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15338,6 +16321,7 @@ def test_atomic_negative_integer_min_exclusive_9_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15354,6 +16338,7 @@ def test_atomic_negative_integer_min_exclusive_9_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15370,6 +16355,7 @@ def test_atomic_negative_integer_min_exclusive_8_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15386,6 +16372,7 @@ def test_atomic_negative_integer_min_exclusive_8_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15402,6 +16389,7 @@ def test_atomic_negative_integer_min_exclusive_8_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15418,6 +16406,7 @@ def test_atomic_negative_integer_min_exclusive_8_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15434,6 +16423,7 @@ def test_atomic_negative_integer_min_exclusive_8_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15450,6 +16440,7 @@ def test_atomic_negative_integer_min_exclusive_7_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15466,6 +16457,7 @@ def test_atomic_negative_integer_min_exclusive_7_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15482,6 +16474,7 @@ def test_atomic_negative_integer_min_exclusive_7_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15498,6 +16491,7 @@ def test_atomic_negative_integer_min_exclusive_7_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15514,6 +16508,7 @@ def test_atomic_negative_integer_min_exclusive_7_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15530,6 +16525,7 @@ def test_atomic_negative_integer_min_exclusive_6_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15546,6 +16542,7 @@ def test_atomic_negative_integer_min_exclusive_6_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15562,6 +16559,7 @@ def test_atomic_negative_integer_min_exclusive_6_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15578,6 +16576,7 @@ def test_atomic_negative_integer_min_exclusive_6_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -15594,4 +16593,5 @@ def test_atomic_negative_integer_min_exclusive_6_nistxml_sv_ii_atomic_negative_i
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )

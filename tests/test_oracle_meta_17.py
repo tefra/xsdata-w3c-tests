@@ -16,6 +16,7 @@ def test_zone405_zone405_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -32,6 +33,7 @@ def test_zone405_zone405_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -48,6 +50,7 @@ def test_zone405_zone405_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -64,6 +67,7 @@ def test_zone404_zone404_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -81,6 +85,7 @@ def test_zone404_zone404_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -98,6 +103,7 @@ def test_zone404_zone404_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -114,6 +120,7 @@ def test_zone403_zone403_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -130,6 +137,7 @@ def test_zone403_zone403_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -147,6 +155,7 @@ def test_zone403_zone403_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -163,6 +172,7 @@ def test_zone402_zone402_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -179,6 +189,7 @@ def test_zone402_zone402_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -194,6 +205,7 @@ def test_zone402_zone402_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -209,6 +221,7 @@ def test_zone401_zone401_v1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -224,6 +237,7 @@ def test_zone401_zone401_v2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -239,6 +253,7 @@ def test_zone401_zone401_v3_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -255,6 +270,7 @@ def test_zone401_zone401_n1_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )
 
 
@@ -271,4 +287,5 @@ def test_zone401_zone401_n2_xml(mode, save_output):
         version="1.1",
         mode=mode,
         save_output=save_output,
+        structure_style="filenames",
     )

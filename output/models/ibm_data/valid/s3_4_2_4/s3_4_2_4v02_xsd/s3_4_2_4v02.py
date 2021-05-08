@@ -10,14 +10,10 @@ class Root:
         name = "root"
         namespace = "http://xstest-tns/schema11_S3_4_2_4"
 
-    e1: Optional["Root.E1"] = field(
+    e1: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
         }
     )
-
-    @dataclass
-    class E1:
-        pass

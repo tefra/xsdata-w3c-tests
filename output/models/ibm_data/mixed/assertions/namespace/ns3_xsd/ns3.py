@@ -10,14 +10,10 @@ class X:
         name = "x"
         namespace = "http://www.example.org"
 
-    y: Optional["X.Y"] = field(
+    y: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
         }
     )
-
-    @dataclass
-    class Y:
-        pass

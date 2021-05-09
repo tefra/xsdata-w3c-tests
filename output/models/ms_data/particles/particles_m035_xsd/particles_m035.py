@@ -38,13 +38,7 @@ class B:
 
 @dataclass
 class R(B):
-    d2: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
+    pass
 
 
 @dataclass

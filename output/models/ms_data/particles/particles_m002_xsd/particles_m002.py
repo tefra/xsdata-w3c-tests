@@ -39,14 +39,7 @@ class B:
 
 @dataclass
 class R(B):
-    c1: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "max_occurs": 2,
-        }
-    )
+    pass
 
 
 @dataclass

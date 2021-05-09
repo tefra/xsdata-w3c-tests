@@ -1,8 +1,12 @@
 {
     "qname": "root",
     "value": {
-        "e": "",
-        "f": "",
+        "e": [
+            ""
+        ],
+        "f": [
+            ""
+        ],
         "type": "R"
     },
     "substituted": false

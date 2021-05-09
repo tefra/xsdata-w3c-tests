@@ -34,15 +34,7 @@ class B:
 
 @dataclass
 class R(B):
-    imp_elem1: Optional[ImpElem1] = field(
-        default=None,
-        metadata={
-            "name": "impElem1",
-            "type": "Element",
-            "namespace": "http://importedXSD",
-            "required": True,
-        }
-    )
+    pass
 
 
 @dataclass

@@ -1,12 +1,35 @@
 {
     "elem": {
         "annotation": "",
-        "element_or_any": [],
-        "element": [
-            "",
-            "",
-            "",
-            ""
+        "element_or_any": [
+            {
+                "qname": "element",
+                "text": "",
+                "tail": null,
+                "children": [],
+                "attributes": {}
+            },
+            {
+                "qname": "element",
+                "text": "",
+                "tail": null,
+                "children": [],
+                "attributes": {}
+            },
+            {
+                "qname": "element",
+                "text": "",
+                "tail": null,
+                "children": [],
+                "attributes": {}
+            },
+            {
+                "qname": "element",
+                "text": "",
+                "tail": null,
+                "children": [],
+                "attributes": {}
+            }
         ]
     }
 }

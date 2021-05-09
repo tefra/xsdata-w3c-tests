@@ -35,13 +35,7 @@ class Base:
 
 @dataclass
 class Derived(Base):
-    element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
+    pass
 
 
 @dataclass

@@ -1,0 +1,27 @@
+  {
+      "content": [
+          {
+              "qname": "a",
+              "text": "",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+          },
+          {
+              "qname": "b",
+              "value": {
++                 "content": [],
+-                 "w3_org_xml_1998_namespace_attributes": {}
++                 "w3_org_xml_1998_namespace_attributes": {},
+?                                                           +
+
++                 "a": null,
++                 "b": null
+              },
+              "substituted": false
+          }
+      ],
+      "w3_org_xml_1998_namespace_attributes": {},
+      "a": null,
+      "b": null
+  }

@@ -1,0 +1,14 @@
+  {
+      "qname": "root",
+-     "value": {},
+?               --
+
++     "value": {
++         "qname": null,
++         "text": null,
++         "tail": null,
++         "children": [],
++         "attributes": {}
++     },
+      "substituted": false
+  }

@@ -3,8 +3,6 @@ import difflib
 import functools
 import logging
 import os
-import pprint
-from dataclasses import asdict
 from pathlib import Path
 from typing import Any
 from typing import Dict
@@ -96,20 +94,20 @@ def assert_json_bindings(obj: Any, save_path: Optional[Path]):
         save_path.with_suffix(".json").write_text(obj_json)
 
         with contextlib.suppress(FileNotFoundError):
-            save_path.with_suffix(".round.json").unlink()
+            save_path.with_suffix(".diff").unlink()
 
     if obj != obj_b:
+        obj_b_json = serializer.render(obj_b)
+
+        if obj_json == obj_b_json:
+            return
+
+        diff = "\n".join(difflib.ndiff(obj_json.splitlines(), obj_b_json.splitlines()))
+
         if save_path:
-            save_path.with_suffix(".round.json").write_text(serializer.render(obj_b))
+            save_path.with_suffix(".diff").write_text(diff)
 
-        message = "JSON Round trip failed\n" + "\n".join(
-            difflib.ndiff(
-                pprint.pformat(asdict(obj)).splitlines(),
-                pprint.pformat(asdict(obj_b)).splitlines(),
-            )
-        )
-
-        raise AssertionError(message)
+        raise AssertionError(f"JSON Round trip failed\n{diff}")
 
 
 def assert_xml_bindings(

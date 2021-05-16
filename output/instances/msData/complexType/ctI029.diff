@@ -1,0 +1,10 @@
+  {
+      "fooTest": {
+          "fooEle1": "string",
+-         "fooEle2": 26,
+?                      -
+
++         "fooEle2": 26
+-         "fooEle3": true
+      }
+  }

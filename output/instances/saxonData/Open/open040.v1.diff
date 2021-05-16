@@ -1,0 +1,34 @@
+  {
+      "a": null,
+      "b": null,
+      "open_com_element": [
+          {
+              "qname": "a",
+              "value": {
+                  "open_com_element": {
+                      "qname": "{http://open.com/}extra",
+                      "text": "",
+                      "tail": null,
+                      "children": [],
+                      "attributes": {}
+-                 }
++                 },
+?                  +
+
++                 "a": [],
++                 "b": null,
++                 "c": null,
++                 "d": null,
++                 "any_element": null
+              },
+              "substituted": false
+          },
+          {
+              "qname": "b",
+              "text": "",
+              "tail": null,
+              "children": [],
+              "attributes": {}
+          }
+      ]
+  }

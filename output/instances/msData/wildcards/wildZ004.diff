@@ -1,0 +1,13 @@
+  {
+      "any_element": {
+          "qname": "{http://xsdtesting}myelem",
+          "value": {
+-             "a": "hello"
++             "a": "hello",
+?                         +
+
++             "any_element": []
+          },
+          "substituted": true
+      }
+  }

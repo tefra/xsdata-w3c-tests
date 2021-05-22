@@ -34,7 +34,7 @@
                         "A002",
                         "B002"
                     ],
-                    "substituted": false
+                    "type": null
                 }
             ],
             "mixedA": [],

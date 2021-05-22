@@ -37,7 +37,7 @@
                     "weightKg": "4.5",
                     "shipBy": "air"
                 },
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "item",
@@ -55,7 +55,7 @@
                     "weightKg": "2.5",
                     "shipBy": "air"
                 },
-                "substituted": false
+                "type": null
             }
         ],
         "item": []

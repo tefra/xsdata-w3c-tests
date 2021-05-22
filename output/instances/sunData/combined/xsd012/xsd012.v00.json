@@ -19,7 +19,7 @@
                             "attributes": {}
                         }
                     },
-                    "substituted": false
+                    "type": null
                 },
                 {
                     "qname": "{foo}b",
@@ -32,7 +32,7 @@
                             "attributes": {}
                         }
                     },
-                    "substituted": false
+                    "type": null
                 },
                 {
                     "qname": "{foo}c",
@@ -45,7 +45,7 @@
                             "attributes": {}
                         }
                     },
-                    "substituted": false
+                    "type": null
                 }
             ],
             "a_or_b_or_c": []

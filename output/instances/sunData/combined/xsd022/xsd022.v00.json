@@ -8,32 +8,32 @@
         {
             "qname": "{http://foo.com}child2",
             "value": true,
-            "substituted": false
+            "type": null
         },
         {
             "qname": "{http://foo.com}child2",
             "value": false,
-            "substituted": false
+            "type": null
         },
         {
             "qname": "{http://foo.com}child2",
             "value": false,
-            "substituted": false
+            "type": null
         },
         {
             "qname": "{http://foo.com}child2",
             "value": true,
-            "substituted": false
+            "type": null
         },
         {
             "qname": "{http://foo.com}child2",
             "value": "abcdef",
-            "substituted": false
+            "type": null
         },
         {
             "qname": "{http://foo.com}child2",
             "value": "xxxxxxxx",
-            "substituted": false
+            "type": null
         }
     ]
 }

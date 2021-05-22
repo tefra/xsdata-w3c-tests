@@ -3,5 +3,5 @@
     "value": {
         "value": "2"
     },
-    "substituted": false
+    "type": "{ST_name}Test"
 }

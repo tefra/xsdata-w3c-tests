@@ -29,28 +29,28 @@
             "value": {
                 "foo": ""
             },
-            "substituted": false
+            "type": null
         },
         {
             "qname": "{foo}item2",
             "value": {
                 "foo": ""
             },
-            "substituted": true
+            "type": "{foo}B"
         },
         {
             "qname": "{foo}item2",
             "value": {
                 "foo": ""
             },
-            "substituted": true
+            "type": "{foo}Dr"
         },
         {
             "qname": "{foo}item2",
             "value": {
                 "foo": ""
             },
-            "substituted": true
+            "type": "{foo}Drr"
         }
     ]
 }

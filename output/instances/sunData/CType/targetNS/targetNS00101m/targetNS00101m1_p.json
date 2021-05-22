@@ -3,5 +3,5 @@
     "value": {
         "abc": "1"
     },
-    "substituted": false
+    "type": "{targetNS}Test"
 }

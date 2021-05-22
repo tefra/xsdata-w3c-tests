@@ -4,7 +4,7 @@
             {
                 "qname": "{http://xsdtesting}c1",
                 "value": 1,
-                "substituted": false
+                "type": null
             }
         ]
     }

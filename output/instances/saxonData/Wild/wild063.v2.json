@@ -4,6 +4,6 @@
     "local_element": {
         "qname": "f",
         "value": 3,
-        "substituted": false
+        "type": null
     }
 }

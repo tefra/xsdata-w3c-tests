@@ -29,7 +29,7 @@ def mode(request):
 
 @pytest.hookimpl
 def pytest_sessionfinish(session, exitstatus):
-    if session.config.getoption("mode") == "json" and session.testsfailed <= 120:
+    if session.config.getoption("mode") == "json" and session.testsfailed <= 39:
         session.exitstatus = 0
-    elif session.config.getoption("mode") == "xml" and session.testsfailed <= 13:
+    elif session.config.getoption("mode") == "xml" and session.testsfailed <= 5:
         session.exitstatus = 0

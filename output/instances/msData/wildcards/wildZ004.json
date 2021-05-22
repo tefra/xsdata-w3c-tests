@@ -4,6 +4,6 @@
         "value": {
             "a": "hello"
         },
-        "substituted": true
+        "type": "{http://xsdtesting}ctype_foo"
     }
 }

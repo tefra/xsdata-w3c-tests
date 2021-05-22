@@ -4,6 +4,6 @@
         "value": {
             "a": "hello"
         },
-        "substituted": true
+        "type": "{urn-klondike-test}ctype_foo"
     }
 }

@@ -4,27 +4,27 @@
         {
             "qname": "ElementRef",
             "value": "e001",
-            "substituted": false
+            "type": null
         },
         {
             "qname": "ElementRefs",
             "value": [
                 "e001"
             ],
-            "substituted": false
+            "type": null
         },
         "e001",
         {
             "qname": "ElementRef",
             "value": "e001",
-            "substituted": false
+            "type": null
         },
         {
             "qname": "ElementRefs",
             "value": [
                 "e001"
             ],
-            "substituted": false
+            "type": null
         }
     ]
 }

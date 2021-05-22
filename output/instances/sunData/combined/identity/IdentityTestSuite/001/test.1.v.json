@@ -4,7 +4,7 @@
         {
             "qname": "{foo}ref",
             "value": "5.0",
-            "substituted": false
+            "type": null
         }
     ]
 }

@@ -3,27 +3,27 @@
         {
             "qname": "{http://xsdtesting}E1",
             "value": 1,
-            "substituted": false
+            "type": null
         },
         {
             "qname": "{http://xsdtesting}E1",
             "value": true,
-            "substituted": false
+            "type": null
         },
         {
             "qname": "{http://xsdtesting}E1",
             "value": false,
-            "substituted": false
+            "type": null
         },
         {
             "qname": "{http://xsdtesting}E1",
             "value": "x",
-            "substituted": false
+            "type": null
         },
         {
             "qname": "{http://xsdtesting}E1",
             "value": "y",
-            "substituted": false
+            "type": null
         },
         1,
         {

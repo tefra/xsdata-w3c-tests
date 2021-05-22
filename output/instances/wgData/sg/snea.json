@@ -3,12 +3,12 @@
         {
             "qname": "{http://www.w3.org/XML/2008/xsdl-exx/ns1}s",
             "value": "Test case for interaction of substitution groups and \n   #definedSibling.",
-            "substituted": false
+            "type": null
         },
         {
             "qname": "{http://www.w3.org/XML/2008/xsdl-exx/ns1}n",
             "value": "",
-            "substituted": false
+            "type": null
         },
         {
             "qname": "{http://www.w3.org/XML/2008/xsdl-exx/ns1}e",
@@ -20,7 +20,7 @@
         {
             "qname": "{http://www.w3.org/XML/2008/xsdl-exx/ns1}a",
             "value": "",
-            "substituted": false
+            "type": null
         }
     ]
 }

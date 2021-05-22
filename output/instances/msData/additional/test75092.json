@@ -4,12 +4,12 @@
         {
             "qname": "b",
             "value": "abc",
-            "substituted": false
+            "type": null
         },
         {
             "qname": "c",
             "value": 123,
-            "substituted": false
+            "type": null
         }
     ]
 }

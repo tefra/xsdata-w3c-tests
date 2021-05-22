@@ -37,7 +37,7 @@
                     "weightKg": "4.5",
                     "shipBy": "air"
                 },
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "{http://www.example.com/IPO}item",
@@ -53,7 +53,7 @@
                     "weightKg": null,
                     "shipBy": null
                 },
-                "substituted": false
+                "type": null
             }
         ],
         "item": []

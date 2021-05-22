@@ -27,7 +27,7 @@
                     "weightKg": "4.5",
                     "shipBy": "air"
                 },
-                "substituted": false
+                "type": null
             }
         ],
         "item": []

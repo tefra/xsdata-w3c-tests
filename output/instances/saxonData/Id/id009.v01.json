@@ -6,7 +6,7 @@
                 {
                     "qname": "idref",
                     "value": "ccc",
-                    "substituted": false
+                    "type": null
                 }
             ]
         },
@@ -16,7 +16,7 @@
                 {
                     "qname": "idref",
                     "value": "aaa",
-                    "substituted": false
+                    "type": null
                 }
             ]
         },
@@ -26,7 +26,7 @@
                 {
                     "qname": "idref",
                     "value": "bbb",
-                    "substituted": false
+                    "type": null
                 }
             ]
         },
@@ -36,7 +36,7 @@
                 {
                     "qname": "idref",
                     "value": null,
-                    "substituted": false
+                    "type": null
                 }
             ]
         }

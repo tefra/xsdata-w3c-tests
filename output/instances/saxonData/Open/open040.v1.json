@@ -13,7 +13,7 @@
                     "attributes": {}
                 }
             },
-            "substituted": false
+            "type": null
         },
         {
             "qname": "b",

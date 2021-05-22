@@ -9,77 +9,77 @@
             {
                 "qname": "int",
                 "value": -2147483648,
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "int",
                 "value": -1,
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "int",
                 "value": 0,
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "int",
                 "value": 1,
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "int",
                 "value": 2147483647,
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "smallint",
                 "value": -32768,
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "smallint",
                 "value": -1,
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "smallint",
                 "value": 0,
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "smallint",
                 "value": 1,
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "smallint",
                 "value": 32767,
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "tinyint",
                 "value": 0,
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "tinyint",
                 "value": 1,
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "tinyint",
                 "value": 33,
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "tinyint",
                 "value": 254,
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "tinyint",
                 "value": 255,
-                "substituted": false
+                "type": null
             },
             "-9954645.9999",
             "-99232423454645.999900",
@@ -94,52 +94,52 @@
             {
                 "qname": "money",
                 "value": "-18888888888.5808",
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "money",
                 "value": "-188.5808",
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "money",
                 "value": "0",
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "money",
                 "value": "188.5808",
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "money",
                 "value": "18888888888.5808",
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "smallmoney",
                 "value": "-121212.1112",
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "smallmoney",
                 "value": "-1.11",
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "smallmoney",
                 "value": "0.0",
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "smallmoney",
                 "value": "1.11",
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "smallmoney",
                 "value": "121212.1112",
-                "substituted": false
+                "type": null
             },
             -1.79e+308,
             -1.79,
@@ -149,27 +149,27 @@
             {
                 "qname": "real",
                 "value": -3.4e+38,
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "real",
                 "value": 2.79e+38,
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "real",
                 "value": 0.0,
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "real",
                 "value": 2.79e+38,
-                "substituted": false
+                "type": null
             },
             {
                 "qname": "real",
                 "value": 3.4e+38,
-                "substituted": false
+                "type": null
             },
             {
                 "date": "2000-10-10",

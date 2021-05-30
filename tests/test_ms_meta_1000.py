@@ -223,23 +223,6 @@ def test_is_default078_is_default078_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_is_default077_is_default077_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : fixed value on mixed content with invalid value in
-    XML
-    """
-    assert_bindings(
-        schema="msData/additional/isdefault076.xsd",
-        instance="msData/additional/isdefault076.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_is_default076_is_default076_v(mode, save_output):
     """
     TEST :Adhoc XSD: : fixed value on mixed content
@@ -334,23 +317,6 @@ def test_is_default071_is_default071_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_is_default070_is_default070_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : element of type xs:anyType with value not matching
-    the fixed value in the schema should error(invalid)
-    """
-    assert_bindings(
-        schema="msData/additional/isdefault070.xsd",
-        instance="msData/additional/isdefault070.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_is_default060_1_is_default060_1_v(mode, save_output):
     """
     TEST :Adhoc XSD: : test empty element typed as xsd:int with default
@@ -431,57 +397,6 @@ def test_is_default065_is_default065_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_is_default064_is_default064_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root
-    element, schema HAS targetNamespace, one invalid(3)
-    """
-    assert_bindings(
-        schema="msData/additional/isdefault061.xsd",
-        instance="msData/additional/isdefault064.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_is_default063_is_default063_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root
-    element, schema HAS targetNamespace, one invalid(2)
-    """
-    assert_bindings(
-        schema="msData/additional/isdefault061.xsd",
-        instance="msData/additional/isdefault063.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_is_default062_is_default062_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root
-    element, schema HAS targetNamespace, one invalid(1)
-    """
-    assert_bindings(
-        schema="msData/additional/isdefault061.xsd",
-        instance="msData/additional/isdefault062.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_is_default061_is_default061_v(mode, save_output):
     """
     TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root
@@ -554,57 +469,6 @@ def test_is_default055_is_default055_v(mode, save_output):
     assert_bindings(
         schema="msData/additional/isdefault051.xsd",
         instance="msData/additional/isdefault055.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_is_default054_is_default054_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root
-    element, schema has no targetNamespace, one invalid(3)
-    """
-    assert_bindings(
-        schema="msData/additional/isdefault051.xsd",
-        instance="msData/additional/isdefault054.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_is_default053_is_default053_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root
-    element, schema has no targetNamespace, one invalid(2)
-    """
-    assert_bindings(
-        schema="msData/additional/isdefault051.xsd",
-        instance="msData/additional/isdefault053.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_is_default052_is_default052_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root
-    element, schema has no targetNamespace, one invalid(1)
-    """
-    assert_bindings(
-        schema="msData/additional/isdefault051.xsd",
-        instance="msData/additional/isdefault052.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -757,74 +621,6 @@ def test_is_default021_is_default021_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_is_default011_is_default011_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
-    with one invalid value(3)
-    """
-    assert_bindings(
-        schema="msData/additional/isdefault002.xsd",
-        instance="msData/additional/isdefault011.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_is_default010_is_default010_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
-    with one invalid value (2)
-    """
-    assert_bindings(
-        schema="msData/additional/isdefault002.xsd",
-        instance="msData/additional/isdefault010.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_is_default009_is_default009_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
-    with one invalid value(1)
-    """
-    assert_bindings(
-        schema="msData/additional/isdefault002.xsd",
-        instance="msData/additional/isdefault009.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_is_default008_is_default008_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
-    with invalid values
-    """
-    assert_bindings(
-        schema="msData/additional/isdefault002.xsd",
-        instance="msData/additional/isdefault008.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_is_default007_is_default007_v(mode, save_output):
     """
     TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements
@@ -865,23 +661,6 @@ def test_is_default005_is_default005_v(mode, save_output):
     assert_bindings(
         schema="msData/additional/isdefault002.xsd",
         instance="msData/additional/isdefault005.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_is_default004_is_default004_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : Check IsDefault(fixed) for Element with invalid
-    value
-    """
-    assert_bindings(
-        schema="msData/additional/isdefault001.xsd",
-        instance="msData/additional/isdefault004.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -1002,123 +781,6 @@ def test_add_d001_add_d001_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b202b_add_b202b_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : zero width unicode characeter test datatype parsing
-    -datetime
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/datetime.xml",
-        class_name="A",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b202a_add_b202a_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : zero width unicode characeter test datatype parsing
-    - hexbin
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/hexbin.xml",
-        class_name="A",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b201_add_b201_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : zero width unicode characeter test namespace decl
-    """
-    assert_bindings(
-        schema="msData/additional/ns.xsd",
-        instance="msData/additional/ns.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b200c_add_b200c_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : zero width unicode characeter test identity
-    constraints(3)
-    """
-    assert_bindings(
-        schema="msData/additional/idc.xsd",
-        instance="msData/additional/idc3.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b200b_add_b200b_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : zero width unicode characeter test identity
-    constraints(2)
-    """
-    assert_bindings(
-        schema="msData/additional/idc.xsd",
-        instance="msData/additional/idc2.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b200a_add_b200a_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : zero width unicode characeter test identity
-    constraints(1)
-    """
-    assert_bindings(
-        schema="msData/additional/idc.xsd",
-        instance="msData/additional/idc1.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b199_add_b199_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : zero width unicode characeter test with xsi type
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/xsiType.xml",
-        class_name="A",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_add_b198d_add_b198d_v(mode, save_output):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with minLength
@@ -1151,91 +813,6 @@ def test_add_b198c_add_b198c_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b198b_add_b198b_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : zero width unicode characeter test with maxLength
-    facet(2)
-    """
-    assert_bindings(
-        schema="msData/additional/maxLength.xsd",
-        instance="msData/additional/maxLength2.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b198a_add_b198a_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : zero width unicode characeter test with maxLength
-    facet(1)
-    """
-    assert_bindings(
-        schema="msData/additional/maxLength.xsd",
-        instance="msData/additional/maxLength1.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b197f_add_b197f_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : zero width unicode characeter test with enumeration
-    value(6)
-    """
-    assert_bindings(
-        schema="msData/additional/enum2.xsd",
-        instance="msData/additional/enum1c.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b197e_add_b197e_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : zero width unicode characeter test with enumeration
-    value(5)
-    """
-    assert_bindings(
-        schema="msData/additional/enum2.xsd",
-        instance="msData/additional/enum1a.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b197d_add_b197d_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : zero width unicode characeter test with enumeration
-    value(4)
-    """
-    assert_bindings(
-        schema="msData/additional/enum1.xsd",
-        instance="msData/additional/enum1d.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_add_b197c_add_b197c_v(mode, save_output):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with enumeration
@@ -1244,23 +821,6 @@ def test_add_b197c_add_b197c_v(mode, save_output):
     assert_bindings(
         schema="msData/additional/enum1.xsd",
         instance="msData/additional/enum1c.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b197b_add_b197b_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : zero width unicode characeter test with enumeration
-    value(2)
-    """
-    assert_bindings(
-        schema="msData/additional/enum1.xsd",
-        instance="msData/additional/enum1b.xml",
         class_name="Doc",
         version="1.1",
         mode=mode,
@@ -1285,74 +845,6 @@ def test_add_b197a_add_b197a_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b196l_add_b196l_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : zero width unicode characeter test with fixed
-    value(12)
-    """
-    assert_bindings(
-        schema="msData/additional/fixed2.xsd",
-        instance="msData/additional/fixed3b.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b196k_add_b196k_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : zero width unicode characeter test with fixed
-    value(11)
-    """
-    assert_bindings(
-        schema="msData/additional/fixed2.xsd",
-        instance="msData/additional/fixed3a.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b196j_add_b196j_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : zero width unicode characeter test with fixed
-    value(10)
-    """
-    assert_bindings(
-        schema="msData/additional/fixed2.xsd",
-        instance="msData/additional/fixed2b.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b196i_add_b196i_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : zero width unicode characeter test with fixed
-    value(9)
-    """
-    assert_bindings(
-        schema="msData/additional/fixed2.xsd",
-        instance="msData/additional/fixed2a.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_add_b196h_add_b196h_v(mode, save_output):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with fixed
@@ -1361,23 +853,6 @@ def test_add_b196h_add_b196h_v(mode, save_output):
     assert_bindings(
         schema="msData/additional/fixed2.xsd",
         instance="msData/additional/fixed1d.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b196g_add_b196g_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : zero width unicode characeter test with fixed
-    value(7)
-    """
-    assert_bindings(
-        schema="msData/additional/fixed2.xsd",
-        instance="msData/additional/fixed1c.xml",
         class_name="Doc",
         version="1.1",
         mode=mode,
@@ -1402,40 +877,6 @@ def test_add_b196f_add_b196f_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b196e_add_b196e_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : zero width unicode characeter test with fixed
-    value(5)
-    """
-    assert_bindings(
-        schema="msData/additional/fixed2.xsd",
-        instance="msData/additional/fixed1a.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b196d_add_b196d_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : zero width unicode characeter test with fixed
-    value(4)
-    """
-    assert_bindings(
-        schema="msData/additional/fixed1.xsd",
-        instance="msData/additional/fixed1d.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_add_b196c_add_b196c_v(mode, save_output):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with fixed
@@ -1452,23 +893,6 @@ def test_add_b196c_add_b196c_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b196b_add_b196b_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : zero width unicode characeter test with fixed
-    value(2)
-    """
-    assert_bindings(
-        schema="msData/additional/fixed1.xsd",
-        instance="msData/additional/fixed1b.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_add_b196a_add_b196a_v(mode, save_output):
     """
     TEST :Adhoc XSD: : zero width unicode characeter test with fixed
@@ -1477,42 +901,6 @@ def test_add_b196a_add_b196a_v(mode, save_output):
     assert_bindings(
         schema="msData/additional/fixed1.xsd",
         instance="msData/additional/fixed1a.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b191_add_b191_v(mode, save_output):
-    """
-    TEST :Adhoc XSD: : XSD: During validation of an element schemas in
-    schemaLocation and noNamespaceSchemaLocation hints should be compiled
-    together TSTF agreed that an un-imported NS used in a QName is a
-    schema error
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/addB191.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b188_add_b188_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : XSD: Support user specified schema for
-    http://www.w3.org/XML/1998/namespace namespace
-    """
-    assert_bindings(
-        schema="msData/additional/test264908_1.xsd",
-        instance="msData/additional/test264908_1i.xml",
         class_name="Doc",
         version="1.1",
         mode=mode,
@@ -1553,22 +941,6 @@ def test_add_b182_add_b182_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b181_add_b181_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="validating an invalid xsd type"
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test109017.xml",
-        class_name="Assembly",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_add_b176_add_b176_v(mode, save_output):
     """
     TEST :Adhoc XSD: : id="102850" description="valid but ambigous schema"
@@ -1577,23 +949,6 @@ def test_add_b176_add_b176_v(mode, save_output):
         schema="msData/additional/test102850_1.xsd",
         instance="msData/additional/test102850_1.xml",
         class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b175_add_b175_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="102433" description="Validation of xml
-    instances should be namespace strict"
-    """
-    assert_bindings(
-        schema="msData/additional/test102433.xsd",
-        instance="msData/additional/test102433_6.xml",
-        class_name="Foo",
         version="1.1",
         mode=mode,
         save_output=save_output,
@@ -1617,74 +972,6 @@ def test_add_b174_add_b174_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b173_add_b173_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="102433" description="Validation of xml
-    instances should be namespace strict"
-    """
-    assert_bindings(
-        schema="msData/additional/test102433.xsd",
-        instance="msData/additional/test102433_4.xml",
-        class_name="Foo",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b172_add_b172_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="102433" description="Validation of xml
-    instances should be namespace strict"
-    """
-    assert_bindings(
-        schema="msData/additional/test102433.xsd",
-        instance="msData/additional/test102433_3.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b171_add_b171_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="102433" description="Validation of xml
-    instances should be namespace strict"
-    """
-    assert_bindings(
-        schema="msData/additional/test102433.xsd",
-        instance="msData/additional/test102433_2.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b170_add_b170_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="102433" description="Validation of xml
-    instances should be namespace strict"
-    """
-    assert_bindings(
-        schema="msData/additional/test102433.xsd",
-        instance="msData/additional/test102433_1.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_add_b169_1_add_b169_1_v(mode, save_output):
     """
     TEST :Adhoc XSD: : id="243307" description="test valid document with
@@ -1701,282 +988,6 @@ def test_add_b169_1_add_b169_1_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b169_add_b169_v(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="93490" description="test schema location or
-    inline schema seen after item from schema target namespace seen"
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test93490_15.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b168_add_b168_v(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="93490" description="test schema location or
-    inline schema seen after item from schema target namespace seen"
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test93490_14.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b167_add_b167_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="93490" description="test schema location or
-    inline schema seen after item from schema target namespace seen" WG
-    decided that although perhaps misleading, this test is OK
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test93490_13.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b166_add_b166_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="93490" description="test schema location or
-    inline schema seen after item from schema target namespace seen"
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test93490_12.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b165_add_b165_v(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="93490" description="test schema location or
-    inline schema seen after item from schema target namespace seen"
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test93490_11.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b164_add_b164_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="93490" description="test schema location or
-    inline schema seen after item from schema target namespace seen"
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test93490_10.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b163_add_b163_v(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="93490" description="test schema location or
-    inline schema seen after item from schema target namespace seen"
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test93490_9.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b162_add_b162_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="93490" description="test schema location or
-    inline schema seen after item from schema target namespace seen"
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test93490_8.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b161_add_b161_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="93490" description="test schema location or
-    inline schema seen after item from schema target namespace seen"
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test93490_7.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b160_add_b160_v(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="93490" description="test schema location or
-    inline schema seen after item from schema target namespace seen"
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test93490_6.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b159_add_b159_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="93490" description="test schema location or
-    inline schema seen after item from schema target namespace seen"
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test93490_5.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b158_add_b158_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="93490" description="test schema location or
-    inline schema seen after item from schema target namespace seen" See
-    also bug 9158 and 15863
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test93490_4.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b157_add_b157_v(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="93490" description="test schema location or
-    inline schema seen after item from schema target namespace seen"
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test93490_3.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b156_add_b156_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="93490" description="test schema location or
-    inline schema seen after item from schema target namespace seen" See
-    also bug 9158 and 15863
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test93490_2.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b155_add_b155_v(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="93490" description="test schema location or
-    inline schema seen after item from schema target namespace seen"
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test93490_1.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b149_add_b149_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="97822" description="complexContent element with
-    fixed value that has the same name as base element does not validate
-    against invalid data"
-    """
-    assert_bindings(
-        schema="msData/additional/test97822.xsd",
-        instance="msData/additional/test97822.xml",
-        class_name="Root1",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_add_b148_add_b148_v(mode, save_output):
     """
     TEST :Adhoc XSD: : id="93276" description="XSD: should not overwrite
@@ -1986,23 +997,6 @@ def test_add_b148_add_b148_v(mode, save_output):
     assert_bindings(
         schema="msData/additional/test93276.xsd",
         instance="msData/additional/test93276.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_test93160_test93160_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : Whitespace is collapsed for element with type
-    xs:anySimpleType
-    """
-    assert_bindings(
-        schema="msData/additional/test93160.xsd",
-        instance="msData/additional/test93160.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -2029,41 +1023,6 @@ def test_add_b145_add_b145_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b143_add_b143_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="83452" description="Invalid lexical hexBinary
-    value of 'abcde' should be rejected, hexBinary should be even in
-    length."
-    """
-    assert_bindings(
-        schema="msData/additional/test83452.xsd",
-        instance="msData/additional/test83452.xml",
-        class_name="Test",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b142_add_b142_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="84613" description="validation xml with inline
-    schema"
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test84613.xml",
-        class_name="Envelope",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_add_b140_add_b140_v(mode, save_output):
     """
     TEST :Adhoc XSD: : id="78000" description="any and
@@ -2073,40 +1032,6 @@ def test_add_b140_add_b140_v(mode, save_output):
         schema="msData/additional/test78000a.xsd",
         instance="msData/additional/test78000.xml",
         class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b139_add_b139_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="84002" description="validating an XSD with
-    empty value in a nsmespace declaration, xmlns=''"
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test84002_b.xml",
-        class_name="A",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b138_add_b138_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="84002" description="validating an XSD with
-    empty value in a nsmespace declaration, xmlns=''"
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test84002_a.xml",
-        class_name="A",
         version="1.1",
         mode=mode,
         save_output=save_output,
@@ -2139,23 +1064,6 @@ def test_add_b135_add_b135_v(mode, save_output):
         schema="msData/additional/test81662.xsd",
         instance="msData/additional/test81662.xml",
         class_name="Test",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b134_add_b134_v(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="72131" description="XSD: test xml includes xsd
-    in the attribute xsi:noNamespaceSchemaLocation"
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test72131.xml",
-        class_name="OrdersByCustomer",
         version="1.1",
         mode=mode,
         save_output=save_output,
@@ -2243,40 +1151,6 @@ def test_add_b125_add_b125_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b124_add_b124_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="79253" description="XSD: validating an XML with
-    a not welform XSD?"
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test79253.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b123_add_b123_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="79416" description="xsd: test violation of
-    uniqueness in xsd"
-    """
-    assert_bindings(
-        schema="msData/additional/test79416.xsd",
-        instance="msData/additional/test79416.xml",
-        class_name="Foo",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_add_b122_add_b122_v(mode, save_output):
     """
     TEST :Adhoc XSD: : id="78910" description="xsd: wildcard: content type
@@ -2286,23 +1160,6 @@ def test_add_b122_add_b122_v(mode, save_output):
         schema="msData/additional/addB122.xsd",
         instance="msData/additional/addB122.xml",
         class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b120_add_b120_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="73456" description="xsd: test validating an XML
-    with invalid XSD."
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test73456.xml",
-        class_name="A",
         version="1.1",
         mode=mode,
         save_output=save_output,
@@ -2327,73 +1184,6 @@ def test_add_b116_add_b116_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b115_add_b115_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="75564" description="xsd: absolute string in
-    fixed attribute value, when there are invalid char follow the valud
-    value."
-    """
-    assert_bindings(
-        schema="msData/additional/addB115.xsd",
-        instance="msData/additional/addB115.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b114_add_b114_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="75808" description="xsd testing"
-    """
-    assert_bindings(
-        schema="msData/additional/addB114.xsd",
-        instance="msData/additional/addB114.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b109_add_b109_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : check that the local fixed value must be the same
-    as the global fixed value
-    """
-    assert_bindings(
-        schema="msData/additional/addB109.xsd",
-        instance="msData/additional/addB109.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b105_add_b105_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : test element's fixed value is not normalized
-    """
-    assert_bindings(
-        schema="msData/additional/addB105.xsd",
-        instance="msData/additional/addB105.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_add_b104_add_b104_v(mode, save_output):
     """
     TEST :Adhoc XSD: : test attribute normalization of fixed value of an
@@ -2410,41 +1200,6 @@ def test_add_b104_add_b104_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b102_add_b102_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="60941" description="xsd: particle validation
-    rules: test when group's minOccurs=2 and the instant XML has only one
-    sequence of group"
-    """
-    assert_bindings(
-        schema="msData/additional/addB102.xsd",
-        instance="msData/additional/addB102.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b098_add_b098_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="61115" description="test when the content is
-    incomplete."
-    """
-    assert_bindings(
-        schema="msData/additional/addB098.xsd",
-        instance="msData/additional/addB098.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_add_b096_add_b096_v(mode, save_output):
     """
     TEST :Adhoc XSD: : id="61053" description="xsd: test 'group' reference
@@ -2453,24 +1208,6 @@ def test_add_b096_add_b096_v(mode, save_output):
     assert_bindings(
         schema="msData/additional/addB096.xsd",
         instance="msData/additional/addB096.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b092_add_b092_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="62136" description="xsd: in an 'all' group,
-    when element is declared as minOccurs=0, maxOccurs=0, it should not be
-    able to appear in instant XML."
-    """
-    assert_bindings(
-        schema="msData/additional/addB092.xsd",
-        instance="msData/additional/addB092.xml",
         class_name="Doc",
         version="1.1",
         mode=mode,
@@ -2513,24 +1250,6 @@ def test_add_b088_add_b088_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b087_add_b087_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="61692" description="xsd:
-    elementFormDefault=qualified, test elements from imported xsd that are
-    not qualified in the instant XML."
-    """
-    assert_bindings(
-        schema="msData/additional/addB087.xsd",
-        instance="msData/additional/addB087.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_add_b084_add_b084_v(mode, save_output):
     """
     TEST :Adhoc XSD: : id="61599" description="xsd:particle: all, test
@@ -2548,23 +1267,6 @@ def test_add_b084_add_b084_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b080_add_b080_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="72554" description="XSD: should disallow
-    duplicate ID attributes like DTD and XDR"
-    """
-    assert_bindings(
-        schema="msData/additional/addB080.xsd",
-        instance="msData/additional/addB080.xml",
-        class_name="Orders",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_add_b076_add_b076_v(mode, save_output):
     """
     TEST :Adhoc XSD: : id="75028"
@@ -2573,41 +1275,6 @@ def test_add_b076_add_b076_v(mode, save_output):
         schema="msData/additional/addB076.xsd",
         instance="msData/additional/addB076.xml",
         class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b075_add_b075_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="75564" description="xsd: we do not check for
-    absolute string in fixed attribute value, when there are invalid char
-    follow the valud value."
-    """
-    assert_bindings(
-        schema="msData/additional/test75564.xsd",
-        instance="msData/additional/test75564.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b069_add_b069_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="63950" description="Validating instance
-    document against schema with an integer restriction"
-    """
-    assert_bindings(
-        schema="msData/additional/test63950.xsd",
-        instance="msData/additional/test63950.xml",
-        class_name="Zip",
         version="1.1",
         mode=mode,
         save_output=save_output,
@@ -2638,57 +1305,6 @@ def test_add_b067_add_b067_v(mode, save_output):
     assert_bindings(
         schema="msData/additional/test73986.xsd",
         instance="msData/additional/test73986.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b066_add_b066_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="73850" description="xsd: test duplicated ID
-    (one is attribute one is element) in instance xml"
-    """
-    assert_bindings(
-        schema="msData/additional/test73850.xsd",
-        instance="msData/additional/test73850.xml",
-        class_name="A",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b065_add_b065_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="73826" description="xsd: element, when nillable
-    is true, there must be no fixed value"
-    """
-    assert_bindings(
-        schema="msData/additional/test73826.xsd",
-        instance="msData/additional/test73826.xml",
-        class_name="R",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_b063_add_b063_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : 72702 - test using or validating a not-wellformed
-    XSD
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/test72702.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -2729,23 +1345,6 @@ def test_add_b058_add_b058_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b057_add_b057_i(mode, save_output):
-    r"""
-    TEST :Adhoc XSD: : id="73715" description="xsd: Regular Expression:
-    preprocess pattern '\\c' should match '\c'"
-    """
-    assert_bindings(
-        schema="msData/additional/test73715.xsd",
-        instance="msData/additional/test73715i.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_add_b056_add_b056_v(mode, save_output):
     r"""
     TEST :Adhoc XSD: : id="73715" description="xsd: Regular Expression:
@@ -2770,43 +1369,6 @@ def test_add_b054_add_b054_v(mode, save_output):
     assert_bindings(
         schema="msData/additional/test70948.xsd",
         instance="msData/additional/test70948.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b050_add_b050_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="72232" description="xsd: keyref should be able
-    to refer to a key defined on the parent element."
-    """
-    assert_bindings(
-        schema="msData/additional/test72232_2.xsd",
-        instance="msData/additional/test72232_2.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b049_add_b049_v(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="72232" description="xsd: keyref should be able
-    to refer to a key defined on the parent element." TSTF concluded the
-    narrower scope of the keyref means it's invalid Oops, 2010-01-22
-    change was mistaken, should have been instance invalid, schema
-    restored to validity, instance made invalid
-    """
-    assert_bindings(
-        schema="msData/additional/test72232_1.xsd",
-        instance="msData/additional/test72232_1.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -2856,23 +1418,6 @@ def test_add_b040_add_b040_v(mode, save_output):
         schema="msData/additional/test72049_a.xsd",
         instance="msData/additional/test72049.xml",
         class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b037_add_b037_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="70130" description="XSD:text is not allowed
-    when using xsd:any elements."
-    """
-    assert_bindings(
-        schema="msData/additional/test70130.xsd",
-        instance="msData/additional/test70130.xml",
-        class_name="Type",
         version="1.1",
         mode=mode,
         save_output=save_output,
@@ -2943,23 +1488,6 @@ def test_add_b019_add_b019_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b013_add_b013_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="67514" title="xsd: when processContents is
-    strict, test for element that are not defined in a specified schema."
-    """
-    assert_bindings(
-        schema="msData/additional/test67514.xsd",
-        instance="msData/additional/test67514.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_add_b012_add_b012_v(mode, save_output):
     """
     TEST :Adhoc XSD: : id="67500" title="xsd: checking QName datatype
@@ -2976,56 +1504,6 @@ def test_add_b012_add_b012_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b011_add_b011_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="66541" title="xsd: Regular Expression"
-    """
-    assert_bindings(
-        schema="msData/additional/test66541.xsd",
-        instance="msData/additional/test66541.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b003_add_b003_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="63389" title="loading invalid XML with empty
-    content"
-    """
-    assert_bindings(
-        schema="msData/additional/test63389.xsd",
-        instance="msData/additional/test63389.xml",
-        class_name="PurchaseOrder",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_add_b002_add_b002_i(mode, save_output):
-    """
-    TEST :Adhoc XSD: : id="63569" title="test restrictions of simple
-    types"
-    """
-    assert_bindings(
-        schema="msData/additional/test63569.xsd",
-        instance="msData/additional/test63569.xml",
-        class_name="Zip",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_add_c001_add_c001_v(mode, save_output):
     """
     TEST :Adhoc XSD: : use of xml:base
@@ -3033,56 +1511,6 @@ def test_add_c001_add_c001_v(mode, save_output):
     assert_bindings(
         schema="msData/additional/adhocAddC001.xsd",
         instance="msData/additional/adhocAddC001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_a008_add_a008_v(mode, save_output):
-    """
-    TEST :Adhoc XSD: : uses substitution Element from the importing XSD(2)
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/adhocAddB004.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_adda007_adda007_v(mode, save_output):
-    """
-    TEST :Adhoc XSD: : uses substitution Element from the importing XSD
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/adhocAddB003.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_add_a006_add_a006_v(mode, save_output):
-    """
-    TEST :Adhoc XSD: : xsd: when both the imported and importing XSDs are
-    added to schema collection, the instance XML uses substitution Element
-    from the importing XSD to a root element declared in imported XSD.
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/additional/adhocAddB002.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -3107,42 +1535,6 @@ def test_add_a005_add_a005_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_attg_z001_attg_z001_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (ID) : xsd: global
-    attribute reference in attributeGroup should be invalid if not
-    qualified in the instance. (attributeFormDefault is qualified).
-    """
-    assert_bindings(
-        schema="msData/attributeGroup/attgZ001.xsd",
-        instance="msData/attributeGroup/attgZ001.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_attg_d042_attg_d042_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup
-    (w/ namespace=other, processContents=##strict), the xml has the
-    attribute instance which conatins invalid attribute against schema
-    """
-    assert_bindings(
-        schema="msData/attributeGroup/attgD042.xsd",
-        instance="msData/attributeGroup/attgD042.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_attg_d036_attg_d036_v(mode, save_output):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : complexType's
@@ -3153,25 +1545,6 @@ def test_attg_d036_attg_d036_v(mode, save_output):
     assert_bindings(
         schema="msData/attributeGroup/attgD036.xsd",
         instance="msData/attributeGroup/attgD036.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_attg_d035_attg_d035_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (ID) : complexType's
-    AttributeGroup with reference to attributeGroup from 'redefine', where
-    there is an attribute declared as int, with value="37", the xml has
-    the attribute instance which "36"
-    """
-    assert_bindings(
-        schema="msData/attributeGroup/attgD035.xsd",
-        instance="msData/attributeGroup/attgD035.xml",
         class_name="Doc",
         version="1.1",
         mode=mode,
@@ -3249,25 +1622,6 @@ def test_attg_d031_attg_d031_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_attg_d030_attg_d030_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (ID) : Basic
-    AttributeGroup with anyAttribute (w/ namespace=##targetNamespace), the
-    xml has the attribute instance which is of namespace other than
-    targetNamespace
-    """
-    assert_bindings(
-        schema="msData/attributeGroup/attgD030.xsd",
-        instance="msData/attributeGroup/attgD030.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_attg_d029_attg_d029_v(mode, save_output):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
@@ -3277,24 +1631,6 @@ def test_attg_d029_attg_d029_v(mode, save_output):
     assert_bindings(
         schema="msData/attributeGroup/attgD029.xsd",
         instance="msData/attributeGroup/attgD029.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_attg_d028_attg_d028_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (ID) : Basic
-    AttributeGroup with anyAttribute (w/ namespace="foo"), the xml has the
-    attribute instance which is of namespace "bar"
-    """
-    assert_bindings(
-        schema="msData/attributeGroup/attgD028.xsd",
-        instance="msData/attributeGroup/attgD028.xml",
         class_name="Doc",
         version="1.1",
         mode=mode,
@@ -3320,24 +1656,6 @@ def test_attg_d027_attg_d027_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_attg_d026_attg_d026_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (ID) : Basic
-    AttributeGroup with anyAttribute (w/ namespace=##local), the xml has
-    the attribute instance which is namespace qualified
-    """
-    assert_bindings(
-        schema="msData/attributeGroup/attgD026.xsd",
-        instance="msData/attributeGroup/attgD026.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_attg_d025_attg_d025_v(mode, save_output):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Basic
@@ -3347,44 +1665,6 @@ def test_attg_d025_attg_d025_v(mode, save_output):
     assert_bindings(
         schema="msData/attributeGroup/attgD025.xsd",
         instance="msData/attributeGroup/attgD025.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_attg_d024_attg_d024_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (ID) : Basic
-    AttributeGroup with anyAttribute (w/ namespace=##any), the xml has the
-    attribute instance which fall under targetNS, but not defiled in the
-    schema
-    """
-    assert_bindings(
-        schema="msData/attributeGroup/attgD024.xsd",
-        instance="msData/attributeGroup/attgD024.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_attg_d023_attg_d023_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (ID) : Basic
-    AttributeGroup with anyAttribute (w/ namespace=##other), the xml has
-    the attribute instance with namespace same as the targetNamdspace of
-    the xsd
-    """
-    assert_bindings(
-        schema="msData/attributeGroup/attgD023.xsd",
-        instance="msData/attributeGroup/attgD023.xml",
         class_name="Doc",
         version="1.1",
         mode=mode,
@@ -3614,24 +1894,6 @@ def test_attg_c026_attg_c026_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_attg_c025_attg_c025_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (ID) : Test
-    attributeGroup declaration: parent is extension, ref='name of a global
-    attribute group from included xsd'
-    """
-    assert_bindings(
-        schema="msData/attributeGroup/attgC025.xsd",
-        instance="msData/attributeGroup/attgC025.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_attg_c024_attg_c024_v(mode, save_output):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
@@ -3666,24 +1928,6 @@ def test_attg_c010_attg_c010a(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_attg_c010_attg_c010b(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (ID) : Test
-    attributeGroup declaration: self referencing, name="test", has child
-    attributeGroup that also has, parent is attributeGroup, ref='test'
-    """
-    assert_bindings(
-        schema="msData/attributeGroup/attgC010.xsd",
-        instance="msData/attributeGroup/attgC010b.xml",
-        class_name="T",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_attg_c007_attg_c007_v(mode, save_output):
     """
     TEST :Syntax Checking for Attribute Declaration (ID) : Test
@@ -3695,26 +1939,6 @@ def test_attg_c007_attg_c007_v(mode, save_output):
     assert_bindings(
         schema="msData/attributeGroup/attgC007.xsd",
         instance="msData/attributeGroup/attgC007.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_attg_c006_attg_c006_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (ID) : Test
-    attributeGroup declaration: can only reference global attributeGroup
-    parent is attributeGroup, ref='name of attribute group declared inside
-    a redefine', and xml instant has value different what is defined as
-    fixed in the redefined attributeGroup.
-    """
-    assert_bindings(
-        schema="msData/attributeGroup/attgC006.xsd",
-        instance="msData/attributeGroup/attgC006.xml",
         class_name="Doc",
         version="1.1",
         mode=mode,
@@ -3774,40 +1998,6 @@ def test_att_z014a_att_z014a_i(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_z009_att_z009_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : when more
-    than one xsi attribute encountered in an invalid file
-    """
-    assert_bindings(
-        schema="msData/attribute/attZ009.xsd",
-        instance="msData/attribute/attZ009.xml",
-        class_name="MyFields",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_z007i_att_z007i_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : XSD:
-    insertion of prohibited attribute in a derived type
-    """
-    assert_bindings(
-        schema="msData/attribute/attZ007.xsd",
-        instance="msData/attribute/attZ007i.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_att_z007v_att_z007v_v(mode, save_output):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : XSD:
@@ -3848,23 +2038,6 @@ def test_att_z002_att_z002_v(mode, save_output):
     assert_bindings(
         schema="msData/attribute/attZ002.xsd",
         instance="msData/attribute/attZ002.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_z001_att_z001_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : Redefine and
-    restriction of attribute
-    """
-    assert_bindings(
-        schema="msData/attribute/attZ001.xsd",
-        instance="msData/attribute/attZ001.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -3991,24 +2164,6 @@ def test_att_p028_att_p028_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_p027_att_p027_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : name='foo'
-    use=optional, default="37" (may appear once, may have any value)
-    name='foo1', instant xml value=38
-    """
-    assert_bindings(
-        schema="msData/attribute/attP027.xsd",
-        instance="msData/attribute/attP027.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_att_p026_att_p026_v(mode, save_output):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=optional,
@@ -4111,24 +2266,6 @@ def test_att_p021_att_p021_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_p020_att_p020_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : use=optional,
-    fixed="37" (may appear once, if appear, value must be "37"), instant
-    xml value =38
-    """
-    assert_bindings(
-        schema="msData/attribute/attP020.xsd",
-        instance="msData/attribute/attP020.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_att_p019_att_p019_v(mode, save_output):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=optional,
@@ -4138,24 +2275,6 @@ def test_att_p019_att_p019_v(mode, save_output):
     assert_bindings(
         schema="msData/attribute/attP019.xsd",
         instance="msData/attribute/attP019.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_p018_att_p018_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : use=optional,
-    fixed="37" (may appear once, if appear, value must be "37"), instant
-    xml value =36
-    """
-    assert_bindings(
-        schema="msData/attribute/attP018.xsd",
-        instance="msData/attribute/attP018.xml",
         class_name="Doc",
         version="1.1",
         mode=mode,
@@ -4181,24 +2300,6 @@ def test_att_p017_att_p017_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_p016_att_p016_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : use=absent,
-    fixed="37" (may appear once, if appear, value must be "37"), instant
-    xml value =38
-    """
-    assert_bindings(
-        schema="msData/attribute/attP016.xsd",
-        instance="msData/attribute/attP016.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_att_p015_att_p015_v(mode, save_output):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=absent,
@@ -4208,24 +2309,6 @@ def test_att_p015_att_p015_v(mode, save_output):
     assert_bindings(
         schema="msData/attribute/attP015.xsd",
         instance="msData/attribute/attP015.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_p014_att_p014_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : use=absent,
-    fixed="37" (may appear once, if appear, value must be "37"), instant
-    xml value =36
-    """
-    assert_bindings(
-        schema="msData/attribute/attP014.xsd",
-        instance="msData/attribute/attP014.xml",
         class_name="Doc",
         version="1.1",
         mode=mode,
@@ -4251,24 +2334,6 @@ def test_att_p013_att_p013_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_p012_att_p012_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : use=required,
-    fixed="37" (must appear once, value must be "37"), instant xml value
-    =38
-    """
-    assert_bindings(
-        schema="msData/attribute/attP012.xsd",
-        instance="msData/attribute/attP012.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_att_p011_att_p011_v(mode, save_output):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : use=required,
@@ -4278,60 +2343,6 @@ def test_att_p011_att_p011_v(mode, save_output):
     assert_bindings(
         schema="msData/attribute/attP011.xsd",
         instance="msData/attribute/attP011.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_p010_att_p010_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : use=required,
-    fixed="37" (must appear once, value must be "37"), instant xml value
-    =36
-    """
-    assert_bindings(
-        schema="msData/attribute/attP010.xsd",
-        instance="msData/attribute/attP010.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_p009_att_p009_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : use=required,
-    fixed="37" (must appear once, value must be "37"), instant xml value
-    does not appear
-    """
-    assert_bindings(
-        schema="msData/attribute/attP009.xsd",
-        instance="msData/attribute/attP009.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_p008_att_p008_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : use=required,
-    fixed and default are absent (must appear, value can be anything),
-    instant xml attribute absent
-    """
-    assert_bindings(
-        schema="msData/attribute/attP008.xsd",
-        instance="msData/attribute/attP008.xml",
         class_name="Doc",
         version="1.1",
         mode=mode,
@@ -4357,24 +2368,6 @@ def test_att_p007_att_p007_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_p005_att_p005_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : type="my
-    simple type", fixed=conform to the type, and xml instant has the
-    attribute with invalid value
-    """
-    assert_bindings(
-        schema="msData/attribute/attP005.xsd",
-        instance="msData/attribute/attP005.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_att_p004_att_p004_v(mode, save_output):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : type="my
@@ -4384,247 +2377,6 @@ def test_att_p004_att_p004_v(mode, save_output):
     assert_bindings(
         schema="msData/attribute/attP004.xsd",
         instance="msData/attribute/attP004.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_att_md011_att_md011_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : Attributes
-    from xsi ( xml schema instance ) namespace should be validated
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/attribute/test108565_11.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_att_md010_att_md010_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : Attributes
-    from xsi ( xml schema instance ) namespace should be validated
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/attribute/test108565_10.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_att_md009_att_md009_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : Attributes
-    from xsi ( xml schema instance ) namespace should be validated
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/attribute/test108565_9.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_att_md008_att_md008_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : Attributes
-    from xsi ( xml schema instance ) namespace should be validated
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/attribute/test108565_8.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_att_md007_att_md007_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : Attributes
-    from xsi ( xml schema instance ) namespace should be validated
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/attribute/test108565_7.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_att_md006_att_md006_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : Attributes
-    from xsi ( xml schema instance ) namespace should be validated
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/attribute/test108565_6.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_att_md005_att_md005_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : Attributes
-    from xsi ( xml schema instance ) namespace should be validated
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/attribute/test108565_5.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_att_md004_att_md004_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : Attributes
-    from xsi ( xml schema instance ) namespace should be validated
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/attribute/test108565_4.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_att_md003_att_md003_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : Attributes
-    from xsi ( xml schema instance ) namespace should be validated
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/attribute/test108565_3.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_att_md002_att_md002_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : Attributes
-    from xsi ( xml schema instance ) namespace should be validated
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/attribute/test108565_2.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid schema")
-def test_att_md001_att_md001_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : Attributes
-    from xsi ( xml schema instance ) namespace should be validated
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/attribute/test108565_1.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_mc012_att_mc012_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : parent is
-    attributeGroup,form=unqualified, attributeFormDefault=qualified,
-    attribute in xml doc is qualified with prefix
-    """
-    assert_bindings(
-        schema="msData/attribute/attMc012.xsd",
-        instance="msData/attribute/attMc012.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_mc011_att_mc011_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : parent is
-    attributeGroup,form=unqualified, attributeFormDefault=unqualified,
-    attribute in xml doc is qualified with prefix
-    """
-    assert_bindings(
-        schema="msData/attribute/attMc011.xsd",
-        instance="msData/attribute/attMc011.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_mc010_att_mc010_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : parent is
-    attributeGroup,form=unqualified, attributeFormDefault=absent,
-    attribute in xml doc is qualified with prefix
-    """
-    assert_bindings(
-        schema="msData/attribute/attMc010.xsd",
-        instance="msData/attribute/attMc010.xml",
         class_name="Doc",
         version="1.1",
         mode=mode,
@@ -4738,117 +2490,6 @@ def test_att_mc004_att_mc004_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_mc003_att_mc003_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : parent is
-    attributeGroup,form=qualified, attributeFormDefault=qualified,
-    attribute in xml doc has no prefix, but the containing element has a
-    default namespace declared
-    """
-    assert_bindings(
-        schema="msData/attribute/attMc003.xsd",
-        instance="msData/attribute/attMc003.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_mc002_att_mc002_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : parent is
-    attributeGroup,form=qualified, attributeFormDefault=unqualified,
-    attribute in xml doc has no prefix, but the containing element has a
-    default namespace declared
-    """
-    assert_bindings(
-        schema="msData/attribute/attMc002.xsd",
-        instance="msData/attribute/attMc002.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_mc001_att_mc001_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : parent is
-    attributeGroup,form=qualified, attributeFormDefault=absent, attribute
-    in xml doc has no prefix, but the containing element has a default
-    namespace declared
-    """
-    assert_bindings(
-        schema="msData/attribute/attMc001.xsd",
-        instance="msData/attribute/attMc001.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_mb012_att_mb012_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : parent is
-    complexType, form=unqualified, attributeFormDefault=qualified,
-    attribute in xml doc is qualified with prefix
-    """
-    assert_bindings(
-        schema="msData/attribute/attMb012.xsd",
-        instance="msData/attribute/attMb012.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_mb011_att_mb011_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : parent is
-    complexType, form=unqualified, attributeFormDefault=unqualified,
-    attribute in xml doc is qualified with prefix
-    """
-    assert_bindings(
-        schema="msData/attribute/attMb011.xsd",
-        instance="msData/attribute/attMb011.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_mb010_att_mb010_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : parent is
-    complexType, form=unqualified, attributeFormDefault=absent, attribute
-    in xml doc is qualified with prefix
-    """
-    assert_bindings(
-        schema="msData/attribute/attMb010.xsd",
-        instance="msData/attribute/attMb010.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_att_mb009_att_mb009_v(mode, save_output):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
@@ -4953,63 +2594,6 @@ def test_att_mb004_att_mb004_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_mb003_att_mb003_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : parent is
-    complexType, form=qualified, attributeFormDefault=qualified, attribute
-    in xml doc has no prefix, but the containing element has a default
-    namespace declared
-    """
-    assert_bindings(
-        schema="msData/attribute/attMb003.xsd",
-        instance="msData/attribute/attMb003.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_mb002_att_mb002_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : parent is
-    complexType, form=qualified, attributeFormDefault=unqualified,
-    attribute in xml doc has no prefix, but the containing element has a
-    default namespace declared
-    """
-    assert_bindings(
-        schema="msData/attribute/attMb002.xsd",
-        instance="msData/attribute/attMb002.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_mb001_att_mb001_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : parent is
-    complexType, form=qualified, attributeFormDefault=absent, attribute in
-    xml doc has no prefix, but the containing element has a default
-    namespace declared
-    """
-    assert_bindings(
-        schema="msData/attribute/attMb001.xsd",
-        instance="msData/attribute/attMb001.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_att_ma004_att_ma004_v(mode, save_output):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : parent is
@@ -5038,62 +2622,6 @@ def test_att_ma003_att_ma003_v(mode, save_output):
     assert_bindings(
         schema="msData/attribute/attMa003.xsd",
         instance="msData/attribute/attMa003.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_ma002_att_ma002_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : parent is
-    schema (ref in complexType and attributeGroup), form=unqualified,
-    attributeFormDefault=qualified,attribute in xml doc has no prefix, but
-    the containing element has a default namespace declared
-    """
-    assert_bindings(
-        schema="msData/attribute/attMa002.xsd",
-        instance="msData/attribute/attMa002.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_ma001_att_ma001_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : parent is
-    schema (ref in complexType and attributeGroup), form=qualified,
-    attributeFormDefault=absentattribute in xml doc has no prefix, but the
-    containing element has a default namespace declared
-    """
-    assert_bindings(
-        schema="msData/attribute/attMa001.xsd",
-        instance="msData/attribute/attMa001.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_o012_att_o012_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : Validation
-    Rule: Attribute Locally Valid (check normalization): type=string,
-    fixed="#xd; #xd;A #xa; #xa;B #xd; #xa;" instant xml value='A B'
-    """
-    assert_bindings(
-        schema="msData/attribute/attO012.xsd",
-        instance="msData/attribute/attO012.xml",
         class_name="Doc",
         version="1.1",
         mode=mode,
@@ -5156,24 +2684,6 @@ def test_att_o009_att_o009_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_o008_att_o008_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : Validation
-    Rule: Attribute Locally Valid (check normalization): type=string,
-    fixed=' 1 2 3', instant xml value=' 1 2 3'
-    """
-    assert_bindings(
-        schema="msData/attribute/attO008.xsd",
-        instance="msData/attribute/attO008.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_att_o007_att_o007_v(mode, save_output):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
@@ -5208,41 +2718,6 @@ def test_att_o006_att_o006_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_o004_att_o004_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : Validation
-    Rule: Attribute Locally Valid: type=enumeration, instant xml value
-    ='not a enumeration type'
-    """
-    assert_bindings(
-        schema="msData/attribute/attO004.xsd",
-        instance="msData/attribute/attO004.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_o001_att_o001_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : Validation
-    Rule: Attribute Locally Valid: type=int, instant xml value ='abc'
-    """
-    assert_bindings(
-        schema="msData/attribute/attO001.xsd",
-        instance="msData/attribute/attO001.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_att_lc006_att_lc006_v(mode, save_output):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
@@ -5252,24 +2727,6 @@ def test_att_lc006_att_lc006_v(mode, save_output):
     assert_bindings(
         schema="msData/attribute/attLc006.xsd",
         instance="msData/attribute/attLc006.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_lc005_att_lc005_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : Validation
-    Rule: Attribute Locally Valid: Parent is complexType, fixed='abc' ,
-    xml instant NOT has the attribute with value='abc',
-    """
-    assert_bindings(
-        schema="msData/attribute/attLc005.xsd",
-        instance="msData/attribute/attLc005.xml",
         class_name="Doc",
         version="1.1",
         mode=mode,
@@ -5363,24 +2820,6 @@ def test_att_lb006_att_lb006_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_lb005_att_lb005_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : Validation
-    Rule: Attribute Locally Valid: Parent is attributeGroup, fixed='abc' ,
-    xml instant NOT has the attribute with value='abc',
-    """
-    assert_bindings(
-        schema="msData/attribute/attLb005.xsd",
-        instance="msData/attribute/attLb005.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_att_lb004_att_lb004_v(mode, save_output):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : Validation
@@ -5458,24 +2897,6 @@ def test_att_la006_att_la006_v(mode, save_output):
     assert_bindings(
         schema="msData/attribute/attLa006.xsd",
         instance="msData/attribute/attLa006.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_la005_att_la005_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : Validation
-    Rule: Attribute Locally Valid: Parent is schema , fixed='abc' , xml
-    instant NOT has the attribute with value='abc',
-    """
-    assert_bindings(
-        schema="msData/attribute/attLa005.xsd",
-        instance="msData/attribute/attLa005.xml",
         class_name="Doc",
         version="1.1",
         mode=mode,
@@ -5585,60 +3006,6 @@ def test_att_j018_att_j018_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_j010_att_j010_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : xml doc do
-    not specify the attribute, attribute decl under attribute group use =
-    'required'
-    """
-    assert_bindings(
-        schema="msData/attribute/attJ010.xsd",
-        instance="msData/attribute/attJ010.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_j009_att_j009_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : xml doc do
-    not specify the attribute, attribute decl under complexType, use =
-    'required'
-    """
-    assert_bindings(
-        schema="msData/attribute/attJ009.xsd",
-        instance="msData/attribute/attJ009.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_j008_att_j008_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : xml doc do
-    not specify the attribute, attribute decl under schema use =
-    'required'
-    """
-    assert_bindings(
-        schema="msData/attribute/attJ008.xsd",
-        instance="msData/attribute/attJ008.xml",
-        class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_att_j007_att_j007_v(mode, save_output):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : xml doc
@@ -5705,41 +3072,6 @@ def test_att_j004_att_j004_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_j003_att_j003_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : xml doc
-    specify the attribute, attribute decl under complex type, use =
-    'prohibited'
-    """
-    assert_bindings(
-        schema="msData/attribute/attJ003.xsd",
-        instance="msData/attribute/attJ003.xml",
-        class_name="Test",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_j002_att_j002_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : xml doc
-    specify the attribute, attribute decl under schema, use = 'prohibited'
-    """
-    assert_bindings(
-        schema="msData/attribute/attJ002.xsd",
-        instance="msData/attribute/attJ002.xml",
-        class_name="Test",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_att_j001_att_j001_v(mode, save_output):
     """
     TEST :Syntax Checking for Attribute Declaration (form) : xml doc do
@@ -5782,23 +3114,6 @@ def test_att_f002_att_f002_v(mode, save_output):
         schema="msData/attribute/attF002.xsd",
         instance="msData/attribute/attF002.xml",
         class_name="Doc",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_att_f001_att_f001_i(mode, save_output):
-    """
-    TEST :Syntax Checking for Attribute Declaration (form) : Test
-    attribute declaration with optional attribute use = 'prohibited'
-    """
-    assert_bindings(
-        schema="msData/attribute/attF001.xsd",
-        instance="msData/attribute/attF001.xml",
-        class_name="Test",
         version="1.1",
         mode=mode,
         save_output=save_output,
@@ -5872,57 +3187,6 @@ def test_att_d003_att_d003_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_z013e_ct_z013e_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration : fixed
-    value on mixed type element (5)
-    """
-    assert_bindings(
-        schema="msData/complexType/ctZ013.xsd",
-        instance="msData/complexType/ctZ013e.xml",
-        class_name="E",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_z013d_ct_z013d_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration : fixed
-    value on mixed type element (4)
-    """
-    assert_bindings(
-        schema="msData/complexType/ctZ013.xsd",
-        instance="msData/complexType/ctZ013d.xml",
-        class_name="E",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_z013c_ct_z013c_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration : fixed
-    value on mixed type element (3)
-    """
-    assert_bindings(
-        schema="msData/complexType/ctZ013.xsd",
-        instance="msData/complexType/ctZ013c.xml",
-        class_name="E",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_ct_z013b_ct_z013b_v(mode, save_output):
     """
     TEST :Syntax Checking for top level complexType Declaration : fixed
@@ -5971,23 +3235,6 @@ def test_ct_z011_b_ct_z011_b_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid schema")
-def test_ct_z011_a_ct_z011_a_v(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration :
-    "anyType" in instance document using xsi:type(1)
-    """
-    assert_bindings(
-        schema="None",
-        instance="msData/complexType/ctZ011.xml",
-        class_name="A",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_ct_z009_d_ct_z009_d_v(mode, save_output):
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -5996,23 +3243,6 @@ def test_ct_z009_d_ct_z009_d_v(mode, save_output):
     assert_bindings(
         schema="msData/complexType/ctZ009_d.xsd",
         instance="msData/complexType/ctZ009_d.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_z009_c_ct_z009_c_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration :
-    Ambiguous but valid content models (5)
-    """
-    assert_bindings(
-        schema="msData/complexType/ctZ009_c.xsd",
-        instance="msData/complexType/ctZ009_c.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -6110,24 +3340,6 @@ def test_ct_z006_ct_z006_v(mode, save_output):
         schema="msData/complexType/ctZ006.xsd",
         instance="msData/complexType/ctZ006.xml",
         class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_z005_ct_z005_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration :
-    id="85834" description="xsd: circular reference of complexType is
-    allowed if the content model is not endless."
-    """
-    assert_bindings(
-        schema="msData/complexType/ctZ005.xsd",
-        instance="msData/complexType/ctZ005.xml",
-        class_name="Foo",
         version="1.1",
         mode=mode,
         save_output=save_output,
@@ -6317,24 +3529,6 @@ def test_ct_l021_ct_l021_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_l020_ct_l020_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration : content
-    has attribute wildcard, processContents = 'strict' instance document
-    has attributes but namespace does have definition
-    """
-    assert_bindings(
-        schema="msData/complexType/ctL020.xsd",
-        instance="msData/complexType/ctL020.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_ct_l019_ct_l019_v(mode, save_output):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
@@ -6436,41 +3630,6 @@ def test_ct_l014_ct_l014_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_l013_ct_l013_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration : content
-    has attributes defined. instance document has attributes missing
-    """
-    assert_bindings(
-        schema="msData/complexType/ctL013.xsd",
-        instance="msData/complexType/ctL013.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_l012_ct_l012_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration : content
-    is mixed. instance document elements are in a different order from
-    type definition
-    """
-    assert_bindings(
-        schema="msData/complexType/ctL012.xsd",
-        instance="msData/complexType/ctL012.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_ct_l011_ct_l011_v(mode, save_output):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
@@ -6479,42 +3638,6 @@ def test_ct_l011_ct_l011_v(mode, save_output):
     assert_bindings(
         schema="msData/complexType/ctL011.xsd",
         instance="msData/complexType/ctL011.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_l010_ct_l010_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration : content
-    is element only. instance document element has element children not in
-    schema
-    """
-    assert_bindings(
-        schema="msData/complexType/ctL010.xsd",
-        instance="msData/complexType/ctL010.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_l009_ct_l009_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration : content
-    is element only. instance document elements are in a different order
-    from type definition
-    """
-    assert_bindings(
-        schema="msData/complexType/ctL009.xsd",
-        instance="msData/complexType/ctL009.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -6556,23 +3679,6 @@ def test_ct_l007_ct_l007_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_l006_ct_l006_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration : content
-    is element only. instance document element has character information
-    """
-    assert_bindings(
-        schema="msData/complexType/ctL006.xsd",
-        instance="msData/complexType/ctL006.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_ct_l005_ct_l005_v(mode, save_output):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
@@ -6589,23 +3695,6 @@ def test_ct_l005_ct_l005_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_l004_ct_l004_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration :
-    simpleContent. instance document element has element children
-    """
-    assert_bindings(
-        schema="msData/complexType/ctL004.xsd",
-        instance="msData/complexType/ctL004.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_ct_l003_ct_l003_v(mode, save_output):
     """
     TEST :Syntax Checking for top level complexType Declaration : content
@@ -6614,40 +3703,6 @@ def test_ct_l003_ct_l003_v(mode, save_output):
     assert_bindings(
         schema="msData/complexType/ctL003.xsd",
         instance="msData/complexType/ctL003.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_l002_ct_l002_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration : content
-    is empty. instance document element has element children
-    """
-    assert_bindings(
-        schema="msData/complexType/ctL002.xsd",
-        instance="msData/complexType/ctL002.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_l001_ct_l001_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration : content
-    is empty. instance document element has text
-    """
-    assert_bindings(
-        schema="msData/complexType/ctL001.xsd",
-        instance="msData/complexType/ctL001.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -6706,42 +3761,6 @@ def test_ct_i050_ct_i050_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_i049_ct_i049_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration :
-    complexType with attribute abstract = 'true' , instance document
-    element has xsi:type as complexType
-    """
-    assert_bindings(
-        schema="msData/complexType/ctI049.xsd",
-        instance="msData/complexType/ctI049.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_i048_ct_i048_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration :
-    complexType with attribute abstract = 'true' , instance document
-    element has type as complexType
-    """
-    assert_bindings(
-        schema="msData/complexType/ctI048.xsd",
-        instance="msData/complexType/ctI048.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_ct_i047_ct_i047_v(mode, save_output):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
@@ -6768,24 +3787,6 @@ def test_ct_i046_ct_i046_v(mode, save_output):
     assert_bindings(
         schema="msData/complexType/ctI046.xsd",
         instance="msData/complexType/ctI046.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_i045_ct_i045_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration : schema
-    with blockDefault = 'extension' , use xsi:type of substituted
-    complexType by extension
-    """
-    assert_bindings(
-        schema="msData/complexType/ctI045.xsd",
-        instance="msData/complexType/ctI045.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -6828,24 +3829,6 @@ def test_ct_i043_ct_i043_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_i042_ct_i042_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration : schema
-    with blockDefault = 'restriction' , use xsi:type of substituted
-    complexType by restriction
-    """
-    assert_bindings(
-        schema="msData/complexType/ctI042.xsd",
-        instance="msData/complexType/ctI042.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_ct_i041_ct_i041_v(mode, save_output):
     """
     TEST :Syntax Checking for top level complexType Declaration : schema
@@ -6872,42 +3855,6 @@ def test_ct_i040_ct_i040_v(mode, save_output):
     assert_bindings(
         schema="msData/complexType/ctI040.xsd",
         instance="msData/complexType/ctI040.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_i039_ct_i039_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration : schema
-    with blockDefault = '#all' , use xsi:type of substituted complexType
-    by extension
-    """
-    assert_bindings(
-        schema="msData/complexType/ctI039.xsd",
-        instance="msData/complexType/ctI039.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_i038_ct_i038_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration : schema
-    with blockDefault = '#all' , use xsi:type of substituted complexType
-    by restriction
-    """
-    assert_bindings(
-        schema="msData/complexType/ctI038.xsd",
-        instance="msData/complexType/ctI038.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -6950,24 +3897,6 @@ def test_ct_i036_ct_i036_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_i035_ct_i035_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration :
-    complexType with attribute block = 'extension' , use xsi:type of
-    substituted complexType by extension
-    """
-    assert_bindings(
-        schema="msData/complexType/ctI035.xsd",
-        instance="msData/complexType/ctI035.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_ct_i034_ct_i034_v(mode, save_output):
     """
     TEST :Syntax Checking for top level complexType Declaration :
@@ -6994,60 +3923,6 @@ def test_ct_i033_ct_i033_v(mode, save_output):
     assert_bindings(
         schema="msData/complexType/ctI033.xsd",
         instance="msData/complexType/ctI033.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_i032_ct_i032_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration :
-    complexType with attribute block = 'restriction' , use xsi:type of
-    substituted complexType by restriction
-    """
-    assert_bindings(
-        schema="msData/complexType/ctI032.xsd",
-        instance="msData/complexType/ctI032.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_i031_ct_i031_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration :
-    complexType with attribute block = '#all' , use xsi:type of
-    substituted complexType by extension
-    """
-    assert_bindings(
-        schema="msData/complexType/ctI031.xsd",
-        instance="msData/complexType/ctI031.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ct_i030_ct_i030_i(mode, save_output):
-    """
-    TEST :Syntax Checking for top level complexType Declaration :
-    complexType with attribute block = '#all' , use xsi:type of
-    substituted complexType by restriction
-    """
-    assert_bindings(
-        schema="msData/complexType/ctI030.xsd",
-        instance="msData/complexType/ctI030.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -10213,23 +7088,6 @@ def test_ct_a001_ct_a001_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_dt_z86723_2246_dt_z86723_2246_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : Validation: xsi:type with built-in
-    types should not allow content other than text.
-    """
-    assert_bindings(
-        schema="msData/datatypes/test86723.xsd",
-        instance="msData/datatypes/test86723.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_dt_z107447_a_2245_dt_z107447_a_2245_i(mode, save_output):
     """
     TEST :Facet Schemas for string : XSD:whitespace handling for xs:token
@@ -10272,23 +7130,6 @@ def test_dt_z107447_2243_dt_z107447_2243_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/test107447.xsd",
         instance="msData/datatypes/test107447.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_dt_z100507_2242_dt_z100507_2242_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : xs:ENTITY is not derived from
-    xs:NCName, xs:NOTATION is incorrectly derived from xs:QName
-    """
-    assert_bindings(
-        schema="msData/datatypes/test100507.xsd",
-        instance="msData/datatypes/test100507.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -10358,54 +7199,6 @@ def test_positive_integer004_2238_positive_integer004_2238_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_positive_integer003_2237_positive_integer003_2237_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=0
-    """
-    assert_bindings(
-        schema="msData/datatypes/positiveInteger.xsd",
-        instance="msData/datatypes/positiveInteger003.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_positive_integer002_2236_positive_integer002_2236_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-1
-    """
-    assert_bindings(
-        schema="msData/datatypes/positiveInteger.xsd",
-        instance="msData/datatypes/positiveInteger002.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_positive_integer001_2235_positive_integer001_2235_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/positiveInteger.xsd",
-        instance="msData/datatypes/positiveInteger001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_unsigned_byte007_2234_unsigned_byte007_2234_v(mode, save_output):
     """
     TEST :Facet Schemas for string : test for simpleType list of
@@ -10414,22 +7207,6 @@ def test_unsigned_byte007_2234_unsigned_byte007_2234_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/unsignedByte007.xsd",
         instance="msData/datatypes/unsignedByte007.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_unsigned_byte006_2233_unsigned_byte006_2233_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=256
-    """
-    assert_bindings(
-        schema="msData/datatypes/unsignedByte.xsd",
-        instance="msData/datatypes/unsignedByte006.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -10483,38 +7260,6 @@ def test_unsigned_byte003_2230_unsigned_byte003_2230_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_unsigned_byte002_2229_unsigned_byte002_2229_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-1
-    """
-    assert_bindings(
-        schema="msData/datatypes/unsignedByte.xsd",
-        instance="msData/datatypes/unsignedByte002.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_unsigned_byte001_2228_unsigned_byte001_2228_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/unsignedByte.xsd",
-        instance="msData/datatypes/unsignedByte001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_unsigned_short007_2227_unsigned_short007_2227_v(mode, save_output):
     """
     TEST :Facet Schemas for string : test for simpleType list of
@@ -10523,22 +7268,6 @@ def test_unsigned_short007_2227_unsigned_short007_2227_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/unsignedShort007.xsd",
         instance="msData/datatypes/unsignedShort007.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_unsigned_short006_2226_unsigned_short006_2226_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=65536
-    """
-    assert_bindings(
-        schema="msData/datatypes/unsignedShort.xsd",
-        instance="msData/datatypes/unsignedShort006.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -10592,38 +7321,6 @@ def test_unsigned_short003_2223_unsigned_short003_2223_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_unsigned_short002_2222_unsigned_short002_2222_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-1
-    """
-    assert_bindings(
-        schema="msData/datatypes/unsignedShort.xsd",
-        instance="msData/datatypes/unsignedShort002.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_unsigned_short001_2221_unsigned_short001_2221_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/unsignedShort.xsd",
-        instance="msData/datatypes/unsignedShort001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_unsigned_int007_2220_unsigned_int007_2220_v(mode, save_output):
     """
     TEST :Facet Schemas for string : test for simpleType list of
@@ -10632,22 +7329,6 @@ def test_unsigned_int007_2220_unsigned_int007_2220_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/unsignedInt007.xsd",
         instance="msData/datatypes/unsignedInt007.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_unsigned_int006_2219_unsigned_int006_2219_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=4294967296
-    """
-    assert_bindings(
-        schema="msData/datatypes/unsignedInt.xsd",
-        instance="msData/datatypes/unsignedInt006.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -10701,38 +7382,6 @@ def test_unsigned_int003_2216_unsigned_int003_2216_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_unsigned_int002_2215_unsigned_int002_2215_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-1
-    """
-    assert_bindings(
-        schema="msData/datatypes/unsignedInt.xsd",
-        instance="msData/datatypes/unsignedInt002.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_unsigned_int001_2214_unsigned_int001_2214_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/unsignedInt.xsd",
-        instance="msData/datatypes/unsignedInt001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_unsigned_long007_2213_unsigned_long007_2213_v(mode, save_output):
     """
     TEST :Facet Schemas for string : test for simpleType list of
@@ -10741,22 +7390,6 @@ def test_unsigned_long007_2213_unsigned_long007_2213_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/unsignedLong007.xsd",
         instance="msData/datatypes/unsignedLong007.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_unsigned_long006_2212_unsigned_long006_2212_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=18446744073709551616
-    """
-    assert_bindings(
-        schema="msData/datatypes/unsignedLong.xsd",
-        instance="msData/datatypes/unsignedLong006.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -10810,38 +7443,6 @@ def test_unsigned_long003_2209_unsigned_long003_2209_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_unsigned_long002_2208_unsigned_long002_2208_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-1
-    """
-    assert_bindings(
-        schema="msData/datatypes/unsignedLong.xsd",
-        instance="msData/datatypes/unsignedLong002.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_unsigned_long001_2207_unsigned_long001_2207_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/unsignedLong.xsd",
-        instance="msData/datatypes/unsignedLong001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_non_negative_integer005_2206_non_negative_integer005_2206_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=12345678901234567890123456789
@@ -10887,38 +7488,6 @@ def test_non_negative_integer003_2204_non_negative_integer003_2204_v(mode, save_
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_non_negative_integer002_2203_non_negative_integer002_2203_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-1
-    """
-    assert_bindings(
-        schema="msData/datatypes/nonNegativeInteger.xsd",
-        instance="msData/datatypes/nonNegativeInteger002.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_non_negative_integer001_2202_non_negative_integer001_2202_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/nonNegativeInteger.xsd",
-        instance="msData/datatypes/nonNegativeInteger001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_byte009_2201_byte009_2201_v(mode, save_output):
     """
     TEST :Facet Schemas for string : Test simpleType List of byte
@@ -10934,22 +7503,6 @@ def test_byte009_2201_byte009_2201_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_byte008_2200_byte008_2200_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-129
-    """
-    assert_bindings(
-        schema="msData/datatypes/byte.xsd",
-        instance="msData/datatypes/byte008.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_byte007_2199_byte007_2199_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=-128
@@ -10957,22 +7510,6 @@ def test_byte007_2199_byte007_2199_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/byte.xsd",
         instance="msData/datatypes/byte007.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_byte006_2198_byte006_2198_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=128
-    """
-    assert_bindings(
-        schema="msData/datatypes/byte.xsd",
-        instance="msData/datatypes/byte006.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -11041,22 +7578,6 @@ def test_byte002_2194_byte002_2194_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_byte001_2193_byte001_2193_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/byte.xsd",
-        instance="msData/datatypes/byte001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_short009_2192_short009_2192_v(mode, save_output):
     """
     TEST :Facet Schemas for string : test for simpleType list of short
@@ -11072,22 +7593,6 @@ def test_short009_2192_short009_2192_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_short008_2191_short008_2191_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-32769
-    """
-    assert_bindings(
-        schema="msData/datatypes/short.xsd",
-        instance="msData/datatypes/short008.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_short007_2190_short007_2190_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=-32768
@@ -11095,22 +7600,6 @@ def test_short007_2190_short007_2190_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/short.xsd",
         instance="msData/datatypes/short007.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_short006_2189_short006_2189_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=32768
-    """
-    assert_bindings(
-        schema="msData/datatypes/short.xsd",
-        instance="msData/datatypes/short006.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -11179,38 +7668,6 @@ def test_short002_2185_short002_2185_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_short001_2184_short001_2184_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/short.xsd",
-        instance="msData/datatypes/short001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_int008_2183_int008_2183_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-2147483649
-    """
-    assert_bindings(
-        schema="msData/datatypes/int.xsd",
-        instance="msData/datatypes/int008.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_int007_2182_int007_2182_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=-2147483648
@@ -11218,22 +7675,6 @@ def test_int007_2182_int007_2182_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/int.xsd",
         instance="msData/datatypes/int007.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_int006_2181_int006_2181_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=2147483648
-    """
-    assert_bindings(
-        schema="msData/datatypes/int.xsd",
-        instance="msData/datatypes/int006.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -11302,22 +7743,6 @@ def test_int002_2177_int002_2177_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_int001_2176_int001_2176_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/int.xsd",
-        instance="msData/datatypes/int001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_long009_2175_long009_2175_v(mode, save_output):
     """
     TEST :Facet Schemas for string : Test for simpleType list of Long
@@ -11333,22 +7758,6 @@ def test_long009_2175_long009_2175_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_long008_2174_long008_2174_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=9223372036854775808
-    """
-    assert_bindings(
-        schema="msData/datatypes/long.xsd",
-        instance="msData/datatypes/long008.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_long007_2173_long007_2173_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=9223372036854775807
@@ -11356,22 +7765,6 @@ def test_long007_2173_long007_2173_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/long.xsd",
         instance="msData/datatypes/long007.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_long006_2172_long006_2172_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-9223372036854775809
-    """
-    assert_bindings(
-        schema="msData/datatypes/long.xsd",
-        instance="msData/datatypes/long006.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -11440,22 +7833,6 @@ def test_long002_2168_long002_2168_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_long001_2167_long001_2167_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/long.xsd",
-        instance="msData/datatypes/long001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_negative_integer005_2166_negative_integer005_2166_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=-12345678901234567890123456789
@@ -11463,38 +7840,6 @@ def test_negative_integer005_2166_negative_integer005_2166_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/negativeInteger.xsd",
         instance="msData/datatypes/negativeInteger005.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_negative_integer004_2165_negative_integer004_2165_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=1
-    """
-    assert_bindings(
-        schema="msData/datatypes/negativeInteger.xsd",
-        instance="msData/datatypes/negativeInteger004.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_negative_integer003_2164_negative_integer003_2164_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=0
-    """
-    assert_bindings(
-        schema="msData/datatypes/negativeInteger.xsd",
-        instance="msData/datatypes/negativeInteger003.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -11518,22 +7863,6 @@ def test_negative_integer002_2163_negative_integer002_2163_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_negative_integer001_2162_negative_integer001_2162_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/negativeInteger.xsd",
-        instance="msData/datatypes/negativeInteger001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_non_positive_integer005_2161_non_positive_integer005_2161_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=-12345678901234567890123456789
@@ -11541,22 +7870,6 @@ def test_non_positive_integer005_2161_non_positive_integer005_2161_v(mode, save_
     assert_bindings(
         schema="msData/datatypes/nonPositiveInteger.xsd",
         instance="msData/datatypes/nonPositiveInteger005.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_non_positive_integer004_2160_non_positive_integer004_2160_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=1
-    """
-    assert_bindings(
-        schema="msData/datatypes/nonPositiveInteger.xsd",
-        instance="msData/datatypes/nonPositiveInteger004.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -11587,102 +7900,6 @@ def test_non_positive_integer002_2158_non_positive_integer002_2158_v(mode, save_
     assert_bindings(
         schema="msData/datatypes/nonPositiveInteger.xsd",
         instance="msData/datatypes/nonPositiveInteger002.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_non_positive_integer001_2157_non_positive_integer001_2157_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/nonPositiveInteger.xsd",
-        instance="msData/datatypes/nonPositiveInteger001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_integer016_2156_integer016_2156_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=ABCDEF
-    """
-    assert_bindings(
-        schema="msData/datatypes/integer.xsd",
-        instance="msData/datatypes/integer016.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_integer015_2155_integer015_2155_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=NaN
-    """
-    assert_bindings(
-        schema="msData/datatypes/integer.xsd",
-        instance="msData/datatypes/integer015.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_integer014_2154_integer014_2154_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-INF
-    """
-    assert_bindings(
-        schema="msData/datatypes/integer.xsd",
-        instance="msData/datatypes/integer014.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_integer013_2153_integer013_2153_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=INF
-    """
-    assert_bindings(
-        schema="msData/datatypes/integer.xsd",
-        instance="msData/datatypes/integer013.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_integer012_2152_integer012_2152_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-1E4
-    """
-    assert_bindings(
-        schema="msData/datatypes/integer.xsd",
-        instance="msData/datatypes/integer012.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -11766,22 +7983,6 @@ def test_integer007_2147_integer007_2147_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_integer006_2146_integer006_2146_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=+0.0
-    """
-    assert_bindings(
-        schema="msData/datatypes/integer.xsd",
-        instance="msData/datatypes/integer006.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_integer005_2145_integer005_2145_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=-0
@@ -11812,118 +8013,6 @@ def test_integer004_2144_integer004_2144_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_integer003_2143_integer003_2143_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=3.14159
-    """
-    assert_bindings(
-        schema="msData/datatypes/integer.xsd",
-        instance="msData/datatypes/integer003.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_integer002_2142_integer002_2142_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-3.14159
-    """
-    assert_bindings(
-        schema="msData/datatypes/integer.xsd",
-        instance="msData/datatypes/integer002.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_integer001_2141_integer001_2141_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/integer.xsd",
-        instance="msData/datatypes/integer001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ncname011_2140_ncname011_2140_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=//foo
-    """
-    assert_bindings(
-        schema="msData/datatypes/NCName.xsd",
-        instance="msData/datatypes/NCName011.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ncname010_2139_ncname010_2139_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=@test
-    """
-    assert_bindings(
-        schema="msData/datatypes/NCName.xsd",
-        instance="msData/datatypes/NCName010.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ncname009_2138_ncname009_2138_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=:foo
-    """
-    assert_bindings(
-        schema="msData/datatypes/NCName.xsd",
-        instance="msData/datatypes/NCName009.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ncname008_2137_ncname008_2137_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=fo:foo
-    """
-    assert_bindings(
-        schema="msData/datatypes/NCName.xsd",
-        instance="msData/datatypes/NCName008.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_ncname007_2136_ncname007_2136_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=fo_124-.sda3
@@ -11931,54 +8020,6 @@ def test_ncname007_2136_ncname007_2136_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/NCName.xsd",
         instance="msData/datatypes/NCName007.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ncname006_2135_ncname006_2135_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-foo
-    """
-    assert_bindings(
-        schema="msData/datatypes/NCName.xsd",
-        instance="msData/datatypes/NCName006.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ncname005_2134_ncname005_2134_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=.foo
-    """
-    assert_bindings(
-        schema="msData/datatypes/NCName.xsd",
-        instance="msData/datatypes/NCName005.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_ncname004_2133_ncname004_2133_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=1fo
-    """
-    assert_bindings(
-        schema="msData/datatypes/NCName.xsd",
-        instance="msData/datatypes/NCName004.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -12017,54 +8058,6 @@ def test_ncname002_2131_ncname002_2131_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_ncname001_2130_ncname001_2130_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/NCName.xsd",
-        instance="msData/datatypes/NCName001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_name018_2129_name018_2129_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=//foo
-    """
-    assert_bindings(
-        schema="msData/datatypes/Name.xsd",
-        instance="msData/datatypes/Name018.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_name017_2128_name017_2128_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=@test
-    """
-    assert_bindings(
-        schema="msData/datatypes/Name.xsd",
-        instance="msData/datatypes/Name017.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_name016_2127_name016_2127_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=fo:fo_124-.s:da3
@@ -12087,22 +8080,6 @@ def test_name015_2126_name015_2126_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/Name.xsd",
         instance="msData/datatypes/Name015.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_name014_2125_name014_2125_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=fo:'-foo
-    """
-    assert_bindings(
-        schema="msData/datatypes/Name.xsd",
-        instance="msData/datatypes/Name014.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -12216,54 +8193,6 @@ def test_name007_2118_name007_2118_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_name006_2117_name006_2117_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-foo
-    """
-    assert_bindings(
-        schema="msData/datatypes/Name.xsd",
-        instance="msData/datatypes/Name006.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_name005_2116_name005_2116_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=.foo
-    """
-    assert_bindings(
-        schema="msData/datatypes/Name.xsd",
-        instance="msData/datatypes/Name005.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_name004_2115_name004_2115_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=1fo
-    """
-    assert_bindings(
-        schema="msData/datatypes/Name.xsd",
-        instance="msData/datatypes/Name004.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_name003_2114_name003_2114_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=fo124
@@ -12294,39 +8223,6 @@ def test_name002_2113_name002_2113_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_name001_2112_name001_2112_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/Name.xsd",
-        instance="msData/datatypes/Name001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_language010_2111_language010_2111_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : xsd:language doesn't quite follow the
-    spec syntax
-    """
-    assert_bindings(
-        schema="msData/datatypes/language.xsd",
-        instance="msData/datatypes/language010.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_language009_2110_language009_2110_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=X-2o
@@ -12334,22 +8230,6 @@ def test_language009_2110_language009_2110_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/language.xsd",
         instance="msData/datatypes/language009.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_language008_2109_language008_2109_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=1ko
-    """
-    assert_bindings(
-        schema="msData/datatypes/language.xsd",
-        instance="msData/datatypes/language008.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -12440,22 +8320,6 @@ def test_language002_2103_language002_2103_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/language.xsd",
         instance="msData/datatypes/language002.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_language001_2102_language001_2102_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/language.xsd",
-        instance="msData/datatypes/language001.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -12569,88 +8433,6 @@ def test_normalized_string001_2095_normalized_string001_2095_v(mode, save_output
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_qname011_2094_qname011_2094_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=//foo
-    """
-    assert_bindings(
-        schema="msData/datatypes/QName.xsd",
-        instance="msData/datatypes/QName011.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_qname010_2093_qname010_2093_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=@test
-    """
-    assert_bindings(
-        schema="msData/datatypes/QName.xsd",
-        instance="msData/datatypes/QName010.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_qname009_2092_qname009_2092_v(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=xmlns:xsi WG decided on
-    2010-02-05 telcon that there is no binding for xmlns as a prefix, so
-    these are not valid QNames.
-    """
-    assert_bindings(
-        schema="msData/datatypes/QName.xsd",
-        instance="msData/datatypes/QName009.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_qname008_2091_qname008_2091_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=fo:1fo
-    """
-    assert_bindings(
-        schema="msData/datatypes/QName.xsd",
-        instance="msData/datatypes/QName008.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_qname007_2090_qname007_2090_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=:foo
-    """
-    assert_bindings(
-        schema="msData/datatypes/QName.xsd",
-        instance="msData/datatypes/QName007.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_qname006_2089_qname006_2089_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=fo:foo
@@ -12658,38 +8440,6 @@ def test_qname006_2089_qname006_2089_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/QName.xsd",
         instance="msData/datatypes/QName006.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_qname005_2088_qname005_2088_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-foo
-    """
-    assert_bindings(
-        schema="msData/datatypes/QName.xsd",
-        instance="msData/datatypes/QName005.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_qname004_2087_qname004_2087_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=1fo
-    """
-    assert_bindings(
-        schema="msData/datatypes/QName.xsd",
-        instance="msData/datatypes/QName004.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -12720,22 +8470,6 @@ def test_qname002_2085_qname002_2085_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/QName.xsd",
         instance="msData/datatypes/QName002.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_qname001_2084_qname001_2084_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/QName.xsd",
-        instance="msData/datatypes/QName001.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -12949,40 +8683,6 @@ def test_base64_binary001_2071_base64_binary001_2071_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_hex_binary004_2070_hex_binary004_2070_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : Test for HexBinary value with
-    whitespace
-    """
-    assert_bindings(
-        schema="msData/datatypes/hexBinary.xsd",
-        instance="msData/datatypes/hexBinary004.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_hex_binary003_2069_hex_binary003_2069_v(mode, save_output):
-    """
-    TEST :Facet Schemas for string : Test for HexBinary value with
-    whitespace TSTF ruled that spec. disallows space in hexBinary
-    """
-    assert_bindings(
-        schema="msData/datatypes/hexBinary.xsd",
-        instance="msData/datatypes/hexBinary003.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_hex_binary002_2068_hex_binary002_2068_v(mode, save_output):
     """
     TEST :Facet Schemas for string : test for simpleType List of hexBinary
@@ -13013,54 +8713,6 @@ def test_hex_binary001_2067_hex_binary001_2067_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_g_month007_2066_g_month007_2066_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=- -15- -
-    """
-    assert_bindings(
-        schema="msData/datatypes/gMonth.xsd",
-        instance="msData/datatypes/gMonth007.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_g_month006_2065_g_month006_2065_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=- -3- -
-    """
-    assert_bindings(
-        schema="msData/datatypes/gMonth.xsd",
-        instance="msData/datatypes/gMonth006.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_g_month005_2064_g_month005_2064_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=1999-05-10
-    """
-    assert_bindings(
-        schema="msData/datatypes/gMonth.xsd",
-        instance="msData/datatypes/gMonth005.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_g_month004_2063_g_month004_2063_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=- -05- - -05:00
@@ -13076,22 +8728,6 @@ def test_g_month004_2063_g_month004_2063_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_g_month003_2062_g_month003_2062_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=1999-05- -
-    """
-    assert_bindings(
-        schema="msData/datatypes/gMonth.xsd",
-        instance="msData/datatypes/gMonth003.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_g_month002_2061_g_month002_2061_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=- -03- -
@@ -13099,54 +8735,6 @@ def test_g_month002_2061_g_month002_2061_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/gMonth.xsd",
         instance="msData/datatypes/gMonth002.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_g_month001_2060_g_month001_2060_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/gMonth.xsd",
-        instance="msData/datatypes/gMonth001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_g_day005_2059_g_day005_2059_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/gDay.xsd",
-        instance="msData/datatypes/gDay005.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_g_day004_2058_g_day004_2058_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=- -15
-    """
-    assert_bindings(
-        schema="msData/datatypes/gDay.xsd",
-        instance="msData/datatypes/gDay004.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -13200,39 +8788,6 @@ def test_g_day001_2055_g_day001_2055_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_g_month_day006_2054_g_month_day006_2054_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : gMonthDay should disallow "--02-30"
-    and "--02-31"
-    """
-    assert_bindings(
-        schema="msData/datatypes/datatypes.xsd",
-        instance="msData/datatypes/gMonthDay006.xml",
-        class_name="Data",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_g_month_day005_2053_g_month_day005_2053_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=- - -03-15
-    """
-    assert_bindings(
-        schema="msData/datatypes/gMonthDay.xsd",
-        instance="msData/datatypes/gMonthDay005.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_g_month_day004_2052_g_month_day004_2052_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=- -02-29
@@ -13278,22 +8833,6 @@ def test_g_month_day002_2050_g_month_day002_2050_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_g_month_day001_2049_g_month_day001_2049_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/gMonthDay.xsd",
-        instance="msData/datatypes/gMonthDay001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_g_year006_2048_g_year006_2048_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=1999-05:00
@@ -13309,22 +8848,6 @@ def test_g_year006_2048_g_year006_2048_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_g_year005_2047_g_year005_2047_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=2000-00
-    """
-    assert_bindings(
-        schema="msData/datatypes/gYear.xsd",
-        instance="msData/datatypes/gYear005.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_g_year002_2046_g_year002_2046_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=2000
@@ -13332,54 +8855,6 @@ def test_g_year002_2046_g_year002_2046_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/gYear.xsd",
         instance="msData/datatypes/gYear002.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_g_year001_2045_g_year001_2045_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/gYear.xsd",
-        instance="msData/datatypes/gYear001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_g_year_month006_2044_g_year_month006_2044_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=99-10
-    """
-    assert_bindings(
-        schema="msData/datatypes/gYearMonth.xsd",
-        instance="msData/datatypes/gYearMonth006.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_g_year_month004_2043_g_year_month004_2043_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=1999-15
-    """
-    assert_bindings(
-        schema="msData/datatypes/gYearMonth.xsd",
-        instance="msData/datatypes/gYearMonth004.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -13418,38 +8893,6 @@ def test_g_year_month002_2041_g_year_month002_2041_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_g_year_month001_2040_g_year_month001_2040_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/gYearMonth.xsd",
-        instance="msData/datatypes/gYearMonth001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_date011_2039_date011_2039_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=123456
-    """
-    assert_bindings(
-        schema="msData/datatypes/date.xsd",
-        instance="msData/datatypes/date011.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_date010_2038_date010_2038_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=2000-10-05-05:00
@@ -13457,38 +8900,6 @@ def test_date010_2038_date010_2038_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/date.xsd",
         instance="msData/datatypes/date010.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_date009_2037_date009_2037_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=2000-13-14
-    """
-    assert_bindings(
-        schema="msData/datatypes/date.xsd",
-        instance="msData/datatypes/date009.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_date006_2036_date006_2036_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=01-01-01
-    """
-    assert_bindings(
-        schema="msData/datatypes/date.xsd",
-        instance="msData/datatypes/date006.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -13512,38 +8923,6 @@ def test_date005_2035_date005_2035_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_date004_2034_date004_2034_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=1999-02-29
-    """
-    assert_bindings(
-        schema="msData/datatypes/date.xsd",
-        instance="msData/datatypes/date004.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_date003_2033_date003_2033_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=1999-05-32
-    """
-    assert_bindings(
-        schema="msData/datatypes/date.xsd",
-        instance="msData/datatypes/date003.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_date002_2032_date002_2032_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=1999-05-31
@@ -13551,166 +8930,6 @@ def test_date002_2032_date002_2032_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/date.xsd",
         instance="msData/datatypes/date002.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_date001_2031_date001_2031_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/date.xsd",
-        instance="msData/datatypes/date001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_time022_2030_time022_2030_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=+13:20:00
-    """
-    assert_bindings(
-        schema="msData/datatypes/time.xsd",
-        instance="msData/datatypes/time022.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_time021_2029_time021_2029_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-13:20:00
-    """
-    assert_bindings(
-        schema="msData/datatypes/time.xsd",
-        instance="msData/datatypes/time021.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_time020_2028_time020_2028_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=0:0:00
-    """
-    assert_bindings(
-        schema="msData/datatypes/time.xsd",
-        instance="msData/datatypes/time020.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_time019_2027_time019_2027_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=0:20:00
-    """
-    assert_bindings(
-        schema="msData/datatypes/time.xsd",
-        instance="msData/datatypes/time019.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_time018_2026_time018_2026_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=25:20:00
-    """
-    assert_bindings(
-        schema="msData/datatypes/time.xsd",
-        instance="msData/datatypes/time018.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_time017_2025_time017_2025_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=13:60:00
-    """
-    assert_bindings(
-        schema="msData/datatypes/time.xsd",
-        instance="msData/datatypes/time017.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_time016_2024_time016_2024_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=13:20:60
-    """
-    assert_bindings(
-        schema="msData/datatypes/time.xsd",
-        instance="msData/datatypes/time016.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_time015_2023_time015_2023_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=13.4:20:00
-    """
-    assert_bindings(
-        schema="msData/datatypes/time.xsd",
-        instance="msData/datatypes/time015.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_time014_2022_time014_2022_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=13:20.4:00
-    """
-    assert_bindings(
-        schema="msData/datatypes/time.xsd",
-        instance="msData/datatypes/time014.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -13854,71 +9073,6 @@ def test_time004_2013_time004_2013_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_time003_2012_time003_2012_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=1985-04-12T10:30
-    """
-    assert_bindings(
-        schema="msData/datatypes/time.xsd",
-        instance="msData/datatypes/time003.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_time002_2011_time002_2011_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=1999-05-31T13:20:00-05:00
-    """
-    assert_bindings(
-        schema="msData/datatypes/time.xsd",
-        instance="msData/datatypes/time002.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_time001_2010_time001_2010_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/time.xsd",
-        instance="msData/datatypes/time001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_date_time013_2009_date_time013_2009_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : should we allow '+'(plus sign)
-    preceding datetime/date?
-    """
-    assert_bindings(
-        schema="msData/datatypes/datatypes.xsd",
-        instance="msData/datatypes/dateTime013.xml",
-        class_name="Data",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_date_time011_2008_date_time011_2008_i(mode, save_output):
     """
     TEST :Facet Schemas for string : value=0000-01-01T00:00:00 Year zero
@@ -14010,22 +9164,6 @@ def test_date_time005_2003_date_time005_2003_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_date_time004_2002_date_time004_2002_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=1985-102T23:50:30
-    """
-    assert_bindings(
-        schema="msData/datatypes/dateTime.xsd",
-        instance="msData/datatypes/dateTime004.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_date_time003_2001_date_time003_2001_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=1985-04-12T10:30:00
@@ -14049,73 +9187,6 @@ def test_date_time002_2000_date_time002_2000_v(mode, save_output):
         schema="msData/datatypes/dateTime.xsd",
         instance="msData/datatypes/dateTime002.xml",
         class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_date_time001_1999_date_time001_1999_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/dateTime.xsd",
-        instance="msData/datatypes/dateTime001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_duration030_1998_duration030_1998_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : For duration, the number and its
-    corresponding designator better be pair
-    """
-    assert_bindings(
-        schema="msData/datatypes/datatypes.xsd",
-        instance="msData/datatypes/duration030.xml",
-        class_name="Data",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_duration029_1997_duration029_1997_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : For duration, the designator 'T'
-    shall be absent if all of the time items are absent
-    """
-    assert_bindings(
-        schema="msData/datatypes/datatypes.xsd",
-        instance="msData/datatypes/duration029.xml",
-        class_name="Data",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_duration028_1996_duration028_1996_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : string 'P' for duration should raise
-    error
-    """
-    assert_bindings(
-        schema="msData/datatypes/datatypes.xsd",
-        instance="msData/datatypes/duration028.xml",
-        class_name="Data",
         version="1.1",
         mode=mode,
         save_output=save_output,
@@ -14213,22 +9284,6 @@ def test_duration022_1990_duration022_1990_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_duration021_1989_duration021_1989_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=P0Y0M0DT0H-0M0.0001S
-    """
-    assert_bindings(
-        schema="msData/datatypes/duration.xsd",
-        instance="msData/datatypes/duration021.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_duration020_1988_duration020_1988_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=P0Y0M0DT0H0M0.0001S
@@ -14304,22 +9359,6 @@ def test_duration016_1984_duration016_1984_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_duration015_1983_duration015_1983_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=T312H
-    """
-    assert_bindings(
-        schema="msData/datatypes/duration.xsd",
-        instance="msData/datatypes/duration015.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_duration014_1982_duration014_1982_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=P0Y0M3D
@@ -14327,22 +9366,6 @@ def test_duration014_1982_duration014_1982_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
         instance="msData/datatypes/duration014.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_duration013_1981_duration013_1981_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=1234Y
-    """
-    assert_bindings(
-        schema="msData/datatypes/duration.xsd",
-        instance="msData/datatypes/duration013.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -14366,38 +9389,6 @@ def test_duration012_1980_duration012_1980_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_duration011_1979_duration011_1979_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=P200.5Y
-    """
-    assert_bindings(
-        schema="msData/datatypes/duration.xsd",
-        instance="msData/datatypes/duration011.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_duration010_1978_duration010_1978_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=P1Y2MT
-    """
-    assert_bindings(
-        schema="msData/datatypes/duration.xsd",
-        instance="msData/datatypes/duration010.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_duration009_1977_duration009_1977_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=-P1347M
@@ -14405,22 +9396,6 @@ def test_duration009_1977_duration009_1977_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/duration.xsd",
         instance="msData/datatypes/duration009.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_duration008_1976_duration008_1976_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=P-1347M
-    """
-    assert_bindings(
-        schema="msData/datatypes/duration.xsd",
-        instance="msData/datatypes/duration008.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -14519,22 +9494,6 @@ def test_duration002_1970_duration002_1970_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_duration001_1969_duration001_1969_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/duration.xsd",
-        instance="msData/datatypes/duration001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_double030_1968_double030_1968_v(mode, save_output):
     """
     TEST :Facet Schemas for string : all valid double values
@@ -14542,22 +9501,6 @@ def test_double030_1968_double030_1968_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/double030.xsd",
         instance="msData/datatypes/double030.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_double029_1967_double029_1967_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=ABCDEF
-    """
-    assert_bindings(
-        schema="msData/datatypes/double.xsd",
-        instance="msData/datatypes/double029.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -14588,86 +9531,6 @@ def test_double027_1965_double027_1965_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/double.xsd",
         instance="msData/datatypes/double027.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_double026_1964_double026_1964_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=NAN
-    """
-    assert_bindings(
-        schema="msData/datatypes/double.xsd",
-        instance="msData/datatypes/double026.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_double025_1963_double025_1963_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=nan
-    """
-    assert_bindings(
-        schema="msData/datatypes/double.xsd",
-        instance="msData/datatypes/double025.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_double024_1962_double024_1962_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=inf
-    """
-    assert_bindings(
-        schema="msData/datatypes/double.xsd",
-        instance="msData/datatypes/double024.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_double023_1961_double023_1961_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-NaN
-    """
-    assert_bindings(
-        schema="msData/datatypes/double.xsd",
-        instance="msData/datatypes/double023.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_double022_1960_double022_1960_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=+NaN
-    """
-    assert_bindings(
-        schema="msData/datatypes/double.xsd",
-        instance="msData/datatypes/double022.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -14744,38 +9607,6 @@ def test_double017_1955_double017_1955_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/double.xsd",
         instance="msData/datatypes/double017.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_double016_1954_double016_1954_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=E
-    """
-    assert_bindings(
-        schema="msData/datatypes/double.xsd",
-        instance="msData/datatypes/double016.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_double015_1953_double015_1953_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=e
-    """
-    assert_bindings(
-        schema="msData/datatypes/double.xsd",
-        instance="msData/datatypes/double015.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -14979,22 +9810,6 @@ def test_double002_1940_double002_1940_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_double001_1939_double001_1939_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/double.xsd",
-        instance="msData/datatypes/double001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_float039_1938_float039_1938_v(mode, save_output):
     """
     TEST :Facet Schemas for string : all valid float values
@@ -15017,54 +9832,6 @@ def test_float038_1937_float038_1937_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/float038.xsd",
         instance="msData/datatypes/float038.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_float037_1936_float037_1936_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=ABCDEF
-    """
-    assert_bindings(
-        schema="msData/datatypes/float.xsd",
-        instance="msData/datatypes/float037.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_float036_1935_float036_1935_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=13.1513.561
-    """
-    assert_bindings(
-        schema="msData/datatypes/float.xsd",
-        instance="msData/datatypes/float036.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_float035_1934_float035_1934_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-1E4.4
-    """
-    assert_bindings(
-        schema="msData/datatypes/float.xsd",
-        instance="msData/datatypes/float035.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -15178,102 +9945,6 @@ def test_float028_1927_float028_1927_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_float027_1926_float027_1926_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=1267.432x10
-    """
-    assert_bindings(
-        schema="msData/datatypes/float.xsd",
-        instance="msData/datatypes/float027.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_float026_1925_float026_1925_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=NAN
-    """
-    assert_bindings(
-        schema="msData/datatypes/float.xsd",
-        instance="msData/datatypes/float026.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_float025_1924_float025_1924_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=nan
-    """
-    assert_bindings(
-        schema="msData/datatypes/float.xsd",
-        instance="msData/datatypes/float025.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_float024_1923_float024_1923_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=inf
-    """
-    assert_bindings(
-        schema="msData/datatypes/float.xsd",
-        instance="msData/datatypes/float024.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_float023_1922_float023_1922_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-NaN
-    """
-    assert_bindings(
-        schema="msData/datatypes/float.xsd",
-        instance="msData/datatypes/float023.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_float022_1921_float022_1921_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=+NaN
-    """
-    assert_bindings(
-        schema="msData/datatypes/float.xsd",
-        instance="msData/datatypes/float022.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_float021_1920_float021_1920_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=NaN
@@ -15342,38 +10013,6 @@ def test_float017_1916_float017_1916_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/float.xsd",
         instance="msData/datatypes/float017.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_float016_1915_float016_1915_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=E
-    """
-    assert_bindings(
-        schema="msData/datatypes/float.xsd",
-        instance="msData/datatypes/float016.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_float015_1914_float015_1914_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=e
-    """
-    assert_bindings(
-        schema="msData/datatypes/float.xsd",
-        instance="msData/datatypes/float015.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -15569,166 +10208,6 @@ def test_float002_1901_float002_1901_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/float.xsd",
         instance="msData/datatypes/float002.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_float001_1900_float001_1900_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/float.xsd",
-        instance="msData/datatypes/float001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_decimal025_1899_decimal025_1899_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=123.456E4
-    """
-    assert_bindings(
-        schema="msData/datatypes/decimal.xsd",
-        instance="msData/datatypes/decimal025.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_decimal024_1898_decimal024_1898_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=ABCDEF
-    """
-    assert_bindings(
-        schema="msData/datatypes/decimal.xsd",
-        instance="msData/datatypes/decimal024.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_decimal023_1897_decimal023_1897_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=13.1513.561
-    """
-    assert_bindings(
-        schema="msData/datatypes/decimal.xsd",
-        instance="msData/datatypes/decimal023.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_decimal022_1896_decimal022_1896_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=NaN
-    """
-    assert_bindings(
-        schema="msData/datatypes/decimal.xsd",
-        instance="msData/datatypes/decimal022.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_decimal021_1895_decimal021_1895_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-INF
-    """
-    assert_bindings(
-        schema="msData/datatypes/decimal.xsd",
-        instance="msData/datatypes/decimal021.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_decimal020_1894_decimal020_1894_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=INF
-    """
-    assert_bindings(
-        schema="msData/datatypes/decimal.xsd",
-        instance="msData/datatypes/decimal020.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_decimal019_1893_decimal019_1893_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-1E4
-    """
-    assert_bindings(
-        schema="msData/datatypes/decimal.xsd",
-        instance="msData/datatypes/decimal019.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_decimal018_1892_decimal018_1892_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=E
-    """
-    assert_bindings(
-        schema="msData/datatypes/decimal.xsd",
-        instance="msData/datatypes/decimal018.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_decimal017_1891_decimal017_1891_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=e
-    """
-    assert_bindings(
-        schema="msData/datatypes/decimal.xsd",
-        instance="msData/datatypes/decimal017.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -15962,22 +10441,6 @@ def test_decimal002_1876_decimal002_1876_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_decimal001_1875_decimal001_1875_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/decimal.xsd",
-        instance="msData/datatypes/decimal001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_boolean018_1874_boolean018_1874_v(mode, save_output):
     """
     TEST :Facet Schemas for string : Test simpleType list with boolean
@@ -15985,198 +10448,6 @@ def test_boolean018_1874_boolean018_1874_v(mode, save_output):
     assert_bindings(
         schema="msData/datatypes/boolean018.xsd",
         instance="msData/datatypes/boolean018.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_boolean017_1873_boolean017_1873_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=F
-    """
-    assert_bindings(
-        schema="msData/datatypes/boolean.xsd",
-        instance="msData/datatypes/boolean017.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_boolean016_1872_boolean016_1872_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=T
-    """
-    assert_bindings(
-        schema="msData/datatypes/boolean.xsd",
-        instance="msData/datatypes/boolean016.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_boolean015_1871_boolean015_1871_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=f
-    """
-    assert_bindings(
-        schema="msData/datatypes/boolean.xsd",
-        instance="msData/datatypes/boolean015.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_boolean014_1870_boolean014_1870_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=t
-    """
-    assert_bindings(
-        schema="msData/datatypes/boolean.xsd",
-        instance="msData/datatypes/boolean014.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_boolean013_1869_boolean013_1869_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=FALSE
-    """
-    assert_bindings(
-        schema="msData/datatypes/boolean.xsd",
-        instance="msData/datatypes/boolean013.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_boolean012_1868_boolean012_1868_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=TRUE
-    """
-    assert_bindings(
-        schema="msData/datatypes/boolean.xsd",
-        instance="msData/datatypes/boolean012.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_boolean011_1867_boolean011_1867_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=True
-    """
-    assert_bindings(
-        schema="msData/datatypes/boolean.xsd",
-        instance="msData/datatypes/boolean011.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_boolean010_1866_boolean010_1866_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=False
-    """
-    assert_bindings(
-        schema="msData/datatypes/boolean.xsd",
-        instance="msData/datatypes/boolean010.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_boolean009_1865_boolean009_1865_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=+0
-    """
-    assert_bindings(
-        schema="msData/datatypes/boolean.xsd",
-        instance="msData/datatypes/boolean009.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_boolean008_1864_boolean008_1864_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-0
-    """
-    assert_bindings(
-        schema="msData/datatypes/boolean.xsd",
-        instance="msData/datatypes/boolean008.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_boolean007_1863_boolean007_1863_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=-1
-    """
-    assert_bindings(
-        schema="msData/datatypes/boolean.xsd",
-        instance="msData/datatypes/boolean007.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
-@pytest.mark.skip(reason="Invalid instance")
-def test_boolean006_1862_boolean006_1862_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=+1
-    """
-    assert_bindings(
-        schema="msData/datatypes/boolean.xsd",
-        instance="msData/datatypes/boolean006.xml",
         class_name="Root",
         version="1.1",
         mode=mode,
@@ -16245,22 +10516,6 @@ def test_boolean002_1858_boolean002_1858_v(mode, save_output):
     )
 
 
-@pytest.mark.skip(reason="Invalid instance")
-def test_boolean001_1857_boolean001_1857_i(mode, save_output):
-    """
-    TEST :Facet Schemas for string : value=
-    """
-    assert_bindings(
-        schema="msData/datatypes/boolean.xsd",
-        instance="msData/datatypes/boolean001.xml",
-        class_name="Root",
-        version="1.1",
-        mode=mode,
-        save_output=save_output,
-        structure_style="filenames",
-    )
-
-
 def test_string006_1856_string006_1856_v(mode, save_output):
     """
     TEST :Facet Schemas for string : value=BaseChar ::= [#x0041-#x005A] |
@@ -16285,6 +10540,5491 @@ def test_string006_1856_string006_1856_v(mode, save_output):
         schema="msData/datatypes/string.xsd",
         instance="msData/datatypes/string006.xml",
         class_name="Root",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_string005_1855_string005_1855_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : value=#x20 | #xD | #xA | [a-zA-Z0-9]
+    | [-'()+,./:=?;!*#@$_%]
+    """
+    assert_bindings(
+        schema="msData/datatypes/string.xsd",
+        instance="msData/datatypes/string005.xml",
+        class_name="Root",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_string004_1854_string004_1854_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : value=sdflhksdgh;let vm'peoaivm'weiv'
+    """
+    assert_bindings(
+        schema="msData/datatypes/string.xsd",
+        instance="msData/datatypes/string004.xml",
+        class_name="Root",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_string003_1853_string003_1853_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : value=!$%%*))*(
+    """
+    assert_bindings(
+        schema="msData/datatypes/string.xsd",
+        instance="msData/datatypes/string003.xml",
+        class_name="Root",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_string002_1852_string002_1852_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : value=a_?>
+    """
+    assert_bindings(
+        schema="msData/datatypes/string.xsd",
+        instance="msData/datatypes/string002.xml",
+        class_name="Root",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_string001_1851_string001_1851_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : value=
+    """
+    assert_bindings(
+        schema="msData/datatypes/string.xsd",
+        instance="msData/datatypes/string001.xml",
+        class_name="Root",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_positive_integer_total_digits003_1849_positive_integer_total_digits003_1849_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=4 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/positiveInteger/positiveInteger_totalDigits003.xsd",
+        instance="msData/datatypes/Facets/positiveInteger/positiveInteger_totalDigits003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_positive_integer_total_digits002_1848_positive_integer_total_digits002_1848_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=3 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/positiveInteger/positiveInteger_totalDigits002.xsd",
+        instance="msData/datatypes/Facets/positiveInteger/positiveInteger_totalDigits002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_positive_integer_min_exclusive005_1846_positive_integer_min_exclusive005_1846_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
+    facet=maxExclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/positiveInteger/positiveInteger_minExclusive005.xsd",
+        instance="msData/datatypes/Facets/positiveInteger/positiveInteger_minExclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_positive_integer_min_exclusive004_1845_positive_integer_min_exclusive004_1845_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
+    facet=maxInclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/positiveInteger/positiveInteger_minExclusive004.xsd",
+        instance="msData/datatypes/Facets/positiveInteger/positiveInteger_minExclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_positive_integer_min_exclusive003_1844_positive_integer_min_exclusive003_1844_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minExclusive and value=1 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/positiveInteger/positiveInteger_minExclusive003.xsd",
+        instance="msData/datatypes/Facets/positiveInteger/positiveInteger_minExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_positive_integer_min_inclusive005_1841_positive_integer_min_inclusive005_1841_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
+    facet=maxExclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/positiveInteger/positiveInteger_minInclusive005.xsd",
+        instance="msData/datatypes/Facets/positiveInteger/positiveInteger_minInclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_positive_integer_min_inclusive004_1840_positive_integer_min_inclusive004_1840_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
+    facet=maxInclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/positiveInteger/positiveInteger_minInclusive004.xsd",
+        instance="msData/datatypes/Facets/positiveInteger/positiveInteger_minInclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_positive_integer_min_inclusive003_1839_positive_integer_min_inclusive003_1839_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=1 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/positiveInteger/positiveInteger_minInclusive003.xsd",
+        instance="msData/datatypes/Facets/positiveInteger/positiveInteger_minInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_positive_integer_min_inclusive001_1837_positive_integer_min_inclusive001_1837_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=1 and
+    document value=1
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/positiveInteger/positiveInteger_minInclusive001.xsd",
+        instance="msData/datatypes/Facets/positiveInteger/positiveInteger_minInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_positive_integer_max_exclusive003_1836_positive_integer_max_exclusive003_1836_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxExclusive and value=7 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/positiveInteger/positiveInteger_maxExclusive003.xsd",
+        instance="msData/datatypes/Facets/positiveInteger/positiveInteger_maxExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_positive_integer_max_inclusive003_1833_positive_integer_max_inclusive003_1833_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=7 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/positiveInteger/positiveInteger_maxInclusive003.xsd",
+        instance="msData/datatypes/Facets/positiveInteger/positiveInteger_maxInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_positive_integer_max_inclusive001_1831_positive_integer_max_inclusive001_1831_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=1 and
+    document value=1
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/positiveInteger/positiveInteger_maxInclusive001.xsd",
+        instance="msData/datatypes/Facets/positiveInteger/positiveInteger_maxInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_positive_integer_enumeration004_1830_positive_integer_enumeration004_1830_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=567 1 234
+    and document value=567
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/positiveInteger/positiveInteger_enumeration004.xsd",
+        instance="msData/datatypes/Facets/positiveInteger/positiveInteger_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_positive_integer_enumeration002_1828_positive_integer_enumeration002_1828_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=567 and
+    document value=567
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/positiveInteger/positiveInteger_enumeration002.xsd",
+        instance="msData/datatypes/Facets/positiveInteger/positiveInteger_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_positive_integer_pattern001_1826_positive_integer_pattern001_1826_v(mode, save_output):
+    r"""
+    TEST :Facet Schemas for string : facet=pattern and value=\p{Nd}{1,3}
+    and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/positiveInteger/positiveInteger_pattern001.xsd",
+        instance="msData/datatypes/Facets/positiveInteger/positiveInteger_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_byte_total_digits003_1825_unsigned_byte_total_digits003_1825_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=4 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedByte/unsignedByte_totalDigits003.xsd",
+        instance="msData/datatypes/Facets/unsignedByte/unsignedByte_totalDigits003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_byte_total_digits002_1824_unsigned_byte_total_digits002_1824_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=3 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedByte/unsignedByte_totalDigits002.xsd",
+        instance="msData/datatypes/Facets/unsignedByte/unsignedByte_totalDigits002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_byte_min_exclusive005_1822_unsigned_byte_min_exclusive005_1822_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
+    facet=maxExclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedByte/unsignedByte_minExclusive005.xsd",
+        instance="msData/datatypes/Facets/unsignedByte/unsignedByte_minExclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_byte_min_exclusive004_1821_unsigned_byte_min_exclusive004_1821_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
+    facet=maxInclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedByte/unsignedByte_minExclusive004.xsd",
+        instance="msData/datatypes/Facets/unsignedByte/unsignedByte_minExclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_byte_min_exclusive003_1820_unsigned_byte_min_exclusive003_1820_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minExclusive and value=1 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedByte/unsignedByte_minExclusive003.xsd",
+        instance="msData/datatypes/Facets/unsignedByte/unsignedByte_minExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_byte_min_inclusive005_1817_unsigned_byte_min_inclusive005_1817_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
+    facet=maxExclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedByte/unsignedByte_minInclusive005.xsd",
+        instance="msData/datatypes/Facets/unsignedByte/unsignedByte_minInclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_byte_min_inclusive004_1816_unsigned_byte_min_inclusive004_1816_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
+    facet=maxInclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedByte/unsignedByte_minInclusive004.xsd",
+        instance="msData/datatypes/Facets/unsignedByte/unsignedByte_minInclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_byte_min_inclusive003_1815_unsigned_byte_min_inclusive003_1815_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=1 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedByte/unsignedByte_minInclusive003.xsd",
+        instance="msData/datatypes/Facets/unsignedByte/unsignedByte_minInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_byte_min_inclusive001_1813_unsigned_byte_min_inclusive001_1813_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=1 and
+    document value=1
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedByte/unsignedByte_minInclusive001.xsd",
+        instance="msData/datatypes/Facets/unsignedByte/unsignedByte_minInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_byte_max_exclusive003_1812_unsigned_byte_max_exclusive003_1812_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxExclusive and value=7 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedByte/unsignedByte_maxExclusive003.xsd",
+        instance="msData/datatypes/Facets/unsignedByte/unsignedByte_maxExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_byte_max_inclusive003_1809_unsigned_byte_max_inclusive003_1809_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=7 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedByte/unsignedByte_maxInclusive003.xsd",
+        instance="msData/datatypes/Facets/unsignedByte/unsignedByte_maxInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_byte_max_inclusive001_1807_unsigned_byte_max_inclusive001_1807_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=1 and
+    document value=1
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedByte/unsignedByte_maxInclusive001.xsd",
+        instance="msData/datatypes/Facets/unsignedByte/unsignedByte_maxInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_byte_enumeration004_1806_unsigned_byte_enumeration004_1806_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=0 1 234
+    and document value=0
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedByte/unsignedByte_enumeration004.xsd",
+        instance="msData/datatypes/Facets/unsignedByte/unsignedByte_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_byte_enumeration002_1804_unsigned_byte_enumeration002_1804_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=0 and
+    document value=0
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedByte/unsignedByte_enumeration002.xsd",
+        instance="msData/datatypes/Facets/unsignedByte/unsignedByte_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_byte_pattern001_1802_unsigned_byte_pattern001_1802_v(mode, save_output):
+    r"""
+    TEST :Facet Schemas for string : facet=pattern and value=\p{Nd}{1,3}
+    and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedByte/unsignedByte_pattern001.xsd",
+        instance="msData/datatypes/Facets/unsignedByte/unsignedByte_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_short_total_digits003_1801_unsigned_short_total_digits003_1801_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=4 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedShort/unsignedShort_totalDigits003.xsd",
+        instance="msData/datatypes/Facets/unsignedShort/unsignedShort_totalDigits003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_short_total_digits002_1800_unsigned_short_total_digits002_1800_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=3 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedShort/unsignedShort_totalDigits002.xsd",
+        instance="msData/datatypes/Facets/unsignedShort/unsignedShort_totalDigits002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_short_min_exclusive005_1798_unsigned_short_min_exclusive005_1798_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
+    facet=maxExclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedShort/unsignedShort_minExclusive005.xsd",
+        instance="msData/datatypes/Facets/unsignedShort/unsignedShort_minExclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_short_min_exclusive004_1797_unsigned_short_min_exclusive004_1797_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
+    facet=maxInclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedShort/unsignedShort_minExclusive004.xsd",
+        instance="msData/datatypes/Facets/unsignedShort/unsignedShort_minExclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_short_min_exclusive003_1796_unsigned_short_min_exclusive003_1796_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minExclusive and value=1 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedShort/unsignedShort_minExclusive003.xsd",
+        instance="msData/datatypes/Facets/unsignedShort/unsignedShort_minExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_short_min_inclusive005_1793_unsigned_short_min_inclusive005_1793_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
+    facet=maxExclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedShort/unsignedShort_minInclusive005.xsd",
+        instance="msData/datatypes/Facets/unsignedShort/unsignedShort_minInclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_short_min_inclusive004_1792_unsigned_short_min_inclusive004_1792_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
+    facet=maxInclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedShort/unsignedShort_minInclusive004.xsd",
+        instance="msData/datatypes/Facets/unsignedShort/unsignedShort_minInclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_short_min_inclusive003_1791_unsigned_short_min_inclusive003_1791_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=1 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedShort/unsignedShort_minInclusive003.xsd",
+        instance="msData/datatypes/Facets/unsignedShort/unsignedShort_minInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_short_min_inclusive001_1789_unsigned_short_min_inclusive001_1789_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=1 and
+    document value=1
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedShort/unsignedShort_minInclusive001.xsd",
+        instance="msData/datatypes/Facets/unsignedShort/unsignedShort_minInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_short_max_exclusive003_1788_unsigned_short_max_exclusive003_1788_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxExclusive and value=7 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedShort/unsignedShort_maxExclusive003.xsd",
+        instance="msData/datatypes/Facets/unsignedShort/unsignedShort_maxExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_short_max_inclusive003_1785_unsigned_short_max_inclusive003_1785_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=7 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedShort/unsignedShort_maxInclusive003.xsd",
+        instance="msData/datatypes/Facets/unsignedShort/unsignedShort_maxInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_short_max_inclusive001_1783_unsigned_short_max_inclusive001_1783_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=1 and
+    document value=1
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedShort/unsignedShort_maxInclusive001.xsd",
+        instance="msData/datatypes/Facets/unsignedShort/unsignedShort_maxInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_short_enumeration004_1782_unsigned_short_enumeration004_1782_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=0 1 234
+    and document value=0
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedShort/unsignedShort_enumeration004.xsd",
+        instance="msData/datatypes/Facets/unsignedShort/unsignedShort_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_short_enumeration002_1780_unsigned_short_enumeration002_1780_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=0 and
+    document value=0
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedShort/unsignedShort_enumeration002.xsd",
+        instance="msData/datatypes/Facets/unsignedShort/unsignedShort_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_short_pattern001_1778_unsigned_short_pattern001_1778_v(mode, save_output):
+    r"""
+    TEST :Facet Schemas for string : facet=pattern and value=\p{Nd}{1,3}
+    and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedShort/unsignedShort_pattern001.xsd",
+        instance="msData/datatypes/Facets/unsignedShort/unsignedShort_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_int_total_digits003_1777_unsigned_int_total_digits003_1777_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=4 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedInt/unsignedInt_totalDigits003.xsd",
+        instance="msData/datatypes/Facets/unsignedInt/unsignedInt_totalDigits003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_int_total_digits002_1776_unsigned_int_total_digits002_1776_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=3 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedInt/unsignedInt_totalDigits002.xsd",
+        instance="msData/datatypes/Facets/unsignedInt/unsignedInt_totalDigits002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_int_min_exclusive005_1774_unsigned_int_min_exclusive005_1774_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
+    facet=maxExclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedInt/unsignedInt_minExclusive005.xsd",
+        instance="msData/datatypes/Facets/unsignedInt/unsignedInt_minExclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_int_min_exclusive004_1773_unsigned_int_min_exclusive004_1773_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
+    facet=maxInclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedInt/unsignedInt_minExclusive004.xsd",
+        instance="msData/datatypes/Facets/unsignedInt/unsignedInt_minExclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_int_min_exclusive003_1772_unsigned_int_min_exclusive003_1772_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minExclusive and value=1 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedInt/unsignedInt_minExclusive003.xsd",
+        instance="msData/datatypes/Facets/unsignedInt/unsignedInt_minExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_int_min_inclusive005_1769_unsigned_int_min_inclusive005_1769_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
+    facet=maxExclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedInt/unsignedInt_minInclusive005.xsd",
+        instance="msData/datatypes/Facets/unsignedInt/unsignedInt_minInclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_int_min_inclusive004_1768_unsigned_int_min_inclusive004_1768_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
+    facet=maxInclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedInt/unsignedInt_minInclusive004.xsd",
+        instance="msData/datatypes/Facets/unsignedInt/unsignedInt_minInclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_int_min_inclusive003_1767_unsigned_int_min_inclusive003_1767_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=1 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedInt/unsignedInt_minInclusive003.xsd",
+        instance="msData/datatypes/Facets/unsignedInt/unsignedInt_minInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_int_min_inclusive001_1765_unsigned_int_min_inclusive001_1765_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=1 and
+    document value=1
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedInt/unsignedInt_minInclusive001.xsd",
+        instance="msData/datatypes/Facets/unsignedInt/unsignedInt_minInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_int_max_exclusive003_1764_unsigned_int_max_exclusive003_1764_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxExclusive and value=7 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedInt/unsignedInt_maxExclusive003.xsd",
+        instance="msData/datatypes/Facets/unsignedInt/unsignedInt_maxExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_int_max_inclusive003_1761_unsigned_int_max_inclusive003_1761_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=7 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedInt/unsignedInt_maxInclusive003.xsd",
+        instance="msData/datatypes/Facets/unsignedInt/unsignedInt_maxInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_int_max_inclusive001_1759_unsigned_int_max_inclusive001_1759_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=1 and
+    document value=1
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedInt/unsignedInt_maxInclusive001.xsd",
+        instance="msData/datatypes/Facets/unsignedInt/unsignedInt_maxInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_int_enumeration004_1758_unsigned_int_enumeration004_1758_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=0 1 234
+    and document value=0
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedInt/unsignedInt_enumeration004.xsd",
+        instance="msData/datatypes/Facets/unsignedInt/unsignedInt_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_int_enumeration002_1756_unsigned_int_enumeration002_1756_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=0 and
+    document value=0
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedInt/unsignedInt_enumeration002.xsd",
+        instance="msData/datatypes/Facets/unsignedInt/unsignedInt_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_int_pattern001_1754_unsigned_int_pattern001_1754_v(mode, save_output):
+    r"""
+    TEST :Facet Schemas for string : facet=pattern and value=\p{Nd}{1,3}
+    and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedInt/unsignedInt_pattern001.xsd",
+        instance="msData/datatypes/Facets/unsignedInt/unsignedInt_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_long_total_digits003_1753_unsigned_long_total_digits003_1753_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=4 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedLong/unsignedLong_totalDigits003.xsd",
+        instance="msData/datatypes/Facets/unsignedLong/unsignedLong_totalDigits003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_long_total_digits002_1752_unsigned_long_total_digits002_1752_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=3 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedLong/unsignedLong_totalDigits002.xsd",
+        instance="msData/datatypes/Facets/unsignedLong/unsignedLong_totalDigits002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_long_min_exclusive005_1750_unsigned_long_min_exclusive005_1750_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
+    facet=maxExclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedLong/unsignedLong_minExclusive005.xsd",
+        instance="msData/datatypes/Facets/unsignedLong/unsignedLong_minExclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_long_min_exclusive004_1749_unsigned_long_min_exclusive004_1749_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
+    facet=maxInclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedLong/unsignedLong_minExclusive004.xsd",
+        instance="msData/datatypes/Facets/unsignedLong/unsignedLong_minExclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_long_min_exclusive003_1748_unsigned_long_min_exclusive003_1748_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minExclusive and value=1 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedLong/unsignedLong_minExclusive003.xsd",
+        instance="msData/datatypes/Facets/unsignedLong/unsignedLong_minExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_long_min_inclusive005_1745_unsigned_long_min_inclusive005_1745_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
+    facet=maxExclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedLong/unsignedLong_minInclusive005.xsd",
+        instance="msData/datatypes/Facets/unsignedLong/unsignedLong_minInclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_long_min_inclusive004_1744_unsigned_long_min_inclusive004_1744_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
+    facet=maxInclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedLong/unsignedLong_minInclusive004.xsd",
+        instance="msData/datatypes/Facets/unsignedLong/unsignedLong_minInclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_long_min_inclusive003_1743_unsigned_long_min_inclusive003_1743_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=1 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedLong/unsignedLong_minInclusive003.xsd",
+        instance="msData/datatypes/Facets/unsignedLong/unsignedLong_minInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_long_min_inclusive001_1741_unsigned_long_min_inclusive001_1741_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=1 and
+    document value=1
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedLong/unsignedLong_minInclusive001.xsd",
+        instance="msData/datatypes/Facets/unsignedLong/unsignedLong_minInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_long_max_exclusive003_1740_unsigned_long_max_exclusive003_1740_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxExclusive and value=7 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedLong/unsignedLong_maxExclusive003.xsd",
+        instance="msData/datatypes/Facets/unsignedLong/unsignedLong_maxExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_long_max_inclusive003_1737_unsigned_long_max_inclusive003_1737_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=7 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedLong/unsignedLong_maxInclusive003.xsd",
+        instance="msData/datatypes/Facets/unsignedLong/unsignedLong_maxInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_long_max_inclusive001_1735_unsigned_long_max_inclusive001_1735_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=1 and
+    document value=1
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedLong/unsignedLong_maxInclusive001.xsd",
+        instance="msData/datatypes/Facets/unsignedLong/unsignedLong_maxInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_long_enumeration004_1734_unsigned_long_enumeration004_1734_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=0 1 234
+    and document value=0
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedLong/unsignedLong_enumeration004.xsd",
+        instance="msData/datatypes/Facets/unsignedLong/unsignedLong_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_long_enumeration002_1732_unsigned_long_enumeration002_1732_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=0 and
+    document value=0
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedLong/unsignedLong_enumeration002.xsd",
+        instance="msData/datatypes/Facets/unsignedLong/unsignedLong_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_unsigned_long_pattern001_1730_unsigned_long_pattern001_1730_v(mode, save_output):
+    r"""
+    TEST :Facet Schemas for string : facet=pattern and value=\p{Nd}{1,3}
+    and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/unsignedLong/unsignedLong_pattern001.xsd",
+        instance="msData/datatypes/Facets/unsignedLong/unsignedLong_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_negative_integer_total_digits003_1729_non_negative_integer_total_digits003_1729_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=4 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_totalDigits003.xsd",
+        instance="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_totalDigits003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_negative_integer_total_digits002_1728_non_negative_integer_total_digits002_1728_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=3 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_totalDigits002.xsd",
+        instance="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_totalDigits002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_negative_integer_min_exclusive005_1726_non_negative_integer_min_exclusive005_1726_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
+    facet=maxExclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_minExclusive005.xsd",
+        instance="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_minExclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_negative_integer_min_exclusive004_1725_non_negative_integer_min_exclusive004_1725_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
+    facet=maxInclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_minExclusive004.xsd",
+        instance="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_minExclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_negative_integer_min_exclusive003_1724_non_negative_integer_min_exclusive003_1724_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minExclusive and value=1 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_minExclusive003.xsd",
+        instance="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_minExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_negative_integer_min_inclusive005_1721_non_negative_integer_min_inclusive005_1721_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
+    facet=maxExclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_minInclusive005.xsd",
+        instance="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_minInclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_negative_integer_min_inclusive004_1720_non_negative_integer_min_inclusive004_1720_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
+    facet=maxInclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_minInclusive004.xsd",
+        instance="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_minInclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_negative_integer_min_inclusive003_1719_non_negative_integer_min_inclusive003_1719_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=1 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_minInclusive003.xsd",
+        instance="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_minInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_negative_integer_min_inclusive001_1717_non_negative_integer_min_inclusive001_1717_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=1 and
+    document value=1
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_minInclusive001.xsd",
+        instance="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_minInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_negative_integer_max_exclusive003_1716_non_negative_integer_max_exclusive003_1716_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxExclusive and value=7 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_maxExclusive003.xsd",
+        instance="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_maxExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_negative_integer_max_inclusive003_1713_non_negative_integer_max_inclusive003_1713_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=7 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_maxInclusive003.xsd",
+        instance="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_maxInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_negative_integer_max_inclusive001_1711_non_negative_integer_max_inclusive001_1711_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=1 and
+    document value=1
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_maxInclusive001.xsd",
+        instance="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_maxInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_negative_integer_enumeration004_1710_non_negative_integer_enumeration004_1710_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=456 789 0
+    and document value=456
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_enumeration004.xsd",
+        instance="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_negative_integer_enumeration002_1708_non_negative_integer_enumeration002_1708_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=456 and
+    document value=456
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_enumeration002.xsd",
+        instance="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_negative_integer_pattern001_1706_non_negative_integer_pattern001_1706_v(mode, save_output):
+    r"""
+    TEST :Facet Schemas for string : facet=pattern and value=\p{Nd}{1,3}
+    and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_pattern001.xsd",
+        instance="msData/datatypes/Facets/nonNegativeInteger/nonNegativeInteger_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_byte_total_digits003_1705_byte_total_digits003_1705_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=4 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/byte/byte_totalDigits003.xsd",
+        instance="msData/datatypes/Facets/byte/byte_totalDigits003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_byte_total_digits002_1704_byte_total_digits002_1704_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=3 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/byte/byte_totalDigits002.xsd",
+        instance="msData/datatypes/Facets/byte/byte_totalDigits002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_byte_min_exclusive005_1702_byte_min_exclusive005_1702_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
+    facet=maxExclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/byte/byte_minExclusive005.xsd",
+        instance="msData/datatypes/Facets/byte/byte_minExclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_byte_min_exclusive004_1701_byte_min_exclusive004_1701_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
+    facet=maxInclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/byte/byte_minExclusive004.xsd",
+        instance="msData/datatypes/Facets/byte/byte_minExclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_byte_min_exclusive003_1700_byte_min_exclusive003_1700_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minExclusive and value=1 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/byte/byte_minExclusive003.xsd",
+        instance="msData/datatypes/Facets/byte/byte_minExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_byte_min_inclusive005_1697_byte_min_inclusive005_1697_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
+    facet=maxExclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/byte/byte_minInclusive005.xsd",
+        instance="msData/datatypes/Facets/byte/byte_minInclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_byte_min_inclusive004_1696_byte_min_inclusive004_1696_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
+    facet=maxInclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/byte/byte_minInclusive004.xsd",
+        instance="msData/datatypes/Facets/byte/byte_minInclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_byte_min_inclusive003_1695_byte_min_inclusive003_1695_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=1 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/byte/byte_minInclusive003.xsd",
+        instance="msData/datatypes/Facets/byte/byte_minInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_byte_min_inclusive001_1693_byte_min_inclusive001_1693_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=1 and
+    document value=1
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/byte/byte_minInclusive001.xsd",
+        instance="msData/datatypes/Facets/byte/byte_minInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_byte_max_exclusive003_1692_byte_max_exclusive003_1692_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxExclusive and value=7 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/byte/byte_maxExclusive003.xsd",
+        instance="msData/datatypes/Facets/byte/byte_maxExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_byte_max_inclusive003_1689_byte_max_inclusive003_1689_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=7 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/byte/byte_maxInclusive003.xsd",
+        instance="msData/datatypes/Facets/byte/byte_maxInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_byte_max_inclusive001_1687_byte_max_inclusive001_1687_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=1 and
+    document value=1
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/byte/byte_maxInclusive001.xsd",
+        instance="msData/datatypes/Facets/byte/byte_maxInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_byte_enumeration004_1686_byte_enumeration004_1686_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=-1 0 1
+    and document value=0
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/byte/byte_enumeration004.xsd",
+        instance="msData/datatypes/Facets/byte/byte_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_byte_enumeration002_1684_byte_enumeration002_1684_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=0 and
+    document value=0
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/byte/byte_enumeration002.xsd",
+        instance="msData/datatypes/Facets/byte/byte_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_byte_pattern001_1682_byte_pattern001_1682_v(mode, save_output):
+    r"""
+    TEST :Facet Schemas for string : facet=pattern and value=\p{Nd}{1,3}
+    and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/byte/byte_pattern001.xsd",
+        instance="msData/datatypes/Facets/byte/byte_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_short_total_digits003_1681_short_total_digits003_1681_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=4 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/short/short_totalDigits003.xsd",
+        instance="msData/datatypes/Facets/short/short_totalDigits003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_short_total_digits002_1680_short_total_digits002_1680_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=3 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/short/short_totalDigits002.xsd",
+        instance="msData/datatypes/Facets/short/short_totalDigits002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_short_min_exclusive005_1678_short_min_exclusive005_1678_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
+    facet=maxExclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/short/short_minExclusive005.xsd",
+        instance="msData/datatypes/Facets/short/short_minExclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_short_min_exclusive004_1677_short_min_exclusive004_1677_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
+    facet=maxInclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/short/short_minExclusive004.xsd",
+        instance="msData/datatypes/Facets/short/short_minExclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_short_min_exclusive003_1676_short_min_exclusive003_1676_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minExclusive and value=1 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/short/short_minExclusive003.xsd",
+        instance="msData/datatypes/Facets/short/short_minExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_short_min_inclusive005_1673_short_min_inclusive005_1673_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
+    facet=maxExclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/short/short_minInclusive005.xsd",
+        instance="msData/datatypes/Facets/short/short_minInclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_short_min_inclusive004_1672_short_min_inclusive004_1672_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
+    facet=maxInclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/short/short_minInclusive004.xsd",
+        instance="msData/datatypes/Facets/short/short_minInclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_short_min_inclusive003_1671_short_min_inclusive003_1671_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=1 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/short/short_minInclusive003.xsd",
+        instance="msData/datatypes/Facets/short/short_minInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_short_min_inclusive001_1669_short_min_inclusive001_1669_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=1 and
+    document value=1
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/short/short_minInclusive001.xsd",
+        instance="msData/datatypes/Facets/short/short_minInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_short_max_exclusive003_1668_short_max_exclusive003_1668_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxExclusive and value=7 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/short/short_maxExclusive003.xsd",
+        instance="msData/datatypes/Facets/short/short_maxExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_short_max_inclusive003_1665_short_max_inclusive003_1665_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=7 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/short/short_maxInclusive003.xsd",
+        instance="msData/datatypes/Facets/short/short_maxInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_short_max_inclusive001_1663_short_max_inclusive001_1663_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=1 and
+    document value=1
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/short/short_maxInclusive001.xsd",
+        instance="msData/datatypes/Facets/short/short_maxInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_short_enumeration004_1662_short_enumeration004_1662_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=-1 0 1
+    and document value=0
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/short/short_enumeration004.xsd",
+        instance="msData/datatypes/Facets/short/short_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_short_enumeration002_1660_short_enumeration002_1660_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=0 and
+    document value=0
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/short/short_enumeration002.xsd",
+        instance="msData/datatypes/Facets/short/short_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_short_pattern001_1658_short_pattern001_1658_v(mode, save_output):
+    r"""
+    TEST :Facet Schemas for string : facet=pattern and value=\p{Nd}{1,3}
+    and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/short/short_pattern001.xsd",
+        instance="msData/datatypes/Facets/short/short_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_int_total_digits003_1656_int_total_digits003_1656_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=4 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/int/int_totalDigits003.xsd",
+        instance="msData/datatypes/Facets/int/int_totalDigits003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_int_total_digits002_1655_int_total_digits002_1655_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=3 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/int/int_totalDigits002.xsd",
+        instance="msData/datatypes/Facets/int/int_totalDigits002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_int_min_exclusive005_1653_int_min_exclusive005_1653_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
+    facet=maxExclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/int/int_minExclusive005.xsd",
+        instance="msData/datatypes/Facets/int/int_minExclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_int_min_exclusive004_1652_int_min_exclusive004_1652_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
+    facet=maxInclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/int/int_minExclusive004.xsd",
+        instance="msData/datatypes/Facets/int/int_minExclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_int_min_exclusive003_1651_int_min_exclusive003_1651_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minExclusive and value=1 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/int/int_minExclusive003.xsd",
+        instance="msData/datatypes/Facets/int/int_minExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_int_min_inclusive005_1648_int_min_inclusive005_1648_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
+    facet=maxExclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/int/int_minInclusive005.xsd",
+        instance="msData/datatypes/Facets/int/int_minInclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_int_min_inclusive004_1647_int_min_inclusive004_1647_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
+    facet=maxInclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/int/int_minInclusive004.xsd",
+        instance="msData/datatypes/Facets/int/int_minInclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_int_min_inclusive003_1646_int_min_inclusive003_1646_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=1 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/int/int_minInclusive003.xsd",
+        instance="msData/datatypes/Facets/int/int_minInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_int_min_inclusive001_1644_int_min_inclusive001_1644_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=1 and
+    document value=1
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/int/int_minInclusive001.xsd",
+        instance="msData/datatypes/Facets/int/int_minInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_int_max_exclusive003_1643_int_max_exclusive003_1643_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxExclusive and value=7 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/int/int_maxExclusive003.xsd",
+        instance="msData/datatypes/Facets/int/int_maxExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_int_max_inclusive003_1640_int_max_inclusive003_1640_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=7 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/int/int_maxInclusive003.xsd",
+        instance="msData/datatypes/Facets/int/int_maxInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_int_max_inclusive001_1638_int_max_inclusive001_1638_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=1 and
+    document value=1
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/int/int_maxInclusive001.xsd",
+        instance="msData/datatypes/Facets/int/int_maxInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_int_enumeration004_1637_int_enumeration004_1637_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=-1 0 1
+    and document value=0
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/int/int_enumeration004.xsd",
+        instance="msData/datatypes/Facets/int/int_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_int_enumeration002_1635_int_enumeration002_1635_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=0 and
+    document value=0
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/int/int_enumeration002.xsd",
+        instance="msData/datatypes/Facets/int/int_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_int_pattern001_1633_int_pattern001_1633_v(mode, save_output):
+    r"""
+    TEST :Facet Schemas for string : facet=pattern and value=\p{Nd}{1,3}
+    and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/int/int_pattern001.xsd",
+        instance="msData/datatypes/Facets/int/int_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_long_total_digits003_1632_long_total_digits003_1632_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=4 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/long/long_totalDigits003.xsd",
+        instance="msData/datatypes/Facets/long/long_totalDigits003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_long_total_digits002_1631_long_total_digits002_1631_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=3 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/long/long_totalDigits002.xsd",
+        instance="msData/datatypes/Facets/long/long_totalDigits002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_long_min_exclusive005_1629_long_min_exclusive005_1629_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
+    facet=maxExclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/long/long_minExclusive005.xsd",
+        instance="msData/datatypes/Facets/long/long_minExclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_long_min_exclusive004_1628_long_min_exclusive004_1628_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
+    facet=maxInclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/long/long_minExclusive004.xsd",
+        instance="msData/datatypes/Facets/long/long_minExclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_long_min_exclusive003_1627_long_min_exclusive003_1627_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minExclusive and value=1 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/long/long_minExclusive003.xsd",
+        instance="msData/datatypes/Facets/long/long_minExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_long_min_inclusive005_1624_long_min_inclusive005_1624_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
+    facet=maxExclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/long/long_minInclusive005.xsd",
+        instance="msData/datatypes/Facets/long/long_minInclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_long_min_inclusive004_1623_long_min_inclusive004_1623_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
+    facet=maxInclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/long/long_minInclusive004.xsd",
+        instance="msData/datatypes/Facets/long/long_minInclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_long_min_inclusive003_1622_long_min_inclusive003_1622_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=1 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/long/long_minInclusive003.xsd",
+        instance="msData/datatypes/Facets/long/long_minInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_long_min_inclusive001_1620_long_min_inclusive001_1620_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=1 and
+    document value=1
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/long/long_minInclusive001.xsd",
+        instance="msData/datatypes/Facets/long/long_minInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_long_max_exclusive003_1619_long_max_exclusive003_1619_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxExclusive and value=7 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/long/long_maxExclusive003.xsd",
+        instance="msData/datatypes/Facets/long/long_maxExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_long_max_inclusive003_1616_long_max_inclusive003_1616_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=7 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/long/long_maxInclusive003.xsd",
+        instance="msData/datatypes/Facets/long/long_maxInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_long_max_inclusive001_1614_long_max_inclusive001_1614_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=1 and
+    document value=1
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/long/long_maxInclusive001.xsd",
+        instance="msData/datatypes/Facets/long/long_maxInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_long_enumeration004_1613_long_enumeration004_1613_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=-1 0 1
+    and document value=0
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/long/long_enumeration004.xsd",
+        instance="msData/datatypes/Facets/long/long_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_long_enumeration002_1611_long_enumeration002_1611_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=0 and
+    document value=0
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/long/long_enumeration002.xsd",
+        instance="msData/datatypes/Facets/long/long_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_long_pattern001_1609_long_pattern001_1609_v(mode, save_output):
+    r"""
+    TEST :Facet Schemas for string : facet=pattern and value=\p{Nd}{1,3}
+    and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/long/long_pattern001.xsd",
+        instance="msData/datatypes/Facets/long/long_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_negative_integer_total_digits003_1608_negative_integer_total_digits003_1608_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=4 and
+    document value=-123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/negativeInteger/negativeInteger_totalDigits003.xsd",
+        instance="msData/datatypes/Facets/negativeInteger/negativeInteger_totalDigits003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_negative_integer_total_digits002_1607_negative_integer_total_digits002_1607_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=3 and
+    document value=-123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/negativeInteger/negativeInteger_totalDigits002.xsd",
+        instance="msData/datatypes/Facets/negativeInteger/negativeInteger_totalDigits002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_negative_integer_min_exclusive005_1605_negative_integer_min_exclusive005_1605_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=-7 and
+    facet=maxExclusive and value=-1) and document value=-5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/negativeInteger/negativeInteger_minExclusive005.xsd",
+        instance="msData/datatypes/Facets/negativeInteger/negativeInteger_minExclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_negative_integer_min_exclusive004_1604_negative_integer_min_exclusive004_1604_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=-7 and
+    facet=maxInclusive and value=-1) and document value=-5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/negativeInteger/negativeInteger_minExclusive004.xsd",
+        instance="msData/datatypes/Facets/negativeInteger/negativeInteger_minExclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_negative_integer_min_exclusive003_1603_negative_integer_min_exclusive003_1603_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minExclusive and value=-7 and
+    document value=-5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/negativeInteger/negativeInteger_minExclusive003.xsd",
+        instance="msData/datatypes/Facets/negativeInteger/negativeInteger_minExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_negative_integer_min_inclusive005_1600_negative_integer_min_inclusive005_1600_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=-7 and
+    facet=maxExclusive and value=-1) and document value=-5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/negativeInteger/negativeInteger_minInclusive005.xsd",
+        instance="msData/datatypes/Facets/negativeInteger/negativeInteger_minInclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_negative_integer_min_inclusive004_1599_negative_integer_min_inclusive004_1599_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=-7 and
+    facet=maxInclusive and value=-1) and document value=-5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/negativeInteger/negativeInteger_minInclusive004.xsd",
+        instance="msData/datatypes/Facets/negativeInteger/negativeInteger_minInclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_negative_integer_min_inclusive003_1598_negative_integer_min_inclusive003_1598_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=-7 and
+    document value=-5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/negativeInteger/negativeInteger_minInclusive003.xsd",
+        instance="msData/datatypes/Facets/negativeInteger/negativeInteger_minInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_negative_integer_min_inclusive001_1596_negative_integer_min_inclusive001_1596_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=-7 and
+    document value=-7
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/negativeInteger/negativeInteger_minInclusive001.xsd",
+        instance="msData/datatypes/Facets/negativeInteger/negativeInteger_minInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_negative_integer_max_exclusive003_1595_negative_integer_max_exclusive003_1595_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxExclusive and value=-1 and
+    document value=-5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/negativeInteger/negativeInteger_maxExclusive003.xsd",
+        instance="msData/datatypes/Facets/negativeInteger/negativeInteger_maxExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_negative_integer_max_inclusive003_1592_negative_integer_max_inclusive003_1592_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=-1 and
+    document value=-5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/negativeInteger/negativeInteger_maxInclusive003.xsd",
+        instance="msData/datatypes/Facets/negativeInteger/negativeInteger_maxInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_negative_integer_max_inclusive001_1590_negative_integer_max_inclusive001_1590_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=-7 and
+    document value=-7
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/negativeInteger/negativeInteger_maxInclusive001.xsd",
+        instance="msData/datatypes/Facets/negativeInteger/negativeInteger_maxInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_negative_integer_enumeration004_1589_negative_integer_enumeration004_1589_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=-456 -789
+    -1 and document value=-456
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/negativeInteger/negativeInteger_enumeration004.xsd",
+        instance="msData/datatypes/Facets/negativeInteger/negativeInteger_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_negative_integer_enumeration002_1587_negative_integer_enumeration002_1587_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=-456 and
+    document value=-456
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/negativeInteger/negativeInteger_enumeration002.xsd",
+        instance="msData/datatypes/Facets/negativeInteger/negativeInteger_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_negative_integer_pattern001_1585_negative_integer_pattern001_1585_v(mode, save_output):
+    r"""
+    TEST :Facet Schemas for string : facet=pattern and value=-\p{Nd}{1,3}
+    and document value=-5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/negativeInteger/negativeInteger_pattern001.xsd",
+        instance="msData/datatypes/Facets/negativeInteger/negativeInteger_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_positive_integer_total_digits003_1584_non_positive_integer_total_digits003_1584_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=4 and
+    document value=-123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_totalDigits003.xsd",
+        instance="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_totalDigits003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_positive_integer_total_digits002_1583_non_positive_integer_total_digits002_1583_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=3 and
+    document value=-123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_totalDigits002.xsd",
+        instance="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_totalDigits002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_positive_integer_min_exclusive005_1581_non_positive_integer_min_exclusive005_1581_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=-7 and
+    facet=maxExclusive and value=-1) and document value=-5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_minExclusive005.xsd",
+        instance="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_minExclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_positive_integer_min_exclusive004_1580_non_positive_integer_min_exclusive004_1580_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=-7 and
+    facet=maxInclusive and value=-1) and document value=-5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_minExclusive004.xsd",
+        instance="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_minExclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_positive_integer_min_exclusive003_1579_non_positive_integer_min_exclusive003_1579_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minExclusive and value=-7 and
+    document value=-5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_minExclusive003.xsd",
+        instance="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_minExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_positive_integer_min_inclusive005_1576_non_positive_integer_min_inclusive005_1576_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=-7 and
+    facet=maxExclusive and value=-1) and document value=-5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_minInclusive005.xsd",
+        instance="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_minInclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_positive_integer_min_inclusive004_1575_non_positive_integer_min_inclusive004_1575_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=-7 and
+    facet=maxInclusive and value=-1) and document value=-5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_minInclusive004.xsd",
+        instance="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_minInclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_positive_integer_min_inclusive003_1574_non_positive_integer_min_inclusive003_1574_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=-7 and
+    document value=-5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_minInclusive003.xsd",
+        instance="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_minInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_positive_integer_min_inclusive001_1572_non_positive_integer_min_inclusive001_1572_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=-7 and
+    document value=-7
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_minInclusive001.xsd",
+        instance="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_minInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_positive_integer_max_exclusive003_1571_non_positive_integer_max_exclusive003_1571_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxExclusive and value=-1 and
+    document value=-5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_maxExclusive003.xsd",
+        instance="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_maxExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_positive_integer_max_inclusive003_1568_non_positive_integer_max_inclusive003_1568_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=-1 and
+    document value=-5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_maxInclusive003.xsd",
+        instance="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_maxInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_positive_integer_max_inclusive001_1566_non_positive_integer_max_inclusive001_1566_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=-7 and
+    document value=-7
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_maxInclusive001.xsd",
+        instance="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_maxInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_positive_integer_enumeration004_1565_non_positive_integer_enumeration004_1565_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=-456 -789
+    0 and document value=-456
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_enumeration004.xsd",
+        instance="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_positive_integer_enumeration002_1563_non_positive_integer_enumeration002_1563_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=-456 and
+    document value=-456
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_enumeration002.xsd",
+        instance="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_non_positive_integer_pattern001_1561_non_positive_integer_pattern001_1561_v(mode, save_output):
+    r"""
+    TEST :Facet Schemas for string : facet=pattern and value=-\p{Nd}{1,3}
+    and document value=-5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_pattern001.xsd",
+        instance="msData/datatypes/Facets/nonPositiveInteger/nonPositiveInteger_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_integer_total_digits003_1560_integer_total_digits003_1560_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=4 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/integer/integer_totalDigits003.xsd",
+        instance="msData/datatypes/Facets/integer/integer_totalDigits003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_integer_total_digits002_1559_integer_total_digits002_1559_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=totalDigits and value=3 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/integer/integer_totalDigits002.xsd",
+        instance="msData/datatypes/Facets/integer/integer_totalDigits002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_integer_min_exclusive005_1557_integer_min_exclusive005_1557_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
+    facet=maxExclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/integer/integer_minExclusive005.xsd",
+        instance="msData/datatypes/Facets/integer/integer_minExclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_integer_min_exclusive004_1556_integer_min_exclusive004_1556_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=1 and
+    facet=maxInclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/integer/integer_minExclusive004.xsd",
+        instance="msData/datatypes/Facets/integer/integer_minExclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_integer_min_exclusive003_1555_integer_min_exclusive003_1555_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minExclusive and value=1 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/integer/integer_minExclusive003.xsd",
+        instance="msData/datatypes/Facets/integer/integer_minExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_integer_min_inclusive005_1552_integer_min_inclusive005_1552_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
+    facet=maxExclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/integer/integer_minInclusive005.xsd",
+        instance="msData/datatypes/Facets/integer/integer_minInclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_integer_min_inclusive004_1551_integer_min_inclusive004_1551_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minInclusive and value=1 and
+    facet=maxInclusive and value=7) and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/integer/integer_minInclusive004.xsd",
+        instance="msData/datatypes/Facets/integer/integer_minInclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_integer_min_inclusive003_1550_integer_min_inclusive003_1550_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=1 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/integer/integer_minInclusive003.xsd",
+        instance="msData/datatypes/Facets/integer/integer_minInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_integer_min_inclusive001_1548_integer_min_inclusive001_1548_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minInclusive and value=1 and
+    document value=1
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/integer/integer_minInclusive001.xsd",
+        instance="msData/datatypes/Facets/integer/integer_minInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_integer_max_exclusive003_1547_integer_max_exclusive003_1547_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxExclusive and value=7 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/integer/integer_maxExclusive003.xsd",
+        instance="msData/datatypes/Facets/integer/integer_maxExclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_integer_max_inclusive003_1544_integer_max_inclusive003_1544_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=7 and
+    document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/integer/integer_maxInclusive003.xsd",
+        instance="msData/datatypes/Facets/integer/integer_maxInclusive003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_integer_max_inclusive001_1542_integer_max_inclusive001_1542_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxInclusive and value=1 and
+    document value=1
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/integer/integer_maxInclusive001.xsd",
+        instance="msData/datatypes/Facets/integer/integer_maxInclusive001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_integer_enumeration004_1541_integer_enumeration004_1541_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=123 456
+    789 and document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/integer/integer_enumeration004.xsd",
+        instance="msData/datatypes/Facets/integer/integer_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_integer_enumeration002_1539_integer_enumeration002_1539_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=123 and
+    document value=123
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/integer/integer_enumeration002.xsd",
+        instance="msData/datatypes/Facets/integer/integer_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_integer_pattern001_1537_integer_pattern001_1537_v(mode, save_output):
+    r"""
+    TEST :Facet Schemas for string : facet=pattern and value=\p{Nd}{1,3}
+    and document value=5
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/integer/integer_pattern001.xsd",
+        instance="msData/datatypes/Facets/integer/integer_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_idref_enumeration004_1536_idref_enumeration004_1536_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo
+    foo123 fu1 and document value=foo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/IDREF/IDREF_enumeration004.xsd",
+        instance="msData/datatypes/Facets/IDREF/IDREF_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_idref_enumeration002_1534_idref_enumeration002_1534_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo and
+    document value=foo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/IDREF/IDREF_enumeration002.xsd",
+        instance="msData/datatypes/Facets/IDREF/IDREF_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_idref_pattern001_1532_idref_pattern001_1532_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=pattern and value=[a-z]{3} and
+    document value=abc
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/IDREF/IDREF_pattern001.xsd",
+        instance="msData/datatypes/Facets/IDREF/IDREF_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_idref_max_length003_1531_idref_max_length003_1531_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=6 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/IDREF/IDREF_maxLength003.xsd",
+        instance="msData/datatypes/Facets/IDREF/IDREF_maxLength003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_idref_max_length002_1530_idref_max_length002_1530_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=5 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/IDREF/IDREF_maxLength002.xsd",
+        instance="msData/datatypes/Facets/IDREF/IDREF_maxLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_idref_min_length004_1528_idref_min_length004_1528_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minLength and value=4 and
+    facet=maxLength and value=6) and document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/IDREF/IDREF_minLength004.xsd",
+        instance="msData/datatypes/Facets/IDREF/IDREF_minLength004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_idref_min_length002_1526_idref_min_length002_1526_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=5 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/IDREF/IDREF_minLength002.xsd",
+        instance="msData/datatypes/Facets/IDREF/IDREF_minLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_idref_min_length001_1525_idref_min_length001_1525_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=4 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/IDREF/IDREF_minLength001.xsd",
+        instance="msData/datatypes/Facets/IDREF/IDREF_minLength001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_idref_length002_1523_idref_length002_1523_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=length and value=5 and document
+    value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/IDREF/IDREF_length002.xsd",
+        instance="msData/datatypes/Facets/IDREF/IDREF_length002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_id_enumeration004_1521_id_enumeration004_1521_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo
+    foo123 fu1 and document value=foo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/ID/ID_enumeration004.xsd",
+        instance="msData/datatypes/Facets/ID/ID_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_id_enumeration002_1519_id_enumeration002_1519_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo and
+    document value=foo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/ID/ID_enumeration002.xsd",
+        instance="msData/datatypes/Facets/ID/ID_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_id_pattern001_1517_id_pattern001_1517_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=pattern and value=[a-z]{3} and
+    document value=abc
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/ID/ID_pattern001.xsd",
+        instance="msData/datatypes/Facets/ID/ID_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_id_max_length003_1516_id_max_length003_1516_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=6 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/ID/ID_maxLength003.xsd",
+        instance="msData/datatypes/Facets/ID/ID_maxLength003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_id_max_length002_1515_id_max_length002_1515_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=5 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/ID/ID_maxLength002.xsd",
+        instance="msData/datatypes/Facets/ID/ID_maxLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_id_min_length004_1513_id_min_length004_1513_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minLength and value=4 and
+    facet=maxLength and value=6) and document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/ID/ID_minLength004.xsd",
+        instance="msData/datatypes/Facets/ID/ID_minLength004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_id_min_length002_1511_id_min_length002_1511_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=5 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/ID/ID_minLength002.xsd",
+        instance="msData/datatypes/Facets/ID/ID_minLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_id_min_length001_1510_id_min_length001_1510_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=4 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/ID/ID_minLength001.xsd",
+        instance="msData/datatypes/Facets/ID/ID_minLength001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_id_length002_1508_id_length002_1508_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=length and value=5 and document
+    value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/ID/ID_length002.xsd",
+        instance="msData/datatypes/Facets/ID/ID_length002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_ncname_enumeration004_1506_ncname_enumeration004_1506_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo
+    foo123 fu1 and document value=foo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NCName/NCName_enumeration004.xsd",
+        instance="msData/datatypes/Facets/NCName/NCName_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_ncname_enumeration002_1504_ncname_enumeration002_1504_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo and
+    document value=foo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NCName/NCName_enumeration002.xsd",
+        instance="msData/datatypes/Facets/NCName/NCName_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_ncname_pattern001_1502_ncname_pattern001_1502_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=pattern and value=[a-z]{3} and
+    document value=abc
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NCName/NCName_pattern001.xsd",
+        instance="msData/datatypes/Facets/NCName/NCName_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_ncname_max_length003_1501_ncname_max_length003_1501_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=6 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NCName/NCName_maxLength003.xsd",
+        instance="msData/datatypes/Facets/NCName/NCName_maxLength003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_ncname_max_length002_1500_ncname_max_length002_1500_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=5 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NCName/NCName_maxLength002.xsd",
+        instance="msData/datatypes/Facets/NCName/NCName_maxLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_ncname_min_length004_1498_ncname_min_length004_1498_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minLength and value=4 and
+    facet=maxLength and value=6) and document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NCName/NCName_minLength004.xsd",
+        instance="msData/datatypes/Facets/NCName/NCName_minLength004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_ncname_min_length002_1496_ncname_min_length002_1496_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=5 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NCName/NCName_minLength002.xsd",
+        instance="msData/datatypes/Facets/NCName/NCName_minLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_ncname_min_length001_1495_ncname_min_length001_1495_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=4 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NCName/NCName_minLength001.xsd",
+        instance="msData/datatypes/Facets/NCName/NCName_minLength001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_ncname_length002_1493_ncname_length002_1493_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=length and value=5 and document
+    value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NCName/NCName_length002.xsd",
+        instance="msData/datatypes/Facets/NCName/NCName_length002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_name_enumeration004_1491_name_enumeration004_1491_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo
+    foo123 fu1 and document value=foo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/Name/Name_enumeration004.xsd",
+        instance="msData/datatypes/Facets/Name/Name_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_name_enumeration002_1489_name_enumeration002_1489_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo and
+    document value=foo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/Name/Name_enumeration002.xsd",
+        instance="msData/datatypes/Facets/Name/Name_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_name_pattern001_1487_name_pattern001_1487_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=pattern and value=[a-z]{3} and
+    document value=abc
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/Name/Name_pattern001.xsd",
+        instance="msData/datatypes/Facets/Name/Name_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_name_max_length003_1486_name_max_length003_1486_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=6 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/Name/Name_maxLength003.xsd",
+        instance="msData/datatypes/Facets/Name/Name_maxLength003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_name_max_length002_1485_name_max_length002_1485_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=5 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/Name/Name_maxLength002.xsd",
+        instance="msData/datatypes/Facets/Name/Name_maxLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_name_min_length004_1483_name_min_length004_1483_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minLength and value=4 and
+    facet=maxLength and value=6) and document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/Name/Name_minLength004.xsd",
+        instance="msData/datatypes/Facets/Name/Name_minLength004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_name_min_length002_1481_name_min_length002_1481_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=5 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/Name/Name_minLength002.xsd",
+        instance="msData/datatypes/Facets/Name/Name_minLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_name_min_length001_1480_name_min_length001_1480_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=4 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/Name/Name_minLength001.xsd",
+        instance="msData/datatypes/Facets/Name/Name_minLength001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_name_length002_1478_name_length002_1478_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=length and value=5 and document
+    value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/Name/Name_length002.xsd",
+        instance="msData/datatypes/Facets/Name/Name_length002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_nmtokens_pattern001_1475_nmtokens_pattern001_1475_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : XSD: NMTOKENS, IDREFS, and ENTITIES
+    now allow the pattern facet
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NMTOKENS/NMTOKENS_pattern001.xsd",
+        instance="msData/datatypes/Facets/NMTOKENS/NMTOKENS_pattern001.xml",
+        class_name="Foo",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_nmtokens_enumeration004_1474_nmtokens_enumeration004_1474_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo
+    foo123 fu1 and document value=foo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NMTOKENS/NMTOKENS_enumeration004.xsd",
+        instance="msData/datatypes/Facets/NMTOKENS/NMTOKENS_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_nmtokens_enumeration002_1472_nmtokens_enumeration002_1472_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo and
+    document value=foo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NMTOKENS/NMTOKENS_enumeration002.xsd",
+        instance="msData/datatypes/Facets/NMTOKENS/NMTOKENS_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_nmtokens_max_length003_1470_nmtokens_max_length003_1470_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=6 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NMTOKENS/NMTOKENS_maxLength003.xsd",
+        instance="msData/datatypes/Facets/NMTOKENS/NMTOKENS_maxLength003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_nmtokens_max_length002_1469_nmtokens_max_length002_1469_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=5 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NMTOKENS/NMTOKENS_maxLength002.xsd",
+        instance="msData/datatypes/Facets/NMTOKENS/NMTOKENS_maxLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_nmtokens_min_length002_1465_nmtokens_min_length002_1465_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=5 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NMTOKENS/NMTOKENS_minLength002.xsd",
+        instance="msData/datatypes/Facets/NMTOKENS/NMTOKENS_minLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_nmtokens_length002_1462_nmtokens_length002_1462_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=length and value=5 and document
+    value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NMTOKENS/NMTOKENS_length002.xsd",
+        instance="msData/datatypes/Facets/NMTOKENS/NMTOKENS_length002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_nmtoken_enumeration004_1460_nmtoken_enumeration004_1460_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo
+    foo123 fu1 and document value=foo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NMTOKEN/NMTOKEN_enumeration004.xsd",
+        instance="msData/datatypes/Facets/NMTOKEN/NMTOKEN_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_nmtoken_enumeration002_1458_nmtoken_enumeration002_1458_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo and
+    document value=foo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NMTOKEN/NMTOKEN_enumeration002.xsd",
+        instance="msData/datatypes/Facets/NMTOKEN/NMTOKEN_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_nmtoken_pattern001_1456_nmtoken_pattern001_1456_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=pattern and value=[a-z]{3} and
+    document value=abc
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NMTOKEN/NMTOKEN_pattern001.xsd",
+        instance="msData/datatypes/Facets/NMTOKEN/NMTOKEN_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_nmtoken_max_length003_1455_nmtoken_max_length003_1455_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=6 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NMTOKEN/NMTOKEN_maxLength003.xsd",
+        instance="msData/datatypes/Facets/NMTOKEN/NMTOKEN_maxLength003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_nmtoken_max_length002_1454_nmtoken_max_length002_1454_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=5 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NMTOKEN/NMTOKEN_maxLength002.xsd",
+        instance="msData/datatypes/Facets/NMTOKEN/NMTOKEN_maxLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_nmtoken_min_length004_1452_nmtoken_min_length004_1452_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minLength and value=4 and
+    facet=maxLength and value=6) and document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NMTOKEN/NMTOKEN_minLength004.xsd",
+        instance="msData/datatypes/Facets/NMTOKEN/NMTOKEN_minLength004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_nmtoken_min_length002_1450_nmtoken_min_length002_1450_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=5 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NMTOKEN/NMTOKEN_minLength002.xsd",
+        instance="msData/datatypes/Facets/NMTOKEN/NMTOKEN_minLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_nmtoken_min_length001_1449_nmtoken_min_length001_1449_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=4 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NMTOKEN/NMTOKEN_minLength001.xsd",
+        instance="msData/datatypes/Facets/NMTOKEN/NMTOKEN_minLength001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_nmtoken_length002_1447_nmtoken_length002_1447_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=length and value=5 and document
+    value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NMTOKEN/NMTOKEN_length002.xsd",
+        instance="msData/datatypes/Facets/NMTOKEN/NMTOKEN_length002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_idrefs_enumeration004_1445_idrefs_enumeration004_1445_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo
+    foo123 fu1 and document value=foo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/IDREFS/IDREFS_enumeration004.xsd",
+        instance="msData/datatypes/Facets/IDREFS/IDREFS_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_idrefs_enumeration002_1443_idrefs_enumeration002_1443_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo and
+    document value=foo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/IDREFS/IDREFS_enumeration002.xsd",
+        instance="msData/datatypes/Facets/IDREFS/IDREFS_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_idrefs_max_length003_1441_idrefs_max_length003_1441_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=2 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/IDREFS/IDREFS_maxLength003.xsd",
+        instance="msData/datatypes/Facets/IDREFS/IDREFS_maxLength003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_idrefs_max_length002_1440_idrefs_max_length002_1440_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=1 and
+    document value=more
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/IDREFS/IDREFS_maxLength002.xsd",
+        instance="msData/datatypes/Facets/IDREFS/IDREFS_maxLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_idrefs_min_length004_1438_idrefs_min_length004_1438_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minLength and value=4 and
+    facet=maxLength and value=6) and document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/IDREFS/IDREFS_minLength004.xsd",
+        instance="msData/datatypes/Facets/IDREFS/IDREFS_minLength004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_idrefs_min_length002_1436_idrefs_min_length002_1436_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=2 and
+    document value="more foofo"
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/IDREFS/IDREFS_minLength002.xsd",
+        instance="msData/datatypes/Facets/IDREFS/IDREFS_minLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_idrefs_min_length001_1435_idrefs_min_length001_1435_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=1 and
+    document value="foofo more"
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/IDREFS/IDREFS_minLength001.xsd",
+        instance="msData/datatypes/Facets/IDREFS/IDREFS_minLength001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_idrefs_length002_1433_idrefs_length002_1433_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=length and value=2 and document
+    value="foofo more"
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/IDREFS/IDREFS_length002.xsd",
+        instance="msData/datatypes/Facets/IDREFS/IDREFS_length002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_language_enumeration004_1431_language_enumeration004_1431_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=en fr de
+    and document value=en
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/language/language_enumeration004.xsd",
+        instance="msData/datatypes/Facets/language/language_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_language_enumeration002_1429_language_enumeration002_1429_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=en and
+    document value=en
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/language/language_enumeration002.xsd",
+        instance="msData/datatypes/Facets/language/language_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_language_pattern001_1427_language_pattern001_1427_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=pattern and value=en-[a-z]{2}
+    and document value=en-xx
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/language/language_pattern001.xsd",
+        instance="msData/datatypes/Facets/language/language_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_language_max_length003_1426_language_max_length003_1426_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=6 and
+    document value=en-xx
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/language/language_maxLength003.xsd",
+        instance="msData/datatypes/Facets/language/language_maxLength003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_language_max_length002_1425_language_max_length002_1425_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=5 and
+    document value=en-xx
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/language/language_maxLength002.xsd",
+        instance="msData/datatypes/Facets/language/language_maxLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_language_min_length004_1423_language_min_length004_1423_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minLength and value=4 and
+    facet=maxLength and value=6) and document value=en-xx
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/language/language_minLength004.xsd",
+        instance="msData/datatypes/Facets/language/language_minLength004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_language_min_length002_1421_language_min_length002_1421_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=5 and
+    document value=en-xx
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/language/language_minLength002.xsd",
+        instance="msData/datatypes/Facets/language/language_minLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_language_min_length001_1420_language_min_length001_1420_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=4 and
+    document value=en-xx
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/language/language_minLength001.xsd",
+        instance="msData/datatypes/Facets/language/language_minLength001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_language_length002_1418_language_length002_1418_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=length and value=5 and document
+    value=en-xx
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/language/language_length002.xsd",
+        instance="msData/datatypes/Facets/language/language_length002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_token_enumeration004_1416_token_enumeration004_1416_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo
+    foo123 fu1 and document value=foo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/token/token_enumeration004.xsd",
+        instance="msData/datatypes/Facets/token/token_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_token_enumeration002_1414_token_enumeration002_1414_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo and
+    document value=foo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/token/token_enumeration002.xsd",
+        instance="msData/datatypes/Facets/token/token_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_token_pattern001_1412_token_pattern001_1412_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=pattern and value=[a-z]{3} and
+    document value=abc
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/token/token_pattern001.xsd",
+        instance="msData/datatypes/Facets/token/token_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_token_max_length003_1411_token_max_length003_1411_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=6 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/token/token_maxLength003.xsd",
+        instance="msData/datatypes/Facets/token/token_maxLength003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_token_max_length002_1410_token_max_length002_1410_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=5 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/token/token_maxLength002.xsd",
+        instance="msData/datatypes/Facets/token/token_maxLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_token_min_length004_1408_token_min_length004_1408_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minLength and value=4 and
+    facet=maxLength and value=6) and document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/token/token_minLength004.xsd",
+        instance="msData/datatypes/Facets/token/token_minLength004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_token_min_length002_1406_token_min_length002_1406_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=5 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/token/token_minLength002.xsd",
+        instance="msData/datatypes/Facets/token/token_minLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_token_min_length001_1405_token_min_length001_1405_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=4 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/token/token_minLength001.xsd",
+        instance="msData/datatypes/Facets/token/token_minLength001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_token_length002_1403_token_length002_1403_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=length and value=5 and document
+    value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/token/token_length002.xsd",
+        instance="msData/datatypes/Facets/token/token_length002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_normalized_string_enumeration004_1401_normalized_string_enumeration004_1401_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo
+    foo123 fu1 and document value=foo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/normalizedString/normalizedString_enumeration004.xsd",
+        instance="msData/datatypes/Facets/normalizedString/normalizedString_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_normalized_string_enumeration002_1399_normalized_string_enumeration002_1399_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo and
+    document value=foo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/normalizedString/normalizedString_enumeration002.xsd",
+        instance="msData/datatypes/Facets/normalizedString/normalizedString_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_normalized_string_pattern001_1397_normalized_string_pattern001_1397_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=pattern and value=[a-z]{3} and
+    document value=abc
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/normalizedString/normalizedString_pattern001.xsd",
+        instance="msData/datatypes/Facets/normalizedString/normalizedString_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_normalized_string_max_length003_1396_normalized_string_max_length003_1396_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=6 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/normalizedString/normalizedString_maxLength003.xsd",
+        instance="msData/datatypes/Facets/normalizedString/normalizedString_maxLength003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_normalized_string_max_length002_1395_normalized_string_max_length002_1395_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=5 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/normalizedString/normalizedString_maxLength002.xsd",
+        instance="msData/datatypes/Facets/normalizedString/normalizedString_maxLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_normalized_string_min_length004_1393_normalized_string_min_length004_1393_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minLength and value=4 and
+    facet=maxLength and value=6) and document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/normalizedString/normalizedString_minLength004.xsd",
+        instance="msData/datatypes/Facets/normalizedString/normalizedString_minLength004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_normalized_string_min_length002_1391_normalized_string_min_length002_1391_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=5 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/normalizedString/normalizedString_minLength002.xsd",
+        instance="msData/datatypes/Facets/normalizedString/normalizedString_minLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_normalized_string_min_length001_1390_normalized_string_min_length001_1390_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=4 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/normalizedString/normalizedString_minLength001.xsd",
+        instance="msData/datatypes/Facets/normalizedString/normalizedString_minLength001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_normalized_string_length002_1388_normalized_string_length002_1388_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=length and value=5 and document
+    value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/normalizedString/normalizedString_length002.xsd",
+        instance="msData/datatypes/Facets/normalizedString/normalizedString_length002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_notation_enumeration004_1386_notation_enumeration004_1386_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo
+    foo123 fu1 and document value=foo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NOTATION/NOTATION_enumeration004.xsd",
+        instance="msData/datatypes/Facets/NOTATION/NOTATION_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_notation_enumeration002_1384_notation_enumeration002_1384_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo and
+    document value=foo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NOTATION/NOTATION_enumeration002.xsd",
+        instance="msData/datatypes/Facets/NOTATION/NOTATION_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_notation_pattern001_1382_notation_pattern001_1382_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=pattern and value=[a-z]{3} and
+    document value=abc
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NOTATION/NOTATION_pattern001.xsd",
+        instance="msData/datatypes/Facets/NOTATION/NOTATION_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_notation_max_length003_1381_notation_max_length003_1381_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=6 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NOTATION/NOTATION_maxLength003.xsd",
+        instance="msData/datatypes/Facets/NOTATION/NOTATION_maxLength003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_notation_max_length002_1380_notation_max_length002_1380_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=5 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NOTATION/NOTATION_maxLength002.xsd",
+        instance="msData/datatypes/Facets/NOTATION/NOTATION_maxLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_notation_max_length001_1379_notation_max_length001_1379_i(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=4 and
+    document value=foofo TSTF ruled that 1.0 says all QNames satisfy all
+    length-related tess
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NOTATION/NOTATION_maxLength001.xsd",
+        instance="msData/datatypes/Facets/NOTATION/NOTATION_maxLength001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_notation_min_length004_1378_notation_min_length004_1378_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minLength and value=4 and
+    facet=maxLength and value=6) and document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NOTATION/NOTATION_minLength004.xsd",
+        instance="msData/datatypes/Facets/NOTATION/NOTATION_minLength004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_notation_min_length003_1377_notation_min_length003_1377_i(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=6 and
+    document value=foofo TSTF ruled that 1.0 says all QNames satisfy all
+    length-related tess
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NOTATION/NOTATION_minLength003.xsd",
+        instance="msData/datatypes/Facets/NOTATION/NOTATION_minLength003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_notation_min_length002_1376_notation_min_length002_1376_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=5 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NOTATION/NOTATION_minLength002.xsd",
+        instance="msData/datatypes/Facets/NOTATION/NOTATION_minLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_notation_min_length001_1375_notation_min_length001_1375_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=4 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NOTATION/NOTATION_minLength001.xsd",
+        instance="msData/datatypes/Facets/NOTATION/NOTATION_minLength001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_notation_length003_1374_notation_length003_1374_i(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=length and value=6 and document
+    value=foofo TSTF ruled that 1.0 says all QNames satisfy all length-
+    related tess
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NOTATION/NOTATION_length003.xsd",
+        instance="msData/datatypes/Facets/NOTATION/NOTATION_length003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_notation_length002_1373_notation_length002_1373_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=length and value=5 and document
+    value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NOTATION/NOTATION_length002.xsd",
+        instance="msData/datatypes/Facets/NOTATION/NOTATION_length002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_notation_length001_1372_notation_length001_1372_i(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=length and value=4 and document
+    value=foofo TSTF ruled that 1.0 says all QNames satisfy all length-
+    related tess
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/NOTATION/NOTATION_length001.xsd",
+        instance="msData/datatypes/Facets/NOTATION/NOTATION_length001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_qname_enumeration004_1371_qname_enumeration004_1371_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo:fo
+    foo:foo123 foo:fu1 and document value=foo:fo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/QName/QName_enumeration004.xsd",
+        instance="msData/datatypes/Facets/QName/QName_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_qname_enumeration002_1369_qname_enumeration002_1369_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo:fo
+    and document value=foo:fo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/QName/QName_enumeration002.xsd",
+        instance="msData/datatypes/Facets/QName/QName_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_qname_pattern001_1367_qname_pattern001_1367_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=pattern and value=[a-z]{3} and
+    document value=abc
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/QName/QName_pattern001.xsd",
+        instance="msData/datatypes/Facets/QName/QName_pattern001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_qname_max_length003_1366_qname_max_length003_1366_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=6 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/QName/QName_maxLength003.xsd",
+        instance="msData/datatypes/Facets/QName/QName_maxLength003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_qname_max_length002_1365_qname_max_length002_1365_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=5 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/QName/QName_maxLength002.xsd",
+        instance="msData/datatypes/Facets/QName/QName_maxLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_qname_max_length001_1364_qname_max_length001_1364_i(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=4 and
+    document value=foofo TSTF ruled that 1.0 says all QNames satisfy all
+    length-related tess
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/QName/QName_maxLength001.xsd",
+        instance="msData/datatypes/Facets/QName/QName_maxLength001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_qname_min_length004_1363_qname_min_length004_1363_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minLength and value=4 and
+    facet=maxLength and value=6) and document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/QName/QName_minLength004.xsd",
+        instance="msData/datatypes/Facets/QName/QName_minLength004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_qname_min_length003_1362_qname_min_length003_1362_i(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=6 and
+    document value=foofo TSTF ruled that 1.0 says all QNames satisfy all
+    length-related tess
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/QName/QName_minLength003.xsd",
+        instance="msData/datatypes/Facets/QName/QName_minLength003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_qname_min_length002_1361_qname_min_length002_1361_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=5 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/QName/QName_minLength002.xsd",
+        instance="msData/datatypes/Facets/QName/QName_minLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_qname_min_length001_1360_qname_min_length001_1360_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=4 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/QName/QName_minLength001.xsd",
+        instance="msData/datatypes/Facets/QName/QName_minLength001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_qname_length003_1359_qname_length003_1359_i(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=length and value=6 and document
+    value=foofo TSTF ruled that 1.0 says all QNames satisfy all length-
+    related tess
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/QName/QName_length003.xsd",
+        instance="msData/datatypes/Facets/QName/QName_length003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_qname_length002_1358_qname_length002_1358_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=length and value=5 and document
+    value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/QName/QName_length002.xsd",
+        instance="msData/datatypes/Facets/QName/QName_length002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_qname_length001_1357_qname_length001_1357_i(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=length and value=4 and document
+    value=foofo TSTF ruled that 1.0 says all QNames satisfy all length-
+    related tess
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/QName/QName_length001.xsd",
+        instance="msData/datatypes/Facets/QName/QName_length001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_any_uri_b004_1354_any_uri_b004_1354_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : enumeration of many anyURI: a b c d e
+    f g h i j k l m n o p q r s t u v w x y z 1 2 3 4 5 6 7 8 9 0 + - _ @
+    ! ~ ? ., instance has . @ TSTF ruled that strictly speaking, per 1.0,
+    the schema contains one or more invalid anyURIs In XSD 1.1, any
+    sequence of characters is allowed in xs:anyURI, so the schema becomes
+    valid - MHK
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/anyURI/anyURI_b004.xsd",
+        instance="msData/datatypes/Facets/anyURI/anyURI_b004.xml",
+        class_name="Root",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_any_uri_b002_1353_any_uri_b002_1353_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : enum of anyURI: with dbcs char, and
+    instance has valid dbcs char
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/anyURI/anyURI_b002.xsd",
+        instance="msData/datatypes/Facets/anyURI/anyURI_b002.xml",
+        class_name="Root",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_any_uri_a002_1337_any_uri_a002_1337_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : test that dbcs charanters are allowed
+    as anyURI in, any, anyAttribute, notation, appinfo, documentation,
+    schema, include, redefine, import
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/anyURI/anyURI_a002.xsd",
+        instance="msData/datatypes/Facets/anyURI/anyURI_a002.xml",
+        class_name="Bar",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_any_uri_a001_1336_any_uri_a001_1336_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : test that the numbers are allowed as
+    anyURI in, any, anyAttribute, notation, appinfo, documentation,
+    schema, include, redefine, import TSTF ruled that strictly speaking,
+    per 1.0, the schema contains one or more invalid anyURIs
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/anyURI/anyURI_a001.xsd",
+        instance="msData/datatypes/Facets/anyURI/anyURI_a001.xml",
+        class_name="Bar",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_any_uri_enumeration004_1335_any_uri_enumeration004_1335_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo
+    http://www.microsoft.com mailto:davebrow@microsoft.com and document
+    value=foo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/anyURI/anyURI_enumeration004.xsd",
+        instance="msData/datatypes/Facets/anyURI/anyURI_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_any_uri_enumeration002_1333_any_uri_enumeration002_1333_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=foo and
+    document value=foo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/anyURI/anyURI_enumeration002.xsd",
+        instance="msData/datatypes/Facets/anyURI/anyURI_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_any_uri_max_length003_1331_any_uri_max_length003_1331_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=6 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/anyURI/anyURI_maxLength003.xsd",
+        instance="msData/datatypes/Facets/anyURI/anyURI_maxLength003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_any_uri_max_length002_1330_any_uri_max_length002_1330_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=5 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/anyURI/anyURI_maxLength002.xsd",
+        instance="msData/datatypes/Facets/anyURI/anyURI_maxLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_any_uri_min_length004_1328_any_uri_min_length004_1328_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minLength and value=4 and
+    facet=maxLength and value=6) and document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/anyURI/anyURI_minLength004.xsd",
+        instance="msData/datatypes/Facets/anyURI/anyURI_minLength004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_any_uri_min_length002_1326_any_uri_min_length002_1326_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=5 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/anyURI/anyURI_minLength002.xsd",
+        instance="msData/datatypes/Facets/anyURI/anyURI_minLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_any_uri_min_length001_1325_any_uri_min_length001_1325_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=4 and
+    document value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/anyURI/anyURI_minLength001.xsd",
+        instance="msData/datatypes/Facets/anyURI/anyURI_minLength001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_any_uri_length002_1323_any_uri_length002_1323_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=length and value=5 and document
+    value=foofo
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/anyURI/anyURI_length002.xsd",
+        instance="msData/datatypes/Facets/anyURI/anyURI_length002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_base64_binary_enumeration002_1320_base64_binary_enumeration002_1320_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=MS0yLTM=
+    and document value=MS0yLTM=
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/base64Binary/base64Binary_enumeration002.xsd",
+        instance="msData/datatypes/Facets/base64Binary/base64Binary_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_base64_binary_min_length004_1315_base64_binary_min_length004_1315_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minLength and value=4 and
+    facet=maxLength and value=6) and document value=MS0yLTM=
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/base64Binary/base64Binary_minLength004.xsd",
+        instance="msData/datatypes/Facets/base64Binary/base64Binary_minLength004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_base64_binary_min_length002_1313_base64_binary_min_length002_1313_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=5 and
+    document value=MS0yLTM=
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/base64Binary/base64Binary_minLength002.xsd",
+        instance="msData/datatypes/Facets/base64Binary/base64Binary_minLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_base64_binary_min_length001_1312_base64_binary_min_length001_1312_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=4 and
+    document value=MS0yLTM=
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/base64Binary/base64Binary_minLength001.xsd",
+        instance="msData/datatypes/Facets/base64Binary/base64Binary_minLength001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_base64_binary_length002_1310_base64_binary_length002_1310_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=length and value=5 and document
+    value=MS0yLTM=
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/base64Binary/base64Binary_length002.xsd",
+        instance="msData/datatypes/Facets/base64Binary/base64Binary_length002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_hex_binary_enumeration004_1308_hex_binary_enumeration004_1308_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=adf789
+    abcedf 0123456789 and document value=adf789
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/hexBinary/hexBinary_enumeration004.xsd",
+        instance="msData/datatypes/Facets/hexBinary/hexBinary_enumeration004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_hex_binary_enumeration002_1306_hex_binary_enumeration002_1306_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=enumeration and value=adf789
+    and document value=adf789
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/hexBinary/hexBinary_enumeration002.xsd",
+        instance="msData/datatypes/Facets/hexBinary/hexBinary_enumeration002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_hex_binary_max_length003_1304_hex_binary_max_length003_1304_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=6 and
+    document value=abcde
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/hexBinary/hexBinary_maxLength003.xsd",
+        instance="msData/datatypes/Facets/hexBinary/hexBinary_maxLength003.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_hex_binary_max_length002_1303_hex_binary_max_length002_1303_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=5 and
+    document value=abcde
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/hexBinary/hexBinary_maxLength002.xsd",
+        instance="msData/datatypes/Facets/hexBinary/hexBinary_maxLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_hex_binary_max_length001_1302_hex_binary_max_length001_1302_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=maxLength and value=4 and
+    document value=abcde
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/hexBinary/hexBinary_maxLength001.xsd",
+        instance="msData/datatypes/Facets/hexBinary/hexBinary_maxLength001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_hex_binary_min_length004_1301_hex_binary_min_length004_1301_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minLength and value=4 and
+    facet=maxLength and value=6) and document value=abcdef1234 (let's try
+    5 Octets [ab cd ef 12 34]
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/hexBinary/hexBinary_minLength004.xsd",
+        instance="msData/datatypes/Facets/hexBinary/hexBinary_minLength004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_hex_binary_min_length002_1299_hex_binary_min_length002_1299_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=5 and
+    document value=abcdef123456. Let's try 6 Octets [ab cd ef 12 34 56]
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/hexBinary/hexBinary_minLength002.xsd",
+        instance="msData/datatypes/Facets/hexBinary/hexBinary_minLength002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_hex_binary_min_length001_1298_hex_binary_min_length001_1298_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minLength and value=4 and
+    document value=abcdefab 4 Octets are [ab cd ef ab]
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/hexBinary/hexBinary_minLength001.xsd",
+        instance="msData/datatypes/Facets/hexBinary/hexBinary_minLength001.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_hex_binary_length002_1296_hex_binary_length002_1296_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=length and value=5 and document
+    value=abcdefabcd where 5 Octets are [ab cd ef ab cd]
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/hexBinary/hexBinary_length002.xsd",
+        instance="msData/datatypes/Facets/hexBinary/hexBinary_length002.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_g_day_min_exclusive005_1273_g_day_min_exclusive005_1273_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=- - -01
+    and facet=maxExclusive and value=- - -30) and document value=- - -15
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/gDay/gDay_minExclusive005.xsd",
+        instance="msData/datatypes/Facets/gDay/gDay_minExclusive005.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_g_day_min_exclusive004_1272_g_day_min_exclusive004_1272_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : (facet=minExclusive and value=- - -01
+    and facet=maxInclusive and value=- - -30) and document value=- - -15
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/gDay/gDay_minExclusive004.xsd",
+        instance="msData/datatypes/Facets/gDay/gDay_minExclusive004.xml",
+        class_name="Test",
+        version="1.1",
+        mode=mode,
+        save_output=save_output,
+        structure_style="filenames",
+    )
+
+
+def test_g_day_min_exclusive003_1271_g_day_min_exclusive003_1271_v(mode, save_output):
+    """
+    TEST :Facet Schemas for string : facet=minExclusive and value=- - -01
+    and document value=- - -15
+    """
+    assert_bindings(
+        schema="msData/datatypes/Facets/gDay/gDay_minExclusive003.xsd",
+        instance="msData/datatypes/Facets/gDay/gDay_minExclusive003.xml",
+        class_name="Test",
         version="1.1",
         mode=mode,
         save_output=save_output,

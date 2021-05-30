@@ -1,12 +1,12 @@
 import json
 import textwrap
 from collections import defaultdict
-from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
 from typing import Dict
 from typing import Iterator
 from typing import List
+from typing import NamedTuple
 
 from lxml import etree
 from xsdata.formats.dataclass.models.generics import AnyElement
@@ -51,17 +51,14 @@ if lastfailed.exists():
         xfails = json.load(f)
 
 
-@dataclass
-class TestCase:
+class TestCase(NamedTuple):
     path: Path
     version: str
     documentation: str
     schema_name: str
     schema_path: str
-    schema_is_valid: bool
     instance_name: str
     instance_path: str
-    instance_is_valid: bool
     class_name: str
     structure_style: str
 
@@ -122,12 +119,6 @@ def render_test_cases(test_file, cases: List[TestCase]) -> str:
             markers.append('@pytest.mark.skip(reason="Stack abuse")')
         elif xfails.get(f"{test_file}::test_{name}"):
             markers.append("@pytest.mark.xfail")
-        elif not case.schema_path:
-            markers.append('@pytest.mark.skip(reason="No schema")')
-        elif not case.schema_is_valid:
-            markers.append('@pytest.mark.skip(reason="Invalid schema")')
-        elif not case.instance_is_valid:
-            markers.append('@pytest.mark.skip(reason="Invalid instance")')
 
         if markers:
             markers.insert(0, "")
@@ -192,20 +183,21 @@ def make_test_cases(path: Path, group: TestGroup):
         instance_validity = validity(instance.expected)
         class_name = read_root_name(instance_path)
         version = pick_version(group.version)
+        instance_is_valid = instance_validity.validity == ExpectedOutcome.VALID
+        schema_path = str(schema_href) or ""
+        if schema_path and instance_is_valid and schema_is_valid:
 
-        yield TestCase(
-            path=path,
-            version=version,
-            documentation=documentation,
-            schema_name=schema_name,
-            schema_path=str(schema_href) or "",
-            schema_is_valid=schema_is_valid,
-            instance_name=text.snake_case(instance.name),
-            instance_path=str(instance_href),
-            instance_is_valid=instance_validity.validity == ExpectedOutcome.VALID,
-            class_name=class_name,
-            structure_style=structure_style,
-        )
+            yield TestCase(
+                path=path,
+                version=version,
+                documentation=documentation,
+                schema_name=schema_name,
+                schema_path=schema_path,
+                instance_name=text.snake_case(instance.name),
+                instance_path=str(instance_href),
+                class_name=class_name,
+                structure_style=structure_style,
+            )
 
 
 def validity(expects: List[Expected]) -> Expected:

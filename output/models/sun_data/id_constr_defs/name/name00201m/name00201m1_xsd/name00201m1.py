@@ -10,7 +10,7 @@ class Name:
         name = "name"
         namespace = "IdConstrDefs/name"
 
-    name: List["Name.Name"] = field(
+    name: List["Name.NameInner"] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -20,7 +20,7 @@ class Name:
     )
 
     @dataclass
-    class Name:
+    class NameInner:
         value: Optional[str] = field(
             default=None,
             metadata={

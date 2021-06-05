@@ -4,7 +4,7 @@ from xsdata.models.datatype import XmlDate, XmlTime
 
 
 @dataclass
-class C2:
+class C1:
     class Meta:
         name = "C"
 
@@ -44,7 +44,7 @@ class B:
 
 
 @dataclass
-class C1:
+class C2:
     class Meta:
         name = "c"
 

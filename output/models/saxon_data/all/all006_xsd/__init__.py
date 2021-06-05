@@ -1,15 +1,15 @@
 from output.models.saxon_data.all.all006_xsd.all006 import (
-    C2,
+    C1,
     A,
     B,
-    C1,
+    C2,
     Doc,
 )
 
 __all__ = [
-    "C2",
+    "C1",
     "A",
     "B",
-    "C1",
+    "C2",
     "Doc",
 ]

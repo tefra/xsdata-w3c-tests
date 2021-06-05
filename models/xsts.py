@@ -808,7 +808,6 @@ class TestResult:
     </li>
     </ul>
     <p>
-
     NOTE: The "<tt>set</tt>", "<tt>group</tt>" and
     "<tt>test</tt>" attributes are used to uniquely identify
     the test within the XSTS for which this result reports the
@@ -1787,7 +1786,6 @@ class TestSet:
     <li><tt>testGroup</tt> - a set of <tt>testGroup</tt>
     elements, each of which defines a group of closely
     related tests.
-
     No two <tt>testGroup</tt> elements in the same
     <tt>testSet</tt> may have the same name.
     </li>

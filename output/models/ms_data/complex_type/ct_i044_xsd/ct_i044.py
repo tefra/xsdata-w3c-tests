@@ -53,17 +53,6 @@ class MyType(FooType):
     class Meta:
         name = "myType"
 
-    foo_ele1: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "fooEle1",
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-            "max_length": 4,
-        }
-    )
-
 
 @dataclass
 class Root:

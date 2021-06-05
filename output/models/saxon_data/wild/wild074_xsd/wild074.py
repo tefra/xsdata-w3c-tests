@@ -3,7 +3,7 @@ from typing import Optional
 
 
 @dataclass
-class A2:
+class A1:
     class Meta:
         name = "A"
 
@@ -18,7 +18,7 @@ class A2:
 
 
 @dataclass
-class A1:
+class A2:
     class Meta:
         name = "a"
 
@@ -43,7 +43,7 @@ class Zing:
             "required": True,
         }
     )
-    a_element: Optional[A2] = field(
+    a_element: Optional[A1] = field(
         default=None,
         metadata={
             "name": "A",

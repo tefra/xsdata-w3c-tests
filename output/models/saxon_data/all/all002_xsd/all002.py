@@ -3,7 +3,7 @@ from typing import List, Optional
 
 
 @dataclass
-class C2:
+class C1:
     class Meta:
         name = "C"
 
@@ -18,7 +18,7 @@ class C2:
 
 
 @dataclass
-class D2:
+class D1:
     class Meta:
         name = "D"
 
@@ -33,7 +33,7 @@ class D2:
 
 
 @dataclass
-class C1:
+class C2:
     class Meta:
         name = "c"
 
@@ -48,7 +48,7 @@ class C1:
 
 
 @dataclass
-class D1:
+class D2:
     class Meta:
         name = "d"
 
@@ -82,7 +82,7 @@ class Doc:
             "max_occurs": 5,
         }
     )
-    c_element: List[C2] = field(
+    c_element: List[C1] = field(
         default_factory=list,
         metadata={
             "name": "C",
@@ -90,14 +90,14 @@ class Doc:
             "min_occurs": 2,
         }
     )
-    c: List[C1] = field(
+    c: List[C2] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 2,
         }
     )
-    d_element: Optional[D2] = field(
+    d_element: Optional[D1] = field(
         default=None,
         metadata={
             "name": "D",
@@ -105,7 +105,7 @@ class Doc:
             "required": True,
         }
     )
-    d: Optional[D1] = field(
+    d: Optional[D2] = field(
         default=None,
         metadata={
             "type": "Element",

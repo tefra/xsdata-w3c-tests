@@ -1,8 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Optional, Type
 
-__NAMESPACE__ = "foo"
-
 
 @dataclass
 class Foo:

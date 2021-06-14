@@ -1,8 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
 
-__NAMESPACE__ = "urn:xmlns:25hoursaday-com:customer"
-
 
 @dataclass
 class Address:
@@ -57,6 +55,9 @@ class Zip:
 
 @dataclass
 class CustomerType:
+    class Meta:
+        target_namespace = "urn:xmlns:25hoursaday-com:customer"
+
     first_name: Optional[str] = field(
         default=None,
         metadata={
@@ -125,6 +126,9 @@ class PhoneNumber:
 
 @dataclass
 class MyCustomerType(CustomerType):
+    class Meta:
+        target_namespace = "urn:xmlns:25hoursaday-com:address"
+
     phone_number: Optional[str] = field(
         default=None,
         metadata={

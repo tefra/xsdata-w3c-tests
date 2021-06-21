@@ -31,7 +31,7 @@ class Node:
             ),
         }
     )
-    mixed_a: List[str] = field(
+    mixed_a_attribute: List[str] = field(
         default_factory=list,
         metadata={
             "name": "mixedA",
@@ -39,7 +39,7 @@ class Node:
             "tokens": True,
         }
     )
-    mixed_b: List[str] = field(
+    mixed_b_attribute: List[str] = field(
         default_factory=list,
         metadata={
             "name": "mixedB",

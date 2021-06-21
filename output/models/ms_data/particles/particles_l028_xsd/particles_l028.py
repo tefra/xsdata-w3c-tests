@@ -38,7 +38,22 @@ class B:
 
 @dataclass
 class R(B):
-    pass
+    c1: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
+    )
+    d2: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
+    )
 
 
 @dataclass

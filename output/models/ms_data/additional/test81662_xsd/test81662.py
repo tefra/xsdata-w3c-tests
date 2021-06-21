@@ -64,10 +64,11 @@ class Ct3:
                     "wildcard": True,
                     "type": object,
                     "namespace": "##any",
+                    "required": True,
                 },
             ),
-            "min_occurs": 2,
-            "max_occurs": 3,
+            "min_occurs": 1,
+            "max_occurs": 2,
         }
     )
 
@@ -90,10 +91,11 @@ class Ct4:
                 {
                     "name": "element1",
                     "type": object,
+                    "required": True,
                 },
             ),
-            "min_occurs": 2,
-            "max_occurs": 3,
+            "min_occurs": 1,
+            "max_occurs": 2,
         }
     )
 

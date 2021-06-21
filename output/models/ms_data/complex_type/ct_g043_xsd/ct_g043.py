@@ -45,6 +45,15 @@ class FooType(MyType):
     class Meta:
         name = "fooType"
 
+    my_element1: Optional[str] = field(
+        default=None,
+        metadata={
+            "name": "myElement1",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
+    )
     my_attr1: Optional[str] = field(
         default=None,
         metadata={

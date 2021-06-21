@@ -30,3 +30,11 @@ class Doc(Base):
     class Meta:
         name = "doc"
         namespace = "http://xsdtesting"
+
+    e3: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "required": True,
+        }
+    )

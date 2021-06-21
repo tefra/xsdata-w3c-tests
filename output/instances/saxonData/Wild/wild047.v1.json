@@ -1,13 +1,11 @@
 {
     "name": "mine",
-    "local_element": [
-        {
-            "qname": "f",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        }
-    ],
+    "local_element": {
+        "qname": "f",
+        "text": "",
+        "tail": null,
+        "children": [],
+        "attributes": {}
+    },
     "extra_com_element": []
 }

@@ -31,16 +31,18 @@ class Node:
             ),
         }
     )
-    id: List[Union[str, int]] = field(
+    id_attribute: List[Union[str, int]] = field(
         default_factory=list,
         metadata={
+            "name": "id",
             "type": "Attribute",
             "tokens": True,
         }
     )
-    idrefs: List[Union[str, int]] = field(
+    idrefs_attribute: List[Union[str, int]] = field(
         default_factory=list,
         metadata={
+            "name": "idrefs",
             "type": "Attribute",
             "tokens": True,
         }

@@ -19,7 +19,6 @@ class Node:
                 {
                     "name": "id",
                     "type": str,
-                    "default": "p1",
                 },
             ),
         }

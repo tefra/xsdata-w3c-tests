@@ -1,18 +1,24 @@
 {
-    "open_com_element": [
-        {
-            "qname": "{http://open.com/}extra",
-            "text": "42",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        },
-        {
-            "qname": "{http://open.com/}extra",
-            "text": "97",
-            "tail": null,
-            "children": [],
-            "attributes": {}
-        }
-    ]
+    "open_com_element": {
+        "qname": null,
+        "text": null,
+        "tail": null,
+        "children": [
+            {
+                "qname": "{http://open.com/}extra",
+                "text": "42",
+                "tail": null,
+                "children": [],
+                "attributes": {}
+            },
+            {
+                "qname": "{http://open.com/}extra",
+                "text": "97",
+                "tail": null,
+                "children": [],
+                "attributes": {}
+            }
+        ],
+        "attributes": {}
+    }
 }

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List
+from typing import List, Optional
 
 __NAMESPACE__ = "baseTD"
 
@@ -19,7 +19,14 @@ class Test1:
 
 @dataclass
 class Test(Test1):
-    pass
+    abc: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
+    )
 
 
 @dataclass

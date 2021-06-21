@@ -406,9 +406,10 @@ class Extended:
             "min_length": 1,
         }
     )
-    title: Optional[str] = field(
+    title_attribute: Optional[str] = field(
         default=None,
         metadata={
+            "name": "title",
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
         }

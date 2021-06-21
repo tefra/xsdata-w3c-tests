@@ -31,16 +31,18 @@ class Node:
             ),
         }
     )
-    id: List[str] = field(
+    id_attribute: List[str] = field(
         default_factory=list,
         metadata={
+            "name": "id",
             "type": "Attribute",
             "tokens": True,
         }
     )
-    idrefs: List[str] = field(
+    idrefs_attribute: List[str] = field(
         default_factory=list,
         metadata={
+            "name": "idrefs",
             "type": "Attribute",
             "tokens": True,
         }

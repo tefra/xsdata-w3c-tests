@@ -30,9 +30,9 @@ class B:
                     "name": "foo",
                     "type": object,
                     "namespace": "",
+                    "required": True,
                 },
             ),
-            "min_occurs": 1,
         }
     )
 

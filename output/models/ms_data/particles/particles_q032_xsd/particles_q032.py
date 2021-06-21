@@ -81,7 +81,7 @@ class R:
                     "namespace": "bar",
                 },
             ),
-            "max_occurs": 4,
+            "max_occurs": 2,
         }
     )
 

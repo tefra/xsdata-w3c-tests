@@ -38,9 +38,6 @@ class DerivedType1(ChildType):
 
     value: Optional[bool] = field(
         default=None,
-        metadata={
-            "required": True,
-        }
     )
 
 
@@ -51,9 +48,6 @@ class DerivedType2(ChildType):
 
     value: Optional[int] = field(
         default=None,
-        metadata={
-            "required": True,
-        }
     )
 
 

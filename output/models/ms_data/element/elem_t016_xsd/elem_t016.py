@@ -95,15 +95,6 @@ class RCa(Ca):
     class Meta:
         name = "R-CA"
 
-    x: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-            "required": True,
-        }
-    )
-
 
 @dataclass
 class Root:

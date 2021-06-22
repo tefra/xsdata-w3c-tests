@@ -56,7 +56,6 @@ class MessageTypeBase64(MessageType):
     value: Optional[bytes] = field(
         default=None,
         metadata={
-            "required": True,
             "format": "base64",
         }
     )
@@ -69,9 +68,6 @@ class MessageTypeDate(MessageType):
 
     value: Optional[XmlDate] = field(
         default=None,
-        metadata={
-            "required": True,
-        }
     )
 
 
@@ -82,9 +78,6 @@ class MessageTypeString(MessageType):
 
     value: Optional[str] = field(
         default=None,
-        metadata={
-            "required": True,
-        }
     )
 
 
@@ -95,9 +88,6 @@ class MessageTypeTime(MessageType):
 
     value: Optional[XmlTime] = field(
         default=None,
-        metadata={
-            "required": True,
-        }
     )
 
 

@@ -37,13 +37,7 @@ class Two(One):
 
 @dataclass
 class Three(Two):
-    att1: Optional[str] = field(
-        default=None,
-        metadata={
-            "type": "Attribute",
-            "required": True,
-        }
-    )
+    pass
 
 
 @dataclass

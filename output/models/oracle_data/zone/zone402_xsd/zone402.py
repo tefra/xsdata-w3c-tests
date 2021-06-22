@@ -11,7 +11,6 @@ class Doc:
     value: Optional[XmlDateTime] = field(
         default=None,
         metadata={
-            "required": True,
             "max_inclusive": XmlDateTime(0, 1, 1, 12, 0, 0),
         }
     )

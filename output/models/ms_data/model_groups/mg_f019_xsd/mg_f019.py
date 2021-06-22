@@ -21,29 +21,25 @@ class Foo:
                     "name": "e1",
                     "type": object,
                     "namespace": "",
-                    "required": True,
                 },
                 {
                     "name": "e2",
                     "type": object,
                     "namespace": "",
-                    "required": True,
                 },
                 {
                     "name": "e3",
                     "type": object,
                     "namespace": "",
-                    "required": True,
                 },
                 {
                     "name": "e4",
                     "type": object,
                     "namespace": "",
-                    "required": True,
                 },
             ),
-            "min_occurs": 1,
-            "max_occurs": 4,
+            "min_occurs": 5,
+            "max_occurs": 8,
         }
     )
 

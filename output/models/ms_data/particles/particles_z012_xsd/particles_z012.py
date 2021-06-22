@@ -44,9 +44,6 @@ class E1:
 
     value: Optional[Union[bool, float, int, MyType10Value]] = field(
         default=None,
-        metadata={
-            "required": True,
-        }
     )
 
 

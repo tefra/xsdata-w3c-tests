@@ -21,10 +21,9 @@ class Eden:
                     "wildcard": True,
                     "type": object,
                     "namespace": "##any",
-                    "required": True,
                 },
             ),
-            "min_occurs": 1,
-            "max_occurs": 3,
+            "min_occurs": 2,
+            "max_occurs": 4,
         }
     )

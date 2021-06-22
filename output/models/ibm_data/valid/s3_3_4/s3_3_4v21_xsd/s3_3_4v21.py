@@ -9,9 +9,6 @@ class Root:
 
     value: Optional[Union[int, bool, str]] = field(
         default=None,
-        metadata={
-            "required": True,
-        }
     )
     idref_attr: Optional[str] = field(
         default=None,

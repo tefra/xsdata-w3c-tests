@@ -9,7 +9,4 @@ class X:
 
     value: Optional[int] = field(
         default=None,
-        metadata={
-            "required": True,
-        }
     )

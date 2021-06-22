@@ -17,7 +17,6 @@ class Doc:
     value: Optional[DocValue] = field(
         default=None,
         metadata={
-            "required": True,
             "explicit_timezone": "required",
         }
     )

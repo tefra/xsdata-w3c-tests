@@ -19,7 +19,4 @@ class Info2:
 
     value: Optional[Union[Decimal, Myunion2Value]] = field(
         default=None,
-        metadata={
-            "required": True,
-        }
     )

@@ -19,5 +19,6 @@ class Root:
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/2001/XMLSchema-instance",
+            "required": True,
         }
     )

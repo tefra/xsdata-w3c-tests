@@ -11,7 +11,7 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-            "required": True,
+            "min_occurs": 1,
         }
     )
     target_namespace_element: List[object] = field(
@@ -26,14 +26,7 @@ class B:
 
 @dataclass
 class R(B):
-    foo: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Element",
-            "namespace": "http://xsdtesting",
-            "max_occurs": 3,
-        }
-    )
+    pass
 
 
 @dataclass

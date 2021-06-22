@@ -52,7 +52,7 @@ class T:
                     "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
                 },
             ),
-            "max_occurs": 8,
+            "max_occurs": 12,
         }
     )
 

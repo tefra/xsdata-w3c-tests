@@ -31,9 +31,6 @@ class ElEnumerationA:
 
     value: Optional[ElEnumerationAValue] = field(
         default=None,
-        metadata={
-            "required": True,
-        }
     )
 
 
@@ -45,9 +42,6 @@ class ElEnumerationB:
 
     value: Optional[ElEnumerationBValue] = field(
         default=None,
-        metadata={
-            "required": True,
-        }
     )
 
 
@@ -59,9 +53,6 @@ class ElEnumerationC:
 
     value: Optional[ElEnumerationCValue] = field(
         default=None,
-        metadata={
-            "required": True,
-        }
     )
 
 

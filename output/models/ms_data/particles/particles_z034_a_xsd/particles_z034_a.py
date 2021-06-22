@@ -21,11 +21,10 @@ class FooType:
                     "name": "b",
                     "type": object,
                     "namespace": "",
-                    "required": True,
                 },
             ),
-            "min_occurs": 1,
-            "max_occurs": 200,
+            "min_occurs": 2,
+            "max_occurs": 201,
         }
     )
 

@@ -10,9 +10,6 @@ class Date:
 
     value: Optional[XmlDate] = field(
         default=None,
-        metadata={
-            "required": True,
-        }
     )
 
 

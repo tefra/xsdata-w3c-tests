@@ -3,19 +3,19 @@
   <eDee>
     <foo/>
   </eDee>
-  <eDee xsi:type="Dee">
+  <eDee>
     <foo/>
   </eDee>
   <eDer>
     <foo/>
   </eDer>
-  <eDer xsi:type="Der">
+  <eDer>
     <foo/>
   </eDer>
   <eDe>
     <foo/>
   </eDe>
-  <eDe xsi:type="De">
+  <eDe>
     <foo/>
   </eDe>
   <eDe xsi:type="Der">
@@ -27,19 +27,19 @@
   <eDre>
     <foo/>
   </eDre>
-  <eDre xsi:type="Dre">
+  <eDre>
     <foo/>
   </eDre>
   <eDrr>
     <foo/>
   </eDrr>
-  <eDrr xsi:type="Drr">
+  <eDrr>
     <foo/>
   </eDrr>
   <eDr>
     <foo/>
   </eDr>
-  <eDr xsi:type="Dr">
+  <eDr>
     <foo/>
   </eDr>
   <eDr>
@@ -51,7 +51,7 @@
   <eB>
     <foo/>
   </eB>
-  <eB xsi:type="B">
+  <eB>
     <foo/>
   </eB>
   <eB>

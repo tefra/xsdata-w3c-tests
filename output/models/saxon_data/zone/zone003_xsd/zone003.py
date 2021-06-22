@@ -11,7 +11,6 @@ class Doc:
     value: Optional[XmlTime] = field(
         default=None,
         metadata={
-            "required": True,
             "explicit_timezone": "optional",
         }
     )

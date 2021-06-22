@@ -84,17 +84,15 @@ class RootType:
                     "name": "elem0",
                     "type": str,
                     "namespace": "http://xstest-tns/ibms3_3_6_v04",
-                    "required": True,
                 },
                 {
                     "name": "elem1",
                     "type": str,
                     "namespace": "http://xstest-tns/ibms3_3_6_v04",
-                    "required": True,
                 },
             ),
-            "min_occurs": 2,
-            "max_occurs": 4,
+            "min_occurs": 4,
+            "max_occurs": 6,
         }
     )
 

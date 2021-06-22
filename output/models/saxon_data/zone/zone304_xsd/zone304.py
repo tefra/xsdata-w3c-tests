@@ -11,7 +11,6 @@ class Doc:
     value: Optional[XmlDuration] = field(
         default=None,
         metadata={
-            "required": True,
             "min_inclusive": XmlDuration("-P3Y"),
             "max_inclusive": XmlDuration("P3Y"),
         }

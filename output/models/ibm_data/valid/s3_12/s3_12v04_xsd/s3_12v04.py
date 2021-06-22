@@ -30,9 +30,6 @@ class DoubleType:
 
     value: Optional[float] = field(
         default=None,
-        metadata={
-            "required": True,
-        }
     )
     type: Optional[str] = field(
         default=None,
@@ -49,9 +46,6 @@ class FloatType:
 
     value: Optional[float] = field(
         default=None,
-        metadata={
-            "required": True,
-        }
     )
     type: Optional[str] = field(
         default=None,

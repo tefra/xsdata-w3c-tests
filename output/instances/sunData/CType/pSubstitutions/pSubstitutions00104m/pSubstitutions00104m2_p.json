@@ -1,9 +1,5 @@
 {
-    "qname": "{pSubstitutions}e",
-    "value": {
-        "c": [
-            1
-        ]
-    },
-    "type": "{pSubstitutions}A"
+    "c": [
+        1
+    ]
 }

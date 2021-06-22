@@ -17,7 +17,6 @@ class FooTest:
     value: Optional[Union[int, FooTypeValue]] = field(
         default=None,
         metadata={
-            "required": True,
             "min_inclusive": 100,
             "max_inclusive": 200,
         }

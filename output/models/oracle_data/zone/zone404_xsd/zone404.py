@@ -11,7 +11,6 @@ class Doc:
     value: Optional[XmlDateTime] = field(
         default=None,
         metadata={
-            "required": True,
             "explicit_timezone": "prohibited",
         }
     )

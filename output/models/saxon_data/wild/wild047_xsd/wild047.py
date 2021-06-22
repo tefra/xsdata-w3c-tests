@@ -38,15 +38,6 @@ class RestrictedComputer(Computer1):
     class Meta:
         name = "restrictedComputer"
 
-    local_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##local",
-            "required": True,
-        }
-    )
-
 
 @dataclass
 class Computer(RestrictedComputer):

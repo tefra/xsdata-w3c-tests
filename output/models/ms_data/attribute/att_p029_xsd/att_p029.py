@@ -9,6 +9,15 @@ class AttRef:
     class Meta:
         name = "attRef"
 
+    att: str = field(
+        init=False,
+        default="37",
+        metadata={
+            "type": "Attribute",
+            "namespace": "http://xsdtesting",
+        }
+    )
+
 
 @dataclass
 class Doc:
@@ -16,7 +25,7 @@ class Doc:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: Optional[object] = field(
+    elem: Optional[AttRef] = field(
         default=None,
         metadata={
             "type": "Element",

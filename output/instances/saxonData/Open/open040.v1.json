@@ -17,10 +17,8 @@
         },
         {
             "qname": "b",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
+            "value": {},
+            "type": null
         }
     ]
 }

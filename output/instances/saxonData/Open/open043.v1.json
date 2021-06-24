@@ -4,17 +4,13 @@
     "open_com_element": [
         {
             "qname": "a",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
+            "value": {},
+            "type": null
         },
         {
             "qname": "b",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
+            "value": {},
+            "type": null
         }
     ]
 }

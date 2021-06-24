@@ -5,45 +5,21 @@ __NAMESPACE__ = "foo"
 
 
 @dataclass
-class B:
-    foo: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "foo",
-            "required": True,
-        }
-    )
-
-
-@dataclass
-class Dr:
-    foo: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "foo",
-            "required": True,
-        }
-    )
-
-
-@dataclass
-class Drr:
-    foo: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "foo",
-            "required": True,
-        }
-    )
-
-
-@dataclass
 class Empty:
     class Meta:
         name = "empty"
+
+
+@dataclass
+class B:
+    foo: Optional[Empty] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
+        }
+    )
 
 
 @dataclass
@@ -52,7 +28,7 @@ class De(B):
 
 
 @dataclass
-class Dre(Dr):
+class Dr(B):
     pass
 
 
@@ -60,20 +36,6 @@ class Dre(Dr):
 class EB(B):
     class Meta:
         name = "eB"
-        namespace = "foo"
-
-
-@dataclass
-class EDr(Dr):
-    class Meta:
-        name = "eDr"
-        namespace = "foo"
-
-
-@dataclass
-class EDrr(Drr):
-    class Meta:
-        name = "eDrr"
         namespace = "foo"
 
 
@@ -88,6 +50,16 @@ class Der(De):
 
 
 @dataclass
+class Dre(Dr):
+    pass
+
+
+@dataclass
+class Drr(Dr):
+    pass
+
+
+@dataclass
 class EDe(De):
     class Meta:
         name = "eDe"
@@ -95,9 +67,9 @@ class EDe(De):
 
 
 @dataclass
-class EDre(Dre):
+class EDr(Dr):
     class Meta:
-        name = "eDre"
+        name = "eDr"
         namespace = "foo"
 
 
@@ -112,6 +84,20 @@ class EDee(Dee):
 class EDer(Der):
     class Meta:
         name = "eDer"
+        namespace = "foo"
+
+
+@dataclass
+class EDre(Dre):
+    class Meta:
+        name = "eDre"
+        namespace = "foo"
+
+
+@dataclass
+class EDrr(Drr):
+    class Meta:
+        name = "eDrr"
         namespace = "foo"
 
 

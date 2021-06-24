@@ -6,16 +6,16 @@
   <item>
     <foo/>
   </item>
-  <item>
+  <item xsi:type="Dr">
     <foo/>
   </item>
   <item xsi:type="De">
     <foo/>
   </item>
-  <item>
+  <item xsi:type="Drr">
     <foo/>
   </item>
-  <item>
+  <item xsi:type="Dre">
     <foo/>
   </item>
   <item xsi:type="Der">

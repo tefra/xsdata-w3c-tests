@@ -6,10 +6,10 @@
   <item>
     <foo/>
   </item>
-  <item>
+  <item xsi:type="Dr">
     <foo/>
   </item>
-  <item>
+  <item xsi:type="Drr">
     <foo/>
   </item>
 </root>

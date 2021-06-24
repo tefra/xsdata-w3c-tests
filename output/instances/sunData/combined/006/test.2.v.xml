@@ -42,7 +42,7 @@
   <eDr>
     <foo/>
   </eDr>
-  <eDr>
+  <eDr xsi:type="Drr">
     <foo/>
   </eDr>
   <eDr xsi:type="Dre">
@@ -54,16 +54,16 @@
   <eB>
     <foo/>
   </eB>
-  <eB>
+  <eB xsi:type="Dr">
     <foo/>
   </eB>
   <eB xsi:type="De">
     <foo/>
   </eB>
-  <eB>
+  <eB xsi:type="Drr">
     <foo/>
   </eB>
-  <eB>
+  <eB xsi:type="Dre">
     <foo/>
   </eB>
   <eB xsi:type="Der">

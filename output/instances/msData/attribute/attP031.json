@@ -1,11 +1,5 @@
 {
     "elem": {
-        "qname": "{http://xsdtesting}elem",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {
-            "{http://xsdtesting}att": "37"
-        }
+        "att": "37"
     }
 }

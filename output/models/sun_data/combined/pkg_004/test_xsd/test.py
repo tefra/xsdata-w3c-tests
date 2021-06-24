@@ -5,45 +5,21 @@ __NAMESPACE__ = "foo"
 
 
 @dataclass
-class B:
-    foo: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "foo",
-            "required": True,
-        }
-    )
-
-
-@dataclass
-class Dr:
-    foo: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "foo",
-            "required": True,
-        }
-    )
-
-
-@dataclass
-class Drr:
-    foo: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "foo",
-            "required": True,
-        }
-    )
-
-
-@dataclass
 class Empty:
     class Meta:
         name = "empty"
+
+
+@dataclass
+class B:
+    foo: Optional[Empty] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "foo",
+            "required": True,
+        }
+    )
 
 
 @dataclass
@@ -52,7 +28,7 @@ class De(B):
 
 
 @dataclass
-class Dre(Dr):
+class Dr(B):
     pass
 
 
@@ -87,4 +63,14 @@ class Dee(De):
 
 @dataclass
 class Der(De):
+    pass
+
+
+@dataclass
+class Dre(Dr):
+    pass
+
+
+@dataclass
+class Drr(Dr):
     pass

@@ -2,6 +2,7 @@ from dataclasses import dataclass, field
 from decimal import Decimal
 from typing import Optional
 from xsdata.models.datatype import XmlDate
+from output.models.saxon_data.open.open205_xsd.open205x import BType
 
 
 @dataclass
@@ -56,7 +57,7 @@ class Doc:
             "required": True,
         }
     )
-    b: Optional[object] = field(
+    b: Optional[BType] = field(
         default=None,
         metadata={
             "type": "Element",

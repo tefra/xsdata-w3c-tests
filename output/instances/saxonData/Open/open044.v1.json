@@ -2,10 +2,8 @@
     "content": [
         {
             "qname": "a",
-            "text": "",
-            "tail": null,
-            "children": [],
-            "attributes": {}
+            "value": {},
+            "type": null
         },
         {
             "qname": "b",

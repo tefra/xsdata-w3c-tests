@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional
+from output.models.saxon_data.open.open044_xsd.open044x import Alpha
 
 
 @dataclass
@@ -43,7 +44,7 @@ class Doc:
             "namespace": "http://www.w3.org/XML/1998/namespace",
         }
     )
-    a: Optional[object] = field(
+    a: Optional[Alpha] = field(
         default=None,
         metadata={
             "type": "Element",

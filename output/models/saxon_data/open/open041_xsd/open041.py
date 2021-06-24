@@ -22,7 +22,7 @@ class Doc:
             "mixed": True,
         }
     )
-    a: Optional[object] = field(
+    a: Optional[Alpha] = field(
         default=None,
         metadata={
             "type": "Element",

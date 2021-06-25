@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <doc xmlns="">
-  <a>
-    <ns1:extra xmlns:ns1="http://open.com/"/>
+  <a xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="alpha">
+    <ns2:extra xmlns:ns2="http://open.com/"/>
   </a>
-  <b/>
+  <b xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="beta"/>
 </doc>

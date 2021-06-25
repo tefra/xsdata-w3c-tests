@@ -13,12 +13,12 @@
                     "attributes": {}
                 }
             },
-            "type": null
+            "type": "alpha"
         },
         {
             "qname": "b",
             "value": {},
-            "type": null
+            "type": "beta"
         }
     ]
 }

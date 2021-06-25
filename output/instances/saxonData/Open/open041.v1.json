@@ -3,7 +3,7 @@
         {
             "qname": "a",
             "value": {},
-            "type": null
+            "type": "alpha"
         },
         {
             "qname": "b",
@@ -16,7 +16,7 @@
                     "attributes": {}
                 }
             },
-            "type": null
+            "type": "beta"
         }
     ],
     "a": null,

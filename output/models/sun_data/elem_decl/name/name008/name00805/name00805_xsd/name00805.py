@@ -5,7 +5,7 @@ __NAMESPACE__ = "ElemDecl/name"
 
 
 @dataclass
-class Type:
+class TypeType:
     class Meta:
         name = "_-."
         namespace = "ElemDecl/name"

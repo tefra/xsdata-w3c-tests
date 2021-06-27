@@ -28,9 +28,8 @@ class ComplexType:
 
 
 @dataclass
-class GlobalType:
+class Global:
     class Meta:
-        name = "Global"
         namespace = "ElemDecl/typeDef"
 
     value: Optional[bool] = field(

@@ -5,7 +5,10 @@ __NAMESPACE__ = "ElemDecl/typeDef"
 
 
 @dataclass
-class Type:
+class TypeType:
+    class Meta:
+        name = "Type"
+
     local: Optional[object] = field(
         default=None,
         metadata={
@@ -33,7 +36,6 @@ class Root:
 
 
 @dataclass
-class GlobalType(Type):
+class Global(TypeType):
     class Meta:
-        name = "Global"
         namespace = "ElemDecl/typeDef"

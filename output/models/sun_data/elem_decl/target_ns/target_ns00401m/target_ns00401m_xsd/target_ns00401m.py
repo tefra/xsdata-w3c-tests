@@ -5,9 +5,8 @@ __NAMESPACE__ = "ElemDecl/targetNS"
 
 
 @dataclass
-class GlobalType:
+class Global:
     class Meta:
-        name = "Global"
         namespace = "ElemDecl/targetNS"
 
     any_element: Optional[object] = field(

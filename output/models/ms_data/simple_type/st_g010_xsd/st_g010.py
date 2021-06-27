@@ -5,7 +5,7 @@ from typing import Optional
 
 class FooType(Enum):
     CA = "CA"
-    OR_VALUE = "OR"
+    OR = "OR"
 
 
 @dataclass

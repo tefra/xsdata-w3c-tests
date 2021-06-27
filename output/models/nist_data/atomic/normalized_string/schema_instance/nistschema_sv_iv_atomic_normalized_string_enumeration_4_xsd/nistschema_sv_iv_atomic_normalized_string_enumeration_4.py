@@ -8,7 +8,7 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-4-NS"
 class NistschemaSvIvAtomicNormalizedStringEnumeration4Type(Enum):
     WITHOUT = "without"
     MEASUREMENT = "measurement"
-    AND_VALUE = "and"
+    AND = "and"
     ENGINEERING = "engineering"
     OF = "of"
 

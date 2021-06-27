@@ -6,8 +6,8 @@ __NAMESPACE__ = "http://schemas.microsoft.com/office/excel/2003/xml"
 
 
 class MapInfoTypeHideInactiveListBorder(Enum):
-    TRUE_VALUE = "true"
-    FALSE_VALUE = "false"
+    TRUE = "true"
+    FALSE = "false"
 
 
 @dataclass
@@ -48,8 +48,8 @@ class SchemaType:
 
 
 class TruefalseType(Enum):
-    TRUE_VALUE = "true"
-    FALSE_VALUE = "false"
+    TRUE = "true"
+    FALSE = "false"
 
 
 @dataclass
@@ -64,7 +64,7 @@ class MapInfoType:
         }
     )
     hide_inactive_list_border: MapInfoTypeHideInactiveListBorder = field(
-        default=MapInfoTypeHideInactiveListBorder.FALSE_VALUE,
+        default=MapInfoTypeHideInactiveListBorder.FALSE,
         metadata={
             "name": "HideInactiveListBorder",
             "type": "Attribute",
@@ -80,7 +80,7 @@ class MapInfoType:
         }
     )
     hide_single_mapped_cell_border: TruefalseType = field(
-        default=TruefalseType.TRUE_VALUE,
+        default=TruefalseType.TRUE,
         metadata={
             "name": "HideSingleMappedCellBorder",
             "type": "Attribute",

@@ -5,9 +5,8 @@ __NAMESPACE__ = "ElemDecl/typeDef"
 
 
 @dataclass
-class GlobalType:
+class Global:
     class Meta:
-        name = "Global"
         namespace = "ElemDecl/typeDef"
 
     value: Optional[str] = field(

@@ -5,9 +5,8 @@ __NAMESPACE__ = "ElemDecl/scope"
 
 
 @dataclass
-class GlobalType:
+class Global:
     class Meta:
-        name = "Global"
         namespace = "ElemDecl/scope"
 
     any_element: Optional[object] = field(
@@ -26,7 +25,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/scope"
 
-    global_value: Optional[GlobalType] = field(
+    global_value: Optional[Global] = field(
         default=None,
         metadata={
             "name": "Global",

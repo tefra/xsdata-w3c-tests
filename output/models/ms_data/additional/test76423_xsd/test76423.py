@@ -4,7 +4,7 @@ from typing import List, Optional
 
 
 class ScopeType(Enum):
-    CLASS_VALUE = "class"
+    CLASS = "class"
     INSTANCE = "instance"
 
 

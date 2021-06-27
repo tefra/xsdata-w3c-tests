@@ -9,9 +9,9 @@ class NistschemaSvIvAtomicTokenEnumeration4Type(Enum):
     PICO_CELLULAR = "pico-cellular"
     TO = "to"
     TECHNIQUES = "techniques"
-    IS_VALUE = "is"
+    IS = "is"
     VISIBLY = "visibly"
-    AS_VALUE = "as"
+    AS = "as"
     SYNTAX = "syntax"
     WAS = "was"
 

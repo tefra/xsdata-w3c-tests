@@ -9,8 +9,8 @@ class ComplexfooTypeCompFoo(Enum):
 
 
 class SimplefooType(Enum):
-    TRUE_VALUE = True
-    FALSE_VALUE = False
+    TRUE = True
+    FALSE = False
 
 
 @dataclass

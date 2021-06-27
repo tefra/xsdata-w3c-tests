@@ -6,7 +6,7 @@ from xml.etree.ElementTree import QName
 __NAMESPACE__ = "a"
 
 
-class Type(Enum):
+class TypeType(Enum):
     X = QName("{a}x")
 
 
@@ -16,7 +16,7 @@ class Doc:
         name = "doc"
         namespace = "a"
 
-    value: Optional[Type] = field(
+    value: Optional[TypeType] = field(
         default=None,
         metadata={
             "required": True,

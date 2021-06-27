@@ -10,7 +10,7 @@ class NistschemaSvIvAtomicTokenEnumeration5Type(Enum):
     MANUFACTURERS = "manufacturers"
     THESE = "these"
     THIS = "this"
-    AND_VALUE = "and"
+    AND = "and"
 
 
 @dataclass

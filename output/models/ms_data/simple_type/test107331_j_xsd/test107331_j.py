@@ -18,7 +18,7 @@ class Anyuri:
 
 
 @dataclass
-class BoolType:
+class Bool:
     class Meta:
         name = "bool"
 
@@ -122,7 +122,7 @@ class Entity:
 
 
 @dataclass
-class FloatType:
+class Float:
     class Meta:
         name = "float"
 
@@ -149,7 +149,7 @@ class Hexbinary:
 
 
 @dataclass
-class IntType:
+class Int:
     class Meta:
         name = "int"
 
@@ -324,10 +324,9 @@ class Root:
             "min_occurs": 1,
         }
     )
-    decimal_value: List[Decimal] = field(
+    decimal: List[Decimal] = field(
         default_factory=list,
         metadata={
-            "name": "decimal",
             "type": "Element",
             "min_occurs": 1,
         }

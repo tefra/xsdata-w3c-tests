@@ -3,10 +3,7 @@ from typing import Optional
 
 
 @dataclass
-class GlobalType:
-    class Meta:
-        name = "Global"
-
+class Global:
     any_element: Optional[object] = field(
         default=None,
         metadata={

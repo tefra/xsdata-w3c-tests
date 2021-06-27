@@ -10,7 +10,7 @@ class ActuateType(Enum):
     ON_LOAD = "onLoad"
     ON_REQUEST = "onRequest"
     OTHER = "other"
-    NONE_VALUE = "none"
+    NONE = "none"
 
 
 class ShowType(Enum):
@@ -18,7 +18,7 @@ class ShowType(Enum):
     REPLACE = "replace"
     EMBED = "embed"
     OTHER = "other"
-    NONE_VALUE = "none"
+    NONE = "none"
 
 
 class TypeType(Enum):

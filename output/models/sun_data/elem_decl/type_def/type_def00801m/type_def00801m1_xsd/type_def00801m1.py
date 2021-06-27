@@ -5,7 +5,10 @@ __NAMESPACE__ = "ElemDecl/typeDef"
 
 
 @dataclass
-class Type:
+class TypeType:
+    class Meta:
+        name = "Type"
+
     value: Optional[bool] = field(
         default=None,
         metadata={
@@ -15,7 +18,7 @@ class Type:
 
 
 @dataclass
-class DerivedType(Type):
+class DerivedType(TypeType):
     class Meta:
         name = "derivedType"
 
@@ -33,7 +36,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/typeDef"
 
-    element: Optional[Type] = field(
+    element: Optional[TypeType] = field(
         default=None,
         metadata={
             "name": "Element",

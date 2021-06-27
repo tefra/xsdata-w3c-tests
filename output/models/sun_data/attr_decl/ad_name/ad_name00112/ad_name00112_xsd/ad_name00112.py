@@ -17,9 +17,10 @@ class Root:
             "type": "Attribute",
         }
     )
-    a123456: Optional[int] = field(
+    a123456_attribute: Optional[int] = field(
         default=None,
         metadata={
+            "name": "a123456",
             "type": "Attribute",
         }
     )

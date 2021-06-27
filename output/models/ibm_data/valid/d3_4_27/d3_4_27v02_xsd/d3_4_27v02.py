@@ -9,7 +9,7 @@ __NAMESPACE__ = "http://xstest-tns/schema11_D3_4_27_v02"
 class YMdenumeration(Enum):
     P1_D = XmlDuration("P1D")
     P3_DT44_H2_M = XmlDuration("P3DT44H2M")
-    VALUE_P3_DT44_H2_M5783_33_S = XmlDuration("-P3DT44H2M5783.33S")
+    P3_DT44_H2_M5783_33_S = XmlDuration("-P3DT44H2M5783.33S")
     P5_DT0_H0_3_S = XmlDuration("P5DT0H0.3S")
 
 

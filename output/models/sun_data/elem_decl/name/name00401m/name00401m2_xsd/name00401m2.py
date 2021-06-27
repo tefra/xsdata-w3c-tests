@@ -21,9 +21,8 @@ class Root:
 
 
 @dataclass
-class GlobalType:
+class Global:
     class Meta:
-        name = "Global"
         namespace = "ElemDecl/name"
 
     root: Optional[Root] = field(

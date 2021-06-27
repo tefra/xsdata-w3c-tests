@@ -5,7 +5,7 @@ from typing import List, Union
 
 class ListOfStatesValue(Enum):
     WA = "WA"
-    OR_VALUE = "OR"
+    OR = "OR"
     CA = "CA"
 
 

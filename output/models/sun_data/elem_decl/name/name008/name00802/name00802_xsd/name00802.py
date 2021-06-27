@@ -5,7 +5,7 @@ __NAMESPACE__ = "ElemDecl/name"
 
 
 @dataclass
-class A123456:
+class A1234561:
     class Meta:
         name = "a-1.2_3·4·5۝6۞"
         namespace = "ElemDecl/name"
@@ -19,7 +19,7 @@ class A123456:
 
 
 @dataclass
-class A123456:
+class A1234562:
     class Meta:
         name = "a123456"
         namespace = "ElemDecl/name"
@@ -46,9 +46,10 @@ class Root:
             "required": True,
         }
     )
-    a123456: Optional[int] = field(
+    elem_decl_name_a123456: Optional[int] = field(
         default=None,
         metadata={
+            "name": "a123456",
             "type": "Element",
             "required": True,
         }

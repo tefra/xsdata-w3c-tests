@@ -12,7 +12,7 @@ class NistschemaSvIvAtomicNormalizedStringEnumeration1Type(Enum):
     SUCH = "Such"
     PARTICIPATING = "participating"
     INTO = "into"
-    AND_VALUE = "and"
+    AND = "and"
 
 
 @dataclass

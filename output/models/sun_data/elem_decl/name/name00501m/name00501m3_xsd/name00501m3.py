@@ -5,9 +5,8 @@ __NAMESPACE__ = "ElemDecl/name"
 
 
 @dataclass
-class GlobalType:
+class Global:
     class Meta:
-        name = "Global"
         namespace = "ElemDecl/name"
 
     local: bool = field(

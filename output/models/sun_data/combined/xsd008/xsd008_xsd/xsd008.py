@@ -26,7 +26,7 @@ class Facet:
 
 
 @dataclass
-class IntType:
+class Int:
     class Meta:
         name = "int"
         namespace = "foo"
@@ -101,7 +101,7 @@ class Generic:
         name = "generic"
         namespace = "foo"
 
-    int_value: List[IntType] = field(
+    int_value: List[Int] = field(
         default_factory=list,
         metadata={
             "name": "int",
@@ -154,7 +154,7 @@ class Root:
 
     @dataclass
     class Restricted:
-        int_value: List[IntType] = field(
+        int_value: List[Int] = field(
             default_factory=list,
             metadata={
                 "name": "int",

@@ -5,7 +5,7 @@ from typing import Optional, Union
 
 class FooTypeValue(Enum):
     WA = "WA"
-    OR_VALUE = "OR"
+    OR = "OR"
     CA = "CA"
 
 

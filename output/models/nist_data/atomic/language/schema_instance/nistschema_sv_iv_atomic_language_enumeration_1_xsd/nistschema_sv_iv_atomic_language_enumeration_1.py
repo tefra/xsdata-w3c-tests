@@ -9,7 +9,7 @@ class NistschemaSvIvAtomicLanguageEnumeration1Type(Enum):
     AF = "AF"
     AM = "AM"
     AR = "AR"
-    AS_VALUE = "AS"
+    AS = "AS"
     AY = "AY"
     AZ = "AZ"
     BA = "BA"

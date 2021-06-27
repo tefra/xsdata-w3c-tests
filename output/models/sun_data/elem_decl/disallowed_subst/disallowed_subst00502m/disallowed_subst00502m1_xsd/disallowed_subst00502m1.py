@@ -5,18 +5,19 @@ __NAMESPACE__ = "ElemDecl/disallowedSubst"
 
 
 @dataclass
-class Type:
-    pass
+class TypeType:
+    class Meta:
+        name = "Type"
 
 
 @dataclass
-class Head(Type):
+class Head(TypeType):
     class Meta:
         namespace = "ElemDecl/disallowedSubst"
 
 
 @dataclass
-class DerivedFromType(Type):
+class DerivedFromType(TypeType):
     class Meta:
         name = "derivedFromType"
 

@@ -6,7 +6,7 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-3-NS"
 
 
 class NistschemaSvIvAtomicNormalizedStringEnumeration3Type(Enum):
-    AND_VALUE = "and"
+    AND = "and"
     NIST = "NIST"
     ENABLING = "enabling"
     MANUFACTURERS = "manufacturers"

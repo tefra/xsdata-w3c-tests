@@ -41,7 +41,7 @@ class Foo:
 
 
 @dataclass
-class GlobalType:
+class Global:
     class Meta:
         name = "global"
 

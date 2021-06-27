@@ -5,9 +5,8 @@ __NAMESPACE__ = "ElemDecl/nillable"
 
 
 @dataclass
-class GlobalType:
+class Global:
     class Meta:
-        name = "Global"
         nillable = True
         namespace = "ElemDecl/nillable"
 

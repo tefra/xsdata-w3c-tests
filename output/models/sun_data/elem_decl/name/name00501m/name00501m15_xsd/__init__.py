@@ -1,11 +1,11 @@
 from output.models.sun_data.elem_decl.name.name00501m.name00501m15_xsd.name00501m15 import (
-    GlobalType,
+    Global,
     Main,
     Root,
 )
 
 __all__ = [
-    "GlobalType",
+    "Global",
     "Main",
     "Root",
 ]

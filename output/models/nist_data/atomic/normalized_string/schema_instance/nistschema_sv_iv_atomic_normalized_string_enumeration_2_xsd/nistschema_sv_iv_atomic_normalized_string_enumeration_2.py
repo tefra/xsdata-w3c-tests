@@ -7,7 +7,7 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-normalizedString-enumeration-2-NS"
 
 class NistschemaSvIvAtomicNormalizedStringEnumeration2Type(Enum):
     BE = "be"
-    AS_VALUE = "as"
+    AS = "as"
     TOOLS = "tools"
     XML = "XML"
     SUCH = "Such"

@@ -5,7 +5,7 @@ from typing import List, Union
 
 class MyUnionValue(Enum):
     WA = "WA"
-    OR_VALUE = "OR"
+    OR = "OR"
 
 
 @dataclass

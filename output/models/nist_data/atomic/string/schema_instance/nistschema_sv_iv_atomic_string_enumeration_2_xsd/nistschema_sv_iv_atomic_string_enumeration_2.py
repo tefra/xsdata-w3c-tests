@@ -10,9 +10,9 @@ class NistschemaSvIvAtomicStringEnumeration2Type(Enum):
     LAUNCHING = "launching"
     TREMENDOUS = "tremendous"
     ROBUST = "robust"
-    IS_VALUE = "is"
+    IS = "is"
     NIST_ITL = "NIST/ITL"
-    AS_VALUE = "as"
+    AS = "as"
     BUSINESS = "Business"
 
 
